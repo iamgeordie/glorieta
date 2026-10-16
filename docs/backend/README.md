@@ -44,7 +44,7 @@ The question bank, the sign data and the vocabulary stay in the app as JSON. Tha
 
 ## Configuration
 
-Copy `.env.example` to `.env.local`.
+Copy `.env.example` to `.env.local` to try accounts in development. A deploy builds with `.env.production`, which is committed because everything in it is public by design (the project URL and publishable key ship in the browser; row level security is the protection) and which makes a deploy reproducible. `npm run deploy` also fails if the built bundle does not contain accounts when that file says it should, so a login-less build cannot go out by accident.
 
 | Variable | Meaning |
 |---|---|

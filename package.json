@@ -13,7 +13,7 @@
     "check": "node scripts/check-questions.mjs",
     "credits": "node scripts/build-credits.mjs",
     "test": "node --test src/lib/*.test.ts && node scripts/test-schema.mjs",
-    "deploy": "npm run check && npm run build && wrangler deploy"
+    "deploy": "npm run check && npm run build && node scripts/assert-accounts.mjs && wrangler deploy"
   },
   "dependencies": {
     "@preact/signals": "^2.11.3",
