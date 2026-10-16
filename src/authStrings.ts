@@ -32,8 +32,8 @@ export const a = {
   google: bi('Continuar con Google', 'Continue with Google'),
   comingSoon: bi('Próximamente', 'Coming soon'),
   privacy: bi(
-    'Guardamos tu correo y tu progreso para sincronizarlo entre dispositivos, en la base de datos de Applied Relevance (Supabase, EE. UU.). Puedes borrar tus datos de Carnet desde tu cuenta.',
-    'We store your email and progress to sync them across devices, in the Applied Relevance database (Supabase, USA). You can delete your Carnet data from your account.',
+    'Guardamos tu correo y tu progreso para sincronizarlo entre dispositivos, en la base de datos de Applied Relevance (Supabase, EE. UU.). Puedes borrar tus datos de Glorieta desde tu cuenta.',
+    'We store your email and progress to sync them across devices, in the Applied Relevance database (Supabase, USA). You can delete your Glorieta data from your account.',
   ),
   marketing: bi('Quiero recibir novedades de Applied Relevance (opcional).', 'I would like to hear news from Applied Relevance (optional).'),
   marketingDetail: bi(
@@ -50,14 +50,14 @@ export const a = {
   syncIdle: bi('Sin sincronizar todavía', 'Not synced yet'),
   syncNow: bi('Sincronizar ahora', 'Sync now'),
   signOut: bi('Cerrar sesión', 'Sign out'),
-  deleteData: bi('Borrar mis datos de Carnet', 'Delete my Carnet data'),
+  deleteData: bi('Borrar mis datos de Glorieta', 'Delete my Glorieta data'),
   deleteConfirm: bi(
     'Se borrarán tu progreso y tus resultados, en el servidor y en este dispositivo. Tu cuenta de acceso no se borra. ¿Continuar?',
     'Your progress and results will be deleted, on the server and on this device. Your login account is not deleted. Continue?',
   ),
   deleted: bi(
-    'Tus datos de Carnet se han borrado. Para que también te quitemos del CRM, usa el enlace de baja de cualquiera de nuestros correos o pídenoslo desde appliedrelevance.com.',
-    'Your Carnet data was deleted. To also be removed from the CRM, use the unsubscribe link in any of our emails or ask us at appliedrelevance.com.',
+    'Tus datos de Glorieta se han borrado. Para que también te quitemos del CRM, usa el enlace de baja de cualquiera de nuestros correos o pídenoslo desde appliedrelevance.com.',
+    'Your Glorieta data was deleted. To also be removed from the CRM, use the unsubscribe link in any of our emails or ask us at appliedrelevance.com.',
   ),
   dangerZone: bi('Tus datos', 'Your data'),
   working: bi('Un momento…', 'One moment…'),

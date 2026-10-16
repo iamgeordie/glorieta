@@ -134,8 +134,8 @@ async function sendToCrm(user: User, p: Profile): Promise<Profile> {
       brand_id: crmBrandId,
       name: p.display_name ?? undefined,
       source_url: location.origin,
-      event_type: 'carnet_signup',
-      payload: { app: 'carnet', marketing_consent: true, consent_at: p.marketing_opt_in_at, ui_language: mode.value },
+      event_type: 'glorieta_signup',
+      payload: { app: 'glorieta', marketing_consent: true, consent_at: p.marketing_opt_in_at, ui_language: mode.value },
     }),
   });
   const body = (await res.json().catch(() => ({}))) as { success?: boolean; error?: string };
@@ -239,7 +239,7 @@ export async function saveProfile(patch: Partial<Pick<Profile, 'display_name' | 
   }
 }
 
-/** Erases this person's Carnet rows on the server. Their login itself is not touched here. */
+/** Erases this person's Glorieta rows on the server. Their login itself is not touched here. */
 export async function deleteMyData(): Promise<Bi | null> {
   try {
     const db = requireClient();

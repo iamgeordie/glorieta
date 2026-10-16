@@ -230,3 +230,6 @@ button.secondary.full[disabled], .secondary[disabled] { opacity: 0.6; cursor: no
 .secondary.danger { color: var(--wrong); border-color: var(--wrong); }
 
 .stack { flex-direction: column; gap: 2px; }
+
+.slogan { font-size: 1.6rem; font-weight: 800; line-height: 1.15; margin: 18px 0 2px; letter-spacing: -0.01em; }
+.slogan .sub { font-size: 0.95rem; font-weight: 500; letter-spacing: 0; }

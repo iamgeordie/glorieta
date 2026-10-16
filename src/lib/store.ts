@@ -1,8 +1,8 @@
 import { signal } from '@preact/signals';
 import { createEmptyCard, fsrs, Rating, type Card } from 'ts-fsrs';
 
-const PROGRESS_KEY = 'carnet.progress.v1';
-const EXAMS_KEY = 'carnet.exams.v1';
+const PROGRESS_KEY = 'glorieta.progress.v1';
+const EXAMS_KEY = 'glorieta.exams.v1';
 
 export type Entry = { card: Card; seen: number; right: number; at?: string };
 export type ExamResult = { at: string; total: number; errors: number; passed: boolean; unanswered: number };

@@ -27,6 +27,7 @@ export function Home() {
 
   return (
     <section>
+      <p class="slogan"><T t={ui.slogan} /></p>
       <p class="lede"><T t={ui.tagline} /></p>
       <ul class="list">
         {tiles.map((t) => (

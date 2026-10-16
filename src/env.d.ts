@@ -7,7 +7,7 @@ interface ImportMetaEnv {
   readonly VITE_SUPABASE_PUBLISHABLE_KEY?: string;
   /** 'true' once the Google provider is configured on the Supabase project. */
   readonly VITE_GOOGLE_AUTH_ENABLED?: string;
-  /** Podograph brand id for Carnet. Leads are only sent when this is set. */
+  /** Podograph brand id for Glorieta. Leads are only sent when this is set. */
   readonly VITE_PODOGRAPH_BRAND_ID?: string;
 }
 

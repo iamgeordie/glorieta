@@ -5,7 +5,7 @@ import { useContext, useState } from 'preact/hooks';
 export type Bi = { es: string; en: string };
 export type Mode = 'es' | 'en' | 'both';
 
-const KEY = 'carnet.mode';
+const KEY = 'glorieta.mode';
 
 function load(): Mode {
   try {

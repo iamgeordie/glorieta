@@ -2,7 +2,8 @@ import { bi } from './i18n';
 
 /** Every piece of interface text, in both languages. */
 export const ui = {
-  appName: bi('Carnet', 'Carnet'),
+  appName: bi('Glorieta', 'Glorieta'),
+  slogan: bi('Guiri al Volante', 'Foreigner at the Wheel'),
   tagline: bi('Prepara el teórico del permiso B en español.', 'Prepare for the permiso B theory test in Spanish.'),
   home: bi('Inicio', 'Home'),
   practice: bi('Practicar', 'Practice'),

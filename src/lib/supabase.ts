@@ -14,14 +14,14 @@ export const googleEnabled = authEnabled && import.meta.env.VITE_GOOGLE_AUTH_ENA
 export const crmBrandId = import.meta.env.VITE_PODOGRAPH_BRAND_ID?.trim() || undefined;
 
 /**
- * Talks to the dedicated `carnet` schema. PKCE is used because this app routes with
+ * Talks to the dedicated `glorieta` schema. PKCE is used because this app routes with
  * the URL hash, which the default implicit flow would also use to return tokens.
  */
 export const supabase =
   url && key
     ? createClient(url, key, {
         auth: { flowType: 'pkce', persistSession: true, autoRefreshToken: true, detectSessionInUrl: true },
-        db: { schema: 'carnet' },
+        db: { schema: 'glorieta' },
       })
     : null;
 

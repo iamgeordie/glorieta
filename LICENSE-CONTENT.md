@@ -1,6 +1,6 @@
 # Content license
 
-The written learning content in Carnet is licensed under the
+The written learning content in Glorieta is licensed under the
 [Creative Commons Attribution 4.0 International license (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
 Full legal text: https://creativecommons.org/licenses/by/4.0/legalcode
 
@@ -27,4 +27,4 @@ credit, link to the license, and say if you made changes.
 
 ## Suggested credit
 
-> "Carnet" by George Everitt, licensed under CC BY 4.0.
+> "Glorieta" by George Everitt, licensed under CC BY 4.0.
