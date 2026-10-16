@@ -37,7 +37,7 @@ npm run deploy     # check, build, wrangler deploy
 
 ## Sign images
 
-The SVGs in `public/signs/` are unmodified copies from [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Road_signs_of_Spain): public domain, CC0, or CC BY-SA. Every file's license and author is recorded in `src/data/signs.json`; `npm run credits` generates `public/signs/CREDITS.md` from it, and the credits for the CC BY-SA files are also shown on the signs page. Names and meanings follow the official catalogue (RGC Anexo I, as updated by RD 465/2025). A 2025 reform changed some drawings and codes, so where Commons offers the Transport Ministry's own new drawing, that one is used.
+The SVGs in `public/signs/` are unmodified copies from [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Road_signs_of_Spain): public domain, CC0, or CC BY-SA. Every file's license and author is recorded in `src/data/signs.json`; `npm run credits` generates `public/signs/CREDITS.md` from it, and the credits for the CC BY-SA files are also shown on the signs page. Names and meanings follow the official catalogue (RGC Anexo I, as updated by RD 465/2025). The direction descriptors in parentheses on the R-400, R-401, R-403 and R-407 variants, such as "(straight arrow to the right)", are this app's own clarifications; the official names are bare. A 2025 reform changed some drawings and codes, so where Commons offers the Transport Ministry's own new drawing, that one is used.
 
 To add a sign, put the SVG in `public/signs/` and add an entry to `src/data/signs.json`; the practice questions are generated from that list. `npm run check` fails if a file and an entry get out of step, if a CC BY-SA sign lacks an author or license link, or if `CREDITS.md` is stale.
 

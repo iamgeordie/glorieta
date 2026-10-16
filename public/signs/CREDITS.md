@@ -7,7 +7,7 @@ license it has on Commons; the Apache-2.0 license of this project does not apply
 
 This file is generated from `src/data/signs.json` by `npm run credits`. Do not edit it by hand.
 
-Totals: 130 signs. 89 public domain, 8 CC0, 33 Creative Commons Attribution-ShareAlike (credit required).
+Totals: 128 signs. 89 public domain, 8 CC0, 31 Creative Commons Attribution-ShareAlike (credit required).
 
 ## Attribution required (Creative Commons BY-SA)
 
@@ -24,8 +24,6 @@ Licenses: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), [CC B
 | `r-201.svg` | R-201 | CC BY-SA 3.0 | Gigillo83 | https://commons.wikimedia.org/wiki/File:Spain_traffic_signal_r201.svg |
 | `r-205.svg` | R-205 | CC BY-SA 3.0 | Gigillo83 | https://commons.wikimedia.org/wiki/File:Spain_traffic_signal_r205.svg |
 | `r-301-110.svg` | R-301 | CC BY-SA 4.0 | Majafego | https://commons.wikimedia.org/wiki/File:Spain_traffic_signal_r301-110.svg |
-| `r-301-130.svg` | R-301 | CC BY-SA 3.0 | Majafego | https://commons.wikimedia.org/wiki/File:Spain_traffic_signal_r301-130.svg |
-| `r-301-140.svg` | R-301 | CC BY-SA 3.0 | Majafego | https://commons.wikimedia.org/wiki/File:Spain_traffic_signal_r301-140.svg |
 | `r-300.svg` | R-300 | CC BY-SA 3.0 | Gigillo83 | https://commons.wikimedia.org/wiki/File:Spain_traffic_signal_r300.svg |
 | `r-308c.svg` | R-308c | CC BY-SA 3.0 | Gigillo83 | https://commons.wikimedia.org/wiki/File:Spain_traffic_signal_r308c.svg |
 | `r-308d.svg` | R-308d | CC BY-SA 3.0 | Gigillo83 | https://commons.wikimedia.org/wiki/File:Spain_traffic_signal_r308d.svg |

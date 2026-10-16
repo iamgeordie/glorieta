@@ -22,11 +22,11 @@
     "group": "priority",
     "es": {
       "name": "Detención obligatoria o stop",
-      "why": "Obligación para todo conductor de detener su vehículo ante la próxima línea de detención o, si no existe, inmediatamente antes de la intersección, y ceder el paso en ella a los vehículos que circulen por la vía a la que se aproxime."
+      "why": "Obligación para todo conductor de detener su vehículo ante la próxima línea de detención o, si no existe, inmediatamente antes de la intersección, y ceder el paso en ella a los vehículos que circulen por la vía a la que se aproxime. Si desde el punto de detención no hay visibilidad suficiente, debe detenerse de nuevo donde la haya, sin poner en peligro a ningún usuario de la vía."
     },
     "en": {
       "name": "STOP (mandatory stop)",
-      "why": "Obligation for every driver to stop the vehicle at the next stop line or, if there is none, immediately before the intersection, and to give way there to vehicles on the road being approached."
+      "why": "Obligation for every driver to stop the vehicle at the next stop line or, if there is none, immediately before the intersection, and to give way there to vehicles on the road being approached. If visibility from the stopping point is not enough, stop again where you can see, without endangering any road user."
     },
     "license": "Public domain",
     "licenseUrl": "",
@@ -196,7 +196,7 @@
     },
     "en": {
       "name": "No mopeds",
-      "why": "Prohibition of access to mopeds; it also prohibits vehicles for people with reduced mobility."
+      "why": "Prohibition of access to mopeds; it also prohibits entry by vehicles for people with reduced mobility."
     },
     "license": "CC0",
     "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
@@ -314,8 +314,8 @@
       "why": "Prohibición de acceso a vehículos de motor con remolque exceptuando los de un solo eje; una cifra de tonelaje significa que solo se aplica cuando la masa máxima autorizada del remolque supera dicha cifra."
     },
     "en": {
-      "name": "No motor vehicles with a trailer, except single-axle ones",
-      "why": "Prohibition of access to motor vehicles with a trailer other than a single-axle one; a tonnage figure means it applies only when the trailer's maximum authorized mass exceeds it."
+      "name": "No motor vehicles with a trailer, except with a single-axle trailer",
+      "why": "Prohibition of access to motor vehicles with a trailer other than a single-axle trailer; a tonnage figure means it applies only when the trailer's maximum authorized mass exceeds it."
     },
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
@@ -467,7 +467,7 @@
       "why": "Indica el lugar donde es obligatoria la detención por la proximidad, según la inscripción que contenga, de un puesto de aduana, de policía, de peaje u otro; el conductor no podrá reanudar su marcha hasta haber cumplido la prescripción que la señal establece."
     },
     "en": {
-      "name": "No passing without stopping",
+      "name": "No proceeding without stopping",
       "why": "Marks the place where stopping is compulsory because of a nearby customs, police, toll or other post, according to its inscription; the driver may not move off until complying with what the sign requires."
     },
     "license": "Public domain",
@@ -566,11 +566,11 @@
     "group": "speed",
     "es": {
       "name": "Velocidad máxima (10 km/h)",
-      "why": "Prohibición de circular a velocidad superior a 10 km/h; obliga desde el lugar en que esté situada hasta la próxima señal de fin de limitación de velocidad, de fin de prohibiciones u otra de velocidad máxima."
+      "why": "Prohibición de circular a velocidad superior a 10 km/h; obliga desde el lugar en que esté situada hasta la próxima señal de fin de limitación de velocidad, de fin de prohibiciones u otra de velocidad máxima. Si va en el mismo poste o panel que una señal de peligro, la limitación termina cuando termina el peligro. En una vía sin prioridad, deja de aplicarse al salir de una intersección con una vía con prioridad. Si la cifra coincide con el máximo legal de ese tipo de vía, es solo un recordatorio general."
     },
     "en": {
       "name": "Maximum speed (10 km/h)",
-      "why": "Prohibition of driving faster than 10 km/h; it applies from where the sign stands until the next end-of-speed-limit sign, end-of-prohibitions sign or other maximum speed sign."
+      "why": "Prohibition of driving faster than 10 km/h; it applies from where the sign stands until the next end-of-speed-limit sign, end-of-prohibitions sign or other maximum speed sign. If it is on the same post or panel as a warning sign, the limit ends when the danger ends. On a road without priority, it stops applying when you leave an intersection with a road that has priority. If the figure equals the legal maximum for that type of road, it is only a general reminder."
     },
     "license": "CC0",
     "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
@@ -583,11 +583,11 @@
     "group": "speed",
     "es": {
       "name": "Velocidad máxima (20 km/h)",
-      "why": "Prohibición de circular a velocidad superior a 20 km/h; obliga desde el lugar en que esté situada hasta la próxima señal de fin de limitación de velocidad, de fin de prohibiciones u otra de velocidad máxima."
+      "why": "Prohibición de circular a velocidad superior a 20 km/h; obliga desde el lugar en que esté situada hasta la próxima señal de fin de limitación de velocidad, de fin de prohibiciones u otra de velocidad máxima. Si va en el mismo poste o panel que una señal de peligro, la limitación termina cuando termina el peligro. En una vía sin prioridad, deja de aplicarse al salir de una intersección con una vía con prioridad. Si la cifra coincide con el máximo legal de ese tipo de vía, es solo un recordatorio general."
     },
     "en": {
       "name": "Maximum speed (20 km/h)",
-      "why": "Prohibition of driving faster than 20 km/h; it applies from where the sign stands until the next end-of-speed-limit sign, end-of-prohibitions sign or other maximum speed sign."
+      "why": "Prohibition of driving faster than 20 km/h; it applies from where the sign stands until the next end-of-speed-limit sign, end-of-prohibitions sign or other maximum speed sign. If it is on the same post or panel as a warning sign, the limit ends when the danger ends. On a road without priority, it stops applying when you leave an intersection with a road that has priority. If the figure equals the legal maximum for that type of road, it is only a general reminder."
     },
     "license": "Public domain",
     "licenseUrl": "",
@@ -600,11 +600,11 @@
     "group": "speed",
     "es": {
       "name": "Velocidad máxima (30 km/h)",
-      "why": "Prohibición de circular a velocidad superior a 30 km/h; obliga desde el lugar en que esté situada hasta la próxima señal de fin de limitación de velocidad, de fin de prohibiciones u otra de velocidad máxima."
+      "why": "Prohibición de circular a velocidad superior a 30 km/h; obliga desde el lugar en que esté situada hasta la próxima señal de fin de limitación de velocidad, de fin de prohibiciones u otra de velocidad máxima. Si va en el mismo poste o panel que una señal de peligro, la limitación termina cuando termina el peligro. En una vía sin prioridad, deja de aplicarse al salir de una intersección con una vía con prioridad. Si la cifra coincide con el máximo legal de ese tipo de vía, es solo un recordatorio general."
     },
     "en": {
       "name": "Maximum speed (30 km/h)",
-      "why": "Prohibition of driving faster than 30 km/h; it applies from where the sign stands until the next end-of-speed-limit sign, end-of-prohibitions sign or other maximum speed sign."
+      "why": "Prohibition of driving faster than 30 km/h; it applies from where the sign stands until the next end-of-speed-limit sign, end-of-prohibitions sign or other maximum speed sign. If it is on the same post or panel as a warning sign, the limit ends when the danger ends. On a road without priority, it stops applying when you leave an intersection with a road that has priority. If the figure equals the legal maximum for that type of road, it is only a general reminder."
     },
     "license": "Public domain",
     "licenseUrl": "",
@@ -617,11 +617,11 @@
     "group": "speed",
     "es": {
       "name": "Velocidad máxima (40 km/h)",
-      "why": "Prohibición de circular a velocidad superior a 40 km/h; obliga desde el lugar en que esté situada hasta la próxima señal de fin de limitación de velocidad, de fin de prohibiciones u otra de velocidad máxima."
+      "why": "Prohibición de circular a velocidad superior a 40 km/h; obliga desde el lugar en que esté situada hasta la próxima señal de fin de limitación de velocidad, de fin de prohibiciones u otra de velocidad máxima. Si va en el mismo poste o panel que una señal de peligro, la limitación termina cuando termina el peligro. En una vía sin prioridad, deja de aplicarse al salir de una intersección con una vía con prioridad. Si la cifra coincide con el máximo legal de ese tipo de vía, es solo un recordatorio general."
     },
     "en": {
       "name": "Maximum speed (40 km/h)",
-      "why": "Prohibition of driving faster than 40 km/h; it applies from where the sign stands until the next end-of-speed-limit sign, end-of-prohibitions sign or other maximum speed sign."
+      "why": "Prohibition of driving faster than 40 km/h; it applies from where the sign stands until the next end-of-speed-limit sign, end-of-prohibitions sign or other maximum speed sign. If it is on the same post or panel as a warning sign, the limit ends when the danger ends. On a road without priority, it stops applying when you leave an intersection with a road that has priority. If the figure equals the legal maximum for that type of road, it is only a general reminder."
     },
     "license": "Public domain",
     "licenseUrl": "",
@@ -634,11 +634,11 @@
     "group": "speed",
     "es": {
       "name": "Velocidad máxima (50 km/h)",
-      "why": "Prohibición de circular a velocidad superior a 50 km/h; obliga desde el lugar en que esté situada hasta la próxima señal de fin de limitación de velocidad, de fin de prohibiciones u otra de velocidad máxima."
+      "why": "Prohibición de circular a velocidad superior a 50 km/h; obliga desde el lugar en que esté situada hasta la próxima señal de fin de limitación de velocidad, de fin de prohibiciones u otra de velocidad máxima. Si va en el mismo poste o panel que una señal de peligro, la limitación termina cuando termina el peligro. En una vía sin prioridad, deja de aplicarse al salir de una intersección con una vía con prioridad. Si la cifra coincide con el máximo legal de ese tipo de vía, es solo un recordatorio general."
     },
     "en": {
       "name": "Maximum speed (50 km/h)",
-      "why": "Prohibition of driving faster than 50 km/h; it applies from where the sign stands until the next end-of-speed-limit sign, end-of-prohibitions sign or other maximum speed sign."
+      "why": "Prohibition of driving faster than 50 km/h; it applies from where the sign stands until the next end-of-speed-limit sign, end-of-prohibitions sign or other maximum speed sign. If it is on the same post or panel as a warning sign, the limit ends when the danger ends. On a road without priority, it stops applying when you leave an intersection with a road that has priority. If the figure equals the legal maximum for that type of road, it is only a general reminder."
     },
     "license": "Public domain",
     "licenseUrl": "",
@@ -651,11 +651,11 @@
     "group": "speed",
     "es": {
       "name": "Velocidad máxima (60 km/h)",
-      "why": "Prohibición de circular a velocidad superior a 60 km/h; obliga desde el lugar en que esté situada hasta la próxima señal de fin de limitación de velocidad, de fin de prohibiciones u otra de velocidad máxima."
+      "why": "Prohibición de circular a velocidad superior a 60 km/h; obliga desde el lugar en que esté situada hasta la próxima señal de fin de limitación de velocidad, de fin de prohibiciones u otra de velocidad máxima. Si va en el mismo poste o panel que una señal de peligro, la limitación termina cuando termina el peligro. En una vía sin prioridad, deja de aplicarse al salir de una intersección con una vía con prioridad. Si la cifra coincide con el máximo legal de ese tipo de vía, es solo un recordatorio general."
     },
     "en": {
       "name": "Maximum speed (60 km/h)",
-      "why": "Prohibition of driving faster than 60 km/h; it applies from where the sign stands until the next end-of-speed-limit sign, end-of-prohibitions sign or other maximum speed sign."
+      "why": "Prohibition of driving faster than 60 km/h; it applies from where the sign stands until the next end-of-speed-limit sign, end-of-prohibitions sign or other maximum speed sign. If it is on the same post or panel as a warning sign, the limit ends when the danger ends. On a road without priority, it stops applying when you leave an intersection with a road that has priority. If the figure equals the legal maximum for that type of road, it is only a general reminder."
     },
     "license": "Public domain",
     "licenseUrl": "",
@@ -668,11 +668,11 @@
     "group": "speed",
     "es": {
       "name": "Velocidad máxima (70 km/h)",
-      "why": "Prohibición de circular a velocidad superior a 70 km/h; obliga desde el lugar en que esté situada hasta la próxima señal de fin de limitación de velocidad, de fin de prohibiciones u otra de velocidad máxima."
+      "why": "Prohibición de circular a velocidad superior a 70 km/h; obliga desde el lugar en que esté situada hasta la próxima señal de fin de limitación de velocidad, de fin de prohibiciones u otra de velocidad máxima. Si va en el mismo poste o panel que una señal de peligro, la limitación termina cuando termina el peligro. En una vía sin prioridad, deja de aplicarse al salir de una intersección con una vía con prioridad. Si la cifra coincide con el máximo legal de ese tipo de vía, es solo un recordatorio general."
     },
     "en": {
       "name": "Maximum speed (70 km/h)",
-      "why": "Prohibition of driving faster than 70 km/h; it applies from where the sign stands until the next end-of-speed-limit sign, end-of-prohibitions sign or other maximum speed sign."
+      "why": "Prohibition of driving faster than 70 km/h; it applies from where the sign stands until the next end-of-speed-limit sign, end-of-prohibitions sign or other maximum speed sign. If it is on the same post or panel as a warning sign, the limit ends when the danger ends. On a road without priority, it stops applying when you leave an intersection with a road that has priority. If the figure equals the legal maximum for that type of road, it is only a general reminder."
     },
     "license": "Public domain",
     "licenseUrl": "",
@@ -685,11 +685,11 @@
     "group": "speed",
     "es": {
       "name": "Velocidad máxima (80 km/h)",
-      "why": "Prohibición de circular a velocidad superior a 80 km/h; obliga desde el lugar en que esté situada hasta la próxima señal de fin de limitación de velocidad, de fin de prohibiciones u otra de velocidad máxima."
+      "why": "Prohibición de circular a velocidad superior a 80 km/h; obliga desde el lugar en que esté situada hasta la próxima señal de fin de limitación de velocidad, de fin de prohibiciones u otra de velocidad máxima. Si va en el mismo poste o panel que una señal de peligro, la limitación termina cuando termina el peligro. En una vía sin prioridad, deja de aplicarse al salir de una intersección con una vía con prioridad. Si la cifra coincide con el máximo legal de ese tipo de vía, es solo un recordatorio general."
     },
     "en": {
       "name": "Maximum speed (80 km/h)",
-      "why": "Prohibition of driving faster than 80 km/h; it applies from where the sign stands until the next end-of-speed-limit sign, end-of-prohibitions sign or other maximum speed sign."
+      "why": "Prohibition of driving faster than 80 km/h; it applies from where the sign stands until the next end-of-speed-limit sign, end-of-prohibitions sign or other maximum speed sign. If it is on the same post or panel as a warning sign, the limit ends when the danger ends. On a road without priority, it stops applying when you leave an intersection with a road that has priority. If the figure equals the legal maximum for that type of road, it is only a general reminder."
     },
     "license": "Public domain",
     "licenseUrl": "",
@@ -702,11 +702,11 @@
     "group": "speed",
     "es": {
       "name": "Velocidad máxima (90 km/h)",
-      "why": "Prohibición de circular a velocidad superior a 90 km/h; obliga desde el lugar en que esté situada hasta la próxima señal de fin de limitación de velocidad, de fin de prohibiciones u otra de velocidad máxima."
+      "why": "Prohibición de circular a velocidad superior a 90 km/h; obliga desde el lugar en que esté situada hasta la próxima señal de fin de limitación de velocidad, de fin de prohibiciones u otra de velocidad máxima. Si va en el mismo poste o panel que una señal de peligro, la limitación termina cuando termina el peligro. En una vía sin prioridad, deja de aplicarse al salir de una intersección con una vía con prioridad. Si la cifra coincide con el máximo legal de ese tipo de vía, es solo un recordatorio general."
     },
     "en": {
       "name": "Maximum speed (90 km/h)",
-      "why": "Prohibition of driving faster than 90 km/h; it applies from where the sign stands until the next end-of-speed-limit sign, end-of-prohibitions sign or other maximum speed sign."
+      "why": "Prohibition of driving faster than 90 km/h; it applies from where the sign stands until the next end-of-speed-limit sign, end-of-prohibitions sign or other maximum speed sign. If it is on the same post or panel as a warning sign, the limit ends when the danger ends. On a road without priority, it stops applying when you leave an intersection with a road that has priority. If the figure equals the legal maximum for that type of road, it is only a general reminder."
     },
     "license": "Public domain",
     "licenseUrl": "",
@@ -719,11 +719,11 @@
     "group": "speed",
     "es": {
       "name": "Velocidad máxima (100 km/h)",
-      "why": "Prohibición de circular a velocidad superior a 100 km/h; obliga desde el lugar en que esté situada hasta la próxima señal de fin de limitación de velocidad, de fin de prohibiciones u otra de velocidad máxima."
+      "why": "Prohibición de circular a velocidad superior a 100 km/h; obliga desde el lugar en que esté situada hasta la próxima señal de fin de limitación de velocidad, de fin de prohibiciones u otra de velocidad máxima. Si va en el mismo poste o panel que una señal de peligro, la limitación termina cuando termina el peligro. En una vía sin prioridad, deja de aplicarse al salir de una intersección con una vía con prioridad. Si la cifra coincide con el máximo legal de ese tipo de vía, es solo un recordatorio general."
     },
     "en": {
       "name": "Maximum speed (100 km/h)",
-      "why": "Prohibition of driving faster than 100 km/h; it applies from where the sign stands until the next end-of-speed-limit sign, end-of-prohibitions sign or other maximum speed sign."
+      "why": "Prohibition of driving faster than 100 km/h; it applies from where the sign stands until the next end-of-speed-limit sign, end-of-prohibitions sign or other maximum speed sign. If it is on the same post or panel as a warning sign, the limit ends when the danger ends. On a road without priority, it stops applying when you leave an intersection with a road that has priority. If the figure equals the legal maximum for that type of road, it is only a general reminder."
     },
     "license": "Public domain",
     "licenseUrl": "",
@@ -736,11 +736,11 @@
     "group": "speed",
     "es": {
       "name": "Velocidad máxima (110 km/h)",
-      "why": "Prohibición de circular a velocidad superior a 110 km/h; obliga desde el lugar en que esté situada hasta la próxima señal de fin de limitación de velocidad, de fin de prohibiciones u otra de velocidad máxima."
+      "why": "Prohibición de circular a velocidad superior a 110 km/h; obliga desde el lugar en que esté situada hasta la próxima señal de fin de limitación de velocidad, de fin de prohibiciones u otra de velocidad máxima. Si va en el mismo poste o panel que una señal de peligro, la limitación termina cuando termina el peligro. En una vía sin prioridad, deja de aplicarse al salir de una intersección con una vía con prioridad. Si la cifra coincide con el máximo legal de ese tipo de vía, es solo un recordatorio general."
     },
     "en": {
       "name": "Maximum speed (110 km/h)",
-      "why": "Prohibition of driving faster than 110 km/h; it applies from where the sign stands until the next end-of-speed-limit sign, end-of-prohibitions sign or other maximum speed sign."
+      "why": "Prohibition of driving faster than 110 km/h; it applies from where the sign stands until the next end-of-speed-limit sign, end-of-prohibitions sign or other maximum speed sign. If it is on the same post or panel as a warning sign, the limit ends when the danger ends. On a road without priority, it stops applying when you leave an intersection with a road that has priority. If the figure equals the legal maximum for that type of road, it is only a general reminder."
     },
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
@@ -753,11 +753,11 @@
     "group": "speed",
     "es": {
       "name": "Velocidad máxima (120 km/h)",
-      "why": "Prohibición de circular a velocidad superior a 120 km/h; obliga desde el lugar en que esté situada hasta la próxima señal de fin de limitación de velocidad, de fin de prohibiciones u otra de velocidad máxima."
+      "why": "Prohibición de circular a velocidad superior a 120 km/h; obliga desde el lugar en que esté situada hasta la próxima señal de fin de limitación de velocidad, de fin de prohibiciones u otra de velocidad máxima. Si va en el mismo poste o panel que una señal de peligro, la limitación termina cuando termina el peligro. En una vía sin prioridad, deja de aplicarse al salir de una intersección con una vía con prioridad. Si la cifra coincide con el máximo legal de ese tipo de vía, es solo un recordatorio general."
     },
     "en": {
       "name": "Maximum speed (120 km/h)",
-      "why": "Prohibition of driving faster than 120 km/h; it applies from where the sign stands until the next end-of-speed-limit sign, end-of-prohibitions sign or other maximum speed sign."
+      "why": "Prohibition of driving faster than 120 km/h; it applies from where the sign stands until the next end-of-speed-limit sign, end-of-prohibitions sign or other maximum speed sign. If it is on the same post or panel as a warning sign, the limit ends when the danger ends. On a road without priority, it stops applying when you leave an intersection with a road that has priority. If the figure equals the legal maximum for that type of road, it is only a general reminder."
     },
     "license": "Public domain",
     "licenseUrl": "",
@@ -765,50 +765,16 @@
     "commons": "Spain_traffic_signal_r301-120.svg"
   },
   {
-    "id": "r-301-130",
-    "code": "R-301",
-    "group": "speed",
-    "es": {
-      "name": "Velocidad máxima (130 km/h)",
-      "why": "Prohibición de circular a velocidad superior a 130 km/h; obliga desde el lugar en que esté situada hasta la próxima señal de fin de limitación de velocidad, de fin de prohibiciones u otra de velocidad máxima."
-    },
-    "en": {
-      "name": "Maximum speed (130 km/h)",
-      "why": "Prohibition of driving faster than 130 km/h; it applies from where the sign stands until the next end-of-speed-limit sign, end-of-prohibitions sign or other maximum speed sign."
-    },
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-    "author": "Majafego",
-    "commons": "Spain_traffic_signal_r301-130.svg"
-  },
-  {
-    "id": "r-301-140",
-    "code": "R-301",
-    "group": "speed",
-    "es": {
-      "name": "Velocidad máxima (140 km/h)",
-      "why": "Prohibición de circular a velocidad superior a 140 km/h; obliga desde el lugar en que esté situada hasta la próxima señal de fin de limitación de velocidad, de fin de prohibiciones u otra de velocidad máxima."
-    },
-    "en": {
-      "name": "Maximum speed (140 km/h)",
-      "why": "Prohibition of driving faster than 140 km/h; it applies from where the sign stands until the next end-of-speed-limit sign, end-of-prohibitions sign or other maximum speed sign."
-    },
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-    "author": "Majafego",
-    "commons": "Spain_traffic_signal_r301-140.svg"
-  },
-  {
     "id": "r-300",
     "code": "R-300",
     "group": "prohibition",
     "es": {
       "name": "Separación mínima",
-      "why": "Prohibición de circular sin mantener con el vehículo precedente una separación igual o mayor a la indicada en la señal, excepto cuando se vaya a efectuar la maniobra de adelantamiento."
+      "why": "Prohibición de circular sin mantener con el vehículo precedente una separación igual o mayor a la indicada en la señal, excepto cuando se vaya a efectuar la maniobra de adelantamiento. Si no aparece ninguna cifra, recuerda de forma genérica que debe guardarse la distancia de seguridad entre vehículos establecida reglamentariamente."
     },
     "en": {
       "name": "Minimum following distance",
-      "why": "Prohibition of driving without keeping at least the distance shown from the vehicle ahead, except when about to overtake."
+      "why": "Prohibition of driving without keeping at least the distance shown from the vehicle ahead, except when about to overtake. If no figure appears, it is a general reminder to keep the safety distance between vehicles set by regulation."
     },
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
@@ -889,11 +855,11 @@
     "group": "prohibition",
     "es": {
       "name": "Adelantamiento prohibido para camiones",
-      "why": "Prohibición a los camiones cuya masa máxima autorizada exceda de 3.500 kg de adelantar a los vehículos a motor que circulen por la calzada, incluso cuando la maniobra no implique invadir la zona reservada al sentido contrario."
+      "why": "Prohibición a los camiones cuya masa máxima autorizada exceda de 3.500 kg de adelantar a los vehículos a motor que circulen por la calzada, incluso cuando la maniobra no implique invadir la zona reservada al sentido contrario, hasta la siguiente señal de «Fin de prohibición de adelantamiento» o de «Fin de prohibiciones»."
     },
     "en": {
       "name": "No overtaking by trucks",
-      "why": "Prohibits trucks with a maximum authorized mass over 3,500 kg from overtaking motor vehicles on the roadway, even when the maneuver does not mean entering the zone reserved for opposing traffic."
+      "why": "Prohibits trucks with a maximum authorized mass over 3,500 kg from overtaking motor vehicles on the roadway, even when the maneuver does not mean entering the zone reserved for opposing traffic, until the next 'End of overtaking prohibition' or 'End of prohibitions' sign."
     },
     "license": "Public domain",
     "licenseUrl": "",
@@ -910,7 +876,7 @@
     },
     "en": {
       "name": "No stopping or parking",
-      "why": "Prohibits stopping and parking on the side of the road where the sign stands; unless stated otherwise it starts at the sign and ends at the nearest intersection in the direction of travel."
+      "why": "Prohibits stopping and parking on the side of the roadway where the sign stands; unless stated otherwise it starts at the sign and ends at the nearest intersection in the direction of travel."
     },
     "license": "Public domain",
     "licenseUrl": "",
@@ -927,7 +893,7 @@
     },
     "en": {
       "name": "No parking",
-      "why": "Prohibits parking on the side of the road where the sign stands; unless stated otherwise it starts at the sign and ends at the nearest intersection in the direction of travel. It does not prohibit stopping."
+      "why": "Prohibits parking on the side of the roadway where the sign stands; unless stated otherwise it starts at the sign and ends at the nearest intersection in the direction of travel. It does not prohibit stopping."
     },
     "license": "Public domain",
     "licenseUrl": "",
@@ -940,11 +906,11 @@
     "group": "prohibition",
     "es": {
       "name": "Estacionamiento prohibido la primera quincena",
-      "why": "Prohibición de estacionamiento en el lado de la calzada en que esté situada la señal, desde las 9 horas del día 1 hasta las 9 horas del día 16. No prohíbe la parada."
+      "why": "Prohibición de estacionamiento en el lado de la calzada en que esté situada la señal, desde las 9 horas del día 1 hasta las 9 horas del día 16. No prohíbe la parada. Salvo indicación en contrario, comienza en la vertical de la señal y termina en la intersección más próxima en el sentido de la marcha."
     },
     "en": {
       "name": "No parking in the first half of the month",
-      "why": "Prohibits parking on the side of the road where the sign stands, from 9:00 on the 1st until 9:00 on the 16th. It does not prohibit stopping."
+      "why": "Prohibits parking on the side of the roadway where the sign stands, from 9:00 on the 1st until 9:00 on the 16th. It does not prohibit stopping. Unless stated otherwise, it starts at the sign and ends at the nearest intersection in the direction of travel."
     },
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
@@ -957,11 +923,11 @@
     "group": "prohibition",
     "es": {
       "name": "Estacionamiento prohibido la segunda quincena",
-      "why": "Prohibición de estacionamiento en el lado de la calzada en que esté situada la señal, desde las 9 horas del día 16 hasta las 9 horas del día 1. No prohíbe la parada."
+      "why": "Prohibición de estacionamiento en el lado de la calzada en que esté situada la señal, desde las 9 horas del día 16 hasta las 9 horas del día 1. No prohíbe la parada. Salvo indicación en contrario, comienza en la vertical de la señal y termina en la intersección más próxima en el sentido de la marcha."
     },
     "en": {
       "name": "No parking in the second half of the month",
-      "why": "Prohibits parking on the side of the road where the sign stands, from 9:00 on the 16th until 9:00 on the 1st. It does not prohibit stopping."
+      "why": "Prohibits parking on the side of the roadway where the sign stands, from 9:00 on the 16th until 9:00 on the 1st. It does not prohibit stopping. Unless stated otherwise, it starts at the sign and ends at the nearest intersection in the direction of travel."
     },
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
@@ -1011,8 +977,8 @@
       "why": "Recuerda la prohibición general de efectuar señales acústicas, salvo para evitar un accidente."
     },
     "en": {
-      "name": "Horns prohibited",
-      "why": "Reminds drivers of the general ban on sounding the horn, except to avoid an accident."
+      "name": "Acoustic warnings prohibited",
+      "why": "Reminds drivers of the general ban on acoustic signals (the horn), except to avoid an accident."
     },
     "license": "Public domain",
     "licenseUrl": "",
@@ -1229,11 +1195,11 @@
     "group": "mandatory",
     "es": {
       "name": "Calzada obligatoria para camiones, tractocamiones y furgones o furgonetas",
-      "why": "Obligación para los conductores de toda clase de camiones, tractocamiones y furgones o furgonetas, independientemente de su masa, de circular por la calzada a cuya entrada esté situada."
+      "why": "Obligación para los conductores de toda clase de camiones, tractocamiones y furgones o furgonetas, independientemente de su masa, de circular por la calzada a cuya entrada esté situada. Si figura una cifra de tonelaje en la silueta o en una placa complementaria, la obligación se aplica solo cuando la masa máxima autorizada del vehículo o conjunto supera esa cifra."
     },
     "en": {
       "name": "Mandatory roadway for trucks, tractor units and vans",
-      "why": "Obligation for drivers of all kinds of trucks, tractor units and vans, whatever their mass, to use the roadway at whose entrance the sign stands."
+      "why": "Obligation for drivers of all kinds of trucks, tractor units and vans, whatever their mass, to use the roadway at whose entrance the sign stands. If a tonnage figure appears on the silhouette or on a supplementary plate, the obligation applies only when the maximum authorized mass of the vehicle or combination exceeds that figure."
     },
     "license": "CC0",
     "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
