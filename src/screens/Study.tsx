@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'preact/hooks';
 import { bi, ModeOverride, mode, T } from '../i18n';
 import { categories, categoryById } from '../data/categories';
+import { questionOf, seenOf } from '../format';
 import { ui } from '../ui';
 import { allQuestions, buildQueue, optionOrder, type Question } from '../lib/quiz';
 import { grade, statsFor } from '../lib/store';
@@ -32,6 +33,7 @@ export function QuestionCard({
             </button>
           )}
         </header>
+        {q.image && <img class="sign" src={q.image} alt="Señal de tráfico / Traffic sign" width="160" height="160" />}
         <h2 class="stem"><T t={bi(q.es.q, q.en.q)} /></h2>
         <div class="options" role="group">
           {order.map((original, position) => {
@@ -104,10 +106,7 @@ function CategoryPicker() {
             <li key={c.id}>
               <a class="tile" href={`#/practice/${c.id}`}>
                 <strong><T t={c.name} /></strong>
-                <small>
-                  {s.seen}/{ids.length}
-                  {s.due > 0 && <span class="due"> · {s.due} <T t={ui.dueNow} /></span>}
-                </small>
+                <small><T t={seenOf(s.seen, ids.length, s.due)} /></small>
               </a>
             </li>
           );
@@ -151,12 +150,7 @@ function PracticeSession({ categoryId }: { categoryId: string }) {
 
   return (
     <section>
-      <p class="progress-line">
-        <T t={ui.question} /> {index + 1} <T t={ui.of} /> {plan.queue.length}
-        {index === 0 && plan.due > 0 && (
-          <span class="due"> · {plan.due} <T t={ui.dueNow} /></span>
-        )}
-      </p>
+      <p class="progress-line"><T t={questionOf(index + 1, plan.queue.length, index === 0 ? plan.due : 0)} /></p>
       {index === 0 && plan.refresher && <p class="note"><T t={ui.nothingDue} /></p>}
       <QuestionCard key={`${q.id}-${round}`} q={q} order={order} selected={selected} reveal={selected !== null} onSelect={answer} />
       {selected !== null && (

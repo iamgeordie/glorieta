@@ -1,8 +1,9 @@
 import { useEffect, useMemo, useState } from 'preact/hooks';
 import { T } from '../i18n';
 import { EXAM_MAX_ERRORS, EXAM_MINUTES, EXAM_QUESTIONS } from '../data/facts';
+import { examFacts, maxMistakes, mistakes, questionOf, submitExam, timeLeft } from '../format';
 import { ui } from '../ui';
-import { allQuestions, optionOrder, shuffle } from '../lib/quiz';
+import { buildExam, optionOrder } from '../lib/quiz';
 import { grade, saveExam } from '../lib/store';
 import { QuestionCard } from './Study';
 
@@ -17,9 +18,7 @@ export function Exam() {
       <section class="center">
         <h1><T t={ui.exam} /></h1>
         <p><T t={ui.examHint} /></p>
-        <p class="note">
-          {EXAM_QUESTIONS} <T t={ui.questionsWord} /> · {EXAM_MINUTES} <T t={ui.minutes} /> · <T t={ui.maxMistakes} />: {EXAM_MAX_ERRORS}
-        </p>
+        <p class="note"><T t={examFacts(EXAM_QUESTIONS, EXAM_MINUTES, EXAM_MAX_ERRORS)} /></p>
         <button type="button" class="primary" onClick={() => setPhase('run')}><T t={ui.start} /></button>
       </section>
     );
@@ -39,7 +38,7 @@ export function Exam() {
 
 function ExamRun({ phase, onDone, onRestart }: { phase: Phase; onDone: () => void; onRestart: () => void }) {
   const exam = useMemo(() => {
-    const questions = shuffle(allQuestions).slice(0, Math.min(EXAM_QUESTIONS, allQuestions.length));
+    const questions = buildExam(EXAM_QUESTIONS);
     return { questions, orders: questions.map(() => optionOrder()), endAt: Date.now() + EXAM_MINUTES * 60_000 };
   }, []);
   const [answers, setAnswers] = useState<(number | null)[]>(() => exam.questions.map(() => null));
@@ -88,8 +87,8 @@ function ExamRun({ phase, onDone, onRestart }: { phase: Phase; onDone: () => voi
         <div class="center">
           <h1 class={passed ? 'right' : 'wrong'}><T t={passed ? ui.passed : ui.failed} /></h1>
           {timedOut && <p class="note"><T t={ui.timeUp} /></p>}
-          <p class="bignum">{errors} <T t={ui.mistakes} /></p>
-          <p class="note"><T t={ui.maxMistakes} />: {EXAM_MAX_ERRORS}</p>
+          <p class="bignum"><T t={mistakes(errors)} /></p>
+          <p class="note"><T t={maxMistakes(EXAM_MAX_ERRORS)} /></p>
           <div class="actions">
             <button type="button" class="primary" onClick={onRestart}><T t={ui.again} /></button>
             <a class="secondary" href="#/"><T t={ui.backHome} /></a>
@@ -112,10 +111,8 @@ function ExamRun({ phase, onDone, onRestart }: { phase: Phase; onDone: () => voi
   return (
     <section>
       <div class="exam-bar">
-        <span><T t={ui.question} /> {index + 1} <T t={ui.of} /> {exam.questions.length}</span>
-        <span class={`timer ${left < 5 * 60_000 ? 'low' : ''}`} aria-label="timer">
-          <T t={ui.timeLeft} /> {mm}:{ss}
-        </span>
+        <span><T t={questionOf(index + 1, exam.questions.length)} /></span>
+        <span class={`timer ${left < 5 * 60_000 ? 'low' : ''}`} aria-label="timer"><T t={timeLeft(mm, ss)} /></span>
       </div>
       <QuestionCard
         key={q.id}
@@ -142,7 +139,7 @@ function ExamRun({ phase, onDone, onRestart }: { phase: Phase; onDone: () => voi
         <button type="button" class="secondary" disabled={index === 0} onClick={() => setIndex(index - 1)}>←</button>
         <button type="button" class="secondary" disabled={index === exam.questions.length - 1} onClick={() => setIndex(index + 1)}>→</button>
         <button type="button" class="primary" onClick={() => submit(false)}>
-          <T t={ui.submitExam} /> ({answered}/{exam.questions.length})
+          <T t={submitExam(answered, exam.questions.length)} />
         </button>
       </div>
     </section>

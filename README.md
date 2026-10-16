@@ -12,8 +12,9 @@ The one design rule: **every piece of text can flip between Spanish and English 
 
 | Screen | What it does |
 |---|---|
-| Practice | 70 questions in 11 categories. Spaced repetition ([FSRS](https://github.com/open-spaced-repetition/ts-fsrs)) brings the ones you miss back sooner. |
-| Mock exam | 30 questions, countdown, up to 3 mistakes, with a review of what you missed. |
+| Practice | 70 written questions plus 29 "what does this sign mean?" questions, in 11 categories. Spaced repetition ([FSRS](https://github.com/open-spaced-repetition/ts-fsrs)) brings the ones you miss back sooner. |
+| Mock exam | 30 questions (4 of them signs), countdown, up to 3 mistakes, with a review of what you missed. |
+| Traffic signs | A gallery of 29 Spanish signs with the meaning in both languages, and practice questions built from the same data. |
 | Vocabulary | Flashcards for road terms, scheduled with the same FSRS engine. |
 | Examiner phrases | What you will hear in the practical test, and what to do. |
 | Exam & US differences | Format, language options, license validity, and what changes from the US. Each fact is labeled official, secondary, or verify. |
@@ -33,6 +34,10 @@ npm run deploy     # check, build, wrangler deploy
 ```
 
 `wrangler.jsonc` binds the Worker to a custom domain and turns off `workers.dev` and preview URLs. The site is meant to sit behind Cloudflare Access, and those other URLs would bypass it. Access is configured in Cloudflare, not in this code, so making the site public later means removing the Access application and nothing else.
+
+## Sign images
+
+The 29 SVGs in `public/signs/` come from [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Road_signs_of_Spain). All but two are public domain; the other two (CC BY-SA) are credited in `public/signs/CREDITS.md` and on the signs page. To add a sign, drop the SVG in `public/signs/` and add an entry to `src/data/signs.ts` with its meaning in both languages; the practice questions are generated from that list, and `npm run check` fails if a file and an entry get out of step.
 
 ## Adding or editing questions
 

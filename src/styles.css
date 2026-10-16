@@ -173,3 +173,23 @@ section > .primary { width: 100%; margin-top: 12px; }
 @media (prefers-reduced-motion: no-preference) {
   .option, .tile, .primary, .secondary { transition: border-color 120ms, background 120ms; }
 }
+
+.sign { display: block; margin: 4px auto 14px; max-width: 100%; height: auto; background: #fff; border-radius: 12px; padding: 8px; border: 1px solid var(--line); }
+
+.cta { width: 100%; margin: 8px 0 4px; }
+.group { margin: 22px 0 10px; }
+.sign-grid { list-style: none; display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; margin: 0 0 8px; }
+.sign-card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); height: 100%; }
+.sign-card summary { list-style: none; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 6px; padding: 12px 10px; text-align: center; }
+.sign-card summary::-webkit-details-marker { display: none; }
+.sign-card summary:focus-visible { outline: 3px solid var(--primary); outline-offset: -3px; border-radius: var(--radius); }
+.sign-card img { background: #fff; border-radius: 10px; padding: 4px; }
+.sign-name { font-weight: 600; font-size: 0.9rem; line-height: 1.25; }
+.sign-code { color: var(--muted); font-size: 0.72rem; font-variant-numeric: tabular-nums; }
+.sign-grid li:has(> .sign-card[open]) { grid-column: 1 / -1; }
+.sign-card p { margin: 0; padding: 0 14px 14px; font-size: 0.92rem; }
+
+/* The translation line inside a filled button inherits the button's text color. */
+.primary .sub { color: inherit; opacity: 0.85; }
+.secondary .sub { color: inherit; opacity: 0.8; }
+.tile .sub { color: var(--muted); }

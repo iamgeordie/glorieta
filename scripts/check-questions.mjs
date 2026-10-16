@@ -1,5 +1,5 @@
 // Validates the question bank before every deploy. Run with: npm run check
-import { readFileSync } from 'node:fs';
+import { existsSync, readFileSync, readdirSync } from 'node:fs';
 
 const questions = JSON.parse(readFileSync(new URL('../src/data/questions.json', import.meta.url), 'utf8'));
 const categoriesSrc = readFileSync(new URL('../src/data/categories.ts', import.meta.url), 'utf8');
@@ -30,9 +30,18 @@ for (const q of questions) {
   if (!q.src?.trim()) problems.push(`${where}: missing src`);
 }
 
+// Sign images: every sign in signs.ts has its SVG, and no SVG sits unused.
+const signsSrc = readFileSync(new URL('../src/data/signs.ts', import.meta.url), 'utf8');
+const signIds = [...signsSrc.matchAll(/\{ id: '([a-z0-9-]+)', code:/g)].map((m) => m[1]);
+const signDir = new URL('../public/signs/', import.meta.url);
+for (const id of signIds) if (!existsSync(new URL(`${id}.svg`, signDir))) problems.push(`sign "${id}": public/signs/${id}.svg is missing`);
+for (const f of readdirSync(signDir).filter((f) => f.endsWith('.svg')))
+  if (!signIds.includes(f.slice(0, -4))) problems.push(`public/signs/${f} is not listed in signs.ts`);
+if (new Set(signIds).size !== signIds.length) problems.push('signs.ts has duplicate sign ids');
+
 for (const id of categoryIds) if (!perCat[id]) problems.push(`category "${id}" has no questions`);
 
-console.log(`${questions.length} questions, answer positions: ${answers.join(' / ')}`);
+console.log(`${questions.length} text questions, answer positions: ${answers.join(' / ')}; ${signIds.length} sign questions generated from signs.ts`);
 console.log(Object.entries(perCat).map(([k, v]) => `${k}:${v}`).join('  '));
 if (problems.length) {
   console.error(`\n${problems.length} problem(s):\n- ${problems.join('\n- ')}`);

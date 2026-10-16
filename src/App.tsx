@@ -6,6 +6,7 @@ import { Exam } from './screens/Exam';
 import { Facts } from './screens/Facts';
 import { Home } from './screens/Home';
 import { Phrases, Vocab } from './screens/Cards';
+import { Signs } from './screens/Signs';
 import { Practice } from './screens/Study';
 
 const route = signal(location.hash || '#/');
@@ -23,6 +24,8 @@ function Screen() {
       return <Exam />;
     case 'vocab':
       return <Vocab />;
+    case 'signs':
+      return <Signs />;
     case 'phrases':
       return <Phrases />;
     case 'facts':

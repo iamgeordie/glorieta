@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'preact/hooks';
 import { mode, Peek, T } from '../i18n';
 import { phrases, terms, type Term } from '../data/vocab';
+import { cardProgress } from '../format';
 import { ui } from '../ui';
 import { buildQueue } from '../lib/quiz';
 import { grade } from '../lib/store';
@@ -40,9 +41,7 @@ export function Vocab() {
 
   return (
     <section>
-      <p class="progress-line">
-        {index + 1} <T t={ui.of} /> {plan.queue.length} · {plan.due} <T t={ui.cardsDue} />, {plan.fresh} <T t={ui.newCards} />
-      </p>
+      <p class="progress-line"><T t={cardProgress(index + 1, plan.queue.length, plan.due, plan.fresh)} /></p>
       <article class="card flash">
         <p class="flash-es" lang="es">{card.es}</p>
         {showBack ? (

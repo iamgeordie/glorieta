@@ -1,5 +1,6 @@
 import { T } from '../i18n';
 import { terms } from '../data/vocab';
+import { lastExam } from '../format';
 import { ui } from '../ui';
 import { allQuestions } from '../lib/quiz';
 import { exams, progress, resetAll, statsFor } from '../lib/store';
@@ -14,6 +15,7 @@ export function Home() {
   const tiles = [
     { href: '#/practice', title: ui.practice, hint: ui.practiceHint },
     { href: '#/exam', title: ui.exam, hint: ui.examHint },
+    { href: '#/signs', title: ui.signsTile, hint: ui.signsTileHint },
     { href: '#/vocab', title: ui.vocab, hint: ui.vocabHint },
     { href: '#/phrases', title: ui.phrases, hint: ui.phrasesHint },
     { href: '#/facts', title: ui.facts, hint: ui.factsHint },
@@ -42,14 +44,7 @@ export function Home() {
           <div><dt><T t={ui.vocab} /></dt><dd>{v.seen}/{terms.length}</dd></div>
         </dl>
         <p class="muted">
-          <T t={ui.lastExam} />:{' '}
-          {last ? (
-            <>
-              {last.errors} <T t={ui.mistakes} /> · <T t={last.passed ? ui.passed : ui.failed} />
-            </>
-          ) : (
-            <T t={ui.noExamYet} />
-          )}
+          {last ? <T t={lastExam(last.errors, last.passed)} /> : <><T t={ui.lastExam} />: <T t={ui.noExamYet} /></>}
         </p>
       </div>
 
