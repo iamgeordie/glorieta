@@ -7,6 +7,10 @@ import { Facts } from './screens/Facts';
 import { Home } from './screens/Home';
 import { Phrases, Vocab } from './screens/Cards';
 import { Signs } from './screens/Signs';
+import { Account } from './screens/Account';
+import { authStatus } from './lib/auth';
+import { authEnabled } from './lib/supabase';
+import { a } from './authStrings';
 import { Practice } from './screens/Study';
 
 const route = signal(location.hash || '#/');
@@ -26,6 +30,8 @@ function Screen() {
       return <Vocab />;
     case 'signs':
       return <Signs />;
+    case 'account':
+      return authEnabled ? <Account view={arg} /> : <Home />;
     case 'phrases':
       return <Phrases />;
     case 'facts':
@@ -55,6 +61,9 @@ export function App() {
         <a class="brand" href="#/" aria-label={home ? ui.appName.es : ui.home.es}>
           {home ? <T t={ui.appName} /> : <>← <T t={ui.home} /></>}
         </a>
+        {authEnabled && (
+          <a class="account-link" href="#/account"><T t={authStatus.value === 'in' ? a.account : a.signInLink} /></a>
+        )}
         <LangSwitch />
       </header>
       <main>

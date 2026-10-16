@@ -21,6 +21,10 @@ The one design rule: **every piece of text can flip between Spanish and English 
 
 Progress lives in the browser's `localStorage`. There is no account and no server-side user data.
 
+## Accounts (optional)
+
+People can sign in to sync progress across devices: email and password, email confirmation, password reset, and a Google button that is disabled until a Google OAuth client exists. It is off unless the app is built with a Supabase project configured; with no configuration the app is exactly the local-only version. Joining a mailing list is a separate opt-in, unticked by default. Design, configuration and tests are in [`docs/backend/`](docs/backend/README.md).
+
 ## Stack
 
 Preact + TypeScript + Vite, deployed as static assets on a Cloudflare Worker. No backend.

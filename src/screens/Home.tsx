@@ -1,6 +1,9 @@
 import { T } from '../i18n';
 import { terms } from '../data/vocab';
 import { lastExam } from '../format';
+import { authStatus } from '../lib/auth';
+import { authEnabled } from '../lib/supabase';
+import { a } from '../authStrings';
 import { ui } from '../ui';
 import { allQuestions } from '../lib/quiz';
 import { exams, progress, resetAll, statsFor } from '../lib/store';
@@ -19,6 +22,7 @@ export function Home() {
     { href: '#/vocab', title: ui.vocab, hint: ui.vocabHint },
     { href: '#/phrases', title: ui.phrases, hint: ui.phrasesHint },
     { href: '#/facts', title: ui.facts, hint: ui.factsHint },
+    ...(authEnabled ? [{ href: '#/account', title: authStatus.value === 'in' ? a.accountTile : a.accountTileOut, hint: a.accountTileHint }] : []),
   ];
 
   return (

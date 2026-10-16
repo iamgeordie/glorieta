@@ -12,15 +12,19 @@
     "preview": "vite preview",
     "check": "node scripts/check-questions.mjs",
     "credits": "node scripts/build-credits.mjs",
+    "test": "node --test src/lib/*.test.ts && node scripts/test-schema.mjs",
     "deploy": "npm run check && npm run build && wrangler deploy"
   },
   "dependencies": {
     "@preact/signals": "^2.11.3",
+    "@supabase/supabase-js": "^2.118.0",
     "preact": "^11.0.1",
     "ts-fsrs": "^5.4.2"
   },
   "devDependencies": {
+    "@electric-sql/pglite": "^0.5.10",
     "@preact/preset-vite": "^2.10.6",
+    "@types/node": "^26.6.5",
     "typescript": "^7.0.2",
     "vite": "^8.3.4",
     "wrangler": "^4.151.0"

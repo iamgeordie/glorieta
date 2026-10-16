@@ -203,3 +203,30 @@ section > .primary { width: 100%; margin-top: 12px; }
 .credits { margin: 24px 0 0; }
 .credits summary { cursor: pointer; font-weight: 600; }
 .credits ul { margin-top: 8px; }
+
+.account-link { margin-left: auto; margin-right: 10px; font-weight: 600; font-size: 0.9rem; text-decoration: none; white-space: nowrap; }
+.topbar .brand { white-space: nowrap; }
+.tabs { display: flex; gap: 6px; margin-bottom: 14px; }
+.tabs button { flex: 1; padding: 10px; border: 2px solid var(--line); background: var(--bg); border-radius: 10px; font-weight: 600; }
+.tabs button.on { border-color: var(--primary); color: var(--primary); }
+.field { display: block; margin: 0 0 12px; }
+.field-label { display: block; font-size: 0.85rem; font-weight: 600; margin-bottom: 4px; }
+.field input[type='text'], .field input[type='email'], .field input[type='password'] { width: 100%; padding: 11px 12px; font: inherit; color: var(--text); background: var(--bg); border: 2px solid var(--line); border-radius: 10px; }
+.field input:focus-visible { outline: 3px solid var(--primary); outline-offset: 1px; }
+.password-row { display: flex; gap: 8px; align-items: stretch; }
+.password-row input { flex: 1; min-width: 0; }
+.check { display: flex; gap: 10px; align-items: flex-start; margin: 4px 0 10px; }
+.check input { margin-top: 4px; width: 20px; height: 20px; flex: none; }
+.block { display: block; }
+.bold { font-weight: 700; }
+.form-error { color: var(--wrong); background: var(--wrong-bg); border-radius: 10px; padding: 10px 12px; font-size: 0.92rem; }
+.full { width: 100%; }
+.divider { text-align: center; color: var(--muted); margin: 14px 0 10px; font-size: 0.85rem; }
+button.secondary.full[disabled], .secondary[disabled] { opacity: 0.6; cursor: not-allowed; }
+.soon { display: block; font-size: 0.72rem; font-weight: 600; opacity: 0.8; }
+.sync { font-weight: 600; }
+.sync.ok { color: var(--right); }
+.sync.error { color: var(--wrong); }
+.secondary.danger { color: var(--wrong); border-color: var(--wrong); }
+
+.stack { flex-direction: column; gap: 2px; }
