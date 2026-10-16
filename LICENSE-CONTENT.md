@@ -27,4 +27,4 @@ credit, link to the license, and say if you made changes.
 
 ## Suggested credit
 
-> "Carnet" by Geordie Everitt, licensed under CC BY 4.0.
+> "Carnet" by George Everitt, licensed under CC BY 4.0.
