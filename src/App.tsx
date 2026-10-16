@@ -67,7 +67,7 @@ export function App() {
   return (
     <>
       <header class="topbar">
-        <a class="brand" href="#/" aria-label={home ? ui.appName.es : ui.home.es}>
+        <a class="brand" href={home ? '#/welcome' : '#/'} aria-label={home ? ui.appName.es : ui.home.es}>
           {home ? (
             <>
               <img class="brand-mark" src="/signs/r-402.svg" width="24" height="24" alt="" />
