@@ -1,0 +1,25 @@
+{
+  "name": "carnet",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Study app for the Spanish driving theory test (permiso B), for English speakers with limited Spanish. Unofficial.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "check": "node scripts/check-questions.mjs",
+    "deploy": "npm run check && npm run build && wrangler deploy"
+  },
+  "dependencies": {
+    "@preact/signals": "^2.11.3",
+    "preact": "^11.0.1",
+    "ts-fsrs": "^5.4.2"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.10.6",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4",
+    "wrangler": "^4.151.0"
+  }
+}

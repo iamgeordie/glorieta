@@ -1,0 +1,11 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "carnet",
+  "compatibility_date": "2026-10-01",
+  "assets": { "directory": "./dist", "not_found_handling": "single-page-application" },
+  "routes": [{ "pattern": "carnet.anaidic.com", "custom_domain": true }],
+  // Only the custom domain, which sits behind Cloudflare Access. A workers.dev or
+  // preview URL would be reachable without the Access login.
+  "workers_dev": false,
+  "preview_urls": false
+}

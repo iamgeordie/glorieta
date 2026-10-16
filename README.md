@@ -1,0 +1,43 @@
+# Carnet
+
+A study app for the Spanish driving theory test (permiso B), built for an English speaker who is studying in Spanish. **Unofficial.** The questions are original, written from the regulations. They are not the DGT's question bank.
+
+The one design rule: **every piece of text can flip between Spanish and English instantly.** Spanish is the default.
+
+- **ES / ES+EN / EN** switch in the header, remembered between visits. Press `E` to flip between Spanish and English.
+- A small **EN** chip on each question card reveals English for that card only, so you can check one question without flipping the app.
+- Questions, options, explanations, vocabulary, examiner phrases and the interface itself all carry both languages. Identical strings (numbers, "STOP") are shown once.
+
+## What is in it
+
+| Screen | What it does |
+|---|---|
+| Practice | 70 questions in 11 categories. Spaced repetition ([FSRS](https://github.com/open-spaced-repetition/ts-fsrs)) brings the ones you miss back sooner. |
+| Mock exam | 30 questions, countdown, up to 3 mistakes, with a review of what you missed. |
+| Vocabulary | Flashcards for road terms, scheduled with the same FSRS engine. |
+| Examiner phrases | What you will hear in the practical test, and what to do. |
+| Exam & US differences | Format, language options, license validity, and what changes from the US. Each fact is labeled official, secondary, or verify. |
+
+Progress lives in the browser's `localStorage`. There is no account and no server-side user data.
+
+## Stack
+
+Preact + TypeScript + Vite, deployed as static assets on a Cloudflare Worker. No backend.
+
+```bash
+npm install
+npm run dev        # local dev server
+npm run check      # validate the question bank
+npm run build      # type-check and build to dist/
+npm run deploy     # check, build, wrangler deploy
+```
+
+`wrangler.jsonc` binds the Worker to a custom domain and turns off `workers.dev` and preview URLs. The site is meant to sit behind Cloudflare Access, and those other URLs would bypass it. Access is configured in Cloudflare, not in this code, so making the site public later means removing the Access application and nothing else.
+
+## Adding or editing questions
+
+Questions live in `src/data/questions.json`. Each has English and Spanish text, three options, one `answer` index, an explanation, optional `terms` (vocabulary shown after answering), an optional US-difference `note`, and a `src` citing the law. `npm run check` rejects a bank with a missing language, a duplicate id, or the wrong number of options.
+
+## Accuracy
+
+Traffic law changes, and so does the exam. Check anything that matters at [dgt.es](https://www.dgt.es). Two facts in the app are sourced only from secondary publications and are labeled that way: the 3-mistake limit and the 30-minute time limit.

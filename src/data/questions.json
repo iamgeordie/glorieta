@@ -1,0 +1,2310 @@
+[
+  {
+    "id": "speed-01",
+    "cat": "speed",
+    "answer": 0,
+    "en": {
+      "q": "On an urban street with one lane in each direction and no specific sign, the general maximum speed is:",
+      "options": [
+        "30 km/h",
+        "40 km/h",
+        "50 km/h"
+      ],
+      "why": "Since May 2021 the general urban limit is 30 km/h on streets with one lane per direction. 50 km/h applies only where there are two or more lanes per direction."
+    },
+    "es": {
+      "q": "En una calle urbana con un carril por sentido y sin señalización específica, la velocidad máxima genérica es:",
+      "options": [
+        "30 km/h",
+        "40 km/h",
+        "50 km/h"
+      ],
+      "why": "Desde mayo de 2021 el límite urbano genérico es de 30 km/h en vías de un carril por sentido. Los 50 km/h solo se aplican con dos o más carriles por sentido."
+    },
+    "terms": [
+      {
+        "es": "calzada",
+        "en": "roadway"
+      },
+      {
+        "es": "carril",
+        "en": "lane"
+      }
+    ],
+    "note": {
+      "es": "30 km/h son unas 19 mph. Un conductor estadounidense espera 25 mph, así que la cifra parece baja.",
+      "en": "30 km/h is about 19 mph. Most American drivers expect 25 mph, so the number feels low."
+    },
+    "src": "Reglamento General de Circulación (RD 1428/2003), speed limits, as amended by RD 970/2020"
+  },
+  {
+    "id": "speed-02",
+    "cat": "speed",
+    "answer": 1,
+    "en": {
+      "q": "On an urban street where the roadway and the sidewalk are at the same level (single platform), the maximum speed is:",
+      "options": [
+        "10 km/h",
+        "20 km/h",
+        "30 km/h"
+      ],
+      "why": "Single-platform streets, with no curb separating cars from pedestrians, are limited to 20 km/h."
+    },
+    "es": {
+      "q": "En una calle urbana de plataforma única (calzada y acera al mismo nivel), la velocidad máxima es:",
+      "options": [
+        "10 km/h",
+        "20 km/h",
+        "30 km/h"
+      ],
+      "why": "En las vías de plataforma única, sin bordillo que separe a vehículos y peatones, el límite es de 20 km/h."
+    },
+    "terms": [
+      {
+        "es": "plataforma única",
+        "en": "single platform (no curb)"
+      },
+      {
+        "es": "acera",
+        "en": "sidewalk"
+      }
+    ],
+    "src": "Reglamento General de Circulación, as amended by RD 970/2020"
+  },
+  {
+    "id": "speed-03",
+    "cat": "speed",
+    "answer": 1,
+    "en": {
+      "q": "What is the maximum speed for a passenger car on a motorway (autopista or autovía)?",
+      "options": [
+        "100 km/h",
+        "120 km/h",
+        "130 km/h"
+      ],
+      "why": "120 km/h is the general limit for cars on motorways. Spain has no 130 km/h limit."
+    },
+    "es": {
+      "q": "¿Cuál es la velocidad máxima para un turismo en autopista o autovía?",
+      "options": [
+        "100 km/h",
+        "120 km/h",
+        "130 km/h"
+      ],
+      "why": "120 km/h es el límite general para turismos en autopistas y autovías. En España no existe un límite de 130 km/h."
+    },
+    "terms": [
+      {
+        "es": "autopista / autovía",
+        "en": "motorway / dual carriageway"
+      }
+    ],
+    "note": {
+      "es": "120 km/h son unas 75 mph.",
+      "en": "120 km/h is about 75 mph."
+    },
+    "src": "Reglamento General de Circulación, speed limits"
+  },
+  {
+    "id": "speed-04",
+    "cat": "speed",
+    "answer": 2,
+    "en": {
+      "q": "What is the general maximum speed for a passenger car on a conventional road outside town (carretera convencional)?",
+      "options": [
+        "80 km/h",
+        "100 km/h",
+        "90 km/h"
+      ],
+      "why": "Since 2019 the general limit for cars on conventional roads is 90 km/h. Posted signs can set it lower."
+    },
+    "es": {
+      "q": "¿Cuál es la velocidad máxima genérica para un turismo en una carretera convencional fuera de poblado?",
+      "options": [
+        "80 km/h",
+        "100 km/h",
+        "90 km/h"
+      ],
+      "why": "Desde 2019 el límite genérico para turismos en carretera convencional es de 90 km/h. Las señales pueden fijar uno inferior."
+    },
+    "terms": [
+      {
+        "es": "carretera convencional",
+        "en": "two-way road, not a motorway"
+      },
+      {
+        "es": "fuera de poblado",
+        "en": "outside built-up areas"
+      }
+    ],
+    "src": "Reglamento General de Circulación, speed limits"
+  },
+  {
+    "id": "speed-05",
+    "cat": "speed",
+    "answer": 0,
+    "en": {
+      "q": "The road is wet from rain. What is the correct adjustment?",
+      "options": [
+        "Reduce speed and increase the following distance",
+        "Keep your speed, because modern tires grip well",
+        "Turn on the hazard lights and keep your speed"
+      ],
+      "why": "Braking distance grows a lot on a wet road. Slow down and leave more space. Hazard lights are not for driving in rain."
+    },
+    "es": {
+      "q": "La calzada está mojada por la lluvia. ¿Cuál es la actuación correcta?",
+      "options": [
+        "Reducir la velocidad y aumentar la distancia de seguridad",
+        "Mantener la velocidad, porque los neumáticos modernos agarran bien",
+        "Poner las luces de emergencia y mantener la velocidad"
+      ],
+      "why": "La distancia de frenado aumenta mucho con el suelo mojado. Hay que reducir la velocidad y dejar más espacio. Las luces de emergencia no se usan para circular con lluvia."
+    },
+    "terms": [
+      {
+        "es": "distancia de seguridad",
+        "en": "following distance"
+      },
+      {
+        "es": "calzada mojada",
+        "en": "wet road"
+      }
+    ],
+    "src": "Reglamento General de Circulación, speed adapted to conditions and safety distance"
+  },
+  {
+    "id": "priority-01",
+    "cat": "priority",
+    "answer": 2,
+    "en": {
+      "q": "You reach an intersection with no signs and no traffic lights. Who has priority?",
+      "options": [
+        "The larger vehicle",
+        "The vehicle coming from your left",
+        "The vehicle coming from your right"
+      ],
+      "why": "With no signs, the vehicle approaching from the right has priority. Wait for it, then go."
+    },
+    "es": {
+      "q": "Llega a una intersección sin señales ni semáforos. ¿Quién tiene prioridad?",
+      "options": [
+        "El vehículo de mayor tamaño",
+        "El vehículo que viene por su izquierda",
+        "El vehículo que viene por su derecha"
+      ],
+      "why": "Sin señalización, tiene prioridad el vehículo que se aproxima por la derecha. Hay que cederle el paso."
+    },
+    "terms": [
+      {
+        "es": "intersección / cruce",
+        "en": "intersection"
+      },
+      {
+        "es": "prioridad de paso",
+        "en": "right of way"
+      }
+    ],
+    "note": {
+      "es": "En EE. UU. se espera al que llegó primero. En España la norma por defecto es la prioridad a la derecha, incluso desde una calle más pequeña.",
+      "en": "In the US you wait for whoever arrived first. Spain's default is priority to the right, even on a smaller street."
+    },
+    "src": "Reglamento General de Circulación, priority at intersections"
+  },
+  {
+    "id": "priority-02",
+    "cat": "priority",
+    "answer": 0,
+    "en": {
+      "q": "You arrive at a STOP sign and see no other traffic. What must you do?",
+      "options": [
+        "Come to a complete stop at the line, then proceed when it is safe",
+        "Slow down and continue if the road is clear",
+        "Stop only if another vehicle is coming"
+      ],
+      "why": "At a STOP sign you must stop completely, even when the road is empty. Rolling through is an infraction."
+    },
+    "es": {
+      "q": "Llega a una señal de STOP y no ve ningún otro vehículo. ¿Qué debe hacer?",
+      "options": [
+        "Detenerse completamente ante la línea y continuar cuando sea seguro",
+        "Reducir la velocidad y continuar si la vía está libre",
+        "Detenerse solo si viene otro vehículo"
+      ],
+      "why": "Ante un STOP hay que detenerse por completo, aunque la vía esté libre. No detenerse es una infracción."
+    },
+    "terms": [
+      {
+        "es": "línea de detención",
+        "en": "stop line"
+      },
+      {
+        "es": "detenerse",
+        "en": "to stop"
+      }
+    ],
+    "src": "Reglamento General de Circulación, STOP signs"
+  },
+  {
+    "id": "priority-03",
+    "cat": "priority",
+    "answer": 1,
+    "en": {
+      "q": "A sign shows a downward-pointing triangle with a red border (\"Ceda el paso\"). What does it require?",
+      "options": [
+        "Stop completely in every case",
+        "Give way to traffic on the road you are entering, stopping only if needed",
+        "Speed up to merge"
+      ],
+      "why": "The yield sign means you give way. You do not have to stop if the way is clear, but you must stop if needed."
+    },
+    "es": {
+      "q": "Una señal muestra un triángulo con el vértice hacia abajo y borde rojo («Ceda el paso»). ¿Qué exige?",
+      "options": [
+        "Detenerse completamente en todos los casos",
+        "Ceder el paso a los vehículos de la vía en la que entra, deteniéndose solo si es necesario",
+        "Acelerar para incorporarse"
+      ],
+      "why": "La señal de ceda el paso obliga a ceder. No hay que parar si la vía está libre, pero sí si es necesario."
+    },
+    "terms": [
+      {
+        "es": "ceda el paso",
+        "en": "yield / give way"
+      }
+    ],
+    "src": "Reglamento General de Circulación, yield signs"
+  },
+  {
+    "id": "priority-04",
+    "cat": "priority",
+    "answer": 0,
+    "en": {
+      "q": "You are stopped at a red light and the way to the right is clear. May you turn right on red?",
+      "options": [
+        "No. You wait for green, unless a separate signal or arrow allows the turn",
+        "Yes, after a full stop, as long as nobody is coming",
+        "Yes, but only if you use the turn signal"
+      ],
+      "why": "Turning right on red does not exist in Spain by default. Red means stop until the light changes or an arrow tells you otherwise."
+    },
+    "es": {
+      "q": "Está detenido ante un semáforo en rojo y la vía a su derecha está libre. ¿Puede girar a la derecha?",
+      "options": [
+        "No. Debe esperar al verde, salvo que otra luz o una flecha lo autorice",
+        "Sí, tras detenerse, si no viene nadie",
+        "Sí, pero solo si pone el intermitente"
+      ],
+      "why": "En España no existe el giro a la derecha con semáforo en rojo por defecto. El rojo obliga a esperar hasta que cambie o hasta que una flecha lo permita."
+    },
+    "terms": [
+      {
+        "es": "semáforo en rojo",
+        "en": "red light"
+      },
+      {
+        "es": "flecha",
+        "en": "arrow"
+      }
+    ],
+    "note": {
+      "es": "Es el hábito estadounidense más difícil de olvidar. Aquí no existe el giro a la derecha con el semáforo en rojo.",
+      "en": "This is the biggest habit to unlearn from the US. Right on red is not a thing here."
+    },
+    "src": "Reglamento General de Circulación, traffic light signals"
+  },
+  {
+    "id": "priority-05",
+    "cat": "priority",
+    "answer": 2,
+    "en": {
+      "q": "A traffic light shows a flashing yellow light. What does it mean?",
+      "options": [
+        "Stop and wait for green",
+        "You have priority over everyone",
+        "Proceed with caution, respecting the priority rules that apply"
+      ],
+      "why": "A flashing yellow means caution. It does not stop traffic and it does not give you priority. The normal priority rules still apply."
+    },
+    "es": {
+      "q": "Un semáforo muestra una luz amarilla intermitente. ¿Qué significa?",
+      "options": [
+        "Detenerse y esperar al verde",
+        "Tiene prioridad sobre todos",
+        "Avanzar con precaución, respetando las normas de prioridad que correspondan"
+      ],
+      "why": "El amarillo intermitente indica precaución. No detiene el tráfico ni da prioridad. Se aplican las normas de prioridad normales."
+    },
+    "terms": [
+      {
+        "es": "amarillo intermitente",
+        "en": "flashing yellow"
+      },
+      {
+        "es": "precaución",
+        "en": "caution"
+      }
+    ],
+    "src": "Reglamento General de Circulación, traffic light signals"
+  },
+  {
+    "id": "priority-06",
+    "cat": "priority",
+    "answer": 1,
+    "en": {
+      "q": "A traffic officer directs you to go while the traffic light is red. What do you do?",
+      "options": [
+        "Obey the light",
+        "Obey the officer",
+        "Stop and wait for the light to change"
+      ],
+      "why": "An officer's instructions come before traffic lights, which come before vertical signs, which come before road markings."
+    },
+    "es": {
+      "q": "Un agente de la circulación le indica que avance mientras el semáforo está en rojo. ¿Qué hace?",
+      "options": [
+        "Obedece el semáforo",
+        "Obedece al agente",
+        "Se detiene y espera a que cambie el semáforo"
+      ],
+      "why": "Las indicaciones de los agentes prevalecen sobre los semáforos, estos sobre las señales verticales y estas sobre las marcas viales."
+    },
+    "terms": [
+      {
+        "es": "agente de la circulación",
+        "en": "traffic officer"
+      }
+    ],
+    "src": "Reglamento General de Circulación, order of precedence among signals"
+  },
+  {
+    "id": "priority-07",
+    "cat": "priority",
+    "answer": 0,
+    "en": {
+      "q": "A pedestrian is crossing at a marked crossing with no traffic light. What must you do?",
+      "options": [
+        "Stop and let the pedestrian cross",
+        "Flash your headlights so they hurry",
+        "Continue if you are driving slowly"
+      ],
+      "why": "Pedestrians crossing at a zebra crossing have priority. Slow down and stop in time."
+    },
+    "es": {
+      "q": "Un peatón está cruzando por un paso de peatones sin semáforo. ¿Qué debe hacer?",
+      "options": [
+        "Detenerse y dejarle cruzar",
+        "Hacer ráfagas de luces para que se apresure",
+        "Continuar si circula despacio"
+      ],
+      "why": "Los peatones que cruzan por un paso de peatones tienen prioridad. Hay que reducir la velocidad y detenerse a tiempo."
+    },
+    "terms": [
+      {
+        "es": "paso de peatones / paso de cebra",
+        "en": "pedestrian (zebra) crossing"
+      },
+      {
+        "es": "peatón",
+        "en": "pedestrian"
+      }
+    ],
+    "src": "Reglamento General de Circulación, pedestrian priority"
+  },
+  {
+    "id": "priority-08",
+    "cat": "priority",
+    "answer": 2,
+    "en": {
+      "q": "You are turning right into a side street and pedestrians are crossing it. Who has priority?",
+      "options": [
+        "You, because you are already moving",
+        "Whoever arrives first",
+        "The pedestrians"
+      ],
+      "why": "When you turn, pedestrians crossing the street you are entering have priority over you."
+    },
+    "es": {
+      "q": "Va a girar a la derecha para entrar en una calle lateral y hay peatones cruzándola. ¿Quién tiene prioridad?",
+      "options": [
+        "Usted, porque ya está en movimiento",
+        "El que llegue primero",
+        "Los peatones"
+      ],
+      "why": "Al girar, los peatones que cruzan la calle a la que entra tienen prioridad sobre usted."
+    },
+    "terms": [
+      {
+        "es": "girar",
+        "en": "to turn"
+      },
+      {
+        "es": "calle lateral",
+        "en": "side street"
+      }
+    ],
+    "src": "Reglamento General de Circulación, priority of pedestrians when turning"
+  },
+  {
+    "id": "priority-09",
+    "cat": "priority",
+    "answer": 1,
+    "en": {
+      "q": "An ambulance with siren and blue flashing lights is approaching from behind. What should you do?",
+      "options": [
+        "Speed up to get out of its way",
+        "Move to the right and stop if necessary to let it pass",
+        "Stay in your lane at your current speed"
+      ],
+      "why": "You must make way for emergency vehicles on duty. Move to the right and stop if that is what it takes to let them through safely."
+    },
+    "es": {
+      "q": "Una ambulancia con sirena y luces azules se aproxima por detrás. ¿Qué debe hacer?",
+      "options": [
+        "Acelerar para apartarse de su camino",
+        "Apartarse a la derecha y detenerse si es necesario para facilitar su paso",
+        "Mantenerse en su carril a la misma velocidad"
+      ],
+      "why": "Hay que facilitar el paso a los vehículos de emergencia en servicio. Apártese a la derecha y deténgase si es necesario."
+    },
+    "terms": [
+      {
+        "es": "vehículo de emergencia",
+        "en": "emergency vehicle"
+      },
+      {
+        "es": "facilitar el paso",
+        "en": "to let through"
+      }
+    ],
+    "src": "Reglamento General de Circulación, priority vehicles"
+  },
+  {
+    "id": "priority-10",
+    "cat": "priority",
+    "answer": 0,
+    "en": {
+      "q": "You are on an unpaved track and reach a paved road with no signs. Who has priority?",
+      "options": [
+        "Vehicles on the paved road",
+        "Whoever is going faster",
+        "You, if you arrive first"
+      ],
+      "why": "Vehicles on a paved road have priority over vehicles joining from an unpaved track."
+    },
+    "es": {
+      "q": "Circula por un camino sin pavimentar y llega a una carretera pavimentada sin señales. ¿Quién tiene prioridad?",
+      "options": [
+        "Los vehículos de la carretera pavimentada",
+        "El que circule más rápido",
+        "Usted, si llega primero"
+      ],
+      "why": "Los vehículos que circulan por una vía pavimentada tienen prioridad sobre los que se incorporan desde un camino sin pavimentar."
+    },
+    "terms": [
+      {
+        "es": "camino sin pavimentar",
+        "en": "unpaved track"
+      },
+      {
+        "es": "pavimentada",
+        "en": "paved"
+      }
+    ],
+    "src": "Reglamento General de Circulación, priority at intersections"
+  },
+  {
+    "id": "priority-11",
+    "cat": "priority",
+    "answer": 2,
+    "en": {
+      "q": "You see a sign with a white-bordered yellow diamond. What does it tell you?",
+      "options": [
+        "Roadworks ahead",
+        "Stopping is prohibited",
+        "You are on a priority road, with priority at intersections until a sign ends it"
+      ],
+      "why": "The yellow diamond marks a road with priority. A diamond with a black bar through it marks the end of that priority."
+    },
+    "es": {
+      "q": "Ve una señal con un rombo amarillo de borde blanco. ¿Qué le indica?",
+      "options": [
+        "Obras próximas",
+        "Parada prohibida",
+        "Que circula por una vía con prioridad en las intersecciones hasta que otra señal lo anule"
+      ],
+      "why": "El rombo amarillo indica una vía con prioridad. El mismo rombo tachado indica el fin de esa prioridad."
+    },
+    "terms": [
+      {
+        "es": "calzada con prioridad",
+        "en": "priority road"
+      }
+    ],
+    "src": "Reglamento General de Circulación, priority signs"
+  },
+  {
+    "id": "roundabouts-01",
+    "cat": "roundabouts",
+    "answer": 1,
+    "en": {
+      "q": "You are entering a roundabout. Who has priority, unless a sign says otherwise?",
+      "options": [
+        "The vehicle entering, because it is on the right",
+        "Vehicles already circulating in the roundabout",
+        "The largest vehicle"
+      ],
+      "why": "Vehicles already in the roundabout have priority. You yield at the entrance."
+    },
+    "es": {
+      "q": "Va a entrar en una glorieta. ¿Quién tiene prioridad, salvo que una señal indique lo contrario?",
+      "options": [
+        "El vehículo que entra, por venir por la derecha",
+        "Los vehículos que ya circulan por la glorieta",
+        "El vehículo de mayor tamaño"
+      ],
+      "why": "Tienen prioridad los vehículos que ya circulan por el interior de la glorieta. Se cede el paso en la entrada."
+    },
+    "terms": [
+      {
+        "es": "glorieta / rotonda",
+        "en": "roundabout"
+      }
+    ],
+    "src": "Reglamento General de Circulación, roundabouts"
+  },
+  {
+    "id": "roundabouts-02",
+    "cat": "roundabouts",
+    "answer": 2,
+    "en": {
+      "q": "In which direction does traffic circulate in a roundabout in Spain?",
+      "options": [
+        "Clockwise",
+        "Either direction, depending on the lane",
+        "Counterclockwise"
+      ],
+      "why": "Spain drives on the right, so roundabouts run counterclockwise. Traffic inside comes toward you from the left."
+    },
+    "es": {
+      "q": "¿En qué sentido se circula por una glorieta en España?",
+      "options": [
+        "En el sentido de las agujas del reloj",
+        "En cualquiera, según el carril",
+        "En sentido contrario a las agujas del reloj"
+      ],
+      "why": "En España se circula por la derecha, así que las glorietas se recorren en sentido contrario a las agujas del reloj. Los vehículos del interior vienen desde su izquierda."
+    },
+    "terms": [
+      {
+        "es": "sentido contrario a las agujas del reloj",
+        "en": "counterclockwise"
+      }
+    ],
+    "note": {
+      "es": "Aquí hay glorietas por todas partes. Mismo sentido que en EE. UU., pero encontrarás muchas más.",
+      "en": "Roundabouts are everywhere here. Same direction as in the US, but you will meet far more of them."
+    },
+    "src": "Reglamento General de Circulación, roundabouts"
+  },
+  {
+    "id": "roundabouts-03",
+    "cat": "roundabouts",
+    "answer": 0,
+    "en": {
+      "q": "You are in the inner lane of a two-lane roundabout and your exit is the next one on the right. What is correct?",
+      "options": [
+        "Move to the outer lane in time, signal, and check that the lane is clear before leaving",
+        "Cut across directly from the inner lane to the exit",
+        "Stop in the roundabout and wait for the outer lane to clear"
+      ],
+      "why": "Change to the outer lane early and safely, signal, and only then take your exit. Never cut across other lanes and never stop inside the roundabout."
+    },
+    "es": {
+      "q": "Circula por el carril interior de una glorieta de dos carriles y su salida es la siguiente a la derecha. ¿Qué es correcto?",
+      "options": [
+        "Pasar a tiempo al carril exterior, señalizar y comprobar que está libre antes de salir",
+        "Cruzar directamente desde el carril interior hasta la salida",
+        "Detenerse en la glorieta y esperar a que el carril exterior quede libre"
+      ],
+      "why": "Hay que pasar al carril exterior con antelación y seguridad, señalizar y solo entonces tomar la salida. No se debe cortar la trayectoria a otros vehículos ni detenerse en la glorieta."
+    },
+    "terms": [
+      {
+        "es": "carril interior / exterior",
+        "en": "inner / outer lane"
+      },
+      {
+        "es": "salida",
+        "en": "exit"
+      }
+    ],
+    "src": "Reglamento General de Circulación, roundabouts"
+  },
+  {
+    "id": "roundabouts-04",
+    "cat": "roundabouts",
+    "answer": 1,
+    "en": {
+      "q": "When should you use the right turn signal in a roundabout?",
+      "options": [
+        "Never, because roundabouts do not need signals",
+        "In good time before the exit you are going to take",
+        "Only when you enter"
+      ],
+      "why": "Signal your exit early so the drivers waiting to enter and the ones behind you know what you will do."
+    },
+    "es": {
+      "q": "¿Cuándo debe usar el intermitente derecho en una glorieta?",
+      "options": [
+        "Nunca, porque en las glorietas no se señaliza",
+        "Con antelación suficiente antes de la salida que va a tomar",
+        "Solo al entrar"
+      ],
+      "why": "Señalice la salida con antelación para que los conductores que esperan para entrar y los que le siguen sepan lo que va a hacer."
+    },
+    "terms": [
+      {
+        "es": "intermitente",
+        "en": "turn signal"
+      }
+    ],
+    "src": "Reglamento General de Circulación, roundabouts and signaling"
+  },
+  {
+    "id": "roundabouts-05",
+    "cat": "roundabouts",
+    "answer": 2,
+    "en": {
+      "q": "You are waiting to enter a roundabout. From which side do the vehicles with priority approach?",
+      "options": [
+        "From your right",
+        "From the front only",
+        "From your left"
+      ],
+      "why": "The roundabout runs counterclockwise, so the vehicles circulating inside come at you from the left."
+    },
+    "es": {
+      "q": "Espera para entrar en una glorieta. ¿Por qué lado se aproximan los vehículos con prioridad?",
+      "options": [
+        "Por su derecha",
+        "Solo de frente",
+        "Por su izquierda"
+      ],
+      "why": "La glorieta se recorre en sentido contrario a las agujas del reloj, por lo que los vehículos del interior llegan desde su izquierda."
+    },
+    "terms": [
+      {
+        "es": "por su izquierda",
+        "en": "from your left"
+      }
+    ],
+    "src": "Reglamento General de Circulación, roundabouts"
+  },
+  {
+    "id": "overtaking-01",
+    "cat": "overtaking",
+    "answer": 0,
+    "en": {
+      "q": "On which side do you normally overtake?",
+      "options": [
+        "On the left",
+        "On the right",
+        "On whichever side is free"
+      ],
+      "why": "Overtaking is normally done on the left. Passing on the right is allowed only in specific cases, such as when the vehicle ahead is signaling a left turn."
+    },
+    "es": {
+      "q": "¿Por qué lado se adelanta normalmente?",
+      "options": [
+        "Por la izquierda",
+        "Por la derecha",
+        "Por el lado que esté libre"
+      ],
+      "why": "El adelantamiento se realiza normalmente por la izquierda. Solo en casos concretos se permite por la derecha, por ejemplo si el vehículo de delante indica un giro a la izquierda."
+    },
+    "terms": [
+      {
+        "es": "adelantamiento",
+        "en": "overtaking / passing"
+      }
+    ],
+    "src": "Reglamento General de Circulación, overtaking"
+  },
+  {
+    "id": "overtaking-02",
+    "cat": "overtaking",
+    "answer": 1,
+    "en": {
+      "q": "Where is overtaking prohibited?",
+      "options": [
+        "On a straight stretch with a dashed line and good visibility",
+        "On a hill crest or a blind curve",
+        "On an empty motorway"
+      ],
+      "why": "You cannot overtake where you do not have enough visibility to complete the maneuver, such as blind curves and crests."
+    },
+    "es": {
+      "q": "¿Dónde está prohibido adelantar?",
+      "options": [
+        "En un tramo recto con línea discontinua y buena visibilidad",
+        "En un cambio de rasante o en una curva sin visibilidad",
+        "En una autopista vacía"
+      ],
+      "why": "No se puede adelantar donde no hay visibilidad suficiente para completar la maniobra, como en curvas sin visibilidad y cambios de rasante."
+    },
+    "terms": [
+      {
+        "es": "cambio de rasante",
+        "en": "crest of a hill"
+      },
+      {
+        "es": "curva sin visibilidad",
+        "en": "blind curve"
+      }
+    ],
+    "src": "Reglamento General de Circulación, overtaking restrictions"
+  },
+  {
+    "id": "overtaking-03",
+    "cat": "overtaking",
+    "answer": 2,
+    "en": {
+      "q": "You are overtaking a cyclist on a two-way road outside town. What is the minimum lateral clearance?",
+      "options": [
+        "0.5 m",
+        "1 m",
+        "1.5 m"
+      ],
+      "why": "Leave at least 1.5 meters. If needed you may cross the solid line to do it, as long as it is safe."
+    },
+    "es": {
+      "q": "Va a adelantar a un ciclista en una carretera de doble sentido fuera de poblado. ¿Cuál es la separación lateral mínima?",
+      "options": [
+        "0,5 m",
+        "1 m",
+        "1,5 m"
+      ],
+      "why": "Debe dejar al menos 1,5 metros. Si es necesario puede invadir la línea continua, siempre que sea seguro."
+    },
+    "terms": [
+      {
+        "es": "ciclista",
+        "en": "cyclist"
+      },
+      {
+        "es": "separación lateral",
+        "en": "lateral clearance"
+      }
+    ],
+    "src": "Reglamento General de Circulación, overtaking cyclists"
+  },
+  {
+    "id": "overtaking-04",
+    "cat": "overtaking",
+    "answer": 0,
+    "en": {
+      "q": "Another driver is overtaking you. What should you do?",
+      "options": [
+        "Stay on the right and do not speed up",
+        "Speed up to keep ahead",
+        "Move toward the center line to give space"
+      ],
+      "why": "When overtaken, keep to the right and do not increase speed. If needed, ease off to make the pass shorter."
+    },
+    "es": {
+      "q": "Otro conductor le está adelantando. ¿Qué debe hacer?",
+      "options": [
+        "Mantenerse a la derecha y no aumentar la velocidad",
+        "Acelerar para no ser rebasado",
+        "Acercarse a la línea central para dejarle espacio"
+      ],
+      "why": "Si le adelantan, manténgase a la derecha y no aumente la velocidad. Si es preciso, reduzca para acortar el adelantamiento."
+    },
+    "terms": [
+      {
+        "es": "ser adelantado",
+        "en": "being overtaken"
+      }
+    ],
+    "src": "Reglamento General de Circulación, duties of the overtaken driver"
+  },
+  {
+    "id": "overtaking-05",
+    "cat": "overtaking",
+    "answer": 1,
+    "en": {
+      "q": "The center line has a solid line on the other lane's side and a dashed line on yours. May you overtake?",
+      "options": [
+        "No, any solid line prohibits it",
+        "Yes, you follow the marking on your own side, if it is safe",
+        "Only if you are on a motorway"
+      ],
+      "why": "When the marking is double, you follow the line on your side of the road. A dashed line on your side permits overtaking when it is safe."
+    },
+    "es": {
+      "q": "En el eje de la calzada hay una línea continua en el lado contrario y una discontinua en el suyo. ¿Puede adelantar?",
+      "options": [
+        "No, cualquier línea continua lo prohíbe",
+        "Sí, se respeta la marca de su lado, si es seguro",
+        "Solo si circula por una autopista"
+      ],
+      "why": "Cuando la marca es doble, rige la línea de su lado. Una línea discontinua en su lado permite adelantar si es seguro."
+    },
+    "terms": [
+      {
+        "es": "línea continua",
+        "en": "solid line"
+      },
+      {
+        "es": "línea discontinua",
+        "en": "dashed line"
+      }
+    ],
+    "src": "Reglamento General de Circulación, road markings"
+  },
+  {
+    "id": "overtaking-06",
+    "cat": "overtaking",
+    "answer": 2,
+    "en": {
+      "q": "On a motorway with free lanes, when should you use the left lane?",
+      "options": [
+        "Whenever you like to go faster",
+        "For driving long distances",
+        "To overtake, then return to the right"
+      ],
+      "why": "Keep to the right and use the left lane to overtake. Staying in the left lane without overtaking can be fined."
+    },
+    "es": {
+      "q": "En una autopista con carriles libres, ¿cuándo debe usar el carril izquierdo?",
+      "options": [
+        "Siempre que quiera ir más rápido",
+        "Para recorrer largas distancias",
+        "Para adelantar, volviendo después a la derecha"
+      ],
+      "why": "Circule por el carril de la derecha y use el izquierdo para adelantar. Permanecer en el izquierdo sin adelantar puede ser sancionado."
+    },
+    "terms": [
+      {
+        "es": "carril izquierdo",
+        "en": "left lane"
+      }
+    ],
+    "note": {
+      "es": "Aquí se sanciona ocupar el carril izquierdo sin adelantar, a diferencia de muchas autopistas de EE. UU.",
+      "en": "Lane hogging in the left lane is enforced here, unlike many US highways."
+    },
+    "src": "Reglamento General de Circulación, use of lanes"
+  },
+  {
+    "id": "overtaking-07",
+    "cat": "overtaking",
+    "answer": 0,
+    "en": {
+      "q": "The vehicle ahead is signaling a left turn and has moved toward the center. How may you pass it?",
+      "options": [
+        "On the right, if there is room and it is safe",
+        "You may not pass it at all",
+        "On the left, crossing the center line"
+      ],
+      "why": "Passing on the right is allowed when the vehicle ahead has signaled a left turn and positioned itself for it."
+    },
+    "es": {
+      "q": "El vehículo de delante indica un giro a la izquierda y se ha desplazado hacia el centro. ¿Cómo puede rebasarlo?",
+      "options": [
+        "Por la derecha, si hay espacio y es seguro",
+        "No puede rebasarlo de ninguna manera",
+        "Por la izquierda, invadiendo la línea central"
+      ],
+      "why": "Se puede adelantar por la derecha cuando el vehículo de delante ha señalizado un giro a la izquierda y se ha colocado para ello."
+    },
+    "terms": [
+      {
+        "es": "giro a la izquierda",
+        "en": "left turn"
+      }
+    ],
+    "src": "Reglamento General de Circulación, overtaking on the right"
+  },
+  {
+    "id": "alcohol-01",
+    "cat": "alcohol",
+    "answer": 1,
+    "en": {
+      "q": "What is the maximum alcohol level in exhaled air for most drivers?",
+      "options": [
+        "0.15 mg/L",
+        "0.25 mg/L",
+        "0.40 mg/L"
+      ],
+      "why": "The general limit is 0.25 mg per liter of exhaled air (0.5 g/L in blood)."
+    },
+    "es": {
+      "q": "¿Cuál es la tasa máxima de alcohol en aire espirado para la mayoría de los conductores?",
+      "options": [
+        "0,15 mg/l",
+        "0,25 mg/l",
+        "0,40 mg/l"
+      ],
+      "why": "La tasa general es de 0,25 mg por litro de aire espirado (0,5 g/l en sangre)."
+    },
+    "terms": [
+      {
+        "es": "aire espirado",
+        "en": "exhaled air"
+      },
+      {
+        "es": "tasa de alcohol",
+        "en": "alcohol limit"
+      }
+    ],
+    "note": {
+      "es": "El límite en EE. UU. es 0,08 % de alcohol en sangre, unos 0,8 g/l. El 0,5 g/l español es mucho más estricto.",
+      "en": "The US limit is 0.08% BAC, about 0.8 g/L. Spain's 0.5 g/L is much stricter."
+    },
+    "src": "Reglamento General de Circulación, alcohol limits"
+  },
+  {
+    "id": "alcohol-02",
+    "cat": "alcohol",
+    "answer": 2,
+    "en": {
+      "q": "What is the limit in exhaled air for novice drivers (license under 2 years) and professional drivers?",
+      "options": [
+        "0.25 mg/L",
+        "0.00 mg/L",
+        "0.15 mg/L"
+      ],
+      "why": "Novice and professional drivers have a lower limit: 0.15 mg/L in exhaled air (0.3 g/L in blood)."
+    },
+    "es": {
+      "q": "¿Cuál es la tasa en aire espirado para conductores noveles (permiso con menos de 2 años) y profesionales?",
+      "options": [
+        "0,25 mg/l",
+        "0,00 mg/l",
+        "0,15 mg/l"
+      ],
+      "why": "Los conductores noveles y profesionales tienen una tasa menor: 0,15 mg/l en aire espirado (0,3 g/l en sangre)."
+    },
+    "terms": [
+      {
+        "es": "conductor novel",
+        "en": "novice driver"
+      },
+      {
+        "es": "conductor profesional",
+        "en": "professional driver"
+      }
+    ],
+    "src": "Reglamento General de Circulación, alcohol limits"
+  },
+  {
+    "id": "alcohol-03",
+    "cat": "alcohol",
+    "answer": 0,
+    "en": {
+      "q": "Above what alcohol level in exhaled air is driving a criminal offense, whatever your symptoms?",
+      "options": [
+        "0.60 mg/L",
+        "0.40 mg/L",
+        "0.80 mg/L"
+      ],
+      "why": "Driving with more than 0.60 mg/L in exhaled air (1.2 g/L in blood) is a crime. It can also be a crime below that if your driving is clearly affected."
+    },
+    "es": {
+      "q": "¿Por encima de qué tasa de alcohol en aire espirado conducir es delito, con independencia de los síntomas?",
+      "options": [
+        "0,60 mg/l",
+        "0,40 mg/l",
+        "0,80 mg/l"
+      ],
+      "why": "Conducir con más de 0,60 mg/l en aire espirado (1,2 g/l en sangre) es delito. También puede serlo por debajo si la conducción está claramente afectada."
+    },
+    "terms": [
+      {
+        "es": "delito",
+        "en": "crime"
+      }
+    ],
+    "src": "Código Penal, delitos contra la seguridad vial"
+  },
+  {
+    "id": "alcohol-04",
+    "cat": "alcohol",
+    "answer": 1,
+    "en": {
+      "q": "A driver tests positive for an illegal drug but shows no signs of impairment. What is the situation?",
+      "options": [
+        "No offense, because there are no symptoms",
+        "It is an offense; the presence of the drug is enough",
+        "It is an offense only if the driver caused an accident"
+      ],
+      "why": "For illegal drugs there is no permitted level. Their presence in the body while driving is already an offense."
+    },
+    "es": {
+      "q": "Un conductor da positivo en una droga ilegal pero no presenta signos de afectación. ¿Cuál es la situación?",
+      "options": [
+        "No hay infracción, porque no hay síntomas",
+        "Es una infracción; basta con la presencia de la droga",
+        "Solo es infracción si provocó un accidente"
+      ],
+      "why": "Con las drogas ilegales no existe una tasa permitida. Su presencia en el organismo al conducir ya es infracción."
+    },
+    "terms": [
+      {
+        "es": "droga",
+        "en": "drug"
+      },
+      {
+        "es": "positivo",
+        "en": "positive (test result)"
+      }
+    ],
+    "src": "Ley de Tráfico (RDL 6/2015), driving under the influence of drugs"
+  },
+  {
+    "id": "alcohol-05",
+    "cat": "alcohol",
+    "answer": 2,
+    "en": {
+      "q": "A driver refuses to take a breath test when requested by an officer. What does this mean?",
+      "options": [
+        "Nothing, it is their right",
+        "A minor fine only",
+        "It is a criminal offense"
+      ],
+      "why": "Refusing the breath or drug test is a crime in itself, whatever you had to drink."
+    },
+    "es": {
+      "q": "Un conductor se niega a realizar la prueba de alcoholemia cuando se lo pide un agente. ¿Qué supone?",
+      "options": [
+        "Nada, es un derecho suyo",
+        "Solo una multa leve",
+        "Es un delito"
+      ],
+      "why": "Negarse a la prueba de alcohol o drogas es un delito en sí mismo, con independencia de lo que haya bebido."
+    },
+    "terms": [
+      {
+        "es": "prueba de alcoholemia",
+        "en": "breath test"
+      }
+    ],
+    "src": "Código Penal, delitos contra la seguridad vial"
+  },
+  {
+    "id": "alcohol-06",
+    "cat": "alcohol",
+    "answer": 0,
+    "en": {
+      "q": "Which of these makes you sober sooner?",
+      "options": [
+        "Only the passage of time",
+        "Strong coffee",
+        "A cold shower"
+      ],
+      "why": "Only time lowers alcohol in the blood. Coffee, showers, or fresh air do not."
+    },
+    "es": {
+      "q": "¿Qué hace que se le pase antes el efecto del alcohol?",
+      "options": [
+        "Solo el paso del tiempo",
+        "Un café fuerte",
+        "Una ducha fría"
+      ],
+      "why": "Solo el tiempo reduce el alcohol en sangre. El café, la ducha o el aire fresco no lo hacen."
+    },
+    "terms": [
+      {
+        "es": "efecto del alcohol",
+        "en": "effect of alcohol"
+      }
+    ],
+    "src": "DGT road safety guidance on alcohol"
+  },
+  {
+    "id": "alcohol-07",
+    "cat": "alcohol",
+    "answer": 1,
+    "en": {
+      "q": "A medicine shows the driving-warning pictogram on the box. What should you do?",
+      "options": [
+        "Ignore it, since it is only a recommendation",
+        "Follow the warning and ask your doctor or pharmacist before driving",
+        "Drive only at night"
+      ],
+      "why": "The pictogram warns that the medicine can affect your driving. Ask a professional before getting behind the wheel."
+    },
+    "es": {
+      "q": "Un medicamento lleva en el envase el pictograma de advertencia sobre la conducción. ¿Qué debe hacer?",
+      "options": [
+        "Ignorarlo, porque es solo una recomendación",
+        "Atender la advertencia y consultar al médico o al farmacéutico antes de conducir",
+        "Conducir solo de noche"
+      ],
+      "why": "El pictograma avisa de que el medicamento puede afectar a la conducción. Consulte a un profesional antes de ponerse al volante."
+    },
+    "terms": [
+      {
+        "es": "medicamento",
+        "en": "medicine"
+      },
+      {
+        "es": "pictograma",
+        "en": "pictogram"
+      }
+    ],
+    "src": "DGT road safety guidance on medicines and driving"
+  },
+  {
+    "id": "alcohol-08",
+    "cat": "alcohol",
+    "answer": 2,
+    "en": {
+      "q": "On a long trip, what does the DGT generally recommend to fight fatigue?",
+      "options": [
+        "Stop only when you feel sleepy",
+        "Drive through the night to avoid traffic",
+        "Rest about every two hours or 200 km"
+      ],
+      "why": "A common recommendation is to stop and rest at least every two hours or 200 km, and not to wait until you feel sleepy."
+    },
+    "es": {
+      "q": "En un viaje largo, ¿qué recomienda en general la DGT para combatir la fatiga?",
+      "options": [
+        "Parar solo cuando se tenga sueño",
+        "Conducir de noche para evitar el tráfico",
+        "Descansar aproximadamente cada dos horas o 200 km"
+      ],
+      "why": "Una recomendación habitual es parar y descansar al menos cada dos horas o 200 km, sin esperar a tener sueño."
+    },
+    "terms": [
+      {
+        "es": "fatiga",
+        "en": "fatigue"
+      },
+      {
+        "es": "descanso",
+        "en": "rest"
+      }
+    ],
+    "src": "DGT road safety guidance on fatigue"
+  },
+  {
+    "id": "safety-01",
+    "cat": "safety",
+    "answer": 1,
+    "en": {
+      "q": "Who must wear a seat belt in a car?",
+      "options": [
+        "Only the driver and the front passenger",
+        "All occupants, in the front and rear seats",
+        "Only on motorways"
+      ],
+      "why": "Seat belts (or the right child restraint) are mandatory for every occupant, in every seat, on every road."
+    },
+    "es": {
+      "q": "¿Quién debe llevar puesto el cinturón de seguridad en un turismo?",
+      "options": [
+        "Solo el conductor y el acompañante delantero",
+        "Todos los ocupantes, en las plazas delanteras y traseras",
+        "Solo en autopista"
+      ],
+      "why": "El cinturón (o el sistema de retención adecuado) es obligatorio para todos los ocupantes, en todas las plazas y en todas las vías."
+    },
+    "terms": [
+      {
+        "es": "cinturón de seguridad",
+        "en": "seat belt"
+      },
+      {
+        "es": "ocupantes",
+        "en": "occupants"
+      }
+    ],
+    "src": "Reglamento General de Circulación, seat belts and restraint systems"
+  },
+  {
+    "id": "safety-02",
+    "cat": "safety",
+    "answer": 0,
+    "en": {
+      "q": "A child is 135 cm tall or less. How must the child travel?",
+      "options": [
+        "In an approved child restraint system, normally in the rear seat",
+        "With the adult seat belt in the front seat",
+        "Held on an adult's lap"
+      ],
+      "why": "Children 135 cm or shorter must use an approved child restraint suited to their height and weight, normally in the rear seat."
+    },
+    "es": {
+      "q": "Un niño mide 135 cm o menos. ¿Cómo debe viajar?",
+      "options": [
+        "En un sistema de retención infantil homologado, normalmente en el asiento trasero",
+        "Con el cinturón de adulto en el asiento delantero",
+        "En brazos de un adulto"
+      ],
+      "why": "Los menores de 135 cm o menos deben usar un sistema de retención homologado adecuado a su talla y peso, normalmente en el asiento trasero."
+    },
+    "terms": [
+      {
+        "es": "sistema de retención infantil (SRI)",
+        "en": "child restraint system"
+      },
+      {
+        "es": "asiento trasero",
+        "en": "rear seat"
+      }
+    ],
+    "note": {
+      "es": "La norma depende de la estatura, no de la edad. Aquí son 135 cm.",
+      "en": "The rule is based on height, not age. Here it is 135 cm."
+    },
+    "src": "Reglamento General de Circulación, child restraint systems"
+  },
+  {
+    "id": "safety-03",
+    "cat": "safety",
+    "answer": 2,
+    "en": {
+      "q": "May you hold and use a mobile phone while stopped at a red light?",
+      "options": [
+        "Yes, because the car is not moving",
+        "Yes, if the engine is off",
+        "No, the ban on holding the phone applies while driving, including at lights"
+      ],
+      "why": "Holding a phone while driving is banned, and that includes waiting at a traffic light with the engine running. It is a serious offense with a fine and points."
+    },
+    "es": {
+      "q": "¿Puede sostener y usar el móvil mientras espera detenido en un semáforo en rojo?",
+      "options": [
+        "Sí, porque el vehículo no se mueve",
+        "Sí, si tiene el motor apagado",
+        "No, la prohibición de sostener el móvil rige al conducir, también en el semáforo"
+      ],
+      "why": "Sostener el móvil mientras se conduce está prohibido, también al esperar en un semáforo con el motor en marcha. Es una infracción grave con multa y pérdida de puntos."
+    },
+    "terms": [
+      {
+        "es": "teléfono móvil",
+        "en": "mobile phone"
+      }
+    ],
+    "src": "Ley de Tráfico (RDL 6/2015) and Reglamento General de Circulación, use of phones"
+  },
+  {
+    "id": "safety-04",
+    "cat": "safety",
+    "answer": 1,
+    "en": {
+      "q": "Are headphones or earbuds allowed while driving to listen to music?",
+      "options": [
+        "Yes, if only one ear is covered",
+        "No, it is prohibited",
+        "Yes, on motorways"
+      ],
+      "why": "Headphones and earbuds connected to audio equipment are prohibited while driving."
+    },
+    "es": {
+      "q": "¿Se pueden llevar auriculares para escuchar música mientras se conduce?",
+      "options": [
+        "Sí, si cubren solo un oído",
+        "No, está prohibido",
+        "Sí, en autopista"
+      ],
+      "why": "Está prohibido conducir con auriculares conectados a aparatos de sonido."
+    },
+    "terms": [
+      {
+        "es": "auriculares",
+        "en": "headphones / earbuds"
+      }
+    ],
+    "src": "Reglamento General de Circulación, driver attention and equipment"
+  },
+  {
+    "id": "safety-05",
+    "cat": "safety",
+    "answer": 0,
+    "en": {
+      "q": "Which lights must you use when driving through a tunnel?",
+      "options": [
+        "Low beams (dipped headlights)",
+        "High beams",
+        "Only parking lights"
+      ],
+      "why": "In tunnels you must use low beams, even if the tunnel is lit."
+    },
+    "es": {
+      "q": "¿Qué luces debe llevar encendidas al circular por un túnel?",
+      "options": [
+        "Las luces de cruce",
+        "Las luces de carretera",
+        "Solo las de posición"
+      ],
+      "why": "En los túneles hay que llevar las luces de cruce, aunque el túnel esté iluminado."
+    },
+    "terms": [
+      {
+        "es": "luces de cruce",
+        "en": "low beams"
+      },
+      {
+        "es": "luces de carretera",
+        "en": "high beams"
+      },
+      {
+        "es": "túnel",
+        "en": "tunnel"
+      }
+    ],
+    "src": "Reglamento General de Circulación, use of lights"
+  },
+  {
+    "id": "safety-06",
+    "cat": "safety",
+    "answer": 2,
+    "en": {
+      "q": "In normal conditions, what following distance does the DGT teach?",
+      "options": [
+        "About one second",
+        "About half a second",
+        "At least two seconds behind the vehicle ahead"
+      ],
+      "why": "A common DGT guideline is at least two seconds behind the car ahead, and more in rain, fog, or heavy traffic."
+    },
+    "es": {
+      "q": "En condiciones normales, ¿qué distancia de seguridad enseña la DGT?",
+      "options": [
+        "Aproximadamente un segundo",
+        "Aproximadamente medio segundo",
+        "Al menos dos segundos respecto al vehículo de delante"
+      ],
+      "why": "Una pauta habitual de la DGT es dejar al menos dos segundos respecto al vehículo de delante, y más con lluvia, niebla o tráfico denso."
+    },
+    "terms": [
+      {
+        "es": "distancia de seguridad",
+        "en": "safe distance"
+      }
+    ],
+    "src": "DGT driver education guidance; Reglamento General de Circulación, safety distance"
+  },
+  {
+    "id": "docs-01",
+    "cat": "docs",
+    "answer": 1,
+    "en": {
+      "q": "How many points does a standard Spanish driving license start with?",
+      "options": [
+        "10",
+        "12",
+        "15"
+      ],
+      "why": "A standard license starts with 12 points. Novice drivers start with fewer."
+    },
+    "es": {
+      "q": "¿Con cuántos puntos comienza un permiso de conducir estándar en España?",
+      "options": [
+        "10",
+        "12",
+        "15"
+      ],
+      "why": "Un permiso estándar comienza con 12 puntos. Los conductores noveles comienzan con menos."
+    },
+    "terms": [
+      {
+        "es": "permiso por puntos",
+        "en": "points license"
+      }
+    ],
+    "src": "Ley de Tráfico (RDL 6/2015), points system"
+  },
+  {
+    "id": "docs-02",
+    "cat": "docs",
+    "answer": 0,
+    "en": {
+      "q": "With how many points does a novice driver (first three years) start?",
+      "options": [
+        "8",
+        "10",
+        "12"
+      ],
+      "why": "Novice drivers start with 8 points and can reach 12 after a period without infractions."
+    },
+    "es": {
+      "q": "¿Con cuántos puntos empieza un conductor novel (primeros tres años)?",
+      "options": [
+        "8",
+        "10",
+        "12"
+      ],
+      "why": "Los conductores noveles empiezan con 8 puntos y pueden llegar a 12 tras un periodo sin infracciones."
+    },
+    "terms": [
+      {
+        "es": "conductor novel",
+        "en": "novice driver"
+      }
+    ],
+    "src": "Ley de Tráfico (RDL 6/2015), points system"
+  },
+  {
+    "id": "docs-03",
+    "cat": "docs",
+    "answer": 2,
+    "en": {
+      "q": "How long is a passed theory exam valid if you have not yet passed the practical test?",
+      "options": [
+        "6 months",
+        "1 year",
+        "2 years"
+      ],
+      "why": "A theory pass is kept for two years. After that you must take all the exams again."
+    },
+    "es": {
+      "q": "¿Cuánto tiempo es válido un examen teórico aprobado si todavía no ha aprobado el práctico?",
+      "options": [
+        "6 meses",
+        "1 año",
+        "2 años"
+      ],
+      "why": "El aprobado del teórico se conserva durante dos años. Pasado ese tiempo hay que repetir todos los exámenes."
+    },
+    "terms": [
+      {
+        "es": "examen teórico",
+        "en": "theory exam"
+      },
+      {
+        "es": "examen práctico",
+        "en": "practical exam"
+      }
+    ],
+    "src": "DGT, requirements and exam registration page"
+  },
+  {
+    "id": "docs-04",
+    "cat": "docs",
+    "answer": 1,
+    "en": {
+      "q": "Which documents must you be able to show when driving?",
+      "options": [
+        "Only your passport",
+        "Your driving license, the vehicle's registration (permiso de circulación) and its ITV card",
+        "Only your driving license"
+      ],
+      "why": "You must carry your license, the vehicle registration document, and the technical inspection card (ficha ITV)."
+    },
+    "es": {
+      "q": "¿Qué documentos debe poder mostrar cuando conduce?",
+      "options": [
+        "Solo su pasaporte",
+        "El permiso de conducir, el permiso de circulación del vehículo y su tarjeta de ITV",
+        "Solo el permiso de conducir"
+      ],
+      "why": "Debe llevar el permiso de conducir, el permiso de circulación del vehículo y la tarjeta de inspección técnica (ficha ITV)."
+    },
+    "terms": [
+      {
+        "es": "permiso de circulación",
+        "en": "vehicle registration"
+      },
+      {
+        "es": "tarjeta ITV",
+        "en": "inspection card"
+      }
+    ],
+    "src": "Reglamento General de Circulación, documents required to drive"
+  },
+  {
+    "id": "signs-01",
+    "cat": "signs",
+    "answer": 0,
+    "en": {
+      "q": "A triangular sign with a red border usually indicates:",
+      "options": [
+        "Danger or a warning",
+        "A prohibition",
+        "An obligation"
+      ],
+      "why": "Triangle with a red border = danger. Circle with a red border = prohibition. Blue circle = obligation."
+    },
+    "es": {
+      "q": "Una señal triangular con borde rojo indica normalmente:",
+      "options": [
+        "Peligro o advertencia",
+        "Una prohibición",
+        "Una obligación"
+      ],
+      "why": "Triángulo con borde rojo = peligro. Círculo con borde rojo = prohibición. Círculo azul = obligación."
+    },
+    "terms": [
+      {
+        "es": "señal de peligro",
+        "en": "warning sign"
+      }
+    ],
+    "src": "Reglamento General de Circulación, traffic signs"
+  },
+  {
+    "id": "signs-02",
+    "cat": "signs",
+    "answer": 2,
+    "en": {
+      "q": "A circular sign with a red border and a number inside indicates:",
+      "options": [
+        "The minimum speed",
+        "A recommended speed",
+        "The maximum speed"
+      ],
+      "why": "A red-bordered circle with a number is the maximum speed limit. A blue circle with a number is a minimum speed."
+    },
+    "es": {
+      "q": "Una señal circular con borde rojo y un número en el centro indica:",
+      "options": [
+        "La velocidad mínima",
+        "Una velocidad recomendada",
+        "La velocidad máxima"
+      ],
+      "why": "Un círculo de borde rojo con un número es el límite máximo de velocidad. Un círculo azul con un número es una velocidad mínima."
+    },
+    "terms": [
+      {
+        "es": "velocidad máxima",
+        "en": "maximum speed"
+      }
+    ],
+    "src": "Reglamento General de Circulación, traffic signs"
+  },
+  {
+    "id": "signs-03",
+    "cat": "signs",
+    "answer": 1,
+    "en": {
+      "q": "A blue circular sign with a white arrow means:",
+      "options": [
+        "A prohibition",
+        "A mandatory direction or action",
+        "Information about services"
+      ],
+      "why": "Blue circular signs state an obligation, such as a mandatory direction."
+    },
+    "es": {
+      "q": "Una señal circular azul con una flecha blanca significa:",
+      "options": [
+        "Una prohibición",
+        "Una dirección u obligación a seguir",
+        "Información sobre servicios"
+      ],
+      "why": "Las señales circulares azules indican una obligación, como una dirección obligatoria."
+    },
+    "terms": [
+      {
+        "es": "obligación",
+        "en": "mandatory"
+      }
+    ],
+    "src": "Reglamento General de Circulación, traffic signs"
+  },
+  {
+    "id": "signs-04",
+    "cat": "signs",
+    "answer": 2,
+    "en": {
+      "q": "What shape is the STOP sign?",
+      "options": [
+        "Triangle",
+        "Circle",
+        "Octagon"
+      ],
+      "why": "STOP is an octagon, so it is recognizable even from behind or covered in snow or dirt."
+    },
+    "es": {
+      "q": "¿Qué forma tiene la señal de STOP?",
+      "options": [
+        "Triángulo",
+        "Círculo",
+        "Octógono"
+      ],
+      "why": "El STOP es un octógono, por lo que se reconoce incluso por detrás o si está cubierto de suciedad."
+    },
+    "terms": [
+      {
+        "es": "octógono",
+        "en": "octagon"
+      }
+    ],
+    "src": "Reglamento General de Circulación, traffic signs"
+  },
+  {
+    "id": "signs-05",
+    "cat": "signs",
+    "answer": 0,
+    "en": {
+      "q": "Direction signs with a blue background are used on:",
+      "options": [
+        "Motorways (autopistas and autovías)",
+        "Conventional roads",
+        "Urban streets only"
+      ],
+      "why": "Blue signs guide traffic on motorways. Green signs are used on conventional roads."
+    },
+    "es": {
+      "q": "Las señales de orientación con fondo azul se utilizan en:",
+      "options": [
+        "Autopistas y autovías",
+        "Carreteras convencionales",
+        "Solo calles urbanas"
+      ],
+      "why": "Las señales azules orientan en autopistas y autovías. Las verdes se usan en carreteras convencionales."
+    },
+    "terms": [
+      {
+        "es": "señal de orientación",
+        "en": "direction sign"
+      }
+    ],
+    "note": {
+      "es": "Las señales verdes de autopista son el hábito de EE. UU. Aquí el azul significa autopista.",
+      "en": "Green highway signs are the US habit. Here, blue means motorway."
+    },
+    "src": "Reglamento General de Circulación, direction signs"
+  },
+  {
+    "id": "signs-06",
+    "cat": "signs",
+    "answer": 1,
+    "en": {
+      "q": "Signs with a yellow background, near roadworks, mean:",
+      "options": [
+        "That they are permanent signs",
+        "That they are temporary and override the permanent ones",
+        "That they apply only to trucks"
+      ],
+      "why": "Yellow (or orange) signs mark temporary conditions such as roadworks. They take priority over the permanent signs."
+    },
+    "es": {
+      "q": "Las señales de fondo amarillo, cerca de unas obras, significan:",
+      "options": [
+        "Que son señales permanentes",
+        "Que son temporales y prevalecen sobre las permanentes",
+        "Que solo afectan a camiones"
+      ],
+      "why": "Las señales amarillas o naranjas indican situaciones temporales como obras. Prevalecen sobre las permanentes."
+    },
+    "terms": [
+      {
+        "es": "obras",
+        "en": "roadworks"
+      },
+      {
+        "es": "señal provisional",
+        "en": "temporary sign"
+      }
+    ],
+    "src": "Reglamento General de Circulación, temporary signs"
+  },
+  {
+    "id": "signs-07",
+    "cat": "signs",
+    "answer": 2,
+    "en": {
+      "q": "In Spain, which color is used for the center line on a normal road?",
+      "options": [
+        "Yellow",
+        "Red",
+        "White"
+      ],
+      "why": "Road lines are white in Spain. Yellow lines are for temporary works and for certain curb restrictions."
+    },
+    "es": {
+      "q": "En España, ¿de qué color es la línea central en una carretera normal?",
+      "options": [
+        "Amarillo",
+        "Rojo",
+        "Blanco"
+      ],
+      "why": "Las líneas de la carretera son blancas en España. Las amarillas se usan en obras temporales y en ciertas restricciones en bordillos."
+    },
+    "terms": [
+      {
+        "es": "marca vial",
+        "en": "road marking"
+      }
+    ],
+    "note": {
+      "es": "En EE. UU. una línea central amarilla separa sentidos opuestos. En España esas líneas son blancas.",
+      "en": "In the US, a yellow center line separates opposing traffic. In Spain, those lines are white."
+    },
+    "src": "Reglamento General de Circulación, road markings"
+  },
+  {
+    "id": "signs-08",
+    "cat": "signs",
+    "answer": 0,
+    "en": {
+      "q": "A continuous yellow line along the curb means:",
+      "options": [
+        "Parking is not allowed",
+        "Parking is free",
+        "Parking is for residents only"
+      ],
+      "why": "A yellow line along the curb restricts parking. A yellow zigzag usually marks a no-stopping area, such as a bus stop."
+    },
+    "es": {
+      "q": "Una línea amarilla continua junto al bordillo significa:",
+      "options": [
+        "Prohibido estacionar",
+        "Estacionamiento gratuito",
+        "Estacionamiento reservado a residentes"
+      ],
+      "why": "Una línea amarilla en el bordillo prohíbe estacionar. Una línea amarilla en zigzag suele marcar una zona de parada prohibida, como una parada de autobús."
+    },
+    "terms": [
+      {
+        "es": "bordillo",
+        "en": "curb"
+      },
+      {
+        "es": "estacionar",
+        "en": "to park"
+      }
+    ],
+    "src": "Reglamento General de Circulación, road markings"
+  },
+  {
+    "id": "equipment-01",
+    "cat": "equipment",
+    "answer": 1,
+    "en": {
+      "q": "What must a vehicle carry in case of a breakdown or emergency on the road?",
+      "options": [
+        "A reflective vest and nothing else",
+        "A reflective vest and a V16 warning beacon",
+        "Only a spare tire"
+      ],
+      "why": "Carry a reflective vest, and the V16 connected beacon, which replaced the warning triangles from 2026. Put the vest on before leaving the car on the road."
+    },
+    "es": {
+      "q": "¿Qué debe llevar un vehículo en caso de avería o emergencia en la carretera?",
+      "options": [
+        "Solo un chaleco reflectante",
+        "Un chaleco reflectante y una baliza V16",
+        "Solo una rueda de repuesto"
+      ],
+      "why": "Lleve un chaleco reflectante y la baliza V16 conectada, que sustituye a los triángulos de preseñalización desde 2026. Póngase el chaleco antes de salir del coche en la vía."
+    },
+    "terms": [
+      {
+        "es": "chaleco reflectante",
+        "en": "reflective vest"
+      },
+      {
+        "es": "baliza V16",
+        "en": "V16 beacon"
+      },
+      {
+        "es": "avería",
+        "en": "breakdown"
+      }
+    ],
+    "src": "Reglamento General de Vehículos and DGT rules on V16 beacon"
+  },
+  {
+    "id": "equipment-02",
+    "cat": "equipment",
+    "answer": 2,
+    "en": {
+      "q": "When is a new passenger car's first ITV (technical inspection) due?",
+      "options": [
+        "After 2 years",
+        "After 6 years",
+        "After 4 years"
+      ],
+      "why": "New cars have their first ITV four years after registration. Then every two years until 10 years old, and every year after that."
+    },
+    "es": {
+      "q": "¿Cuándo debe pasar un turismo nuevo su primera ITV?",
+      "options": [
+        "A los 2 años",
+        "A los 6 años",
+        "A los 4 años"
+      ],
+      "why": "Los turismos nuevos pasan la primera ITV a los cuatro años de la matriculación. Después cada dos años hasta los 10 y anualmente a partir de entonces."
+    },
+    "terms": [
+      {
+        "es": "ITV (inspección técnica de vehículos)",
+        "en": "technical inspection (like MOT / smog check)"
+      }
+    ],
+    "src": "Real Decreto 920/2017, technical inspection of vehicles"
+  },
+  {
+    "id": "equipment-03",
+    "cat": "equipment",
+    "answer": 0,
+    "en": {
+      "q": "What is a ZBE sign?",
+      "options": [
+        "A low-emission zone with access restrictions for some vehicles",
+        "A school zone",
+        "A speed enforcement zone"
+      ],
+      "why": "ZBE means \"Zona de Bajas Emisiones\", a low-emission zone. Access can depend on your vehicle's environmental badge."
+    },
+    "es": {
+      "q": "¿Qué indica una señal ZBE?",
+      "options": [
+        "Una zona de bajas emisiones con acceso restringido a algunos vehículos",
+        "Una zona escolar",
+        "Una zona de control de velocidad"
+      ],
+      "why": "ZBE significa «Zona de Bajas Emisiones». El acceso puede depender del distintivo ambiental del vehículo."
+    },
+    "terms": [
+      {
+        "es": "zona de bajas emisiones",
+        "en": "low-emission zone"
+      },
+      {
+        "es": "distintivo ambiental",
+        "en": "environmental badge"
+      }
+    ],
+    "src": "Ley 7/2021 de cambio climático and DGT environmental badge rules"
+  },
+  {
+    "id": "equipment-04",
+    "cat": "equipment",
+    "answer": 1,
+    "en": {
+      "q": "When may you use the hazard (emergency) lights?",
+      "options": [
+        "To park illegally for a minute",
+        "When your vehicle is stopped and a danger to others, or to warn of a sudden hazard ahead",
+        "Whenever it rains"
+      ],
+      "why": "Hazard lights warn others of a danger, for example a stopped vehicle in a risky place or a sudden slowdown. They are not a permission to park illegally."
+    },
+    "es": {
+      "q": "¿Cuándo puede usar las luces de emergencia?",
+      "options": [
+        "Para estacionar mal un minuto",
+        "Cuando su vehículo está detenido y supone un peligro, o para avisar de un peligro repentino",
+        "Siempre que llueva"
+      ],
+      "why": "Las luces de emergencia avisan de un peligro, por ejemplo un vehículo parado en un lugar de riesgo o una retención repentina. No dan permiso para estacionar mal."
+    },
+    "terms": [
+      {
+        "es": "luces de emergencia",
+        "en": "hazard lights"
+      }
+    ],
+    "src": "Reglamento General de Circulación, use of hazard lights"
+  },
+  {
+    "id": "situations-01",
+    "cat": "situations",
+    "answer": 2,
+    "en": {
+      "q": "What does PAS stand for in a road accident?",
+      "options": [
+        "Stop, Alert, Speak",
+        "Pull over, Ask, Stay",
+        "Protect, Alert, Assist"
+      ],
+      "why": "PAS: Proteger (secure the scene), Avisar (call 112), Socorrer (help the injured without moving them unless necessary)."
+    },
+    "es": {
+      "q": "¿Qué significa PAS ante un accidente de tráfico?",
+      "options": [
+        "Parar, Avisar, Hablar",
+        "Pararse, Preguntar, Quedarse",
+        "Proteger, Avisar, Socorrer"
+      ],
+      "why": "PAS: Proteger (señalizar el lugar), Avisar (llamar al 112), Socorrer (ayudar a los heridos sin moverlos salvo que sea imprescindible)."
+    },
+    "terms": [
+      {
+        "es": "proteger",
+        "en": "protect"
+      },
+      {
+        "es": "avisar",
+        "en": "alert"
+      },
+      {
+        "es": "socorrer",
+        "en": "assist / rescue"
+      }
+    ],
+    "src": "Reglamento General de Circulación, accidents and duty of assistance; DGT"
+  },
+  {
+    "id": "situations-02",
+    "cat": "situations",
+    "answer": 0,
+    "en": {
+      "q": "Which number do you call for emergencies in Spain?",
+      "options": [
+        "112",
+        "911",
+        "999"
+      ],
+      "why": "112 is the European emergency number and works across Spain. 911 does not."
+    },
+    "es": {
+      "q": "¿A qué número se llama para emergencias en España?",
+      "options": [
+        "112",
+        "911",
+        "999"
+      ],
+      "why": "El 112 es el número europeo de emergencias y funciona en toda España. El 911 no."
+    },
+    "terms": [
+      {
+        "es": "emergencias",
+        "en": "emergencies"
+      }
+    ],
+    "note": {
+      "es": "911 es el número de EE. UU. En España es el 112.",
+      "en": "911 is the US number. In Spain it is 112."
+    },
+    "src": "DGT accident guidance"
+  },
+  {
+    "id": "situations-03",
+    "cat": "situations",
+    "answer": 1,
+    "en": {
+      "q": "A motorcyclist is injured and lying on the road. Should you take off their helmet?",
+      "options": [
+        "Yes, immediately, so they can breathe",
+        "No, not unless it is essential, for example if they cannot breathe",
+        "Yes, always"
+      ],
+      "why": "Do not remove the helmet unless it is vital. Doing so can worsen a spinal injury."
+    },
+    "es": {
+      "q": "Un motorista herido yace en la calzada. ¿Debe quitarle el casco?",
+      "options": [
+        "Sí, enseguida, para que pueda respirar",
+        "No, salvo que sea imprescindible, por ejemplo si no puede respirar",
+        "Sí, siempre"
+      ],
+      "why": "No se debe retirar el casco salvo que sea vital. Hacerlo puede agravar una lesión de columna."
+    },
+    "terms": [
+      {
+        "es": "casco",
+        "en": "helmet"
+      },
+      {
+        "es": "herido",
+        "en": "injured person"
+      }
+    ],
+    "src": "DGT first aid guidance"
+  },
+  {
+    "id": "situations-04",
+    "cat": "situations",
+    "answer": 2,
+    "en": {
+      "q": "May you park in front of a driveway marked \"vado\"?",
+      "options": [
+        "Yes, for a few minutes",
+        "Yes, at night",
+        "No, never"
+      ],
+      "why": "Parking in front of a marked driveway (vado) is prohibited, because it blocks access. The tow truck can remove you."
+    },
+    "es": {
+      "q": "¿Se puede aparcar delante de una entrada con la señal de «vado»?",
+      "options": [
+        "Sí, unos minutos",
+        "Sí, por la noche",
+        "No, nunca"
+      ],
+      "why": "Está prohibido aparcar frente a un vado señalizado, porque impide el acceso. La grúa puede retirar el vehículo."
+    },
+    "terms": [
+      {
+        "es": "vado",
+        "en": "driveway / curb cut"
+      },
+      {
+        "es": "grúa",
+        "en": "tow truck"
+      }
+    ],
+    "src": "Reglamento General de Circulación, parking prohibitions and local ordinances"
+  },
+  {
+    "id": "situations-05",
+    "cat": "situations",
+    "answer": 0,
+    "en": {
+      "q": "May you honk the horn in a town?",
+      "options": [
+        "Only to avoid an accident",
+        "Whenever someone is slow",
+        "To greet someone"
+      ],
+      "why": "In built-up areas the horn is allowed only to prevent an accident, not to complain or greet."
+    },
+    "es": {
+      "q": "¿Se puede usar el claxon en poblado?",
+      "options": [
+        "Solo para evitar un accidente",
+        "Siempre que alguien vaya lento",
+        "Para saludar a alguien"
+      ],
+      "why": "En poblado solo se puede usar el claxon para evitar un accidente, no para quejarse ni para saludar."
+    },
+    "terms": [
+      {
+        "es": "claxon / bocina",
+        "en": "horn"
+      }
+    ],
+    "note": {
+      "es": "Usar el claxon para «hablar» es un hábito de EE. UU. que aquí se multa.",
+      "en": "Horn-as-conversation is a US habit that gets fined here."
+    },
+    "src": "Reglamento General de Circulación, acoustic signals"
+  },
+  {
+    "id": "situations-06",
+    "cat": "situations",
+    "answer": 1,
+    "en": {
+      "q": "You miss your exit on a motorway. What do you do?",
+      "options": [
+        "Reverse along the shoulder to the exit",
+        "Continue to the next exit and come back",
+        "Make a U-turn across the median"
+      ],
+      "why": "Never reverse or make a U-turn on a motorway. Continue to the next exit."
+    },
+    "es": {
+      "q": "Se pasa la salida en una autopista. ¿Qué hace?",
+      "options": [
+        "Retroceder por el arcén hasta la salida",
+        "Continuar hasta la siguiente salida y volver",
+        "Dar la vuelta cruzando la mediana"
+      ],
+      "why": "Nunca se debe dar marcha atrás ni cambiar de sentido en una autopista. Continúe hasta la siguiente salida."
+    },
+    "terms": [
+      {
+        "es": "marcha atrás",
+        "en": "reverse"
+      },
+      {
+        "es": "arcén",
+        "en": "shoulder"
+      },
+      {
+        "es": "mediana",
+        "en": "median"
+      }
+    ],
+    "src": "Reglamento General de Circulación, motorways"
+  },
+  {
+    "id": "situations-07",
+    "cat": "situations",
+    "answer": 2,
+    "en": {
+      "q": "You are joining a motorway from an acceleration lane. Who has priority?",
+      "options": [
+        "You, because you are entering",
+        "Whoever is going faster",
+        "The traffic already on the motorway"
+      ],
+      "why": "Use the acceleration lane to match speed and merge when there is a gap. Traffic already on the motorway has priority."
+    },
+    "es": {
+      "q": "Se incorpora a una autopista desde un carril de aceleración. ¿Quién tiene prioridad?",
+      "options": [
+        "Usted, porque entra",
+        "El que vaya más rápido",
+        "Los vehículos que ya circulan por la autopista"
+      ],
+      "why": "Use el carril de aceleración para igualar la velocidad e incorpórese cuando haya hueco. Tienen prioridad los vehículos que ya circulan por la autopista."
+    },
+    "terms": [
+      {
+        "es": "carril de aceleración",
+        "en": "acceleration lane"
+      },
+      {
+        "es": "incorporarse",
+        "en": "to merge"
+      }
+    ],
+    "src": "Reglamento General de Circulación, motorways"
+  },
+  {
+    "id": "hazards-01",
+    "cat": "hazards",
+    "answer": 0,
+    "en": {
+      "q": "You see a delivery van stopped just before a pedestrian crossing on the right. What is the safest reaction?",
+      "options": [
+        "Ease off and be ready to brake, since someone may step out",
+        "Keep your speed; the van is stopped",
+        "Honk to warn anyone behind the van"
+      ],
+      "why": "A stopped vehicle can hide pedestrians. Slow down and prepare to stop."
+    },
+    "es": {
+      "q": "Ve una furgoneta de reparto detenida justo antes de un paso de peatones, a la derecha. ¿Cuál es la reacción más segura?",
+      "options": [
+        "Reducir la velocidad y estar preparado para frenar, porque alguien puede salir",
+        "Mantener la velocidad, porque la furgoneta está parada",
+        "Tocar el claxon para avisar a quien esté tras la furgoneta"
+      ],
+      "why": "Un vehículo detenido puede ocultar a peatones. Reduzca la velocidad y prepárese para detenerse."
+    },
+    "terms": [
+      {
+        "es": "furgoneta",
+        "en": "van"
+      }
+    ],
+    "src": "DGT risk-perception guidance"
+  },
+  {
+    "id": "hazards-02",
+    "cat": "hazards",
+    "answer": 1,
+    "en": {
+      "q": "A ball rolls into the street from between parked cars. What do you do?",
+      "options": [
+        "Keep going, because it is only a ball",
+        "Slow down and prepare to stop, because a child may follow",
+        "Speed up to pass before anyone appears"
+      ],
+      "why": "A ball in the street often means a child is about to follow. Slow down and be ready to stop."
+    },
+    "es": {
+      "q": "Un balón rueda a la calzada entre dos coches aparcados. ¿Qué hace?",
+      "options": [
+        "Continúa, porque solo es un balón",
+        "Reduce la velocidad y se prepara para detenerse, porque puede aparecer un niño",
+        "Acelera para pasar antes de que aparezca alguien"
+      ],
+      "why": "Un balón en la calzada suele indicar que un niño va a salir detrás. Reduzca y prepárese para detenerse."
+    },
+    "terms": [
+      {
+        "es": "balón",
+        "en": "ball"
+      },
+      {
+        "es": "coches aparcados",
+        "en": "parked cars"
+      }
+    ],
+    "src": "DGT risk-perception guidance"
+  },
+  {
+    "id": "hazards-03",
+    "cat": "hazards",
+    "answer": 2,
+    "en": {
+      "q": "A car on a narrow road is overtaking and coming toward you in your lane. What do you do?",
+      "options": [
+        "Flash your lights and hold your line",
+        "Swerve left to avoid it",
+        "Brake, keep to the right, and give it room to return to its lane"
+      ],
+      "why": "Brake and keep to the right to give the overtaking car room to get back. Do not swerve toward the opposite lane."
+    },
+    "es": {
+      "q": "En una carretera estrecha, un coche que adelanta viene hacia usted por su carril. ¿Qué hace?",
+      "options": [
+        "Hace ráfagas y mantiene su trayectoria",
+        "Gira a la izquierda para esquivarlo",
+        "Frena, se mantiene a la derecha y le deja espacio para volver a su carril"
+      ],
+      "why": "Frene y manténgase a la derecha para dejar espacio al vehículo que adelanta. No gire hacia el carril contrario."
+    },
+    "terms": [
+      {
+        "es": "carretera estrecha",
+        "en": "narrow road"
+      }
+    ],
+    "src": "DGT risk-perception guidance"
+  },
+  {
+    "id": "hazards-04",
+    "cat": "hazards",
+    "answer": 0,
+    "en": {
+      "q": "In a roundabout, the car ahead in the inner lane has no turn signal on. What should you assume?",
+      "options": [
+        "It may exit across your path, so stay alert",
+        "It will keep circling",
+        "It will stop"
+      ],
+      "why": "Do not assume. A driver in the inner lane may cut across to exit without signaling. Keep your distance."
+    },
+    "es": {
+      "q": "En una glorieta, el coche que va delante por el carril interior no lleva intermitente. ¿Qué debe suponer?",
+      "options": [
+        "Que puede salir cruzándose en su camino, así que debe estar atento",
+        "Que seguirá dando vueltas",
+        "Que se detendrá"
+      ],
+      "why": "No dé nada por supuesto. Un conductor del carril interior puede cruzar para salir sin señalizar. Mantenga la distancia."
+    },
+    "terms": [
+      {
+        "es": "sin señalizar",
+        "en": "without signaling"
+      }
+    ],
+    "src": "DGT risk-perception guidance"
+  },
+  {
+    "id": "hazards-05",
+    "cat": "hazards",
+    "answer": 1,
+    "en": {
+      "q": "You are driving behind a cyclist on a country road with a continuous line. What is the correct action?",
+      "options": [
+        "Honk and pass closely",
+        "Slow down and, when safe, pass leaving 1.5 m, even crossing the line if needed",
+        "Follow at a short distance until the road widens"
+      ],
+      "why": "You may cross the continuous line to pass a cyclist, if it is safe and you leave at least 1.5 meters."
+    },
+    "es": {
+      "q": "Circula detrás de un ciclista por una carretera con línea continua. ¿Cuál es la actuación correcta?",
+      "options": [
+        "Tocar el claxon y adelantar muy cerca",
+        "Reducir la velocidad y, cuando sea seguro, adelantar dejando 1,5 m, incluso invadiendo la línea si hace falta",
+        "Seguirle a poca distancia hasta que la vía se ensanche"
+      ],
+      "why": "Puede invadir la línea continua para adelantar a un ciclista, si es seguro y deja al menos 1,5 metros."
+    },
+    "terms": [
+      {
+        "es": "ciclista",
+        "en": "cyclist"
+      }
+    ],
+    "src": "Reglamento General de Circulación, overtaking cyclists"
+  }
+]
