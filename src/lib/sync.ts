@@ -51,11 +51,13 @@ const examRow = (userId: string, e: ExamResult) => ({
   passed: e.passed,
 });
 
-async function fetchAll<T>(table: 'progress' | 'exam_results', columns: string): Promise<T[]> {
+/** Reads a whole table in pages. `orderBy` must name a unique column, or pages can overlap or skip rows. */
+async function fetchAll<T>(table: 'progress' | 'exam_results' | 'attempts', columns: string, orderBy?: string): Promise<T[]> {
   const db = requireClient();
   const out: T[] = [];
   for (let from = 0; ; from += PAGE) {
-    const { data, error } = await db.from(table).select(columns).range(from, from + PAGE - 1);
+    const query = db.from(table).select(columns);
+    const { data, error } = await (orderBy ? query.order(orderBy) : query).range(from, from + PAGE - 1);
     if (error) throw error;
     out.push(...((data ?? []) as T[]));
     if (!data || data.length < PAGE) return out;
@@ -289,5 +291,34 @@ export async function deleteMyData(): Promise<Bi | null> {
     return null;
   } catch (err) {
     return describeAuthError(err);
+  }
+}
+
+export type ExportBundle = { exported_at: string; app: 'glorieta'; account: { email: string | undefined; created_at: string | undefined }; profile: Profile | null; progress: ProgressRow[]; exam_results: ExamRow[]; attempts: unknown[] };
+
+/** Everything the database holds about this person in Glorieta, for them to keep. */
+export async function exportMyData(): Promise<{ ok: true; data: ExportBundle } | { ok: false; error: Bi }> {
+  const user = activeUser;
+  if (!user) return { ok: false, error: bi('No has iniciado sesión.', 'You are not signed in.') };
+  try {
+    const [progressRows, examRows, attemptRows] = await Promise.all([
+      fetchAll<ProgressRow>('progress', 'item_id, card, seen, right_count, updated_at', 'item_id'),
+      fetchAll<ExamRow>('exam_results', 'taken_at, total, errors, unanswered, passed', 'taken_at'),
+      fetchAll<unknown>('attempts', 'item_id, correct, mode, answered_at, id', 'id'),
+    ]);
+    return {
+      ok: true,
+      data: {
+        exported_at: new Date().toISOString(),
+        app: 'glorieta',
+        account: { email: user.email, created_at: user.created_at },
+        profile: profile.value,
+        progress: progressRows,
+        exam_results: examRows,
+        attempts: attemptRows,
+      },
+    };
+  } catch (err) {
+    return { ok: false, error: describeAuthError(err) };
   }
 }

@@ -267,3 +267,16 @@ button.secondary.full[disabled], .secondary[disabled] { opacity: 0.6; cursor: no
 .stat-bar { display: block; height: 8px; border-radius: 4px; background: var(--line); margin: 4px 0 2px; overflow: hidden; }
 .stat-bar > span { display: block; height: 100%; background: var(--primary); }
 .stat-num { color: var(--muted); font-size: 0.82rem; font-variant-numeric: tabular-nums; }
+
+/* Profile */
+.profile-head { display: grid; grid-template-columns: auto 1fr; gap: 4px 14px; align-items: center; }
+.profile-head > .facts, .profile-head > .sync, .profile-head > .form-error, .profile-head > .actions { grid-column: 1 / -1; }
+.avatar { width: 64px; height: 64px; border-radius: 50%; object-fit: cover; background: var(--line); }
+.avatar.initial { display: inline-flex; align-items: center; justify-content: center; font-size: 1.6rem; font-weight: 800; color: var(--primary-text); background: var(--primary); }
+.profile-name { font-size: 1.15rem; margin: 0; }
+.profile-id p { margin: 2px 0; }
+.facts { display: grid; gap: 6px; margin: 10px 0 0; }
+.facts > div { display: flex; justify-content: space-between; gap: 12px; border-top: 1px solid var(--line); padding-top: 6px; }
+.facts dt { color: var(--muted); font-size: 0.85rem; }
+.facts dd { margin: 0; font-weight: 600; font-size: 0.92rem; text-align: right; }
+.badge.ok { background: var(--right-bg, #e3f6e8); color: var(--right); }

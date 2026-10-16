@@ -14,10 +14,25 @@ export const currentUser = signal<User | null>(null);
 export const recovering = signal(false);
 /** A one-off message for the account screen, such as "email confirmed". */
 export const notice = signal<Bi | null>(null);
+/** A sign-in that Supabase or Google rejected, as reported in the return URL (OAuth and email links). */
+export const returnError = signal<string | null>(null);
 
 // Supabase strips ?code= from the URL as soon as it exchanges it, so look before it does.
 const returnedFromEmailLink = typeof location !== 'undefined' && new URL(location.href).searchParams.has('code');
 let syncedFor: string | null = null;
+
+// A failed sign-in comes back as ?error=...&error_description=... (or the same in the #fragment). Show it
+// instead of dropping the person on the home screen with no explanation.
+if (typeof location !== 'undefined') {
+  const url = new URL(location.href);
+  const fragment = new URLSearchParams(url.hash.startsWith('#') && url.hash.includes('=') ? url.hash.slice(1) : '');
+  const text = url.searchParams.get('error_description') ?? fragment.get('error_description') ?? url.searchParams.get('error') ?? fragment.get('error');
+  if (text) {
+    const code = url.searchParams.get('error_code') ?? fragment.get('error_code');
+    returnError.value = code ? `${text} (${code})` : text;
+    history.replaceState(null, '', `${url.pathname}#/account`);
+  }
+}
 
 const origin = () => `${location.origin}/`;
 

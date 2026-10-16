@@ -1,14 +1,10 @@
-import { useEffect, useState } from 'preact/hooks';
-import type { ComponentChildren } from 'preact';
+import { useState } from 'preact/hooks';
 import { T, type Bi } from '../i18n';
 import { a } from '../authStrings';
-import { authStatus, currentUser, notice, recovering, requestPasswordReset, signIn, signInWithGoogle, signOut, signUp, updatePassword } from '../lib/auth';
-import { deleteMyData, loadStats, profile, saveProfile, serverStats, syncNow, syncStatus } from '../lib/sync';
-import { categories } from '../data/categories';
+import { authStatus, currentUser, notice, recovering, returnError, requestPasswordReset, signIn, signInWithGoogle, signOut, signUp, updatePassword } from '../lib/auth';
 import { googleEnabled } from '../lib/supabase';
-import { resetAll } from '../lib/store';
-
-const MIN_PASSWORD = 8;
+import { Field, Message, MIN_PASSWORD, PasswordField } from './form-parts';
+import { Profile } from './Profile';
 
 export function Account({ view }: { view: string }) {
   if (view === 'reset' && recovering.value) return <ResetPassword />;
@@ -18,45 +14,13 @@ export function Account({ view }: { view: string }) {
     <section>
       <h1><T t={a.account} /></h1>
       {notice.value && <p class="note" role="status"><T t={notice.value} /></p>}
-      {status === 'in' ? <Panel /> : <Forms />}
+      {returnError.value && (
+        <p class="form-error" role="alert">
+          <T t={a.signInFailed} /> <span class="muted small block">{returnError.value}</span>
+        </p>
+      )}
+      {status === 'in' ? <Profile /> : <Forms />}
     </section>
-  );
-}
-
-function Message({ error, ok }: { error?: Bi | null; ok?: Bi | null }) {
-  if (error) return <p class="form-error" role="alert"><T t={error} /></p>;
-  if (ok) return <p class="note" role="status"><T t={ok} /></p>;
-  return null;
-}
-
-function PasswordField({ label, value, onInput, autocomplete }: { label: Bi; value: string; onInput: (v: string) => void; autocomplete: string }) {
-  const [shown, setShown] = useState(false);
-  const inputProps = {
-    value,
-    required: true,
-    minLength: MIN_PASSWORD,
-    autocomplete,
-    onInput: (e: Event) => onInput((e.currentTarget as HTMLInputElement).value),
-  };
-  return (
-    <label class="field">
-      <span class="field-label"><T t={label} /></span>
-      <span class="password-row">
-        {shown ? <input type="text" {...inputProps} /> : <input type="password" {...inputProps} />}
-        <button type="button" class="peek wide" aria-pressed={shown} onClick={() => setShown(!shown)}>
-          <T t={shown ? a.hide : a.show} />
-        </button>
-      </span>
-    </label>
-  );
-}
-
-function Field({ label, children }: { label: Bi; children: ComponentChildren }) {
-  return (
-    <label class="field">
-      <span class="field-label"><T t={label} /></span>
-      {children}
-    </label>
   );
 }
 
@@ -197,103 +161,5 @@ function ResetPassword() {
         <button type="submit" class="primary full" disabled={busy}><T t={busy ? a.working : a.saveNewPassword} /></button>
       </form>
     </section>
-  );
-}
-
-const topicName = (grp: string): Bi =>
-  grp === 'signs' ? a.topicSigns : grp === 'vocab' ? a.topicVocab : (categories.find((c) => c.id === grp)?.name ?? { es: grp, en: grp });
-
-/** Results by topic, computed in the database from this person's own answers. */
-function Stats() {
-  const rows = serverStats.value;
-  const synced = syncStatus.value.state === 'ok';
-  useEffect(() => {
-    if (synced) void loadStats();
-  }, [synced]);
-  return (
-    <div class="card">
-      <h2><T t={a.statsTitle} /></h2>
-      {rows === null && <p class="muted small"><T t={a.loading} /></p>}
-      {rows !== null && rows.length === 0 && <p class="muted small"><T t={a.statsEmpty} /></p>}
-      {rows !== null && rows.length > 0 && (
-        <ul class="stats-list">
-          {rows.map((r) => (
-            <li key={r.grp}>
-              <span class="stat-name"><T t={topicName(r.grp)} /></span>
-              <span class="stat-bar" role="img" aria-label={`${r.accuracy}%`}>
-                <span style={{ width: `${Math.max(0, Math.min(100, r.accuracy))}%` }} />
-              </span>
-              <span class="stat-num">{Math.round(r.accuracy)}% · {r.attempts} <T t={a.statsAnswers} /></span>
-            </li>
-          ))}
-        </ul>
-      )}
-    </div>
-  );
-}
-
-function Panel() {
-  const user = currentUser.value;
-  const p = profile.value;
-  const sync = syncStatus.value;
-  const [name, setName] = useState<string | null>(null);
-  const [msg, setMsg] = useState<{ error?: Bi | null; ok?: Bi | null }>({});
-
-  const saveName = async () => {
-    const err = await saveProfile({ display_name: (name ?? p?.display_name ?? '').trim() || null });
-    setMsg(err ? { error: err } : { ok: a.saved });
-  };
-  const toggleMarketing = async (on: boolean) => {
-    const err = await saveProfile({ marketing_opt_in: on });
-    setMsg(err ? { error: err } : { ok: a.saved });
-  };
-  const erase = async () => {
-    if (!confirm(`${a.deleteConfirm.es}\n\n${a.deleteConfirm.en}`)) return;
-    const err = await deleteMyData();
-    if (err) return setMsg({ error: err });
-    resetAll();
-    setMsg({ ok: a.deleted });
-  };
-
-  return (
-    <div>
-      <div class="card">
-        <p class="muted small"><T t={a.signedInAs} /></p>
-        <p class="bold">{user?.email}</p>
-        <p class={`sync ${sync.state}`} role="status">
-          <T t={sync.state === 'syncing' ? a.syncing : sync.state === 'ok' ? a.synced : sync.state === 'error' ? a.syncError : a.syncIdle} />
-          {sync.state === 'ok' && sync.at && <span class="muted small"> · {new Date(sync.at).toLocaleTimeString()}</span>}
-        </p>
-        {sync.error && <p class="form-error" role="alert"><T t={sync.error} /></p>}
-        <div class="actions">
-          <button type="button" class="secondary" onClick={() => void syncNow()} disabled={sync.state === 'syncing'}><T t={a.syncNow} /></button>
-          <button type="button" class="secondary" onClick={() => void signOut()}><T t={a.signOut} /></button>
-        </div>
-      </div>
-
-      <Stats />
-
-      {p && (
-        <div class="card">
-          <Field label={a.displayName}>
-            <span class="password-row">
-              <input type="text" value={name ?? p.display_name ?? ''} maxLength={80} autocomplete="name" onInput={(e) => setName((e.currentTarget as HTMLInputElement).value)} />
-              <button type="button" class="secondary" onClick={() => void saveName()}><T t={a.save} /></button>
-            </span>
-          </Field>
-          <label class="check">
-            <input type="checkbox" checked={p.marketing_opt_in} onChange={(e) => void toggleMarketing((e.currentTarget as HTMLInputElement).checked)} />
-            <span><T t={a.marketing} /><span class="muted small block"><T t={a.marketingDetail} /></span></span>
-          </label>
-          <Message error={msg.error} ok={msg.ok} />
-        </div>
-      )}
-
-      <div class="card">
-        <h2><T t={a.dangerZone} /></h2>
-        <p class="muted small"><T t={a.privacy} /></p>
-        <button type="button" class="secondary danger" onClick={() => void erase()}><T t={a.deleteData} /></button>
-      </div>
-    </div>
   );
 }
