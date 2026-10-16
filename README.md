@@ -54,3 +54,17 @@ What is still not confirmed from a primary source:
 - The 3-mistake limit and the 30-minute time limit rest on secondary publications, and the app labels them that way.
 - Sign shapes and colors are images in the BOE, so they were not checked against the catalogue text.
 - A handful of questions rest on DGT guidance only (the two-second following distance, the 200 km rest recommendation, first aid), with no article to cite.
+
+## License
+
+Three kinds of material, three licenses:
+
+| What | License |
+|---|---|
+| Source code | [Apache License 2.0](LICENSE) |
+| Written learning content (questions, explanations, vocabulary, sign meanings, interface text) | [CC BY 4.0](LICENSE-CONTENT.md) |
+| Traffic sign images in `public/signs/` | Their own licenses from Wikimedia Commons (public domain, CC0, or CC BY-SA), with credits in [`public/signs/CREDITS.md`](public/signs/CREDITS.md) |
+
+The sign images are unmodified copies and keep their original terms. Licensing the code under Apache 2.0 does not relicense them.
+
+The app is unofficial and not affiliated with the DGT. Parts of the code and content were drafted with Claude Code and reviewed and published by the author.
