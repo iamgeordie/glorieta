@@ -29,6 +29,19 @@ browser (local-first)                         Supabase project
   caller's own data) and withdraws the stored consent. The login itself is not deleted; it may be shared
   with other apps on the same project. The CRM is not touched by it.
 
+## What is stored, and what is computed where
+
+| Where | What |
+|---|---|
+| `progress` | each question or card's current spaced-repetition state (when it is due, how it is going) |
+| `attempts` | every answer as an append-only event: item, right or wrong, mode (practice, exam, vocab), when. Answers given before signing in are uploaded too, so a new account starts with its history |
+| `exam_results` | each mock exam, once |
+| `profiles` | display name and the CRM opt-in with its timestamp |
+| `my_stats()` | a SQL function: per-topic attempts and accuracy for the signed-in person, computed in the database. The Account screen shows it |
+| `item_difficulty` | a view across everyone: per question, how many tried, how many got it right. No user ids, and readable by the service role only, so the owner can see which questions are too hard or too easy |
+
+The question bank, the sign data and the vocabulary stay in the app as JSON. That keeps the app fast, usable offline, public, and reviewed through git. The database holds what changes per person.
+
 ## Configuration
 
 Copy `.env.example` to `.env.local`.
@@ -58,10 +71,11 @@ npm test
 - `src/lib/merge.test.ts`: the merge rules (newest wins, ties, missing timestamps, exam union).
 - `src/lib/auth-errors.test.ts`: every error message exists in both languages and unknown errors are
   shown with their code, never swallowed.
+- `src/lib/attempts.test.ts`: the answer-log queue (cap keeps the newest, uploaded answers are removed by item and time).
 - `scripts/test-schema.mjs`: applies `glorieta-schema.sql` to an embedded Postgres ([PGlite](https://pglite.dev))
   with Supabase's roles and `auth.uid()` modeled, then checks that one user cannot read, write, move or
   delete another's rows, that `anon` and a token with no subject see nothing, that the constraints hold,
-  and that the erase function is scoped to the caller.
+  that the answer log is append-only and de-duplicated, that `my_stats()` sees only the caller's answers, that the cross-user view is closed to signed-in users and exposes no user ids, and that the erase function is scoped to the caller.
 
 What the tests do **not** prove: behavior against a real Supabase project (PostgREST, GoTrue, email
 delivery, the CRM endpoint). The sign-up, sign-in and reset flows have been checked for rendering and

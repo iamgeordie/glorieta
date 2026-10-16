@@ -138,7 +138,7 @@ function PracticeSession({ categoryId }: { categoryId: string }) {
     if (selected !== null) return;
     setSelected(original);
     const ok = original === q.answer;
-    grade(q.id, ok);
+    grade(q.id, ok, 'practice');
     if (ok) setCorrect((c) => c + 1);
   };
   const advance = () => {

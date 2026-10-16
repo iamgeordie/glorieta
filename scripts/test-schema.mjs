@@ -50,6 +50,18 @@ await db.exec(`insert into glorieta.exam_results (user_id,taken_at,total,errors,
 assert.equal((await rows(`select count(*)::int c from glorieta.exam_results`))[0].c, 1); ok('re-sending the same exam is ignored (ignoreDuplicates)');
 await db.exec(`update glorieta.profiles set marketing_opt_in = true, marketing_opt_in_at = now() where user_id = '${A}'`); ok('A can record their own consent');
 assert.ok((await rows(`select updated_at > created_at as t from glorieta.profiles`))[0].t); ok('updated_at trigger fires');
+await db.exec(`insert into glorieta.attempts (user_id,item_id,correct,mode,answered_at) values
+  ('${A}','speed-01',true,'practice','2026-10-01T10:00:00Z'),('${A}','speed-02',false,'practice','2026-10-01T10:01:00Z'),
+  ('${A}','sign:r-1',true,'practice','2026-10-01T10:02:00Z'),('${A}','v:ceda-el-paso',true,'vocab','2026-10-01T10:03:00Z'),
+  ('${A}','speed-01',false,'exam','2026-10-02T09:00:00Z')`); ok('A logs answers');
+await db.exec(`insert into glorieta.attempts (user_id,item_id,correct,mode,answered_at) values ('${A}','speed-01',false,'practice','2026-10-01T10:00:00Z') on conflict (user_id,item_id,answered_at) do nothing`);
+assert.equal((await rows(`select count(*)::int c from glorieta.attempts`))[0].c, 5); ok('the same answer sent twice is stored once');
+const stats = await rows(`select * from glorieta.my_stats()`);
+const speed = stats.find((r) => r.grp === 'speed');
+assert.equal(Number(speed.attempts), 3); assert.equal(Number(speed.correct), 1); assert.equal(String(speed.accuracy), '33.3');
+assert.ok(stats.find((r) => r.grp === 'signs') && stats.find((r) => r.grp === 'vocab')); ok('my_stats groups A\'s answers by topic, computed in SQL');
+await fails('A cannot log an answer for B', `insert into glorieta.attempts (user_id,item_id,correct,mode,answered_at) values ('${B}','speed-01',true,'practice',now())`, /row-level security/);
+await fails('attempts cannot be edited (append-only)', `update glorieta.attempts set correct = true where item_id = 'speed-02'`, /permission denied/);
 
 console.log('as user B');
 await as('authenticated', B);
@@ -60,6 +72,15 @@ const upd = await db.query(`update glorieta.progress set seen = 99 where item_id
 assert.equal(upd.rows.length, 0); ok('B\'s update of A\'s row touches nothing');
 const del = await db.query(`delete from glorieta.progress returning 1`);
 assert.equal(del.rows.length, 0); ok('B\'s delete removes nothing of A\'s');
+assert.equal((await rows(`select count(*)::int c from glorieta.attempts`))[0].c, 0);
+assert.equal((await rows(`select count(*)::int c from glorieta.my_stats()`))[0].c, 0); ok('B sees none of A\'s answers and gets empty stats');
+await db.exec(`insert into glorieta.attempts (user_id,item_id,correct,mode,answered_at) values ('${B}','speed-01',true,'practice','2026-10-03T08:00:00Z')`); ok('B logs their own answer');
+await fails('a signed-in user cannot read the per-question aggregate', `select * from glorieta.item_difficulty`, /permission denied/);
+await as('service_role', '');
+const diff = (await rows(`select * from glorieta.item_difficulty where item_id = 'speed-01'`))[0];
+assert.equal(Number(diff.attempts), 3); assert.equal(Number(diff.learners), 2); assert.equal(Number(diff.correct), 2); assert.equal(String(diff.accuracy), '66.7');
+assert.deepEqual(Object.keys(diff).sort(), ['accuracy', 'attempts', 'correct', 'item_id', 'learners']); ok('the owner view aggregates across users and exposes no user ids');
+await as('authenticated', B);
 
 console.log('as anon (not signed in)');
 await as('anon', '');
@@ -67,6 +88,9 @@ await fails('anon cannot read progress', `select * from glorieta.progress`, /per
 await fails('anon cannot read profiles', `select * from glorieta.profiles`, /permission denied for schema glorieta/);
 await fails('anon cannot insert', `insert into glorieta.progress values ('${A}','x',${card},1,1,now())`, /permission denied/);
 await fails('anon cannot call delete_my_data', `select glorieta.delete_my_data()`, /permission denied/);
+await fails('anon cannot read attempts', `select * from glorieta.attempts`, /permission denied for schema glorieta/);
+await fails('anon cannot call my_stats', `select * from glorieta.my_stats()`, /permission denied/);
+await fails('anon cannot read the aggregate view', `select * from glorieta.item_difficulty`, /permission denied/);
 
 console.log('as authenticated with no subject claim');
 await as('authenticated', '');
@@ -81,22 +105,26 @@ await fails('item_id cannot be empty', `insert into glorieta.progress values ('$
 await fails('opt-in timestamp without opt-in is rejected', `update glorieta.profiles set marketing_opt_in=false, marketing_opt_in_at=now() where user_id='${A}'`, /check constraint/);
 await fails('display name over 80 characters', `update glorieta.profiles set display_name='${'x'.repeat(81)}' where user_id='${A}'`, /check constraint/);
 await fails('exam errors cannot exceed total', `insert into glorieta.exam_results (user_id,taken_at,total,errors,unanswered,passed) values ('${A}',now(),30,31,0,false)`, /check constraint/);
+await fails('an attempt needs a valid mode', `insert into glorieta.attempts (user_id,item_id,correct,mode,answered_at) values ('${A}','x',true,'cheating',now())`, /check constraint/);
+await fails('an attempt needs an item id', `insert into glorieta.attempts (user_id,item_id,correct,mode,answered_at) values ('${A}','',true,'practice',now())`, /check constraint/);
 
 console.log('delete_my_data');
 await as('authenticated', B);
 await db.exec(`insert into glorieta.progress values ('${B}','b1',${card},1,1,now())`);
 await as('authenticated', A);
 await db.exec(`select glorieta.delete_my_data()`);
-for (const t of ['progress', 'profiles', 'exam_results']) assert.equal((await rows(`select count(*)::int c from glorieta.${t}`))[0].c, 0);
+for (const t of ['progress', 'profiles', 'exam_results', 'attempts']) assert.equal((await rows(`select count(*)::int c from glorieta.${t}`))[0].c, 0);
 ok('A\'s call removes all of A\'s rows');
 await as('authenticated', B);
-assert.equal((await rows(`select count(*)::int c from glorieta.progress`))[0].c, 1); ok('and none of B\'s');
+assert.equal((await rows(`select count(*)::int c from glorieta.progress`))[0].c, 1);
+assert.equal((await rows(`select count(*)::int c from glorieta.attempts`))[0].c, 1); ok('and none of B\'s');
 
 console.log('privileges and cascade (as owner)');
 await db.exec(`reset role`);
 const anonGrants = await rows(`select count(*)::int c from information_schema.role_table_grants where table_schema='glorieta' and grantee in ('anon','PUBLIC')`);
 assert.equal(anonGrants[0].c, 0); ok('anon and PUBLIC hold no table privileges in glorieta');
 const rls = await rows(`select relname, relrowsecurity from pg_class c join pg_namespace n on n.oid=c.relnamespace where n.nspname='glorieta' and relkind='r' order by 1`);
+assert.equal(rls.length, 4);
 assert.ok(rls.every((r) => r.relrowsecurity)); ok(`row level security is on for all ${rls.length} tables`);
 await db.exec(`delete from auth.users where id='${B}'`);
 assert.equal((await rows(`select count(*)::int c from glorieta.progress`))[0].c, 0); ok('deleting the auth user cascades to their rows');

@@ -258,3 +258,9 @@ button.secondary.full[disabled], .secondary[disabled] { opacity: 0.6; cursor: no
 .splash-foot { padding: 0 var(--gutter) 18px; text-align: center; font-size: 0.78rem; color: rgba(255, 255, 255, 0.62); }
 .splash-foot p { margin: 0 auto 6px; max-width: 40rem; }
 @media (prefers-reduced-motion: reduce) { .splash-cta { transition: none; } }
+
+.stats-list { list-style: none; display: grid; gap: 12px; margin: 0; }
+.stat-name { display: block; font-weight: 600; font-size: 0.95rem; }
+.stat-bar { display: block; height: 8px; border-radius: 4px; background: var(--line); margin: 4px 0 2px; overflow: hidden; }
+.stat-bar > span { display: block; height: 100%; background: var(--primary); }
+.stat-num { color: var(--muted); font-size: 0.82rem; font-variant-numeric: tabular-nums; }

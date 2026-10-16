@@ -1,5 +1,6 @@
 import { signal } from '@preact/signals';
 import { createEmptyCard, fsrs, Rating, type Card } from 'ts-fsrs';
+import { clearAttempts, recordAttempt, type AttemptMode } from './attempts';
 
 const PROGRESS_KEY = 'glorieta.progress.v1';
 const EXAMS_KEY = 'glorieta.exams.v1';
@@ -62,7 +63,7 @@ export function onLocalChange(fn: (e: ChangeEvent) => void) {
 }
 
 /** Record an answer for a question or a vocabulary card and reschedule it. */
-export function grade(id: string, correct: boolean) {
+export function grade(id: string, correct: boolean, mode: AttemptMode = 'practice') {
   const now = new Date();
   const prev = progress.value[id] ?? { card: createEmptyCard(now), seen: 0, right: 0 };
   const { card } = scheduler.next(prev.card, now, correct ? Rating.Good : Rating.Again);
@@ -71,6 +72,7 @@ export function grade(id: string, correct: boolean) {
     [id]: { card, seen: prev.seen + 1, right: prev.right + (correct ? 1 : 0), at: now.toISOString() },
   };
   write(PROGRESS_KEY, progress.value);
+  recordAttempt({ item_id: id, correct, mode, answered_at: now.toISOString() });
   listeners.forEach((fn) => fn({ kind: 'progress', id }));
 }
 
@@ -100,6 +102,7 @@ export function replaceLocal(next: { progress: Record<string, Entry>; exams: Exa
 export function resetAll() {
   progress.value = {};
   exams.value = [];
+  clearAttempts();
   try {
     localStorage.removeItem(PROGRESS_KEY);
     localStorage.removeItem(EXAMS_KEY);

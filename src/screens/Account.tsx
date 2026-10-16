@@ -1,9 +1,10 @@
-import { useState } from 'preact/hooks';
+import { useEffect, useState } from 'preact/hooks';
 import type { ComponentChildren } from 'preact';
 import { T, type Bi } from '../i18n';
 import { a } from '../authStrings';
 import { authStatus, currentUser, notice, recovering, requestPasswordReset, signIn, signInWithGoogle, signOut, signUp, updatePassword } from '../lib/auth';
-import { deleteMyData, profile, saveProfile, syncNow, syncStatus } from '../lib/sync';
+import { deleteMyData, loadStats, profile, saveProfile, serverStats, syncNow, syncStatus } from '../lib/sync';
+import { categories } from '../data/categories';
 import { googleEnabled } from '../lib/supabase';
 import { resetAll } from '../lib/store';
 
@@ -199,6 +200,38 @@ function ResetPassword() {
   );
 }
 
+const topicName = (grp: string): Bi =>
+  grp === 'signs' ? a.topicSigns : grp === 'vocab' ? a.topicVocab : (categories.find((c) => c.id === grp)?.name ?? { es: grp, en: grp });
+
+/** Results by topic, computed in the database from this person's own answers. */
+function Stats() {
+  const rows = serverStats.value;
+  const synced = syncStatus.value.state === 'ok';
+  useEffect(() => {
+    if (synced) void loadStats();
+  }, [synced]);
+  return (
+    <div class="card">
+      <h2><T t={a.statsTitle} /></h2>
+      {rows === null && <p class="muted small"><T t={a.loading} /></p>}
+      {rows !== null && rows.length === 0 && <p class="muted small"><T t={a.statsEmpty} /></p>}
+      {rows !== null && rows.length > 0 && (
+        <ul class="stats-list">
+          {rows.map((r) => (
+            <li key={r.grp}>
+              <span class="stat-name"><T t={topicName(r.grp)} /></span>
+              <span class="stat-bar" role="img" aria-label={`${r.accuracy}%`}>
+                <span style={{ width: `${Math.max(0, Math.min(100, r.accuracy))}%` }} />
+              </span>
+              <span class="stat-num">{Math.round(r.accuracy)}% · {r.attempts} <T t={a.statsAnswers} /></span>
+            </li>
+          ))}
+        </ul>
+      )}
+    </div>
+  );
+}
+
 function Panel() {
   const user = currentUser.value;
   const p = profile.value;
@@ -237,6 +270,8 @@ function Panel() {
           <button type="button" class="secondary" onClick={() => void signOut()}><T t={a.signOut} /></button>
         </div>
       </div>
+
+      <Stats />
 
       {p && (
         <div class="card">

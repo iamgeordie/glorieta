@@ -33,7 +33,7 @@ export function Vocab() {
   // Outside Spanish-only mode the meaning is already wanted, so show it straight away.
   const showBack = revealed || mode.value !== 'es';
   const rate = (ok: boolean) => {
-    grade(card.id, ok);
+    grade(card.id, ok, 'vocab');
     if (ok) setKnown(known + 1);
     setIndex(index + 1);
     setRevealed(false);

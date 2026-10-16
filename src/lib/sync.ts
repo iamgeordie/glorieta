@@ -4,6 +4,7 @@ import { bi, mode, type Bi } from '../i18n';
 import { describeAuthError } from './auth-errors';
 import { mergeExams, mergeProgress } from './merge';
 import { exams, onLocalChange, progress, replaceLocal, reviveProgress, type Entry, type ExamResult, type RawEntry } from './store';
+import { clearAttempts, pendingAttempts, removeAttempts } from './attempts';
 import { crmBrandId, requireClient } from './supabase';
 
 /** Where a lead goes. Origin-checked and rate-limited by Podograph; see docs/backend/README.md. */
@@ -83,6 +84,35 @@ async function loadProfile(user: User): Promise<Profile> {
   return created.data as Profile;
 }
 
+/** Uploads the answer log in batches. Whatever was accepted is removed from the queue; the rest stays for next time. */
+async function pushAttempts(user: User) {
+  const db = requireClient();
+  for (;;) {
+    const batch = pendingAttempts().slice(0, 200);
+    if (batch.length === 0) return;
+    const { error } = await db
+      .from('attempts')
+      .upsert(batch.map((a) => ({ user_id: user.id, ...a })), { onConflict: 'user_id,item_id,answered_at', ignoreDuplicates: true });
+    if (error) throw error;
+    removeAttempts(batch);
+  }
+}
+
+export type StatRow = { grp: string; attempts: number; correct: number; accuracy: number; last_at: string };
+export const serverStats = signal<StatRow[] | null>(null);
+
+/** Per-topic results, computed in the database from this person's own answers. */
+export async function loadStats(): Promise<Bi | null> {
+  try {
+    const { data, error } = await requireClient().rpc('my_stats');
+    if (error) throw error;
+    serverStats.value = (data as StatRow[]).map((r) => ({ ...r, attempts: Number(r.attempts), correct: Number(r.correct), accuracy: Number(r.accuracy) }));
+    return null;
+  } catch (err) {
+    return describeAuthError(err);
+  }
+}
+
 /** Pull, merge, push. Safe to call again; each step only moves what differs. */
 async function reconcile(user: User) {
   const db = requireClient();
@@ -118,6 +148,7 @@ async function reconcile(user: User) {
       .upsert(x.push.map((e) => examRow(user.id, e)), { onConflict: 'user_id,taken_at', ignoreDuplicates: true });
     if (error) throw error;
   }
+  await pushAttempts(user);
 }
 
 /**
@@ -181,6 +212,7 @@ export function stopSync() {
   dirtyExams.clear();
   activeUser = null;
   profile.value = null;
+  serverStats.value = null;
   syncStatus.value = { state: 'idle' };
 }
 
@@ -191,7 +223,7 @@ function schedulePush() {
 
 async function pushDirty() {
   const user = activeUser;
-  if (!user || (dirtyIds.size === 0 && dirtyExams.size === 0)) return;
+  if (!user || (dirtyIds.size === 0 && dirtyExams.size === 0 && pendingAttempts().length === 0)) return;
   const ids = [...dirtyIds];
   const examKeys = [...dirtyExams];
   dirtyIds.clear();
@@ -209,6 +241,7 @@ async function pushDirty() {
       const { error } = await db.from('exam_results').upsert(batch, { onConflict: 'user_id,taken_at', ignoreDuplicates: true });
       if (error) throw error;
     }
+    await pushAttempts(user);
     syncStatus.value = { state: 'ok', at: new Date().toISOString() };
   } catch (err) {
     // Put the work back so the next change or "Sync now" retries it; the failure stays on screen.
@@ -248,6 +281,8 @@ export async function deleteMyData(): Promise<Bi | null> {
     if (meta.error) throw meta.error;
     const { error } = await db.rpc('delete_my_data');
     if (error) throw error;
+    clearAttempts();
+    serverStats.value = null;
     dirtyIds.clear();
     dirtyExams.clear();
     profile.value = null;

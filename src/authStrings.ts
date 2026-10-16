@@ -62,4 +62,9 @@ export const a = {
   dangerZone: bi('Tus datos', 'Your data'),
   working: bi('Un momento…', 'One moment…'),
   loading: bi('Cargando…', 'Loading…'),
+  statsTitle: bi('Tu progreso por tema', 'Your progress by topic'),
+  statsEmpty: bi('Aún no hay respuestas guardadas. Practica y vuelve aquí.', 'No saved answers yet. Practice, then come back here.'),
+  statsAnswers: bi('respuestas', 'answers'),
+  topicSigns: bi('Señales', 'Signs'),
+  topicVocab: bi('Vocabulario', 'Vocabulary'),
 };

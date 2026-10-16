@@ -53,6 +53,22 @@ create table glorieta.exam_results (
 );
 create index exam_results_user_taken_idx on glorieta.exam_results (user_id, taken_at desc);
 
+-- Every answer, as an append-only event. progress holds each item's current schedule; this holds the
+-- history, so the database can answer "how am I doing by topic" and "which questions do people miss".
+create table glorieta.attempts (
+  id          uuid primary key default gen_random_uuid(),
+  user_id     uuid not null references auth.users (id) on delete cascade,
+  item_id     text not null check (char_length(item_id) between 1 and 120),
+  correct     boolean not null,
+  mode        text not null check (mode in ('practice', 'exam', 'vocab')),
+  answered_at timestamptz not null,
+  -- The same answer sent twice (a retry, or the same device after reconnecting) is stored once.
+  unique (user_id, item_id, answered_at)
+);
+create index attempts_user_time_idx on glorieta.attempts (user_id, answered_at desc);
+create index attempts_item_idx on glorieta.attempts (item_id);
+
+comment on table glorieta.attempts is 'Append-only log of answers. progress holds the current schedule; this holds the history.';
 comment on schema glorieta is 'Glorieta (Spanish driving theory study app): per-user progress. Reached only by signed-in users, only for their own rows.';
 comment on column glorieta.profiles.marketing_opt_in is 'Explicit, unticked-by-default consent to be added to the Podograph CRM.';
 comment on column glorieta.profiles.crm_synced_at is 'When Podograph accepted this person as a lead; null means not sent.';
@@ -72,6 +88,7 @@ create trigger profiles_touch_updated_at
 alter table glorieta.profiles     enable row level security;
 alter table glorieta.progress     enable row level security;
 alter table glorieta.exam_results enable row level security;
+alter table glorieta.attempts     enable row level security;
 
 create policy profiles_select_own on glorieta.profiles for select to authenticated
   using (user_id = (select auth.uid()));
@@ -98,14 +115,52 @@ create policy exam_results_insert_own on glorieta.exam_results for insert to aut
 create policy exam_results_delete_own on glorieta.exam_results for delete to authenticated
   using (user_id = (select auth.uid()));
 
+create policy attempts_select_own on glorieta.attempts for select to authenticated
+  using (user_id = (select auth.uid()));
+create policy attempts_insert_own on glorieta.attempts for insert to authenticated
+  with check (user_id = (select auth.uid()));
+create policy attempts_delete_own on glorieta.attempts for delete to authenticated
+  using (user_id = (select auth.uid()));
+
 -- "Delete my Glorieta data". SECURITY INVOKER, so it can only ever remove the caller's own rows
 -- (row level security applies). It leaves the login itself alone, which is shared with other apps.
 create function glorieta.delete_my_data() returns void
 language sql security invoker set search_path = '' as $$
+  delete from glorieta.attempts     where user_id = (select auth.uid());
   delete from glorieta.exam_results where user_id = (select auth.uid());
   delete from glorieta.progress     where user_id = (select auth.uid());
   delete from glorieta.profiles     where user_id = (select auth.uid());
 $$;
+
+
+-- Per-topic results for the signed-in person, computed here and not in the browser. SECURITY INVOKER,
+-- so row level security limits it to the caller's own attempts. The group is the item id's prefix:
+-- 'speed-01' is speed, 'sign:r-1' is signs (the picture questions), 'v:...' is vocab.
+create function glorieta.my_stats()
+returns table (grp text, attempts bigint, correct bigint, accuracy numeric, last_at timestamptz)
+language sql stable security invoker set search_path = '' as $$
+  select case when item_id like 'sign:%' then 'signs'
+              when item_id like 'v:%'    then 'vocab'
+              else split_part(item_id, '-', 1) end                              as grp,
+         count(*)                                                                 as attempts,
+         count(*) filter (where correct)                                          as correct,
+         round(100.0 * count(*) filter (where correct) / count(*), 1)             as accuracy,
+         max(answered_at)                                                         as last_at
+  from glorieta.attempts
+  group by 1
+  order by 1
+$$;
+
+-- How hard each question really is, across everyone. Aggregates only (no user ids, no individual
+-- answers), and readable by the service role alone: for the owner, to improve the questions.
+create view glorieta.item_difficulty with (security_invoker = true) as
+  select item_id,
+         count(*)                                                       as attempts,
+         count(distinct user_id)                                        as learners,
+         count(*) filter (where correct)                                as correct,
+         round(100.0 * count(*) filter (where correct) / count(*), 1)   as accuracy
+  from glorieta.attempts
+  group by item_id;
 
 -- Privileges: the second lock, behind row level security. anon holds nothing in this schema,
 -- and default privileges are set so that a future table does not quietly re-grant it.
@@ -118,5 +173,10 @@ alter default privileges in schema glorieta revoke all on sequences from public,
 
 grant usage on schema glorieta to authenticated, service_role;
 grant select, insert, update, delete on glorieta.profiles, glorieta.progress, glorieta.exam_results to authenticated;
+grant select, insert, delete on glorieta.attempts to authenticated;
 grant all on all tables in schema glorieta to service_role;
 grant execute on function glorieta.delete_my_data() to authenticated;
+grant execute on function glorieta.my_stats() to authenticated;
+-- The per-question aggregate is for the owner (service role) only, not for signed-in users.
+revoke all on glorieta.item_difficulty from public, anon, authenticated;
+grant select on glorieta.item_difficulty to service_role;

@@ -58,7 +58,7 @@ function ExamRun({ phase, onDone, onRestart }: { phase: Phase; onDone: () => voi
       if (a === null || a === undefined) unanswered++;
       const ok = a === q.answer;
       if (!ok) errors++;
-      grade(q.id, ok);
+      grade(q.id, ok, 'exam');
     });
     saveExam({ at: new Date().toISOString(), total: exam.questions.length, errors, passed: errors <= EXAM_MAX_ERRORS, unanswered });
     onDone();
