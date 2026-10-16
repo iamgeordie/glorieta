@@ -51,7 +51,7 @@ export const usVsSpain: Bi[] = [
   bi('Las velocidades están en km/h: 30 km/h ≈ 19 mph, 50 ≈ 31, 90 ≈ 56, 120 ≈ 75.', 'Speeds are in km/h: 30 ≈ 19 mph, 50 ≈ 31, 90 ≈ 56, 120 ≈ 75.'),
   bi('El límite de alcohol es 0,25 mg/l en aire (0,5 g/l); EE. UU. usa 0,08 % (0,8 g/l).', 'The alcohol limit is 0.25 mg/L breath (0.5 g/L); the US uses 0.08% (0.8 g/L).'),
   bi('Las líneas centrales son blancas, no amarillas.', 'Center lines are white, not yellow.'),
-  bi('Las señales de autopista son azules; las de carretera convencional, verdes.', 'Motorway signs are blue; conventional road signs are green.'),
+  bi('Las señales de orientación de autopista son azules, no verdes.', 'Motorway direction signs are blue, not green.'),
   bi('El número de emergencias es el 112, no el 911.', 'The emergency number is 112, not 911.'),
   bi('El claxon solo se usa para evitar un accidente en poblado.', 'The horn is only for avoiding an accident in built-up areas.'),
   bi('En autopista se circula por la derecha y se adelanta por la izquierda.', 'On motorways you keep right and pass on the left.'),
@@ -65,4 +65,12 @@ export const sources: SourceLink[] = [
   { label: 'Sede electrónica DGT: impreso Mod. 04 (idioma del examen)', href: 'https://sede.dgt.gob.es/.galleries/modelos-solicitud/04/Mod.04-ES.pdf' },
   { label: 'BOE: Reglamento General de Circulación (RD 1428/2003)', href: 'https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514' },
   { label: 'BOE: Ley de Tráfico y Seguridad Vial (RDL 6/2015)', href: 'https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722' },
+];
+
+/** Abbreviations used in the `src` line under each question. */
+export const abbreviations: Array<[string, string]> = [
+  ['RGC', 'Reglamento General de Circulación (RD 1428/2003)'],
+  ['Ley', 'Ley de Tráfico y Seguridad Vial (RDL 6/2015)'],
+  ['RGV', 'Reglamento General de Vehículos (RD 2822/1998)'],
+  ['RGCond', 'Reglamento General de Conductores (RD 818/2009)'],
 ];

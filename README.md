@@ -40,4 +40,12 @@ Questions live in `src/data/questions.json`. Each has English and Spanish text, 
 
 ## Accuracy
 
-Traffic law changes, and so does the exam. Check anything that matters at [dgt.es](https://www.dgt.es). Two facts in the app are sourced only from secondary publications and are labeled that way: the 3-mistake limit and the 30-minute time limit.
+Traffic law changes, and so does the exam. Check anything that matters at [dgt.es](https://www.dgt.es).
+
+The question bank was fact-checked on 2026-10-16 by an independent read of the BOE consolidated texts (Reglamento General de Circulación, Ley de Tráfico, Código Penal, and others) and dgt.es. That pass corrected two wrong explanations and several imprecise ones, and supplied the article numbers in each question's `src` line. It also caught a rule change: since 1 October 2026 (RD 518/2026), overtaking a cyclist outside town requires slowing at least 20 km/h below the road limit.
+
+What is still not confirmed from a primary source:
+
+- The 3-mistake limit and the 30-minute time limit rest on secondary publications, and the app labels them that way.
+- Sign shapes and colors are images in the BOE, so they were not checked against the catalogue text.
+- A handful of questions rest on DGT guidance only (the two-second following distance, the 200 km rest recommendation, first aid), with no article to cite.

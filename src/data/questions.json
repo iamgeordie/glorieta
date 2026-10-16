@@ -10,7 +10,7 @@
         "40 km/h",
         "50 km/h"
       ],
-      "why": "Since May 2021 the general urban limit is 30 km/h on streets with one lane per direction. 50 km/h applies only where there are two or more lanes per direction."
+      "why": "Since May 2021 the general urban limit is 30 km/h on streets with one lane per direction. 50 km/h applies where there are two or more lanes per direction, and councils can post other limits with signs."
     },
     "es": {
       "q": "En una calle urbana con un carril por sentido y sin señalización específica, la velocidad máxima genérica es:",
@@ -19,7 +19,7 @@
         "40 km/h",
         "50 km/h"
       ],
-      "why": "Desde mayo de 2021 el límite urbano genérico es de 30 km/h en vías de un carril por sentido. Los 50 km/h solo se aplican con dos o más carriles por sentido."
+      "why": "Desde mayo de 2021 el límite urbano genérico es de 30 km/h en vías de un carril por sentido. Los 50 km/h se aplican con dos o más carriles por sentido, y los ayuntamientos pueden fijar otros límites con señales."
     },
     "terms": [
       {
@@ -35,7 +35,7 @@
       "es": "30 km/h son unas 19 mph. Un conductor estadounidense espera 25 mph, así que la cifra parece baja.",
       "en": "30 km/h is about 19 mph. Most American drivers expect 25 mph, so the number feels low."
     },
-    "src": "Reglamento General de Circulación (RD 1428/2003), speed limits, as amended by RD 970/2020"
+    "src": "RGC art. 50.1.b (RD 970/2020)"
   },
   {
     "id": "speed-02",
@@ -69,7 +69,7 @@
         "en": "sidewalk"
       }
     ],
-    "src": "Reglamento General de Circulación, as amended by RD 970/2020"
+    "src": "RGC art. 50.1.a"
   },
   {
     "id": "speed-03",
@@ -103,7 +103,7 @@
       "es": "120 km/h son unas 75 mph.",
       "en": "120 km/h is about 75 mph."
     },
-    "src": "Reglamento General de Circulación, speed limits"
+    "src": "RGC art. 48.1.a"
   },
   {
     "id": "speed-04",
@@ -116,7 +116,7 @@
         "100 km/h",
         "90 km/h"
       ],
-      "why": "Since 2019 the general limit for cars on conventional roads is 90 km/h. Posted signs can set it lower."
+      "why": "Since 2019 the general limit for cars on conventional roads is 90 km/h. Signs can set a different limit."
     },
     "es": {
       "q": "¿Cuál es la velocidad máxima genérica para un turismo en una carretera convencional fuera de poblado?",
@@ -125,7 +125,7 @@
         "100 km/h",
         "90 km/h"
       ],
-      "why": "Desde 2019 el límite genérico para turismos en carretera convencional es de 90 km/h. Las señales pueden fijar uno inferior."
+      "why": "Desde 2019 el límite genérico para turismos en carretera convencional es de 90 km/h. Las señales pueden fijar un límite distinto."
     },
     "terms": [
       {
@@ -137,7 +137,7 @@
         "en": "outside built-up areas"
       }
     ],
-    "src": "Reglamento General de Circulación, speed limits"
+    "src": "RGC arts. 47 and 48.1.a"
   },
   {
     "id": "speed-05",
@@ -171,7 +171,7 @@
         "en": "wet road"
       }
     ],
-    "src": "Reglamento General de Circulación, speed adapted to conditions and safety distance"
+    "src": "RGC arts. 45 and 54.1"
   },
   {
     "id": "priority-01",
@@ -209,7 +209,7 @@
       "es": "En EE. UU. se espera al que llegó primero. En España la norma por defecto es la prioridad a la derecha, incluso desde una calle más pequeña.",
       "en": "In the US you wait for whoever arrived first. Spain's default is priority to the right, even on a smaller street."
     },
-    "src": "Reglamento General de Circulación, priority at intersections"
+    "src": "RGC art. 57.1"
   },
   {
     "id": "priority-02",
@@ -243,7 +243,7 @@
         "en": "to stop"
       }
     ],
-    "src": "Reglamento General de Circulación, STOP signs"
+    "src": "RGC arts. 56.5 and 132.1"
   },
   {
     "id": "priority-03",
@@ -273,7 +273,7 @@
         "en": "yield / give way"
       }
     ],
-    "src": "Reglamento General de Circulación, yield signs"
+    "src": "RGC art. 56.5"
   },
   {
     "id": "priority-04",
@@ -311,7 +311,7 @@
       "es": "Es el hábito estadounidense más difícil de olvidar. Aquí no existe el giro a la derecha con el semáforo en rojo.",
       "en": "This is the biggest habit to unlearn from the US. Right on red is not a thing here."
     },
-    "src": "Reglamento General de Circulación, traffic light signals"
+    "src": "RGC art. 56.3 and Anexo I 4.2"
   },
   {
     "id": "priority-05",
@@ -345,7 +345,7 @@
         "en": "caution"
       }
     ],
-    "src": "Reglamento General de Circulación, traffic light signals"
+    "src": "RGC Anexo I 4.2.d"
   },
   {
     "id": "priority-06",
@@ -358,7 +358,7 @@
         "Obey the officer",
         "Stop and wait for the light to change"
       ],
-      "why": "An officer's instructions come before traffic lights, which come before vertical signs, which come before road markings."
+      "why": "An officer's instructions come first, then temporary signals and beacons, then traffic lights, then vertical signs, then road markings."
     },
     "es": {
       "q": "Un agente de la circulación le indica que avance mientras el semáforo está en rojo. ¿Qué hace?",
@@ -367,7 +367,7 @@
         "Obedece al agente",
         "Se detiene y espera a que cambie el semáforo"
       ],
-      "why": "Las indicaciones de los agentes prevalecen sobre los semáforos, estos sobre las señales verticales y estas sobre las marcas viales."
+      "why": "Primero van las indicaciones de los agentes, después la señalización circunstancial, luego los semáforos, las señales verticales y, por último, las marcas viales."
     },
     "terms": [
       {
@@ -375,7 +375,7 @@
         "en": "traffic officer"
       }
     ],
-    "src": "Reglamento General de Circulación, order of precedence among signals"
+    "src": "RGC art. 133.1"
   },
   {
     "id": "priority-07",
@@ -409,7 +409,7 @@
         "en": "pedestrian"
       }
     ],
-    "src": "Reglamento General de Circulación, pedestrian priority"
+    "src": "RGC art. 65.1.a"
   },
   {
     "id": "priority-08",
@@ -443,7 +443,7 @@
         "en": "side street"
       }
     ],
-    "src": "Reglamento General de Circulación, priority of pedestrians when turning"
+    "src": "RGC art. 65.1.b"
   },
   {
     "id": "priority-09",
@@ -477,7 +477,7 @@
         "en": "to let through"
       }
     ],
-    "src": "Reglamento General de Circulación, priority vehicles"
+    "src": "RGC arts. 67.1 and 69"
   },
   {
     "id": "priority-10",
@@ -511,7 +511,7 @@
         "en": "paved"
       }
     ],
-    "src": "Reglamento General de Circulación, priority at intersections"
+    "src": "RGC art. 57.1.a"
   },
   {
     "id": "priority-11",
@@ -541,7 +541,7 @@
         "en": "priority road"
       }
     ],
-    "src": "Reglamento General de Circulación, priority signs"
+    "src": "RGC art. 56.4"
   },
   {
     "id": "roundabouts-01",
@@ -571,7 +571,7 @@
         "en": "roundabout"
       }
     ],
-    "src": "Reglamento General de Circulación, roundabouts"
+    "src": "RGC art. 57.1.c"
   },
   {
     "id": "roundabouts-02",
@@ -605,7 +605,7 @@
       "es": "Aquí hay glorietas por todas partes. Mismo sentido que en EE. UU., pero encontrarás muchas más.",
       "en": "Roundabouts are everywhere here. Same direction as in the US, but you will meet far more of them."
     },
-    "src": "Reglamento General de Circulación, roundabouts"
+    "src": "RGC arts. 43.2 and 57.1.c"
   },
   {
     "id": "roundabouts-03",
@@ -639,7 +639,7 @@
         "en": "exit"
       }
     ],
-    "src": "Reglamento General de Circulación, roundabouts"
+    "src": "RGC arts. 74.2 and 109"
   },
   {
     "id": "roundabouts-04",
@@ -669,7 +669,7 @@
         "en": "turn signal"
       }
     ],
-    "src": "Reglamento General de Circulación, roundabouts and signaling"
+    "src": "RGC arts. 108.1 and 109"
   },
   {
     "id": "roundabouts-05",
@@ -685,7 +685,7 @@
       "why": "The roundabout runs counterclockwise, so the vehicles circulating inside come at you from the left."
     },
     "es": {
-      "q": "Espera para entrar en una glorieta. ¿Por qué lado se aproximan los vehículos con prioridad?",
+      "q": "Está esperando para entrar en una glorieta. ¿Por qué lado se aproximan los vehículos con prioridad?",
       "options": [
         "Por su derecha",
         "Solo de frente",
@@ -699,7 +699,7 @@
         "en": "from your left"
       }
     ],
-    "src": "Reglamento General de Circulación, roundabouts"
+    "src": "RGC arts. 43.2 and 57.1.c"
   },
   {
     "id": "overtaking-01",
@@ -729,7 +729,7 @@
         "en": "overtaking / passing"
       }
     ],
-    "src": "Reglamento General de Circulación, overtaking"
+    "src": "RGC art. 82"
   },
   {
     "id": "overtaking-02",
@@ -763,7 +763,7 @@
         "en": "blind curve"
       }
     ],
-    "src": "Reglamento General de Circulación, overtaking restrictions"
+    "src": "RGC art. 87.1.a"
   },
   {
     "id": "overtaking-03",
@@ -776,7 +776,7 @@
         "1 m",
         "1.5 m"
       ],
-      "why": "Leave at least 1.5 meters. If needed you may cross the solid line to do it, as long as it is safe."
+      "why": "Leave at least 1.5 meters. Since 1 October 2026, outside town you must also reduce speed by at least 20 km/h below the road limit, and on roads with several lanes per direction you must change lanes completely. You may cross the solid line if it is safe."
     },
     "es": {
       "q": "Va a adelantar a un ciclista en una carretera de doble sentido fuera de poblado. ¿Cuál es la separación lateral mínima?",
@@ -785,7 +785,7 @@
         "1 m",
         "1,5 m"
       ],
-      "why": "Debe dejar al menos 1,5 metros. Si es necesario puede invadir la línea continua, siempre que sea seguro."
+      "why": "Debe dejar al menos 1,5 metros. Desde el 1 de octubre de 2026, fuera de poblado también debe reducir la velocidad al menos 20 km/h respecto al límite de la vía, y en vías con varios carriles por sentido debe cambiar completamente de carril. Puede invadir la línea continua si es seguro."
     },
     "terms": [
       {
@@ -797,7 +797,7 @@
         "en": "lateral clearance"
       }
     ],
-    "src": "Reglamento General de Circulación, overtaking cyclists"
+    "src": "RGC arts. 85.4 and 88 (RD 518/2026)"
   },
   {
     "id": "overtaking-04",
@@ -810,7 +810,7 @@
         "Speed up to keep ahead",
         "Move toward the center line to give space"
       ],
-      "why": "When overtaken, keep to the right and do not increase speed. If needed, ease off to make the pass shorter."
+      "why": "When overtaken, keep to the right and do not increase speed. If danger appears once the pass has begun, slow down so the other driver can finish it."
     },
     "es": {
       "q": "Otro conductor le está adelantando. ¿Qué debe hacer?",
@@ -819,7 +819,7 @@
         "Acelerar para no ser rebasado",
         "Acercarse a la línea central para dejarle espacio"
       ],
-      "why": "Si le adelantan, manténgase a la derecha y no aumente la velocidad. Si es preciso, reduzca para acortar el adelantamiento."
+      "why": "Si le adelantan, manténgase a la derecha y no aumente la velocidad. Si aparece un peligro cuando el adelantamiento ya ha empezado, reduzca para que el otro conductor pueda terminarlo."
     },
     "terms": [
       {
@@ -827,7 +827,7 @@
         "en": "being overtaken"
       }
     ],
-    "src": "Reglamento General de Circulación, duties of the overtaken driver"
+    "src": "RGC art. 86"
   },
   {
     "id": "overtaking-05",
@@ -840,7 +840,7 @@
         "Yes, you follow the marking on your own side, if it is safe",
         "Only if you are on a motorway"
       ],
-      "why": "When the marking is double, you follow the line on your side of the road. A dashed line on your side permits overtaking when it is safe."
+      "why": "When a solid line sits beside a dashed one, you follow the line on your side of the road. A dashed line on your side permits overtaking when it is safe."
     },
     "es": {
       "q": "En el eje de la calzada hay una línea continua en el lado contrario y una discontinua en el suyo. ¿Puede adelantar?",
@@ -849,7 +849,7 @@
         "Sí, se respeta la marca de su lado, si es seguro",
         "Solo si circula por una autopista"
       ],
-      "why": "Cuando la marca es doble, rige la línea de su lado. Una línea discontinua en su lado permite adelantar si es seguro."
+      "why": "Cuando una línea continua va junto a una discontinua, rige la línea de su lado. Una línea discontinua en su lado permite adelantar si es seguro."
     },
     "terms": [
       {
@@ -861,7 +861,7 @@
         "en": "dashed line"
       }
     ],
-    "src": "Reglamento General de Circulación, road markings"
+    "src": "RGC Anexo I 5.2, marks M-3.1 to M-3.3"
   },
   {
     "id": "overtaking-06",
@@ -895,7 +895,7 @@
       "es": "Aquí se sanciona ocupar el carril izquierdo sin adelantar, a diferencia de muchas autopistas de EE. UU.",
       "en": "Lane hogging in the left lane is enforced here, unlike many US highways."
     },
-    "src": "Reglamento General de Circulación, use of lanes"
+    "src": "RGC art. 31.1; Ley art. 76.c"
   },
   {
     "id": "overtaking-07",
@@ -911,7 +911,7 @@
       "why": "Passing on the right is allowed when the vehicle ahead has signaled a left turn and positioned itself for it."
     },
     "es": {
-      "q": "El vehículo de delante indica un giro a la izquierda y se ha desplazado hacia el centro. ¿Cómo puede rebasarlo?",
+      "q": "El vehículo de delante indica un giro a la izquierda y se ha desplazado hacia el centro. ¿Cómo puede adelantarlo?",
       "options": [
         "Por la derecha, si hay espacio y es seguro",
         "No puede rebasarlo de ninguna manera",
@@ -925,7 +925,7 @@
         "en": "left turn"
       }
     ],
-    "src": "Reglamento General de Circulación, overtaking on the right"
+    "src": "RGC arts. 82.2 and 86.1"
   },
   {
     "id": "alcohol-01",
@@ -963,7 +963,7 @@
       "es": "El límite en EE. UU. es 0,08 % de alcohol en sangre, unos 0,8 g/l. El 0,5 g/l español es mucho más estricto.",
       "en": "The US limit is 0.08% BAC, about 0.8 g/L. Spain's 0.5 g/L is much stricter."
     },
-    "src": "Reglamento General de Circulación, alcohol limits"
+    "src": "RGC art. 20"
   },
   {
     "id": "alcohol-02",
@@ -976,7 +976,7 @@
         "0.00 mg/L",
         "0.15 mg/L"
       ],
-      "why": "Novice and professional drivers have a lower limit: 0.15 mg/L in exhaled air (0.3 g/L in blood)."
+      "why": "Novice drivers (first two years) and professional drivers, such as truck, bus, taxi and emergency drivers, have a lower limit: 0.15 mg/L in exhaled air (0.3 g/L in blood)."
     },
     "es": {
       "q": "¿Cuál es la tasa en aire espirado para conductores noveles (permiso con menos de 2 años) y profesionales?",
@@ -985,7 +985,7 @@
         "0,00 mg/l",
         "0,15 mg/l"
       ],
-      "why": "Los conductores noveles y profesionales tienen una tasa menor: 0,15 mg/l en aire espirado (0,3 g/l en sangre)."
+      "why": "Los conductores noveles (primeros dos años) y los profesionales, como los de camiones, autobuses, taxis y vehículos de emergencia, tienen una tasa menor: 0,15 mg/l en aire espirado (0,3 g/l en sangre)."
     },
     "terms": [
       {
@@ -997,7 +997,7 @@
         "en": "professional driver"
       }
     ],
-    "src": "Reglamento General de Circulación, alcohol limits"
+    "src": "RGC art. 20"
   },
   {
     "id": "alcohol-03",
@@ -1027,7 +1027,7 @@
         "en": "crime"
       }
     ],
-    "src": "Código Penal, delitos contra la seguridad vial"
+    "src": "Código Penal art. 379.2"
   },
   {
     "id": "alcohol-04",
@@ -1061,7 +1061,7 @@
         "en": "positive (test result)"
       }
     ],
-    "src": "Ley de Tráfico (RDL 6/2015), driving under the influence of drugs"
+    "src": "Ley arts. 14.1 and 77.c; RGC art. 27"
   },
   {
     "id": "alcohol-05",
@@ -1091,7 +1091,7 @@
         "en": "breath test"
       }
     ],
-    "src": "Código Penal, delitos contra la seguridad vial"
+    "src": "Código Penal art. 383; Ley art. 14.2; RGC art. 28"
   },
   {
     "id": "alcohol-06",
@@ -1202,7 +1202,7 @@
         "All occupants, in the front and rear seats",
         "Only on motorways"
       ],
-      "why": "Seat belts (or the right child restraint) are mandatory for every occupant, in every seat, on every road."
+      "why": "Seat belts (or the right child restraint) are mandatory for every occupant, in every seat, on every road, with a few narrow exceptions such as a medical exemption."
     },
     "es": {
       "q": "¿Quién debe llevar puesto el cinturón de seguridad en un turismo?",
@@ -1211,7 +1211,7 @@
         "Todos los ocupantes, en las plazas delanteras y traseras",
         "Solo en autopista"
       ],
-      "why": "El cinturón (o el sistema de retención adecuado) es obligatorio para todos los ocupantes, en todas las plazas y en todas las vías."
+      "why": "El cinturón (o el sistema de retención adecuado) es obligatorio para todos los ocupantes, en todas las plazas y en todas las vías, con pocas excepciones como la exención médica."
     },
     "terms": [
       {
@@ -1223,7 +1223,7 @@
         "en": "occupants"
       }
     ],
-    "src": "Reglamento General de Circulación, seat belts and restraint systems"
+    "src": "RGC arts. 117.1 and 119"
   },
   {
     "id": "safety-02",
@@ -1245,7 +1245,7 @@
         "Con el cinturón de adulto en el asiento delantero",
         "En brazos de un adulto"
       ],
-      "why": "Los menores de 135 cm o menos deben usar un sistema de retención homologado adecuado a su talla y peso, normalmente en el asiento trasero."
+      "why": "Los menores que midan 135 cm o menos deben usar un sistema de retención homologado adecuado a su talla y peso, normalmente en el asiento trasero."
     },
     "terms": [
       {
@@ -1261,7 +1261,7 @@
       "es": "La norma depende de la estatura, no de la edad. Aquí son 135 cm.",
       "en": "The rule is based on height, not age. Here it is 135 cm."
     },
-    "src": "Reglamento General de Circulación, child restraint systems"
+    "src": "RGC art. 117.1 and 117.3"
   },
   {
     "id": "safety-03",
@@ -1271,7 +1271,7 @@
       "q": "May you hold and use a mobile phone while stopped at a red light?",
       "options": [
         "Yes, because the car is not moving",
-        "Yes, if the engine is off",
+        "Yes, but only to read, not to type",
         "No, the ban on holding the phone applies while driving, including at lights"
       ],
       "why": "Holding a phone while driving is banned, and that includes waiting at a traffic light with the engine running. It is a serious offense with a fine and points."
@@ -1280,7 +1280,7 @@
       "q": "¿Puede sostener y usar el móvil mientras espera detenido en un semáforo en rojo?",
       "options": [
         "Sí, porque el vehículo no se mueve",
-        "Sí, si tiene el motor apagado",
+        "Sí, pero solo para leer, no para escribir",
         "No, la prohibición de sostener el móvil rige al conducir, también en el semáforo"
       ],
       "why": "Sostener el móvil mientras se conduce está prohibido, también al esperar en un semáforo con el motor en marcha. Es una infracción grave con multa y pérdida de puntos."
@@ -1291,7 +1291,7 @@
         "en": "mobile phone"
       }
     ],
-    "src": "Ley de Tráfico (RDL 6/2015) and Reglamento General de Circulación, use of phones"
+    "src": "Ley arts. 13.3 and 76.g; RGC art. 18.2"
   },
   {
     "id": "safety-04",
@@ -1321,7 +1321,7 @@
         "en": "headphones / earbuds"
       }
     ],
-    "src": "Reglamento General de Circulación, driver attention and equipment"
+    "src": "Ley arts. 13.3 and 76.f; RGC art. 18.2"
   },
   {
     "id": "safety-05",
@@ -1331,7 +1331,7 @@
       "q": "Which lights must you use when driving through a tunnel?",
       "options": [
         "Low beams (dipped headlights)",
-        "High beams",
+        "Fog lights only",
         "Only parking lights"
       ],
       "why": "In tunnels you must use low beams, even if the tunnel is lit."
@@ -1340,7 +1340,7 @@
       "q": "¿Qué luces debe llevar encendidas al circular por un túnel?",
       "options": [
         "Las luces de cruce",
-        "Las luces de carretera",
+        "Solo las antiniebla",
         "Solo las de posición"
       ],
       "why": "En los túneles hay que llevar las luces de cruce, aunque el túnel esté iluminado."
@@ -1351,15 +1351,15 @@
         "en": "low beams"
       },
       {
-        "es": "luces de carretera",
-        "en": "high beams"
+        "es": "luces antiniebla",
+        "en": "fog lights"
       },
       {
         "es": "túnel",
         "en": "tunnel"
       }
     ],
-    "src": "Reglamento General de Circulación, use of lights"
+    "src": "RGC arts. 98, 100.1 and 101.1"
   },
   {
     "id": "safety-06",
@@ -1419,7 +1419,7 @@
         "en": "points license"
       }
     ],
-    "src": "Ley de Tráfico (RDL 6/2015), points system"
+    "src": "Ley arts. 63.1 and 65.2"
   },
   {
     "id": "docs-02",
@@ -1449,7 +1449,7 @@
         "en": "novice driver"
       }
     ],
-    "src": "Ley de Tráfico (RDL 6/2015), points system"
+    "src": "Ley arts. 63.1 and 65.2"
   },
   {
     "id": "docs-03",
@@ -1462,7 +1462,7 @@
         "1 year",
         "2 years"
       ],
-      "why": "A theory pass is kept for two years. After that you must take all the exams again."
+      "why": "A theory pass is valid for two years. After that you must pass the theory exam again."
     },
     "es": {
       "q": "¿Cuánto tiempo es válido un examen teórico aprobado si todavía no ha aprobado el práctico?",
@@ -1471,7 +1471,7 @@
         "1 año",
         "2 años"
       ],
-      "why": "El aprobado del teórico se conserva durante dos años. Pasado ese tiempo hay que repetir todos los exámenes."
+      "why": "El aprobado del teórico vale dos años. Pasado ese tiempo hay que volver a aprobar el examen teórico."
     },
     "terms": [
       {
@@ -1483,7 +1483,7 @@
         "en": "practical exam"
       }
     ],
-    "src": "DGT, requirements and exam registration page"
+    "src": "RGCond art. 53.1"
   },
   {
     "id": "docs-04",
@@ -1517,7 +1517,7 @@
         "en": "inspection card"
       }
     ],
-    "src": "Reglamento General de Circulación, documents required to drive"
+    "src": "RGV art. 26.1; RGCond art. 3.2"
   },
   {
     "id": "signs-01",
@@ -1547,7 +1547,7 @@
         "en": "warning sign"
       }
     ],
-    "src": "Reglamento General de Circulación, traffic signs"
+    "src": "RGC arts. 144 to 146"
   },
   {
     "id": "signs-02",
@@ -1577,7 +1577,7 @@
         "en": "maximum speed"
       }
     ],
-    "src": "Reglamento General de Circulación, traffic signs"
+    "src": "RGC arts. 144 to 146"
   },
   {
     "id": "signs-03",
@@ -1607,7 +1607,7 @@
         "en": "mandatory"
       }
     ],
-    "src": "Reglamento General de Circulación, traffic signs"
+    "src": "RGC arts. 144 to 146"
   },
   {
     "id": "signs-04",
@@ -1629,7 +1629,7 @@
         "Círculo",
         "Octógono"
       ],
-      "why": "El STOP es un octógono, por lo que se reconoce incluso por detrás o si está cubierto de suciedad."
+      "why": "El STOP es un octógono, por lo que se reconoce incluso por detrás o si está cubierto de nieve o suciedad."
     },
     "terms": [
       {
@@ -1637,7 +1637,7 @@
         "en": "octagon"
       }
     ],
-    "src": "Reglamento General de Circulación, traffic signs"
+    "src": "RGC arts. 144 to 146"
   },
   {
     "id": "signs-05",
@@ -1647,19 +1647,19 @@
       "q": "Direction signs with a blue background are used on:",
       "options": [
         "Motorways (autopistas and autovías)",
-        "Conventional roads",
-        "Urban streets only"
+        "Only inside towns",
+        "Only on mountain roads"
       ],
-      "why": "Blue signs guide traffic on motorways. Green signs are used on conventional roads."
+      "why": "Blue direction signs guide traffic on motorways (autopistas and autovías)."
     },
     "es": {
       "q": "Las señales de orientación con fondo azul se utilizan en:",
       "options": [
         "Autopistas y autovías",
-        "Carreteras convencionales",
-        "Solo calles urbanas"
+        "Solo dentro de poblado",
+        "Solo en carreteras de montaña"
       ],
-      "why": "Las señales azules orientan en autopistas y autovías. Las verdes se usan en carreteras convencionales."
+      "why": "Las señales de orientación azules guían el tráfico en autopistas y autovías."
     },
     "terms": [
       {
@@ -1671,7 +1671,7 @@
       "es": "Las señales verdes de autopista son el hábito de EE. UU. Aquí el azul significa autopista.",
       "en": "Green highway signs are the US habit. Here, blue means motorway."
     },
-    "src": "Reglamento General de Circulación, direction signs"
+    "src": "Norma 8.1-IC (Orden FOM/534/2014)"
   },
   {
     "id": "signs-06",
@@ -1705,7 +1705,7 @@
         "en": "temporary sign"
       }
     ],
-    "src": "Reglamento General de Circulación, temporary signs"
+    "src": "RGC art. 133.1.b and Anexo I 5.1"
   },
   {
     "id": "signs-07",
@@ -1739,7 +1739,7 @@
       "es": "En EE. UU. una línea central amarilla separa sentidos opuestos. En España esas líneas son blancas.",
       "en": "In the US, a yellow center line separates opposing traffic. In Spain, those lines are white."
     },
-    "src": "Reglamento General de Circulación, road markings"
+    "src": "RGC Anexo I 5.2"
   },
   {
     "id": "signs-08",
@@ -1748,20 +1748,20 @@
     "en": {
       "q": "A continuous yellow line along the curb means:",
       "options": [
-        "Parking is not allowed",
+        "Stopping and parking are not allowed",
         "Parking is free",
         "Parking is for residents only"
       ],
-      "why": "A yellow line along the curb restricts parking. A yellow zigzag usually marks a no-stopping area, such as a bus stop."
+      "why": "A continuous yellow line along the curb prohibits stopping and parking. A dashed yellow line prohibits parking only, and a yellow zigzag prohibits parking at bus stops and loading zones."
     },
     "es": {
       "q": "Una línea amarilla continua junto al bordillo significa:",
       "options": [
-        "Prohibido estacionar",
+        "Prohibido parar y estacionar",
         "Estacionamiento gratuito",
         "Estacionamiento reservado a residentes"
       ],
-      "why": "Una línea amarilla en el bordillo prohíbe estacionar. Una línea amarilla en zigzag suele marcar una zona de parada prohibida, como una parada de autobús."
+      "why": "Una línea amarilla continua junto al bordillo prohíbe parar y estacionar. La discontinua prohíbe solo estacionar, y el zigzag amarillo prohíbe estacionar en paradas de autobús y zonas de carga."
     },
     "terms": [
       {
@@ -1769,11 +1769,15 @@
         "en": "curb"
       },
       {
+        "es": "parar",
+        "en": "to stop (briefly)"
+      },
+      {
         "es": "estacionar",
         "en": "to park"
       }
     ],
-    "src": "Reglamento General de Circulación, road markings"
+    "src": "RGC Anexo I 5.2, marks M-7.7 to M-7.9"
   },
   {
     "id": "equipment-01",
@@ -1786,7 +1790,7 @@
         "A reflective vest and a V16 warning beacon",
         "Only a spare tire"
       ],
-      "why": "Carry a reflective vest, and the V16 connected beacon, which replaced the warning triangles from 2026. Put the vest on before leaving the car on the road."
+      "why": "Carry a reflective vest and the connected V16 beacon, which has been the only valid warning device since 1 January 2026 and replaced the triangles. Put the vest on before you get out on an interurban road."
     },
     "es": {
       "q": "¿Qué debe llevar un vehículo en caso de avería o emergencia en la carretera?",
@@ -1795,7 +1799,7 @@
         "Un chaleco reflectante y una baliza V16",
         "Solo una rueda de repuesto"
       ],
-      "why": "Lleve un chaleco reflectante y la baliza V16 conectada, que sustituye a los triángulos de preseñalización desde 2026. Póngase el chaleco antes de salir del coche en la vía."
+      "why": "Lleve un chaleco reflectante y la baliza V16 conectada, que es el único dispositivo de preseñalización válido desde el 1 de enero de 2026 y sustituyó a los triángulos. Póngase el chaleco antes de salir del coche en una vía interurbana."
     },
     "terms": [
       {
@@ -1811,7 +1815,7 @@
         "en": "breakdown"
       }
     ],
-    "src": "Reglamento General de Vehículos and DGT rules on V16 beacon"
+    "src": "RGV Anexos XI and XII; RGC arts. 118.4 and 130.4; RD 159/2021"
   },
   {
     "id": "equipment-02",
@@ -1841,7 +1845,7 @@
         "en": "technical inspection (like MOT / smog check)"
       }
     ],
-    "src": "Real Decreto 920/2017, technical inspection of vehicles"
+    "src": "RD 920/2017 art. 6.1"
   },
   {
     "id": "equipment-03",
@@ -1875,7 +1879,7 @@
         "en": "environmental badge"
       }
     ],
-    "src": "Ley 7/2021 de cambio climático and DGT environmental badge rules"
+    "src": "Ley 7/2021 art. 14.3.a"
   },
   {
     "id": "equipment-04",
@@ -1885,19 +1889,19 @@
       "q": "When may you use the hazard (emergency) lights?",
       "options": [
         "To park illegally for a minute",
-        "When your vehicle is stopped and a danger to others, or to warn of a sudden hazard ahead",
+        "When your vehicle is immobilized and a danger to others, such as in a breakdown",
         "Whenever it rains"
       ],
-      "why": "Hazard lights warn others of a danger, for example a stopped vehicle in a risky place or a sudden slowdown. They are not a permission to park illegally."
+      "why": "Hazard lights warn others about a vehicle that is immobilized and a danger, for example after a breakdown or in poor visibility. They are not permission to park illegally."
     },
     "es": {
       "q": "¿Cuándo puede usar las luces de emergencia?",
       "options": [
         "Para estacionar mal un minuto",
-        "Cuando su vehículo está detenido y supone un peligro, o para avisar de un peligro repentino",
+        "Cuando su vehículo está inmovilizado y supone un peligro para otros, por ejemplo por una avería",
         "Siempre que llueva"
       ],
-      "why": "Las luces de emergencia avisan de un peligro, por ejemplo un vehículo parado en un lugar de riesgo o una retención repentina. No dan permiso para estacionar mal."
+      "why": "Las luces de emergencia avisan de un vehículo inmovilizado que supone un peligro, por ejemplo tras una avería o con poca visibilidad. No dan permiso para estacionar mal."
     },
     "terms": [
       {
@@ -1905,7 +1909,7 @@
         "en": "hazard lights"
       }
     ],
-    "src": "Reglamento General de Circulación, use of hazard lights"
+    "src": "RGC arts. 49.3, 97.3, 109.2.c and 130.4"
   },
   {
     "id": "situations-01",
@@ -1943,7 +1947,7 @@
         "en": "assist / rescue"
       }
     ],
-    "src": "Reglamento General de Circulación, accidents and duty of assistance; DGT"
+    "src": "RGC art. 129; DGT (PAS)"
   },
   {
     "id": "situations-02",
@@ -2022,7 +2026,7 @@
       "options": [
         "Yes, for a few minutes",
         "Yes, at night",
-        "No, never"
+        "No, it is prohibited"
       ],
       "why": "Parking in front of a marked driveway (vado) is prohibited, because it blocks access. The tow truck can remove you."
     },
@@ -2031,7 +2035,7 @@
       "options": [
         "Sí, unos minutos",
         "Sí, por la noche",
-        "No, nunca"
+        "No, está prohibido"
       ],
       "why": "Está prohibido aparcar frente a un vado señalizado, porque impide el acceso. La grúa puede retirar el vehículo."
     },
@@ -2045,7 +2049,7 @@
         "en": "tow truck"
       }
     ],
-    "src": "Reglamento General de Circulación, parking prohibitions and local ordinances"
+    "src": "RGC art. 94.2.f; Ley art. 105.1"
   },
   {
     "id": "situations-05",
@@ -2079,7 +2083,7 @@
       "es": "Usar el claxon para «hablar» es un hábito de EE. UU. que aquí se multa.",
       "en": "Horn-as-conversation is a US habit that gets fined here."
     },
-    "src": "Reglamento General de Circulación, acoustic signals"
+    "src": "RGC art. 110"
   },
   {
     "id": "situations-06",
@@ -2092,7 +2096,7 @@
         "Continue to the next exit and come back",
         "Make a U-turn across the median"
       ],
-      "why": "Never reverse or make a U-turn on a motorway. Continue to the next exit."
+      "why": "Reversing is banned and you cannot turn around across the median. Continue to the next exit."
     },
     "es": {
       "q": "Se pasa la salida en una autopista. ¿Qué hace?",
@@ -2101,7 +2105,7 @@
         "Continuar hasta la siguiente salida y volver",
         "Dar la vuelta cruzando la mediana"
       ],
-      "why": "Nunca se debe dar marcha atrás ni cambiar de sentido en una autopista. Continúe hasta la siguiente salida."
+      "why": "Está prohibido dar marcha atrás y no se puede cambiar de sentido cruzando la mediana. Continúe hasta la siguiente salida."
     },
     "terms": [
       {
@@ -2117,7 +2121,7 @@
         "en": "median"
       }
     ],
-    "src": "Reglamento General de Circulación, motorways"
+    "src": "RGC arts. 79.1 and 80.3"
   },
   {
     "id": "situations-07",
@@ -2151,7 +2155,7 @@
         "en": "to merge"
       }
     ],
-    "src": "Reglamento General de Circulación, motorways"
+    "src": "RGC arts. 57.1.d and 72.4"
   },
   {
     "id": "hazards-01",
@@ -2162,7 +2166,7 @@
       "options": [
         "Ease off and be ready to brake, since someone may step out",
         "Keep your speed; the van is stopped",
-        "Honk to warn anyone behind the van"
+        "Speed up to pass the van quickly"
       ],
       "why": "A stopped vehicle can hide pedestrians. Slow down and prepare to stop."
     },
@@ -2171,7 +2175,7 @@
       "options": [
         "Reducir la velocidad y estar preparado para frenar, porque alguien puede salir",
         "Mantener la velocidad, porque la furgoneta está parada",
-        "Tocar el claxon para avisar a quien esté tras la furgoneta"
+        "Acelerar para adelantar rápidamente la furgoneta"
       ],
       "why": "Un vehículo detenido puede ocultar a peatones. Reduzca la velocidad y prepárese para detenerse."
     },
@@ -2181,7 +2185,7 @@
         "en": "van"
       }
     ],
-    "src": "DGT risk-perception guidance"
+    "src": "RGC arts. 45 and 46.1"
   },
   {
     "id": "hazards-02",
@@ -2215,7 +2219,7 @@
         "en": "parked cars"
       }
     ],
-    "src": "DGT risk-perception guidance"
+    "src": "RGC arts. 45 and 46.1"
   },
   {
     "id": "hazards-03",
@@ -2245,7 +2249,7 @@
         "en": "narrow road"
       }
     ],
-    "src": "DGT risk-perception guidance"
+    "src": "RGC arts. 29.1 and 84.1"
   },
   {
     "id": "hazards-04",
@@ -2288,7 +2292,7 @@
         "Slow down and, when safe, pass leaving 1.5 m, even crossing the line if needed",
         "Follow at a short distance until the road widens"
       ],
-      "why": "You may cross the continuous line to pass a cyclist, if it is safe and you leave at least 1.5 meters."
+      "why": "You may cross the continuous line to pass a cyclist if it is safe. Leave at least 1.5 meters and, outside town, slow to at least 20 km/h below the road limit."
     },
     "es": {
       "q": "Circula detrás de un ciclista por una carretera con línea continua. ¿Cuál es la actuación correcta?",
@@ -2297,7 +2301,7 @@
         "Reducir la velocidad y, cuando sea seguro, adelantar dejando 1,5 m, incluso invadiendo la línea si hace falta",
         "Seguirle a poca distancia hasta que la vía se ensanche"
       ],
-      "why": "Puede invadir la línea continua para adelantar a un ciclista, si es seguro y deja al menos 1,5 metros."
+      "why": "Puede invadir la línea continua para adelantar a un ciclista si es seguro. Deje al menos 1,5 metros y, fuera de poblado, reduzca la velocidad al menos 20 km/h respecto al límite de la vía."
     },
     "terms": [
       {
@@ -2305,6 +2309,6 @@
         "en": "cyclist"
       }
     ],
-    "src": "Reglamento General de Circulación, overtaking cyclists"
+    "src": "RGC art. 85.4 (RD 518/2026)"
   }
 ]

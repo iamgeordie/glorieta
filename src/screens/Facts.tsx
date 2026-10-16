@@ -1,5 +1,5 @@
 import { Peek, T } from '../i18n';
-import { confidenceLabel, factGroups, sources, usVsSpain } from '../data/facts';
+import { abbreviations, confidenceLabel, factGroups, sources, usVsSpain } from '../data/facts';
 import { ui } from '../ui';
 
 export function Facts() {
@@ -36,6 +36,11 @@ export function Facts() {
             </li>
           ))}
         </ul>
+        <p class="muted small">
+          {abbreviations.map(([a, full]) => (
+            <span key={a} class="term"><b>{a}</b> = {full}</span>
+          ))}
+        </p>
       </div>
       <p class="muted"><strong><T t={ui.unofficialTitle} />.</strong> <T t={ui.unofficial} /></p>
     </section>
