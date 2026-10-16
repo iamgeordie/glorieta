@@ -27,6 +27,12 @@ Progress lives in the browser's `localStorage`. There is no account and no serve
 
 People can sign in to sync progress across devices: email and password, email confirmation, password reset, and a Google button that is disabled until a Google OAuth client exists. It is off unless the app is built with a Supabase project configured; with no configuration the app is exactly the local-only version. Joining a mailing list is a separate opt-in, unticked by default. Design, configuration and tests are in [`docs/backend/`](docs/backend/README.md).
 
+## Logo and splash page
+
+The logo is the official Spanish roundabout sign (R-402), drawn by Majafego and licensed [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) on [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Spain_traffic_signal_r402.svg). It is used as published: the favicon is a byte-identical copy (`npm run check` fails if it ever differs), and the splash page draws the file unmodified, only rotating it as a whole. It is never recolored, cropped or split, because a modified version would have to be shared under the same license. The credit appears on the splash page and in `public/signs/CREDITS.md`. If you reuse the logo, keep that credit.
+
+The splash page (`#/welcome`) is a full-screen `<canvas>`: cars circling the sign as if it were the island of a roundabout. CSS decides the layout and the canvas reads where the sign sits, so it scales from a phone to a wide monitor. All text, buttons and the credit are real HTML over the canvas, which is hidden from screen readers. With `prefers-reduced-motion` it draws one still frame. It shows once on a first visit; the "Start studying" button marks it seen.
+
 ## Stack
 
 Preact + TypeScript + Vite, deployed as static assets on a Cloudflare Worker. No backend.

@@ -233,3 +233,28 @@ button.secondary.full[disabled], .secondary[disabled] { opacity: 0.6; cursor: no
 
 .slogan { font-size: 1.6rem; font-weight: 800; line-height: 1.15; margin: 18px 0 2px; letter-spacing: -0.01em; }
 .slogan .sub { font-size: 0.95rem; font-weight: 500; letter-spacing: 0; }
+
+.brand { display: inline-flex; align-items: center; gap: 8px; }
+.brand-mark { display: block; border-radius: 50%; }
+
+.splash { position: relative; min-height: 100vh; min-height: 100svh; display: flex; flex-direction: column; background: #0f1b33; color: #fff; overflow: hidden; }
+.splash-canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+.splash-top, .splash-main, .splash-foot { position: relative; z-index: 1; }
+.splash-top { display: flex; justify-content: flex-end; padding: 14px var(--gutter) 0; }
+.splash .langswitch { background: rgba(255, 255, 255, 0.08); border-color: rgba(255, 255, 255, 0.22); }
+.splash .langswitch button { color: rgba(255, 255, 255, 0.78); }
+.splash .langswitch button.on { background: #fff; color: #0f1b33; }
+.splash-main { --mark: clamp(150px, min(46vw, 33vh), 300px); --mark: clamp(150px, min(46vw, 33svh), 300px); flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 8px var(--gutter) 24px; gap: 4px; }
+.splash-mark { width: var(--mark); aspect-ratio: 1; margin-bottom: calc(var(--mark) * 0.5 + 10px); }
+.splash-title { font-size: clamp(2.6rem, 9vw, 4.4rem); font-weight: 800; letter-spacing: -0.02em; line-height: 1; margin: 0; }
+.splash-slogan { font-size: clamp(1.2rem, 3.6vw, 1.7rem); font-weight: 600; margin: 8px 0 0; color: #ffd24d; }
+.splash-lede { max-width: 30rem; margin: 6px 0 18px; color: rgba(255, 255, 255, 0.82); }
+.splash .sub { color: rgba(255, 255, 255, 0.7); }
+.splash-slogan .sub { color: rgba(255, 210, 77, 0.8); }
+.splash .splash-cta { background: #fff; color: #0f1b33; border-color: #fff; min-width: 220px; font-size: 1.05rem; text-decoration: none; }
+.splash .splash-cta .sub { color: #3b4a68; }
+.splash-cta:focus-visible { outline-color: #ffd24d; }
+.splash a { color: #cfe0ff; }
+.splash-foot { padding: 0 var(--gutter) 18px; text-align: center; font-size: 0.78rem; color: rgba(255, 255, 255, 0.62); }
+.splash-foot p { margin: 0 auto 6px; max-width: 40rem; }
+@media (prefers-reduced-motion: reduce) { .splash-cta { transition: none; } }

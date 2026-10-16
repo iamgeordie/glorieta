@@ -8,11 +8,17 @@ import { Home } from './screens/Home';
 import { Phrases, Vocab } from './screens/Cards';
 import { Signs } from './screens/Signs';
 import { Account } from './screens/Account';
+import { Splash } from './screens/Splash';
+import { hasSeenSplash } from './lib/splash-seen';
 import { authStatus } from './lib/auth';
 import { authEnabled } from './lib/supabase';
 import { a } from './authStrings';
 import { Practice } from './screens/Study';
 
+// First visit with no deep link: show the splash once. A returning email link (?code=) goes straight in.
+if (!location.hash && !hasSeenSplash() && !new URL(location.href).searchParams.has('code')) {
+  location.hash = '#/welcome';
+}
 const route = signal(location.hash || '#/');
 addEventListener('hashchange', () => {
   route.value = location.hash || '#/';
@@ -22,6 +28,8 @@ addEventListener('hashchange', () => {
 function Screen() {
   const [, path = '', arg = ''] = route.value.split('/');
   switch (path) {
+    case 'welcome':
+      return <Splash />;
     case 'practice':
       return <Practice categoryId={arg || null} />;
     case 'exam':
@@ -55,11 +63,19 @@ export function App() {
   }, []);
 
   const home = route.value === '#/' || route.value === '';
+  if (route.value === '#/welcome') return <Screen />;
   return (
     <>
       <header class="topbar">
         <a class="brand" href="#/" aria-label={home ? ui.appName.es : ui.home.es}>
-          {home ? <T t={ui.appName} /> : <>← <T t={ui.home} /></>}
+          {home ? (
+            <>
+              <img class="brand-mark" src="/signs/r-402.svg" width="24" height="24" alt="" />
+              <T t={ui.appName} />
+            </>
+          ) : (
+            <>← <T t={ui.home} /></>
+          )}
         </a>
         {authEnabled && (
           <a class="account-link" href="#/account"><T t={authStatus.value === 'in' ? a.account : a.signInLink} /></a>

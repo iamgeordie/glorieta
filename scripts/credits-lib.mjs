@@ -14,6 +14,8 @@ export function renderCredits(signs) {
     'They are **unmodified copies** of the files named in the tables below. Each keeps the',
     'license it has on Commons; the Apache-2.0 license of this project does not apply to them.',
     '',
+    'The R-402 roundabout sign is also the app logo: `public/favicon.svg` is a byte-identical copy of `r-402.svg`, and the splash page draws the file unmodified, only rotating it as a whole.',
+    '',
     `This file is generated from \`src/data/signs.json\` by \`npm run credits\`. Do not edit it by hand.`,
     '',
     `Totals: ${signs.length} signs. ${count((s) => s.license === 'Public domain')} public domain, ${count((s) => s.license === 'CC0')} CC0, ${count(needs)} Creative Commons Attribution-ShareAlike (credit required).`,

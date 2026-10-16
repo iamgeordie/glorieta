@@ -3,6 +3,7 @@ import { bi } from './i18n';
 /** Every piece of interface text, in both languages. */
 export const ui = {
   appName: bi('Glorieta', 'Glorieta'),
+  startStudying: bi('Empezar a estudiar', 'Start studying'),
   slogan: bi('Guiri al Volante', 'Foreigner at the Wheel'),
   tagline: bi('Prepara el teórico del permiso B en español.', 'Prepare for the permiso B theory test in Spanish.'),
   home: bi('Inicio', 'Home'),
@@ -73,6 +74,10 @@ export const ui = {
   say: bi('El examinador dice', 'The examiner says'),
   doThis: bi('Qué hacer', 'What to do'),
   unofficialTitle: bi('Material no oficial', 'Unofficial material'),
+  unofficialFull: bi(
+    'Material no oficial. Preguntas originales basadas en la normativa. No son preguntas oficiales de la DGT. Comprueba siempre los datos en dgt.es.',
+    'Unofficial material. Original questions based on the regulations. They are not official DGT questions. Always verify details at dgt.es.',
+  ),
   unofficial: bi(
     'Preguntas originales basadas en la normativa. No son preguntas oficiales de la DGT. Comprueba siempre los datos en dgt.es.',
     'Original questions based on the regulations. They are not official DGT questions. Always verify details at dgt.es.',

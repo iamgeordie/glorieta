@@ -55,6 +55,11 @@ for (const s of signs) {
 }
 for (const f of readdirSync(signDir).filter((f) => f.endsWith('.svg')))
   if (!signIds.has(f.slice(0, -4))) problems.push(`public/signs/${f} is not listed in signs.json`);
+// The logo claim in CREDITS.md only holds while the favicon is an untouched copy of the sign.
+const faviconPath = new URL('../public/favicon.svg', import.meta.url);
+const signPath = new URL('r-402.svg', signDir);
+if (!existsSync(faviconPath) || !readFileSync(faviconPath).equals(readFileSync(signPath)))
+  problems.push('public/favicon.svg must be a byte-identical copy of public/signs/r-402.svg (it is credited as unmodified)');
 const credits = existsSync(new URL('CREDITS.md', signDir)) ? readFileSync(new URL('CREDITS.md', signDir), 'utf8') : '';
 if (credits !== renderCredits(signs)) problems.push('public/signs/CREDITS.md is out of date; run npm run credits');
 

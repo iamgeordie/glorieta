@@ -53,7 +53,7 @@ export function Home() {
         </p>
       </div>
 
-      <p class="muted small"><strong><T t={ui.unofficialTitle} />.</strong> <T t={ui.unofficial} /></p>
+      <p class="muted small"><T t={ui.unofficialFull} /></p>
       <p class="muted small"><T t={ui.langHint} /></p>
       <button
         type="button"
