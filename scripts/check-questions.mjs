@@ -1,5 +1,6 @@
 // Validates the question bank before every deploy. Run with: npm run check
 import { existsSync, readFileSync, readdirSync } from 'node:fs';
+import { renderCredits } from './credits-lib.mjs';
 
 const questions = JSON.parse(readFileSync(new URL('../src/data/questions.json', import.meta.url), 'utf8'));
 const categoriesSrc = readFileSync(new URL('../src/data/categories.ts', import.meta.url), 'utf8');
@@ -30,18 +31,36 @@ for (const q of questions) {
   if (!q.src?.trim()) problems.push(`${where}: missing src`);
 }
 
-// Sign images: every sign in signs.ts has its SVG, and no SVG sits unused.
-const signsSrc = readFileSync(new URL('../src/data/signs.ts', import.meta.url), 'utf8');
-const signIds = [...signsSrc.matchAll(/\{ id: '([a-z0-9-]+)', code:/g)].map((m) => m[1]);
+// Signs: every entry is complete, has its SVG, no SVG sits unused, and CREDITS.md is current.
+const signs = JSON.parse(readFileSync(new URL('../src/data/signs.json', import.meta.url), 'utf8'));
 const signDir = new URL('../public/signs/', import.meta.url);
-for (const id of signIds) if (!existsSync(new URL(`${id}.svg`, signDir))) problems.push(`sign "${id}": public/signs/${id}.svg is missing`);
+const signGroups = ['priority', 'entry', 'restriction', 'speed', 'prohibition', 'mandatory', 'end', 'warning'];
+const licenses = ['Public domain', 'CC0', 'CC BY-SA 3.0', 'CC BY-SA 4.0'];
+const signIds = new Set();
+for (const s of signs) {
+  const where = `sign "${s.id}"`;
+  if (signIds.has(s.id)) problems.push(`${where}: duplicate id`);
+  signIds.add(s.id);
+  if (!existsSync(new URL(`${s.id}.svg`, signDir))) problems.push(`${where}: public/signs/${s.id}.svg is missing`);
+  if (!signGroups.includes(s.group)) problems.push(`${where}: unknown group "${s.group}"`);
+  for (const lang of ['es', 'en']) {
+    if (!s[lang]?.name?.trim() || !s[lang]?.why?.trim()) problems.push(`${where}: ${lang} name and why are required`);
+  }
+  if (!licenses.includes(s.license)) problems.push(`${where}: unexpected license "${s.license}"`);
+  if (!s.commons?.trim()) problems.push(`${where}: missing Commons file title`);
+  if (s.license.startsWith('CC BY')) {
+    if (!s.author?.trim() || s.author === 'Unknown author') problems.push(`${where}: ${s.license} requires a named author`);
+    if (!s.licenseUrl?.startsWith('https://creativecommons.org/')) problems.push(`${where}: ${s.license} requires a license URL`);
+  }
+}
 for (const f of readdirSync(signDir).filter((f) => f.endsWith('.svg')))
-  if (!signIds.includes(f.slice(0, -4))) problems.push(`public/signs/${f} is not listed in signs.ts`);
-if (new Set(signIds).size !== signIds.length) problems.push('signs.ts has duplicate sign ids');
+  if (!signIds.has(f.slice(0, -4))) problems.push(`public/signs/${f} is not listed in signs.json`);
+const credits = existsSync(new URL('CREDITS.md', signDir)) ? readFileSync(new URL('CREDITS.md', signDir), 'utf8') : '';
+if (credits !== renderCredits(signs)) problems.push('public/signs/CREDITS.md is out of date; run npm run credits');
 
 for (const id of categoryIds) if (!perCat[id]) problems.push(`category "${id}" has no questions`);
 
-console.log(`${questions.length} text questions, answer positions: ${answers.join(' / ')}; ${signIds.length} sign questions generated from signs.ts`);
+console.log(`${questions.length} text questions, answer positions: ${answers.join(' / ')}; ${signs.length} sign questions generated from signs.json`);
 console.log(Object.entries(perCat).map(([k, v]) => `${k}:${v}`).join('  '));
 if (problems.length) {
   console.error(`\n${problems.length} problem(s):\n- ${problems.join('\n- ')}`);

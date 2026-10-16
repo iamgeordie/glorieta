@@ -1,0 +1,2212 @@
+[
+  {
+    "id": "r-1",
+    "code": "R-1",
+    "group": "priority",
+    "es": {
+      "name": "Ceda el paso",
+      "why": "Obligación para todo conductor de ceder el paso en la próxima intersección a los vehículos que circulen por la vía a la que se aproxime o al carril al que pretende incorporarse."
+    },
+    "en": {
+      "name": "Yield",
+      "why": "Obligation for every driver to give way at the next intersection to vehicles on the road being approached, or in the lane being joined."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Unknown author",
+    "commons": "Spain_traffic_signal_r1.svg"
+  },
+  {
+    "id": "r-2",
+    "code": "R-2",
+    "group": "priority",
+    "es": {
+      "name": "Detención obligatoria o stop",
+      "why": "Obligación para todo conductor de detener su vehículo ante la próxima línea de detención o, si no existe, inmediatamente antes de la intersección, y ceder el paso en ella a los vehículos que circulen por la vía a la que se aproxime."
+    },
+    "en": {
+      "name": "STOP (mandatory stop)",
+      "why": "Obligation for every driver to stop the vehicle at the next stop line or, if there is none, immediately before the intersection, and to give way there to vehicles on the road being approached."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Ministerio de Transportes, Movilidad y Agenda Urbana",
+    "commons": "Spain_traffic_signal_r2,_2023_set.svg"
+  },
+  {
+    "id": "r-3",
+    "code": "R-3",
+    "group": "priority",
+    "es": {
+      "name": "Calzada con prioridad",
+      "why": "Indica a los conductores de los vehículos que circulen por una calzada su prioridad en las intersecciones sobre los vehículos que circulen por otra calzada o procedan de ella."
+    },
+    "en": {
+      "name": "Priority road",
+      "why": "Tells drivers on a roadway that at intersections they have priority over vehicles on, or coming from, another roadway."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Unknown author",
+    "commons": "Spain_traffic_signal_r3.svg"
+  },
+  {
+    "id": "r-4",
+    "code": "R-4",
+    "group": "priority",
+    "es": {
+      "name": "Fin de prioridad",
+      "why": "Indica la proximidad del lugar en que la calzada por la que se circula pierde su prioridad respecto a otra calzada."
+    },
+    "en": {
+      "name": "End of priority",
+      "why": "Shows that the roadway you are on is about to lose its priority over another roadway."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Benedicto16 (assumed by Commons from copyright claims)",
+    "commons": "Spain_traffic_signal_r4.svg"
+  },
+  {
+    "id": "r-5",
+    "code": "R-5",
+    "group": "priority",
+    "es": {
+      "name": "Prioridad del sentido contrario",
+      "why": "Prohibición de entrada en un paso estrecho mientras no sea posible atravesarlo sin obligar a los vehículos que circulen en sentido contrario a detenerse."
+    },
+    "en": {
+      "name": "Oncoming traffic has priority",
+      "why": "Prohibition on entering a narrow section while you cannot get through it without forcing oncoming vehicles to stop."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Benedicto16",
+    "commons": "Spain_traffic_signal_r5.svg"
+  },
+  {
+    "id": "r-6",
+    "code": "R-6",
+    "group": "priority",
+    "es": {
+      "name": "Prioridad respecto al sentido contrario",
+      "why": "Indica a los conductores que, en un próximo paso estrecho, tienen prioridad con relación a los vehículos que circulen en sentido contrario."
+    },
+    "en": {
+      "name": "Priority over oncoming traffic",
+      "why": "Tells drivers that at an upcoming narrow section they have priority over oncoming vehicles."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Benedicto16",
+    "commons": "Spain_traffic_signal_r6.svg"
+  },
+  {
+    "id": "r-100",
+    "code": "R-100",
+    "group": "entry",
+    "es": {
+      "name": "Circulación prohibida",
+      "why": "Prohibición de circulación de toda clase de vehículos en ambos sentidos."
+    },
+    "en": {
+      "name": "No vehicles",
+      "why": "Prohibition of traffic by all kinds of vehicles in both directions."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Unknown author",
+    "commons": "Spain_traffic_signal_r100.svg"
+  },
+  {
+    "id": "r-101",
+    "code": "R-101",
+    "group": "entry",
+    "es": {
+      "name": "Entrada prohibida",
+      "why": "Prohibición de acceso a toda clase de vehículos."
+    },
+    "en": {
+      "name": "No entry",
+      "why": "Prohibition of access to all kinds of vehicles."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Benedicto16",
+    "commons": "Spain_traffic_signal_r101.svg"
+  },
+  {
+    "id": "r-102",
+    "code": "R-102",
+    "group": "entry",
+    "es": {
+      "name": "Entrada prohibida a vehículos de motor",
+      "why": "Prohibición de acceso a vehículos de motor."
+    },
+    "en": {
+      "name": "No motor vehicles",
+      "why": "Prohibition of access to motor vehicles."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Unknown author",
+    "commons": "Spain_traffic_signal_r102.svg"
+  },
+  {
+    "id": "r-103",
+    "code": "R-103",
+    "group": "entry",
+    "es": {
+      "name": "Entrada prohibida a vehículos de motor, excepto motocicletas de dos ruedas",
+      "why": "Prohibición de acceso a vehículos de motor; no prohíbe el acceso a motocicletas de dos ruedas ni a vehículos de tres ruedas asimilados a motocicletas."
+    },
+    "en": {
+      "name": "No motor vehicles, except two-wheeled motorcycles",
+      "why": "Prohibition of access to motor vehicles; it does not prohibit two-wheeled motorcycles or three-wheeled vehicles treated as motorcycles."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Unknown author",
+    "commons": "Spain_traffic_signal_r103.svg"
+  },
+  {
+    "id": "r-104",
+    "code": "R-104",
+    "group": "entry",
+    "es": {
+      "name": "Entrada prohibida a motocicletas",
+      "why": "Prohibición de acceso a motocicletas y a vehículos de tres ruedas asimilados a motocicletas."
+    },
+    "en": {
+      "name": "No motorcycles",
+      "why": "Prohibition of access to motorcycles and to three-wheeled vehicles treated as motorcycles."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Unknown author",
+    "commons": "Spain_traffic_signal_r104.svg"
+  },
+  {
+    "id": "r-105",
+    "code": "R-105",
+    "group": "entry",
+    "es": {
+      "name": "Entrada prohibida a ciclomotores",
+      "why": "Prohibición de acceso a ciclomotores; igualmente prohíbe la entrada a vehículos para personas de movilidad reducida."
+    },
+    "en": {
+      "name": "No mopeds",
+      "why": "Prohibition of access to mopeds; it also prohibits vehicles for people with reduced mobility."
+    },
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "author": "มองโกเลีย๔๔",
+    "commons": "Spain_traffic_signal_r105_(2022).svg"
+  },
+  {
+    "id": "r-106",
+    "code": "R-106",
+    "group": "entry",
+    "es": {
+      "name": "Entrada prohibida a vehículos destinados al transporte de mercancías",
+      "why": "Prohibición de acceso a vehículos destinados al transporte de mercancías, entendiéndose como tales camiones, tractocamiones y furgones o furgonetas, independientemente de su masa."
+    },
+    "en": {
+      "name": "No goods vehicles",
+      "why": "Prohibition of access to vehicles for carrying goods, meaning trucks, tractor units and vans, whatever their mass."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Unknown author",
+    "commons": "Spain_traffic_signal_r106.svg"
+  },
+  {
+    "id": "r-107",
+    "code": "R-107",
+    "group": "entry",
+    "es": {
+      "name": "Entrada prohibida a vehículos destinados al transporte de mercancías con mayor masa autorizada que la indicada",
+      "why": "Prohibición de acceso a toda clase de vehículos destinados al transporte de mercancías si su masa máxima autorizada es superior a la indicada en la señal; prohíbe el acceso aunque circulen vacíos."
+    },
+    "en": {
+      "name": "No goods vehicles over the weight shown",
+      "why": "Prohibition of access to all vehicles for carrying goods whose maximum authorized mass is above the figure on the sign; it applies even when they are empty."
+    },
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "author": "Gigillo83",
+    "commons": "Spain_traffic_signal_r107.svg"
+  },
+  {
+    "id": "r-108",
+    "code": "R-108",
+    "group": "entry",
+    "es": {
+      "name": "Entrada prohibida a vehículos que transporten mercancías peligrosas",
+      "why": "Prohibición de acceso a toda clase de vehículos que transporten mercancías peligrosas y requieran estar señalizados de acuerdo con su normativa específica."
+    },
+    "en": {
+      "name": "No vehicles carrying dangerous goods",
+      "why": "Prohibition of access to all vehicles carrying dangerous goods that must be marked under their specific regulations."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Unknown author",
+    "commons": "Spain_traffic_signal_r108.svg"
+  },
+  {
+    "id": "r-109",
+    "code": "R-109",
+    "group": "entry",
+    "es": {
+      "name": "Entrada prohibida a vehículos que transporten mercancías explosivas o inflamables",
+      "why": "Prohibición de acceso a toda clase de vehículos que transporten mercancías explosivas o fácilmente inflamables y requieran estar señalizados de acuerdo con su normativa específica."
+    },
+    "en": {
+      "name": "No vehicles carrying explosive or flammable goods",
+      "why": "Prohibition of access to all vehicles carrying explosive or easily flammable goods that must be marked under their specific regulations."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Unknown author",
+    "commons": "Spain_traffic_signal_r109.svg"
+  },
+  {
+    "id": "r-110",
+    "code": "R-110",
+    "group": "entry",
+    "es": {
+      "name": "Entrada prohibida a vehículos que transporten productos contaminantes del agua",
+      "why": "Prohibición de acceso a toda clase de vehículos que transporten más de 1.000 litros de productos capaces de contaminar el agua."
+    },
+    "en": {
+      "name": "No vehicles carrying water-polluting products",
+      "why": "Prohibition of access to all vehicles carrying more than 1,000 liters of products able to pollute water."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Benedicto16 (assumed by Commons from copyright claims)",
+    "commons": "Spain_traffic_signal_r110.svg"
+  },
+  {
+    "id": "r-111",
+    "code": "R-111",
+    "group": "entry",
+    "es": {
+      "name": "Entrada prohibida a vehículos agrícolas de motor",
+      "why": "Prohibición de acceso a tractores y otras máquinas agrícolas autopropulsadas."
+    },
+    "en": {
+      "name": "No agricultural motor vehicles",
+      "why": "Prohibition of access to tractors and other self-propelled agricultural machines."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Unknown author",
+    "commons": "Spain_traffic_signal_r111.svg"
+  },
+  {
+    "id": "r-112",
+    "code": "R-112",
+    "group": "entry",
+    "es": {
+      "name": "Entrada prohibida a vehículos de motor con remolque exceptuando los de un solo eje",
+      "why": "Prohibición de acceso a vehículos de motor con remolque exceptuando los de un solo eje; una cifra de tonelaje significa que solo se aplica cuando la masa máxima autorizada del remolque supera dicha cifra."
+    },
+    "en": {
+      "name": "No motor vehicles with a trailer, except single-axle ones",
+      "why": "Prohibition of access to motor vehicles with a trailer other than a single-axle one; a tonnage figure means it applies only when the trailer's maximum authorized mass exceeds it."
+    },
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "author": "Gigillo83",
+    "commons": "Spain_traffic_signal_r112.svg"
+  },
+  {
+    "id": "r-113",
+    "code": "R-113",
+    "group": "entry",
+    "es": {
+      "name": "Entrada prohibida a vehículos de tracción animal",
+      "why": "Prohibición de acceso a vehículos de tracción animal."
+    },
+    "en": {
+      "name": "No animal-drawn vehicles",
+      "why": "Prohibition of access to animal-drawn vehicles."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Unknown author",
+    "commons": "Spain_traffic_signal_r113.svg"
+  },
+  {
+    "id": "r-114",
+    "code": "R-114",
+    "group": "entry",
+    "es": {
+      "name": "Entrada prohibida a ciclos",
+      "why": "Prohibición de acceso a ciclos."
+    },
+    "en": {
+      "name": "No cycles",
+      "why": "Prohibition of access to cycles."
+    },
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "author": "มองโกเลีย๔๔",
+    "commons": "Spain_traffic_signal_r114_(2022).svg"
+  },
+  {
+    "id": "r-115",
+    "code": "R-115",
+    "group": "entry",
+    "es": {
+      "name": "Entrada prohibida a carros de mano",
+      "why": "Prohibición de acceso a carros de mano."
+    },
+    "en": {
+      "name": "No handcarts",
+      "why": "Prohibition of access to handcarts."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Benedicto16 (assumed by Commons from copyright claims)",
+    "commons": "Spain_traffic_signal_r115.svg"
+  },
+  {
+    "id": "r-116",
+    "code": "R-116",
+    "group": "entry",
+    "es": {
+      "name": "Entrada prohibida a peatones",
+      "why": "Prohibición de acceso a peatones."
+    },
+    "en": {
+      "name": "No pedestrians",
+      "why": "Prohibition of access to pedestrians."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Benedicto16 (assumed by Commons from copyright claims)",
+    "commons": "Spain_traffic_signal_r116.svg"
+  },
+  {
+    "id": "r-117",
+    "code": "R-117",
+    "group": "entry",
+    "es": {
+      "name": "Entrada prohibida a animales de montura",
+      "why": "Prohibición de acceso a animales de montura."
+    },
+    "en": {
+      "name": "No ridden animals",
+      "why": "Prohibition of access to ridden animals."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Unknown author",
+    "commons": "Spain_traffic_signal_r117.svg"
+  },
+  {
+    "id": "r-118",
+    "code": "R-118",
+    "group": "entry",
+    "es": {
+      "name": "Entrada prohibida a vehículos de movilidad personal",
+      "why": "Prohibición de acceso a vehículos de movilidad personal."
+    },
+    "en": {
+      "name": "No personal mobility vehicles",
+      "why": "Prohibition of access to personal mobility vehicles."
+    },
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "author": "มองโกเลีย๔๔",
+    "commons": "Spain_traffic_signal_r118.svg"
+  },
+  {
+    "id": "r-119",
+    "code": "R-119",
+    "group": "entry",
+    "es": {
+      "name": "Entrada prohibida a ciclos y a vehículos de movilidad personal",
+      "why": "Prohibición de acceso a ciclos y a vehículos de movilidad personal."
+    },
+    "en": {
+      "name": "No cycles or personal mobility vehicles",
+      "why": "Prohibition of access to cycles and personal mobility vehicles."
+    },
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "author": "มองโกเลีย๔๔",
+    "commons": "Spain_traffic_signal_r119.svg"
+  },
+  {
+    "id": "r-120",
+    "code": "R-120",
+    "group": "entry",
+    "es": {
+      "name": "Entrada prohibida a vehículos en función de su distintivo ambiental u otros criterios ambientales",
+      "why": "Prohibición de acceso a vehículos en función de su distintivo ambiental u otros criterios ambientales que se establezcan, especificados en un panel complementario S-860 o en un cartel."
+    },
+    "en": {
+      "name": "No vehicles by environmental badge or other environmental criteria",
+      "why": "Prohibition of access to vehicles according to their environmental badge or other environmental criteria, set out on a supplementary panel S-860 or on a notice."
+    },
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "author": "SerrgioFdezz",
+    "commons": "Spain_traffic_signal_r120.svg"
+  },
+  {
+    "id": "r-200",
+    "code": "R-200",
+    "group": "restriction",
+    "es": {
+      "name": "Prohibición de pasar sin detenerse",
+      "why": "Indica el lugar donde es obligatoria la detención por la proximidad, según la inscripción que contenga, de un puesto de aduana, de policía, de peaje u otro; el conductor no podrá reanudar su marcha hasta haber cumplido la prescripción que la señal establece."
+    },
+    "en": {
+      "name": "No passing without stopping",
+      "why": "Marks the place where stopping is compulsory because of a nearby customs, police, toll or other post, according to its inscription; the driver may not move off until complying with what the sign requires."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Unknown author",
+    "commons": "Spain_traffic_signal_r200.svg"
+  },
+  {
+    "id": "r-201",
+    "code": "R-201",
+    "group": "restriction",
+    "es": {
+      "name": "Limitación de masa",
+      "why": "Prohibición de paso a los vehículos cuya masa en carga supere la indicada en toneladas."
+    },
+    "en": {
+      "name": "Weight limit",
+      "why": "Prohibition of passage for vehicles whose laden mass exceeds the figure in tonnes."
+    },
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "author": "Gigillo83",
+    "commons": "Spain_traffic_signal_r201.svg"
+  },
+  {
+    "id": "r-202",
+    "code": "R-202",
+    "group": "restriction",
+    "es": {
+      "name": "Limitación de masa por eje",
+      "why": "Prohibición de paso a los vehículos cuya masa por eje transmitida por la totalidad de las ruedas acopladas a algún eje supere a la indicada en la señal."
+    },
+    "en": {
+      "name": "Axle weight limit",
+      "why": "Prohibition of passage for vehicles whose mass on any axle, transmitted by all the wheels coupled to it, exceeds the figure on the sign."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Unknown author",
+    "commons": "Spain_traffic_signal_r202.svg"
+  },
+  {
+    "id": "r-203",
+    "code": "R-203",
+    "group": "restriction",
+    "es": {
+      "name": "Limitación de longitud",
+      "why": "Prohibición de paso a los vehículos o conjunto de vehículos cuya longitud máxima, incluida la carga, supere la indicada."
+    },
+    "en": {
+      "name": "Length limit",
+      "why": "Prohibition of passage for vehicles or vehicle combinations whose maximum length, including the load, exceeds the figure."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Unknown author",
+    "commons": "Spain_traffic_signal_r203.svg"
+  },
+  {
+    "id": "r-204",
+    "code": "R-204",
+    "group": "restriction",
+    "es": {
+      "name": "Limitación de anchura",
+      "why": "Prohibición de paso a los vehículos cuya anchura máxima, incluida la carga, supere la indicada."
+    },
+    "en": {
+      "name": "Width limit",
+      "why": "Prohibition of passage for vehicles whose maximum width, including the load, exceeds the figure."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Unknown author",
+    "commons": "Spain_traffic_signal_r204.svg"
+  },
+  {
+    "id": "r-205",
+    "code": "R-205",
+    "group": "restriction",
+    "es": {
+      "name": "Limitación de altura",
+      "why": "Prohibición de paso a los vehículos cuya altura máxima, incluida la carga, supere la indicada."
+    },
+    "en": {
+      "name": "Height limit",
+      "why": "Prohibition of passage for vehicles whose maximum height, including the load, exceeds the figure."
+    },
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "author": "Gigillo83",
+    "commons": "Spain_traffic_signal_r205.svg"
+  },
+  {
+    "id": "r-301-10",
+    "code": "R-301",
+    "group": "speed",
+    "es": {
+      "name": "Velocidad máxima (10 km/h)",
+      "why": "Prohibición de circular a velocidad superior a 10 km/h; obliga desde el lugar en que esté situada hasta la próxima señal de fin de limitación de velocidad, de fin de prohibiciones u otra de velocidad máxima."
+    },
+    "en": {
+      "name": "Maximum speed (10 km/h)",
+      "why": "Prohibition of driving faster than 10 km/h; it applies from where the sign stands until the next end-of-speed-limit sign, end-of-prohibitions sign or other maximum speed sign."
+    },
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "author": "Benedicto16",
+    "commons": "Spain_traffic_signal_r301-10.svg"
+  },
+  {
+    "id": "r-301-20",
+    "code": "R-301",
+    "group": "speed",
+    "es": {
+      "name": "Velocidad máxima (20 km/h)",
+      "why": "Prohibición de circular a velocidad superior a 20 km/h; obliga desde el lugar en que esté situada hasta la próxima señal de fin de limitación de velocidad, de fin de prohibiciones u otra de velocidad máxima."
+    },
+    "en": {
+      "name": "Maximum speed (20 km/h)",
+      "why": "Prohibition of driving faster than 20 km/h; it applies from where the sign stands until the next end-of-speed-limit sign, end-of-prohibitions sign or other maximum speed sign."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Majafego",
+    "commons": "Spain_traffic_signal_r301-20.svg"
+  },
+  {
+    "id": "r-301-30",
+    "code": "R-301",
+    "group": "speed",
+    "es": {
+      "name": "Velocidad máxima (30 km/h)",
+      "why": "Prohibición de circular a velocidad superior a 30 km/h; obliga desde el lugar en que esté situada hasta la próxima señal de fin de limitación de velocidad, de fin de prohibiciones u otra de velocidad máxima."
+    },
+    "en": {
+      "name": "Maximum speed (30 km/h)",
+      "why": "Prohibition of driving faster than 30 km/h; it applies from where the sign stands until the next end-of-speed-limit sign, end-of-prohibitions sign or other maximum speed sign."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Majafego",
+    "commons": "Spain_traffic_signal_r301-30.svg"
+  },
+  {
+    "id": "r-301-40",
+    "code": "R-301",
+    "group": "speed",
+    "es": {
+      "name": "Velocidad máxima (40 km/h)",
+      "why": "Prohibición de circular a velocidad superior a 40 km/h; obliga desde el lugar en que esté situada hasta la próxima señal de fin de limitación de velocidad, de fin de prohibiciones u otra de velocidad máxima."
+    },
+    "en": {
+      "name": "Maximum speed (40 km/h)",
+      "why": "Prohibition of driving faster than 40 km/h; it applies from where the sign stands until the next end-of-speed-limit sign, end-of-prohibitions sign or other maximum speed sign."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Majafego",
+    "commons": "Spain_traffic_signal_r301-40.svg"
+  },
+  {
+    "id": "r-301-50",
+    "code": "R-301",
+    "group": "speed",
+    "es": {
+      "name": "Velocidad máxima (50 km/h)",
+      "why": "Prohibición de circular a velocidad superior a 50 km/h; obliga desde el lugar en que esté situada hasta la próxima señal de fin de limitación de velocidad, de fin de prohibiciones u otra de velocidad máxima."
+    },
+    "en": {
+      "name": "Maximum speed (50 km/h)",
+      "why": "Prohibition of driving faster than 50 km/h; it applies from where the sign stands until the next end-of-speed-limit sign, end-of-prohibitions sign or other maximum speed sign."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Majafego",
+    "commons": "Spain_traffic_signal_r301-50.svg"
+  },
+  {
+    "id": "r-301-60",
+    "code": "R-301",
+    "group": "speed",
+    "es": {
+      "name": "Velocidad máxima (60 km/h)",
+      "why": "Prohibición de circular a velocidad superior a 60 km/h; obliga desde el lugar en que esté situada hasta la próxima señal de fin de limitación de velocidad, de fin de prohibiciones u otra de velocidad máxima."
+    },
+    "en": {
+      "name": "Maximum speed (60 km/h)",
+      "why": "Prohibition of driving faster than 60 km/h; it applies from where the sign stands until the next end-of-speed-limit sign, end-of-prohibitions sign or other maximum speed sign."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Majafego",
+    "commons": "Spain_traffic_signal_r301-60.svg"
+  },
+  {
+    "id": "r-301-70",
+    "code": "R-301",
+    "group": "speed",
+    "es": {
+      "name": "Velocidad máxima (70 km/h)",
+      "why": "Prohibición de circular a velocidad superior a 70 km/h; obliga desde el lugar en que esté situada hasta la próxima señal de fin de limitación de velocidad, de fin de prohibiciones u otra de velocidad máxima."
+    },
+    "en": {
+      "name": "Maximum speed (70 km/h)",
+      "why": "Prohibition of driving faster than 70 km/h; it applies from where the sign stands until the next end-of-speed-limit sign, end-of-prohibitions sign or other maximum speed sign."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Majafego",
+    "commons": "Spain_traffic_signal_r301-70.svg"
+  },
+  {
+    "id": "r-301-80",
+    "code": "R-301",
+    "group": "speed",
+    "es": {
+      "name": "Velocidad máxima (80 km/h)",
+      "why": "Prohibición de circular a velocidad superior a 80 km/h; obliga desde el lugar en que esté situada hasta la próxima señal de fin de limitación de velocidad, de fin de prohibiciones u otra de velocidad máxima."
+    },
+    "en": {
+      "name": "Maximum speed (80 km/h)",
+      "why": "Prohibition of driving faster than 80 km/h; it applies from where the sign stands until the next end-of-speed-limit sign, end-of-prohibitions sign or other maximum speed sign."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Majafego",
+    "commons": "Spain_traffic_signal_r301-80.svg"
+  },
+  {
+    "id": "r-301-90",
+    "code": "R-301",
+    "group": "speed",
+    "es": {
+      "name": "Velocidad máxima (90 km/h)",
+      "why": "Prohibición de circular a velocidad superior a 90 km/h; obliga desde el lugar en que esté situada hasta la próxima señal de fin de limitación de velocidad, de fin de prohibiciones u otra de velocidad máxima."
+    },
+    "en": {
+      "name": "Maximum speed (90 km/h)",
+      "why": "Prohibition of driving faster than 90 km/h; it applies from where the sign stands until the next end-of-speed-limit sign, end-of-prohibitions sign or other maximum speed sign."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Majafego",
+    "commons": "Spain_traffic_signal_r301-90.svg"
+  },
+  {
+    "id": "r-301-100",
+    "code": "R-301",
+    "group": "speed",
+    "es": {
+      "name": "Velocidad máxima (100 km/h)",
+      "why": "Prohibición de circular a velocidad superior a 100 km/h; obliga desde el lugar en que esté situada hasta la próxima señal de fin de limitación de velocidad, de fin de prohibiciones u otra de velocidad máxima."
+    },
+    "en": {
+      "name": "Maximum speed (100 km/h)",
+      "why": "Prohibition of driving faster than 100 km/h; it applies from where the sign stands until the next end-of-speed-limit sign, end-of-prohibitions sign or other maximum speed sign."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Majafego",
+    "commons": "Spain_traffic_signal_r301-100.svg"
+  },
+  {
+    "id": "r-301-110",
+    "code": "R-301",
+    "group": "speed",
+    "es": {
+      "name": "Velocidad máxima (110 km/h)",
+      "why": "Prohibición de circular a velocidad superior a 110 km/h; obliga desde el lugar en que esté situada hasta la próxima señal de fin de limitación de velocidad, de fin de prohibiciones u otra de velocidad máxima."
+    },
+    "en": {
+      "name": "Maximum speed (110 km/h)",
+      "why": "Prohibition of driving faster than 110 km/h; it applies from where the sign stands until the next end-of-speed-limit sign, end-of-prohibitions sign or other maximum speed sign."
+    },
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "author": "Majafego",
+    "commons": "Spain_traffic_signal_r301-110.svg"
+  },
+  {
+    "id": "r-301-120",
+    "code": "R-301",
+    "group": "speed",
+    "es": {
+      "name": "Velocidad máxima (120 km/h)",
+      "why": "Prohibición de circular a velocidad superior a 120 km/h; obliga desde el lugar en que esté situada hasta la próxima señal de fin de limitación de velocidad, de fin de prohibiciones u otra de velocidad máxima."
+    },
+    "en": {
+      "name": "Maximum speed (120 km/h)",
+      "why": "Prohibition of driving faster than 120 km/h; it applies from where the sign stands until the next end-of-speed-limit sign, end-of-prohibitions sign or other maximum speed sign."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Majafego",
+    "commons": "Spain_traffic_signal_r301-120.svg"
+  },
+  {
+    "id": "r-301-130",
+    "code": "R-301",
+    "group": "speed",
+    "es": {
+      "name": "Velocidad máxima (130 km/h)",
+      "why": "Prohibición de circular a velocidad superior a 130 km/h; obliga desde el lugar en que esté situada hasta la próxima señal de fin de limitación de velocidad, de fin de prohibiciones u otra de velocidad máxima."
+    },
+    "en": {
+      "name": "Maximum speed (130 km/h)",
+      "why": "Prohibition of driving faster than 130 km/h; it applies from where the sign stands until the next end-of-speed-limit sign, end-of-prohibitions sign or other maximum speed sign."
+    },
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "author": "Majafego",
+    "commons": "Spain_traffic_signal_r301-130.svg"
+  },
+  {
+    "id": "r-301-140",
+    "code": "R-301",
+    "group": "speed",
+    "es": {
+      "name": "Velocidad máxima (140 km/h)",
+      "why": "Prohibición de circular a velocidad superior a 140 km/h; obliga desde el lugar en que esté situada hasta la próxima señal de fin de limitación de velocidad, de fin de prohibiciones u otra de velocidad máxima."
+    },
+    "en": {
+      "name": "Maximum speed (140 km/h)",
+      "why": "Prohibition of driving faster than 140 km/h; it applies from where the sign stands until the next end-of-speed-limit sign, end-of-prohibitions sign or other maximum speed sign."
+    },
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "author": "Majafego",
+    "commons": "Spain_traffic_signal_r301-140.svg"
+  },
+  {
+    "id": "r-300",
+    "code": "R-300",
+    "group": "prohibition",
+    "es": {
+      "name": "Separación mínima",
+      "why": "Prohibición de circular sin mantener con el vehículo precedente una separación igual o mayor a la indicada en la señal, excepto cuando se vaya a efectuar la maniobra de adelantamiento."
+    },
+    "en": {
+      "name": "Minimum following distance",
+      "why": "Prohibition of driving without keeping at least the distance shown from the vehicle ahead, except when about to overtake."
+    },
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "author": "Gigillo83",
+    "commons": "Spain_traffic_signal_r300.svg"
+  },
+  {
+    "id": "r-302",
+    "code": "R-302",
+    "group": "prohibition",
+    "es": {
+      "name": "Giro a la derecha prohibido",
+      "why": "Prohibición de girar a la derecha."
+    },
+    "en": {
+      "name": "No right turn",
+      "why": "Prohibition of turning right."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Benedicto16 (assumed by Commons from copyright claims)",
+    "commons": "Spain_traffic_signal_r302.svg"
+  },
+  {
+    "id": "r-303",
+    "code": "R-303",
+    "group": "prohibition",
+    "es": {
+      "name": "Giro a la izquierda prohibido",
+      "why": "Prohibición de girar a la izquierda; incluye también la prohibición del cambio de sentido de marcha."
+    },
+    "en": {
+      "name": "No left turn",
+      "why": "Prohibition of turning left; it also prohibits changing direction (U-turn)."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Benedicto16 (assumed by Commons from copyright claims)",
+    "commons": "Spain_traffic_signal_r303.svg"
+  },
+  {
+    "id": "r-304",
+    "code": "R-304",
+    "group": "prohibition",
+    "es": {
+      "name": "Cambio de sentido prohibido",
+      "why": "Prohibición de efectuar la maniobra de cambio de sentido de la marcha."
+    },
+    "en": {
+      "name": "No U-turn",
+      "why": "Prohibition of making a U-turn."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Benedicto16 (assumed by Commons from copyright claims)",
+    "commons": "Spain_traffic_signal_r304.svg"
+  },
+  {
+    "id": "r-305",
+    "code": "R-305",
+    "group": "prohibition",
+    "es": {
+      "name": "Adelantamiento prohibido",
+      "why": "Prohibición a todos los vehículos de adelantar a los vehículos a motor que circulen por la calzada cuando la maniobra implique invadir la zona reservada al sentido contrario, desde donde está la señal hasta la siguiente señal de fin de prohibición de adelantamiento o de fin de prohibiciones."
+    },
+    "en": {
+      "name": "No overtaking",
+      "why": "Prohibits all vehicles from overtaking motor vehicles on the roadway when the maneuver means entering the zone reserved for opposing traffic, from the sign until the next end-of-overtaking-prohibition or end-of-prohibitions sign."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Benedicto16 (assumed by Commons from copyright claims)",
+    "commons": "Spain_traffic_signal_r305.svg"
+  },
+  {
+    "id": "r-306",
+    "code": "R-306",
+    "group": "prohibition",
+    "es": {
+      "name": "Adelantamiento prohibido para camiones",
+      "why": "Prohibición a los camiones cuya masa máxima autorizada exceda de 3.500 kg de adelantar a los vehículos a motor que circulen por la calzada, incluso cuando la maniobra no implique invadir la zona reservada al sentido contrario."
+    },
+    "en": {
+      "name": "No overtaking by trucks",
+      "why": "Prohibits trucks with a maximum authorized mass over 3,500 kg from overtaking motor vehicles on the roadway, even when the maneuver does not mean entering the zone reserved for opposing traffic."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Benedicto16 (assumed by Commons from copyright claims)",
+    "commons": "Spain_traffic_signal_r306.svg"
+  },
+  {
+    "id": "r-307",
+    "code": "R-307",
+    "group": "prohibition",
+    "es": {
+      "name": "Parada y estacionamiento prohibido",
+      "why": "Prohibición de parada y estacionamiento en el lado de la calzada en que esté situada la señal; salvo indicación en contrario, comienza en la vertical de la señal y termina en la intersección más próxima en el sentido de la marcha."
+    },
+    "en": {
+      "name": "No stopping or parking",
+      "why": "Prohibits stopping and parking on the side of the road where the sign stands; unless stated otherwise it starts at the sign and ends at the nearest intersection in the direction of travel."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Benedicto16 (original uploader on Commons)",
+    "commons": "Spain_traffic_signal_r307.svg"
+  },
+  {
+    "id": "r-308",
+    "code": "R-308",
+    "group": "prohibition",
+    "es": {
+      "name": "Estacionamiento prohibido",
+      "why": "Prohibición de estacionamiento en el lado de la calzada en que esté situada la señal; salvo indicación en contrario, comienza en la vertical de la señal y termina en la intersección más próxima en el sentido de la marcha. No prohíbe la parada."
+    },
+    "en": {
+      "name": "No parking",
+      "why": "Prohibits parking on the side of the road where the sign stands; unless stated otherwise it starts at the sign and ends at the nearest intersection in the direction of travel. It does not prohibit stopping."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Gigillo83",
+    "commons": "Spain_traffic_signal_r308.svg"
+  },
+  {
+    "id": "r-308c",
+    "code": "R-308c",
+    "group": "prohibition",
+    "es": {
+      "name": "Estacionamiento prohibido la primera quincena",
+      "why": "Prohibición de estacionamiento en el lado de la calzada en que esté situada la señal, desde las 9 horas del día 1 hasta las 9 horas del día 16. No prohíbe la parada."
+    },
+    "en": {
+      "name": "No parking in the first half of the month",
+      "why": "Prohibits parking on the side of the road where the sign stands, from 9:00 on the 1st until 9:00 on the 16th. It does not prohibit stopping."
+    },
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "author": "Gigillo83",
+    "commons": "Spain_traffic_signal_r308c.svg"
+  },
+  {
+    "id": "r-308d",
+    "code": "R-308d",
+    "group": "prohibition",
+    "es": {
+      "name": "Estacionamiento prohibido la segunda quincena",
+      "why": "Prohibición de estacionamiento en el lado de la calzada en que esté situada la señal, desde las 9 horas del día 16 hasta las 9 horas del día 1. No prohíbe la parada."
+    },
+    "en": {
+      "name": "No parking in the second half of the month",
+      "why": "Prohibits parking on the side of the road where the sign stands, from 9:00 on the 16th until 9:00 on the 1st. It does not prohibit stopping."
+    },
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "author": "Gigillo83",
+    "commons": "Spain_traffic_signal_r308d.svg"
+  },
+  {
+    "id": "r-308e",
+    "code": "R-308e",
+    "group": "prohibition",
+    "es": {
+      "name": "Estacionamiento prohibido en vado",
+      "why": "Prohíbe el estacionamiento delante de un vado."
+    },
+    "en": {
+      "name": "No parking in front of a driveway",
+      "why": "Prohibits parking in front of a driveway (vado)."
+    },
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "author": "มองโกเลีย๔๔",
+    "commons": "Spain_traffic_signal_r308e_(2022).svg"
+  },
+  {
+    "id": "r-309",
+    "code": "R-309",
+    "group": "prohibition",
+    "es": {
+      "name": "Zona de estacionamiento limitado",
+      "why": "Zona de estacionamiento de duración limitada y obligación para el conductor de indicar, de forma reglamentaria, la hora del comienzo del estacionamiento (puede incluir tiempo máximo, horario y si está sujeto a pago)."
+    },
+    "en": {
+      "name": "Limited parking zone",
+      "why": "A parking zone with a limited duration, where the driver must show the time parking began in the prescribed way (it may state a maximum time, the hours, and whether payment applies)."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Unknown author",
+    "commons": "Spain_traffic_signal_r309.svg"
+  },
+  {
+    "id": "r-310",
+    "code": "R-310",
+    "group": "prohibition",
+    "es": {
+      "name": "Advertencias acústicas prohibidas",
+      "why": "Recuerda la prohibición general de efectuar señales acústicas, salvo para evitar un accidente."
+    },
+    "en": {
+      "name": "Horns prohibited",
+      "why": "Reminds drivers of the general ban on sounding the horn, except to avoid an accident."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Unknown author",
+    "commons": "Spain_traffic_signal_r310.svg"
+  },
+  {
+    "id": "r-400a",
+    "code": "R-400a",
+    "group": "mandatory",
+    "es": {
+      "name": "Sentido obligatorio (flecha recta hacia la derecha)",
+      "why": "La flecha señala la dirección y sentido que los vehículos tienen la obligación de seguir."
+    },
+    "en": {
+      "name": "Mandatory direction (straight arrow to the right)",
+      "why": "The arrow shows the direction and way vehicles must follow."
+    },
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "author": "Gigillo83",
+    "commons": "Spain_traffic_signal_r400a.svg"
+  },
+  {
+    "id": "r-400b",
+    "code": "R-400b",
+    "group": "mandatory",
+    "es": {
+      "name": "Sentido obligatorio (flecha recta hacia la izquierda)",
+      "why": "La flecha señala la dirección y sentido que los vehículos tienen la obligación de seguir."
+    },
+    "en": {
+      "name": "Mandatory direction (straight arrow to the left)",
+      "why": "The arrow shows the direction and way vehicles must follow."
+    },
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "author": "Gigillo83",
+    "commons": "Spain_traffic_signal_r400b.svg"
+  },
+  {
+    "id": "r-400c",
+    "code": "R-400c",
+    "group": "mandatory",
+    "es": {
+      "name": "Sentido obligatorio (flecha hacia delante)",
+      "why": "La flecha señala la dirección y sentido que los vehículos tienen la obligación de seguir."
+    },
+    "en": {
+      "name": "Mandatory direction (arrow ahead)",
+      "why": "The arrow shows the direction and way vehicles must follow."
+    },
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "author": "Gigillo83",
+    "commons": "Spain_traffic_signal_r400c.svg"
+  },
+  {
+    "id": "r-400d",
+    "code": "R-400d",
+    "group": "mandatory",
+    "es": {
+      "name": "Sentido obligatorio (flecha curva hacia la derecha)",
+      "why": "La flecha señala la dirección y sentido que los vehículos tienen la obligación de seguir."
+    },
+    "en": {
+      "name": "Mandatory direction (curved arrow to the right)",
+      "why": "The arrow shows the direction and way vehicles must follow."
+    },
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "author": "Gigillo83",
+    "commons": "Spain_traffic_signal_r400d.svg"
+  },
+  {
+    "id": "r-400e",
+    "code": "R-400e",
+    "group": "mandatory",
+    "es": {
+      "name": "Sentido obligatorio (flecha curva hacia la izquierda)",
+      "why": "La flecha señala la dirección y sentido que los vehículos tienen la obligación de seguir."
+    },
+    "en": {
+      "name": "Mandatory direction (curved arrow to the left)",
+      "why": "The arrow shows the direction and way vehicles must follow."
+    },
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "author": "Gigillo83",
+    "commons": "Spain_traffic_signal_r400e.svg"
+  },
+  {
+    "id": "r-401a",
+    "code": "R-401a",
+    "group": "mandatory",
+    "es": {
+      "name": "Paso obligatorio (por la derecha)",
+      "why": "La flecha señala el lado del refugio, de la isleta o del obstáculo por el que los vehículos han de pasar obligatoriamente."
+    },
+    "en": {
+      "name": "Mandatory passing side (pass on the right)",
+      "why": "The arrow shows the side of the refuge, island or obstacle on which vehicles must pass."
+    },
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "author": "Gigillo83",
+    "commons": "Spain_traffic_signal_r401a.svg"
+  },
+  {
+    "id": "r-401b",
+    "code": "R-401b",
+    "group": "mandatory",
+    "es": {
+      "name": "Paso obligatorio (por la izquierda)",
+      "why": "La flecha señala el lado del refugio, de la isleta o del obstáculo por el que los vehículos han de pasar obligatoriamente."
+    },
+    "en": {
+      "name": "Mandatory passing side (pass on the left)",
+      "why": "The arrow shows the side of the refuge, island or obstacle on which vehicles must pass."
+    },
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "author": "Gigillo83",
+    "commons": "Spain_traffic_signal_r401b.svg"
+  },
+  {
+    "id": "r-401c",
+    "code": "R-401c",
+    "group": "mandatory",
+    "es": {
+      "name": "Paso obligatorio (por cualquiera de los dos lados)",
+      "why": "Las flechas señalan los lados del refugio, de la isleta o del obstáculo por uno de los cuales los vehículos han de pasar obligatoriamente."
+    },
+    "en": {
+      "name": "Mandatory passing side (either side)",
+      "why": "The arrows show the sides of the refuge, island or obstacle on one of which vehicles must pass."
+    },
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "author": "Gigillo83",
+    "commons": "Spain_traffic_signal_r401c.svg"
+  },
+  {
+    "id": "r-402",
+    "code": "R-402",
+    "group": "mandatory",
+    "es": {
+      "name": "Sentido obligatorio en glorieta",
+      "why": "Las flechas señalan la dirección y sentido del movimiento giratorio que los vehículos deben seguir."
+    },
+    "en": {
+      "name": "Mandatory roundabout direction",
+      "why": "The arrows show the direction and way of the circular movement vehicles must follow."
+    },
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "author": "Majafego",
+    "commons": "Spain_traffic_signal_r402.svg"
+  },
+  {
+    "id": "r-403a",
+    "code": "R-403a",
+    "group": "mandatory",
+    "es": {
+      "name": "Únicas direcciones y sentidos permitidos (de frente o a la derecha)",
+      "why": "Las flechas señalan las únicas direcciones y sentidos que los vehículos pueden tomar."
+    },
+    "en": {
+      "name": "Only directions allowed (ahead or right)",
+      "why": "The arrows show the only directions and ways vehicles may take."
+    },
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "author": "Gigillo83",
+    "commons": "Spain_traffic_signal_r403a.svg"
+  },
+  {
+    "id": "r-403b",
+    "code": "R-403b",
+    "group": "mandatory",
+    "es": {
+      "name": "Únicas direcciones y sentidos permitidos (de frente o a la izquierda)",
+      "why": "Las flechas señalan las únicas direcciones y sentidos que los vehículos pueden tomar."
+    },
+    "en": {
+      "name": "Only directions allowed (ahead or left)",
+      "why": "The arrows show the only directions and ways vehicles may take."
+    },
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "author": "Gigillo83",
+    "commons": "Spain_traffic_signal_r403b.svg"
+  },
+  {
+    "id": "r-403c",
+    "code": "R-403c",
+    "group": "mandatory",
+    "es": {
+      "name": "Única dirección y sentidos permitidos (a la izquierda o a la derecha)",
+      "why": "Las flechas señalan la única dirección y sentidos que los vehículos pueden tomar."
+    },
+    "en": {
+      "name": "Only directions allowed (left or right)",
+      "why": "The arrows show the only direction and ways vehicles may take."
+    },
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "author": "Gigillo83",
+    "commons": "Spain_traffic_signal_r403c.svg"
+  },
+  {
+    "id": "r-406",
+    "code": "R-406",
+    "group": "mandatory",
+    "es": {
+      "name": "Calzada obligatoria para camiones, tractocamiones y furgones o furgonetas",
+      "why": "Obligación para los conductores de toda clase de camiones, tractocamiones y furgones o furgonetas, independientemente de su masa, de circular por la calzada a cuya entrada esté situada."
+    },
+    "en": {
+      "name": "Mandatory roadway for trucks, tractor units and vans",
+      "why": "Obligation for drivers of all kinds of trucks, tractor units and vans, whatever their mass, to use the roadway at whose entrance the sign stands."
+    },
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "author": "NACLE2",
+    "commons": "Spain_traffic_signal_r406.svg"
+  },
+  {
+    "id": "r-407b",
+    "code": "R-407b",
+    "group": "mandatory",
+    "es": {
+      "name": "Vía reservada y obligatoria para ciclomotores",
+      "why": "Obligación para los conductores de ciclomotores de circular por la vía a cuya entrada esté situada y prohibición a los demás usuarios de la vía de utilizarla."
+    },
+    "en": {
+      "name": "Road reserved and compulsory for mopeds",
+      "why": "Obligation for moped drivers to use the road at whose entrance the sign stands, and a ban on all other road users using it."
+    },
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "author": "Gigillo83",
+    "commons": "Spain_traffic_signal_r407b.svg"
+  },
+  {
+    "id": "r-409",
+    "code": "R-409",
+    "group": "mandatory",
+    "es": {
+      "name": "Camino reservado y obligatorio para animales de montura",
+      "why": "Obligación para los jinetes de utilizar con sus animales de montura el camino a cuya entrada esté situada y prohibición a los demás usuarios de la vía de utilizarlo."
+    },
+    "en": {
+      "name": "Track reserved and compulsory for ridden animals",
+      "why": "Obligation for riders to use, with their animals, the track at whose entrance the sign stands, and a ban on all other road users using it."
+    },
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "author": "Gigillo83",
+    "commons": "Spain_traffic_signal_r409.svg"
+  },
+  {
+    "id": "r-416",
+    "code": "R-416",
+    "group": "mandatory",
+    "es": {
+      "name": "Calzada obligatoria para vehículos que transporten mercancías explosivas e inflamables",
+      "why": "Obligación para los conductores de toda clase de vehículos que transporten mercancías explosivas o fácilmente inflamables y requieran estar señalizados de acuerdo con su normativa específica de circular por la calzada a cuya entrada esté situada."
+    },
+    "en": {
+      "name": "Mandatory roadway for vehicles carrying explosive or flammable goods",
+      "why": "Obligation for drivers of all vehicles carrying explosive or easily flammable goods, which must be marked under their specific regulations, to use the roadway at whose entrance the sign stands."
+    },
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "author": "Gigillo83",
+    "commons": "Spain_traffic_signal_r416.svg"
+  },
+  {
+    "id": "r-500",
+    "code": "R-500",
+    "group": "end",
+    "es": {
+      "name": "Fin de prohibiciones",
+      "why": "Señala el lugar desde el que todas las prohibiciones específicas indicadas por señales anteriores de prohibición para vehículos en movimiento dejan de tener aplicación."
+    },
+    "en": {
+      "name": "End of prohibitions",
+      "why": "Marks the place from which all the specific prohibitions shown by earlier prohibition signs for moving vehicles stop applying."
+    },
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "author": "Gigillo83",
+    "commons": "Spain_traffic_signal_r500.svg"
+  },
+  {
+    "id": "r-501",
+    "code": "R-501",
+    "group": "end",
+    "es": {
+      "name": "Fin de la limitación de velocidad",
+      "why": "Señala el lugar desde donde deja de ser aplicable una señal anterior de velocidad máxima."
+    },
+    "en": {
+      "name": "End of speed limit",
+      "why": "Marks the place from which an earlier maximum speed sign stops applying."
+    },
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "author": "Gigillo83",
+    "commons": "Spain_traffic_signal_r501.svg"
+  },
+  {
+    "id": "r-502",
+    "code": "R-502",
+    "group": "end",
+    "es": {
+      "name": "Fin de la prohibición de adelantamiento",
+      "why": "Señala el lugar desde donde deja de ser aplicable una señal anterior de adelantamiento prohibido."
+    },
+    "en": {
+      "name": "End of overtaking prohibition",
+      "why": "Marks the place from which an earlier no-overtaking sign stops applying."
+    },
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "author": "Gigillo83",
+    "commons": "Spain_traffic_signal_r502.svg"
+  },
+  {
+    "id": "r-503",
+    "code": "R-503",
+    "group": "end",
+    "es": {
+      "name": "Fin de la prohibición de adelantamiento para camiones",
+      "why": "Señala el lugar desde donde deja de ser aplicable una señal anterior de adelantamiento prohibido para camiones."
+    },
+    "en": {
+      "name": "End of overtaking prohibition for trucks",
+      "why": "Marks the place from which an earlier no-overtaking-for-trucks sign stops applying."
+    },
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "author": "Gigillo83",
+    "commons": "Spain_traffic_signal_r503.svg"
+  },
+  {
+    "id": "r-504",
+    "code": "R-504",
+    "group": "end",
+    "es": {
+      "name": "Fin de zona de estacionamiento limitado",
+      "why": "Señala el lugar desde donde deja de ser aplicable una anterior señal de zona de estacionamiento limitado."
+    },
+    "en": {
+      "name": "End of limited parking zone",
+      "why": "Marks the place from which an earlier limited-parking-zone sign stops applying."
+    },
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "author": "Gigillo83",
+    "commons": "Spain_traffic_signal_r504.svg"
+  },
+  {
+    "id": "r-506",
+    "code": "R-506",
+    "group": "end",
+    "es": {
+      "name": "Fin de velocidad mínima",
+      "why": "Señala el lugar desde donde deja de ser aplicable una señal anterior de velocidad mínima."
+    },
+    "en": {
+      "name": "End of minimum speed",
+      "why": "Marks the place from which an earlier minimum speed sign stops applying."
+    },
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "author": "NACLE",
+    "commons": "Spain_traffic_signal_r506.svg"
+  },
+  {
+    "id": "p-1c",
+    "code": "P-1c",
+    "group": "warning",
+    "es": {
+      "name": "Intersección con prioridad sobre incorporación por la derecha",
+      "why": "Peligro por la proximidad de una incorporación por la derecha de una vía, cuyos usuarios deben ceder el paso."
+    },
+    "en": {
+      "name": "Intersection with priority over a merge from the right",
+      "why": "Danger: an upcoming merge from a road on the right, whose users must give way."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Unknown author",
+    "commons": "Spain_traffic_signal_p1c.svg"
+  },
+  {
+    "id": "p-1d",
+    "code": "P-1d",
+    "group": "warning",
+    "es": {
+      "name": "Intersección con prioridad sobre incorporación por la izquierda",
+      "why": "Peligro por la proximidad de una incorporación por la izquierda de una vía, cuyos usuarios deben ceder el paso."
+    },
+    "en": {
+      "name": "Intersection with priority over a merge from the left",
+      "why": "Danger: an upcoming merge from a road on the left, whose users must give way."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Unknown author",
+    "commons": "Spain_traffic_signal_p1d.svg"
+  },
+  {
+    "id": "p-1e",
+    "code": "P-1e",
+    "group": "warning",
+    "es": {
+      "name": "Tramo con accesos directos",
+      "why": "Peligro por la proximidad de un tramo en el que existen varios accesos directos a la vía, debiendo ceder el paso los usuarios de dichos accesos directos."
+    },
+    "en": {
+      "name": "Stretch with direct accesses",
+      "why": "Danger: a stretch with several direct accesses to the road; users of those accesses must give way."
+    },
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "author": "Yopaseopor",
+    "commons": "Spain_traffic_signal_p1e.svg"
+  },
+  {
+    "id": "p-2",
+    "code": "P-2",
+    "group": "warning",
+    "es": {
+      "name": "Intersección con prioridad de la derecha",
+      "why": "Peligro por la proximidad de una intersección en la que rige la regla general de prioridad de paso."
+    },
+    "en": {
+      "name": "Intersection with priority to the right",
+      "why": "Danger: an upcoming intersection where the general priority rule applies."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Unknown author",
+    "commons": "Spain_traffic_signal_p2.svg"
+  },
+  {
+    "id": "p-3",
+    "code": "P-3",
+    "group": "warning",
+    "es": {
+      "name": "Semáforos",
+      "why": "Peligro por la proximidad de una intersección aislada o tramo con la circulación regulada por semáforos."
+    },
+    "en": {
+      "name": "Traffic lights",
+      "why": "Danger: an upcoming isolated intersection or stretch where traffic is regulated by traffic lights."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Benedicto16",
+    "commons": "Spain_traffic_signal_p3.svg"
+  },
+  {
+    "id": "p-4",
+    "code": "P-4",
+    "group": "warning",
+    "es": {
+      "name": "Glorieta",
+      "why": "Peligro por la proximidad de una glorieta con circulación en el sentido indicado por las flechas."
+    },
+    "en": {
+      "name": "Roundabout",
+      "why": "Danger: an upcoming roundabout, with traffic circulating in the direction of the arrows."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Benedicto16 (assumed by Commons from copyright claims)",
+    "commons": "Spain_traffic_signal_p4.svg"
+  },
+  {
+    "id": "p-5",
+    "code": "P-5",
+    "group": "warning",
+    "es": {
+      "name": "Puente móvil",
+      "why": "Peligro ante la proximidad de un puente que puede ser levantado o girado, interrumpiéndose así temporalmente la circulación."
+    },
+    "en": {
+      "name": "Movable bridge",
+      "why": "Danger: an upcoming bridge that can be raised or swung, temporarily interrupting traffic."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Unknown author",
+    "commons": "Spain_traffic_signal_p5.svg"
+  },
+  {
+    "id": "p-7",
+    "code": "P-7",
+    "group": "warning",
+    "es": {
+      "name": "Paso a nivel con barreras",
+      "why": "Peligro por la proximidad de un paso a nivel provisto de barreras o semibarreras."
+    },
+    "en": {
+      "name": "Level crossing with barriers",
+      "why": "Danger: an upcoming level crossing fitted with barriers or half-barriers."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Benedicto16 (assumed by Commons from copyright claims)",
+    "commons": "Spain_traffic_signal_p7.svg"
+  },
+  {
+    "id": "p-8",
+    "code": "P-8",
+    "group": "warning",
+    "es": {
+      "name": "Paso a nivel sin barreras",
+      "why": "Peligro por la proximidad de un paso a nivel no provisto de barreras o semibarreras."
+    },
+    "en": {
+      "name": "Level crossing without barriers",
+      "why": "Danger: an upcoming level crossing not fitted with barriers or half-barriers."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Ministerio de Transportes, Movilidad y Agenda Urbana",
+    "commons": "Spain_traffic_signal_p8,_2023_set.svg"
+  },
+  {
+    "id": "p-9a",
+    "code": "P-9a",
+    "group": "warning",
+    "es": {
+      "name": "Aproximación a un paso a nivel, puente móvil o muelle (200 m, lado derecho)",
+      "why": "Indica la existencia de un paso a nivel, un puente móvil o un muelle a una distancia de 200 m. Esta baliza se sitúa en el lado derecho de la calzada y va siempre acompañada de la señal P-5, P-7, P-8 o P-27."
+    },
+    "en": {
+      "name": "Approach to a level crossing, movable bridge or quay (200 m, right side)",
+      "why": "Shows a level crossing, movable bridge or quay 200 m ahead. This marker stands on the right side of the road and always comes with sign P-5, P-7, P-8 or P-27."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Unknown author",
+    "commons": "Spain_traffic_signal_p9a.svg"
+  },
+  {
+    "id": "p-9b",
+    "code": "P-9b",
+    "group": "warning",
+    "es": {
+      "name": "Aproximación a un paso a nivel, puente móvil o muelle (150 m, lado derecho)",
+      "why": "Indica la existencia de un paso a nivel, un puente móvil o un muelle a una distancia de 150 m. Esta baliza se sitúa en el lado derecho de la calzada."
+    },
+    "en": {
+      "name": "Approach to a level crossing, movable bridge or quay (150 m, right side)",
+      "why": "Shows a level crossing, movable bridge or quay 150 m ahead. This marker stands on the right side of the road."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Benedicto16 (assumed by Commons from copyright claims)",
+    "commons": "Spain_traffic_signal_p9b.svg"
+  },
+  {
+    "id": "p-9c",
+    "code": "P-9c",
+    "group": "warning",
+    "es": {
+      "name": "Aproximación a un paso a nivel, puente móvil o muelle (100 m, lado derecho)",
+      "why": "Indica la existencia de un paso a nivel, un puente móvil o un muelle a una distancia de 100 m. Esta baliza se sitúa en el lado derecho de la calzada."
+    },
+    "en": {
+      "name": "Approach to a level crossing, movable bridge or quay (100 m, right side)",
+      "why": "Shows a level crossing, movable bridge or quay 100 m ahead. This marker stands on the right side of the road."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Benedicto16 (assumed by Commons from copyright claims)",
+    "commons": "Spain_traffic_signal_p9c.svg"
+  },
+  {
+    "id": "p-10a",
+    "code": "P-10a",
+    "group": "warning",
+    "es": {
+      "name": "Aproximación a un paso a nivel, puente móvil o muelle (200 m, lado izquierdo)",
+      "why": "Indica la existencia de un paso a nivel, un puente móvil o un muelle a una distancia de 200 m. Esta baliza se sitúa en el lado izquierdo de la calzada y va siempre acompañada de la señal P-5, P-7, P-8 o P-27."
+    },
+    "en": {
+      "name": "Approach to a level crossing, movable bridge or quay (200 m, left side)",
+      "why": "Shows a level crossing, movable bridge or quay 200 m ahead. This marker stands on the left side of the road and always comes with sign P-5, P-7, P-8 or P-27."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Unknown author",
+    "commons": "Spain_traffic_signal_p10a.svg"
+  },
+  {
+    "id": "p-10b",
+    "code": "P-10b",
+    "group": "warning",
+    "es": {
+      "name": "Aproximación a un paso a nivel, puente móvil o muelle (150 m, lado izquierdo)",
+      "why": "Indica la existencia de un paso a nivel, un puente móvil o un muelle a una distancia de 150 m. Esta baliza se sitúa en el lado izquierdo de la calzada."
+    },
+    "en": {
+      "name": "Approach to a level crossing, movable bridge or quay (150 m, left side)",
+      "why": "Shows a level crossing, movable bridge or quay 150 m ahead. This marker stands on the left side of the road."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Benedicto16 (assumed by Commons from copyright claims)",
+    "commons": "Spain_traffic_signal_p10b.svg"
+  },
+  {
+    "id": "p-10c",
+    "code": "P-10c",
+    "group": "warning",
+    "es": {
+      "name": "Aproximación a un paso a nivel, puente móvil o muelle (100 m, lado izquierdo)",
+      "why": "Indica la existencia de un paso a nivel, un puente móvil o un muelle a una distancia de 100 m. Esta baliza se sitúa en el lado izquierdo de la calzada."
+    },
+    "en": {
+      "name": "Approach to a level crossing, movable bridge or quay (100 m, left side)",
+      "why": "Shows a level crossing, movable bridge or quay 100 m ahead. This marker stands on the left side of the road."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Benedicto16 (assumed by Commons from copyright claims)",
+    "commons": "Spain_traffic_signal_p10c.svg"
+  },
+  {
+    "id": "p-11",
+    "code": "P-11",
+    "group": "warning",
+    "es": {
+      "name": "Situación de un paso a nivel sin barreras",
+      "why": "Peligro por la presencia inmediata de un paso a nivel sin barreras."
+    },
+    "en": {
+      "name": "Location of a level crossing without barriers",
+      "why": "Danger: a level crossing without barriers is immediately ahead."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Benedicto16 (assumed by Commons from copyright claims)",
+    "commons": "Spain_traffic_signal_p11.svg"
+  },
+  {
+    "id": "p-11a",
+    "code": "P-11a",
+    "group": "warning",
+    "es": {
+      "name": "Situación de un paso a nivel sin barreras de más de una vía férrea",
+      "why": "Peligro por la presencia inmediata de un paso a nivel sin barreras con más de una vía férrea."
+    },
+    "en": {
+      "name": "Location of a level crossing without barriers, more than one track",
+      "why": "Danger: a level crossing without barriers and with more than one railway track is immediately ahead."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Benedicto16 (assumed by Commons from copyright claims)",
+    "commons": "Spain_traffic_signal_p11a.svg"
+  },
+  {
+    "id": "p-12",
+    "code": "P-12",
+    "group": "warning",
+    "es": {
+      "name": "Aeropuerto",
+      "why": "Peligro por la proximidad de un lugar donde frecuentemente vuelan aeronaves a baja altura sobre la vía y que pueden originar ruidos imprevistos."
+    },
+    "en": {
+      "name": "Airport",
+      "why": "Danger: an upcoming place where aircraft often fly low over the road and may cause unexpected noise."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Ministerio de Transportes, Movilidad y Agenda Urbana",
+    "commons": "Spain_traffic_signal_p-12,_2023_set.svg"
+  },
+  {
+    "id": "p-13a",
+    "code": "P-13a",
+    "group": "warning",
+    "es": {
+      "name": "Curva peligrosa hacia la derecha",
+      "why": "Peligro por la proximidad de una curva peligrosa hacia la derecha."
+    },
+    "en": {
+      "name": "Dangerous curve to the right",
+      "why": "Danger: an upcoming dangerous curve to the right."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Benedicto16 (assumed by Commons from copyright claims)",
+    "commons": "Spain_traffic_signal_p13a.svg"
+  },
+  {
+    "id": "p-13b",
+    "code": "P-13b",
+    "group": "warning",
+    "es": {
+      "name": "Curva peligrosa hacia la izquierda",
+      "why": "Peligro por la proximidad de una curva peligrosa hacia la izquierda."
+    },
+    "en": {
+      "name": "Dangerous curve to the left",
+      "why": "Danger: an upcoming dangerous curve to the left."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Benedicto16 (assumed by Commons from copyright claims)",
+    "commons": "Spain_traffic_signal_p13b.svg"
+  },
+  {
+    "id": "p-14a",
+    "code": "P-14a",
+    "group": "warning",
+    "es": {
+      "name": "Curvas peligrosas hacia la derecha",
+      "why": "Peligro por la proximidad de una sucesión de curvas peligrosas próximas entre sí, siendo la primera de ellas hacia la derecha."
+    },
+    "en": {
+      "name": "Dangerous curves to the right",
+      "why": "Danger: an upcoming series of dangerous curves close together, the first one to the right."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Benedicto16 (assumed by Commons from copyright claims)",
+    "commons": "Spain_traffic_signal_p14a.svg"
+  },
+  {
+    "id": "p-14b",
+    "code": "P-14b",
+    "group": "warning",
+    "es": {
+      "name": "Curvas peligrosas hacia la izquierda",
+      "why": "Peligro por la proximidad de una sucesión de curvas peligrosas próximas entre sí, siendo la primera de ellas hacia la izquierda."
+    },
+    "en": {
+      "name": "Dangerous curves to the left",
+      "why": "Danger: an upcoming series of dangerous curves close together, the first one to the left."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Benedicto16 (assumed by Commons from copyright claims)",
+    "commons": "Spain_traffic_signal_p14b.svg"
+  },
+  {
+    "id": "p-15",
+    "code": "P-15",
+    "group": "warning",
+    "es": {
+      "name": "Perfil irregular",
+      "why": "Peligro por la proximidad de un resalte o badén en la vía o pavimento en mal estado."
+    },
+    "en": {
+      "name": "Uneven road",
+      "why": "Danger: an upcoming bump or dip in the road, or a poor road surface."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Benedicto16 (assumed by Commons from copyright claims)",
+    "commons": "Spain_traffic_signal_p15.svg"
+  },
+  {
+    "id": "p-15a",
+    "code": "P-15a",
+    "group": "warning",
+    "es": {
+      "name": "Resalte",
+      "why": "Peligro por la proximidad de un resalte en la vía."
+    },
+    "en": {
+      "name": "Bump",
+      "why": "Danger: an upcoming raised bump in the road."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Benedicto16 (assumed by Commons from copyright claims)",
+    "commons": "Spain_traffic_signal_p15a.svg"
+  },
+  {
+    "id": "p-15b",
+    "code": "P-15b",
+    "group": "warning",
+    "es": {
+      "name": "Badén",
+      "why": "Peligro por la proximidad de un badén en la vía."
+    },
+    "en": {
+      "name": "Dip",
+      "why": "Danger: an upcoming dip in the road."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Benedicto16 (assumed by Commons from copyright claims)",
+    "commons": "Spain_traffic_signal_p15b.svg"
+  },
+  {
+    "id": "p-16a",
+    "code": "P-16a",
+    "group": "warning",
+    "es": {
+      "name": "Bajada con fuerte pendiente",
+      "why": "Peligro por la existencia de un tramo de vía con fuerte pendiente descendente; la cifra indica la inclinación de la pendiente en porcentaje."
+    },
+    "en": {
+      "name": "Steep downhill",
+      "why": "Danger: a stretch of road with a steep downhill grade; the figure shows the gradient as a percentage."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Benedicto16 (assumed by Commons from copyright claims)",
+    "commons": "Spain_traffic_signal_p16a.svg"
+  },
+  {
+    "id": "p-16b",
+    "code": "P-16b",
+    "group": "warning",
+    "es": {
+      "name": "Subida con fuerte pendiente",
+      "why": "Peligro por la existencia de un tramo de vía con fuerte pendiente ascendente; la cifra indica la inclinación de la pendiente en porcentaje."
+    },
+    "en": {
+      "name": "Steep uphill",
+      "why": "Danger: a stretch of road with a steep uphill grade; the figure shows the gradient as a percentage."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Benedicto16 (assumed by Commons from copyright claims)",
+    "commons": "Spain_traffic_signal_p16b.svg"
+  },
+  {
+    "id": "p-17",
+    "code": "P-17",
+    "group": "warning",
+    "es": {
+      "name": "Estrechamiento de calzada",
+      "why": "Peligro por la proximidad de una zona de la vía en la que se estrecha la calzada (también puede utilizarse cuando se reduzca la anchura de los arcenes)."
+    },
+    "en": {
+      "name": "Road narrows",
+      "why": "Danger: an upcoming section where the roadway narrows (it may also be used where the shoulders narrow)."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Benedicto16 (assumed by Commons from copyright claims)",
+    "commons": "Spain_traffic_signal_p17.svg"
+  },
+  {
+    "id": "p-17a",
+    "code": "P-17a",
+    "group": "warning",
+    "es": {
+      "name": "Estrechamiento de calzada por la derecha",
+      "why": "Peligro por la proximidad de una zona de la vía en la que la calzada se estrecha por el lado de la derecha."
+    },
+    "en": {
+      "name": "Road narrows on the right",
+      "why": "Danger: an upcoming section where the roadway narrows on the right-hand side."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Benedicto16 (assumed by Commons from copyright claims)",
+    "commons": "Spain_traffic_signal_p17a.svg"
+  },
+  {
+    "id": "p-17b",
+    "code": "P-17b",
+    "group": "warning",
+    "es": {
+      "name": "Estrechamiento de calzada por la izquierda",
+      "why": "Peligro por la proximidad de una zona de la vía en la que la calzada se estrecha por el lado de la izquierda."
+    },
+    "en": {
+      "name": "Road narrows on the left",
+      "why": "Danger: an upcoming section where the roadway narrows on the left-hand side."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Benedicto16 (assumed by Commons from copyright claims)",
+    "commons": "Spain_traffic_signal_p17b.svg"
+  },
+  {
+    "id": "p-18",
+    "code": "P-18",
+    "group": "warning",
+    "es": {
+      "name": "Obras",
+      "why": "Peligro por la proximidad de un tramo de vía en obras."
+    },
+    "en": {
+      "name": "Roadworks",
+      "why": "Danger: an upcoming stretch of road under works."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Ministerio de Transportes, Movilidad y Agenda Urbana",
+    "commons": "Spain_traffic_signal_P-18_(2023).svg"
+  },
+  {
+    "id": "p-19",
+    "code": "P-19",
+    "group": "warning",
+    "es": {
+      "name": "Pavimento deslizante",
+      "why": "Peligro por la proximidad de una zona de la calzada cuyo pavimento puede resultar deslizante."
+    },
+    "en": {
+      "name": "Slippery road",
+      "why": "Danger: an upcoming area where the road surface may be slippery."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Benedicto16 (assumed by Commons from copyright claims)",
+    "commons": "Spain_traffic_signal_p19.svg"
+  },
+  {
+    "id": "p-21a",
+    "code": "P-21a",
+    "group": "warning",
+    "es": {
+      "name": "Niños",
+      "why": "Peligro por la proximidad de un lugar frecuentado por niños, como una escuela, una zona de juegos, etc."
+    },
+    "en": {
+      "name": "Children",
+      "why": "Danger: an upcoming place frequented by children, such as a school or a play area."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Ministerio de Transportes, Movilidad y Agenda Urbana",
+    "commons": "Spain_traffic_signal_p21-a,_2023_set.svg"
+  },
+  {
+    "id": "p-22a",
+    "code": "P-22a",
+    "group": "warning",
+    "es": {
+      "name": "Paso para ciclistas",
+      "why": "Peligro por la proximidad de uno o varios pasos para ciclistas."
+    },
+    "en": {
+      "name": "Cyclist crossing",
+      "why": "Danger: one or more upcoming crossings for cyclists."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Ministerio de Transportes, Movilidad y Agenda Urbana",
+    "commons": "Spain_traffic_signal_p22-a,_2023_set.svg"
+  },
+  {
+    "id": "p-22b",
+    "code": "P-22b",
+    "group": "warning",
+    "es": {
+      "name": "Ciclistas",
+      "why": "Peligro por la proximidad de un tramo con circulación frecuente de ciclistas."
+    },
+    "en": {
+      "name": "Cyclists",
+      "why": "Danger: an upcoming stretch where cyclists frequently ride."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Benedicto16 (assumed by Commons from copyright claims)",
+    "commons": "Spain_traffic_signal_p22.svg"
+  },
+  {
+    "id": "p-23",
+    "code": "P-23",
+    "group": "warning",
+    "es": {
+      "name": "Paso de animales domésticos o ganado",
+      "why": "Peligro por la proximidad de un lugar donde frecuentemente la vía puede ser atravesada por animales domésticos o ganado."
+    },
+    "en": {
+      "name": "Livestock or domestic animals crossing",
+      "why": "Danger: an upcoming place where domestic animals or livestock often cross the road."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Benedicto16 (assumed by Commons from copyright claims)",
+    "commons": "Spain_traffic_signal_p23.svg"
+  },
+  {
+    "id": "p-24",
+    "code": "P-24",
+    "group": "warning",
+    "es": {
+      "name": "Paso de animales en libertad",
+      "why": "Peligro por la proximidad de un lugar donde frecuentemente la vía puede ser atravesada por animales en libertad."
+    },
+    "en": {
+      "name": "Wild animals crossing",
+      "why": "Danger: an upcoming place where animals at large often cross the road."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Benedicto16 (assumed by Commons from copyright claims)",
+    "commons": "Spain_traffic_signal_p24.svg"
+  },
+  {
+    "id": "p-24a",
+    "code": "P-24a",
+    "group": "warning",
+    "es": {
+      "name": "Paso de animales en libertad (jabalíes)",
+      "why": "Peligro por la proximidad de un lugar donde frecuentemente la vía puede ser atravesada por animales en libertad, tratándose en una proporción muy significativa de jabalíes."
+    },
+    "en": {
+      "name": "Wild animals crossing (wild boar)",
+      "why": "Danger: an upcoming place where animals at large often cross the road, a very significant share of them wild boar."
+    },
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "author": "มองโกเลีย๔๔",
+    "commons": "Spain_traffic_signal_p24a.svg"
+  },
+  {
+    "id": "p-25",
+    "code": "P-25",
+    "group": "warning",
+    "es": {
+      "name": "Circulación en los dos sentidos",
+      "why": "Peligro por la proximidad de un tramo con circulación en ambos sentidos."
+    },
+    "en": {
+      "name": "Two-way traffic",
+      "why": "Danger: an upcoming stretch with traffic in both directions."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Benedicto16",
+    "commons": "Spain_traffic_signal_p25.svg"
+  },
+  {
+    "id": "p-26",
+    "code": "P-26",
+    "group": "warning",
+    "es": {
+      "name": "Desprendimiento",
+      "why": "Peligro por la proximidad a una zona con desprendimientos frecuentes y la consiguiente posible presencia de obstáculos en la calzada."
+    },
+    "en": {
+      "name": "Falling rocks",
+      "why": "Danger: an area with frequent landslides or falling rocks, and so possible obstacles on the road."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Benedicto16 (assumed by Commons from copyright claims)",
+    "commons": "Spain_traffic_signal_p26.svg"
+  },
+  {
+    "id": "p-27",
+    "code": "P-27",
+    "group": "warning",
+    "es": {
+      "name": "Muelle",
+      "why": "Peligro debido a que la vía desemboca en un muelle o en una corriente de agua."
+    },
+    "en": {
+      "name": "Quay",
+      "why": "Danger because the road leads to a quay or a watercourse."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Benedicto16 (assumed by Commons from copyright claims)",
+    "commons": "Spain_traffic_signal_p27.svg"
+  },
+  {
+    "id": "p-28",
+    "code": "P-28",
+    "group": "warning",
+    "es": {
+      "name": "Proyección de gravilla",
+      "why": "Peligro por la proximidad de un tramo de vía donde existe el riesgo de que se proyecte gravilla al pasar los vehículos."
+    },
+    "en": {
+      "name": "Loose gravel",
+      "why": "Danger: an upcoming stretch where passing vehicles may throw up gravel."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Benedicto16 (assumed by Commons from copyright claims)",
+    "commons": "Spain_traffic_signal_p28.svg"
+  },
+  {
+    "id": "p-29",
+    "code": "P-29",
+    "group": "warning",
+    "es": {
+      "name": "Viento transversal",
+      "why": "Peligro por la proximidad de una zona donde sopla frecuentemente viento fuerte en dirección transversal."
+    },
+    "en": {
+      "name": "Crosswind",
+      "why": "Danger: an upcoming area where strong wind often blows across the road."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Benedicto16 (assumed by Commons from copyright claims)",
+    "commons": "Spain_traffic_signal_p29.svg"
+  },
+  {
+    "id": "p-30",
+    "code": "P-30",
+    "group": "warning",
+    "es": {
+      "name": "Escalón lateral",
+      "why": "Peligro por la existencia de un desnivel a lo largo de la vía en el lado que indique el símbolo."
+    },
+    "en": {
+      "name": "Side drop",
+      "why": "Danger: a drop along the road on the side the symbol shows."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Benedicto16 (assumed by Commons from copyright claims)",
+    "commons": "Spain_traffic_signal_p30.svg"
+  },
+  {
+    "id": "p-31",
+    "code": "P-31",
+    "group": "warning",
+    "es": {
+      "name": "Congestión",
+      "why": "Peligro por la proximidad de un tramo en el que frecuentemente la circulación se encuentra detenida o dificultada por congestión del tráfico."
+    },
+    "en": {
+      "name": "Congestion",
+      "why": "Danger: an upcoming stretch where traffic is often stopped or slowed by congestion."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Benedicto16 (assumed by Commons from copyright claims)",
+    "commons": "Spain_traffic_signal_p31.svg"
+  },
+  {
+    "id": "p-32",
+    "code": "P-32",
+    "group": "warning",
+    "es": {
+      "name": "Obstrucción en la calzada",
+      "why": "Peligro por la proximidad de un lugar en que hay vehículos que obstruyen la calzada debido a avería, accidente u otras causas."
+    },
+    "en": {
+      "name": "Obstruction on the road",
+      "why": "Danger: an upcoming place where vehicles block the road because of a breakdown, an accident or other causes."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Benedicto16 (assumed by Commons from copyright claims)",
+    "commons": "Spain_traffic_signal_p32.svg"
+  },
+  {
+    "id": "p-33",
+    "code": "P-33",
+    "group": "warning",
+    "es": {
+      "name": "Visibilidad reducida",
+      "why": "Peligro por la proximidad de un tramo en el que frecuentemente la circulación se ve dificultada por una pérdida notable de visibilidad debida a niebla, lluvia, nieve, humos, etc."
+    },
+    "en": {
+      "name": "Reduced visibility",
+      "why": "Danger: an upcoming stretch where traffic is often hampered by a marked loss of visibility from fog, rain, snow, smoke and so on."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Ministerio de Transportes, Movilidad y Agenda Urbana",
+    "commons": "Spain_traffic_signal_p33,_2023_set.svg"
+  },
+  {
+    "id": "p-34",
+    "code": "P-34",
+    "group": "warning",
+    "es": {
+      "name": "Presencia de hielo o nieve",
+      "why": "Peligro por la proximidad de un tramo en el que frecuentemente, durante la época invernal, hay presencia de hielo o nieve y los consiguientes peligros asociados."
+    },
+    "en": {
+      "name": "Ice or snow",
+      "why": "Danger: an upcoming stretch where, in winter, ice or snow is often present, with the dangers that brings."
+    },
+    "license": "Public domain",
+    "licenseUrl": "",
+    "author": "Benedicto16 (assumed by Commons from copyright claims)",
+    "commons": "Spain_traffic_signal_p34.svg"
+  }
+]

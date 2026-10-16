@@ -11,7 +11,7 @@ credit, link to the license, and say if you made changes.
 
 - the questions, answer options and explanations (`src/data/questions.json`)
 - the vocabulary, examiner phrases, and exam facts (`src/data/vocab.ts`, `src/data/facts.ts`)
-- the sign names and explanations (`src/data/signs.ts`)
+- the sign names and explanations (`src/data/signs.json`), which translate and condense the official catalogue definitions
 - the interface text (`src/ui.ts`, `src/format.ts`)
 
 ## What this does not cover
@@ -20,6 +20,7 @@ credit, link to the license, and say if you made changes.
 - **Sign images** in `public/signs/` come from Wikimedia Commons and keep their
   own licenses. Most are public domain; some are CC0 or CC BY-SA. See
   `public/signs/CREDITS.md`. This license does not change those terms.
+  (The names and explanations of the signs are covered above; only the image files are not.)
 - **The law itself.** The questions are original text based on Spanish
   regulations. They are not the DGT's official question bank, and the DGT is not
   a source of this content.

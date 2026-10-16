@@ -68,3 +68,14 @@ export function buildExam(total: number, signCount = 4): Question[] {
   const rest = shuffle(textQuestions).slice(0, Math.max(0, total - withSigns.length));
   return shuffle([...withSigns, ...rest]);
 }
+
+/**
+ * Questions for a practice session. "All" mixes every written question with the sign
+ * questions that are due plus a small sample of new ones, so signs do not swamp the rest.
+ */
+export function practicePool(categoryId: string): Question[] {
+  if (categoryId !== 'all') return allQuestions.filter((q) => q.cat === categoryId);
+  const dueSigns = signQuestions.filter((q) => isDue(q.id));
+  const newSigns = shuffle(signQuestions.filter((q) => !isSeen(q.id))).slice(0, 12);
+  return [...textQuestions, ...dueSigns, ...newSigns];
+}

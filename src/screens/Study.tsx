@@ -3,7 +3,7 @@ import { bi, ModeOverride, mode, T } from '../i18n';
 import { categories, categoryById } from '../data/categories';
 import { questionOf, seenOf } from '../format';
 import { ui } from '../ui';
-import { allQuestions, buildQueue, optionOrder, type Question } from '../lib/quiz';
+import { allQuestions, buildQueue, optionOrder, practicePool, type Question } from '../lib/quiz';
 import { grade, statsFor } from '../lib/store';
 
 /** One question. `selected` and `order` use the original option indexes from the data. */
@@ -118,7 +118,7 @@ function CategoryPicker() {
 
 function PracticeSession({ categoryId }: { categoryId: string }) {
   const plan = useMemo(() => {
-    const pool = categoryId === 'all' ? allQuestions : allQuestions.filter((q) => q.cat === categoryId);
+    const pool = practicePool(categoryId);
     const { queue, due, fresh } = buildQueue(pool);
     // Nothing due and nothing new: fall back to a random refresher so the page is never empty.
     const useQueue = queue.length > 0 ? queue : buildFallback(pool);

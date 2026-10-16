@@ -20,9 +20,10 @@ export const ui = {
   signs: bi('Señales de tráfico', 'Traffic signs'),
   signsHint: bi('Toca una señal para ver su explicación.', 'Tap a sign to see its explanation.'),
   practiceSigns: bi('Practicar señales', 'Practice signs'),
-  signCredits: bi(
-    'Imágenes de Wikimedia Commons, en dominio público salvo:',
-    'Images from Wikimedia Commons, public domain except:',
+  signCredits: bi('Créditos de las imágenes', 'Image credits'),
+  signCreditsIntro: bi(
+    'Imágenes de Wikimedia Commons, copias sin modificar. Las demás están en dominio público o CC0. Estas requieren atribución:',
+    'Images from Wikimedia Commons, unmodified copies. The rest are public domain or CC0. These require attribution:',
   ),
   allCategories: bi('Todas las categorías', 'All categories'),
   chooseCategory: bi('Elige una categoría', 'Choose a category'),

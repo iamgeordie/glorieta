@@ -11,6 +11,7 @@
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview",
     "check": "node scripts/check-questions.mjs",
+    "credits": "node scripts/build-credits.mjs",
     "deploy": "npm run check && npm run build && wrangler deploy"
   },
   "dependencies": {

@@ -12,9 +12,9 @@ The one design rule: **every piece of text can flip between Spanish and English 
 
 | Screen | What it does |
 |---|---|
-| Practice | 70 written questions plus 29 "what does this sign mean?" questions, in 11 categories. Spaced repetition ([FSRS](https://github.com/open-spaced-repetition/ts-fsrs)) brings the ones you miss back sooner. |
+| Practice | 70 written questions plus a "what does this sign mean?" question for each sign, in 11 categories. Spaced repetition ([FSRS](https://github.com/open-spaced-repetition/ts-fsrs)) brings the ones you miss back sooner. |
 | Mock exam | 30 questions (4 of them signs), countdown, up to 3 mistakes, with a review of what you missed. |
-| Traffic signs | A gallery of 29 Spanish signs with the meaning in both languages, and practice questions built from the same data. |
+| Traffic signs | A gallery of Spanish traffic signs with the official meaning in both languages, and practice questions built from the same data. |
 | Vocabulary | Flashcards for road terms, scheduled with the same FSRS engine. |
 | Examiner phrases | What you will hear in the practical test, and what to do. |
 | Exam & US differences | Format, language options, license validity, and what changes from the US. Each fact is labeled official, secondary, or verify. |
@@ -37,7 +37,9 @@ npm run deploy     # check, build, wrangler deploy
 
 ## Sign images
 
-The 29 SVGs in `public/signs/` come from [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Road_signs_of_Spain). All but two are public domain; the other two (CC BY-SA) are credited in `public/signs/CREDITS.md` and on the signs page. To add a sign, drop the SVG in `public/signs/` and add an entry to `src/data/signs.ts` with its meaning in both languages; the practice questions are generated from that list, and `npm run check` fails if a file and an entry get out of step.
+The SVGs in `public/signs/` are unmodified copies from [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Road_signs_of_Spain): public domain, CC0, or CC BY-SA. Every file's license and author is recorded in `src/data/signs.json`; `npm run credits` generates `public/signs/CREDITS.md` from it, and the credits for the CC BY-SA files are also shown on the signs page. Names and meanings follow the official catalogue (RGC Anexo I, as updated by RD 465/2025). A 2025 reform changed some drawings and codes, so where Commons offers the Transport Ministry's own new drawing, that one is used.
+
+To add a sign, put the SVG in `public/signs/` and add an entry to `src/data/signs.json`; the practice questions are generated from that list. `npm run check` fails if a file and an entry get out of step, if a CC BY-SA sign lacks an author or license link, or if `CREDITS.md` is stale.
 
 ## Adding or editing questions
 
