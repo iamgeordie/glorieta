@@ -74,7 +74,7 @@ async function loadProfile(user: User): Promise<Profile> {
     .from('profiles')
     .insert({
       user_id: user.id,
-      display_name: typeof meta.display_name === 'string' ? meta.display_name : null,
+      display_name: [meta.display_name, meta.full_name, meta.name].find((v): v is string => typeof v === 'string' && v.trim() !== '')?.trim().slice(0, 80) ?? null,
       marketing_opt_in: optIn,
       marketing_opt_in_at: optIn && typeof meta.marketing_consent_at === 'string' ? meta.marketing_consent_at : null,
     })

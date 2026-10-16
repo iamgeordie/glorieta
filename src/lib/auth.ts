@@ -43,7 +43,10 @@ export function initAuth() {
       currentUser.value = session.user;
       authStatus.value = 'in';
       if (returnedFromEmailLink && event === 'SIGNED_IN') {
-        notice.value = bi('Tu correo está confirmado. Ya has iniciado sesión.', 'Your email is confirmed. You are signed in.');
+        const viaGoogle = session.user.app_metadata?.provider === 'google';
+        notice.value = viaGoogle
+          ? bi('Has iniciado sesión con Google.', 'You are signed in with Google.')
+          : bi('Tu correo está confirmado. Ya has iniciado sesión.', 'Your email is confirmed. You are signed in.');
         location.hash = '#/account';
       }
       // Supabase asks that its own calls are not made inside this callback, so hand off to the next tick.
