@@ -33,7 +33,7 @@ npm run build      # type-check and build to dist/
 npm run deploy     # check, build, wrangler deploy
 ```
 
-`wrangler.jsonc` binds the Worker to a custom domain and turns off `workers.dev` and preview URLs. The site is meant to sit behind Cloudflare Access, and those other URLs would bypass it. Access is configured in Cloudflare, not in this code, so making the site public later means removing the Access application and nothing else.
+`wrangler.jsonc` binds the Worker to a custom domain and turns off `workers.dev` and preview URLs, so the site has one canonical address. The site is public and has no accounts or backend; standard Cloudflare protections (proxy, TLS, bot and DDoS mitigation) apply at the zone level, not in this code.
 
 ## Sign images
 
