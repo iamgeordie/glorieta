@@ -41,3 +41,18 @@ export function Field({ label, children }: { label: Bi; children: ComponentChild
     </label>
   );
 }
+
+const PRIVACY_URL = 'https://appliedrelevance.com/privacy';
+const TERMS_URL = 'https://appliedrelevance.com/terms';
+
+/** The two documents an account is held under. They live on appliedrelevance.com, which owns the accounts. */
+export function LegalLinks({ lead }: { lead?: Bi }) {
+  return (
+    <p class="legal muted small">
+      {lead && <span class="block"><T t={lead} /></span>}
+      <a href={PRIVACY_URL} target="_blank" rel="noreferrer noopener"><T t={a.privacyLink} /></a>
+      <span aria-hidden="true"> · </span>
+      <a href={TERMS_URL} target="_blank" rel="noreferrer noopener"><T t={a.termsLink} /></a>
+    </p>
+  );
+}

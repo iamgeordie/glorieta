@@ -98,5 +98,9 @@ export const a = {
     'Para borrar también tu cuenta de acceso (que se comparte con otras webs de Applied Relevance), escribe a privacy@appliedrelevance.com.',
     'To also delete your login account (shared with other Applied Relevance sites), email privacy@appliedrelevance.com.',
   ),
+  agreeCreate: bi('Al crear una cuenta aceptas:', 'By creating an account you agree to:'),
+  agreeGoogle: bi('Al continuar con Google aceptas:', 'By continuing with Google you agree to:'),
+  privacyLink: bi('Política de privacidad', 'Privacy Policy'),
+  termsLink: bi('Términos del servicio', 'Terms of Service'),
   signInFailed: bi('No se pudo completar el acceso.', 'Sign-in could not be completed.'),
 };

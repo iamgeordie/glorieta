@@ -3,7 +3,7 @@ import { T, type Bi } from '../i18n';
 import { a } from '../authStrings';
 import { authStatus, currentUser, notice, recovering, returnError, requestPasswordReset, signIn, signInWithGoogle, signOut, signUp, updatePassword } from '../lib/auth';
 import { googleEnabled } from '../lib/supabase';
-import { Field, Message, MIN_PASSWORD, PasswordField } from './form-parts';
+import { Field, LegalLinks, Message, MIN_PASSWORD, PasswordField } from './form-parts';
 import { Profile } from './Profile';
 
 export function Account({ view }: { view: string }) {
@@ -104,6 +104,7 @@ function Forms() {
               <span><T t={a.marketing} /><span class="muted small block"><T t={a.marketingDetail} /></span></span>
             </label>
             <p class="muted small"><T t={a.privacy} /></p>
+            <LegalLinks lead={a.agreeCreate} />
           </>
         )}
         <Message error={error} ok={ok} />
@@ -126,6 +127,7 @@ function Forms() {
             <T t={a.google} />
             {!googleEnabled && <span class="soon"><T t={a.comingSoon} /></span>}
           </button>
+          <LegalLinks lead={a.agreeGoogle} />
         </>
       )}
     </div>

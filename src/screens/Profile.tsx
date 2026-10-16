@@ -6,7 +6,7 @@ import { currentUser, signOut, updatePassword } from '../lib/auth';
 import { deleteMyData, exportMyData, loadStats, profile, saveProfile, serverStats, syncNow, syncStatus } from '../lib/sync';
 import { exams, progress, resetAll } from '../lib/store';
 import { categories } from '../data/categories';
-import { Field, Message, MIN_PASSWORD, PasswordField } from './form-parts';
+import { Field, LegalLinks, Message, MIN_PASSWORD, PasswordField } from './form-parts';
 
 const asText = (v: unknown): string | null => (typeof v === 'string' && v.trim() !== '' ? v.trim() : null);
 
@@ -258,6 +258,7 @@ function Data() {
     <div class="card">
       <h2><T t={a.dangerZone} /></h2>
       <p class="muted small"><T t={a.privacy} /></p>
+      <LegalLinks />
       <div class="actions">
         <button type="button" class="secondary" onClick={() => void download()} disabled={busy}><T t={a.exportData} /></button>
       </div>

@@ -280,3 +280,5 @@ button.secondary.full[disabled], .secondary[disabled] { opacity: 0.6; cursor: no
 .facts dt { color: var(--muted); font-size: 0.85rem; }
 .facts dd { margin: 0; font-weight: 600; font-size: 0.92rem; text-align: right; }
 .badge.ok { background: var(--right-bg, #e3f6e8); color: var(--right); }
+.legal { margin: 8px 0 0; text-align: center; }
+.legal a { color: var(--primary); }
