@@ -7,6 +7,7 @@ export const a = {
   accountTile: bi('Tu cuenta', 'Your account'),
   accountTileOut: bi('Iniciar sesión', 'Sign in'),
   accountTileHint: bi('Guarda tu progreso y sincronízalo entre dispositivos.', 'Save your progress and sync it across devices.'),
+  signInOrCreate: bi('Entrar o crear cuenta', 'Sign in or create account'),
   signIn: bi('Iniciar sesión', 'Sign in'),
   signUp: bi('Crear cuenta', 'Create account'),
   email: bi('Correo electrónico', 'Email'),

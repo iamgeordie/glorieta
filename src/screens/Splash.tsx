@@ -3,6 +3,9 @@ import { LangSwitch, T } from '../i18n';
 import { ui } from '../ui';
 import { createSplash } from '../lib/splash-canvas';
 import { markSplashSeen } from '../lib/splash-seen';
+import { authStatus } from '../lib/auth';
+import { authEnabled } from '../lib/supabase';
+import { a } from '../authStrings';
 
 const COMMONS_PAGE = 'https://commons.wikimedia.org/wiki/File:Spain_traffic_signal_r402.svg';
 const LICENSE_URL = 'https://creativecommons.org/licenses/by-sa/4.0/';
@@ -30,9 +33,16 @@ export function Splash() {
         <h1 class="splash-title">Glorieta</h1>
         <p class="splash-slogan"><T t={ui.slogan} /></p>
         <p class="splash-lede"><T t={ui.tagline} /></p>
-        <a class="primary splash-cta" href="#/" onClick={markSplashSeen}>
-          <T t={ui.startStudying} />
-        </a>
+        <div class="splash-actions">
+          <a class="primary splash-cta" href="#/" onClick={markSplashSeen}>
+            <T t={ui.startStudying} />
+          </a>
+          {authEnabled && authStatus.value !== 'in' && (
+            <a class="secondary splash-cta splash-signin" href="#/account" onClick={markSplashSeen}>
+              <T t={a.signInOrCreate} />
+            </a>
+          )}
+        </div>
       </main>
 
       <footer class="splash-foot">

@@ -253,6 +253,9 @@ button.secondary.full[disabled], .secondary[disabled] { opacity: 0.6; cursor: no
 .splash-slogan .sub { color: rgba(255, 210, 77, 0.8); }
 .splash .splash-cta { background: #fff; color: #0f1b33; border-color: #fff; min-width: 220px; font-size: 1.05rem; text-decoration: none; }
 .splash .splash-cta .sub { color: #3b4a68; }
+.splash-actions { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; }
+.splash .splash-signin { background: transparent; color: #fff; border-color: rgba(255, 255, 255, 0.7); }
+.splash .splash-signin .sub { color: rgba(255, 255, 255, 0.75); }
 .splash-cta:focus-visible { outline-color: #ffd24d; }
 .splash a { color: #cfe0ff; }
 .splash-foot { padding: 0 var(--gutter) 18px; text-align: center; font-size: 0.78rem; color: rgba(255, 255, 255, 0.62); }
