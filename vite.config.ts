@@ -1,6 +1,6 @@
 import { defineConfig, loadEnv } from 'vite';
 import preact from '@preact/preset-vite';
-import { learnData } from './scripts/vite-learn-data';
+import { learnData } from './scripts/vite-learn-data.ts';
 
 export default defineConfig(({ mode }) => {
   // Half a configuration would build a site that fails on load. Refuse to build it instead.
