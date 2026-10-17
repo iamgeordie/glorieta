@@ -13,6 +13,12 @@ export type CheckQuestion = {
   en: { q: string; options: string[]; why: string };
   terms?: { es: string; en: string }[];
   note?: Bi;
+  /**
+   * Shows this official sign (an id in signs.json) above the question, as the real test does. Use it, and
+   * write "this sign" in the question, instead of naming a sign by its catalogue code (R-303): nobody has
+   * to memorize those codes. For a sign with no picture here, use its name, never its code.
+   */
+  sign?: string;
   src: string;
 };
 

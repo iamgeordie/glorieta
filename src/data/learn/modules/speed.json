@@ -373,7 +373,7 @@
                 "id": "speed-towns-c3",
                 "answer": 2,
                 "es": {
-                  "q": "Una calle tiene dos carriles por sentido, así que el límite genérico sería 50 km/h. Pero una señal R-301 dice 30. ¿Cuál es tu máximo?",
+                  "q": "Una calle tiene dos carriles por sentido, así que el límite genérico sería 50 km/h. Pero hay esta señal. ¿Cuál es tu máximo?",
                   "options": [
                     "50 km/h, porque es el límite genérico de esa calle",
                     "40 km/h, la media de los dos",
@@ -382,7 +382,7 @@
                   "why": "La señal prevalece sobre el límite genérico. Manda lo que dice la señal: 30 km/h."
                 },
                 "en": {
-                  "q": "A street has two lanes each way, so the default limit would be 50 km/h. But an R-301 sign says 30. What is your maximum?",
+                  "q": "A street has two lanes each way, so the default limit would be 50 km/h. But there is this sign. What is your maximum?",
                   "options": [
                     "50 km/h, because it is the default for that street",
                     "40 km/h, the average of the two",
@@ -396,7 +396,8 @@
                     "en": "to take precedence"
                   }
                 ],
-                "src": "RGC art. 52.1.a"
+                "src": "RGC art. 52.1.a",
+                "sign": "r-301-30"
               }
             }
           ]
@@ -1796,7 +1797,7 @@
                 "id": "speed-signs-c2",
                 "answer": 1,
                 "es": {
-                  "q": "Pasas una señal R-501, «Fin de la limitación de velocidad». ¿Qué límite rige a partir de ahí?",
+                  "q": "Pasas esta señal de fin de la limitación de velocidad. ¿Qué límite rige a partir de ahí?",
                   "options": [
                     "Ninguno: puedes ir a la velocidad que quieras",
                     "El límite genérico de esa vía",
@@ -1805,7 +1806,7 @@
                   "why": "La R-501 termina el límite de la señal anterior. A partir de ahí, sin otra señal específica, rige el límite genérico de la vía."
                 },
                 "en": {
-                  "q": "You pass an R-501 sign, “end of speed limit”. Which limit applies from there?",
+                  "q": "You pass this end-of-speed-limit sign. Which limit applies from there?",
                   "options": [
                     "None: you can go as fast as you like",
                     "The default limit of that road",
@@ -1819,7 +1820,8 @@
                     "en": "end of limit"
                   }
                 ],
-                "src": "RGC Anexo I, ap. 5.1 (R-501) y art. 52.1.a"
+                "src": "RGC Anexo I, ap. 5.1 (R-501) y art. 52.1.a",
+                "sign": "r-501"
               }
             }
           ]
@@ -1923,7 +1925,7 @@
                 "id": "speed-signs-c4",
                 "answer": 2,
                 "es": {
-                  "q": "Conduces un turismo por una carretera convencional, donde el límite genérico es de 90 km/h. Una señal R-301 dice 70. ¿Cuál es tu máximo?",
+                  "q": "Conduces un turismo por una carretera convencional, donde el límite genérico es de 90 km/h. Ves esta señal. ¿Cuál es tu máximo?",
                   "options": [
                     "90 km/h, porque eres un turismo",
                     "80 km/h, la media de los dos",
@@ -1932,7 +1934,7 @@
                   "why": "La señal específica prevalece sobre el límite genérico. Hasta el siguiente fin de limitación, tu máximo es de 70 km/h."
                 },
                 "en": {
-                  "q": "You drive a car on a conventional road, where the default limit is 90 km/h. An R-301 sign says 70. What is your maximum?",
+                  "q": "You drive a car on a conventional road, where the default limit is 90 km/h. You see this sign. What is your maximum?",
                   "options": [
                     "90 km/h, because you are a car",
                     "80 km/h, the average of the two",
@@ -1946,7 +1948,8 @@
                     "en": "specific sign"
                   }
                 ],
-                "src": "RGC arts. 47 y 52.1.a"
+                "src": "RGC arts. 47 y 52.1.a",
+                "sign": "r-301-70"
               }
             }
           ]
@@ -1996,7 +1999,7 @@
                 "id": "speed-signs-c5",
                 "answer": 0,
                 "es": {
-                  "q": "Una señal S-7, «Velocidad máxima aconsejada», marca 60. ¿Qué significa?",
+                  "q": "Una señal de «Velocidad máxima aconsejada» marca 60. ¿Qué significa?",
                   "options": [
                     "Se aconseja no pasar de 60 km/h, aunque las condiciones sean buenas",
                     "Está prohibido ir a más de 60 km/h",
@@ -2005,7 +2008,7 @@
                   "why": "La S-7 recomienda una velocidad que se aconseja no sobrepasar. Es un consejo, no un límite como la R-301, ni un mínimo como la R-411."
                 },
                 "en": {
-                  "q": "An S-7 sign, “advised maximum speed”, shows 60. What does it mean?",
+                  "q": "An “advised maximum speed” sign shows 60. What does it mean?",
                   "options": [
                     "Do not exceed 60 km/h even if conditions are good: it is advice",
                     "It is forbidden to go faster than 60 km/h",

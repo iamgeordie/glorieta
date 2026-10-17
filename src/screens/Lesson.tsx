@@ -7,7 +7,7 @@ import type { Block, CheckQuestion, Lesson as LessonData } from '../data/learn/t
 import { signs, signFile } from '../data/signs';
 import { Figure, FigureDefs } from '../learn/Figure';
 import { learn, completeLesson, lessonRecord, saveCheck, saveStep } from '../lib/learn';
-import { optionOrder, type Question } from '../lib/quiz';
+import { checkToQuestion, optionOrder, type Question } from '../lib/quiz';
 import { grade } from '../lib/store';
 import { QuestionCard } from './Study';
 
@@ -37,7 +37,7 @@ function SignStrip({ ids, caption }: { ids: string[]; caption?: { es: string; en
 function InlineCheck({ moduleId, lessonId, q }: { moduleId: string; lessonId: string; q: CheckQuestion }) {
   const [order] = useState(optionOrder);
   const answered = lessonRecord(moduleId, lessonId).answered[q.id];
-  const question: Question = { ...q, cat: moduleId };
+  const question: Question = checkToQuestion(q, moduleId);
   const pick = (original: number) => {
     if (answered) return;
     const ok = original === q.answer;
@@ -237,7 +237,7 @@ function Intro({
   onStart: () => void;
 }) {
   const pre = lesson.pretest;
-  const question: Question | null = pre ? { ...pre, cat: moduleId } : null;
+  const question: Question | null = pre ? checkToQuestion(pre, moduleId) : null;
   return (
     <>
       <div class="card">

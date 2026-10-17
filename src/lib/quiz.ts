@@ -1,6 +1,7 @@
 import questions from '../data/questions.json';
 import { signs, signFile, type Sign } from '../data/signs';
 import checks from 'virtual:learn-checks';
+import type { CheckQuestion } from '../data/learn/types';
 import { isDue, isSeen, progress } from './store';
 
 export type LangBlock = { q: string; options: string[]; why: string };
@@ -18,6 +19,12 @@ export type Question = {
 };
 
 const bankQuestions = questions as unknown as Question[];
+
+/** A lesson check as a bank question: its module is the category, and a `sign` becomes the picture. */
+export function checkToQuestion(q: CheckQuestion, cat: string): Question {
+  const { sign, ...rest } = q;
+  return { ...rest, cat, ...(sign ? { image: `/signs/${sign}.svg` } : {}) };
+}
 
 /**
  * The check questions written into the lessons. They join the bank, so Practice and the mock exam

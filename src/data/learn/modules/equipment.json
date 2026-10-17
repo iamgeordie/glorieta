@@ -704,7 +704,7 @@
                 "id": "equipment-c2c",
                 "answer": 2,
                 "es": {
-                  "q": "¿Qué indica el distintivo V-19 pegado en el parabrisas de un coche?",
+                  "q": "¿Qué indica el distintivo de la ITV pegado en el parabrisas de un coche?",
                   "options": [
                     "Cuándo vence el seguro del coche",
                     "Qué clase de combustible usa el coche",
@@ -713,7 +713,7 @@
                   "why": "El distintivo V-19 indica que el vehículo ha superado favorablemente la inspección técnica periódica y la fecha en que debe pasar la próxima."
                 },
                 "en": {
-                  "q": "What does the V-19 sticker on a car’s windshield show?",
+                  "q": "What does the inspection (ITV) sticker on a car’s windshield show?",
                   "options": [
                     "When the car’s insurance expires",
                     "What kind of fuel the car uses",
@@ -1077,7 +1077,7 @@
                 "id": "equipment-c3a",
                 "answer": 1,
                 "es": {
-                  "q": "Son las diez de la mañana, hace sol y entras en un túnel señalizado con la señal S-5. ¿Qué debes hacer con las luces?",
+                  "q": "Son las diez de la mañana, hace sol y entras en un túnel señalizado con la señal «Túnel». ¿Qué debes hacer con las luces?",
                   "options": [
                     "Nada: es de día",
                     "Llevar el alumbrado encendido: en un túnel se exige a cualquier hora",
@@ -1086,7 +1086,7 @@
                   "why": "En túneles, pasos inferiores y tramos con la señal «Túnel» hay que llevar el alumbrado encendido a cualquier hora del día."
                 },
                 "en": {
-                  "q": "It is ten in the morning, sunny, and you enter a tunnel marked with the S-5 sign. What must you do with your lights?",
+                  "q": "It is ten in the morning, sunny, and you enter a tunnel marked with the “Tunnel” sign. What must you do with your lights?",
                   "options": [
                     "Nothing: it is daytime",
                     "Have your lights on: tunnels require it at any hour",
@@ -2125,7 +2125,7 @@
                 "es": {
                   "q": "Un turismo de 4 metros lleva una barra que sobresale 30 centímetros por detrás. ¿Qué debes hacer?",
                   "options": [
-                    "Señalizarla con el panel V-20, y de noche con una luz roja",
+                    "Señalizarla con el panel reglamentario y, de noche, con una luz roja",
                     "Nada: es poco y no hace falta señal",
                     "Quitarla: la carga nunca puede sobresalir"
                   ],
@@ -2134,7 +2134,7 @@
                 "en": {
                   "q": "A 4-meter car carries a bar that sticks out 30 centimeters at the rear. What must you do?",
                   "options": [
-                    "Mark it with the V-20 panel, and with a red light at night",
+                    "Mark it with the regulation panel, and with a red light at night",
                     "Nothing: it is small and needs no sign",
                     "Remove it: a load can never stick out"
                   ],
@@ -2472,20 +2472,20 @@
                 "id": "equipment-c6b",
                 "answer": 1,
                 "es": {
-                  "q": "Entras en una ciudad con una zona de bajas emisiones y hay una señal R-120. ¿Quién decide qué vehículos pueden entrar?",
+                  "q": "Entras en una ciudad con una zona de bajas emisiones y ves esta señal. ¿Quién decide qué vehículos pueden entrar?",
                   "options": [
                     "El conductor, si el motor es moderno",
                     "La administración que delimita la zona, según la clasificación ambiental",
-                    "La ITV, según la pegatina V-19"
+                    "La ITV, según la pegatina del parabrisas"
                   ],
                   "why": "La zona la delimita una administración pública y las restricciones dependen de la clasificación ambiental de cada vehículo. Se indican con señales y paneles en la entrada."
                 },
                 "en": {
-                  "q": "You enter a city with a low-emission zone and see an R-120 sign. Who decides which vehicles may enter?",
+                  "q": "You enter a city with a low-emission zone and see this sign. Who decides which vehicles may enter?",
                   "options": [
                     "The driver, if the engine is modern",
                     "The authority that delimits the zone, based on environmental classification",
-                    "The ITV, according to the V-19 sticker"
+                    "The ITV, according to the windshield sticker"
                   ],
                   "why": "A public authority delimits the zone and the restrictions depend on each vehicle’s environmental classification. They are shown on signs and panels at the entrance."
                 },
@@ -2495,7 +2495,8 @@
                     "en": "low-emission zone"
                   }
                 ],
-                "src": "Ley 7/2021 art. 14.3; RGC art. 157 (añadido por el RD 518/2026)"
+                "src": "Ley 7/2021 art. 14.3; RGC art. 157 (añadido por el RD 518/2026)",
+                "sign": "r-120"
               }
             }
           ]

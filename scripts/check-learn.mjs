@@ -5,6 +5,9 @@ import { existsSync, readdirSync, readFileSync } from 'node:fs';
 const root = new URL('../src/', import.meta.url);
 const read = (p) => JSON.parse(readFileSync(new URL(p, root), 'utf8'));
 
+// Catalogue codes (R-303, P-2, S-7, M-2.1, V-13) are law's labels, not something a learner must memorize: the real
+// test shows the sign and asks what it means. "V-16" is the beacon's everyday name, so it is allowed.
+const CATALOGUE_CODE = /\b(?:[RPSM]-\d|V-(?!16\b)\d)/;
 const BLOCKS = ['p', 'rule', 'list', 'table', 'figure', 'signs', 'us', 'tip', 'example', 'check'];
 // Words that make a check depend on the lesson text or a figure. Checks join the question bank, so they must stand alone.
 const DEPENDENT = /\b(figura|figure|arriba|above|diagrama|diagram|paso anterior|previous step|esta lección|this lesson|en el texto|in the text)\b/i;
@@ -76,6 +79,11 @@ export function checkLearn({ questions, signs, categoryIds }) {
       if (!Array.isArray(v?.options) || v.options.length !== 3 || v.options.some((o) => !str(o))) bad(where, `${lang}.options must be exactly 3 non-empty strings`);
       else if (new Set(v.options).size !== 3) bad(where, `${lang}.options has duplicates`);
       if (bank && DEPENDENT.test(`${v?.q ?? ''} ${v?.options?.join(' ') ?? ''}`)) bad(where, `${lang} question refers to the lesson or a figure; it must stand alone`);
+    }
+    if (q.sign !== undefined && !signIds.has(q.sign)) bad(where, `sign "${q.sign}" is not in signs.json`);
+    for (const lang of ['es', 'en']) {
+      const text = `${q[lang]?.q ?? ''} ${(q[lang]?.options ?? []).join(' ')}`;
+      if (CATALOGUE_CODE.test(text)) bad(where, `${lang}: a question or option names a sign by its catalogue code (${CATALOGUE_CODE.exec(text)?.[0]}); show the sign with "sign" and say "this sign", or use its name`);
     }
     if (!str(q.src)) bad(where, 'missing src');
     else if (badCitation(q.src)) bad(where, badCitation(q.src));

@@ -33,7 +33,17 @@ export function learnData(root = process.cwd()): Plugin {
     load(id) {
       if (id === CHECKS) {
         const checks = load().flatMap((m) =>
-          m.lessons.flatMap((l) => l.steps.flatMap((s) => s.blocks.filter((b) => b.t === 'check').map((b) => ({ ...b.q, cat: m.id })))),
+          m.lessons.flatMap((l) =>
+            l.steps.flatMap((s) =>
+              s.blocks
+                .filter((b) => b.t === 'check')
+                .map((b) => {
+                  // Same mapping as checkToQuestion in src/lib/quiz.ts: a `sign` becomes the picture.
+                  const { sign, ...rest } = (b.q ?? {}) as Record<string, unknown>;
+                  return { ...rest, cat: m.id, ...(sign ? { image: `/signs/${sign}.svg` } : {}) };
+                }),
+            ),
+          ),
         );
         return `export default ${JSON.stringify(checks)};`;
       }

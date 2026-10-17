@@ -211,7 +211,7 @@
                 "id": "situations-c1b",
                 "answer": 0,
                 "es": {
-                  "q": "Hay una señal «Estacionamiento prohibido» (R-308). Quieres dejar bajar a un pasajero y tú te quedas al volante. ¿Puedes parar?",
+                  "q": "Hay esta señal de estacionamiento prohibido. Quieres dejar bajar a un pasajero y tú te quedas al volante. ¿Puedes parar?",
                   "options": [
                     "Sí: esa señal prohíbe estacionar, no parar",
                     "No: cualquier inmovilización está prohibida",
@@ -220,7 +220,7 @@
                   "why": "La señal R-308 prohíbe estacionar, pero no prohíbe la parada. La señal R-307 sí prohíbe las dos cosas."
                 },
                 "en": {
-                  "q": "There is a “No parking” sign (R-308). You want to let a passenger out and you stay at the wheel. May you stop?",
+                  "q": "There is this no-parking sign. You want to let a passenger out and you stay at the wheel. May you stop?",
                   "options": [
                     "Yes: that sign bans parking, not stopping",
                     "No: any kind of immobilization is banned",
@@ -234,7 +234,8 @@
                     "en": "no parking"
                   }
                 ],
-                "src": "RGC Anexo I, ap. 5.1 (R-308)"
+                "src": "RGC Anexo I, ap. 5.1 (R-308)",
+                "sign": "r-308"
               }
             }
           ]

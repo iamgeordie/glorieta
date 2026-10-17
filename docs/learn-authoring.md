@@ -136,6 +136,12 @@ Checks join the question bank, so Practice and the mock exam draw on them. That 
 questions, not lesson comprehension prompts.
 
 - **Stand-alone.** No "in the figure", "above", "this lesson", "the text". The validator rejects them.
+- **Show signs, never name them by code.** The real test shows the sign and asks what it means; the DGT's own
+  practice tests say "esta señal" and never name a catalogue code. So when a check is about a sign that has a
+  picture in `signs.json`, set `"sign": "<id>"` (the picture appears above the question) and write "this sign"
+  in the question. For a sign with no picture here, use its name ("la señal de «Túnel»"). Never write R-303,
+  P-2, S-7 or V-13 in a question or an option; the validator rejects it. Codes may appear in an explanation
+  (`why`) and in captions as a reference. ("V-16" is allowed: it is the beacon's everyday name.)
 - **Three options, one correct, plausible wrong ones.** Wrong options are the mistakes learners really
   make, often what a US driver would assume. Never "all of the above". Keep options of similar length.
 - **The `why` teaches.** One or two sentences that state the rule, so a wrong answer still teaches.
