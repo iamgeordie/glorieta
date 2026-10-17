@@ -1,0 +1,52 @@
+{
+  "seconds": 7,
+  "poster": 2.6,
+  "reveals": [
+    {
+      "id": "lr",
+      "from": 0.3,
+      "to": 4.4
+    },
+    {
+      "id": "noturn",
+      "from": 1.9,
+      "to": 4.2
+    }
+  ],
+  "actors": [
+    {
+      "id": "b",
+      "kind": "car",
+      "tone": "me",
+      "path": "M195 392 L195 244",
+      "from": 0.2,
+      "to": 1.7,
+      "show": [
+        0,
+        5
+      ],
+      "badge": {
+        "mark": "B",
+        "dx": -31,
+        "dy": 0
+      }
+    },
+    {
+      "id": "b2",
+      "kind": "car",
+      "tone": "me",
+      "path": "M195 244 L195 -32",
+      "from": 5,
+      "to": 6.8,
+      "show": [
+        5,
+        7
+      ],
+      "badge": {
+        "mark": "B",
+        "dx": -31,
+        "dy": 0
+      }
+    }
+  ]
+}

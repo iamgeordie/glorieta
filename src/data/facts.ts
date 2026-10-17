@@ -5,7 +5,7 @@ export type Confidence = 'official' | 'secondary' | 'verify';
 export type Fact = { text: Bi; confidence: Confidence };
 export type FactGroup = { title: Bi; facts: Fact[] };
 
-/** Exam length in minutes. Secondary sources say 30; the DGT says time grows with the video question. */
+/** Exam length in minutes: 1 minute per question (RGCond Anexo VI B.2), so 30 for 30 questions; it grows with video length. */
 export const EXAM_MINUTES = 30;
 export const EXAM_QUESTIONS = 30;
 export const EXAM_MAX_ERRORS = 3;
@@ -20,10 +20,10 @@ export const factGroups: FactGroup[] = [
   {
     title: bi('El examen teórico', 'The theory exam'),
     facts: [
-      { text: bi('30 preguntas de test con tres opciones; solo una es correcta.', '30 multiple-choice questions with three options; only one is correct.'), confidence: 'official' },
-      { text: bi('Se aprueba con un máximo de 3 fallos.', 'You pass with at most 3 mistakes.'), confidence: 'secondary' },
-      { text: bi('El tiempo habitual es de 30 minutos. La DGT dice que se amplía por el vídeo.', 'The usual time is 30 minutes. The DGT says it is extended because of the video.'), confidence: 'verify' },
-      { text: bi('Hay una pregunta con un vídeo de una situación de riesgo. Se puede ver hasta 3 veces antes de ver la pregunta.', 'One question uses a video of a risk situation. You can watch it up to 3 times before the question appears.'), confidence: 'official' },
+      { text: bi('30 preguntas de test con tres opciones.', '30 multiple-choice questions with three options.'), confidence: 'official' },
+      { text: bi('Se aprueba con un máximo de 3 fallos. La norma permite errores hasta el 10 % de las preguntas, redondeando hacia arriba: con 30 preguntas, 3.', 'You pass with at most 3 mistakes. The regulation allows errors up to 10% of the questions, rounded up: with 30 questions, that is 3.'), confidence: 'official' },
+      { text: bi('Tienes 1 minuto por pregunta: 30 minutos con 30 preguntas. El tiempo se amplía en proporción a la duración de los vídeos.', 'You get 1 minute per question: 30 minutes with 30 questions. The time is extended in proportion to the length of the videos.'), confidence: 'official' },
+      { text: bi('La DGT anunció en octubre de 2025 una pregunta con un vídeo de una situación de riesgo (hasta 3 visionados antes de ver la pregunta), prevista para el último trimestre de ese año. Su página de examen actual no la menciona: comprueba en dgt.es si ya se aplica en tu fecha.', 'In October 2025 the DGT announced a question with a video of a risk situation (up to 3 viewings before the question appears), planned for the last quarter of that year. Its current exam page does not mention it: check dgt.es to see whether it applies on your date.'), confidence: 'verify' },
       { text: bi('El aprobado del teórico vale dos años. La tasa incluye dos intentos.', 'A theory pass is valid for two years. The fee includes two attempts.'), confidence: 'official' },
     ],
   },
@@ -38,8 +38,8 @@ export const factGroups: FactGroup[] = [
   {
     title: bi('Tu permiso estadounidense', 'Your US license'),
     facts: [
-      { text: bi('EE. UU. no tiene convenio de canje con España, así que hay que hacer el teórico y el práctico.', 'The US has no license exchange agreement with Spain, so you take both the theory and practical tests.'), confidence: 'secondary' },
-      { text: bi('Un permiso extranjero suele valer solo los primeros seis meses de residencia. Confirma tu caso con un gestor.', 'A foreign license is generally valid only for the first six months of residence. Confirm your case with a gestor.'), confidence: 'verify' },
+      { text: bi('EE. UU. no figura en la lista de países con convenio de canje de la DGT, así que hay que hacer el teórico y el práctico.', 'The US is not on the DGT list of countries with a license exchange agreement, so you take both the theory and practical tests.'), confidence: 'official' },
+      { text: bi('Un permiso extranjero vale como máximo seis meses desde que adquieres la residencia normal en España. Confirma tu caso con un gestor.', 'A foreign license is valid for at most six months from when you become a normal resident of Spain. Confirm your case with a gestor.'), confidence: 'official' },
     ],
   },
 ];
@@ -65,6 +65,8 @@ export const sources: SourceLink[] = [
   { label: 'Sede electrónica DGT: impreso Mod. 04 (idioma del examen)', href: 'https://sede.dgt.gob.es/.galleries/modelos-solicitud/04/Mod.04-ES.pdf' },
   { label: 'BOE: Reglamento General de Circulación (RD 1428/2003)', href: 'https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514' },
   { label: 'BOE: Ley de Tráfico y Seguridad Vial (RDL 6/2015)', href: 'https://www.boe.es/buscar/act.php?id=BOE-A-2015-11722' },
+  { label: 'BOE: Reglamento General de Conductores (RD 818/2009), Anexo VI y art. 21', href: 'https://www.boe.es/buscar/act.php?id=BOE-A-2009-9481' },
+  { label: 'DGT: países con convenio de canje de permisos', href: 'https://www.dgt.es/nuestros-servicios/permisos-de-conducir/permisos-extranjeros-y-de-fuerzas-y-cuerpos-de-seguridad/canjes-de-permisos/paises-con-convenio-de-canjes/' },
 ];
 
 /** Abbreviations used in the `src` line under each question. */

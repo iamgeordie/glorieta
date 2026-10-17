@@ -1,0 +1,36 @@
+{
+  "seconds": 8,
+  "poster": 3.4,
+  "reveals": [
+    {
+      "id": "route",
+      "from": 0.3,
+      "draw": true
+    }
+  ],
+  "actors": [
+    {
+      "id": "a",
+      "kind": "truck",
+      "tone": "neutral",
+      "path": "M197 250 L197 128",
+      "from": 0.2,
+      "to": 7.4,
+      "ease": "linear"
+    },
+    {
+      "id": "b",
+      "kind": "car",
+      "tone": "me",
+      "path": "M197 340 L197 312 C197 286 163 290 163 262 L163 104 C163 76 197 80 197 52 L197 30",
+      "from": 0.5,
+      "to": 6.9,
+      "ease": "linear",
+      "badge": {
+        "mark": "B",
+        "dx": -34,
+        "dy": 0
+      }
+    }
+  ]
+}

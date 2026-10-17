@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360" focusable="false">
+  <rect class="f-grass" x="0" y="0" width="360" height="360"/>
+  <rect class="f-road" x="42" y="0" width="100" height="360"/>
+  <rect class="f-road" x="178" y="0" width="140" height="360"/>
+  <rect class="f-curb" x="42" y="0" width="20" height="360" opacity="0.5"/>
+  <rect class="f-curb" x="134" y="0" width="8" height="360" opacity="0.5"/>
+  <rect class="f-curb" x="178" y="0" width="8" height="360" opacity="0.5"/>
+  <rect class="f-curb" x="294" y="0" width="24" height="360" opacity="0.5"/>
+  <rect class="f-curb" x="142" y="0" width="36" height="360"/>
+  <rect class="f-island" x="145" y="0" width="30" height="360"/>
+  <path class="f-line" d="M62 0 V360 M134 0 V360 M186 0 V360 M294 0 V360"/>
+  <path class="f-line f-dash" d="M98 0 V360 M222 0 V360 M258 0 V360"/>
+  <rect id="corridor" class="f-zone-ok" x="204" y="0" width="36" height="360"/>
+  <circle class="f-badge" cx="222" cy="22" r="11"/><text class="f-badge-text" x="222" y="22">E</text>
+</svg>

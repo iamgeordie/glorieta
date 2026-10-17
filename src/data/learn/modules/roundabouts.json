@@ -51,8 +51,8 @@
             {
               "t": "p",
               "text": {
-                "es": "En España hay muchísimas. Las verás en la ciudad y en las carreteras. Estas tres señales te avisan de ellas:",
-                "en": "Spain has a huge number of them. You will meet them in towns and on the open road. These three signs go with them:"
+                "es": "Las verás en la ciudad y en las carreteras. Estas tres señales van con ellas:",
+                "en": "You will meet them in towns and on the open road. These three signs go with them:"
               }
             },
             {
@@ -66,14 +66,14 @@
             {
               "t": "tip",
               "text": {
-                "es": "En el examen, «glorieta» es la palabra oficial. «Rotonda» se entiende, pero no es la que usa la ley.",
-                "en": "In the exam, “glorieta” is the official word. “Rotonda” is understood, but it is not the word the law uses."
+                "es": "«Glorieta» es la palabra que usa la ley. «Rotonda» se entiende, pero la ley no la usa.",
+                "en": "“Glorieta” is the word the law uses. “Rotonda” is understood, but the law does not use it."
               }
             }
           ]
         },
         {
-          "title": { "es": "Se gira hacia la izquierda", "en": "You circulate with the center on your left" },
+          "title": { "es": "El centro queda a tu izquierda", "en": "You circulate with the center on your left" },
           "blocks": [
             {
               "t": "rule",
@@ -86,8 +86,8 @@
             {
               "t": "p",
               "text": {
-                "es": "Eso significa que giras **en sentido contrario a las agujas del reloj**. Mira las flechas amarillas de la figura.",
-                "en": "That means you turn **counterclockwise**. Follow the yellow arrows in the figure."
+                "es": "Eso significa que giras **en sentido contrario a las agujas del reloj**. Las flechas amarillas muestran ese sentido.",
+                "en": "That means you turn **counterclockwise**. The yellow arrows show that direction."
               }
             },
             {
@@ -109,8 +109,8 @@
             {
               "t": "us",
               "text": {
-                "es": "Es el mismo sentido que en EE. UU., pero aquí encontrarás muchas más glorietas, y con más carriles.",
-                "en": "It is the same direction as in the US, but here you will meet far more roundabouts, and with more lanes."
+                "es": "Es el mismo sentido que en EE. UU., pero aquí encontrarás muchas más glorietas.",
+                "en": "It is the same direction as in the US, but here you will meet far more roundabouts."
               }
             },
             {
@@ -140,8 +140,8 @@
             {
               "t": "rule",
               "text": {
-                "es": "En las glorietas, los vehículos que **ya están dentro** tienen preferencia de paso sobre los que quieren entrar.",
-                "en": "In roundabouts, vehicles **already inside** have right of way over those that want to enter."
+                "es": "Si ninguna señal regula la preferencia de paso, en las glorietas los vehículos que **se hallan dentro** de la vía circular tienen preferencia sobre los que quieren acceder a ella.",
+                "en": "If no sign regulates right of way, in roundabouts the vehicles **already inside** the circular roadway have right of way over those that want to enter it."
               },
               "src": "RGC art. 57.1.c"
             },
@@ -194,16 +194,16 @@
             {
               "t": "rule",
               "text": {
-                "es": "La preferencia de paso en las intersecciones se ajusta a **la señalización que la regule**. Si hay una señal o un semáforo, mandan ellos.",
-                "en": "Right of way at junctions follows **the signs that govern it**. If there is a sign or a traffic light, it takes over."
+                "es": "La preferencia de paso en las intersecciones se ajusta a **la señalización que la regule**.",
+                "en": "Right of way at intersections follows **the signals that regulate it**."
               },
               "src": "RGC art. 56.1"
             },
             {
               "t": "p",
               "text": {
-                "es": "La regla del paso 3 vale cuando **no hay señal** que diga otra cosa. En la entrada de muchas glorietas hay un «ceda el paso» (R-1) o un semáforo. Obedécelos.",
-                "en": "The rule in step 3 applies when **no sign** says otherwise. At the entrance of many roundabouts there is a yield sign (R-1) or a traffic light. Obey them."
+                "es": "«Quien está dentro pasa primero» vale cuando **no hay señal** que diga otra cosa. En la entrada de una glorieta puede haber un «ceda el paso» (R-1) o un semáforo. Si lo hay, obedécelo.",
+                "en": "“Whoever is inside goes first” applies when **no sign** says otherwise. At the entrance of a roundabout there may be a yield sign (R-1) or a traffic light. If there is one, obey it."
               }
             },
             {
@@ -213,16 +213,16 @@
                 "answer": 2,
                 "es": {
                   "q": "En la entrada de una glorieta hay un semáforo en rojo. ¿Qué manda?",
-                  "options": ["La regla de la glorieta: entras si no viene nadie por la derecha", "El vehículo más grande", "El semáforo: te detienes aunque no veas ningún coche"],
-                  "why": "La señalización que regula la preferencia manda sobre la regla general. Con el semáforo en rojo te detienes."
+                  "options": ["La regla de la glorieta: entras si no viene nadie por la izquierda", "El vehículo más grande", "El semáforo: te detienes aunque no veas ningún coche"],
+                  "why": "La señalización que regula la preferencia manda sobre la regla general. Con el semáforo en rojo no se debe rebasar el semáforo ni la línea de detención: te detienes."
                 },
                 "en": {
-                  "q": "There is a red traffic light at the entrance of a roundabout. What rules?",
-                  "options": ["The roundabout rule: you enter if nobody comes from the right", "The largest vehicle", "The traffic light: you stop even if you see no car"],
-                  "why": "The signals that regulate priority override the general rule. With a red light you stop."
+                  "q": "There is a red traffic light at the entrance of a roundabout. Which one governs?",
+                  "options": ["The roundabout rule: you enter if nobody comes from the left", "The largest vehicle", "The traffic light: you stop even if you see no car"],
+                  "why": "The signals that regulate priority override the general rule. With a red light you must not go past the light or the stop line: you stop."
                 },
                 "terms": [{ "es": "semáforo", "en": "traffic light" }],
-                "src": "RGC art. 56.1"
+                "src": "RGC arts. 56.1 and 56.3; RGC Anexo I, ap. 4.2.a"
               }
             }
           ]
@@ -235,7 +235,7 @@
         { "es": "Una **señal o un semáforo** pueden cambiar esa regla, y mandan ellos.", "en": "A **sign or traffic light** can change that rule, and it takes over." }
       ],
       "covers": ["roundabouts-01", "roundabouts-02", "roundabouts-05"],
-      "src": ["Reglamento General de Circulación (RD 1428/2003), arts. 43.2, 46.1.h, 56.1 y 57.1.c"]
+      "src": ["Reglamento General de Circulación (RD 1428/2003), arts. 43.2, 46.1.h, 56.1, 56.3 y 57.1.c; Anexo I, ap. 4.2.a", "RGC Anexo I, ap. 5.1 (Catálogo de señales verticales): P-4, R-402 y R-1"]
     },
     {
       "id": "lanes-and-exits",
@@ -276,8 +276,8 @@
             {
               "t": "p",
               "text": {
-                "es": "El examinador te dirá cosas como «en la glorieta, tome la **segunda** salida». Las salidas se cuentan **desde la entrada por la que llegas**, en el sentido de giro de la glorieta.",
-                "en": "The examiner will say things like “at the roundabout, take the **second** exit”. Exits are counted **from the entrance you arrive by**, in the direction the roundabout turns."
+                "es": "En la enseñanza de la conducción, las salidas se cuentan **desde la entrada por la que llegas**, en el sentido de giro de la glorieta. Es una convención de enseñanza, no un artículo del RGC. Así, una instrucción como «en la glorieta, toma la **segunda** salida» es clara.",
+                "en": "In driving instruction, exits are counted **from the entrance you arrive by**, in the direction the roundabout turns. This is a teaching convention, not an article of the RGC. So an instruction like “at the roundabout, take the **second** exit” is clear."
               }
             },
             {
@@ -285,15 +285,15 @@
               "file": "roundabouts-count-exits",
               "alt": {
                 "es": "Una glorieta de cuatro calles vista desde arriba. Un coche azul entra por abajo. Tres flechas amarillas llevan a las salidas 1 (derecha), 2 (recto) y 3 (izquierda).",
-                "en": "A four-street roundabout seen from above. A blue car enters from the bottom. Three yellow arrows lead to exits 1 (right), 2 (straight on) and 3 (left)."
+                "en": "A four-street roundabout seen from above. A blue car enters from the bottom. Three yellow arrows lead to exits 1 (right), 2 (straight ahead) and 3 (left)."
               },
               "caption": {
-                "es": "En una glorieta de cuatro calles: la 1.ª salida es a la derecha, la 2.ª sigue recto y la 3.ª es a la izquierda.",
-                "en": "In a four-street roundabout: the 1st exit is to the right, the 2nd goes straight on and the 3rd is to the left."
+                "es": "En una glorieta de cuatro calles en cruz: la 1.ª salida es a la derecha, la 2.ª sigue recto y la 3.ª es a la izquierda.",
+                "en": "In a four-street roundabout laid out like a cross: the 1st exit is to the right, the 2nd goes straight ahead and the 3rd is to the left."
               },
               "legend": [
                 { "mark": "1", "text": { "es": "Primera salida: a la derecha.", "en": "First exit: right." } },
-                { "mark": "2", "text": { "es": "Segunda salida: de frente.", "en": "Second exit: straight on." } },
+                { "mark": "2", "text": { "es": "Segunda salida: de frente.", "en": "Second exit: straight ahead." } },
                 { "mark": "3", "text": { "es": "Tercera salida: a la izquierda.", "en": "Third exit: left." } }
               ]
             },
@@ -310,14 +310,14 @@
                 "id": "roundabouts-c2a",
                 "answer": 2,
                 "es": {
-                  "q": "El examinador dice «En la glorieta, tome la segunda salida». La glorieta tiene cuatro calles. ¿Hacia dónde sales, normalmente?",
+                  "q": "El examinador dice «En la glorieta, tome la segunda salida». La glorieta tiene cuatro calles en cruz. ¿Hacia dónde sales, normalmente?",
                   "options": ["A la derecha", "A la izquierda", "De frente"],
-                  "why": "En una glorieta de cuatro calles, la primera salida es a la derecha, la segunda sigue recto y la tercera es a la izquierda."
+                  "why": "Por convención, en una glorieta de cuatro calles en cruz la primera salida es a la derecha, la segunda sigue recto y la tercera es a la izquierda."
                 },
                 "en": {
-                  "q": "The examiner says “At the roundabout, take the second exit”. The roundabout has four streets. Which way do you usually go?",
-                  "options": ["To the right", "To the left", "Straight on"],
-                  "why": "In a four-street roundabout the first exit is to the right, the second goes straight on and the third is to the left."
+                  "q": "The examiner says “At the roundabout, take the second exit”. The roundabout has four streets in a cross. Which way do you usually go?",
+                  "options": ["To the right", "To the left", "Straight ahead"],
+                  "why": "By convention, in a four-street roundabout laid out like a cross the first exit is to the right, the second goes straight ahead and the third is to the left."
                 },
                 "terms": [{ "es": "tome la segunda salida", "en": "take the second exit" }],
                 "src": "Convención de la enseñanza de la conducción (no es un artículo del RGC)"
@@ -419,10 +419,10 @@
             {
               "t": "rule",
               "text": {
-                "es": "Cuando vayas a girar o a cambiar de carril, **adviértelo antes y con suficiente antelación** a los que circulan detrás de ti. Un desplazamiento lateral se avisa con la **luz indicadora de dirección** (el intermitente).",
-                "en": "When you are about to turn or change lane, **warn the drivers behind you beforehand and in good time**. A lateral move is signaled with the **direction indicator** (the turn signal)."
+                "es": "Quien vaya a girar para tomar otra vía o para salir de la vía debe **advertirlo previamente y con suficiente antelación** a los que circulan detrás. Un desplazamiento lateral, como un cambio de carril, se advierte con antelación suficiente y con la **luz indicadora de dirección** (el intermitente) del lado hacia el que se hace, o con el brazo.",
+                "en": "Whoever is about to turn to take another road, or to leave the road, must **warn the drivers behind beforehand and in good time**. A lateral move, such as a lane change, must be signaled in good time with the **direction indicator** (the turn signal) on the side it is made toward, or with the arm."
               },
-              "src": "RGC arts. 74.1 and 109.2.a"
+              "src": "RGC arts. 74.1, 109.1 and 109.2.a"
             },
             {
               "t": "p",
@@ -454,7 +454,7 @@
                   "why": "Going around again is safest. Braking hard, reversing or cutting across other drivers creates a danger."
                 },
                 "terms": [{ "es": "dar otra vuelta", "en": "go around again" }],
-                "src": "RGC art. 74.2; DGT guidance"
+                "src": "Práctica de conducción segura (no es un artículo del RGC)"
               }
             }
           ]
@@ -468,7 +468,7 @@
         { "es": "¿Te pasaste? **Da otra vuelta.**", "en": "Missed it? **Go around again.**" }
       ],
       "covers": ["roundabouts-03", "roundabouts-04"],
-      "src": ["Reglamento General de Circulación (RD 1428/2003), arts. 74.1, 74.2, 108 y 109"]
+      "src": ["Reglamento General de Circulación (RD 1428/2003), arts. 74.1, 74.2 y 109"]
     },
     {
       "id": "reading-the-roundabout",
@@ -565,7 +565,7 @@
                   "why": "With no turn signal you cannot know what it will do. Enter only when the gap is clear."
                 },
                 "terms": [{ "es": "no suponer", "en": "do not assume" }],
-                "src": "RGC art. 108.1; DGT risk-perception guidance"
+                "src": "RGC arts. 57.1.c and 108.1; the advice not to assume is prudent-driving practice, not an article"
               }
             }
           ]
@@ -576,8 +576,8 @@
             {
               "t": "rule",
               "text": {
-                "es": "Los peatones no pueden atravesar una glorieta por su calzada. Deben **rodearla**, a no ser que haya un **paso de peatones**.",
-                "en": "Pedestrians may not cross a roundabout over its roadway. They must **go around it**, unless there is a **pedestrian crossing**."
+                "es": "Los peatones no pueden atravesar una glorieta por su calzada. Deben **rodearla**, a no ser que exista un **paso de peatones** habilitado.",
+                "en": "Pedestrians may not cross a roundabout over its roadway. They must **go around it**, unless there is an authorized **pedestrian crossing**."
               },
               "src": "RGC art. 124.4 (RD 518/2026)"
             },

@@ -1,0 +1,54 @@
+{
+  "seconds": 6.6,
+  "poster": 2.8,
+  "actors": [
+    {
+      "id": "b",
+      "kind": "car",
+      "tone": "me",
+      "path": "M195 392 L195 176",
+      "from": 0.2,
+      "to": 1.8,
+      "show": [
+        0,
+        4.3
+      ],
+      "badge": {
+        "mark": "B",
+        "dx": -31,
+        "dy": 6
+      }
+    },
+    {
+      "id": "b2",
+      "kind": "car",
+      "tone": "me",
+      "path": "M195 176 L195 -32",
+      "from": 4.3,
+      "to": 6.3,
+      "show": [
+        4.3,
+        6.6
+      ],
+      "badge": {
+        "mark": "B",
+        "dx": -31,
+        "dy": 6
+      }
+    },
+    {
+      "id": "p",
+      "kind": "ped",
+      "tone": "other",
+      "path": "M128 126 L236 126",
+      "from": 0.8,
+      "to": 4.4,
+      "ease": "linear",
+      "badge": {
+        "mark": "P",
+        "dx": 0,
+        "dy": -22
+      }
+    }
+  ]
+}

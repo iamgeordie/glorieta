@@ -1,0 +1,1905 @@
+{
+  "id": "alcohol",
+  "title": {
+    "es": "Alcohol, drogas, medicamentos y fatiga",
+    "en": "Alcohol, drugs, medicines and fatigue"
+  },
+  "blurb": {
+    "es": "Las tasas de alcohol, los controles, las drogas, los medicamentos y cómo evitar conducir con sueño.",
+    "en": "Alcohol limits, tests, drugs, medicines and how to avoid driving sleepy."
+  },
+  "lessons": [
+    {
+      "id": "limits",
+      "title": {
+        "es": "Las tasas de alcohol",
+        "en": "Alcohol limits"
+      },
+      "minutes": 7,
+      "goals": [
+        {
+          "es": "Decir la tasa general de alcohol en sangre y en aire espirado.",
+          "en": "Say the general alcohol limit in blood and in exhaled air."
+        },
+        {
+          "es": "Saber a quién se aplica una tasa más baja.",
+          "en": "Know who a lower limit applies to."
+        },
+        {
+          "es": "Saber que solo el paso del tiempo baja el alcohol.",
+          "en": "Know that only the passing of time lowers alcohol."
+        }
+      ],
+      "terms": [
+        {
+          "es": "tasa de alcohol",
+          "en": "alcohol limit"
+        },
+        {
+          "es": "aire espirado",
+          "en": "exhaled air"
+        },
+        {
+          "es": "etilómetro",
+          "en": "breathalyzer"
+        },
+        {
+          "es": "gramos por litro (g/l)",
+          "en": "grams per liter (g/L)"
+        },
+        {
+          "es": "miligramos por litro (mg/l)",
+          "en": "milligrams per liter (mg/L)"
+        },
+        {
+          "es": "conductor novel",
+          "en": "novice driver"
+        },
+        {
+          "es": "menor de edad",
+          "en": "minor (under 18)"
+        }
+      ],
+      "pretest": {
+        "id": "alcohol-pre-1",
+        "answer": 1,
+        "es": {
+          "q": "Conduces un coche particular. ¿Cuál es, en general, el máximo de alcohol en sangre permitido?",
+          "options": [
+            "0,8 g/l",
+            "0,5 g/l",
+            "0,3 g/l"
+          ],
+          "why": "La tasa general en España es de 0,5 g/l de alcohol en sangre. Es más estricta que el 0,8 g/l habitual en EE. UU."
+        },
+        "en": {
+          "q": "You drive an ordinary private car. In general, what is the maximum blood alcohol allowed?",
+          "options": [
+            "0.8 g/L",
+            "0.5 g/L",
+            "0.3 g/L"
+          ],
+          "why": "The general limit in Spain is 0.5 g/L of blood alcohol. It is stricter than the 0.8 g/L usual in the US."
+        },
+        "src": "RGC art. 20"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Dos formas de medir el alcohol",
+            "en": "Two ways to measure alcohol"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "El alcohol se mide de dos formas. En **sangre**, en gramos por litro (**g/l**). En **aire espirado**, el que sale al soplar, en miligramos por litro (**mg/l**).",
+                "en": "Alcohol is measured in two ways. In **blood**, in grams per liter (**g/L**). In **exhaled air**, the air you blow out, in milligrams per liter (**mg/L**)."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "En un control lo normal es soplar en un **etilómetro**, un aparato autorizado que mide el aire espirado. La ley da el límite en las dos unidades.",
+                "en": "At a checkpoint you normally blow into a **breathalyzer**, an authorized device that measures exhaled air. The law gives the limit in both units."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "El límite general",
+            "en": "The general limit"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Ningún conductor de vehículo ni de bicicleta puede circular con más de **0,5 g/l** de alcohol en sangre, o más de **0,25 mg/l** en aire espirado.",
+                "en": "No driver of a vehicle or bicycle may drive with more than **0.5 g/L** of alcohol in blood, or more than **0.25 mg/L** in exhaled air."
+              },
+              "src": "RGC art. 20 (párrafo 1)"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Es el límite del conductor corriente. Las dos medidas valen: si superas una de las dos, superas el límite. Otros conductores tienen un límite más bajo, y los ves en los pasos siguientes.",
+                "en": "This is the limit for an ordinary driver. Either measure counts: if you exceed one of them, you exceed the limit. Some other drivers have a lower limit, covered in the next steps."
+              }
+            },
+            {
+              "t": "us",
+              "text": {
+                "es": "En casi todos los estados de EE. UU. el límite general es 0,08 % de alcohol en sangre, unos 0,8 g/l. El límite español de 0,5 g/l equivale a 0,05 %.",
+                "en": "In nearly all US states the general limit is 0.08% blood alcohol, about 0.8 g/L. Spain’s 0.5 g/L equals 0.05%."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c1a",
+                "answer": 1,
+                "es": {
+                  "q": "Conduces un turismo con un permiso que sacaste hace diez años. En un control soplas 0,30 mg/l. ¿Cuál es tu situación?",
+                  "options": [
+                    "Estás dentro del límite: el máximo es 0,40 mg/l",
+                    "Superas el límite: el máximo es 0,25 mg/l",
+                    "Estás dentro del límite: solo cuenta la sangre"
+                  ],
+                  "why": "Para un conductor corriente el máximo es 0,25 mg/l de aire espirado. El aire espirado cuenta igual que la sangre, y 0,30 lo supera."
+                },
+                "en": {
+                  "q": "You drive a car with a permit you got ten years ago. At a checkpoint you blow 0.30 mg/L. What is your situation?",
+                  "options": [
+                    "You are within the limit: the maximum is 0.40 mg/L",
+                    "You exceed the limit: the maximum is 0.25 mg/L",
+                    "You are within the limit: only blood counts"
+                  ],
+                  "why": "For an ordinary driver the maximum is 0.25 mg/L of exhaled air. Exhaled air counts just like blood, and 0.30 exceeds it."
+                },
+                "terms": [
+                  {
+                    "es": "superar el límite",
+                    "en": "to exceed the limit"
+                  }
+                ],
+                "src": "RGC art. 20"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Límite más bajo: vehículos de más riesgo",
+            "en": "A lower limit: higher-risk vehicles"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los conductores de estos vehículos no pueden superar **0,3 g/l** en sangre ni **0,15 mg/l** en aire espirado:",
+                "en": "Drivers of these vehicles may not exceed **0.3 g/L** in blood or **0.15 mg/L** in exhaled air:"
+              },
+              "src": "RGC art. 20 (párrafo 2)"
+            },
+            {
+              "t": "list",
+              "items": [
+                {
+                  "es": "mercancías con masa máxima autorizada superior a 3.500 kg",
+                  "en": "goods vehicles with a maximum authorized mass over 3,500 kg"
+                },
+                {
+                  "es": "viajeros, con más de nueve plazas",
+                  "en": "passenger vehicles with more than nine seats"
+                },
+                {
+                  "es": "servicio público",
+                  "en": "public service vehicles"
+                },
+                {
+                  "es": "transporte escolar y de menores",
+                  "en": "school transport and transport of minors"
+                },
+                {
+                  "es": "mercancías peligrosas",
+                  "en": "dangerous goods"
+                },
+                {
+                  "es": "servicios de urgencia y transportes especiales",
+                  "en": "emergency services and special transport"
+                }
+              ]
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c1b",
+                "answer": 2,
+                "es": {
+                  "q": "Conduces un autobús de treinta plazas. En un control soplas 0,20 mg/l. ¿Qué ocurre?",
+                  "options": [
+                    "Estás dentro del límite general de 0,25 mg/l",
+                    "Estás dentro: los autobuses no tienen límite",
+                    "Superas el límite: el tuyo es 0,15 mg/l"
+                  ],
+                  "why": "Un vehículo de viajeros de más de nueve plazas tiene el límite bajo: 0,15 mg/l. Con 0,20 mg/l lo superas aunque no llegues a 0,25."
+                },
+                "en": {
+                  "q": "You drive a thirty-seat bus. At a checkpoint you blow 0.20 mg/L. What happens?",
+                  "options": [
+                    "You are within the general limit of 0.25 mg/L",
+                    "You are within the limit: buses have no limit",
+                    "You exceed the limit: yours is 0.15 mg/L"
+                  ],
+                  "why": "A passenger vehicle with more than nine seats has the lower limit: 0.15 mg/L. At 0.20 mg/L you exceed it even though you are under 0.25."
+                },
+                "terms": [
+                  {
+                    "es": "autobús",
+                    "en": "bus"
+                  }
+                ],
+                "src": "RGC art. 20 (párrafo 2)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Límite más bajo: tus dos primeros años",
+            "en": "A lower limit: your first two years"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los conductores de **cualquier** vehículo tienen ese mismo límite bajo durante los **dos años** siguientes a obtener el permiso.",
+                "en": "Drivers of **any** vehicle have that same lower limit during the **two years** after getting their permit."
+              },
+              "src": "RGC art. 20 (párrafo 3)"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Si sacaste el permiso hace menos de dos años, tu máximo es **0,15 mg/l** en aire espirado, aunque conduzcas un turismo. Pasados los dos años, en un vehículo corriente vale el límite general.",
+                "en": "If you got your permit less than two years ago, your maximum is **0.15 mg/L** in exhaled air, even in an ordinary car. After the two years, the general limit applies in an ordinary vehicle."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Truco para recordar las cifras: la tasa en sangre es el doble que en aire. 0,5 y 0,25. 0,3 y 0,15.",
+                "en": "A memory trick for the numbers: the blood figure is double the air figure. 0.5 and 0.25. 0.3 and 0.15."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c1c",
+                "answer": 0,
+                "es": {
+                  "q": "Obtuviste el permiso B hace catorce meses. Conduces tu coche y soplas 0,20 mg/l. ¿Qué ocurre?",
+                  "options": [
+                    "Superas tu límite, que es 0,15 mg/l",
+                    "Estás dentro: el máximo es 0,25 mg/l",
+                    "Estás dentro: el límite bajo es solo para camiones"
+                  ],
+                  "why": "Durante los dos primeros años con el permiso el límite es 0,15 mg/l, sea cual sea el vehículo. Con 0,20 mg/l lo superas."
+                },
+                "en": {
+                  "q": "You got your B permit fourteen months ago. You drive your car and blow 0.20 mg/L. What happens?",
+                  "options": [
+                    "You exceed your limit, which is 0.15 mg/L",
+                    "You are within the limit: the maximum is 0.25 mg/L",
+                    "You are within the limit: the low limit is only for trucks"
+                  ],
+                  "why": "During your first two years with a permit the limit is 0.15 mg/L, whatever the vehicle. At 0.20 mg/L you exceed it."
+                },
+                "terms": [
+                  {
+                    "es": "permiso",
+                    "en": "permit"
+                  }
+                ],
+                "src": "RGC art. 20 (párrafo 3)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Menores de edad y resumen",
+            "en": "Minors, and a summary"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "El conductor **menor de edad** no puede circular con ningún alcohol: **0 g/l** en sangre y **0 mg/l** en aire espirado.",
+                "en": "A driver who is a **minor** may not drive with any alcohol at all: **0 g/L** in blood and **0 mg/L** in exhaled air."
+              },
+              "src": "LSV art. 14.1"
+            },
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Quién",
+                  "en": "Who"
+                },
+                {
+                  "es": "Sangre (g/l)",
+                  "en": "Blood (g/L)"
+                },
+                {
+                  "es": "Aire espirado (mg/l)",
+                  "en": "Exhaled air (mg/L)"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "Conductor corriente",
+                    "en": "Ordinary driver"
+                  },
+                  {
+                    "es": "0,5",
+                    "en": "0.5"
+                  },
+                  {
+                    "es": "0,25",
+                    "en": "0.25"
+                  }
+                ],
+                [
+                  {
+                    "es": "Vehículos de más riesgo y primeros dos años con el permiso",
+                    "en": "Higher-risk vehicles and first two years with a permit"
+                  },
+                  {
+                    "es": "0,3",
+                    "en": "0.3"
+                  },
+                  {
+                    "es": "0,15",
+                    "en": "0.15"
+                  }
+                ],
+                [
+                  {
+                    "es": "Menor de edad",
+                    "en": "Minor"
+                  },
+                  {
+                    "es": "0",
+                    "en": "0"
+                  },
+                  {
+                    "es": "0",
+                    "en": "0"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c1d",
+                "answer": 2,
+                "es": {
+                  "q": "¿Qué tasa de alcohol en aire espirado puede tener un conductor menor de edad?",
+                  "options": [
+                    "0,15 mg/l",
+                    "0,25 mg/l",
+                    "0 mg/l"
+                  ],
+                  "why": "La ley dice que el conductor menor de edad no puede circular con ninguna tasa: 0 mg/l de aire espirado y 0 g/l de sangre."
+                },
+                "en": {
+                  "q": "What exhaled-air alcohol level may a driver who is a minor have?",
+                  "options": [
+                    "0.15 mg/L",
+                    "0.25 mg/L",
+                    "0 mg/L"
+                  ],
+                  "why": "The law says a driver who is a minor may not drive with any level: 0 mg/L of exhaled air and 0 g/L of blood."
+                },
+                "terms": [
+                  {
+                    "es": "menor de edad",
+                    "en": "minor"
+                  }
+                ],
+                "src": "LSV art. 14.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Solo el tiempo baja el alcohol",
+            "en": "Only time lowers alcohol"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Una vez que bebes, solo el **paso del tiempo** baja el alcohol en sangre. El hígado lo elimina a un ritmo lento y casi constante.",
+                "en": "Once you drink, only the **passing of time** lowers the alcohol in your blood. The liver removes it at a slow, nearly constant pace."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Guía de la DGT, no ley: ni el café, ni el té, ni la ducha, ni dormir un poco reducen el alcohol. Con 1 g/l en sangre pueden hacer falta entre 6 y 10 horas para bajar del límite. Dormir no lo acelera: durante el sueño el alcohol se elimina aún más despacio.",
+                "en": "DGT guidance, not law: neither coffee, tea, a shower, nor a short sleep lowers alcohol. From 1 g/L in blood it can take 6 to 10 hours to drop under the limit. Sleep does not speed it up: during sleep alcohol is removed even more slowly."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c1e",
+                "answer": 0,
+                "es": {
+                  "q": "Has bebido bastante por la noche y duermes tres horas. Por la mañana tienes que conducir. ¿Qué es cierto?",
+                  "options": [
+                    "Aún puedes tener alcohol en sangre: durmiendo se elimina más despacio",
+                    "Dormir ha eliminado el alcohol y ya puedes conducir",
+                    "Un café fuerte baja la tasa antes de salir"
+                  ],
+                  "why": "Dormir unas horas no basta: el alcohol se elimina más despacio durante el sueño. Solo el tiempo lo baja; el café no."
+                },
+                "en": {
+                  "q": "You drank a lot at night and sleep three hours. You have to drive in the morning. What is true?",
+                  "options": [
+                    "You may still have alcohol in your blood: it is removed more slowly in sleep",
+                    "Sleep removed the alcohol and you can drive now",
+                    "A strong coffee lowers your level before you leave"
+                  ],
+                  "why": "A few hours of sleep is not enough: alcohol is removed more slowly during sleep. Only time lowers it; coffee does not."
+                },
+                "terms": [
+                  {
+                    "es": "eliminar",
+                    "en": "to remove (from the body)"
+                  }
+                ],
+                "src": "DGT guidance on alcohol (dgt.es, Consumo de alcohol)"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "La tasa general es **0,5 g/l** en sangre o **0,25 mg/l** en aire espirado.",
+          "en": "The general limit is **0.5 g/L** in blood or **0.25 mg/L** in exhaled air."
+        },
+        {
+          "es": "Es **0,3 g/l** o **0,15 mg/l** en los vehículos de más riesgo y en tus **dos primeros años** con el permiso.",
+          "en": "It is **0.3 g/L** or **0.15 mg/L** for higher-risk vehicles and in your **first two years** with a permit."
+        },
+        {
+          "es": "Un conductor **menor de edad** tiene tasa **cero**.",
+          "en": "A driver who is a **minor** has a **zero** limit."
+        },
+        {
+          "es": "Solo el **tiempo** baja el alcohol: ni café, ni ducha, ni sueño.",
+          "en": "Only **time** lowers alcohol: not coffee, a shower, or sleep."
+        }
+      ],
+      "covers": [
+        "alcohol-01",
+        "alcohol-02",
+        "alcohol-06"
+      ],
+      "src": [
+        "Reglamento General de Circulación (RD 1428/2003), art. 20",
+        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), art. 14.1",
+        "DGT guidance on alcohol (dgt.es, Consumo de alcohol)"
+      ]
+    },
+    {
+      "id": "tests-and-penalties",
+      "title": {
+        "es": "Controles y consecuencias",
+        "en": "Tests and consequences"
+      },
+      "minutes": 8,
+      "goals": [
+        {
+          "es": "Saber cuándo estás obligado a soplar y qué derechos tienes.",
+          "en": "Know when you must take the test and what rights you have."
+        },
+        {
+          "es": "Distinguir una infracción de un delito.",
+          "en": "Tell an offense from a crime."
+        },
+        {
+          "es": "Saber qué ocurre si te niegas a la prueba.",
+          "en": "Know what happens if you refuse the test."
+        }
+      ],
+      "terms": [
+        {
+          "es": "prueba de alcoholemia",
+          "en": "breath test"
+        },
+        {
+          "es": "prueba de contraste",
+          "en": "confirmation (contrast) test"
+        },
+        {
+          "es": "inmovilizar el vehículo",
+          "en": "to immobilize the vehicle"
+        },
+        {
+          "es": "infracción muy grave",
+          "en": "very serious offense"
+        },
+        {
+          "es": "delito",
+          "en": "crime"
+        },
+        {
+          "es": "puntos del permiso",
+          "en": "permit points"
+        },
+        {
+          "es": "negarse",
+          "en": "to refuse"
+        }
+      ],
+      "pretest": {
+        "id": "alcohol-pre-2",
+        "answer": 1,
+        "es": {
+          "q": "Das positivo en el primer soplido de un control. ¿Qué hace después el agente?",
+          "options": [
+            "Te sanciona sin más pruebas",
+            "Te hace una segunda prueba de aire espirado",
+            "Te pide un análisis de orina en el acto"
+          ],
+          "why": "Si superas la tasa, o tienes síntomas evidentes, el agente te hace una segunda prueba de aire espirado, y antes te informa de ella."
+        },
+        "en": {
+          "q": "You test positive on the first breath at a checkpoint. What does the officer do next?",
+          "options": [
+            "Fines you with no further tests",
+            "Gives you a second exhaled-air test",
+            "Asks for an on-the-spot urine test"
+          ],
+          "why": "If you exceed the limit, or show clear symptoms, the officer gives you a second exhaled-air test, and tells you about it first."
+        },
+        "src": "RGC art. 23.1"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Cuándo estás obligado a soplar",
+            "en": "When you must take the test"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Todos los conductores de vehículos y de bicicletas están **obligados** a someterse a las pruebas de alcohol. También los demás usuarios de la vía si se ven implicados en un accidente o han cometido una infracción.",
+                "en": "All drivers of vehicles and bicycles are **obliged** to take the alcohol tests. So are other road users who are involved in an accident or have committed an offense."
+              },
+              "src": "RGC art. 21 (párrafo 1); LSV art. 14.2"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los agentes pueden hacerte la prueba si estás implicado en un accidente como posible responsable, si conduces con síntomas evidentes de alcohol, si te denuncian por otra infracción, o en un **control preventivo**.",
+                "en": "Officers can test you if you are involved in an accident as a possible person responsible, if you drive with clear symptoms of alcohol, if you are reported for another offense, or at a **preventive checkpoint**."
+              },
+              "src": "RGC art. 21 (párrafo 2, a a d)"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c2a",
+                "answer": 2,
+                "es": {
+                  "q": "Conduces con normalidad y no has cometido ninguna infracción. Los agentes montan un control preventivo de alcoholemia. ¿Estás obligado a soplar?",
+                  "options": [
+                    "No: solo si has cometido una infracción",
+                    "Solo si los agentes notan síntomas",
+                    "Sí: en un control preventivo los conductores deben someterse a la prueba"
+                  ],
+                  "why": "Todos los conductores están obligados a someterse a las pruebas, y los controles preventivos son uno de los casos en que los agentes pueden pedirlas."
+                },
+                "en": {
+                  "q": "You drive normally and have committed no offense. Officers set up a preventive alcohol checkpoint. Must you blow?",
+                  "options": [
+                    "No: only if you committed an offense",
+                    "Only if the officers notice symptoms",
+                    "Yes: at a preventive checkpoint drivers must take the test"
+                  ],
+                  "why": "All drivers are obliged to take the tests, and preventive checkpoints are one of the cases where officers may ask for them."
+                },
+                "terms": [
+                  {
+                    "es": "control preventivo",
+                    "en": "preventive checkpoint"
+                  }
+                ],
+                "src": "RGC art. 21"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "La segunda prueba",
+            "en": "The second test"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si superas la tasa, o tienes síntomas evidentes aunque no la superes, el agente te hace una **segunda prueba** de aire espirado y te informa antes.",
+                "en": "If you exceed the limit, or show clear symptoms even if you do not, the officer gives you a **second test** of exhaled air and informs you first."
+              },
+              "src": "RGC art. 23.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Tienes derecho a controlar que entre la primera y la segunda prueba pase un mínimo de **10 minutos**.",
+                "en": "You have the right to check that at least **10 minutes** pass between the first and the second test."
+              },
+              "src": "RGC art. 23.2"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c2b",
+                "answer": 0,
+                "es": {
+                  "q": "En un primer soplido das 0,35 mg/l conduciendo un turismo. ¿Qué debe hacer el agente?",
+                  "options": [
+                    "Hacerte una segunda prueba de aire espirado, informándote antes",
+                    "Sancionarte directamente: una sola prueba basta",
+                    "Llevarte a un hospital para un análisis de sangre obligatorio"
+                  ],
+                  "why": "Con un resultado por encima de la tasa, el agente practica una segunda prueba de aire espirado por un procedimiento similar, y te informa de ello antes."
+                },
+                "en": {
+                  "q": "On a first breath you blow 0.35 mg/L driving a car. What must the officer do?",
+                  "options": [
+                    "Give you a second exhaled-air test, informing you first",
+                    "Fine you directly: one test is enough",
+                    "Take you to a hospital for a mandatory blood test"
+                  ],
+                  "why": "With a result above the limit, the officer carries out a second exhaled-air test by a similar procedure, and informs you of it first."
+                },
+                "terms": [
+                  {
+                    "es": "segunda prueba",
+                    "en": "second test"
+                  }
+                ],
+                "src": "RGC art. 23.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "La prueba de contraste",
+            "en": "The contrast test"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Puedes pedir una **prueba de contraste** para comprobar el resultado. Consiste preferentemente en un análisis de sangre. Si sale positiva, la pagas tú.",
+                "en": "You may ask for a **contrast test** to check the result. It is preferably a blood analysis. If it comes out positive, you pay for it."
+              },
+              "src": "LSV art. 14.5; RGC art. 23.3 y 23.4"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "El agente debe informarte de este derecho. Si pides el análisis, te llevan al centro sanitario más próximo.",
+                "en": "The officer must inform you of this right. If you ask for the analysis, you are taken to the nearest health center."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Negarte a la prueba y la inmovilización",
+            "en": "Refusing the test, and immobilization"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "**Negarte** a las pruebas de alcohol o de drogas cuando te las pide un agente es un **delito**: prisión de seis meses a un año, y privación del derecho a conducir de más de uno y hasta cuatro años.",
+                "en": "**Refusing** the alcohol or drug tests when an officer requests them is a **crime**: six months to one year in prison, and loss of the right to drive for more than one and up to four years."
+              },
+              "src": "Código Penal art. 383"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si das positivo, el agente puede **inmovilizar el vehículo**, salvo que pueda conducirlo otra persona habilitada. También puede hacerlo si te niegas a la prueba. Los gastos los pagas tú.",
+                "en": "If you test positive, the officer can **immobilize the vehicle**, unless another qualified person can drive it. The officer can also do so if you refuse the test. You pay the costs."
+              },
+              "src": "RGC art. 25.1, 25.2 y 25.4"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c2c",
+                "answer": 1,
+                "es": {
+                  "q": "El resultado del control es positivo y ninguna otra persona habilitada puede conducir tu coche. ¿Qué puede hacer el agente?",
+                  "options": [
+                    "Dejarte seguir si prometes conducir despacio",
+                    "Inmovilizar el vehículo",
+                    "Retirarte el permiso en el acto"
+                  ],
+                  "why": "Con un resultado positivo, el agente puede inmovilizar el vehículo salvo que otra persona habilitada pueda conducirlo."
+                },
+                "en": {
+                  "q": "The checkpoint result is positive and no other qualified person can drive your car. What can the officer do?",
+                  "options": [
+                    "Let you go on if you promise to drive slowly",
+                    "Immobilize the vehicle",
+                    "Take your permit on the spot"
+                  ],
+                  "why": "With a positive result, the officer can immobilize the vehicle unless another qualified person can drive it."
+                },
+                "terms": [
+                  {
+                    "es": "habilitado",
+                    "en": "qualified (entitled to drive)"
+                  }
+                ],
+                "src": "RGC art. 25.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Infracción o delito",
+            "en": "Offense or crime"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Superar la tasa de alcohol es una infracción **muy grave**, siempre que no sea un delito.",
+                "en": "Exceeding the alcohol limit is a **very serious** offense, as long as it is not a crime."
+              },
+              "src": "LSV art. 77.c; RGC art. 26.2"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Es **delito** conducir un vehículo de motor o un ciclomotor con más de **0,60 mg/l** en aire espirado o más de **1,2 g/l** en sangre. También puede serlo con menos tasa si conduces bajo la influencia del alcohol.",
+                "en": "It is a **crime** to drive a motor vehicle or a moped with more than **0.60 mg/L** in exhaled air or more than **1.2 g/L** in blood. It can also be one with a lower level if you drive under the influence of alcohol."
+              },
+              "src": "Código Penal art. 379.2"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "La pena es prisión de tres a seis meses, o multa de seis a doce meses, o trabajos en beneficio de la comunidad de 31 a 90 días. Siempre va con privación del derecho a conducir de más de uno y hasta cuatro años.",
+                "en": "The penalty is three to six months in prison, or a fine calculated over six to twelve months, or 31 to 90 days of community service. It always comes with loss of the right to drive for more than one and up to four years."
+              },
+              "src": "Código Penal art. 379.1 y 379.2"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c2d",
+                "answer": 0,
+                "es": {
+                  "q": "Un conductor de turismo sopla 0,45 mg/l, pero circula haciendo eses y habla con dificultad. ¿Puede ser delito?",
+                  "options": [
+                    "Sí: conducir bajo la influencia del alcohol puede ser delito aunque no llegue a 0,60 mg/l",
+                    "No: solo es delito por encima de 0,60 mg/l",
+                    "No: por debajo de 0,60 mg/l solo se sanciona a los noveles"
+                  ],
+                  "why": "El delito no depende solo de la cifra. Conducir bajo la influencia del alcohol puede serlo con una tasa menor, y por encima de 0,60 mg/l siempre lo es."
+                },
+                "en": {
+                  "q": "A car driver blows 0.45 mg/L, but is weaving and speaks with difficulty. Can it be a crime?",
+                  "options": [
+                    "Yes: driving under the influence of alcohol can be a crime even below 0.60 mg/L",
+                    "No: it is a crime only over 0.60 mg/L",
+                    "No: below 0.60 mg/L only novice drivers are penalized"
+                  ],
+                  "why": "The crime does not depend on the number alone. Driving under the influence can be one at a lower level, and above 0.60 mg/L it always is."
+                },
+                "terms": [
+                  {
+                    "es": "bajo la influencia",
+                    "en": "under the influence"
+                  }
+                ],
+                "src": "Código Penal art. 379.2"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Puntos y multa cuando no es delito",
+            "en": "Points and fine when it is not a crime"
+          },
+          "blocks": [
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Conductor corriente (mg/l)",
+                  "en": "Ordinary driver (mg/L)"
+                },
+                {
+                  "es": "Profesional o novel (mg/l)",
+                  "en": "Professional or novice (mg/L)"
+                },
+                {
+                  "es": "Puntos",
+                  "en": "Points"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "Más de 0,25 hasta 0,50",
+                    "en": "Over 0.25 up to 0.50"
+                  },
+                  {
+                    "es": "Más de 0,15 hasta 0,30",
+                    "en": "Over 0.15 up to 0.30"
+                  },
+                  {
+                    "es": "4",
+                    "en": "4"
+                  }
+                ],
+                [
+                  {
+                    "es": "Más de 0,50",
+                    "en": "Over 0.50"
+                  },
+                  {
+                    "es": "Más de 0,30",
+                    "en": "Over 0.30"
+                  },
+                  {
+                    "es": "6",
+                    "en": "6"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "La multa es de **500 euros**. Es de **1.000 euros** si ya te sancionaron por alcohol el año anterior, o si tu tasa es más del doble de la permitida.",
+                "en": "The fine is **500 euros**. It is **1,000 euros** if you were already penalized for alcohol in the previous year, or if your level is more than double the allowed one."
+              },
+              "src": "LSV art. 80.1 y 80.2.a"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c2e",
+                "answer": 2,
+                "es": {
+                  "q": "Conduces un turismo con un permiso de hace seis años y das 0,40 mg/l en aire espirado, sin que sea delito. ¿Cuántos puntos pierdes?",
+                  "options": [
+                    "6 puntos",
+                    "2 puntos",
+                    "4 puntos"
+                  ],
+                  "why": "Para un conductor corriente, más de 0,25 hasta 0,50 mg/l supone la pérdida de 4 puntos. Más de 0,50 mg/l son 6 puntos."
+                },
+                "en": {
+                  "q": "You drive a car with a permit from six years ago and blow 0.40 mg/L of exhaled air, and it is not a crime. How many points do you lose?",
+                  "options": [
+                    "6 points",
+                    "2 points",
+                    "4 points"
+                  ],
+                  "why": "For an ordinary driver, over 0.25 up to 0.50 mg/L means losing 4 points. Over 0.50 mg/L is 6 points."
+                },
+                "terms": [
+                  {
+                    "es": "puntos",
+                    "en": "points"
+                  }
+                ],
+                "src": "LSV anexo II, punto 1"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "Todo conductor está **obligado** a someterse a la prueba: en un accidente, con síntomas, tras una denuncia o en un control preventivo.",
+          "en": "Every driver is **obliged** to take the test: after an accident, with symptoms, after a report, or at a preventive checkpoint."
+        },
+        {
+          "es": "Si das positivo, hay **segunda prueba**, y tienes derecho a controlar que pasen al menos **10 minutos** entre ambas. Puedes pedir una prueba de contraste.",
+          "en": "If you test positive there is a **second test**, and you have the right to check that at least **10 minutes** pass between them. You can ask for a contrast test."
+        },
+        {
+          "es": "**Negarte** a la prueba es **delito**. El agente puede inmovilizar el vehículo.",
+          "en": "**Refusing** the test is a **crime**. The officer can immobilize the vehicle."
+        },
+        {
+          "es": "Por encima de **0,60 mg/l** es delito. Por debajo puede serlo si conduces bajo la influencia del alcohol.",
+          "en": "Above **0.60 mg/L** it is a crime. Below that it can be one if you drive under the influence."
+        },
+        {
+          "es": "Si no es delito: infracción muy grave, **4 o 6 puntos** y **500 o 1.000 euros**.",
+          "en": "If it is not a crime: a very serious offense, **4 or 6 points** and **500 or 1,000 euros**."
+        }
+      ],
+      "covers": [
+        "alcohol-03",
+        "alcohol-05"
+      ],
+      "src": [
+        "Reglamento General de Circulación (RD 1428/2003), arts. 21, 23, 25 y 26.2",
+        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), arts. 14.2, 14.5, 77.c, 80 y anexo II",
+        "Código Penal, arts. 379 y 383"
+      ]
+    },
+    {
+      "id": "drugs",
+      "title": {
+        "es": "Drogas al volante",
+        "en": "Drugs at the wheel"
+      },
+      "minutes": 5,
+      "goals": [
+        {
+          "es": "Saber que con las drogas basta la presencia, sin tasa permitida.",
+          "en": "Know that for drugs presence is enough, with no permitted level."
+        },
+        {
+          "es": "Saber cómo se detectan en un control.",
+          "en": "Know how they are detected at a checkpoint."
+        },
+        {
+          "es": "Conocer las consecuencias.",
+          "en": "Know the consequences."
+        }
+      ],
+      "terms": [
+        {
+          "es": "droga",
+          "en": "drug"
+        },
+        {
+          "es": "presencia",
+          "en": "presence"
+        },
+        {
+          "es": "prueba salival",
+          "en": "saliva test"
+        },
+        {
+          "es": "estupefacientes",
+          "en": "narcotics"
+        },
+        {
+          "es": "estimulante",
+          "en": "stimulant"
+        },
+        {
+          "es": "psicotrópico",
+          "en": "psychotropic drug"
+        }
+      ],
+      "pretest": {
+        "id": "alcohol-pre-3",
+        "answer": 1,
+        "es": {
+          "q": "¿Qué prueba se usa normalmente para detectar drogas en un control de tráfico?",
+          "options": [
+            "Un análisis de orina",
+            "Una prueba de saliva",
+            "Soplar en un etilómetro"
+          ],
+          "why": "Las drogas se detectan con una prueba de saliva en un dispositivo autorizado y, después, con un análisis de una muestra de saliva."
+        },
+        "en": {
+          "q": "What test is normally used to detect drugs at a traffic checkpoint?",
+          "options": [
+            "A urine test",
+            "A saliva test",
+            "Blowing into a breathalyzer"
+          ],
+          "why": "Drugs are detected with a saliva test on an authorized device and then an analysis of a saliva sample."
+        },
+        "src": "LSV art. 14.3"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Basta con la presencia",
+            "en": "Presence is enough"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "No puede circular el conductor de cualquier vehículo con **presencia de drogas** en el organismo.",
+                "en": "The driver of any vehicle may not drive with a **presence of drugs** in the body."
+              },
+              "src": "LSV art. 14.1"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Con el alcohol hay una tasa permitida. Con las drogas la ley habla de **presencia** y no fija ninguna cantidad permitida. La única excepción son las sustancias recetadas con fin terapéutico, que verás en la lección de medicamentos.",
+                "en": "With alcohol there is a permitted level. With drugs the law speaks of **presence** and sets no permitted amount. The only exception is substances prescribed for a therapeutic purpose, covered in the medicines lesson."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "No pueden circular los conductores de vehículos **ni de bicicletas** que hayan tomado psicotrópicos, estimulantes u otras sustancias análogas.",
+                "en": "Drivers of vehicles **or bicycles** may not drive after taking psychotropic drugs, stimulants or similar substances."
+              },
+              "src": "RGC art. 27.1"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c3a",
+                "answer": 1,
+                "es": {
+                  "q": "Un ciclista da positivo en una droga ilegal en un control. ¿Le afecta la prohibición?",
+                  "options": [
+                    "No: la prohibición es solo para vehículos de motor",
+                    "Sí: la prohibición alcanza también a quien conduce una bicicleta",
+                    "Solo si circula por una vía interurbana"
+                  ],
+                  "why": "El reglamento prohíbe conducir tras tomar estas sustancias a los conductores de vehículos y también a los de bicicletas."
+                },
+                "en": {
+                  "q": "A cyclist tests positive for an illegal drug at a checkpoint. Does the ban apply?",
+                  "options": [
+                    "No: the ban is only for motor vehicles",
+                    "Yes: the ban also covers someone riding a bicycle",
+                    "Only if riding on an intercity road"
+                  ],
+                  "why": "The regulation bans driving after taking these substances for drivers of vehicles and also for cyclists."
+                },
+                "terms": [
+                  {
+                    "es": "ciclista",
+                    "en": "cyclist"
+                  }
+                ],
+                "src": "RGC art. 27.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Cómo se detectan",
+            "en": "How they are detected"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Las drogas se detectan con una **prueba de saliva** en un dispositivo autorizado y un análisis posterior de una muestra de saliva.",
+                "en": "Drugs are detected with a **saliva test** on an authorized device, followed by an analysis of a saliva sample."
+              },
+              "src": "LSV art. 14.3"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Si hay razones justificadas que impiden la prueba de saliva, se puede ordenar un reconocimiento médico o análisis clínicos.",
+                "en": "If justified reasons prevent the saliva test, a medical examination or clinical analyses can be ordered."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "La obligación de someterte a la prueba es la misma que con el alcohol. Puedes pedir una prueba de contraste, preferentemente un análisis de sangre.",
+                "en": "The duty to take the test is the same as for alcohol. You can ask for a contrast test, preferably a blood analysis."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c3b",
+                "answer": 2,
+                "es": {
+                  "q": "En un control un agente te pide una prueba de saliva para detectar drogas. ¿Estás obligado a hacerla?",
+                  "options": [
+                    "No: es voluntaria",
+                    "Solo si presentas síntomas",
+                    "Sí: el conductor está obligado a someterse a ella"
+                  ],
+                  "why": "El conductor está obligado a someterse a las pruebas de alcohol y de drogas que practican los agentes de tráfico."
+                },
+                "en": {
+                  "q": "At a checkpoint an officer asks you for a saliva test for drugs. Must you take it?",
+                  "options": [
+                    "No: it is voluntary",
+                    "Only if you show symptoms",
+                    "Yes: the driver is obliged to take it"
+                  ],
+                  "why": "The driver is obliged to take the alcohol and drug tests carried out by traffic officers."
+                },
+                "terms": [
+                  {
+                    "es": "obligado",
+                    "en": "obliged"
+                  }
+                ],
+                "src": "LSV art. 14.2"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Consecuencias",
+            "en": "Consequences"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Conducir con presencia de drogas es una infracción **muy grave**, si no es delito. La multa es de **1.000 euros** y pierdes **6 puntos**.",
+                "en": "Driving with a presence of drugs is a **very serious** offense, if it is not a crime. The fine is **1,000 euros** and you lose **6 points**."
+              },
+              "src": "LSV arts. 77.c y 80.2.a; anexo II, punto 2"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Conducir un vehículo de motor o un ciclomotor bajo la influencia de drogas tóxicas, estupefacientes o sustancias psicotrópicas es **delito**, con las mismas penas que para el alcohol.",
+                "en": "Driving a motor vehicle or a moped under the influence of toxic drugs, narcotics or psychotropic substances is a **crime**, with the same penalties as for alcohol."
+              },
+              "src": "Código Penal art. 379.2"
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Guía de la DGT: no mezcles alcohol con medicamentos ni con otras drogas. La mezcla puede reforzar los efectos de cada sustancia.",
+                "en": "DGT guidance: do not mix alcohol with medicines or other drugs. The mix can strengthen the effects of each substance."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c3c",
+                "answer": 0,
+                "es": {
+                  "q": "Das positivo en una droga ilegal en un control, sin que sea delito. ¿Cuántos puntos pierdes?",
+                  "options": [
+                    "6 puntos",
+                    "4 puntos",
+                    "2 puntos"
+                  ],
+                  "why": "Conducir con presencia de drogas en el organismo supone la pérdida de 6 puntos del permiso."
+                },
+                "en": {
+                  "q": "You test positive for an illegal drug at a checkpoint, and it is not a crime. How many points do you lose?",
+                  "options": [
+                    "6 points",
+                    "4 points",
+                    "2 points"
+                  ],
+                  "why": "Driving with a presence of drugs in the body means losing 6 permit points."
+                },
+                "terms": [
+                  {
+                    "es": "puntos",
+                    "en": "points"
+                  }
+                ],
+                "src": "LSV anexo II, punto 2"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "Con las drogas basta la **presencia** en el organismo: no hay tasa permitida.",
+          "en": "With drugs, **presence** in the body is enough: there is no permitted level."
+        },
+        {
+          "es": "La prohibición alcanza a quien conduce un vehículo y a **los ciclistas**.",
+          "en": "The ban covers anyone driving a vehicle and **cyclists**."
+        },
+        {
+          "es": "Se detectan con una **prueba de saliva**, y estás obligado a hacerla.",
+          "en": "They are detected with a **saliva test**, and you are obliged to take it."
+        },
+        {
+          "es": "Sin delito: infracción muy grave, **1.000 euros** y **6 puntos**.",
+          "en": "Without a crime: a very serious offense, **1,000 euros** and **6 points**."
+        }
+      ],
+      "covers": [
+        "alcohol-04"
+      ],
+      "src": [
+        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), arts. 14, 77.c, 80.2.a y anexo II",
+        "Reglamento General de Circulación (RD 1428/2003), art. 27.1",
+        "Código Penal, art. 379.2",
+        "DGT guidance on alcohol (dgt.es, Consumo de alcohol)"
+      ]
+    },
+    {
+      "id": "medicines",
+      "title": {
+        "es": "Medicamentos y enfermedad",
+        "en": "Medicines and illness"
+      },
+      "minutes": 5,
+      "goals": [
+        {
+          "es": "Saber cuándo un medicamento te prohíbe conducir.",
+          "en": "Know when a medicine rules out driving."
+        },
+        {
+          "es": "Entender qué avisa el pictograma de la caja.",
+          "en": "Understand what the pictogram on the box warns about."
+        },
+        {
+          "es": "Saber qué hacer ante un medicamento nuevo o una enfermedad.",
+          "en": "Know what to do with a new medicine or an illness."
+        }
+      ],
+      "terms": [
+        {
+          "es": "medicamento",
+          "en": "medicine"
+        },
+        {
+          "es": "receta",
+          "en": "prescription"
+        },
+        {
+          "es": "prospecto",
+          "en": "package leaflet"
+        },
+        {
+          "es": "pictograma",
+          "en": "pictogram"
+        },
+        {
+          "es": "efecto secundario",
+          "en": "side effect"
+        },
+        {
+          "es": "somnolencia",
+          "en": "drowsiness"
+        },
+        {
+          "es": "profesional sanitario",
+          "en": "health professional"
+        }
+      ],
+      "pretest": {
+        "id": "alcohol-pre-4",
+        "answer": 1,
+        "es": {
+          "q": "La caja de un medicamento lleva un pictograma con un coche. ¿Qué debes hacer?",
+          "options": [
+            "Nada: es solo decoración",
+            "Leer el prospecto y consultar a un profesional sanitario",
+            "Tomarlo siempre de noche"
+          ],
+          "why": "El pictograma avisa de que el medicamento puede afectar a la conducción. Lee el prospecto y pregunta a un profesional sanitario."
+        },
+        "en": {
+          "q": "A medicine box carries a pictogram with a car. What should you do?",
+          "options": [
+            "Nothing: it is only decoration",
+            "Read the leaflet and ask a health professional",
+            "Always take it at night"
+          ],
+          "why": "The pictogram warns that the medicine can affect driving. Read the leaflet and ask a health professional."
+        },
+        "src": "DGT guidance on medicines and driving"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Medicamentos que alteran tu estado",
+            "en": "Medicines that change your state"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "No pueden circular los conductores que hayan tomado medicamentos u otras sustancias bajo cuyo efecto se **altere el estado físico o mental** apropiado para circular sin peligro.",
+                "en": "Drivers may not drive after taking medicines or other substances whose effect **alters the physical or mental state** needed to drive without danger."
+              },
+              "src": "RGC art. 27.1"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "La clave es el **efecto**: sueño, mareo, visión borrosa o reacciones lentas. Que el medicamento esté recetado no te permite conducir si te altera.",
+                "en": "The key is the **effect**: drowsiness, dizziness, blurred vision or slow reactions. A medicine being prescribed does not let you drive if it alters you."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c4a",
+                "answer": 2,
+                "es": {
+                  "q": "Tu médico te receta un medicamento y te da mucho sueño. ¿Puedes conducir?",
+                  "options": [
+                    "Sí: está recetado y es legal",
+                    "Sí, si solo conduces por ciudad",
+                    "No: no puedes conducir bajo el efecto de un medicamento que altera tu estado"
+                  ],
+                  "why": "La ley prohíbe conducir bajo el efecto de medicamentos que alteran el estado físico o mental necesario para circular sin peligro, aunque estén recetados."
+                },
+                "en": {
+                  "q": "Your doctor prescribes a medicine and it makes you very sleepy. Can you drive?",
+                  "options": [
+                    "Yes: it is prescribed and legal",
+                    "Yes, if you only drive in town",
+                    "No: you cannot drive under the effect of a medicine that alters your state"
+                  ],
+                  "why": "The law bans driving under the effect of medicines that alter the physical or mental state needed to drive without danger, even if prescribed."
+                },
+                "terms": [
+                  {
+                    "es": "receta",
+                    "en": "prescription"
+                  }
+                ],
+                "src": "RGC art. 27.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Un medicamento recetado no es una droga",
+            "en": "A prescribed medicine is not a drug"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Se excluyen del concepto de drogas las sustancias que se usan con **receta** y fin terapéutico, siempre que estés en condiciones de conducir con diligencia, precaución y sin distracciones.",
+                "en": "Substances used under **prescription** for a therapeutic purpose are excluded from drugs, as long as you are fit to drive with diligence, caution and no distraction."
+              },
+              "src": "LSV art. 14.1 (y art. 10)"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c4b",
+                "answer": 1,
+                "es": {
+                  "q": "Tomas un medicamento recetado. Conduces con normalidad, atento y sin sueño. En un control salta la presencia de esa sustancia. ¿Es infracción por drogas?",
+                  "options": [
+                    "Sí: toda sustancia en el organismo cuenta como droga",
+                    "No: una sustancia recetada con fin terapéutico queda excluida si puedes conducir con atención",
+                    "Sí, salvo que lo tomes por la noche"
+                  ],
+                  "why": "Las sustancias recetadas con finalidad terapéutica se excluyen, siempre que estés en condiciones de conducir con diligencia, precaución y sin distracciones."
+                },
+                "en": {
+                  "q": "You take a prescribed medicine. You drive normally, alert and not sleepy. At a checkpoint the substance shows up. Is it a drug offense?",
+                  "options": [
+                    "Yes: any substance in the body counts as a drug",
+                    "No: a prescribed substance for a therapeutic purpose is excluded if you can drive attentively",
+                    "Yes, unless you take it at night"
+                  ],
+                  "why": "Substances prescribed for a therapeutic purpose are excluded, as long as you are fit to drive with diligence, caution and no distraction."
+                },
+                "terms": [
+                  {
+                    "es": "finalidad terapéutica",
+                    "en": "therapeutic purpose"
+                  }
+                ],
+                "src": "LSV art. 14.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "El pictograma de la caja",
+            "en": "The pictogram on the box"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Algunos medicamentos llevan en la caja un **pictograma** con un coche. Avisa de que pueden causar sueño, visión borrosa o mareo.",
+                "en": "Some medicines carry a **pictogram** with a car on the box. It warns that they can cause drowsiness, blurred vision or dizziness."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Guía de la DGT, no ley: con ese pictograma, lee el **prospecto** y pregunta a un profesional sanitario si tu tratamiento afecta a la conducción. Un cambio de dosis o un medicamento nuevo pueden aumentar los efectos secundarios.",
+                "en": "DGT guidance, not law: with that pictogram, read the **leaflet** and ask a health professional whether your treatment affects driving. A change of dose or a new medicine can increase side effects."
+              }
+            },
+            {
+              "t": "example",
+              "title": {
+                "es": "Un tratamiento nuevo",
+                "en": "A new treatment"
+              },
+              "situation": {
+                "es": "Empiezas a tomar un medicamento nuevo. La caja lleva el pictograma del coche y mañana debes conducir.",
+                "en": "You start taking a new medicine. The box carries the car pictogram and you must drive tomorrow."
+              },
+              "action": {
+                "es": "Lee el prospecto y pregunta a un profesional sanitario si puedes conducir. Si notas sueño o mareo, no conduzcas.",
+                "en": "Read the leaflet and ask a health professional whether you can drive. If you feel drowsy or dizzy, do not drive."
+              },
+              "why": {
+                "es": "El pictograma es un aviso. Lo que decide la ley es si el medicamento altera tu estado para conducir (RGC art. 27.1).",
+                "en": "The pictogram is a warning. What the law decides is whether the medicine alters your state to drive (RGC art. 27.1)."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c4c",
+                "answer": 0,
+                "es": {
+                  "q": "¿Qué indica el pictograma de un coche en la caja de un medicamento?",
+                  "options": [
+                    "Que puede afectar a tu conducción: lee el prospecto y consulta a un profesional sanitario",
+                    "Que está prohibido conducir mientras dure el tratamiento",
+                    "Que no tiene ningún efecto sobre la conducción"
+                  ],
+                  "why": "El pictograma avisa de un posible efecto sobre la conducción. No es una prohibición general: lee el prospecto y consulta a un profesional sanitario."
+                },
+                "en": {
+                  "q": "What does a car pictogram on a medicine box indicate?",
+                  "options": [
+                    "It can affect your driving: read the leaflet and consult a health professional",
+                    "Driving is banned for the whole treatment",
+                    "It has no effect on driving"
+                  ],
+                  "why": "The pictogram warns of a possible effect on driving. It is not a general ban: read the leaflet and consult a health professional."
+                },
+                "terms": [
+                  {
+                    "es": "pictograma",
+                    "en": "pictogram"
+                  }
+                ],
+                "src": "DGT guidance on medicines and driving"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Enfermedad y mezclas",
+            "en": "Illness and mixing"
+          },
+          "blocks": [
+            {
+              "t": "tip",
+              "text": {
+                "es": "Guía de la DGT, no ley: evita conducir cuando estás en un proceso agudo con dolor o fiebre.",
+                "en": "DGT guidance, not law: avoid driving during an acute illness with pain or fever."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Guía de la DGT: no combines alcohol con medicamentos. Puede reforzar los efectos del alcohol y los efectos secundarios del medicamento. Algunos antihistamínicos, antidepresivos y medicamentos para la ansiedad producen sueño.",
+                "en": "DGT guidance: do not combine alcohol with medicines. It can strengthen the effects of the alcohol and the side effects of the medicine. Some antihistamines, antidepressants and anxiety medicines cause drowsiness."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c4d",
+                "answer": 0,
+                "es": {
+                  "q": "¿Qué aconseja la DGT sobre mezclar alcohol y medicamentos antes de conducir?",
+                  "options": [
+                    "Evitar la mezcla: puede reforzar los efectos de ambos",
+                    "Esperar una hora entre el alcohol y el medicamento",
+                    "No hay problema si el medicamento es de venta libre"
+                  ],
+                  "why": "El alcohol puede reforzar los efectos del medicamento y sus efectos secundarios. La DGT aconseja no combinarlos."
+                },
+                "en": {
+                  "q": "What does the DGT advise about mixing alcohol and medicines before driving?",
+                  "options": [
+                    "Avoid mixing them: it can strengthen the effects of both",
+                    "Wait an hour between the alcohol and the medicine",
+                    "There is no problem if the medicine is over the counter"
+                  ],
+                  "why": "Alcohol can strengthen the effects of the medicine and its side effects. The DGT advises not to combine them."
+                },
+                "terms": [
+                  {
+                    "es": "reforzar",
+                    "en": "to strengthen"
+                  }
+                ],
+                "src": "DGT guidance on alcohol (dgt.es, Consumo de alcohol)"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "No conduzcas bajo el efecto de un medicamento que **altere tu estado** para conducir.",
+          "en": "Do not drive under the effect of a medicine that **alters your state** to drive."
+        },
+        {
+          "es": "Un medicamento **recetado** con fin terapéutico no cuenta como droga si puedes conducir con atención.",
+          "en": "A **prescribed** medicine for a therapeutic purpose does not count as a drug if you can drive attentively."
+        },
+        {
+          "es": "El **pictograma del coche** avisa: lee el prospecto y consulta a un profesional sanitario.",
+          "en": "The **car pictogram** warns: read the leaflet and consult a health professional."
+        },
+        {
+          "es": "No mezcles alcohol con medicamentos.",
+          "en": "Do not mix alcohol with medicines."
+        }
+      ],
+      "covers": [
+        "alcohol-07"
+      ],
+      "src": [
+        "Reglamento General de Circulación (RD 1428/2003), art. 27.1",
+        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), arts. 10 y 14.1",
+        "DGT guidance on medicines and driving (revista.dgt.es, Salud vial)",
+        "DGT guidance on alcohol (dgt.es, Consumo de alcohol)"
+      ]
+    },
+    {
+      "id": "fatigue",
+      "title": {
+        "es": "Fatiga y sueño",
+        "en": "Fatigue and sleep"
+      },
+      "minutes": 6,
+      "goals": [
+        {
+          "es": "Saber qué obligación legal de atención tienes al conducir.",
+          "en": "Know the legal duty of attention you have when driving."
+        },
+        {
+          "es": "Planificar las paradas en un viaje largo.",
+          "en": "Plan the stops on a long trip."
+        },
+        {
+          "es": "Reconocer las señales de sueño y saber qué hacer.",
+          "en": "Recognize the signs of sleepiness and know what to do."
+        }
+      ],
+      "terms": [
+        {
+          "es": "fatiga",
+          "en": "fatigue"
+        },
+        {
+          "es": "sueño",
+          "en": "sleep, sleepiness"
+        },
+        {
+          "es": "somnolencia",
+          "en": "drowsiness"
+        },
+        {
+          "es": "descanso",
+          "en": "rest"
+        },
+        {
+          "es": "microsueño",
+          "en": "microsleep"
+        },
+        {
+          "es": "atención permanente",
+          "en": "constant attention"
+        }
+      ],
+      "pretest": {
+        "id": "alcohol-pre-5",
+        "answer": 1,
+        "es": {
+          "q": "Según la DGT, ¿cuántas horas de sueño necesita la mayoría de las personas?",
+          "options": [
+            "De 5 a 6 horas",
+            "De 7 a 9 horas",
+            "De 10 a 12 horas"
+          ],
+          "why": "La DGT indica que la mayoría de las personas necesita dormir entre 7 y 9 horas."
+        },
+        "en": {
+          "q": "According to the DGT, how many hours of sleep do most people need?",
+          "options": [
+            "5 to 6 hours",
+            "7 to 9 hours",
+            "10 to 12 hours"
+          ],
+          "why": "The DGT says most people need between 7 and 9 hours of sleep."
+        },
+        "src": "DGT guidance on sleepiness (dgt.es)"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Lo que dice la ley y lo que es consejo",
+            "en": "What the law says and what is advice"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "El conductor está obligado a mantener la **atención permanente** a la conducción.",
+                "en": "The driver is obliged to maintain **constant attention** to driving."
+              },
+              "src": "RGC art. 18.1"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "No hay una tasa que medir para el cansancio. Los consejos de esta lección son orientaciones de la DGT, no artículos de ley. Los verás marcados como consejo.",
+                "en": "There is no level to measure for tiredness. The advice in this lesson is DGT guidance, not articles of law. You will see it marked as advice."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Con sueño, la DGT señala reacciones más lentas, menos concentración y más errores. Un microsueño dura apenas unos segundos y a menudo pasa inadvertido.",
+                "en": "With sleepiness, the DGT points to slower reactions, less concentration and more errors. A microsleep lasts only a few seconds and often goes unnoticed."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Paradas en un viaje largo",
+            "en": "Stops on a long trip"
+          },
+          "blocks": [
+            {
+              "t": "tip",
+              "text": {
+                "es": "La DGT recomienda parar cada **2 horas** o cada **200 km**, y descansar al menos **20 o 30 minutos**. Hazlo siempre, no solo cuando notes sueño.",
+                "en": "The DGT recommends stopping every **2 hours** or every **200 km**, and resting at least **20 to 30 minutes**. Do it every time, not only when you feel sleepy."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c5a",
+                "answer": 0,
+                "es": {
+                  "q": "Llevas dos horas conduciendo por autovía y te sientes bien. ¿Qué recomienda la DGT?",
+                  "options": [
+                    "Parar y descansar al menos 20 o 30 minutos",
+                    "Seguir mientras no tengas sueño",
+                    "Seguir una hora más y parar después"
+                  ],
+                  "why": "La DGT recomienda parar cada dos horas o cada 200 km, y siempre, no solo cuando se nota el sueño."
+                },
+                "en": {
+                  "q": "You have been driving for two hours on a highway and feel fine. What does the DGT recommend?",
+                  "options": [
+                    "Stop and rest at least 20 or 30 minutes",
+                    "Keep going as long as you are not sleepy",
+                    "Keep going another hour and stop after"
+                  ],
+                  "why": "The DGT recommends stopping every two hours or every 200 km, and always, not only when you notice sleepiness."
+                },
+                "terms": [
+                  {
+                    "es": "parada",
+                    "en": "stop"
+                  }
+                ],
+                "src": "DGT guidance on sleepiness (dgt.es)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Señales de sueño y qué hacer",
+            "en": "Signs of sleepiness and what to do"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Estas son señales de cansancio que describe la DGT:",
+                "en": "These are signs of tiredness that the DGT describes:"
+              }
+            },
+            {
+              "t": "list",
+              "items": [
+                {
+                  "es": "bostezos frecuentes y parpadeos más numerosos y más largos",
+                  "en": "frequent yawns and more numerous, longer blinks"
+                },
+                {
+                  "es": "visión borrosa y ojos cansados",
+                  "en": "blurred vision and tired eyes"
+                },
+                {
+                  "es": "reacciones más lentas y menos concentración",
+                  "en": "slower reactions and less concentration"
+                },
+                {
+                  "es": "tendencia a desviarte hacia el centro de la calzada",
+                  "en": "a tendency to drift toward the center of the road"
+                },
+                {
+                  "es": "irritabilidad y conducción más arriesgada",
+                  "en": "irritability and riskier driving"
+                }
+              ]
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Si aparece el sueño, para en un lugar adecuado y duerme unos 20 o 30 minutos. Los estimulantes, como el café o el té, hay que usarlos con precaución: pueden tener efecto rebote.",
+                "en": "If sleepiness appears, stop in a suitable place and sleep for about 20 to 30 minutes. Use stimulants, such as coffee or tea, with caution: they can have a rebound effect."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c5b",
+                "answer": 1,
+                "es": {
+                  "q": "Conduces de noche, bostezas, parpadeas mucho y te desvías hacia el centro de la calzada. ¿Qué haces?",
+                  "options": [
+                    "Abres la ventanilla y sigues",
+                    "Paras en un lugar adecuado y descansas",
+                    "Subes la música y aceleras para llegar antes"
+                  ],
+                  "why": "Son señales de sueño. Lo seguro es parar en un lugar adecuado y descansar."
+                },
+                "en": {
+                  "q": "You drive at night, yawn, blink a lot and drift toward the center of the road. What do you do?",
+                  "options": [
+                    "Open the window and keep going",
+                    "Stop in a suitable place and rest",
+                    "Turn the music up and speed up to arrive sooner"
+                  ],
+                  "why": "These are signs of sleepiness. The safe thing is to stop in a suitable place and rest."
+                },
+                "terms": [
+                  {
+                    "es": "señales de sueño",
+                    "en": "signs of sleepiness"
+                  }
+                ],
+                "src": "DGT guidance on sleepiness (dgt.es)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Dormir antes de salir",
+            "en": "Sleep before you leave"
+          },
+          "blocks": [
+            {
+              "t": "tip",
+              "text": {
+                "es": "La mayoría de las personas necesita dormir entre **7 y 9 horas**. Tras una noche de menos de 4 horas de sueño, la somnolencia del día siguiente puede ser fuerte.",
+                "en": "Most people need **7 to 9 hours** of sleep. After a night of less than 4 hours of sleep, drowsiness the next day can be strong."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "El cuerpo pide dormir más de madrugada y a primera hora de la tarde. En esas horas es mayor el riesgo de quedarse dormido al volante.",
+                "en": "The body wants sleep most in the early morning and early afternoon. At those times the risk of falling asleep at the wheel is higher."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Aumentar en más del 50 por ciento los tiempos de conducción, o reducir en más del 50 por ciento los de descanso que fija la legislación de transporte terrestre, es una infracción **muy grave**.",
+                "en": "Increasing driving times by more than 50 percent, or cutting rest times set by land transport law by more than 50 percent, is a **very serious** offense."
+              },
+              "src": "LSV art. 77.i"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c5c",
+                "answer": 1,
+                "es": {
+                  "q": "Notas mucho sueño mientras conduces por una autovía. ¿Qué es lo más acertado?",
+                  "options": [
+                    "Abrir la ventanilla y subir la música para seguir",
+                    "Parar en un lugar seguro y echar una cabezada de 20 a 30 minutos",
+                    "Tomar un café y seguir sin parar"
+                  ],
+                  "why": "La DGT aconseja parar y descansar: una cabezada de 20 a 30 minutos ayuda. Los estimulantes, como el café, alivian un rato y después puede venir un efecto rebote."
+                },
+                "en": {
+                  "q": "You feel very sleepy while driving on a dual carriageway. What is the best thing to do?",
+                  "options": [
+                    "Open the window and turn up the music to keep going",
+                    "Stop somewhere safe and take a nap of 20 to 30 minutes",
+                    "Drink a coffee and keep going without stopping"
+                  ],
+                  "why": "The DGT advises stopping and resting: a nap of 20 to 30 minutes helps. Stimulants such as coffee help for a while and a rebound effect can follow."
+                },
+                "terms": [
+                  {
+                    "es": "cabezada",
+                    "en": "nap"
+                  },
+                  {
+                    "es": "autovía",
+                    "en": "dual carriageway"
+                  }
+                ],
+                "src": "DGT guidance on sleepiness (dgt.es)"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "La ley exige **atención permanente**. Los consejos sobre fatiga son guía de la DGT.",
+          "en": "The law requires **constant attention**. The fatigue advice is DGT guidance."
+        },
+        {
+          "es": "Para cada **2 horas** o **200 km**, al menos **20 o 30 minutos**.",
+          "en": "Stop every **2 hours** or **200 km**, for at least **20 or 30 minutes**."
+        },
+        {
+          "es": "Si notas sueño, **para y descansa**.",
+          "en": "If you feel sleepy, **stop and rest**."
+        },
+        {
+          "es": "Duerme **7 a 9 horas** antes de un viaje largo.",
+          "en": "Sleep **7 to 9 hours** before a long trip."
+        }
+      ],
+      "covers": [
+        "alcohol-08"
+      ],
+      "src": [
+        "Reglamento General de Circulación (RD 1428/2003), art. 18.1",
+        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), art. 77.i",
+        "DGT guidance on sleepiness and fatigue (dgt.es, Evita conductas de riesgo)"
+      ]
+    }
+  ]
+}

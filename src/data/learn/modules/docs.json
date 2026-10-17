@@ -1,0 +1,3646 @@
+{
+  "id": "docs",
+  "title": {
+    "es": "Permisos, puntos y sanciones",
+    "en": "Licenses, points and penalties"
+  },
+  "blurb": {
+    "es": "Las clases de permiso, los puntos que se pierden y se recuperan, cuánto dura el permiso y cómo son las pruebas.",
+    "en": "The permit classes, the points you lose and recover, how long a permit lasts and what the tests are like."
+  },
+  "lessons": [
+    {
+      "id": "classes",
+      "title": {
+        "es": "Clases de permiso y qué puedes conducir",
+        "en": "License classes and what you may drive"
+      },
+      "minutes": 7,
+      "goals": [
+        {
+          "es": "Saber qué vehículos autoriza la clase B.",
+          "en": "Know which vehicles class B allows."
+        },
+        {
+          "es": "Conocer la edad mínima de las clases principales.",
+          "en": "Know the minimum age for the main classes."
+        },
+        {
+          "es": "Saber cuándo la B permite conducir una moto de 125 cm³.",
+          "en": "Know when class B lets you ride a 125 cc motorcycle."
+        },
+        {
+          "es": "Saber qué documentos llevar al conducir.",
+          "en": "Know which documents to carry when you drive."
+        }
+      ],
+      "terms": [
+        {
+          "es": "permiso de conducción",
+          "en": "driver's license"
+        },
+        {
+          "es": "carnet (coloquial)",
+          "en": "driver's license (informal)"
+        },
+        {
+          "es": "clase",
+          "en": "class"
+        },
+        {
+          "es": "años cumplidos",
+          "en": "completed years"
+        },
+        {
+          "es": "antigüedad",
+          "en": "years since you got the permit"
+        },
+        {
+          "es": "permiso de circulación",
+          "en": "vehicle registration"
+        },
+        {
+          "es": "tarjeta de inspección técnica (ITV)",
+          "en": "vehicle inspection card"
+        },
+        {
+          "es": "remolque",
+          "en": "trailer"
+        }
+      ],
+      "pretest": {
+        "id": "docs-pre-1",
+        "answer": 1,
+        "es": {
+          "q": "¿Cuántos años cumplidos necesitas, como mínimo, para obtener el permiso de la clase B?",
+          "options": [
+            "16",
+            "18",
+            "21"
+          ],
+          "why": "La clase B se obtiene a los 18 años cumplidos. Otras clases piden otra edad."
+        },
+        "en": {
+          "q": "How many completed years of age do you need, at minimum, to get a class B permit?",
+          "options": [
+            "16",
+            "18",
+            "21"
+          ],
+          "why": "Class B is available from 18 completed years. Other classes ask for a different age."
+        },
+        "src": "RGCond art. 4.2"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Un permiso, varias clases",
+            "en": "One license, several classes"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Para conducir un vehículo de motor necesitas un **permiso de conducción**. Hay varias clases, y cada clase autoriza unos vehículos.",
+                "en": "To drive a motor vehicle you need a **permiso de conducción** (driver’s license). There are several classes, and each class covers certain vehicles."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "La conducción de vehículos de motor y ciclomotores exige **haber obtenido antes** el permiso o la licencia de conducción.",
+                "en": "Driving a motor vehicle or a moped requires **having obtained** the driver’s permit or license first."
+              },
+              "src": "RGCond art. 1.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Todas las clases de permiso de una persona deben constar en **un único documento**.",
+                "en": "All the permit classes a person holds must appear on **a single document**."
+              },
+              "src": "RGCond art. 4.1"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Las clases se nombran con letras: AM, A1, A2, A, B, C1, C, D1 y D. Las que llevan **+E**, como B+E, autorizan conjuntos con un remolque más pesado.",
+                "en": "Classes are named with letters: AM, A1, A2, A, B, C1, C, D1 and D. Those with **+E**, such as B+E, cover combinations with a heavier trailer."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-classes-1",
+                "answer": 1,
+                "es": {
+                  "q": "Una persona tiene los permisos A2 y B. ¿Cómo figuran sus clases?",
+                  "options": [
+                    "En dos documentos, uno por clase",
+                    "En un único documento",
+                    "En un documento por cada vehículo que posea"
+                  ],
+                  "why": "Todas las clases de permiso de una persona constan en un único documento, con las categorías de vehículos que autorizan."
+                },
+                "en": {
+                  "q": "A person holds permits A2 and B. How do the classes appear?",
+                  "options": [
+                    "On two documents, one per class",
+                    "On a single document",
+                    "On one document for each vehicle they own"
+                  ],
+                  "why": "All of a person’s permit classes appear on one document, with the vehicle categories they allow."
+                },
+                "terms": [
+                  {
+                    "es": "clase",
+                    "en": "class"
+                  }
+                ],
+                "src": "RGCond art. 4.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Qué permite la clase B",
+            "en": "What class B allows"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "La **clase B** es la del coche normal. Estos son sus límites:",
+                "en": "**Class B** is the permit for an ordinary car. These are its limits:"
+              }
+            },
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Vehículo",
+                  "en": "Vehicle"
+                },
+                {
+                  "es": "Límite",
+                  "en": "Limit"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "Automóvil (coche)",
+                    "en": "Car"
+                  },
+                  {
+                    "es": "Masa máxima autorizada hasta 3.500 kg y hasta ocho pasajeros, además del conductor",
+                    "en": "Maximum authorized mass up to 3,500 kg and up to eight passengers besides the driver"
+                  }
+                ],
+                [
+                  {
+                    "es": "Automóvil con remolque ligero",
+                    "en": "Car with a light trailer"
+                  },
+                  {
+                    "es": "Remolque de hasta 750 kg de masa máxima autorizada",
+                    "en": "Trailer of up to 750 kg maximum authorized mass"
+                  }
+                ],
+                [
+                  {
+                    "es": "Automóvil con remolque más pesado",
+                    "en": "Car with a heavier trailer"
+                  },
+                  {
+                    "es": "Remolque de más de 750 kg, con un conjunto de hasta 4.250 kg",
+                    "en": "Trailer of over 750 kg, with a combination of up to 4,250 kg"
+                  }
+                ],
+                [
+                  {
+                    "es": "Otros vehículos",
+                    "en": "Other vehicles"
+                  },
+                  {
+                    "es": "Ciclomotores, triciclos y cuatriciclos de motor, y vehículos para personas de movilidad reducida",
+                    "en": "Mopeds, motor tricycles and quadricycles, and vehicles for people with reduced mobility"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si llevas con la B un remolque de más de 750 kg y el conjunto **pasa de 3.500 kg**, hay que superar una prueba de aptitudes y comportamientos, o una formación que la sustituya.",
+                "en": "If you tow a trailer of over 750 kg with class B and the combination **exceeds 3,500 kg**, you must pass an aptitude and behavior test, or a training course that replaces it."
+              },
+              "src": "RGCond art. 5.5"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-classes-2",
+                "answer": 2,
+                "es": {
+                  "q": "¿Qué puedes conducir con el permiso de la clase B?",
+                  "options": [
+                    "Una furgoneta de 5.000 kg de masa máxima autorizada",
+                    "Un microbús con doce pasajeros además del conductor",
+                    "Un coche de 3.500 kg con ocho pasajeros además del conductor"
+                  ],
+                  "why": "La B autoriza automóviles de hasta 3.500 kg y ocho pasajeros más el conductor. Una furgoneta de 5.000 kg es de la clase C1, y un microbús con doce pasajeros, de la D1 o la D."
+                },
+                "en": {
+                  "q": "What may you drive with a class B permit?",
+                  "options": [
+                    "A 5,000 kg van (maximum authorized mass)",
+                    "A minibus with twelve passengers besides the driver",
+                    "A 3,500 kg car with eight passengers besides the driver"
+                  ],
+                  "why": "Class B covers cars up to 3,500 kg and eight passengers plus the driver. A 5,000 kg van is class C1, and a minibus with twelve passengers is D1 or D."
+                },
+                "terms": [
+                  {
+                    "es": "masa máxima autorizada",
+                    "en": "maximum authorized mass"
+                  }
+                ],
+                "src": "RGCond art. 4.2"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-classes-3",
+                "answer": 0,
+                "es": {
+                  "q": "Con un permiso B y un coche, ¿puedes llevar un remolque de 700 kg de masa máxima autorizada?",
+                  "options": [
+                    "Sí: hasta 750 kg no hace falta otra clase",
+                    "No: cualquier remolque exige la clase B+E",
+                    "Solo si el remolque va vacío"
+                  ],
+                  "why": "La clase B incluye un remolque de hasta 750 kg de masa máxima autorizada. Por encima de ese peso se aplican otras reglas, o la clase B+E."
+                },
+                "en": {
+                  "q": "With a class B permit and a car, may you tow a trailer of 700 kg maximum authorized mass?",
+                  "options": [
+                    "Yes: up to 750 kg you need no other class",
+                    "No: any trailer requires class B+E",
+                    "Only if the trailer is empty"
+                  ],
+                  "why": "Class B includes a trailer of up to 750 kg maximum authorized mass. Above that weight other rules apply, or class B+E."
+                },
+                "terms": [
+                  {
+                    "es": "remolque",
+                    "en": "trailer"
+                  }
+                ],
+                "src": "RGCond art. 4.2"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Edad mínima",
+            "en": "Minimum age"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Para sacar un permiso debes haber cumplido una edad mínima. Cuentan los **años cumplidos**: con 17 años y once meses todavía no tienes 18.",
+                "en": "To get a permit you must have reached a minimum age. What counts is **completed years**: at 17 years and eleven months you are not yet 18."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "La clase B se obtiene a partir de los **18 años cumplidos**.",
+                "en": "Class B is available from **18 completed years**."
+              },
+              "src": "RGCond art. 4.2"
+            },
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Clase",
+                  "en": "Class"
+                },
+                {
+                  "es": "Qué autoriza (resumen)",
+                  "en": "What it allows (summary)"
+                },
+                {
+                  "es": "Años cumplidos",
+                  "en": "Completed years"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "AM",
+                    "en": "AM"
+                  },
+                  {
+                    "es": "Ciclomotores",
+                    "en": "Mopeds"
+                  },
+                  {
+                    "es": "15",
+                    "en": "15"
+                  }
+                ],
+                [
+                  {
+                    "es": "A1",
+                    "en": "A1"
+                  },
+                  {
+                    "es": "Motos de hasta 125 cm³ y 11 kW",
+                    "en": "Motorcycles up to 125 cc and 11 kW"
+                  },
+                  {
+                    "es": "16",
+                    "en": "16"
+                  }
+                ],
+                [
+                  {
+                    "es": "A2",
+                    "en": "A2"
+                  },
+                  {
+                    "es": "Motos de hasta 35 kW",
+                    "en": "Motorcycles up to 35 kW"
+                  },
+                  {
+                    "es": "18",
+                    "en": "18"
+                  }
+                ],
+                [
+                  {
+                    "es": "A",
+                    "en": "A"
+                  },
+                  {
+                    "es": "Motocicletas y triciclos de motor",
+                    "en": "Motorcycles and motor tricycles"
+                  },
+                  {
+                    "es": "20",
+                    "en": "20"
+                  }
+                ],
+                [
+                  {
+                    "es": "B",
+                    "en": "B"
+                  },
+                  {
+                    "es": "Coches de hasta 3.500 kg",
+                    "en": "Cars up to 3,500 kg"
+                  },
+                  {
+                    "es": "18",
+                    "en": "18"
+                  }
+                ],
+                [
+                  {
+                    "es": "C1",
+                    "en": "C1"
+                  },
+                  {
+                    "es": "Automóviles de más de 3.500 y hasta 7.500 kg",
+                    "en": "Vehicles over 3,500 and up to 7,500 kg"
+                  },
+                  {
+                    "es": "18",
+                    "en": "18"
+                  }
+                ],
+                [
+                  {
+                    "es": "C",
+                    "en": "C"
+                  },
+                  {
+                    "es": "Automóviles de más de 3.500 kg",
+                    "en": "Vehicles over 3,500 kg"
+                  },
+                  {
+                    "es": "21",
+                    "en": "21"
+                  }
+                ],
+                [
+                  {
+                    "es": "D1",
+                    "en": "D1"
+                  },
+                  {
+                    "es": "Hasta 16 pasajeros y 8 metros de largo",
+                    "en": "Up to 16 passengers and 8 meters long"
+                  },
+                  {
+                    "es": "21",
+                    "en": "21"
+                  }
+                ],
+                [
+                  {
+                    "es": "D",
+                    "en": "D"
+                  },
+                  {
+                    "es": "Más de ocho pasajeros",
+                    "en": "More than eight passengers"
+                  },
+                  {
+                    "es": "24",
+                    "en": "24"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Hay excepciones. Por ejemplo, algunos profesionales con el CAP pueden obtener las clases C, D1 y D antes. La tabla muestra la edad general.",
+                "en": "There are exceptions. For example, some professionals holding the CAP can get classes C, D1 and D earlier. The table shows the general age."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-classes-4",
+                "answer": 2,
+                "es": {
+                  "q": "¿A partir de qué edad se puede obtener el permiso de la clase A1 (motos de hasta 125 cm³)?",
+                  "options": [
+                    "14 años cumplidos",
+                    "18 años cumplidos",
+                    "16 años cumplidos"
+                  ],
+                  "why": "La clase A1 se obtiene a los 16 años cumplidos. La B y la A2 piden 18, y la A, 20."
+                },
+                "en": {
+                  "q": "From what age can you get a class A1 permit (motorcycles up to 125 cc)?",
+                  "options": [
+                    "14 completed years",
+                    "18 completed years",
+                    "16 completed years"
+                  ],
+                  "why": "Class A1 is available from 16 completed years. B and A2 ask for 18, and A for 20."
+                },
+                "terms": [
+                  {
+                    "es": "años cumplidos",
+                    "en": "completed years"
+                  }
+                ],
+                "src": "RGCond art. 4.2"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "La clase B y las motos de 125 cm³",
+            "en": "Class B and 125 cc motorcycles"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Con la B no puedes conducir motos en general. Hay **una excepción** para las motos pequeñas de la clase A1: hasta 125 cm³ y 11 kW.",
+                "en": "Class B does not let you ride motorcycles in general. There is **one exception** for the small class A1 motorcycles: up to 125 cc and 11 kW."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "El permiso de la clase B con una antigüedad **superior a tres años** permite conducir, dentro de España, las motocicletas que autoriza la clase A1.",
+                "en": "A class B permit held for **more than three years** lets you ride, within Spain, the motorcycles that class A1 allows."
+              },
+              "src": "RGCond art. 4.2"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Fuera de esa excepción, el permiso de la clase B **no autoriza** a conducir motocicletas.",
+                "en": "Outside that exception, a class B permit **does not authorize** riding motorcycles."
+              },
+              "src": "RGCond art. 5.7"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si tu B tiene adaptaciones, restricciones u otras limitaciones, la Jefatura Provincial de Tráfico debe **anotar antes** en el permiso las que correspondan para que puedas conducir esas motos.",
+                "en": "If your class B has adaptations, restrictions or other limitations, the provincial traffic office must **first record** the relevant ones on the permit before you can ride those motorcycles."
+              },
+              "src": "RGCond art. 5.7"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-classes-5",
+                "answer": 0,
+                "es": {
+                  "q": "Tienes el permiso B desde hace 18 meses. ¿Puedes conducir en España una moto de 125 cm³ y 11 kW?",
+                  "options": [
+                    "No: hacen falta más de tres años con la B",
+                    "Sí: la clase B autoriza todas las motos",
+                    "Sí: con más de un año de permiso basta"
+                  ],
+                  "why": "La B solo permite conducir motos de la clase A1 en España cuando tiene más de tres años de antigüedad."
+                },
+                "en": {
+                  "q": "You have held class B for 18 months. May you ride a 125 cc, 11 kW motorcycle in Spain?",
+                  "options": [
+                    "No: you need more than three years with class B",
+                    "Yes: class B allows all motorcycles",
+                    "Yes: more than one year of holding the permit is enough"
+                  ],
+                  "why": "Class B only lets you ride class A1 motorcycles in Spain once it is more than three years old."
+                },
+                "terms": [
+                  {
+                    "es": "antigüedad",
+                    "en": "years since you got the permit"
+                  }
+                ],
+                "src": "RGCond arts. 4.2 and 5.7"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Documentos que debes llevar",
+            "en": "Documents you must carry"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "El conductor debe estar en posesión de su **permiso de conducción** válido y llevarlo consigo, además del permiso de circulación del vehículo y la tarjeta de inspección técnica. Debe mostrarlos si un agente se lo pide.",
+                "en": "The driver must hold a valid **driver’s permit** and carry it, together with the vehicle’s registration and its technical inspection card. The driver must show them if an officer asks."
+              },
+              "src": "LSV art. 59.2"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Tener la autorización de conducir puede acreditarse mostrándola **en físico o en digital**.",
+                "en": "Holding the driving authorization may be proven by showing it **physically or digitally**."
+              },
+              "src": "LSV art. 59.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los documentos deben ser **válidos y estar vigentes**. Del vehículo se llevan el permiso de circulación y la tarjeta de inspección técnica (ITV).",
+                "en": "The documents must be **valid and in force**. For the vehicle you carry the registration and the technical inspection card (ITV)."
+              },
+              "src": "RGCond art. 3.2; RGV art. 26.1"
+            },
+            {
+              "t": "us",
+              "text": {
+                "es": "Como en EE. UU., llevas tu permiso y lo enseñas a un agente si te lo pide. Aquí el vehículo también tiene una tarjeta de inspección técnica (ITV).",
+                "en": "As in the US, you carry your license and show it to an officer who asks. Here the vehicle also has a technical inspection card (ITV)."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-classes-6",
+                "answer": 1,
+                "es": {
+                  "q": "¿Cómo puedes acreditar ante un agente que tienes permiso de conducir?",
+                  "options": [
+                    "Solo con el documento físico",
+                    "Con el documento físico o con una versión digital",
+                    "No hace falta mostrarlo si lo tienes guardado en casa"
+                  ],
+                  "why": "La ley permite acreditar el permiso mostrándolo en físico o en digital. Pero debes llevarlo contigo al conducir, no dejarlo en casa."
+                },
+                "en": {
+                  "q": "How can you prove to an officer that you hold a driver’s permit?",
+                  "options": [
+                    "Only with the physical document",
+                    "With the physical document or a digital version",
+                    "You need not show it if it is kept at home"
+                  ],
+                  "why": "The law lets you prove your permit by showing it physically or digitally. But you must carry it with you when driving, not leave it at home."
+                },
+                "terms": [
+                  {
+                    "es": "en vigor",
+                    "en": "in force"
+                  }
+                ],
+                "src": "LSV art. 59.1 and 59.2"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "Todas tus clases constan en **un único documento**.",
+          "en": "All your classes appear on **a single document**."
+        },
+        {
+          "es": "La **clase B**: coches de hasta 3.500 kg y ocho pasajeros más el conductor; remolque ligero de hasta 750 kg.",
+          "en": "**Class B**: cars up to 3,500 kg and eight passengers plus the driver; a light trailer up to 750 kg."
+        },
+        {
+          "es": "La B se obtiene a los **18 años cumplidos**; cada clase tiene su edad.",
+          "en": "Class B is available from **18 completed years**; each class has its own age."
+        },
+        {
+          "es": "Con la B de **más de tres años** puedes conducir motos de la clase A1 en España.",
+          "en": "With class B held **over three years** you may ride class A1 motorcycles in Spain."
+        },
+        {
+          "es": "Lleva siempre tu permiso, el permiso de circulación y la tarjeta de inspección técnica.",
+          "en": "Always carry your permit, the vehicle registration and the technical inspection card."
+        }
+      ],
+      "covers": [
+        "docs-04"
+      ],
+      "src": [
+        "Reglamento General de Conductores (RD 818/2009), arts. 1.1, 3.2, 4.1, 4.2, 5.5 y 5.7",
+        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), art. 59",
+        "Reglamento General de Vehículos (RD 2822/1998), art. 26.1"
+      ]
+    },
+    {
+      "id": "points",
+      "title": {
+        "es": "El permiso por puntos",
+        "en": "The points license"
+      },
+      "minutes": 9,
+      "goals": [
+        {
+          "es": "Decir con cuántos puntos empieza cada conductor.",
+          "en": "Say how many points each driver starts with."
+        },
+        {
+          "es": "Distinguir los plazos del conductor novel: uno, dos y tres años.",
+          "en": "Tell apart the novice driver’s time limits: one, two and three years."
+        },
+        {
+          "es": "Saber cuándo se descuentan y cuándo se recuperan los puntos.",
+          "en": "Know when points are deducted and when they come back."
+        },
+        {
+          "es": "Saber qué pasa si te quedas sin puntos.",
+          "en": "Know what happens if you run out of points."
+        }
+      ],
+      "terms": [
+        {
+          "es": "crédito de puntos",
+          "en": "points balance"
+        },
+        {
+          "es": "conductor novel",
+          "en": "novice driver"
+        },
+        {
+          "es": "sanción firme",
+          "en": "final penalty"
+        },
+        {
+          "es": "recuperar",
+          "en": "to recover"
+        },
+        {
+          "es": "bonificación",
+          "en": "bonus"
+        },
+        {
+          "es": "curso de reeducación vial",
+          "en": "road-education course"
+        },
+        {
+          "es": "perder la vigencia",
+          "en": "to lose validity"
+        },
+        {
+          "es": "antigüedad",
+          "en": "years since you got the permit"
+        }
+      ],
+      "pretest": {
+        "id": "docs-pre-2",
+        "answer": 0,
+        "es": {
+          "q": "Un conductor pierde 4 puntos por una sanción firme. Pasan dos años sin otra sanción que reste puntos. ¿Qué ocurre con sus puntos?",
+          "options": [
+            "Recupera todos hasta el crédito inicial",
+            "Recupera solo la mitad",
+            "No los recupera: solo con un curso"
+          ],
+          "why": "Tras dos años sin sanciones que resten puntos, el conductor recupera todo el crédito inicial."
+        },
+        "en": {
+          "q": "A driver loses 4 points through a final penalty. Two years pass with no other penalty that costs points. What happens to the points?",
+          "options": [
+            "All come back, up to the initial balance",
+            "Only half come back",
+            "They do not come back: only through a course"
+          ],
+          "why": "After two years without penalties that cost points, the driver recovers the whole initial balance."
+        },
+        "src": "LSV art. 65.1"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Un crédito de puntos",
+            "en": "A points balance"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Tu permiso funciona como un **crédito de puntos**. Empiezas con una cantidad y la pierdes si te sancionan por ciertas infracciones.",
+                "en": "Your permit works like a **points balance**. You start with an amount and lose it if you are penalized for certain offenses."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Al titular de un permiso o licencia de conducción se le asigna un crédito inicial de **doce puntos**.",
+                "en": "The holder of a driving permit or license is given an initial balance of **twelve points**."
+              },
+              "src": "LSV art. 63.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "El crédito de puntos es **único** para todas las autorizaciones de las que el conductor sea titular.",
+                "en": "The points balance is **single** for all the authorizations the driver holds."
+              },
+              "src": "LSV art. 63.3"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "La pérdida de puntos, parcial o total, afecta al permiso **cualquiera que sea su clase**.",
+                "en": "Losing points, partly or fully, affects the permit **whatever its class**."
+              },
+              "src": "LSV art. 64.3"
+            },
+            {
+              "t": "us",
+              "text": {
+                "es": "En muchos estados de EE. UU., los puntos se suman a tu historial cuando cometes una infracción. En España es al revés: empiezas con puntos y los pierdes.",
+                "en": "In many US states, points are added to your record when you commit an offense. In Spain it is the other way round: you start with points and lose them."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-points-1",
+                "answer": 0,
+                "es": {
+                  "q": "Pierdes puntos conduciendo tu coche con el permiso B. ¿Afecta también a tu permiso de moto A2?",
+                  "options": [
+                    "Sí: el crédito es único y la pérdida afecta a todas tus clases",
+                    "No: cada permiso tiene sus propios puntos",
+                    "Solo si la infracción es muy grave"
+                  ],
+                  "why": "Hay un único crédito de puntos para todas las clases. Perder puntos afecta al permiso sea cual sea su clase."
+                },
+                "en": {
+                  "q": "You lose points driving your car with class B. Does it also affect your A2 motorcycle permit?",
+                  "options": [
+                    "Yes: the balance is single and the loss affects all your classes",
+                    "No: each permit has its own points",
+                    "Only if the offense is very serious"
+                  ],
+                  "why": "There is one points balance for all classes. Losing points affects the permit whatever its class."
+                },
+                "terms": [
+                  {
+                    "es": "crédito de puntos",
+                    "en": "points balance"
+                  }
+                ],
+                "src": "LSV arts. 63.3 and 64.3"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Conductores noveles: ocho puntos",
+            "en": "Novice drivers: eight points"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Si tu permiso es nuevo empiezas con menos puntos, y los ganas con el tiempo.",
+                "en": "If your permit is new you start with fewer points, and you earn them with time."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Se asigna un crédito inicial de **ocho puntos** al titular de un permiso con una antigüedad no superior a tres años (salvo que ya tuviera otro con esa antigüedad), y a quien vuelve a obtener el permiso tras perder todos sus puntos.",
+                "en": "An initial balance of **eight points** is given to the holder of a permit no more than three years old (unless they already held another of that age), and to anyone who gets a permit again after losing all their points."
+              },
+              "src": "LSV art. 63.2"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Pasados **dos años** sin sanciones firmes que resten puntos, esos conductores pasan a tener doce puntos.",
+                "en": "After **two years** without final penalties that cost points, those drivers have twelve points."
+              },
+              "src": "LSV art. 65.2"
+            },
+            {
+              "t": "example",
+              "title": {
+                "es": "Un primer permiso",
+                "en": "A first permit"
+              },
+              "situation": {
+                "es": "Obtienes tu primer permiso en España. Pasan dos años y no te sancionan por ninguna infracción que reste puntos.",
+                "en": "You get your first permit in Spain. Two years pass and you are not penalized for any offense that costs points."
+              },
+              "action": {
+                "es": "Empezaste con 8 puntos. Ahora tienes 12.",
+                "en": "You started with 8 points. Now you have 12."
+              },
+              "why": {
+                "es": "Los noveles empiezan con ocho puntos y pasan a doce tras dos años limpios (arts. 63.2 y 65.2).",
+                "en": "Novices start with eight points and move to twelve after two clean years (arts. 63.2 and 65.2)."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-points-2",
+                "answer": 2,
+                "es": {
+                  "q": "Un conductor novel empezó con 8 puntos y pasa dos años sin sanciones que resten puntos. ¿Cuántos puntos tiene después?",
+                  "options": [
+                    "8: no cambian",
+                    "10",
+                    "12"
+                  ],
+                  "why": "Los conductores noveles pasan de ocho a doce puntos cuando transcurren dos años sin sanciones firmes que resten puntos."
+                },
+                "en": {
+                  "q": "A novice driver started with 8 points and goes two years without penalties that cost points. How many points does the driver have then?",
+                  "options": [
+                    "8: they do not change",
+                    "10",
+                    "12"
+                  ],
+                  "why": "Novice drivers go from eight to twelve points when two years pass without final penalties that cost points."
+                },
+                "terms": [
+                  {
+                    "es": "conductor novel",
+                    "en": "novice driver"
+                  }
+                ],
+                "src": "LSV art. 65.2"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Tres plazos para el conductor nuevo",
+            "en": "Three time limits for the new driver"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Un conductor nuevo tiene tres plazos distintos. Es fácil confundirlos.",
+                "en": "A new driver has three different time limits. They are easy to mix up."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "La señal V-13, «conductor novel», indica que el vehículo lo conduce una persona cuyo permiso tiene menos de **un año** de antigüedad.",
+                "en": "Sign V-13, “novice driver”, shows that the vehicle is driven by someone whose permit is less than **one year** old."
+              },
+              "src": "RGV Anexo XI, V-13 (apartado 1)"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Durante los **dos años** siguientes a obtener el permiso no se puede superar 0,3 g/l de alcohol en sangre ni 0,15 mg/l en aire espirado.",
+                "en": "During the **two years** after getting the permit you may not exceed 0.3 g/L alcohol in blood or 0.15 mg/L in exhaled air."
+              },
+              "src": "RGC art. 20"
+            },
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Plazo",
+                  "en": "Time limit"
+                },
+                {
+                  "es": "Qué cambia",
+                  "en": "What changes"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "Menos de 1 año de permiso",
+                    "en": "Under 1 year of holding the permit"
+                  },
+                  {
+                    "es": "Significado de la señal V-13 «conductor novel»",
+                    "en": "Meaning of sign V-13 “novice driver”"
+                  }
+                ],
+                [
+                  {
+                    "es": "Primeros 2 años",
+                    "en": "First 2 years"
+                  },
+                  {
+                    "es": "Límite de alcohol más bajo: 0,15 mg/l en aire",
+                    "en": "Lower alcohol limit: 0.15 mg/L in air"
+                  }
+                ],
+                [
+                  {
+                    "es": "2 años sin sanciones que resten puntos",
+                    "en": "2 years without penalties that cost points"
+                  },
+                  {
+                    "es": "Los puntos pasan de 8 a 12",
+                    "en": "Points go from 8 to 12"
+                  }
+                ],
+                [
+                  {
+                    "es": "Permiso de hasta 3 años",
+                    "en": "Permit up to 3 years old"
+                  },
+                  {
+                    "es": "Se empieza con 8 puntos, no con 12",
+                    "en": "You start with 8 points, not 12"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-points-3",
+                "answer": 1,
+                "es": {
+                  "q": "En un coche aparece la señal V-13. ¿Qué indica?",
+                  "options": [
+                    "Que el conductor está aprendiendo con un profesor",
+                    "Que lo conduce una persona con menos de un año de permiso",
+                    "Que el vehículo no puede superar los 40 km/h"
+                  ],
+                  "why": "V-13 es «conductor novel»: el permiso tiene menos de un año. El aprendizaje tiene otra señal (V-14), y el vehículo lento, la V-5."
+                },
+                "en": {
+                  "q": "Sign V-13 appears on a car. What does it show?",
+                  "options": [
+                    "That the driver is learning with an instructor",
+                    "That it is driven by someone with under one year of permit",
+                    "That the vehicle cannot exceed 40 km/h"
+                  ],
+                  "why": "V-13 is “novice driver”: the permit is under one year old. Learning has another sign (V-14), and a slow vehicle uses V-5."
+                },
+                "terms": [
+                  {
+                    "es": "conductor novel",
+                    "en": "novice driver"
+                  }
+                ],
+                "src": "RGV Anexo XI, V-13 (apartado 1)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Cuándo se pierden puntos",
+            "en": "When points are lost"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Una denuncia no te quita puntos todavía. Los puntos se descuentan más tarde, cuando la sanción ya es firme.",
+                "en": "A ticket does not take your points yet. They are deducted later, once the penalty is final."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los puntos se reducen por cada **sanción firme en vía administrativa** por infracciones graves o muy graves que lleven pérdida de puntos, según los anexos II y IV.",
+                "en": "Points are reduced for each **final administrative penalty** for serious or very serious offenses that carry a loss of points, according to annexes II and IV."
+              },
+              "src": "LSV art. 64.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los puntos se descuentan **de forma automática** cuando la infracción se anota en el registro de conductores e infractores.",
+                "en": "Points are deducted **automatically** when the offense is entered in the register of drivers and offenders."
+              },
+              "src": "LSV art. 64.5"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si pagas la multa en el plazo voluntario, la sanción es **firme** desde el momento del pago.",
+                "en": "If you pay the fine within the voluntary period, the penalty is **final** from the moment you pay."
+              },
+              "src": "LSV art. 94.f"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los puntos solo se pierden si el hecho ocurre **conduciendo un vehículo** para el que se exige permiso o licencia.",
+                "en": "Points are lost only if the act happens **while driving a vehicle** that requires a permit or license."
+              },
+              "src": "LSV art. 65.3"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-points-4",
+                "answer": 2,
+                "es": {
+                  "q": "¿Cuándo se descuentan los puntos de una infracción grave que los quita?",
+                  "options": [
+                    "En cuanto el agente te entrega la denuncia",
+                    "Solo si vuelves a cometer la misma infracción",
+                    "Cuando la sanción es firme y se anota en el registro"
+                  ],
+                  "why": "Los puntos se descuentan al anotar en el registro una sanción firme en vía administrativa, no por la simple denuncia."
+                },
+                "en": {
+                  "q": "When are the points for a serious offense that carries a points loss deducted?",
+                  "options": [
+                    "As soon as the officer hands you the ticket",
+                    "Only if you commit the same offense again",
+                    "When the penalty is final and entered in the register"
+                  ],
+                  "why": "Points are deducted when a final administrative penalty is entered in the register, not because of the ticket alone."
+                },
+                "terms": [
+                  {
+                    "es": "sanción firme",
+                    "en": "final penalty"
+                  }
+                ],
+                "src": "LSV arts. 64.1 and 64.5"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "El límite de ocho puntos al día",
+            "en": "The eight-point limit per day"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "No se pierden **más de ocho puntos** por acumulación de infracciones en un solo día, salvo ciertas infracciones muy graves, como el exceso de velocidad muy grave, el alcohol y las drogas, la conducción temeraria o circular en sentido contrario.",
+                "en": "You do not lose **more than eight points** for offenses piled up on a single day, except for certain very serious offenses, such as very serious speeding, alcohol and drugs, reckless driving or driving the wrong way."
+              },
+              "src": "LSV art. 64.4"
+            },
+            {
+              "t": "example",
+              "title": {
+                "es": "Tres infracciones el mismo día",
+                "en": "Three offenses on the same day"
+              },
+              "situation": {
+                "es": "Un conductor con 12 puntos usa el móvil con la mano (6 puntos), no usa el cinturón (4) y se salta un semáforo en rojo (4). Las tres sanciones son firmes.",
+                "en": "A driver with 12 points holds a phone in hand (6 points), does not wear a seat belt (4) and runs a red light (4). All three penalties are final."
+              },
+              "action": {
+                "es": "Suman 14, pero solo pierde 8. Le quedan 4 puntos.",
+                "en": "They add up to 14, but the driver loses only 8. The driver has 4 points left."
+              },
+              "why": {
+                "es": "Hay un tope de ocho puntos por infracciones cometidas en un solo día, y estas tres no están entre las excepciones (art. 64.4).",
+                "en": "There is a cap of eight points for offenses committed on a single day, and these three are not among the exceptions (art. 64.4)."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-points-5",
+                "answer": 1,
+                "es": {
+                  "q": "Un conductor con 12 puntos comete el mismo día tres infracciones: móvil en la mano (6 puntos), sin cinturón (4) y semáforo en rojo (4). Si las tres sanciones son firmes, ¿cuántos puntos pierde?",
+                  "options": [
+                    "14: la suma de las tres",
+                    "8: el máximo por infracciones cometidas en un solo día",
+                    "12: todo el crédito"
+                  ],
+                  "why": "La suma sería 14, pero la ley limita la pérdida a ocho puntos por infracciones cometidas en un solo día, salvo ciertas muy graves."
+                },
+                "en": {
+                  "q": "A driver with 12 points commits three offenses on the same day: phone in hand (6 points), no seat belt (4) and red light (4). If all three penalties are final, how many points does the driver lose?",
+                  "options": [
+                    "14: the sum of the three",
+                    "8: the maximum for offenses committed on a single day",
+                    "12: the whole balance"
+                  ],
+                  "why": "The sum would be 14, but the law caps the loss at eight points for offenses committed on a single day, except certain very serious ones."
+                },
+                "terms": [
+                  {
+                    "es": "infracción",
+                    "en": "offense"
+                  }
+                ],
+                "src": "LSV art. 64.4 and annex II"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Recuperar y ganar puntos",
+            "en": "Recovering and earning points"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Pasados **dos años** sin sanciones firmes que lleven pérdida de puntos, quien perdió una parte recupera todo el crédito inicial.",
+                "en": "After **two years** without final penalties that carry a loss of points, someone who lost some recovers the whole initial balance."
+              },
+              "src": "LSV art. 65.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Quien ha perdido puntos puede recuperar hasta **seis** con un curso de sensibilización y reeducación vial, una vez cada dos años. Los conductores profesionales pueden hacerlo una vez al año.",
+                "en": "Someone who has lost points can recover up to **six** by passing a road awareness and re-education course, once every two years. Professional drivers may do so once a year."
+              },
+              "src": "LSV art. 65.4"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si conservas todos tus puntos porque no te han sancionado en firme, recibes una bonificación: dos puntos por tres años y uno por otros tres, hasta un máximo de **quince**.",
+                "en": "If you keep all your points because you have not received a final penalty, you get a bonus: two points for three years and one for another three, up to a maximum of **fifteen**."
+              },
+              "src": "LSV art. 63.4"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Un curso de conducción segura y eficiente (con saldo positivo) suma **dos puntos**, hasta quince, y solo puede hacerse un curso de cada tipo cada dos años.",
+                "en": "A safe and efficient driving course (with a positive balance) adds **two points**, up to fifteen, and only one course of each type may be taken every two years."
+              },
+              "src": "LSV art. 63.5"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-points-6",
+                "answer": 0,
+                "es": {
+                  "q": "Un conductor ha perdido 8 puntos. ¿Cuántos puede recuperar, como máximo, con un curso de sensibilización y reeducación vial?",
+                  "options": [
+                    "Seis",
+                    "Los ocho que perdió",
+                    "Dos"
+                  ],
+                  "why": "El curso permite una recuperación parcial de hasta seis puntos, una vez cada dos años."
+                },
+                "en": {
+                  "q": "A driver has lost 8 points. How many can the driver recover, at most, with a road awareness and re-education course?",
+                  "options": [
+                    "Six",
+                    "All eight that were lost",
+                    "Two"
+                  ],
+                  "why": "The course gives a partial recovery of up to six points, once every two years."
+                },
+                "terms": [
+                  {
+                    "es": "curso de reeducación vial",
+                    "en": "road-education course"
+                  }
+                ],
+                "src": "LSV art. 65.4"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-points-7",
+                "answer": 1,
+                "es": {
+                  "q": "Un conductor nunca ha recibido una sanción firme. ¿Cuál es el máximo de puntos que puede llegar a tener?",
+                  "options": [
+                    "Doce",
+                    "Quince",
+                    "Veinte"
+                  ],
+                  "why": "Con la bonificación por no tener sanciones, y con los cursos de conducción segura y eficiente, el máximo es de quince puntos."
+                },
+                "en": {
+                  "q": "A driver has never received a final penalty. What is the most points the driver can reach?",
+                  "options": [
+                    "Twelve",
+                    "Fifteen",
+                    "Twenty"
+                  ],
+                  "why": "With the bonus for having no penalties, and with safe and efficient driving courses, the maximum is fifteen points."
+                },
+                "terms": [
+                  {
+                    "es": "bonificación",
+                    "en": "bonus"
+                  }
+                ],
+                "src": "LSV art. 63.4 and 63.5"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Si te quedas sin puntos",
+            "en": "If you run out of points"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si pierdes todos los puntos, la Jefatura Central de Tráfico declara la pérdida de vigencia del permiso. No puedes obtener uno nuevo hasta pasados **seis meses** desde la notificación (tres meses si eres profesional).",
+                "en": "If you lose all your points, the Jefatura Central de Tráfico declares your permit no longer valid. You cannot get a new one until **six months** after the notice (three months if you are a professional)."
+              },
+              "src": "LSV art. 71.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si vuelves a perder todos los puntos en los tres años siguientes al nuevo permiso, la espera es de **doce meses** (seis meses si eres profesional).",
+                "en": "If you lose all your points again within three years of the new permit, the wait is **twelve months** (six months if you are a professional)."
+              },
+              "src": "LSV art. 71.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Para recuperar un permiso de la misma clase debes superar un **curso de sensibilización y reeducación vial** y después las pruebas que fije el reglamento.",
+                "en": "To get a permit of the same class back you must pass a **road awareness and re-education course** and then the tests the regulation sets."
+              },
+              "src": "LSV art. 71.2"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "El permiso nuevo empieza con ocho puntos.",
+                "en": "The new permit starts with eight points."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-points-8",
+                "answer": 0,
+                "es": {
+                  "q": "Un conductor no profesional pierde todos sus puntos. ¿Cuánto debe esperar, como mínimo, para obtener un permiso nuevo?",
+                  "options": [
+                    "Seis meses desde la notificación",
+                    "Tres meses desde la notificación",
+                    "Dos años desde la notificación"
+                  ],
+                  "why": "Son seis meses desde la notificación. Los tres meses son para los conductores profesionales."
+                },
+                "en": {
+                  "q": "A non-professional driver loses all points. How long must the driver wait, at minimum, to get a new permit?",
+                  "options": [
+                    "Six months from the notice",
+                    "Three months from the notice",
+                    "Two years from the notice"
+                  ],
+                  "why": "It is six months from the notice. The three-month wait is for professional drivers."
+                },
+                "terms": [
+                  {
+                    "es": "perder la vigencia",
+                    "en": "to lose validity"
+                  }
+                ],
+                "src": "LSV art. 71.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-points-9",
+                "answer": 2,
+                "es": {
+                  "q": "Un conductor no profesional recupera su permiso tras perder todos los puntos y, dos años después, los pierde otra vez. ¿Cuánto debe esperar, como mínimo, para un permiso nuevo?",
+                  "options": [
+                    "Seis meses",
+                    "Tres años",
+                    "Doce meses"
+                  ],
+                  "why": "Si los pierde otra vez en los tres años siguientes a obtener el nuevo permiso, la espera sube a doce meses."
+                },
+                "en": {
+                  "q": "A non-professional driver gets a permit back after losing all points and, two years later, loses them all again. How long must the driver wait, at minimum, for a new permit?",
+                  "options": [
+                    "Six months",
+                    "Three years",
+                    "Twelve months"
+                  ],
+                  "why": "If they are lost again within three years of getting the new permit, the wait rises to twelve months."
+                },
+                "terms": [
+                  {
+                    "es": "pérdida de vigencia",
+                    "en": "loss of validity"
+                  }
+                ],
+                "src": "LSV art. 71.1"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "Empiezas con **12 puntos**; los permisos de hasta tres años empiezan con **8**.",
+          "en": "You start with **12 points**; permits up to three years old start with **8**."
+        },
+        {
+          "es": "El novel pasa de 8 a 12 tras **dos años** sin sanciones que resten puntos.",
+          "en": "A novice goes from 8 to 12 after **two years** without penalties that cost points."
+        },
+        {
+          "es": "Los puntos se descuentan con la **sanción firme**, con un tope de **8 al día** (con excepciones).",
+          "en": "Points are deducted at the **final penalty**, with a cap of **8 per day** (with exceptions)."
+        },
+        {
+          "es": "Dos años limpios devuelven el crédito; un curso devuelve hasta **6**; el máximo es **15**.",
+          "en": "Two clean years restore the balance; a course restores up to **6**; the maximum is **15**."
+        },
+        {
+          "es": "Sin puntos: pierdes el permiso, esperas **6 meses** (**12** si reincides), y haces curso y pruebas.",
+          "en": "With no points: you lose the permit, wait **6 months** (**12** if it happens again), and take a course and tests."
+        }
+      ],
+      "covers": [
+        "docs-01",
+        "docs-02"
+      ],
+      "src": [
+        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), arts. 63 a 65, 71 y 94",
+        "Reglamento General de Circulación (RD 1428/2003), art. 20",
+        "Reglamento General de Vehículos (RD 2822/1998), Anexo XI (V-5, V-13 y V-14)"
+      ]
+    },
+    {
+      "id": "offences",
+      "title": {
+        "es": "Infracciones, puntos y multas",
+        "en": "Offenses, points and fines"
+      },
+      "minutes": 9,
+      "goals": [
+        {
+          "es": "Distinguir infracciones leves, graves y muy graves.",
+          "en": "Tell minor, serious and very serious offenses apart."
+        },
+        {
+          "es": "Saber qué pasa si pagas pronto la multa.",
+          "en": "Know what happens if you pay the fine early."
+        },
+        {
+          "es": "Conocer cuántos puntos cuestan las infracciones más comunes.",
+          "en": "Know how many points the most common offenses cost."
+        },
+        {
+          "es": "Leer la tabla de puntos por exceso de velocidad.",
+          "en": "Read the table of points for speeding."
+        }
+      ],
+      "terms": [
+        {
+          "es": "infracción",
+          "en": "offense"
+        },
+        {
+          "es": "leve, grave, muy grave",
+          "en": "minor, serious, very serious"
+        },
+        {
+          "es": "multa",
+          "en": "fine"
+        },
+        {
+          "es": "denuncia",
+          "en": "traffic ticket"
+        },
+        {
+          "es": "alegaciones",
+          "en": "objections you file"
+        },
+        {
+          "es": "cinemómetro",
+          "en": "speed camera, radar"
+        },
+        {
+          "es": "exceso de velocidad",
+          "en": "speeding"
+        }
+      ],
+      "pretest": {
+        "id": "docs-pre-3",
+        "answer": 2,
+        "es": {
+          "q": "Un conductor es sancionado en firme por usar el móvil sujetándolo con la mano. ¿Cuántos puntos pierde?",
+          "options": [
+            "3",
+            "4",
+            "6"
+          ],
+          "why": "Usar el móvil sujetándolo con la mano quita seis puntos."
+        },
+        "en": {
+          "q": "A driver gets a final penalty for holding a phone in the hand. How many points does the driver lose?",
+          "options": [
+            "3",
+            "4",
+            "6"
+          ],
+          "why": "Using a hand-held phone costs six points."
+        },
+        "src": "LSV anexo II, punto 8"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Tres niveles de infracción",
+            "en": "Three levels of offense"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Las infracciones de tráfico son leves, graves o muy graves. El nivel marca la multa general y si puedes perder puntos.",
+                "en": "Traffic offenses are minor, serious or very serious. The level sets the general fine and whether you can lose points."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Las infracciones leves se sancionan con multa de hasta 100 euros; las graves, con 200 euros; las muy graves, con 500 euros. El exceso de velocidad se sanciona según el anexo IV.",
+                "en": "Minor offenses are fined up to 100 euros; serious ones, 200 euros; very serious ones, 500 euros. Speeding is fined according to annex IV."
+              },
+              "src": "LSV art. 80.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "La multa puede aumentar un **30 por ciento** según la gravedad del hecho, los antecedentes del infractor y el peligro creado.",
+                "en": "The fine may increase by **30 percent** depending on how serious the act was, the offender’s record and the danger created."
+              },
+              "src": "LSV art. 81"
+            },
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Nivel",
+                  "en": "Level"
+                },
+                {
+                  "es": "Multa general",
+                  "en": "General fine"
+                },
+                {
+                  "es": "¿Quita puntos?",
+                  "en": "Costs points?"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "Leve",
+                    "en": "Minor"
+                  },
+                  {
+                    "es": "Hasta 100 €",
+                    "en": "Up to 100 euros"
+                  },
+                  {
+                    "es": "No",
+                    "en": "No"
+                  }
+                ],
+                [
+                  {
+                    "es": "Grave",
+                    "en": "Serious"
+                  },
+                  {
+                    "es": "200 €",
+                    "en": "200 euros"
+                  },
+                  {
+                    "es": "Solo si figura en los anexos II y IV",
+                    "en": "Only if listed in annexes II and IV"
+                  }
+                ],
+                [
+                  {
+                    "es": "Muy grave",
+                    "en": "Very serious"
+                  },
+                  {
+                    "es": "500 €",
+                    "en": "500 euros"
+                  },
+                  {
+                    "es": "Solo si figura en los anexos II y IV",
+                    "en": "Only if listed in annexes II and IV"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Algunas infracciones tienen su propia multa. Aquí solo ves la regla general.",
+                "en": "Some offenses have their own fine. Here you see only the general rule."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-offences-1",
+                "answer": 0,
+                "es": {
+                  "q": "¿Qué infracciones pueden quitar puntos del permiso?",
+                  "options": [
+                    "Solo las graves o muy graves que figuran en los anexos de la ley",
+                    "Todas, también las leves",
+                    "Solo las que se cometen con un coche de empresa"
+                  ],
+                  "why": "Los puntos se pierden por infracciones graves o muy graves que lleven aparejada pérdida de puntos según los anexos II y IV. Las leves no los quitan."
+                },
+                "en": {
+                  "q": "Which offenses can take points from the permit?",
+                  "options": [
+                    "Only the serious or very serious ones listed in the law’s annexes",
+                    "All of them, including minor ones",
+                    "Only those committed in a company car"
+                  ],
+                  "why": "Points are lost for serious or very serious offenses that carry a points loss under annexes II and IV. Minor ones do not cost points."
+                },
+                "terms": [
+                  {
+                    "es": "infracción grave",
+                    "en": "serious offense"
+                  }
+                ],
+                "src": "LSV art. 64.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-offences-2",
+                "answer": 2,
+                "es": {
+                  "q": "¿Cuál es la multa general que fija la ley para una infracción grave?",
+                  "options": [
+                    "100 euros",
+                    "500 euros",
+                    "200 euros"
+                  ],
+                  "why": "La regla general es: leves, hasta 100 euros; graves, 200 euros; muy graves, 500 euros. Algunas infracciones tienen su propia cuantía."
+                },
+                "en": {
+                  "q": "What is the general fine the law sets for a serious offense?",
+                  "options": [
+                    "100 euros",
+                    "500 euros",
+                    "200 euros"
+                  ],
+                  "why": "The general rule: minor, up to 100 euros; serious, 200 euros; very serious, 500 euros. Some offenses have their own amount."
+                },
+                "terms": [
+                  {
+                    "es": "multa",
+                    "en": "fine"
+                  }
+                ],
+                "src": "LSV art. 80.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Pagar pronto: el 50 %",
+            "en": "Paying early: 50 percent"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Cuando te denuncian puedes pagar con descuento. Pero el descuento tiene un precio.",
+                "en": "When you get a ticket you can pay at a discount. But the discount has a price."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si pagas la multa en el acto o en veinte días naturales desde el día siguiente a la notificación, la sanción se reduce un **50 por ciento** y renuncias a presentar alegaciones.",
+                "en": "If you pay the fine on the spot or within twenty calendar days from the day after the notice, the penalty is cut by **50 percent** and you give up filing objections."
+              },
+              "src": "LSV art. 94, a y b"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Con el pago, la sanción es **firme** en vía administrativa desde ese momento.",
+                "en": "With payment, the penalty is **final** in the administrative route from that moment."
+              },
+              "src": "LSV art. 94.f"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Si la infracción lleva pérdida de puntos, la sanción firme hace que se descuenten. Pagar con descuento no te libra de ellos.",
+                "en": "If the offense carries a loss of points, a final penalty makes them be deducted. Paying at a discount does not spare you the points."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-offences-3",
+                "answer": 1,
+                "es": {
+                  "q": "Pagas con el 50 % de descuento la multa de una infracción grave que resta puntos. ¿Qué pasa con los puntos?",
+                  "options": [
+                    "No se descuentan: el descuento los anula",
+                    "Se descuentan igualmente, porque la sanción queda firme",
+                    "Se descuenta solo la mitad"
+                  ],
+                  "why": "El pago voluntario reduce la multa un 50 %, pero la sanción es firme desde el pago, y una sanción firme descuenta los puntos."
+                },
+                "en": {
+                  "q": "You pay at a 50 percent discount the fine for a serious offense that costs points. What happens to the points?",
+                  "options": [
+                    "They are not deducted: the discount cancels them",
+                    "They are still deducted, because the penalty becomes final",
+                    "Only half is deducted"
+                  ],
+                  "why": "Voluntary payment cuts the fine by 50 percent, but the penalty is final from payment, and a final penalty deducts the points."
+                },
+                "terms": [
+                  {
+                    "es": "pago voluntario",
+                    "en": "voluntary payment"
+                  }
+                ],
+                "src": "LSV arts. 64.1 and 94"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-offences-4",
+                "answer": 1,
+                "es": {
+                  "q": "¿Qué pierdes al pagar la multa con la reducción del 50 %?",
+                  "options": [
+                    "El permiso durante quince días",
+                    "El derecho a presentar alegaciones",
+                    "La posibilidad de renovar el permiso"
+                  ],
+                  "why": "Con el pago voluntario con descuento renuncias a presentar alegaciones y la vía administrativa se agota."
+                },
+                "en": {
+                  "q": "What do you give up by paying the fine with the 50 percent reduction?",
+                  "options": [
+                    "Your permit for fifteen days",
+                    "The right to file objections",
+                    "The chance to renew your permit"
+                  ],
+                  "why": "With discounted voluntary payment you give up filing objections and the administrative route ends."
+                },
+                "terms": [
+                  {
+                    "es": "alegaciones",
+                    "en": "objections you file"
+                  }
+                ],
+                "src": "LSV art. 94.b"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Las infracciones de seis puntos",
+            "en": "Six-point offenses"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "El titular de un permiso que sea sancionado en firme por alguna infracción del anexo II pierde el número de puntos que la ley indica para ella. Estas son las de **seis puntos**.",
+                "en": "A permit holder given a final penalty for an annex II offense loses the number of points the law states for it. These are the **six-point** ones."
+              },
+              "src": "LSV anexo II"
+            },
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Infracción",
+                  "en": "Offense"
+                },
+                {
+                  "es": "Puntos",
+                  "en": "Points"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "Conducir con más de 0,50 mg/l de alcohol en aire espirado (profesionales y permisos de menos de dos años: más de 0,30 mg/l)",
+                    "en": "Driving with more than 0.50 mg/L alcohol in exhaled air (professionals and permits under two years old: more than 0.30 mg/L)"
+                  },
+                  {
+                    "es": "6",
+                    "en": "6"
+                  }
+                ],
+                [
+                  {
+                    "es": "Conducir con presencia de drogas en el organismo",
+                    "en": "Driving with drugs in the body"
+                  },
+                  {
+                    "es": "6",
+                    "en": "6"
+                  }
+                ],
+                [
+                  {
+                    "es": "No someterse a las pruebas de alcohol o de drogas",
+                    "en": "Refusing the alcohol or drug tests"
+                  },
+                  {
+                    "es": "6",
+                    "en": "6"
+                  }
+                ],
+                [
+                  {
+                    "es": "Conducir de forma temeraria, circular en sentido contrario o participar en carreras no autorizadas",
+                    "en": "Reckless driving, driving the wrong way or taking part in unauthorized races"
+                  },
+                  {
+                    "es": "6",
+                    "en": "6"
+                  }
+                ],
+                [
+                  {
+                    "es": "Llevar instalados inhibidores de radares o aparatos que interfieran en la vigilancia del tráfico",
+                    "en": "Having radar jammers or devices that interfere with traffic monitoring installed"
+                  },
+                  {
+                    "es": "6",
+                    "en": "6"
+                  }
+                ],
+                [
+                  {
+                    "es": "Pasarse en más del 50 % de los tiempos de conducción o reducir en más del 50 % los de descanso (transporte)",
+                    "en": "Exceeding driving times by more than 50% or cutting rest times by more than 50% (transport)"
+                  },
+                  {
+                    "es": "6",
+                    "en": "6"
+                  }
+                ],
+                [
+                  {
+                    "es": "Colaborar en alterar el tacógrafo o el limitador de velocidad",
+                    "en": "Helping to tamper with the tachograph or speed limiter"
+                  },
+                  {
+                    "es": "6",
+                    "en": "6"
+                  }
+                ],
+                [
+                  {
+                    "es": "Usar el móvil sujetándolo con la mano mientras se conduce",
+                    "en": "Using a mobile phone held in the hand while driving"
+                  },
+                  {
+                    "es": "6",
+                    "en": "6"
+                  }
+                ],
+                [
+                  {
+                    "es": "Arrojar a la vía objetos que puedan producir incendios o accidentes",
+                    "en": "Throwing objects onto the road that could cause fires or accidents"
+                  },
+                  {
+                    "es": "6",
+                    "en": "6"
+                  }
+                ],
+                [
+                  {
+                    "es": "Adelantar poniendo en peligro o entorpeciendo a ciclistas, o sin dejar 1,5 metros de separación",
+                    "en": "Overtaking in a way that endangers or hinders cyclists, or without leaving 1.5 meters"
+                  },
+                  {
+                    "es": "6",
+                    "en": "6"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-offences-5",
+                "answer": 0,
+                "es": {
+                  "q": "Adelantas a un ciclista sin dejar 1,5 metros de separación. ¿Cuántos puntos pierdes si te sancionan en firme?",
+                  "options": [
+                    "6",
+                    "4",
+                    "8"
+                  ],
+                  "why": "Adelantar a ciclistas sin dejar 1,5 metros de separación, o poniéndolos en peligro, quita seis puntos."
+                },
+                "en": {
+                  "q": "You overtake a cyclist without leaving 1.5 meters. How many points do you lose if you get a final penalty?",
+                  "options": [
+                    "6",
+                    "4",
+                    "8"
+                  ],
+                  "why": "Overtaking cyclists without leaving 1.5 meters, or endangering them, costs six points."
+                },
+                "terms": [
+                  {
+                    "es": "ciclista",
+                    "en": "cyclist"
+                  }
+                ],
+                "src": "LSV anexo II, punto 12"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Las infracciones de cuatro puntos",
+            "en": "Four-point offenses"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Estas infracciones del anexo II quitan **cuatro puntos**.",
+                "en": "These annex II offenses cost **four points**."
+              },
+              "src": "LSV anexo II"
+            },
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Infracción",
+                  "en": "Offense"
+                },
+                {
+                  "es": "Puntos",
+                  "en": "Points"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "Conducir con más de 0,25 y hasta 0,50 mg/l de alcohol en aire espirado (profesionales y permisos de menos de dos años: más de 0,15 hasta 0,30 mg/l)",
+                    "en": "Driving with over 0.25 and up to 0.50 mg/L alcohol in exhaled air (professionals and permits under two years old: over 0.15 up to 0.30 mg/L)"
+                  },
+                  {
+                    "es": "4",
+                    "en": "4"
+                  }
+                ],
+                [
+                  {
+                    "es": "No respetar la preferencia de paso, ni detenerse en un stop, un ceda el paso o un semáforo en rojo",
+                    "en": "Not respecting right of way, or not stopping at a stop sign, a yield sign or a red light"
+                  },
+                  {
+                    "es": "4",
+                    "en": "4"
+                  }
+                ],
+                [
+                  {
+                    "es": "Adelantar poniendo en peligro o entorpeciendo a quien viene de frente, o adelantar con visibilidad reducida",
+                    "en": "Overtaking in a way that endangers or hinders oncoming traffic, or overtaking with reduced visibility"
+                  },
+                  {
+                    "es": "4",
+                    "en": "4"
+                  }
+                ],
+                [
+                  {
+                    "es": "No respetar las señales o las órdenes de los agentes",
+                    "en": "Not obeying signs or officers’ orders"
+                  },
+                  {
+                    "es": "4",
+                    "en": "4"
+                  }
+                ],
+                [
+                  {
+                    "es": "No mantener la distancia de seguridad con el vehículo de delante",
+                    "en": "Not keeping a safe distance from the vehicle ahead"
+                  },
+                  {
+                    "es": "4",
+                    "en": "4"
+                  }
+                ],
+                [
+                  {
+                    "es": "No usar, o usar mal, el cinturón, la retención infantil, el casco u otros elementos de protección",
+                    "en": "Not using, or misusing, the seat belt, child restraint, helmet or other protective equipment"
+                  },
+                  {
+                    "es": "4",
+                    "en": "4"
+                  }
+                ],
+                [
+                  {
+                    "es": "Conducir con un permiso que no habilita para ese vehículo",
+                    "en": "Driving with a permit that does not cover that vehicle"
+                  },
+                  {
+                    "es": "4",
+                    "en": "4"
+                  }
+                ],
+                [
+                  {
+                    "es": "Conducir con el permiso suspendido o con el uso del vehículo prohibido",
+                    "en": "Driving with a suspended permit or with the use of the vehicle banned"
+                  },
+                  {
+                    "es": "4",
+                    "en": "4"
+                  }
+                ],
+                [
+                  {
+                    "es": "Hacer marcha atrás en autopistas y autovías",
+                    "en": "Reversing on motorways and dual carriageways"
+                  },
+                  {
+                    "es": "4",
+                    "en": "4"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-offences-6",
+                "answer": 2,
+                "es": {
+                  "q": "No te detienes ante una señal de stop. ¿Cuántos puntos pierdes si te sancionan en firme?",
+                  "options": [
+                    "2",
+                    "6",
+                    "4"
+                  ],
+                  "why": "No detenerse en un stop, en un ceda el paso o en un semáforo en rojo, o no respetar la preferencia de paso, quita cuatro puntos."
+                },
+                "en": {
+                  "q": "You do not stop at a stop sign. How many points do you lose if you get a final penalty?",
+                  "options": [
+                    "2",
+                    "6",
+                    "4"
+                  ],
+                  "why": "Not stopping at a stop sign, a yield sign or a red light, or not respecting right of way, costs four points."
+                },
+                "terms": [
+                  {
+                    "es": "stop",
+                    "en": "stop sign"
+                  }
+                ],
+                "src": "LSV anexo II, punto 10"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-offences-7",
+                "answer": 1,
+                "es": {
+                  "q": "Circulas sin usar el cinturón de seguridad. ¿Cuántos puntos pierdes si te sancionan en firme?",
+                  "options": [
+                    "3",
+                    "4",
+                    "6"
+                  ],
+                  "why": "No usar el cinturón, o usarlo mal, quita cuatro puntos; lo mismo vale para la retención infantil y el casco."
+                },
+                "en": {
+                  "q": "You drive without wearing a seat belt. How many points do you lose if you get a final penalty?",
+                  "options": [
+                    "3",
+                    "4",
+                    "6"
+                  ],
+                  "why": "Not using the seat belt, or misusing it, costs four points; the same goes for child restraints and helmets."
+                },
+                "terms": [
+                  {
+                    "es": "cinturón de seguridad",
+                    "en": "seat belt"
+                  }
+                ],
+                "src": "LSV anexo II, punto 15"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Las infracciones de tres puntos",
+            "en": "Three-point offenses"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Estas infracciones del anexo II quitan **tres puntos**.",
+                "en": "These annex II offenses cost **three points**."
+              },
+              "src": "LSV anexo II"
+            },
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Infracción",
+                  "en": "Offense"
+                },
+                {
+                  "es": "Puntos",
+                  "en": "Points"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "Hacer un cambio de sentido incumpliendo la ley y su reglamento",
+                    "en": "Making a U-turn in breach of the law and its regulation"
+                  },
+                  {
+                    "es": "3",
+                    "en": "3"
+                  }
+                ],
+                [
+                  {
+                    "es": "Conducir con casco de audio o auricular conectado a un aparato de sonido, u otro dispositivo que reduzca la atención",
+                    "en": "Driving with an audio helmet or earphone connected to a sound device, or another device that reduces attention"
+                  },
+                  {
+                    "es": "3",
+                    "en": "3"
+                  }
+                ],
+                [
+                  {
+                    "es": "Llevar el móvil ajustado entre el casco y la cabeza, o usar manualmente el navegador u otros sistemas de comunicación",
+                    "en": "Keeping a phone wedged between helmet and head, or using the navigator or other communication systems by hand"
+                  },
+                  {
+                    "es": "3",
+                    "en": "3"
+                  }
+                ],
+                [
+                  {
+                    "es": "Llevar mecanismos de detección de radares o cinemómetros",
+                    "en": "Carrying radar or speed-camera detectors"
+                  },
+                  {
+                    "es": "3",
+                    "en": "3"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Fíjate en la diferencia: el móvil **sujeto con la mano** son 6 puntos. Otros usos manuales del móvil o del navegador son 3.",
+                "en": "Note the difference: a phone **held in the hand** is 6 points. Other manual uses of the phone or the navigator are 3."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-offences-8",
+                "answer": 2,
+                "es": {
+                  "q": "Conduces con auriculares conectados a un aparato de música. ¿Cuántos puntos pierdes si te sancionan en firme?",
+                  "options": [
+                    "2",
+                    "4",
+                    "3"
+                  ],
+                  "why": "Conducir con auriculares conectados a aparatos de sonido, u otros dispositivos que reducen la atención, quita tres puntos."
+                },
+                "en": {
+                  "q": "You drive with earphones connected to a music player. How many points do you lose if you get a final penalty?",
+                  "options": [
+                    "2",
+                    "4",
+                    "3"
+                  ],
+                  "why": "Driving with earphones connected to sound devices, or other devices that reduce attention, costs three points."
+                },
+                "terms": [
+                  {
+                    "es": "auriculares",
+                    "en": "earphones"
+                  }
+                ],
+                "src": "LSV anexo II, punto 20"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Exceso de velocidad",
+            "en": "Speeding"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "La pérdida de puntos por **exceso de velocidad** se aplica según el cuadro del anexo IV.",
+                "en": "The loss of points for **speeding** applies according to the table in annex IV."
+              },
+              "src": "LSV anexo II"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "El cuadro depende del límite de la vía y de la velocidad que registra el cinemómetro (radar). La ley da una columna para cada límite de 20 a 130 km/h. Aquí tienes cuatro límites habituales.",
+                "en": "The table depends on the road’s limit and on the speed the speed camera records. The law gives a column for every limit from 20 to 130 km/h. Here are four common limits."
+              }
+            },
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Puntos",
+                  "en": "Points"
+                },
+                {
+                  "es": "Límite 30",
+                  "en": "Limit 30"
+                },
+                {
+                  "es": "Límite 50",
+                  "en": "Limit 50"
+                },
+                {
+                  "es": "Límite 90",
+                  "en": "Limit 90"
+                },
+                {
+                  "es": "Límite 120",
+                  "en": "Limit 120"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "Sin pérdida de puntos",
+                    "en": "No points lost"
+                  },
+                  {
+                    "es": "31–50",
+                    "en": "31–50"
+                  },
+                  {
+                    "es": "51–70",
+                    "en": "51–70"
+                  },
+                  {
+                    "es": "91–120",
+                    "en": "91–120"
+                  },
+                  {
+                    "es": "121–150",
+                    "en": "121–150"
+                  }
+                ],
+                [
+                  {
+                    "es": "2 puntos",
+                    "en": "2 points"
+                  },
+                  {
+                    "es": "51–60",
+                    "en": "51–60"
+                  },
+                  {
+                    "es": "71–80",
+                    "en": "71–80"
+                  },
+                  {
+                    "es": "121–140",
+                    "en": "121–140"
+                  },
+                  {
+                    "es": "151–170",
+                    "en": "151–170"
+                  }
+                ],
+                [
+                  {
+                    "es": "4 puntos",
+                    "en": "4 points"
+                  },
+                  {
+                    "es": "61–70",
+                    "en": "61–70"
+                  },
+                  {
+                    "es": "81–90",
+                    "en": "81–90"
+                  },
+                  {
+                    "es": "141–150",
+                    "en": "141–150"
+                  },
+                  {
+                    "es": "171–180",
+                    "en": "171–180"
+                  }
+                ],
+                [
+                  {
+                    "es": "6 puntos (grave)",
+                    "en": "6 points (serious)"
+                  },
+                  {
+                    "es": "71–80",
+                    "en": "71–80"
+                  },
+                  {
+                    "es": "91–100",
+                    "en": "91–100"
+                  },
+                  {
+                    "es": "151–160",
+                    "en": "151–160"
+                  },
+                  {
+                    "es": "181–190",
+                    "en": "181–190"
+                  }
+                ],
+                [
+                  {
+                    "es": "6 puntos (muy grave)",
+                    "en": "6 points (very serious)"
+                  },
+                  {
+                    "es": "desde 81",
+                    "en": "from 81"
+                  },
+                  {
+                    "es": "desde 101",
+                    "en": "from 101"
+                  },
+                  {
+                    "es": "desde 161",
+                    "en": "from 161"
+                  },
+                  {
+                    "es": "desde 191",
+                    "en": "from 191"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Las cifras son la velocidad registrada, en km/h. Las cuatro primeras filas son infracciones graves; la última es muy grave.",
+                "en": "The figures are the recorded speed, in km/h. The first four rows are serious offenses; the last row is very serious."
+              }
+            },
+            {
+              "t": "us",
+              "text": {
+                "es": "Los límites están en km/h: 30 km/h ≈ 19 mph, 50 ≈ 31, 90 ≈ 56 y 120 ≈ 75 mph.",
+                "en": "Limits are in km/h: 30 km/h ≈ 19 mph, 50 ≈ 31, 90 ≈ 56 and 120 ≈ 75 mph."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-offences-9",
+                "answer": 0,
+                "es": {
+                  "q": "El límite de la vía es 50 km/h y un radar registra 85 km/h. ¿Cuántos puntos pierdes si te sancionan en firme?",
+                  "options": [
+                    "4",
+                    "2",
+                    "6"
+                  ],
+                  "why": "Con límite 50, de 81 a 90 km/h registrados son 4 puntos. De 71 a 80 son 2, y desde 91 son 6."
+                },
+                "en": {
+                  "q": "The road’s limit is 50 km/h and a speed camera records 85 km/h. How many points do you lose if you get a final penalty?",
+                  "options": [
+                    "4",
+                    "2",
+                    "6"
+                  ],
+                  "why": "With a limit of 50, 81 to 90 km/h recorded is 4 points. 71 to 80 is 2, and from 91 it is 6."
+                },
+                "terms": [
+                  {
+                    "es": "cinemómetro",
+                    "en": "speed camera, radar"
+                  }
+                ],
+                "src": "LSV anexo IV"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-offences-10",
+                "answer": 2,
+                "es": {
+                  "q": "El límite de la vía es 120 km/h y un radar registra 160 km/h. ¿Cuántos puntos pierdes si te sancionan en firme?",
+                  "options": [
+                    "0",
+                    "4",
+                    "2"
+                  ],
+                  "why": "Con límite 120, de 151 a 170 km/h registrados son 2 puntos. Hasta 150 no se pierden puntos, y de 171 a 180 son 4."
+                },
+                "en": {
+                  "q": "The road’s limit is 120 km/h and a speed camera records 160 km/h. How many points do you lose if you get a final penalty?",
+                  "options": [
+                    "0",
+                    "4",
+                    "2"
+                  ],
+                  "why": "With a limit of 120, 151 to 170 km/h recorded is 2 points. Up to 150 no points are lost, and 171 to 180 is 4."
+                },
+                "terms": [
+                  {
+                    "es": "exceso de velocidad",
+                    "en": "speeding"
+                  }
+                ],
+                "src": "LSV anexo IV"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "Las infracciones son **leves, graves o muy graves**; solo algunas graves y muy graves quitan puntos.",
+          "en": "Offenses are **minor, serious or very serious**; only some serious and very serious ones cost points."
+        },
+        {
+          "es": "Pagar pronto da un **50 %** de descuento, pero la sanción es firme y los puntos se descuentan.",
+          "en": "Paying early gives a **50 percent** discount, but the penalty is final and points are deducted."
+        },
+        {
+          "es": "**6 puntos**: móvil en la mano, alcohol alto, drogas, temeridad, adelantar mal a ciclistas.",
+          "en": "**6 points**: phone in hand, high alcohol, drugs, recklessness, overtaking cyclists badly."
+        },
+        {
+          "es": "**4 puntos**: stop, ceda el paso y semáforo rojo, distancia de seguridad, cinturón, ignorar a un agente.",
+          "en": "**4 points**: stop, yield and red light, safe distance, seat belt, ignoring an officer."
+        },
+        {
+          "es": "**3 puntos**: auriculares, otros usos manuales del móvil o del navegador, cambio de sentido ilegal.",
+          "en": "**3 points**: earphones, other manual use of the phone or navigator, illegal U-turn."
+        },
+        {
+          "es": "La velocidad usa el **anexo IV**: depende del límite y de la velocidad registrada.",
+          "en": "Speeding uses **annex IV**: it depends on the limit and the recorded speed."
+        }
+      ],
+      "covers": [],
+      "src": [
+        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), arts. 64, 80, 81 y 94, y anexos II y IV"
+      ]
+    },
+    {
+      "id": "validity",
+      "title": {
+        "es": "Vigencia, renovación y permisos extranjeros",
+        "en": "Validity, renewal and foreign licenses"
+      },
+      "minutes": 6,
+      "goals": [
+        {
+          "es": "Saber cuánto dura el permiso B y cuándo se renueva.",
+          "en": "Know how long the B permit lasts and when it is renewed."
+        },
+        {
+          "es": "Saber qué debes acreditar para renovarlo.",
+          "en": "Know what you must prove to renew it."
+        },
+        {
+          "es": "Entender el plazo de seis meses de un permiso extranjero.",
+          "en": "Understand the six-month limit for a foreign permit."
+        }
+      ],
+      "terms": [
+        {
+          "es": "vigencia",
+          "en": "validity period"
+        },
+        {
+          "es": "caducar",
+          "en": "to expire"
+        },
+        {
+          "es": "prórroga (renovación)",
+          "en": "renewal"
+        },
+        {
+          "es": "aptitudes psicofísicas",
+          "en": "physical and mental fitness"
+        },
+        {
+          "es": "centro de reconocimiento",
+          "en": "medical check center"
+        },
+        {
+          "es": "residencia normal",
+          "en": "normal residence"
+        },
+        {
+          "es": "canje",
+          "en": "exchange for a Spanish permit"
+        }
+      ],
+      "pretest": {
+        "id": "docs-pre-4",
+        "answer": 0,
+        "es": {
+          "q": "Un conductor de 30 años tiene el permiso B. ¿Cada cuántos años debe renovarlo?",
+          "options": [
+            "Cada diez años",
+            "Cada cinco años",
+            "Cada veinte años"
+          ],
+          "why": "El permiso B dura diez años mientras el titular no cumpla 65 años."
+        },
+        "en": {
+          "q": "A 30-year-old driver holds a class B permit. How often must it be renewed?",
+          "options": [
+            "Every ten years",
+            "Every five years",
+            "Every twenty years"
+          ],
+          "why": "The class B permit lasts ten years as long as the holder has not turned 65."
+        },
+        "src": "RGCond art. 12.2"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Cuánto dura el permiso",
+            "en": "How long the permit lasts"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "El permiso tiene una **vigencia** limitada. Al terminar, hay que renovarlo.",
+                "en": "A permit has a limited **validity period**. When it ends, it must be renewed."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los permisos de las clases AM, A1, A2, A, B y B+E duran **diez años** mientras el titular no cumpla 65 años, y cinco años desde esa edad.",
+                "en": "Permits of classes AM, A1, A2, A, B and B+E last **ten years** as long as the holder has not turned 65, and five years from that age."
+              },
+              "src": "RGCond art. 12.2"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los permisos de las clases C1, C, D1, D y sus +E duran **cinco años** hasta los 65 y tres años desde esa edad.",
+                "en": "Permits of classes C1, C, D1, D and their +E versions last **five years** until 65 and three years from that age."
+              },
+              "src": "RGCond art. 12.1"
+            },
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Clases",
+                  "en": "Classes"
+                },
+                {
+                  "es": "Hasta los 65 años",
+                  "en": "Until age 65"
+                },
+                {
+                  "es": "Desde los 65 años",
+                  "en": "From age 65"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "AM, A1, A2, A, B, B+E",
+                    "en": "AM, A1, A2, A, B, B+E"
+                  },
+                  {
+                    "es": "10 años",
+                    "en": "10 years"
+                  },
+                  {
+                    "es": "5 años",
+                    "en": "5 years"
+                  }
+                ],
+                [
+                  {
+                    "es": "C1, C, D1, D y sus +E",
+                    "en": "C1, C, D1, D and their +E"
+                  },
+                  {
+                    "es": "5 años",
+                    "en": "5 years"
+                  },
+                  {
+                    "es": "3 años",
+                    "en": "3 years"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "El plazo puede ser más corto si, al concederlo o renovarlo, se comprueba que el titular tiene una enfermedad que puede agravarse (RGCond art. 12.3).",
+                "en": "The period can be shorter if, when the permit is issued or renewed, the holder is found to have a condition that could get worse (RGCond art. 12.3)."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Un permiso con la vigencia vencida **no autoriza a conducir**, y usarlo hace que la autoridad lo intervenga de inmediato.",
+                "en": "A permit whose validity has run out **does not authorize driving**, and using it leads the authority to seize it immediately."
+              },
+              "src": "RGCond art. 12.4"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "La vigencia depende también de que el titular **no haya perdido todos los puntos**.",
+                "en": "Validity also depends on the holder **not having lost all points**."
+              },
+              "src": "RGCond art. 12.5; LSV art. 61.3"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-validity-1",
+                "answer": 0,
+                "es": {
+                  "q": "Tienes 67 años y el permiso B. ¿Cada cuántos años debes renovarlo?",
+                  "options": [
+                    "Cada cinco años",
+                    "Cada diez años",
+                    "Cada tres años"
+                  ],
+                  "why": "La B dura diez años hasta los 65 y cinco años desde esa edad. Los tres años son para las clases C y D."
+                },
+                "en": {
+                  "q": "You are 67 and hold class B. How often must you renew it?",
+                  "options": [
+                    "Every five years",
+                    "Every ten years",
+                    "Every three years"
+                  ],
+                  "why": "Class B lasts ten years until 65 and five years from that age. The three-year period is for classes C and D."
+                },
+                "terms": [
+                  {
+                    "es": "vigencia",
+                    "en": "validity period"
+                  }
+                ],
+                "src": "RGCond art. 12.2"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-validity-2",
+                "answer": 1,
+                "es": {
+                  "q": "Tu permiso B caducó ayer y todavía no lo has renovado. ¿Puedes conducir con él?",
+                  "options": [
+                    "Sí, hasta que te den fecha para la renovación",
+                    "No: un permiso caducado no autoriza a conducir",
+                    "Sí, durante tres meses más"
+                  ],
+                  "why": "Con la vigencia vencida el permiso no autoriza a conducir. Primero hay que renovarlo."
+                },
+                "en": {
+                  "q": "Your class B permit expired yesterday and you have not renewed it yet. May you drive with it?",
+                  "options": [
+                    "Yes, until you are given a renewal date",
+                    "No: an expired permit does not authorize driving",
+                    "Yes, for three more months"
+                  ],
+                  "why": "Once validity has run out, the permit does not authorize driving. You must renew it first."
+                },
+                "terms": [
+                  {
+                    "es": "caducar",
+                    "en": "to expire"
+                  }
+                ],
+                "src": "RGCond art. 12.4"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Cómo se renueva",
+            "en": "How renewal works"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "La Jefatura Provincial de Tráfico renueva la vigencia a petición del titular, cuando este acredita que **conserva las aptitudes psicofísicas** exigidas.",
+                "en": "The provincial traffic office renews the validity at the holder’s request, once the holder proves that they **still have the required physical and mental fitness**."
+              },
+              "src": "RGCond art. 13.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Las pruebas de aptitud psicofísica las hacen **centros de reconocimiento de conductores** autorizados, que emiten un informe.",
+                "en": "The physical and mental fitness tests are carried out by authorized **driver medical-check centers**, which issue a report."
+              },
+              "src": "RGCond art. 44.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Puedes pedir la renovación con **tres meses** de antelación como máximo antes de que caduque (salvo casos excepcionales justificados). El nuevo plazo cuenta desde la fecha de caducidad.",
+                "en": "You may apply for renewal **three months** before expiry at the earliest (except in justified exceptional cases). The new period counts from the expiry date."
+              },
+              "src": "RGCond art. 13.1"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-validity-3",
+                "answer": 0,
+                "es": {
+                  "q": "¿Con cuánta antelación máxima, como regla general, puedes pedir la renovación del permiso antes de que caduque?",
+                  "options": [
+                    "Tres meses",
+                    "Un mes",
+                    "Un año"
+                  ],
+                  "why": "La solicitud puede presentarse con una antelación máxima de tres meses, y el nuevo período cuenta desde la fecha de caducidad."
+                },
+                "en": {
+                  "q": "As a general rule, how far ahead of expiry can you apply to renew your permit?",
+                  "options": [
+                    "Three months",
+                    "One month",
+                    "One year"
+                  ],
+                  "why": "The application can be filed up to three months ahead, and the new period counts from the expiry date."
+                },
+                "terms": [
+                  {
+                    "es": "prórroga (renovación)",
+                    "en": "renewal"
+                  }
+                ],
+                "src": "RGCond art. 13.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-validity-4",
+                "answer": 2,
+                "es": {
+                  "q": "¿Qué debes acreditar para renovar tu permiso de conducir?",
+                  "options": [
+                    "Que has vuelto a aprobar el examen teórico",
+                    "Que tu coche ha pasado la ITV",
+                    "Que conservas las aptitudes psicofísicas exigidas"
+                  ],
+                  "why": "Para renovar hay que acreditar las aptitudes psicofísicas con el informe de un centro de reconocimiento autorizado. No se repite el teórico."
+                },
+                "en": {
+                  "q": "What must you prove to renew your driver’s permit?",
+                  "options": [
+                    "That you have passed the theory exam again",
+                    "That your car has passed the ITV",
+                    "That you still have the required physical and mental fitness"
+                  ],
+                  "why": "To renew you must prove physical and mental fitness with the report of an authorized check center. The theory test is not repeated."
+                },
+                "terms": [
+                  {
+                    "es": "centro de reconocimiento",
+                    "en": "medical check center"
+                  }
+                ],
+                "src": "RGCond arts. 13.1 and 44.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Si llegas con un permiso extranjero",
+            "en": "If you arrive with a foreign permit"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Si te mudas a España con un permiso de otro país no comunitario, puedes conducir con él solo un tiempo limitado.",
+                "en": "If you move to Spain with a permit from a non-EU country, you may drive with it only for a limited time."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Son válidos los permisos de otros países que siguen los modelos de los convenios de Ginebra (1949) o Viena (1968), o que están redactados en castellano o con una traducción oficial.",
+                "en": "Permits from other countries are valid if they follow the models of the Geneva (1949) or Vienna (1968) conventions, or if they are written in Spanish or come with an official translation."
+              },
+              "src": "RGCond art. 21.1, a y b"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Para que valga, el permiso debe estar en vigor, el titular debe tener la edad exigida en España y no deben haber pasado **seis meses** desde que adquiere la residencia normal (si no acredita la residencia normal, desde que entra en España en situación regular).",
+                "en": "To be valid, the permit must be in force, the holder must be of the age required in Spain, and **six months** must not have passed since the holder acquires normal residence (if the holder cannot prove normal residence, since entering Spain in a regular situation)."
+              },
+              "src": "RGCond art. 21.2"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Pasados los seis meses, el permiso **deja de valer** para conducir en España. Para seguir conduciendo hay que obtener un permiso español, con sus pruebas.",
+                "en": "After the six months, the permit **stops being valid** for driving in Spain. To keep driving you must obtain a Spanish permit, with its tests."
+              },
+              "src": "RGCond art. 21.3"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "El canje por un permiso español solo es posible si un convenio con ese país lo autoriza; hay una vía aparte para conductores profesionales.",
+                "en": "Exchange for a Spanish permit is possible only if an agreement with that country allows it; there is a separate route for professional drivers."
+              },
+              "src": "RGCond art. 22.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Un extranjero que pide un permiso español debe acreditar residencia normal, o estancia por estudios, de **al menos seis meses**.",
+                "en": "A foreigner applying for a Spanish permit must prove normal residence, or a stay for studies, of **at least six months**."
+              },
+              "src": "RGCond art. 7.1.a"
+            },
+            {
+              "t": "us",
+              "text": {
+                "es": "Tu permiso de EE. UU. cuenta como permiso de otro país. En la lista de países con convenio de canje de la DGT no aparece EE. UU., así que no se canjea: se hacen el teórico y el práctico. Confirma tu caso en la Jefatura de Tráfico o con un gestor.",
+                "en": "Your US license counts as a permit from another country. The US does not appear in the DGT’s list of countries with an exchange agreement, so it is not exchanged: you take the theory and practical tests. Confirm your case with the traffic office or a gestor."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-validity-5",
+                "answer": 1,
+                "es": {
+                  "q": "Como regla general, ¿hasta cuándo puede usar un residente su permiso de un país no comunitario para conducir en España?",
+                  "options": [
+                    "Mientras el permiso esté en vigor",
+                    "Hasta seis meses desde que adquiere la residencia normal",
+                    "Hasta dos años desde que llega a España"
+                  ],
+                  "why": "El permiso extranjero vale hasta seis meses desde que se adquiere la residencia normal. Después hay que obtener un permiso español, o canjearlo si hay convenio."
+                },
+                "en": {
+                  "q": "As a general rule, until when may a resident use a permit from a non-EU country to drive in Spain?",
+                  "options": [
+                    "As long as the permit is in force",
+                    "Up to six months from acquiring normal residence",
+                    "Up to two years from arriving in Spain"
+                  ],
+                  "why": "The foreign permit is valid up to six months from acquiring normal residence. After that you must get a Spanish permit, or exchange it if there is an agreement."
+                },
+                "terms": [
+                  {
+                    "es": "residencia normal",
+                    "en": "normal residence"
+                  }
+                ],
+                "src": "RGCond art. 21.2 and 21.3"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-validity-6",
+                "answer": 2,
+                "es": {
+                  "q": "Un extranjero quiere obtener un permiso español. ¿Qué tiempo mínimo de residencia normal o de estancia por estudios debe acreditar?",
+                  "options": [
+                    "Un mes",
+                    "Dos años",
+                    "Seis meses"
+                  ],
+                  "why": "Para obtener un permiso, un extranjero debe acreditar al menos seis meses de residencia normal o de estancia por estudios en España."
+                },
+                "en": {
+                  "q": "A foreigner wants to obtain a Spanish permit. What minimum time of normal residence or study stay must they prove?",
+                  "options": [
+                    "One month",
+                    "Two years",
+                    "Six months"
+                  ],
+                  "why": "To obtain a permit, a foreigner must prove at least six months of normal residence or study stay in Spain."
+                },
+                "terms": [
+                  {
+                    "es": "estancia por estudios",
+                    "en": "stay for studies"
+                  }
+                ],
+                "src": "RGCond art. 7.1.a"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "La B y las demás clases no profesionales duran **10 años** (**5** desde los 65).",
+          "en": "Class B and the other non-professional classes last **10 years** (**5** from 65)."
+        },
+        {
+          "es": "C y D duran **5 años** (**3** desde los 65).",
+          "en": "C and D last **5 years** (**3** from 65)."
+        },
+        {
+          "es": "Un permiso **caducado** no autoriza a conducir.",
+          "en": "An **expired** permit does not authorize driving."
+        },
+        {
+          "es": "Para renovar acreditas tus **aptitudes psicofísicas**; puedes pedirlo **3 meses** antes.",
+          "en": "To renew you prove your **physical and mental fitness**; you can apply **3 months** ahead."
+        },
+        {
+          "es": "Un permiso extranjero vale hasta **6 meses** desde la residencia normal.",
+          "en": "A foreign permit is valid up to **6 months** from normal residence."
+        }
+      ],
+      "covers": [],
+      "src": [
+        "Reglamento General de Conductores (RD 818/2009), arts. 7.1, 12, 13, 21, 22 y 44",
+        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), art. 61.3",
+        "DGT (dgt.es): lista de países con convenio de canje de permisos extranjeros"
+      ]
+    },
+    {
+      "id": "exam",
+      "title": {
+        "es": "El camino al permiso B: las pruebas",
+        "en": "The road to the B permit: the tests"
+      },
+      "minutes": 9,
+      "goals": [
+        {
+          "es": "Nombrar las pruebas y su orden.",
+          "en": "Name the tests and their order."
+        },
+        {
+          "es": "Conocer las reglas del examen teórico: preguntas, tiempo y errores.",
+          "en": "Know the theory test rules: questions, time and errors."
+        },
+        {
+          "es": "Saber cuánto vale un aprobado y cuántas convocatorias tienes.",
+          "en": "Know how long a pass is valid and how many sittings you get."
+        },
+        {
+          "es": "Entender cómo se califica la prueba práctica.",
+          "en": "Understand how the practical test is graded."
+        }
+      ],
+      "terms": [
+        {
+          "es": "prueba de conocimientos (teórico)",
+          "en": "knowledge test (theory)"
+        },
+        {
+          "es": "prueba de aptitudes y comportamientos",
+          "en": "aptitude and behavior test (practical)"
+        },
+        {
+          "es": "escuela de conductores (autoescuela)",
+          "en": "driving school"
+        },
+        {
+          "es": "convocatoria",
+          "en": "test sitting"
+        },
+        {
+          "es": "apto / no apto",
+          "en": "pass / fail"
+        },
+        {
+          "es": "falta eliminatoria",
+          "en": "disqualifying fault"
+        },
+        {
+          "es": "falta deficiente",
+          "en": "serious fault"
+        },
+        {
+          "es": "falta leve",
+          "en": "minor fault"
+        }
+      ],
+      "pretest": {
+        "id": "docs-pre-5",
+        "answer": 1,
+        "es": {
+          "q": "Si no superas la prueba de conocimientos (teórico), ¿puedes hacer ya la prueba práctica en vía abierta?",
+          "options": [
+            "Sí: son pruebas independientes",
+            "No: las pruebas son eliminatorias",
+            "Sí, si el profesor te acompaña"
+          ],
+          "why": "Las pruebas son eliminatorias: sin superar la de conocimientos no puedes pasar a la práctica."
+        },
+        "en": {
+          "q": "If you do not pass the knowledge (theory) test, may you take the practical test on open roads?",
+          "options": [
+            "Yes: they are independent tests",
+            "No: the tests are eliminatory",
+            "Yes, if the instructor comes with you"
+          ],
+          "why": "The tests are eliminatory: without passing the knowledge test you cannot go on to the practical."
+        },
+        "src": "RGCond art. 53.1"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Las pruebas y su orden",
+            "en": "The tests and their order"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Para obtener el permiso hay que superar **tres tipos de pruebas**: aptitud psicofísica, control de conocimientos y control de aptitudes y comportamientos.",
+                "en": "To get the permit you must pass **three kinds of tests**: physical and mental fitness, knowledge, and aptitudes and behavior."
+              },
+              "src": "RGCond art. 43.1"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "En la práctica: un reconocimiento médico, el examen teórico y el examen práctico. Para la clase B, el teórico es la prueba de conocimientos común.",
+                "en": "In practice: a medical check, the theory exam and the practical exam. For class B, the theory exam is the common knowledge test."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Las pruebas son **eliminatorias**: quien no supera la de conocimientos no puede hacer la de circuito cerrado, y quien no supera esta no puede hacer la de circulación en vías abiertas.",
+                "en": "The tests are **eliminatory**: whoever fails the knowledge test cannot take the closed-circuit test, and whoever fails that cannot take the open-road test."
+              },
+              "src": "RGCond art. 53.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Para la clase B, la prueba de circuito cerrado puede hacerse **durante** la prueba de circulación en vías abiertas.",
+                "en": "For class B, the closed-circuit test may be done **during** the open-road test."
+              },
+              "src": "RGCond art. 58.1"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-exam-1",
+                "answer": 1,
+                "es": {
+                  "q": "Suspendes la prueba de conocimientos (teórico). ¿Puedes hacer entonces la prueba de circulación en vías abiertas?",
+                  "options": [
+                    "Sí: son pruebas independientes",
+                    "No: las pruebas son eliminatorias y el teórico va antes",
+                    "Sí, si el profesor de la autoescuela lo pide"
+                  ],
+                  "why": "Las pruebas son eliminatorias. Sin superar la de conocimientos no se pasa a las de aptitudes y comportamientos."
+                },
+                "en": {
+                  "q": "You fail the knowledge (theory) test. May you then take the open-road driving test?",
+                  "options": [
+                    "Yes: they are independent tests",
+                    "No: the tests are eliminatory and the theory comes first",
+                    "Yes, if the driving-school instructor asks"
+                  ],
+                  "why": "The tests are eliminatory. Without passing the knowledge test you do not move on to the aptitude and behavior tests."
+                },
+                "terms": [
+                  {
+                    "es": "eliminatorio",
+                    "en": "eliminatory"
+                  }
+                ],
+                "src": "RGCond art. 53.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Aprender en una autoescuela",
+            "en": "Learning at a driving school"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "El aprendizaje de la conducción se realiza en **escuelas de conductores** autorizadas.",
+                "en": "Learning to drive takes place at authorized **driving schools**."
+              },
+              "src": "RGCond art. 41.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "También se puede aprender con una **licencia de aprendizaje**, que se concede una sola vez y para la que hay que designar a la persona que te acompañará.",
+                "en": "You can also learn with a **learner license**, which is granted only once and for which you must name the person who will accompany you."
+              },
+              "src": "RGCond art. 41.4"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "En la prueba de circulación en vías abiertas va **un profesor** (o quien dio la formación) al doble mando del coche. Solo las instrucciones del examinador valen durante la prueba.",
+                "en": "In the open-road test **an instructor** (or whoever gave the training) sits at the car’s dual controls. During the test only the examiner’s instructions count."
+              },
+              "src": "RGCond art. 55.1 and 55.2"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-exam-2",
+                "answer": 0,
+                "es": {
+                  "q": "Según el reglamento, ¿cuál es la vía general para aprender a conducir?",
+                  "options": [
+                    "En escuelas de conductores autorizadas",
+                    "Solo con un familiar que tenga permiso",
+                    "Solo en un circuito del Estado"
+                  ],
+                  "why": "El aprendizaje se realiza en escuelas de conductores autorizadas. La licencia de aprendizaje es otra vía, que se concede una sola vez."
+                },
+                "en": {
+                  "q": "According to the regulation, what is the general way to learn to drive?",
+                  "options": [
+                    "At authorized driving schools",
+                    "Only with a relative who holds a permit",
+                    "Only on a state-run track"
+                  ],
+                  "why": "Learning takes place at authorized driving schools. The learner license is another route, granted only once."
+                },
+                "terms": [
+                  {
+                    "es": "escuela de conductores",
+                    "en": "driving school"
+                  }
+                ],
+                "src": "RGCond art. 41.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "El examen teórico: preguntas, tiempo y errores",
+            "en": "The theory exam: questions, time and errors"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "La prueba de conocimientos común tiene entre **30 y 50 preguntas**. Pueden ir precedidas de vídeos de situaciones de tráfico.",
+                "en": "The common knowledge test has between **30 and 50 questions**. They may be preceded by videos of traffic situations."
+              },
+              "src": "RGCond anexo VI, B.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "El tiempo es de **un minuto por pregunta**, y se amplía en proporción a la duración de los vídeos.",
+                "en": "The time is **one minute per question**, extended in proportion to the length of the videos."
+              },
+              "src": "RGCond anexo VI, B.2"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Para ser declarado apto, los errores no pueden superar el **10 por ciento** de las preguntas. Si sale un decimal, se redondea hacia arriba.",
+                "en": "To be declared a pass, errors may not exceed **10 percent** of the questions. If a decimal results, it is rounded up."
+              },
+              "src": "RGCond anexo VI, B.3"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Con 30 preguntas: 30 minutos y como máximo 3 errores. El examen de práctica de esta app usa ese formato.",
+                "en": "With 30 questions: 30 minutes and at most 3 errors. This app’s practice exam uses that format."
+              }
+            },
+            {
+              "t": "example",
+              "title": {
+                "es": "Un examen de 35 preguntas",
+                "en": "A 35-question exam"
+              },
+              "situation": {
+                "es": "La prueba tiene 35 preguntas.",
+                "en": "The test has 35 questions."
+              },
+              "action": {
+                "es": "El 10 % de 35 es 3,5, que se redondea a 4. Se permiten 4 errores como máximo.",
+                "en": "10 percent of 35 is 3.5, rounded up to 4. At most 4 errors are allowed."
+              },
+              "why": {
+                "es": "El reglamento redondea al entero superior (anexo VI, B.3).",
+                "en": "The regulation rounds up to the next whole number (annex VI, B.3)."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-exam-3",
+                "answer": 1,
+                "es": {
+                  "q": "En una prueba teórica de 35 preguntas, ¿cuántos errores se permiten como máximo?",
+                  "options": [
+                    "3",
+                    "4",
+                    "5"
+                  ],
+                  "why": "Los errores no pueden superar el 10 % de las preguntas, y si sale decimal se redondea hacia arriba. El 10 % de 35 es 3,5, es decir, 4."
+                },
+                "en": {
+                  "q": "In a theory test of 35 questions, how many errors are allowed at most?",
+                  "options": [
+                    "3",
+                    "4",
+                    "5"
+                  ],
+                  "why": "Errors may not exceed 10 percent of the questions, and a decimal is rounded up. 10 percent of 35 is 3.5, so 4."
+                },
+                "terms": [
+                  {
+                    "es": "apto",
+                    "en": "pass"
+                  }
+                ],
+                "src": "RGCond anexo VI, B.3"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-exam-4",
+                "answer": 0,
+                "es": {
+                  "q": "Una prueba teórica tiene 30 preguntas y ningún vídeo. ¿Cuánto tiempo prevé el reglamento?",
+                  "options": [
+                    "30 minutos",
+                    "20 minutos",
+                    "45 minutos"
+                  ],
+                  "why": "El tiempo es de un minuto por pregunta, y se amplía si hay vídeos. Con 30 preguntas son 30 minutos."
+                },
+                "en": {
+                  "q": "A theory test has 30 questions and no video. How much time does the regulation allow?",
+                  "options": [
+                    "30 minutes",
+                    "20 minutes",
+                    "45 minutes"
+                  ],
+                  "why": "The time is one minute per question, extended if there are videos. With 30 questions that is 30 minutes."
+                },
+                "terms": [
+                  {
+                    "es": "pregunta",
+                    "en": "question"
+                  }
+                ],
+                "src": "RGCond anexo VI, B.2"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Cuánto vale el aprobado y cuántos intentos tienes",
+            "en": "How long a pass lasts and how many tries you get"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Cada prueba que apruebas **vale dos años**, contados desde el día siguiente. Si superas la prueba siguiente dentro del plazo, el plazo empieza de nuevo.",
+                "en": "Each test you pass **is valid for two years**, counted from the next day. If you pass the next test within that time, the period starts again."
+              },
+              "src": "RGCond art. 53.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Cada solicitud da derecho a **dos convocatorias**. Entre ellas no debe pasar más de seis meses, salvo causas justificadas. Si no te presentas, pierdes la convocatoria, salvo causa justificada.",
+                "en": "Each application gives you **two test sittings**. No more than six months should pass between them, except for justified reasons. If you do not show up, you lose the sitting, except for a justified reason."
+              },
+              "src": "RGCond art. 51.2"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Puedes presentarte a la primera convocatoria de la prueba de conocimientos hasta **tres meses antes** de cumplir la edad mínima.",
+                "en": "You may take the first sitting of the knowledge test up to **three months before** reaching the minimum age."
+              },
+              "src": "RGCond art. 51.2"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-exam-5",
+                "answer": 2,
+                "es": {
+                  "q": "Tras aprobar el teórico, ¿qué ocurre si pasan dos años sin superar la siguiente prueba?",
+                  "options": [
+                    "El aprobado sigue valiendo sin límite",
+                    "Solo hay que pagar de nuevo la tasa",
+                    "Hay que volver a aprobar la prueba teórica"
+                  ],
+                  "why": "El aprobado de cada prueba vale dos años. Si pasa ese plazo sin superar la siguiente, hay que volver a aprobarla."
+                },
+                "en": {
+                  "q": "After passing the theory test, what happens if two years pass without passing the next test?",
+                  "options": [
+                    "The pass stays valid without limit",
+                    "You only have to pay the fee again",
+                    "You must pass the theory test again"
+                  ],
+                  "why": "The pass in each test is valid for two years. If that time runs out without passing the next one, you must pass it again."
+                },
+                "terms": [
+                  {
+                    "es": "vigencia",
+                    "en": "validity period"
+                  }
+                ],
+                "src": "RGCond art. 53.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-exam-6",
+                "answer": 0,
+                "es": {
+                  "q": "¿Cuántas convocatorias para hacer las pruebas incluye cada solicitud de permiso?",
+                  "options": [
+                    "Dos",
+                    "Una",
+                    "Tres"
+                  ],
+                  "why": "Cada solicitud da derecho a dos convocatorias. Si no te presentas a una, la pierdes, salvo causas justificadas."
+                },
+                "en": {
+                  "q": "How many test sittings does each permit application include?",
+                  "options": [
+                    "Two",
+                    "One",
+                    "Three"
+                  ],
+                  "why": "Each application gives the right to two sittings. If you do not show up to one, you lose it, except for justified reasons."
+                },
+                "terms": [
+                  {
+                    "es": "convocatoria",
+                    "en": "test sitting"
+                  }
+                ],
+                "src": "RGCond art. 51.2"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-exam-7",
+                "answer": 2,
+                "es": {
+                  "q": "¿Con cuánta antelación máxima respecto a la edad mínima puedes presentarte a la primera convocatoria de la prueba de conocimientos?",
+                  "options": [
+                    "Un año antes",
+                    "No puedes presentarte antes de cumplir la edad",
+                    "Tres meses antes"
+                  ],
+                  "why": "La antelación máxima para la primera convocatoria de conocimientos es de tres meses anteriores a la edad mínima."
+                },
+                "en": {
+                  "q": "How far ahead of the minimum age may you take the first sitting of the knowledge test?",
+                  "options": [
+                    "One year before",
+                    "You cannot sit before reaching the age",
+                    "Three months before"
+                  ],
+                  "why": "The maximum lead time for the first knowledge sitting is three months before the minimum age."
+                },
+                "terms": [
+                  {
+                    "es": "edad mínima",
+                    "en": "minimum age"
+                  }
+                ],
+                "src": "RGCond art. 51.2"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "La prueba práctica",
+            "en": "The practical test"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "La prueba en vías abiertas dura **al menos 25 minutos** de conducción en las clases A1, A2, B y B+E, sin contar la recepción ni la preparación del vehículo.",
+                "en": "The open-road test lasts **at least 25 minutes** of driving for classes A1, A2, B and B+E, not counting reception or vehicle preparation."
+              },
+              "src": "RGCond anexo VI, C.2"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Un error de conducción o un comportamiento peligroso que amenace la seguridad puede bastar para **interrumpir la prueba** y declarar no apto.",
+                "en": "A driving error or dangerous behavior that threatens safety may be enough to **stop the test** and fail you."
+              },
+              "src": "RGCond art. 49.3"
+            },
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Falta",
+                  "en": "Fault"
+                },
+                {
+                  "es": "Qué es",
+                  "en": "What it is"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "Eliminatoria",
+                    "en": "Disqualifying"
+                  },
+                  {
+                    "es": "Un peligro para la seguridad propia o ajena, o incumplir una señal reguladora cuando es infracción grave o muy grave",
+                    "en": "A danger to your own or others’ safety, or breaking a regulating sign when it is a serious or very serious offense"
+                  }
+                ],
+                [
+                  {
+                    "es": "Deficiente",
+                    "en": "Serious"
+                  },
+                  {
+                    "es": "Obstaculizar notablemente a otros, afectar de forma clara a las distancias de seguridad, o incumplir una señal sin ser eliminatoria",
+                    "en": "Notably hindering others, clearly affecting safe distances, or breaking a sign without it being disqualifying"
+                  }
+                ],
+                [
+                  {
+                    "es": "Leve",
+                    "en": "Minor"
+                  },
+                  {
+                    "es": "Cualquier otro incumplimiento de las normas, o un manejo incorrecto de los mandos",
+                    "en": "Any other breach of the rules, or incorrect handling of the controls"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "En vías abiertas es **no apto** quien comete una falta eliminatoria, dos deficientes, una deficiente y cinco leves, o diez leves.",
+                "en": "On open roads you **fail** if you commit one disqualifying fault, two serious ones, one serious and five minor ones, or ten minor ones."
+              },
+              "src": "RGCond anexo VI, C.3"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "La prueba se califica solo como **apto** o **no apto**: no hay notas.",
+                "en": "The test is graded only as a **pass** or a **fail**: there are no marks."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-exam-8",
+                "answer": 1,
+                "es": {
+                  "q": "En la prueba práctica en vías abiertas cometes dos faltas deficientes. ¿Qué resultado obtienes?",
+                  "options": [
+                    "Apto: hacen falta tres para suspender",
+                    "No apto",
+                    "Apto, pero con una nota baja"
+                  ],
+                  "why": "Dos faltas deficientes bastan para ser declarado no apto. La prueba es apto o no apto, sin notas."
+                },
+                "en": {
+                  "q": "In the open-road practical test you commit two serious (deficient) faults. What result do you get?",
+                  "options": [
+                    "Pass: it takes three to fail",
+                    "Fail",
+                    "Pass, but with a low mark"
+                  ],
+                  "why": "Two serious faults are enough for a fail. The test is pass or fail, with no marks."
+                },
+                "terms": [
+                  {
+                    "es": "falta deficiente",
+                    "en": "serious fault"
+                  }
+                ],
+                "src": "RGCond anexo VI, C.3 and art. 53.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-exam-9",
+                "answer": 1,
+                "es": {
+                  "q": "En la prueba en vías abiertas cometes nueve faltas leves y ninguna otra. ¿Qué resultado obtienes?",
+                  "options": [
+                    "No apto: bastan cinco faltas leves",
+                    "Apto: el límite es de diez faltas leves",
+                    "No apto: bastan nueve faltas leves"
+                  ],
+                  "why": "Con faltas leves solo se suspende al llegar a diez. Con una deficiente bastan cinco leves, pero aquí no hay ninguna deficiente."
+                },
+                "en": {
+                  "q": "In the open-road test you commit nine minor faults and no others. What result do you get?",
+                  "options": [
+                    "Fail: five minor faults are enough",
+                    "Pass: the limit is ten minor faults",
+                    "Fail: nine minor faults are enough"
+                  ],
+                  "why": "With minor faults alone you fail only at ten. With one serious fault five minor ones are enough, but here there is no serious fault."
+                },
+                "terms": [
+                  {
+                    "es": "falta leve",
+                    "en": "minor fault"
+                  }
+                ],
+                "src": "RGCond anexo VI, C.3"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "Hay tres pruebas: **psicofísica**, **teórico** y **práctico**; son **eliminatorias**.",
+          "en": "There are three tests: **medical**, **theory** and **practical**; they are **eliminatory**."
+        },
+        {
+          "es": "El teórico tiene **30 a 50 preguntas**, **1 minuto** por pregunta y **10 %** de errores como máximo (redondeo hacia arriba).",
+          "en": "The theory test has **30 to 50 questions**, **1 minute** per question and a maximum of **10%** errors (rounded up)."
+        },
+        {
+          "es": "Cada aprobado vale **dos años**; cada solicitud da **dos convocatorias**.",
+          "en": "Each pass is valid for **two years**; each application gives **two sittings**."
+        },
+        {
+          "es": "El aprendizaje se hace en una **escuela de conductores** autorizada.",
+          "en": "Learning takes place at an authorized **driving school**."
+        },
+        {
+          "es": "En vías abiertas: **no apto** con una eliminatoria, dos deficientes, una deficiente y cinco leves, o diez leves.",
+          "en": "On open roads: **fail** with one disqualifying fault, two serious, one serious and five minor, or ten minor."
+        }
+      ],
+      "covers": [
+        "docs-03"
+      ],
+      "src": [
+        "Reglamento General de Conductores (RD 818/2009), arts. 41, 43, 49, 51, 53, 55 y 58, y anexos V y VI"
+      ]
+    }
+  ]
+}

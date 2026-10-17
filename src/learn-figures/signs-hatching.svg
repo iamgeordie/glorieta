@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 240" focusable="false">
+  <rect class="f-grass" x="0" y="0" width="360" height="240"/>
+  <rect class="f-road" x="32" y="0" width="96" height="240"/>
+  <path class="f-line" d="M36 0 V240 M124 0 V240"/>
+  <path class="f-line f-dash" d="M80 0 V40 M80 200 V240"/>
+  <path class="f-line" d="M77 40 L58 105 L58 135 L77 200 L83 200 L102 135 L102 105 L83 40 Z"/>
+  <path class="f-line" d="M72 58 L84.5 45.5 M67 75 L87 55 M62 92 L90 64 M58 108 L92.5 73.5 M58 120 L95 83 M58 132 L98 92 M60.5 141.5 L100.5 101.5 M63 151 L102 112 M65.5 160.5 L102 124 M68.5 169.5 L101.5 136.5 M71 179 L96.5 153.5 M74 188 L91.5 170.5 M76.5 197.5 L86.5 187.5"/>
+  <use href="#v-car" class="f-me" transform="translate(110 190)"/>
+  <use href="#v-car" class="f-other" transform="translate(56 40) rotate(180)"/>
+  <circle class="f-badge" cx="24" cy="24" r="10"/><text class="f-badge-text" x="24" y="24">1</text>
+  <rect class="f-road" x="238" y="0" width="64" height="240"/>
+  <rect class="f-road" x="190" y="88" width="170" height="64"/>
+  <path class="f-line f-dash" d="M270 0 V88 M270 152 V240"/>
+  <path class="f-line f-dash" d="M190 120 H238 M302 120 H360"/>
+  <path class="f-path-plain" d="M238 88 H302 V152 H238 Z M238 109.33333333333333 L259.3333333333333 88 M238 130.66666666666666 L259.3333333333333 152 M238 130.66666666666666 L280.6666666666667 88 M238 109.33333333333334 L280.6666666666667 152 M238 152 L302 88 M238 88 L302 152 M259.3333333333333 152 L302 109.33333333333333 M259.3333333333333 88 L302 130.66666666666669 M280.66666666666663 152 L302 130.66666666666666 M280.66666666666663 88 L302 109.33333333333334 M302 152 L302 152 M302 88 L302 88.00000000000001"/>
+  <use href="#v-car" class="f-me" transform="translate(286 196)"/>
+  <use href="#v-car" class="f-neutral" transform="translate(286 62)"/>
+  <use href="#v-car" class="f-neutral" transform="translate(286 18)"/>
+  <circle class="f-badge" cx="214" cy="24" r="10"/><text class="f-badge-text" x="214" y="24">2</text>
+</svg>

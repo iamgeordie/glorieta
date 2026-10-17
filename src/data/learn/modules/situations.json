@@ -1,0 +1,2671 @@
+{
+  "id": "situations",
+  "title": {
+    "es": "Parada, estacionamiento, autopistas y túneles",
+    "en": "Stopping, parking, motorways and tunnels"
+  },
+  "blurb": {
+    "es": "Parar o estacionar, autopistas, túneles y pasos a nivel: qué prohíbe la ley y qué debes hacer.",
+    "en": "Stopping or parking, motorways, tunnels and level crossings: what the law bans and what you should do."
+  },
+  "lessons": [
+    {
+      "id": "stop-or-park",
+      "title": {
+        "es": "Parar o estacionar",
+        "en": "Stopping or parking"
+      },
+      "minutes": 6,
+      "goals": [
+        {
+          "es": "Distinguir una detención, una parada y un estacionamiento.",
+          "en": "Tell a halt, a stop and parking apart."
+        },
+        {
+          "es": "Saber que donde no puedes parar tampoco puedes estacionar.",
+          "en": "Know that where you cannot stop you cannot park either."
+        },
+        {
+          "es": "Reconocer los lugares donde está prohibido parar.",
+          "en": "Recognize the places where stopping is banned."
+        }
+      ],
+      "terms": [
+        {
+          "es": "parada",
+          "en": "stop (under two minutes, driver stays)"
+        },
+        {
+          "es": "estacionamiento",
+          "en": "parking"
+        },
+        {
+          "es": "detención",
+          "en": "halt (forced or required stop)"
+        },
+        {
+          "es": "calzada",
+          "en": "roadway"
+        },
+        {
+          "es": "arcén",
+          "en": "shoulder"
+        },
+        {
+          "es": "acera",
+          "en": "sidewalk"
+        },
+        {
+          "es": "paso a nivel",
+          "en": "level crossing"
+        }
+      ],
+      "pretest": {
+        "id": "situations-pre-1",
+        "answer": 1,
+        "es": {
+          "q": "Quieres dejar bajar a un pasajero justo en un paso de peatones, sin salir del coche. ¿Puedes parar ahí?",
+          "options": [
+            "Sí, si el paso está vacío",
+            "No: parar en un paso de peatones está prohibido",
+            "Sí, si pones la luz de emergencia"
+          ],
+          "why": "Está prohibido parar en los pasos para peatones. Si no se puede parar, tampoco se puede estacionar."
+        },
+        "en": {
+          "q": "You want to let a passenger out right on a pedestrian crossing, without leaving the car. May you stop there?",
+          "options": [
+            "Yes, if the crossing is empty",
+            "No: stopping on a pedestrian crossing is banned",
+            "Yes, if you turn on the hazard lights"
+          ],
+          "why": "Stopping on pedestrian crossings is banned. Where you cannot stop, you cannot park either."
+        },
+        "src": "RGC art. 94.1.b"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Detención, parada y estacionamiento",
+            "en": "Halt, stop and parking"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "La ley distingue **tres** formas de estar inmovilizado. Importa cuál es, porque las prohibiciones no son las mismas.",
+                "en": "The law separates **three** ways of being immobile. It matters which one you are in, because the bans are not the same."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "**Parada**: inmovilizar el vehículo menos de **dos minutos**, sin que el conductor pueda abandonarlo. **Estacionamiento**: toda inmovilización que no sea detención ni parada.",
+                "en": "**Stop** (parada): immobilizing the vehicle for less than **two minutes**, without the driver being able to leave it. **Parking** (estacionamiento): any immobilization that is not a halt or a stop."
+              },
+              "src": "LSV Anexo I, definiciones 81 y 82"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "**Detención**: inmovilizar el vehículo por una emergencia, por necesidades de la circulación o para cumplir una norma.",
+                "en": "**Halt** (detención): immobilizing the vehicle because of an emergency, the needs of traffic, or to obey a rule."
+              },
+              "src": "LSV Anexo I, definición 80"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Un semáforo en rojo es una detención. En una parada no puedes abandonar el coche. Si te alejas de él, aunque sea un minuto, es un estacionamiento.",
+                "en": "A red light is a halt. In a stop you cannot leave the car. If you walk away from it, even for a minute, it is parking."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c1a",
+                "answer": 1,
+                "es": {
+                  "q": "Dejas el coche delante de una panadería y entras 30 segundos a comprar pan. ¿Qué es, legalmente?",
+                  "options": [
+                    "Una parada, porque dura menos de dos minutos",
+                    "Un estacionamiento, porque abandonas el vehículo",
+                    "Una detención, porque es muy breve"
+                  ],
+                  "why": "En una parada el conductor no puede abandonar el vehículo. Si te alejas, aunque sea medio minuto, es un estacionamiento."
+                },
+                "en": {
+                  "q": "You leave your car in front of a bakery and go in for 30 seconds to buy bread. What is it, legally?",
+                  "options": [
+                    "A stop, because it lasts under two minutes",
+                    "Parking, because you leave the vehicle",
+                    "A halt, because it is so brief"
+                  ],
+                  "why": "In a stop the driver cannot leave the vehicle. If you walk away, even for half a minute, it is parking."
+                },
+                "terms": [
+                  {
+                    "es": "parada",
+                    "en": "stop"
+                  },
+                  {
+                    "es": "estacionamiento",
+                    "en": "parking"
+                  }
+                ],
+                "src": "LSV Anexo I, definiciones 80 a 82"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Donde no puedes parar, no puedes estacionar",
+            "en": "Where you cannot stop, you cannot park"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Queda prohibido **estacionar** en todos los lugares donde está prohibido **parar**. Además, hay sitios donde solo se prohíbe estacionar.",
+                "en": "It is banned to **park** in every place where it is banned to **stop**. There are also places where only parking is banned."
+              },
+              "src": "RGC art. 94.2"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Por eso hay dos señales distintas:",
+                "en": "That is why there are two different signs:"
+              }
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "r-307",
+                "r-308"
+              ],
+              "caption": {
+                "es": "R-307 prohíbe parar y estacionar. R-308 solo prohíbe estacionar: no prohíbe la parada.",
+                "en": "R-307 bans stopping and parking. R-308 bans only parking: it does not ban stopping."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "La prohibición vale en el **lado de la calzada** donde está la señal. Salvo que se indique otra cosa, empieza en la señal y termina en la intersección más próxima.",
+                "en": "The ban applies on the **side of the roadway** where the sign stands. Unless stated otherwise, it starts at the sign and ends at the nearest intersection."
+              },
+              "src": "RGC Anexo I, ap. 5.1 (R-307 y R-308)"
+            },
+            {
+              "t": "us",
+              "text": {
+                "es": "Muchas señales de EE. UU. hacen una distinción parecida: «No Parking» suele permitir parar un momento y «No Stopping» no.",
+                "en": "Many US signs make a similar split: “No Parking” usually lets you stop briefly, “No Stopping” does not."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c1b",
+                "answer": 0,
+                "es": {
+                  "q": "Hay una señal «Estacionamiento prohibido» (R-308). Quieres dejar bajar a un pasajero y tú te quedas al volante. ¿Puedes parar?",
+                  "options": [
+                    "Sí: esa señal prohíbe estacionar, no parar",
+                    "No: cualquier inmovilización está prohibida",
+                    "Sí, pero solo si apagas el motor"
+                  ],
+                  "why": "La señal R-308 prohíbe estacionar, pero no prohíbe la parada. La señal R-307 sí prohíbe las dos cosas."
+                },
+                "en": {
+                  "q": "There is a “No parking” sign (R-308). You want to let a passenger out and you stay at the wheel. May you stop?",
+                  "options": [
+                    "Yes: that sign bans parking, not stopping",
+                    "No: any kind of immobilization is banned",
+                    "Yes, but only if you switch off the engine"
+                  ],
+                  "why": "Sign R-308 bans parking, but it does not ban stopping. Sign R-307 bans both."
+                },
+                "terms": [
+                  {
+                    "es": "estacionamiento prohibido",
+                    "en": "no parking"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1 (R-308)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Pasos, curvas, túneles y carriles reservados",
+            "en": "Crossings, curves, tunnels and reserved lanes"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "En algunos lugares, parar crea un peligro o un bloqueo. En todos ellos tampoco puedes estacionar.",
+                "en": "In some places, stopping creates a danger or a blockage. In all of them you cannot park either."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Queda prohibido parar en **curvas y cambios de rasante** de poca visibilidad, cerca de ellos, y en los **túneles**.",
+                "en": "Stopping is banned on **curves and hill crests** with poor visibility, near them, and in **tunnels**."
+              },
+              "src": "RGC art. 94.1.a"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Queda prohibido parar en **pasos a nivel**, **pasos para ciclistas** y **pasos para peatones**.",
+                "en": "Stopping is banned on **level crossings**, **bicycle crossings** and **pedestrian crossings**."
+              },
+              "src": "RGC art. 94.1.b"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Queda prohibido parar en los carriles **reservados** a ciertos usuarios, como los de autobuses o bicicletas.",
+                "en": "Stopping is banned in lanes **reserved** for certain users, such as bus or bicycle lanes."
+              },
+              "src": "RGC art. 94.1.c y h"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Queda prohibido parar sobre los **raíles del tranvía** o tan cerca que lo estorbes.",
+                "en": "Stopping is banned on **tram rails** or so close that you get in the tram’s way."
+              },
+              "src": "RGC art. 94.1.e"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c1c",
+                "answer": 1,
+                "es": {
+                  "q": "Un carril está reservado solo para autobuses. Quieres parar medio minuto para dejar bajar a un pasajero. ¿Puedes?",
+                  "options": [
+                    "Sí, parar es algo breve",
+                    "No: está prohibido parar en carriles reservados",
+                    "Sí, si no pasa ningún autobús"
+                  ],
+                  "why": "En los carriles reservados exclusivamente a ciertos usuarios está prohibido parar, aunque sea un momento."
+                },
+                "en": {
+                  "q": "A lane is reserved for buses only. You want to stop for half a minute to let a passenger out. May you?",
+                  "options": [
+                    "Yes, stopping is brief",
+                    "No: stopping in reserved lanes is banned",
+                    "Yes, if no bus is coming"
+                  ],
+                  "why": "Stopping is banned in lanes reserved exclusively for certain users, even for a moment."
+                },
+                "terms": [
+                  {
+                    "es": "carril reservado",
+                    "en": "reserved lane"
+                  }
+                ],
+                "src": "RGC art. 94.1.c y h"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Cruces, señales tapadas y paradas de autobús",
+            "en": "Junctions, hidden signs and bus stops"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "No pares en una **intersección** ni cerca de ella si dificultas el giro de otros vehículos. Fuera de poblado, tampoco si creas peligro por falta de visibilidad.",
+                "en": "Do not stop in a **junction** or near it if you make it harder for other vehicles to turn. Outside towns, also not if you create a danger by blocking the view."
+              },
+              "src": "RGC art. 94.1.d"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Tampoco pares donde **tapes una señal** a quienes les afecta. Tampoco en zonas de uso exclusivo del transporte público urbano o de personas con discapacidad.",
+                "en": "Also do not stop where you **hide a sign** from the drivers it applies to. Nor in zones used exclusively by urban public transport or by people with disabilities."
+              },
+              "src": "RGC art. 94.1.f, i y j"
+            },
+            {
+              "t": "figure",
+              "file": "situations-forbidden-stops",
+              "alt": {
+                "es": "Plano de una calle con un paso de peatones y un cruce. Tres coches rojos están aparcados en zonas con sombra roja y un coche verde está en un hueco permitido.",
+                "en": "Plan of a street with a pedestrian crossing and a junction. Three red cars are parked in red-shaded zones and a green car is in a permitted space."
+              },
+              "caption": {
+                "es": "Las zonas rojas son lugares donde no puedes parar ni estacionar. La zona verde es un hueco permitido.",
+                "en": "The red zones are places where you may not stop or park. The green zone is a permitted space."
+              },
+              "legend": [
+                {
+                  "mark": "A",
+                  "text": {
+                    "es": "Paso de peatones: prohibido parar.",
+                    "en": "Pedestrian crossing: no stopping."
+                  }
+                },
+                {
+                  "mark": "B",
+                  "text": {
+                    "es": "Esquina de un cruce: prohibido parar si estorbas el giro de otros.",
+                    "en": "Corner of a junction: no stopping if you block other drivers’ turns."
+                  }
+                },
+                {
+                  "mark": "C",
+                  "text": {
+                    "es": "Parada de autobús (zigzag amarillo): zona del transporte público.",
+                    "en": "Bus stop (yellow zigzag): public transport zone."
+                  }
+                },
+                {
+                  "mark": "D",
+                  "text": {
+                    "es": "Hueco junto al borde derecho: puedes estacionar si ninguna señal lo prohíbe.",
+                    "en": "Space by the right edge: you may park if no sign forbids it."
+                  }
+                }
+              ]
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c1d",
+                "answer": 2,
+                "es": {
+                  "q": "Quieres parar un momento en la esquina de un cruce y tu coche estorba el giro de otros vehículos. ¿Puedes?",
+                  "options": [
+                    "Sí, parar un momento siempre se permite",
+                    "Sí, si dejas puesta la luz de emergencia",
+                    "No: está prohibido parar si dificultas el giro de otros"
+                  ],
+                  "why": "En las intersecciones y cerca de ellas está prohibido parar si se dificulta el giro a otros vehículos."
+                },
+                "en": {
+                  "q": "You want to stop for a moment at the corner of a junction and your car blocks other vehicles from turning. May you?",
+                  "options": [
+                    "Yes, a brief stop is always allowed",
+                    "Yes, if you leave the hazard lights on",
+                    "No: stopping is banned if you make others’ turns harder"
+                  ],
+                  "why": "In junctions and near them, stopping is banned if it makes it harder for other vehicles to turn."
+                },
+                "terms": [
+                  {
+                    "es": "intersección",
+                    "en": "junction"
+                  }
+                ],
+                "src": "RGC art. 94.1.d"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "**Parada**: menos de dos minutos y el conductor no puede abandonar el coche. Si te alejas, es estacionamiento.",
+          "en": "**Stop**: under two minutes and the driver cannot leave the car. If you walk away, it is parking."
+        },
+        {
+          "es": "**Detención**: te inmovilizas por una emergencia, por el tráfico o por una norma, como un semáforo en rojo.",
+          "en": "**Halt**: you are immobilized by an emergency, by traffic or by a rule, such as a red light."
+        },
+        {
+          "es": "Donde está prohibido **parar**, también está prohibido **estacionar**.",
+          "en": "Where **stopping** is banned, **parking** is banned too."
+        },
+        {
+          "es": "**R-308** prohíbe estacionar pero no parar. **R-307** prohíbe las dos cosas.",
+          "en": "**R-308** bans parking but not stopping. **R-307** bans both."
+        },
+        {
+          "es": "No pares en pasos de peatones, pasos a nivel, curvas de poca visibilidad, túneles, carriles reservados ni donde estorbes un giro.",
+          "en": "Do not stop on pedestrian crossings, level crossings, curves with poor visibility, tunnels, reserved lanes, or where you block a turn."
+        }
+      ],
+      "src": [
+        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), Anexo I (definiciones 80 a 82) y art. 40",
+        "Reglamento General de Circulación (RD 1428/2003), art. 94; Anexo I, ap. 5.1 (R-307 y R-308)"
+      ]
+    },
+    {
+      "id": "parking-well",
+      "title": {
+        "es": "Aparcar bien",
+        "en": "Parking properly"
+      },
+      "minutes": 7,
+      "goals": [
+        {
+          "es": "Colocar el coche bien, dentro y fuera de poblado.",
+          "en": "Place the car correctly, in town and outside it."
+        },
+        {
+          "es": "Dejar el coche asegurado, también en una cuesta.",
+          "en": "Leave the car secured, including on a slope."
+        },
+        {
+          "es": "Evitar los sitios donde está prohibido estacionar.",
+          "en": "Avoid the places where parking is banned."
+        },
+        {
+          "es": "Entender las líneas amarillas y las señales de estacionamiento.",
+          "en": "Understand yellow lines and parking signs."
+        }
+      ],
+      "terms": [
+        {
+          "es": "vado",
+          "en": "driveway (curb cut)"
+        },
+        {
+          "es": "doble fila",
+          "en": "double parking"
+        },
+        {
+          "es": "freno de estacionamiento",
+          "en": "parking brake"
+        },
+        {
+          "es": "bordillo",
+          "en": "curb"
+        },
+        {
+          "es": "grúa",
+          "en": "tow truck"
+        },
+        {
+          "es": "carga y descarga",
+          "en": "loading zone"
+        },
+        {
+          "es": "marcha atrás",
+          "en": "reverse gear"
+        }
+      ],
+      "pretest": {
+        "id": "situations-pre-2",
+        "answer": 2,
+        "es": {
+          "q": "Dejas un coche con cambio manual aparcado en una cuesta de bajada. ¿Qué marcha dejas puesta?",
+          "options": [
+            "Punto muerto",
+            "Primera",
+            "Marcha atrás"
+          ],
+          "why": "En una cuesta de bajada se deja la marcha atrás, y en una de subida la primera, además del freno de estacionamiento."
+        },
+        "en": {
+          "q": "You park a manual-transmission car on a downhill slope. Which gear do you leave it in?",
+          "options": [
+            "Neutral",
+            "First",
+            "Reverse"
+          ],
+          "why": "On a downhill slope you leave it in reverse, and on an uphill slope in first, as well as the parking brake."
+        },
+        "src": "RGC art. 92.3.c"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Dónde y cómo colocar el coche",
+            "en": "Where and how to place the car"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Fuera de poblado, para o estaciona **fuera de la calzada**, en el lado derecho. Deja libre la parte transitable del arcén.",
+                "en": "Outside towns, stop or park **off the roadway**, on the right side. Leave the usable part of the shoulder free."
+              },
+              "src": "RGC art. 90.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "En poblado, si lo dejas en la calzada o en el arcén, ponlo **lo más cerca posible del borde derecho**. En una calle de un solo sentido también puedes usar el lado izquierdo.",
+                "en": "In a town, if you have to leave it on the roadway or the shoulder, put it **as close as possible to the right edge**. On a one-way street you may also use the left side."
+              },
+              "src": "RGC art. 90.2"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Coloca el vehículo **paralelo al borde de la calzada**, salvo que la vía o las circunstancias aconsejen otra posición. Aprovecha bien el espacio que queda.",
+                "en": "Place the vehicle **parallel to the edge of the roadway**, unless the road or the circumstances call for another position. Make good use of the space left."
+              },
+              "src": "RGC art. 92.1 y 92.2"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Las **líneas de estacionamiento** pintadas en el suelo delimitan cada plaza y la forma de ocuparla.",
+                "en": "The **parking lines** painted on the road mark each space and how to fill it."
+              },
+              "src": "RGC Anexo I, ap. 5.2 (M-7.3 y M-7.4)"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "En poblado, cada ayuntamiento fija por ordenanza los horarios y los pagos. Aquí solo tienes las reglas nacionales.",
+                "en": "In towns, each council sets hours and payment by local ordinance. Here you only get the national rules."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c2a",
+                "answer": 2,
+                "es": {
+                  "q": "Fuera de poblado quieres dejar el coche aparcado. ¿Dónde debes ponerlo?",
+                  "options": [
+                    "En el lado izquierdo de la calzada, si hay poco tráfico",
+                    "Sobre la calzada, lo más cerca posible del borde derecho",
+                    "Fuera de la calzada, a la derecha, sin ocupar el arcén transitable"
+                  ],
+                  "why": "Fuera de poblado se para o se estaciona fuera de la calzada, en el lado derecho, y se deja libre la parte transitable del arcén."
+                },
+                "en": {
+                  "q": "Outside a town you want to leave your car parked. Where must you put it?",
+                  "options": [
+                    "On the left side of the roadway, if traffic is light",
+                    "On the roadway, as close as possible to the right edge",
+                    "Off the roadway, on the right, not blocking the usable shoulder"
+                  ],
+                  "why": "Outside towns you stop or park off the roadway, on the right side, leaving the usable part of the shoulder free."
+                },
+                "terms": [
+                  {
+                    "es": "arcén transitable",
+                    "en": "usable shoulder"
+                  }
+                ],
+                "src": "RGC art. 90.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Deja tres metros libres",
+            "en": "Leave three meters free"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Es peligroso parar o estacionar si quedan **menos de tres metros** libres. Se mide hasta el borde opuesto de la calzada o hasta una marca que prohíbe cruzarla. También lo es si no pasan otros vehículos.",
+                "en": "It is dangerous to stop or park if **less than three meters** remain free. This is measured to the opposite edge of the roadway or to a marking that bans crossing it. It is also dangerous if other vehicles cannot get past."
+              },
+              "src": "RGC art. 91.2.a"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Una **línea continua** significa que ningún conductor debe atravesarla ni circular sobre ella, salvo en los casos que fija el reglamento.",
+                "en": "A **solid line** means that no driver may cross it or drive on it, except in the cases the regulation sets."
+              },
+              "src": "RGC Anexo I, ap. 5.2 (M-2.1 a M-2.3)"
+            },
+            {
+              "t": "figure",
+              "file": "situations-three-meters",
+              "alt": {
+                "es": "Dos calles con una línea continua en el centro y tres coches aparcados a la derecha. En la calle 1 queda un espacio amplio hasta la línea y pasa un coche naranja. En la calle 2 el espacio es mucho menor.",
+                "en": "Two streets with a solid line in the center and three cars parked on the right. In street 1 a wide gap is left up to the line and an orange car passes. In street 2 the gap is much smaller."
+              },
+              "caption": {
+                "es": "Entre tu coche y la línea continua deben quedar al menos tres metros. La zona verde es sitio suficiente; la roja, no.",
+                "en": "Between your car and the solid line at least three meters must remain. The green zone is enough room; the red one is not."
+              },
+              "legend": [
+                {
+                  "mark": "1",
+                  "text": {
+                    "es": "Quedan tres metros o más: el tráfico puede pasar.",
+                    "en": "Three meters or more are left: traffic can pass."
+                  }
+                },
+                {
+                  "mark": "2",
+                  "text": {
+                    "es": "Quedan menos de tres metros: estacionamiento peligroso.",
+                    "en": "Less than three meters are left: dangerous parking."
+                  }
+                }
+              ]
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c2b",
+                "answer": 1,
+                "es": {
+                  "q": "En una calle con línea continua en el centro aparcas a la derecha y quedan 2 metros libres hasta la línea. ¿Es correcto?",
+                  "options": [
+                    "Sí, queda sitio para que pase un coche pequeño",
+                    "No: se considera peligroso si quedan menos de tres metros",
+                    "Sí, si pones la luz de emergencia"
+                  ],
+                  "why": "Si entre tu coche y el borde opuesto o una línea que prohíbe cruzar quedan menos de tres metros, el estacionamiento se considera peligroso."
+                },
+                "en": {
+                  "q": "On a street with a solid line down the middle you park on the right and 2 meters remain free up to the line. Is that correct?",
+                  "options": [
+                    "Yes, a small car can still get past",
+                    "No: it counts as dangerous if less than three meters remain",
+                    "Yes, if you turn on the hazard lights"
+                  ],
+                  "why": "If less than three meters remain between your car and the opposite edge or a line that bans crossing, the parking counts as dangerous."
+                },
+                "terms": [
+                  {
+                    "es": "línea continua",
+                    "en": "solid line"
+                  }
+                ],
+                "src": "RGC art. 91.2.a"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Asegura el coche antes de dejarlo",
+            "en": "Secure the car before you leave it"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si dejas tu puesto, **para el motor** y desconecta el sistema de arranque. Si te alejas, evita que otra persona use el vehículo sin permiso.",
+                "en": "If you leave your seat, **switch off the engine** and disconnect the starting system. If you walk away, prevent anyone else from using the vehicle without permission."
+              },
+              "src": "RGC art. 92.3.a"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Deja puesto el **freno de estacionamiento**. En una cuesta de subida deja la **primera** marcha; en una de bajada, la **marcha atrás**. Si el coche es automático, deja la posición de estacionamiento.",
+                "en": "Leave the **parking brake** on. On an uphill slope leave it in **first** gear; on a downhill slope, in **reverse**. If the car is an automatic, leave it in the parking position."
+              },
+              "src": "RGC art. 92.3.b y 92.3.c"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Un vehículo de masa máxima autorizada superior a **3.500 kg**, un autobús o un conjunto de vehículos debe quedar además **calzado**. Es obligatorio en una cuesta notable.",
+                "en": "A vehicle with a maximum authorized mass over **3,500 kg**, a bus or a vehicle combination must also be **chocked**. This is required on a noticeable slope."
+              },
+              "src": "RGC art. 92.3.d"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Se calza con calzos (no con piedras) o apoyando una rueda directriz en el bordillo. Si usas el bordillo, gira las ruedas hacia el centro de la calzada en subida y hacia fuera en bajada.",
+                "en": "You chock it with wheel chocks (not stones) or by resting a steering wheel against the curb. If you use the curb, turn the wheels toward the center of the road uphill and outward downhill."
+              },
+              "src": "RGC art. 92.3.d"
+            },
+            {
+              "t": "us",
+              "text": {
+                "es": "En EE. UU. se suele enseñar a girar las ruedas hacia el bordillo o en sentido contrario, según la cuesta. Aquí el artículo pide freno y marcha a un coche, y el giro de ruedas solo a los vehículos pesados.",
+                "en": "In the US you are usually taught to turn the wheels toward or away from the curb, depending on the slope. Here the article asks a car for the brake and a gear, and wheel-turning only for heavy vehicles."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c2c",
+                "answer": 0,
+                "es": {
+                  "q": "Dejas un coche de cambio manual aparcado en una cuesta de subida. ¿Qué marcha dejas puesta, además del freno de estacionamiento?",
+                  "options": [
+                    "Primera",
+                    "Marcha atrás",
+                    "Punto muerto"
+                  ],
+                  "why": "En una pendiente de subida se deja la primera marcha y en una de bajada la marcha atrás, junto con el freno de estacionamiento."
+                },
+                "en": {
+                  "q": "You park a manual-transmission car on an uphill slope. Which gear do you leave it in, besides the parking brake?",
+                  "options": [
+                    "First",
+                    "Reverse",
+                    "Neutral"
+                  ],
+                  "why": "On an uphill slope you leave first gear and on a downhill slope reverse, together with the parking brake."
+                },
+                "terms": [
+                  {
+                    "es": "freno de estacionamiento",
+                    "en": "parking brake"
+                  },
+                  {
+                    "es": "pendiente",
+                    "en": "slope"
+                  }
+                ],
+                "src": "RGC art. 92.3.b y 92.3.c"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Lo que no debes bloquear",
+            "en": "What you must not block"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Queda prohibido estacionar sobre las **aceras** y zonas de peatones, **delante de un vado** señalizado y en **doble fila**. Los ayuntamientos pueden regular por ordenanza el estacionamiento de los vehículos de dos ruedas en las aceras, si no estorban a los peatones.",
+                "en": "Parking is banned on **sidewalks** and other pedestrian areas, **in front of a marked driveway** and **double parked**. Councils may regulate by ordinance the parking of two-wheeled vehicles on sidewalks, if they do not get in pedestrians’ way."
+              },
+              "src": "RGC art. 94.2.e, f y g; LSV art. 40.2"
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "r-308e"
+              ],
+              "caption": {
+                "es": "R-308e prohíbe estacionar delante de un vado.",
+                "en": "R-308e bans parking in front of a driveway (vado)."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Es peligroso parar o estacionar si obstaculizas la entrada o salida de un inmueble o de un vado señalizado. También si obstaculizas los pasos rebajados para personas con discapacidad, o la salida de otro vehículo bien aparcado.",
+                "en": "It is dangerous to stop or park if you obstruct the entrance or exit of a building or of a properly marked driveway. The same goes if you obstruct the lowered curbs for people with disabilities, or the exit of another properly parked vehicle."
+              },
+              "src": "RGC art. 91.2.b, c y d"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si el obligado no lo retira, la autoridad de tráfico puede **retirar el vehículo** cuando es un peligro, causa graves perturbaciones a la circulación o la obstaculiza. Salvo robo u otro uso sin permiso del titular, los gastos los paga el titular, el arrendatario o el conductor habitual, según el caso.",
+                "en": "If the person obliged does not remove it, the traffic authority may **remove the vehicle** when it is a danger, seriously disrupts traffic or obstructs it. Except in cases of theft or other use without the owner’s permission, the owner, the lessee or the usual driver pays the costs, as the case may be."
+              },
+              "src": "LSV art. 105.1.a, h y 105.2"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c2d",
+                "answer": 2,
+                "es": {
+                  "q": "Pones el coche en doble fila con la luz de emergencia y te vas cinco minutos. ¿Es correcto?",
+                  "options": [
+                    "Sí, la luz de emergencia lo permite",
+                    "Sí, si son menos de diez minutos",
+                    "No: estacionar en doble fila está prohibido"
+                  ],
+                  "why": "Estacionar en doble fila está prohibido. El artículo no menciona ninguna excepción por la duración ni por la luz de emergencia."
+                },
+                "en": {
+                  "q": "You put your car in a second row with the hazard lights on and walk away for five minutes. Is that correct?",
+                  "options": [
+                    "Yes, the hazard lights make it allowed",
+                    "Yes, if it is under ten minutes",
+                    "No: double parking is banned"
+                  ],
+                  "why": "Double parking is banned. The article mentions no exception for its length or for hazard lights."
+                },
+                "terms": [
+                  {
+                    "es": "doble fila",
+                    "en": "double parking"
+                  },
+                  {
+                    "es": "luz de emergencia",
+                    "en": "hazard lights"
+                  }
+                ],
+                "src": "RGC art. 94.2.g"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Líneas y señales de estacionamiento",
+            "en": "Parking lines and signs"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Una línea **amarilla continua** junto al bordillo prohíbe **parar y estacionar**. A veces solo lo limita en ciertos momentos, que indica una señal vertical.",
+                "en": "A **solid yellow** line along the curb bans **stopping and parking**. Sometimes it only restricts them at certain times, shown on a vertical sign."
+              },
+              "src": "RGC Anexo I, ap. 5.2 (M-7.8)"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Una línea **amarilla discontinua** prohíbe **estacionar**, o lo limita en ciertos momentos, que indica una señal vertical. El **zigzag amarillo** también prohíbe estacionar: se usa sobre todo en paradas de autobús y zonas de carga y descarga.",
+                "en": "A **dashed yellow** line bans **parking**, or restricts it at certain times, shown on a vertical sign. The **yellow zigzag** also bans parking: it is used mostly at bus stops and loading zones."
+              },
+              "src": "RGC Anexo I, ap. 5.2 (M-7.7 y M-7.9)"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "En una zona de estacionamiento limitado, coloca el **distintivo** que lo autoriza y no pases del tiempo máximo.",
+                "en": "In a limited-parking zone, display the **permit or ticket** that allows it and do not exceed the maximum time."
+              },
+              "src": "RGC art. 94.2.b"
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "r-309",
+                "r-504",
+                "r-308c",
+                "r-308d"
+              ],
+              "caption": {
+                "es": "R-309 marca una zona de estacionamiento limitado y R-504 el lugar donde termina. R-308c y R-308d prohíben estacionar según la quincena.",
+                "en": "R-309 marks a limited-parking zone and R-504 where it ends. R-308c and R-308d ban parking depending on the half of the month."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "**R-308c** prohíbe estacionar desde las 9:00 del día 1 hasta las 9:00 del día 16. **R-308d** lo prohíbe desde las 9:00 del día 16 hasta las 9:00 del día 1.",
+                "en": "**R-308c** bans parking from 9:00 on the 1st until 9:00 on the 16th. **R-308d** bans it from 9:00 on the 16th until 9:00 on the 1st."
+              },
+              "src": "RGC Anexo I, ap. 5.1 (R-308c y R-308d)"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c2e",
+                "answer": 1,
+                "es": {
+                  "q": "Junto al bordillo hay una línea amarilla discontinua. ¿Qué significa?",
+                  "options": [
+                    "Está prohibido parar y estacionar",
+                    "Está prohibido estacionar",
+                    "El estacionamiento es libre y gratuito"
+                  ],
+                  "why": "La línea amarilla discontinua prohíbe estacionar, o lo limita en ciertos momentos que indica una señal. La continua prohíbe además parar."
+                },
+                "en": {
+                  "q": "There is a dashed yellow line along the curb. What does it mean?",
+                  "options": [
+                    "Stopping and parking are banned",
+                    "Parking is banned",
+                    "Parking is free and unrestricted"
+                  ],
+                  "why": "A dashed yellow line bans parking, or restricts it at certain times shown on a sign. A solid one also bans stopping."
+                },
+                "terms": [
+                  {
+                    "es": "línea amarilla",
+                    "en": "yellow line"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.2 (M-7.7 y M-7.8)"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "Fuera de poblado, aparca **fuera de la calzada**, a la derecha. En poblado, **lo más cerca del borde derecho**.",
+          "en": "Outside towns, park **off the roadway**, on the right. In towns, **as close to the right edge as possible**."
+        },
+        {
+          "es": "Deja **tres metros** libres hasta la línea continua o el borde opuesto.",
+          "en": "Leave **three meters** free up to the solid line or the opposite edge."
+        },
+        {
+          "es": "Motor parado, **freno de estacionamiento** y marcha: **primera** en subida, **marcha atrás** en bajada.",
+          "en": "Engine off, **parking brake** on, and a gear: **first** uphill, **reverse** downhill."
+        },
+        {
+          "es": "No estaciones en aceras, **delante de un vado** ni en **doble fila**. La grúa puede retirarte.",
+          "en": "Do not park on sidewalks, **in front of a driveway** or **double parked**. A tow truck can remove you."
+        },
+        {
+          "es": "Amarilla continua: no parar ni estacionar. **Discontinua**: no estacionar. **R-309**: zona de estacionamiento limitado.",
+          "en": "Solid yellow: no stopping or parking. **Dashed**: no parking. **R-309**: limited-parking zone."
+        }
+      ],
+      "covers": [
+        "situations-04"
+      ],
+      "src": [
+        "Reglamento General de Circulación (RD 1428/2003), arts. 90, 91, 92 y 94; Anexo I, ap. 5.1 (R-308c, R-308d y R-309) y ap. 5.2 (M-2.1 a M-2.3, M-7.3, M-7.4 y M-7.7 a M-7.9)",
+        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), arts. 39, 40 y 105"
+      ]
+    },
+    {
+      "id": "motorways",
+      "title": {
+        "es": "Autopistas y autovías",
+        "en": "Motorways and dual carriageways"
+      },
+      "minutes": 8,
+      "goals": [
+        {
+          "es": "Reconocer dónde empiezan las reglas de las autopistas y qué está prohibido en ellas.",
+          "en": "Recognize where motorway rules start and what is banned there."
+        },
+        {
+          "es": "Incorporarte por el carril de aceleración y salir por el de deceleración.",
+          "en": "Merge from the acceleration lane and leave by the deceleration lane."
+        },
+        {
+          "es": "Circular por el carril adecuado y a la velocidad mínima exigida.",
+          "en": "Drive in the right lane and at the minimum speed required."
+        },
+        {
+          "es": "Saber qué hacer si te pasas la salida.",
+          "en": "Know what to do if you miss your exit."
+        }
+      ],
+      "terms": [
+        {
+          "es": "autopista",
+          "en": "motorway"
+        },
+        {
+          "es": "autovía",
+          "en": "dual carriageway (freeway)"
+        },
+        {
+          "es": "carril de aceleración",
+          "en": "acceleration lane"
+        },
+        {
+          "es": "carril de deceleración",
+          "en": "deceleration lane"
+        },
+        {
+          "es": "incorporarse",
+          "en": "to merge"
+        },
+        {
+          "es": "salida",
+          "en": "exit"
+        }
+      ],
+      "pretest": {
+        "id": "situations-pre-3",
+        "answer": 1,
+        "es": {
+          "q": "Vas por el carril de aceleración de una autopista y llega un coche rápido por el carril derecho. ¿Qué haces?",
+          "options": [
+            "Entras delante de él, porque ya estás en tu carril",
+            "Lo dejas pasar y entras detrás de él",
+            "Frenas en seco al final del carril"
+          ],
+          "why": "Quien circula por la autopista tiene preferencia. Compruebas el tráfico, dejas pasar y te incorporas cuando hay hueco."
+        },
+        "en": {
+          "q": "You are in the acceleration lane of a motorway and a fast car comes along the right-hand lane. What do you do?",
+          "options": [
+            "Enter ahead of it, because you are already in your own lane",
+            "Let it pass and enter behind it",
+            "Brake hard at the end of the lane"
+          ],
+          "why": "Whoever is on the motorway has right of way. You check the traffic, let it pass and merge when there is a gap."
+        },
+        "src": "RGC arts. 57.1.d y 72.4"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Qué señal las marca y quién no puede entrar",
+            "en": "What sign marks them and who may not enter"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Qué es una autopista y una autovía, y qué vehículos no pueden entrar (bicicletas, ciclomotores, vehículos de movilidad personal), está en el módulo «La vía y los carriles».",
+                "en": "What a motorway and a dual carriageway are, and which vehicles may not enter (bicycles, mopeds, personal mobility vehicles), is in the “Roads and lanes” module."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Las señales **S-1** (autopista) y **S-1a** (autovía) marcan el principio del tramo. Desde ahí se aplican las reglas especiales de estas vías.",
+                "en": "Signs **S-1** (motorway) and **S-1a** (dual carriageway) mark the start of the stretch. From there the special rules of these roads apply."
+              },
+              "src": "RGC Anexo I, ap. 5.1 (S-1 y S-1a)"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Tampoco pueden circular por ellas los animales ni los peatones. Los peatones solo pueden hacerlo en las emergencias que fija el reglamento.",
+                "en": "Animals and pedestrians may not use them either. Pedestrians may do so only in the emergencies the regulation sets."
+              },
+              "src": "RGC arts. 125.1 y 128"
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Incorporarse por el carril de aceleración",
+            "en": "Merging from the acceleration lane"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los vehículos que circulan por una autopista o autovía tienen **preferencia de paso** sobre los que quieren entrar.",
+                "en": "Vehicles already on a motorway or dual carriageway have **right of way** over those that want to enter."
+              },
+              "src": "RGC art. 57.1.d"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Al **principio** del carril de aceleración, comprueba que puedes entrar sin peligro, incluso deteniéndote si hace falta. Después **acelera** hasta la velocidad adecuada al final del carril.",
+                "en": "At the **start** of the acceleration lane, check that you can enter safely, even stopping if necessary. Then **accelerate** to a suitable speed by the end of the lane."
+              },
+              "src": "RGC art. 72.4"
+            },
+            {
+              "t": "figure",
+              "file": "situations-motorway-entry",
+              "alt": {
+                "es": "Vista desde arriba de una autopista de dos carriles con un carril de aceleración a la derecha. Un coche naranja circula por el carril derecho. Un coche azul sube por el carril de aceleración, espera a que pase el naranja y se incorpora detrás.",
+                "en": "Top-down view of a two-lane motorway with an acceleration lane on the right. An orange car drives in the right-hand lane. A blue car comes up the acceleration lane, waits for the orange one to pass and merges behind it."
+              },
+              "caption": {
+                "es": "Pasa primero quien ya circula por la autopista, y tú entras detrás. La zona roja marca por dónde llegan los coches rápidos.",
+                "en": "The car already on the motorway goes first, and you enter behind it. The red zone shows where fast cars come from."
+              },
+              "legend": [
+                {
+                  "mark": "A",
+                  "text": {
+                    "es": "Coche que ya circula por la autopista. Tiene prioridad.",
+                    "en": "Car already on the motorway. It has priority."
+                  }
+                },
+                {
+                  "mark": "B",
+                  "text": {
+                    "es": "Tú, en el carril de aceleración.",
+                    "en": "You, in the acceleration lane."
+                  }
+                }
+              ]
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Avisa con el **intermitente** antes de incorporarte. Y los demás conductores deben **facilitar** tu maniobra en la medida de lo posible. Aun así, el que cede eres tú.",
+                "en": "Signal with your **turn signal** before you merge. The other drivers must **make it easier** for you where possible. Even so, you are the one who yields."
+              }
+            },
+            {
+              "t": "us",
+              "text": {
+                "es": "Como en la mayoría de los estados de EE. UU., quien entra en la autopista suele ceder el paso a quien ya circula.",
+                "en": "As in most US states, the driver entering the highway usually yields to traffic already on it."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c3b",
+                "answer": 2,
+                "es": {
+                  "q": "Al empezar el carril de aceleración ves que no puedes incorporarte sin peligro. ¿Qué dice el reglamento?",
+                  "options": [
+                    "Entras igualmente: los demás tienen que dejarte pasar",
+                    "Nunca puedes detenerte: debes entrar sin parar",
+                    "Puedes incluso detenerte, si hace falta"
+                  ],
+                  "why": "Al principio del carril debes comprobar que puedes entrar sin peligro, incluso deteniéndote si es necesario. Después aceleras."
+                },
+                "en": {
+                  "q": "At the start of the acceleration lane you see that you cannot merge safely. What does the regulation say?",
+                  "options": [
+                    "You enter anyway: the others have to let you through",
+                    "You may never stop: you must enter without stopping",
+                    "You may even stop, if necessary"
+                  ],
+                  "why": "At the start of the lane you must check that you can enter safely, even stopping if necessary. Then you accelerate."
+                },
+                "terms": [
+                  {
+                    "es": "carril de aceleración",
+                    "en": "acceleration lane"
+                  },
+                  {
+                    "es": "incorporarse",
+                    "en": "to merge"
+                  }
+                ],
+                "src": "RGC art. 72.4"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Carril y velocidad",
+            "en": "Lane and speed"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Con varios carriles en tu sentido vale la regla general: circulas **normalmente por el carril de la derecha** y usas los demás cuando el tráfico lo aconseja, sin estorbar a quien viene detrás. Está explicada en el módulo «La vía y los carriles».",
+                "en": "With several lanes in your direction the general rule applies: you **normally drive in the right-hand lane** and use the others when traffic makes it sensible, without hindering the vehicle behind. It is explained in the “Roads and lanes” module."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Se prohíbe circular por autopistas y autovías a menos de **60 km/h**, aunque no haya otros vehículos. Puedes ir más despacio si el tráfico, el vehículo o la vía te impiden mantenerla sin riesgo. Hay excepciones también para vehículos especiales.",
+                "en": "It is banned to drive on motorways and dual carriageways below **60 km/h**, even if there are no other vehicles. You may go slower if traffic, the vehicle or the road prevents you from keeping it up safely. There are also exceptions for special vehicles."
+              },
+              "src": "RGC art. 49.1 y 49.2"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si no puedes alcanzar la velocidad mínima y hay peligro de que te alcancen, circula con la **luz de emergencia**.",
+                "en": "If you cannot reach the minimum speed and there is a danger of being hit from behind, drive with the **hazard lights** on."
+              },
+              "src": "RGC art. 49.3"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los **turismos** pueden ir como máximo a **120 km/h** en autopistas y autovías. Camiones, furgonetas, autobuses y vehículos con remolque tienen límites menores.",
+                "en": "**Cars** may go at most **120 km/h** on motorways and dual carriageways. Trucks, vans, buses and vehicles with a trailer have lower limits."
+              },
+              "src": "RGC art. 48.1.a"
+            },
+            {
+              "t": "us",
+              "text": {
+                "es": "120 km/h son unas 75 mph, y 60 km/h unas 37 mph.",
+                "en": "120 km/h is about 75 mph, and 60 km/h about 37 mph."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c3d",
+                "answer": 1,
+                "es": {
+                  "q": "Circulas por una autovía casi vacía y tu coche funciona bien. ¿Puedes ir a 50 km/h?",
+                  "options": [
+                    "Sí, si no hay otros vehículos",
+                    "No: el mínimo en autopistas y autovías es de 60 km/h",
+                    "Sí, si pones la luz de emergencia"
+                  ],
+                  "why": "En autopistas y autovías no se puede circular a menos de 60 km/h, aunque no haya otros vehículos, salvo que las circunstancias lo impidan."
+                },
+                "en": {
+                  "q": "You are on an almost empty dual carriageway and your car runs well. May you drive at 50 km/h?",
+                  "options": [
+                    "Yes, if there are no other vehicles",
+                    "No: the minimum on motorways and dual carriageways is 60 km/h",
+                    "Yes, if you turn on the hazard lights"
+                  ],
+                  "why": "On motorways and dual carriageways you may not drive below 60 km/h, even with no other vehicles, unless circumstances prevent it."
+                },
+                "terms": [
+                  {
+                    "es": "velocidad mínima",
+                    "en": "minimum speed"
+                  }
+                ],
+                "src": "RGC art. 49.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Salir, y qué hacer si te pasas la salida",
+            "en": "Exiting, and what to do if you miss your exit"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Para salir, circula con **suficiente antelación** por el carril más próximo a la salida. Entra lo antes posible en el **carril de deceleración**, si existe.",
+                "en": "To exit, drive in the lane nearest the exit in **good time** and enter the **deceleration lane** as early as possible, if there is one."
+              },
+              "src": "RGC art. 77"
+            },
+            {
+              "t": "figure",
+              "file": "situations-motorway-exit",
+              "alt": {
+                "es": "Vista desde arriba de una autopista. Un coche azul va por el carril derecho, sombreado en verde. Una flecha amarilla le lleva al carril de deceleración y después a la salida. Un coche naranja va por el carril izquierdo.",
+                "en": "Top-down view of a motorway. A blue car is in the right-hand lane, shaded green. A yellow arrow takes it into the deceleration lane and then to the exit. An orange car is in the left-hand lane."
+              },
+              "caption": {
+                "es": "Pasa con tiempo al carril más próximo a la salida y entra pronto en el carril de deceleración.",
+                "en": "Move in good time to the lane nearest the exit and enter the deceleration lane early."
+              },
+              "legend": [
+                {
+                  "mark": "A",
+                  "text": {
+                    "es": "Coche en el carril izquierdo: sigue su camino.",
+                    "en": "Car in the left-hand lane: it carries on."
+                  }
+                },
+                {
+                  "mark": "B",
+                  "text": {
+                    "es": "Tú, en el carril derecho, el más próximo a la salida.",
+                    "en": "You, in the right-hand lane, the one nearest the exit."
+                  }
+                }
+              ]
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c3e",
+                "answer": 2,
+                "es": {
+                  "q": "Tu salida de la autopista es la próxima. ¿Cómo te preparas?",
+                  "options": [
+                    "Paso al carril izquierdo para frenar sin estorbar",
+                    "Espero al último momento y cruzo los carriles",
+                    "Circulo con antelación por el carril más próximo a la salida"
+                  ],
+                  "why": "Para salir hay que ir con suficiente antelación por el carril más próximo a la salida y entrar pronto en el carril de deceleración."
+                },
+                "en": {
+                  "q": "Your motorway exit is the next one. How do you prepare?",
+                  "options": [
+                    "I move to the left lane to brake without getting in the way",
+                    "I wait until the last moment and cross the lanes",
+                    "I drive in good time in the lane nearest the exit"
+                  ],
+                  "why": "To exit you must be in the lane nearest the exit in good time and enter the deceleration lane early."
+                },
+                "terms": [
+                  {
+                    "es": "carril de deceleración",
+                    "en": "deceleration lane"
+                  }
+                ],
+                "src": "RGC art. 77"
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Si te pasas la salida, no puedes dar marcha atrás ni cambiar de sentido en la autopista, salvo en un lugar habilitado. Esas reglas están en el módulo «Adelantamientos, giros y marcha atrás».",
+                "en": "If you miss your exit, you may not reverse or make a U-turn on the motorway, except at a place set up for it. Those rules are in the “Overtaking, turning and reversing” module."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "En la práctica, sigue hasta la siguiente salida y vuelve desde allí. La ley no lo dice con esas palabras: solo prohíbe las otras opciones.",
+                "en": "In practice, keep going to the next exit and come back from there. The law does not say it in those words: it only bans the other options."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Parar en una autopista",
+            "en": "Stopping on a motorway"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Está prohibido **parar** en autopistas y autovías, salvo en las zonas habilitadas para ello.",
+                "en": "It is banned to **stop** on motorways and dual carriageways, except in the areas set up for it."
+              },
+              "src": "RGC art. 94.1.g"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "En autopistas y autovías, si una emergencia te obliga a ir **anormalmente despacio**, sal por la **primera salida**.",
+                "en": "On motorways and dual carriageways, if an emergency forces you to drive **abnormally slowly**, leave by the **first exit**."
+              },
+              "src": "RGC art. 38.2"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Cómo señalizar el vehículo si te inmovilizas está en el módulo «Adelantamientos, giros y marcha atrás», y los pasos de una avería o un accidente, en «Accidentes y primeros auxilios». Si hay retención, el carril de emergencia está en «La vía y los carriles».",
+                "en": "How to mark your vehicle if you become immobilized is in the “Overtaking, turning and reversing” module, and the steps for a breakdown or a collision are in “Collisions and first aid”. For the emergency lane in a traffic jam, see “Roads and lanes”."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c3g",
+                "answer": 0,
+                "es": {
+                  "q": "Quieres consultar el móvil un momento y paras en el arcén de una autopista, sin ninguna emergencia. ¿Es correcto?",
+                  "options": [
+                    "No: solo se puede parar en las zonas habilitadas",
+                    "Sí, un momento en el arcén es lo normal",
+                    "Sí, con la luz de emergencia"
+                  ],
+                  "why": "En autopistas y autovías está prohibido parar, salvo en las zonas habilitadas. Una emergencia es otra situación."
+                },
+                "en": {
+                  "q": "You want to check your phone for a moment and stop on the shoulder of a motorway, with no emergency. Is that correct?",
+                  "options": [
+                    "No: you may stop only in the areas set up for it",
+                    "Yes, a moment on the shoulder is normal",
+                    "Yes, with the hazard lights on"
+                  ],
+                  "why": "Stopping is banned on motorways and dual carriageways except in the areas set up for it. An emergency is a different situation."
+                },
+                "terms": [
+                  {
+                    "es": "zona habilitada",
+                    "en": "designated area"
+                  }
+                ],
+                "src": "RGC art. 94.1.g"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "Las señales **S-1** y **S-1a** marcan el principio de una autopista o autovía. Los animales y los peatones no pueden circular por ellas.",
+          "en": "Signs **S-1** and **S-1a** mark the start of a motorway or dual carriageway. Animals and pedestrians may not use them."
+        },
+        {
+          "es": "Al entrar, **cedes el paso**: comprueba el tráfico al principio del carril de aceleración y acelera después.",
+          "en": "When entering, you **yield**: check traffic at the start of the acceleration lane and accelerate afterward."
+        },
+        {
+          "es": "Circula **por la derecha** y a **60 km/h como mínimo**. Los turismos, a **120 km/h como máximo**.",
+          "en": "Drive **on the right** and at **60 km/h minimum**. Cars, **120 km/h maximum**."
+        },
+        {
+          "es": "Sal por el carril más próximo y entra pronto en el **de deceleración**. Si te pasas, sigue a la **siguiente salida**.",
+          "en": "Exit by the nearest lane and enter the **deceleration lane** early. If you miss it, go on to the **next exit**."
+        },
+        {
+          "es": "No se puede **parar**, salvo en las zonas habilitadas. Tampoco cambiar de sentido ni dar marcha atrás.",
+          "en": "You may not **stop**, except in the areas set up for it. You may not make a U-turn or reverse either."
+        }
+      ],
+      "covers": [
+        "situations-06",
+        "situations-07"
+      ],
+      "src": [
+        "Reglamento General de Circulación (RD 1428/2003), arts. 38, 48, 49, 57, 72, 73, 77, 94, 125 y 128; Anexo I, ap. 5.1 (S-1 y S-1a)"
+      ]
+    },
+    {
+      "id": "tunnels",
+      "title": {
+        "es": "Túneles",
+        "en": "Tunnels"
+      },
+      "minutes": 7,
+      "goals": [
+        {
+          "es": "Llevar las luces correctas dentro de un túnel.",
+          "en": "Use the right lights inside a tunnel."
+        },
+        {
+          "es": "Respetar las prohibiciones y la distancia de seguridad.",
+          "en": "Obey the bans and keep the safety distance."
+        },
+        {
+          "es": "Saber qué hacer si te quedas parado dentro de un túnel.",
+          "en": "Know what to do if you get stuck inside a tunnel."
+        }
+      ],
+      "terms": [
+        {
+          "es": "túnel",
+          "en": "tunnel"
+        },
+        {
+          "es": "paso inferior",
+          "en": "underpass"
+        },
+        {
+          "es": "luces de posición",
+          "en": "parking lights (position lights)"
+        },
+        {
+          "es": "luz de cruce",
+          "en": "low beam"
+        },
+        {
+          "es": "distancia de seguridad",
+          "en": "safe following distance"
+        },
+        {
+          "es": "luz de emergencia",
+          "en": "hazard lights"
+        },
+        {
+          "es": "poste SOS",
+          "en": "SOS post (emergency phone)"
+        },
+        {
+          "es": "refugio",
+          "en": "shelter"
+        }
+      ],
+      "pretest": {
+        "id": "situations-pre-4",
+        "answer": 1,
+        "es": {
+          "q": "Conduces un turismo por un túnel y no vas a adelantar. ¿Qué distancia mínima dejas con el coche de delante?",
+          "options": [
+            "Dos segundos",
+            "100 metros o 4 segundos",
+            "La que quieras, si no vas deprisa"
+          ],
+          "why": "En un túnel, si no vas a adelantar, debes mantener al menos 100 metros o un intervalo de 4 segundos con el vehículo de delante."
+        },
+        "en": {
+          "q": "You drive a car through a tunnel and are not going to overtake. What is the minimum distance you leave to the car ahead?",
+          "options": [
+            "Two seconds",
+            "100 meters or 4 seconds",
+            "Whatever you like, if you are not rushing"
+          ],
+          "why": "In a tunnel, if you are not going to overtake, you must keep at least 100 meters or a 4-second gap to the vehicle ahead."
+        },
+        "src": "RGC art. 95.6"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Luces en el túnel",
+            "en": "Lights in the tunnel"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "La señal **S-5** indica el principio de un túnel, de un paso inferior o de un tramo equiparado a túnel.",
+                "en": "Sign **S-5** shows the start of a tunnel, an underpass or a stretch treated as a tunnel."
+              },
+              "src": "RGC Anexo I, ap. 5.1 (S-5)"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Todos los vehículos deben llevar encendido el alumbrado que corresponda en los túneles y pasos inferiores, **a cualquier hora**.",
+                "en": "All vehicles driving in tunnels and underpasses must have the proper lights on **at any hour of the day**."
+              },
+              "src": "RGC art. 98.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "En un túnel lleva las **luces de posición**. Si el túnel está bien iluminado, lleva también la **luz de cruce**.",
+                "en": "In a tunnel, use your **position lights**. If the tunnel is well lit, also use your **low beam**."
+              },
+              "src": "RGC arts. 99.1 y 101.1"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c4a",
+                "answer": 0,
+                "es": {
+                  "q": "Entras a mediodía, con sol, en un túnel bien iluminado. ¿Qué luces llevas?",
+                  "options": [
+                    "Las de posición y las de cruce",
+                    "Ninguna: es de día",
+                    "Solo las de posición"
+                  ],
+                  "why": "En los túneles hay que llevar encendido el alumbrado a cualquier hora: posición y, si está bien iluminado, también el de cruce."
+                },
+                "en": {
+                  "q": "At noon, in full sun, you enter a well-lit tunnel. Which lights do you use?",
+                  "options": [
+                    "Position lights and low beam",
+                    "None: it is daytime",
+                    "Position lights only"
+                  ],
+                  "why": "In tunnels you must have your lights on at any hour: position lights and, if the tunnel is well lit, the low beam as well."
+                },
+                "terms": [
+                  {
+                    "es": "luces de posición",
+                    "en": "position lights"
+                  },
+                  {
+                    "es": "luz de cruce",
+                    "en": "low beam"
+                  }
+                ],
+                "src": "RGC arts. 98.1, 99.1 y 101.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Prohibiciones y distancia",
+            "en": "Bans and distance"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "En un túnel, cumple con rigor las normas. Sobre todo, las prohibiciones de **parar, estacionar, cambiar de sentido, ir marcha atrás y adelantar**.",
+                "en": "In a tunnel, follow the rules strictly. Above all, the bans on **stopping, parking, U-turns, reversing and overtaking**."
+              },
+              "src": "RGC art. 95.6"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si no vas a adelantar, mantén con el vehículo de delante al menos **100 metros o 4 segundos**.",
+                "en": "If you are not going to overtake, keep at least **100 meters or 4 seconds** from the vehicle ahead."
+              },
+              "src": "RGC art. 95.6"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si la masa máxima autorizada de tu vehículo supera los **3.500 kg**, la distancia es de al menos **150 metros o 6 segundos**.",
+                "en": "If your vehicle’s maximum authorized mass is over **3,500 kg**, the distance is at least **150 meters or 6 seconds**."
+              },
+              "src": "RGC art. 95.6"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c4b",
+                "answer": 2,
+                "es": {
+                  "q": "Conduces un camión de 7.500 kg de masa máxima autorizada por un túnel y no vas a adelantar. ¿Qué distancia mínima dejas con el vehículo de delante?",
+                  "options": [
+                    "100 metros o 4 segundos",
+                    "50 metros o 2 segundos",
+                    "150 metros o 6 segundos"
+                  ],
+                  "why": "Los vehículos de masa máxima autorizada superior a 3.500 kg deben dejar al menos 150 metros o 6 segundos en un túnel. Los demás, 100 metros o 4 segundos."
+                },
+                "en": {
+                  "q": "You drive a truck with a maximum authorized mass of 7,500 kg through a tunnel and are not going to overtake. What is the minimum distance you leave to the vehicle ahead?",
+                  "options": [
+                    "100 meters or 4 seconds",
+                    "50 meters or 2 seconds",
+                    "150 meters or 6 seconds"
+                  ],
+                  "why": "Vehicles with a maximum authorized mass over 3,500 kg must leave at least 150 meters or 6 seconds in a tunnel. All others, 100 meters or 4 seconds."
+                },
+                "terms": [
+                  {
+                    "es": "distancia de seguridad",
+                    "en": "safe following distance"
+                  }
+                ],
+                "src": "RGC art. 95.6"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Adelantar en un túnel",
+            "en": "Overtaking in a tunnel"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "En un túnel está prohibido adelantar si tu sentido tiene **un solo carril**.",
+                "en": "In a tunnel, overtaking is banned if your direction has **only one lane**."
+              },
+              "src": "RGC art. 87.1.d"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "En un túnel con circulación en los dos sentidos, solo puedes adelantar si tu sentido tiene **más de un carril**. Y sin invadir el sentido contrario.",
+                "en": "In a two-way tunnel you may overtake only if your direction has **more than one lane**. And without entering the opposite lane."
+              },
+              "src": "RGC art. 95.6"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c4c",
+                "answer": 1,
+                "es": {
+                  "q": "Vas por un túnel con un solo carril en tu sentido y un camión lento delante. ¿Puedes adelantarlo?",
+                  "options": [
+                    "Sí, si la visibilidad es buena",
+                    "No: con un solo carril en tu sentido está prohibido adelantar",
+                    "Sí, si pones la luz de emergencia"
+                  ],
+                  "why": "En un túnel está prohibido adelantar si tu sentido tiene un solo carril. Solo se puede con más de un carril, sin invadir el sentido contrario."
+                },
+                "en": {
+                  "q": "You are in a tunnel with a single lane in your direction and a slow truck ahead. May you overtake it?",
+                  "options": [
+                    "Yes, if visibility is good",
+                    "No: overtaking is banned when your direction has a single lane",
+                    "Yes, if you turn on the hazard lights"
+                  ],
+                  "why": "In a tunnel, overtaking is banned if your direction has only one lane. It is allowed only with more than one lane, without entering the opposite lane."
+                },
+                "terms": [
+                  {
+                    "es": "adelantar",
+                    "en": "to overtake"
+                  }
+                ],
+                "src": "RGC arts. 87.1.d y 95.6"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Semáforos y paneles del túnel",
+            "en": "Traffic lights and panels in the tunnel"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Nadie debe entrar en un túnel si el **semáforo de la boca** no le permite el paso. Los servicios de urgencia, de asistencia mecánica y de conservación de carreteras son la excepción.",
+                "en": "Nobody may enter a tunnel if the **traffic light at its mouth** does not allow it. Emergency, breakdown-assistance and road-maintenance crews are the exception."
+              },
+              "src": "RGC art. 96.3"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Dentro del túnel, obedece los **semáforos** y los **paneles de mensaje variable**. Sigue también las instrucciones por megafonía o por otro medio.",
+                "en": "Inside the tunnel, obey the **traffic lights** and the **variable-message panels**. Also follow instructions given by loudspeaker or any other means."
+              },
+              "src": "RGC art. 95.7"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c4d",
+                "answer": 0,
+                "es": {
+                  "q": "El semáforo de la boca de un túnel está en rojo y desde fuera no ves ningún problema dentro. ¿Entras?",
+                  "options": [
+                    "No: el semáforo de la entrada manda",
+                    "Sí, si no viene nadie por el túnel",
+                    "Sí, si vas despacio"
+                  ],
+                  "why": "Nadie debe entrar en un túnel si el semáforo de la boca no le permite el paso. Solo los servicios de urgencia y similares están exceptuados."
+                },
+                "en": {
+                  "q": "The traffic light at the mouth of a tunnel is red and from outside you see no problem inside. Do you enter?",
+                  "options": [
+                    "No: the light at the entrance rules",
+                    "Yes, if nobody is coming through the tunnel",
+                    "Yes, if you go slowly"
+                  ],
+                  "why": "Nobody may enter a tunnel if the light at its mouth does not allow it. Only emergency services and similar crews are exempt."
+                },
+                "terms": [
+                  {
+                    "es": "semáforo",
+                    "en": "traffic light"
+                  },
+                  {
+                    "es": "boca del túnel",
+                    "en": "tunnel mouth"
+                  }
+                ],
+                "src": "RGC art. 96.3"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Si te quedas parado dentro",
+            "en": "If you get stuck inside"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si **por una emergencia** quedas inmovilizado en un túnel, el reglamento te pide estos pasos:",
+                "en": "If **an emergency** immobilizes you in a tunnel, the regulation asks for these steps:"
+              },
+              "src": "RGC art. 97.3.a a e"
+            },
+            {
+              "t": "list",
+              "ordered": true,
+              "items": [
+                {
+                  "es": "Apaga el motor, conecta la señal de emergencia y deja las luces de posición.",
+                  "en": "Switch off the engine, turn on the hazard lights and leave the position lights on."
+                },
+                {
+                  "es": "Si puedes, ve a la zona de emergencia más próxima. Si no hay, para lo más cerca posible del borde derecho.",
+                  "en": "If you can, go to the nearest emergency area. If there is none, stop as close as possible to the right edge."
+                },
+                {
+                  "es": "Coloca el dispositivo luminoso de preseñalización de peligro.",
+                  "en": "Place the luminous hazard pre-warning device."
+                },
+                {
+                  "es": "Pide auxilio por el poste SOS más próximo, si hay uno, y sigue sus instrucciones.",
+                  "en": "Call for help from the nearest SOS post, if there is one, and follow its instructions."
+                },
+                {
+                  "es": "Sal del coche con los demás ocupantes. Dirígete al refugio o a la salida más próximos. No andes por la calzada si hay zonas excluidas al tráfico.",
+                  "en": "Leave the car with the other occupants. Go to the nearest shelter or exit. Do not walk on the roadway if there are areas closed to traffic."
+                }
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si la avería te permite seguir circulando, continúa hasta la salida del túnel. Si no puedes, ve hasta una zona de emergencia.",
+                "en": "If the breakdown still lets you drive, keep going to the tunnel exit. If you cannot, go to an emergency area."
+              },
+              "src": "RGC art. 97.3.f"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si hay un **incendio**, acerca el vehículo todo lo posible a la derecha. Apaga el motor y deja la llave puesta y las puertas abiertas. Sal con los demás ocupantes hacia el refugio o la salida más próximos, en sentido contrario al fuego. No andes por la calzada si hay zonas excluidas al tráfico.",
+                "en": "If there is a **fire**, move the vehicle as far to the right as you can. Switch off the engine and leave the key in and the doors open. Leave with the other occupants toward the nearest shelter or exit, away from the fire. Do not walk on the roadway if there are areas closed to traffic."
+              },
+              "src": "RGC art. 97.3, párrafo sobre el incendio"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si te quedas parado **por el tráfico**, no abandones el vehículo. Conecta un momento la señal de emergencia y deja las luces de posición. Apaga el motor y detente lo más lejos posible del vehículo de delante.",
+                "en": "If you are stopped **by traffic**, do not leave the vehicle. Turn on the hazard lights briefly and leave the position lights on. Switch off the engine and stop as far as possible from the vehicle ahead."
+              },
+              "src": "RGC art. 97.3, último párrafo, y art. 115.2"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c4e",
+                "answer": 2,
+                "es": {
+                  "q": "Estás parado dentro de un túnel por una retención de tráfico, sin ninguna avería. ¿Qué haces?",
+                  "options": [
+                    "Salir del coche y caminar hasta la salida",
+                    "Dar marcha atrás hasta la entrada",
+                    "Quedarte en el coche, con el motor apagado y las luces de posición"
+                  ],
+                  "why": "Si te inmovilizas por necesidades de la circulación no debes abandonar el vehículo: apaga el motor y deja las luces de posición."
+                },
+                "en": {
+                  "q": "You are stopped inside a tunnel because of a traffic jam, with no breakdown. What do you do?",
+                  "options": [
+                    "Get out and walk to the exit",
+                    "Reverse back to the entrance",
+                    "Stay in the car, with the engine off and the position lights on"
+                  ],
+                  "why": "If traffic itself has stopped you, you must not leave the vehicle: switch off the engine and leave the position lights on."
+                },
+                "terms": [
+                  {
+                    "es": "retención",
+                    "en": "traffic jam"
+                  }
+                ],
+                "src": "RGC art. 97.3 y 115.2"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c4f",
+                "answer": 1,
+                "es": {
+                  "q": "Tu coche se avería en un túnel y no puede moverse. ¿Qué hacen los ocupantes?",
+                  "options": [
+                    "Esperan dentro con el cinturón puesto",
+                    "Salen y van al refugio o a la salida más próximos",
+                    "Salen y caminan por la calzada hasta la entrada"
+                  ],
+                  "why": "Tras una emergencia, los ocupantes abandonan el vehículo y van al refugio o a la salida más próximos, sin andar por la calzada si hay zonas excluidas al tráfico."
+                },
+                "en": {
+                  "q": "Your car breaks down in a tunnel and cannot move. What do the occupants do?",
+                  "options": [
+                    "They wait inside with seat belts on",
+                    "They get out and go to the nearest shelter or exit",
+                    "They get out and walk along the roadway to the entrance"
+                  ],
+                  "why": "After an emergency, the occupants leave the vehicle and go to the nearest shelter or exit, without walking on the roadway if there are areas closed to traffic."
+                },
+                "terms": [
+                  {
+                    "es": "refugio",
+                    "en": "shelter"
+                  },
+                  {
+                    "es": "avería",
+                    "en": "breakdown"
+                  }
+                ],
+                "src": "RGC art. 97.3"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "En un túnel, de día y de noche: **luces de posición** y, si está bien iluminado, **luz de cruce**.",
+          "en": "In a tunnel, day and night: **position lights** and, if it is well lit, **low beam**."
+        },
+        {
+          "es": "Prohibido **parar, estacionar, cambiar de sentido, ir marcha atrás** y, con un solo carril en tu sentido, **adelantar**.",
+          "en": "No **stopping, parking, U-turns, reversing** and, with a single lane in your direction, no **overtaking**."
+        },
+        {
+          "es": "Distancia: **100 m o 4 s**. Más de 3.500 kg: **150 m o 6 s**.",
+          "en": "Distance: **100 m or 4 s**. Over 3,500 kg: **150 m or 6 s**."
+        },
+        {
+          "es": "Obedece el **semáforo de la boca**, los semáforos, los paneles y la megafonía.",
+          "en": "Obey the **light at the mouth**, the traffic lights, the panels and the loudspeakers."
+        },
+        {
+          "es": "Si la avería te inmoviliza: sal y ve al **refugio**. Retención: **quédate** en el coche, con el motor apagado.",
+          "en": "If a breakdown stops you: get out and go to the **shelter**. Traffic jam: **stay** in the car, with the engine off."
+        }
+      ],
+      "src": [
+        "Reglamento General de Circulación (RD 1428/2003), arts. 87, 95, 96, 97, 98, 99, 101 y 115; Anexo I, ap. 5.1 (S-5)"
+      ]
+    },
+    {
+      "id": "level-crossings",
+      "title": {
+        "es": "Pasos a nivel",
+        "en": "Level crossings"
+      },
+      "minutes": 6,
+      "goals": [
+        {
+          "es": "Reconocer un paso a nivel y acercarte con prudencia.",
+          "en": "Recognize a level crossing and approach it with care."
+        },
+        {
+          "es": "Saber cuándo debes esperar y cuándo puedes cruzar.",
+          "en": "Know when you must wait and when you may cross."
+        },
+        {
+          "es": "Saber qué hacer si tu vehículo se queda parado sobre la vía.",
+          "en": "Know what to do if your vehicle stops on the track."
+        }
+      ],
+      "terms": [
+        {
+          "es": "paso a nivel",
+          "en": "level crossing"
+        },
+        {
+          "es": "barrera",
+          "en": "barrier"
+        },
+        {
+          "es": "semibarrera",
+          "en": "half-barrier"
+        },
+        {
+          "es": "vía férrea",
+          "en": "railway track"
+        },
+        {
+          "es": "luz roja intermitente",
+          "en": "flashing red light"
+        },
+        {
+          "es": "desalojar",
+          "en": "to evacuate"
+        }
+      ],
+      "pretest": {
+        "id": "situations-pre-5",
+        "answer": 1,
+        "es": {
+          "q": "Llegas a un paso a nivel sin barreras ni semáforo. ¿Qué haces antes de cruzar?",
+          "options": [
+            "Cruzas rápido si no oyes ningún tren",
+            "Compruebas que no se acerca ningún vehículo por la vía",
+            "Tocas la bocina y cruzas"
+          ],
+          "why": "Antes de entrar en un paso a nivel sin barreras ni semáforo, debes asegurarte de que no se acerca ningún vehículo sobre raíles."
+        },
+        "en": {
+          "q": "You reach a level crossing with no barriers or traffic light. What do you do before crossing?",
+          "options": [
+            "Cross quickly if you hear no train",
+            "Check that no vehicle is approaching on the track",
+            "Sound the horn and cross"
+          ],
+          "why": "Before entering a level crossing with no barriers or traffic light, you must make sure that no rail vehicle is approaching."
+        },
+        "src": "RGC art. 96.2"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Reconocerlo y acercarte",
+            "en": "Recognizing it and approaching"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Un **paso a nivel** es el cruce a la misma altura entre una vía y una línea de ferrocarril. Estas señales lo anuncian:",
+                "en": "A **level crossing** is where a road and a railway line cross at the same height. These signs announce it:"
+              }
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "p-7",
+                "p-8",
+                "p-9a",
+                "p-11"
+              ],
+              "caption": {
+                "es": "P-7: paso a nivel con barreras. P-8: paso a nivel sin barreras. P-9a avisa a 200 m y va siempre con otra señal de peligro. P-11 indica un paso sin barreras justo delante.",
+                "en": "P-7: level crossing with barriers. P-8: level crossing without barriers. P-9a warns at 200 m and always comes with another warning sign. P-11 shows a crossing without barriers right ahead."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Una **marca pintada en la calzada** indica que se acerca un paso a nivel.",
+                "en": "A **marking painted on the road** shows that a level crossing is near."
+              },
+              "src": "RGC Anexo I, ap. 5.2 (M-7.5)"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Al acercarte a un paso a nivel, extrema la prudencia y reduce la velocidad **por debajo de la máxima permitida**.",
+                "en": "When you approach a level crossing, take extreme care and slow down to **below the maximum speed allowed**."
+              },
+              "src": "RGC art. 95.1"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c5a",
+                "answer": 1,
+                "es": {
+                  "q": "Te acercas a un paso a nivel. ¿Qué debes hacer con la velocidad?",
+                  "options": [
+                    "Mantenerla si ves que no viene ningún tren",
+                    "Reducirla por debajo de la máxima permitida",
+                    "Reducirla solo si las barreras están bajadas"
+                  ],
+                  "why": "Todos los conductores deben extremar la prudencia y reducir la velocidad por debajo de la máxima permitida al aproximarse a un paso a nivel."
+                },
+                "en": {
+                  "q": "You are approaching a level crossing. What must you do with your speed?",
+                  "options": [
+                    "Keep it if you see no train coming",
+                    "Reduce it to below the maximum allowed",
+                    "Reduce it only if the barriers are down"
+                  ],
+                  "why": "All drivers must take extreme care and slow down to below the maximum speed allowed when approaching a level crossing."
+                },
+                "terms": [
+                  {
+                    "es": "paso a nivel",
+                    "en": "level crossing"
+                  }
+                ],
+                "src": "RGC art. 95.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Barreras y luces rojas",
+            "en": "Barriers and red lights"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Nadie debe entrar en un paso a nivel con las **barreras** bajadas o en movimiento. Tampoco si el semáforo indica detención.",
+                "en": "Nobody may enter a level crossing with the **barriers** down or moving. Nor if the traffic light says stop."
+              },
+              "src": "RGC art. 96.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Una luz roja que parpadea, o dos que parpadean por turnos, **prohíben temporalmente el paso** antes de un paso a nivel.",
+                "en": "A flashing red light, or two red lights flashing in turn, **temporarily bans passage** before a level crossing."
+              },
+              "src": "RGC Anexo I, apartado 4.2.b"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si lo encuentras cerrado o con la barrera en movimiento, **detente en tu carril**. Espera uno detrás de otro hasta tener paso libre.",
+                "en": "If you find it closed or with the barrier moving, **stop in your lane**. Wait one behind the other until the way is clear."
+              },
+              "src": "RGC art. 95.2"
+            },
+            {
+              "t": "figure",
+              "file": "situations-level-crossing",
+              "alt": {
+                "es": "Vista desde arriba de una carretera que cruza una vía de tren. Las barreras están bajadas y las luces rojas encendidas. Un coche azul espera delante de la barrera y un coche naranja espera detrás, en el mismo carril. Una zona roja marca las vías.",
+                "en": "Top-down view of a road crossing a railway. The barriers are down and the red lights are on. A blue car waits in front of the barrier and an orange car waits behind it, in the same lane. A red zone marks the track."
+              },
+              "caption": {
+                "es": "Con la barrera bajada, los coches esperan uno detrás de otro en su carril. La zona roja es la vía: no entres.",
+                "en": "With the barrier down, cars wait one behind the other in their lane. The red zone is the track: do not enter."
+              },
+              "legend": [
+                {
+                  "mark": "B",
+                  "text": {
+                    "es": "Tú, parado ante la barrera.",
+                    "en": "You, stopped at the barrier."
+                  }
+                },
+                {
+                  "mark": "A",
+                  "text": {
+                    "es": "Coche que espera detrás, en el mismo carril.",
+                    "en": "Car waiting behind, in the same lane."
+                  }
+                }
+              ]
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c5b",
+                "answer": 2,
+                "es": {
+                  "q": "Antes de un paso a nivel parpadea una luz roja, pero la barrera aún no ha bajado. ¿Qué haces?",
+                  "options": [
+                    "Cruzas rápido: aún hay tiempo",
+                    "Cruzas si no ves ningún tren",
+                    "Te detienes: la luz roja intermitente prohíbe el paso"
+                  ],
+                  "why": "Una luz roja intermitente antes de un paso a nivel prohíbe temporalmente el paso, aunque la barrera todavía esté levantada."
+                },
+                "en": {
+                  "q": "A red light is flashing before a level crossing, but the barrier has not come down yet. What do you do?",
+                  "options": [
+                    "Cross quickly: there is still time",
+                    "Cross if you see no train",
+                    "Stop: the flashing red light bans passage"
+                  ],
+                  "why": "A flashing red light before a level crossing temporarily bans passage, even if the barrier is still up."
+                },
+                "terms": [
+                  {
+                    "es": "luz roja intermitente",
+                    "en": "flashing red light"
+                  }
+                ],
+                "src": "RGC Anexo I, apartado 4.2.b; art. 96.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c5c",
+                "answer": 0,
+                "es": {
+                  "q": "Las barreras de un paso a nivel están bajadas y hay una fila de coches. ¿Cómo esperas?",
+                  "options": [
+                    "Detrás del coche de delante, en tu carril",
+                    "Adelantando a la fila por el otro carril",
+                    "Rodeando la barrera, si no ves ningún tren"
+                  ],
+                  "why": "Quien encuentra el paso cerrado debe detenerse en su carril, uno detrás de otro, hasta que tenga paso libre."
+                },
+                "en": {
+                  "q": "The barriers at a level crossing are down and there is a line of cars. How do you wait?",
+                  "options": [
+                    "Behind the car ahead, in your lane",
+                    "Passing the line by the other lane",
+                    "Going around the barrier, if you see no train"
+                  ],
+                  "why": "Anyone who finds the crossing closed must stop in their own lane, one behind the other, until the way is clear."
+                },
+                "terms": [
+                  {
+                    "es": "barrera",
+                    "en": "barrier"
+                  }
+                ],
+                "src": "RGC art. 95.2"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Sin barreras: mira tú",
+            "en": "No barriers: you look"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "En un paso a nivel **sin barreras ni semáforo**, mira antes de entrar. Asegúrate de que no se acerca ningún vehículo por la vía férrea.",
+                "en": "At a level crossing **with no barriers or traffic light**, look before you enter. Make sure that no vehicle is approaching on the railway."
+              },
+              "src": "RGC art. 96.2"
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Consejo práctico, no es un artículo: allí no te protege ninguna barrera, así que mira a ambos lados de la vía. Si hay varias vías, revisa cada una.",
+                "en": "Practical advice, not an article: no barrier protects you there, so look both ways along the track. If there are several tracks, check each one."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c5d",
+                "answer": 1,
+                "es": {
+                  "q": "Un paso a nivel no tiene barreras ni semáforo. ¿Qué dice el reglamento antes de entrar?",
+                  "options": [
+                    "Que puedes entrar si no oyes ningún tren",
+                    "Que debes asegurarte de que no se acerca ningún vehículo por la vía",
+                    "Que debes parar siempre y tocar la bocina"
+                  ],
+                  "why": "En un paso a nivel sin barreras ni semáforo, nadie debe entrar sin asegurarse antes de que no se acerca ningún vehículo sobre raíles."
+                },
+                "en": {
+                  "q": "A level crossing has no barriers or traffic light. What does the regulation say before entering?",
+                  "options": [
+                    "That you may enter if you hear no train",
+                    "That you must make sure no vehicle is approaching on the track",
+                    "That you must always stop and sound the horn"
+                  ],
+                  "why": "At a level crossing with no barriers or traffic light, nobody may enter without first making sure no rail vehicle is approaching."
+                },
+                "terms": [
+                  {
+                    "es": "vía férrea",
+                    "en": "railway track"
+                  }
+                ],
+                "src": "RGC art. 96.2"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Cruza sin demora y sin quedarte dentro",
+            "en": "Cross without delay and without getting stuck"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Cruza la vía **sin demora**, y solo después de comprobar que no hay riesgo de quedarte inmovilizado dentro del paso.",
+                "en": "Cross the track **without delay**, and only after checking that there is no risk of getting stuck inside the crossing."
+              },
+              "src": "RGC art. 95.3"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "En un paso a nivel está prohibido **parar**, **adelantar** (también cerca de él) y **cambiar de sentido**.",
+                "en": "At a level crossing it is banned to **stop**, **overtake** (also near it) and **make a U-turn**."
+              },
+              "src": "RGC arts. 94.1.b, 87.1.b y 79.1"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c5e",
+                "answer": 2,
+                "es": {
+                  "q": "Al otro lado de un paso a nivel hay una cola de coches y no queda espacio para el tuyo. ¿Entras en el paso?",
+                  "options": [
+                    "Sí, la cola avanzará enseguida",
+                    "Sí, si pones la luz de emergencia",
+                    "No: debes evitar el riesgo de quedarte inmovilizado dentro"
+                  ],
+                  "why": "Solo se cruza la vía después de comprobar que no hay riesgo de quedar inmovilizado dentro del paso. Además, está prohibido parar en él."
+                },
+                "en": {
+                  "q": "On the far side of a level crossing there is a line of cars and no room for yours. Do you enter the crossing?",
+                  "options": [
+                    "Yes, the line will move soon",
+                    "Yes, if you turn on the hazard lights",
+                    "No: you must avoid the risk of getting stuck inside"
+                  ],
+                  "why": "You may cross the track only after checking that there is no risk of getting stuck inside. Stopping on it is also banned."
+                },
+                "terms": [
+                  {
+                    "es": "inmovilizado",
+                    "en": "stuck, immobilized"
+                  }
+                ],
+                "src": "RGC arts. 95.3 y 94.1.b"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Si te quedas parado sobre la vía",
+            "en": "If you stop on the track"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si por fuerza mayor tu vehículo queda **detenido en un paso a nivel**, haz salir rápido a los ocupantes. Deja el paso libre cuanto antes.",
+                "en": "If, through force majeure, your vehicle is **stopped on a level crossing**, get the occupants out quickly and clear the crossing as soon as possible."
+              },
+              "src": "RGC art. 97.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si no lo consigues, avisa de inmediato a los maquinistas y a los conductores que se acercan. Usa todos los medios a tu alcance.",
+                "en": "If you cannot, warn the train drivers and the approaching drivers immediately. Use every means available to you."
+              },
+              "src": "RGC art. 97.1"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c5f",
+                "answer": 0,
+                "es": {
+                  "q": "Tu coche se avería sobre las vías de un paso a nivel. ¿Qué haces primero?",
+                  "options": [
+                    "Hacer salir a los ocupantes y dejar libre el paso cuanto antes",
+                    "Esperar dentro del coche a la grúa",
+                    "Llamar al taller antes de moverte"
+                  ],
+                  "why": "Si queda detenido en un paso a nivel, el conductor debe desalojar rápidamente a los ocupantes y dejar el paso libre cuanto antes."
+                },
+                "en": {
+                  "q": "Your car breaks down on the tracks of a level crossing. What do you do first?",
+                  "options": [
+                    "Get the occupants out and clear the crossing as soon as possible",
+                    "Wait in the car for the tow truck",
+                    "Call the garage before moving"
+                  ],
+                  "why": "If the vehicle stops on a level crossing, the driver must quickly evacuate the occupants and clear the crossing as soon as possible."
+                },
+                "terms": [
+                  {
+                    "es": "desalojar",
+                    "en": "to evacuate"
+                  }
+                ],
+                "src": "RGC art. 97.1"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "Cerca de un **paso a nivel**: extrema la prudencia y reduce **por debajo de la velocidad máxima**.",
+          "en": "Near a **level crossing**: take extreme care and slow **below the maximum speed**."
+        },
+        {
+          "es": "Barreras bajadas, en movimiento o **luz roja intermitente**: no entres. Espera en tu carril, **uno detrás de otro**.",
+          "en": "Barriers down, moving, or a **flashing red light**: do not enter. Wait in your lane, **one behind the other**."
+        },
+        {
+          "es": "Sin barreras ni semáforo: **comprueba tú** que no viene ningún vehículo por la vía.",
+          "en": "No barriers or traffic light: **you check** that no vehicle is coming on the track."
+        },
+        {
+          "es": "Cruza sin demora y solo si **no puedes quedarte dentro**. En el paso no se puede parar, adelantar ni cambiar de sentido.",
+          "en": "Cross without delay and only if **you cannot get stuck inside**. On the crossing you may not stop, overtake or make a U-turn."
+        },
+        {
+          "es": "Si te quedas parado sobre la vía: **desaloja a los ocupantes** y deja el paso libre.",
+          "en": "If you stop on the track: **evacuate the occupants** and clear the crossing."
+        }
+      ],
+      "src": [
+        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), Anexo I (definición 64) y art. 41",
+        "Reglamento General de Circulación (RD 1428/2003), arts. 79, 87, 94, 95, 96 y 97; Anexo I, apartado 4.2 y ap. 5.2 (M-7.5)"
+      ]
+    },
+    {
+      "id": "horn-and-lights",
+      "title": {
+        "es": "La bocina y los avisos de luces",
+        "en": "The horn and light warnings"
+      },
+      "minutes": 4,
+      "goals": [
+        {
+          "es": "Saber en qué casos puedes usar la bocina.",
+          "en": "Know when you may use the horn."
+        },
+        {
+          "es": "Saber que no se toca para saludar, protestar ni meter prisa.",
+          "en": "Know that you do not honk to greet, complain or hurry someone."
+        },
+        {
+          "es": "Avisar con destellos de luces sin deslumbrar.",
+          "en": "Warn with flashes of light without dazzling anyone."
+        }
+      ],
+      "terms": [
+        {
+          "es": "bocina (claxon)",
+          "en": "horn"
+        },
+        {
+          "es": "advertencia acústica",
+          "en": "sound warning"
+        },
+        {
+          "es": "destello",
+          "en": "flash"
+        },
+        {
+          "es": "luz de largo alcance",
+          "en": "high beam"
+        },
+        {
+          "es": "deslumbrar",
+          "en": "to dazzle"
+        }
+      ],
+      "pretest": {
+        "id": "situations-pre-6",
+        "answer": 1,
+        "es": {
+          "q": "Fuera de poblado, quieres adelantar a un camión lento. ¿Puedes avisarle con la bocina?",
+          "options": [
+            "No: la bocina solo se usa para evitar un choque",
+            "Sí: fuera de poblado se puede avisar de que vas a adelantar",
+            "Solo si es de noche"
+          ],
+          "why": "Fuera de poblado se puede usar la bocina para avisar al otro conductor de que vas a adelantarlo."
+        },
+        "en": {
+          "q": "Outside a town, you want to overtake a slow truck. May you warn it with the horn?",
+          "options": [
+            "No: the horn is only for avoiding a crash",
+            "Yes: outside towns you may warn that you are about to overtake",
+            "Only at night"
+          ],
+          "why": "Outside towns you may use the horn to warn the other driver that you are about to overtake."
+        },
+        "src": "RGC art. 110.2.b"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Cuándo puedes tocar la bocina",
+            "en": "When you may use the horn"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los conductores de vehículos que no son prioritarios solo pueden usar la bocina en estos casos:",
+                "en": "Drivers of non-priority vehicles may use the horn only in these cases:"
+              },
+              "src": "RGC art. 110.2"
+            },
+            {
+              "t": "list",
+              "items": [
+                {
+                  "es": "**Para evitar un posible accidente**, sobre todo en vías estrechas con muchas curvas.",
+                  "en": "**To avoid a possible accident**, especially on narrow roads with many curves."
+                },
+                {
+                  "es": "**Fuera de poblado**, para avisar al conductor de otro vehículo de que vas a adelantarlo.",
+                  "en": "**Outside towns**, to warn the driver of another vehicle that you are about to overtake it."
+                },
+                {
+                  "es": "Para avisar de tu presencia si un conductor particular tiene que hacer un servicio de urgencia (art. 70).",
+                  "en": "To make your presence known when a private driver has to carry out an emergency service (art. 70)."
+                }
+              ]
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c6a",
+                "answer": 1,
+                "es": {
+                  "q": "Conduces por una carretera estrecha con muchas curvas y poca visibilidad. ¿Puedes usar la bocina?",
+                  "options": [
+                    "No: nunca se usa la bocina fuera de poblado",
+                    "Sí, para evitar un posible accidente",
+                    "Solo si ves otro vehículo"
+                  ],
+                  "why": "La bocina se puede usar para evitar un posible accidente, y de forma especial en vías estrechas con muchas curvas."
+                },
+                "en": {
+                  "q": "You are driving on a narrow road with many curves and poor visibility. May you use the horn?",
+                  "options": [
+                    "No: the horn is never used outside towns",
+                    "Yes, to avoid a possible accident",
+                    "Only if you see another vehicle"
+                  ],
+                  "why": "The horn may be used to avoid a possible accident, and especially on narrow roads with many curves."
+                },
+                "terms": [
+                  {
+                    "es": "bocina",
+                    "en": "horn"
+                  }
+                ],
+                "src": "RGC art. 110.2.a"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Ni para saludar ni para meter prisa",
+            "en": "Not to greet or to hurry anyone"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "El sonido debe ser **no estridente**, y está prohibido usarlo sin motivo o de forma exagerada.",
+                "en": "The sound must be **non-shrill**, and it is banned to use it without reason or excessively."
+              },
+              "src": "RGC art. 110.1"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Saludar, protestar o meter prisa no están en la lista de casos permitidos. En poblado no existe el caso de adelantar, así que casi solo queda **evitar un accidente**.",
+                "en": "Greeting, complaining or hurrying someone is not on the list of allowed cases. In a town the overtaking case does not exist, so almost only **avoiding an accident** is left."
+              }
+            },
+            {
+              "t": "us",
+              "text": {
+                "es": "En EE. UU. mucha gente toca la bocina para saludar, protestar o decir «ya puedes pasar». Aquí ninguno de esos usos está permitido.",
+                "en": "In the US many drivers honk to greet, to complain or to say “go ahead”. Here none of those uses is allowed."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c6b",
+                "answer": 2,
+                "es": {
+                  "q": "El semáforo se pone en verde y el coche de delante no arranca. ¿Puedes tocar la bocina para meterle prisa?",
+                  "options": [
+                    "Sí, un toque corto",
+                    "Sí, si hay cola detrás",
+                    "No: no es ninguno de los casos permitidos"
+                  ],
+                  "why": "La bocina solo se usa en los casos que fija el reglamento, como evitar un posible accidente. Meter prisa no es uno de ellos."
+                },
+                "en": {
+                  "q": "The light turns green and the car ahead does not move. May you honk to hurry it?",
+                  "options": [
+                    "Yes, one short honk",
+                    "Yes, if there is a line behind you",
+                    "No: it is not one of the allowed cases"
+                  ],
+                  "why": "The horn is used only in the cases the regulation sets, such as avoiding a possible accident. Hurrying someone is not one of them."
+                },
+                "terms": [
+                  {
+                    "es": "meter prisa",
+                    "en": "to hurry someone"
+                  }
+                ],
+                "src": "RGC art. 110.1 y 110.2"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Avisar con destellos de luces",
+            "en": "Warning with flashes of light"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Para esos mismos avisos puedes usar las luces de corto o largo alcance en lugar de la bocina, **de forma intermitente**. Hazlo a intervalos muy cortos y sin deslumbrar. Esto vale también en poblado.",
+                "en": "For those same warnings you may use your low or high beams instead of the horn, **flashing**, at very short intervals and without dazzling anyone. This applies in towns too."
+              },
+              "src": "RGC art. 109.3"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "No uses la luz de largo alcance con el vehículo parado o estacionado. Tampoco hagas destellos alternos con otros fines que los del reglamento.",
+                "en": "Do not use the high beam when the vehicle is stopped or parked. Nor make alternating flashes for purposes other than those in the regulation."
+              },
+              "src": "RGC art. 100.2"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c6c",
+                "answer": 0,
+                "es": {
+                  "q": "Para avisar a otro conductor en lugar de usar la bocina, ¿qué está permitido?",
+                  "options": [
+                    "Destellos cortos de las luces, sin deslumbrar",
+                    "Dejar la luz de largo alcance fija",
+                    "Dar destellos largos de largo alcance"
+                  ],
+                  "why": "Se pueden hacer advertencias luminosas, incluso en poblado, con las luces de corto o largo alcance de forma intermitente, a intervalos muy cortos y evitando el deslumbramiento."
+                },
+                "en": {
+                  "q": "To warn another driver instead of using the horn, what is allowed?",
+                  "options": [
+                    "Short flashes of the lights, without dazzling",
+                    "Leaving the high beam on steadily",
+                    "Long flashes of the high beam"
+                  ],
+                  "why": "Light warnings are allowed, even in towns, using the low or high beams flashing at very short intervals and avoiding dazzle."
+                },
+                "terms": [
+                  {
+                    "es": "destello",
+                    "en": "flash"
+                  },
+                  {
+                    "es": "deslumbrar",
+                    "en": "to dazzle"
+                  }
+                ],
+                "src": "RGC art. 109.3"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "Solo se toca para **evitar un posible accidente** o, fuera de poblado, para avisar de que vas a **adelantar**.",
+          "en": "Honk only to **avoid a possible accident** or, outside towns, to warn that you are about to **overtake**."
+        },
+        {
+          "es": "El sonido no debe ser **estridente**, y no se usa sin motivo ni de forma exagerada.",
+          "en": "The sound must not be **shrill**, and it is not used without reason or excessively."
+        },
+        {
+          "es": "No se toca para **saludar, protestar ni meter prisa**.",
+          "en": "You do not honk to **greet, complain or hurry** anyone."
+        },
+        {
+          "es": "En los mismos casos puedes avisar con **destellos cortos** en vez de con la bocina, también en poblado, sin deslumbrar.",
+          "en": "In those same cases you may warn with **short flashes** instead of the horn, in towns too, without dazzling."
+        }
+      ],
+      "covers": [
+        "situations-05"
+      ],
+      "src": [
+        "Reglamento General de Circulación (RD 1428/2003), arts. 70, 100, 109 y 110"
+      ]
+    }
+  ]
+}

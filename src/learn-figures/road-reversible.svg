@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 240" focusable="false">
+  <rect class="f-grass" x="0" y="0" width="360" height="240"/>
+  <rect class="f-road" x="0" y="47" width="360" height="146"/>
+  <rect class="f-curb" x="0" y="47" width="360" height="22" opacity="0.5"/>
+  <rect class="f-curb" x="0" y="171" width="360" height="22" opacity="0.5"/>
+  <path class="f-line" d="M0 69 H360 M0 171 H360"/>
+  <path class="f-line f-dash" d="M0 101 H360 M0 105 H360 M0 135 H360 M0 139 H360"/>
+  <use href="#v-car" class="f-other" transform="translate(190 86) rotate(270)"/>
+  <use href="#v-car" class="f-me" transform="translate(90 154) rotate(90)"/>
+  <rect class="f-badge" x="256" y="72" width="28" height="28" rx="5"/>
+  <path class="f-ok" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none" d="M270 78 V94 M263 87 L270 94 L277 87"/>
+  <rect class="f-badge" x="256" y="106" width="28" height="28" rx="5"/>
+  <path class="f-danger" stroke="currentColor" stroke-width="4" stroke-linecap="round" fill="none" d="M263 113 L277 127 M277 113 L263 127"/>
+  <rect class="f-badge" x="256" y="140" width="28" height="28" rx="5"/>
+  <path class="f-ok" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none" d="M270 146 V162 M263 155 L270 162 L277 155"/>
+  <circle class="f-badge" cx="322" cy="120" r="11"/><text class="f-badge-text" x="322" y="120">2</text>
+  <circle class="f-badge" cx="322" cy="154" r="11"/><text class="f-badge-text" x="322" y="154">3</text>
+  <circle class="f-badge" cx="30" cy="120" r="11"/><text class="f-badge-text" x="30" y="120">1</text>
+</svg>

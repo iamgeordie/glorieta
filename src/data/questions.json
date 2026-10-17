@@ -116,7 +116,7 @@
         "100 km/h",
         "90 km/h"
       ],
-      "why": "Since 2019 the general limit for cars on conventional roads is 90 km/h. Signs can set a different limit."
+      "why": "The general limit for cars on conventional roads is 90 km/h (art. 48.1.a). Signs can set a different limit."
     },
     "es": {
       "q": "¿Cuál es la velocidad máxima genérica para un turismo en una carretera convencional fuera de poblado?",
@@ -125,12 +125,12 @@
         "100 km/h",
         "90 km/h"
       ],
-      "why": "Desde 2019 el límite genérico para turismos en carretera convencional es de 90 km/h. Las señales pueden fijar un límite distinto."
+      "why": "El límite genérico para turismos en carretera convencional es de 90 km/h (art. 48.1.a). Las señales pueden fijar un límite distinto."
     },
     "terms": [
       {
         "es": "carretera convencional",
-        "en": "two-way road, not a motorway"
+        "en": "conventional road (not a motorway or dual carriageway)"
       },
       {
         "es": "fuera de poblado",
@@ -324,7 +324,7 @@
         "You have priority over everyone",
         "Proceed with caution, respecting the priority rules that apply"
       ],
-      "why": "A flashing yellow means caution. It does not stop traffic and it does not give you priority. The normal priority rules still apply."
+      "why": "A flashing yellow light requires you to take extreme care and, where necessary, to give way. It does not excuse you from obeying other signals that require you to stop."
     },
     "es": {
       "q": "Un semáforo muestra una luz amarilla intermitente. ¿Qué significa?",
@@ -333,7 +333,7 @@
         "Tiene prioridad sobre todos",
         "Avanzar con precaución, respetando las normas de prioridad que correspondan"
       ],
-      "why": "El amarillo intermitente indica precaución. No detiene el tráfico ni da prioridad. Se aplican las normas de prioridad normales."
+      "why": "La luz amarilla intermitente obliga a extremar la precaución y, en su caso, a ceder el paso. No exime de cumplir otras señales que obliguen a detenerse."
     },
     "terms": [
       {
@@ -456,7 +456,7 @@
         "Move to the right and stop if necessary to let it pass",
         "Stay in your lane at your current speed"
       ],
-      "why": "You must make way for emergency vehicles on duty. Move to the right and stop if that is what it takes to let them through safely."
+      "why": "You must make way for priority vehicles: you normally move to the right or stop if necessary. In a traffic jam on a motorway or dual carriageway you act under article 32 (the emergency lane)."
     },
     "es": {
       "q": "Una ambulancia con sirena y luces azules se aproxima por detrás. ¿Qué debe hacer?",
@@ -465,7 +465,7 @@
         "Apartarse a la derecha y detenerse si es necesario para facilitar su paso",
         "Mantenerse en su carril a la misma velocidad"
       ],
-      "why": "Hay que facilitar el paso a los vehículos de emergencia en servicio. Apártese a la derecha y deténgase si es necesario."
+      "why": "Hay que facilitar el paso a los vehículos prioritarios: normalmente te apartas a la derecha o te detienes si es preciso. Con retención en una autopista o autovía se actúa según el artículo 32 (carril de emergencia)."
     },
     "terms": [
       {
@@ -477,7 +477,7 @@
         "en": "to let through"
       }
     ],
-    "src": "RGC arts. 67.1 and 69"
+    "src": "RGC arts. 67.1, 69 and 32.1"
   },
   {
     "id": "priority-10",
@@ -797,7 +797,7 @@
         "en": "lateral clearance"
       }
     ],
-    "src": "RGC arts. 85.4 and 88 (RD 518/2026)"
+    "src": "RGC arts. 85.4 and 88.2 (RD 518/2026), and RGC Anexo I, ap. 5.2"
   },
   {
     "id": "overtaking-04",
@@ -861,7 +861,7 @@
         "en": "dashed line"
       }
     ],
-    "src": "RGC Anexo I 5.2, marks M-3.1 to M-3.3"
+    "src": "RGC Anexo I, ap. 5.2 (marcas viales 4.1), M-3.1 to M-3.3"
   },
   {
     "id": "overtaking-06",
@@ -1272,18 +1272,18 @@
       "options": [
         "Yes, because the car is not moving",
         "Yes, but only to read, not to type",
-        "No, the ban on holding the phone applies while driving, including at lights"
+        "No, the law makes no exception for waiting at a traffic light"
       ],
-      "why": "Holding a phone while driving is banned, and that includes waiting at a traffic light with the engine running. It is a serious offense with a fine and points."
+      "why": "The ban on holding a phone applies while driving, and the law gives no exception for a stop at a traffic light. It is a serious offense with a fine and points."
     },
     "es": {
       "q": "¿Puede sostener y usar el móvil mientras espera detenido en un semáforo en rojo?",
       "options": [
         "Sí, porque el vehículo no se mueve",
         "Sí, pero solo para leer, no para escribir",
-        "No, la prohibición de sostener el móvil rige al conducir, también en el semáforo"
+        "No, la ley no hace excepción por estar parado en un semáforo"
       ],
-      "why": "Sostener el móvil mientras se conduce está prohibido, también al esperar en un semáforo con el motor en marcha. Es una infracción grave con multa y pérdida de puntos."
+      "why": "La prohibición de sostener el móvil rige mientras se conduce, y la ley no prevé ninguna excepción para una parada en un semáforo. Es una infracción grave, con multa y pérdida de puntos."
     },
     "terms": [
       {
@@ -1291,7 +1291,7 @@
         "en": "mobile phone"
       }
     ],
-    "src": "Ley arts. 13.3 and 76.g; RGC art. 18.2"
+    "src": "Ley arts. 13.3 and 76.g; RGC art. 18.2 (neither makes an exception for a stop at a light)"
   },
   {
     "id": "safety-04",
@@ -1328,22 +1328,22 @@
     "cat": "safety",
     "answer": 0,
     "en": {
-      "q": "Which lights must you use when driving through a tunnel?",
+      "q": "Which lights must a car have on in a well-lit tunnel?",
       "options": [
         "Low beams (dipped headlights)",
         "Fog lights only",
         "Only parking lights"
       ],
-      "why": "In tunnels you must use low beams, even if the tunnel is lit."
+      "why": "In a well-lit tunnel you must have the low beams on, as well as the position lights. If the tunnel is not lit well enough, high beams are used instead, unless they could dazzle others."
     },
     "es": {
-      "q": "¿Qué luces debe llevar encendidas al circular por un túnel?",
+      "q": "¿Qué luces debe llevar encendidas un turismo al circular por un túnel bien iluminado?",
       "options": [
         "Las luces de cruce",
         "Solo las antiniebla",
         "Solo las de posición"
       ],
-      "why": "En los túneles hay que llevar las luces de cruce, aunque el túnel esté iluminado."
+      "why": "En un túnel suficientemente iluminado hay que llevar encendida la luz de cruce, además de la de posición. Si el túnel no está bien iluminado, se usa la luz de largo alcance, salvo que pueda deslumbrar a otros."
     },
     "terms": [
       {
@@ -1359,7 +1359,7 @@
         "en": "tunnel"
       }
     ],
-    "src": "RGC arts. 98, 100.1 and 101.1"
+    "src": "RGC arts. 98.1, 100.1 and 101.1"
   },
   {
     "id": "safety-06",
@@ -1419,7 +1419,7 @@
         "en": "points license"
       }
     ],
-    "src": "Ley arts. 63.1 and 65.2"
+    "src": "Ley art. 63.1"
   },
   {
     "id": "docs-02",
@@ -1449,7 +1449,7 @@
         "en": "novice driver"
       }
     ],
-    "src": "Ley arts. 63.1 and 65.2"
+    "src": "Ley arts. 63.2 and 65.2"
   },
   {
     "id": "docs-03",
@@ -1547,7 +1547,7 @@
         "en": "warning sign"
       }
     ],
-    "src": "RGC arts. 144 to 146"
+    "src": "Norma 8.1-IC (Orden FOM/534/2014), apdo. 2.1; RGC Anexo I, ap. 5.1"
   },
   {
     "id": "signs-02",
@@ -1577,7 +1577,7 @@
         "en": "maximum speed"
       }
     ],
-    "src": "RGC arts. 144 to 146"
+    "src": "RGC Anexo I, ap. 5.1 (R-301, R-411)"
   },
   {
     "id": "signs-03",
@@ -1607,7 +1607,7 @@
         "en": "mandatory"
       }
     ],
-    "src": "RGC arts. 144 to 146"
+    "src": "Norma 8.1-IC (Orden FOM/534/2014), apdo. 2.1; RGC Anexo I, ap. 5.1"
   },
   {
     "id": "signs-04",
@@ -1620,7 +1620,7 @@
         "Circle",
         "Octagon"
       ],
-      "why": "STOP is an octagon, so it is recognizable even from behind or covered in snow or dirt."
+      "why": "STOP is an octagon: it is the only sign with that shape."
     },
     "es": {
       "q": "¿Qué forma tiene la señal de STOP?",
@@ -1629,7 +1629,7 @@
         "Círculo",
         "Octógono"
       ],
-      "why": "El STOP es un octógono, por lo que se reconoce incluso por detrás o si está cubierto de nieve o suciedad."
+      "why": "El STOP es un octógono: es la única señal con esa forma."
     },
     "terms": [
       {
@@ -1637,7 +1637,7 @@
         "en": "octagon"
       }
     ],
-    "src": "RGC arts. 144 to 146"
+    "src": "RGC Anexo I, ap. 5.1 (R-2); sign shape from the official drawing"
   },
   {
     "id": "signs-05",
@@ -1671,7 +1671,7 @@
       "es": "Las señales verdes de autopista son el hábito de EE. UU. Aquí el azul significa autopista.",
       "en": "Green highway signs are the US habit. Here, blue means motorway."
     },
-    "src": "Norma 8.1-IC (Orden FOM/534/2014)"
+    "src": "Norma 8.1-IC (Orden FOM/534/2014), apdos. 3.3.2.1 and 4.3.2.1"
   },
   {
     "id": "signs-06",
@@ -1960,7 +1960,7 @@
         "911",
         "999"
       ],
-      "why": "112 is the European emergency number and works across Spain. 911 does not."
+      "why": "112 is the European emergency number. In Spain you dial 112, not 911."
     },
     "es": {
       "q": "¿A qué número se llama para emergencias en España?",
@@ -1969,7 +1969,7 @@
         "911",
         "999"
       ],
-      "why": "El 112 es el número europeo de emergencias y funciona en toda España. El 911 no."
+      "why": "El 112 es el número europeo de emergencias. En España se llama al 112, no al 911."
     },
     "terms": [
       {
@@ -1991,19 +1991,19 @@
       "q": "A motorcyclist is injured and lying on the road. Should you take off their helmet?",
       "options": [
         "Yes, immediately, so they can breathe",
-        "No, not unless it is essential, for example if they cannot breathe",
+        "No, only if there is a clear reason and someone who knows how decides",
         "Yes, always"
       ],
-      "why": "Do not remove the helmet unless it is vital. Doing so can worsen a spinal injury."
+      "why": "The DGT says not to take the helmet off. It is removed only with a clear reason and by someone who knows how, because it can worsen a spinal injury. Call 112 and follow their instructions."
     },
     "es": {
       "q": "Un motorista herido yace en la calzada. ¿Debe quitarle el casco?",
       "options": [
         "Sí, enseguida, para que pueda respirar",
-        "No, salvo que sea imprescindible, por ejemplo si no puede respirar",
+        "No, solo si hay una indicación clara y lo decide quien sabe hacerlo",
         "Sí, siempre"
       ],
-      "why": "No se debe retirar el casco salvo que sea vital. Hacerlo puede agravar una lesión de columna."
+      "why": "La DGT indica que no se debe quitar el casco. Solo se retira con una indicación clara y por quien sabe hacerlo, porque puede agravar una lesión de columna. Llama al 112 y sigue sus instrucciones."
     },
     "terms": [
       {
@@ -2015,7 +2015,7 @@
         "en": "injured person"
       }
     ],
-    "src": "DGT first aid guidance"
+    "src": "DGT first aid guidance; Ministerio de Sanidad (first-aid module 6)"
   },
   {
     "id": "situations-04",
@@ -2049,7 +2049,7 @@
         "en": "tow truck"
       }
     ],
-    "src": "RGC art. 94.2.f; Ley art. 105.1"
+    "src": "RGC art. 94.2.f; LSV art. 40.2.f (ban); LSV art. 105.1 (removal when it obstructs)"
   },
   {
     "id": "situations-05",
@@ -2309,6 +2309,6 @@
         "en": "cyclist"
       }
     ],
-    "src": "RGC art. 85.4 (RD 518/2026)"
+    "src": "RGC arts. 85.4 and 88.2 (RD 518/2026), and RGC Anexo I, ap. 5.2"
   }
 ]

@@ -1,0 +1,63 @@
+{
+  "seconds": 7.4,
+  "poster": 2.9,
+  "actors": [
+    {
+      "id": "b",
+      "kind": "car",
+      "tone": "me",
+      "path": "M195 392 L195 262 Q195 195 222 195",
+      "from": 0.2,
+      "to": 2.2,
+      "show": [
+        0,
+        5.1
+      ],
+      "badge": {
+        "mark": "B",
+        "dx": 0,
+        "dy": -30
+      }
+    },
+    {
+      "id": "b2",
+      "kind": "car",
+      "tone": "me",
+      "path": "M222 195 L392 195",
+      "from": 5.1,
+      "to": 6.9,
+      "show": [
+        5.1,
+        7.4
+      ],
+      "badge": {
+        "mark": "B",
+        "dx": 0,
+        "dy": -30
+      }
+    },
+    {
+      "id": "p1",
+      "kind": "ped",
+      "tone": "other",
+      "path": "M262 147 L262 213",
+      "from": 0.6,
+      "to": 4,
+      "ease": "linear"
+    },
+    {
+      "id": "p2",
+      "kind": "ped",
+      "tone": "other",
+      "path": "M280 147 L280 213",
+      "from": 1.2,
+      "to": 4.6,
+      "ease": "linear",
+      "badge": {
+        "mark": "P",
+        "dx": 24,
+        "dy": 14
+      }
+    }
+  ]
+}

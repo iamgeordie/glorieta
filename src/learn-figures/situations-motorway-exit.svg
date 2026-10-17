@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360" focusable="false">
+<rect class="f-grass" x="0" y="0" width="360" height="360"/>
+<rect class="f-island" x="94" y="0" width="26" height="360"/>
+<g class="f-road"><rect x="28" y="0" width="66" height="360"/><rect x="120" y="0" width="60" height="360"/></g>
+<path class="f-line f-dash" d="M61 0 V360 M150 0 V360"/>
+<path class="f-line" d="M120 0 V360"/>
+<path class="f-road" d="M180 270 L210 200 L210 90 L180 90 Z"/>
+<path class="f-ring" stroke-width="30" d="M195 100 C195 40 270 55 270 -12"/>
+<path class="f-line f-dash" d="M180 264 V92"/>
+<rect class="f-zone-ok" x="150" y="190" width="30" height="170"/>
+<path class="f-path" d="M165 318 L165 275 C165 240 195 235 195 195 L195 100 C195 52 270 60 270 6"/>
+<use href="#v-car" class="f-other" transform="translate(135 200) rotate(0)"/>
+<use href="#v-car" class="f-me" transform="translate(165 330) rotate(0)"/>
+<circle class="f-badge" cx="107" cy="200" r="11"/><text class="f-badge-text" x="107" y="200">A</text>
+<circle class="f-badge" cx="195" cy="330" r="11"/><text class="f-badge-text" x="195" y="330">B</text>
+</svg>

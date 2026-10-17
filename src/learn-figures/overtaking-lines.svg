@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 240" focusable="false">
+  <rect class="f-grass" x="0" y="0" width="360" height="240"/>
+  <rect class="f-road" x="17" y="0" width="56" height="240"/>
+  <path class="f-line" d="M19 0 V240 M71 0 V240"/>
+  <rect class="f-road" x="107" y="0" width="56" height="240"/>
+  <path class="f-line" d="M109 0 V240 M161 0 V240"/>
+  <rect class="f-road" x="197" y="0" width="56" height="240"/>
+  <path class="f-line" d="M199 0 V240 M251 0 V240"/>
+  <rect class="f-road" x="287" y="0" width="56" height="240"/>
+  <path class="f-line" d="M289 0 V240 M341 0 V240"/>
+  <path class="f-line f-dash" d="M45 0 V240"/>
+  <path class="f-line" d="M135 0 V240"/>
+  <path class="f-line" d="M222.5 0 V240"/>
+  <path class="f-line f-dash" d="M227.5 0 V240"/>
+  <path class="f-line f-dash" d="M312.5 0 V240"/>
+  <path class="f-line" d="M317.5 0 V240"/>
+  <rect class="f-zone-ok" x="19" y="40" width="26" height="150"/>
+  <path class="f-path " d="M59 190 C59 176 31 176 31 150 L31 100 C31 80 59 80 59 58"/>
+  <rect class="f-zone" x="109" y="40" width="26" height="150"/>
+    <rect class="f-zone-ok" x="199" y="40" width="26" height="150"/>
+  <path class="f-path " d="M239 190 C239 176 211 176 211 150 L211 100 C211 80 239 80 239 58"/>
+  <rect class="f-zone" x="289" y="40" width="26" height="150"/>
+    <use href="#v-car" class="f-other" transform="translate(59 150)"/>
+  <use href="#v-car" class="f-me" transform="translate(59 214)"/>
+  <use href="#v-car" class="f-other" transform="translate(149 150)"/>
+  <use href="#v-car" class="f-me" transform="translate(149 214)"/>
+  <use href="#v-car" class="f-other" transform="translate(239 150)"/>
+  <use href="#v-car" class="f-me" transform="translate(239 214)"/>
+  <use href="#v-car" class="f-other" transform="translate(329 150)"/>
+  <use href="#v-car" class="f-me" transform="translate(329 214)"/>
+  <g transform="translate(45 16)"><circle class="f-badge" r="11"/><text class="f-badge-text">1</text></g>
+  <g transform="translate(135 16)"><circle class="f-badge" r="11"/><text class="f-badge-text">2</text></g>
+  <g transform="translate(225 16)"><circle class="f-badge" r="11"/><text class="f-badge-text">3</text></g>
+  <g transform="translate(315 16)"><circle class="f-badge" r="11"/><text class="f-badge-text">4</text></g>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 240" focusable="false">
+<rect class="f-grass" x="0" y="0" width="360" height="240"/>
+<g class="f-curb"><rect x="0" y="30" width="190" height="30"/><rect x="250" y="30" width="110" height="30"/><rect x="0" y="145" width="190" height="40"/><rect x="250" y="145" width="110" height="40"/></g>
+<g class="f-road"><rect x="0" y="60" width="360" height="85"/><rect x="190" y="0" width="60" height="60"/><rect x="190" y="145" width="60" height="95"/></g>
+<path class="f-line f-dash" d="M0 90 H190 M250 90 H360 M0 120 H190 M250 120 H360 M220 0 V60 M220 145 V240"/>
+<g class="f-white"><rect x="100" y="64" width="30" height="5"/><rect x="100" y="74" width="30" height="5"/><rect x="100" y="84" width="30" height="5"/><rect x="100" y="94" width="30" height="5"/><rect x="100" y="104" width="30" height="5"/><rect x="100" y="114" width="30" height="5"/><rect x="100" y="124" width="30" height="5"/><rect x="100" y="134" width="30" height="5"/></g>
+<rect class="f-zone-ok" x="46" y="120" width="46" height="25"/>
+<rect class="f-zone" x="94" y="120" width="42" height="25"/>
+<rect class="f-zone" x="146" y="120" width="48" height="25"/>
+<rect class="f-zone" x="258" y="120" width="80" height="25"/>
+<path class="f-path-plain" style="stroke-width:2.5" d="M262 143 l6 -16 l6 16 l6 -16 l6 16 l6 -16 l6 16 l6 -16 l6 16 l6 -16 l6 16 l6 -16 l6 16"/>
+<use href="#v-car" class="f-neutral" transform="translate(22 132) rotate(90)"/>
+<use href="#v-car" class="f-ok" transform="translate(69 132) rotate(90)"/>
+<use href="#v-car" class="f-danger" transform="translate(115 132) rotate(90)"/>
+<use href="#v-car" class="f-danger" transform="translate(170 132) rotate(90)"/>
+<use href="#v-car" class="f-danger" transform="translate(282 132) rotate(90)"/>
+<circle class="f-badge" cx="115" cy="166" r="11"/><text class="f-badge-text" x="115" y="166">A</text>
+<circle class="f-badge" cx="170" cy="166" r="11"/><text class="f-badge-text" x="170" y="166">B</text>
+<circle class="f-badge" cx="298" cy="166" r="11"/><text class="f-badge-text" x="298" y="166">C</text>
+<circle class="f-badge" cx="69" cy="166" r="11"/><text class="f-badge-text" x="69" y="166">D</text>
+</svg>

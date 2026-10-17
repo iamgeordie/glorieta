@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 240" focusable="false">
+  <rect class="f-grass" x="0" y="0" width="360" height="240"/>
+  <rect class="f-road" x="58" y="0" width="64" height="240"/>
+  <path class="f-line" d="M61 0 V240 M119 0 V240"/>
+  <path class="f-line f-dash" d="M90 0 V240"/>
+  <rect class="f-road" x="238" y="0" width="64" height="240"/>
+  <path class="f-line" d="M241 0 V240 M299 0 V240"/>
+  <path class="f-line f-dash" d="M270 0 V240"/>
+  <rect class="f-zone-ok" x="60" y="40" width="30" height="170"/>
+  <rect class="f-zone-ok" x="240" y="40" width="30" height="170"/>
+  <use href="#v-bike" class="f-other" transform="translate(114 140)"/>
+  <use href="#v-car" class="f-me" transform="translate(80.5 128)"/>
+  <path class="f-path-plain" d="M91 132 H107"/>
+  <path class="f-path-plain" d="M91 127 V137 M107 127 V137"/>
+  <use href="#v-bike" class="f-other" transform="translate(290 140)"/>
+  <use href="#v-car" class="f-me" transform="translate(254 128)"/>
+  <g transform="translate(90 18)"><circle class="f-badge" r="11"/><text class="f-badge-text">1</text></g>
+  <g transform="translate(270 18)"><circle class="f-badge" r="11"/><text class="f-badge-text">2</text></g>
+</svg>

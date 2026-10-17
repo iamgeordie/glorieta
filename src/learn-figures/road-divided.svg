@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 240" focusable="false">
+  <rect class="f-grass" x="0" y="0" width="360" height="240"/>
+  <rect class="f-road" x="0" y="18" width="292" height="86"/>
+  <rect class="f-road" x="0" y="136" width="292" height="86"/>
+  <rect class="f-curb" x="0" y="18" width="292" height="22" opacity="0.5"/>
+  <rect class="f-curb" x="0" y="96" width="292" height="8" opacity="0.5"/>
+  <rect class="f-curb" x="0" y="136" width="292" height="8" opacity="0.5"/>
+  <rect class="f-curb" x="0" y="200" width="292" height="22" opacity="0.5"/>
+  <path class="f-line" d="M0 40 H292 M0 96 H292 M0 144 H292 M0 200 H292"/>
+  <path class="f-line f-dash" d="M0 68 H292 M0 172 H292"/>
+  <rect class="f-curb" x="0" y="104" width="292" height="32"/>
+  <rect class="f-island" x="0" y="107" width="292" height="26"/>
+  <use href="#v-car" class="f-other" transform="translate(220 54) rotate(270)"/>
+  <use href="#v-car" class="f-other" transform="translate(110 82) rotate(270)"/>
+  <use href="#v-car" class="f-me" transform="translate(90 186) rotate(90)"/>
+  <use href="#v-car" class="f-other" transform="translate(215 158) rotate(90)"/>
+  <path class="f-neutral" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round" d="M310 40 H318 V96 H310"/>
+  <path class="f-neutral" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round" d="M310 104 H318 V136 H310"/>
+  <path class="f-neutral" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round" d="M310 144 H318 V200 H310"/>
+  <circle class="f-badge" cx="318" cy="68" r="11"/><text class="f-badge-text" x="318" y="68">3</text>
+  <circle class="f-badge" cx="318" cy="120" r="11"/><text class="f-badge-text" x="318" y="120">2</text>
+  <circle class="f-badge" cx="318" cy="172" r="11"/><text class="f-badge-text" x="318" y="172">1</text>
+  <circle class="f-badge" cx="50" cy="211" r="11"/><text class="f-badge-text" x="50" y="211">4</text>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360" focusable="false">
+<rect class="f-grass" x="0" y="0" width="360" height="360"/>
+<rect class="f-island" x="94" y="0" width="26" height="360"/>
+<g class="f-road"><rect x="28" y="0" width="66" height="360"/><rect x="120" y="0" width="60" height="360"/></g>
+<path class="f-line f-dash" d="M61 0 V360 M150 0 V360"/>
+<path class="f-line" d="M120 0 V360"/>
+<path class="f-road" d="M180 300 L210 300 L210 130 L180 62 Z"/>
+<path class="f-ring" stroke-width="30" d="M270 372 C270 330 195 345 195 290"/>
+<path class="f-line f-dash" d="M180 296 V132"/>
+<path id="look" class="f-zone" d="M150 250 H180 V360 H150 Z"/>
+<path id="route" class="f-path" d="M270 360 C270 330 195 335 195 290 L195 150 C195 105 165 105 165 62 L165 20"/>
+</svg>

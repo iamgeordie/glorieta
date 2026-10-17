@@ -1,0 +1,49 @@
+{
+  "seconds": 7,
+  "poster": 3,
+  "reveals": [
+    {
+      "id": "room",
+      "from": 1.8
+    }
+  ],
+  "actors": [
+    {
+      "id": "slow",
+      "kind": "truck",
+      "tone": "neutral",
+      "path": "M165 10 L165 290",
+      "from": 0,
+      "to": 7,
+      "ease": "linear"
+    },
+    {
+      "id": "pass",
+      "kind": "car",
+      "tone": "other",
+      "path": "M195 -30 L195 175 C195 215 165 205 165 260 L165 440",
+      "from": 0,
+      "to": 6.2,
+      "ease": "linear",
+      "badge": {
+        "mark": "2",
+        "dx": 14,
+        "dy": -30
+      }
+    },
+    {
+      "id": "me",
+      "kind": "car",
+      "tone": "me",
+      "path": "M195 440 L195 345 C195 318 203 312 203 285",
+      "from": 0,
+      "to": 4.8,
+      "ease": "inOut",
+      "badge": {
+        "mark": "1",
+        "dx": 0,
+        "dy": -30
+      }
+    }
+  ]
+}

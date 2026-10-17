@@ -1,0 +1,784 @@
+{
+ "seconds": 7,
+ "poster": 6.4,
+ "reveals": [
+  {
+   "id": "haz",
+   "from": 0.3
+  },
+  {
+   "id": "ar",
+   "from": 0.3
+  },
+  {
+   "id": "ab",
+   "from": 1.3
+  },
+  {
+   "id": "br",
+   "from": 0.3
+  },
+  {
+   "id": "bb",
+   "from": 1.3
+  }
+ ],
+ "actors": [
+  {
+   "id": "a0",
+   "kind": "car",
+   "tone": "other",
+   "path": "M25 88 L116 88",
+   "from": 0,
+   "to": 1.3,
+   "ease": "linear",
+   "show": [
+    0,
+    1.3
+   ],
+   "badge": {
+    "mark": "A",
+    "dx": 0,
+    "dy": -27
+   }
+  },
+  {
+   "id": "a1",
+   "kind": "car",
+   "tone": "other",
+   "path": "M116 88 L125.8 88",
+   "from": 1.3,
+   "to": 1.4,
+   "ease": "linear",
+   "show": [
+    1.3,
+    1.4
+   ],
+   "badge": {
+    "mark": "A",
+    "dx": 0,
+    "dy": -27
+   }
+  },
+  {
+   "id": "a2",
+   "kind": "car",
+   "tone": "other",
+   "path": "M125.8 88 L135.2 88",
+   "from": 1.4,
+   "to": 1.6,
+   "ease": "linear",
+   "show": [
+    1.4,
+    1.6
+   ],
+   "badge": {
+    "mark": "A",
+    "dx": 0,
+    "dy": -27
+   }
+  },
+  {
+   "id": "a3",
+   "kind": "car",
+   "tone": "other",
+   "path": "M135.2 88 L144 88",
+   "from": 1.6,
+   "to": 1.7,
+   "ease": "linear",
+   "show": [
+    1.6,
+    1.7
+   ],
+   "badge": {
+    "mark": "A",
+    "dx": 0,
+    "dy": -27
+   }
+  },
+  {
+   "id": "a4",
+   "kind": "car",
+   "tone": "other",
+   "path": "M144 88 L152.3 88",
+   "from": 1.7,
+   "to": 1.9,
+   "ease": "linear",
+   "show": [
+    1.7,
+    1.9
+   ],
+   "badge": {
+    "mark": "A",
+    "dx": 0,
+    "dy": -27
+   }
+  },
+  {
+   "id": "a5",
+   "kind": "car",
+   "tone": "other",
+   "path": "M152.3 88 L160.1 88",
+   "from": 1.9,
+   "to": 2,
+   "ease": "linear",
+   "show": [
+    1.9,
+    2
+   ],
+   "badge": {
+    "mark": "A",
+    "dx": 0,
+    "dy": -27
+   }
+  },
+  {
+   "id": "a6",
+   "kind": "car",
+   "tone": "other",
+   "path": "M160.1 88 L167.4 88",
+   "from": 2,
+   "to": 2.2,
+   "ease": "linear",
+   "show": [
+    2,
+    2.2
+   ],
+   "badge": {
+    "mark": "A",
+    "dx": 0,
+    "dy": -27
+   }
+  },
+  {
+   "id": "a7",
+   "kind": "car",
+   "tone": "other",
+   "path": "M167.4 88 L174.2 88",
+   "from": 2.2,
+   "to": 2.3,
+   "ease": "linear",
+   "show": [
+    2.2,
+    2.3
+   ],
+   "badge": {
+    "mark": "A",
+    "dx": 0,
+    "dy": -27
+   }
+  },
+  {
+   "id": "a8",
+   "kind": "car",
+   "tone": "other",
+   "path": "M174.2 88 L180.5 88",
+   "from": 2.3,
+   "to": 2.5,
+   "ease": "linear",
+   "show": [
+    2.3,
+    2.5
+   ],
+   "badge": {
+    "mark": "A",
+    "dx": 0,
+    "dy": -27
+   }
+  },
+  {
+   "id": "a9",
+   "kind": "car",
+   "tone": "other",
+   "path": "M180.5 88 L186.3 88",
+   "from": 2.5,
+   "to": 2.6,
+   "ease": "linear",
+   "show": [
+    2.5,
+    2.6
+   ],
+   "badge": {
+    "mark": "A",
+    "dx": 0,
+    "dy": -27
+   }
+  },
+  {
+   "id": "a10",
+   "kind": "car",
+   "tone": "other",
+   "path": "M186.3 88 L191.6 88",
+   "from": 2.6,
+   "to": 2.7,
+   "ease": "linear",
+   "show": [
+    2.6,
+    2.7
+   ],
+   "badge": {
+    "mark": "A",
+    "dx": 0,
+    "dy": -27
+   }
+  },
+  {
+   "id": "a11",
+   "kind": "car",
+   "tone": "other",
+   "path": "M191.6 88 L196.4 88",
+   "from": 2.7,
+   "to": 2.9,
+   "ease": "linear",
+   "show": [
+    2.7,
+    2.9
+   ],
+   "badge": {
+    "mark": "A",
+    "dx": 0,
+    "dy": -27
+   }
+  },
+  {
+   "id": "a12",
+   "kind": "car",
+   "tone": "other",
+   "path": "M196.4 88 L200.7 88",
+   "from": 2.9,
+   "to": 3,
+   "ease": "linear",
+   "show": [
+    2.9,
+    3
+   ],
+   "badge": {
+    "mark": "A",
+    "dx": 0,
+    "dy": -27
+   }
+  },
+  {
+   "id": "a13",
+   "kind": "car",
+   "tone": "other",
+   "path": "M200.7 88 L204.5 88",
+   "from": 3,
+   "to": 3.2,
+   "ease": "linear",
+   "show": [
+    3,
+    3.2
+   ],
+   "badge": {
+    "mark": "A",
+    "dx": 0,
+    "dy": -27
+   }
+  },
+  {
+   "id": "a14",
+   "kind": "car",
+   "tone": "other",
+   "path": "M204.5 88 L207.7 88",
+   "from": 3.2,
+   "to": 3.3,
+   "ease": "linear",
+   "show": [
+    3.2,
+    3.3
+   ],
+   "badge": {
+    "mark": "A",
+    "dx": 0,
+    "dy": -27
+   }
+  },
+  {
+   "id": "a15",
+   "kind": "car",
+   "tone": "other",
+   "path": "M207.7 88 L210.5 88",
+   "from": 3.3,
+   "to": 3.5,
+   "ease": "linear",
+   "show": [
+    3.3,
+    3.5
+   ],
+   "badge": {
+    "mark": "A",
+    "dx": 0,
+    "dy": -27
+   }
+  },
+  {
+   "id": "a16",
+   "kind": "car",
+   "tone": "other",
+   "path": "M210.5 88 L212.8 88",
+   "from": 3.5,
+   "to": 3.6,
+   "ease": "linear",
+   "show": [
+    3.5,
+    3.6
+   ],
+   "badge": {
+    "mark": "A",
+    "dx": 0,
+    "dy": -27
+   }
+  },
+  {
+   "id": "a17",
+   "kind": "car",
+   "tone": "other",
+   "path": "M212.8 88 L214.5 88",
+   "from": 3.6,
+   "to": 3.7,
+   "ease": "linear",
+   "show": [
+    3.6,
+    3.7
+   ],
+   "badge": {
+    "mark": "A",
+    "dx": 0,
+    "dy": -27
+   }
+  },
+  {
+   "id": "a18",
+   "kind": "car",
+   "tone": "other",
+   "path": "M214.5 88 L215.8 88",
+   "from": 3.7,
+   "to": 3.9,
+   "ease": "linear",
+   "show": [
+    3.7,
+    3.9
+   ],
+   "badge": {
+    "mark": "A",
+    "dx": 0,
+    "dy": -27
+   }
+  },
+  {
+   "id": "a19",
+   "kind": "car",
+   "tone": "other",
+   "path": "M215.8 88 L216.5 88",
+   "from": 3.9,
+   "to": 4,
+   "ease": "linear",
+   "show": [
+    3.9,
+    4
+   ],
+   "badge": {
+    "mark": "A",
+    "dx": 0,
+    "dy": -27
+   }
+  },
+  {
+   "id": "a20",
+   "kind": "car",
+   "tone": "other",
+   "path": "M216.5 88 L216.8 88",
+   "from": 4,
+   "to": 4.2,
+   "ease": "linear",
+   "show": [
+    4,
+    7
+   ],
+   "badge": {
+    "mark": "A",
+    "dx": 0,
+    "dy": -27
+   }
+  },
+  {
+   "id": "b0",
+   "kind": "car",
+   "tone": "me",
+   "path": "M18.3 162 L138.4 162",
+   "from": 0,
+   "to": 1.3,
+   "ease": "linear",
+   "show": [
+    0,
+    1.3
+   ],
+   "badge": {
+    "mark": "B",
+    "dx": 0,
+    "dy": -27
+   }
+  },
+  {
+   "id": "b1",
+   "kind": "car",
+   "tone": "me",
+   "path": "M138.4 162 L156.1 162",
+   "from": 1.3,
+   "to": 1.5,
+   "ease": "linear",
+   "show": [
+    1.3,
+    1.5
+   ],
+   "badge": {
+    "mark": "B",
+    "dx": 0,
+    "dy": -27
+   }
+  },
+  {
+   "id": "b2",
+   "kind": "car",
+   "tone": "me",
+   "path": "M156.1 162 L173 162",
+   "from": 1.5,
+   "to": 1.7,
+   "ease": "linear",
+   "show": [
+    1.5,
+    1.7
+   ],
+   "badge": {
+    "mark": "B",
+    "dx": 0,
+    "dy": -27
+   }
+  },
+  {
+   "id": "b3",
+   "kind": "car",
+   "tone": "me",
+   "path": "M173 162 L188.9 162",
+   "from": 1.7,
+   "to": 1.9,
+   "ease": "linear",
+   "show": [
+    1.7,
+    1.9
+   ],
+   "badge": {
+    "mark": "B",
+    "dx": 0,
+    "dy": -27
+   }
+  },
+  {
+   "id": "b4",
+   "kind": "car",
+   "tone": "me",
+   "path": "M188.9 162 L203.9 162",
+   "from": 1.9,
+   "to": 2.1,
+   "ease": "linear",
+   "show": [
+    1.9,
+    2.1
+   ],
+   "badge": {
+    "mark": "B",
+    "dx": 0,
+    "dy": -27
+   }
+  },
+  {
+   "id": "b5",
+   "kind": "car",
+   "tone": "me",
+   "path": "M203.9 162 L218 162",
+   "from": 2.1,
+   "to": 2.3,
+   "ease": "linear",
+   "show": [
+    2.1,
+    2.3
+   ],
+   "badge": {
+    "mark": "B",
+    "dx": 0,
+    "dy": -27
+   }
+  },
+  {
+   "id": "b6",
+   "kind": "car",
+   "tone": "me",
+   "path": "M218 162 L231.2 162",
+   "from": 2.3,
+   "to": 2.5,
+   "ease": "linear",
+   "show": [
+    2.3,
+    2.5
+   ],
+   "badge": {
+    "mark": "B",
+    "dx": 0,
+    "dy": -27
+   }
+  },
+  {
+   "id": "b7",
+   "kind": "car",
+   "tone": "me",
+   "path": "M231.2 162 L243.5 162",
+   "from": 2.5,
+   "to": 2.7,
+   "ease": "linear",
+   "show": [
+    2.5,
+    2.7
+   ],
+   "badge": {
+    "mark": "B",
+    "dx": 0,
+    "dy": -27
+   }
+  },
+  {
+   "id": "b8",
+   "kind": "car",
+   "tone": "me",
+   "path": "M243.5 162 L254.9 162",
+   "from": 2.7,
+   "to": 2.9,
+   "ease": "linear",
+   "show": [
+    2.7,
+    2.9
+   ],
+   "badge": {
+    "mark": "B",
+    "dx": 0,
+    "dy": -27
+   }
+  },
+  {
+   "id": "b9",
+   "kind": "car",
+   "tone": "me",
+   "path": "M254.9 162 L265.3 162",
+   "from": 2.9,
+   "to": 3.1,
+   "ease": "linear",
+   "show": [
+    2.9,
+    3.1
+   ],
+   "badge": {
+    "mark": "B",
+    "dx": 0,
+    "dy": -27
+   }
+  },
+  {
+   "id": "b10",
+   "kind": "car",
+   "tone": "me",
+   "path": "M265.3 162 L274.9 162",
+   "from": 3.1,
+   "to": 3.3,
+   "ease": "linear",
+   "show": [
+    3.1,
+    3.3
+   ],
+   "badge": {
+    "mark": "B",
+    "dx": 0,
+    "dy": -27
+   }
+  },
+  {
+   "id": "b11",
+   "kind": "car",
+   "tone": "me",
+   "path": "M274.9 162 L283.5 162",
+   "from": 3.3,
+   "to": 3.5,
+   "ease": "linear",
+   "show": [
+    3.3,
+    3.5
+   ],
+   "badge": {
+    "mark": "B",
+    "dx": 0,
+    "dy": -27
+   }
+  },
+  {
+   "id": "b12",
+   "kind": "car",
+   "tone": "me",
+   "path": "M283.5 162 L291.3 162",
+   "from": 3.5,
+   "to": 3.7,
+   "ease": "linear",
+   "show": [
+    3.5,
+    3.7
+   ],
+   "badge": {
+    "mark": "B",
+    "dx": 0,
+    "dy": -27
+   }
+  },
+  {
+   "id": "b13",
+   "kind": "car",
+   "tone": "me",
+   "path": "M291.3 162 L298.1 162",
+   "from": 3.7,
+   "to": 3.9,
+   "ease": "linear",
+   "show": [
+    3.7,
+    3.9
+   ],
+   "badge": {
+    "mark": "B",
+    "dx": 0,
+    "dy": -27
+   }
+  },
+  {
+   "id": "b14",
+   "kind": "car",
+   "tone": "me",
+   "path": "M298.1 162 L304 162",
+   "from": 3.9,
+   "to": 4.1,
+   "ease": "linear",
+   "show": [
+    3.9,
+    4.1
+   ],
+   "badge": {
+    "mark": "B",
+    "dx": 0,
+    "dy": -27
+   }
+  },
+  {
+   "id": "b15",
+   "kind": "car",
+   "tone": "me",
+   "path": "M304 162 L309 162",
+   "from": 4.1,
+   "to": 4.3,
+   "ease": "linear",
+   "show": [
+    4.1,
+    4.3
+   ],
+   "badge": {
+    "mark": "B",
+    "dx": 0,
+    "dy": -27
+   }
+  },
+  {
+   "id": "b16",
+   "kind": "car",
+   "tone": "me",
+   "path": "M309 162 L313.1 162",
+   "from": 4.3,
+   "to": 4.5,
+   "ease": "linear",
+   "show": [
+    4.3,
+    4.5
+   ],
+   "badge": {
+    "mark": "B",
+    "dx": 0,
+    "dy": -27
+   }
+  },
+  {
+   "id": "b17",
+   "kind": "car",
+   "tone": "me",
+   "path": "M313.1 162 L316.3 162",
+   "from": 4.5,
+   "to": 4.6,
+   "ease": "linear",
+   "show": [
+    4.5,
+    4.6
+   ],
+   "badge": {
+    "mark": "B",
+    "dx": 0,
+    "dy": -27
+   }
+  },
+  {
+   "id": "b18",
+   "kind": "car",
+   "tone": "me",
+   "path": "M316.3 162 L318.6 162",
+   "from": 4.6,
+   "to": 4.8,
+   "ease": "linear",
+   "show": [
+    4.6,
+    4.8
+   ],
+   "badge": {
+    "mark": "B",
+    "dx": 0,
+    "dy": -27
+   }
+  },
+  {
+   "id": "b19",
+   "kind": "car",
+   "tone": "me",
+   "path": "M318.6 162 L319.9 162",
+   "from": 4.8,
+   "to": 5,
+   "ease": "linear",
+   "show": [
+    4.8,
+    5
+   ],
+   "badge": {
+    "mark": "B",
+    "dx": 0,
+    "dy": -27
+   }
+  },
+  {
+   "id": "b20",
+   "kind": "car",
+   "tone": "me",
+   "path": "M319.9 162 L320.4 162",
+   "from": 5,
+   "to": 5.2,
+   "ease": "linear",
+   "show": [
+    5,
+    7
+   ],
+   "badge": {
+    "mark": "B",
+    "dx": 0,
+    "dy": -27
+   }
+  }
+ ]
+}

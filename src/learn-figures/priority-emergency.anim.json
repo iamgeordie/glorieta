@@ -1,0 +1,33 @@
+{
+  "seconds": 5.2,
+  "poster": 2.5,
+  "actors": [
+    {
+      "id": "a",
+      "kind": "truck",
+      "tone": "danger",
+      "path": "M195 540 L195 -100",
+      "from": 0,
+      "to": 4.2,
+      "ease": "linear",
+      "badge": {
+        "mark": "A",
+        "dx": -33,
+        "dy": 0
+      }
+    },
+    {
+      "id": "b",
+      "kind": "car",
+      "tone": "me",
+      "path": "M195 300 L195 245 C195 205 222 190 222 150 L222 112",
+      "from": 0.1,
+      "to": 2.9,
+      "badge": {
+        "mark": "B",
+        "dx": 33,
+        "dy": 0
+      }
+    }
+  ]
+}

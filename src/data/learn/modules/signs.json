@@ -1,0 +1,4275 @@
+{
+  "id": "signs",
+  "title": {
+    "es": "Señales y marcas viales",
+    "en": "Signs and road markings"
+  },
+  "blurb": {
+    "es": "Quién manda entre las señales, qué significan las de peligro y reglamentación, y cómo leer las marcas del suelo.",
+    "en": "Which signal rules, what warning and regulatory signs mean, and how to read the markings on the road."
+  },
+  "lessons": [
+    {
+      "id": "order-and-families",
+      "title": {
+        "es": "Quién manda: el orden de las señales",
+        "en": "Who rules: the order of the signals"
+      },
+      "minutes": 8,
+      "goals": [
+        {
+          "es": "Nombrar los cinco tipos de señal que regulan el tráfico.",
+          "en": "Name the five kinds of signal that control traffic."
+        },
+        {
+          "es": "Saber cuál manda cuando dos señales se contradicen.",
+          "en": "Know which one wins when two signals contradict each other."
+        },
+        {
+          "es": "Reconocer las cuatro familias de señales.",
+          "en": "Recognize the four families of signals."
+        },
+        {
+          "es": "Saber de qué color es el cartel de orientación en una autovía y en una carretera convencional.",
+          "en": "Know the color of the direction sign on a dual carriageway and on a conventional road."
+        }
+      ],
+      "terms": [
+        {
+          "es": "señalización",
+          "en": "signaling"
+        },
+        {
+          "es": "agente de tráfico",
+          "en": "traffic officer"
+        },
+        {
+          "es": "prevalecer",
+          "en": "to take precedence"
+        },
+        {
+          "es": "señal circunstancial",
+          "en": "temporary sign"
+        },
+        {
+          "es": "semáforo",
+          "en": "traffic light"
+        },
+        {
+          "es": "marca vial",
+          "en": "road marking"
+        },
+        {
+          "es": "panel complementario",
+          "en": "supplementary panel"
+        },
+        {
+          "es": "calzada",
+          "en": "roadway"
+        }
+      ],
+      "pretest": {
+        "id": "signs-pre-1",
+        "answer": 1,
+        "es": {
+          "q": "El semáforo está en rojo, pero un agente de tráfico te hace señas para que pases. ¿Qué haces?",
+          "options": [
+            "Esperas al verde: el semáforo manda",
+            "Sigues la orden del agente",
+            "Pasas solo si no viene nadie"
+          ],
+          "why": "Las órdenes de los agentes van primero en el orden de preferencia, por delante de los semáforos."
+        },
+        "en": {
+          "q": "The traffic light is red, but a traffic officer waves you through. What do you do?",
+          "options": [
+            "Wait for green: the light rules",
+            "Follow the officer’s order",
+            "Go only if nobody is coming"
+          ],
+          "why": "Officers’ orders come first in the order of precedence, ahead of traffic lights."
+        },
+        "src": "RGC art. 133.1"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Qué es la señalización",
+            "en": "What signaling is"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "La **señalización** es todo lo que te dice cómo circular. No son solo los carteles: también cuentan los gestos de un agente, los semáforos y la pintura del suelo.",
+                "en": "**Signaling** is everything that tells you how to drive. It is not only the signs: an officer’s gestures, traffic lights and the paint on the road count too."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "La señalización es el conjunto de las señales y órdenes de los agentes de tráfico, las señales circunstanciales que modifican el uso normal de la vía, los elementos de balizamiento, los semáforos, las señales verticales y las marcas viales.",
+                "en": "Signaling is the set of traffic officers’ signals and orders, temporary signs that change the normal use of the road, marker devices, traffic lights, vertical signs and road markings."
+              },
+              "src": "RGC art. 131"
+            },
+            {
+              "t": "list",
+              "items": [
+                {
+                  "es": "**Agentes de tráfico:** sus gestos, su silbato y sus órdenes.",
+                  "en": "**Traffic officers:** their gestures, whistle and orders."
+                },
+                {
+                  "es": "**Señales circunstanciales y balizamiento:** cambian el uso normal de la vía, por ejemplo por unas obras o un accidente.",
+                  "en": "**Temporary signs and markers:** they change the normal use of the road, for example because of roadworks or a crash."
+                },
+                {
+                  "es": "**Semáforos:** luces rojas, amarillas y verdes.",
+                  "en": "**Traffic lights:** red, amber and green lights."
+                },
+                {
+                  "es": "**Señales verticales:** los carteles de la vía.",
+                  "en": "**Vertical signs:** the signs along the road."
+                },
+                {
+                  "es": "**Marcas viales:** lo que está pintado en la calzada.",
+                  "en": "**Road markings:** what is painted on the roadway."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Las señales se obedecen",
+            "en": "Signals are obeyed"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Todos los usuarios de la vía deben obedecer las señales que establecen una obligación o una prohibición, y adaptar su conducta al mensaje de las demás señales.",
+                "en": "All road users must obey the signs that set an obligation or a prohibition, and adapt their behavior to the message of the other signs."
+              },
+              "src": "RGC art. 132.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si una señal te obliga a detenerte, no puedes volver a arrancar hasta cumplir lo que la señal exige.",
+                "en": "If a sign obliges you to stop, you may not move off again until you have done what the sign requires."
+              },
+              "src": "RGC art. 132.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Salvo circunstancias especiales que lo justifiquen, obedeces lo que dice la señal aunque parezca contradecir las normas generales de circulación.",
+                "en": "Unless there are special circumstances that justify it, you obey what the sign says even if it seems to contradict the general traffic rules."
+              },
+              "src": "RGC art. 132.2"
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "r-303"
+              ],
+              "caption": {
+                "es": "R-303: giro a la izquierda prohibido. También prohíbe el cambio de sentido.",
+                "en": "R-303: no left turn. It also forbids a U-turn."
+              }
+            },
+            {
+              "t": "example",
+              "situation": {
+                "es": "Quieres girar a la izquierda en un cruce. Una señal de giro a la izquierda prohibido (R-303) lo prohíbe, aunque la norma general permitiría ese giro.",
+                "en": "You want to turn left at a junction. A no-left-turn sign (R-303) forbids it, even though the general rule would allow that turn."
+              },
+              "action": {
+                "es": "No giras. Sigues de frente o buscas otro camino.",
+                "en": "You do not turn. You continue straight or find another route."
+              },
+              "why": {
+                "es": "Una señal de prohibición se obedece aunque parezca contradecir las normas generales (art. 132.2).",
+                "en": "A prohibition sign is obeyed even if it seems to contradict the general rules (art. 132.2)."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-order-a",
+                "answer": 0,
+                "es": {
+                  "q": "Una señal prohíbe un giro que la norma general sí permitiría en ese cruce. ¿Qué haces?",
+                  "options": [
+                    "Obedeces la señal",
+                    "Giras: manda la norma general",
+                    "Giras si no viene nadie"
+                  ],
+                  "why": "Las señales de prohibición se obedecen aunque parezcan contradecir las normas generales de circulación."
+                },
+                "en": {
+                  "q": "A sign forbids a turn that the general rule would allow at that junction. What do you do?",
+                  "options": [
+                    "Obey the sign",
+                    "Turn: the general rule rules",
+                    "Turn if nobody is coming"
+                  ],
+                  "why": "Prohibition signs are obeyed even if they seem to contradict the general traffic rules."
+                },
+                "terms": [
+                  {
+                    "es": "señal de prohibición",
+                    "en": "prohibition sign"
+                  }
+                ],
+                "src": "RGC art. 132.2"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "El orden de preferencia",
+            "en": "The order of precedence"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "A veces dos señales dicen cosas distintas. La ley fija **cuál manda**.",
+                "en": "Sometimes two signals say different things. The law sets **which one rules**."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "El orden de preferencia entre las señales es: agentes de tráfico, señalización circunstancial y balizamiento, semáforos, señales verticales y marcas viales.",
+                "en": "The order of precedence between signals is: traffic officers, temporary signs and markers, traffic lights, vertical signs and road markings."
+              },
+              "src": "RGC art. 133.1"
+            },
+            {
+              "t": "list",
+              "items": [
+                {
+                  "es": "**Agentes de tráfico**, cuando regulan la circulación.",
+                  "en": "**Traffic officers**, when they are directing traffic."
+                },
+                {
+                  "es": "**Señalización circunstancial** y balizamiento, como las señales amarillas de unas obras.",
+                  "en": "**Temporary signs** and markers, such as the yellow signs at roadworks."
+                },
+                {
+                  "es": "**Semáforos.**",
+                  "en": "**Traffic lights.**"
+                },
+                {
+                  "es": "**Señales verticales.**",
+                  "en": "**Vertical signs.**"
+                },
+                {
+                  "es": "**Marcas viales.**",
+                  "en": "**Road markings.**"
+                }
+              ],
+              "ordered": true
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si las señales parecen contradecirse, prevalece la que va antes en ese orden o, si son del mismo tipo, la más restrictiva.",
+                "en": "If signals seem to contradict each other, the one that comes first in that order takes precedence or, if they are of the same type, the more restrictive one."
+              },
+              "src": "RGC art. 133.2"
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Para recordarlo: manda lo que más se adapta al momento. Una persona decide ahora; la pintura del suelo está ahí siempre.",
+                "en": "To remember it: what adapts most to the moment rules. A person decides now; the paint on the road is there all the time."
+              }
+            },
+            {
+              "t": "example",
+              "situation": {
+                "es": "El semáforo está en verde y un agente levanta un brazo en vertical.",
+                "en": "The light is green and an officer raises one arm straight up."
+              },
+              "action": {
+                "es": "Te detienes, salvo que no puedas hacerlo con seguridad suficiente.",
+                "en": "You stop, unless you cannot do so with enough safety."
+              },
+              "why": {
+                "es": "Los agentes van antes que los semáforos (art. 133.1) y el brazo levantado verticalmente obliga a detenerse (Anexo I, 1.1.a).",
+                "en": "Officers come before traffic lights (art. 133.1) and an arm raised vertically obliges you to stop (Annex I, 1.1.a)."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-order-b",
+                "answer": 1,
+                "es": {
+                  "q": "Un semáforo y una señal vertical de la misma vía dan órdenes contrarias. ¿Cuál manda?",
+                  "options": [
+                    "La señal vertical, porque es permanente",
+                    "El semáforo",
+                    "La que ves primero"
+                  ],
+                  "why": "En el orden de preferencia, los semáforos van antes que las señales verticales."
+                },
+                "en": {
+                  "q": "A traffic light and a vertical sign on the same road give opposite orders. Which one rules?",
+                  "options": [
+                    "The vertical sign, because it is permanent",
+                    "The traffic light",
+                    "The one you see first"
+                  ],
+                  "why": "In the order of precedence, traffic lights come before vertical signs."
+                },
+                "terms": [
+                  {
+                    "es": "semáforo",
+                    "en": "traffic light"
+                  },
+                  {
+                    "es": "señal vertical",
+                    "en": "vertical sign"
+                  }
+                ],
+                "src": "RGC art. 133.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Señales provisionales: amarillo y naranja",
+            "en": "Temporary signs: yellow and orange"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Las señales provisionales **cambian lo normal** durante un tiempo. Se reconocen por el color de fondo.",
+                "en": "Temporary signs **change what is normal** for a while. You can tell them by their background color."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "En tramos con obras o tareas de conservación, las señales de peligro y de reglamentación que normalmente tienen fondo blanco llevan fondo amarillo. La señal P-18 «Obras» solo se usa con fondo amarillo.",
+                "en": "On stretches with roadworks or maintenance, the warning and regulatory signs that normally have a white background have a yellow background. Sign P-18 “Roadworks” is only used with a yellow background."
+              },
+              "src": "RGC Anexo I, ap. 5 (Tomo I, 2.5)"
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "p-18"
+              ],
+              "caption": {
+                "es": "P-18: obras. Es siempre de fondo amarillo.",
+                "en": "P-18: roadworks. It always has a yellow background."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Las señales de antes que no valen durante las obras se tapan con material adhesivo negro. Si la señalización provisional se debe a otra causa que no son las obras, se usa el color naranja en vez del amarillo.",
+                "en": "Earlier signs that do not apply during the works are covered with black adhesive material. If temporary signing is needed for a reason other than roadworks, orange is used instead of yellow."
+              },
+              "src": "RGC Anexo I, ap. 5 (Tomo I, 2.5 y 2.6)"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Lo que cambia la señalización provisional dura hasta que lo diga la propia señal o hasta que termina la causa que la motivó. Entonces vuelven a valer las señales habituales.",
+                "en": "What temporary signing changes lasts until the signs themselves say so or until the cause that led to it ends. Then the usual signs apply again."
+              },
+              "src": "RGC art. 142.1"
+            },
+            {
+              "t": "us",
+              "text": {
+                "es": "En EE. UU. las señales de obras suelen ser rombos naranjas. Aquí son triángulos amarillos con borde rojo, y el naranja se reserva para otras situaciones provisionales.",
+                "en": "In the US, roadwork signs are usually orange diamonds. Here they are yellow triangles with a red border, and orange is kept for other temporary situations."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-order-c",
+                "answer": 2,
+                "es": {
+                  "q": "En unas obras ves una señal de velocidad máxima de fondo amarillo. Antes había otra, de fondo blanco, con una cifra distinta. ¿Cuál obedeces?",
+                  "options": [
+                    "La blanca: es la permanente",
+                    "La que tenga la cifra más alta",
+                    "La amarilla: es provisional y prevalece"
+                  ],
+                  "why": "La señalización provisional va antes que las señales verticales habituales en el orden de preferencia."
+                },
+                "en": {
+                  "q": "At roadworks you see a maximum-speed sign with a yellow background. Earlier there was another, white one, with a different number. Which do you obey?",
+                  "options": [
+                    "The white one: it is the permanent one",
+                    "The one with the higher number",
+                    "The yellow one: it is temporary and takes precedence"
+                  ],
+                  "why": "Temporary signing comes before the usual vertical signs in the order of precedence."
+                },
+                "terms": [
+                  {
+                    "es": "obras",
+                    "en": "roadworks"
+                  },
+                  {
+                    "es": "señal provisional",
+                    "en": "temporary sign"
+                  }
+                ],
+                "src": "RGC art. 133.1.b"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Qué señal es para ti",
+            "en": "Which sign is yours"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Obedeces los semáforos y las señales verticales que están inmediatamente a tu derecha, encima de la calzada o encima de tu carril. Si no hay ninguno en esos sitios y vas a girar a la izquierda o seguir de frente, obedeces los de tu izquierda.",
+                "en": "You obey the traffic lights and vertical signs placed immediately to your right, above the roadway or above your lane. If there are none in those places and you are going to turn left or go straight on, you obey those on your left."
+              },
+              "src": "RGC art. 132.3"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si los de la derecha y los de la izquierda dicen cosas distintas, quien va a girar a la izquierda o a seguir de frente solo obedece los de su izquierda.",
+                "en": "If those on the right and those on the left say different things, a driver who will turn left or go straight on obeys only those on the left."
+              },
+              "src": "RGC art. 132.3"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Una señal vale para toda la anchura de la calzada que puedes usar. Las marcas pintadas en el suelo pueden limitarla a uno o varios carriles.",
+                "en": "A sign applies to the whole width of the roadway you may use. Markings painted on the road can limit it to one or more lanes."
+              },
+              "src": "RGC art. 135"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-order-d",
+                "answer": 1,
+                "es": {
+                  "q": "Vas a seguir de frente. La señal de tu derecha y la de tu izquierda dan indicaciones distintas. ¿Cuál obedeces?",
+                  "options": [
+                    "La de tu derecha",
+                    "La de tu izquierda",
+                    "La más restrictiva de las dos"
+                  ],
+                  "why": "Quien sigue de frente o gira a la izquierda solo obedece las señales y semáforos situados inmediatamente a su izquierda cuando las de ambos lados son distintas."
+                },
+                "en": {
+                  "q": "You are going straight on. The sign on your right and the one on your left give different instructions. Which do you obey?",
+                  "options": [
+                    "The one on your right",
+                    "The one on your left",
+                    "The more restrictive of the two"
+                  ],
+                  "why": "A driver going straight on or turning left obeys only the signs and lights immediately on their left when those on the two sides differ."
+                },
+                "terms": [
+                  {
+                    "es": "de frente",
+                    "en": "straight on"
+                  }
+                ],
+                "src": "RGC art. 132.3"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Dónde empieza y hasta dónde llega",
+            "en": "Where it starts and how far it goes"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Las obligaciones, limitaciones y prohibiciones empiezan en la sección de la calzada donde está la señal, salvo que un panel complementario indique la distancia a la que empiezan.",
+                "en": "Obligations, limits and prohibitions start at the cross-section of the road where the sign stands, unless a supplementary panel gives the distance at which they start."
+              },
+              "src": "RGC art. 145.4"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Una señal de reglamentación junto al cartel con el nombre del pueblo, o en su misma vertical, vale para todo el pueblo, salvo que otras señales indiquen otra cosa en algunos tramos.",
+                "en": "A regulatory sign beside the sign with the town’s name, or directly above or below it, applies to the whole town, unless other signs say something different on some stretches."
+              },
+              "src": "RGC art. 145.3"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Un panel complementario rectangular debajo de la señal precisa su significado: puede limitarla a ciertos usuarios o a ciertos períodos.",
+                "en": "A rectangular supplementary panel below the sign makes its meaning more precise: it can limit it to certain users or periods."
+              },
+              "src": "RGC art. 137.1 y 137.2"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-order-e",
+                "answer": 0,
+                "es": {
+                  "q": "Una señal de velocidad máxima está junto al cartel con el nombre de un pueblo. ¿A qué parte del pueblo se aplica?",
+                  "options": [
+                    "A todo el pueblo, salvo tramos con otras señales",
+                    "Solo a la primera calle",
+                    "Solo hasta el primer cruce"
+                  ],
+                  "why": "Las señales de reglamentación junto al cartel del pueblo valen para todo el pueblo, salvo que otras señales indiquen otra cosa en ciertos tramos."
+                },
+                "en": {
+                  "q": "A maximum-speed sign stands beside the sign with a town’s name. Which part of the town does it apply to?",
+                  "options": [
+                    "The whole town, except stretches with other signs",
+                    "Only the first street",
+                    "Only up to the first junction"
+                  ],
+                  "why": "Regulatory signs beside the town-name sign apply to the whole town, unless other signs say otherwise on certain stretches."
+                },
+                "terms": [
+                  {
+                    "es": "pueblo",
+                    "en": "town"
+                  }
+                ],
+                "src": "RGC art. 145.3"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Las cuatro familias",
+            "en": "The four families"
+          },
+          "blocks": [
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Familia",
+                  "en": "Family"
+                },
+                {
+                  "es": "Para qué sirve",
+                  "en": "What it is for"
+                },
+                {
+                  "es": "Dónde la estudias",
+                  "en": "Where you study it"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "Peligro",
+                    "en": "Warning"
+                  },
+                  {
+                    "es": "Avisa de un peligro difícil de ver a tiempo.",
+                    "en": "Warns of a danger that is hard to see in time."
+                  },
+                  {
+                    "es": "Lecciones 2 y 3",
+                    "en": "Lessons 2 and 3"
+                  }
+                ],
+                [
+                  {
+                    "es": "Reglamentación",
+                    "en": "Regulatory"
+                  },
+                  {
+                    "es": "Fija obligaciones, limitaciones y prohibiciones: prioridad, entrada prohibida, restricciones, velocidad, obligación y fin.",
+                    "en": "Sets obligations, limits and prohibitions: priority, no entry, restrictions, speed, orders and endings."
+                  },
+                  {
+                    "es": "Lecciones 4 y 5",
+                    "en": "Lessons 4 and 5"
+                  }
+                ],
+                [
+                  {
+                    "es": "Indicación",
+                    "en": "Information"
+                  },
+                  {
+                    "es": "Da datos útiles: carriles, servicios, orientación, paneles complementarios.",
+                    "en": "Gives useful information: lanes, services, direction, supplementary panels."
+                  },
+                  {
+                    "es": "No las repasamos una a una aquí",
+                    "en": "Not reviewed one by one here"
+                  }
+                ],
+                [
+                  {
+                    "es": "Marcas viales",
+                    "en": "Road markings"
+                  },
+                  {
+                    "es": "Regulan, avisan o guían, solas o con otras señales.",
+                    "en": "Regulate, warn or guide, alone or together with other signals."
+                  },
+                  {
+                    "es": "Lección 6",
+                    "en": "Lesson 6"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Las señales de peligro avisan de la proximidad y la naturaleza de un peligro difícil de percibir a tiempo. Las de reglamentación indican obligaciones, limitaciones o prohibiciones especiales.",
+                "en": "Warning signs tell you about the nearness and nature of a danger that is hard to perceive in time. Regulatory signs indicate special obligations, limits or prohibitions."
+              },
+              "src": "RGC arts. 144.1 y 145.1"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "La forma y el color te dan la pista antes de leer el dibujo. En el catálogo oficial, las señales de peligro son casi siempre triángulos con borde rojo, las de prohibición son círculos con borde rojo y las de obligación son círculos azules con un símbolo blanco. El STOP es un octógono.",
+                "en": "Shape and color give you the clue before you read the picture. In the official catalogue, warning signs are almost always triangles with a red border, prohibition signs are circles with a red border and mandatory signs are blue circles with a white symbol. STOP is an octagon."
+              }
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "p-19",
+                "r-301-50",
+                "r-400c",
+                "r-2",
+                "r-3"
+              ],
+              "caption": {
+                "es": "De izquierda a derecha: peligro, prohibición, obligación, STOP y prioridad.",
+                "en": "From left to right: warning, prohibition, mandatory, STOP and priority."
+              }
+            },
+            {
+              "t": "us",
+              "text": {
+                "es": "En la mayoría de los estados de EE. UU. las señales de peligro son rombos amarillos. Aquí, un rombo amarillo con borde blanco (R-3) significa que tienes prioridad.",
+                "en": "In most US states, warning signs are yellow diamonds. Here, a yellow diamond with a white border (R-3) means you have priority."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-order-f",
+                "answer": 2,
+                "es": {
+                  "q": "¿Para qué sirve una señal de peligro?",
+                  "options": [
+                    "Para prohibir una maniobra",
+                    "Para indicar un servicio útil",
+                    "Para avisar de un peligro difícil de ver a tiempo"
+                  ],
+                  "why": "Las señales de peligro avisan de la proximidad y naturaleza de un peligro difícil de percibir a tiempo, para que adaptes tu conducta."
+                },
+                "en": {
+                  "q": "What is a warning sign for?",
+                  "options": [
+                    "To prohibit a maneuver",
+                    "To point out a useful service",
+                    "To warn of a danger that is hard to see in time"
+                  ],
+                  "why": "Warning signs tell you about the nearness and nature of a danger that is hard to perceive in time, so that you can adapt your driving."
+                },
+                "terms": [
+                  {
+                    "es": "señal de peligro",
+                    "en": "warning sign"
+                  }
+                ],
+                "src": "RGC art. 144.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Carteles de orientación: azul y blanco",
+            "en": "Direction signs: blue and white"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Los **carteles de orientación** te dicen por dónde seguir. Son señales de indicación. Su color de fondo depende del tipo de carretera.",
+                "en": "**Direction signs** tell you where to go. They are information signs. Their background color depends on the type of road."
+              }
+            },
+            {
+              "t": "rule",
+              "src": "Norma 8.1-IC (Orden FOM/534/2014), apartado 3.3.2.1",
+              "text": {
+                "es": "En autopistas y autovías, el cartel que indica la dirección propia de la carretera tiene fondo azul y letras blancas. Los carteles de preseñalización también son azules con letras blancas. Un cartel de salida inmediata hacia una carretera convencional tiene fondo blanco y letras negras.",
+                "en": "On motorways and dual carriageways, the sign that shows the road’s own direction has a blue background and white letters. Advance direction signs are also blue with white letters. An immediate-exit sign toward a conventional road has a white background and black letters."
+              }
+            },
+            {
+              "t": "rule",
+              "src": "Norma 8.1-IC (Orden FOM/534/2014), apartado 4.3.2.1",
+              "text": {
+                "es": "En carreteras convencionales, el cartel de dirección propia tiene fondo blanco y letras negras. Un cartel de preseñalización o de salida inmediata que dirige hacia una autopista o autovía tiene fondo azul y letras blancas.",
+                "en": "On conventional roads, the sign for the road’s own direction has a white background and black letters. An advance or immediate-exit sign that points toward a motorway or dual carriageway has a blue background and white letters."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Esta es la norma técnica de señalización vertical de las carreteras del Estado, no un artículo del Reglamento General de Circulación.",
+                "en": "This is the technical standard for vertical signing on state roads, not an article of the General Traffic Regulation."
+              }
+            },
+            {
+              "t": "us",
+              "text": {
+                "es": "En la mayoría de los estados de EE. UU. los carteles de las autopistas son verdes. Aquí el verde se usa en los carteles de límite de comunidad autónoma o de provincia.",
+                "en": "In most US states, highway guide signs are green. Here green is used on the signs that mark the limit of a region or province."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-orient-a",
+                "answer": 0,
+                "es": {
+                  "q": "Circulas por una autovía. ¿De qué colores es el cartel que indica la dirección de tu propia carretera?",
+                  "options": [
+                    "Fondo azul y letras blancas",
+                    "Fondo blanco y letras negras",
+                    "Fondo verde y letras blancas"
+                  ],
+                  "why": "En autopistas y autovías, el cartel de dirección propia es azul con letras blancas. El blanco con letras negras es el de las carreteras convencionales, y el verde se reserva a los límites de comunidad autónoma o de provincia."
+                },
+                "en": {
+                  "q": "You are driving on a dual carriageway. What colors does the sign showing your own road’s direction have?",
+                  "options": [
+                    "Blue background and white letters",
+                    "White background and black letters",
+                    "Green background and white letters"
+                  ],
+                  "why": "On motorways and dual carriageways, the own-direction sign is blue with white letters. White with black letters is for conventional roads, and green is kept for the limits of a region or province."
+                },
+                "terms": [
+                  {
+                    "es": "cartel de orientación",
+                    "en": "direction sign"
+                  },
+                  {
+                    "es": "autovía",
+                    "en": "dual carriageway"
+                  }
+                ],
+                "src": "Norma 8.1-IC (Orden FOM/534/2014), apartados 3.3.2.1 y 4.3.2.1"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "El orden de preferencia: **agentes, señalización provisional, semáforos, señales verticales, marcas viales**.",
+          "en": "The order of precedence: **officers, temporary signs, traffic lights, vertical signs, road markings**."
+        },
+        {
+          "es": "Si dos señales del mismo tipo se contradicen, vale la **más restrictiva**.",
+          "en": "If two signals of the same type contradict each other, the **more restrictive** one applies."
+        },
+        {
+          "es": "Fondo **amarillo** (obras) o **naranja** (otra causa): señal provisional, que prevalece sobre las habituales.",
+          "en": "**Yellow** (roadworks) or **orange** (other cause) background: a temporary sign, which takes precedence over the usual ones."
+        },
+        {
+          "es": "Una señal junto al nombre del pueblo vale para **todo el pueblo**.",
+          "en": "A sign beside the town’s name applies to the **whole town**."
+        },
+        {
+          "es": "Cuatro familias: **peligro, reglamentación, indicación y marcas viales**.",
+          "en": "Four families: **warning, regulatory, information and road markings**."
+        },
+        {
+          "es": "Cartel de dirección propia: **azul con letras blancas** en autopistas y autovías; **blanco con letras negras** en carreteras convencionales.",
+          "en": "Own-direction sign: **blue with white letters** on motorways and dual carriageways; **white with black letters** on conventional roads."
+        }
+      ],
+      "covers": [
+        "signs-06",
+        "signs-05"
+      ],
+      "src": [
+        "Reglamento General de Circulación (RD 1428/2003), arts. 131 a 133, 135, 137, 142.1, 144.1, 145.1, 145.3 y 145.4",
+        "RGC Anexo I, apartados 1.1 y 5 (Tomo I, 2.5 y 2.6), en la redacción del RD 465/2025",
+        "Norma 8.1-IC señalización vertical (Orden FOM/534/2014, BOE-A-2014-3654), apartados 2.1, 3.3.2.1 y 4.3.2.1"
+      ]
+    },
+    {
+      "id": "warning-junctions",
+      "title": {
+        "es": "Peligro: cruces, pasos a nivel y semáforos",
+        "en": "Warning: junctions, level crossings and traffic lights"
+      },
+      "minutes": 7,
+      "goals": [
+        {
+          "es": "Explicar para qué sirve una señal de peligro.",
+          "en": "Explain what a warning sign is for."
+        },
+        {
+          "es": "Distinguir las señales de cruce y saber quién pasa primero.",
+          "en": "Tell the junction signs apart and know who goes first."
+        },
+        {
+          "es": "Reconocer un paso a nivel y la baliza que lo anuncia.",
+          "en": "Recognize a level crossing and the marker post that announces it."
+        }
+      ],
+      "terms": [
+        {
+          "es": "señal de peligro",
+          "en": "warning sign"
+        },
+        {
+          "es": "incorporación",
+          "en": "merge"
+        },
+        {
+          "es": "paso a nivel",
+          "en": "level crossing"
+        },
+        {
+          "es": "barrera",
+          "en": "barrier"
+        },
+        {
+          "es": "baliza",
+          "en": "marker post"
+        },
+        {
+          "es": "puente móvil",
+          "en": "movable bridge"
+        },
+        {
+          "es": "muelle",
+          "en": "quay"
+        },
+        {
+          "es": "intersección",
+          "en": "junction"
+        }
+      ],
+      "pretest": {
+        "id": "signs-pre-2",
+        "answer": 2,
+        "es": {
+          "q": "Antes de un paso a nivel ves un poste blanco con tres franjas rojas inclinadas. ¿A qué distancia está el paso?",
+          "options": [
+            "100 m",
+            "150 m",
+            "200 m"
+          ],
+          "why": "Tres franjas indican 200 m, dos franjas 150 m y una franja 100 m."
+        },
+        "en": {
+          "q": "Before a level crossing you see a white post with three slanted red stripes. How far away is the crossing?",
+          "options": [
+            "100 m",
+            "150 m",
+            "200 m"
+          ],
+          "why": "Three stripes mean 200 m, two stripes 150 m and one stripe 100 m."
+        },
+        "src": "Catálogo oficial (señales P-9 y P-10)"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Qué hace una señal de peligro",
+            "en": "What a warning sign does"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Las señales de advertencia de peligro indican la proximidad y la naturaleza de un peligro difícil de percibir a tiempo, para que se cumplan las normas de comportamiento que correspondan en cada caso.",
+                "en": "Warning signs indicate the nearness and nature of a danger that is hard to perceive in time, so that the rules of behavior that apply in each case are followed."
+              },
+              "src": "RGC art. 144.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Un panel complementario puede indicar la distancia entre la señal y el principio del tramo peligroso, o la longitud del tramo donde existe el peligro.",
+                "en": "A supplementary panel can show the distance between the sign and the start of the dangerous stretch, or the length of the stretch where the danger exists."
+              },
+              "src": "RGC art. 144.2 y 144.3"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Casi todas son **triángulos con borde rojo**. Las excepciones son los postes P-9 y P-10 y las cruces P-11 y P-11a. Y en unas obras el fondo del triángulo es amarillo.",
+                "en": "Almost all are **triangles with a red border**. The exceptions are the posts P-9 and P-10 and the crosses P-11 and P-11a. And at roadworks the triangle’s background is yellow."
+              }
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "p-2",
+                "p-19",
+                "p-21a"
+              ],
+              "caption": {
+                "es": "Tres señales de peligro: cruce, pavimento deslizante y niños.",
+                "en": "Three warning signs: junction, slippery road and children."
+              }
+            },
+            {
+              "t": "us",
+              "text": {
+                "es": "En la mayoría de los estados de EE. UU. las señales de peligro son rombos amarillos. Aquí son triángulos con borde rojo.",
+                "en": "In most US states, warning signs are yellow diamonds. Here they are triangles with a red border."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-warn-a",
+                "answer": 0,
+                "es": {
+                  "q": "¿Qué puede indicar un panel complementario debajo de una señal de peligro?",
+                  "options": [
+                    "La distancia al peligro o su longitud",
+                    "La velocidad máxima de la vía",
+                    "El permiso necesario para pasar"
+                  ],
+                  "why": "Un panel complementario puede indicar la distancia hasta el principio del tramo peligroso o la longitud del tramo."
+                },
+                "en": {
+                  "q": "What can a supplementary panel below a warning sign show?",
+                  "options": [
+                    "The distance to the danger or its length",
+                    "The maximum speed of the road",
+                    "The license needed to pass"
+                  ],
+                  "why": "A supplementary panel can show the distance to the start of the dangerous stretch or the length of the stretch."
+                },
+                "terms": [
+                  {
+                    "es": "panel complementario",
+                    "en": "supplementary panel"
+                  }
+                ],
+                "src": "RGC art. 144.2 y 144.3"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Cruces: quién tiene prioridad",
+            "en": "Junctions: who has priority"
+          },
+          "blocks": [
+            {
+              "t": "signs",
+              "ids": [
+                "p-1c",
+                "p-1d",
+                "p-1e"
+              ],
+              "caption": {
+                "es": "P-1c y P-1d: otros usuarios se incorporan por la derecha o por la izquierda y deben ceder el paso. P-1e: varios accesos directos, que también ceden.",
+                "en": "P-1c and P-1d: other users merge from the right or from the left and must yield. P-1e: several direct accesses, which also yield."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Quien se acerca a una intersección con señal de «intersección con prioridad», o circula por una vía con señal de «calzada con prioridad», tiene prioridad sobre los vehículos que circulan por otra vía o proceden de ella.",
+                "en": "A driver approaching a junction with an “intersection with priority” sign, or driving on a road with a “priority road” sign, has priority over vehicles on another road or coming from it."
+              },
+              "src": "RGC art. 56.4"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Con estas tres señales **tú tienes prioridad**. Los que se incorporan a tu vía te dejan pasar.",
+                "en": "With these three signs **you have priority**. Those who join your road let you pass."
+              }
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "p-2"
+              ],
+              "caption": {
+                "es": "P-2: cruce en el que rige la regla general de prioridad.",
+                "en": "P-2: junction where the general rule of priority applies."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si ninguna señal regula la prioridad, estás obligado a ceder el paso a los vehículos que se acercan por tu derecha, salvo excepciones: la vía pavimentada frente a una sin pavimentar, los vehículos sobre raíles, las glorietas y las autopistas y autovías.",
+                "en": "If no sign regulates priority, you must yield to vehicles approaching from your right, with exceptions: a paved road against an unpaved one, vehicles on rails, roundabouts, and motorways and dual carriageways."
+              },
+              "src": "RGC art. 57.1"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-warn-b",
+                "answer": 2,
+                "es": {
+                  "q": "Te acercas a un cruce con la señal P-2 (un aspa en un triángulo) y ninguna otra señal de prioridad. ¿Quién pasa primero?",
+                  "options": [
+                    "El que viene por tu izquierda",
+                    "El que va más rápido",
+                    "El que viene por tu derecha"
+                  ],
+                  "why": "Sin señales que regulen la prioridad, cedes el paso a los vehículos que se aproximan por tu derecha."
+                },
+                "en": {
+                  "q": "You approach a junction with sign P-2 (an X in a triangle) and no other priority sign. Who goes first?",
+                  "options": [
+                    "The driver coming from your left",
+                    "The faster driver",
+                    "The driver coming from your right"
+                  ],
+                  "why": "With no signs regulating priority, you yield to vehicles approaching from your right."
+                },
+                "terms": [
+                  {
+                    "es": "cruce",
+                    "en": "junction"
+                  },
+                  {
+                    "es": "ceder el paso",
+                    "en": "to yield"
+                  }
+                ],
+                "src": "RGC art. 57.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-warn-c",
+                "answer": 1,
+                "es": {
+                  "q": "Circulas por una vía con la señal P-1c: otros se incorporan desde la derecha. Un coche entra desde ese lado. ¿Quién cede el paso?",
+                  "options": [
+                    "Tú, porque viene por tu derecha",
+                    "El que se incorpora",
+                    "El que tenga el coche más grande"
+                  ],
+                  "why": "La señal P-1c te da prioridad. Los usuarios que se incorporan a tu vía deben ceder el paso."
+                },
+                "en": {
+                  "q": "You drive on a road with sign P-1c: others merge from the right. A car joins from that side. Who yields?",
+                  "options": [
+                    "You, because it comes from your right",
+                    "The one who is merging",
+                    "The one with the bigger car"
+                  ],
+                  "why": "Sign P-1c gives you priority. Users who join your road must yield."
+                },
+                "terms": [
+                  {
+                    "es": "incorporarse",
+                    "en": "to merge"
+                  }
+                ],
+                "src": "RGC art. 56.4"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Semáforos y glorietas",
+            "en": "Traffic lights and roundabouts"
+          },
+          "blocks": [
+            {
+              "t": "signs",
+              "ids": [
+                "p-3",
+                "p-4"
+              ],
+              "caption": {
+                "es": "P-3: semáforos más adelante. P-4: glorieta, con las flechas en el sentido de giro.",
+                "en": "P-3: traffic lights ahead. P-4: roundabout, with the arrows in the direction of travel."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "P-3 avisa de un cruce aislado o de un tramo regulado por semáforos. P-4 avisa de una glorieta. Las reglas de los semáforos están en el módulo de prioridad, y las de glorietas, en el módulo de Glorietas.",
+                "en": "P-3 warns of an isolated junction or a stretch controlled by traffic lights. P-4 warns of a roundabout. The traffic-light rules are in the priority module, and the roundabout rules are in the Roundabouts module."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Debes moderar la velocidad, y detenerte si hace falta, al acercarte a pasos a nivel, a glorietas e intersecciones en que no tengas prioridad, a lugares de visibilidad reducida y a estrechamientos.",
+                "en": "You must moderate your speed, and stop if necessary, when approaching level crossings, roundabouts and junctions where you do not have priority, places of reduced visibility and narrowings."
+              },
+              "src": "RGC art. 46.1.h"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-warn-d",
+                "answer": 0,
+                "es": {
+                  "q": "Ves un triángulo con borde rojo y tres luces de colores en vertical: rojo, amarillo y verde. ¿Qué avisa?",
+                  "options": [
+                    "De semáforos más adelante",
+                    "De una zona de obras",
+                    "De un paso de peatones"
+                  ],
+                  "why": "La señal P-3 avisa de un cruce aislado o de un tramo con la circulación regulada por semáforos."
+                },
+                "en": {
+                  "q": "You see a triangle with a red border and three colored lights stacked: red, amber and green. What does it warn of?",
+                  "options": [
+                    "Traffic lights ahead",
+                    "A roadworks zone",
+                    "A pedestrian crossing"
+                  ],
+                  "why": "Sign P-3 warns of an isolated junction or a stretch where traffic is controlled by traffic lights."
+                },
+                "terms": [
+                  {
+                    "es": "semáforos",
+                    "en": "traffic lights"
+                  }
+                ],
+                "src": "Catálogo oficial (señal P-3)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Pasos a nivel",
+            "en": "Level crossings"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Un **paso a nivel** es el lugar donde la carretera cruza una vía de tren o de tranvía al mismo nivel.",
+                "en": "A **level crossing** is a place where the road crosses a railway or tram line at the same level."
+              }
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "p-7",
+                "p-8"
+              ],
+              "caption": {
+                "es": "P-7: paso a nivel con barreras o semibarreras. P-8: paso a nivel sin barreras.",
+                "en": "P-7: level crossing with barriers or half-barriers. P-8: level crossing without barriers."
+              }
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "p-11",
+                "p-11a"
+              ],
+              "caption": {
+                "es": "Las cruces avisan de que el paso a nivel sin barreras está justo delante. La P-11a es para pasos con más de una vía.",
+                "en": "The crosses warn that the level crossing without barriers is right ahead. P-11a is for crossings with more than one track."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Una luz roja intermitente, o dos luces rojas que se encienden alternativamente, prohíben temporalmente el paso antes de un paso a nivel o de la entrada a un puente móvil.",
+                "en": "A flashing red light, or two red lights that flash alternately, temporarily forbid passing before a level crossing or the entrance to a movable bridge."
+              },
+              "src": "RGC Anexo I, ap. 4.2.b"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Está prohibido parar en los pasos a nivel.",
+                "en": "Stopping is forbidden on level crossings."
+              },
+              "src": "RGC art. 94.1.b"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-warn-e",
+                "answer": 1,
+                "es": {
+                  "q": "Antes de un paso a nivel se encienden dos luces rojas que parpadean alternativamente. ¿Qué haces?",
+                  "options": [
+                    "Pasas deprisa antes de que llegue el tren",
+                    "No pasas mientras sigan parpadeando",
+                    "Pasas despacio si no ves ningún tren"
+                  ],
+                  "why": "Las luces rojas intermitentes prohíben temporalmente el paso antes de un paso a nivel."
+                },
+                "en": {
+                  "q": "Before a level crossing two red lights start flashing alternately. What do you do?",
+                  "options": [
+                    "You cross quickly before the train arrives",
+                    "You do not cross while they keep flashing",
+                    "You cross slowly if you see no train"
+                  ],
+                  "why": "Flashing red lights temporarily forbid passing before a level crossing."
+                },
+                "terms": [
+                  {
+                    "es": "paso a nivel",
+                    "en": "level crossing"
+                  },
+                  {
+                    "es": "luz roja intermitente",
+                    "en": "flashing red light"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 4.2.b"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "La baliza: 200, 150 y 100 metros",
+            "en": "The marker post: 200, 150 and 100 meters"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Antes de un paso a nivel, de un puente móvil o de un muelle hay postes con **franjas rojas inclinadas**. Cuantas más franjas, más lejos está el paso.",
+                "en": "Before a level crossing, a movable bridge or a quay there are posts with **slanted red stripes**. The more stripes, the farther away the crossing is."
+              }
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "p-9a",
+                "p-9b",
+                "p-9c"
+              ],
+              "caption": {
+                "es": "Lado derecho de la calzada: tres franjas, 200 m; dos franjas, 150 m; una franja, 100 m.",
+                "en": "Right side of the road: three stripes, 200 m; two stripes, 150 m; one stripe, 100 m."
+              }
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "p-10a",
+                "p-10b",
+                "p-10c"
+              ],
+              "caption": {
+                "es": "Lado izquierdo de la calzada: las mismas distancias.",
+                "en": "Left side of the road: the same distances."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "La baliza de 200 m va siempre acompañada de una señal P-5, P-7, P-8 o P-27.",
+                "en": "The 200 m post always comes with a P-5, P-7, P-8 or P-27 sign."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-warn-f",
+                "answer": 2,
+                "es": {
+                  "q": "Ves un poste con dos franjas rojas inclinadas antes de un paso a nivel. ¿A qué distancia está?",
+                  "options": [
+                    "100 m",
+                    "200 m",
+                    "150 m"
+                  ],
+                  "why": "Dos franjas indican 150 m. Con tres franjas son 200 m y con una franja, 100 m."
+                },
+                "en": {
+                  "q": "You see a post with two slanted red stripes before a level crossing. How far away is it?",
+                  "options": [
+                    "100 m",
+                    "200 m",
+                    "150 m"
+                  ],
+                  "why": "Two stripes mean 150 m. With three stripes it is 200 m and with one stripe, 100 m."
+                },
+                "terms": [
+                  {
+                    "es": "baliza",
+                    "en": "marker post"
+                  }
+                ],
+                "src": "Catálogo oficial (señales P-9 y P-10)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Puentes móviles, muelles y aeropuertos",
+            "en": "Movable bridges, quays and airports"
+          },
+          "blocks": [
+            {
+              "t": "signs",
+              "ids": [
+                "p-5",
+                "p-27",
+                "p-12"
+              ],
+              "caption": {
+                "es": "P-5: puente móvil. P-27: la vía acaba en un muelle o en agua. P-12: aeropuerto cercano.",
+                "en": "P-5: movable bridge. P-27: the road ends at a quay or in water. P-12: airport nearby."
+              }
+            },
+            {
+              "t": "list",
+              "items": [
+                {
+                  "es": "**P-5:** el puente puede levantarse o girar, y la circulación se interrumpe un rato.",
+                  "en": "**P-5:** the bridge can be raised or swung, and traffic is interrupted for a while."
+                },
+                {
+                  "es": "**P-27:** la vía desemboca en un muelle o en una corriente de agua.",
+                  "en": "**P-27:** the road leads onto a quay or into a stream of water."
+                },
+                {
+                  "es": "**P-12:** vuelan aviones a baja altura sobre la vía y pueden causar ruidos imprevistos.",
+                  "en": "**P-12:** planes fly low over the road and may cause unexpected noise."
+                }
+              ]
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-warn-g",
+                "answer": 1,
+                "es": {
+                  "q": "La señal P-27 muestra un coche cayendo al agua desde el borde de un muelle. ¿Qué avisa?",
+                  "options": [
+                    "De que el firme está resbaladizo",
+                    "De que la vía desemboca en un muelle o en agua",
+                    "De un puente muy estrecho"
+                  ],
+                  "why": "La señal P-27 avisa de que la vía desemboca en un muelle o en una corriente de agua."
+                },
+                "en": {
+                  "q": "Sign P-27 shows a car falling into the water from the edge of a quay. What does it warn of?",
+                  "options": [
+                    "That the surface is slippery",
+                    "That the road leads onto a quay or into water",
+                    "A very narrow bridge"
+                  ],
+                  "why": "Sign P-27 warns that the road leads onto a quay or into a stream of water."
+                },
+                "terms": [
+                  {
+                    "es": "muelle",
+                    "en": "quay"
+                  }
+                ],
+                "src": "Catálogo oficial (señal P-27)"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "Una señal de peligro avisa de un riesgo difícil de ver. Casi todas son **triángulos con borde rojo**.",
+          "en": "A warning sign warns of a hard-to-see risk. Almost all are **triangles with a red border**."
+        },
+        {
+          "es": "Con **P-1c, P-1d y P-1e** tienes prioridad. Con **P-2** rige la regla de la derecha.",
+          "en": "With **P-1c, P-1d and P-1e** you have priority. With **P-2** the rule of the right applies."
+        },
+        {
+          "es": "Luces rojas intermitentes antes de un paso a nivel o un puente móvil: **no pases**.",
+          "en": "Flashing red lights before a level crossing or a movable bridge: **do not cross**."
+        },
+        {
+          "es": "Baliza del paso a nivel: **tres franjas 200 m, dos 150 m, una 100 m**.",
+          "en": "Level-crossing marker post: **three stripes 200 m, two 150 m, one 100 m**."
+        },
+        {
+          "es": "Está prohibido **parar** en un paso a nivel.",
+          "en": "It is forbidden to **stop** on a level crossing."
+        }
+      ],
+      "covers": [
+        "signs-01"
+      ],
+      "src": [
+        "Reglamento General de Circulación (RD 1428/2003), arts. 46.1.h, 56.4, 57.1, 94.1.b, 144.1, 144.2 y 144.3",
+        "RGC Anexo I, apartado 4.2 (semáforos circulares)",
+        "Catálogo oficial de señales (Anexo I, 5), nombres y significados de las señales"
+      ]
+    },
+    {
+      "id": "warning-road",
+      "title": {
+        "es": "Peligro: curvas, firme, personas y animales",
+        "en": "Warning: curves, road surface, people and animals"
+      },
+      "minutes": 8,
+      "goals": [
+        {
+          "es": "Reconocer las señales de curvas, pendientes y estrechamientos.",
+          "en": "Recognize the signs for curves, slopes and narrowings."
+        },
+        {
+          "es": "Saber cómo ajustar la velocidad ante firme malo, mal tiempo y obstáculos.",
+          "en": "Know how to adjust your speed for a poor surface, bad weather and obstacles."
+        },
+        {
+          "es": "Reconocer las señales de niños, ciclistas, animales y obras.",
+          "en": "Recognize the signs for children, cyclists, animals and roadworks."
+        }
+      ],
+      "terms": [
+        {
+          "es": "curva",
+          "en": "curve"
+        },
+        {
+          "es": "pendiente",
+          "en": "slope"
+        },
+        {
+          "es": "resalte",
+          "en": "bump"
+        },
+        {
+          "es": "badén",
+          "en": "dip"
+        },
+        {
+          "es": "pavimento deslizante",
+          "en": "slippery surface"
+        },
+        {
+          "es": "gravilla",
+          "en": "loose gravel"
+        },
+        {
+          "es": "visibilidad reducida",
+          "en": "reduced visibility"
+        },
+        {
+          "es": "obras",
+          "en": "roadworks"
+        }
+      ],
+      "pretest": {
+        "id": "signs-pre-3",
+        "answer": 1,
+        "es": {
+          "q": "Ves una señal de peligro con un coche que patina sobre dos líneas curvas. ¿Qué haces con la velocidad?",
+          "options": [
+            "La mantienes: es solo un aviso",
+            "La moderas, porque el pavimento puede resbalar",
+            "La aumentas para salir pronto del tramo"
+          ],
+          "why": "Con pavimento deslizante debes circular a velocidad moderada."
+        },
+        "en": {
+          "q": "You see a warning sign with a car skidding over two curved lines. What do you do with your speed?",
+          "options": [
+            "Keep it: it is only a notice",
+            "Moderate it, because the surface may be slippery",
+            "Increase it to leave the stretch sooner"
+          ],
+          "why": "On a slippery surface you must drive at a moderate speed."
+        },
+        "src": "RGC art. 46.1.g"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Curvas y pendientes",
+            "en": "Curves and slopes"
+          },
+          "blocks": [
+            {
+              "t": "signs",
+              "ids": [
+                "p-13a",
+                "p-13b",
+                "p-14a",
+                "p-14b"
+              ],
+              "caption": {
+                "es": "P-13: una curva peligrosa, a la derecha (a) o a la izquierda (b). P-14: varias curvas seguidas; la primera va a la derecha (a) o a la izquierda (b).",
+                "en": "P-13: one dangerous curve, to the right (a) or to the left (b). P-14: several curves in a row; the first one goes to the right (a) or to the left (b)."
+              }
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "p-16a",
+                "p-16b"
+              ],
+              "caption": {
+                "es": "P-16a: bajada con fuerte pendiente. P-16b: subida con fuerte pendiente. La cifra es el porcentaje de inclinación.",
+                "en": "P-16a: steep downhill. P-16b: steep uphill. The number is the slope in percent."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Para las reglas de prioridad en tramos estrechos, se entiende por tramo de gran pendiente el que tiene una inclinación mínima del siete por ciento.",
+                "en": "For the priority rules on narrow stretches, a steep stretch is one with a slope of at least seven percent."
+              },
+              "src": "RGC art. 63.1"
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Frena y elige la marcha antes de entrar en una curva peligrosa, no dentro de ella.",
+                "en": "Slow down and pick your gear before entering a dangerous curve, not inside it."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-road-a",
+                "answer": 1,
+                "es": {
+                  "q": "En una señal de peligro por pendiente fuerte aparece una cifra con el signo %. ¿Qué indica?",
+                  "options": [
+                    "La velocidad máxima recomendada",
+                    "La inclinación de la pendiente",
+                    "La longitud de la pendiente en kilómetros"
+                  ],
+                  "why": "En las señales P-16 la cifra indica la inclinación de la pendiente, en porcentaje."
+                },
+                "en": {
+                  "q": "A warning sign for a steep slope shows a number with the % sign. What does it show?",
+                  "options": [
+                    "The recommended maximum speed",
+                    "The steepness of the slope",
+                    "The length of the slope in kilometers"
+                  ],
+                  "why": "On P-16 signs the number shows the steepness of the slope, in percent."
+                },
+                "terms": [
+                  {
+                    "es": "pendiente",
+                    "en": "slope"
+                  }
+                ],
+                "src": "Catálogo oficial (señales P-16)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Firme: baches, resaltes y gravilla",
+            "en": "Road surface: bumps, dips and gravel"
+          },
+          "blocks": [
+            {
+              "t": "signs",
+              "ids": [
+                "p-15",
+                "p-15a",
+                "p-15b"
+              ],
+              "caption": {
+                "es": "P-15: resalte, badén o pavimento en mal estado. P-15a: resalte (un bulto). P-15b: badén (un hundimiento).",
+                "en": "P-15: bump, dip or poor surface. P-15a: bump (a raised part). P-15b: dip (a sunken part)."
+              }
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "p-19",
+                "p-28"
+              ],
+              "caption": {
+                "es": "P-19: pavimento deslizante. P-28: riesgo de que se proyecte gravilla.",
+                "en": "P-19: slippery surface. P-28: risk of loose gravel being thrown up."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Debes circular a velocidad moderada, y detenerte si hace falta, al circular por pavimento deslizante o cuando pueda salpicarse o proyectarse agua, gravilla u otras materias a los demás usuarios de la vía.",
+                "en": "You must drive at a moderate speed, and stop if necessary, on a slippery surface or when water, gravel or other material may be splashed or thrown at other road users."
+              },
+              "src": "RGC art. 46.1.g"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-road-b",
+                "answer": 0,
+                "es": {
+                  "q": "Ves la señal de proyección de gravilla. ¿Qué haces?",
+                  "options": [
+                    "Moderas la velocidad para no proyectar gravilla a otros",
+                    "Aceleras para pasar el tramo cuanto antes",
+                    "Pasas al carril contrario"
+                  ],
+                  "why": "Cuando puedas proyectar gravilla a otros usuarios debes circular a velocidad moderada."
+                },
+                "en": {
+                  "q": "You see the sign for loose gravel. What do you do?",
+                  "options": [
+                    "Moderate your speed so you do not throw gravel at others",
+                    "Speed up to get through the stretch quickly",
+                    "Move into the opposite lane"
+                  ],
+                  "why": "When you could throw gravel at other users you must drive at a moderate speed."
+                },
+                "terms": [
+                  {
+                    "es": "gravilla",
+                    "en": "loose gravel"
+                  }
+                ],
+                "src": "RGC art. 46.1.g"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Estrechamientos y doble sentido",
+            "en": "Narrowings and two-way traffic"
+          },
+          "blocks": [
+            {
+              "t": "signs",
+              "ids": [
+                "p-17",
+                "p-17a",
+                "p-17b"
+              ],
+              "caption": {
+                "es": "La calzada se estrecha: por los dos lados (P-17), por la derecha (P-17a) o por la izquierda (P-17b).",
+                "en": "The roadway narrows: on both sides (P-17), on the right (P-17a) or on the left (P-17b)."
+              }
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "p-25"
+              ],
+              "caption": {
+                "es": "P-25: tramo con circulación en los dos sentidos.",
+                "en": "P-25: stretch with traffic in both directions."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Donde la vía es tan estrecha que dos vehículos que van en sentido contrario no pueden pasar a la vez, o les es muy difícil, y no hay señalización expresa, tiene preferencia el que entró primero.",
+                "en": "Where the road is so narrow that two vehicles going in opposite directions cannot pass together, or it is very difficult, and there is no express signing, the one that entered first has priority."
+              },
+              "src": "RGC art. 60.1"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-road-c",
+                "answer": 2,
+                "es": {
+                  "q": "En un tramo tan estrecho que no caben dos coches a la vez, sin ninguna señal, ¿quién pasa primero?",
+                  "options": [
+                    "El que va más rápido",
+                    "El que lleva el vehículo más grande",
+                    "El que entró primero en el tramo"
+                  ],
+                  "why": "Sin señalización expresa, tiene preferencia el vehículo que entró primero en el tramo estrecho."
+                },
+                "en": {
+                  "q": "On a stretch so narrow that two cars cannot fit side by side, with no sign, who goes first?",
+                  "options": [
+                    "The faster one",
+                    "The one with the bigger vehicle",
+                    "The one that entered the stretch first"
+                  ],
+                  "why": "With no express signing, the vehicle that entered the narrow stretch first has priority."
+                },
+                "terms": [
+                  {
+                    "es": "tramo estrecho",
+                    "en": "narrow stretch"
+                  }
+                ],
+                "src": "RGC art. 60.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Peligros de la vía y del tiempo",
+            "en": "Dangers of the road and the weather"
+          },
+          "blocks": [
+            {
+              "t": "list",
+              "items": [
+                {
+                  "es": "**P-26 desprendimiento:** pueden caer piedras y haber obstáculos en la calzada.",
+                  "en": "**P-26 falling rocks:** rocks may fall and there may be obstacles on the road."
+                },
+                {
+                  "es": "**P-29 viento transversal:** sopla a menudo un viento fuerte de lado.",
+                  "en": "**P-29 crosswind:** a strong wind often blows from the side."
+                },
+                {
+                  "es": "**P-30 escalón lateral:** hay un desnivel junto a la vía, del lado que marca el dibujo.",
+                  "en": "**P-30 side drop:** there is a drop beside the road, on the side the picture shows."
+                },
+                {
+                  "es": "**P-31 congestión:** el tráfico se detiene a menudo por atascos.",
+                  "en": "**P-31 congestion:** traffic often stops because of jams."
+                },
+                {
+                  "es": "**P-32 obstrucción:** hay vehículos que bloquean la calzada por avería o accidente.",
+                  "en": "**P-32 obstruction:** vehicles are blocking the road because of a breakdown or crash."
+                },
+                {
+                  "es": "**P-33 visibilidad reducida:** niebla, lluvia, nieve o humo que quitan visibilidad.",
+                  "en": "**P-33 reduced visibility:** fog, rain, snow or smoke that reduce what you can see."
+                },
+                {
+                  "es": "**P-34 hielo o nieve:** en invierno es frecuente.",
+                  "en": "**P-34 ice or snow:** frequent in winter."
+                }
+              ]
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "p-26",
+                "p-29",
+                "p-30",
+                "p-31"
+              ],
+              "caption": {
+                "es": "P-26, P-29, P-30 y P-31.",
+                "en": "P-26, P-29, P-30 and P-31."
+              }
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "p-32",
+                "p-33",
+                "p-34"
+              ],
+              "caption": {
+                "es": "P-32, P-33 y P-34.",
+                "en": "P-32, P-33 and P-34."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Debes adecuar la velocidad a las características de la vía, al tiempo y al tráfico, de manera que siempre puedas detenerte dentro de tu campo de visión y ante cualquier obstáculo que pueda presentarse.",
+                "en": "You must adapt your speed to the road, the weather and the traffic, so that you can always stop within your field of vision and in front of any obstacle that may appear."
+              },
+              "src": "RGC art. 45"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-road-d",
+                "answer": 2,
+                "es": {
+                  "q": "Con niebla y visibilidad reducida, ¿qué debe permitirte siempre tu velocidad?",
+                  "options": [
+                    "Seguir al coche que va delante",
+                    "Mantener el límite de la vía",
+                    "Detenerte dentro de tu campo de visión"
+                  ],
+                  "why": "La velocidad debe permitirte detener el vehículo dentro de tu campo de visión y ante cualquier obstáculo."
+                },
+                "en": {
+                  "q": "In fog and reduced visibility, what must your speed always allow you to do?",
+                  "options": [
+                    "Follow the car ahead",
+                    "Keep to the limit of the road",
+                    "Stop within your field of vision"
+                  ],
+                  "why": "Your speed must let you stop within your field of vision and in front of any obstacle."
+                },
+                "terms": [
+                  {
+                    "es": "campo de visión",
+                    "en": "field of vision"
+                  }
+                ],
+                "src": "RGC art. 45"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Niños, ciclistas y animales",
+            "en": "Children, cyclists and animals"
+          },
+          "blocks": [
+            {
+              "t": "signs",
+              "ids": [
+                "p-21a",
+                "p-22a",
+                "p-22b"
+              ],
+              "caption": {
+                "es": "P-21a: niños (escuela o zona de juegos). P-22a: paso para ciclistas. P-22b: tramo con ciclistas frecuentes.",
+                "en": "P-21a: children (school or play area). P-22a: cyclist crossing. P-22b: stretch with frequent cyclists."
+              }
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "p-23",
+                "p-24",
+                "p-24a"
+              ],
+              "caption": {
+                "es": "P-23: animales domésticos o ganado. P-24: animales en libertad. P-24a: animales en libertad, sobre todo jabalíes.",
+                "en": "P-23: domestic animals or livestock. P-24: wild animals. P-24a: wild animals, mostly wild boar."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Debes circular a velocidad moderada, y detenerte si hace falta, cuando haya peatones o animales en la parte de la vía que usas o pueda preverse su irrupción, y al acercarte a ciclos, a centros docentes o a lugares donde sea previsible la presencia de niños.",
+                "en": "You must drive at a moderate speed, and stop if necessary, when there are pedestrians or animals on the part of the road you use or their sudden entry can reasonably be expected, and when approaching cycles, schools or places where children are likely to be."
+              },
+              "src": "RGC art. 46.1.a, b y c"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-road-e",
+                "answer": 0,
+                "es": {
+                  "q": "Ves la señal de niños cerca de una escuela y no ves a ninguno. ¿Qué haces?",
+                  "options": [
+                    "Moderas la velocidad y estás listo para parar",
+                    "Mantienes la velocidad: no hay niños a la vista",
+                    "Tocas el claxon para avisarlos"
+                  ],
+                  "why": "Cerca de centros docentes debes moderar la velocidad y detenerte si hace falta. El claxon no se usa sin motivo."
+                },
+                "en": {
+                  "q": "You see the children sign near a school and you see no children. What do you do?",
+                  "options": [
+                    "Moderate your speed and be ready to stop",
+                    "Keep your speed: no children in sight",
+                    "Sound the horn to warn them"
+                  ],
+                  "why": "Near schools you must moderate your speed and stop if necessary. The horn is not used without reason."
+                },
+                "terms": [
+                  {
+                    "es": "centro docente",
+                    "en": "school"
+                  }
+                ],
+                "src": "RGC arts. 46.1.b y 110.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Obras",
+            "en": "Roadworks"
+          },
+          "blocks": [
+            {
+              "t": "signs",
+              "ids": [
+                "p-18"
+              ],
+              "caption": {
+                "es": "P-18: tramo de vía en obras. Va siempre sobre fondo amarillo.",
+                "en": "P-18: road under works. It always has a yellow background."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Las obras y tareas de conservación que alteren la circulación deben estar señalizadas de día y de noche, y balizadas con luces por la noche o cuando las condiciones del tiempo lo exijan.",
+                "en": "Roadworks and maintenance that affect traffic must be signed by day and by night, and marked with lights at night or when weather conditions require it."
+              },
+              "src": "RGC art. 148"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "En una obra debes seguir las indicaciones del personal que regula el paso de vehículos.",
+                "en": "At roadworks you must follow the instructions of the staff who regulate the passage of vehicles."
+              },
+              "src": "RGC art. 60.5"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-road-f",
+                "answer": 1,
+                "es": {
+                  "q": "En unas obras, una persona con una paleta regula el paso de vehículos. ¿Qué haces?",
+                  "options": [
+                    "Solo la obedeces si es policía",
+                    "Sigues sus indicaciones",
+                    "La ignoras si tienes prioridad"
+                  ],
+                  "why": "En las obras debes seguir las indicaciones del personal que regula el paso de vehículos."
+                },
+                "en": {
+                  "q": "At roadworks a person with a paddle sign is regulating the passage of vehicles. What do you do?",
+                  "options": [
+                    "Obey only if they are a police officer",
+                    "Follow their instructions",
+                    "Ignore them if you have priority"
+                  ],
+                  "why": "At roadworks you must follow the instructions of the staff who regulate the passage of vehicles."
+                },
+                "terms": [
+                  {
+                    "es": "paleta",
+                    "en": "paddle sign"
+                  }
+                ],
+                "src": "RGC art. 60.5"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "La cifra de **P-16** es la inclinación en porcentaje. Un tramo de gran pendiente es el de **siete por ciento** o más.",
+          "en": "The number on **P-16** is the slope in percent. A steep stretch is one of **seven percent** or more."
+        },
+        {
+          "es": "Con pavimento deslizante o gravilla, **modera la velocidad**.",
+          "en": "On a slippery surface or with loose gravel, **moderate your speed**."
+        },
+        {
+          "es": "Tu velocidad debe permitirte **detenerte dentro de tu campo de visión**.",
+          "en": "Your speed must let you **stop within your field of vision**."
+        },
+        {
+          "es": "Cerca de niños, ciclistas o animales, **modera la velocidad** y prepárate para parar.",
+          "en": "Near children, cyclists or animals, **moderate your speed** and be ready to stop."
+        },
+        {
+          "es": "En unas obras, **sigue al personal** que regula el paso.",
+          "en": "At roadworks, **follow the staff** who regulate the passage."
+        }
+      ],
+      "covers": [],
+      "src": [
+        "Reglamento General de Circulación (RD 1428/2003), arts. 45, 46.1, 60.1, 60.5, 63.1, 110.1 y 148",
+        "Catálogo oficial de señales (Anexo I, 5), nombres y significados de las señales"
+      ]
+    },
+    {
+      "id": "priority-and-entry",
+      "title": {
+        "es": "Prioridad y entrada prohibida",
+        "en": "Right of way and no entry"
+      },
+      "minutes": 8,
+      "goals": [
+        {
+          "es": "Reconocer las señales R-1 a R-6 y lo que exigen.",
+          "en": "Recognize signs R-1 to R-6 and what they require."
+        },
+        {
+          "es": "Saber cómo detenerte ante un STOP.",
+          "en": "Know how to stop at a STOP sign."
+        },
+        {
+          "es": "Reconocer las señales de entrada prohibida y de restricción de paso.",
+          "en": "Recognize the no-entry and passage-restriction signs."
+        }
+      ],
+      "terms": [
+        {
+          "es": "calzada con prioridad",
+          "en": "priority road"
+        },
+        {
+          "es": "ceder el paso",
+          "en": "to yield"
+        },
+        {
+          "es": "detención obligatoria",
+          "en": "mandatory stop"
+        },
+        {
+          "es": "línea de detención",
+          "en": "stop line"
+        },
+        {
+          "es": "paso estrecho",
+          "en": "narrow passage"
+        },
+        {
+          "es": "entrada prohibida",
+          "en": "no entry"
+        },
+        {
+          "es": "masa máxima autorizada",
+          "en": "maximum authorized mass"
+        },
+        {
+          "es": "mercancías peligrosas",
+          "en": "dangerous goods"
+        }
+      ],
+      "pretest": {
+        "id": "signs-pre-4",
+        "answer": 0,
+        "es": {
+          "q": "Llegas a un STOP y no hay línea de detención. ¿Dónde te detienes?",
+          "options": [
+            "Justo antes de la intersección",
+            "En medio del cruce, para ver mejor",
+            "No hace falta parar si no viene nadie"
+          ],
+          "why": "Si no hay línea de detención, el STOP obliga a detenerte justo antes de la intersección."
+        },
+        "en": {
+          "q": "You reach a STOP sign and there is no stop line. Where do you stop?",
+          "options": [
+            "Right before the intersection",
+            "In the middle of the junction, to see better",
+            "You need not stop if nobody is coming"
+          ],
+          "why": "If there is no stop line, the STOP sign obliges you to stop right before the intersection."
+        },
+        "src": "RGC Anexo I, ap. 5.1, 3.2 (R-2)"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Tienes prioridad: R-3 y R-4",
+            "en": "You have priority: R-3 and R-4"
+          },
+          "blocks": [
+            {
+              "t": "signs",
+              "ids": [
+                "r-3",
+                "r-4"
+              ],
+              "caption": {
+                "es": "R-3: calzada con prioridad. R-4: fin de prioridad.",
+                "en": "R-3: priority road. R-4: end of priority."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "**R-3** te dice que circulas por una vía con prioridad en los cruces. **R-4** avisa de que, más adelante, esa vía pierde la prioridad respecto a otra.",
+                "en": "**R-3** tells you that you are on a road with priority at junctions. **R-4** warns that, further on, this road loses priority to another one."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Quien circula por una vía señalizada con «calzada con prioridad» tiene prioridad de paso sobre los vehículos que circulan por otra vía o proceden de ella.",
+                "en": "A driver on a road marked “priority road” has right of way over vehicles on another road or coming from it."
+              },
+              "src": "RGC art. 56.4"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-prio-a",
+                "answer": 2,
+                "es": {
+                  "q": "Una señal con forma de rombo amarillo con borde blanco indica que:",
+                  "options": [
+                    "Hay un peligro más adelante",
+                    "Debes ceder el paso en el próximo cruce",
+                    "Circulas por una calzada con prioridad"
+                  ],
+                  "why": "El rombo amarillo con borde blanco es la señal R-3, calzada con prioridad. No es una señal de peligro."
+                },
+                "en": {
+                  "q": "A sign shaped like a yellow diamond with a white border means that:",
+                  "options": [
+                    "There is a danger ahead",
+                    "You must yield at the next junction",
+                    "You are on a priority road"
+                  ],
+                  "why": "The yellow diamond with a white border is sign R-3, priority road. It is not a warning sign."
+                },
+                "terms": [
+                  {
+                    "es": "calzada con prioridad",
+                    "en": "priority road"
+                  }
+                ],
+                "src": "RGC art. 56.4"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Ceda el paso y STOP: R-1 y R-2",
+            "en": "Yield and STOP: R-1 and R-2"
+          },
+          "blocks": [
+            {
+              "t": "signs",
+              "ids": [
+                "r-1",
+                "r-2"
+              ],
+              "caption": {
+                "es": "R-1: ceda el paso. R-2: detención obligatoria o STOP.",
+                "en": "R-1: yield. R-2: mandatory stop, or STOP."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "El STOP es un **octógono** rojo: ocho lados. El «ceda el paso» es un triángulo con un vértice hacia abajo.",
+                "en": "The STOP sign is a red **octagon**: eight sides. The yield sign is a triangle with one point facing down."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "En las intersecciones con «ceda el paso» o «detención obligatoria o stop», cedes siempre el paso a los vehículos de la vía preferente, vengan por el lado que vengan. Debes detenerte por completo cuando haga falta y, en todo caso, cuando lo indique la señal.",
+                "en": "At junctions with a yield or a STOP sign, you always give way to vehicles on the priority road, whichever side they come from. You must stop completely when necessary and, in any case, when the sign says so."
+              },
+              "src": "RGC art. 56.5"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "El STOP te obliga a detenerte ante la próxima línea de detención o, si no hay, inmediatamente antes de la intersección, y a ceder el paso en ella a los vehículos de la vía a la que te acercas.",
+                "en": "A STOP sign obliges you to stop at the next stop line or, if there is none, immediately before the intersection, and to give way there to vehicles on the road you are approaching."
+              },
+              "src": "RGC Anexo I, ap. 5.1, 3.2 (R-2)"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si, por circunstancias excepcionales, desde el lugar donde te has detenido no ves lo suficiente, debes detenerte de nuevo donde tengas visibilidad, sin poner en peligro a ningún usuario de la vía.",
+                "en": "If, in exceptional circumstances, you cannot see enough from where you stopped, you must stop again where you can see, without endangering any road user."
+              },
+              "src": "RGC Anexo I, ap. 5.1, 3.2 (R-2)"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Quien debe ceder el paso no inicia ni continúa su marcha hasta asegurarse de que no obliga al que tiene prioridad a cambiar bruscamente de trayectoria o de velocidad. Además, debe mostrar con antelación que va a ceder, sobre todo reduciendo poco a poco la velocidad.",
+                "en": "A driver who must yield does not start or continue until sure that this will not force the driver with priority to change path or speed abruptly. They must also show in advance that they will yield, above all by slowing down gradually."
+              },
+              "src": "RGC art. 58.1"
+            },
+            {
+              "t": "us",
+              "text": {
+                "es": "El STOP y el «ceda el paso» se parecen a los de EE. UU.: un octógono rojo y un triángulo con un vértice hacia abajo.",
+                "en": "STOP and yield look like the US ones: a red octagon and a triangle with one point facing down."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-prio-b",
+                "answer": 0,
+                "es": {
+                  "q": "Estás detenido ante un STOP y desde la línea no ves la vía preferente. ¿Qué haces?",
+                  "options": [
+                    "Te detienes de nuevo donde veas, sin poner a nadie en peligro",
+                    "Avanzas despacio sin volver a parar",
+                    "Tocas el claxon y sigues"
+                  ],
+                  "why": "Si desde el punto de detención no hay visibilidad suficiente, debes detenerte otra vez donde la tengas."
+                },
+                "en": {
+                  "q": "You are stopped at a STOP sign and from the line you cannot see the priority road. What do you do?",
+                  "options": [
+                    "Stop again where you can see, without endangering anyone",
+                    "Creep forward without stopping again",
+                    "Sound the horn and go"
+                  ],
+                  "why": "If there is not enough visibility from the stopping point, you must stop again where you have it."
+                },
+                "terms": [
+                  {
+                    "es": "vía preferente",
+                    "en": "priority road"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.2 (R-2)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-prio-c",
+                "answer": 2,
+                "es": {
+                  "q": "Llegas a una señal de «ceda el paso». ¿Cómo muestras que vas a ceder?",
+                  "options": [
+                    "Poniendo el intermitente izquierdo",
+                    "Parando siempre por completo",
+                    "Reduciendo la velocidad poco a poco y con antelación"
+                  ],
+                  "why": "Debes mostrar con antelación que vas a ceder, sobre todo reduciendo gradualmente la velocidad. Solo paras del todo cuando hace falta."
+                },
+                "en": {
+                  "q": "You reach a yield sign. How do you show that you will yield?",
+                  "options": [
+                    "By using your left turn signal",
+                    "By always stopping completely",
+                    "By slowing down gradually and in good time"
+                  ],
+                  "why": "You must show in advance that you will yield, above all by slowing down gradually. You only stop completely when necessary."
+                },
+                "terms": [
+                  {
+                    "es": "ceder el paso",
+                    "en": "to yield"
+                  }
+                ],
+                "src": "RGC arts. 56.5 y 58.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Pasos estrechos: R-5 y R-6",
+            "en": "Narrow passages: R-5 and R-6"
+          },
+          "blocks": [
+            {
+              "t": "signs",
+              "ids": [
+                "r-5",
+                "r-6"
+              ],
+              "caption": {
+                "es": "R-5: prioridad del sentido contrario. R-6: prioridad respecto al sentido contrario.",
+                "en": "R-5: oncoming traffic has priority. R-6: you have priority over oncoming traffic."
+              }
+            },
+            {
+              "t": "list",
+              "items": [
+                {
+                  "es": "**R-5** (círculo con borde rojo): no entres en el paso estrecho si para cruzarlo vas a obligar a parar a los que vienen de frente.",
+                  "en": "**R-5** (circle with a red border): do not enter the narrow passage if crossing it would force oncoming vehicles to stop."
+                },
+                {
+                  "es": "**R-6** (cuadrado azul): en el paso estrecho que viene, tú tienes prioridad sobre los que vienen de frente.",
+                  "en": "**R-6** (blue square): at the narrow passage ahead, you have priority over oncoming vehicles."
+                }
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si dos vehículos no pueden cruzarse en un puente u obra de paso y en un extremo hay una señal de prioridad en sentido contrario o de ceda el paso, el que llega por ese extremo debe retroceder para dejar paso al otro.",
+                "en": "If two vehicles cannot pass each other on a bridge or similar structure and at one end there is a priority-for-oncoming sign or a yield sign, the one arriving from that end must reverse to let the other through."
+              },
+              "src": "RGC art. 61.2"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-prio-d",
+                "answer": 1,
+                "es": {
+                  "q": "Ves un cuadrado azul con una flecha blanca grande hacia delante y otra roja pequeña en sentido contrario. ¿Qué indica?",
+                  "options": [
+                    "Debes dejar pasar a los que vienen de frente",
+                    "Tienes prioridad en el paso estrecho",
+                    "Está prohibido entrar"
+                  ],
+                  "why": "Es la señal R-6: en el paso estrecho tienes prioridad sobre los vehículos que vienen en sentido contrario."
+                },
+                "en": {
+                  "q": "You see a blue square with a large white arrow pointing ahead and a small red one pointing the opposite way. What does it mean?",
+                  "options": [
+                    "You must let oncoming traffic through",
+                    "You have priority in the narrow passage",
+                    "Entry is forbidden"
+                  ],
+                  "why": "It is sign R-6: in the narrow passage you have priority over vehicles coming the other way."
+                },
+                "terms": [
+                  {
+                    "es": "paso estrecho",
+                    "en": "narrow passage"
+                  }
+                ],
+                "src": "Catálogo oficial (señal R-6)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Entrada prohibida: todos y motor",
+            "en": "No entry: all vehicles and motor vehicles"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Las señales de prohibición de entrada prohíben el acceso a los vehículos o usuarios que indica cada una, a quienes se las encuentran de frente en el sentido de su marcha y desde el lugar donde están.",
+                "en": "No-entry signs forbid access to the vehicles or users each one shows, for those who meet them head-on in their direction of travel and from the place where they stand."
+              },
+              "src": "RGC art. 145.2.b"
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "r-100",
+                "r-101",
+                "r-102",
+                "r-103",
+                "r-104",
+                "r-105"
+              ],
+              "caption": {
+                "es": "R-100 a R-105: todos los vehículos, vehículos de motor, motocicletas y ciclomotores.",
+                "en": "R-100 to R-105: all vehicles, motor vehicles, motorcycles and mopeds."
+              }
+            },
+            {
+              "t": "list",
+              "items": [
+                {
+                  "es": "**R-100:** no circula ningún vehículo, en ningún sentido.",
+                  "en": "**R-100:** no vehicle may travel, in either direction."
+                },
+                {
+                  "es": "**R-101:** el acceso está prohibido a todo vehículo. Solo te afecta si la ves de frente.",
+                  "en": "**R-101:** access is forbidden to every vehicle. It only affects you if you meet it head-on."
+                },
+                {
+                  "es": "**R-102:** vehículos de motor. **R-103:** también, pero permite las motocicletas de dos ruedas.",
+                  "en": "**R-102:** motor vehicles. **R-103:** also, but it allows two-wheeled motorcycles."
+                },
+                {
+                  "es": "**R-104:** motocicletas. **R-105:** ciclomotores y vehículos para personas con movilidad reducida.",
+                  "en": "**R-104:** motorcycles. **R-105:** mopeds and vehicles for people with reduced mobility."
+                }
+              ]
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-prio-e",
+                "answer": 0,
+                "es": {
+                  "q": "Ves de frente un círculo rojo con una barra horizontal blanca. ¿Qué significa?",
+                  "options": [
+                    "Entrada prohibida a todo vehículo",
+                    "Detención obligatoria",
+                    "Entrada prohibida solo a camiones"
+                  ],
+                  "why": "Es la señal R-101: prohíbe el acceso a toda clase de vehículos a quien la ve de frente."
+                },
+                "en": {
+                  "q": "You meet head-on a red circle with a white horizontal bar. What does it mean?",
+                  "options": [
+                    "No entry for any vehicle",
+                    "Mandatory stop",
+                    "No entry for trucks only"
+                  ],
+                  "why": "It is sign R-101: it forbids access to all vehicles for those who meet it head-on."
+                },
+                "terms": [
+                  {
+                    "es": "entrada prohibida",
+                    "en": "no entry"
+                  }
+                ],
+                "src": "RGC art. 145.2.b"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Entrada prohibida: mercancías",
+            "en": "No entry: goods vehicles"
+          },
+          "blocks": [
+            {
+              "t": "signs",
+              "ids": [
+                "r-106",
+                "r-107",
+                "r-108",
+                "r-109",
+                "r-110"
+              ],
+              "caption": {
+                "es": "R-106 a R-110: mercancías en general, por masa, peligrosas, explosivas o inflamables, y contaminantes del agua.",
+                "en": "R-106 to R-110: goods in general, by weight, dangerous, explosive or flammable, and water-polluting."
+              }
+            },
+            {
+              "t": "list",
+              "items": [
+                {
+                  "es": "**R-106:** camiones, tractocamiones y furgones o furgonetas, sea cual sea su masa.",
+                  "en": "**R-106:** trucks, tractor units and vans, whatever their weight."
+                },
+                {
+                  "es": "**R-107:** esos vehículos si su masa máxima autorizada supera la cifra de la señal, aunque vayan vacíos.",
+                  "en": "**R-107:** those vehicles if their maximum authorized mass is above the number on the sign, even if they are empty."
+                },
+                {
+                  "es": "**R-108:** mercancías peligrosas. **R-109:** explosivas o inflamables. **R-110:** productos que pueden contaminar el agua.",
+                  "en": "**R-108:** dangerous goods. **R-109:** explosive or flammable goods. **R-110:** products that can pollute water."
+                }
+              ]
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-prio-f",
+                "answer": 1,
+                "es": {
+                  "q": "Una señal prohíbe el acceso a vehículos de mercancías con masa superior a la indicada. Tu camión supera esa masa autorizada, pero va vacío. ¿Puedes pasar?",
+                  "options": [
+                    "Sí, porque va vacío",
+                    "No: cuenta la masa máxima autorizada, aunque vaya vacío",
+                    "Sí, si circulas despacio"
+                  ],
+                  "why": "La señal R-107 prohíbe el acceso si la masa máxima autorizada supera la indicada, aunque el vehículo circule vacío."
+                },
+                "en": {
+                  "q": "A sign forbids access to goods vehicles over the mass shown. Your truck exceeds that authorized mass, but it is empty. Can you pass?",
+                  "options": [
+                    "Yes, because it is empty",
+                    "No: the maximum authorized mass counts, even if it is empty",
+                    "Yes, if you drive slowly"
+                  ],
+                  "why": "Sign R-107 forbids access if the maximum authorized mass is above the number shown, even if the vehicle runs empty."
+                },
+                "terms": [
+                  {
+                    "es": "masa máxima autorizada",
+                    "en": "maximum authorized mass"
+                  }
+                ],
+                "src": "Catálogo oficial (señal R-107)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Entrada prohibida: otros vehículos y personas",
+            "en": "No entry: other vehicles and people"
+          },
+          "blocks": [
+            {
+              "t": "signs",
+              "ids": [
+                "r-111",
+                "r-112",
+                "r-113",
+                "r-114",
+                "r-115"
+              ],
+              "caption": {
+                "es": "R-111 a R-115: vehículos agrícolas, motor con remolque, tracción animal, ciclos y carros de mano.",
+                "en": "R-111 to R-115: farm vehicles, motor vehicles with a trailer, animal-drawn vehicles, cycles and handcarts."
+              }
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "r-116",
+                "r-117",
+                "r-118",
+                "r-119",
+                "r-120"
+              ],
+              "caption": {
+                "es": "R-116 a R-120: peatones, animales de montura, vehículos de movilidad personal, ciclos y movilidad personal, y distintivo ambiental.",
+                "en": "R-116 to R-120: pedestrians, ridden animals, personal mobility vehicles, cycles and personal mobility vehicles, and environmental badge."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "La **R-112** prohíbe los vehículos de motor con remolque, salvo los de un solo eje. Si lleva una cifra de toneladas, solo se aplica si el remolque supera esa masa. La **R-120** prohíbe el paso según el distintivo ambiental del vehículo; un panel complementario o un cartel lo detalla.",
+                "en": "**R-112** forbids motor vehicles with a trailer, except single-axle ones. If it shows a number of metric tons, it only applies if the trailer’s mass is above it. **R-120** forbids passage according to the vehicle’s environmental badge; a supplementary panel or a sign gives the details."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Restricciones de paso",
+            "en": "Passage restrictions"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Las señales de restricción de paso prohíben o limitan el acceso de los vehículos, según el significado de cada una, a quienes se las encuentran de frente y desde el lugar donde están.",
+                "en": "Passage-restriction signs forbid or limit vehicles’ access, according to the meaning of each one, for those who meet them head-on and from the place where they stand."
+              },
+              "src": "RGC art. 145.2.c"
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "r-200"
+              ],
+              "caption": {
+                "es": "R-200: prohibición de pasar sin detenerse (aduana, policía, peaje u otro puesto).",
+                "en": "R-200: no proceeding without stopping (customs, police, toll or other post)."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si una señal te obliga a detenerte, no puedes reanudar la marcha hasta cumplir lo que la señal exige.",
+                "en": "If a sign obliges you to stop, you may not move off again until you have done what the sign requires."
+              },
+              "src": "RGC art. 132.1"
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "r-201",
+                "r-202",
+                "r-203",
+                "r-204",
+                "r-205"
+              ],
+              "caption": {
+                "es": "R-201 a R-205: masa, masa por eje, longitud, anchura y altura máximas.",
+                "en": "R-201 to R-205: maximum mass, axle mass, length, width and height."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Las cifras son el **máximo** que puede pasar. Cuentan también la carga: la longitud, la anchura y la altura incluyen lo que transportas.",
+                "en": "The numbers are the **maximum** that may pass. The load counts too: length, width and height include what you carry."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-prio-g",
+                "answer": 0,
+                "es": {
+                  "q": "La señal R-205 muestra una altura. ¿A qué vehículos prohíbe el paso?",
+                  "options": [
+                    "A los que, con su carga, son más altos que la cifra",
+                    "A los que son más bajos que la cifra",
+                    "Solo a los camiones vacíos"
+                  ],
+                  "why": "R-205 prohíbe el paso a los vehículos cuya altura máxima, incluida la carga, supere la indicada."
+                },
+                "en": {
+                  "q": "Sign R-205 shows a height. Which vehicles does it forbid to pass?",
+                  "options": [
+                    "Those that, with their load, are taller than the number",
+                    "Those that are lower than the number",
+                    "Only empty trucks"
+                  ],
+                  "why": "R-205 forbids passage to vehicles whose maximum height, including the load, exceeds the one shown."
+                },
+                "terms": [
+                  {
+                    "es": "altura",
+                    "en": "height"
+                  }
+                ],
+                "src": "Catálogo oficial (señal R-205)"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "**R-3**: tienes prioridad en los cruces. **R-4**: la pierdes más adelante.",
+          "en": "**R-3**: you have priority at junctions. **R-4**: you lose it ahead."
+        },
+        {
+          "es": "**STOP**: detente ante la línea o justo antes de la intersección. Si no ves, **detente de nuevo** donde veas.",
+          "en": "**STOP**: stop at the line or just before the intersection. If you cannot see, **stop again** where you can."
+        },
+        {
+          "es": "**R-5**: cedes al tráfico contrario. **R-6**: tienes prioridad en el paso estrecho.",
+          "en": "**R-5**: you give way to oncoming traffic. **R-6**: you have priority in the narrow passage."
+        },
+        {
+          "es": "Las señales de entrada prohibida afectan a quien las **ve de frente**.",
+          "en": "No-entry signs affect whoever **meets them head-on**."
+        },
+        {
+          "es": "En las restricciones, la cifra es el **máximo**, con la carga incluida.",
+          "en": "On restrictions, the number is the **maximum**, load included."
+        }
+      ],
+      "covers": [
+        "signs-04"
+      ],
+      "src": [
+        "Reglamento General de Circulación (RD 1428/2003), arts. 56.4, 56.5, 58.1, 61.2, 132.1, 145.2.b y 145.2.c",
+        "RGC Anexo I, apartado 5.1 (Catálogo de señales verticales, Tomo I: apartados 3.2, 3.3 y 3.4), nombres y significados de las señales"
+      ]
+    },
+    {
+      "id": "speed-bans-orders",
+      "title": {
+        "es": "Velocidad, prohibiciones, obligaciones y fines",
+        "en": "Speed, prohibitions, orders and endings"
+      },
+      "minutes": 8,
+      "goals": [
+        {
+          "es": "Leer las señales de velocidad y saber hasta dónde valen.",
+          "en": "Read the speed signs and know how far they apply."
+        },
+        {
+          "es": "Reconocer las prohibiciones de giro, adelantamiento, parada y estacionamiento.",
+          "en": "Recognize the prohibitions on turning, overtaking, stopping and parking."
+        },
+        {
+          "es": "Reconocer las señales de obligación y las que ponen fin a una prohibición.",
+          "en": "Recognize the mandatory signs and the ones that end a prohibition."
+        }
+      ],
+      "terms": [
+        {
+          "es": "velocidad máxima",
+          "en": "maximum speed"
+        },
+        {
+          "es": "cambio de sentido",
+          "en": "U-turn"
+        },
+        {
+          "es": "adelantar",
+          "en": "to overtake"
+        },
+        {
+          "es": "parar",
+          "en": "to stop (briefly)"
+        },
+        {
+          "es": "estacionar",
+          "en": "to park"
+        },
+        {
+          "es": "vado",
+          "en": "driveway entrance"
+        },
+        {
+          "es": "sentido obligatorio",
+          "en": "mandatory direction"
+        },
+        {
+          "es": "fin de prohibición",
+          "en": "end of restriction"
+        }
+      ],
+      "pretest": {
+        "id": "signs-pre-5",
+        "answer": 0,
+        "es": {
+          "q": "En el reglamento, ¿qué es «parar» un vehículo?",
+          "options": [
+            "Inmovilizarlo menos de dos minutos, sin poder abandonarlo",
+            "Inmovilizarlo hasta diez minutos con el motor apagado",
+            "Inmovilizarlo solo en la calzada, nunca en el arcén"
+          ],
+          "why": "La parada es la inmovilización durante menos de dos minutos sin que el conductor pueda abandonar el vehículo."
+        },
+        "en": {
+          "q": "In the regulations, what does it mean to “stop” a vehicle?",
+          "options": [
+            "To immobilize it for under two minutes, without being able to leave it",
+            "To immobilize it for up to ten minutes with the engine off",
+            "To immobilize it on the roadway only, never on the shoulder"
+          ],
+          "why": "A stop is immobilizing a vehicle for less than two minutes without the driver being able to leave it."
+        },
+        "src": "LSV Anexo I, punto 81"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Velocidad máxima: R-301",
+            "en": "Maximum speed: R-301"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Un círculo con borde rojo y solo una cifra es una **velocidad máxima**, en km/h. No puedes superar esa cifra.",
+                "en": "A circle with a red border and only a number is a **maximum speed**, in km/h. You may not go above that number."
+              }
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "r-301-10",
+                "r-301-20",
+                "r-301-30",
+                "r-301-40",
+                "r-301-50",
+                "r-301-60"
+              ],
+              "caption": {
+                "es": "R-301: de 10 a 60 km/h.",
+                "en": "R-301: from 10 to 60 km/h."
+              }
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "r-301-70",
+                "r-301-80",
+                "r-301-90",
+                "r-301-100",
+                "r-301-110",
+                "r-301-120"
+              ],
+              "caption": {
+                "es": "R-301: de 70 a 120 km/h.",
+                "en": "R-301: from 70 to 120 km/h."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "La limitación empieza en la señal. Termina en una señal de fin de limitación (R-501), en una de fin de prohibiciones (R-500) o en otra señal de velocidad máxima distinta.",
+                "en": "The limit starts at the sign. It ends at an end-of-speed-limit sign (R-501), an end-of-prohibitions sign (R-500) or a different maximum-speed sign."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Si va en el mismo poste que una señal de peligro, la limitación termina cuando termina el peligro. Si la cifra es la que ya marca la ley para esa vía, la señal solo te lo recuerda.",
+                "en": "If it is on the same post as a warning sign, the limit ends when the danger ends. If the number is the one the law already sets for that road, the sign only reminds you."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Los límites generales por tipo de vía están en el módulo de Límites de velocidad.",
+                "en": "The general limits by road type are in the Speed limits module."
+              }
+            },
+            {
+              "t": "us",
+              "text": {
+                "es": "En EE. UU. los límites van en millas por hora: aquí van en km/h. Un kilómetro por hora son unos 0,62 mph. Por ejemplo, 30 km/h son unas 19 mph y 120 km/h, unas 75 mph.",
+                "en": "In the US, limits are in miles per hour: here they are in km/h. One km/h is about 0.62 mph. For example, 30 km/h is about 19 mph and 120 km/h is about 75 mph."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-ban-a",
+                "answer": 2,
+                "es": {
+                  "q": "Una señal de velocidad máxima va en el mismo poste que una señal de peligro. ¿Hasta cuándo se aplica?",
+                  "options": [
+                    "Hasta el final del pueblo",
+                    "Hasta el siguiente cruce",
+                    "Hasta que termina el peligro"
+                  ],
+                  "why": "Cuando la limitación de velocidad va con una señal de peligro, termina cuando termina el peligro."
+                },
+                "en": {
+                  "q": "A maximum-speed sign is on the same post as a warning sign. Until when does it apply?",
+                  "options": [
+                    "Until the end of the town",
+                    "Until the next junction",
+                    "Until the danger ends"
+                  ],
+                  "why": "When a speed limit goes with a warning sign, it ends when the danger ends."
+                },
+                "terms": [
+                  {
+                    "es": "limitación de velocidad",
+                    "en": "speed limit"
+                  }
+                ],
+                "src": "Catálogo oficial (señal R-301)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Distancia, giros y claxon",
+            "en": "Distance, turns and horn"
+          },
+          "blocks": [
+            {
+              "t": "signs",
+              "ids": [
+                "r-300",
+                "r-302",
+                "r-303",
+                "r-304",
+                "r-310"
+              ],
+              "caption": {
+                "es": "R-300: separación mínima. R-302: giro a la derecha prohibido. R-303: giro a la izquierda prohibido. R-304: cambio de sentido prohibido. R-310: advertencias acústicas prohibidas.",
+                "en": "R-300: minimum distance. R-302: no right turn. R-303: no left turn. R-304: no U-turn. R-310: acoustic warnings prohibited."
+              }
+            },
+            {
+              "t": "list",
+              "items": [
+                {
+                  "es": "**R-300:** no te acerques al coche de delante más que la distancia que marca la señal, salvo para adelantar. Sin cifra, solo recuerda la distancia de seguridad.",
+                  "en": "**R-300:** do not get closer to the car ahead than the distance the sign shows, except to overtake. With no number, it only reminds you to keep a safe distance."
+                },
+                {
+                  "es": "**R-302, R-303 y R-304:** prohíben girar a la derecha, girar a la izquierda y cambiar de sentido. La R-303 prohíbe también el cambio de sentido.",
+                  "en": "**R-302, R-303 and R-304:** they forbid turning right, turning left and making a U-turn. R-303 also forbids the U-turn."
+                },
+                {
+                  "es": "**R-310:** recuerda que no se debe usar el claxon, salvo para evitar un accidente.",
+                  "en": "**R-310:** it reminds you that the horn must not be used, except to avoid a crash."
+                }
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Debes dejar entre tu vehículo y el que va delante un espacio libre que te permita detenerte, en caso de frenado brusco, sin chocar con él.",
+                "en": "You must leave between your vehicle and the one ahead a free space that lets you stop, in case of hard braking, without hitting it."
+              },
+              "src": "RGC art. 54.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Queda prohibido usar las señales acústicas sin motivo. Solo puedes usarlas en los casos que fija el reglamento, por ejemplo para evitar un posible accidente o, fuera de poblado, para avisar de que vas a adelantar.",
+                "en": "It is forbidden to use acoustic signals without reason. You may only use them in the cases the regulation sets, for example to avoid a possible accident or, outside towns, to warn that you are going to overtake."
+              },
+              "src": "RGC art. 110"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-ban-b",
+                "answer": 1,
+                "es": {
+                  "q": "La señal de giro a la izquierda prohibido (R-303), ¿qué otra maniobra prohíbe también?",
+                  "options": [
+                    "Adelantar",
+                    "El cambio de sentido de la marcha",
+                    "Girar a la derecha"
+                  ],
+                  "why": "La señal R-303 prohíbe girar a la izquierda e incluye también la prohibición del cambio de sentido."
+                },
+                "en": {
+                  "q": "The no-left-turn sign (R-303), what other maneuver does it also forbid?",
+                  "options": [
+                    "Overtaking",
+                    "A U-turn",
+                    "Turning right"
+                  ],
+                  "why": "Sign R-303 forbids turning left and also includes the prohibition of making a U-turn."
+                },
+                "terms": [
+                  {
+                    "es": "cambio de sentido",
+                    "en": "U-turn"
+                  }
+                ],
+                "src": "Catálogo oficial (señal R-303)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Adelantar, parar y estacionar",
+            "en": "Overtaking, stopping and parking"
+          },
+          "blocks": [
+            {
+              "t": "signs",
+              "ids": [
+                "r-305",
+                "r-306"
+              ],
+              "caption": {
+                "es": "R-305: adelantamiento prohibido. R-306: adelantamiento prohibido para camiones.",
+                "en": "R-305: no overtaking. R-306: no overtaking by trucks."
+              }
+            },
+            {
+              "t": "list",
+              "items": [
+                {
+                  "es": "**R-305:** prohíbe adelantar a vehículos de motor cuando para hacerlo tengas que invadir la zona del sentido contrario.",
+                  "en": "**R-305:** it forbids overtaking motor vehicles when you would have to enter the area for opposing traffic."
+                },
+                {
+                  "es": "**R-306:** prohíbe a los camiones de más de 3.500 kg de masa máxima autorizada adelantar a vehículos de motor, aunque no tengan que invadir el sentido contrario.",
+                  "en": "**R-306:** it forbids trucks over 3,500 kg maximum authorized mass to overtake motor vehicles, even when they would not enter the opposing lane."
+                }
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Parada es la inmovilización de un vehículo durante menos de dos minutos, sin que el conductor pueda abandonarlo. Estacionamiento es toda inmovilización que no es detención ni parada.",
+                "en": "A stop is immobilizing a vehicle for less than two minutes, without the driver being able to leave it. Parking is any immobilization that is not a halt or a stop."
+              },
+              "src": "LSV Anexo I, puntos 81 y 82"
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "r-307",
+                "r-308",
+                "r-308c",
+                "r-308d",
+                "r-308e",
+                "r-309"
+              ],
+              "caption": {
+                "es": "R-307: parada y estacionamiento prohibidos. R-308: estacionamiento prohibido. R-308c y R-308d: la primera o la segunda quincena. R-308e: delante de un vado. R-309: zona de estacionamiento limitado.",
+                "en": "R-307: no stopping or parking. R-308: no parking. R-308c and R-308d: first or second half of the month. R-308e: in front of a driveway. R-309: limited parking zone."
+              }
+            },
+            {
+              "t": "list",
+              "items": [
+                {
+                  "es": "**R-307** (dos barras cruzadas): no puedes parar ni estacionar.",
+                  "en": "**R-307** (two crossed bars): you may not stop or park."
+                },
+                {
+                  "es": "**R-308** (una barra): no puedes estacionar, pero sí parar.",
+                  "en": "**R-308** (one bar): you may not park, but you may stop."
+                },
+                {
+                  "es": "**R-308c y R-308d:** lo mismo, pero solo desde las 9 h del día 1 hasta las 9 h del 16 (c), o desde las 9 h del 16 hasta las 9 h del día 1 (d).",
+                  "en": "**R-308c and R-308d:** the same, but only from 9:00 on the 1st until 9:00 on the 16th (c), or from 9:00 on the 16th until 9:00 on the 1st (d)."
+                },
+                {
+                  "es": "**R-308e:** no puedes estacionar delante de un vado.",
+                  "en": "**R-308e:** you may not park in front of a driveway."
+                },
+                {
+                  "es": "**R-309:** zona de estacionamiento limitado. Debes indicar la hora en que empiezas a estacionar.",
+                  "en": "**R-309:** limited parking zone. You must show the time you start parking."
+                }
+              ]
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "La prohibición vale en el lado de la calzada donde está la señal. Salvo indicación contraria, empieza en la señal y termina en la intersección más próxima.",
+                "en": "The prohibition applies on the side of the road where the sign stands. Unless it says otherwise, it starts at the sign and ends at the nearest junction."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Está prohibido estacionar delante de los vados señalizados y, en las zonas de estacionamiento con limitación horaria, sin colocar el distintivo o pasado el tiempo máximo.",
+                "en": "Parking is forbidden in front of properly marked driveways and, in time-limited parking areas, without displaying the permit or beyond the maximum time."
+              },
+              "src": "RGC art. 94.2.b y 94.2.f"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-ban-c",
+                "answer": 2,
+                "es": {
+                  "q": "Una señal azul con una sola barra roja diagonal, ¿qué prohíbe?",
+                  "options": [
+                    "Parar y estacionar",
+                    "Estacionar solo de noche",
+                    "Estacionar, pero no parar"
+                  ],
+                  "why": "Es la señal R-308: prohíbe estacionar en ese lado de la calzada, pero no prohíbe la parada."
+                },
+                "en": {
+                  "q": "A blue sign with a single red diagonal bar, what does it forbid?",
+                  "options": [
+                    "Stopping and parking",
+                    "Parking only at night",
+                    "Parking, but not stopping"
+                  ],
+                  "why": "It is sign R-308: it forbids parking on that side of the road, but it does not forbid stopping."
+                },
+                "terms": [
+                  {
+                    "es": "estacionar",
+                    "en": "to park"
+                  }
+                ],
+                "src": "Catálogo oficial (señal R-308)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Obligaciones: las flechas azules",
+            "en": "Orders: the blue arrows"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Las señales de obligación señalan una norma de circulación obligatoria.",
+                "en": "Mandatory signs indicate a compulsory rule of traffic."
+              },
+              "src": "RGC art. 145.2.e"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Son **círculos azules** con un símbolo blanco. Algunas usan flechas y otras, el dibujo de un vehículo o de un usuario.",
+                "en": "They are **blue circles** with a white symbol. Some use arrows; others show a vehicle or a road user."
+              }
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "r-400a",
+                "r-400b",
+                "r-400c",
+                "r-400d",
+                "r-400e"
+              ],
+              "caption": {
+                "es": "R-400: sentido obligatorio, con flecha a la derecha, a la izquierda, hacia delante y curvas.",
+                "en": "R-400: mandatory direction, with an arrow to the right, to the left, straight ahead and curved."
+              }
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "r-401a",
+                "r-401b",
+                "r-401c"
+              ],
+              "caption": {
+                "es": "R-401: paso obligatorio por la derecha, por la izquierda o por cualquiera de los dos lados de un refugio, isleta u obstáculo.",
+                "en": "R-401: mandatory passing side: on the right, on the left or on either side of a refuge, island or obstacle."
+              }
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "r-402",
+                "r-403a",
+                "r-403b",
+                "r-403c"
+              ],
+              "caption": {
+                "es": "R-402: sentido obligatorio en glorieta. R-403: únicas direcciones permitidas.",
+                "en": "R-402: mandatory roundabout direction. R-403: only directions allowed."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-ban-d",
+                "answer": 0,
+                "es": {
+                  "q": "Una señal azul con dos flechas blancas, una hacia delante y otra hacia la derecha, ¿qué te permite?",
+                  "options": [
+                    "Seguir de frente o girar a la derecha",
+                    "Seguir de frente o girar a la izquierda",
+                    "Solo girar a la derecha"
+                  ],
+                  "why": "Es la señal R-403a: las flechas marcan las únicas direcciones que puedes tomar, de frente o a la derecha."
+                },
+                "en": {
+                  "q": "A blue sign with two white arrows, one straight ahead and one to the right, what does it allow you to do?",
+                  "options": [
+                    "Go straight on or turn right",
+                    "Go straight on or turn left",
+                    "Only turn right"
+                  ],
+                  "why": "It is sign R-403a: the arrows show the only directions you may take, straight on or to the right."
+                },
+                "terms": [
+                  {
+                    "es": "únicas direcciones permitidas",
+                    "en": "only directions allowed"
+                  }
+                ],
+                "src": "Catálogo oficial (señal R-403a)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Obligaciones para ciertos vehículos",
+            "en": "Orders for certain vehicles"
+          },
+          "blocks": [
+            {
+              "t": "signs",
+              "ids": [
+                "r-406",
+                "r-407b",
+                "r-409",
+                "r-416"
+              ],
+              "caption": {
+                "es": "R-406: calzada obligatoria para camiones. R-407b: vía para ciclomotores. R-409: camino para animales de montura. R-416: calzada para mercancías explosivas.",
+                "en": "R-406: mandatory roadway for trucks. R-407b: road for mopeds. R-409: track for ridden animals. R-416: roadway for explosive goods."
+              }
+            },
+            {
+              "t": "list",
+              "items": [
+                {
+                  "es": "**R-406:** camiones, tractocamiones y furgones o furgonetas deben circular por esa calzada. Si hay una cifra de toneladas, solo vale para los que la superan.",
+                  "en": "**R-406:** trucks, tractor units and vans must use that roadway. If there is a number of metric tons, it only applies to those above it."
+                },
+                {
+                  "es": "**R-407b y R-409:** vías reservadas para ciclomotores y para jinetes con animales de montura. Los demás usuarios no pueden usarlas.",
+                  "en": "**R-407b and R-409:** roads reserved for mopeds and for riders with ridden animals. Other users may not use them."
+                },
+                {
+                  "es": "**R-416:** los vehículos con mercancías explosivas o inflamables deben usar esa calzada.",
+                  "en": "**R-416:** vehicles carrying explosive or flammable goods must use that roadway."
+                }
+              ]
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-ban-e",
+                "answer": 1,
+                "es": {
+                  "q": "La señal R-407b obliga a los ciclomotores a usar esa vía. ¿Puede entrar un turismo?",
+                  "options": [
+                    "Sí, si circula despacio",
+                    "No: la vía está reservada a ciclomotores",
+                    "Sí, porque la señal solo obliga a ciclomotores"
+                  ],
+                  "why": "La R-407b obliga a los ciclomotores a circular por esa vía y prohíbe a los demás usuarios utilizarla."
+                },
+                "en": {
+                  "q": "Sign R-407b obliges mopeds to use that road. Can a car enter?",
+                  "options": [
+                    "Yes, if it drives slowly",
+                    "No: the road is reserved for mopeds",
+                    "Yes, because the sign only obliges mopeds"
+                  ],
+                  "why": "R-407b obliges mopeds to use that road and forbids all other users to use it."
+                },
+                "terms": [
+                  {
+                    "es": "ciclomotor",
+                    "en": "moped"
+                  }
+                ],
+                "src": "Catálogo oficial (señal R-407b)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Fin de prohibición",
+            "en": "End of restriction"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Las señales de fin de prohibición o restricción forman una de las clases de señales de reglamentación.",
+                "en": "End-of-prohibition or end-of-restriction signs are one of the classes of regulatory signs."
+              },
+              "src": "RGC art. 145.2.f"
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "r-500",
+                "r-501",
+                "r-502",
+                "r-503",
+                "r-504",
+                "r-506"
+              ],
+              "caption": {
+                "es": "R-500: fin de prohibiciones. R-501: fin de velocidad máxima. R-502: fin de adelantamiento prohibido. R-503: fin de adelantamiento prohibido para camiones. R-504: fin de estacionamiento limitado. R-506: fin de velocidad mínima.",
+                "en": "R-500: end of prohibitions. R-501: end of maximum speed. R-502: end of no overtaking. R-503: end of no overtaking by trucks. R-504: end of limited parking. R-506: end of minimum speed."
+              }
+            },
+            {
+              "t": "list",
+              "items": [
+                {
+                  "es": "**R-500:** acaban todas las prohibiciones específicas para vehículos en movimiento que pusieron las señales anteriores.",
+                  "en": "**R-500:** all the specific prohibitions for moving vehicles set by earlier signs end."
+                },
+                {
+                  "es": "**R-501, R-502, R-503, R-504 y R-506:** cada una acaba una señal concreta: velocidad máxima, adelantamiento, adelantamiento para camiones, estacionamiento limitado y velocidad mínima.",
+                  "en": "**R-501, R-502, R-503, R-504 and R-506:** each one ends one particular sign: maximum speed, overtaking, overtaking by trucks, limited parking and minimum speed."
+                }
+              ]
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Fíjate en R-506: es un círculo **azul** con una cifra tachada. Un círculo azul con una cifra es una velocidad mínima, y esta señal la termina.",
+                "en": "Look at R-506: it is a **blue** circle with a crossed-out number. A blue circle with a number is a minimum speed, and this sign ends it."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-ban-f",
+                "answer": 2,
+                "es": {
+                  "q": "Un círculo blanco con varias rayas negras diagonales, ¿qué significa?",
+                  "options": [
+                    "Fin de la zona de obras",
+                    "Prohibido circular de noche",
+                    "Fin de todas las prohibiciones"
+                  ],
+                  "why": "Es la señal R-500: desde ahí dejan de aplicarse todas las prohibiciones de las señales anteriores para vehículos en movimiento."
+                },
+                "en": {
+                  "q": "A white circle with several diagonal black stripes, what does it mean?",
+                  "options": [
+                    "End of the roadworks zone",
+                    "No driving at night",
+                    "End of all prohibitions"
+                  ],
+                  "why": "It is sign R-500: from there on, all the prohibitions of earlier signs for moving vehicles stop applying."
+                },
+                "terms": [
+                  {
+                    "es": "fin de prohibiciones",
+                    "en": "end of prohibitions"
+                  }
+                ],
+                "src": "Catálogo oficial (señal R-500)"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "Círculo rojo con cifra: velocidad **máxima**. Círculo azul con cifra: velocidad **mínima**.",
+          "en": "Red circle with a number: **maximum** speed. Blue circle with a number: **minimum** speed."
+        },
+        {
+          "es": "Una limitación acaba en **R-501**, en **R-500** o en otra señal de velocidad.",
+          "en": "A limit ends at **R-501**, at **R-500** or at another speed sign."
+        },
+        {
+          "es": "**Parar** es menos de dos minutos sin dejar el vehículo. **R-308** prohíbe estacionar, no parar.",
+          "en": "**Stopping** is under two minutes without leaving the vehicle. **R-308** forbids parking, not stopping."
+        },
+        {
+          "es": "**R-303** prohíbe girar a la izquierda y también el cambio de sentido.",
+          "en": "**R-303** forbids turning left and also the U-turn."
+        },
+        {
+          "es": "**Círculo azul con símbolo blanco:** una obligación.",
+          "en": "**Blue circle with a white symbol:** an order."
+        }
+      ],
+      "covers": [
+        "signs-02",
+        "signs-03"
+      ],
+      "src": [
+        "Reglamento General de Circulación (RD 1428/2003), arts. 54.1, 94.2, 110 y 145.2",
+        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), Anexo I, puntos 81 y 82",
+        "Catálogo oficial de señales (Anexo I, 5), nombres y significados de las señales"
+      ]
+    },
+    {
+      "id": "road-markings",
+      "title": {
+        "es": "Marcas viales",
+        "en": "Road markings"
+      },
+      "minutes": 8,
+      "goals": [
+        {
+          "es": "Saber qué puedes y qué no puedes hacer ante cada línea longitudinal.",
+          "en": "Know what you may and may not do at each kind of longitudinal line."
+        },
+        {
+          "es": "Reconocer las líneas de detención, las de ceda el paso y los pasos de peatones.",
+          "en": "Recognize stop lines, yield lines and pedestrian crossings."
+        },
+        {
+          "es": "Reconocer flechas, cebreados, cuadrículas y líneas amarillas junto al bordillo.",
+          "en": "Recognize arrows, hatched zones, grids and yellow lines along the curb."
+        }
+      ],
+      "terms": [
+        {
+          "es": "marca vial",
+          "en": "road marking"
+        },
+        {
+          "es": "línea continua",
+          "en": "continuous line"
+        },
+        {
+          "es": "línea discontinua",
+          "en": "dashed line"
+        },
+        {
+          "es": "línea de detención",
+          "en": "stop line"
+        },
+        {
+          "es": "paso de peatones",
+          "en": "pedestrian crossing"
+        },
+        {
+          "es": "cebreado",
+          "en": "hatched zone"
+        },
+        {
+          "es": "bordillo",
+          "en": "curb"
+        },
+        {
+          "es": "carril reversible",
+          "en": "reversible lane"
+        }
+      ],
+      "pretest": {
+        "id": "signs-pre-6",
+        "answer": 1,
+        "es": {
+          "q": "Ves una línea blanca continua a lo ancho de tu carril, antes de un cruce con STOP. ¿Qué es?",
+          "options": [
+            "Un paso de peatones",
+            "Una línea de detención",
+            "Una línea de ceda el paso"
+          ],
+          "why": "Una línea continua a lo ancho del carril es una línea de detención. La discontinua marca el ceda el paso."
+        },
+        "en": {
+          "q": "You see a continuous white line across your lane, before a junction with a STOP sign. What is it?",
+          "options": [
+            "A pedestrian crossing",
+            "A stop line",
+            "A yield line"
+          ],
+          "why": "A continuous line across the lane is a stop line. A dashed one marks a yield."
+        },
+        "src": "RGC Anexo I, ap. 5.2 (marcas viales), 4.2"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Qué son y de qué color",
+            "en": "What they are and their color"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Las marcas viales sirven para regular la circulación y para advertir o guiar a los usuarios. Pueden usarse solas o con otras señales, para reforzar o precisar lo que dicen.",
+                "en": "Road markings serve to regulate traffic and to warn or guide users. They can be used alone or with other signs, to reinforce or make more precise what those say."
+              },
+              "src": "RGC art. 147.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Las marcas viales se clasifican en longitudinales, transversales, flechas, líneas paralelas oblicuas (cebreado), señales horizontales de circulación, e inscripciones y otras marcas.",
+                "en": "Road markings are classified as longitudinal, transverse, arrows, parallel oblique lines (hatched zones), horizontal traffic signs, and inscriptions and other markings."
+              },
+              "src": "RGC art. 147.2"
+            },
+            {
+              "t": "list",
+              "items": [
+                {
+                  "es": "**Longitudinales:** delimitan los carriles y ordenan los movimientos.",
+                  "en": "**Longitudinal:** they mark the lanes and order the movements."
+                },
+                {
+                  "es": "**Transversales:** líneas a lo ancho que indican obligaciones o prohibiciones antes de franquearlas.",
+                  "en": "**Transverse:** lines across the lane that show obligations or prohibitions before you cross them."
+                },
+                {
+                  "es": "**Flechas:** indican qué movimientos se permiten u obligan en ese carril.",
+                  "en": "**Arrows:** they show which movements are allowed or required in that lane."
+                },
+                {
+                  "es": "**Cebreado:** franjas oblicuas dentro de una línea continua, donde no se debe entrar.",
+                  "en": "**Hatched zone:** oblique stripes inside a continuous line, where you must not enter."
+                },
+                {
+                  "es": "**Señales horizontales:** señales pintadas con el mismo significado que las verticales.",
+                  "en": "**Horizontal signs:** painted signs with the same meaning as the vertical ones."
+                },
+                {
+                  "es": "**Inscripciones y otras marcas:** dan información o avisan de un tramo especial.",
+                  "en": "**Inscriptions and other markings:** they give information or warn of a special stretch."
+                }
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Salvo que se diga otra cosa, las marcas viales son de color blanco. Las marcas nuevas en tramos con obras son amarillas; si siguen valiendo las marcas de antes, pueden mantenerse en blanco.",
+                "en": "Unless stated otherwise, road markings are white. New markings on stretches with roadworks are yellow; if the earlier markings still apply, they may stay white."
+              },
+              "src": "RGC Anexo I, ap. 5.2 (marcas viales), 2"
+            },
+            {
+              "t": "us",
+              "text": {
+                "es": "En EE. UU. una línea central amarilla suele separar los dos sentidos de circulación. Aquí esa línea es blanca.",
+                "en": "In the US, a yellow center line usually separates the two directions of traffic. Here that line is white."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-mark-a",
+                "answer": 0,
+                "es": {
+                  "q": "Un tramo en obras tiene marcas viales nuevas. ¿De qué color son?",
+                  "options": [
+                    "Amarillas",
+                    "Rojas",
+                    "Blancas, siempre"
+                  ],
+                  "why": "Las marcas viales nuevas en tramos con obras son amarillas. Las demás marcas son blancas, salvo las que se indiquen de otro color."
+                },
+                "en": {
+                  "q": "A stretch with roadworks has new road markings. What color are they?",
+                  "options": [
+                    "Yellow",
+                    "Red",
+                    "White, always"
+                  ],
+                  "why": "New road markings on stretches with roadworks are yellow. Other markings are white, except those specified in another color."
+                },
+                "terms": [
+                  {
+                    "es": "tramo en obras",
+                    "en": "roadworks stretch"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.2 (marcas viales), 2"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Línea discontinua y línea continua",
+            "en": "Dashed line and continuous line"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Fíjate siempre en **la línea que tienes en tu lado**.",
+                "en": "Always look at **the line on your side**."
+              }
+            },
+            {
+              "t": "figure",
+              "file": "signs-center-lines",
+              "alt": {
+                "es": "Tres carreteras vistas desde arriba, cada una con un coche azul y uno naranja que vienen de frente. La primera tiene una línea central discontinua, la segunda una continua y la tercera una continua pegada a una discontinua. Zonas verdes y rojas marcan dónde puede entrar cada coche.",
+                "en": "Three roads seen from above, each with a blue car and an orange car coming toward each other. The first has a dashed center line, the second a continuous one and the third a continuous line next to a dashed one. Green and red zones show where each car may go."
+              },
+              "caption": {
+                "es": "Verde: puedes cruzar la línea, si es seguro. Rojo: no puedes. En el 3, la línea discontinua está del lado del coche azul.",
+                "en": "Green: you may cross the line, if it is safe. Red: you may not. In 3, the dashed line is on the blue car’s side."
+              },
+              "legend": [
+                {
+                  "mark": "1",
+                  "text": {
+                    "es": "Línea discontinua en el centro.",
+                    "en": "Dashed line in the center."
+                  }
+                },
+                {
+                  "mark": "2",
+                  "text": {
+                    "es": "Línea continua en el centro.",
+                    "en": "Continuous line in the center."
+                  }
+                },
+                {
+                  "mark": "3",
+                  "text": {
+                    "es": "Línea continua pegada a una discontinua.",
+                    "en": "Continuous line next to a dashed one."
+                  }
+                }
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Una línea discontinua delimita carriles para guiar el tráfico. Nadie debe circular sobre ella, salvo cuando, por la estrechez de los carriles, sea necesario y la seguridad lo permita. Puede atravesarse para girar o cambiar de carril, respetando la prioridad del vehículo que circula por el carril que se pretende ocupar.",
+                "en": "A dashed line separates lanes to guide traffic. Nobody should drive on it, except when, because the lanes are narrow, it is necessary and safety allows it. It can be crossed to turn or change lane, respecting the priority of the vehicle in the lane you want to move into."
+              },
+              "src": "RGC Anexo I, ap. 5.2 (marcas viales), 4.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Una línea continua significa que nadie debe atravesarla ni circular sobre ella ni, cuando separa los dos sentidos, por su izquierda, salvo en los casos que prevé el reglamento. Dos líneas continuas paralelas significan lo mismo. Las líneas continuas de borde de calzada quedan fuera de esta regla: pueden pisarse si hay que usar el arcén por una emergencia.",
+                "en": "A continuous line means nobody should cross it or drive on it or, when it separates the two directions, on its left, except in the cases the regulation provides. Two parallel continuous lines mean the same. Continuous edge lines are outside this rule: they may be crossed if you must use the shoulder in an emergency."
+              },
+              "src": "RGC Anexo I, ap. 5.2 (marcas viales), 4.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Las líneas de borde de calzada delimitan el borde. Que sean continuas o discontinuas no cambia cómo puedes usar el arcén.",
+                "en": "Edge lines mark the edge of the roadway. Whether they are continuous or dashed does not change how you may use the shoulder."
+              },
+              "src": "RGC Anexo I, ap. 5.2 (marcas viales), 4.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Las marcas dobles discontinuas (dos líneas discontinuas juntas) que delimitan un carril por ambos lados indican un carril reversible, en el que el sentido de circulación puede cambiar con semáforos de carril u otros medios. Quien circula por él debe llevar al menos la luz de cruce, de día y de noche.",
+                "en": "Double dashed markings (two dashed lines side by side) on both sides of a lane show a reversible lane, in which the direction of traffic can change by lane lights or other means. Anyone driving in it must have at least the dipped headlights on, day and night."
+              },
+              "src": "RGC art. 40.1 y RGC Anexo I, ap. 5.2 (marcas viales), 4.1"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-mark-b",
+                "answer": 1,
+                "es": {
+                  "q": "Una línea continua separa los dos sentidos de una carretera. ¿Qué no debes hacer?",
+                  "options": [
+                    "Circular por su derecha",
+                    "Atravesarla o circular por su izquierda",
+                    "Circular a más de 50 km/h"
+                  ],
+                  "why": "Una línea continua significa que no debes atravesarla ni circular sobre ella ni, si separa los dos sentidos, por su izquierda."
+                },
+                "en": {
+                  "q": "A continuous line separates the two directions of a road. What must you not do?",
+                  "options": [
+                    "Drive on its right",
+                    "Cross it or drive on its left",
+                    "Drive faster than 50 km/h"
+                  ],
+                  "why": "A continuous line means you must not cross it or drive on it or, if it separates the two directions, on its left."
+                },
+                "terms": [
+                  {
+                    "es": "línea continua",
+                    "en": "continuous line"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.2 (marcas viales), 4.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-mark-c",
+                "answer": 0,
+                "es": {
+                  "q": "Una línea discontinua separa dos carriles del mismo sentido. ¿Puedes cruzarla para cambiar de carril?",
+                  "options": [
+                    "Sí, respetando la prioridad de quien circula por el otro carril",
+                    "No: está prohibido cruzarla",
+                    "Sí, y siempre tienes prioridad"
+                  ],
+                  "why": "Una línea discontinua puede atravesarse para cambiar de carril, siempre respetando la prioridad del vehículo del carril al que pasas."
+                },
+                "en": {
+                  "q": "A dashed line separates two lanes going the same way. May you cross it to change lane?",
+                  "options": [
+                    "Yes, respecting the priority of whoever is in the other lane",
+                    "No: crossing it is forbidden",
+                    "Yes, and you always have priority"
+                  ],
+                  "why": "A dashed line can be crossed to change lane, always respecting the priority of the vehicle in the lane you move into."
+                },
+                "terms": [
+                  {
+                    "es": "línea discontinua",
+                    "en": "dashed line"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.2 (marcas viales), 4.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-mark-d",
+                "answer": 1,
+                "es": {
+                  "q": "Circulas por un carril delimitado a ambos lados por marcas dobles discontinuas, un carril reversible. ¿Qué luces debes llevar?",
+                  "options": [
+                    "Ninguna durante el día",
+                    "Al menos las de cruce, de día y de noche",
+                    "Solo las de posición"
+                  ],
+                  "why": "En un carril reversible debes llevar encendida al menos la luz de cruce, tanto de día como de noche."
+                },
+                "en": {
+                  "q": "You drive in a lane marked on both sides by double dashed lines, a reversible lane. Which lights must you have on?",
+                  "options": [
+                    "None during the day",
+                    "At least the dipped headlights, day and night",
+                    "Only the parking lights"
+                  ],
+                  "why": "In a reversible lane you must have at least the dipped headlights on, both day and night."
+                },
+                "terms": [
+                  {
+                    "es": "carril reversible",
+                    "en": "reversible lane"
+                  },
+                  {
+                    "es": "luz de cruce",
+                    "en": "dipped headlights"
+                  }
+                ],
+                "src": "RGC art. 40.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Continua pegada a discontinua",
+            "en": "Continuous next to dashed"
+          },
+          "blocks": [
+            {
+              "t": "figure",
+              "file": "signs-line-pass",
+              "alt": {
+                "es": "Carretera vista desde arriba con una línea continua pegada a una discontinua en el centro. Un coche azul que circula por el lado de la línea discontinua pasa a un camión más lento: sale al carril contrario, lo adelanta y vuelve a su carril.",
+                "en": "Road seen from above with a continuous line next to a dashed one in the center. A blue car on the dashed-line side passes a slower truck: it moves into the opposite lane, overtakes and returns to its lane."
+              },
+              "caption": {
+                "es": "El coche azul empezó el adelantamiento desde el lado de la línea discontinua, así que puede volver a su carril cruzando la continua.",
+                "en": "The blue car started the overtaking from the dashed-line side, so it may return to its lane by crossing the continuous line."
+              },
+              "legend": [
+                {
+                  "mark": "B",
+                  "text": {
+                    "es": "Tú: empiezas a adelantar desde el lado de la línea discontinua.",
+                    "en": "You: you start overtaking from the dashed-line side."
+                  }
+                }
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Cuando una línea continua va pegada a una discontinua, solo cuenta la línea del lado por el que circulas. Si separan sentidos opuestos, quien empezó un adelantamiento desde el carril junto a la línea discontinua puede atravesar la continua y volver a su carril después de adelantar o de desistir.",
+                "en": "When a continuous line is next to a dashed one, only the line on your side counts. If they separate opposite directions, a driver who started overtaking from the lane next to the dashed line may cross the continuous one and return to their lane after overtaking or giving up."
+              },
+              "src": "RGC Anexo I, ap. 5.2 (marcas viales), 4.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Antes de empezar un adelantamiento con desplazamiento lateral debes avisarlo con antelación y comprobar que en el carril que vas a usar hay espacio libre suficiente para no poner en peligro ni entorpecer a quienes vienen en sentido contrario. Si no, debes abstenerte.",
+                "en": "Before starting an overtaking maneuver with a lateral move you must signal it in good time and check that the lane you will use has enough free space not to endanger or hinder oncoming traffic. If not, you must refrain."
+              },
+              "src": "RGC art. 84.1"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Estas reglas del adelantamiento se estudian con detalle en el módulo de Adelantamientos.",
+                "en": "These overtaking rules are studied in detail in the Overtaking module."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-mark-e",
+                "answer": 2,
+                "es": {
+                  "q": "Una línea continua pegada a una discontinua separa los sentidos, y la discontinua está de tu lado. ¿Qué puedes hacer?",
+                  "options": [
+                    "Nada: la continua siempre manda",
+                    "Cruzarla solo para girar a la derecha",
+                    "Adelantar, si es seguro, y volver a tu carril aunque cruces la continua"
+                  ],
+                  "why": "Cuentas solo la línea de tu lado. Si empezaste a adelantar desde el lado de la discontinua, puedes volver a tu carril cruzando la continua."
+                },
+                "en": {
+                  "q": "A continuous line next to a dashed one separates the two directions, and the dashed one is on your side. What may you do?",
+                  "options": [
+                    "Nothing: the continuous line always rules",
+                    "Cross it only to turn right",
+                    "Overtake, if it is safe, and return to your lane even if you cross the continuous one"
+                  ],
+                  "why": "Only the line on your side counts. If you started overtaking from the dashed side, you may return to your lane by crossing the continuous line."
+                },
+                "terms": [
+                  {
+                    "es": "adelantar",
+                    "en": "to overtake"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.2 (marcas viales), 4.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Líneas transversales y pasos de peatones",
+            "en": "Transverse lines and pedestrian crossings"
+          },
+          "blocks": [
+            {
+              "t": "figure",
+              "file": "signs-transverse",
+              "alt": {
+                "es": "Tres entradas a una calle con tráfico, vistas desde arriba, cada una con un coche azul parado. En la primera hay una línea continua a lo ancho del carril. En la segunda, una discontinua. En la tercera, franjas blancas de un paso de peatones con un peatón cruzando.",
+                "en": "Three entrances to a street with traffic, seen from above, each with a stopped blue car. In the first there is a continuous line across the lane. In the second, a dashed one. In the third, the white stripes of a pedestrian crossing with a pedestrian crossing."
+              },
+              "caption": {
+                "es": "El coche azul espera antes de la línea o del paso.",
+                "en": "The blue car waits before the line or the crossing."
+              },
+              "legend": [
+                {
+                  "mark": "1",
+                  "text": {
+                    "es": "Línea continua a lo ancho: línea de detención.",
+                    "en": "Continuous line across the lane: stop line."
+                  }
+                },
+                {
+                  "mark": "2",
+                  "text": {
+                    "es": "Línea discontinua a lo ancho: línea de ceda el paso.",
+                    "en": "Dashed line across the lane: yield line."
+                  }
+                },
+                {
+                  "mark": "3",
+                  "text": {
+                    "es": "Bandas paralelas al eje de la calzada: paso de peatones.",
+                    "en": "Bands parallel to the road’s axis: pedestrian crossing."
+                  }
+                }
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Una línea continua a lo ancho de uno o varios carriles es una línea de detención: nadie debe franquearla cuando tiene que detenerse por un STOP (señal o marca), una prohibición de pasar sin detenerse, un paso de peatones marcado, un semáforo, un agente, un paso a nivel o un puente móvil.",
+                "en": "A continuous line across one or more lanes is a stop line: nobody must cross it when they have to stop because of a STOP (sign or marking), a no-proceeding-without-stopping sign, a marked pedestrian crossing, a traffic light, an officer, a level crossing or a movable bridge."
+              },
+              "src": "RGC Anexo I, ap. 5.2 (marcas viales), 4.2"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Una línea discontinua a lo ancho de uno o varios carriles indica que, salvo circunstancias anormales que reduzcan la visibilidad, nadie debe franquearla cuando tiene que ceder el paso, por la señal R-1, por una marca de ceda el paso, por una flecha verde o ámbar intermitente de un semáforo o, sin señales, por las normas de prioridad.",
+                "en": "A dashed line across one or more lanes indicates that, except in abnormal circumstances that reduce visibility, nobody must cross it when they have to yield, because of sign R-1, a yield marking, a flashing green or amber arrow on a traffic light or, with no signs, because of the priority rules."
+              },
+              "src": "RGC Anexo I, ap. 5.2 (marcas viales), 4.2"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Una serie de bandas paralelas al eje de la calzada, formando un conjunto transversal, indica un paso para peatones en el que los conductores deben dejarles paso.",
+                "en": "A series of bands parallel to the road’s axis, forming a transverse set, shows a pedestrian crossing at which drivers must let pedestrians pass."
+              },
+              "src": "RGC Anexo I, ap. 5.2 (marcas viales), 4.2"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Un STOP o un «ceda el paso» pintados en el suelo significan lo mismo que su señal vertical y afectan solo al carril donde están.",
+                "en": "A STOP or a yield painted on the road means the same as its vertical sign and affects only the lane where it is."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-mark-f",
+                "answer": 0,
+                "es": {
+                  "q": "Ves una línea discontinua a lo ancho de tu carril antes de un cruce. ¿Qué indica?",
+                  "options": [
+                    "Que debes ceder el paso si lo exige la señalización o la norma",
+                    "Que debes parar siempre por completo",
+                    "Que empieza un paso de peatones"
+                  ],
+                  "why": "Una línea discontinua transversal es una línea de ceda el paso: no la franqueas si tienes que ceder el paso."
+                },
+                "en": {
+                  "q": "You see a dashed line across your lane before a junction. What does it show?",
+                  "options": [
+                    "That you must yield if the signing or the rule requires it",
+                    "That you must always stop completely",
+                    "That a pedestrian crossing starts"
+                  ],
+                  "why": "A transverse dashed line is a yield line: you do not cross it if you have to yield."
+                },
+                "terms": [
+                  {
+                    "es": "ceda el paso",
+                    "en": "yield"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.2 (marcas viales), 4.2"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Flechas",
+            "en": "Arrows"
+          },
+          "blocks": [
+            {
+              "t": "figure",
+              "file": "signs-lane-arrows",
+              "alt": {
+                "es": "Dos escenas. Primera: dos carriles con una flecha recta y una flecha de giro a la derecha ante un cruce. Segunda: un carril que termina, con una flecha diagonal hacia el carril que sigue.",
+                "en": "Two scenes. First: two lanes with a straight arrow and a right-turn arrow before a junction. Second: a lane that ends, with a diagonal arrow toward the lane that continues."
+              },
+              "caption": {
+                "es": "Cada flecha habla solo al carril donde está pintada.",
+                "en": "Each arrow speaks only to the lane where it is painted."
+              },
+              "legend": [
+                {
+                  "mark": "1",
+                  "text": {
+                    "es": "Flechas de sentido o de selección de carril.",
+                    "en": "Direction or lane-selection arrows."
+                  }
+                },
+                {
+                  "mark": "2",
+                  "text": {
+                    "es": "Flecha de fin de carril.",
+                    "en": "End-of-lane arrow."
+                  }
+                }
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Las flechas indican el movimiento o los movimientos permitidos u obligados a quienes circulan por el carril donde están pintadas.",
+                "en": "Arrows show the movement or movements that are allowed or required for those driving in the lane where they are painted."
+              },
+              "src": "RGC art. 147.2.c"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Una flecha que incluye la dirección de frente no impide cambiar de carril, siempre que sigas en la misma dirección y las líneas longitudinales lo permitan.",
+                "en": "An arrow that includes the straight-ahead direction does not prevent changing lane, as long as you keep the same direction and the longitudinal lines allow it."
+              },
+              "src": "RGC Anexo I, ap. 5.2 (marcas viales), 4.3"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Una flecha de fin de carril indica que ese carril termina pronto: debes dejarlo hacia el lado que señala, respetando la prioridad de los vehículos del carril al que pasas.",
+                "en": "An end-of-lane arrow shows that the lane ends soon: you must leave it toward the side it points to, respecting the priority of vehicles in the lane you move into."
+              },
+              "src": "RGC Anexo I, ap. 5.2 (marcas viales), 4.3"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Una flecha de retorno anuncia una línea continua próxima, que prohíbe circular por su izquierda: debes desistir de adelantar o acabar el adelantamiento cuanto antes.",
+                "en": "A return arrow announces a continuous line ahead, which forbids driving on its left: you must give up overtaking or finish it as soon as possible."
+              },
+              "src": "RGC Anexo I, ap. 5.2 (marcas viales), 4.3"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-mark-g",
+                "answer": 2,
+                "es": {
+                  "q": "Estás adelantando y ves una flecha de retorno pintada en la calzada. ¿Qué anuncia?",
+                  "options": [
+                    "Un cambio de sentido obligatorio",
+                    "El final de la limitación de velocidad",
+                    "Una línea continua próxima: acaba el adelantamiento cuanto antes"
+                  ],
+                  "why": "La flecha de retorno anuncia una línea continua que prohíbe circular por su izquierda. Hay que desistir de adelantar o terminar cuanto antes."
+                },
+                "en": {
+                  "q": "You are overtaking and see a return arrow painted on the road. What does it announce?",
+                  "options": [
+                    "A mandatory U-turn",
+                    "The end of the speed limit",
+                    "A continuous line ahead: finish overtaking as soon as possible"
+                  ],
+                  "why": "The return arrow announces a continuous line that forbids driving on its left. You must give up overtaking or finish as soon as possible."
+                },
+                "terms": [
+                  {
+                    "es": "flecha de retorno",
+                    "en": "return arrow"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.2 (marcas viales), 4.3"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Cebreado y cuadrícula",
+            "en": "Hatched zones and grids"
+          },
+          "blocks": [
+            {
+              "t": "figure",
+              "file": "signs-hatching",
+              "alt": {
+                "es": "Dos escenas. A la izquierda, una zona de franjas oblicuas blancas entre dos carriles, rodeada por una línea continua; un coche azul la rodea por la derecha. A la derecha, un cruce con una cuadrícula amarilla; un coche azul espera antes de ella porque delante hay coches parados.",
+                "en": "Two scenes. On the left, a zone of white oblique stripes between two lanes, surrounded by a continuous line; a blue car goes around it on the right. On the right, a junction with a yellow grid; a blue car waits before it because there are stopped cars ahead."
+              },
+              "caption": {
+                "es": "El coche azul no entra en el cebreado ni en la cuadrícula.",
+                "en": "The blue car does not enter the hatched zone or the grid."
+              },
+              "legend": [
+                {
+                  "mark": "1",
+                  "text": {
+                    "es": "Cebreado: zona donde no se entra.",
+                    "en": "Hatched zone: an area you do not enter."
+                  }
+                },
+                {
+                  "mark": "2",
+                  "text": {
+                    "es": "Cuadrícula amarilla en un cruce.",
+                    "en": "Yellow grid at a junction."
+                  }
+                }
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Una zona marcada con franjas oblicuas paralelas enmarcadas por una línea continua (cebreado) significa que ningún conductor debe entrar en ella con su vehículo, salvo quienes estén obligados a circular por el arcén.",
+                "en": "A zone marked with parallel oblique stripes framed by a continuous line (a hatched zone) means that no driver must enter it with their vehicle, except those obliged to use the shoulder."
+              },
+              "src": "RGC art. 147.2.d"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "La cuadrícula amarilla de un cruce recuerda que no debes entrar en la intersección, aunque el semáforo lo permita o tengas prioridad, si previsiblemente vas a quedar detenido e impedir la circulación transversal.",
+                "en": "The yellow grid at a junction reminds you not to enter the intersection, even if the light allows it or you have priority, if you are likely to be left stopped and block the cross traffic."
+              },
+              "src": "RGC art. 59.1 y RGC Anexo I, ap. 5.2 (marcas viales), 4.7"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-mark-h",
+                "answer": 0,
+                "es": {
+                  "q": "Una zona de franjas oblicuas blancas rodeada por una línea continua, ¿puedes entrar con tu coche?",
+                  "options": [
+                    "No, salvo quien debe circular por el arcén",
+                    "Sí, si no viene nadie",
+                    "Sí, solo para adelantar"
+                  ],
+                  "why": "El cebreado significa que ningún conductor debe entrar en esa zona con su vehículo, salvo quienes estén obligados a circular por el arcén."
+                },
+                "en": {
+                  "q": "A zone of white oblique stripes surrounded by a continuous line: may you enter it with your car?",
+                  "options": [
+                    "No, except those who must use the shoulder",
+                    "Yes, if nobody is coming",
+                    "Yes, only to overtake"
+                  ],
+                  "why": "A hatched zone means that no driver must enter it with their vehicle, except those obliged to use the shoulder."
+                },
+                "terms": [
+                  {
+                    "es": "cebreado",
+                    "en": "hatched zone"
+                  }
+                ],
+                "src": "RGC art. 147.2.d"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-mark-i",
+                "answer": 1,
+                "es": {
+                  "q": "Una cuadrícula amarilla en un cruce, ¿qué te recuerda?",
+                  "options": [
+                    "Que debes parar siempre ahí",
+                    "Que no entres si vas a quedar detenido y bloquear el cruce",
+                    "Que es una zona de estacionamiento"
+                  ],
+                  "why": "La cuadrícula recuerda la prohibición de entrar en una intersección si previsiblemente vas a quedar detenido e impedir la circulación transversal."
+                },
+                "en": {
+                  "q": "A yellow grid at a junction, what does it remind you of?",
+                  "options": [
+                    "That you must always stop there",
+                    "Not to enter if you will be stopped and block the junction",
+                    "That it is a parking area"
+                  ],
+                  "why": "The grid reminds you of the prohibition on entering a junction if you are likely to be left stopped and block the cross traffic."
+                },
+                "terms": [
+                  {
+                    "es": "cuadrícula",
+                    "en": "grid"
+                  }
+                ],
+                "src": "RGC art. 59.1 y RGC Anexo I, ap. 5.2 (marcas viales), 4.7"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Líneas amarillas junto al bordillo",
+            "en": "Yellow lines along the curb"
+          },
+          "blocks": [
+            {
+              "t": "figure",
+              "file": "signs-curb-yellow",
+              "alt": {
+                "es": "Vista desde arriba de una calle con tres marcas amarillas junto al bordillo: una línea discontinua, una línea continua y una línea en zigzag.",
+                "en": "Top view of a street with three yellow markings along the curb: a dashed line, a continuous line and a zigzag line."
+              },
+              "caption": {
+                "es": "Las tres marcas amarillas pintan el borde de la calzada.",
+                "en": "The three yellow marks run along the edge of the roadway."
+              },
+              "legend": [
+                {
+                  "mark": "1",
+                  "text": {
+                    "es": "Línea amarilla discontinua.",
+                    "en": "Dashed yellow line."
+                  }
+                },
+                {
+                  "mark": "2",
+                  "text": {
+                    "es": "Línea amarilla continua.",
+                    "en": "Continuous yellow line."
+                  }
+                },
+                {
+                  "mark": "3",
+                  "text": {
+                    "es": "Zigzag amarillo.",
+                    "en": "Yellow zigzag."
+                  }
+                }
+              ]
+            },
+            {
+              "t": "list",
+              "items": [
+                {
+                  "es": "**Discontinua:** prohíbe estacionar en todo su largo, en el lado de la calzada donde está.",
+                  "en": "**Dashed:** it forbids parking along its whole length, on the side of the road where it is."
+                },
+                {
+                  "es": "**Continua:** prohíbe parar y estacionar en todo su largo, en el lado donde está.",
+                  "en": "**Continuous:** it forbids stopping and parking along its whole length, on the side where it is."
+                },
+                {
+                  "es": "**Zigzag:** prohíbe estacionar a los vehículos en general. Se usa sobre todo en las paradas de autobús y en las zonas de carga y descarga.",
+                  "en": "**Zigzag:** it forbids parking for vehicles in general. It is used mostly at bus stops and in loading and unloading zones."
+                }
+              ]
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "La discontinua y la continua pueden indicar una prohibición temporal. Entonces una señal vertical, al principio del tramo, lo explica.",
+                "en": "The dashed and the continuous line can show a temporary prohibition. Then a vertical sign at the start of the stretch explains it."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Parar o estacionar es peligroso, y por tanto está prohibido, cuando entre tu vehículo y el borde opuesto de la calzada, o una línea longitudinal que prohíbe atravesarla, queda menos de tres metros, o cuando no pasan otros vehículos.",
+                "en": "Stopping or parking is dangerous, and therefore forbidden, when less than three meters remain between your vehicle and the opposite edge of the roadway, or a longitudinal line that forbids crossing it, or when other vehicles cannot pass."
+              },
+              "src": "RGC art. 91.2.a"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-mark-j",
+                "answer": 2,
+                "es": {
+                  "q": "Junto al bordillo hay una línea amarilla discontinua. ¿Qué puedes hacer?",
+                  "options": [
+                    "Estacionar, porque no es continua",
+                    "Nada: no se puede ni parar",
+                    "Parar un momento sin abandonar el vehículo, pero no estacionar"
+                  ],
+                  "why": "La línea amarilla discontinua prohíbe estacionar en todo su largo. La continua prohíbe parar y estacionar."
+                },
+                "en": {
+                  "q": "There is a dashed yellow line along the curb. What may you do?",
+                  "options": [
+                    "Park, because it is not continuous",
+                    "Nothing: not even stopping is allowed",
+                    "Stop briefly without leaving the vehicle, but not park"
+                  ],
+                  "why": "The dashed yellow line forbids parking along its whole length. The continuous one forbids stopping and parking."
+                },
+                "terms": [
+                  {
+                    "es": "bordillo",
+                    "en": "curb"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.2 (marcas viales), 4.7"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "Las marcas son **blancas**; en obras, las nuevas son **amarillas**.",
+          "en": "Markings are **white**; at roadworks, the new ones are **yellow**."
+        },
+        {
+          "es": "**Discontinua:** se puede cruzar con cuidado. **Continua:** no se atraviesa ni se circula por su izquierda cuando separa los sentidos.",
+          "en": "**Dashed:** may be crossed with care. **Continuous:** not crossed, and no driving on its left when it separates the directions."
+        },
+        {
+          "es": "Continua pegada a discontinua: **cuenta la línea de tu lado**.",
+          "en": "Continuous next to dashed: **the line on your side counts**."
+        },
+        {
+          "es": "Línea transversal **continua = detención**; **discontinua = ceda el paso**; bandas = paso de peatones.",
+          "en": "Transverse **continuous = stop**; **dashed = yield**; bands = pedestrian crossing."
+        },
+        {
+          "es": "**Cebreado:** no entres. **Cuadrícula amarilla:** no entres si vas a bloquear el cruce.",
+          "en": "**Hatched zone:** do not enter. **Yellow grid:** do not enter if you will block the junction."
+        },
+        {
+          "es": "Amarilla **discontinua** junto al bordillo: no estacionar. **Continua:** ni parar ni estacionar.",
+          "en": "**Dashed** yellow along the curb: no parking. **Continuous:** no stopping or parking."
+        }
+      ],
+      "covers": [
+        "signs-07",
+        "signs-08"
+      ],
+      "src": [
+        "Reglamento General de Circulación (RD 1428/2003), arts. 40.1, 59.1, 84.1, 91.2.a, 147.1 y 147.2",
+        "RGC Anexo I, apartado 5.2 (Catálogo de marcas viales), apartados 2, 4.1, 4.2, 4.3, 4.4 y 4.7, en la redacción del RD 465/2025"
+      ]
+    }
+  ]
+}

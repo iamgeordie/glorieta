@@ -22,11 +22,11 @@
     "group": "priority",
     "es": {
       "name": "Detención obligatoria o stop",
-      "why": "Obligación para todo conductor de detener su vehículo ante la próxima línea de detención o, si no existe, inmediatamente antes de la intersección, y ceder el paso en ella a los vehículos que circulen por la vía a la que se aproxime. Si desde el punto de detención no hay visibilidad suficiente, debe detenerse de nuevo donde la haya, sin poner en peligro a ningún usuario de la vía."
+      "why": "Obligación para todo conductor de detener su vehículo ante la próxima línea de detención o, si no existe, inmediatamente antes de la intersección, y ceder el paso en ella a los vehículos que circulen por la vía a la que se aproxime. Si, por circunstancias excepcionales, desde el punto de detención no hay visibilidad suficiente, debe detenerse de nuevo donde la haya, sin poner en peligro a ningún usuario de la vía."
     },
     "en": {
       "name": "STOP (mandatory stop)",
-      "why": "Obligation for every driver to stop the vehicle at the next stop line or, if there is none, immediately before the intersection, and to give way there to vehicles on the road being approached. If visibility from the stopping point is not enough, stop again where you can see, without endangering any road user."
+      "why": "Obligation for every driver to stop the vehicle at the next stop line or, if there is none, immediately before the intersection, and to give way there to vehicles on the road being approached. If, in exceptional circumstances, visibility from the stopping point is not enough, stop again where you can see, without endangering any road user."
     },
     "license": "Public domain",
     "licenseUrl": "",
@@ -1824,11 +1824,11 @@
     "group": "warning",
     "es": {
       "name": "Estrechamiento de calzada",
-      "why": "Peligro por la proximidad de una zona de la vía en la que se estrecha la calzada (también puede utilizarse cuando se reduzca la anchura de los arcenes)."
+      "why": "Peligro por la proximidad de una zona de la vía en la que se estrecha la calzada. También puede utilizarse cuando se reduzca la anchura de los arcenes. No se utiliza cuando, tras una reducción del número de carriles, la anchura de los carriles restantes y de los arcenes no haya variado."
     },
     "en": {
       "name": "Road narrows",
-      "why": "Danger: an upcoming section where the roadway narrows (it may also be used where the shoulders narrow)."
+      "why": "Danger: an upcoming section where the roadway narrows. It may also be used where the shoulders narrow. It is not used when, after a reduction in the number of lanes, the width of the remaining lanes and shoulders has not changed."
     },
     "license": "Public domain",
     "licenseUrl": "",
@@ -1841,11 +1841,11 @@
     "group": "warning",
     "es": {
       "name": "Estrechamiento de calzada por la derecha",
-      "why": "Peligro por la proximidad de una zona de la vía en la que la calzada se estrecha por el lado de la derecha."
+      "why": "Peligro por la proximidad de una zona de la vía en la que la calzada se estrecha por el lado de la derecha. También puede utilizarse cuando se reduzca la anchura del arcén derecho. No se utiliza cuando, tras una reducción del número de carriles por la derecha, la anchura de los carriles restantes y de los arcenes no haya variado."
     },
     "en": {
       "name": "Road narrows on the right",
-      "why": "Danger: an upcoming section where the roadway narrows on the right-hand side."
+      "why": "Danger: an upcoming section where the roadway narrows on the right-hand side. It may also be used where the right shoulder narrows. It is not used when, after a reduction in the number of lanes on the right, the width of the remaining lanes and shoulders has not changed."
     },
     "license": "Public domain",
     "licenseUrl": "",
@@ -1858,11 +1858,11 @@
     "group": "warning",
     "es": {
       "name": "Estrechamiento de calzada por la izquierda",
-      "why": "Peligro por la proximidad de una zona de la vía en la que la calzada se estrecha por el lado de la izquierda."
+      "why": "Peligro por la proximidad de una zona de la vía en la que la calzada se estrecha por el lado de la izquierda. También puede utilizarse cuando se reduzca la anchura del arcén izquierdo. No se utiliza cuando, tras una reducción del número de carriles por la izquierda, la anchura de los carriles restantes y de los arcenes no haya variado."
     },
     "en": {
       "name": "Road narrows on the left",
-      "why": "Danger: an upcoming section where the roadway narrows on the left-hand side."
+      "why": "Danger: an upcoming section where the roadway narrows on the left-hand side. It may also be used where the left shoulder narrows. It is not used when, after a reduction in the number of lanes on the left, the width of the remaining lanes and shoulders has not changed."
     },
     "license": "Public domain",
     "licenseUrl": "",

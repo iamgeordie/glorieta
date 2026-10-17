@@ -1,0 +1,2539 @@
+{
+  "id": "road",
+  "title": {
+    "es": "La vía y los carriles",
+    "en": "Roads and lanes"
+  },
+  "blurb": {
+    "es": "Qué tipos de vía hay, cómo se llaman sus partes y por qué carril o arcén te toca circular.",
+    "en": "Which kinds of road exist, what their parts are called, and which lane or shoulder you belong in."
+  },
+  "lessons": [
+    {
+      "id": "types",
+      "title": {
+        "es": "Tipos de vía",
+        "en": "Types of road"
+      },
+      "minutes": 6,
+      "goals": [
+        {
+          "es": "Distinguir una vía urbana, una carretera y una travesía.",
+          "en": "Tell an urban road, an open road and a through-town section apart."
+        },
+        {
+          "es": "Reconocer autopista, autovía, vía para automóviles y carretera convencional.",
+          "en": "Recognize an autopista, an autovía, a road for automobiles and a conventional road."
+        },
+        {
+          "es": "Saber quién no puede entrar en autopistas y autovías.",
+          "en": "Know who may not enter autopistas and autovías."
+        }
+      ],
+      "terms": [
+        {
+          "es": "poblado",
+          "en": "town, built-up area"
+        },
+        {
+          "es": "vía urbana",
+          "en": "urban road"
+        },
+        {
+          "es": "carretera",
+          "en": "open road"
+        },
+        {
+          "es": "travesía",
+          "en": "road section through a town"
+        },
+        {
+          "es": "autopista",
+          "en": "freeway"
+        },
+        {
+          "es": "autovía",
+          "en": "divided highway"
+        },
+        {
+          "es": "vía para automóviles",
+          "en": "road for automobiles only"
+        },
+        {
+          "es": "carretera convencional",
+          "en": "conventional road"
+        }
+      ],
+      "pretest": {
+        "id": "road-pre-1",
+        "answer": 1,
+        "es": {
+          "q": "¿Pueden circular bicicletas por una autopista?",
+          "options": [
+            "Sí, por el arcén",
+            "No, está prohibido",
+            "Sí, si el ciclista tiene más de 14 años"
+          ],
+          "why": "En las autopistas no pueden entrar bicicletas. La excepción para los ciclistas mayores de 14 años solo vale para el arcén de las autovías."
+        },
+        "en": {
+          "q": "Can bicycles use an autopista?",
+          "options": [
+            "Yes, on the shoulder",
+            "No, it is forbidden",
+            "Yes, if the rider is over 14"
+          ],
+          "why": "Bicycles may not enter autopistas. The exception for cyclists over 14 only covers the shoulder of an autovía."
+        },
+        "src": "RGC art. 38.1"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Dentro o fuera de poblado",
+            "en": "Inside or outside a town"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Para clasificar una vía, mira primero dónde está. Un **poblado** es un espacio con edificios. Las vías de entrada y de salida llevan las señales de entrada a poblado y de salida de poblado.",
+                "en": "To classify a road, first ask where it is. A **poblado** is a built-up area with buildings. The roads in and out of it carry the town-entry and town-exit signs."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "La **vía urbana** es la vía pública situada dentro de poblado, salvo las travesías. La **vía interurbana** es la vía pública situada fuera de poblado.",
+                "en": "An **urban road** (vía urbana) is a public road inside a town, except through-town sections. An **intercity road** (vía interurbana) is a public road outside a town."
+              },
+              "src": "LSV anexo I, puntos 72 y 73"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "La **carretera** es una vía pública pavimentada fuera de poblado, salvo los tramos en travesía. Una **travesía** es el tramo de carretera que pasa por un poblado. Si el tramo tiene una variante a la que se puede acceder, no es travesía.",
+                "en": "A **carretera** is a paved public road outside a town, except travesía sections. A **travesía** is the section of a carretera that runs through a town. If the section has a bypass you can reach, it is not a travesía."
+              },
+              "src": "LSV anexo I, puntos 65 y 71"
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "La clase de vía decide qué reglas se aplican. Los límites de velocidad, por ejemplo, cambian entre calle, travesía y carretera.",
+                "en": "The kind of road decides which rules apply. Speed limits, for example, differ between a street, a travesía and a carretera."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-t1a",
+                "answer": 1,
+                "es": {
+                  "q": "Una carretera atraviesa un pueblo y no hay variante a la que se pueda acceder. ¿Cómo se llama ese tramo?",
+                  "options": [
+                    "Vía urbana",
+                    "Travesía",
+                    "Vía interurbana"
+                  ],
+                  "why": "El tramo de carretera que pasa por un poblado es una travesía. No es una vía urbana: la definición de vía urbana deja fuera las travesías."
+                },
+                "en": {
+                  "q": "A road runs through a village and there is no bypass you can reach. What is that section called?",
+                  "options": [
+                    "Urban road",
+                    "Travesía",
+                    "Intercity road"
+                  ],
+                  "why": "The section of a carretera that runs through a town is a travesía. It is not an urban road: the definition of an urban road leaves out through-town sections."
+                },
+                "terms": [
+                  {
+                    "es": "travesía",
+                    "en": "road section through a town"
+                  },
+                  {
+                    "es": "variante",
+                    "en": "bypass"
+                  }
+                ],
+                "src": "LSV anexo I, puntos 71 y 73"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Autopista, autovía y las demás",
+            "en": "Autopista, autovía and the others"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "La ley define estos cuatro tipos de vía. Dos de ellos tienen una calzada para cada sentido.",
+                "en": "The law defines these four kinds of road. Two of them have a separate carriageway for each direction."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Una **autopista** se proyecta y se señaliza para la circulación exclusiva de automóviles. Tiene distintas calzadas para cada sentido, no tiene cruces a nivel y las propiedades vecinas **no tienen acceso**.",
+                "en": "An **autopista** is designed and signed for automobiles only. It has separate carriageways for each direction, no same-level crossings, and neighboring properties have **no access**."
+              },
+              "src": "LSV anexo I, punto 66"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Una **autovía** también tiene distintas calzadas para cada sentido y no tiene cruces a nivel. Pero las propiedades vecinas tienen **acceso limitado**.",
+                "en": "An **autovía** also has separate carriageways for each direction and no same-level crossings. But neighboring properties have **limited access**."
+              },
+              "src": "LSV anexo I, punto 67"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Una **vía para automóviles** es solo para automóviles. Tiene una sola calzada y limita del todo el acceso de las propiedades vecinas.",
+                "en": "A **vía para automóviles** is for automobiles only. It has a single carriageway and fully limits access from neighboring properties."
+              },
+              "src": "LSV anexo I, punto 68"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Una **carretera convencional** es la que no reúne las características de una autopista, una autovía o una vía para automóviles.",
+                "en": "A **carretera convencional** is any road that does not meet the features of an autopista, an autovía or a road for automobiles."
+              },
+              "src": "LSV anexo I, punto 69"
+            },
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Tipo",
+                  "en": "Type"
+                },
+                {
+                  "es": "Calzadas",
+                  "en": "Carriageways"
+                },
+                {
+                  "es": "Propiedades vecinas",
+                  "en": "Neighboring properties"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "Autopista",
+                    "en": "Autopista"
+                  },
+                  {
+                    "es": "Una por sentido, separadas",
+                    "en": "One per direction, separated"
+                  },
+                  {
+                    "es": "Sin acceso",
+                    "en": "No access"
+                  }
+                ],
+                [
+                  {
+                    "es": "Autovía",
+                    "en": "Autovía"
+                  },
+                  {
+                    "es": "Una por sentido, separadas",
+                    "en": "One per direction, separated"
+                  },
+                  {
+                    "es": "Acceso limitado",
+                    "en": "Limited access"
+                  }
+                ],
+                [
+                  {
+                    "es": "Vía para automóviles",
+                    "en": "Road for automobiles"
+                  },
+                  {
+                    "es": "Una sola",
+                    "en": "Just one"
+                  },
+                  {
+                    "es": "Acceso totalmente limitado",
+                    "en": "Access fully limited"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-t1b",
+                "answer": 2,
+                "es": {
+                  "q": "Una carretera tiene dos calzadas separadas y ningún cruce a nivel. Las propiedades vecinas no tienen acceso a ella. ¿Qué es?",
+                  "options": [
+                    "Una autovía",
+                    "Una vía para automóviles",
+                    "Una autopista"
+                  ],
+                  "why": "Autopista y autovía tienen calzadas separadas y ningún cruce a nivel. En la autopista las propiedades vecinas no tienen acceso; en la autovía, el acceso es limitado."
+                },
+                "en": {
+                  "q": "A road has two separate carriageways and no same-level crossings. Neighboring properties have no access to it. What is it?",
+                  "options": [
+                    "An autovía",
+                    "A road for automobiles",
+                    "An autopista"
+                  ],
+                  "why": "Autopistas and autovías both have separate carriageways and no same-level crossings. On an autopista neighboring properties have no access; on an autovía access is limited."
+                },
+                "terms": [
+                  {
+                    "es": "propiedades vecinas",
+                    "en": "neighboring properties"
+                  },
+                  {
+                    "es": "cruce a nivel",
+                    "en": "same-level crossing"
+                  }
+                ],
+                "src": "LSV anexo I, puntos 66 y 67"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Quién no puede entrar",
+            "en": "Who may not enter"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Se **prohíbe** circular por autopistas y autovías con vehículos de tracción animal, bicicletas, ciclomotores y vehículos para personas de movilidad reducida.",
+                "en": "It is **forbidden** to use animal-drawn vehicles, bicycles, mopeds and vehicles for people with reduced mobility on autopistas and autovías."
+              },
+              "src": "RGC art. 38.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Hay una excepción: los ciclistas **mayores de 14 años** pueden circular por los arcenes de las autovías, salvo que una señal lo prohíba por razones de seguridad vial.",
+                "en": "There is one exception: cyclists **over 14** may ride on the shoulders of autovías, unless a sign forbids it for road-safety reasons."
+              },
+              "src": "RGC art. 38.1"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Esa excepción no existe para las autopistas.",
+                "en": "That exception does not exist for autopistas."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-t1c",
+                "answer": 0,
+                "es": {
+                  "q": "Un chico de 15 años quiere ir en bicicleta por una autovía. ¿Qué dice la norma?",
+                  "options": [
+                    "Puede ir por el arcén, salvo que una señal lo prohíba",
+                    "No puede: las bicicletas no pueden entrar en autovías",
+                    "Puede ir por el carril derecho de la calzada"
+                  ],
+                  "why": "Las bicicletas están prohibidas en las autovías, pero hay una excepción: los ciclistas mayores de 14 años pueden usar el arcén si ninguna señal lo prohíbe."
+                },
+                "en": {
+                  "q": "A 15-year-old wants to ride a bicycle on an autovía. What does the rule say?",
+                  "options": [
+                    "The rider may use the shoulder unless a sign forbids it",
+                    "The rider may not: bicycles cannot enter autovías",
+                    "The rider may use the right lane of the roadway"
+                  ],
+                  "why": "Bicycles are forbidden on autovías, but there is an exception: cyclists over 14 may use the shoulder if no sign forbids it."
+                },
+                "terms": [
+                  {
+                    "es": "arcén",
+                    "en": "shoulder"
+                  },
+                  {
+                    "es": "autovía",
+                    "en": "divided highway"
+                  }
+                ],
+                "src": "RGC art. 38.1"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Está prohibido circular con **vehículos de movilidad personal** (VMP) por autopistas, autovías y travesías. También está prohibido por vías interurbanas y túneles urbanos. Hay excepciones, si ninguna señal lo prohíbe: vías ciclistas, carriles bici, carriles bici protegidos, pistas bici, sendas ciclables y vías cerradas a los vehículos de motor.",
+                "en": "It is forbidden to use **personal mobility vehicles** (VMP) on autopistas, autovías and travesías. It is also forbidden on intercity roads and urban tunnels. There are exceptions, if no sign forbids it: cycle ways, carril-bici, carril-bici protegido, pista-bici, sendas ciclables and roads closed to motor vehicles."
+              },
+              "src": "RGC art. 38.4"
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "«VMP» es la sigla de vehículo de movilidad personal. En la calle, casi todo el mundo los llama patinetes eléctricos.",
+                "en": "“VMP” stands for personal mobility vehicle. On the street, most people call them e-scooters."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-t1d",
+                "answer": 1,
+                "es": {
+                  "q": "Un vehículo de movilidad personal (VMP) quiere cruzar un pueblo por una travesía. ¿Puede?",
+                  "options": [
+                    "Sí, si va por el arcén de la derecha",
+                    "No: los VMP no pueden ir por travesías",
+                    "Sí, si circula despacio y con cuidado"
+                  ],
+                  "why": "La norma prohíbe circular con VMP por travesías. También lo prohíbe en autopistas y autovías."
+                },
+                "en": {
+                  "q": "A personal mobility vehicle (VMP) wants to cross a village on a travesía. May it?",
+                  "options": [
+                    "Yes, if it rides on the right shoulder",
+                    "No: VMPs may not use travesías",
+                    "Yes, if it goes slowly and carefully"
+                  ],
+                  "why": "The rule forbids VMPs on travesías. It also forbids them on autopistas and autovías."
+                },
+                "terms": [
+                  {
+                    "es": "VMP",
+                    "en": "personal mobility vehicle"
+                  },
+                  {
+                    "es": "travesía",
+                    "en": "road section through a town"
+                  }
+                ],
+                "src": "RGC art. 38.4"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Vías para ciclos",
+            "en": "Cycle ways"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Una **vía ciclista** es una vía hecha para el tráfico de ciclos, con señales horizontales y verticales y un ancho que permite pasar con seguridad. Otros vehículos solo pueden usarla si la autoridad de tráfico lo autoriza y lo indica con señales.",
+                "en": "A **cycle way** (vía ciclista) is a road made for cycle traffic, with road markings and signs and a width that allows safe passage. Other vehicles may use it only if the traffic authority allows it and signs say so."
+              },
+              "src": "LSV anexo I, punto 74"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "La ley define cinco tipos de vía para ciclos:",
+                "en": "The law defines five kinds of way for cycles:"
+              }
+            },
+            {
+              "t": "list",
+              "items": [
+                {
+                  "es": "**Carril-bici**: vía ciclista pegada a la calzada, de un sentido o de dos.",
+                  "en": "**Carril-bici**: a cycle way next to the roadway, one-way or two-way."
+                },
+                {
+                  "es": "**Carril-bici protegido**: carril-bici con elementos laterales que lo separan de la calzada y de la acera.",
+                  "en": "**Carril-bici protegido**: a carril-bici with side barriers that separate it from the roadway and the sidewalk."
+                },
+                {
+                  "es": "**Acera-bici**: vía ciclista señalizada sobre la acera.",
+                  "en": "**Acera-bici**: a cycle way marked on the sidewalk."
+                },
+                {
+                  "es": "**Pista-bici**: vía ciclista separada del tráfico motorizado, con un trazado independiente de las carreteras.",
+                  "en": "**Pista-bici**: a cycle way separated from motor traffic, on its own route apart from roads."
+                },
+                {
+                  "es": "**Senda ciclable**: vía para peatones y ciclos, separada del tráfico motorizado, por espacios abiertos, parques, jardines o bosques.",
+                  "en": "**Senda ciclable**: a path for pedestrians and cycles, separated from motor traffic, through open spaces, parks, gardens or woods."
+                }
+              ]
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-t1e",
+                "answer": 0,
+                "es": {
+                  "q": "¿Qué es un carril-bici protegido?",
+                  "options": [
+                    "Un carril-bici con elementos laterales que lo separan",
+                    "Un carril-bici señalizado sobre la acera",
+                    "Una vía ciclista de trazado independiente de las carreteras"
+                  ],
+                  "why": "El carril-bici protegido lleva elementos laterales que lo separan físicamente de la calzada y de la acera. Sobre la acera hablamos de una acera-bici; con trazado independiente, de una pista-bici."
+                },
+                "en": {
+                  "q": "What is a carril-bici protegido?",
+                  "options": [
+                    "A cycle lane with side barriers that separate it",
+                    "A cycle lane marked on the sidewalk",
+                    "A cycle way on its own route apart from roads"
+                  ],
+                  "why": "A carril-bici protegido has side barriers that physically separate it from the roadway and the sidewalk. On the sidewalk it is an acera-bici; on its own route, a pista-bici."
+                },
+                "terms": [
+                  {
+                    "es": "carril-bici",
+                    "en": "cycle lane"
+                  },
+                  {
+                    "es": "acera",
+                    "en": "sidewalk"
+                  }
+                ],
+                "src": "LSV anexo I, puntos 75 a 78"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "La **vía urbana** está dentro de poblado y la **carretera** fuera. La **travesía** es el tramo de carretera que cruza un poblado.",
+          "en": "An **urban road** is inside a town and a **carretera** outside. A **travesía** is the section of a carretera that crosses a town."
+        },
+        {
+          "es": "**Autopista** y **autovía** tienen calzadas separadas y ningún cruce a nivel. En la autopista las propiedades vecinas no tienen acceso; en la autovía, acceso limitado.",
+          "en": "**Autopista** and **autovía** have separate carriageways and no same-level crossings. On an autopista neighbors have no access; on an autovía, limited access."
+        },
+        {
+          "es": "En autopistas y autovías no entran bicicletas, ciclomotores, vehículos de tracción animal ni vehículos para personas de movilidad reducida.",
+          "en": "Bicycles, mopeds, animal-drawn vehicles and vehicles for people with reduced mobility may not enter autopistas or autovías."
+        },
+        {
+          "es": "Excepción: ciclistas **mayores de 14 años** por el arcén de la autovía, si ninguna señal lo prohíbe.",
+          "en": "Exception: cyclists **over 14** on the shoulder of an autovía, if no sign forbids it."
+        },
+        {
+          "es": "Los **VMP** no pueden ir por autopistas, autovías ni travesías.",
+          "en": "**VMPs** may not use autopistas, autovías or travesías."
+        }
+      ],
+      "src": [
+        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), anexo I, puntos 65 a 79",
+        "Reglamento General de Circulación (RD 1428/2003), art. 38 (redacción vigente desde 2026-10-01)"
+      ]
+    },
+    {
+      "id": "parts",
+      "title": {
+        "es": "Las partes de la vía",
+        "en": "The parts of a road"
+      },
+      "minutes": 6,
+      "goals": [
+        {
+          "es": "Nombrar la calzada, el carril, el arcén y la plataforma.",
+          "en": "Name the carriageway, the lane, the shoulder and the roadbed."
+        },
+        {
+          "es": "Saber qué calzada usas en una vía dividida por una mediana.",
+          "en": "Know which carriageway you use on a road divided by a median."
+        },
+        {
+          "es": "Reconocer refugios, aceras y zonas peatonales, y quién manda en ellas.",
+          "en": "Recognize refuges, sidewalks and pedestrian zones, and who comes first in them."
+        }
+      ],
+      "terms": [
+        {
+          "es": "calzada",
+          "en": "carriageway, roadway"
+        },
+        {
+          "es": "carril",
+          "en": "lane"
+        },
+        {
+          "es": "arcén",
+          "en": "shoulder"
+        },
+        {
+          "es": "plataforma",
+          "en": "roadbed (carriageway plus shoulders)"
+        },
+        {
+          "es": "mediana",
+          "en": "median"
+        },
+        {
+          "es": "acera",
+          "en": "sidewalk"
+        },
+        {
+          "es": "isleta",
+          "en": "traffic island"
+        },
+        {
+          "es": "refugio",
+          "en": "pedestrian refuge"
+        }
+      ],
+      "pretest": {
+        "id": "road-pre-2",
+        "answer": 2,
+        "es": {
+          "q": "En una autovía, ¿qué separa las dos calzadas?",
+          "options": [
+            "Un carril de adelantamiento",
+            "Una línea blanca continua",
+            "Una franja de terreno que no se usa para circular"
+          ],
+          "why": "Las calzadas de una autovía se separan con una franja de terreno que no se usa para circular, o con otros medios. La ley habla de medianas, separadores o dispositivos parecidos."
+        },
+        "en": {
+          "q": "On an autovía, what separates the two carriageways?",
+          "options": [
+            "A passing lane",
+            "A solid white line",
+            "A strip of land not used for driving"
+          ],
+          "why": "The carriageways of an autovía are separated by a strip of land not used for driving, or by other means. The law speaks of medians, dividers and similar devices."
+        },
+        "src": "LSV anexo I, punto 67; RGC art. 44.1"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Calzada y carril",
+            "en": "Carriageway and lane"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "La **calzada** es la parte de la carretera dedicada a la circulación de vehículos. Se compone de un cierto número de carriles.",
+                "en": "The **calzada** is the part of the road used for vehicle traffic. It is made up of a number of lanes."
+              },
+              "src": "LSV anexo I, punto 55"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Un **carril** es una banda longitudinal de la calzada, con líneas o sin ellas, con ancho suficiente para una fila de automóviles que no sean motocicletas.",
+                "en": "A **carril** is a longitudinal strip of the calzada, with or without lines, wide enough for one row of automobiles other than motorcycles."
+              },
+              "src": "LSV anexo I, punto 56"
+            },
+            {
+              "t": "figure",
+              "file": "road-parts",
+              "alt": {
+                "es": "Vista desde arriba de una carretera con dos carriles y un arcén a cada lado. Un coche naranja circula en un sentido y uno azul en el otro. A la derecha, dos llaves marcan la calzada y la plataforma.",
+                "en": "Top-down view of a road with two lanes and a shoulder on each side. An orange car travels one way and a blue car the other. On the right, two brackets mark the carriageway and the roadbed."
+              },
+              "caption": {
+                "es": "La calzada son los carriles. A los lados quedan los arcenes.",
+                "en": "The calzada is the lanes. The shoulders lie to the sides."
+              },
+              "legend": [
+                {
+                  "mark": "1",
+                  "text": {
+                    "es": "Calzada: los dos carriles juntos.",
+                    "en": "Carriageway: the two lanes together."
+                  }
+                },
+                {
+                  "mark": "2",
+                  "text": {
+                    "es": "Carril.",
+                    "en": "Lane."
+                  }
+                },
+                {
+                  "mark": "3",
+                  "text": {
+                    "es": "Arcén.",
+                    "en": "Shoulder."
+                  }
+                },
+                {
+                  "mark": "4",
+                  "text": {
+                    "es": "Plataforma: calzada más arcenes.",
+                    "en": "Roadbed: carriageway plus shoulders."
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Arcén y plataforma",
+            "en": "Shoulder and roadbed"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "El **arcén** es una franja afirmada junto a la calzada. No está destinado a los automóviles, salvo en circunstancias excepcionales.",
+                "en": "The **arcén** is a hard-surfaced strip next to the calzada. It is not meant for automobiles, except in exceptional circumstances."
+              },
+              "src": "LSV anexo I, punto 61"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "La **plataforma** es la zona de la carretera dedicada a los vehículos. La forman la calzada y los arcenes.",
+                "en": "The **plataforma** is the part of the road used by vehicles. It is formed by the calzada and the shoulders."
+              },
+              "src": "LSV anexo I, punto 54"
+            },
+            {
+              "t": "figure",
+              "file": "road-parts",
+              "alt": {
+                "es": "Vista desde arriba de una carretera con dos carriles y un arcén a cada lado. Un coche naranja circula en un sentido y uno azul en el otro. A la derecha, dos llaves marcan la calzada y la plataforma.",
+                "en": "Top-down view of a road with two lanes and a shoulder on each side. An orange car travels one way and a blue car the other. On the right, two brackets mark the carriageway and the roadbed."
+              },
+              "caption": {
+                "es": "La plataforma abarca la calzada y los dos arcenes.",
+                "en": "The roadbed covers the carriageway and both shoulders."
+              },
+              "legend": [
+                {
+                  "mark": "1",
+                  "text": {
+                    "es": "Calzada: los dos carriles juntos.",
+                    "en": "Carriageway: the two lanes together."
+                  }
+                },
+                {
+                  "mark": "2",
+                  "text": {
+                    "es": "Carril.",
+                    "en": "Lane."
+                  }
+                },
+                {
+                  "mark": "3",
+                  "text": {
+                    "es": "Arcén.",
+                    "en": "Shoulder."
+                  }
+                },
+                {
+                  "mark": "4",
+                  "text": {
+                    "es": "Plataforma: calzada más arcenes.",
+                    "en": "Roadbed: carriageway plus shoulders."
+                  }
+                }
+              ]
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-p2a",
+                "answer": 2,
+                "es": {
+                  "q": "¿Cómo se llama la zona de la carretera formada por la calzada y los arcenes?",
+                  "options": [
+                    "Mediana",
+                    "Zona peatonal",
+                    "Plataforma"
+                  ],
+                  "why": "La plataforma es la zona de la carretera dedicada a los vehículos: la calzada más los arcenes. La mediana y la zona peatonal son otras cosas."
+                },
+                "en": {
+                  "q": "What is the part of the road formed by the carriageway and the shoulders called?",
+                  "options": [
+                    "Median",
+                    "Pedestrian zone",
+                    "Plataforma"
+                  ],
+                  "why": "The plataforma is the part of the road used by vehicles: the carriageway plus the shoulders. The median and the pedestrian zone are different things."
+                },
+                "terms": [
+                  {
+                    "es": "plataforma",
+                    "en": "roadbed"
+                  },
+                  {
+                    "es": "arcén",
+                    "en": "shoulder"
+                  }
+                ],
+                "src": "LSV anexo I, punto 54"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Dos calzadas y una mediana",
+            "en": "Two carriageways and a median"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "En autopistas y autovías cada sentido tiene su propia calzada. Entre las dos suele haber una franja de terreno que no se usa para circular: la **mediana**. A veces las separan otros medios. El reglamento habla de «medianas, separadores o dispositivos análogos».",
+                "en": "On autopistas and autovías each direction has its own carriageway. Between them there is usually a strip of land not used for driving: the **mediana**. Sometimes other means separate them. The regulation speaks of “medians, separators or similar devices”."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "En las vías divididas en dos calzadas por medianas, separadores o dispositivos análogos, los vehículos deben usar **la calzada de la derecha** según su sentido de marcha.",
+                "en": "On roads divided into two carriageways by medians, separators or similar devices, vehicles must use **the carriageway on the right** in their direction of travel."
+              },
+              "src": "RGC art. 44.1"
+            },
+            {
+              "t": "figure",
+              "file": "road-divided",
+              "alt": {
+                "es": "Vista desde arriba de una vía con dos calzadas de dos carriles separadas por una mediana verde. Un coche azul circula por la calzada inferior, a la derecha de su sentido. Tres llaves marcan la calzada del conductor, la mediana y la calzada del otro sentido.",
+                "en": "Top-down view of a road with two carriageways of two lanes, separated by a green median. A blue car drives on the lower carriageway, on the right of its direction. Three brackets mark the driver’s carriageway, the median and the other direction’s carriageway."
+              },
+              "caption": {
+                "es": "Tu calzada es la que queda a tu derecha, sin cruzar la mediana.",
+                "en": "Your carriageway is the one on your right, with no crossing of the median."
+              },
+              "legend": [
+                {
+                  "mark": "1",
+                  "text": {
+                    "es": "Tu calzada, a tu derecha.",
+                    "en": "Your carriageway, on your right."
+                  }
+                },
+                {
+                  "mark": "2",
+                  "text": {
+                    "es": "Mediana.",
+                    "en": "Median."
+                  }
+                },
+                {
+                  "mark": "3",
+                  "text": {
+                    "es": "Calzada del otro sentido.",
+                    "en": "Carriageway for the other direction."
+                  }
+                },
+                {
+                  "mark": "4",
+                  "text": {
+                    "es": "Arcén.",
+                    "en": "Shoulder."
+                  }
+                }
+              ]
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "p-25"
+              ],
+              "caption": {
+                "es": "P-25 avisa de que se acerca un tramo con circulación en los dos sentidos.",
+                "en": "P-25 warns that a section with traffic in both directions is coming."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-p2b",
+                "answer": 1,
+                "es": {
+                  "q": "Circulas por una vía dividida en dos calzadas por una mediana. ¿Qué calzada debes usar?",
+                  "options": [
+                    "La más cercana a la mediana",
+                    "La de la derecha según tu sentido de marcha",
+                    "Cualquiera de las dos si hay poco tráfico"
+                  ],
+                  "why": "En las vías con dos calzadas separadas por una mediana se usa la calzada de la derecha, según el sentido de marcha."
+                },
+                "en": {
+                  "q": "You drive on a road divided into two carriageways by a median. Which carriageway must you use?",
+                  "options": [
+                    "The one nearest the median",
+                    "The one on your right in your direction",
+                    "Either one if traffic is light"
+                  ],
+                  "why": "On roads with two carriageways separated by a median you use the carriageway on the right in your direction of travel."
+                },
+                "terms": [
+                  {
+                    "es": "mediana",
+                    "en": "median"
+                  },
+                  {
+                    "es": "calzada",
+                    "en": "carriageway"
+                  }
+                ],
+                "src": "RGC art. 44.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Isletas y refugios",
+            "en": "Islands and refuges"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Un **refugio** es una zona peatonal situada en la calzada y protegida del tránsito rodado.",
+                "en": "A **refugio** is a pedestrian zone located in the roadway and protected from traffic."
+              },
+              "src": "LSV anexo I, punto 60"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si en la vía hay refugios, isletas o dispositivos de guía, circulas por la parte de la calzada que queda **a la derecha** de ellos. Si están en una vía de un solo sentido, o dentro de la parte de un solo sentido, puedes pasar por cualquier lado.",
+                "en": "If the road has refuges, traffic islands or guide devices, you drive on the part of the roadway that lies **to the right** of them. If they are in a one-way road, or inside the one-way part of a road, you may pass on either side."
+              },
+              "src": "RGC art. 43.1"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-p2c",
+                "answer": 0,
+                "es": {
+                  "q": "En una vía de doble sentido hay una isleta en medio de la calzada. ¿Por qué lado la pasas?",
+                  "options": [
+                    "Por su derecha, según tu sentido de marcha",
+                    "Por su izquierda, para dejar libre el arcén",
+                    "Por el lado que tenga más espacio"
+                  ],
+                  "why": "Cuando hay refugios, isletas o dispositivos de guía se circula por la parte de la calzada que queda a su derecha. Solo en una vía de un sentido, o dentro de la parte de un solo sentido, puedes elegir lado."
+                },
+                "en": {
+                  "q": "On a two-way road there is a traffic island in the middle of the roadway. Which side do you pass it on?",
+                  "options": [
+                    "On its right, in your direction of travel",
+                    "On its left, to keep the shoulder clear",
+                    "On whichever side has more room"
+                  ],
+                  "why": "When there are refuges, islands or guide devices you drive on the part of the roadway to their right. Only on a one-way road, or inside the one-way part of a road, may you choose a side."
+                },
+                "terms": [
+                  {
+                    "es": "isleta",
+                    "en": "traffic island"
+                  },
+                  {
+                    "es": "refugio",
+                    "en": "pedestrian refuge"
+                  }
+                ],
+                "src": "RGC art. 43.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Aceras y zonas peatonales",
+            "en": "Sidewalks and pedestrian zones"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "La **acera** es una zona longitudinal de la carretera, elevada o no, destinada al tránsito de peatones. La **zona peatonal** es la parte de la calle reservada al tránsito y la estancia prioritarios de los peatones. Incluye aceras, plazas, paseos y zonas parecidas.",
+                "en": "The **acera** is a longitudinal part of the road, raised or not, meant for pedestrian traffic. A **pedestrian zone** is the part of a street reserved for the priority movement and presence of pedestrians. It includes sidewalks, squares, promenades and similar areas."
+              },
+              "src": "LSV anexo I, puntos 58 y 59"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "En una **zona con plataforma única de calzada y acera**, el peatón tiene prioridad de paso en cualquier punto de la calzada. Allí hay muy poca señalización.",
+                "en": "In a **zone with a single platform for roadway and sidewalk**, the pedestrian has right of way at any point of the roadway. There are very few signs or markings there."
+              },
+              "src": "LSV anexo I, punto 83"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-p2d",
+                "answer": 2,
+                "es": {
+                  "q": "Circulas por una zona con plataforma única de calzada y acera. ¿Quién tiene prioridad de paso en cualquier punto de la calzada?",
+                  "options": [
+                    "Los vehículos que circulan",
+                    "Quien llegue antes al punto",
+                    "El peatón"
+                  ],
+                  "why": "En una zona con plataforma única de calzada y acera, el peatón tiene prioridad de paso en cualquier punto de la calzada. Conduce con precaución."
+                },
+                "en": {
+                  "q": "You drive through a zone where roadway and sidewalk share a single platform. Who has right of way at any point of the roadway?",
+                  "options": [
+                    "The vehicles driving through",
+                    "Whoever reaches the spot first",
+                    "The pedestrian"
+                  ],
+                  "why": "In a zone with a single platform for roadway and sidewalk, the pedestrian has right of way at any point of the roadway. Drive with care."
+                },
+                "terms": [
+                  {
+                    "es": "plataforma única",
+                    "en": "single platform"
+                  },
+                  {
+                    "es": "prioridad de paso",
+                    "en": "right of way"
+                  }
+                ],
+                "src": "LSV anexo I, punto 83"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "La **calzada** es la parte para los vehículos y se divide en **carriles**.",
+          "en": "The **calzada** is the part for vehicles and it is divided into **lanes**."
+        },
+        {
+          "es": "El **arcén** es una franja junto a la calzada que no es para automóviles, salvo circunstancias excepcionales. Calzada más arcenes forman la **plataforma**.",
+          "en": "The **arcén** is a strip beside the calzada that is not for automobiles, except in exceptional circumstances. Calzada plus shoulders make the **plataforma**."
+        },
+        {
+          "es": "En una vía con dos calzadas separadas por una **mediana**, usas la calzada de tu derecha.",
+          "en": "On a road with two carriageways split by a **median**, you use the carriageway on your right."
+        },
+        {
+          "es": "Con refugios o isletas, pasas por su **derecha**, salvo en vías de un solo sentido.",
+          "en": "With refuges or islands, you pass on their **right**, except on one-way roads."
+        },
+        {
+          "es": "En una zona con **plataforma única**, el peatón tiene prioridad en cualquier punto de la calzada.",
+          "en": "In a zone with a **single platform**, the pedestrian has right of way at any point of the roadway."
+        }
+      ],
+      "src": [
+        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), anexo I, puntos 54 a 56, 58 a 61, 67 y 83",
+        "Reglamento General de Circulación (RD 1428/2003), arts. 43.1 y 44.1",
+        "Reglamento General de Circulación, Anexo I, ap. 5.1 (señal P-25, Catálogo de señales)"
+      ]
+    },
+    {
+      "id": "which-lane",
+      "title": {
+        "es": "¿Por qué carril voy?",
+        "en": "Which lane do I use?"
+      },
+      "minutes": 7,
+      "goals": [
+        {
+          "es": "Circular por la derecha y saber qué carril usar con dos o tres carriles en doble sentido.",
+          "en": "Keep right and know which lane to use with two or three lanes on a two-way road."
+        },
+        {
+          "es": "Elegir carril cuando hay varios para tu sentido, fuera y dentro de poblado.",
+          "en": "Choose a lane when there are several for your direction, outside and inside a town."
+        },
+        {
+          "es": "Saber cómo se forma el carril de emergencia en una retención.",
+          "en": "Know how the emergency lane forms in a traffic jam."
+        }
+      ],
+      "terms": [
+        {
+          "es": "la derecha",
+          "en": "the right"
+        },
+        {
+          "es": "adelantar",
+          "en": "to overtake"
+        },
+        {
+          "es": "cambiar de dirección",
+          "en": "to turn"
+        },
+        {
+          "es": "retención",
+          "en": "traffic jam, tailback"
+        },
+        {
+          "es": "a paso de peatón",
+          "en": "at walking pace"
+        },
+        {
+          "es": "vehículo prioritario",
+          "en": "priority vehicle"
+        },
+        {
+          "es": "masa máxima autorizada (MMA)",
+          "en": "maximum authorized mass"
+        }
+      ],
+      "pretest": {
+        "id": "road-pre-3",
+        "answer": 1,
+        "es": {
+          "q": "Una calle de poblado tiene dos carriles marcados en tu sentido. ¿Puedes elegir cualquiera de los dos?",
+          "options": [
+            "No: debes ir siempre por el de la derecha",
+            "Sí: usas el que mejor convenga a tu destino",
+            "No: debes ir por el de la izquierda para no estorbar"
+          ],
+          "why": "En poblado, con al menos dos carriles marcados para tu sentido, puedes usar el que mejor convenga a tu destino, siempre que no estorbes a los demás."
+        },
+        "en": {
+          "q": "A town street has two marked lanes in your direction. May you choose either one?",
+          "options": [
+            "No: you must always use the right-hand one",
+            "Yes: you use the one that best suits your destination",
+            "No: you must use the left-hand one so you do not get in the way"
+          ],
+          "why": "In a town, with at least two marked lanes for your direction, you may use the one that best suits your destination, as long as you do not obstruct others."
+        },
+        "src": "RGC art. 33"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Siempre por la derecha",
+            "en": "Always on the right"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Como norma general, los vehículos circulan por la **derecha** y lo más cerca posible del borde de la calzada. Dejan separación lateral suficiente para cruzarse con seguridad.",
+                "en": "As a general rule, vehicles drive on the **right**, as close as possible to the edge of the roadway. They leave enough side clearance to pass each other safely."
+              },
+              "src": "RGC art. 29.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "En curvas y cambios de rasante de poca visibilidad, aunque no haya líneas, debes dejar **completamente libre la mitad de la calzada** del sentido contrario. Rebasar un vehículo inmovilizado tiene sus propias reglas.",
+                "en": "On bends and hill crests with poor visibility, even without markings, you must leave **the opposite half of the roadway completely free**. Passing a stopped vehicle has its own rules."
+              },
+              "src": "RGC arts. 29.1 y 88"
+            },
+            {
+              "t": "us",
+              "text": {
+                "es": "Es la misma mano que en EE. UU.: se conduce por la derecha.",
+                "en": "It is the same side as in the US: you drive on the right."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-w3a",
+                "answer": 0,
+                "es": {
+                  "q": "Circulas por una carretera de doble sentido, sin líneas, y llegas a una curva con poca visibilidad. ¿Qué parte de la calzada debes dejar libre?",
+                  "options": [
+                    "La mitad del sentido contrario, completa",
+                    "Solo el arcén de la izquierda",
+                    "Ninguna: ocupas el centro para ver mejor"
+                  ],
+                  "why": "En curvas y cambios de rasante de poca visibilidad debes dejar completamente libre la mitad de la calzada del sentido contrario, aunque no haya líneas."
+                },
+                "en": {
+                  "q": "You drive on a two-way road with no markings and reach a bend with poor visibility. Which part of the roadway must you leave free?",
+                  "options": [
+                    "The whole opposite half",
+                    "Only the left shoulder",
+                    "None: you take the center to see better"
+                  ],
+                  "why": "On bends and hill crests with poor visibility you must leave the opposite half of the roadway completely free, even with no markings."
+                },
+                "terms": [
+                  {
+                    "es": "curva",
+                    "en": "bend"
+                  },
+                  {
+                    "es": "cambio de rasante",
+                    "en": "hill crest, change of grade"
+                  }
+                ],
+                "src": "RGC art. 29.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Dos o tres carriles en doble sentido",
+            "en": "Two or three lanes on a two-way road"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "En una calzada de doble sentido con **dos carriles**, separados o no por marcas, circulas por el de tu derecha.",
+                "en": "On a two-way roadway with **two lanes**, marked or not, you drive in the lane on your right."
+              },
+              "src": "RGC art. 30.1.a"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Con **tres carriles** separados por líneas discontinuas, circulas también por el de tu derecha y nunca por el de tu izquierda. El carril central solo se usa para los adelantamientos precisos y para cambiar de dirección a la izquierda.",
+                "en": "With **three lanes** divided by dashed lines, you also drive in the lane on your right and never in the one on your left. The center lane is used only for the overtaking you need and for turning left."
+              },
+              "src": "RGC art. 30.1.b"
+            },
+            {
+              "t": "figure",
+              "file": "road-three-lanes",
+              "alt": {
+                "es": "Vista desde arriba de una carretera de tres carriles con líneas discontinuas. Un coche azul va por el carril de la derecha detrás de un camión naranja. Una flecha amarilla muestra que sale al carril central para adelantar y vuelve a la derecha. Un coche naranja viene de frente por el carril de la izquierda.",
+                "en": "Top-down view of a three-lane road with dashed lines. A blue car follows an orange truck in the right-hand lane. A yellow arrow shows it moving to the center lane to overtake and back to the right. An orange car comes the other way in the left-hand lane."
+              },
+              "caption": {
+                "es": "Tu carril es el de la derecha. El central es solo para adelantar o girar a la izquierda.",
+                "en": "Your lane is the right-hand one. The center one is only for overtaking or turning left."
+              },
+              "legend": [
+                {
+                  "mark": "1",
+                  "text": {
+                    "es": "Tu carril, a la derecha.",
+                    "en": "Your lane, on the right."
+                  }
+                },
+                {
+                  "mark": "2",
+                  "text": {
+                    "es": "Carril central: solo para adelantar y girar a la izquierda.",
+                    "en": "Center lane: only for overtaking and turning left."
+                  }
+                },
+                {
+                  "mark": "3",
+                  "text": {
+                    "es": "Carril de la izquierda: nunca es tuyo.",
+                    "en": "Left-hand lane: never yours."
+                  }
+                }
+              ]
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Para recordarlo: el carril de tu izquierda es el carril de la derecha de quienes vienen de frente.",
+                "en": "To remember it: the lane on your left is the right-hand lane of the drivers coming toward you."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-w3b",
+                "answer": 2,
+                "es": {
+                  "q": "En una carretera de doble sentido con tres carriles separados por líneas discontinuas, el carril central se usa:",
+                  "options": [
+                    "Para circular normalmente si hay poco tráfico",
+                    "Para ir más rápido que los demás",
+                    "Para adelantar y para cambiar de dirección a la izquierda"
+                  ],
+                  "why": "Con tres carriles y líneas discontinuas, circulas por el de tu derecha. El carril central es solo para los adelantamientos precisos y para girar a la izquierda."
+                },
+                "en": {
+                  "q": "On a two-way road with three lanes separated by dashed lines, the center lane is used:",
+                  "options": [
+                    "For normal driving when traffic is light",
+                    "To go faster than other drivers",
+                    "To overtake and to turn left"
+                  ],
+                  "why": "With three lanes and dashed lines, you drive in the lane on your right. The center lane is only for the overtaking you need and for turning left."
+                },
+                "terms": [
+                  {
+                    "es": "carril central",
+                    "en": "center lane"
+                  },
+                  {
+                    "es": "línea discontinua",
+                    "en": "dashed line"
+                  }
+                ],
+                "src": "RGC art. 30.1.b"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Varios carriles en tu sentido, fuera de poblado",
+            "en": "Several lanes in your direction, outside a town"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Fuera de poblado, si tu calzada tiene más de un carril para tu sentido, circulas **normalmente** por el de la derecha. Puedes usar los otros cuando el tráfico o la vía lo aconsejen, si no entorpeces a otro vehículo que te siga.",
+                "en": "Outside a town, if your roadway has more than one lane for your direction, you **normally** drive in the right-hand lane. You may use the others when traffic or the road makes it advisable, if you do not obstruct a vehicle following you."
+              },
+              "src": "RGC art. 31.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Fuera de poblado, con tres o más carriles en tu sentido, los camiones y furgones de más de 3.500 kg de MMA, los vehículos especiales que no deban ir por el arcén y los conjuntos de vehículos de más de 7 metros circulan normalmente por el carril de la derecha. Pueden usar el contiguo en las mismas condiciones.",
+                "en": "Outside a town, with three or more lanes in your direction, trucks and vans over 3,500 kg MMA, special vehicles not required to use the shoulder, and vehicle combinations over 7 meters long normally drive in the right-hand lane. They may use the next one under the same conditions."
+              },
+              "src": "RGC art. 31.2"
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Tras adelantar, vuelve al carril de la derecha en cuanto puedas hacerlo sin molestar a nadie.",
+                "en": "After overtaking, return to the right-hand lane as soon as you can do so without bothering anyone."
+              }
+            },
+            {
+              "t": "us",
+              "text": {
+                "es": "En EE. UU. la regla de circular por la derecha salvo para adelantar depende del estado. En España la norma general es la misma en todo el país.",
+                "en": "In the US the keep-right rule depends on the state. In Spain the general rule is the same across the country."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-w3c",
+                "answer": 1,
+                "es": {
+                  "q": "Un camión de más de 3.500 kg circula fuera de poblado por una calzada con tres carriles en su sentido. ¿Qué carriles usa normalmente?",
+                  "options": [
+                    "Cualquiera de los tres, como un turismo",
+                    "El de la derecha y, si procede, el contiguo",
+                    "Solo el de la derecha, sin excepciones"
+                  ],
+                  "why": "Con tres o más carriles, estos vehículos circulan normalmente por el de la derecha. Pueden usar el contiguo si el tráfico o la vía lo aconsejan y no entorpecen a otro que les siga."
+                },
+                "en": {
+                  "q": "A truck over 3,500 kg drives outside a town on a roadway with three lanes in its direction. Which lanes does it normally use?",
+                  "options": [
+                    "Any of the three, like a car",
+                    "The right-hand one and, if needed, the next",
+                    "Only the right-hand one, no exceptions"
+                  ],
+                  "why": "With three or more lanes, these vehicles normally use the right-hand lane. They may use the next one if traffic or the road advises it and they do not obstruct a following vehicle."
+                },
+                "terms": [
+                  {
+                    "es": "carril contiguo",
+                    "en": "next lane over"
+                  },
+                  {
+                    "es": "entorpecer",
+                    "en": "to obstruct"
+                  }
+                ],
+                "src": "RGC art. 31.2"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "En poblado",
+            "en": "Inside a town"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "En poblado, con al menos dos carriles marcados para tu sentido (salvo en autopistas y autovías), puedes usar el que **mejor convenga a tu destino**, si no estorbas a los demás. Solo lo abandonas para prepararte a cambiar de dirección, adelantar, parar o estacionar.",
+                "en": "In a town, with at least two marked lanes for your direction (except on autopistas and autovías), you may use the one that **best suits your destination**, if you do not obstruct others. You leave it only to get ready to turn, overtake, stop or park."
+              },
+              "src": "RGC art. 33"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Para contar los carriles de estas reglas no se cuentan los reservados a determinados vehículos o a ciertas maniobras.",
+                "en": "When you count lanes for these rules, lanes reserved for certain vehicles or maneuvers are not counted."
+              },
+              "src": "RGC art. 34"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-w3d",
+                "answer": 2,
+                "es": {
+                  "q": "Circulas por un carril de una calle de poblado con dos carriles marcados en tu sentido. ¿Cuándo puedes abandonarlo?",
+                  "options": [
+                    "Cuando el otro carril avanza más rápido que el tuyo",
+                    "Siempre que pongas el intermitente antes de moverte",
+                    "Para prepararte a girar, adelantar, parar o estacionar"
+                  ],
+                  "why": "En poblado puedes elegir el carril que convenga a tu destino, pero solo lo abandonas para cambiar de dirección, adelantar, parar o estacionar."
+                },
+                "en": {
+                  "q": "You drive in one lane of a town street with two marked lanes in your direction. When may you leave it?",
+                  "options": [
+                    "When the other lane moves faster than yours",
+                    "Whenever you use your turn signal first",
+                    "To get ready to turn, overtake, stop or park"
+                  ],
+                  "why": "In a town you may choose the lane that suits your destination, but you leave it only to turn, overtake, stop or park."
+                },
+                "terms": [
+                  {
+                    "es": "estacionar",
+                    "en": "to park"
+                  },
+                  {
+                    "es": "abandonar el carril",
+                    "en": "to leave the lane"
+                  }
+                ],
+                "src": "RGC art. 33"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "El carril de emergencia en una retención",
+            "en": "The emergency lane in a traffic jam"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "En una autopista o autovía, una retención puede bloquear el paso de una ambulancia. Por eso la norma crea un pasillo.",
+                "en": "On an autopista or autovía, a traffic jam can block an ambulance. That is why the rule creates a corridor."
+              }
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "p-31"
+              ],
+              "caption": {
+                "es": "P-31 avisa de un tramo donde el tráfico suele detenerse o ir más lento por congestión.",
+                "en": "P-31 warns of a section where traffic often stops or slows because of congestion."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "En autopistas y autovías, cuando por una retención los vehículos van a **paso de peatón** o se detienen, deben orillarse para dejar un espacio libre. Ese espacio permite pasar a los vehículos prioritarios y se llama **carril de emergencia**.",
+                "en": "On autopistas and autovías, when a traffic jam makes vehicles move at **walking pace** or stop, they must pull aside to leave a free space. That space lets priority vehicles through and is called the **emergency lane**."
+              },
+              "src": "RGC art. 32.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Con **dos carriles** en tu sentido, el carril de emergencia se forma en el centro de la vía, entre esos dos carriles.",
+                "en": "With **two lanes** in your direction, the emergency lane forms in the middle of the road, between those two lanes."
+              },
+              "src": "RGC art. 32.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Con **tres o más carriles**, se forma entre el carril de la izquierda y el contiguo. Los vehículos del carril de la izquierda se mueven lo más a la izquierda posible. Los de los demás carriles, lo más a la derecha posible.",
+                "en": "With **three or more lanes**, it forms between the left-hand lane and the one next to it. Vehicles in the left-hand lane move as far left as possible. Those in all other lanes move as far right as possible."
+              },
+              "src": "RGC art. 32.1"
+            },
+            {
+              "t": "figure",
+              "file": "road-emergency-lane",
+              "alt": {
+                "es": "Vista desde arriba de una autovía con tres carriles retenidos. Los coches del carril de la izquierda se desplazan a la izquierda y los de los otros dos a la derecha. Entre ellos queda un pasillo verde por el que avanza un vehículo de emergencia rojo.",
+                "en": "Top-down view of an autovía with three jammed lanes. Cars in the left lane shift left and cars in the other two shift right. A green corridor opens between them and a red emergency vehicle drives through."
+              },
+              "caption": {
+                "es": "Los coches del carril de la izquierda se pegan a la izquierda. Los demás, a la derecha. El pasillo queda libre.",
+                "en": "Cars in the left lane move left. All the others move right. The corridor stays free."
+              },
+              "legend": [
+                {
+                  "mark": "E",
+                  "text": {
+                    "es": "Carril de emergencia: el pasillo libre.",
+                    "en": "Emergency lane: the free corridor."
+                  }
+                },
+                {
+                  "mark": "A",
+                  "text": {
+                    "es": "Vehículo de emergencia.",
+                    "en": "Emergency vehicle."
+                  }
+                },
+                {
+                  "mark": "B",
+                  "text": {
+                    "es": "Tú, en el carril de la izquierda.",
+                    "en": "You, in the left-hand lane."
+                  }
+                }
+              ]
+            },
+            {
+              "t": "example",
+              "situation": {
+                "es": "Circulas por el carril central de una autovía con tres carriles en tu sentido. Hay una retención y todos avanzan a paso de peatón. Oyes una sirena detrás.",
+                "en": "You drive in the middle lane of an autovía with three lanes in your direction. There is a traffic jam and everyone crawls at walking pace. You hear a siren behind you."
+              },
+              "action": {
+                "es": "Muévete lo más a la derecha posible dentro de la vía. El carril de la izquierda se mueve hacia el otro lado y deja el pasillo libre.",
+                "en": "Move as far right as possible. The left-hand lane moves the other way and leaves the corridor free."
+              },
+              "why": {
+                "es": "Con tres carriles, el carril de emergencia se forma entre el de la izquierda y el contiguo. Los vehículos de los demás carriles se mueven a la derecha (RGC art. 32.1).",
+                "en": "With three lanes, the emergency lane forms between the left-hand lane and the next one. Vehicles in the other lanes move right (RGC art. 32.1)."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-w3e",
+                "answer": 1,
+                "es": {
+                  "q": "Hay una retención en una autovía con tres carriles en tu sentido y circulas por el de la izquierda. ¿Qué haces para formar el carril de emergencia?",
+                  "options": [
+                    "Te mueves lo más a la derecha posible",
+                    "Te mueves lo más a la izquierda posible",
+                    "Te quedas en el centro de tu carril"
+                  ],
+                  "why": "Con tres o más carriles, el carril de emergencia se forma entre el de la izquierda y el contiguo. Quien va por el carril de la izquierda se mueve lo más a la izquierda posible."
+                },
+                "en": {
+                  "q": "There is a traffic jam on an autovía with three lanes in your direction and you are in the left-hand lane. What do you do to form the emergency lane?",
+                  "options": [
+                    "Move as far right as possible",
+                    "Move as far left as possible",
+                    "Stay in the center of your lane"
+                  ],
+                  "why": "With three or more lanes, the emergency lane forms between the left-hand lane and the next one. Drivers in the left-hand lane move as far left as possible."
+                },
+                "terms": [
+                  {
+                    "es": "carril de emergencia",
+                    "en": "emergency lane"
+                  },
+                  {
+                    "es": "orillarse",
+                    "en": "to pull aside"
+                  }
+                ],
+                "src": "RGC art. 32.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-w3f",
+                "answer": 0,
+                "es": {
+                  "q": "En una autovía con dos carriles por sentido, los coches avanzan a paso de peatón. ¿Dónde se forma el carril de emergencia?",
+                  "options": [
+                    "En el centro de la vía, entre los dos carriles",
+                    "En el arcén de la derecha de la calzada",
+                    "En el carril de la izquierda de la calzada"
+                  ],
+                  "why": "Con dos carriles en el mismo sentido, el carril de emergencia se forma en el centro de la vía, entre esos dos carriles. El arcén no es el pasillo."
+                },
+                "en": {
+                  "q": "On an autovía with two lanes per direction, cars crawl at walking pace. Where does the emergency lane form?",
+                  "options": [
+                    "In the middle of the road, between the lanes",
+                    "On the right shoulder of the roadway",
+                    "In the left-hand lane of the roadway"
+                  ],
+                  "why": "With two lanes in the same direction, the emergency lane forms in the middle of the road, between those two lanes. The shoulder is not the corridor."
+                },
+                "terms": [
+                  {
+                    "es": "paso de peatón",
+                    "en": "walking pace"
+                  },
+                  {
+                    "es": "vehículo prioritario",
+                    "en": "priority vehicle"
+                  }
+                ],
+                "src": "RGC art. 32.1"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "Circulas por la **derecha**, cerca del borde. En curvas con poca visibilidad dejas libre la mitad del sentido contrario.",
+          "en": "You drive on the **right**, near the edge. On bends with poor visibility you leave the opposite half free."
+        },
+        {
+          "es": "Con tres carriles en doble sentido, el tuyo es el de la derecha. El **central** es solo para adelantar y girar a la izquierda.",
+          "en": "With three lanes on a two-way road, yours is the right-hand one. The **center** one is only for overtaking and turning left."
+        },
+        {
+          "es": "Fuera de poblado, con varios carriles en tu sentido, vas **normalmente** por el de la derecha.",
+          "en": "Outside a town, with several lanes in your direction, you **normally** use the right-hand one."
+        },
+        {
+          "es": "En poblado, con dos o más carriles marcados, usas el que convenga a tu destino y solo lo dejas para girar, adelantar, parar o estacionar.",
+          "en": "In a town, with two or more marked lanes, you use the one that suits your destination and leave it only to turn, overtake, stop or park."
+        },
+        {
+          "es": "En una retención en autopista o autovía se forma el **carril de emergencia**: en el centro con dos carriles, entre el izquierdo y el contiguo con tres o más.",
+          "en": "In a jam on an autopista or autovía the **emergency lane** forms: in the middle with two lanes, between the left lane and the next with three or more."
+        }
+      ],
+      "src": [
+        "Reglamento General de Circulación (RD 1428/2003), arts. 29.1, 30.1, 31, 32.1, 33, 34 y 88 (redacción vigente desde 2026-10-01 en los arts. 31 y 32)",
+        "Reglamento General de Circulación, Anexo I, ap. 5.1 (señal P-31, Catálogo de señales)"
+      ]
+    },
+    {
+      "id": "special-lanes",
+      "title": {
+        "es": "Carriles especiales",
+        "en": "Special lanes"
+      },
+      "minutes": 7,
+      "goals": [
+        {
+          "es": "Saber que en los carriles reservados mandan las señales, y que no se puede parar en el del transporte público.",
+          "en": "Know that signs rule reserved lanes, and that you may not stop in a public-transport lane."
+        },
+        {
+          "es": "Reconocer el carril VAO y el carril reversible, y obedecer sus semáforos.",
+          "en": "Recognize the VAO lane and the reversible lane, and obey their signals."
+        },
+        {
+          "es": "Conocer las reglas de un carril usado en sentido contrario al habitual.",
+          "en": "Know the rules for a lane used in the opposite direction to normal."
+        }
+      ],
+      "terms": [
+        {
+          "es": "carril reservado",
+          "en": "reserved lane"
+        },
+        {
+          "es": "VAO (vehículo de alta ocupación)",
+          "en": "HOV (high-occupancy vehicle)"
+        },
+        {
+          "es": "carril reversible",
+          "en": "reversible lane"
+        },
+        {
+          "es": "semáforo de carril",
+          "en": "lane signal"
+        },
+        {
+          "es": "luz de cruce",
+          "en": "low beam"
+        },
+        {
+          "es": "sentido contrario al habitual",
+          "en": "opposite to the usual direction"
+        },
+        {
+          "es": "parada",
+          "en": "stop (under 2 minutes)"
+        }
+      ],
+      "pretest": {
+        "id": "road-pre-4",
+        "answer": 1,
+        "es": {
+          "q": "Un semáforo sobre tu carril muestra un aspa roja. ¿Qué haces?",
+          "options": [
+            "Te detienes en el carril",
+            "Lo abandonas lo antes posible",
+            "Sigues si no viene nadie"
+          ],
+          "why": "El aspa roja prohíbe ocupar el carril. Quienes circulan por él deben abandonarlo en el tiempo más breve posible."
+        },
+        "en": {
+          "q": "A signal above your lane shows a red cross. What do you do?",
+          "options": [
+            "Stop in the lane",
+            "Leave the lane as soon as possible",
+            "Keep going if nobody is coming"
+          ],
+          "why": "The red cross forbids occupying the lane. Drivers in it must leave it in the shortest possible time."
+        },
+        "src": "RGC anexo I, apartado 4.3"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Carriles reservados: mandan las señales",
+            "en": "Reserved lanes: the signs rule"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "El uso de los carriles reservados a determinados vehículos o a ciertas maniobras se ajusta a **lo que indiquen las señales** correspondientes.",
+                "en": "The use of lanes reserved for certain vehicles or maneuvers follows **what the corresponding signs say**."
+              },
+              "src": "RGC art. 35.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Una **parada** es la inmovilización de un vehículo durante menos de **dos minutos**, sin que el conductor pueda abandonarlo.",
+                "en": "A **stop** (parada) is when a vehicle is immobilized for less than **two minutes** with the driver not able to leave it."
+              },
+              "src": "LSV anexo I, punto 81"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Queda prohibido **parar** en los carriles reservados exclusivamente para la circulación o el servicio de determinados usuarios, en los de uso exclusivo del transporte público urbano y en los reservados para bicicletas.",
+                "en": "It is forbidden to **stop** in lanes reserved exclusively for the traffic or service of certain users, in lanes for the exclusive use of urban public transport, and in lanes reserved for bicycles."
+              },
+              "src": "RGC art. 94.1.c y h"
+            },
+            {
+              "t": "example",
+              "situation": {
+                "es": "Quieres dejar a un amigo en una calle con un carril exclusivo del transporte público urbano. Es una parada de medio minuto.",
+                "en": "You want to drop a friend off on a street with a lane for the exclusive use of urban public transport. It would be a half-minute stop."
+              },
+              "action": {
+                "es": "No pares en ese carril. Sigue y detente donde la parada esté permitida.",
+                "en": "Do not stop in that lane. Keep going and stop where stopping is allowed."
+              },
+              "why": {
+                "es": "Una parada breve sigue siendo parada, y parar en ese carril está prohibido (RGC art. 94.1.h).",
+                "en": "A short stop is still a stop, and stopping in that lane is forbidden (RGC art. 94.1.h)."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-s4a",
+                "answer": 2,
+                "es": {
+                  "q": "Quieres parar medio minuto en un carril de uso exclusivo del transporte público urbano. ¿Puedes?",
+                  "options": [
+                    "Sí, porque dura menos de dos minutos",
+                    "Sí, si pones las luces de emergencia",
+                    "No: está prohibido parar en ese carril"
+                  ],
+                  "why": "Queda prohibido parar en los carriles de uso exclusivo del transporte público urbano. Una parada breve (menos de dos minutos) sigue siendo una parada."
+                },
+                "en": {
+                  "q": "You want to stop for half a minute in a lane for the exclusive use of urban public transport. May you?",
+                  "options": [
+                    "Yes, because it lasts under two minutes",
+                    "Yes, if you turn on your hazard lights",
+                    "No: stopping in that lane is forbidden"
+                  ],
+                  "why": "Stopping is forbidden in lanes for the exclusive use of urban public transport. A short stop (under two minutes) is still a stop."
+                },
+                "terms": [
+                  {
+                    "es": "parar",
+                    "en": "to stop"
+                  },
+                  {
+                    "es": "transporte público urbano",
+                    "en": "urban public transport"
+                  }
+                ],
+                "src": "RGC art. 94.1.h"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "El carril VAO",
+            "en": "The VAO lane"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Un **carril VAO** es un carril reservado o habilitado para vehículos con **alta ocupación**: coches con varias personas dentro.",
+                "en": "A **VAO lane** is a lane reserved or set up for **high-occupancy** vehicles: cars with several people inside."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "El carril VAO está limitado a **motocicletas, turismos y vehículos mixtos adaptables**. Está prohibido al resto de vehículos y conjuntos, incluidos los turismos con remolque, y también a peatones, ciclos, ciclomotores, vehículos de movilidad personal, vehículos de tracción animal y animales.",
+                "en": "The VAO lane is limited to **motorcycles, cars and adaptable mixed vehicles**. It is forbidden to all other vehicles and combinations, including cars with a trailer, and also to pedestrians, cycles, mopeds, personal mobility vehicles, animal-drawn vehicles and animals."
+              },
+              "src": "RGC art. 35.2.a"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Con solo el conductor, puede usarlo el vehículo autorizado que lleve la señal V-15 o la tarjeta de estacionamiento para personas con discapacidad y movilidad reducida. Los autobuses de más de 3.500 kg de MMA y los articulados lo usan con cualquier número de ocupantes.",
+                "en": "With only the driver aboard, an authorized vehicle may use it if it carries the V-15 sign or the disabled parking card for people with reduced mobility. Buses over 3,500 kg MMA and articulated buses use it with any number of occupants."
+              },
+              "src": "RGC art. 35.2.a"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "La reserva puede ser permanente o temporal, con horario fijo o según el estado del tráfico. El número de ocupantes se fija para cada tramo.",
+                "en": "The reservation may be permanent or temporary, on a fixed schedule or depending on traffic. The number of occupants is set for each stretch."
+              },
+              "src": "RGC art. 35.2"
+            },
+            {
+              "t": "us",
+              "text": {
+                "es": "Muchos estados de EE. UU. tienen carriles para coches con varios ocupantes (carpool, HOV), con una idea parecida. Aquí manda lo que indiquen las señales de cada tramo.",
+                "en": "Many US states have lanes for cars with several occupants (carpool or HOV lanes), with a similar idea. Here, what the signs of each stretch say rules."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-s4b",
+                "answer": 1,
+                "es": {
+                  "q": "Conduces un turismo con remolque y llevas los ocupantes que exige el tramo. ¿Puedes usar el carril VAO?",
+                  "options": [
+                    "Sí, porque es un turismo y cumple la ocupación",
+                    "No: los turismos con remolque no pueden usarlo",
+                    "Sí, si el remolque es pequeño"
+                  ],
+                  "why": "El carril VAO está prohibido a los turismos con remolque, aunque lleven todos los ocupantes exigidos."
+                },
+                "en": {
+                  "q": "You drive a car with a trailer and carry the occupants the stretch requires. May you use the VAO lane?",
+                  "options": [
+                    "Yes, because it is a car and meets the occupancy",
+                    "No: cars with a trailer may not use it",
+                    "Yes, if the trailer is small"
+                  ],
+                  "why": "The VAO lane is forbidden to cars with a trailer, even if they carry all the required occupants."
+                },
+                "terms": [
+                  {
+                    "es": "remolque",
+                    "en": "trailer"
+                  },
+                  {
+                    "es": "ocupantes",
+                    "en": "occupants"
+                  }
+                ],
+                "src": "RGC art. 35.2.a"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "El carril reversible",
+            "en": "The reversible lane"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "En una calzada de doble sentido, **dos líneas discontinuas dobles** que delimitan un carril por ambos lados indican que es **reversible**. Su circulación puede ir en un sentido o en el otro, regulada con semáforos de carril u otros medios.",
+                "en": "On a two-way roadway, **double dashed lines** marking a lane on both sides show that it is **reversible**. Its traffic may run one way or the other, controlled by lane signals or other means."
+              },
+              "src": "RGC art. 40.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Quien circule por un carril reversible lleva encendida **al menos la luz de cruce**, de día y de noche.",
+                "en": "Anyone driving in a reversible lane has on **at least the low beams**, day and night."
+              },
+              "src": "RGC art. 40.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Un semáforo de carril solo afecta a los vehículos de ese carril. Un **aspa roja** prohíbe ocupar el carril: hay que abandonarlo cuanto antes. Una **flecha verde** hacia abajo permite circular por él.",
+                "en": "A lane signal affects only vehicles in that lane. A **red cross** forbids occupying the lane: you must leave it as soon as possible. A **green arrow** pointing down allows you to drive in it."
+              },
+              "src": "RGC anexo I, apartado 4.3"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Una **flecha blanca o amarilla** oblicua hacia abajo te avisa de que debes ir pasando al carril al que apunta, con seguridad, porque el tuyo se cierra pronto.",
+                "en": "A slanted **white or yellow arrow** pointing down tells you to move over, safely, into the lane it points to, because yours closes soon."
+              },
+              "src": "RGC anexo I, apartado 4.3"
+            },
+            {
+              "t": "figure",
+              "file": "road-reversible",
+              "alt": {
+                "es": "Vista desde arriba de una carretera de tres carriles. El carril central está entre líneas discontinuas dobles. Sobre cada carril hay un semáforo: flecha verde en los carriles de los lados y aspa roja en el central. Un coche azul va por el carril de la derecha y uno naranja viene de frente.",
+                "en": "Top-down view of a three-lane road. The center lane lies between double dashed lines. Above each lane is a signal: a green arrow on the outer lanes and a red cross on the center one. A blue car drives in the right-hand lane and an orange car comes the other way."
+              },
+              "caption": {
+                "es": "El carril central está cerrado ahora: aspa roja. Los carriles de los lados están abiertos: flecha verde.",
+                "en": "The center lane is closed now: red cross. The outer lanes are open: green arrow."
+              },
+              "legend": [
+                {
+                  "mark": "1",
+                  "text": {
+                    "es": "Carril reversible, entre líneas discontinuas dobles.",
+                    "en": "Reversible lane, between double dashed lines."
+                  }
+                },
+                {
+                  "mark": "2",
+                  "text": {
+                    "es": "Aspa roja: no puedes ocupar el carril.",
+                    "en": "Red cross: you may not occupy the lane."
+                  }
+                },
+                {
+                  "mark": "3",
+                  "text": {
+                    "es": "Flecha verde: puedes circular por el carril.",
+                    "en": "Green arrow: you may drive in the lane."
+                  }
+                }
+              ]
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-s4c",
+                "answer": 0,
+                "es": {
+                  "q": "Dos líneas discontinuas dobles delimitan un carril por los dos lados de una calzada de doble sentido. ¿Qué indican?",
+                  "options": [
+                    "Que el carril es reversible",
+                    "Que está prohibido adelantar",
+                    "Que el carril es solo para autobuses"
+                  ],
+                  "why": "Las marcas dobles discontinuas que delimitan un carril por ambos lados indican que es reversible: su circulación puede ir en un sentido o en el otro."
+                },
+                "en": {
+                  "q": "Double dashed lines mark a lane on both sides of a two-way roadway. What do they show?",
+                  "options": [
+                    "That the lane is reversible",
+                    "That overtaking is forbidden",
+                    "That the lane is for buses only"
+                  ],
+                  "why": "Double dashed lines marking a lane on both sides show that it is reversible: its traffic may run one way or the other."
+                },
+                "terms": [
+                  {
+                    "es": "carril reversible",
+                    "en": "reversible lane"
+                  },
+                  {
+                    "es": "línea discontinua",
+                    "en": "dashed line"
+                  }
+                ],
+                "src": "RGC art. 40.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-s4d",
+                "answer": 2,
+                "es": {
+                  "q": "Vas a circular por un carril reversible. ¿Qué luz debes llevar encendida como mínimo?",
+                  "options": [
+                    "Las luces de posición, solo de noche",
+                    "Ninguna: de día no hace falta",
+                    "La luz de cruce, de día y de noche"
+                  ],
+                  "why": "En un carril reversible se lleva encendida al menos la luz de cruce, tanto de día como de noche."
+                },
+                "en": {
+                  "q": "You are about to drive in a reversible lane. Which light must you have on at minimum?",
+                  "options": [
+                    "Parking lights, at night only",
+                    "None: none needed by day",
+                    "Low beams, day and night"
+                  ],
+                  "why": "In a reversible lane you drive with at least the low beams on, by day and by night."
+                },
+                "terms": [
+                  {
+                    "es": "luz de cruce",
+                    "en": "low beam"
+                  },
+                  {
+                    "es": "luz de posición",
+                    "en": "parking light"
+                  }
+                ],
+                "src": "RGC art. 40.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Carril en sentido contrario al habitual",
+            "en": "A lane used in the opposite direction"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si una calzada tiene **más de un carril por sentido**, la autoridad de tráfico puede habilitar, para dar fluidez, carriles que se usan en sentido contrario al habitual. Estarán señalizados.",
+                "en": "If a roadway has **more than one lane per direction**, the traffic authority may open lanes to be used in the opposite direction to normal, to keep traffic flowing. They will be signed."
+              },
+              "src": "RGC art. 41.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Solo pueden usarlos **motocicletas y turismos**. Está prohibido al resto de vehículos, incluidos los turismos con remolque.",
+                "en": "Only **motorcycles and cars** may use them. They are forbidden to all other vehicles, including cars with a trailer."
+              },
+              "src": "RGC art. 41.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "En ese carril se lleva siempre al menos la luz de cruce, de día y de noche. La velocidad máxima es **80 km/h** y la mínima **60 km/h**, o menos si así se indica. No se puede invadir los carriles del sentido normal, ni siquiera para adelantar.",
+                "en": "In that lane you always drive with at least the low beams on, day and night. The maximum speed is **80 km/h** and the minimum **60 km/h**, or lower if signs say so. You may not move into the lanes of the normal direction, not even to overtake."
+              },
+              "src": "RGC art. 41.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los vehículos de los carriles normales contiguos tampoco pueden invadir el carril habilitado. Llevan al menos la luz de cruce. Si solo tienen un carril en su sentido, van también entre 60 y 80 km/h, o menos si así se indica.",
+                "en": "Vehicles in the neighboring normal lanes may not move into the opened lane either. They also drive with at least the low beams on. If they have only one lane in their direction, they also drive between 60 and 80 km/h, or lower if signs say so."
+              },
+              "src": "RGC art. 41.1"
+            },
+            {
+              "t": "us",
+              "text": {
+                "es": "60 km/h son unas 37 mph y 80 km/h unas 50 mph.",
+                "en": "60 km/h is about 37 mph and 80 km/h about 50 mph."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-s4e",
+                "answer": 1,
+                "es": {
+                  "q": "La autoridad habilita un carril para circular en sentido contrario al habitual por razones de fluidez. ¿Qué vehículos pueden usarlo?",
+                  "options": [
+                    "Todos, con las luces de cruce encendidas",
+                    "Solo motocicletas y turismos",
+                    "Motocicletas y turismos, también con remolque"
+                  ],
+                  "why": "Solo pueden usarlo las motocicletas y los turismos. Está prohibido al resto de vehículos, incluidos los turismos con remolque."
+                },
+                "en": {
+                  "q": "The authority opens a lane for driving in the opposite direction to normal to keep traffic flowing. Which vehicles may use it?",
+                  "options": [
+                    "All, with low beams on",
+                    "Only motorcycles and cars",
+                    "Motorcycles and cars, also with a trailer"
+                  ],
+                  "why": "Only motorcycles and cars may use it. It is forbidden to all other vehicles, including cars with a trailer."
+                },
+                "terms": [
+                  {
+                    "es": "sentido contrario al habitual",
+                    "en": "opposite to the usual direction"
+                  },
+                  {
+                    "es": "fluidez",
+                    "en": "smooth traffic flow"
+                  }
+                ],
+                "src": "RGC art. 41.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-s4f",
+                "answer": 0,
+                "es": {
+                  "q": "Circulas por un carril habilitado en sentido contrario al habitual, sin otra señal de velocidad. ¿Entre qué velocidades debes ir?",
+                  "options": [
+                    "Entre 60 y 80 km/h",
+                    "Entre 80 y 100 km/h",
+                    "Entre 40 y 60 km/h"
+                  ],
+                  "why": "En un carril habilitado en sentido contrario al habitual la velocidad máxima es de 80 km/h y la mínima de 60 km/h, o menos si así se indica."
+                },
+                "en": {
+                  "q": "You drive in a lane opened in the opposite direction to normal, with no other speed sign. Between which speeds must you stay?",
+                  "options": [
+                    "Between 60 and 80 km/h",
+                    "Between 80 and 100 km/h",
+                    "Between 40 and 60 km/h"
+                  ],
+                  "why": "In a lane opened in the opposite direction to normal the maximum speed is 80 km/h and the minimum 60 km/h, or lower if signs say so."
+                },
+                "terms": [
+                  {
+                    "es": "velocidad máxima",
+                    "en": "maximum speed"
+                  },
+                  {
+                    "es": "velocidad mínima",
+                    "en": "minimum speed"
+                  }
+                ],
+                "src": "RGC art. 41.1"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "En los carriles reservados **mandan las señales**. En el del transporte público urbano está prohibido **parar**, aunque sea un momento.",
+          "en": "In reserved lanes **the signs rule**. In an urban public-transport lane **stopping** is forbidden, even for a moment."
+        },
+        {
+          "es": "El carril **VAO** es para motocicletas, turismos y vehículos mixtos adaptables. Los turismos con remolque no pueden usarlo.",
+          "en": "The **VAO** lane is for motorcycles, cars and adaptable mixed vehicles. Cars with a trailer may not use it."
+        },
+        {
+          "es": "**Líneas discontinuas dobles** a ambos lados: carril **reversible**. Lleva al menos la luz de cruce, de día y de noche.",
+          "en": "**Double dashed lines** on both sides: **reversible** lane. Drive with at least the low beams on, day and night."
+        },
+        {
+          "es": "Aspa roja: abandona el carril. Flecha verde: puedes usarlo. Flecha oblicua blanca o amarilla: pasa al carril que señala.",
+          "en": "Red cross: leave the lane. Green arrow: you may use it. Slanted white or yellow arrow: move into the lane it points to."
+        },
+        {
+          "es": "En un carril usado en **sentido contrario** al habitual: solo motocicletas y turismos, luz de cruce y entre 60 y 80 km/h.",
+          "en": "In a lane used in the **opposite direction**: only motorcycles and cars, low beams and between 60 and 80 km/h."
+        }
+      ],
+      "src": [
+        "Reglamento General de Circulación (RD 1428/2003), arts. 35, 40.1, 41.1 y 94.1, y anexo I, apartado 4.3 (semáforos de carril) (redacción vigente desde 2026-10-01 en el art. 35)",
+        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), anexo I, punto 81"
+      ]
+    },
+    {
+      "id": "shoulder",
+      "title": {
+        "es": "El arcén",
+        "en": "The shoulder"
+      },
+      "minutes": 6,
+      "goals": [
+        {
+          "es": "Saber quién debe circular por el arcén y quién no.",
+          "en": "Know who must use the shoulder and who must not."
+        },
+        {
+          "es": "Conocer las reglas de los ciclistas en el arcén y en la calzada.",
+          "en": "Know the rules for cyclists on the shoulder and on the roadway."
+        },
+        {
+          "es": "Conocer el uso extraordinario del arcén por motocicletas en un atasco.",
+          "en": "Know the extraordinary use of the shoulder by motorcycles in a traffic jam."
+        }
+      ],
+      "terms": [
+        {
+          "es": "arcén",
+          "en": "shoulder"
+        },
+        {
+          "es": "transitable",
+          "en": "passable, usable"
+        },
+        {
+          "es": "suficiente",
+          "en": "wide enough"
+        },
+        {
+          "es": "la parte imprescindible de la calzada",
+          "en": "only as much of the roadway as needed"
+        },
+        {
+          "es": "ciclomotor",
+          "en": "moped"
+        },
+        {
+          "es": "columna de a dos",
+          "en": "two abreast"
+        },
+        {
+          "es": "en hilera",
+          "en": "in single file"
+        },
+        {
+          "es": "razones de emergencia",
+          "en": "emergency reasons"
+        }
+      ],
+      "pretest": {
+        "id": "road-pre-5",
+        "answer": 0,
+        "es": {
+          "q": "Un ciclista recorre una carretera con arcén en buen estado. ¿Por dónde circula?",
+          "options": [
+            "Por el arcén de su derecha",
+            "Por el centro del carril derecho",
+            "Por la parte izquierda de la calzada"
+          ],
+          "why": "Los ciclos circulan por el arcén de su derecha si es transitable y suficiente. Si no lo es, usan la parte imprescindible de la calzada."
+        },
+        "en": {
+          "q": "A cyclist rides on a road with a shoulder in good condition. Where does the cyclist ride?",
+          "options": [
+            "On the shoulder on the right",
+            "In the middle of the right-hand lane",
+            "On the left part of the roadway"
+          ],
+          "why": "Cycles use the shoulder on their right if it is passable and wide enough. If it is not, they use only as much of the roadway as they need."
+        },
+        "src": "RGC art. 36.1"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Los automóviles van por la calzada",
+            "en": "Cars stay on the roadway"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "El conductor de un automóvil circula por **la calzada y no por el arcén**, salvo por razones de emergencia.",
+                "en": "The driver of an automobile drives on **the roadway and not on the shoulder**, except for emergency reasons."
+              },
+              "src": "RGC arts. 30.1 y 31.1; LSV art. 16.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "El arcén es una franja afirmada junto a la calzada. No está destinado a los automóviles, salvo en circunstancias excepcionales.",
+                "en": "The shoulder is a hard-surfaced strip next to the roadway. It is not meant for automobiles, except in exceptional circumstances."
+              },
+              "src": "LSV anexo I, punto 61"
+            },
+            {
+              "t": "us",
+              "text": {
+                "es": "En la mayoría de los estados de EE. UU. el arcén (shoulder) tampoco es para circular, salvo emergencias.",
+                "en": "In most US states the shoulder is not for driving either, except in emergencies."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-h5a",
+                "answer": 1,
+                "es": {
+                  "q": "¿Cuándo puede circular un turismo por el arcén?",
+                  "options": [
+                    "Siempre que no moleste a nadie",
+                    "Solo por razones de emergencia",
+                    "Cuando quiera adelantar a un vehículo lento"
+                  ],
+                  "why": "Los automóviles circulan por la calzada y no por el arcén, salvo por razones de emergencia."
+                },
+                "en": {
+                  "q": "When may a car drive on the shoulder?",
+                  "options": [
+                    "Whenever it bothers nobody",
+                    "Only for emergency reasons",
+                    "When it wants to pass a slow vehicle"
+                  ],
+                  "why": "Automobiles drive on the roadway and not on the shoulder, except for emergency reasons."
+                },
+                "terms": [
+                  {
+                    "es": "razones de emergencia",
+                    "en": "emergency reasons"
+                  },
+                  {
+                    "es": "turismo",
+                    "en": "car"
+                  }
+                ],
+                "src": "RGC arts. 30.1 y 31.1; LSV art. 16.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Quién debe usar el arcén",
+            "en": "Who must use the shoulder"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si no hay una vía especial para ellos, circulan por **el arcén de su derecha**, si es transitable y suficiente: vehículos de tracción animal, vehículos especiales de hasta 3.500 kg de MMA, ciclos, ciclomotores, vehículos para personas de movilidad reducida y vehículos que siguen a ciclistas.",
+                "en": "If there is no special road for them, they use **the shoulder on their right**, if it is passable and wide enough: animal-drawn vehicles, special vehicles up to 3,500 kg MMA, cycles, mopeds, vehicles for people with reduced mobility, and vehicles following cyclists."
+              },
+              "src": "RGC art. 36.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si el arcén no es transitable o suficiente, usan **la parte imprescindible de la calzada**.",
+                "en": "If the shoulder is not passable or wide enough, they use **only as much of the roadway as they need**."
+              },
+              "src": "RGC art. 36.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "También van por el arcén de la derecha, si es transitable y suficiente, los vehículos de hasta 3.500 kg de MMA que, por una emergencia, circulan a velocidad anormalmente reducida y perturban gravemente la circulación.",
+                "en": "Vehicles up to 3,500 kg MMA that travel at an abnormally low speed because of an emergency, and so seriously disrupt traffic, also use the shoulder on the right, if it is passable and wide enough."
+              },
+              "src": "RGC art. 36.1"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-h5b",
+                "answer": 2,
+                "es": {
+                  "q": "Conduces un ciclomotor por una carretera sin carril especial para ti. El arcén de la derecha es transitable y suficiente. ¿Por dónde vas?",
+                  "options": [
+                    "Por el carril derecho de la calzada",
+                    "Por donde haya menos tráfico",
+                    "Por el arcén de la derecha"
+                  ],
+                  "why": "Los ciclomotores circulan por el arcén de su derecha si es transitable y suficiente. Si no lo es, usan la parte imprescindible de la calzada."
+                },
+                "en": {
+                  "q": "You ride a moped on a road with no special lane for you. The shoulder on the right is passable and wide enough. Where do you ride?",
+                  "options": [
+                    "In the right-hand lane of the roadway",
+                    "Wherever there is less traffic",
+                    "On the shoulder on the right"
+                  ],
+                  "why": "Mopeds use the shoulder on their right if it is passable and wide enough. If it is not, they use only as much of the roadway as they need."
+                },
+                "terms": [
+                  {
+                    "es": "ciclomotor",
+                    "en": "moped"
+                  },
+                  {
+                    "es": "transitable",
+                    "en": "passable"
+                  }
+                ],
+                "src": "RGC art. 36.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Ciclistas: de a dos y en hilera",
+            "en": "Cyclists: two abreast and single file"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los vehículos que deben ir por el arcén no pueden circular en posición paralela. Las **bicicletas** sí pueden ir en columna de a dos por el arcén.",
+                "en": "Vehicles that must use the shoulder may not travel side by side. **Bicycles** may ride two abreast on the shoulder."
+              },
+              "src": "RGC art. 36.2"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si no hay arcén o no es transitable, las bicicletas pueden ir de a dos por la parte imprescindible de la calzada. Deben ponerse **en hilera** en tramos sin visibilidad, cuando afecten a la fluidez, entre el ocaso y la salida del sol, o con poca visibilidad por el tiempo o el ambiente.",
+                "en": "If there is no shoulder or it is not passable, bicycles may ride two abreast on only as much of the roadway as they need. They must ride **in single file** where visibility is lacking, when they affect traffic flow, between sunset and sunrise, or when weather or conditions reduce visibility."
+              },
+              "src": "RGC art. 36.2"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "En las autovías, los ciclistas **mayores de 14 años** usan el arcén, salvo que una señal lo prohíba. En las autopistas no pueden entrar.",
+                "en": "On autovías, cyclists **over 14** use the shoulder unless a sign forbids it. They may not enter autopistas."
+              },
+              "src": "RGC art. 38.1"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-h5c",
+                "answer": 0,
+                "es": {
+                  "q": "Dos ciclistas van de a dos por la calzada porque el arcén no es transitable. Anochece. ¿Qué deben hacer?",
+                  "options": [
+                    "Ponerse en hilera, de uno en uno",
+                    "Seguir de a dos y encender las luces",
+                    "Pasar al arcén aunque no sea transitable"
+                  ],
+                  "why": "Entre el ocaso y la salida del sol, los ciclistas que usan la calzada porque no hay arcén transitable deben ir en hilera."
+                },
+                "en": {
+                  "q": "Two cyclists ride two abreast on the roadway because the shoulder is not passable. Dusk is falling. What must they do?",
+                  "options": [
+                    "Ride in single file, one behind the other",
+                    "Stay two abreast and turn on their lights",
+                    "Move onto the shoulder even if it is not passable"
+                  ],
+                  "why": "Between sunset and sunrise, cyclists who use the roadway because there is no passable shoulder must ride in single file."
+                },
+                "terms": [
+                  {
+                    "es": "en hilera",
+                    "en": "in single file"
+                  },
+                  {
+                    "es": "ocaso",
+                    "en": "sunset"
+                  }
+                ],
+                "src": "RGC art. 36.2"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Motos en un atasco",
+            "en": "Motorcycles in a traffic jam"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "En tramos concretos, acordados antes por el titular de la vía y la autoridad de tráfico, se puede **habilitar** el uso extraordinario del arcén derecho por motocicletas. Los tramos tendrán señales verticales y marcas viales.",
+                "en": "On specific stretches, agreed beforehand by the road owner and the traffic authority, the extraordinary use of the right-hand shoulder by motorcycles may be **allowed**. The stretches will have signs and road markings."
+              },
+              "src": "RGC art. 36.3"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Solo se puede usar cuando los carriles de la vía están **detenidos por congestión**. La velocidad máxima es de **30 km/h**, en columna de a uno y extremando la precaución.",
+                "en": "It may be used only when the lanes of the road are **stopped by congestion**. The maximum speed is **30 km/h**, in single file and with extreme caution."
+              },
+              "src": "RGC art. 36.3"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "La moto debe asegurarse de no poner en riesgo a los vehículos obligados a ir por el arcén. Si hace falta, debe abandonarlo.",
+                "en": "The motorcyclist must make sure not to endanger vehicles required to use the shoulder. If necessary, the motorcycle must leave it."
+              },
+              "src": "RGC art. 36.3"
+            },
+            {
+              "t": "us",
+              "text": {
+                "es": "30 km/h son unas 19 mph.",
+                "en": "30 km/h is about 19 mph."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-h5d",
+                "answer": 2,
+                "es": {
+                  "q": "En un tramo donde se ha habilitado el arcén derecho para las motocicletas, ¿en qué condiciones pueden usarlo?",
+                  "options": [
+                    "Con tráfico lento, a 50 km/h como máximo, de a dos",
+                    "Con cualquier tráfico, a la velocidad de los coches",
+                    "Solo con el tráfico detenido, a 30 km/h como máximo y de uno en uno"
+                  ],
+                  "why": "Solo cuando los carriles están detenidos por congestión, a un máximo de 30 km/h, en columna de a uno y extremando la precaución."
+                },
+                "en": {
+                  "q": "On a stretch where the right-hand shoulder has been opened to motorcycles, under what conditions may they use it?",
+                  "options": [
+                    "With slow traffic, at 50 km/h at most, two abreast",
+                    "With any traffic, at the speed of the cars",
+                    "Only with traffic stopped, at 30 km/h at most, in single file"
+                  ],
+                  "why": "Only when the lanes are stopped by congestion, at 30 km/h at most, in single file and with extreme caution."
+                },
+                "terms": [
+                  {
+                    "es": "congestión",
+                    "en": "congestion"
+                  },
+                  {
+                    "es": "extremar la precaución",
+                    "en": "to take extreme care"
+                  }
+                ],
+                "src": "RGC art. 36.3"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "Un automóvil va por la **calzada**, no por el arcén, salvo por razones de emergencia.",
+          "en": "A car stays on the **roadway**, not the shoulder, except for emergency reasons."
+        },
+        {
+          "es": "Ciclos, ciclomotores, vehículos de tracción animal y los demás vehículos que enumera la norma van por **el arcén de la derecha** si es transitable y suficiente. Si no, por la parte imprescindible de la calzada.",
+          "en": "Cycles, mopeds, animal-drawn vehicles and the other vehicles the rule lists use **the right-hand shoulder** if it is passable and wide enough. If not, only as much of the roadway as needed."
+        },
+        {
+          "es": "Las bicicletas pueden ir **de a dos**, pero en **hilera** en tramos sin visibilidad, de noche o con poca visibilidad si usan la calzada.",
+          "en": "Bicycles may ride **two abreast**, but **in single file** where there is no visibility, at night or in poor visibility if they are on the roadway."
+        },
+        {
+          "es": "Las motos pueden usar el arcén en tramos habilitados, solo con el tráfico **detenido**, a **30 km/h** como máximo y en fila de a uno.",
+          "en": "Motorcycles may use the shoulder on opened stretches, only with traffic **stopped**, at **30 km/h** at most and in single file."
+        }
+      ],
+      "src": [
+        "Reglamento General de Circulación (RD 1428/2003), arts. 30.1, 31.1, 36 y 38.1 (redacción vigente desde 2026-10-01 en los arts. 31, 36 y 38)",
+        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), art. 16.1 y anexo I, punto 61"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2617 @@
+{
+  "id": "equipment",
+  "title": {
+    "es": "El vehículo: documentos, luces y mantenimiento",
+    "en": "The vehicle: documents, lights and upkeep"
+  },
+  "blurb": {
+    "es": "Qué papeles llevas, cada cuánto pasa la ITV, cuándo usar cada luz y qué equipo y carga son obligatorios.",
+    "en": "Which papers you carry, how often the ITV is due, when to use each light, and what kit and load rules apply."
+  },
+  "lessons": [
+    {
+      "id": "documents",
+      "title": {
+        "es": "Documentos y seguro",
+        "en": "Documents and insurance"
+      },
+      "minutes": 6,
+      "goals": [
+        {
+          "es": "Decir qué documentos llevas contigo y enseñas a un agente.",
+          "en": "Say which documents you carry and show to an officer."
+        },
+        {
+          "es": "Saber que el seguro es obligatorio y cómo se comprueba.",
+          "en": "Know that insurance is compulsory and how it is checked."
+        },
+        {
+          "es": "Saber qué debe cuidar el titular del vehículo.",
+          "en": "Know what the registered owner must look after."
+        }
+      ],
+      "terms": [
+        {
+          "es": "permiso de conducción",
+          "en": "driver's license"
+        },
+        {
+          "es": "permiso de circulación",
+          "en": "vehicle registration document"
+        },
+        {
+          "es": "tarjeta ITV",
+          "en": "vehicle inspection card"
+        },
+        {
+          "es": "seguro obligatorio",
+          "en": "compulsory insurance"
+        },
+        {
+          "es": "titular",
+          "en": "registered owner"
+        },
+        {
+          "es": "matrícula",
+          "en": "license plate"
+        },
+        {
+          "es": "agente de tráfico",
+          "en": "traffic officer"
+        },
+        {
+          "es": "carnet",
+          "en": "driver's license (colloquial)"
+        }
+      ],
+      "pretest": {
+        "id": "equipment-pre-1",
+        "answer": 1,
+        "es": {
+          "q": "Circulas con un coche cuya autorización para circular ha perdido la vigencia. ¿Qué ocurre con el coche?",
+          "options": [
+            "Nada, si conduces con cuidado",
+            "Queda inmovilizado hasta que tenga de nuevo la autorización",
+            "Solo puede circular de día"
+          ],
+          "why": "Circular sin la autorización del vehículo, por no haberla obtenido o por haber perdido su vigencia, da lugar a la inmovilización del coche hasta que se disponga de ella."
+        },
+        "en": {
+          "q": "You drive a car whose authorization to circulate is no longer valid. What happens to the car?",
+          "options": [
+            "Nothing, if you drive carefully",
+            "It is immobilized until it has the authorization again",
+            "It may only be driven in daylight"
+          ],
+          "why": "Driving without the vehicle’s authorization, whether never obtained or no longer valid, leads to the car being immobilized until it has it."
+        },
+        "src": "RGV art. 1.2"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Los tres documentos que llevas contigo",
+            "en": "The three documents you carry"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Un agente de tráfico puede pararte y pedirte los papeles. La ley dice cuáles debes llevar encima.",
+                "en": "A traffic officer can stop you and ask for your papers. The law says which ones you must have on you."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "El conductor de un vehículo a motor o ciclomotor debe **llevar consigo** tres documentos: su permiso o licencia de conducción válidos, el permiso de circulación del vehículo y la tarjeta de inspección técnica. Debe enseñarlos a los agentes de tráfico cuando se los pidan.",
+                "en": "The driver of a motor vehicle or moped must **carry** a valid driving permit or license, the vehicle’s registration document (permiso de circulación) and the inspection card (tarjeta de inspección técnica). The driver must show them to traffic officers when asked."
+              },
+              "src": "LSV art. 59.2"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Puedes acreditar que tienes la autorización **en papel o en formato digital**.",
+                "en": "You can prove you hold the authorization **on paper or in digital form**."
+              },
+              "src": "LSV art. 59.1"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c1a",
+                "answer": 2,
+                "es": {
+                  "q": "Conduces un coche en España y un agente de tráfico te pide la documentación. ¿Qué debes poder enseñarle?",
+                  "options": [
+                    "Solo el permiso de conducción",
+                    "El permiso de conducción y la factura de compra del coche",
+                    "Permiso de conducción, permiso de circulación y tarjeta ITV"
+                  ],
+                  "why": "La ley obliga a llevar el permiso de conducción válido, el permiso de circulación del vehículo y la tarjeta de inspección técnica, y a enseñarlos a los agentes que los pidan."
+                },
+                "en": {
+                  "q": "You drive a car in Spain and a traffic officer asks for your documents. What must you be able to show?",
+                  "options": [
+                    "Only your driving permit",
+                    "Your driving permit and the car’s purchase invoice",
+                    "Driving permit, registration document and ITV card"
+                  ],
+                  "why": "The law requires you to carry the valid driving permit, the vehicle’s registration document and the inspection card, and to show them to officers who ask."
+                },
+                "terms": [
+                  {
+                    "es": "permiso de circulación",
+                    "en": "vehicle registration document"
+                  },
+                  {
+                    "es": "tarjeta ITV",
+                    "en": "vehicle inspection card"
+                  }
+                ],
+                "src": "LSV art. 59.2"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Para qué sirve cada uno",
+            "en": "What each one is for"
+          },
+          "blocks": [
+            {
+              "t": "list",
+              "items": [
+                {
+                  "es": "**Permiso de conducción**: te autoriza a ti a conducir.",
+                  "en": "**Driving permit** (permiso de conducción): it authorizes you to drive."
+                },
+                {
+                  "es": "**Permiso de circulación**: es la autorización del vehículo para circular.",
+                  "en": "**Registration document** (permiso de circulación): it is the vehicle’s authorization to circulate."
+                },
+                {
+                  "es": "**Tarjeta ITV**: recoge las inspecciones técnicas y las características del vehículo.",
+                  "en": "**Inspection card** (tarjeta ITV): it records the technical inspections and the vehicle’s characteristics."
+                }
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "La **tarjeta ITV** tiene dos caras. Por delante, el registro de las inspecciones periódicas. Por detrás, el certificado de características del vehículo.",
+                "en": "The **ITV card** has two sides. The front records the periodic inspections. The back is the certificate of the vehicle’s characteristics."
+              },
+              "src": "RGV art. 3.g"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si circulas con un vehículo sin autorización, el vehículo queda **inmovilizado** hasta que la tenga. Pasa si nunca la obtuvo o si ha perdido su vigencia.",
+                "en": "If you drive a vehicle without authorization, the vehicle is **immobilized** until it has one. This happens if it never had one or if it is no longer valid."
+              },
+              "src": "RGV art. 1.2"
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "El seguro es obligatorio",
+            "en": "Insurance is compulsory"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Todo propietario de un vehículo a motor que tiene su estacionamiento habitual en España debe **suscribir y mantener en vigor** un seguro de responsabilidad civil. Hace falta un seguro por cada vehículo.",
+                "en": "Every owner of a motor vehicle that is habitually kept in Spain must **take out and keep in force** a liability insurance policy. One policy is needed for each vehicle."
+              },
+              "src": "RDL 8/2004 art. 2.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Todo vehículo a motor debe ir provisto de la **documentación que acredite** que el seguro está en vigor.",
+                "en": "Every motor vehicle must carry **documents that prove** the insurance is in force."
+              },
+              "src": "RD 1507/2008 art. 14.1"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Los agentes comprueban el seguro en el Fichero Informativo de Vehículos Asegurados. Si no pueden, sirve el justificante de pago de la prima del periodo en curso. Debe indicar la aseguradora, la matrícula, el periodo de cobertura y el seguro obligatorio.",
+                "en": "Officers check insurance in the national database of insured vehicles (Fichero Informativo de Vehículos Asegurados). If they cannot, the receipt for the current period’s premium works, showing the insurer, the plate, the coverage period and the compulsory cover."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c1c",
+                "answer": 1,
+                "es": {
+                  "q": "Un agente de tráfico quiere saber si tu coche tiene el seguro obligatorio en vigor. ¿Cómo lo comprueba normalmente?",
+                  "options": [
+                    "Llamando al taller donde pasaste la ITV",
+                    "Consultando el Fichero Informativo de Vehículos Asegurados",
+                    "Pidiéndote que recites tu número de póliza"
+                  ],
+                  "why": "Los agentes consultan el fichero de vehículos asegurados. Si no pueden, vale el justificante de pago de la prima del periodo en curso con los datos mínimos."
+                },
+                "en": {
+                  "q": "A traffic officer wants to know whether your car has compulsory insurance in force. How is it normally checked?",
+                  "options": [
+                    "By phoning the garage where you did the ITV",
+                    "By looking up the national database of insured vehicles",
+                    "By asking you to recite your policy number"
+                  ],
+                  "why": "Officers look up the insured-vehicles database. If they cannot, the receipt for the current period’s premium, with the minimum details, is accepted."
+                },
+                "terms": [
+                  {
+                    "es": "seguro obligatorio",
+                    "en": "compulsory insurance"
+                  },
+                  {
+                    "es": "prima",
+                    "en": "premium"
+                  }
+                ],
+                "src": "RD 1507/2008 art. 14.2"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Tus deberes como titular y conductor",
+            "en": "Your duties as owner and driver"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "El **titular** del vehículo debe mantenerlo en las condiciones que exige la ley y pasar las inspecciones que correspondan. También debe impedir que lo conduzca quien nunca tuvo permiso.",
+                "en": "The registered **owner** must keep the vehicle in the condition the law requires, submit it to the inspections that apply and prevent it being driven by anyone who never held a driving permit."
+              },
+              "src": "LSV art. 10.3"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "El conductor debe verificar que las **placas de matrícula** no tienen nada que impida o dificulte su lectura.",
+                "en": "The driver must check that nothing **blocks or hinders the reading** of the license plates."
+              },
+              "src": "LSV art. 10.2"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "La matrícula tapada por barro, una funda o un portabicicletas incumple esa regla. Límpiala o recoloca la carga.",
+                "en": "A plate hidden by mud, a cover or a bike rack breaks that rule. Clean it or move the load."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c1d",
+                "answer": 2,
+                "es": {
+                  "q": "Compras un coche de segunda mano a tu nombre. ¿Quién debe mantenerlo en las condiciones legales y llevarlo a las inspecciones que toquen?",
+                  "options": [
+                    "El taller que lo revisó por última vez",
+                    "El vendedor, durante el primer año",
+                    "Tú, como titular del vehículo"
+                  ],
+                  "why": "Mantener el vehículo en condiciones legales y someterlo a las inspecciones es deber del titular (y del arrendatario a largo plazo, si lo hay)."
+                },
+                "en": {
+                  "q": "You buy a used car in your name. Who must keep it in legal condition and take it to the inspections that fall due?",
+                  "options": [
+                    "The garage that last serviced it",
+                    "The seller, during the first year",
+                    "You, as the registered owner"
+                  ],
+                  "why": "Keeping the vehicle in legal condition and submitting it to inspections is the owner’s duty (and the long-term lessee’s, if there is one)."
+                },
+                "terms": [
+                  {
+                    "es": "titular",
+                    "en": "registered owner"
+                  }
+                ],
+                "src": "LSV art. 10.3"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "Llevas **tres documentos**: permiso de conducción, permiso de circulación y tarjeta ITV.",
+          "en": "You carry **three documents**: driving permit, registration document and ITV card."
+        },
+        {
+          "es": "Puedes acreditar la autorización **en papel o en digital**.",
+          "en": "You may prove the authorization **on paper or digitally**."
+        },
+        {
+          "es": "Sin la autorización del vehículo, este queda **inmovilizado**.",
+          "en": "Without the vehicle’s authorization, it is **immobilized**."
+        },
+        {
+          "es": "El **seguro** es obligatorio; los agentes lo miran en un fichero oficial.",
+          "en": "**Insurance** is compulsory; officers look it up in an official database."
+        },
+        {
+          "es": "El **titular** mantiene el vehículo y la **matrícula** debe leerse.",
+          "en": "The **owner** keeps the vehicle in order and the **plate** must be readable."
+        }
+      ],
+      "covers": [],
+      "src": [
+        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), arts. 10 y 59",
+        "Reglamento General de Vehículos (RD 2822/1998), arts. 1 y 3",
+        "Texto refundido de la Ley sobre responsabilidad civil y seguro en la circulación de vehículos a motor (RDL 8/2004), art. 2",
+        "Reglamento del seguro obligatorio (RD 1507/2008), art. 14"
+      ]
+    },
+    {
+      "id": "itv",
+      "title": {
+        "es": "La ITV, la revisión obligatoria",
+        "en": "The ITV, the compulsory inspection"
+      },
+      "minutes": 8,
+      "goals": [
+        {
+          "es": "Saber cada cuánto pasa la ITV un turismo y otros vehículos habituales.",
+          "en": "Know how often a car and other common vehicles take the ITV."
+        },
+        {
+          "es": "Calcular cuándo vence y reconocer la pegatina V-19.",
+          "en": "Work out when it expires and recognize the V-19 sticker."
+        },
+        {
+          "es": "Saber qué pasa con un defecto grave o muy grave y con una ITV caducada.",
+          "en": "Know what happens with a serious or very serious defect and with an expired ITV."
+        }
+      ],
+      "terms": [
+        {
+          "es": "ITV (inspección técnica de vehículos)",
+          "en": "compulsory roadworthiness inspection (like MOT / smog check)"
+        },
+        {
+          "es": "estación ITV",
+          "en": "ITV station"
+        },
+        {
+          "es": "bienal",
+          "en": "every two years"
+        },
+        {
+          "es": "anual",
+          "en": "every year"
+        },
+        {
+          "es": "exento",
+          "en": "exempt"
+        },
+        {
+          "es": "defecto grave",
+          "en": "serious defect"
+        },
+        {
+          "es": "primera matriculación",
+          "en": "first registration"
+        },
+        {
+          "es": "pegatina de la ITV",
+          "en": "ITV windshield sticker"
+        }
+      ],
+      "pretest": {
+        "id": "equipment-pre-2",
+        "answer": 2,
+        "es": {
+          "q": "Tu turismo tiene 12 años. ¿Con qué frecuencia debe pasar la ITV?",
+          "options": [
+            "Cada 4 años",
+            "Cada 2 años",
+            "Cada año"
+          ],
+          "why": "Un turismo de más de 10 años pasa la ITV cada año. Entre los 4 y los 10 años es cada dos años, y antes de los 4 años está exento."
+        },
+        "en": {
+          "q": "Your car is 12 years old. How often must it take the ITV?",
+          "options": [
+            "Every 4 years",
+            "Every 2 years",
+            "Every year"
+          ],
+          "why": "A car over 10 years old takes the ITV every year. Between 4 and 10 years it is every two years, and before 4 years it is exempt."
+        },
+        "src": "RD 920/2017 art. 6.1"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Qué es la ITV",
+            "en": "What the ITV is"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "La **ITV** es la revisión oficial de un vehículo. Se hace en una estación ITV autorizada. Comprueba que el vehículo es seguro y que cumple las normas del medio ambiente.",
+                "en": "The **ITV** is the official inspection of a vehicle. It is done at an authorized ITV station. It checks that the vehicle is safe and meets the environmental rules."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los vehículos matriculados en España deben pasar la inspección técnica en una **estación ITV**. La norma fija los casos y la periodicidad. El titular debe presentarlos a inspección.",
+                "en": "Vehicles registered in Spain must undergo the technical inspection at an **ITV station**, in the cases and at the intervals the regulation sets. The owner must present them for inspection."
+              },
+              "src": "RD 920/2017 art. 4.1 and 4.2"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "La inspección revisa el vehículo en cuanto a **seguridad vial**, protección del medio ambiente, inscripciones reglamentarias y reformas.",
+                "en": "The inspection checks the vehicle for **road safety**, environmental protection, regulatory markings and modifications."
+              },
+              "src": "RGV art. 10.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Puedes **elegir cualquier estación ITV**, tanto para la primera inspección como para las siguientes.",
+                "en": "You are **free to choose any ITV station**, both for the first inspection and for any later ones."
+              },
+              "src": "RD 920/2017 art. 11.8"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "En cada inspección, la estación exige acreditar el **seguro obligatorio**. Sin esa prueba, el resultado no puede ser favorable.",
+                "en": "At every inspection the station requires proof of **compulsory insurance**. Without it, the result cannot be favorable."
+              },
+              "src": "LSV art. 78.2"
+            },
+            {
+              "t": "us",
+              "text": {
+                "es": "En EE. UU. las inspecciones periódicas dependen del estado: algunos exigen revisión de seguridad o de emisiones y otros no. En España la ITV es una obligación nacional.",
+                "en": "In the US, periodic inspections depend on the state: some require a safety or emissions check and others none. In Spain the ITV is a national obligation."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Turismos: cada cuánto",
+            "en": "Cars: how often"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "La frecuencia de la ITV depende de la **categoría** del vehículo y de su **edad**. La edad se cuenta desde la primera matriculación.",
+                "en": "How often the ITV is due depends on the vehicle’s **category** and **age**. Age counts from the first registration."
+              },
+              "src": "RD 920/2017 art. 6.1"
+            },
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Turismo (hasta 8 plazas, sin contar al conductor)",
+                  "en": "Car (up to 8 seats, not counting the driver)"
+                },
+                {
+                  "es": "ITV",
+                  "en": "ITV"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "Hasta 4 años",
+                    "en": "Up to 4 years"
+                  },
+                  {
+                    "es": "Exento: no la pasa",
+                    "en": "Exempt: none needed"
+                  }
+                ],
+                [
+                  {
+                    "es": "Más de 4 años",
+                    "en": "Over 4 years"
+                  },
+                  {
+                    "es": "Cada 2 años (bienal)",
+                    "en": "Every 2 years (biennial)"
+                  }
+                ],
+                [
+                  {
+                    "es": "Más de 10 años",
+                    "en": "Over 10 years"
+                  },
+                  {
+                    "es": "Cada año (anual)",
+                    "en": "Every year (annual)"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c2a",
+                "answer": 0,
+                "es": {
+                  "q": "Un turismo se matriculó hace 7 años. ¿Con qué frecuencia debe pasar la ITV?",
+                  "options": [
+                    "Cada 2 años",
+                    "Cada año",
+                    "Todavía no necesita ITV"
+                  ],
+                  "why": "Entre los 4 y los 10 años, un turismo pasa la ITV cada dos años. Está exento antes de los 4 años y la pasa cada año cuando supera los 10."
+                },
+                "en": {
+                  "q": "A car was first registered 7 years ago. How often must it take the ITV?",
+                  "options": [
+                    "Every 2 years",
+                    "Every year",
+                    "It does not need an ITV yet"
+                  ],
+                  "why": "Between 4 and 10 years old a car takes the ITV every two years. It is exempt before 4 years and takes it every year once over 10."
+                },
+                "terms": [
+                  {
+                    "es": "bienal",
+                    "en": "every two years"
+                  }
+                ],
+                "src": "RD 920/2017 art. 6.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Otros vehículos",
+            "en": "Other vehicles"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Cada tipo de vehículo tiene su propia escala. Estos son los más comunes:",
+                "en": "Each type of vehicle has its own schedule. These are the most common:"
+              }
+            },
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Vehículo",
+                  "en": "Vehicle"
+                },
+                {
+                  "es": "Edad y frecuencia",
+                  "en": "Age and interval"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "Ciclomotor",
+                    "en": "Moped"
+                  },
+                  {
+                    "es": "Hasta 3 años: exento. Más de 3: cada 2 años.",
+                    "en": "Up to 3 years: exempt. Over 3: every 2 years."
+                  }
+                ],
+                [
+                  {
+                    "es": "Moto",
+                    "en": "Motorcycle"
+                  },
+                  {
+                    "es": "Hasta 4 años: exenta. Más de 4: cada 2 años.",
+                    "en": "Up to 4 years: exempt. Over 4: every 2 years."
+                  }
+                ],
+                [
+                  {
+                    "es": "Furgoneta o camión de hasta 3,5 t",
+                    "en": "Van or truck up to 3.5 t"
+                  },
+                  {
+                    "es": "Hasta 2 años: exento. De 2 a 6: cada 2 años. De 6 a 10: cada año. Más de 10: cada 6 meses.",
+                    "en": "Up to 2 years: exempt. 2 to 6: every 2 years. 6 to 10: every year. Over 10: every 6 months."
+                  }
+                ],
+                [
+                  {
+                    "es": "Caravana remolcada",
+                    "en": "Towed caravan"
+                  },
+                  {
+                    "es": "Hasta 6 años: exenta. Más de 6: cada 2 años.",
+                    "en": "Up to 6 years: exempt. Over 6: every 2 years."
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los **taxis**, las **ambulancias**, el transporte escolar (turismos) y los vehículos de **autoescuela** pasan la ITV más a menudo que un turismo normal.",
+                "en": "**Taxis**, **ambulances**, school transport (cars) and **driving-school** vehicles take the ITV more often than an ordinary car."
+              },
+              "src": "RD 920/2017 art. 6.1"
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Cuándo vence y cómo se demuestra",
+            "en": "When it expires and how you show it"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "La validez de la ITV se calcula sumando el periodo que toca a la fecha en que sale **favorable**. Si la pasas en los **30 días naturales anteriores** al vencimiento, el periodo se suma a la fecha de vencimiento.",
+                "en": "An ITV’s validity is worked out by adding the interval that applies to the date of a **favorable** result. If you take it in the **30 calendar days before** expiry, the interval is added to the expiry date."
+              },
+              "src": "RD 920/2017 art. 6.5"
+            },
+            {
+              "t": "example",
+              "situation": {
+                "es": "Tu ITV vence el 30 de junio. Pasas la inspección el 15 de junio y sale favorable. Tu coche tiene que pasarla cada 2 años.",
+                "en": "Your ITV expires on 30 June. You take the inspection on 15 June and the result is favorable. Your car must take it every 2 years."
+              },
+              "action": {
+                "es": "La nueva ITV vale hasta el 30 de junio, dos años después.",
+                "en": "The new ITV is valid until 30 June, two years later."
+              },
+              "why": {
+                "es": "El 15 de junio cae en los 30 días anteriores al vencimiento. Por eso el periodo se suma a la fecha de vencimiento. Si la pasaras antes de esos 30 días, se sumaría a la fecha de la inspección.",
+                "en": "15 June falls within the 30 days before expiry, so the interval is added to the expiry date. If you took it earlier than those 30 days, it would be added to the inspection date."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si pasas la ITV, debes poner en el vehículo el distintivo **V-19**. Indica que has superado la inspección y la fecha de la próxima. En un coche con parabrisas va por dentro, en la esquina superior derecha.",
+                "en": "If you pass the ITV, you must put the **V-19** sticker on the vehicle. It shows you passed and the date of the next inspection. In a car with a windshield it goes on the inside, in the upper right corner."
+              },
+              "src": "RD 920/2017 art. 12.1; RGV Anexo XI, V-19"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c2c",
+                "answer": 2,
+                "es": {
+                  "q": "¿Qué indica el distintivo V-19 pegado en el parabrisas de un coche?",
+                  "options": [
+                    "Cuándo vence el seguro del coche",
+                    "Qué clase de combustible usa el coche",
+                    "Que ha pasado la ITV y cuándo toca la siguiente"
+                  ],
+                  "why": "El distintivo V-19 indica que el vehículo ha superado favorablemente la inspección técnica periódica y la fecha en que debe pasar la próxima."
+                },
+                "en": {
+                  "q": "What does the V-19 sticker on a car’s windshield show?",
+                  "options": [
+                    "When the car’s insurance expires",
+                    "What kind of fuel the car uses",
+                    "That it passed the ITV and when the next one is due"
+                  ],
+                  "why": "The V-19 sticker shows the vehicle passed the periodic technical inspection and the date of the next one."
+                },
+                "terms": [
+                  {
+                    "es": "parabrisas",
+                    "en": "windshield"
+                  },
+                  {
+                    "es": "distintivo",
+                    "en": "sticker / badge"
+                  }
+                ],
+                "src": "RGV Anexo XI, V-19; RD 920/2017 art. 12.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Si la ITV sale mal",
+            "en": "If the ITV goes badly"
+          },
+          "blocks": [
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Defecto más grave",
+                  "en": "Worst defect"
+                },
+                {
+                  "es": "Resultado",
+                  "en": "Result"
+                },
+                {
+                  "es": "Qué ocurre",
+                  "en": "What happens"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "Leve",
+                    "en": "Minor"
+                  },
+                  {
+                    "es": "Favorable",
+                    "en": "Favorable"
+                  },
+                  {
+                    "es": "Se repara en dos meses. No hace falta repetir la inspección.",
+                    "en": "Repair within two months. No re-inspection needed."
+                  }
+                ],
+                [
+                  {
+                    "es": "Grave",
+                    "en": "Serious"
+                  },
+                  {
+                    "es": "Desfavorable",
+                    "en": "Unfavorable"
+                  },
+                  {
+                    "es": "No puedes circular, salvo al taller y de vuelta a la ITV.",
+                    "en": "You may not drive it, except to the workshop and back to the ITV."
+                  }
+                ],
+                [
+                  {
+                    "es": "Muy grave",
+                    "en": "Very serious"
+                  },
+                  {
+                    "es": "Negativa",
+                    "en": "Negative"
+                  },
+                  {
+                    "es": "No puedes circular. Lo trasladas por otros medios.",
+                    "en": "You may not drive it at all. It must be moved by other means."
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Un defecto **grave** inhabilita al vehículo para circular. Solo puedes llevarlo al taller y volver a la ITV, en un máximo de **dos meses** desde la primera inspección desfavorable.",
+                "en": "A **serious** defect bars the vehicle from the road, except to take it to the workshop and return to the ITV within **two months** of the first unfavorable inspection."
+              },
+              "src": "RD 920/2017 art. 11.2"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Un defecto **muy grave** inhabilita al vehículo para circular. El traslado desde la estación se hace **por medios ajenos al propio vehículo**. Hay que volver a inspección en un máximo de dos meses.",
+                "en": "A **very serious** defect bars the vehicle from the road. It leaves the station **by means other than its own power**. It must return for inspection within two months."
+              },
+              "src": "RD 920/2017 art. 11.3"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Si vuelves fuera de plazo, te hacen una **inspección completa** otra vez (art. 11.4).",
+                "en": "If you return after the deadline, you get a **full inspection** again (art. 11.4)."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c2d",
+                "answer": 1,
+                "es": {
+                  "q": "Tu coche obtiene una ITV desfavorable por un defecto grave. ¿Qué puedes hacer con el coche?",
+                  "options": [
+                    "Seguir usándolo con normalidad durante dos meses",
+                    "Circular solo para llevarlo al taller y volver a la ITV en un máximo de dos meses",
+                    "Circular solo de día durante dos meses"
+                  ],
+                  "why": "Un defecto grave inhabilita el vehículo para circular, salvo para ir al taller y volver a una estación ITV en un plazo máximo de dos meses desde la primera inspección desfavorable."
+                },
+                "en": {
+                  "q": "Your car gets an unfavorable ITV because of a serious defect. What may you do with the car?",
+                  "options": [
+                    "Keep using it normally for two months",
+                    "Drive it only to the workshop and back to the ITV within two months",
+                    "Drive it only in daylight for two months"
+                  ],
+                  "why": "A serious defect bars the vehicle from the road, except to go to the workshop and return to an ITV station within two months of the first unfavorable inspection."
+                },
+                "terms": [
+                  {
+                    "es": "desfavorable",
+                    "en": "unfavorable"
+                  }
+                ],
+                "src": "RD 920/2017 arts. 9.4 and 11.2"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Si se pasa el plazo",
+            "en": "If you miss the deadline"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si un agente ve que no has pasado la ITV a tiempo, te da **10 días** para presentar el vehículo. Si no lo haces, la Jefatura de Tráfico inicia el procedimiento de **baja de oficio**.",
+                "en": "If an officer finds you did not take the ITV on time, you get **10 days** to present the vehicle for inspection. If you do not, the traffic authority starts the procedure to **deregister** the vehicle."
+              },
+              "src": "RD 920/2017 art. 6.9"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Circular con un vehículo que incumple las condiciones técnicas que fija la norma es una **infracción grave**, salvo que se califique de muy grave. También lo son las infracciones de las normas de la inspección técnica.",
+                "en": "Driving a vehicle that breaks the required technical conditions is a **serious offense**, unless it is classed as very serious. Breaches of the technical inspection rules are serious offenses too."
+              },
+              "src": "LSV art. 76.o"
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Apunta la fecha de la próxima ITV en tu calendario cuando coloques la pegatina. Así no se te pasa.",
+                "en": "Put the next ITV date in your calendar when you stick on the sticker, so it does not slip by."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c2e",
+                "answer": 0,
+                "es": {
+                  "q": "Un agente comprueba que la ITV de tu coche está caducada. ¿Qué plazo te da para presentarlo a inspección?",
+                  "options": [
+                    "10 días",
+                    "30 días",
+                    "Dos meses"
+                  ],
+                  "why": "Ante una ITV incumplida, los agentes conceden al titular 10 días para presentar el vehículo. Pasado ese plazo sin acreditarlo, se inicia el procedimiento de baja de oficio."
+                },
+                "en": {
+                  "q": "An officer finds your car’s ITV has expired. How long do you get to present it for inspection?",
+                  "options": [
+                    "10 days",
+                    "30 days",
+                    "Two months"
+                  ],
+                  "why": "For a missed ITV, officers give the owner 10 days to present the vehicle. If you do not show it by then, the procedure to deregister it begins."
+                },
+                "terms": [
+                  {
+                    "es": "caducada",
+                    "en": "expired"
+                  }
+                ],
+                "src": "RD 920/2017 art. 6.9"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "La **ITV** es obligatoria; la hace el titular en la estación que elija.",
+          "en": "The **ITV** is compulsory; the owner has it done at the station of their choice."
+        },
+        {
+          "es": "Turismo: **exento** hasta 4 años, **cada 2 años** hasta 10, **cada año** después.",
+          "en": "Car: **exempt** up to 4 years, **every 2 years** up to 10, **every year** after."
+        },
+        {
+          "es": "Otros vehículos tienen otra escala (taxis y autoescuelas, más frecuente).",
+          "en": "Other vehicles have another schedule (taxis and driving schools, more often)."
+        },
+        {
+          "es": "La pegatina **V-19** marca cuándo toca la siguiente.",
+          "en": "The **V-19** sticker shows when the next one is due."
+        },
+        {
+          "es": "Defecto **grave**: solo al taller y vuelta, en dos meses. **Muy grave**: no circula.",
+          "en": "**Serious** defect: workshop and back only, within two months. **Very serious**: no driving."
+        },
+        {
+          "es": "ITV caducada: **10 días** para presentarlo; después, se inicia la baja de oficio.",
+          "en": "Expired ITV: **10 days** to present it; after that, deregistration starts."
+        }
+      ],
+      "covers": [
+        "equipment-02"
+      ],
+      "src": [
+        "Real Decreto 920/2017 (inspección técnica de vehículos), arts. 4, 6, 9, 11 y 12",
+        "Reglamento General de Vehículos (RD 2822/1998), art. 10 y Anexo XI (V-19)",
+        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), arts. 76.o y 78.2"
+      ]
+    },
+    {
+      "id": "lights",
+      "title": {
+        "es": "Luces: cuándo y cuáles",
+        "en": "Lights: when and which"
+      },
+      "minutes": 8,
+      "goals": [
+        {
+          "es": "Saber cuándo debes llevar luces encendidas.",
+          "en": "Know when you must have your lights on."
+        },
+        {
+          "es": "Elegir entre luz de posición, de cruce y de carretera.",
+          "en": "Choose between position, low-beam and high-beam lights."
+        },
+        {
+          "es": "Evitar el deslumbramiento y usar las luces antiniebla solo cuando toca.",
+          "en": "Avoid dazzling others and use fog lights only when allowed."
+        }
+      ],
+      "terms": [
+        {
+          "es": "luz de posición",
+          "en": "position (side) light"
+        },
+        {
+          "es": "luz de cruce",
+          "en": "low beam"
+        },
+        {
+          "es": "luz de carretera (largas)",
+          "en": "high beam"
+        },
+        {
+          "es": "luz antiniebla",
+          "en": "fog light"
+        },
+        {
+          "es": "ocaso",
+          "en": "sunset"
+        },
+        {
+          "es": "deslumbrar",
+          "en": "to dazzle"
+        },
+        {
+          "es": "vía insuficientemente iluminada",
+          "en": "poorly lit road"
+        }
+      ],
+      "pretest": {
+        "id": "equipment-pre-3",
+        "answer": 1,
+        "es": {
+          "q": "Circulas de noche con la luz de carretera y ves que un coche se acerca de frente. ¿Cuándo pasas a la luz de cruce?",
+          "options": [
+            "Cuando el otro coche ya está a tu altura",
+            "En cuanto veas que puedes deslumbrar al otro conductor",
+            "Solo si él te hace ráfagas"
+          ],
+          "why": "Debes cambiar a la luz de cruce tan pronto como aprecies que puedes deslumbrar, aunque el otro conductor no lo haga."
+        },
+        "en": {
+          "q": "You are driving at night with your high beams on and see a car approaching. When do you switch to low beams?",
+          "options": [
+            "When the other car is already level with you",
+            "As soon as you see you could dazzle the other driver",
+            "Only if it flashes you"
+          ],
+          "why": "You must switch to low beams as soon as you notice you could dazzle, even if the other driver does not do the same."
+        },
+        "src": "RGC art. 102.1"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Cuándo llevar luces",
+            "en": "When to have lights on"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Todos los vehículos deben llevar encendido el alumbrado que corresponda **entre el ocaso y la salida del sol**. También a cualquier hora en túneles, pasos inferiores y tramos con la señal «Túnel» (S-5).",
+                "en": "All vehicles must have the right lights on **between sunset and sunrise**. They must also have them on at any hour in tunnels, underpasses and stretches marked with the “Tunnel” sign (S-5)."
+              },
+              "src": "RGC art. 98.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "El alumbrado también es obligatorio cuando el tiempo o el ambiente **reducen de forma notable la visibilidad**: niebla, lluvia intensa, nieve, humo o polvo.",
+                "en": "Lights are also compulsory when weather or surroundings **noticeably reduce visibility**: fog, heavy rain, snow, smoke or dust."
+              },
+              "src": "RGC art. 106.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "En esas condiciones llevas como mínimo las **luces de posición**. Si el vehículo mide más de 2,10 metros de ancho, también la luz de gálibo.",
+                "en": "In those conditions you have at least the **position lights** on. If the vehicle is wider than 2.10 meters, the clearance light too."
+              },
+              "src": "RGC art. 99.1"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "La placa de matrícula trasera también debe ir iluminada (art. 103). Circular sin el alumbrado reglamentario es una **infracción grave** (LSV art. 76.e).",
+                "en": "The rear license plate must also be lit (art. 103). Driving without the required lights is a **serious offense** (LSV art. 76.e)."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c3a",
+                "answer": 1,
+                "es": {
+                  "q": "Son las diez de la mañana, hace sol y entras en un túnel señalizado con la señal S-5. ¿Qué debes hacer con las luces?",
+                  "options": [
+                    "Nada: es de día",
+                    "Llevar el alumbrado encendido: en un túnel se exige a cualquier hora",
+                    "Encenderlas solo si dentro hay poca luz"
+                  ],
+                  "why": "En túneles, pasos inferiores y tramos con la señal «Túnel» hay que llevar el alumbrado encendido a cualquier hora del día."
+                },
+                "en": {
+                  "q": "It is ten in the morning, sunny, and you enter a tunnel marked with the S-5 sign. What must you do with your lights?",
+                  "options": [
+                    "Nothing: it is daytime",
+                    "Have your lights on: tunnels require it at any hour",
+                    "Turn them on only if it is dim inside"
+                  ],
+                  "why": "In tunnels, underpasses and stretches marked “Tunnel” you must have your lights on at any hour of the day."
+                },
+                "terms": [
+                  {
+                    "es": "túnel",
+                    "en": "tunnel"
+                  }
+                ],
+                "src": "RGC art. 98.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Luz de cruce y luz de carretera",
+            "en": "Low beam and high beam"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "La luz de **cruce** (corto alcance) ilumina cerca y no deslumbra. La luz de **carretera** (largo alcance) ilumina lejos. Cuál usas depende de la iluminación de la vía y de tu velocidad.",
+                "en": "The **low beam** (luz de cruce) lights the near road and does not dazzle. The **high beam** (luz de carretera) lights far ahead. Which you use depends on how well the road is lit and on your speed."
+              }
+            },
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Situación de noche",
+                  "en": "At night"
+                },
+                {
+                  "es": "Luz",
+                  "en": "Light"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "Vía iluminada, urbana o interurbana",
+                    "en": "Lit road, urban or open road"
+                  },
+                  {
+                    "es": "Cruce, además de las de posición",
+                    "en": "Low beam, plus position lights"
+                  }
+                ],
+                [
+                  {
+                    "es": "Vía interurbana sin iluminar, a más de 40 km/h",
+                    "en": "Unlit open road, over 40 km/h"
+                  },
+                  {
+                    "es": "Carretera (cruce si hay riesgo de deslumbrar)",
+                    "en": "High beam (low beam if you could dazzle)"
+                  }
+                ],
+                [
+                  {
+                    "es": "Vía interurbana sin iluminar, a 40 km/h o menos",
+                    "en": "Unlit open road, at 40 km/h or less"
+                  },
+                  {
+                    "es": "Cruce, salvo que uses las largas",
+                    "en": "Low beam, unless you use the high beam"
+                  }
+                ],
+                [
+                  {
+                    "es": "Calle de un poblado mal iluminada",
+                    "en": "Poorly lit street in a town"
+                  },
+                  {
+                    "es": "Cruce",
+                    "en": "Low beam"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Una vía está **insuficientemente iluminada** si, con vista normal, en algún punto de la calzada ocurre una de dos cosas. No puedes leer una matrícula a 10 metros. O no distingues un vehículo oscuro a 50 metros.",
+                "en": "A road is **poorly lit** if, with normal eyesight, one of two things happens at some point of the roadway. You cannot read a plate at 10 meters (33 ft). Or you cannot make out a dark vehicle at 50 meters (164 ft)."
+              },
+              "src": "RGC art. 100.3"
+            },
+            {
+              "t": "us",
+              "text": {
+                "es": "En EE. UU. sueles elegir tú cuándo usar las largas, y la ley dice sobre todo cuándo bajarlas. En España, en una vía interurbana oscura a más de 40 km/h (unas 25 mph), la norma te manda llevarlas.",
+                "en": "In the US you generally choose when to use high beams, and the law mostly tells you when to dim them. In Spain, on a dark open road above 40 km/h (about 25 mph), the rule tells you to have them on."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c3b",
+                "answer": 2,
+                "es": {
+                  "q": "Conduces de noche, a 90 km/h, por una carretera fuera de poblado sin ninguna iluminación. No viene nadie de frente. ¿Qué luz debes llevar?",
+                  "options": [
+                    "Solo las luces de posición",
+                    "La luz de cruce, siempre",
+                    "La luz de carretera (largas)"
+                  ],
+                  "why": "Fuera de poblado, de noche, en vía insuficientemente iluminada y a más de 40 km/h se lleva la luz de carretera, salvo que haya que usar la de cruce para no deslumbrar."
+                },
+                "en": {
+                  "q": "You drive at night at 90 km/h (about 56 mph) on an open road with no lighting at all. Nobody is coming the other way. Which light must you use?",
+                  "options": [
+                    "Only the position lights",
+                    "The low beam, always",
+                    "The high beam"
+                  ],
+                  "why": "Outside a town, at night, on a poorly lit road and above 40 km/h you use the high beam, unless you must use the low beam to avoid dazzling."
+                },
+                "terms": [
+                  {
+                    "es": "largas",
+                    "en": "high beams (colloquial)"
+                  }
+                ],
+                "src": "RGC art. 100.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Evita deslumbrar",
+            "en": "Do not dazzle others"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Cambia a la luz de **cruce** en cuanto veas que puedes deslumbrar a otro usuario, sobre todo al que viene de frente. Hazlo **aunque él no lo haga**. No vuelvas a las largas hasta haberte cruzado con él.",
+                "en": "Switch to the **low beam** as soon as you see you could dazzle another road user, above all one coming toward you, **even if they do not**. Do not go back to high beam until you have passed them."
+              },
+              "src": "RGC art. 102.1"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "La misma precaución vale con los vehículos que van delante de ti: tus largas les llegan por el retrovisor (art. 102.2).",
+                "en": "The same care applies to vehicles ahead of you: your high beams reach them through their mirror (art. 102.2)."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si **te** deslumbran, reduce la velocidad lo necesario, incluso hasta detenerte. Así no chocas con vehículos o peatones que van en tu sentido.",
+                "en": "If **you** are dazzled, slow down as much as needed, even to a full stop, so as not to hit vehicles or pedestrians going your way."
+              },
+              "src": "RGC art. 102.3"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Está prohibido usar las largas con el vehículo **parado o estacionado**. También está prohibido alternar largas y cruce a destellos con fines que el reglamento no prevé.",
+                "en": "It is forbidden to use high beams while the vehicle is **stopped or parked**, and to flash high and low beams alternately for purposes the regulation does not provide for."
+              },
+              "src": "RGC art. 100.2"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c3c",
+                "answer": 0,
+                "es": {
+                  "q": "De noche, un coche que viene de frente te deslumbra y no ves bien la carretera. ¿Qué debes hacer?",
+                  "options": [
+                    "Reducir la velocidad lo necesario, incluso hasta parar",
+                    "Acelerar para salir de la zona deslumbrada cuanto antes",
+                    "Poner tus largas para que el otro te vea"
+                  ],
+                  "why": "Si te deslumbran debes reducir la velocidad lo necesario, incluso hasta la detención total, para no alcanzar a vehículos o peatones que circulen en tu sentido."
+                },
+                "en": {
+                  "q": "At night an oncoming car dazzles you and you cannot see the road well. What must you do?",
+                  "options": [
+                    "Slow down as much as needed, even to a stop",
+                    "Speed up to get out of the glare quickly",
+                    "Switch on your high beams so the other driver sees you"
+                  ],
+                  "why": "If you are dazzled you must slow down as much as needed, even to a full stop, to avoid hitting vehicles or pedestrians going your way."
+                },
+                "terms": [
+                  {
+                    "es": "deslumbramiento",
+                    "en": "glare"
+                  }
+                ],
+                "src": "RGC art. 102.3"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Niebla, lluvia y luces antiniebla",
+            "en": "Fog, rain and fog lights"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "En esas condiciones debes usar la luz **antiniebla delantera** o la de cruce o de carretera. La antiniebla delantera puede ir sola o con la de cruce o la de carretera.",
+                "en": "In those conditions you must use the **front fog light** or the low or high beam. The front fog light may be used alone or with the low or high beam."
+              },
+              "src": "RGC art. 106.2"
+            },
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Luz antiniebla",
+                  "en": "Fog light"
+                },
+                {
+                  "es": "Cuándo se usa",
+                  "en": "When it is used"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "Delantera",
+                    "en": "Front"
+                  },
+                  {
+                    "es": "Con niebla, lluvia intensa, nieve, humo o polvo. También en tramos estrechos con muchas curvas: calzada de 6,50 m o menos, con señales de curvas seguidas.",
+                    "en": "In fog, heavy rain, snow, smoke or dust. Also on narrow winding stretches: a roadway of 6.50 m (about 21 ft) or less, with signs for successive curves."
+                  }
+                ],
+                [
+                  {
+                    "es": "Trasera",
+                    "en": "Rear"
+                  },
+                  {
+                    "es": "Solo cuando es especialmente desfavorable: niebla espesa, lluvia muy intensa, fuerte nevada o nubes densas de polvo o humo.",
+                    "en": "Only in especially bad conditions: dense fog, very heavy rain, heavy snow or thick clouds of dust or smoke."
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Fuera de esos casos, no las uses: la norma las limita a esas situaciones.",
+                "en": "Outside those cases, do not use them: the rule limits them to those situations."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c3d",
+                "answer": 0,
+                "es": {
+                  "q": "¿Cuándo debes llevar encendida la luz antiniebla trasera?",
+                  "options": [
+                    "Solo con niebla espesa, lluvia muy intensa, fuerte nevada o nubes densas de polvo o humo",
+                    "Siempre que llueva un poco de noche",
+                    "Siempre que circules por una calle iluminada"
+                  ],
+                  "why": "La antiniebla trasera solo debe llevarse encendida cuando las condiciones son especialmente desfavorables: niebla espesa, lluvia muy intensa, fuerte nevada o nubes densas de polvo o humo."
+                },
+                "en": {
+                  "q": "When should the rear fog light be on?",
+                  "options": [
+                    "Only in dense fog, very heavy rain, heavy snow or thick clouds of dust or smoke",
+                    "Whenever it rains a little at night",
+                    "Whenever you drive on a lit street"
+                  ],
+                  "why": "The rear fog light should be on only in especially bad conditions: dense fog, very heavy rain, heavy snow or thick clouds of dust or smoke."
+                },
+                "terms": [
+                  {
+                    "es": "antiniebla trasera",
+                    "en": "rear fog light"
+                  }
+                ],
+                "src": "RGC art. 106.2"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "Luces **entre el ocaso y la salida del sol**, en túneles a cualquier hora y cuando la visibilidad baja de forma notable.",
+          "en": "Lights **between sunset and sunrise**, in tunnels at any hour and when visibility drops noticeably."
+        },
+        {
+          "es": "Vía iluminada: **cruce** y posición. Vía oscura fuera de poblado a más de 40 km/h: **carretera**.",
+          "en": "Lit road: **low beam** and position lights. Dark open road above 40 km/h: **high beam**."
+        },
+        {
+          "es": "Cambia a **cruce** en cuanto puedas deslumbrar, aunque el otro no lo haga.",
+          "en": "Switch to **low beam** as soon as you could dazzle, even if the other driver does not."
+        },
+        {
+          "es": "Si te deslumbran, **reduce** la velocidad, incluso hasta parar.",
+          "en": "If you are dazzled, **slow down**, even to a stop."
+        },
+        {
+          "es": "**Antiniebla trasera** solo con condiciones especialmente malas.",
+          "en": "**Rear fog light** only in especially bad conditions."
+        }
+      ],
+      "covers": [],
+      "src": [
+        "Reglamento General de Circulación (RD 1428/2003), arts. 98 a 103 y 106",
+        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), art. 76.e"
+      ]
+    },
+    {
+      "id": "other-lights",
+      "title": {
+        "es": "Más luces: de día, parado y de emergencia",
+        "en": "More lights: by day, stopped and hazard lights"
+      },
+      "minutes": 7,
+      "goals": [
+        {
+          "es": "Saber quién lleva la luz de cruce de día.",
+          "en": "Know who must use low beams by day."
+        },
+        {
+          "es": "Usar las luces de emergencia solo cuando corresponde.",
+          "en": "Use hazard lights only when it is right to."
+        },
+        {
+          "es": "Avisar de tus maniobras con las luces y apagarlas a tiempo.",
+          "en": "Warn of your maneuvers with your lights and cancel them in time."
+        }
+      ],
+      "terms": [
+        {
+          "es": "luz de emergencia",
+          "en": "hazard lights"
+        },
+        {
+          "es": "intermitente",
+          "en": "turn signal"
+        },
+        {
+          "es": "luz de freno",
+          "en": "brake light"
+        },
+        {
+          "es": "carril reversible",
+          "en": "reversible lane"
+        },
+        {
+          "es": "inmovilizado",
+          "en": "immobilized"
+        },
+        {
+          "es": "avería",
+          "en": "breakdown"
+        },
+        {
+          "es": "alcance",
+          "en": "rear-end collision"
+        }
+      ],
+      "pretest": {
+        "id": "equipment-pre-4",
+        "answer": 0,
+        "es": {
+          "q": "Una motocicleta circula por una carretera a mediodía, con sol. ¿Qué luz debe llevar encendida?",
+          "options": [
+            "La luz de cruce, aunque sea de día",
+            "Ninguna: solo se enciende de noche",
+            "Solo las luces de posición"
+          ],
+          "why": "Las motocicletas deben llevar la luz de corto alcance (cruce) encendida durante el día, por cualquier vía."
+        },
+        "en": {
+          "q": "A motorcycle rides along a road at midday in full sun. Which light must it have on?",
+          "options": [
+            "The low beam, even by day",
+            "None: lights are only for night",
+            "Only the position lights"
+          ],
+          "why": "Motorcycles must have the low beam on during the day, on any road."
+        },
+        "src": "RGC art. 104.a"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Luz de cruce de día",
+            "en": "Low beams by day"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Deben llevar la luz de cruce encendida **de día** las **motocicletas**, en cualquier vía. También todos los vehículos que circulen por un **carril reversible**, un carril adicional circunstancial o un carril habilitado para el sentido contrario.",
+                "en": "These must have low beams on **by day**: **motorcycles**, on any road, and every vehicle using a **reversible lane**, an occasional extra lane or a lane opened to the opposite direction."
+              },
+              "src": "RGC art. 104"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Un turismo normal no está en esa lista, salvo en esos carriles. Pero un turismo también lleva luces de día en un túnel o cuando la visibilidad baja de forma notable. En algunos tramos es obligatoria la luz de cruce. La señal S-24 marca el **final** de un tramo así y recuerda que puedes apagarla, salvo que la visibilidad, el horario o la iluminación de la vía te obliguen a llevarla.",
+                "en": "An ordinary car is not on that list, except in those lanes. But a car also uses lights by day in a tunnel or when visibility drops noticeably. On some stretches the low beam is compulsory. Sign S-24 marks the **end** of such a stretch and reminds you that you may switch it off, unless visibility, the time of day or the lighting of the road require it."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c4a",
+                "answer": 2,
+                "es": {
+                  "q": "Un turismo circula de día, con buen tiempo, por un carril reversible habilitado por la autoridad. ¿Qué luz debe llevar?",
+                  "options": [
+                    "Ninguna: de día los turismos no llevan luces",
+                    "La luz antiniebla delantera",
+                    "La luz de cruce encendida, aunque sea de día"
+                  ],
+                  "why": "Todos los vehículos que circulan por un carril reversible deben llevar la luz de cruce encendida, también de día."
+                },
+                "en": {
+                  "q": "A car drives by day, in good weather, in a reversible lane opened by the authority. Which light must it have on?",
+                  "options": [
+                    "None: cars do not use lights by day",
+                    "The front fog light",
+                    "The low beam, even by day"
+                  ],
+                  "why": "Every vehicle in a reversible lane must have the low beam on, also by day."
+                },
+                "terms": [
+                  {
+                    "es": "carril reversible",
+                    "en": "reversible lane"
+                  }
+                ],
+                "src": "RGC art. 104.b"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Parado de noche o con luces averiadas",
+            "en": "Stopped at night or with failed lights"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Un vehículo **inmovilizado** en la calzada o el arcén debe tener encendidas las **luces de posición** y, si las tiene, las de gálibo. Vale entre la puesta y la salida del sol, o con poca visibilidad.",
+                "en": "A vehicle **immobilized** on the carriageway or shoulder between sunset and sunrise, or in poor visibility, must have its **position lights** on and, where fitted, its clearance lights."
+              },
+              "src": "RGC art. 105.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si una avería irreparable te obliga a circular con una luz **más débil**, reduce la velocidad. Debes poder detenerte dentro de la zona iluminada.",
+                "en": "If an unrepairable lighting failure forces you to drive with a **weaker** light, slow down to a speed at which you can stop within the lit area."
+              },
+              "src": "RGC art. 107"
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Luces de emergencia",
+            "en": "Hazard lights"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "La **luz de emergencia** hace parpadear todos los intermitentes a la vez. Avisa de un peligro. No es un permiso para estacionar mal.",
+                "en": "The **hazard light** flashes all turn signals at once. It warns of danger. It is not permission to park badly."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Tras un **accidente o una avería**, enciende la luz de emergencia si el coche la lleva, y las luces de posición si hace falta. Además usa el dispositivo de preseñalización de peligro reglamentario, hoy la baliza **V-16**, mientras la vía no quede libre.",
+                "en": "After a **crash or breakdown**, switch on the hazard lights if the car has them, and the position lights if needed. Also use the regulation hazard-warning device, today the **V-16** beacon, until the road is clear."
+              },
+              "src": "RGC art. 130.4; RGV Anexo XII, apartado 1.a"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si no puedes alcanzar la velocidad mínima y hay **peligro de alcance**, circula con los intermitentes en señal de emergencia.",
+                "en": "If you cannot reach the minimum required speed and there is **danger of being hit from behind**, drive with the direction indicators on as hazard lights."
+              },
+              "src": "RGC art. 49.3"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si te inmovilizas en autopista o autovía, o con poca visibilidad, señaliza tu vehículo con la **luz de emergencia**, si la tiene. Si hace falta, añade las luces de posición.",
+                "en": "Stopping on a motorway or dual carriageway, or in poor visibility, is signaled with the **hazard light**, if the vehicle has one, and where needed the position lights."
+              },
+              "src": "RGC art. 109.2.c"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c4c",
+                "answer": 1,
+                "es": {
+                  "q": "Circulas por una autovía y tu coche, con una avería, no puede alcanzar la velocidad mínima. Puede alcanzarte otro vehículo por detrás. ¿Qué haces con las luces?",
+                  "options": [
+                    "Nada especial: basta con ir pegado al borde de la calzada",
+                    "Circular con las luces de emergencia encendidas",
+                    "Hacer ráfagas con las largas a los que vienen detrás"
+                  ],
+                  "why": "Si no puedes alcanzar la velocidad mínima y hay peligro de alcance, debes circular con las luces indicadoras de dirección en señal de emergencia."
+                },
+                "en": {
+                  "q": "You drive on a dual carriageway and your car, with a fault, cannot reach the minimum speed. Another vehicle could hit you from behind. What do you do with your lights?",
+                  "options": [
+                    "Nothing special: staying close to the edge is enough",
+                    "Drive with the hazard lights on",
+                    "Flash your high beams at those behind you"
+                  ],
+                  "why": "If you cannot reach the minimum speed and there is a danger of being hit from behind, you must drive with the direction indicators on as hazard lights."
+                },
+                "terms": [
+                  {
+                    "es": "velocidad mínima",
+                    "en": "minimum speed"
+                  }
+                ],
+                "src": "RGC art. 49.3"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Intermitentes y luces de freno",
+            "en": "Turn signals and brake lights"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Avisa con **señales ópticas** de todo desplazamiento lateral o hacia atrás. Avisa también de que vas a frenar mucho o a inmovilizarte. Hazlo con antelación. Si es una luz, que siga encendida hasta terminar la maniobra.",
+                "en": "Warn with **optical signals** of any sideways or backward movement, and that you are about to brake hard or stop. Do it in good time. If it is a light, keep it on until the maneuver ends."
+              },
+              "src": "RGC art. 109.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Un desplazamiento lateral se avisa con la luz indicadora de dirección del lado al que vas. El aviso **termina en cuanto el vehículo ha tomado su nueva trayectoria**.",
+                "en": "A sideways move is signaled with the direction indicator on the side you are heading to. The signal **ends as soon as the vehicle is on its new path**."
+              },
+              "src": "RGC art. 109.2.a"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si vas a frenar mucho o a inmovilizarte, avísalo, si es posible, con el uso **repetido de las luces de freno**.",
+                "en": "The intention to brake hard or to stop is signaled, where possible, by **repeatedly using the brake lights**."
+              },
+              "src": "RGC art. 109.2.c"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Para cada maniobra concreta, consulta el módulo «Adelantamientos, giros y marcha atrás».",
+                "en": "For each specific maneuver, see the “Overtaking, turning and reversing” module."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c4d",
+                "answer": 0,
+                "es": {
+                  "q": "Has cambiado de carril y tu intermitente sigue encendido. ¿Cuándo debe terminar el aviso del desplazamiento lateral?",
+                  "options": [
+                    "En cuanto el vehículo ha tomado su nueva trayectoria",
+                    "Cuando hayas recorrido unos cien metros",
+                    "Cuando termine el trayecto"
+                  ],
+                  "why": "El aviso de un desplazamiento lateral solo avisa de ese movimiento, así que debe terminar tan pronto como el vehículo haya adoptado su nueva trayectoria."
+                },
+                "en": {
+                  "q": "You changed lanes and your turn signal is still on. When should the warning of the lateral movement end?",
+                  "options": [
+                    "As soon as the vehicle is on its new path",
+                    "When you have driven about a hundred meters",
+                    "When the trip ends"
+                  ],
+                  "why": "The signal for a lateral move only warns of that movement, so it must end as soon as the vehicle has taken up its new path."
+                },
+                "terms": [
+                  {
+                    "es": "trayectoria",
+                    "en": "path / trajectory"
+                  }
+                ],
+                "src": "RGC art. 109.2.a"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "**Motos**: luz de cruce de día. Todos: luz de cruce en un **carril reversible**.",
+          "en": "**Motorcycles**: low beam by day. Everyone: low beam in a **reversible lane**."
+        },
+        {
+          "es": "Parado de noche en la vía: **luces de posición**.",
+          "en": "Stopped on the road at night: **position lights**."
+        },
+        {
+          "es": "Con una luz más débil por avería, **reduce** hasta poder parar en lo iluminado.",
+          "en": "With a weaker light after a failure, **slow down** until you can stop within what is lit."
+        },
+        {
+          "es": "**Luces de emergencia**: avería o accidente, velocidad mínima imposible, parada en autovía o con poca visibilidad.",
+          "en": "**Hazard lights**: breakdown or crash, minimum speed impossible, stopping on a dual carriageway or in poor visibility."
+        },
+        {
+          "es": "El aviso lateral **acaba** cuando ya has tomado tu nueva trayectoria.",
+          "en": "The lateral signal **ends** once you are on your new path."
+        }
+      ],
+      "covers": [
+        "equipment-04"
+      ],
+      "src": [
+        "Reglamento General de Circulación (RD 1428/2003), arts. 49.3, 104, 105, 107, 109 y 130.4",
+        "Reglamento General de Circulación, Anexo I, ap. 5.1 (señal S-24, Catálogo de señales)"
+      ]
+    },
+    {
+      "id": "kit-and-load",
+      "title": {
+        "es": "Equipo obligatorio y carga",
+        "en": "Required kit and load"
+      },
+      "minutes": 8,
+      "goals": [
+        {
+          "es": "Decir qué lleva un turismo: baliza V-16, chaleco y rueda o alternativa.",
+          "en": "Say what a car must carry: V-16 beacon, vest and a wheel or alternative."
+        },
+        {
+          "es": "Saber dónde va la baliza V-16 y qué hace.",
+          "en": "Know where the V-16 beacon goes and what it does."
+        },
+        {
+          "es": "Colocar la carga sin tapar luces ni matrícula y señalizar lo que sobresale.",
+          "en": "Load so lights and plate stay visible, and mark anything that sticks out."
+        }
+      ],
+      "terms": [
+        {
+          "es": "baliza V-16",
+          "en": "V-16 warning beacon"
+        },
+        {
+          "es": "chaleco reflectante",
+          "en": "high-visibility vest"
+        },
+        {
+          "es": "rueda de repuesto",
+          "en": "spare wheel"
+        },
+        {
+          "es": "arcén",
+          "en": "hard shoulder"
+        },
+        {
+          "es": "carga",
+          "en": "load / cargo"
+        },
+        {
+          "es": "sobresalir",
+          "en": "to stick out"
+        },
+        {
+          "es": "panel V-20",
+          "en": "V-20 load panel"
+        },
+        {
+          "es": "plaza",
+          "en": "seat"
+        }
+      ],
+      "pretest": {
+        "id": "equipment-pre-5",
+        "answer": 2,
+        "es": {
+          "q": "¿Dónde se coloca la baliza V-16 cuando tu coche queda inmovilizado en la calzada?",
+          "options": [
+            "En la calzada, detrás del coche",
+            "Dentro del maletero, apagada",
+            "En la parte más alta posible del propio coche"
+          ],
+          "why": "La V-16 es una luz amarilla que se pone en la parte más alta posible del vehículo inmovilizado para que se vea al máximo."
+        },
+        "en": {
+          "q": "Where do you put the V-16 beacon when your car is immobilized on the carriageway?",
+          "options": [
+            "On the road, behind the car",
+            "In the trunk, switched off",
+            "On the highest possible part of the car itself"
+          ],
+          "why": "The V-16 is a yellow light placed on the highest possible part of the immobilized vehicle so that it is seen as far as possible."
+        },
+        "src": "RGV Anexo XI, V-16"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Qué lleva un turismo",
+            "en": "What a car carries"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los turismos deben llevar esta dotación. También los vehículos mixtos y de mercancías de hasta **3.500 kg**, salvo los de tres ruedas y los cuadriciclos:",
+                "en": "Cars must carry this equipment. So must mixed-use and goods vehicles up to **3,500 kg** (about 7,700 lb), except three-wheelers and quadricycles:"
+              },
+              "src": "RGV Anexo XII, apartado 1"
+            },
+            {
+              "t": "list",
+              "items": [
+                {
+                  "es": "El dispositivo luminoso de preseñalización de peligro **V-16**.",
+                  "en": "The **V-16** light warning device."
+                },
+                {
+                  "es": "Un **chaleco reflectante** de alta visibilidad, con marcado CE y de clase 2 como mínimo.",
+                  "en": "A high-visibility **vest** with the CE mark, class 2 or higher."
+                },
+                {
+                  "es": "Una **rueda de repuesto** completa o de uso temporal, con las herramientas para cambiarla. O un sistema alternativo que dé garantías suficientes para seguir circulando.",
+                  "en": "A complete or temporary-use **spare wheel**, with the tools to change it. Or an alternative system that gives enough guarantee of staying mobile."
+                }
+              ]
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Si tu coche usa un sistema alternativo en lugar de rueda, circulas respetando las limitaciones propias de ese sistema.",
+                "en": "If your car uses an alternative system instead of a wheel, you drive within the limits of that system."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Las **motocicletas** deben llevar un chaleco reflectante de alta visibilidad.",
+                "en": "**Motorcycles** must carry a high-visibility vest."
+              },
+              "src": "RGV Anexo XII, apartado 3"
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "La baliza V-16",
+            "en": "The V-16 beacon"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "La **V-16** indica que el vehículo ha quedado inmovilizado en la calzada, o que su carga ha caído en ella. Es una luz amarilla que se coloca en la **parte más alta posible** del vehículo.",
+                "en": "The **V-16** shows that the vehicle has been immobilized on the carriageway, or that its load has fallen onto it. It is a yellow light placed on the **highest possible part** of the vehicle."
+              },
+              "src": "RGV Anexo XI, V-16.1 y V-16.2"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "La baliza lleva su **propia batería** y no depende de una aplicación del móvil. **Comunica** su activación, su desactivación y su posición al punto de acceso nacional de tráfico y movilidad.",
+                "en": "The beacon has its **own battery**, does not depend on a phone app, and **reports** its activation, deactivation and position to the national traffic and mobility access point."
+              },
+              "src": "RGV Anexo XI, V-16.3, V-16.4 y V-16.6"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Solo valen los modelos que figuran en la lista de **dgt.es/v16**. La fecha de caducidad del servicio de conexión debe aparecer en el envase y en la propia baliza.",
+                "en": "Only the models on the list at **dgt.es/v16** are valid. The expiry date of the connection service must appear on the packaging and on the beacon itself."
+              },
+              "src": "RGV Anexo XI, V-16.7 y V-16.8"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Hasta el 1 de enero de 2026 se podían seguir usando la señal V-16 anterior a ese real decreto y las luces V-16 sin conexión certificadas antes de él. Desde esa fecha vale la baliza V-16 conectada.",
+                "en": "Until 1 January 2026 you could still use the V-16 signal as it was before that decree, and V-16 lights without a connection that were certified before it. Since that date the connected V-16 beacon is what counts."
+              },
+              "src": "RD 159/2021, disposición transitoria primera; RGV Anexo XI, V-16; RGV Anexo XII, apartado 1.a"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c5b",
+                "answer": 0,
+                "es": {
+                  "q": "¿Qué comunica a la Dirección General de Tráfico una baliza V-16 homologada?",
+                  "options": [
+                    "Su activación, su desactivación y la posición del vehículo",
+                    "La matrícula y el nombre del conductor",
+                    "La velocidad a la que ibas antes de parar"
+                  ],
+                  "why": "La V-16 comunica al punto de acceso nacional de tráfico y movilidad su activación, su desactivación y su geoposicionamiento. Sirve solo para visibilizar el vehículo y enviar su ubicación."
+                },
+                "en": {
+                  "q": "What does an approved V-16 beacon report to the traffic authority?",
+                  "options": [
+                    "Its activation, its deactivation and the vehicle’s position",
+                    "The plate and the driver’s name",
+                    "The speed you were doing before stopping"
+                  ],
+                  "why": "The V-16 reports its activation, deactivation and geopositioning to the national traffic and mobility access point. It exists only to make the vehicle visible and send its location."
+                },
+                "terms": [
+                  {
+                    "es": "baliza V-16",
+                    "en": "V-16 warning beacon"
+                  }
+                ],
+                "src": "RGV Anexo XI, V-16.4 and V-16.9"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "El chaleco reflectante",
+            "en": "The high-visibility vest"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los conductores de motocicletas, turismos, autobuses, vehículos de mercancías y vehículos mixtos deben usar el **chaleco reflectante** cuando **salgan del vehículo**. Hay que ponérselo si ocupan la calzada o el arcén de una vía interurbana.",
+                "en": "Drivers of motorcycles, cars, buses, goods vehicles and mixed-use vehicles must wear the high-visibility **vest** when they **leave the vehicle** and occupy the carriageway or the hard shoulder of an open road."
+              },
+              "src": "RGC art. 118.4"
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Guárdalo dentro del habitáculo, a mano. Si está en el maletero, tendrás que salir sin él para sacarlo.",
+                "en": "Keep it inside the cabin, within reach. If it is in the trunk, you will have to get out without it to fetch it."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Los pasos que debes seguir después de una avería están en el módulo «Accidentes y primeros auxilios».",
+                "en": "The steps to follow after a breakdown are in the “Collisions and first aid” module."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c5c",
+                "answer": 1,
+                "es": {
+                  "q": "Tu coche se avería en una carretera interurbana y tienes que salir al arcén. ¿Qué debes ponerte?",
+                  "options": [
+                    "Nada: el chaleco es solo para motoristas",
+                    "El chaleco reflectante de alta visibilidad",
+                    "Una prenda de color claro cualquiera"
+                  ],
+                  "why": "Los conductores de turismos deben usar el chaleco reflectante de alta visibilidad al salir del vehículo y ocupar la calzada o el arcén de una vía interurbana."
+                },
+                "en": {
+                  "q": "Your car breaks down on an open road and you have to step onto the hard shoulder. What must you put on?",
+                  "options": [
+                    "Nothing: the vest is only for motorcyclists",
+                    "The high-visibility vest",
+                    "Any light-colored clothing"
+                  ],
+                  "why": "Drivers of cars must wear the high-visibility vest when leaving the vehicle and occupying the carriageway or hard shoulder of an open road."
+                },
+                "terms": [
+                  {
+                    "es": "arcén",
+                    "en": "hard shoulder"
+                  }
+                ],
+                "src": "RGC art. 118.4"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Cómo se coloca la carga",
+            "en": "How to place the load"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "La carga y sus accesorios deben ir colocados, y sujetos si hace falta, de modo que **no puedan**: arrastrar, caer o moverse de forma peligrosa; comprometer la estabilidad; producir ruido, polvo u otras molestias evitables; ni **ocultar** luces, placas o las señales manuales del conductor.",
+                "en": "The load and its fittings must be placed, and secured if necessary, so that they **cannot**: drag, fall or shift dangerously; compromise stability; cause avoidable noise, dust or nuisance; or **hide** lights, plates or the driver’s hand signals."
+              },
+              "src": "RGC art. 14.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Las materias que producen polvo o pueden caer deben ir **cubiertas** total y eficazmente.",
+                "en": "Materials that produce dust or could fall must be **covered** completely and effectively."
+              },
+              "src": "RGC art. 14.2"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c5d",
+                "answer": 2,
+                "es": {
+                  "q": "Llevas una bicicleta en un portabicicletas trasero. La bici tapa la matrícula y las luces traseras. ¿Qué dice la norma?",
+                  "options": [
+                    "Es legal si la bici va bien sujeta",
+                    "Es legal si circulas de día",
+                    "No puedes circular así: la carga no debe ocultar luces ni placas"
+                  ],
+                  "why": "La carga debe ir dispuesta de forma que no oculte los dispositivos de alumbrado ni las placas obligatorias, y el conductor debe verificar que la matrícula se lee."
+                },
+                "en": {
+                  "q": "You carry a bike on a rear rack. The bike hides the plate and the rear lights. What does the rule say?",
+                  "options": [
+                    "It is legal if the bike is firmly secured",
+                    "It is legal if you drive by day",
+                    "You may not drive like this: the load must not hide lights or plates"
+                  ],
+                  "why": "The load must be arranged so that it does not hide the lighting devices or the compulsory plates, and the driver must check that the plate can be read."
+                },
+                "terms": [
+                  {
+                    "es": "portabicicletas",
+                    "en": "bike rack"
+                  }
+                ],
+                "src": "RGC art. 14.1.d; LSV art. 10.2"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Personas: solo en las plazas",
+            "en": "People: only in seats"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "El número de personas que lleva un vehículo **no puede superar el de plazas** que tiene autorizadas.",
+                "en": "The number of people a vehicle carries **may not exceed the seats** it is authorized for."
+              },
+              "src": "RGC art. 9.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Está prohibido llevar personas en un lugar que **no esté destinado y acondicionado** para ellas.",
+                "en": "It is forbidden to carry people in a place that is **not meant and fitted** for them."
+              },
+              "src": "RGC art. 10.1"
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Si la carga sobresale",
+            "en": "If the load sticks out"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "La carga no debe sobresalir de la **proyección en planta** del vehículo, salvo en los casos que fija el reglamento. En un turismo puede sobresalir por detrás hasta el **10 %** de su longitud, o el 15 % si es indivisible.",
+                "en": "The load must not stick out beyond the vehicle’s **outline seen from above**, except in the cases the regulation sets. A car may carry a rear overhang of up to **10 %** of its length, or 15 % if the load is indivisible."
+              },
+              "src": "RGC art. 15.1 and 15.3"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Toda carga que sobresalga por detrás debe llevar la señal **V-20** en su extremo posterior. Entre la puesta y la salida del sol, o con poca visibilidad, lleva además una **luz roja**.",
+                "en": "Any load that sticks out at the rear must carry the **V-20** panel at its rear end. Between sunset and sunrise, or in poor visibility, it must also carry a **red light**."
+              },
+              "src": "RGC art. 15.6"
+            },
+            {
+              "t": "example",
+              "situation": {
+                "es": "Tu turismo mide 4,5 metros de largo. Llevas una tabla que sobresale por detrás.",
+                "en": "Your car is 4.5 meters long. You carry a board that sticks out at the rear."
+              },
+              "action": {
+                "es": "Si la carga se puede dividir, puede sobresalir hasta 0,45 metros (unas 18 pulgadas), con el panel V-20 en la punta. De noche, añade una luz roja.",
+                "en": "If the load can be divided, it may stick out up to 0.45 meters (about 18 inches), with the V-20 panel at the tip. At night, add a red light."
+              },
+              "why": {
+                "es": "El 10 % de 4,5 m es 0,45 m. Toda carga que sobresale por detrás lleva el panel V-20.",
+                "en": "10 % of 4.5 m is 0.45 m, and any load that sticks out at the rear is marked with the V-20 panel."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c5f",
+                "answer": 0,
+                "es": {
+                  "q": "Un turismo de 4 metros lleva una barra que sobresale 30 centímetros por detrás. ¿Qué debes hacer?",
+                  "options": [
+                    "Señalizarla con el panel V-20, y de noche con una luz roja",
+                    "Nada: es poco y no hace falta señal",
+                    "Quitarla: la carga nunca puede sobresalir"
+                  ],
+                  "why": "Un turismo puede llevar carga que sobresalga por detrás hasta el 10 % de su longitud (40 cm aquí). Debe señalizarse con el panel V-20 y, de noche, con una luz roja."
+                },
+                "en": {
+                  "q": "A 4-meter car carries a bar that sticks out 30 centimeters at the rear. What must you do?",
+                  "options": [
+                    "Mark it with the V-20 panel, and with a red light at night",
+                    "Nothing: it is small and needs no sign",
+                    "Remove it: a load can never stick out"
+                  ],
+                  "why": "A car may carry a load sticking out at the rear up to 10 % of its length (40 cm here). It must be marked with the V-20 panel and, at night, with a red light."
+                },
+                "terms": [
+                  {
+                    "es": "sobresale",
+                    "en": "sticks out"
+                  }
+                ],
+                "src": "RGC art. 15.3 and 15.6"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "Un turismo lleva **baliza V-16, chaleco** y **rueda de repuesto** (o alternativa).",
+          "en": "A car carries a **V-16 beacon, vest** and a **spare wheel** (or alternative)."
+        },
+        {
+          "es": "La **V-16** va en la parte más alta del coche y se conecta con la DGT.",
+          "en": "The **V-16** goes on the highest part of the car and connects to the DGT."
+        },
+        {
+          "es": "Chaleco puesto al **salir** a calzada o arcén de una vía interurbana.",
+          "en": "Vest on when you **get out** onto the carriageway or hard shoulder of an open road."
+        },
+        {
+          "es": "La carga **no oculta** luces ni placa y va sujeta.",
+          "en": "The load **does not hide** lights or plate and is secured."
+        },
+        {
+          "es": "Si sobresale por detrás: **V-20** (y luz roja de noche); en turismo, hasta el 10 %.",
+          "en": "If it sticks out at the rear: **V-20** (and a red light at night); on a car, up to 10 %."
+        }
+      ],
+      "covers": [
+        "equipment-01"
+      ],
+      "src": [
+        "Reglamento General de Vehículos (RD 2822/1998), Anexos XI (V-16, V-20) y XII",
+        "Real Decreto 159/2021, disposición transitoria primera",
+        "Reglamento General de Circulación (RD 1428/2003), arts. 9, 10, 14, 15 y 118.4",
+        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), art. 10.2"
+      ]
+    },
+    {
+      "id": "upkeep",
+      "title": {
+        "es": "Neumáticos, zonas de bajas emisiones y conducción eficiente",
+        "en": "Tires, low-emission zones and efficient driving"
+      },
+      "minutes": 7,
+      "goals": [
+        {
+          "es": "Saber la profundidad mínima del dibujo y reconocer un neumático gastado.",
+          "en": "Know the minimum tread depth and spot a worn tire."
+        },
+        {
+          "es": "Entender qué es una zona de bajas emisiones y el distintivo ambiental.",
+          "en": "Understand what a low-emission zone and the environmental badge are."
+        },
+        {
+          "es": "Conocer unos consejos de conducción eficiente (no son ley).",
+          "en": "Know a few efficient-driving tips (they are not law)."
+        }
+      ],
+      "terms": [
+        {
+          "es": "neumático",
+          "en": "tire"
+        },
+        {
+          "es": "dibujo (banda de rodadura)",
+          "en": "tread"
+        },
+        {
+          "es": "indicador de desgaste",
+          "en": "wear indicator"
+        },
+        {
+          "es": "zona de bajas emisiones (ZBE)",
+          "en": "low-emission zone"
+        },
+        {
+          "es": "distintivo ambiental",
+          "en": "environmental badge"
+        },
+        {
+          "es": "conducción eficiente",
+          "en": "efficient driving"
+        }
+      ],
+      "pretest": {
+        "id": "equipment-pre-6",
+        "answer": 2,
+        "es": {
+          "q": "¿Qué profundidad mínima deben tener las ranuras principales del dibujo de los neumáticos de un turismo?",
+          "options": [
+            "3 mm",
+            "0,5 mm",
+            "1,6 mm"
+          ],
+          "why": "En turismos y furgonetas pequeñas, las ranuras principales deben tener como mínimo 1,6 mm durante toda su utilización en las vías públicas."
+        },
+        "en": {
+          "q": "What minimum depth must the main tread grooves of a car’s tires have?",
+          "options": [
+            "3 mm",
+            "0.5 mm",
+            "1.6 mm"
+          ],
+          "why": "On cars and small vans the main grooves must be at least 1.6 mm deep throughout their use on public roads."
+        },
+        "src": "RGV Anexo VII, apartado 2"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Neumáticos: lo que exige la ley",
+            "en": "Tires: what the law requires"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los neumáticos de turismos y furgonetas pequeñas deben tener una profundidad mínima de **1,6 mm** en las ranuras principales. Debe cumplirse durante todo su uso en vías públicas.",
+                "en": "The tires of cars and small vans must have a tread depth of at least **1.6 mm** in the main grooves throughout their use on public roads."
+              },
+              "src": "RGV Anexo VII, apartado 2"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los neumáticos de turismo llevan **indicadores de desgaste**. Señalan que las ranuras principales han llegado a esa profundidad mínima.",
+                "en": "Car tires have **wear indicators**. They show that the main grooves have reached that minimum depth."
+              },
+              "src": "RGV Anexo VII, apartado 3"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Un neumático no debe tener ampollas, deformaciones anormales, roturas, cables al descubierto ni grietas. Tampoco puede perder las inscripciones reglamentarias.",
+                "en": "A tire must show no blisters, abnormal deformation, tears, exposed cords or cracks. It must also keep its regulatory markings."
+              },
+              "src": "RGV Anexo VII, apartado 4"
+            },
+            {
+              "t": "us",
+              "text": {
+                "es": "1,6 mm son unos 2/32 de pulgada. Algunos estados de EE. UU., como Nueva York, exigen el mismo mínimo de 2/32 de pulgada.",
+                "en": "1.6 mm is about 2/32 inch. Some US states, such as New York, set the same minimum of 2/32 inch."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c6a",
+                "answer": 0,
+                "es": {
+                  "q": "En un neumático de turismo, el indicador de desgaste de las ranuras principales ya está a ras de la banda de rodadura. ¿Qué significa?",
+                  "options": [
+                    "Que el dibujo ha llegado a la profundidad mínima legal y hay que cambiar el neumático",
+                    "Que el neumático está casi nuevo",
+                    "Que debes subir la presión de inflado"
+                  ],
+                  "why": "Los indicadores de desgaste señalan que las ranuras principales han alcanzado la profundidad mínima de 1,6 mm. Con más desgaste, el neumático deja de ser legal y hay que cambiarlo."
+                },
+                "en": {
+                  "q": "On a car tire, the wear indicator in the main grooves is level with the tread surface. What does it mean?",
+                  "options": [
+                    "The tread has reached the legal minimum and the tire must be replaced",
+                    "The tire is almost new",
+                    "You should raise the tire pressure"
+                  ],
+                  "why": "Wear indicators show the main grooves have reached the 1.6 mm minimum. With any more wear the tire is no longer legal and must be replaced."
+                },
+                "terms": [
+                  {
+                    "es": "indicador de desgaste",
+                    "en": "wear indicator"
+                  }
+                ],
+                "src": "RGV Anexo VII, apartado 3"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Revisiones sencillas (consejos)",
+            "en": "Simple checks (tips)"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Lo que sigue es consejo de la DGT, no ley. Sirve para llegar a la ITV sin sorpresas y para viajar seguro.",
+                "en": "What follows is DGT advice, not law. It helps you reach the ITV without surprises and drive safely."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "**Presión**: mira la de los neumáticos más o menos cada 15 días. La presión recomendada está en una pegatina del fabricante, dentro del vehículo: en la tapa del depósito o en un lateral de las puertas. (Guía DGT)",
+                "en": "**Pressure**: check your tires about every 15 days. The manufacturer’s recommended pressure is on a sticker inside the vehicle, on the fuel cap or on the side of the doors. (DGT guidance)"
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "**Luces**: comprueba que funcionan todas, sobre todo las de freno, posición, cruce, largas y antiniebla. (Guía DGT)",
+                "en": "**Lights**: check that all of them work, above all brake, position, low beam, high beam and fog lights. (DGT guidance)"
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "**Líquidos**: mantén bien el nivel de aceite, anticongelante, líquido del limpiaparabrisas y líquido de frenos. Si el de frenos está por debajo de la marca, no lo rellenes sin más: llévalo al taller, porque puede haber una fuga o unas pastillas gastadas. (Guía DGT)",
+                "en": "**Fluids**: keep oil, coolant, washer fluid and brake fluid at the right level. If brake fluid is below the mark, do not just top it up: take the car to a workshop, because there may be a leak or worn pads. (DGT guidance)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Zonas de bajas emisiones",
+            "en": "Low-emission zones"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Una **zona de bajas emisiones (ZBE)** es un ámbito que delimita una administración pública. Allí se aplican **restricciones de acceso, circulación y estacionamiento** para mejorar el aire. Dependen de la clasificación ambiental del vehículo.",
+                "en": "A **low-emission zone (ZBE)** is an area delimited by a public authority where **restrictions on access, circulation and parking** apply, to improve air quality and cut greenhouse gases. The restrictions depend on the vehicle’s environmental classification."
+              },
+              "src": "Ley 7/2021, art. 14.3"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Las autoridades competentes pueden restringir total o parcialmente la entrada y circulación de vehículos en las zonas de bajas emisiones.",
+                "en": "The competent authorities may restrict, wholly or partly, the entry and circulation of vehicles in low-emission zones."
+              },
+              "src": "RGC art. 157 (Restricciones por motivos medioambientales, añadido por el RD 518/2026, en vigor desde el 1 de octubre de 2026)"
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "r-120"
+              ],
+              "caption": {
+                "es": "R-120 prohíbe la entrada a vehículos según su distintivo ambiental u otros criterios ambientales. Los criterios figuran en un panel complementario o en un cartel.",
+                "en": "R-120 bans entry to vehicles according to their environmental badge or other environmental criteria. The criteria are on a supplementary panel or notice."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Cada ciudad fija sus propias reglas, así que mira las señales de entrada a la zona. El reglamento clasifica los turismos y furgonetas así:",
+                "en": "Each city sets its own rules, so read the signs at the entrance to the zone. The regulation classifies cars and small vans like this:"
+              }
+            },
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Categoría",
+                  "en": "Category"
+                },
+                {
+                  "es": "Turismos y furgonetas (M1, N1)",
+                  "en": "Cars and small vans (M1, N1)"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "0 emisiones",
+                    "en": "Zero emissions"
+                  },
+                  {
+                    "es": "Eléctrico de batería o de autonomía extendida, de hidrógeno o de pila de combustible, o híbrido enchufable con al menos 40 km de autonomía.",
+                    "en": "Battery or extended-range electric, hydrogen or fuel cell, or plug-in hybrid with at least 40 km of range."
+                  }
+                ],
+                [
+                  {
+                    "es": "ECO",
+                    "en": "ECO"
+                  },
+                  {
+                    "es": "Híbrido no enchufable, híbrido enchufable con menos de 40 km de autonomía, o de gas (GNC, GLP). Debe cumplir también los criterios de C.",
+                    "en": "Non-plug-in hybrid, plug-in hybrid under 40 km range, or gas-powered (CNG, LPG). It must also meet the criteria for C."
+                  }
+                ],
+                [
+                  {
+                    "es": "C",
+                    "en": "C"
+                  },
+                  {
+                    "es": "Gasolina Euro 4, 5 o 6, o diésel Euro 6.",
+                    "en": "Gasoline Euro 4, 5 or 6, or diesel Euro 6."
+                  }
+                ],
+                [
+                  {
+                    "es": "B",
+                    "en": "B"
+                  },
+                  {
+                    "es": "Gasolina Euro 3, o diésel Euro 4 o 5.",
+                    "en": "Gasoline Euro 3, or diesel Euro 4 or 5."
+                  }
+                ],
+                [
+                  {
+                    "es": "A",
+                    "en": "A"
+                  },
+                  {
+                    "es": "Todos los demás.",
+                    "en": "All the rest."
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c6b",
+                "answer": 1,
+                "es": {
+                  "q": "Entras en una ciudad con una zona de bajas emisiones y hay una señal R-120. ¿Quién decide qué vehículos pueden entrar?",
+                  "options": [
+                    "El conductor, si el motor es moderno",
+                    "La administración que delimita la zona, según la clasificación ambiental",
+                    "La ITV, según la pegatina V-19"
+                  ],
+                  "why": "La zona la delimita una administración pública y las restricciones dependen de la clasificación ambiental de cada vehículo. Se indican con señales y paneles en la entrada."
+                },
+                "en": {
+                  "q": "You enter a city with a low-emission zone and see an R-120 sign. Who decides which vehicles may enter?",
+                  "options": [
+                    "The driver, if the engine is modern",
+                    "The authority that delimits the zone, based on environmental classification",
+                    "The ITV, according to the V-19 sticker"
+                  ],
+                  "why": "A public authority delimits the zone and the restrictions depend on each vehicle’s environmental classification. They are shown on signs and panels at the entrance."
+                },
+                "terms": [
+                  {
+                    "es": "zona de bajas emisiones",
+                    "en": "low-emission zone"
+                  }
+                ],
+                "src": "Ley 7/2021 art. 14.3; RGC art. 157 (añadido por el RD 518/2026)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Conducción eficiente (consejos)",
+            "en": "Efficient driving (tips)"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Conducir de forma eficiente gasta menos combustible. Estos consejos son del IDAE, el organismo público de energía. No son ley.",
+                "en": "Efficient driving burns less fuel. These tips come from IDAE, the public energy agency. They are not law."
+              }
+            },
+            {
+              "t": "list",
+              "items": [
+                {
+                  "es": "Circula en la marcha **más larga** posible y a pocas revoluciones.",
+                  "en": "Drive in the **highest gear** you can, at low revs."
+                },
+                {
+                  "es": "Mantén la velocidad lo más **uniforme** posible. Evita frenar y acelerar sin necesidad.",
+                  "en": "Keep your speed as **steady** as possible. Avoid braking and accelerating unnecessarily."
+                },
+                {
+                  "es": "Al reducir, **levanta el pie** del acelerador y deja rodar el coche con la marcha puesta.",
+                  "en": "To slow down, **lift your foot** off the accelerator and let the car roll in gear."
+                },
+                {
+                  "es": "En paradas de **más de 60 segundos**, apaga el motor.",
+                  "en": "For stops of **more than 60 seconds**, switch the engine off."
+                },
+                {
+                  "es": "Mira lejos: procura ver **dos o tres vehículos** por delante para anticiparte.",
+                  "en": "Look ahead: try to see **two or three vehicles** in front so you can anticipate."
+                }
+              ]
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "La conducción eficiente no sustituye a la seguridad. Si el tráfico pide otra cosa, haz lo más seguro. (Guía IDAE)",
+                "en": "Efficient driving does not replace safety. If traffic calls for something else, do the safest thing. (IDAE guidance)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c6c",
+                "answer": 2,
+                "es": {
+                  "q": "Según la guía de conducción eficiente del IDAE, ves un semáforo en rojo a lo lejos. ¿Cómo reduces?",
+                  "options": [
+                    "Frenando fuerte lo más tarde posible",
+                    "Poniendo punto muerto y dejándolo rodar",
+                    "Levantando el pie del acelerador y dejando rodar con la marcha puesta"
+                  ],
+                  "why": "Al reducir, la guía recomienda levantar el pie del acelerador y dejar rodar el vehículo con la marcha engranada, y frenar con suavidad."
+                },
+                "en": {
+                  "q": "According to IDAE’s efficient-driving guide, you see a red light far ahead. How do you slow down?",
+                  "options": [
+                    "Brake hard as late as possible",
+                    "Put it in neutral and let it coast",
+                    "Lift your foot off the accelerator and let the car roll in gear"
+                  ],
+                  "why": "To slow down, the guide recommends lifting off the accelerator and letting the vehicle roll with the gear engaged, then braking gently."
+                },
+                "terms": [
+                  {
+                    "es": "conducción eficiente",
+                    "en": "efficient driving"
+                  }
+                ],
+                "src": "IDAE guidance (not a legal rule)"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "Dibujo mínimo **1,6 mm** en turismos; el **indicador de desgaste** avisa.",
+          "en": "Minimum tread **1.6 mm** on cars; the **wear indicator** warns you."
+        },
+        {
+          "es": "Neumáticos sin ampollas, roturas, cables al descubierto ni grietas.",
+          "en": "Tires with no blisters, tears, exposed cords or cracks."
+        },
+        {
+          "es": "Una **ZBE** restringe el acceso según la clasificación ambiental; **R-120** la señala.",
+          "en": "A **ZBE** restricts access by environmental classification; **R-120** marks it."
+        },
+        {
+          "es": "Clasificación: **0 emisiones, ECO, C, B, A**.",
+          "en": "Classification: **zero emissions, ECO, C, B, A**."
+        },
+        {
+          "es": "Conducción eficiente: consejo, no ley; la **seguridad** va primero.",
+          "en": "Efficient driving: advice, not law; **safety** comes first."
+        }
+      ],
+      "covers": [
+        "equipment-03"
+      ],
+      "src": [
+        "Reglamento General de Vehículos (RD 2822/1998), Anexo VII y Anexo II.E",
+        "Ley 7/2021 de cambio climático, art. 14.3",
+        "Reglamento General de Circulación (RD 1428/2003), art. 157 (añadido por el RD 518/2026, en vigor desde el 1 de octubre de 2026)",
+        "Reglamento General de Circulación, Anexo I, ap. 5.1 (señal R-120, Catálogo de señales)",
+        "Guía DGT (revista.dgt.es, «Coche siempre a punto») y guía IDAE (idae.es, «10 reglas de oro de la conducción eficiente»)"
+      ]
+    }
+  ]
+}

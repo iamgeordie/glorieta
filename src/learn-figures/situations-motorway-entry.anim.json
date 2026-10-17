@@ -1,0 +1,22 @@
+{
+  "seconds": 7,
+  "poster": 2,
+  "reveals": [
+    { "id": "look", "from": 0.2, "to": 3 },
+    { "id": "route", "from": 1, "draw": true }
+  ],
+  "actors": [
+    {
+      "id": "a", "kind": "car", "tone": "other",
+      "path": "M165 520 L165 -40", "from": 0.2, "to": 5.2, "ease": "linear",
+      "show": [0, 5.3],
+      "badge": { "mark": "A", "dx": -30, "dy": 0 }
+    },
+    {
+      "id": "b", "kind": "car", "tone": "me",
+      "path": "M270 360 C270 330 195 335 195 290 L195 150 C195 105 165 105 165 62 L165 -30",
+      "from": 0.4, "to": 6.8, "ease": "linear",
+      "badge": { "mark": "B", "dx": 30, "dy": 0 }
+    }
+  ]
+}

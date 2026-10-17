@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 240" focusable="false">
+  <rect class="f-grass" x="0" y="0" width="360" height="240"/>
+  <g transform="translate(40 0)">
+    <rect class="f-road" x="10" y="24" width="100" height="52"/>
+    <rect class="f-road" x="28" y="0" width="64" height="24"/>
+    <rect class="f-road" x="28" y="76" width="64" height="164"/>
+    <path class="f-line f-dash" d="M10 50 H110"/>
+    <path class="f-line" d="M32 0 V24 M88 0 V24 M32 76 V240 M88 76 V240"/>
+    <path class="f-line f-dash" d="M60 0 V24 M60 76 V240"/>
+    <path class="f-white" d="M46.5 150 L46.5 125 L52 125 L44 112 L36 125 L41.5 125 L41.5 150 Z"/>
+    <path class="f-white" d="M78.5 150 L78.5 129 L80.3 127.3 L84.2 131.1 L87 117 L72.9 119.8 L76.7 123.7 L73.5 127 L73.5 150 Z"/>
+    <use href="#v-car" class="f-me" transform="translate(44 208)"/>
+    <use href="#v-car" class="f-other" transform="translate(76 208)"/>
+    <circle class="f-badge" cx="16" cy="24" r="10"/><text class="f-badge-text" x="16" y="24">1</text>
+  </g>
+  <g transform="translate(104 0)">
+    <path class="f-road" d="M148 240 V130 L180 60 V0 H212 V240 Z"/>
+    <path class="f-line" d="M208 0 V240 M152 240 V134 L184 66 V0"/>
+    <path class="f-line f-dash" d="M180 240 V128"/>
+    <path class="f-white" d="M157.5 186 L157.5 175.5 L167.67 149.1 L163.47 147.49 L174.3 138.8 L176.53 152.51 L172.33 150.9 L162.5 176.5 L162.5 186 Z"/>
+    <use href="#v-car" class="f-me" transform="translate(164 214)"/>
+    <use href="#v-car" class="f-other" transform="translate(196 86)"/>
+    <circle class="f-badge" cx="136" cy="24" r="10"/><text class="f-badge-text" x="136" y="24">2</text>
+  </g>
+</svg>

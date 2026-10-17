@@ -1,0 +1,2055 @@
+{
+  "id": "speed",
+  "title": {
+    "es": "Límites de velocidad",
+    "en": "Speed limits"
+  },
+  "blurb": {
+    "es": "Los límites en ciudad y en carretera, cómo se señalizan y cuándo debes ir más despacio que el máximo.",
+    "en": "The limits in town and on the open road, how they are signed, and when to go slower than the maximum."
+  },
+  "lessons": [
+    {
+      "id": "towns",
+      "title": {
+        "es": "Límites en poblado",
+        "en": "Limits in town"
+      },
+      "minutes": 6,
+      "goals": [
+        {
+          "es": "Distinguir poblado, vía urbana y travesía.",
+          "en": "Tell a town, an urban road and a travesía apart."
+        },
+        {
+          "es": "Decir los tres límites genéricos de la ciudad (20, 30 y 50 km/h) y a qué calle toca cada uno.",
+          "en": "Say the three default town limits (20, 30 and 50 km/h) and which street each one belongs to."
+        },
+        {
+          "es": "Saber cuándo una señal cambia el límite y qué pasa en travesías y autovías urbanas.",
+          "en": "Know when a sign changes the limit, and what happens on a travesía and on a motorway inside a town."
+        }
+      ],
+      "terms": [
+        {
+          "es": "poblado",
+          "en": "built-up area (town)"
+        },
+        {
+          "es": "vía urbana",
+          "en": "urban road"
+        },
+        {
+          "es": "travesía",
+          "en": "main road through a town"
+        },
+        {
+          "es": "límite genérico",
+          "en": "default limit (no sign)"
+        },
+        {
+          "es": "plataforma única",
+          "en": "street with no curb between road and sidewalk"
+        },
+        {
+          "es": "carril",
+          "en": "lane"
+        },
+        {
+          "es": "mercancías peligrosas",
+          "en": "dangerous goods"
+        },
+        {
+          "es": "autoridad municipal",
+          "en": "town council"
+        }
+      ],
+      "pretest": {
+        "id": "speed-pre-1",
+        "answer": 1,
+        "es": {
+          "q": "Circulas por una calle de la ciudad con un carril por sentido y sin señales de velocidad. ¿Cuál es tu máximo?",
+          "options": [
+            "50 km/h",
+            "30 km/h",
+            "40 km/h"
+          ],
+          "why": "Sin señal vale el límite genérico. En una calle con un único carril por sentido es de 30 km/h."
+        },
+        "en": {
+          "q": "You drive on a town street with one lane each way and no speed signs. What is your maximum?",
+          "options": [
+            "50 km/h",
+            "30 km/h",
+            "40 km/h"
+          ],
+          "why": "With no sign, the default limit applies. On a street with a single lane each way it is 30 km/h."
+        },
+        "src": "RGC art. 50.1.b"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Poblado, vía urbana y travesía",
+            "en": "Town, urban road and travesía"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Los límites de velocidad cambian según dónde estés. Primero, tres palabras que usa la ley.",
+                "en": "Speed limits change with where you are. First, three words the law uses."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Un **poblado** es una zona con edificios. En sus vías de entrada y de salida hay señales de entrada y de salida de poblado.",
+                "en": "A **poblado** is an area with buildings. Its entry and exit roads carry the town entry and town exit signs."
+              },
+              "src": "LSV Anexo I (poblado)"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Una **vía urbana** es una vía pública dentro de poblado, salvo las travesías. Una **travesía** es un tramo de carretera que pasa por poblado. No es travesía el tramo que tiene una variante a la que se puede acceder.",
+                "en": "An **urban road** is a public road inside a poblado, except travesías. A **travesía** is a stretch of main road that runs through a poblado. A stretch that has a bypass you can reach is not a travesía."
+              },
+              "src": "LSV Anexo I (vía urbana, travesía)"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "La señal S-500, «Entrada a poblado», marca el lugar desde el que rigen las normas de poblado. La señal S-510, «Fin de poblado», marca dónde dejan de regir.",
+                "en": "Sign S-500, “Entrada a poblado”, marks the place from which the town rules apply. Sign S-510, “Fin de poblado”, marks where they stop applying."
+              },
+              "src": "RGC Anexo I, ap. 5.1 (S-500 y S-510)"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "speed-towns-c1",
+                "answer": 1,
+                "es": {
+                  "q": "Un tramo de carretera sin variante discurre por dentro de un pueblo, entre las señales de entrada y de salida de poblado. ¿Cómo lo llama la ley?",
+                  "options": [
+                    "Vía interurbana",
+                    "Travesía",
+                    "Vía urbana"
+                  ],
+                  "why": "Un tramo de carretera que discurre por poblado es una travesía. La vía interurbana está fuera de poblado, y la vía urbana no incluye las travesías."
+                },
+                "en": {
+                  "q": "A stretch of main road with no bypass runs through a village, between the town entry and exit signs. What does the law call it?",
+                  "options": [
+                    "Interurban road",
+                    "Travesía",
+                    "Urban road"
+                  ],
+                  "why": "A stretch of main road that runs through a poblado is a travesía. An interurban road is outside a poblado, and an urban road does not include travesías."
+                },
+                "terms": [
+                  {
+                    "es": "travesía",
+                    "en": "main road through a town"
+                  },
+                  {
+                    "es": "vía interurbana",
+                    "en": "road outside a town"
+                  }
+                ],
+                "src": "LSV Anexo I (travesía, vía urbana, vía interurbana)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Tres límites genéricos",
+            "en": "Three default limits"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Si no hay una señal de velocidad, vale el límite **genérico**. En la ciudad depende de la calle.",
+                "en": "If there is no speed sign, the **default** limit applies. In town it depends on the street."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "El límite genérico en vías urbanas depende de sus carriles y de si hay plataforma única. No se cuentan los carriles reservados a ciertos usuarios ni los de uso exclusivo del transporte público.",
+                "en": "The default limit on urban roads depends on its lanes and on whether it has a single platform. Lanes reserved for certain users, or only for public transport, are not counted."
+              },
+              "src": "RGC art. 50.1"
+            },
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Calle",
+                  "en": "Street"
+                },
+                {
+                  "es": "Límite genérico",
+                  "en": "Default limit"
+                },
+                {
+                  "es": "Equivale a",
+                  "en": "About"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "Plataforma única: calzada y acera al mismo nivel",
+                    "en": "Single platform: roadway and sidewalk at the same level"
+                  },
+                  {
+                    "es": "20 km/h",
+                    "en": "20 km/h"
+                  },
+                  {
+                    "es": "12 mph",
+                    "en": "12 mph"
+                  }
+                ],
+                [
+                  {
+                    "es": "Un único carril por sentido",
+                    "en": "A single lane in each direction"
+                  },
+                  {
+                    "es": "30 km/h",
+                    "en": "30 km/h"
+                  },
+                  {
+                    "es": "19 mph",
+                    "en": "19 mph"
+                  }
+                ],
+                [
+                  {
+                    "es": "Dos o más carriles por sentido",
+                    "en": "Two or more lanes in each direction"
+                  },
+                  {
+                    "es": "50 km/h",
+                    "en": "50 km/h"
+                  },
+                  {
+                    "es": "31 mph",
+                    "en": "31 mph"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "figure",
+              "file": "speed-urban-streets",
+              "alt": {
+                "es": "Vista desde arriba de tres calles. La calle A no tiene bordillo: calzada y acera están al mismo nivel y hay peatones junto a los coches. La B tiene un carril por sentido. La C tiene dos carriles por sentido.",
+                "en": "Top-down view of three streets. Street A has no curb: roadway and sidewalk are at the same level and pedestrians are next to the cars. Street B has one lane each way. Street C has two lanes each way."
+              },
+              "caption": {
+                "es": "Los tres tipos de calle. Cuantos más carriles, más alto es el límite genérico; sin bordillo, el más bajo.",
+                "en": "The three kinds of street. The more lanes, the higher the default limit; with no curb, the lowest."
+              },
+              "legend": [
+                {
+                  "mark": "A",
+                  "text": {
+                    "es": "Plataforma única, sin bordillo: 20 km/h.",
+                    "en": "Single platform, no curb: 20 km/h."
+                  }
+                },
+                {
+                  "mark": "B",
+                  "text": {
+                    "es": "Un carril por sentido: 30 km/h.",
+                    "en": "One lane each way: 30 km/h."
+                  }
+                },
+                {
+                  "mark": "C",
+                  "text": {
+                    "es": "Dos carriles por sentido: 50 km/h.",
+                    "en": "Two lanes each way: 50 km/h."
+                  }
+                }
+              ]
+            },
+            {
+              "t": "us",
+              "text": {
+                "es": "En gran parte de EE. UU. las calles residenciales se señalizan con unas 25 mph, unos 40 km/h. Aquí los límites genéricos son más bajos: 30 km/h son unas 19 mph.",
+                "en": "Residential streets in much of the US are posted at about 25 mph, roughly 40 km/h. The default limits here are lower: 30 km/h is about 19 mph."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "speed-towns-c2",
+                "answer": 0,
+                "es": {
+                  "q": "Una calle urbana tiene dos carriles por sentido, pero uno de ellos es exclusivo para autobuses. Sin señales de velocidad, ¿cuál es el límite genérico?",
+                  "options": [
+                    "30 km/h",
+                    "50 km/h",
+                    "20 km/h"
+                  ],
+                  "why": "Los carriles de uso exclusivo del transporte público no se cuentan. Queda un único carril por sentido, y el límite genérico es de 30 km/h."
+                },
+                "en": {
+                  "q": "A town street has two lanes each way, but one of them is only for buses. With no speed signs, what is the default limit?",
+                  "options": [
+                    "30 km/h",
+                    "50 km/h",
+                    "20 km/h"
+                  ],
+                  "why": "Lanes used only by public transport are not counted. That leaves a single lane each way, and the default limit is 30 km/h."
+                },
+                "terms": [
+                  {
+                    "es": "carril exclusivo",
+                    "en": "lane for one kind of user"
+                  },
+                  {
+                    "es": "autobús",
+                    "en": "bus"
+                  }
+                ],
+                "src": "RGC art. 50.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Cuando una señal cambia el límite",
+            "en": "When a sign changes the limit"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Sobre las velocidades máximas genéricas prevalecen las que fijen las señales.",
+                "en": "Limits set by signs take precedence over the default maximum speeds."
+              },
+              "src": "RGC art. 52.1.a"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "La autoridad municipal puede rebajar los límites genéricos con una señalización específica. Excepcionalmente puede subir hasta **50 km/h** el límite de una vía de un único carril por sentido, también con señales.",
+                "en": "The town council can lower the default limits with specific signs. In exceptional cases it can raise the limit of a single-lane-each-way street up to **50 km/h**, also with signs."
+              },
+              "src": "RGC art. 50.2 y 50.3"
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "r-301-20",
+                "r-301-30",
+                "r-301-50"
+              ],
+              "caption": {
+                "es": "R-301, «Velocidad máxima»: el número es el límite en km/h. En la ciudad verás sobre todo estos tres.",
+                "en": "R-301, “Velocidad máxima”: the number is the limit in km/h. In town you will mostly see these three."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "La señal S-47, «Zona de coexistencia», fija 20 km/h y da prioridad a los peatones. La señal S-28, «Zona de estancia y juego», fija 10 km/h, va con una R-301 de 10, y los peatones también tienen prioridad.",
+                "en": "Sign S-47, “Zona de coexistencia”, sets 20 km/h and gives pedestrians priority. Sign S-28, “Zona de estancia y juego”, sets 10 km/h, comes with an R-301 of 10, and pedestrians also have priority."
+              },
+              "src": "RGC Anexo I, ap. 5.1 (S-47 y S-28)"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "speed-towns-c3",
+                "answer": 2,
+                "es": {
+                  "q": "Una calle tiene dos carriles por sentido, así que el límite genérico sería 50 km/h. Pero una señal R-301 dice 30. ¿Cuál es tu máximo?",
+                  "options": [
+                    "50 km/h, porque es el límite genérico de esa calle",
+                    "40 km/h, la media de los dos",
+                    "30 km/h, porque manda la señal"
+                  ],
+                  "why": "La señal prevalece sobre el límite genérico. Manda lo que dice la señal: 30 km/h."
+                },
+                "en": {
+                  "q": "A street has two lanes each way, so the default limit would be 50 km/h. But an R-301 sign says 30. What is your maximum?",
+                  "options": [
+                    "50 km/h, because it is the default for that street",
+                    "40 km/h, the average of the two",
+                    "30 km/h, because the sign rules"
+                  ],
+                  "why": "The sign takes precedence over the default limit. What the sign says is what counts: 30 km/h."
+                },
+                "terms": [
+                  {
+                    "es": "prevalecer",
+                    "en": "to take precedence"
+                  }
+                ],
+                "src": "RGC art. 52.1.a"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Travesías, autovías urbanas y mercancías peligrosas",
+            "en": "Travesías, motorways in town and dangerous goods"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Tres casos con cifras propias, todos del artículo 50.",
+                "en": "Three cases with their own numbers, all from article 50."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "El límite genérico en una travesía es de **50 km/h** para todo tipo de vehículos. El municipio puede bajarlo, con el titular de la vía, y con señal específica.",
+                "en": "The default limit on a travesía is **50 km/h** for every kind of vehicle. The town can lower it, together with the road owner, and with a specific sign."
+              },
+              "src": "RGC art. 50.5"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "El límite genérico de una autopista o autovía que pasa por poblado es de **80 km/h**. Puede ampliarse por acuerdo, con señal, sin pasar nunca el genérico de esas vías fuera de poblado.",
+                "en": "The default limit on a motorway or dual carriageway that passes through a poblado is **80 km/h**. It can be raised by agreement, with a sign, but never above the default for those roads outside a poblado."
+              },
+              "src": "RGC art. 50.6"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los vehículos con mercancías peligrosas circulan como máximo a **40 km/h**. Esto vale en las calles de dos o más carriles por sentido y en las travesías.",
+                "en": "Vehicles carrying dangerous goods travel at **40 km/h** at most. This applies on streets with two or more lanes each way and on travesías."
+              },
+              "src": "RGC art. 50.4"
+            },
+            {
+              "t": "us",
+              "text": {
+                "es": "80 km/h son unas 50 mph y 40 km/h unas 25 mph.",
+                "en": "80 km/h is about 50 mph, and 40 km/h about 25 mph."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "speed-towns-c4",
+                "answer": 1,
+                "es": {
+                  "q": "Una autovía atraviesa un pueblo y no hay señales de velocidad específicas. ¿Cuál es el límite genérico de ese tramo?",
+                  "options": [
+                    "120 km/h, el de las autovías",
+                    "80 km/h",
+                    "50 km/h, como en la ciudad"
+                  ],
+                  "why": "El límite genérico de una autopista o autovía dentro de poblado es de 80 km/h, aunque fuera de poblado sea mayor."
+                },
+                "en": {
+                  "q": "A dual carriageway runs through a village and there are no specific speed signs. What is the default limit on that stretch?",
+                  "options": [
+                    "120 km/h, the usual for dual carriageways",
+                    "80 km/h",
+                    "50 km/h, as in town"
+                  ],
+                  "why": "The default limit on a motorway or dual carriageway inside a poblado is 80 km/h, even if it is higher outside."
+                },
+                "terms": [
+                  {
+                    "es": "autovía",
+                    "en": "dual carriageway"
+                  }
+                ],
+                "src": "RGC art. 50.6"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "Un **poblado** empieza en la señal S-500 y acaba en la S-510. Una **travesía** es una carretera que pasa por él.",
+          "en": "A **poblado** starts at sign S-500 and ends at S-510. A **travesía** is a main road that runs through it."
+        },
+        {
+          "es": "Sin señal, el **límite genérico** es 20, 30 o 50 km/h: plataforma única, un carril por sentido, dos o más carriles.",
+          "en": "With no sign, the **default limit** is 20, 30 or 50 km/h: single platform, one lane each way, two or more lanes."
+        },
+        {
+          "es": "Los carriles solo para autobuses o ciertos usuarios **no se cuentan**.",
+          "en": "Lanes only for buses or certain users **are not counted**."
+        },
+        {
+          "es": "Una **señal** prevalece sobre el límite genérico.",
+          "en": "A **sign** takes precedence over the default limit."
+        },
+        {
+          "es": "Travesía: **50**. Autovía dentro de poblado: **80**. Mercancías peligrosas: **40** en calles de dos o más carriles por sentido y en travesías.",
+          "en": "Travesía: **50**. Motorway inside a town: **80**. Dangerous goods: **40** on streets with two or more lanes each way and on travesías."
+        }
+      ],
+      "covers": [
+        "speed-01",
+        "speed-02"
+      ],
+      "src": [
+        "Reglamento General de Circulación (RD 1428/2003), arts. 50 y 52.1.a, y Anexo I, ap. 5.1 (S-500, S-510, S-47 y S-28)",
+        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), Anexo I"
+      ]
+    },
+    {
+      "id": "outside",
+      "title": {
+        "es": "Límites fuera de poblado",
+        "en": "Limits outside towns"
+      },
+      "minutes": 7,
+      "goals": [
+        {
+          "es": "Leer la tabla de límites de autopistas, autovías y carreteras convencionales.",
+          "en": "Read the limits table for motorways, dual carriageways and conventional roads."
+        },
+        {
+          "es": "Saber cuándo un vehículo tiene un límite distinto, como una furgoneta o un autobús.",
+          "en": "Know when a vehicle has a different limit, such as a van or a bus."
+        },
+        {
+          "es": "Conocer la velocidad mínima y por qué no puedes pasarte del límite al adelantar.",
+          "en": "Know the minimum speed, and why you may not exceed the limit to overtake."
+        }
+      ],
+      "terms": [
+        {
+          "es": "autopista",
+          "en": "motorway (freeway)"
+        },
+        {
+          "es": "autovía",
+          "en": "dual carriageway (freeway-like road)"
+        },
+        {
+          "es": "carretera convencional",
+          "en": "conventional road (not a motorway or dual carriageway)"
+        },
+        {
+          "es": "turismo",
+          "en": "passenger car"
+        },
+        {
+          "es": "furgoneta",
+          "en": "van"
+        },
+        {
+          "es": "autobús",
+          "en": "bus"
+        },
+        {
+          "es": "velocidad mínima",
+          "en": "minimum speed"
+        },
+        {
+          "es": "entorpecer",
+          "en": "to hold up"
+        }
+      ],
+      "pretest": {
+        "id": "speed-pre-2",
+        "answer": 1,
+        "es": {
+          "q": "Conduces un autobús por una autovía, sin señales de velocidad. ¿Cuál es tu máximo?",
+          "options": [
+            "120 km/h, como un turismo",
+            "100 km/h",
+            "90 km/h"
+          ],
+          "why": "Los autobuses tienen su propia columna en la tabla: en autopista y autovía el límite es de 100 km/h."
+        },
+        "en": {
+          "q": "You drive a bus on a dual carriageway with no speed signs. What is your maximum?",
+          "options": [
+            "120 km/h, like a car",
+            "100 km/h",
+            "90 km/h"
+          ],
+          "why": "Buses have their own column in the table: on a motorway or dual carriageway the limit is 100 km/h."
+        },
+        "src": "RGC art. 48.1.a"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Qué carreteras hay fuera de poblado",
+            "en": "The roads outside a town"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Fuera de poblado, la tabla de límites del artículo 48 tiene dos filas: autopistas y autovías por un lado, carreteras convencionales por otro.",
+                "en": "Outside a poblado, the limits table in article 48 has two rows: motorways and dual carriageways on one side, conventional roads on the other."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Una **autopista** es una carretera proyectada, construida y señalizada como tal para la circulación exclusiva de automóviles. Una **autovía** también está proyectada, construida y señalizada como tal.",
+                "en": "A **motorway (autopista)** is a road designed, built and signed as such for the exclusive use of motor vehicles. A **dual carriageway (autovía)** is also designed, built and signed as such."
+              },
+              "src": "LSV Anexo I (autopista, autovía)"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Una **carretera convencional** es la que no reúne las características de las autopistas, las autovías y las vías para automóviles.",
+                "en": "A **conventional road** is one that does not have the features of motorways, dual carriageways and roads for motor vehicles."
+              },
+              "src": "LSV Anexo I (carretera convencional)"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Para los límites, autopista y autovía **comparten fila** en la tabla.",
+                "en": "For limits, motorways and dual carriageways **share one row** of the table."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "La tabla de límites",
+            "en": "The limits table"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los titulares de las vías fijan límites específicos con señales. Si no hay señal específica, se cumple el límite genérico de cada vía.",
+                "en": "Road owners set specific limits with signs. If there is no specific sign, the default limit for each road applies."
+              },
+              "src": "RGC art. 47"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Fuera de poblado, los límites máximos genéricos dependen de la vía y del vehículo. Son los de esta tabla.",
+                "en": "Outside a poblado, the default maximum speeds depend on the road and the vehicle. They are the ones in this table."
+              },
+              "src": "RGC art. 48.1.a"
+            },
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Vía",
+                  "en": "Road"
+                },
+                {
+                  "es": "Turismos, motos, autocaravanas hasta 3.500 kg, pick-up",
+                  "en": "Cars, motorcycles, motorhomes up to 3,500 kg, pickups"
+                },
+                {
+                  "es": "Camiones, tractocamiones, furgonetas, autocaravanas de más de 3.500 kg, articulados, coches con remolque y el resto de vehículos",
+                  "en": "Trucks, tractor units, vans, motorhomes over 3,500 kg, articulated vehicles, cars with a trailer and all other vehicles"
+                },
+                {
+                  "es": "Autobuses, vehículos derivados de turismo y vehículos mixtos adaptables",
+                  "en": "Buses, car-derived vehicles and adaptable mixed-use vehicles"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "Autopista y autovía",
+                    "en": "Motorway and dual carriageway"
+                  },
+                  {
+                    "es": "120 km/h",
+                    "en": "120 km/h"
+                  },
+                  {
+                    "es": "90 km/h",
+                    "en": "90 km/h"
+                  },
+                  {
+                    "es": "100 km/h",
+                    "en": "100 km/h"
+                  }
+                ],
+                [
+                  {
+                    "es": "Carretera convencional",
+                    "en": "Conventional road"
+                  },
+                  {
+                    "es": "90 km/h",
+                    "en": "90 km/h"
+                  },
+                  {
+                    "es": "80 km/h",
+                    "en": "80 km/h"
+                  },
+                  {
+                    "es": "90 km/h",
+                    "en": "90 km/h"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Una **furgoneta** va en la segunda columna, aunque la conduzcas con un permiso B. Un **vehículo derivado de turismo** (conserva la carrocería de un turismo y tiene una sola fila de asientos) va en la tercera columna.",
+                "en": "A **van** goes in the second column, even though you drive it with a B license. A **car-derived vehicle** (it keeps a car body and has only one row of seats) goes in the third column."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "En carreteras convencionales con los dos sentidos separados físicamente, el titular de la vía puede fijar **100 km/h**. Vale para turismos, motos y autocaravanas de hasta 3.500 kg.",
+                "en": "On conventional roads with the two directions physically separated, the road owner may set **100 km/h**. This is for cars, motorcycles and motorhomes up to 3,500 kg."
+              },
+              "src": "RGC art. 48.1.a.1.º"
+            },
+            {
+              "t": "us",
+              "text": {
+                "es": "120 km/h son unas 75 mph, 100 km/h unas 62, 90 km/h unas 56 y 80 km/h unas 50. Si conduces un coche con el velocímetro en mph, lee siempre la escala en km/h.",
+                "en": "120 km/h is about 75 mph, 100 km/h about 62, 90 km/h about 56 and 80 km/h about 50. If your car shows mph first, always read the km/h scale."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "speed-outside-c1",
+                "answer": 2,
+                "es": {
+                  "q": "Conduces una furgoneta por una carretera convencional fuera de poblado, sin señales de velocidad. ¿Cuál es tu máximo?",
+                  "options": [
+                    "90 km/h, como un turismo",
+                    "100 km/h",
+                    "80 km/h"
+                  ],
+                  "why": "Las furgonetas están en la columna de camiones: 80 km/h en carretera convencional. Los 90 km/h son para turismos."
+                },
+                "en": {
+                  "q": "You drive a van on a conventional road outside a town, with no speed signs. What is your maximum?",
+                  "options": [
+                    "90 km/h, like a car",
+                    "100 km/h",
+                    "80 km/h"
+                  ],
+                  "why": "Vans are in the trucks column: 80 km/h on a conventional road. The 90 km/h limit is for cars."
+                },
+                "terms": [
+                  {
+                    "es": "furgoneta",
+                    "en": "van"
+                  },
+                  {
+                    "es": "carretera convencional",
+                    "en": "conventional road (not a motorway)"
+                  }
+                ],
+                "src": "RGC art. 48.1.a"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Otros límites que debes conocer",
+            "en": "Other limits to know"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Algunos vehículos y vías tienen una cifra propia. Todas salen del artículo 48.1.",
+                "en": "Some vehicles and roads have a number of their own. All of them come from article 48.1."
+              }
+            },
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Caso",
+                  "en": "Case"
+                },
+                {
+                  "es": "Límite",
+                  "en": "Limit"
+                },
+                {
+                  "es": "Apartado",
+                  "en": "Paragraph"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "Transporte escolar y de menores, o mercancías peligrosas",
+                    "en": "School and child transport, or dangerous goods"
+                  },
+                  {
+                    "es": "10 km/h menos que el límite que toca a ese vehículo en esa vía",
+                    "en": "10 km/h less than the limit for that vehicle on that road"
+                  },
+                  {
+                    "es": "48.1.b",
+                    "en": "48.1.b"
+                  }
+                ],
+                [
+                  {
+                    "es": "Autobús con viajeros de pie autorizados, o sin cinturones de seguridad",
+                    "en": "Bus with standing passengers allowed, or without seat belts"
+                  },
+                  {
+                    "es": "80 km/h en cualquier vía fuera de poblado",
+                    "en": "80 km/h on any road outside a poblado"
+                  },
+                  {
+                    "es": "48.1.b",
+                    "en": "48.1.b"
+                  }
+                ],
+                [
+                  {
+                    "es": "Vía sin pavimentar",
+                    "en": "Unpaved road"
+                  },
+                  {
+                    "es": "30 km/h",
+                    "en": "30 km/h"
+                  },
+                  {
+                    "es": "48.1.f",
+                    "en": "48.1.f"
+                  }
+                ],
+                [
+                  {
+                    "es": "Ciclos, ciclomotores de dos y tres ruedas y cuadriciclos ligeros",
+                    "en": "Bicycles, two- and three-wheel mopeds and light quadricycles"
+                  },
+                  {
+                    "es": "45 km/h. Las bicicletas pueden superarla donde la vía lo permita",
+                    "en": "45 km/h. Bicycles may exceed it where the road allows"
+                  },
+                  {
+                    "es": "48.1.e",
+                    "en": "48.1.e"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Un ejemplo: un camión con mercancías peligrosas en una autovía va a **80 km/h**. Son los 90 de la tabla menos 10.",
+                "en": "An example: a truck carrying dangerous goods on a dual carriageway goes at **80 km/h**. That is the 90 in the table minus 10."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "speed-outside-c2",
+                "answer": 0,
+                "es": {
+                  "q": "Un camión que transporta mercancías peligrosas circula por una autovía, sin señales de velocidad. ¿Cuál es su máximo?",
+                  "options": [
+                    "80 km/h",
+                    "90 km/h",
+                    "70 km/h"
+                  ],
+                  "why": "Un camión tiene 90 km/h en autovía. Con mercancías peligrosas se reduce en 10 km/h, así que su máximo es de 80 km/h."
+                },
+                "en": {
+                  "q": "A truck carrying dangerous goods travels on a dual carriageway with no speed signs. What is its maximum?",
+                  "options": [
+                    "80 km/h",
+                    "90 km/h",
+                    "70 km/h"
+                  ],
+                  "why": "A truck has 90 km/h on a dual carriageway. With dangerous goods it is reduced by 10 km/h, so its maximum is 80 km/h."
+                },
+                "terms": [
+                  {
+                    "es": "mercancías peligrosas",
+                    "en": "dangerous goods"
+                  }
+                ],
+                "src": "RGC art. 48.1.a y 48.1.b"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Velocidad mínima: no entorpezcas",
+            "en": "Minimum speed: do not hold traffic up"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "No se debe entorpecer la marcha de otro vehículo circulando sin causa justificada a una velocidad anormalmente reducida. En autopistas y autovías está prohibido circular a menos de **60 km/h**. En las demás vías, a menos de la mitad del límite genérico de ese vehículo.",
+                "en": "You must not hold up another vehicle by driving without good reason at an unusually low speed. On motorways and dual carriageways it is forbidden to drive below **60 km/h**. On other roads, below half the default limit for that vehicle."
+              },
+              "src": "RGC art. 49.1"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Hay excepciones: vehículos especiales, o tráfico, vehículo o vía que no permitan mantener la mínima sin riesgo.",
+                "en": "There are exceptions: special vehicles, or traffic, vehicle or road conditions that do not let you keep the minimum without risk."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si no puedes alcanzar la velocidad mínima y hay peligro de alcance, usa las luces de emergencia mientras circulas.",
+                "en": "If you cannot reach the minimum speed and a car could hit you from behind, drive with your hazard lights on."
+              },
+              "src": "RGC art. 49.3"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "speed-outside-c3",
+                "answer": 1,
+                "es": {
+                  "q": "¿Por debajo de qué velocidad está prohibido circular por una autopista o autovía, salvo causa justificada?",
+                  "options": [
+                    "40 km/h",
+                    "60 km/h",
+                    "80 km/h"
+                  ],
+                  "why": "En autopistas y autovías se prohíbe circular a menos de 60 km/h, salvo que las circunstancias del tráfico, del vehículo o de la vía lo impidan."
+                },
+                "en": {
+                  "q": "Below what speed is it forbidden to drive on a motorway or dual carriageway, unless there is good reason?",
+                  "options": [
+                    "40 km/h",
+                    "60 km/h",
+                    "80 km/h"
+                  ],
+                  "why": "On motorways and dual carriageways it is forbidden to drive below 60 km/h, unless traffic, vehicle or road conditions make it impossible."
+                },
+                "terms": [
+                  {
+                    "es": "velocidad mínima",
+                    "en": "minimum speed"
+                  }
+                ],
+                "src": "RGC art. 49.1 y 49.2"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Adelantar no te da más velocidad",
+            "en": "Overtaking does not give you extra speed"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Las velocidades máximas del artículo 48 no deben rebasarse. El artículo 51, que trataba de las velocidades máximas en adelantamientos, está derogado.",
+                "en": "The maximum speeds of article 48 must not be exceeded. Article 51, which dealt with maximum speeds when overtaking, has been repealed."
+              },
+              "src": "RGC arts. 48.1 y 51 (derogado)"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Por tanto no hay un margen extra para adelantar. Si el límite es **90 km/h**, adelantas sin pasar de 90.",
+                "en": "So there is no extra margin for overtaking. If the limit is **90 km/h**, you overtake without going above 90."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Antes de adelantar piensa en la velocidad que te hace falta. Si no puedes completar la maniobra sin pasarte del límite, no adelantes. Los adelantamientos se explican en otro módulo.",
+                "en": "Before you overtake, think about the speed you will need. If you cannot finish the maneuver without going over the limit, do not overtake. Overtaking has its own module."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "speed-outside-c4",
+                "answer": 2,
+                "es": {
+                  "q": "Conduces un turismo por una carretera convencional con límite de 90 km/h y vas a adelantar a un camión. ¿Puedes superar los 90 km/h para terminar antes?",
+                  "options": [
+                    "Sí, hasta 100 km/h mientras adelantas",
+                    "Sí, si tu coche acelera con rapidez",
+                    "No: el límite también vale mientras adelantas"
+                  ],
+                  "why": "El artículo que daba un margen al adelantar está derogado. Los límites máximos no deben rebasarse, tampoco al adelantar."
+                },
+                "en": {
+                  "q": "You drive a car on a conventional road with a 90 km/h limit and are about to overtake a truck. May you exceed 90 km/h to finish sooner?",
+                  "options": [
+                    "Yes, up to 100 km/h while overtaking",
+                    "Yes, if your car accelerates quickly",
+                    "No: the limit also applies while overtaking"
+                  ],
+                  "why": "The article that gave a margin for overtaking has been repealed. Maximum limits must not be exceeded, overtaking included."
+                },
+                "terms": [
+                  {
+                    "es": "adelantar",
+                    "en": "to overtake"
+                  }
+                ],
+                "src": "RGC arts. 48.1 y 51 (derogado)"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "Para los límites, **autopista y autovía** van juntas, y la **carretera convencional** aparte.",
+          "en": "For limits, **motorway and dual carriageway** go together and the **conventional road** is separate."
+        },
+        {
+          "es": "**Turismo**: 120 en autopista y autovía, 90 en convencional. **Camión o furgoneta**: 90 y 80. **Autobús**: 100 y 90.",
+          "en": "**Car**: 120 on a motorway or dual carriageway, 90 on a conventional road. **Truck or van**: 90 and 80. **Bus**: 100 and 90."
+        },
+        {
+          "es": "Transporte escolar y mercancías peligrosas: **10 km/h menos**.",
+          "en": "School transport and dangerous goods: **10 km/h less**."
+        },
+        {
+          "es": "En autopista y autovía no se circula por debajo de **60 km/h** sin causa justificada.",
+          "en": "On a motorway or dual carriageway you may not drive below **60 km/h** without good reason."
+        },
+        {
+          "es": "**Adelantar** no permite pasarse del límite.",
+          "en": "**Overtaking** does not let you exceed the limit."
+        }
+      ],
+      "covers": [
+        "speed-03",
+        "speed-04"
+      ],
+      "src": [
+        "Reglamento General de Circulación (RD 1428/2003), arts. 47, 48, 49 y 51 (derogado)",
+        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), Anexo I"
+      ]
+    },
+    {
+      "id": "adapt",
+      "title": {
+        "es": "Adaptar la velocidad",
+        "en": "Adapting your speed"
+      },
+      "minutes": 8,
+      "goals": [
+        {
+          "es": "Explicar por qué el límite es un máximo y no un objetivo.",
+          "en": "Explain why the limit is a maximum and not a target."
+        },
+        {
+          "es": "Ver cómo se compone la distancia de detención y qué pasa al subir la velocidad.",
+          "en": "See what a stopping distance is made of, and what happens when speed goes up."
+        },
+        {
+          "es": "Reconocer las situaciones en las que la ley te pide moderar la velocidad.",
+          "en": "Recognize the situations where the law asks you to moderate your speed."
+        }
+      ],
+      "terms": [
+        {
+          "es": "velocidad moderada",
+          "en": "moderate speed"
+        },
+        {
+          "es": "campo de visión",
+          "en": "field of vision"
+        },
+        {
+          "es": "tiempo de reacción",
+          "en": "reaction time"
+        },
+        {
+          "es": "distancia de frenado",
+          "en": "braking distance"
+        },
+        {
+          "es": "distancia de seguridad",
+          "en": "following distance"
+        },
+        {
+          "es": "adherencia",
+          "en": "grip (traction)"
+        },
+        {
+          "es": "pavimento deslizante",
+          "en": "slippery road surface"
+        },
+        {
+          "es": "niebla densa",
+          "en": "dense fog"
+        }
+      ],
+      "pretest": {
+        "id": "speed-pre-3",
+        "answer": 1,
+        "es": {
+          "q": "El límite de la carretera es de 90 km/h, pero hay niebla densa. ¿Qué te exige la ley?",
+          "options": [
+            "Circular a 90 km/h: es el límite permitido",
+            "Moderar la velocidad, y detenerte si hace falta",
+            "Parar siempre en el arcén"
+          ],
+          "why": "La ley manda adecuar la velocidad a las circunstancias. Con niebla densa debes circular a velocidad moderada."
+        },
+        "en": {
+          "q": "The road limit is 90 km/h, but there is dense fog. What does the law ask of you?",
+          "options": [
+            "Drive at 90 km/h: it is the allowed limit",
+            "Moderate your speed, and stop if needed",
+            "Always stop on the shoulder"
+          ],
+          "why": "The law says to fit your speed to the circumstances. In dense fog you must drive at a moderate speed."
+        },
+        "src": "RGC arts. 45 y 46.1.k"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "El límite es un máximo, no un objetivo",
+            "en": "The limit is a maximum, not a target"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Todo conductor debe respetar los límites de velocidad. También debe tener en cuenta su estado físico y psíquico, la vía, el vehículo y su carga, el tiempo y el tráfico. Debe adecuar la velocidad para poder **detenerse siempre** dentro de su campo de visión y ante cualquier obstáculo.",
+                "en": "Every driver must respect the speed limits. You must also take into account your own physical and mental state, the road, the vehicle and its load, the weather and the traffic. You must fit your speed so that you can **always stop** within your field of vision and in front of any obstacle."
+              },
+              "src": "RGC art. 45"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "El límite no es la velocidad que **debes** llevar, sino la más alta que puedes llevar. Con niebla, lluvia, una curva ciega o mucho tráfico, lo correcto puede ser bastante menos.",
+                "en": "The limit is not the speed you **should** drive, only the highest you may drive. In fog, rain, a blind curve or heavy traffic, the right speed can be well below it."
+              }
+            },
+            {
+              "t": "us",
+              "text": {
+                "es": "La mayoría de los estados de EE. UU. tiene una idea parecida: conducir a una velocidad razonable para las condiciones, aunque el límite sea más alto.",
+                "en": "Most US states have a similar idea: drive at a speed that is reasonable for the conditions, even if the posted limit is higher."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "speed-adapt-c1",
+                "answer": 1,
+                "es": {
+                  "q": "El límite es de 90 km/h, pero la carretera tiene una curva sin visibilidad y llueve. ¿Cuál debe ser tu velocidad?",
+                  "options": [
+                    "90 km/h, porque es el límite permitido",
+                    "La que te permita detenerte dentro de lo que ves",
+                    "Siempre 50 km/h cuando llueve"
+                  ],
+                  "why": "La ley exige poder detenerte dentro de tu campo de visión ante cualquier obstáculo. Eso puede obligarte a ir muy por debajo del límite."
+                },
+                "en": {
+                  "q": "The limit is 90 km/h, but the road has a blind curve and it is raining. What should your speed be?",
+                  "options": [
+                    "90 km/h, because it is the allowed limit",
+                    "One that lets you stop within what you can see",
+                    "Always 50 km/h when it rains"
+                  ],
+                  "why": "The law requires that you can stop within your field of vision in front of any obstacle. That may mean driving well below the limit."
+                },
+                "terms": [
+                  {
+                    "es": "campo de visión",
+                    "en": "field of vision"
+                  }
+                ],
+                "src": "RGC art. 45"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Distancia de detención: reacción más frenada",
+            "en": "Stopping distance: reaction plus braking"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Un coche no se para en el mismo instante en que ves el peligro. Primero pasa el **tiempo de reacción**: tú ves, decides y pisas el freno, y el coche sigue a la misma velocidad. Después llega la frenada.",
+                "en": "A car does not stop the instant you see danger. First comes **reaction time**: you see, decide and press the brake, and the car keeps its speed. Then comes the braking."
+              }
+            },
+            {
+              "t": "figure",
+              "file": "speed-stopping-distance",
+              "alt": {
+                "es": "Dos coches en dos carriles a la vez ven un peligro en la línea marcada con una exclamación. El coche A es más lento y el B va al doble de velocidad. Una zona roja marca lo que cada uno recorre antes de frenar y una verde, lo que recorre mientras frena. El coche B necesita mucha más carretera para detenerse.",
+                "en": "Two cars in two lanes see a danger at the line marked with an exclamation mark at the same time. Car A is slower and car B goes at twice the speed. A red zone shows how far each travels before braking and a green one how far it travels while braking. Car B needs much more road to stop."
+              },
+              "caption": {
+                "es": "Los dos coches reaccionan en el mismo tiempo. El rápido recorre el doble en la reacción y mucho más en la frenada. El dibujo muestra proporciones, no metros.",
+                "en": "Both cars take the same time to react. The fast one covers twice the distance in the reaction and much more in braking. The drawing shows proportions, not meters."
+              },
+              "legend": [
+                {
+                  "mark": "A",
+                  "text": {
+                    "es": "Coche más lento.",
+                    "en": "Slower car."
+                  }
+                },
+                {
+                  "mark": "B",
+                  "text": {
+                    "es": "Coche al doble de velocidad.",
+                    "en": "Car at twice the speed."
+                  }
+                },
+                {
+                  "mark": "!",
+                  "text": {
+                    "es": "Punto en que el conductor ve el peligro.",
+                    "en": "Point where the driver sees the danger."
+                  }
+                },
+                {
+                  "mark": "1",
+                  "text": {
+                    "es": "Zona roja: el coche sigue a toda velocidad mientras el conductor reacciona.",
+                    "en": "Red zone: the car keeps its full speed while the driver reacts."
+                  }
+                },
+                {
+                  "mark": "2",
+                  "text": {
+                    "es": "Zona verde: el coche frena hasta pararse.",
+                    "en": "Green zone: the car brakes until it stops."
+                  }
+                }
+              ]
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Esto es física, no un artículo. La distancia recorrida durante la reacción crece en proporción a la velocidad. La de frenado crece mucho más deprisa: al doblar la velocidad se multiplica por unas cuatro. Los metros reales dependen de la reacción del conductor, de los frenos, de los neumáticos y del suelo.",
+                "en": "This is physics, not an article. The distance covered during the reaction grows in proportion to speed. The braking distance grows much faster: when you double your speed it becomes about four times longer. The real meters depend on the driver’s reaction, the brakes, the tires and the road surface."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "speed-adapt-c2",
+                "answer": 0,
+                "es": {
+                  "q": "Si pasas de ir a una velocidad a ir al doble, ¿qué ocurre aproximadamente con la distancia de frenado?",
+                  "options": [
+                    "Se multiplica por unas cuatro",
+                    "Se duplica",
+                    "Se queda igual"
+                  ],
+                  "why": "La distancia de frenado crece con el cuadrado de la velocidad. Al doblar la velocidad, el coche necesita unas cuatro veces más distancia para frenar."
+                },
+                "en": {
+                  "q": "If you go from one speed to twice that speed, roughly what happens to the braking distance?",
+                  "options": [
+                    "It becomes about four times longer",
+                    "It doubles",
+                    "It stays the same"
+                  ],
+                  "why": "Braking distance grows with the square of the speed. When you double your speed, the car needs about four times as much distance to brake."
+                },
+                "terms": [
+                  {
+                    "es": "distancia de frenado",
+                    "en": "braking distance"
+                  }
+                ],
+                "src": "Física del frenado (convención didáctica), no un artículo"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Moderar la velocidad: personas y lugares",
+            "en": "Moderate your speed: people and places"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "La ley manda circular a velocidad **moderada**, y detenerse si hace falta, sobre todo en estos casos.",
+                "en": "The law says to drive at a **moderate** speed, and to stop if necessary, especially in these cases."
+              },
+              "src": "RGC art. 46.1"
+            },
+            {
+              "t": "list",
+              "items": [
+                {
+                  "es": "Hay peatones en la parte de la vía que usas, o pueden aparecer. Más aún si son niños, personas mayores, ciegos u otras personas con impedimentos visibles.",
+                  "en": "There are pedestrians on the part of the road you use, or they may step onto it. Even more so if they are children, older people, blind people or others with a visible impairment."
+                },
+                {
+                  "es": "Te acercas a ciclistas, a intersecciones y a vías reservadas a ciclos. También a pasos de peatones sin semáforo ni agente, a mercados, a colegios o a lugares con niños.",
+                  "en": "You approach cyclists, junctions, roads reserved for cycles, and pedestrian crossings with no traffic light or officer. Also markets, schools or places where children are likely."
+                },
+                {
+                  "es": "Hay animales en la vía, o pueden aparecer.",
+                  "en": "There are animals on the road, or they may appear."
+                },
+                {
+                  "es": "Pasas por tramos con edificios que dan directamente a la vía.",
+                  "en": "You pass stretches with buildings that open directly onto the road."
+                },
+                {
+                  "es": "Te acercas a un autobús parado, sobre todo si es de transporte escolar.",
+                  "en": "You approach a stopped bus, especially a school bus."
+                },
+                {
+                  "es": "Fuera de poblado, te acercas a vehículos inmovilizados en la calzada o a vehículos de auxilio trabajando. También a ciclistas en la calzada o en el arcén.",
+                  "en": "Outside a poblado, you approach vehicles stopped on the roadway or recovery vehicles at work. Also cyclists on the roadway or on the shoulder."
+                }
+              ]
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "speed-adapt-c3",
+                "answer": 2,
+                "es": {
+                  "q": "Fuera de poblado vas a alcanzar a un ciclista que circula por el arcén. ¿Qué debes hacer?",
+                  "options": [
+                    "Mantener tu velocidad, porque el arcén no es la calzada",
+                    "Tocar el claxon varias veces para avisarle",
+                    "Moderar la velocidad al acercarte"
+                  ],
+                  "why": "Fuera de poblado debes moderar la velocidad al acercarte a ciclistas que circulan por la calzada o por el arcén."
+                },
+                "en": {
+                  "q": "Outside a town you are about to reach a cyclist riding on the shoulder. What should you do?",
+                  "options": [
+                    "Keep your speed, because the shoulder is not the roadway",
+                    "Honk several times to warn them",
+                    "Moderate your speed as you approach"
+                  ],
+                  "why": "Outside a poblado you must moderate your speed when approaching cyclists on the roadway or on the shoulder."
+                },
+                "terms": [
+                  {
+                    "es": "arcén",
+                    "en": "shoulder"
+                  },
+                  {
+                    "es": "ciclista",
+                    "en": "cyclist"
+                  }
+                ],
+                "src": "RGC art. 46.1.f"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Moderar la velocidad: vía, visibilidad y clima",
+            "en": "Moderate your speed: road, visibility and weather"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "También debes moderar la velocidad en estos casos.",
+                "en": "You must also moderate your speed in these cases."
+              },
+              "src": "RGC art. 46.1"
+            },
+            {
+              "t": "list",
+              "items": [
+                {
+                  "es": "Circulas por un pavimento deslizante, o puedes salpicar o proyectar agua, gravilla u otras materias a los demás.",
+                  "en": "You drive on a slippery surface, or you might splash or throw water, gravel or other material at other road users."
+                },
+                {
+                  "es": "Te acercas a pasos a nivel, a glorietas o a intersecciones donde no tienes prioridad. También a lugares de poca visibilidad o a estrechamientos.",
+                  "en": "You approach level crossings, roundabouts or junctions where you do not have priority. Also places with poor visibility, or narrowings."
+                },
+                {
+                  "es": "Te cruzas con otro vehículo y la vía, los vehículos o el tiempo no permiten hacerlo con seguridad.",
+                  "en": "You pass another vehicle and the road, the vehicles or the weather do not allow it to be done safely."
+                },
+                {
+                  "es": "Te deslumbran.",
+                  "en": "You are dazzled by glare."
+                },
+                {
+                  "es": "Hay niebla densa, lluvia intensa, nieve o nubes de polvo o de humo.",
+                  "en": "There is dense fog, heavy rain, snow, or clouds of dust or smoke."
+                }
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si las intersecciones están bien señalizadas y la visibilidad es prácticamente nula, la velocidad no debe pasar de **50 km/h**.",
+                "en": "If junctions are properly signed and visibility is practically nil, speed must not exceed **50 km/h**."
+              },
+              "src": "RGC art. 46.1.h"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "speed-adapt-c4",
+                "answer": 1,
+                "es": {
+                  "q": "Te acercas a una intersección bien señalizada, pero la visibilidad es prácticamente nula. ¿Qué velocidad máxima no debes rebasar?",
+                  "options": [
+                    "30 km/h",
+                    "50 km/h",
+                    "70 km/h"
+                  ],
+                  "why": "Con las intersecciones bien señalizadas y la visibilidad prácticamente nula, la velocidad no debe exceder de 50 km/h."
+                },
+                "en": {
+                  "q": "You approach a properly signed junction, but visibility is practically nil. What maximum speed must you not exceed?",
+                  "options": [
+                    "30 km/h",
+                    "50 km/h",
+                    "70 km/h"
+                  ],
+                  "why": "With properly signed junctions and practically nil visibility, speed must not exceed 50 km/h."
+                },
+                "terms": [
+                  {
+                    "es": "visibilidad",
+                    "en": "visibility"
+                  },
+                  {
+                    "es": "intersección",
+                    "en": "junction"
+                  }
+                ],
+                "src": "RGC art. 46.1.h"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Frena con cuidado y deja espacio",
+            "en": "Brake with care and leave room"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Para reducir mucho la velocidad, salvo peligro inminente, debes comprobar que no pones en riesgo a otros. Debes avisarlo antes y no frenar de forma brusca, para que no te alcancen.",
+                "en": "To reduce your speed a lot, except in imminent danger, you must check that you are not putting others at risk. You must warn them first and not brake abruptly, so the vehicles behind do not run into you."
+              },
+              "src": "RGC art. 53.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si circulas detrás de otro vehículo, deja un espacio libre para detenerte sin chocar si frena de golpe. Cuentan sobre todo la velocidad y la adherencia y el frenado.",
+                "en": "If you drive behind another vehicle, leave a free space that lets you stop without hitting it if it brakes suddenly. Speed and grip and braking conditions matter most."
+              },
+              "src": "RGC art. 54.1"
+            },
+            {
+              "t": "example",
+              "situation": {
+                "es": "Llueve y la calzada está mojada. Vas detrás de un camión que levanta agua.",
+                "en": "It is raining and the road is wet. You are behind a truck that throws up spray."
+              },
+              "action": {
+                "es": "Suelta el acelerador, reduce la velocidad poco a poco y aumenta el espacio con el camión.",
+                "en": "Ease off the accelerator, slow down gradually and increase the space to the truck."
+              },
+              "why": {
+                "es": "El suelo mojado reduce la adherencia, y la ley pide dejar un espacio que permita detenerte teniendo en cuenta la adherencia (art. 54.1). Un pavimento deslizante obliga además a moderar la velocidad (art. 46.1.g).",
+                "en": "A wet road gives less grip, and the law asks you to leave enough space to stop, taking grip into account (art. 54.1). A slippery surface also calls for a moderate speed (art. 46.1.g)."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "speed-adapt-c5",
+                "answer": 0,
+                "es": {
+                  "q": "Necesitas reducir mucho la velocidad y no hay peligro inminente. ¿Qué haces?",
+                  "options": [
+                    "Compruebas que puedes hacerlo sin riesgo, avisas y frenas sin brusquedad",
+                    "Frenas de golpe para que el coche de atrás se aparte",
+                    "Pones las luces de emergencia y sigues con tu velocidad"
+                  ],
+                  "why": "Para reducir mucho la velocidad debes asegurarte de que no hay riesgo para los demás, avisarlo antes y no frenar de forma brusca."
+                },
+                "en": {
+                  "q": "You need to slow down a lot and there is no imminent danger. What do you do?",
+                  "options": [
+                    "Check that it is safe, warn others and brake smoothly",
+                    "Brake hard so the car behind moves away",
+                    "Switch on the hazard lights and keep your speed"
+                  ],
+                  "why": "To slow down a lot you must make sure it is safe for others, warn them first and not brake abruptly."
+                },
+                "terms": [
+                  {
+                    "es": "frenar de forma brusca",
+                    "en": "to brake abruptly"
+                  }
+                ],
+                "src": "RGC art. 53.1"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "El límite es un **máximo**. Debes poder **detenerte** dentro de lo que ves.",
+          "en": "The limit is a **maximum**. You must be able to **stop** within what you can see."
+        },
+        {
+          "es": "La **distancia de detención** es lo que recorres durante la reacción más lo que recorres frenando.",
+          "en": "The **stopping distance** is what you cover while reacting plus what you cover while braking."
+        },
+        {
+          "es": "Al doblar la velocidad, la frenada es unas **cuatro veces** más larga.",
+          "en": "Double the speed and braking is about **four times** longer."
+        },
+        {
+          "es": "Modera la velocidad con **personas, ciclistas, animales**, suelo resbaladizo, poca visibilidad o mal tiempo.",
+          "en": "Moderate your speed near **people, cyclists, animals**, slippery surfaces, poor visibility or bad weather."
+        },
+        {
+          "es": "Intersección señalizada con visibilidad casi nula: **50 km/h** como máximo.",
+          "en": "Signed junction with almost no visibility: **50 km/h** at most."
+        },
+        {
+          "es": "Avisa antes de frenar fuerte, no frenes bruscamente y deja **espacio** al coche de delante.",
+          "en": "Warn before braking hard, do not brake abruptly, and leave **room** to the car ahead."
+        }
+      ],
+      "covers": [
+        "speed-05"
+      ],
+      "src": [
+        "Reglamento General de Circulación (RD 1428/2003), arts. 45, 46.1, 53.1 y 54.1"
+      ]
+    },
+    {
+      "id": "signs",
+      "title": {
+        "es": "Cómo se señalizan los límites",
+        "en": "How limits are signed"
+      },
+      "minutes": 7,
+      "goals": [
+        {
+          "es": "Saber hasta dónde llega una señal de velocidad máxima y cómo termina.",
+          "en": "Know how far a speed limit sign reaches and how it ends."
+        },
+        {
+          "es": "Conocer los casos especiales: poste con señal de peligro, vía sin prioridad y cifra pintada.",
+          "en": "Know the special cases: a pole with a warning sign, a road without priority, and a painted number."
+        },
+        {
+          "es": "Distinguir un límite de una velocidad aconsejada o mínima.",
+          "en": "Tell a limit apart from an advised or minimum speed."
+        }
+      ],
+      "terms": [
+        {
+          "es": "velocidad máxima",
+          "en": "maximum speed"
+        },
+        {
+          "es": "fin de limitación",
+          "en": "end of limit"
+        },
+        {
+          "es": "velocidad aconsejada",
+          "en": "advised speed"
+        },
+        {
+          "es": "velocidad mínima",
+          "en": "minimum speed"
+        },
+        {
+          "es": "poste",
+          "en": "post"
+        },
+        {
+          "es": "prevalecer",
+          "en": "to take precedence"
+        },
+        {
+          "es": "titular de la vía",
+          "en": "road owner"
+        },
+        {
+          "es": "vía con prioridad",
+          "en": "priority road"
+        }
+      ],
+      "pretest": {
+        "id": "speed-pre-4",
+        "answer": 1,
+        "es": {
+          "q": "Pasas una señal de velocidad máxima de 70 km/h. ¿Hasta cuándo vale?",
+          "options": [
+            "Durante los próximos cien metros",
+            "Hasta una señal de fin de limitación u otra de velocidad máxima",
+            "Hasta la siguiente curva"
+          ],
+          "why": "Una señal de velocidad máxima obliga desde donde está hasta que otra señal la termina o la cambia."
+        },
+        "en": {
+          "q": "You pass a 70 km/h maximum speed sign. How long does it apply?",
+          "options": [
+            "For the next hundred meters",
+            "Until an end-of-limit sign or another maximum speed sign",
+            "Until the next curve"
+          ],
+          "why": "A maximum speed sign applies from where it stands until another sign ends or changes it."
+        },
+        "src": "RGC Anexo I, ap. 5.1 (R-301)"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "La señal R-301, velocidad máxima",
+            "en": "The R-301 sign, maximum speed"
+          },
+          "blocks": [
+            {
+              "t": "signs",
+              "ids": [
+                "r-301-50",
+                "r-301-80",
+                "r-301-120"
+              ],
+              "caption": {
+                "es": "La señal R-301: círculo con borde rojo y una cifra. Es un límite en km/h.",
+                "en": "The R-301 sign: a circle with a red border and a number. It is a limit in km/h."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "La señal R-301, «Velocidad máxima», prohíbe circular a más velocidad que la cifra indicada, en km/h. Obliga desde donde está hasta la próxima señal «Fin de limitación de velocidad», «Fin de prohibiciones» u otra velocidad máxima.",
+                "en": "Sign R-301, “Velocidad máxima”, forbids driving faster, in km/h, than the number shown. It applies from where it stands until the next “Fin de limitación de velocidad”, “Fin de prohibiciones” or another “Velocidad máxima” sign."
+              },
+              "src": "RGC Anexo I, ap. 5.1 (R-301)"
+            },
+            {
+              "t": "figure",
+              "file": "speed-limit-reach",
+              "alt": {
+                "es": "Una carretera recta con tres señales marcadas 1, 2 y 3. Entre la 1 y la 2 el tramo es rojo. Entre la 2 y la 3 es verde. Después de la 3 no hay color. Un coche azul avanza por el carril derecho.",
+                "en": "A straight road with three signs marked 1, 2 and 3. Between 1 and 2 the stretch is red. Between 2 and 3 it is green. After 3 there is no color. A blue car moves along the right-hand lane."
+              },
+              "caption": {
+                "es": "Cada señal manda hasta la siguiente. La señal 3 devuelve el límite genérico de la vía.",
+                "en": "Each sign rules until the next one. Sign 3 brings back the default limit of the road."
+              },
+              "legend": [
+                {
+                  "mark": "1",
+                  "text": {
+                    "es": "Señal de velocidad máxima: empieza el límite (zona roja).",
+                    "en": "Maximum speed sign: the limit starts (red zone)."
+                  }
+                },
+                {
+                  "mark": "2",
+                  "text": {
+                    "es": "Otra señal de velocidad máxima con otra cifra: sustituye a la anterior (zona verde).",
+                    "en": "Another maximum speed sign with a different number: it replaces the previous one (green zone)."
+                  }
+                },
+                {
+                  "mark": "3",
+                  "text": {
+                    "es": "Señal de fin de limitación: deja de valer el límite.",
+                    "en": "End-of-limit sign: the limit stops applying."
+                  }
+                }
+              ]
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Si la cifra de la señal es igual al límite genérico de la vía, la señal solo **te lo recuerda**.",
+                "en": "If the number on the sign equals the default limit of the road, the sign only **reminds you** of it."
+              }
+            },
+            {
+              "t": "us",
+              "text": {
+                "es": "En EE. UU. los límites suelen ser rectángulos blancos con «SPEED LIMIT» y cifras en mph. Aquí es un círculo con borde rojo, y las cifras son km/h.",
+                "en": "In the US, limits are usually white rectangles that read “SPEED LIMIT” with numbers in mph. Here it is a circle with a red border, and the numbers are km/h."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "speed-signs-c1",
+                "answer": 2,
+                "es": {
+                  "q": "Pasas una señal de velocidad máxima de 60 km/h. Más adelante hay otra de 80 km/h y no hay ninguna señal de fin de limitación. ¿Qué límite vale tras la segunda señal?",
+                  "options": [
+                    "60 km/h, hasta que veas un fin de limitación",
+                    "El genérico de la vía, no el de la señal",
+                    "80 km/h, porque la nueva señal sustituye a la anterior"
+                  ],
+                  "why": "Una señal de velocidad máxima vale hasta otra señal de velocidad máxima. La segunda sustituye a la primera."
+                },
+                "en": {
+                  "q": "You pass a 60 km/h maximum speed sign. Later there is another one for 80 km/h and no end-of-limit sign. Which limit applies after the second sign?",
+                  "options": [
+                    "60 km/h, until you see an end of limit",
+                    "The default limit of the road, not the sign",
+                    "80 km/h, because the new sign replaces the previous one"
+                  ],
+                  "why": "A maximum speed sign applies until another maximum speed sign. The second one replaces the first."
+                },
+                "terms": [
+                  {
+                    "es": "velocidad máxima",
+                    "en": "maximum speed"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1 (R-301)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Cómo termina el límite",
+            "en": "How the limit ends"
+          },
+          "blocks": [
+            {
+              "t": "signs",
+              "ids": [
+                "r-501",
+                "r-500"
+              ],
+              "caption": {
+                "es": "R-501 termina el límite de velocidad. R-500 termina todas las prohibiciones específicas.",
+                "en": "R-501 ends the speed limit. R-500 ends all the specific prohibitions."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "La señal R-501, «Fin de la limitación de velocidad», marca dónde deja de valer una señal de velocidad máxima anterior. La R-500, «Fin de prohibiciones», marca dónde dejan de valer todas las prohibiciones específicas anteriores.",
+                "en": "Sign R-501, “Fin de la limitación de velocidad”, marks the place from which an earlier maximum speed sign stops applying. R-500, “Fin de prohibiciones”, marks the place from which all the specific prohibitions of earlier signs stop applying."
+              },
+              "src": "RGC Anexo I, ap. 5.1 (R-500 y R-501)"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Cuando el límite de una señal termina, vuelve a valer el límite **genérico** de esa vía. Sin señal específica se cumple el genérico.",
+                "en": "When a sign’s limit ends, the **default** limit for that road applies again. With no specific sign, the default is what counts."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "speed-signs-c2",
+                "answer": 1,
+                "es": {
+                  "q": "Pasas una señal R-501, «Fin de la limitación de velocidad». ¿Qué límite rige a partir de ahí?",
+                  "options": [
+                    "Ninguno: puedes ir a la velocidad que quieras",
+                    "El límite genérico de esa vía",
+                    "El de la señal anterior, 10 km/h más"
+                  ],
+                  "why": "La R-501 termina el límite de la señal anterior. A partir de ahí, sin otra señal específica, rige el límite genérico de la vía."
+                },
+                "en": {
+                  "q": "You pass an R-501 sign, “end of speed limit”. Which limit applies from there?",
+                  "options": [
+                    "None: you can go as fast as you like",
+                    "The default limit of that road",
+                    "That of the previous sign, plus 10 km/h"
+                  ],
+                  "why": "R-501 ends the limit of the previous sign. From there, with no other specific sign, the default limit of the road applies."
+                },
+                "terms": [
+                  {
+                    "es": "fin de limitación",
+                    "en": "end of limit"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1 (R-501) y art. 52.1.a"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Tres casos especiales",
+            "en": "Three special cases"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si la R-301 va en el mismo poste o panel que una señal de peligro, el límite acaba cuando acaba el peligro.",
+                "en": "If the R-301 sign is on the same post or panel as a danger warning sign, the limit ends when the danger it points to ends."
+              },
+              "src": "RGC Anexo I, ap. 5.1 (R-301)"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Una R-301 en una vía sin prioridad deja de valer al salir de una intersección con una vía con prioridad.",
+                "en": "If the R-301 sign is on a road without priority, it stops applying when you leave a junction with a priority road."
+              },
+              "src": "RGC Anexo I, ap. 5.1 (R-301)"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Una cifra pintada en un carril delimitado por líneas afecta solo a los vehículos de ese carril. El límite sigue hasta un fin de limitación o una señal de velocidad máxima de valor diferente.",
+                "en": "A speed number painted in a lane marked off by longitudinal lines applies only to the vehicles in that lane. The limit continues until an end-of-limit sign or a maximum speed sign of a different value."
+              },
+              "src": "RGC Anexo I, ap. 5.2 (M-6.6 y M-6.7)"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "speed-signs-c3",
+                "answer": 0,
+                "es": {
+                  "q": "Una señal de velocidad máxima está colocada en una vía sin prioridad. ¿Cuándo deja de tener vigencia?",
+                  "options": [
+                    "Al salir de una intersección con una vía con prioridad",
+                    "Solo cuando ves una señal de fin de limitación",
+                    "A los 500 metros de la señal"
+                  ],
+                  "why": "Una señal de velocidad en una vía sin prioridad deja de valer al salir de una intersección con una vía con prioridad."
+                },
+                "en": {
+                  "q": "A maximum speed sign stands on a road without priority. When does it stop applying?",
+                  "options": [
+                    "When you leave a junction with a priority road",
+                    "Only when you see an end-of-limit sign",
+                    "500 meters after the sign"
+                  ],
+                  "why": "A speed sign on a road without priority stops applying when you leave a junction with a priority road."
+                },
+                "terms": [
+                  {
+                    "es": "vía con prioridad",
+                    "en": "priority road"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1 (R-301)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Señal o límite genérico: qué manda",
+            "en": "Sign or default limit: which rules"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los titulares de las vías fijan límites específicos con señales. La autoridad de tráfico puede fijar límites temporales con señalización circunstancial o variable.",
+                "en": "Road owners set specific limits with signs. The traffic authority can set temporary limits with circumstantial or variable signs."
+              },
+              "src": "RGC art. 47"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Sobre los límites genéricos prevalecen los de las señales. También prevalecen los fijados a ciertos conductores, como los noveles, y a ciertos vehículos o cargas.",
+                "en": "Limits set by signs take precedence over the default limits. So do those set for certain drivers, such as novices, and for certain vehicles or loads."
+              },
+              "src": "RGC art. 52.1"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Resultado: una señal puede bajar el límite genérico. Solo puede subirlo en los casos que la ley prevé, como los 100 km/h de una carretera convencional con los dos sentidos separados o los 50 km/h de una calle con un carril por sentido. Obedece siempre la señal.",
+                "en": "Result: a sign can lower the default limit. It can raise it only in the cases the law allows, such as 100 km/h on a conventional road with the two directions physically separated, or 50 km/h on a street with one lane each way. Always obey the sign."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "speed-signs-c4",
+                "answer": 2,
+                "es": {
+                  "q": "Conduces un turismo por una carretera convencional, donde el límite genérico es de 90 km/h. Una señal R-301 dice 70. ¿Cuál es tu máximo?",
+                  "options": [
+                    "90 km/h, porque eres un turismo",
+                    "80 km/h, la media de los dos",
+                    "70 km/h, porque la señal prevalece"
+                  ],
+                  "why": "La señal específica prevalece sobre el límite genérico. Hasta el siguiente fin de limitación, tu máximo es de 70 km/h."
+                },
+                "en": {
+                  "q": "You drive a car on a conventional road, where the default limit is 90 km/h. An R-301 sign says 70. What is your maximum?",
+                  "options": [
+                    "90 km/h, because you are a car",
+                    "80 km/h, the average of the two",
+                    "70 km/h, because the sign takes precedence"
+                  ],
+                  "why": "A specific sign takes precedence over the default limit. Until the next end of limit, your maximum is 70 km/h."
+                },
+                "terms": [
+                  {
+                    "es": "señal específica",
+                    "en": "specific sign"
+                  }
+                ],
+                "src": "RGC arts. 47 y 52.1.a"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Velocidad aconsejada y velocidad mínima",
+            "en": "Advised speed and minimum speed"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "La señal S-7, «Velocidad máxima aconsejada», recomienda una velocidad que se aconseja no sobrepasar aunque las condiciones del tiempo, de la vía y del tráfico sean favorables. Colocada bajo una señal de peligro, vale para el tramo donde siga el peligro.",
+                "en": "Sign S-7, “Velocidad máxima aconsejada”, recommends a speed that is advised not to exceed even if weather, road and traffic conditions are favorable. Placed under a danger sign, it applies to the stretch where the danger lasts."
+              },
+              "src": "RGC Anexo I, ap. 5.1 (S-7)"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "La señal R-411, «Velocidad mínima», obliga a ir por lo menos a la velocidad de la cifra, desde donde está. Vale hasta otra velocidad mínima, un fin de velocidad mínima (R-506) o una velocidad máxima de valor igual o inferior.",
+                "en": "Sign R-411, “Velocidad mínima”, obliges you to drive at least at the speed shown, from where it stands until a different minimum speed sign, an end-of-minimum-speed sign (R-506) or a maximum speed sign of the same value or lower."
+              },
+              "src": "RGC Anexo I, ap. 5.1 (R-411 y R-506)"
+            },
+            {
+              "t": "list",
+              "items": [
+                {
+                  "es": "R-301 es un **límite**: no puedes pasarlo.",
+                  "en": "R-301 is a **limit**: you may not go over it."
+                },
+                {
+                  "es": "S-7 es un **consejo**: se aconseja no pasar de esa cifra.",
+                  "en": "S-7 is **advice**: you are advised not to go over that number."
+                },
+                {
+                  "es": "R-411 es un **mínimo**: debes ir por lo menos a esa cifra.",
+                  "en": "R-411 is a **minimum**: you must go at least that fast."
+                }
+              ]
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "speed-signs-c5",
+                "answer": 0,
+                "es": {
+                  "q": "Una señal S-7, «Velocidad máxima aconsejada», marca 60. ¿Qué significa?",
+                  "options": [
+                    "Se aconseja no pasar de 60 km/h, aunque las condiciones sean buenas",
+                    "Está prohibido ir a más de 60 km/h",
+                    "Hay que ir como mínimo a 60 km/h"
+                  ],
+                  "why": "La S-7 recomienda una velocidad que se aconseja no sobrepasar. Es un consejo, no un límite como la R-301, ni un mínimo como la R-411."
+                },
+                "en": {
+                  "q": "An S-7 sign, “advised maximum speed”, shows 60. What does it mean?",
+                  "options": [
+                    "Do not exceed 60 km/h even if conditions are good: it is advice",
+                    "It is forbidden to go faster than 60 km/h",
+                    "You must drive at least 60 km/h"
+                  ],
+                  "why": "S-7 recommends a speed it is advised not to exceed. It is advice, not a limit like R-301, nor a minimum like R-411."
+                },
+                "terms": [
+                  {
+                    "es": "velocidad aconsejada",
+                    "en": "advised speed"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1 (S-7)"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "**R-301** manda desde donde está hasta un fin de limitación u otra señal de velocidad.",
+          "en": "**R-301** rules from where it stands until an end of limit or another speed sign."
+        },
+        {
+          "es": "**R-501** acaba el límite y vuelve el genérico. La R-500 acaba todas las prohibiciones.",
+          "en": "**R-501** ends the limit and the default returns. R-500 ends all the prohibitions."
+        },
+        {
+          "es": "Tres **casos especiales**: poste con señal de peligro, vía sin prioridad y cifra pintada en el carril.",
+          "en": "Three **special cases**: a post with a danger sign, a road without priority, and a number painted in the lane."
+        },
+        {
+          "es": "La **señal prevalece** sobre el límite genérico.",
+          "en": "The **sign takes precedence** over the default limit."
+        },
+        {
+          "es": "Una señal de velocidad puede ser un límite, un consejo o un **mínimo**: no las confundas.",
+          "en": "A speed sign can be a limit, advice or a **minimum**: do not mix them up."
+        }
+      ],
+      "src": [
+        "Reglamento General de Circulación (RD 1428/2003), arts. 47 y 52.1, y Anexo I, ap. 5.1 (R-301, R-411, R-500, R-501, R-506 y S-7) y ap. 5.2 (M-6.6 y M-6.7)"
+      ]
+    }
+  ]
+}

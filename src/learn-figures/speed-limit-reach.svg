@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 240" focusable="false">
+  <rect class="f-grass" x="0" y="0" width="360" height="240"/>
+  <rect class="f-road" x="0" y="60" width="360" height="120"/>
+  <rect id="zoneA" class="f-zone" x="60" y="60" width="130" height="120"/>
+  <rect id="zoneB" class="f-zone-ok" x="190" y="60" width="110" height="120"/>
+  <path class="f-line f-dash" d="M0 120 H360"/>
+  <path class="f-line" d="M60 60 V194 M190 60 V194 M300 60 V194"/>
+  <g><circle class="f-badge" cx="60" cy="210" r="11"/><text class="f-badge-text" x="60" y="210">1</text></g>
+  <g><circle class="f-badge" cx="190" cy="210" r="11"/><text class="f-badge-text" x="190" y="210">2</text></g>
+  <g><circle class="f-badge" cx="300" cy="210" r="11"/><text class="f-badge-text" x="300" y="210">3</text></g>
+</svg>

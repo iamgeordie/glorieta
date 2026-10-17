@@ -1,0 +1,71 @@
+{
+  "seconds": 8,
+  "poster": 2.8,
+  "reveals": [
+    {
+      "id": "box",
+      "from": 1.3,
+      "to": 5.4
+    }
+  ],
+  "actors": [
+    {
+      "id": "q3",
+      "kind": "car",
+      "tone": "neutral",
+      "path": "M195 36 L195 -62",
+      "from": 4,
+      "to": 5.2
+    },
+    {
+      "id": "q2",
+      "kind": "car",
+      "tone": "neutral",
+      "path": "M195 82 L195 -12",
+      "from": 4.3,
+      "to": 5.5
+    },
+    {
+      "id": "q1",
+      "kind": "car",
+      "tone": "neutral",
+      "path": "M195 128 L195 34",
+      "from": 4.6,
+      "to": 5.8
+    },
+    {
+      "id": "b",
+      "kind": "car",
+      "tone": "me",
+      "path": "M195 392 L195 248",
+      "from": 0.2,
+      "to": 1.8,
+      "show": [
+        0,
+        6
+      ],
+      "badge": {
+        "mark": "B",
+        "dx": -31,
+        "dy": 0
+      }
+    },
+    {
+      "id": "b2",
+      "kind": "car",
+      "tone": "me",
+      "path": "M195 248 L195 96",
+      "from": 6,
+      "to": 7.6,
+      "show": [
+        6,
+        8
+      ],
+      "badge": {
+        "mark": "B",
+        "dx": -31,
+        "dy": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 240" focusable="false">
+  <rect class="f-grass" x="0" y="0" width="360" height="240"/>
+  <rect class="f-curb" x="0" y="0" width="116" height="240"/>
+  <rect class="f-road" x="24" y="0" width="68" height="240"/>
+  <use href="#v-ped" class="f-neutral" transform="translate(40 120)"/>
+  <use href="#v-ped" class="f-neutral" transform="translate(12 190)"/>
+  <use href="#v-car" class="f-me" transform="translate(68 78) rotate(0)"/>
+  <use href="#v-car" class="f-other" transform="translate(48 180) rotate(180)"/>
+  <g><circle class="f-badge" cx="58" cy="20" r="11"/><text class="f-badge-text" x="58" y="20">A</text></g>
+  <rect class="f-curb" x="122" y="0" width="116" height="240"/>
+  <rect class="f-road" x="148" y="0" width="64" height="240"/>
+  <path class="f-seam" d="M148 0 V240 M212 0 V240"/>
+  <path class="f-line f-dash" d="M180 0 V240"/>
+  <use href="#v-car" class="f-me" transform="translate(196 78) rotate(0)"/>
+  <use href="#v-car" class="f-other" transform="translate(164 180) rotate(180)"/>
+  <g><circle class="f-badge" cx="180" cy="20" r="11"/><text class="f-badge-text" x="180" y="20">B</text></g>
+  <rect class="f-curb" x="244" y="0" width="116" height="240"/>
+  <rect class="f-road" x="252" y="0" width="100" height="240"/>
+  <path class="f-seam" d="M252 0 V240 M352 0 V240"/>
+  <path class="f-line" d="M301 0 V240 M304 0 V240"/>
+  <path class="f-line f-dash" d="M277 0 V240 M327 0 V240"/>
+  <use href="#v-car" class="f-me" transform="translate(315 70) rotate(0)"/>
+  <use href="#v-car" class="f-other" transform="translate(340 150) rotate(0)"/>
+  <use href="#v-car" class="f-other" transform="translate(265 110) rotate(180)"/>
+  <use href="#v-car" class="f-me" transform="translate(290 195) rotate(180)"/>
+  <g><circle class="f-badge" cx="302" cy="20" r="11"/><text class="f-badge-text" x="302" y="20">C</text></g>
+</svg>

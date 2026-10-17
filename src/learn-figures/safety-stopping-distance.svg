@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 240" focusable="false">
+  <rect class="f-grass" x="0" y="0" width="360" height="240"/>
+  <rect class="f-road" x="0" y="50" width="360" height="150"/>
+  <path class="f-line" d="M0 54 H360 M0 196 H360"/>
+  <path class="f-line f-dash" d="M0 125 H360"/>
+  <rect id="ar" class="f-zone" x="66" y="68" width="70" height="40"/>
+  <rect id="ab" class="f-zone-ok" x="136" y="68" width="100.8" height="40"/>
+  <rect id="br" class="f-zone" x="66" y="142" width="92.4" height="40"/>
+  <rect id="bb" class="f-zone-ok" x="158.4" y="142" width="182" height="40"/>
+  <g id="haz">
+    <path class="f-path-plain" d="M66 40 V210"/>
+    <circle class="f-badge" cx="66" cy="22" r="11"/><text class="f-badge-text" x="66" y="22">!</text>
+  </g>
+</svg>

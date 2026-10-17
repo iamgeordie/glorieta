@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360" focusable="false">
+  <rect class="f-grass" x="0" y="0" width="360" height="360"/>
+  <g><rect class="f-curb" x="-12" y="-12" width="162" height="162" rx="8"/><rect class="f-island" x="-12" y="-12" width="156" height="156" rx="5"/><rect class="f-curb" x="210" y="-12" width="162" height="162" rx="8"/><rect class="f-island" x="216" y="-12" width="156" height="156" rx="5"/><rect class="f-curb" x="-12" y="210" width="162" height="162" rx="8"/><rect class="f-island" x="-12" y="216" width="156" height="156" rx="5"/><rect class="f-curb" x="210" y="210" width="162" height="162" rx="8"/><rect class="f-island" x="216" y="216" width="156" height="156" rx="5"/></g>
+  <g class="f-road"><rect x="150" y="-10" width="60" height="380"/><rect x="-10" y="150" width="380" height="60"/></g>
+  <path class="f-line f-dash" d="M180 0 V132 M180 228 V360 M0 180 H132 M228 180 H360"/>
+  <rect class="f-white" x="181" y="214" width="28" height="4"/>
+  <rect id="box" class="f-zone" x="150" y="150" width="60" height="60"/>
+  <g><rect class="f-road" x="213" y="228" width="20" height="20" rx="5"/><circle class="f-ok" fill="currentColor" cx="223" cy="238" r="6.5"/></g>
+  <use href="#v-car" class="f-other" transform="translate(126 195) rotate(90)"/>
+  <g transform="translate(126 222)"><circle class="f-badge" r="11"/><text class="f-badge-text">A</text></g>
+</svg>

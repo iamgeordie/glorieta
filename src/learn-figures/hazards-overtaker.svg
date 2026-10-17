@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360" focusable="false">
+  <rect class="f-grass" x="0" y="0" width="360" height="360"/>
+  <rect class="f-road" x="150" y="0" width="60" height="360"/>
+  <rect class="f-curb" x="210" y="0" width="22" height="360"/>
+  <path class="f-line" d="M150 0 V360 M210 0 V360"/>
+  <path class="f-line f-dash" d="M180 0 V360"/>
+  <rect id="room" class="f-zone-ok" x="210" y="230" width="22" height="130"/>
+  <g><circle class="f-badge" cx="250" cy="300" r="11"/><text class="f-badge-text" x="250" y="300">3</text></g>
+</svg>

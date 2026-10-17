@@ -1,0 +1,46 @@
+{
+  "seconds": 8,
+  "poster": 3.4,
+  "reveals": [
+    {
+      "id": "zone",
+      "from": 0.2,
+      "to": 7.2
+    },
+    {
+      "id": "route",
+      "from": 0.5,
+      "draw": true
+    }
+  ],
+  "actors": [
+    {
+      "id": "a",
+      "kind": "car",
+      "tone": "other",
+      "path": "M196 200 L196 165",
+      "from": 0,
+      "to": 8,
+      "ease": "linear",
+      "badge": {
+        "mark": "A",
+        "dx": 30,
+        "dy": 0
+      }
+    },
+    {
+      "id": "b",
+      "kind": "car",
+      "tone": "me",
+      "path": "M196 335 L196 300 C196 280 164 278 164 252 L164 105 C164 82 196 78 196 55 L196 28",
+      "from": 0.6,
+      "to": 7.4,
+      "ease": "linear",
+      "badge": {
+        "mark": "B",
+        "dx": -30,
+        "dy": 0
+      }
+    }
+  ]
+}

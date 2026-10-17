@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360" focusable="false">
+  <rect class="f-grass" x="0" y="0" width="360" height="360"/>
+  <rect class="f-road" x="100" y="0" width="90" height="360"/>
+  <path class="f-line" d="M103 0 V360 M160 0 V360"/>
+  <path class="f-line f-dash" d="M131 0 V360"/>
+  <rect id="zone-danger" class="f-zone" x="100" y="0" width="90" height="360"/>
+  <g class="f-curb"><rect x="190" y="0" width="5" height="205"/><rect x="190" y="255" width="5" height="105"/></g>
+  <rect id="zone-safe" class="f-zone-ok" x="200" y="150" width="120" height="150" rx="10"/>
+  <use href="#v-car" class="f-me" transform="translate(172 230)"/>
+  <g id="beacon">
+    <circle class="f-path-plain" cx="172" cy="230" r="13" stroke-width="3"/>
+    <circle class="f-path-plain" cx="172" cy="230" r="2"/>
+  </g>
+  <path class="f-line" d="M172 205 V217"/>
+  <g transform="translate(172 192)"><circle class="f-badge" r="11"/><text class="f-badge-text">B</text></g>
+  <g transform="translate(172 266)"><circle class="f-badge" r="11"/><text class="f-badge-text">A</text></g>
+</svg>

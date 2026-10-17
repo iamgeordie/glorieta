@@ -1,0 +1,2318 @@
+{
+  "id": "safety",
+  "title": {
+    "es": "Seguridad: cinturón, móvil, distancia y ayudas",
+    "en": "Safety: seat belts, phones, distance and driver aids"
+  },
+  "blurb": {
+    "es": "Quién se abrocha y cómo viajan los niños, qué prohíbe la ley con el móvil, cuánta distancia dejar y qué hacen las ayudas de tu coche.",
+    "en": "Who buckles up and how children travel, what the law bans with the phone, how much distance to leave and what your car’s aids do."
+  },
+  "lessons": [
+    {
+      "id": "belts-and-child-seats",
+      "title": {
+        "es": "Cinturón y sillas infantiles",
+        "en": "Seat belts and child seats"
+      },
+      "minutes": 7,
+      "goals": [
+        {
+          "es": "Saber quién debe llevar el cinturón y cuándo hay excepciones.",
+          "en": "Know who must wear a seat belt and when there are exceptions."
+        },
+        {
+          "es": "Decidir cómo viaja un niño según su estatura.",
+          "en": "Decide how a child travels, based on height."
+        },
+        {
+          "es": "Saber dónde se sienta un niño y qué pasa con el airbag.",
+          "en": "Know where a child sits and what happens with the airbag."
+        },
+        {
+          "es": "Saber quién debe llevar casco.",
+          "en": "Know who must wear a helmet."
+        }
+      ],
+      "terms": [
+        {
+          "es": "cinturón de seguridad",
+          "en": "seat belt"
+        },
+        {
+          "es": "abrochado",
+          "en": "buckled up"
+        },
+        {
+          "es": "sistema de retención infantil (SRI)",
+          "en": "child restraint system (child seat)"
+        },
+        {
+          "es": "estatura",
+          "en": "height"
+        },
+        {
+          "es": "asiento trasero",
+          "en": "rear seat"
+        },
+        {
+          "es": "homologado",
+          "en": "type-approved (certified)"
+        },
+        {
+          "es": "airbag",
+          "en": "airbag"
+        },
+        {
+          "es": "casco",
+          "en": "helmet"
+        }
+      ],
+      "pretest": {
+        "id": "safety-pre-1",
+        "answer": 1,
+        "es": {
+          "q": "¿A partir de qué estatura puede un niño viajar solo con el cinturón de seguridad, sin silla infantil?",
+          "options": [
+            "Más de 110 cm",
+            "Más de 135 cm",
+            "Más de 150 cm"
+          ],
+          "why": "La obligación de usar un sistema de retención infantil llega hasta los 135 cm (incluidos). Un niño más alto usa el cinturón como cualquier otro ocupante."
+        },
+        "en": {
+          "q": "From what height can a child ride with just the seat belt, without a child seat?",
+          "options": [
+            "Taller than 110 cm",
+            "Taller than 135 cm",
+            "Taller than 150 cm"
+          ],
+          "why": "The duty to use a child restraint covers children up to 135 cm (inclusive). A taller child uses the seat belt like any other occupant."
+        },
+        "src": "RGC art. 117.1"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Todos abrochados",
+            "en": "Everyone buckled up"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "El cinturón es la primera protección de un coche. La ley es clara: no importa el asiento ni el tipo de vía.",
+                "en": "The seat belt is the first protection in a car. The law is clear: it does not matter which seat or what kind of road."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "El conductor y los ocupantes de los vehículos deben usar, **debidamente abrochados**, los cinturones de seguridad homologados, tanto en vías urbanas como interurbanas. No es exigible en los vehículos que no los tienen instalados.",
+                "en": "The driver and the occupants of vehicles must use approved seat belts, **properly fastened**, on both urban and intercity roads. This does not apply to vehicles that have no belts fitted."
+              },
+              "src": "RGC art. 117.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "No usar el cinturón o el sistema de retención infantil es una infracción grave y **resta 4 puntos** del permiso.",
+                "en": "Not using the seat belt or the child restraint is a serious offense and **costs 4 points** on your license."
+              },
+              "src": "LSV art. 76.h y Anexo II, 15"
+            },
+            {
+              "t": "us",
+              "text": {
+                "es": "En EE. UU. las normas cambian según el estado, y en algunos no se obliga a los adultos del asiento trasero a abrocharse. En España, todos los ocupantes, en cualquier asiento.",
+                "en": "In the US the rules vary by state, and some states do not require adults in the back seat to buckle up. In Spain, every occupant, in any seat."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c1a",
+                "answer": 1,
+                "es": {
+                  "q": "Viajas de pasajero en el asiento trasero de un turismo con cinturones, en un trayecto corto por la ciudad. ¿Qué debes hacer?",
+                  "options": [
+                    "Nada: en ciudad solo es obligatorio delante",
+                    "Abrocharte el cinturón, como los demás ocupantes",
+                    "Abrocharte solo si el coche sale a una carretera"
+                  ],
+                  "why": "La obligación vale para el conductor y todos los ocupantes, en vías urbanas e interurbanas. El asiento no cambia la regla."
+                },
+                "en": {
+                  "q": "You ride as a passenger in the back seat of a car that has seat belts, on a short trip around town. What must you do?",
+                  "options": [
+                    "Nothing: in town it is only required in front",
+                    "Fasten your seat belt, like the other occupants",
+                    "Fasten it only if the car goes onto a highway"
+                  ],
+                  "why": "The duty covers the driver and every occupant, on urban and intercity roads. The seat does not change the rule."
+                },
+                "terms": [
+                  {
+                    "es": "ocupantes",
+                    "en": "occupants"
+                  },
+                  {
+                    "es": "vías urbanas",
+                    "en": "urban roads"
+                  }
+                ],
+                "src": "RGC art. 117.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Las pocas excepciones",
+            "en": "The few exceptions"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Pueden circular sin cinturón ni sistema de retención los **conductores al hacer marcha atrás o al estacionar**. También las personas con un **certificado de exención** por razones médicas graves o por discapacidad. El certificado se enseña si lo pide un agente. Uno de otro Estado de la UE vale en España con su traducción oficial.",
+                "en": "Drivers may travel without a belt or other restraint **while reversing or parking**. So may people with an **exemption certificate** for serious medical reasons or disability. You show the certificate if an officer asks. One from another EU state is valid in Spain with an official translation."
+              },
+              "src": "RGC art. 119.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Otras dos exenciones. Los vehículos en **servicio de urgencia**, solo dentro de poblado: nunca en autopistas, autovías ni carreteras convencionales. Solo los pasajeros de una ambulancia que atienden al paciente en ruta quedan exentos en cualquier vía. Los **taxis** en tráfico urbano de grandes ciudades: pueden llevar a personas de menos de 135 cm sin silla si van en un asiento trasero.",
+                "en": "Two more exemptions. Vehicles on an **emergency call**, only inside built-up areas: never on motorways, dual carriageways or conventional roads. The one exception: passengers in an ambulance who are caring for the patient on the way are exempt on any road. **Taxis** in urban traffic of large cities: they may carry people under 135 cm without a child seat if they sit in the back."
+              },
+              "src": "RGC art. 119.2"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c1b",
+                "answer": 2,
+                "es": {
+                  "q": "¿En cuál de estos casos puede el conductor circular sin cinturón?",
+                  "options": [
+                    "Al circular despacio por una calle tranquila",
+                    "Cuando hay un atasco en una autopista",
+                    "Mientras hace una maniobra de marcha atrás"
+                  ],
+                  "why": "Las exenciones son pocas: una es la maniobra de marcha atrás o de estacionamiento. Ir despacio o en un atasco no exime del cinturón."
+                },
+                "en": {
+                  "q": "In which of these cases may the driver travel without a seat belt?",
+                  "options": [
+                    "When driving slowly on a quiet street",
+                    "When there is a traffic jam on a motorway",
+                    "While reversing"
+                  ],
+                  "why": "The exemptions are few: one is the reversing or parking maneuver. Driving slowly or being in a jam does not exempt you from the belt."
+                },
+                "terms": [
+                  {
+                    "es": "marcha atrás",
+                    "en": "reversing"
+                  },
+                  {
+                    "es": "exención",
+                    "en": "exemption"
+                  }
+                ],
+                "src": "RGC art. 119.1.a"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Niños de 135 cm o menos",
+            "en": "Children 135 cm or shorter"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los menores de edad de estatura **igual o inferior a 135 cm** deben usar un **sistema de retención infantil (SRI)** homologado, adaptado a su talla y a su peso. En turismos y demás vehículos de hasta nueve plazas (contando al conductor).",
+                "en": "Minors whose height is **135 cm or less** must use an approved **child restraint system**, matched to their height and weight. This applies in cars and other vehicles with up to nine seats (counting the driver)."
+              },
+              "src": "RGC art. 117.1 y 117.3"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "La regla va por la **estatura**, no por la edad. 135 cm son unas 53 pulgadas (4 pies 5 pulgadas).",
+                "en": "The rule goes by **height**, not age. 135 cm is about 53 inches (4 ft 5 in)."
+              }
+            },
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Estatura",
+                  "en": "Height"
+                },
+                {
+                  "es": "Cómo viaja",
+                  "en": "How they travel"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "135 cm o menos",
+                    "en": "135 cm or less"
+                  },
+                  {
+                    "es": "Con SRI homologado, adaptado a su talla y peso",
+                    "en": "In an approved child restraint matched to height and weight"
+                  }
+                ],
+                [
+                  {
+                    "es": "Más de 135 cm",
+                    "en": "More than 135 cm"
+                  },
+                  {
+                    "es": "Con el cinturón de seguridad, como cualquier ocupante",
+                    "en": "With the seat belt, like any other occupant"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Instala siempre el SRI siguiendo las **instrucciones del fabricante** (manual, folleto o publicación electrónica).",
+                "en": "Always install the child restraint following the **manufacturer’s instructions** (manual, leaflet or electronic publication)."
+              },
+              "src": "RGC art. 117.4"
+            },
+            {
+              "t": "us",
+              "text": {
+                "es": "En EE. UU. las normas de las sillas infantiles cambian según el estado y suelen combinar edad, peso y estatura. En España, el límite es la estatura: 135 cm.",
+                "en": "In the US, child seat rules vary by state and usually combine age, weight and height. In Spain the limit is height: 135 cm."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c1c",
+                "answer": 1,
+                "es": {
+                  "q": "Un niño de 12 años mide 138 cm y viaja en un turismo. ¿Qué debe usar?",
+                  "options": [
+                    "Una silla infantil, porque es menor de 14 años",
+                    "El cinturón de seguridad, como cualquier ocupante",
+                    "Nada: en el asiento trasero no hace falta cinturón"
+                  ],
+                  "why": "La silla infantil es obligatoria hasta los 135 cm. Un niño más alto usa el cinturón, como el resto de ocupantes."
+                },
+                "en": {
+                  "q": "A 12-year-old child is 138 cm tall and rides in a car. What must the child use?",
+                  "options": [
+                    "A child seat, because the child is under 14",
+                    "The seat belt, like any other occupant",
+                    "Nothing: no belt is needed in the back seat"
+                  ],
+                  "why": "A child seat is required up to 135 cm. A taller child uses the seat belt, like the other occupants."
+                },
+                "terms": [
+                  {
+                    "es": "estatura",
+                    "en": "height"
+                  },
+                  {
+                    "es": "silla infantil",
+                    "en": "child seat"
+                  }
+                ],
+                "src": "RGC art. 117.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Dónde se sienta el niño",
+            "en": "Where the child sits"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los niños de 135 cm o menos deben ir en los **asientos traseros**. Solo excepcionalmente pueden ir delante, y siempre con SRI adaptado a su talla y peso. Son tres casos: el coche no tiene asientos traseros; los traseros ya están ocupados por menores en esa situación; o no se pueden instalar allí todas las sillas.",
+                "en": "Children of 135 cm or less must sit in the **rear seats**. Only exceptionally may they sit in front, and always in a restraint matched to their height and weight. There are three cases: the car has no rear seats; the rear seats are already taken by such children; or all the child seats cannot be fitted there."
+              },
+              "src": "RGC art. 117.3"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si el niño va delante y el coche tiene **airbag frontal**, solo puede usar una silla orientada hacia atrás si el airbag está desactivado.",
+                "en": "If the child sits in front and the car has a **front airbag**, a rear-facing child seat may be used only if the airbag has been deactivated."
+              },
+              "src": "RGC art. 117.3"
+            },
+            {
+              "t": "example",
+              "situation": {
+                "es": "Llevas a tres niños pequeños, cada uno con su silla. Atrás solo caben dos sillas. La tercera silla orientada hacia atrás va delante, y el coche tiene airbag frontal.",
+                "en": "You carry three small children, each in a child seat. Only two seats fit in the back. The third rear-facing seat goes in front, and the car has a front airbag."
+              },
+              "action": {
+                "es": "Pon la tercera silla en el asiento delantero y desactiva antes el airbag frontal del pasajero.",
+                "en": "Put the third seat in the front passenger seat and deactivate the front passenger airbag first."
+              },
+              "why": {
+                "es": "Es uno de los casos excepcionales de la norma (no se pueden instalar todas las sillas atrás), y con una silla orientada hacia atrás el airbag debe estar desactivado.",
+                "en": "It is one of the exceptional cases in the rule (not all seats can be installed in the back), and with a rear-facing seat the airbag must be deactivated."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c1d",
+                "answer": 0,
+                "es": {
+                  "q": "Un niño de 100 cm va delante en una silla orientada hacia atrás, en un caso que la norma permite. El coche tiene airbag frontal. ¿Qué exige la norma?",
+                  "options": [
+                    "Que el airbag esté desactivado",
+                    "Que el niño lleve además el cinturón de adulto",
+                    "Nada: la silla ya lo protege"
+                  ],
+                  "why": "Con una silla orientada hacia atrás en el asiento delantero, el airbag frontal debe estar desactivado. Es la condición que fija la norma."
+                },
+                "en": {
+                  "q": "A 100 cm child sits in front in a rear-facing seat, in a case the rule allows. The car has a front airbag. What does the rule require?",
+                  "options": [
+                    "That the airbag is deactivated",
+                    "That the child also wears the adult seat belt",
+                    "Nothing: the seat already protects the child"
+                  ],
+                  "why": "With a rear-facing seat in the front seat, the front airbag must be deactivated. That is the condition the rule sets."
+                },
+                "terms": [
+                  {
+                    "es": "airbag",
+                    "en": "airbag"
+                  },
+                  {
+                    "es": "desactivado",
+                    "en": "deactivated"
+                  }
+                ],
+                "src": "RGC art. 117.3"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Casco y protección",
+            "en": "Helmets and protection"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "El cinturón protege dentro del coche. Fuera de él, la ley obliga a usar casco a otros usuarios. Según el art. 118 del RGC:",
+                "en": "The belt protects inside a car. Outside one, the law makes other road users wear helmets. Under art. 118 of the RGC:"
+              }
+            },
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Vehículo",
+                  "en": "Vehicle"
+                },
+                {
+                  "es": "Qué exige",
+                  "en": "What is required"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "Moto, ciclomotor, tres ruedas, cuadriciclo, quad",
+                    "en": "Motorcycle, moped, three-wheeler, quad bike"
+                  },
+                  {
+                    "es": "Casco homologado y abrochado en todas las vías, calzado cerrado en todas las vías y guantes en vías interurbanas. Excepción: con estructura de autoprotección y cinturón, se usa el cinturón",
+                    "en": "Approved, fastened helmet on all roads, closed footwear on all roads, and gloves on intercity roads. Exception: with a protective structure and belts, the belt is used instead"
+                  }
+                ],
+                [
+                  {
+                    "es": "Bicicleta",
+                    "en": "Bicycle"
+                  },
+                  {
+                    "es": "Casco en vías interurbanas; los menores de 16 años, en todas las vías; quien trabaja en bicicleta, también en vías urbanas",
+                    "en": "Helmet on intercity roads; under-16s on all roads; people who ride for work, also on urban roads"
+                  }
+                ],
+                [
+                  {
+                    "es": "Patinete eléctrico (VMP)",
+                    "en": "E-scooter (personal mobility vehicle)"
+                  },
+                  {
+                    "es": "Casco homologado o certificado y abrochado",
+                    "en": "Approved or certified helmet, fastened"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "El conductor de una bicicleta y, en su caso, sus ocupantes deben usar casco abrochado en las **vías interurbanas**. Para los **menores de dieciséis años** es obligatorio en todo tipo de vías.",
+                "en": "The rider of a bicycle and, where applicable, its passengers must wear a fastened helmet on **intercity roads**. For **under-16s** it is mandatory on every kind of road."
+              },
+              "src": "RGC art. 118.2"
+            },
+            {
+              "t": "us",
+              "text": {
+                "es": "En EE. UU. las leyes del casco para ciclistas y motoristas varían mucho entre estados. En España son nacionales.",
+                "en": "In the US, helmet laws for cyclists and motorcyclists vary a lot from state to state. In Spain they are national."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c1e",
+                "answer": 2,
+                "es": {
+                  "q": "Una chica de 15 años va en bicicleta por una calle de su ciudad. ¿Debe llevar casco?",
+                  "options": [
+                    "No: en ciudad el casco nunca es obligatorio",
+                    "Solo si va acompañada de un adulto",
+                    "Sí: a los menores de 16 años se les exige en todas las vías"
+                  ],
+                  "why": "Los menores de dieciséis años deben llevar casco en todo tipo de vías, urbanas o no. Los demás ciclistas, en las vías interurbanas; los que trabajan en bicicleta, también en las urbanas."
+                },
+                "en": {
+                  "q": "A 15-year-old girl rides a bicycle on a city street. Must she wear a helmet?",
+                  "options": [
+                    "No: in town a helmet is never required",
+                    "Only if she is with an adult",
+                    "Yes: under-16s must wear one on all roads"
+                  ],
+                  "why": "Under-16s must wear a helmet on every kind of road, urban or not. Other riders must wear one on intercity roads; those who ride for work must also wear one in town."
+                },
+                "terms": [
+                  {
+                    "es": "casco",
+                    "en": "helmet"
+                  },
+                  {
+                    "es": "menores",
+                    "en": "minors"
+                  }
+                ],
+                "src": "RGC art. 118.2"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "**Todos** los ocupantes, en cualquier asiento y en toda vía, usan el cinturón abrochado.",
+          "en": "**Every** occupant, in any seat and on any road, wears the belt fastened."
+        },
+        {
+          "es": "Exenciones: **marcha atrás o estacionar**, certificado médico, servicios de urgencia en poblado y taxis (casos concretos).",
+          "en": "Exemptions: **reversing or parking**, a medical certificate, emergency services in built-up areas and taxis (specific cases)."
+        },
+        {
+          "es": "**135 cm o menos**: silla infantil homologada, adaptada a su talla y peso. Más de 135 cm: cinturón.",
+          "en": "**135 cm or less**: approved child seat matched to height and weight. Taller than 135 cm: seat belt."
+        },
+        {
+          "es": "Los niños van **detrás**. Delante, solo en casos excepcionales y con el airbag desactivado si la silla mira hacia atrás.",
+          "en": "Children sit **in the back**. In front, only in exceptional cases, and with the airbag off if the seat faces backward."
+        },
+        {
+          "es": "Bicicleta: casco en vías interurbanas, y **menores de 16 años en todas las vías**.",
+          "en": "Bicycle: helmet on intercity roads, and **under-16s on all roads**."
+        }
+      ],
+      "covers": [
+        "safety-01",
+        "safety-02"
+      ],
+      "src": [
+        "Reglamento General de Circulación (RD 1428/2003), arts. 117, 118 y 119",
+        "Ley de Tráfico (RDL 6/2015), art. 76.h y Anexo II"
+      ]
+    },
+    {
+      "id": "phone-and-distractions",
+      "title": {
+        "es": "Móvil y distracciones",
+        "en": "Phone and distractions"
+      },
+      "minutes": 6,
+      "goals": [
+        {
+          "es": "Saber qué usos del móvil y de los auriculares están prohibidos.",
+          "en": "Know which uses of the phone and headphones are banned."
+        },
+        {
+          "es": "Saber qué pantallas puedes usar con el coche en marcha.",
+          "en": "Know which screens you may use while the car is moving."
+        },
+        {
+          "es": "Saber qué hacer con el móvil en un semáforo en rojo.",
+          "en": "Know what to do with your phone at a red light."
+        }
+      ],
+      "terms": [
+        {
+          "es": "atención permanente",
+          "en": "constant attention"
+        },
+        {
+          "es": "móvil",
+          "en": "mobile phone"
+        },
+        {
+          "es": "manos libres",
+          "en": "hands-free"
+        },
+        {
+          "es": "auriculares",
+          "en": "headphones / earbuds"
+        },
+        {
+          "es": "sujetar",
+          "en": "to hold"
+        },
+        {
+          "es": "navegador (GPS)",
+          "en": "navigator (GPS)"
+        },
+        {
+          "es": "pantalla",
+          "en": "screen"
+        },
+        {
+          "es": "conductor",
+          "en": "driver"
+        }
+      ],
+      "pretest": {
+        "id": "safety-pre-2",
+        "answer": 1,
+        "es": {
+          "q": "¿Qué forma de hablar por teléfono permite la ley mientras conduces?",
+          "options": [
+            "Hablar sujetando el móvil con una sola mano",
+            "Hablar sin usar las manos ni auriculares",
+            "Hablar con un auricular en un solo oído"
+          ],
+          "why": "La ley prohíbe usar el móvil al conducir, salvo que la comunicación se haga sin usar las manos ni auriculares."
+        },
+        "en": {
+          "q": "What way of talking on the phone does the law allow while you drive?",
+          "options": [
+            "Talking while holding the phone in one hand",
+            "Talking without using your hands or headphones",
+            "Talking with one earbud in one ear"
+          ],
+          "why": "The law bans using the phone while driving, unless the call takes place without using your hands or headphones."
+        },
+        "src": "LSV art. 13.3; RGC art. 18.2"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Atención permanente",
+            "en": "Constant attention"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "El conductor debe mantener su **libertad de movimientos**, el campo de visión necesario y la **atención permanente a la conducción**.",
+                "en": "The driver must keep their **freedom of movement**, the field of vision needed and **constant attention to driving**."
+              },
+              "src": "LSV art. 13.2; RGC art. 18.1"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "También debes cuidar tu postura, y colocar bien los objetos y animales que llevas, para que no te estorben.",
+                "en": "You must also take care of your posture, and place any objects and animals you carry so they do not get in your way."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c2a",
+                "answer": 0,
+                "es": {
+                  "q": "¿Qué obligación general tiene el conductor respecto a su atención?",
+                  "options": [
+                    "Mantener la atención permanente a la conducción",
+                    "Atender solo cuando hay otros vehículos cerca",
+                    "Atender solo en ciudad"
+                  ],
+                  "why": "La ley obliga a mantener la atención permanente a la conducción, en cualquier vía y en todo momento."
+                },
+                "en": {
+                  "q": "What general duty does the driver have about attention?",
+                  "options": [
+                    "To keep constant attention on driving",
+                    "To pay attention only when other vehicles are nearby",
+                    "To pay attention only in town"
+                  ],
+                  "why": "The law requires constant attention to driving, on any road and at all times."
+                },
+                "terms": [
+                  {
+                    "es": "atención permanente",
+                    "en": "constant attention"
+                  }
+                ],
+                "src": "LSV art. 13.2; RGC art. 18.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "El móvil mientras conduces",
+            "en": "The phone while you drive"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Se prohíbe utilizar durante la conducción el **teléfono móvil**, los navegadores o cualquier otro medio de comunicación. Excepción: la comunicación que se hace **sin usar las manos** ni cascos ni auriculares.",
+                "en": "It is forbidden to use the **mobile phone**, navigators or any other means of communication while driving. Exception: communication that takes place **without using your hands** or helmets or headphones."
+              },
+              "src": "LSV art. 13.3; RGC art. 18.2"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Usar el móvil **sujetándolo con la mano** mientras se conduce resta **6 puntos**.",
+                "en": "Using the phone **while holding it in your hand** as you drive costs **6 points**."
+              },
+              "src": "LSV art. 76.g y Anexo II, 8"
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Aunque hablar sin manos esté permitido, también distrae. Si necesitas leer, escribir o buscar algo, aparca en un lugar seguro y permitido. (Consejo, no es una norma.)",
+                "en": "Even though talking hands-free is allowed, it still distracts you. If you need to read, write or look something up, park in a safe, permitted place. (Advice, not a rule.)"
+              }
+            },
+            {
+              "t": "us",
+              "text": {
+                "es": "En EE. UU. las leyes del móvil al volante cambian según el estado. En España hay una norma nacional: no se sujeta el teléfono mientras se conduce.",
+                "en": "In the US, phone laws for drivers vary by state. In Spain there is one national rule: you do not hold the phone while driving."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c2b",
+                "answer": 1,
+                "es": {
+                  "q": "Conduces y te llega un mensaje. ¿Qué es lo correcto?",
+                  "options": [
+                    "Leerlo rápido si la carretera es recta",
+                    "Leerlo cuando pares en un lugar seguro",
+                    "Contestar con una sola mano"
+                  ],
+                  "why": "Usar el móvil con las manos mientras conduces está prohibido. Solo se permite la comunicación sin manos ni auriculares."
+                },
+                "en": {
+                  "q": "You are driving and a message arrives. What is the right thing to do?",
+                  "options": [
+                    "Read it quickly if the road is straight",
+                    "Read it when you stop in a safe place",
+                    "Reply with one hand"
+                  ],
+                  "why": "Using the phone with your hands while driving is banned. Only communication without hands or headphones is allowed."
+                },
+                "terms": [
+                  {
+                    "es": "mensaje",
+                    "en": "message"
+                  }
+                ],
+                "src": "LSV art. 13.3; RGC art. 18.2"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c2c",
+                "answer": 2,
+                "es": {
+                  "q": "Te multan por conducir sujetando el móvil con la mano. ¿Cuántos puntos pierdes?",
+                  "options": [
+                    "2 puntos",
+                    "4 puntos",
+                    "6 puntos"
+                  ],
+                  "why": "Sujetar el móvil con la mano mientras se conduce resta 6 puntos. Es de las infracciones que más puntos quitan."
+                },
+                "en": {
+                  "q": "You are fined for driving while holding your phone in your hand. How many points do you lose?",
+                  "options": [
+                    "2 points",
+                    "4 points",
+                    "6 points"
+                  ],
+                  "why": "Holding the phone in your hand while driving costs 6 points. It is one of the offenses that costs the most points."
+                },
+                "terms": [
+                  {
+                    "es": "puntos",
+                    "en": "points"
+                  }
+                ],
+                "src": "LSV Anexo II, 8"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Auriculares",
+            "en": "Headphones"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Queda prohibido conducir con **cualquier tipo** de casco de audio o auricular conectado a aparatos receptores o reproductores de sonido u otros dispositivos que disminuyan la atención a la conducción.",
+                "en": "It is forbidden to drive with **any kind** of audio helmet or earphone connected to sound receivers or players, or other devices that reduce attention to driving."
+              },
+              "src": "LSV art. 13.3; RGC art. 18.2"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Da igual que cubran un oído o los dos. La ley dice «cualquier tipo». Resta **3 puntos**.",
+                "en": "It makes no difference whether they cover one ear or both. The law says “any kind”. It costs **3 points**."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Excepción: los dispositivos inalámbricos certificados u homologados **integrados en el casco** de motoristas, solo para intercomunicación o navegación y si no afectan a la seguridad.",
+                "en": "Exception: certified or approved wireless devices **built into the helmet** of motorcyclists, only for intercom or navigation and if they do not affect safety."
+              },
+              "src": "RGC art. 18.2.a"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c2d",
+                "answer": 0,
+                "es": {
+                  "q": "Llevas solo un auricular puesto para escuchar música a poco volumen. ¿Es legal conduciendo?",
+                  "options": [
+                    "No: se prohíbe cualquier auricular conectado a aparatos de sonido",
+                    "Sí, si el volumen es bajo",
+                    "Sí, si el otro oído queda libre"
+                  ],
+                  "why": "La prohibición abarca cualquier tipo de auricular conectado a aparatos de sonido. Ni el volumen bajo ni un oído libre la evitan."
+                },
+                "en": {
+                  "q": "You wear just one earbud to listen to music at low volume. Is it legal while driving?",
+                  "options": [
+                    "No: any earphone connected to sound equipment is banned",
+                    "Yes, if the volume is low",
+                    "Yes, if the other ear is free"
+                  ],
+                  "why": "The ban covers any kind of earphone connected to sound equipment. Neither low volume nor a free ear avoids it."
+                },
+                "terms": [
+                  {
+                    "es": "auricular",
+                    "en": "earbud"
+                  }
+                ],
+                "src": "RGC art. 18.2"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Pantallas, navegador y radares",
+            "en": "Screens, navigator and radar"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Con el vehículo en movimiento es incompatible con la atención usar **pantallas con acceso a internet**, monitores de televisión y reproductores de vídeo o DVD. Se exceptúan los monitores necesarios para ver a los peatones que suben o bajan o la cámara de marcha atrás, y el **GPS**.",
+                "en": "With the vehicle moving, it is incompatible with attention to use **screens with internet access**, TV monitors and video or DVD players. Exceptions are the monitors needed to see passengers getting on or off or the reversing camera, and the **GPS**."
+              },
+              "src": "RGC art. 18.1"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Tener el GPS en pantalla está permitido. Manejarlo con las manos mientras conduces, no: es una infracción grave y resta **3 puntos**.",
+                "en": "Having the GPS on screen is allowed. Handling it with your hands while driving is not: it is a serious offense and costs **3 points**."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Pon el destino en el GPS antes de arrancar.",
+                "en": "Enter the destination in the GPS before you set off."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Se prohíbe instalar o llevar **inhibidores de radar** y llevar **detectores de radar**. Los avisos que informan de la posición de los sistemas de vigilancia del tráfico no entran en la prohibición.",
+                "en": "It is forbidden to install or carry **radar jammers** and to carry **radar detectors**. Warnings that tell you where traffic enforcement systems are do not fall under the ban."
+              },
+              "src": "RGC art. 18.3"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c2e",
+                "answer": 1,
+                "es": {
+                  "q": "Circulas con el coche en marcha. ¿Qué pantalla puedes usar?",
+                  "options": [
+                    "Un monitor para ver vídeos",
+                    "El GPS",
+                    "Una pantalla con acceso a internet"
+                  ],
+                  "why": "Con el vehículo en movimiento no se pueden usar pantallas con internet ni reproductores de vídeo. El GPS está exceptuado."
+                },
+                "en": {
+                  "q": "The car is moving. Which screen may you use?",
+                  "options": [
+                    "A monitor to watch videos",
+                    "The GPS",
+                    "A screen with internet access"
+                  ],
+                  "why": "While the vehicle moves you may not use screens with internet access or video players. The GPS is excepted."
+                },
+                "terms": [
+                  {
+                    "es": "pantalla",
+                    "en": "screen"
+                  }
+                ],
+                "src": "RGC art. 18.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Parado en un semáforo",
+            "en": "Stopped at a traffic light"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Estás parado en un semáforo en rojo, con el motor en marcha. ¿Puedes coger el móvil un momento?",
+                "en": "You are stopped at a red light with the engine running. Can you pick up your phone for a moment?"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "**Conductor** es la persona que maneja el mecanismo de dirección o va al mando de un vehículo.",
+                "en": "A **driver** is the person who operates the steering mechanism or is in command of a vehicle."
+              },
+              "src": "LSV Anexo I, 1"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Mientras estás al mando del coche, sigues siendo el conductor. La ley no menciona los semáforos. Las excepciones al uso del móvil que sí nombra son pocas (por ejemplo, hablar sin manos) y ninguna es «estoy parado en un semáforo». Es la lectura natural del texto, y la que sigue este curso: no sujetes el móvil.",
+                "en": "While you are in command of the car, you are still the driver. The law does not mention traffic lights. The exceptions to phone use that it does name are few (for example, talking hands-free) and none of them is “I am stopped at a light”. That is the natural reading of the text, and the one this course follows: do not hold the phone."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Si de verdad necesitas el móvil, aparca en un lugar permitido y seguro, y úsalo allí.",
+                "en": "If you really need the phone, park in a permitted, safe place and use it there."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c2f",
+                "answer": 2,
+                "es": {
+                  "q": "Esperas en un semáforo en rojo y quieres escribir un mensaje con el móvil en la mano. ¿Qué es lo correcto?",
+                  "options": [
+                    "Hacerlo: el coche no se mueve",
+                    "Hacerlo solo si tienes el freno de mano puesto",
+                    "No hacerlo: sigues siendo el conductor"
+                  ],
+                  "why": "La ley prohíbe sujetar el móvil durante la conducción y no menciona los semáforos. La lectura natural es que sigues siendo el conductor mientras esperas, así que no se sujeta el móvil."
+                },
+                "en": {
+                  "q": "You wait at a red light and want to type a message with the phone in your hand. What is correct?",
+                  "options": [
+                    "Do it: the car is not moving",
+                    "Do it only if the parking brake is on",
+                    "Do not do it: you are still the driver"
+                  ],
+                  "why": "The law bans holding the phone while driving and does not mention traffic lights. The natural reading is that you are still the driver while you wait, so you do not hold the phone."
+                },
+                "terms": [
+                  {
+                    "es": "semáforo",
+                    "en": "traffic light"
+                  }
+                ],
+                "src": "Plain reading of LSV art. 13.3 and Anexo I, 1; the law does not mention traffic lights"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "Debes mantener la **atención permanente** a la conducción.",
+          "en": "You must keep **constant attention** on driving."
+        },
+        {
+          "es": "Con el móvil solo se permite comunicar **sin usar las manos** ni auriculares. Sujetarlo resta **6 puntos**.",
+          "en": "With the phone, only communication **without using your hands** or headphones is allowed. Holding it costs **6 points**."
+        },
+        {
+          "es": "**Cualquier** auricular conectado a aparatos de sonido está prohibido (3 puntos).",
+          "en": "**Any** earphone connected to sound equipment is banned (3 points)."
+        },
+        {
+          "es": "Con el coche en marcha: **GPS sí**; pantallas con internet y vídeo, no. Radares: ni inhibidores ni detectores.",
+          "en": "With the car moving: **GPS yes**; screens with internet and video, no. Radar: no jammers and no detectors."
+        },
+        {
+          "es": "Parado en un semáforo, lo natural es que **sigues siendo el conductor**: no sujetes el móvil.",
+          "en": "Stopped at a light, the natural reading is that **you are still the driver**: do not hold the phone."
+        }
+      ],
+      "covers": [
+        "safety-03",
+        "safety-04"
+      ],
+      "src": [
+        "Ley de Tráfico (RDL 6/2015), arts. 13.2, 13.3 y 76, Anexo I y Anexo II",
+        "Reglamento General de Circulación (RD 1428/2003), art. 18"
+      ]
+    },
+    {
+      "id": "safety-distance",
+      "title": {
+        "es": "Distancia de seguridad",
+        "en": "Safety distance"
+      },
+      "minutes": 8,
+      "goals": [
+        {
+          "es": "Explicar la distancia de reacción, la de frenado y la de detención.",
+          "en": "Explain reaction distance, braking distance and stopping distance."
+        },
+        {
+          "es": "Medir un hueco de dos segundos con un punto fijo de la carretera.",
+          "en": "Measure a two-second gap using a fixed point on the road."
+        },
+        {
+          "es": "Saber qué distancia y qué luces exige un túnel.",
+          "en": "Know what distance and lights a tunnel requires."
+        }
+      ],
+      "terms": [
+        {
+          "es": "distancia de seguridad",
+          "en": "safety distance"
+        },
+        {
+          "es": "distancia de reacción",
+          "en": "reaction distance"
+        },
+        {
+          "es": "distancia de frenado",
+          "en": "braking distance"
+        },
+        {
+          "es": "distancia de detención",
+          "en": "stopping distance"
+        },
+        {
+          "es": "adherencia",
+          "en": "grip (traction)"
+        },
+        {
+          "es": "campo de visión",
+          "en": "field of vision"
+        },
+        {
+          "es": "luces de cruce",
+          "en": "low beams"
+        },
+        {
+          "es": "túnel",
+          "en": "tunnel"
+        }
+      ],
+      "pretest": {
+        "id": "safety-pre-3",
+        "answer": 1,
+        "es": {
+          "q": "¿Qué es la distancia de detención de un vehículo?",
+          "options": [
+            "Solo lo que recorres desde que pisas el freno",
+            "Lo que recorres desde que ves el peligro hasta que te paras",
+            "El hueco que dejas con el coche de delante"
+          ],
+          "why": "Es la suma de la distancia de reacción (antes de frenar) y la de frenado (frenando)."
+        },
+        "en": {
+          "q": "What is a vehicle’s stopping distance?",
+          "options": [
+            "Only what you travel from the moment you press the brake",
+            "What you travel from seeing the danger until you stop",
+            "The gap you leave to the car ahead"
+          ],
+          "why": "It is the sum of the reaction distance (before braking) and the braking distance (while braking)."
+        },
+        "src": "DGT guidance"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "La ley: espacio para parar",
+            "en": "The law: room to stop"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Quien circule detrás de otro vehículo debe dejar entre ambos un **espacio libre que le permita detenerse**, si el de delante frena de golpe, sin chocar con él. Debe tener en cuenta sobre todo la velocidad y la adherencia y el frenado.",
+                "en": "Whoever drives behind another vehicle must leave between them **free space that lets them stop** without hitting it if it brakes suddenly. They must take into account above all the speed and the grip and braking conditions."
+              },
+              "src": "RGC art. 54.1"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "En una vía normal la ley no da una cifra en metros ni en segundos para esa distancia: depende de tu velocidad y del estado del suelo.",
+                "en": "On an ordinary road the law gives no figure in meters or seconds for that gap: it depends on your speed and the state of the road surface."
+              }
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "r-300"
+              ],
+              "caption": {
+                "es": "R-300 prohíbe circular a menos distancia del vehículo de delante que la indicada, salvo para adelantar. Sin cifra en metros, solo recuerda la distancia de seguridad.",
+                "en": "R-300 forbids driving closer to the vehicle ahead than the distance shown, except to overtake. With no figure in meters, it only reminds you to keep a safe distance."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "No mantener la distancia de seguridad con el vehículo precedente es una infracción grave y **resta 4 puntos**.",
+                "en": "Not keeping a safe distance from the vehicle ahead is a serious offense and **costs 4 points**."
+              },
+              "src": "LSV art. 76.ñ y Anexo II, 14"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c3a",
+                "answer": 0,
+                "es": {
+                  "q": "¿Qué debe permitirte la distancia de seguridad con el coche de delante?",
+                  "options": [
+                    "Detenerte sin chocar si él frena de golpe",
+                    "Adelantarlo en cualquier momento",
+                    "Verlo siempre a más de 100 metros"
+                  ],
+                  "why": "El espacio libre debe permitirte detenerte, si el de delante frena de golpe, sin chocar con él."
+                },
+                "en": {
+                  "q": "What must your safety distance to the car ahead allow you to do?",
+                  "options": [
+                    "Stop without hitting it if it brakes suddenly",
+                    "Overtake it at any moment",
+                    "Always see it more than 100 meters ahead"
+                  ],
+                  "why": "The free space must let you stop without hitting the car ahead if it brakes suddenly."
+                },
+                "terms": [
+                  {
+                    "es": "frenar de golpe",
+                    "en": "to brake suddenly"
+                  }
+                ],
+                "src": "RGC art. 54.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Reacción más frenado",
+            "en": "Reaction plus braking"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Cuando ves un peligro no frenas al instante. Primero pasa el tiempo de reacción y el coche sigue a la misma velocidad. Después empiezas a frenar.",
+                "en": "When you see a danger you do not brake at once. First comes your reaction time, and the car keeps its speed. Then you start braking."
+              }
+            },
+            {
+              "t": "list",
+              "items": [
+                {
+                  "es": "**Distancia de reacción**: lo que recorres desde que ves el peligro hasta que empiezas a frenar.",
+                  "en": "**Reaction distance**: what you travel from seeing the danger until you start braking."
+                },
+                {
+                  "es": "**Distancia de frenado**: lo que recorres desde que frenas hasta que te paras.",
+                  "en": "**Braking distance**: what you travel from braking until you stop."
+                },
+                {
+                  "es": "**Distancia de detención**: la suma de las dos.",
+                  "en": "**Stopping distance**: the sum of the two."
+                }
+              ]
+            },
+            {
+              "t": "figure",
+              "file": "safety-stopping-distance",
+              "alt": {
+                "es": "Vista desde arriba de una carretera con dos carriles. Dos coches ven un peligro en la misma línea amarilla. El coche A, a 90 km/h, recorre una zona roja de reacción y una zona verde de frenado más cortas. El coche B, a 120 km/h, recorre zonas más largas.",
+                "en": "Top-down view of a road with two lanes. Two cars see a hazard at the same yellow line. Car A, at 90 km/h, covers a shorter red reaction zone and a shorter green braking zone. Car B, at 120 km/h, covers longer zones."
+              },
+              "caption": {
+                "es": "Los dos conductores ven el peligro en la línea amarilla. Zona roja: reacción, sin frenar. Zona verde: frenado. Dibujo en proporción aproximada, no en metros exactos; los coches se dibujan más grandes que en la realidad.",
+                "en": "Both drivers see the danger at the yellow line. Red zone: reaction, not yet braking. Green zone: braking. Drawn in rough proportion, not exact meters; the cars are drawn bigger than real size."
+              },
+              "legend": [
+                {
+                  "mark": "!",
+                  "text": {
+                    "es": "El momento en que ves el peligro.",
+                    "en": "The moment you see the danger."
+                  }
+                },
+                {
+                  "mark": "A",
+                  "text": {
+                    "es": "Coche a 90 km/h.",
+                    "en": "Car at 90 km/h (56 mph)."
+                  }
+                },
+                {
+                  "mark": "B",
+                  "text": {
+                    "es": "Coche a 120 km/h.",
+                    "en": "Car at 120 km/h (75 mph)."
+                  }
+                }
+              ]
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Ejemplo con un tiempo de reacción de **un segundo**. La DGT publica totales distintos según el supuesto (suelo, coche, neumáticos), así que la tabla da rangos. No memorices los metros: fíjate en el patrón.",
+                "en": "An example with a reaction time of **one second**. The DGT publishes different totals depending on the assumptions (road, car, tires), so the table gives ranges. Do not memorize the meters: look at the pattern."
+              }
+            },
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Velocidad",
+                  "en": "Speed"
+                },
+                {
+                  "es": "Reacción (1 s)",
+                  "en": "Reaction (1 s)"
+                },
+                {
+                  "es": "Detención total (cifras de la DGT)",
+                  "en": "Total stopping (DGT figures)"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "90 km/h (56 mph)",
+                    "en": "90 km/h (56 mph)"
+                  },
+                  {
+                    "es": "25 m",
+                    "en": "25 m"
+                  },
+                  {
+                    "es": "de 61 a 70 m",
+                    "en": "61 to 70 m"
+                  }
+                ],
+                [
+                  {
+                    "es": "120 km/h (75 mph)",
+                    "en": "120 km/h (75 mph)"
+                  },
+                  {
+                    "es": "33 m",
+                    "en": "33 m"
+                  },
+                  {
+                    "es": "de 98 a 114 m",
+                    "en": "98 to 114 m"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "El frenado es el total menos la reacción. Si subes de 90 a 120 km/h, **las dos distancias crecen**, y la de frenado crece más. Un segundo mirando el móvil a 90 km/h son unos **25 metros** sin frenar.",
+                "en": "Braking is the total minus the reaction. If you go from 90 to 120 km/h, **both distances grow**, and braking grows more. One second looking at your phone at 90 km/h is about **25 meters** with no braking."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c3b",
+                "answer": 1,
+                "es": {
+                  "q": "¿Qué es la distancia de detención?",
+                  "options": [
+                    "Solo lo que recorres con el pie en el freno",
+                    "La suma de la distancia de reacción y la de frenado",
+                    "El espacio libre entre dos coches parados"
+                  ],
+                  "why": "La distancia de detención incluye lo que recorres antes de frenar (reacción) y lo que recorres frenando."
+                },
+                "en": {
+                  "q": "What is stopping distance?",
+                  "options": [
+                    "Only what you travel with your foot on the brake",
+                    "The sum of reaction distance and braking distance",
+                    "The free space between two stopped cars"
+                  ],
+                  "why": "Stopping distance includes what you travel before braking (reaction) and what you travel while braking."
+                },
+                "terms": [
+                  {
+                    "es": "distancia de detención",
+                    "en": "stopping distance"
+                  }
+                ],
+                "src": "DGT guidance"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c3c",
+                "answer": 2,
+                "es": {
+                  "q": "Pasas de 90 a 120 km/h en una carretera seca. ¿Qué ocurre con las distancias de reacción y de frenado?",
+                  "options": [
+                    "Solo crece la de frenado",
+                    "Solo crece la de reacción",
+                    "Crecen las dos"
+                  ],
+                  "why": "En los ejemplos de la DGT, la reacción pasa de 25 a 33 m y la detención total de 61–70 m a 98–114 m. La reacción solo sube 8 m: el resto del aumento es frenado. Las dos crecen."
+                },
+                "en": {
+                  "q": "You go from 90 to 120 km/h on a dry road. What happens to the reaction and braking distances?",
+                  "options": [
+                    "Only the braking distance grows",
+                    "Only the reaction distance grows",
+                    "Both grow"
+                  ],
+                  "why": "In the DGT examples, reaction goes from 25 to 33 m and total stopping from 61–70 m to 98–114 m. Reaction rises only 8 m: the rest of the increase is braking. Both grow."
+                },
+                "terms": [
+                  {
+                    "es": "velocidad",
+                    "en": "speed"
+                  }
+                ],
+                "src": "DGT guidance"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Adapta la velocidad a lo que ves",
+            "en": "Adapt your speed to what you see"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Adecua la velocidad a las circunstancias, de manera que **siempre puedas detener el vehículo dentro de los límites de tu campo de visión** y ante cualquier obstáculo que pueda presentarse.",
+                "en": "Adjust your speed to the circumstances so that you can **always stop within the limits of your field of vision** and for any obstacle that may appear."
+              },
+              "src": "RGC art. 45"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Tienes que tener en cuenta, además del límite:",
+                "en": "Besides the limit, you must take into account:"
+              }
+            },
+            {
+              "t": "list",
+              "items": [
+                {
+                  "es": "tu estado físico y psíquico;",
+                  "en": "your physical and mental condition;"
+                },
+                {
+                  "es": "el estado de la vía, del vehículo y de su carga;",
+                  "en": "the state of the road, the vehicle and its load;"
+                },
+                {
+                  "es": "el tiempo, el ambiente y el tráfico.",
+                  "en": "the weather, the surroundings and the traffic."
+                }
+              ]
+            },
+            {
+              "t": "example",
+              "situation": {
+                "es": "Entras en una curva cerrada y no ves qué hay después.",
+                "en": "You enter a sharp curve and cannot see what is after it."
+              },
+              "action": {
+                "es": "Reduce hasta poder detenerte antes del punto más lejano que ves, aunque el límite de la vía sea más alto.",
+                "en": "Slow down until you can stop before the farthest point you can see, even if the limit on the road is higher."
+              },
+              "why": {
+                "es": "Si aparece un obstáculo en ese tramo, debes poder parar dentro de tu campo de visión (art. 45).",
+                "en": "If an obstacle shows up in that stretch, you must be able to stop within your field of vision (art. 45)."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c3d",
+                "answer": 0,
+                "es": {
+                  "q": "Hay niebla y ves muy poco por delante. ¿Cómo debes ajustar la velocidad según el RGC?",
+                  "options": [
+                    "Para poder detenerte dentro de lo que ves",
+                    "Manteniendo el límite de la vía si no hay señal",
+                    "Siguiendo al coche de delante a su ritmo"
+                  ],
+                  "why": "La velocidad debe permitirte detener el vehículo dentro de tu campo de visión. El límite es un máximo, no una velocidad segura."
+                },
+                "en": {
+                  "q": "There is fog and you can see very little ahead. How must you adjust your speed under the RGC?",
+                  "options": [
+                    "So you can stop within what you can see",
+                    "By keeping the road’s limit if there is no sign",
+                    "By following the car ahead at its pace"
+                  ],
+                  "why": "Your speed must let you stop within your field of vision. The limit is a maximum, not a safe speed."
+                },
+                "terms": [
+                  {
+                    "es": "campo de visión",
+                    "en": "field of vision"
+                  },
+                  {
+                    "es": "niebla",
+                    "en": "fog"
+                  }
+                ],
+                "src": "RGC art. 45"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Dos segundos: un consejo de la DGT",
+            "en": "Two seconds: a DGT tip"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Medir metros mientras conduces es difícil. Por eso la DGT aconseja medir el hueco en **tiempo**. No es una norma: es una guía práctica.",
+                "en": "Measuring meters while driving is hard. That is why the DGT advises measuring the gap in **time**. It is not a rule: it is a practical guide."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Consejo de la DGT: deja al menos **dos segundos** con el vehículo de delante. Con lluvia, calzada mojada o mal tiempo, **tres segundos o más**.",
+                "en": "DGT advice: leave at least **two seconds** to the vehicle ahead. In rain, on a wet road or in bad weather, **three seconds or more**."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Para contarlo, elige un punto fijo del camino (una señal, una farola). Cuando el coche de delante pase por él, di «mil ciento uno, mil ciento dos». Si tú llegas al punto antes de acabar, vas **demasiado cerca**.",
+                "en": "To count it, pick a fixed point on the road (a sign, a lamp post). When the car ahead passes it, say “one thousand one, one thousand two”. If you reach the point before you finish, you are **too close**."
+              }
+            },
+            {
+              "t": "figure",
+              "file": "safety-two-second-gap",
+              "alt": {
+                "es": "Carretera vista desde arriba. Un coche naranja A acaba de pasar una línea amarilla junto a un poste. Un coche azul B viene detrás. Una zona verde marca el hueco entre B y la línea.",
+                "en": "Road seen from above. An orange car A has just passed a yellow line next to a post. A blue car B follows. A green zone marks the gap between B and the line."
+              },
+              "caption": {
+                "es": "Cuando A pasa la línea amarilla, empieza a contar. B tarda dos segundos en llegar a ella: la zona verde es ese hueco. La animación va en tiempo real.",
+                "en": "When A passes the yellow line, start counting. B takes two seconds to reach it: the green zone is that gap. The animation runs in real time."
+              },
+              "legend": [
+                {
+                  "mark": "A",
+                  "text": {
+                    "es": "Coche de delante.",
+                    "en": "Car ahead."
+                  }
+                },
+                {
+                  "mark": "B",
+                  "text": {
+                    "es": "Tú, detrás.",
+                    "en": "You, behind."
+                  }
+                }
+              ]
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c3e",
+                "answer": 2,
+                "es": {
+                  "q": "Cuentas «mil ciento uno, mil ciento dos» desde que el coche de delante pasa una señal. Llegas a la señal antes de acabar. ¿Qué significa?",
+                  "options": [
+                    "Vas bien: el hueco es suficiente",
+                    "Vas lejos: puedes acercarte un poco",
+                    "Vas demasiado cerca: debes aumentar el hueco"
+                  ],
+                  "why": "Si llegas al punto fijo antes de contar dos segundos, el hueco es menor que dos segundos. Aumenta la distancia."
+                },
+                "en": {
+                  "q": "You count “one thousand one, one thousand two” from when the car ahead passes a sign. You reach the sign before you finish. What does that mean?",
+                  "options": [
+                    "You are fine: the gap is enough",
+                    "You are far back: you can move closer",
+                    "You are too close: increase the gap"
+                  ],
+                  "why": "If you reach the fixed point before counting two seconds, your gap is under two seconds. Increase the distance."
+                },
+                "terms": [
+                  {
+                    "es": "punto fijo",
+                    "en": "fixed point"
+                  }
+                ],
+                "src": "DGT guidance"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c3f",
+                "answer": 1,
+                "es": {
+                  "q": "Llueve y la calzada está mojada. ¿Qué hueco de tiempo aconseja la DGT con el coche de delante?",
+                  "options": [
+                    "Dos segundos, como en seco",
+                    "Tres segundos o más",
+                    "Un segundo y medio"
+                  ],
+                  "why": "La DGT aconseja al menos dos segundos, pero tres o más con lluvia o asfalto mojado, porque se necesita más espacio para frenar."
+                },
+                "en": {
+                  "q": "It is raining and the road is wet. What time gap does the DGT advise to the car ahead?",
+                  "options": [
+                    "Two seconds, as in the dry",
+                    "Three seconds or more",
+                    "One and a half seconds"
+                  ],
+                  "why": "The DGT advises at least two seconds, but three or more in rain or on wet asphalt, because more room is needed to brake."
+                },
+                "terms": [
+                  {
+                    "es": "calzada mojada",
+                    "en": "wet road"
+                  }
+                ],
+                "src": "DGT guidance"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Túneles: distancia y luces",
+            "en": "Tunnels: distance and lights"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "En un túnel o paso inferior, si no pretendes adelantar, mantén con el vehículo de delante una distancia de **al menos 100 metros** o un intervalo mínimo de **4 segundos**. Si tu vehículo pesa más de 3.500 kg de masa máxima autorizada, **150 metros** o **6 segundos**.",
+                "en": "In a tunnel or underpass, if you do not intend to overtake, keep **at least 100 meters** or a minimum interval of **4 seconds** from the vehicle ahead. If your vehicle’s maximum authorized mass is over 3,500 kg: **150 meters** or **6 seconds**."
+              },
+              "src": "RGC art. 95.6"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Cien metros son unos 330 pies. En el túnel la ley sí da cifras, así que ahí no vale el consejo de los dos segundos.",
+                "en": "A hundred meters is about 330 feet. In a tunnel the law does give figures, so the two-second tip does not apply there."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los vehículos deben llevar el alumbrado encendido **a cualquier hora del día** en los túneles, pasos inferiores y tramos con la señal «Túnel» (S-5). En un túnel bien iluminado, los vehículos de motor y los ciclomotores llevan, además de las luces de posición, las **luces de cruce**.",
+                "en": "Vehicles must have their lights on **at any time of day** in tunnels, underpasses and stretches with the “Tunnel” sign (S-5). In a well-lit tunnel, motor vehicles and mopeds use, besides the position lights, the **low beams**."
+              },
+              "src": "RGC arts. 98.1 y 101.1"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Si el túnel está poco iluminado y vas a más de 40 km/h, la norma pide las luces de carretera. Pero usa las de cruce si puedes deslumbrar a otros.",
+                "en": "If the tunnel is poorly lit and you drive faster than 40 km/h (25 mph), the rules call for the high beams. But use the low beams if you could dazzle others."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c3g",
+                "answer": 1,
+                "es": {
+                  "q": "Conduces un turismo por un túnel y no vas a adelantar. ¿Qué separación mínima con el vehículo de delante exige el RGC?",
+                  "options": [
+                    "50 metros o 2 segundos",
+                    "100 metros o 4 segundos",
+                    "150 metros o 6 segundos"
+                  ],
+                  "why": "En túneles y pasos inferiores se exigen al menos 100 metros o 4 segundos. Los 150 m o 6 s son para vehículos de más de 3.500 kg."
+                },
+                "en": {
+                  "q": "You drive a car through a tunnel and will not overtake. What minimum separation from the vehicle ahead does the RGC require?",
+                  "options": [
+                    "50 meters or 2 seconds",
+                    "100 meters or 4 seconds",
+                    "150 meters or 6 seconds"
+                  ],
+                  "why": "Tunnels and underpasses require at least 100 meters or 4 seconds. The 150 m or 6 s figure is for vehicles over 3,500 kg."
+                },
+                "terms": [
+                  {
+                    "es": "túnel",
+                    "en": "tunnel"
+                  }
+                ],
+                "src": "RGC art. 95.6"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c3h",
+                "answer": 0,
+                "es": {
+                  "q": "Entras al mediodía en un túnel bien iluminado. ¿Qué alumbrado debes llevar?",
+                  "options": [
+                    "Luces de posición y de cruce",
+                    "Ninguno: ya hay luz en el túnel",
+                    "Solo las luces antiniebla"
+                  ],
+                  "why": "En los túneles el alumbrado es obligatorio a cualquier hora. En uno bien iluminado, posición y cruce."
+                },
+                "en": {
+                  "q": "At noon you enter a well-lit tunnel. What lighting must you use?",
+                  "options": [
+                    "Position lights and low beams",
+                    "None: the tunnel already has light",
+                    "Only the fog lights"
+                  ],
+                  "why": "In tunnels lights are mandatory at any time of day. In a well-lit one, position and low beams."
+                },
+                "terms": [
+                  {
+                    "es": "luces de cruce",
+                    "en": "low beams"
+                  },
+                  {
+                    "es": "luces antiniebla",
+                    "en": "fog lights"
+                  }
+                ],
+                "src": "RGC arts. 98.1 y 101.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Deja sitio para que te adelanten",
+            "en": "Leave room for others to overtake you"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si circulas detrás de otro vehículo sin señalar que vas a adelantar, deja un espacio que permita al que te sigue **adelantarte con seguridad**. Los vehículos de más de 3.500 kg y los vehículos y conjuntos de vehículos de más de 10 metros de longitud total deben dejar **al menos 50 metros**.",
+                "en": "If you drive behind another vehicle without signaling that you will overtake, leave room so that the vehicle following you can **overtake you safely**. Vehicles over 3,500 kg, and vehicles or combinations over 10 meters in total length, must leave **at least 50 meters**."
+              },
+              "src": "RGC art. 54.2"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Esa regla no se aplica en estos casos:",
+                "en": "That rule does not apply in these cases:"
+              }
+            },
+            {
+              "t": "list",
+              "items": [
+                {
+                  "es": "dentro de poblado;",
+                  "en": "inside built-up areas;"
+                },
+                {
+                  "es": "donde está prohibido adelantar;",
+                  "en": "where overtaking is forbidden;"
+                },
+                {
+                  "es": "donde hay más de un carril para tu sentido;",
+                  "en": "where there is more than one lane for your direction;"
+                },
+                {
+                  "es": "cuando el tráfico está tan saturado que no se puede adelantar.",
+                  "en": "when traffic is so heavy that overtaking is not possible."
+                }
+              ]
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "50 metros son unos 164 pies.",
+                "en": "50 meters is about 164 feet."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c3i",
+                "answer": 2,
+                "es": {
+                  "q": "Conduces un camión de más de 3.500 kg por una carretera con un carril por sentido, fuera de poblado, detrás de otro vehículo. No vas a adelantar. ¿Qué separación mínima debes dejar?",
+                  "options": [
+                    "20 metros",
+                    "100 metros",
+                    "50 metros"
+                  ],
+                  "why": "Los vehículos de más de 3.500 kg deben dejar al menos 50 metros para que quien viene detrás pueda adelantarles. Los 100 m son del túnel."
+                },
+                "en": {
+                  "q": "You drive a truck over 3,500 kg on a road with one lane per direction, outside a town, behind another vehicle. You will not overtake. What minimum gap must you leave?",
+                  "options": [
+                    "20 meters",
+                    "100 meters",
+                    "50 meters"
+                  ],
+                  "why": "Vehicles over 3,500 kg must leave at least 50 meters so the vehicle behind can overtake them. The 100 m figure is for tunnels."
+                },
+                "terms": [
+                  {
+                    "es": "adelantar",
+                    "en": "to overtake"
+                  }
+                ],
+                "src": "RGC art. 54.2 y 54.3"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "Deja espacio para **detenerte sin chocar** si el de delante frena de golpe (art. 54.1).",
+          "en": "Leave room to **stop without hitting** the car ahead if it brakes suddenly (art. 54.1)."
+        },
+        {
+          "es": "**Detención = reacción + frenado.** A más velocidad, crecen las dos.",
+          "en": "**Stopping = reaction + braking.** At higher speed, both grow."
+        },
+        {
+          "es": "Adapta la velocidad para **parar dentro de lo que ves** (art. 45).",
+          "en": "Adapt your speed to **stop within what you can see** (art. 45)."
+        },
+        {
+          "es": "Consejo de la DGT: **dos segundos**, y tres o más con lluvia. Cuenta con un punto fijo.",
+          "en": "DGT tip: **two seconds**, and three or more in rain. Count with a fixed point."
+        },
+        {
+          "es": "Túnel, sin adelantar: **100 m o 4 s** (150 m o 6 s si pesa más de 3.500 kg), con luces de cruce.",
+          "en": "Tunnel, not overtaking: **100 m or 4 s** (150 m or 6 s if over 3,500 kg), with low beams."
+        }
+      ],
+      "covers": [
+        "safety-05",
+        "safety-06"
+      ],
+      "src": [
+        "Reglamento General de Circulación (RD 1428/2003), arts. 45, 54, 95.6, 98, 100 y 101",
+        "Reglamento General de Circulación, Anexo I, ap. 5.1 (señal R-300, Catálogo de señales)",
+        "Ley de Tráfico (RDL 6/2015), art. 76.ñ y Anexo II",
+        "DGT (dgt.es, revista Tráfico y Seguridad Vial): distancia de seguridad y regla de los dos segundos (consejos)"
+      ]
+    },
+    {
+      "id": "active-passive-aids",
+      "title": {
+        "es": "Seguridad activa, pasiva y ayudas a la conducción",
+        "en": "Active and passive safety, and driver aids"
+      },
+      "minutes": 6,
+      "goals": [
+        {
+          "es": "Distinguir la seguridad activa de la pasiva.",
+          "en": "Tell active safety from passive safety."
+        },
+        {
+          "es": "Reconocer las ayudas a la conducción más comunes.",
+          "en": "Recognize the most common driver-assistance systems."
+        },
+        {
+          "es": "Saber que sigues siendo responsable aunque tu coche te ayude.",
+          "en": "Know that you stay responsible even when your car helps you."
+        }
+      ],
+      "terms": [
+        {
+          "es": "seguridad activa",
+          "en": "active safety"
+        },
+        {
+          "es": "seguridad pasiva",
+          "en": "passive safety"
+        },
+        {
+          "es": "ayudas a la conducción (ADAS)",
+          "en": "driver-assistance systems (ADAS)"
+        },
+        {
+          "es": "frenada de emergencia",
+          "en": "emergency braking"
+        },
+        {
+          "es": "ángulo muerto",
+          "en": "blind spot"
+        },
+        {
+          "es": "mantenimiento de carril",
+          "en": "lane keeping"
+        },
+        {
+          "es": "conducción defensiva",
+          "en": "defensive driving"
+        },
+        {
+          "es": "prever",
+          "en": "to anticipate"
+        }
+      ],
+      "pretest": {
+        "id": "safety-pre-4",
+        "answer": 0,
+        "es": {
+          "q": "¿Cuál de estos elementos es de seguridad pasiva?",
+          "options": [
+            "El cinturón de seguridad",
+            "La frenada automática de emergencia",
+            "El aviso de salida de carril"
+          ],
+          "why": "La seguridad pasiva reduce los daños cuando el accidente ya ocurre. El cinturón es el ejemplo clásico. Los otros dos intentan evitar el choque."
+        },
+        "en": {
+          "q": "Which of these is passive safety?",
+          "options": [
+            "The seat belt",
+            "Automatic emergency braking",
+            "The lane departure warning"
+          ],
+          "why": "Passive safety reduces harm once a crash is happening. The belt is the classic example. The other two try to avoid the crash."
+        },
+        "src": "DGT guidance"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Evitar el golpe o reducir el daño",
+            "en": "Avoid the crash or reduce the harm"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "La DGT distingue dos tipos de seguridad en un vehículo:",
+                "en": "The DGT distinguishes two kinds of safety in a vehicle:"
+              }
+            },
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Tipo",
+                  "en": "Type"
+                },
+                {
+                  "es": "Para qué sirve",
+                  "en": "What it is for"
+                },
+                {
+                  "es": "Ejemplos",
+                  "en": "Examples"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "Seguridad **activa**",
+                    "en": "**Active** safety"
+                  },
+                  {
+                    "es": "Evitar que se produzca el accidente",
+                    "en": "Preventing the crash from happening"
+                  },
+                  {
+                    "es": "Frenos y neumáticos en buen estado, luces, frenada de emergencia, aviso de salida de carril",
+                    "en": "Brakes and tires in good condition, lights, emergency braking, lane departure warning"
+                  }
+                ],
+                [
+                  {
+                    "es": "Seguridad **pasiva**",
+                    "en": "**Passive** safety"
+                  },
+                  {
+                    "es": "Reducir las consecuencias si el accidente ocurre",
+                    "en": "Reducing the consequences if the crash happens"
+                  },
+                  {
+                    "es": "Cinturón, airbag, casco, sillas infantiles",
+                    "en": "Seat belt, airbag, helmet, child seats"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Las definiciones son de la DGT. Los ejemplos son los habituales: los clasificamos según esa definición.",
+                "en": "The definitions come from the DGT. The examples are the usual ones: we sort them using that definition."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c4a",
+                "answer": 1,
+                "es": {
+                  "q": "Un airbag, ¿de qué tipo de seguridad es?",
+                  "options": [
+                    "Activa: evita que el choque ocurra",
+                    "Pasiva: reduce el daño cuando el choque ocurre",
+                    "De ninguna: solo da comodidad"
+                  ],
+                  "why": "El airbag actúa cuando ya hay un choque, para reducir las lesiones. Eso es seguridad pasiva."
+                },
+                "en": {
+                  "q": "What kind of safety is an airbag?",
+                  "options": [
+                    "Active: it stops the crash from happening",
+                    "Passive: it reduces harm when the crash happens",
+                    "Neither: it is only for comfort"
+                  ],
+                  "why": "An airbag acts when a crash is already happening, to reduce injuries. That is passive safety."
+                },
+                "terms": [
+                  {
+                    "es": "seguridad pasiva",
+                    "en": "passive safety"
+                  }
+                ],
+                "src": "DGT guidance"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Ayudas a la conducción (ADAS)",
+            "en": "Driver-assistance systems (ADAS)"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Muchos coches modernos llevan sistemas electrónicos que avisan o actúan. Son seguridad activa. Estos son algunos, según la DGT:",
+                "en": "Many modern cars carry electronic systems that warn or act. They are active safety. Here are some, according to the DGT:"
+              }
+            },
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Sistema",
+                  "en": "System"
+                },
+                {
+                  "es": "Qué hace",
+                  "en": "What it does"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "Frenada de emergencia (AEB)",
+                    "en": "Emergency braking (AEB)"
+                  },
+                  {
+                    "es": "Avisa de un posible choque por alcance y, si no reaccionas, frena el coche",
+                    "en": "Warns of a possible rear-end crash and, if you do not react, brakes the car"
+                  }
+                ],
+                [
+                  {
+                    "es": "Aviso de salida de carril (LDW)",
+                    "en": "Lane departure warning (LDW)"
+                  },
+                  {
+                    "es": "Te avisa si el coche sale del carril sin que hayas puesto el intermitente",
+                    "en": "Alerts you if the car leaves its lane without your turn signal"
+                  }
+                ],
+                [
+                  {
+                    "es": "Mantenimiento de carril (LKA)",
+                    "en": "Lane keeping assist (LKA)"
+                  },
+                  {
+                    "es": "Gira el volante con suavidad para llevar el coche al centro del carril",
+                    "en": "Gently steers to bring the car back to the center of the lane"
+                  }
+                ],
+                [
+                  {
+                    "es": "Ángulo muerto (BSM)",
+                    "en": "Blind-spot monitoring (BSM)"
+                  },
+                  {
+                    "es": "Avisa con luz y sonido de un vehículo o peatón en el ángulo muerto",
+                    "en": "Warns with light and sound of a vehicle or pedestrian in the blind spot"
+                  }
+                ],
+                [
+                  {
+                    "es": "Asistente de velocidad (ISA)",
+                    "en": "Intelligent speed assistance (ISA)"
+                  },
+                  {
+                    "es": "Ayuda a ajustar la velocidad a las señales de la vía",
+                    "en": "Helps adjust speed to the road’s signs"
+                  }
+                ],
+                [
+                  {
+                    "es": "Aviso de somnolencia y distracción (DDR)",
+                    "en": "Drowsiness and distraction warning (DDR)"
+                  },
+                  {
+                    "es": "Avisa si pierdes la concentración",
+                    "en": "Warns when you lose concentration"
+                  }
+                ],
+                [
+                  {
+                    "es": "Señal de parada de emergencia (ESS)",
+                    "en": "Emergency stop signal (ESS)"
+                  },
+                  {
+                    "es": "Hace parpadear las luces de freno en una frenada fuerte, para avisar a los de detrás",
+                    "en": "Flashes the brake lights in a hard stop, to warn the drivers behind"
+                  }
+                ],
+                [
+                  {
+                    "es": "Alerta de tráfico trasero (RCTA)",
+                    "en": "Rear cross-traffic alert (RCTA)"
+                  },
+                  {
+                    "es": "Al salir marcha atrás de un aparcamiento, avisa de un vehículo que se acerca",
+                    "en": "When backing out of a parking space, warns of an approaching vehicle"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Según la DGT, desde julio de 2022 los coches de nueva homologación deben llevar de serie varios sistemas de este tipo, y la lista va creciendo. Entre ellos están el ISA, el LDW, el DDR, el ESS, el RCTA, el registrador de datos («caja negra») y el aviso de cinturón sin abrochar.",
+                "en": "According to the DGT, since July 2022 newly approved cars must carry several systems of this kind as standard, and the list keeps growing. Among them are ISA, LDW, DDR, ESS, RCTA, the event data recorder (“black box”) and a seat-belt reminder."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c4b",
+                "answer": 0,
+                "es": {
+                  "q": "Un coche te avisa con una luz y un sonido de que hay un vehículo en tu ángulo muerto. ¿Qué sistema es?",
+                  "options": [
+                    "El de aviso de ángulo muerto",
+                    "El de mantenimiento de carril",
+                    "El de frenada de emergencia"
+                  ],
+                  "why": "El aviso de ángulo muerto detecta vehículos o peatones donde no los ves en el espejo y avisa con luz y sonido."
+                },
+                "en": {
+                  "q": "A car warns you with a light and a sound that a vehicle is in your blind spot. Which system is it?",
+                  "options": [
+                    "The blind-spot warning",
+                    "Lane keeping assist",
+                    "Emergency braking"
+                  ],
+                  "why": "Blind-spot warning detects vehicles or pedestrians where you cannot see them in the mirror and warns with light and sound."
+                },
+                "terms": [
+                  {
+                    "es": "ángulo muerto",
+                    "en": "blind spot"
+                  }
+                ],
+                "src": "DGT guidance"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c4c",
+                "answer": 2,
+                "es": {
+                  "q": "La frenada automática de emergencia de un coche te avisa de un posible choque. Si tú no reaccionas, ¿qué hace?",
+                  "options": [
+                    "Se desconecta",
+                    "Solo repite el aviso",
+                    "Frena el coche"
+                  ],
+                  "why": "Según la DGT, primero avisa y, si el conductor no reacciona, el sistema frena el vehículo."
+                },
+                "en": {
+                  "q": "A car’s automatic emergency braking warns you of a possible crash. If you do not react, what does it do?",
+                  "options": [
+                    "It switches itself off",
+                    "It only repeats the warning",
+                    "It brakes the car"
+                  ],
+                  "why": "According to the DGT, it warns first and, if the driver does not react, the system brakes the vehicle."
+                },
+                "terms": [
+                  {
+                    "es": "frenada de emergencia",
+                    "en": "emergency braking"
+                  }
+                ],
+                "src": "DGT guidance"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Tú sigues conduciendo",
+            "en": "You are still driving"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "El conductor debe estar **en todo momento en condiciones de controlar su vehículo**.",
+                "en": "The driver must be **in a position to control the vehicle at all times**."
+              },
+              "src": "LSV art. 13.1; RGC art. 17.1"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Una ayuda avisa o corrige, pero no te sustituye. La DGT pide lo mismo con los sistemas de conducción asistida: el conductor mantiene la atención constante y está dispuesto a tomar el control cuando haga falta.",
+                "en": "An aid warns or corrects, but it does not replace you. The DGT asks the same of assisted-driving systems: the driver keeps constant attention and is ready to take control when needed."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c4d",
+                "answer": 1,
+                "es": {
+                  "q": "Tu coche tiene mantenimiento de carril. ¿Qué sigue siendo obligatorio?",
+                  "options": [
+                    "Nada: puedes mirar el móvil en las rectas",
+                    "Mantener la atención y el control del coche",
+                    "Solo vigilar si aparece un aviso"
+                  ],
+                  "why": "Las ayudas no cambian tu deber de mantener la atención permanente y poder controlar el vehículo en todo momento."
+                },
+                "en": {
+                  "q": "Your car has lane keeping assist. What is still required of you?",
+                  "options": [
+                    "Nothing: you can look at your phone on straight stretches",
+                    "To keep your attention and control of the car",
+                    "Only to watch for a warning to appear"
+                  ],
+                  "why": "Aids do not change your duty to keep constant attention and to be able to control the vehicle at all times."
+                },
+                "terms": [
+                  {
+                    "es": "atención permanente",
+                    "en": "constant attention"
+                  }
+                ],
+                "src": "LSV art. 13.1 y 13.2"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Conducción defensiva",
+            "en": "Defensive driving"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Se debe conducir con la **diligencia y precaución** necesarias para evitar todo daño, propio o ajeno. No pongas en peligro a los ocupantes ni a los demás usuarios de la vía.",
+                "en": "You must drive with the **diligence and caution** needed to avoid any harm, to yourself or others. Do not endanger the occupants or other road users."
+              },
+              "src": "RGC art. 3.1"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Conducir a la defensiva es llevar esa regla a la práctica: **prever** lo que puede pasar y dejarte margen. La ley lo concreta en casos como este:",
+                "en": "Driving defensively means putting that rule into practice: **anticipating** what may happen and leaving yourself a margin. The law spells it out in cases like this:"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Modera la velocidad, y detente si hace falta, cuando haya peatones en la vía o pueda preverse que irrumpan, sobre todo niños y ancianos. Hazlo también al acercarte a ciclos, cruces, pasos de peatones sin semáforo, mercados, colegios o lugares donde pueda haber niños.",
+                "en": "Moderate your speed, and stop if necessary, when pedestrians are on the road or may be expected to step into it, especially children and older people. Do the same when approaching cyclists, junctions, pedestrian crossings without a light, markets, schools or places where children may be."
+              },
+              "src": "RGC art. 46.1.a y 46.1.b"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c4e",
+                "answer": 2,
+                "es": {
+                  "q": "Pasas junto a un colegio a la hora de salida. ¿Qué exige el RGC?",
+                  "options": [
+                    "Mantener el límite si no ves peatones",
+                    "Tocar el claxon para avisar",
+                    "Moderar la velocidad y detenerte si hace falta"
+                  ],
+                  "why": "Cerca de colegios y lugares donde es previsible que haya niños hay que moderar la velocidad y, si hace falta, detenerse."
+                },
+                "en": {
+                  "q": "You drive past a school at dismissal time. What does the RGC require?",
+                  "options": [
+                    "Keep to the limit if you see no pedestrians",
+                    "Sound the horn to warn them",
+                    "Moderate your speed and stop if necessary"
+                  ],
+                  "why": "Near schools and places where children are likely to be, you must moderate your speed and, if necessary, stop."
+                },
+                "terms": [
+                  {
+                    "es": "colegio",
+                    "en": "school"
+                  },
+                  {
+                    "es": "moderar la velocidad",
+                    "en": "moderate your speed"
+                  }
+                ],
+                "src": "RGC art. 46.1.b"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "**Activa** evita el accidente. **Pasiva** reduce el daño si ocurre.",
+          "en": "**Active** safety avoids the crash. **Passive** safety reduces the harm if it happens."
+        },
+        {
+          "es": "Cinturón, airbag y casco son **pasivos**. Frenos, luces y ayudas electrónicas son **activos**.",
+          "en": "Belt, airbag and helmet are **passive**. Brakes, lights and electronic aids are **active**."
+        },
+        {
+          "es": "Las ayudas (AEB, LDW, LKA, ángulo muerto...) **avisan o actúan**, pero no te sustituyen.",
+          "en": "Aids (AEB, LDW, LKA, blind spot...) **warn or act**, but they do not replace you."
+        },
+        {
+          "es": "Debes **controlar el vehículo en todo momento** y mantener la atención.",
+          "en": "You must **control the vehicle at all times** and keep your attention."
+        },
+        {
+          "es": "Conducir a la defensiva es **prever** y moderar la velocidad cuando hay riesgo (niños, ciclistas, cruces).",
+          "en": "Defensive driving is **anticipating** and moderating speed when there is risk (children, cyclists, junctions)."
+        }
+      ],
+      "src": [
+        "Reglamento General de Circulación (RD 1428/2003), arts. 3, 17 y 46",
+        "Ley de Tráfico (RDL 6/2015), art. 13",
+        "DGT (dgt.es): ayudas avanzadas a la conducción (ADAS), clasificación de seguridad de los vehículos y vehículos de conducción asistida"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "seconds": 7,
+  "poster": 4.3,
+  "reveals": [
+    {
+      "id": "corridor",
+      "from": 1.8
+    }
+  ],
+  "actors": [
+    {
+      "id": "l1",
+      "kind": "car",
+      "tone": "neutral",
+      "path": "M204 70 C204 58 194 52 194 40",
+      "from": 0.6,
+      "to": 2.2,
+      "ease": "inOut"
+    },
+    {
+      "id": "l2",
+      "kind": "car",
+      "tone": "me",
+      "path": "M204 150 C204 138 194 132 194 120",
+      "from": 0.6,
+      "to": 2.2,
+      "ease": "inOut",
+      "badge": {
+        "mark": "B",
+        "dx": -34,
+        "dy": 0
+      }
+    },
+    {
+      "id": "l3",
+      "kind": "car",
+      "tone": "neutral",
+      "path": "M204 230 C204 218 194 212 194 200",
+      "from": 0.6,
+      "to": 2.2,
+      "ease": "inOut"
+    },
+    {
+      "id": "l4",
+      "kind": "car",
+      "tone": "neutral",
+      "path": "M204 310 C204 298 194 292 194 280",
+      "from": 0.6,
+      "to": 2.2,
+      "ease": "inOut"
+    },
+    {
+      "id": "m1",
+      "kind": "car",
+      "tone": "neutral",
+      "path": "M240 100 C240 88 250 82 250 70",
+      "from": 0.6,
+      "to": 2.2,
+      "ease": "inOut"
+    },
+    {
+      "id": "m2",
+      "kind": "car",
+      "tone": "neutral",
+      "path": "M240 180 C240 168 250 162 250 150",
+      "from": 0.6,
+      "to": 2.2,
+      "ease": "inOut"
+    },
+    {
+      "id": "m3",
+      "kind": "car",
+      "tone": "neutral",
+      "path": "M240 260 C240 248 250 242 250 230",
+      "from": 0.6,
+      "to": 2.2,
+      "ease": "inOut"
+    },
+    {
+      "id": "m4",
+      "kind": "car",
+      "tone": "neutral",
+      "path": "M240 340 C240 328 250 322 250 310",
+      "from": 0.6,
+      "to": 2.2,
+      "ease": "inOut"
+    },
+    {
+      "id": "r1",
+      "kind": "car",
+      "tone": "neutral",
+      "path": "M276 50 C276 38 286 32 286 20",
+      "from": 0.6,
+      "to": 2.2,
+      "ease": "inOut"
+    },
+    {
+      "id": "r2",
+      "kind": "car",
+      "tone": "neutral",
+      "path": "M276 130 C276 118 286 112 286 100",
+      "from": 0.6,
+      "to": 2.2,
+      "ease": "inOut"
+    },
+    {
+      "id": "r3",
+      "kind": "car",
+      "tone": "neutral",
+      "path": "M276 210 C276 198 286 192 286 180",
+      "from": 0.6,
+      "to": 2.2,
+      "ease": "inOut"
+    },
+    {
+      "id": "r4",
+      "kind": "car",
+      "tone": "neutral",
+      "path": "M276 290 C276 278 286 272 286 260",
+      "from": 0.6,
+      "to": 2.2,
+      "ease": "inOut"
+    },
+    {
+      "id": "o1",
+      "kind": "car",
+      "tone": "other",
+      "path": "M80 -50 L80 420",
+      "from": 0.2,
+      "to": 6.8,
+      "ease": "linear"
+    },
+    {
+      "id": "o2",
+      "kind": "car",
+      "tone": "other",
+      "path": "M116 -120 L116 420",
+      "from": 0.2,
+      "to": 6.8,
+      "ease": "linear"
+    },
+    {
+      "id": "amb",
+      "kind": "car",
+      "tone": "danger",
+      "path": "M222 440 L222 -80",
+      "from": 2.8,
+      "to": 6.3,
+      "ease": "linear",
+      "show": [
+        2.6,
+        6.6
+      ],
+      "badge": {
+        "mark": "A",
+        "dx": 0,
+        "dy": -33
+      }
+    }
+  ]
+}

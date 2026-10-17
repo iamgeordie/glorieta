@@ -1,0 +1,2931 @@
+{
+  "id": "overtaking",
+  "title": {
+    "es": "Adelantamientos, giros y marcha atrás",
+    "en": "Overtaking, turning and reversing"
+  },
+  "blurb": {
+    "es": "Cómo adelantar con seguridad, dónde no se puede, cómo girar, cambiar de sentido y dar marcha atrás, y cómo avisar cada maniobra.",
+    "en": "How to overtake safely, where you may not, how to turn, make a U-turn and reverse, and how to signal every maneuver."
+  },
+  "lessons": [
+    {
+      "id": "overtaking-steps",
+      "title": {
+        "es": "El adelantamiento paso a paso",
+        "en": "Overtaking, step by step"
+      },
+      "minutes": 8,
+      "goals": [
+        {
+          "es": "Decir por qué lado se adelanta y cuándo se puede por la derecha.",
+          "en": "Say which side you overtake on and when the right side is allowed."
+        },
+        {
+          "es": "Comprobar lo necesario antes de salir al carril contrario.",
+          "en": "Check what you must before you pull into the opposite lane."
+        },
+        {
+          "es": "Pasar, volver a tu carril y desistir si surge un peligro.",
+          "en": "Pass, return to your lane and give up if a danger appears."
+        }
+      ],
+      "terms": [
+        {
+          "es": "adelantar",
+          "en": "to overtake, to pass"
+        },
+        {
+          "es": "carril contrario",
+          "en": "opposite lane"
+        },
+        {
+          "es": "intermitente",
+          "en": "turn signal"
+        },
+        {
+          "es": "señal óptica",
+          "en": "visual signal (lights or arm)"
+        },
+        {
+          "es": "separación lateral",
+          "en": "side clearance"
+        },
+        {
+          "es": "desistir",
+          "en": "to give up (a maneuver)"
+        }
+      ],
+      "pretest": {
+        "id": "overtaking-pre-1",
+        "answer": 1,
+        "es": {
+          "q": "Quieres adelantar a un coche en una carretera de doble sentido. ¿Qué haces antes de salir al carril contrario?",
+          "options": [
+            "Aceleras y pones el intermitente al salir",
+            "Avisas con el intermitente y compruebas que hay espacio libre delante",
+            "Tocas el claxon y sales sin más"
+          ],
+          "why": "Antes de empezar hay que avisar con antelación y comprobar que el carril que vas a usar tiene espacio libre suficiente."
+        },
+        "en": {
+          "q": "You want to overtake a car on a two-way road. What do you do before pulling into the opposite lane?",
+          "options": [
+            "Speed up and signal as you pull out",
+            "Signal and check that the road ahead is clear",
+            "Honk and pull out without more checks"
+          ],
+          "why": "Before you start you must signal in good time and check that the lane you will use has enough free space."
+        },
+        "src": "RGC art. 84.1"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Por la izquierda, casi siempre",
+            "en": "On the left, almost always"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "**Adelantar** es pasar a un vehículo que va delante de ti, en tu mismo sentido, y colocarte delante de él. La ley la regula paso a paso: antes, durante y después.",
+                "en": "**Adelantar** (to overtake) means passing a vehicle that is ahead of you, going your way, and ending up in front of it. The law regulates it step by step: before, during and after."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Como norma general, el adelantamiento se hace **por la izquierda** del vehículo al que adelantas.",
+                "en": "As a general rule, you overtake **on the left** of the vehicle you are passing."
+              },
+              "src": "RGC art. 82.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Por excepción, y si hay espacio suficiente, se adelanta **por la derecha** y con las máximas precauciones. Es así cuando el conductor de delante indica claramente que va a girar a la izquierda o a parar en ese lado. También se adelanta por la derecha a un tranvía que va por la zona central de una vía de doble sentido.",
+                "en": "By exception, and if there is enough room, you overtake **on the right** with the greatest care. That is when the driver ahead clearly signals a left turn or a stop on that side. You also pass a tram running in the middle of a two-way road on the right."
+              },
+              "src": "RGC art. 82.2"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Dentro de poblado, en una calzada con al menos dos carriles para tu sentido, separados por marcas, también puedes adelantar por la derecha. Antes debes comprobar que no hay peligro para nadie.",
+                "en": "Inside a built-up area, on a road with at least two lanes for your direction, separated by markings, you may also overtake on the right. First you must check that nobody is in danger."
+              },
+              "src": "RGC art. 82.3"
+            },
+            {
+              "t": "us",
+              "text": {
+                "es": "En la mayoría de los estados de EE. UU. también se adelanta normalmente por la izquierda.",
+                "en": "In most US states you also normally pass on the left."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c1a",
+                "answer": 0,
+                "es": {
+                  "q": "Circulas por una calle de ciudad con dos carriles para tu sentido, separados por líneas. El coche del carril izquierdo va despacio. ¿Puedes pasarlo por la derecha?",
+                  "options": [
+                    "Sí, dentro de poblado, si antes compruebas que no hay peligro",
+                    "No: siempre hay que adelantar por la izquierda",
+                    "Sí, en cualquier vía si el otro coche va lento"
+                  ],
+                  "why": "Dentro de poblado, con dos carriles por sentido delimitados por marcas, se permite adelantar por la derecha si te aseguras de que no pones a nadie en peligro."
+                },
+                "en": {
+                  "q": "You drive on a city street with two lanes for your direction, separated by lines. The car in the left lane is slow. May you pass it on the right?",
+                  "options": [
+                    "Yes, inside a built-up area, if you first check there is no danger",
+                    "No: you must always overtake on the left",
+                    "Yes, on any road if the other car is slow"
+                  ],
+                  "why": "Inside a built-up area, with two marked lanes per direction, overtaking on the right is allowed if you make sure you endanger nobody."
+                },
+                "terms": [
+                  {
+                    "es": "adelantar por la derecha",
+                    "en": "to pass on the right"
+                  },
+                  {
+                    "es": "poblado",
+                    "en": "built-up area"
+                  }
+                ],
+                "src": "RGC art. 82.3"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Antes de salir: espacio libre delante",
+            "en": "Before you pull out: free space ahead"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "La ley te pide mirar **antes** de salir al carril contrario, no cuando ya estás fuera.",
+                "en": "The law asks you to look **before** you pull into the opposite lane, not once you are already out."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Antes de adelantar, avisa con suficiente antelación y comprueba que en el carril que vas a usar hay **espacio libre suficiente**. No debes poner en peligro ni entorpecer a quien viene de frente. Tienes que contar con tu velocidad y con la de los demás usuarios afectados. Si no hay espacio, no adelantes.",
+                "en": "Before overtaking, signal in good time and check that the lane you will use has **enough free space**. You must not endanger or hold up anyone coming the other way. You must take into account your speed and that of the other road users affected. If there is no space, do not overtake."
+              },
+              "src": "RGC art. 84.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "No adelantes a varios vehículos si no tienes la **total seguridad** de que, al aparecer otro de frente, puedes volver a tu lado derecho sin perjudicar ni poner en peligro a los adelantados.",
+                "en": "Do not overtake several vehicles unless you are **completely sure** that, if another one appears ahead, you can return to your right side without harming or endangering those you passed."
+              },
+              "src": "RGC art. 84.1"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c1b",
+                "answer": 2,
+                "es": {
+                  "q": "Antes de salir al carril contrario para adelantar, ¿qué debes comprobar?",
+                  "options": [
+                    "Que el conductor de delante ha tocado el claxon",
+                    "Que tu coche es más potente que el que adelantas",
+                    "Que hay espacio libre suficiente para no estorbar a quien viene de frente"
+                  ],
+                  "why": "Debes comprobar que el carril que vas a usar tiene espacio libre suficiente, contando con tu velocidad y la de los demás usuarios afectados."
+                },
+                "en": {
+                  "q": "Before pulling into the opposite lane to overtake, what must you check?",
+                  "options": [
+                    "That the driver ahead has honked",
+                    "That your car is more powerful than the one you pass",
+                    "That there is enough free space so you do not hinder oncoming traffic"
+                  ],
+                  "why": "You must check that the lane you will use has enough free space, taking into account your speed and that of the other road users affected."
+                },
+                "terms": [
+                  {
+                    "es": "espacio libre",
+                    "en": "free space"
+                  }
+                ],
+                "src": "RGC art. 84.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Antes de salir: avisa y mira a tu alrededor",
+            "en": "Before you pull out: signal and look around"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Siempre que el adelantamiento implique un desplazamiento lateral, hay que avisarlo con la **señal óptica**. Usa la luz indicadora de dirección del lado hacia el que te desplazas.",
+                "en": "Whenever overtaking involves moving sideways, you must warn with a **visual signal**. Use the turn signal on the side you are moving toward."
+              },
+              "src": "RGC arts. 82.4 and 109.2.a"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Comprueba que el vehículo que va delante en tu carril no ha indicado que se va a mover **hacia ese mismo lado**. Si lo ha hecho, respeta su preferencia. Si pasa un tiempo prudencial y no la ejerce, puedes empezar avisando con una señal acústica u óptica.",
+                "en": "Check that the vehicle ahead in your lane has not signaled that it will move **toward that same side**. If it has, respect its priority. If a reasonable time passes and it does not use it, you may start, warning with a horn or visual signal."
+              },
+              "src": "RGC art. 84.2"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Asegúrate de que nadie que te sigue por tu carril ha empezado ya a adelantarte, y de que tendrás **espacio para volver** a tu carril cuando termines.",
+                "en": "Make sure no one following you in your lane has already begun to overtake you, and that you will have **room to return** to your lane when you finish."
+              },
+              "src": "RGC art. 84.3"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c1c",
+                "answer": 1,
+                "es": {
+                  "q": "Vas a adelantar por la izquierda. El vehículo de delante acaba de indicar un desplazamiento hacia la izquierda. ¿Qué haces?",
+                  "options": [
+                    "Adelantas ya: tú llevas más velocidad",
+                    "Respetas su preferencia y esperas un tiempo prudencial",
+                    "Aceleras para pasarlo antes de que salga"
+                  ],
+                  "why": "Si el de delante ha indicado que se mueve hacia ese lado, tiene preferencia. Solo tras un tiempo prudencial sin que la ejerza puedes empezar, avisando."
+                },
+                "en": {
+                  "q": "You are about to overtake on the left. The vehicle ahead has just signaled a move to the left. What do you do?",
+                  "options": [
+                    "Overtake now: you are going faster",
+                    "Respect its priority and wait a reasonable time",
+                    "Speed up to pass it before it pulls out"
+                  ],
+                  "why": "If the vehicle ahead has signaled a move to that side, it has priority. Only after a reasonable time without it using it may you start, signaling."
+                },
+                "terms": [
+                  {
+                    "es": "preferencia",
+                    "en": "priority"
+                  },
+                  {
+                    "es": "tiempo prudencial",
+                    "en": "reasonable time"
+                  }
+                ],
+                "src": "RGC art. 84.2"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "La maniobra completa",
+            "en": "The whole maneuver"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Pulsa «Reproducir» para ver la secuencia entera: **mirar, avisar, pasar y volver**. La zona verde es el espacio libre del carril contrario que necesitas ver antes de salir.",
+                "en": "Press “Play” to see the whole sequence: **look, signal, pass and return**. The green zone is the free space in the opposite lane that you need to see before you pull out."
+              }
+            },
+            {
+              "t": "figure",
+              "file": "overtaking-maneuver",
+              "alt": {
+                "es": "Vista desde arriba de una carretera de dos sentidos. Un coche azul sale de detrás de un coche naranja más lento, pasa por el carril contrario libre y vuelve a su carril delante del naranja.",
+                "en": "Top-down view of a two-way road. A blue car pulls out from behind a slower orange car, passes in the free opposite lane and returns to its lane in front of the orange car."
+              },
+              "caption": {
+                "es": "Primero mira, avisa y sal al carril contrario libre. Después pasa a más velocidad y vuelve a tu carril cuando ya has dejado espacio.",
+                "en": "First look, signal and pull into the free opposite lane. Then pass at a higher speed and return to your lane once you have left room."
+              },
+              "legend": [
+                {
+                  "mark": "A",
+                  "text": {
+                    "es": "El coche más lento, al que quieres adelantar.",
+                    "en": "The slower car you want to overtake."
+                  }
+                },
+                {
+                  "mark": "B",
+                  "text": {
+                    "es": "Tú, que adelantas.",
+                    "en": "You, overtaking."
+                  }
+                }
+              ]
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Práctica habitual, no un artículo: antes de volver, deberías ver en el retrovisor el vehículo que acabas de adelantar.",
+                "en": "Common practice, not an article: before you return, you should be able to see the vehicle you just passed in your mirror."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Mientras pasas y al volver",
+            "en": "While you pass and when you return"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Durante el adelantamiento, ve a una velocidad **notoriamente superior** a la del vehículo que adelantas y deja entre ambos una separación lateral suficiente para hacerlo con seguridad.",
+                "en": "While overtaking, drive at a speed **clearly higher** than that of the vehicle you are passing and leave enough side clearance to do it safely."
+              },
+              "src": "RGC art. 85.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Al terminar, vuelve a tu carril **tan pronto como puedas y de forma gradual**, sin obligar a otros usuarios a cambiar su trayectoria o su velocidad. Avisa con la señal correspondiente.",
+                "en": "When you finish, move back into your lane **as soon as you can and gradually**, without forcing other road users to change their path or speed. Signal as required."
+              },
+              "src": "RGC art. 85.3"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "El intermitente izquierdo avisa de que sales. El derecho avisa de que vuelves.",
+                "en": "The left signal warns that you are pulling out. The right one warns that you are returning."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "En un desplazamiento lateral solo se avisa ese desplazamiento: el aviso termina **tan pronto como el vehículo ha adoptado su nueva trayectoria**.",
+                "en": "In a sideways move only that move is signaled: the signal ends **as soon as the vehicle is on its new path**."
+              },
+              "src": "RGC art. 109.2.a"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c1d",
+                "answer": 0,
+                "es": {
+                  "q": "Has pasado a otro vehículo y ya tienes espacio por delante. ¿Cómo vuelves a tu carril?",
+                  "options": [
+                    "Pronto y poco a poco, sin obligar a nadie a frenar ni a desviarse",
+                    "De golpe, aunque el otro tenga que frenar",
+                    "Solo cuando el adelantado te dé una señal"
+                  ],
+                  "why": "Debes reintegrarte tan pronto como puedas y de modo gradual, sin que otros usuarios tengan que cambiar su trayectoria o velocidad."
+                },
+                "en": {
+                  "q": "You have passed another vehicle and have room ahead. How do you return to your lane?",
+                  "options": [
+                    "Soon and gradually, without making anyone brake or swerve",
+                    "All at once, even if the other driver must brake",
+                    "Only when the passed driver signals you"
+                  ],
+                  "why": "You must move back as soon as you can and gradually, so that other road users do not have to change their path or speed."
+                },
+                "terms": [
+                  {
+                    "es": "reintegrarse al carril",
+                    "en": "to return to your lane"
+                  }
+                ],
+                "src": "RGC art. 85.3"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Si algo sale mal, vuelve",
+            "en": "If something goes wrong, go back"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si, ya empezado el adelantamiento, ves circunstancias que pueden hacer difícil terminarlo sin riesgo, **reduce rápido, vuelve a tu carril y avisa** a quienes te siguen con las señales.",
+                "en": "If, once you have started overtaking, you see circumstances that could make it hard to finish without risk, **slow down quickly, return to your lane and warn** those behind you with signals."
+              },
+              "src": "RGC art. 85.2"
+            },
+            {
+              "t": "example",
+              "situation": {
+                "es": "Has salido a adelantar a un camión lento. De pronto ves un coche que viene de frente y comprendes que no te da tiempo a terminar.",
+                "en": "You pulled out to pass a slow truck. Suddenly you see an oncoming car and realize you will not have time to finish."
+              },
+              "action": {
+                "es": "Reduce la velocidad enseguida, vuelve a tu carril detrás del camión y avisa con el intermitente a quien te sigue.",
+                "en": "Slow down at once, return to your lane behind the truck and signal to the driver behind you."
+              },
+              "why": {
+                "es": "El artículo 85.2 manda reducir rápido, volver a tu carril y avisar. Acelerar o quedarte fuera te deja en el camino del coche que viene.",
+                "en": "Article 85.2 tells you to slow down quickly, return to your lane and warn. Speeding up or staying out leaves you in the path of the oncoming car."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c1e",
+                "answer": 1,
+                "es": {
+                  "q": "Ya has empezado a adelantar y ves que no podrás terminar sin riesgo. ¿Qué haces?",
+                  "options": [
+                    "Aceleras para terminar cuanto antes",
+                    "Reduces rápido, vuelves a tu carril y avisas a quien te sigue",
+                    "Te quedas en el carril contrario hasta que pase el peligro"
+                  ],
+                  "why": "La norma manda reducir rápidamente, regresar a tu carril y advertirlo a los que te siguen. Seguir fuera o acelerar aumenta el riesgo."
+                },
+                "en": {
+                  "q": "You have started overtaking and see you cannot finish without risk. What do you do?",
+                  "options": [
+                    "Speed up to finish as soon as possible",
+                    "Slow down quickly, return to your lane and warn the driver behind",
+                    "Stay in the opposite lane until the danger passes"
+                  ],
+                  "why": "The rule requires you to slow down quickly, return to your lane and warn those behind. Staying out or speeding up increases the risk."
+                },
+                "terms": [
+                  {
+                    "es": "regresar a tu carril",
+                    "en": "to go back to your lane"
+                  }
+                ],
+                "src": "RGC art. 85.2"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "Por regla general se adelanta **por la izquierda**. Por la derecha, solo en los casos que fija la ley.",
+          "en": "As a rule you overtake **on the left**. On the right only in the cases the law sets."
+        },
+        {
+          "es": "Antes de salir: **espacio libre** delante, nadie que ya te adelante, sitio para volver y el intermitente puesto.",
+          "en": "Before pulling out: **free space** ahead, nobody already overtaking you, room to return and your signal on."
+        },
+        {
+          "es": "Mientras pasas: **velocidad notoriamente superior** y separación lateral suficiente.",
+          "en": "While passing: a **clearly higher speed** and enough side clearance."
+        },
+        {
+          "es": "Vuelve **pronto y poco a poco**, sin obligar a nadie a frenar o desviarse.",
+          "en": "Return **soon and gradually**, without making anyone brake or swerve."
+        },
+        {
+          "es": "Si surge un riesgo: **reduce, vuelve a tu carril y avisa**.",
+          "en": "If a risk appears: **slow down, return to your lane and warn**."
+        }
+      ],
+      "covers": [
+        "overtaking-01",
+        "overtaking-07"
+      ],
+      "src": [
+        "Reglamento General de Circulación (RD 1428/2003), arts. 82, 84, 85 y 109"
+      ]
+    },
+    {
+      "id": "being-overtaken",
+      "title": {
+        "es": "Ser adelantado y circular con varios carriles",
+        "en": "Being overtaken and driving on several lanes"
+      },
+      "minutes": 6,
+      "goals": [
+        {
+          "es": "Saber qué hacer cuando otro conductor te adelanta.",
+          "en": "Know what to do when another driver overtakes you."
+        },
+        {
+          "es": "Entender qué se espera de un vehículo grande o lento.",
+          "en": "Understand what is expected of a large or slow vehicle."
+        },
+        {
+          "es": "Elegir carril en una calzada con varios carriles por sentido.",
+          "en": "Choose a lane on a road with several lanes per direction."
+        }
+      ],
+      "terms": [
+        {
+          "es": "ceñirse al borde derecho",
+          "en": "to keep to the right edge"
+        },
+        {
+          "es": "arcén",
+          "en": "shoulder"
+        },
+        {
+          "es": "calzada",
+          "en": "carriageway (the paved lanes)"
+        },
+        {
+          "es": "vehículo pesado",
+          "en": "heavy vehicle"
+        },
+        {
+          "es": "carril",
+          "en": "lane"
+        },
+        {
+          "es": "fuera de poblado",
+          "en": "outside a built-up area"
+        }
+      ],
+      "pretest": {
+        "id": "overtaking-pre-2",
+        "answer": 2,
+        "es": {
+          "q": "Un coche que te sigue empieza a adelantarte. ¿Qué haces?",
+          "options": [
+            "Aceleras para que no te pase",
+            "Te acercas a la línea central para ayudarle",
+            "Te mantienes a la derecha y no aumentas la velocidad"
+          ],
+          "why": "Si te adelantan debes ceñirte al borde derecho y tienes prohibido aumentar la velocidad o dificultar la maniobra."
+        },
+        "en": {
+          "q": "A car behind you starts to overtake you. What do you do?",
+          "options": [
+            "Speed up so it cannot pass",
+            "Move toward the center line to help it",
+            "Keep to the right and do not speed up"
+          ],
+          "why": "When you are being overtaken you must keep to the right edge, and you may not speed up or make the maneuver harder."
+        },
+        "src": "RGC arts. 86.1 and 86.2"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Cuando te adelantan, facilita el paso",
+            "en": "When you are overtaken, make it easy"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si adviertes que quien te sigue quiere adelantarte, debes **ceñirte al borde derecho** de la calzada. Solo si vas a girar a la izquierda o a parar en ese lado, te ciñes a la izquierda todo lo posible, sin estorbar a quien viene de frente.",
+                "en": "If you notice that the driver behind wants to overtake you, you must **keep to the right edge** of the road. Only if you are about to turn left or stop on that side, keep as far left as you can, without interfering with oncoming traffic."
+              },
+              "src": "RGC art. 86.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Está prohibido aumentar la velocidad o hacer maniobras que impidan o dificulten el adelantamiento. Si, ya iniciado, surge un peligro, debes **disminuir la velocidad**.",
+                "en": "You may not speed up or make maneuvers that prevent or hinder the overtaking. If a danger appears once it has begun, you must **reduce your speed**."
+              },
+              "src": "RGC art. 86.2"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Hay una excepción. Si quien adelanta desiste con claridad y frena, no tienes que frenar tú si eso es peligroso. Pero sí debes **facilitarle que vuelva** a su carril.",
+                "en": "There is one exception. If the overtaking driver clearly gives up and slows down, you do not have to slow down if that is dangerous. But you must **make it easy for them to return** to their lane."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c2a",
+                "answer": 2,
+                "es": {
+                  "q": "Te están adelantando y, de pronto, aparece un coche de frente. ¿Qué haces?",
+                  "options": [
+                    "Aceleras para que no se quede a tu altura",
+                    "Te acercas al eje para dejarle más sitio",
+                    "Reduces la velocidad para que el otro pueda terminar y volver"
+                  ],
+                  "why": "Cuando surge un peligro con el adelantamiento ya iniciado, el adelantado debe disminuir la velocidad. Acelerar deja al otro conductor expuesto."
+                },
+                "en": {
+                  "q": "You are being overtaken and an oncoming car suddenly appears. What do you do?",
+                  "options": [
+                    "Speed up so it does not stay alongside you",
+                    "Move toward the center line to give more room",
+                    "Reduce your speed so the other driver can finish and return"
+                  ],
+                  "why": "When a danger appears with the overtaking already started, the overtaken driver must reduce speed. Speeding up leaves the other driver exposed."
+                },
+                "terms": [
+                  {
+                    "es": "ser adelantado",
+                    "en": "to be overtaken"
+                  }
+                ],
+                "src": "RGC art. 86.2"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Vehículos grandes o lentos",
+            "en": "Large or slow vehicles"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los conductores de vehículos pesados, de grandes dimensiones o con un límite específico de velocidad deben **aminorar la marcha o apartarse** cuanto antes al arcén, si se puede, para dejar paso a los que les siguen. Esto vale cuando el tráfico contrario, la anchura, el perfil o el estado de la vía impiden adelantarles con facilidad y sin peligro.",
+                "en": "Drivers of heavy or large vehicles, or vehicles with a specific speed limit, must **slow down or pull aside** as soon as possible onto the shoulder, if usable, to let those behind pass. This applies when oncoming traffic, road width, profile or condition make it impossible to overtake them easily and safely."
+              },
+              "src": "RGC art. 86.3"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si no pueden ceñirse del todo al borde derecho pero el adelantamiento puede hacerse con seguridad, deben avisar a quien se acerca. Lo hacen con el brazo extendido en horizontal, con el dorso de la mano hacia atrás, moviéndolo de atrás adelante. Si no creen conveniente usar el brazo, ponen el **intermitente derecho**.",
+                "en": "If they cannot keep fully to the right edge but overtaking can be done safely, they must tell the driver who is approaching. They do it with the arm extended horizontally, back of the hand to the rear, moving it back and forth. If they do not think the arm signal advisable, they use the **right turn signal**."
+              },
+              "src": "RGC art. 86.1"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c2b",
+                "answer": 2,
+                "es": {
+                  "q": "Conduces un camión por una carretera estrecha con mucho tráfico de frente. Detrás de ti se forma una cola que no puede adelantar. ¿Qué te exige la norma?",
+                  "options": [
+                    "Mantener tu velocidad: la cola no es asunto tuyo",
+                    "Acelerar hasta encontrar un tramo ancho",
+                    "Aminorar la marcha o apartarte al arcén, si se puede, para dejar pasar"
+                  ],
+                  "why": "Los vehículos pesados deben aminorar o apartarse cuanto antes al arcén, si es practicable, cuando los que les siguen no pueden adelantarles con facilidad y sin peligro."
+                },
+                "en": {
+                  "q": "You drive a truck on a narrow road with heavy oncoming traffic. A line forms behind you that cannot overtake. What does the rule require?",
+                  "options": [
+                    "Keep your speed: the line is not your concern",
+                    "Speed up until you find a wide stretch",
+                    "Slow down or pull onto the shoulder, if usable, to let them pass"
+                  ],
+                  "why": "Heavy vehicles must slow down or pull aside onto the shoulder as soon as possible, if usable, when those behind cannot overtake them easily and safely."
+                },
+                "terms": [
+                  {
+                    "es": "vehículo pesado",
+                    "en": "heavy vehicle"
+                  },
+                  {
+                    "es": "aminorar la marcha",
+                    "en": "to slow down"
+                  }
+                ],
+                "src": "RGC art. 86.3"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Varios carriles por sentido",
+            "en": "Several lanes per direction"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Fuera de poblado, en una calzada con más de un carril para tu sentido, un automóvil circula normalmente por el carril **más a la derecha**. Puede usar los demás cuando el tráfico o la vía lo aconsejen, si no entorpece a otro vehículo que le siga.",
+                "en": "Outside a built-up area, on a road with more than one lane for your direction, a car normally uses the **rightmost** lane. It may use the others when traffic or the road makes it advisable, as long as it does not hold up a following vehicle."
+              },
+              "src": "RGC art. 31.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "En una calzada con al menos dos carriles para tu sentido, si ya has adelantado y vas a adelantar de nuevo, puedes **seguir en el carril** que usaste, si no molestas indebidamente a quienes vienen detrás más rápido.",
+                "en": "On a road with at least two lanes for your direction, if you have just overtaken and are about to overtake again, you may **stay in the lane** you used, as long as you do not unduly hold up faster drivers behind you."
+              },
+              "src": "RGC art. 83.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Dentro de poblado, con al menos dos carriles para tu sentido delimitados por marcas (salvo autopistas y autovías), puedes usar el que mejor convenga a tu destino, siempre que no estorbes a los demás vehículos. No debes abandonarlo más que para prepararte a cambiar de dirección, adelantar, parar o estacionar.",
+                "en": "Inside a built-up area, with at least two marked lanes for your direction (except motorways and dual carriageways), you may use the one that suits your destination, as long as you do not obstruct other vehicles. You should leave it only to prepare to change direction, overtake, stop or park."
+              },
+              "src": "RGC art. 33"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "No respetar las normas sobre adelantamientos, cambios de dirección, marcha atrás y uso de carriles es una infracción **grave**.",
+                "en": "Breaking the rules on overtaking, changes of direction, reversing and lane use is a **serious** (grave) offense."
+              },
+              "src": "LSV art. 76.c"
+            },
+            {
+              "t": "us",
+              "text": {
+                "es": "Algunos estados de EE. UU. tienen una norma parecida, «mantente a la derecha salvo para adelantar». Aquí es la regla general fuera de poblado.",
+                "en": "Some US states have a similar “keep right except to pass” rule. Here it is the general rule outside built-up areas."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c2c",
+                "answer": 0,
+                "es": {
+                  "q": "Circulas por una autopista de tres carriles, sin adelantar a nadie. ¿Qué carril usas normalmente?",
+                  "options": [
+                    "El de más a la derecha",
+                    "El del centro",
+                    "El de más a la izquierda"
+                  ],
+                  "why": "Fuera de poblado, en calzadas con varios carriles para tu sentido, se circula normalmente por el más a la derecha. Los otros se usan para adelantar o si el tráfico lo aconseja."
+                },
+                "en": {
+                  "q": "You drive on a three-lane motorway, not passing anyone. Which lane do you normally use?",
+                  "options": [
+                    "The rightmost lane",
+                    "The middle lane",
+                    "The leftmost lane"
+                  ],
+                  "why": "Outside built-up areas, on roads with several lanes for your direction, you normally drive in the rightmost lane. The others are for overtaking or when traffic makes it advisable."
+                },
+                "terms": [
+                  {
+                    "es": "carril de la derecha",
+                    "en": "right-hand lane"
+                  }
+                ],
+                "src": "RGC art. 31.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c2d",
+                "answer": 1,
+                "es": {
+                  "q": "Acabas de adelantar a un camión en una carretera con dos carriles para tu sentido y ves otro camión más adelante. ¿Tienes que volver al carril derecho?",
+                  "options": [
+                    "Sí, siempre, antes de volver a adelantar",
+                    "No, si no molestas a quienes vienen detrás más rápido",
+                    "Sí, y esperar a que pase otro coche"
+                  ],
+                  "why": "Quien va a hacer un nuevo adelantamiento puede permanecer en el carril del anterior, si no molesta indebidamente a los que le siguen más veloces."
+                },
+                "en": {
+                  "q": "You have just overtaken a truck on a road with two lanes for your direction and see another truck ahead. Must you move back to the right lane?",
+                  "options": [
+                    "Yes, always, before overtaking again",
+                    "No, if you do not hold up faster drivers behind you",
+                    "Yes, and wait for another car to pass"
+                  ],
+                  "why": "A driver about to make a new overtaking may stay in the lane used for the previous one, as long as faster drivers behind are not unduly bothered."
+                },
+                "terms": [
+                  {
+                    "es": "nuevo adelantamiento",
+                    "en": "another overtaking"
+                  }
+                ],
+                "src": "RGC art. 83.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Tráfico denso: no es adelantar",
+            "en": "Heavy traffic: that is not overtaking"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Cuando el tráfico es tan denso que los vehículos ocupan todo el ancho de la calzada y cada uno va a la velocidad del que tiene delante, que un carril avance más rápido que otro **no se considera adelantamiento**.",
+                "en": "When traffic is so dense that vehicles fill the whole width of the road and each goes at the speed of the one ahead, one lane moving faster than another is **not considered overtaking**."
+              },
+              "src": "RGC art. 83.2"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "En esa situación, ningún conductor debe cambiar de carril para adelantar. Solo puede cambiar para prepararse a girar, salir de la calzada o tomar una dirección determinada.",
+                "en": "In that situation, no driver should change lanes to overtake. You may change only to prepare to turn, leave the road or take a particular direction."
+              },
+              "src": "RGC art. 83.2"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Tampoco se considera adelantar avanzar más rápido por un **carril de aceleración o deceleración**, o por una parte de la vía reservada a ciertos vehículos, ni lo contrario.",
+                "en": "It is also not overtaking to move faster along an **acceleration or deceleration lane**, or a part of the road reserved for certain vehicles, or the reverse."
+              },
+              "src": "RGC art. 83.3"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c2e",
+                "answer": 1,
+                "es": {
+                  "q": "En una calzada con tráfico muy denso, los coches del carril de tu izquierda avanzan más rápido que los del tuyo. ¿Eso es adelantar?",
+                  "options": [
+                    "Sí, y tienes que señalizarlo como un adelantamiento",
+                    "No, y no debes cambiar de carril para adelantar",
+                    "Sí, y puedes pasar por la derecha"
+                  ],
+                  "why": "Con tráfico denso, que un carril vaya más rápido que otro no es un adelantamiento, y ningún conductor debe cambiar de carril para adelantar."
+                },
+                "en": {
+                  "q": "On a road with very heavy traffic, the cars in the lane to your left move faster than those in yours. Is that overtaking?",
+                  "options": [
+                    "Yes, and you must signal it as an overtaking",
+                    "No, and you must not change lanes to overtake",
+                    "Yes, and you may pass on the right"
+                  ],
+                  "why": "In dense traffic, one lane moving faster than another is not overtaking, and no driver should change lanes in order to overtake."
+                },
+                "terms": [
+                  {
+                    "es": "tráfico denso",
+                    "en": "heavy traffic"
+                  }
+                ],
+                "src": "RGC art. 83.2"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "Si te adelantan: **cíñete a la derecha** y **no aceleres**. Si surge un peligro, reduce.",
+          "en": "If you are overtaken: **keep right** and **do not speed up**. If a danger appears, slow down."
+        },
+        {
+          "es": "Un vehículo **pesado o lento** que no se puede adelantar con facilidad debe aminorar o apartarse al arcén.",
+          "en": "A **heavy or slow** vehicle that cannot easily be overtaken must slow down or pull onto the shoulder."
+        },
+        {
+          "es": "Fuera de poblado, con varios carriles, se circula normalmente por el **más a la derecha**.",
+          "en": "Outside built-up areas, with several lanes, you normally drive in the **rightmost** one."
+        },
+        {
+          "es": "Con **tráfico denso**, ir más rápido por otro carril no es adelantar, y no debes cambiar de carril para ello.",
+          "en": "In **heavy traffic**, moving faster in another lane is not overtaking, and you must not change lanes for it."
+        }
+      ],
+      "covers": [
+        "overtaking-04",
+        "overtaking-06"
+      ],
+      "src": [
+        "Reglamento General de Circulación (RD 1428/2003), arts. 31.1, 33, 83 y 86",
+        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), art. 76.c"
+      ]
+    },
+    {
+      "id": "where-forbidden",
+      "title": {
+        "es": "Dónde no se puede adelantar",
+        "en": "Where you may not overtake"
+      },
+      "minutes": 8,
+      "goals": [
+        {
+          "es": "Reconocer los lugares donde está prohibido adelantar.",
+          "en": "Recognize the places where overtaking is forbidden."
+        },
+        {
+          "es": "Leer las líneas del centro de la calzada y decidir si puedes adelantar.",
+          "en": "Read the center line of the road and decide whether you may overtake."
+        },
+        {
+          "es": "Conocer las señales de adelantamiento prohibido y de su fin.",
+          "en": "Know the no-overtaking signs and the signs that end them."
+        }
+      ],
+      "terms": [
+        {
+          "es": "cambio de rasante",
+          "en": "crest of a hill"
+        },
+        {
+          "es": "curva sin visibilidad",
+          "en": "blind curve"
+        },
+        {
+          "es": "paso para peatones",
+          "en": "pedestrian crossing"
+        },
+        {
+          "es": "paso a nivel",
+          "en": "railway level crossing"
+        },
+        {
+          "es": "intersección",
+          "en": "junction"
+        },
+        {
+          "es": "línea continua",
+          "en": "solid line"
+        },
+        {
+          "es": "línea discontinua",
+          "en": "dashed line"
+        },
+        {
+          "es": "vehículo inmovilizado",
+          "en": "stopped (immobilized) vehicle"
+        }
+      ],
+      "pretest": {
+        "id": "overtaking-pre-3",
+        "answer": 0,
+        "es": {
+          "q": "Llegas a un paso a nivel y el coche de delante va despacio. ¿Puedes adelantarlo justo antes del paso?",
+          "options": [
+            "No: está prohibido en los pasos a nivel y cerca de ellos",
+            "Sí, si no se ve ningún tren",
+            "Sí, si el coche de delante se detiene"
+          ],
+          "why": "La ley prohíbe adelantar en los pasos a nivel y en sus proximidades, aunque no venga ningún tren."
+        },
+        "en": {
+          "q": "You reach a level crossing and the car ahead is slow. May you overtake it just before the crossing?",
+          "options": [
+            "No: it is forbidden at level crossings and near them",
+            "Yes, if no train is in sight",
+            "Yes, if the car ahead stops"
+          ],
+          "why": "The law forbids overtaking at level crossings and near them, even if no train is coming."
+        },
+        "src": "RGC art. 87.1.b"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Si no ves, no adelantes",
+            "en": "If you cannot see, do not overtake"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Queda prohibido adelantar en las **curvas y cambios de rasante** de visibilidad reducida. También en cualquier lugar donde no veas lo suficiente para hacer la maniobra o para desistir una vez iniciada.",
+                "en": "Overtaking is forbidden on **curves and hill crests** with reduced visibility. It is also forbidden anywhere you cannot see enough to complete the maneuver or to give up once it has begun."
+              },
+              "src": "RGC art. 87.1.a"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Hay una salvedad: si los sentidos están bien delimitados y no invades el contrario, esta prohibición no se aplica.",
+                "en": "There is one carve-out: if the directions are clearly separated and you do not enter the opposing side, this ban does not apply."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "En concreto, se prohíbe adelantar detrás de un vehículo que está adelantando a otro, cuando su tamaño te impide ver la parte delantera de la vía.",
+                "en": "In particular, you may not overtake behind a vehicle that is itself overtaking, when its size stops you from seeing the road ahead."
+              },
+              "src": "RGC art. 87.1.a"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c3a",
+                "answer": 0,
+                "es": {
+                  "q": "Vas detrás de un camión grande que acaba de salir a adelantar a otro. No ves la carretera por delante. ¿Puedes adelantar tú también?",
+                  "options": [
+                    "No: su tamaño te impide ver la parte delantera de la vía",
+                    "Sí, si pones el intermitente a tiempo",
+                    "Sí, pegándote mucho al camión para ir a su rebufo"
+                  ],
+                  "why": "Se prohíbe adelantar detrás de un vehículo que realiza la misma maniobra cuando sus dimensiones te impiden ver la parte delantera de la vía."
+                },
+                "en": {
+                  "q": "You are behind a large truck that has just pulled out to overtake another. You cannot see the road ahead. May you overtake too?",
+                  "options": [
+                    "No: its size stops you from seeing the road ahead",
+                    "Yes, if you signal in good time",
+                    "Yes, by tucking in close behind the truck"
+                  ],
+                  "why": "You may not overtake behind a vehicle doing the same maneuver when its size stops you from seeing the road ahead."
+                },
+                "terms": [
+                  {
+                    "es": "visibilidad",
+                    "en": "visibility"
+                  }
+                ],
+                "src": "RGC art. 87.1.a"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Pasos, cruces y túneles",
+            "en": "Crossings, junctions and tunnels"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Queda prohibido adelantar en los pasos para peatones señalizados, en las intersecciones con vías para ciclistas y en los pasos a nivel, **y en sus proximidades**.",
+                "en": "Overtaking is forbidden at marked pedestrian crossings, at intersections with cycle paths and at level crossings, **and near them**."
+              },
+              "src": "RGC art. 87.1.b"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "También está prohibido en las **intersecciones** y en sus proximidades. Hay cuatro excepciones:",
+                "en": "It is also forbidden at **junctions** and near them. There are four exceptions:"
+              },
+              "src": "RGC art. 87.1.c"
+            },
+            {
+              "t": "list",
+              "items": [
+                {
+                  "es": "Una glorieta.",
+                  "en": "A roundabout."
+                },
+                {
+                  "es": "Cuando deba adelantarse por la derecha, según el artículo 82.2.",
+                  "en": "When the overtaking must be on the right, under article 82.2."
+                },
+                {
+                  "es": "Si tu calzada tiene prioridad en la intersección y hay una señal expresa que lo indica.",
+                  "en": "If your road has priority at the junction and a sign expressly says so."
+                },
+                {
+                  "es": "Si adelantas a vehículos de dos ruedas.",
+                  "en": "If you overtake two-wheeled vehicles."
+                }
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "En los **túneles**, pasos inferiores y tramos con la señal «Túnel» (S-5) está prohibido adelantar cuando solo hay un carril para tu sentido.",
+                "en": "In **tunnels**, underpasses and stretches with the “Tunnel” sign (S-5), overtaking is forbidden when there is only one lane for your direction."
+              },
+              "src": "RGC art. 87.1.d"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c3b",
+                "answer": 2,
+                "es": {
+                  "q": "Te acercas a un paso de peatones señalizado. El coche de delante va despacio. ¿Qué haces?",
+                  "options": [
+                    "Adelantas rápido antes del paso",
+                    "Adelantas si no hay ningún peatón a la vista",
+                    "No adelantas: está prohibido en los pasos de peatones y cerca de ellos"
+                  ],
+                  "why": "Adelantar está prohibido en los pasos para peatones señalizados y en sus proximidades, haya o no peatones."
+                },
+                "en": {
+                  "q": "You approach a marked pedestrian crossing. The car ahead is slow. What do you do?",
+                  "options": [
+                    "You overtake quickly before the crossing",
+                    "You overtake if no pedestrian is in sight",
+                    "You do not overtake: it is forbidden at crossings and near them"
+                  ],
+                  "why": "Overtaking is forbidden at marked pedestrian crossings and near them, whether or not pedestrians are present."
+                },
+                "terms": [
+                  {
+                    "es": "paso de peatones",
+                    "en": "pedestrian crossing"
+                  }
+                ],
+                "src": "RGC art. 87.1.b"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c3c",
+                "answer": 2,
+                "es": {
+                  "q": "Circulas por un túnel que tiene un solo carril para tu sentido. Un coche delante va despacio. ¿Puedes adelantarlo?",
+                  "options": [
+                    "Sí, si no viene nadie de frente",
+                    "Sí, si encendiste las luces largas",
+                    "No: en un túnel con un solo carril por sentido está prohibido"
+                  ],
+                  "why": "Está prohibido adelantar en los túneles y pasos inferiores en los que solo hay un carril para el sentido del que adelanta."
+                },
+                "en": {
+                  "q": "You drive in a tunnel with a single lane for your direction. A car ahead is slow. May you overtake it?",
+                  "options": [
+                    "Yes, if nobody is coming the other way",
+                    "Yes, if you turned on your high beams",
+                    "No: it is forbidden in a tunnel with one lane per direction"
+                  ],
+                  "why": "Overtaking is forbidden in tunnels and underpasses where the overtaking driver has only one lane for their direction."
+                },
+                "terms": [
+                  {
+                    "es": "túnel",
+                    "en": "tunnel"
+                  }
+                ],
+                "src": "RGC art. 87.1.d"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Las líneas del centro de la calzada",
+            "en": "The lines in the middle of the road"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Una **línea continua** significa que ningún conductor debe atravesarla ni circular sobre ella. Si separa los dos sentidos, tampoco debes circular por la izquierda de ella. Hay excepciones en los casos que establece el Reglamento General de Circulación. Dos líneas continuas paralelas significan lo mismo que una sola. Las líneas continuas del borde de la calzada no cuentan: están en el arcén y pueden cruzarse si hay una emergencia.",
+                "en": "A **solid line** means no driver should cross it or drive on it. If it separates the two directions, you also must not drive on the left of it. There are exceptions in the cases the General Traffic Regulation sets out. Two parallel solid lines mean the same as one. Solid lines at the edge of the road do not count: they sit on the shoulder and may be crossed in an emergency."
+              },
+              "src": "RGC Anexo I, ap. 5.2 (marcas viales, 4.1), líneas longitudinales continuas (M-2.1 a M-2.3)"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Una **línea discontinua** sirve para delimitar carriles y guiar la circulación. No debes circular sobre ella, salvo cuando, por la anchura de los carriles, sea necesario y la seguridad lo permita. Puedes atravesarla para maniobras permitidas, como girar o cambiar de carril, y cediendo el paso al vehículo del carril al que entras. Un tipo de discontinua (M-1.9 y M-1.10) avisa de que se acerca una línea continua o un tramo de riesgo especial.",
+                "en": "A **dashed line** marks lanes and guides traffic. You must not drive on top of it, unless, because of the lane width, it is necessary and safety allows it. You may cross it for permitted maneuvers, such as turning or changing lanes, giving way to the vehicle in the lane you enter. One type of dashed line (M-1.9 and M-1.10) warns that a solid line or a specially risky stretch is coming."
+              },
+              "src": "RGC Anexo I, ap. 5.2 (marcas viales, 4.1), líneas longitudinales discontinuas (M-1.1 a M-1.3, M-1.9, M-1.10)"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Cuando una línea continua va junto a una discontinua (M-3.1 a M-3.3), solo cuenta **la línea de tu lado**. Si la marca separa sentidos opuestos y empezaste a adelantar desde el carril junto a la discontinua, puedes atravesar la continua para volver a tu carril, después de adelantar o si desistes.",
+                "en": "When a solid line sits beside a dashed one (M-3.1 to M-3.3), only **the line on your side** counts. If the marking separates opposite directions and you began overtaking from the lane next to the dashed line, you may cross the solid line to return to your lane, after overtaking or if you give up."
+              },
+              "src": "RGC Anexo I, ap. 5.2 (marcas viales, 4.1), líneas continuas adosadas a discontinuas (M-3.1 a M-3.3)"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Lectura sencilla, no una frase del Catálogo: el Catálogo no nombra el adelantamiento al hablar de la discontinua; dice que se puede atravesar para girar o cambiar de carril. El art. 84.1 da por hecho que se adelanta sobre discontinuas en una calzada de tres carriles. Siguen valiendo las reglas de seguridad y los lugares prohibidos que has visto. Una discontinua M-1.13 (por ejemplo, en puertos de montaña) solo guía y no indica nada sobre adelantar.",
+                "en": "Plain reading, not a sentence of the Catalogue: when it describes the dashed line, the Catalogue does not mention overtaking; it says the line may be crossed to turn or change lanes. Art. 84.1 takes for granted that you overtake across dashed lines on a three-lane road. The safety rules and the forbidden places you have seen still apply. A dashed M-1.13 line (for example on mountain passes) only guides traffic and says nothing about overtaking."
+              }
+            },
+            {
+              "t": "figure",
+              "file": "overtaking-lines",
+              "alt": {
+                "es": "Cuatro tramos de carretera vistos desde arriba. En el primero hay línea discontinua y en el tercero una continua en el lado contrario con discontinua en el tuyo: se puede adelantar. En el segundo hay línea continua y en el cuarto la continua está en tu lado: no se puede.",
+                "en": "Four road stretches seen from above. In the first there is a dashed line and in the third a solid line on the opposite side with a dashed line on yours: you may overtake. In the second there is a solid line and in the fourth the solid line is on your side: you may not."
+              },
+              "caption": {
+                "es": "Verde: puedes pasar si hay espacio. Rojo: no puedes invadir ese carril para adelantar.",
+                "en": "Green: you may pass if there is room. Red: you may not enter that lane to overtake."
+              },
+              "legend": [
+                {
+                  "mark": "1",
+                  "text": {
+                    "es": "Línea discontinua: se puede adelantar con seguridad.",
+                    "en": "Dashed line: you may overtake safely."
+                  }
+                },
+                {
+                  "mark": "2",
+                  "text": {
+                    "es": "Línea continua: no se puede cruzar.",
+                    "en": "Solid line: you may not cross it."
+                  }
+                },
+                {
+                  "mark": "3",
+                  "text": {
+                    "es": "Continua en el lado contrario y discontinua en el tuyo: se puede.",
+                    "en": "Solid on the opposite side, dashed on yours: you may."
+                  }
+                },
+                {
+                  "mark": "4",
+                  "text": {
+                    "es": "Continua en tu lado y discontinua en el contrario: no se puede.",
+                    "en": "Solid on your side, dashed on the opposite side: you may not."
+                  }
+                }
+              ]
+            },
+            {
+              "t": "us",
+              "text": {
+                "es": "En España el eje de la calzada es blanco. En EE. UU. suele ser amarillo. No te fijes en el color: mira si la línea es continua o discontinua y de qué lado está.",
+                "en": "In Spain the center line is white. In the US it is usually yellow. Do not go by color: check whether the line is solid or dashed and on which side it is."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c3d",
+                "answer": 0,
+                "es": {
+                  "q": "En el eje de la calzada hay una línea continua en tu lado y una discontinua en el lado contrario. ¿Puedes adelantar invadiendo el carril contrario?",
+                  "options": [
+                    "No: rige la línea de tu lado, que es continua",
+                    "Sí: basta con que haya una discontinua",
+                    "Sí, si no viene nadie de frente"
+                  ],
+                  "why": "Cuando una línea continua va adosada a una discontinua, solo cuenta la que está en el lado por el que circulas. Aquí la tuya es continua."
+                },
+                "en": {
+                  "q": "In the middle of the road there is a solid line on your side and a dashed one on the opposite side. May you overtake by entering the opposite lane?",
+                  "options": [
+                    "No: the line on your side governs, and it is solid",
+                    "Yes: one dashed line is enough",
+                    "Yes, if nobody is coming the other way"
+                  ],
+                  "why": "When a solid line is attached to a dashed one, only the line on the side you drive on counts. Here yours is solid."
+                },
+                "terms": [
+                  {
+                    "es": "línea de tu lado",
+                    "en": "the line on your side"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.2 (marcas viales, 4.1), líneas continuas adosadas a discontinuas (M-3.1 a M-3.3)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Señales de adelantamiento prohibido",
+            "en": "No-overtaking signs"
+          },
+          "blocks": [
+            {
+              "t": "signs",
+              "ids": [
+                "r-305",
+                "r-306",
+                "r-502",
+                "r-503"
+              ],
+              "caption": {
+                "es": "R-305 prohíbe adelantar invadiendo el carril contrario. R-306 se lo prohíbe a los camiones aunque no lo invadan. R-502 y R-503 indican dónde acaban esas prohibiciones.",
+                "en": "R-305 forbids overtaking by entering the opposite lane. R-306 forbids it to trucks even without entering it. R-502 and R-503 show where those bans end."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "La señal R-305 prohíbe a todos los vehículos adelantar a **vehículos de motor** cuando la maniobra implique **invadir la zona reservada al sentido contrario**. Vale desde donde está hasta la siguiente señal de fin de prohibición de adelantamiento o de fin de prohibiciones. Se suma a las reglas generales sobre adelantamiento.",
+                "en": "Sign R-305 forbids all vehicles to overtake **motor vehicles** when the maneuver means **entering the zone reserved for opposing traffic**. It applies from where it stands to the next end-of-no-overtaking sign or end-of-prohibitions sign. It adds to the general overtaking rules."
+              },
+              "src": "RGC Anexo I, ap. 5.1, 3.5 (R-305)"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "La señal R-306 solo obliga a los camiones de masa máxima autorizada superior a **3.500 kg**: no pueden adelantar a vehículos de motor, **incluso si no invaden** el sentido contrario. Vale hasta la siguiente señal de fin de prohibición de adelantamiento o de fin de prohibiciones. La R-502 deja sin efecto una R-305 anterior, y la R-503, una R-306 anterior.",
+                "en": "Sign R-306 applies only to trucks with a maximum authorized mass above **3,500 kg**: they may not overtake motor vehicles, **even if they do not enter** the opposite side. It applies until the next end-of-no-overtaking sign or end-of-prohibitions sign. R-502 ends an earlier R-305, and R-503 ends an earlier R-306."
+              },
+              "src": "RGC Anexo I, ap. 5.1, 3.5 (R-306) y 3.7 (R-500, R-502, R-503)"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c3e",
+                "answer": 1,
+                "es": {
+                  "q": "Pasas junto a una señal de adelantamiento prohibido (R-305). ¿Hasta dónde vale?",
+                  "options": [
+                    "Hasta el siguiente cruce",
+                    "Hasta la señal de fin de prohibición de adelantamiento o de fin de prohibiciones",
+                    "Hasta que veas que la carretera está libre"
+                  ],
+                  "why": "La R-305 obliga desde donde está colocada hasta la señal R-502 («Fin de la prohibición de adelantamiento») o la de «Fin de prohibiciones» (R-500)."
+                },
+                "en": {
+                  "q": "You pass a no-overtaking sign (R-305). How far does it apply?",
+                  "options": [
+                    "Until the next junction",
+                    "Until the end-of-no-overtaking sign or the end-of-all-prohibitions sign",
+                    "Until you see the road is clear"
+                  ],
+                  "why": "R-305 applies from where it stands until the R-502 (“End of no overtaking”) sign or the “End of prohibitions” (R-500) sign."
+                },
+                "terms": [
+                  {
+                    "es": "fin de la prohibición",
+                    "en": "end of the prohibition"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.5 (R-305) y 3.7 (R-500, R-502)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Un vehículo parado en tu carril",
+            "en": "A stopped vehicle in your lane"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si un vehículo está inmovilizado por avería, accidente, servicio de urgencia o auxilio, mantenimiento de la vía o gestión del tráfico y ocupa, en todo o en parte, tu carril, al rebasarlo debes mantener **al menos 1,5 metros** de separación, aunque ocupes el sentido contrario. Además debes reducir la velocidad **al menos 20 km/h** respecto al límite de la vía.",
+                "en": "If a vehicle is stopped by a breakdown, accident, emergency or assistance service, road maintenance or traffic management and takes up all or part of your lane, when you pass it you must keep **at least 1.5 meters** of clearance, even if you use the opposite side. You must also reduce your speed **at least 20 km/h** below the road limit."
+              },
+              "src": "RGC art. 88.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "En un tramo donde está prohibido adelantar, un vehículo parado que ocupa tu carril se puede rebasar, aunque ocupes el sentido contrario, si antes compruebas que **no hay peligro**. No vale si está parado por necesidades del tráfico. Un obstáculo se trata igual.",
+                "en": "On a stretch where overtaking is forbidden, you may pass a stopped vehicle that blocks your lane, even if you use the opposite side, if you first check that **there is no danger**. This does not apply if it is stopped because traffic requires it. An obstacle is treated the same way."
+              },
+              "src": "RGC arts. 88.2 and 89.1"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "El art. 88.2 no nombra las líneas. El Catálogo dice que la línea continua no se atraviesa, «excepto en los casos establecidos en el Reglamento General de Circulación», sin enumerarlos. Lectura sencilla: el tramo con línea continua cuenta como uno donde está prohibido adelantar, y la excepción del vehículo parado (art. 88.2) también vale ahí.",
+                "en": "Art. 88.2 does not mention lines. The Catalogue says a solid line is not crossed “except in the cases set out in the General Traffic Regulation”, without listing them. Plain reading: a stretch with a solid line counts as one where overtaking is forbidden, and the stopped-vehicle exception (art. 88.2) applies there too."
+              }
+            },
+            {
+              "t": "us",
+              "text": {
+                "es": "1,5 m son unos 5 pies, y 20 km/h son unas 12 mph.",
+                "en": "1.5 m is about 5 feet, and 20 km/h is about 12 mph."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c3f",
+                "answer": 0,
+                "es": {
+                  "q": "Un coche averiado ocupa parte de tu carril en un tramo con línea continua. La carretera de frente está libre. ¿Puedes rebasarlo?",
+                  "options": [
+                    "Sí, si compruebas que no hay peligro, aunque ocupes el carril contrario",
+                    "No: la línea continua no se puede cruzar nunca",
+                    "Sí, sin comprobar nada, porque está parado"
+                  ],
+                  "why": "Un vehículo inmovilizado que ocupa tu carril se puede rebasar aunque el adelantamiento esté prohibido, tras cerciorarte de que puedes hacerlo sin peligro."
+                },
+                "en": {
+                  "q": "A broken-down car blocks part of your lane on a stretch with a solid line. The road ahead is clear. May you pass it?",
+                  "options": [
+                    "Yes, if you check there is no danger, even if you use the opposite lane",
+                    "No: a solid line may never be crossed",
+                    "Yes, without checking anything, because it is stopped"
+                  ],
+                  "why": "A stopped vehicle that blocks your lane may be passed even where overtaking is forbidden, after making sure you can do it without danger."
+                },
+                "terms": [
+                  {
+                    "es": "vehículo averiado",
+                    "en": "broken-down vehicle"
+                  }
+                ],
+                "src": "RGC arts. 88.1 and 88.2, and RGC Anexo I, ap. 5.2 (a solid line read as a stretch where overtaking is forbidden)"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "No adelantes donde **no veas**: curvas, cambios de rasante, detrás de un vehículo que tapa la vía.",
+          "en": "Do not overtake where **you cannot see**: curves, crests, behind a vehicle that blocks the view."
+        },
+        {
+          "es": "Tampoco en **pasos de peatones, pasos a nivel, túneles de un carril** y, con excepciones, en **intersecciones**.",
+          "en": "Nor at **pedestrian crossings, level crossings, single-lane tunnels** and, with exceptions, at **junctions**."
+        },
+        {
+          "es": "**Línea continua**: no se cruza. Si va junto a una discontinua, vale **la de tu lado**.",
+          "en": "**Solid line**: do not cross. If it sits beside a dashed one, **the one on your side** counts."
+        },
+        {
+          "es": "**R-305** prohíbe adelantar invadiendo el sentido contrario, hasta **R-502** o el fin de prohibiciones. **R-306** afecta solo a camiones de más de 3.500 kg, aunque no invadan.",
+          "en": "**R-305** forbids overtaking by entering the opposite side, until **R-502** or the end of prohibitions. **R-306** affects only trucks over 3,500 kg, even if they do not enter it."
+        },
+        {
+          "es": "Un **vehículo parado** en tu carril se puede rebasar con 1,5 m de separación y sin peligro.",
+          "en": "A **stopped vehicle** in your lane may be passed with 1.5 m clearance and no danger."
+        }
+      ],
+      "covers": [
+        "overtaking-02",
+        "overtaking-05"
+      ],
+      "src": [
+        "Reglamento General de Circulación (RD 1428/2003), arts. 87, 88 y 89; RGC Anexo I, ap. 5.1 (R-305, R-306, R-500, R-502, R-503) y ap. 5.2 (marcas viales)"
+      ]
+    },
+    {
+      "id": "cyclists-and-vulnerable",
+      "title": {
+        "es": "Adelantar a ciclistas y usuarios vulnerables",
+        "en": "Overtaking cyclists and vulnerable road users"
+      },
+      "minutes": 6,
+      "goals": [
+        {
+          "es": "Dejar al menos 1,5 metros al adelantar a un ciclista.",
+          "en": "Leave at least 1.5 meters when overtaking a cyclist."
+        },
+        {
+          "es": "Saber cuándo debes cambiar de carril por completo y cuándo reducir 20 km/h.",
+          "en": "Know when you must change lanes completely and when to slow by 20 km/h."
+        },
+        {
+          "es": "Saber que puedes pasar a un ciclista aunque haya línea continua, si es seguro.",
+          "en": "Know that you may pass a cyclist over a solid line, if it is safe."
+        }
+      ],
+      "terms": [
+        {
+          "es": "ciclista",
+          "en": "cyclist"
+        },
+        {
+          "es": "separación lateral",
+          "en": "lateral clearance"
+        },
+        {
+          "es": "fuera de poblado",
+          "en": "outside a built-up area"
+        },
+        {
+          "es": "cambio completo de carril",
+          "en": "complete lane change"
+        },
+        {
+          "es": "grupo de ciclistas",
+          "en": "group of cyclists"
+        },
+        {
+          "es": "vehículo de movilidad personal",
+          "en": "e-scooter and similar"
+        },
+        {
+          "es": "peatón",
+          "en": "pedestrian"
+        }
+      ],
+      "pretest": {
+        "id": "overtaking-pre-4",
+        "answer": 0,
+        "es": {
+          "q": "Adelantas a un ciclista en una carretera con un carril por sentido. ¿Cómo lo haces?",
+          "options": [
+            "Dejando al menos 1,5 m, aunque ocupes parte del carril contrario",
+            "Pasando pegado a él para ocupar poco carril contrario",
+            "Tocando el claxon y pasando sin cambiar de posición"
+          ],
+          "why": "Hay que guardar una anchura de seguridad de al menos 1,5 metros, ocupando parte o todo el carril contiguo o contrario si hace falta."
+        },
+        "en": {
+          "q": "You overtake a cyclist on a road with one lane per direction. How do you do it?",
+          "options": [
+            "Leaving at least 1.5 m, even if you use part of the opposite lane",
+            "Passing close to them to use little of the opposite lane",
+            "Honking and passing without changing position"
+          ],
+          "why": "You must keep a safety clearance of at least 1.5 meters, using part or all of the adjacent or opposite lane if needed."
+        },
+        "src": "RGC art. 85.4"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Especial cuidado con quien es más vulnerable",
+            "en": "Extra care with those more at risk"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Al adelantar a peatones, animales, vehículos de tracción animal, ciclomotores, vehículos de movilidad personal, ciclistas o un grupo de ciclistas, debes tener **especial cuidado** para no crear ninguna situación de peligro.",
+                "en": "When overtaking pedestrians, animals, animal-drawn vehicles, mopeds, personal mobility vehicles, cyclists or a group of cyclists, you must take **special care** not to create any dangerous situation."
+              },
+              "src": "RGC art. 85.4"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Debes adelantar ocupando parte o todo el carril contiguo o contrario y guardando una anchura de seguridad de **al menos 1,5 metros**.",
+                "en": "You must overtake using part or all of the adjacent or opposite lane, keeping a safety clearance of **at least 1.5 meters**."
+              },
+              "src": "RGC art. 85.4"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si la calzada tiene más de un carril por sentido, es obligatorio el **cambio completo de carril**. Queda prohibido adelantar poniendo en peligro o entorpeciendo a quienes vienen en sentido contrario, incluso si circulan por el arcén.",
+                "en": "If the road has more than one lane per direction, a **complete lane change** is mandatory. You may not overtake endangering or hindering oncoming traffic, even if they are on the shoulder."
+              },
+              "src": "RGC art. 85.4"
+            },
+            {
+              "t": "figure",
+              "file": "overtaking-cyclist",
+              "alt": {
+                "es": "Dos esquemas vistos desde arriba. En el primero, un coche azul pasa a un ciclista naranja por el carril contrario y una barra amarilla marca la separación de 1,5 metros. En el segundo, el coche pasa por el otro carril de su mismo sentido, completamente separado del ciclista.",
+                "en": "Two top-down diagrams. In the first, a blue car passes an orange cyclist in the opposite lane and a yellow bar shows the 1.5 meter gap. In the second, the car passes in the other lane of its own direction, fully clear of the cyclist."
+              },
+              "caption": {
+                "es": "Con un carril por sentido, deja al menos 1,5 m. Con varios carriles por sentido, cambia de carril por completo.",
+                "en": "With one lane per direction, leave at least 1.5 m. With several lanes per direction, change lanes completely."
+              },
+              "legend": [
+                {
+                  "mark": "1",
+                  "text": {
+                    "es": "Carretera de doble sentido: la barra marca la separación mínima de 1,5 m.",
+                    "en": "Two-way road: the bar shows the 1.5 m minimum gap."
+                  }
+                },
+                {
+                  "mark": "2",
+                  "text": {
+                    "es": "Dos carriles en tu sentido: cambio completo de carril.",
+                    "en": "Two lanes in your direction: complete lane change."
+                  }
+                }
+              ]
+            },
+            {
+              "t": "us",
+              "text": {
+                "es": "Muchos estados de EE. UU. exigen una distancia mínima al pasar a un ciclista, a menudo 3 pies (unos 0,9 m). En España son 1,5 m, unos 5 pies.",
+                "en": "Many US states require a minimum distance when passing a cyclist, often 3 feet (about 0.9 m). In Spain it is 1.5 m, about 5 feet."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c4a",
+                "answer": 1,
+                "es": {
+                  "q": "Adelantas a un ciclista en una vía con dos carriles para tu sentido. ¿Qué debes hacer?",
+                  "options": [
+                    "Pasar por tu carril dejando 1,5 m",
+                    "Cambiar por completo al otro carril",
+                    "Pasar por el arcén para no invadir el otro carril"
+                  ],
+                  "why": "Si la calzada tiene más de un carril por sentido, el cambio completo de carril es obligatorio al adelantar a un ciclista."
+                },
+                "en": {
+                  "q": "You overtake a cyclist on a road with two lanes for your direction. What must you do?",
+                  "options": [
+                    "Pass in your lane leaving 1.5 m",
+                    "Change completely into the other lane",
+                    "Pass on the shoulder so as not to enter the other lane"
+                  ],
+                  "why": "If the road has more than one lane per direction, a complete lane change is mandatory when overtaking a cyclist."
+                },
+                "terms": [
+                  {
+                    "es": "cambio completo de carril",
+                    "en": "complete lane change"
+                  }
+                ],
+                "src": "RGC art. 85.4"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Fuera de poblado, baja 20 km/h",
+            "en": "Outside town, slow down by 20 km/h"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si adelantas a estos usuarios fuera de poblado, antes de empezar y durante toda la maniobra debes reducir la velocidad al menos **20 km/h** respecto al límite de la vía. Así los adelantados no ven comprometida su estabilidad.",
+                "en": "If you overtake these road users outside a built-up area, before starting and throughout the maneuver you must reduce your speed by at least **20 km/h** below the road limit. That way the people you pass do not have their stability compromised."
+              },
+              "src": "RGC art. 85.4"
+            },
+            {
+              "t": "example",
+              "situation": {
+                "es": "Circulas por una carretera fuera de poblado limitada a 80 km/h. Delante va un ciclista.",
+                "en": "You drive on a road outside a built-up area limited to 80 km/h. A cyclist is ahead."
+              },
+              "action": {
+                "es": "Baja a 60 km/h o menos antes de empezar y mantén esa velocidad mientras pasas, dejando 1,5 m.",
+                "en": "Slow to 60 km/h or less before you start and keep that speed while passing, leaving 1.5 m."
+              },
+              "why": {
+                "es": "El límite menos 20 km/h es el tope. 80 menos 20 son 60 km/h.",
+                "en": "The limit minus 20 km/h is the ceiling. 80 minus 20 is 60 km/h."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Dentro de poblado se exigen los 1,5 m, pero la reducción de 20 km/h se pide solo fuera de poblado. Aun así, pasa despacio: es lo prudente.",
+                "en": "Inside a built-up area the 1.5 m is required, but the 20 km/h reduction is asked for only outside a built-up area. Even so, pass slowly: it is the prudent thing to do."
+              }
+            },
+            {
+              "t": "us",
+              "text": {
+                "es": "20 km/h son unas 12 mph.",
+                "en": "20 km/h is about 12 mph."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c4b",
+                "answer": 2,
+                "es": {
+                  "q": "Una señal limita la carretera, fuera de poblado, a 80 km/h. Vas a adelantar a un ciclista. ¿A qué velocidad máxima debes hacerlo?",
+                  "options": [
+                    "A 80 km/h como máximo",
+                    "A 70 km/h como máximo",
+                    "A 60 km/h como máximo"
+                  ],
+                  "why": "Fuera de poblado debes reducir al menos 20 km/h respecto al límite antes de empezar y durante toda la maniobra: 80 menos 20 son 60 km/h."
+                },
+                "en": {
+                  "q": "A sign limits the road, outside a built-up area, to 80 km/h. You will overtake a cyclist. What is your maximum speed while doing it?",
+                  "options": [
+                    "80 km/h at most",
+                    "70 km/h at most",
+                    "60 km/h at most"
+                  ],
+                  "why": "Outside a built-up area you must reduce your speed by at least 20 km/h below the limit before you start and throughout the maneuver: 80 minus 20 is 60 km/h."
+                },
+                "terms": [
+                  {
+                    "es": "límite de la vía",
+                    "en": "road limit"
+                  }
+                ],
+                "src": "RGC art. 85.4"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c4c",
+                "answer": 0,
+                "es": {
+                  "q": "Adelantas a un ciclista dentro de poblado. ¿Qué exige el artículo sobre vulnerables?",
+                  "options": [
+                    "Dejar al menos 1,5 metros de separación",
+                    "Reducir 20 km/h respecto al límite, igual que fuera de poblado",
+                    "Avisar solo con el claxon"
+                  ],
+                  "why": "La anchura de seguridad de 1,5 m rige en toda vía. La reducción de 20 km/h solo se exige expresamente si el adelantamiento se hace fuera de poblado."
+                },
+                "en": {
+                  "q": "You overtake a cyclist inside a built-up area. What does the article on vulnerable users require?",
+                  "options": [
+                    "Leaving at least 1.5 meters of clearance",
+                    "Reducing speed by 20 km/h below the limit, as outside town",
+                    "Warning only with the horn"
+                  ],
+                  "why": "The 1.5 m safety clearance applies on any road. The 20 km/h reduction is expressly required only when overtaking outside a built-up area."
+                },
+                "terms": [
+                  {
+                    "es": "dentro de poblado",
+                    "en": "inside a built-up area"
+                  }
+                ],
+                "src": "RGC art. 85.4"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Un grupo de ciclistas cuenta como uno",
+            "en": "A group of cyclists counts as one"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Cuando los ciclistas circulan en grupo, se consideran **una única unidad móvil**. Adelántalos como si fueran un solo vehículo, con los mismos 1,5 m.",
+                "en": "When cyclists ride in a group, they count as **a single moving unit**. Overtake them as if they were one vehicle, with the same 1.5 m."
+              },
+              "src": "RGC art. 85.4"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si conduces un vehículo de dos ruedas y adelantas fuera de poblado a otro cualquiera, debes dejar entre ambos un espacio **no inferior a 1,50 metros** hasta las partes más salientes del otro vehículo.",
+                "en": "If you drive a two-wheeled vehicle and overtake any other vehicle outside a built-up area, you must leave **no less than 1.50 meters** between you and the most protruding parts of the other vehicle."
+              },
+              "src": "RGC art. 85.5"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c4d",
+                "answer": 1,
+                "es": {
+                  "q": "Un grupo de ciclistas circula en fila por una carretera. ¿Cómo debes adelantarlo?",
+                  "options": [
+                    "Uno a uno, volviendo al carril entre cada ciclista",
+                    "Como una única unidad, dejando 1,5 m a todo el grupo",
+                    "Rápido y por el centro del grupo"
+                  ],
+                  "why": "Los ciclistas en grupo se consideran una única unidad móvil. Se adelanta a todo el grupo de una vez, con la anchura de seguridad de 1,5 m."
+                },
+                "en": {
+                  "q": "A group of cyclists rides in a line along a road. How must you overtake them?",
+                  "options": [
+                    "One by one, returning to your lane between each cyclist",
+                    "As a single unit, leaving 1.5 m to the whole group",
+                    "Fast, through the middle of the group"
+                  ],
+                  "why": "Cyclists in a group count as a single moving unit. You overtake the whole group at once, with the 1.5 m safety clearance."
+                },
+                "terms": [
+                  {
+                    "es": "grupo de ciclistas",
+                    "en": "group of cyclists"
+                  }
+                ],
+                "src": "RGC art. 85.4"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Con línea continua, si es seguro",
+            "en": "Over a solid line, if it is safe"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "En un tramo donde está prohibido adelantar, se puede adelantar a ciclistas y otros ciclos, ciclomotores, vehículos de movilidad personal, peatones, animales, vehículos de tracción animal y vehículos especiales agrícolas con sus conjuntos cuando, por su velocidad, se les puede pasar **sin riesgo** para ellos ni para el resto de la circulación.",
+                "en": "On a stretch where overtaking is forbidden, you may overtake cyclists and other cycles, mopeds, personal mobility vehicles, pedestrians, animals, animal-drawn vehicles and special agricultural vehicles and their combinations when, given their speed, they can be passed **without risk** to them or to other traffic."
+              },
+              "src": "RGC art. 88.2"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Lectura sencilla: una línea continua no se atraviesa (Anexo I, ap. 5.2), así que el tramo cuenta como uno donde está prohibido adelantar. El art. 88.2 no nombra las líneas. Para pasar a un ciclista puedes cruzarla, con 1,5 m y sin poner en peligro ni entorpecer a quien viene de frente.",
+                "en": "Plain reading: a solid line is not crossed (Annex I, ap. 5.2), so the stretch counts as one where overtaking is forbidden. Art. 88.2 does not mention lines. To pass a cyclist you may cross it, with 1.5 m and without endangering or hindering oncoming traffic."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Si no puedes pasar con seguridad, espera detrás del ciclista, a una distancia prudente, hasta que haya sitio.",
+                "en": "If you cannot pass safely, wait behind the cyclist, at a sensible distance, until there is room."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c4e",
+                "answer": 2,
+                "es": {
+                  "q": "Un ciclista va despacio por un tramo con línea continua y la carretera está libre. ¿Puedes adelantarlo ocupando el carril contrario?",
+                  "options": [
+                    "No: la línea continua lo prohíbe siempre",
+                    "Sí, pasando pegado a él para tardar menos",
+                    "Sí, sin riesgo para nadie y con 1,5 m de separación"
+                  ],
+                  "why": "Se puede adelantar a ciclistas aunque esté prohibido adelantar, si por su velocidad se les pasa sin riesgo para ellos ni para otros. Hay que dejar 1,5 m."
+                },
+                "en": {
+                  "q": "A cyclist rides slowly on a stretch with a solid line and the road is clear. May you overtake using the opposite lane?",
+                  "options": [
+                    "No: a solid line always forbids it",
+                    "Yes, passing close to them to take less time",
+                    "Yes, with no risk to anyone and 1.5 m of clearance"
+                  ],
+                  "why": "You may overtake cyclists even where overtaking is forbidden, if given their speed you can pass without risk to them or others. You must leave 1.5 m."
+                },
+                "terms": [
+                  {
+                    "es": "línea continua",
+                    "en": "solid line"
+                  }
+                ],
+                "src": "RGC arts. 85.4 and 88.2, and RGC Anexo I, ap. 5.2 (a solid line read as a stretch where overtaking is forbidden)"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "A ciclistas, peatones, ciclomotores y VMP los adelantas con **especial cuidado** y **al menos 1,5 m**.",
+          "en": "You overtake cyclists, pedestrians, mopeds and e-scooters with **special care** and **at least 1.5 m**."
+        },
+        {
+          "es": "Con **varios carriles por sentido**, cambia de carril **por completo**.",
+          "en": "With **several lanes per direction**, change lanes **completely**."
+        },
+        {
+          "es": "**Fuera de poblado**, reduce al menos **20 km/h** respecto al límite, antes y durante el adelantamiento.",
+          "en": "**Outside built-up areas**, reduce at least **20 km/h** below the limit, before and during the overtaking."
+        },
+        {
+          "es": "Un **grupo de ciclistas** es una sola unidad: pasa a todo el grupo de una vez.",
+          "en": "A **group of cyclists** is a single unit: pass the whole group at once."
+        },
+        {
+          "es": "Con **línea continua** puedes pasar a un ciclista si lo haces sin riesgo para nadie.",
+          "en": "Over a **solid line** you may pass a cyclist if you do it without risk to anyone."
+        }
+      ],
+      "covers": [
+        "overtaking-03",
+        "hazards-05"
+      ],
+      "src": [
+        "Reglamento General de Circulación (RD 1428/2003), arts. 85.4, 85.5 y 88.2; Anexo I, ap. 5.2 (marcas viales) (art. 85 en la redacción del RD 518/2026, en vigor desde el 1 de octubre de 2026)"
+      ]
+    },
+    {
+      "id": "turning",
+      "title": {
+        "es": "Girar, cambiar de carril y de sentido",
+        "en": "Turning, changing lanes and making U-turns"
+      },
+      "minutes": 8,
+      "goals": [
+        {
+          "es": "Avisar y comprobar el tráfico antes de girar o cambiar de carril.",
+          "en": "Signal and check traffic before turning or changing lanes."
+        },
+        {
+          "es": "Colocarte bien antes de girar a la derecha o a la izquierda.",
+          "en": "Position yourself correctly before turning right or left."
+        },
+        {
+          "es": "Saber dónde se puede y dónde no se puede cambiar de sentido.",
+          "en": "Know where you may and may not make a U-turn."
+        }
+      ],
+      "terms": [
+        {
+          "es": "girar",
+          "en": "to turn"
+        },
+        {
+          "es": "cambio de dirección",
+          "en": "change of direction (turn)"
+        },
+        {
+          "es": "cambio de sentido",
+          "en": "U-turn"
+        },
+        {
+          "es": "eje de la calzada",
+          "en": "center line of the road"
+        },
+        {
+          "es": "centro de la intersección",
+          "en": "center of the junction"
+        },
+        {
+          "es": "carril de deceleración",
+          "en": "deceleration (exit) lane"
+        },
+        {
+          "es": "calzada de un solo sentido",
+          "en": "one-way road"
+        }
+      ],
+      "pretest": {
+        "id": "overtaking-pre-5",
+        "answer": 2,
+        "es": {
+          "q": "Vas a girar a la izquierda en una calle de doble sentido con línea discontinua en el centro. ¿Dónde te colocas antes de girar?",
+          "options": [
+            "Pegado al borde derecho para no estorbar",
+            "Ocupando el carril contrario para tener sitio",
+            "Junto a la línea del centro, sin invadir el sentido contrario"
+          ],
+          "why": "Antes de un giro a la izquierda en calzada de doble sentido te ciñes a la marca de separación o al eje, sin invadir la zona del sentido contrario."
+        },
+        "en": {
+          "q": "You will turn left on a two-way street with a dashed line in the middle. Where do you position yourself before turning?",
+          "options": [
+            "Hugging the right edge so as not to be in the way",
+            "In the opposite lane to have more room",
+            "Next to the center line, without entering the opposing side"
+          ],
+          "why": "Before a left turn on a two-way road you keep close to the dividing marking or center, without entering the opposing side."
+        },
+        "src": "RGC art. 75.1.b"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Avisa y comprueba antes de girar",
+            "en": "Signal and check before you turn"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si vas a girar a la derecha o a la izquierda para tomar otra vía, otra calzada o salir de la vía, **avisa con suficiente antelación** a los que circulan detrás de ti.",
+                "en": "If you will turn right or left to take another road, another carriageway or to leave the road, **warn the drivers behind you in good time**."
+              },
+              "src": "RGC art. 74.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Comprueba también que la velocidad y la distancia de los vehículos que vienen de frente te permiten girar sin peligro. Si no es así, no gires. En un giro a la izquierda sin visibilidad suficiente, tampoco.",
+                "en": "Also check that the speed and distance of oncoming vehicles let you turn without danger. If not, do not turn. Do not make a left turn without enough visibility either."
+              },
+              "src": "RGC art. 74.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Cualquier cambio de carril debe respetar la **prioridad de quien circula por el carril** que quieres ocupar.",
+                "en": "Any lane change must respect the **priority of the driver in the lane** you want to move into."
+              },
+              "src": "RGC art. 74.2"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c5a",
+                "answer": 0,
+                "es": {
+                  "q": "Quieres cambiar de carril y ves un coche en el carril al que vas a pasar. ¿Quién tiene prioridad?",
+                  "options": [
+                    "El que ya circula por el carril al que quieres pasar",
+                    "Tú, porque has puesto el intermitente primero",
+                    "El que va más rápido de los dos"
+                  ],
+                  "why": "Todo cambio de carril debe respetar la prioridad del que circula por el carril que se pretende ocupar. El intermitente avisa, pero no da prioridad."
+                },
+                "en": {
+                  "q": "You want to change lanes and see a car in the lane you will move into. Who has priority?",
+                  "options": [
+                    "The one already driving in the lane you want to enter",
+                    "You, because you signaled first",
+                    "Whichever of the two is faster"
+                  ],
+                  "why": "Every lane change must respect the priority of whoever is in the lane you want to occupy. The signal warns, but it does not give you priority."
+                },
+                "terms": [
+                  {
+                    "es": "cambio de carril",
+                    "en": "lane change"
+                  }
+                ],
+                "src": "RGC art. 74.2"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c5b",
+                "answer": 1,
+                "es": {
+                  "q": "Vas a girar a la izquierda y la visibilidad del tráfico que viene de frente es insuficiente. ¿Qué haces?",
+                  "options": [
+                    "Giras rápido antes de que aparezca alguien",
+                    "Te abstienes y esperas a ver bien",
+                    "Giras tocando el claxon"
+                  ],
+                  "why": "En un cambio de dirección a la izquierda sin visibilidad suficiente hay que abstenerse de realizar la maniobra."
+                },
+                "en": {
+                  "q": "You will turn left and your view of oncoming traffic is not enough. What do you do?",
+                  "options": [
+                    "You turn quickly before anyone appears",
+                    "You hold back and wait until you can see well",
+                    "You turn while honking"
+                  ],
+                  "why": "For a left turn without enough visibility you must refrain from making the maneuver."
+                },
+                "terms": [
+                  {
+                    "es": "abstenerse",
+                    "en": "to refrain"
+                  }
+                ],
+                "src": "RGC art. 74.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Colócate antes de girar",
+            "en": "Position yourself before turning"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Salvo que la vía esté acondicionada o señalizada de otra forma, colócate **con antelación** en el lugar adecuado y haz el giro en el menor espacio y tiempo posibles. El lugar adecuado es este:",
+                "en": "Unless the road is laid out or signed differently, take your position **in good time** in the right place and make the turn in the least space and time possible. The right place is this:"
+              },
+              "src": "RGC art. 75.1.b"
+            },
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Si vas a girar…",
+                  "en": "If you will turn…"
+                },
+                {
+                  "es": "Colócate…",
+                  "en": "Position yourself…"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "a la derecha",
+                    "en": "right"
+                  },
+                  {
+                    "es": "Lo más cerca posible del borde derecho de la calzada.",
+                    "en": "As close as possible to the right edge of the road."
+                  }
+                ],
+                [
+                  {
+                    "es": "a la izquierda, calzada de un solo sentido",
+                    "en": "left, one-way road"
+                  },
+                  {
+                    "es": "Lo más cerca posible del borde izquierdo.",
+                    "en": "As close as possible to the left edge."
+                  }
+                ],
+                [
+                  {
+                    "es": "a la izquierda, calzada de doble sentido",
+                    "en": "left, two-way road"
+                  },
+                  {
+                    "es": "Junto a la marca que separa los sentidos, o al eje, sin invadir el sentido contrario.",
+                    "en": "Next to the marking that divides the directions, or the center, without entering the opposite side."
+                  }
+                ],
+                [
+                  {
+                    "es": "a la izquierda, doble sentido con tres carriles y líneas discontinuas",
+                    "en": "left, two-way with three lanes and dashed lines"
+                  },
+                  {
+                    "es": "En el carril central.",
+                    "en": "In the center lane."
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c5c",
+                "answer": 2,
+                "es": {
+                  "q": "Circulas por una calzada de doble sentido con tres carriles separados por líneas discontinuas y vas a girar a la izquierda. ¿Dónde te colocas?",
+                  "options": [
+                    "En el carril de la derecha",
+                    "En el carril de la izquierda",
+                    "En el carril central"
+                  ],
+                  "why": "En calzadas de doble sentido y tres carriles separados por líneas discontinuas, el giro a la izquierda se prepara desde el carril central."
+                },
+                "en": {
+                  "q": "You drive on a two-way road with three lanes separated by dashed lines and will turn left. Where do you position yourself?",
+                  "options": [
+                    "In the right lane",
+                    "In the left lane",
+                    "In the center lane"
+                  ],
+                  "why": "On two-way roads with three lanes separated by dashed lines, a left turn is prepared from the center lane."
+                },
+                "terms": [
+                  {
+                    "es": "carril central",
+                    "en": "center lane"
+                  }
+                ],
+                "src": "RGC art. 75.1.b"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "El centro del cruce queda a tu izquierda",
+            "en": "The center of the junction stays on your left"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si el giro es a la izquierda, dejas a tu izquierda **el centro de la intersección**, a no ser que esté acondicionada o señalizada para dejarlo a tu derecha.",
+                "en": "If the turn is to the left, you leave the **center of the junction** on your left, unless it is laid out or signed to leave it on your right."
+              },
+              "src": "RGC art. 75.1.c"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Pulsa «Reproducir». El coche B espera junto al eje a que pase el coche que viene de frente. Después gira dejando el centro del cruce a su izquierda.",
+                "en": "Press “Play”. Car B waits next to the center line for the oncoming car to pass. Then it turns, leaving the center of the junction on its left."
+              }
+            },
+            {
+              "t": "figure",
+              "file": "overtaking-turn-left",
+              "alt": {
+                "es": "Un cruce visto desde arriba. Un coche azul espera junto al eje a que pase un coche naranja que viene de frente. Después gira a la izquierda dejando a su izquierda un punto en el centro del cruce.",
+                "en": "A junction seen from above. A blue car waits next to the center line for an orange oncoming car to pass. Then it turns left, leaving a point at the center of the junction on its left."
+              },
+              "caption": {
+                "es": "Espera a que pase el tráfico que viene de frente y gira sin cortar el centro del cruce.",
+                "en": "Wait for oncoming traffic to pass and turn without cutting across the center of the junction."
+              },
+              "legend": [
+                {
+                  "mark": "A",
+                  "text": {
+                    "es": "Coche que viene de frente.",
+                    "en": "Oncoming car."
+                  }
+                },
+                {
+                  "mark": "B",
+                  "text": {
+                    "es": "Tú, girando a la izquierda.",
+                    "en": "You, turning left."
+                  }
+                },
+                {
+                  "mark": "1",
+                  "text": {
+                    "es": "Centro del cruce: queda a tu izquierda.",
+                    "en": "Center of the junction: it stays on your left."
+                  }
+                }
+              ]
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c5d",
+                "answer": 1,
+                "es": {
+                  "q": "Giras a la izquierda en un cruce normal, sin señalización especial. ¿Cómo pasas respecto al centro del cruce?",
+                  "options": [
+                    "Dejándolo a tu derecha",
+                    "Dejándolo a tu izquierda",
+                    "Cortando por encima del centro"
+                  ],
+                  "why": "En un giro a la izquierda se deja a la izquierda el centro de la intersección, salvo que esté acondicionada o señalizada para dejarlo a la derecha."
+                },
+                "en": {
+                  "q": "You turn left at an ordinary junction with no special signs. How do you pass the center of the junction?",
+                  "options": [
+                    "Leaving it on your right",
+                    "Leaving it on your left",
+                    "Cutting across it"
+                  ],
+                  "why": "In a left turn you leave the center of the junction on your left, unless it is laid out or signed to leave it on the right."
+                },
+                "terms": [
+                  {
+                    "es": "centro de la intersección",
+                    "en": "center of the junction"
+                  }
+                ],
+                "src": "RGC art. 75.1.c"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Cambio de sentido",
+            "en": "U-turns"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Para cambiar de sentido, elige un lugar adecuado en el que **interceptes la vía el menor tiempo posible**, avisa con antelación y asegúrate de no poner en peligro ni obstaculizar a otros. Si no es seguro, abstente y espera el momento oportuno.",
+                "en": "To make a U-turn, choose a suitable place where you **block the road for the shortest time possible**, signal in advance and make sure you do not endanger or obstruct others. If it is not safe, hold back and wait for the right moment."
+              },
+              "src": "RGC art. 78.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si tu espera en la calzada impide avanzar a los vehículos de detrás, debes salir de ella por tu **lado derecho**, si es posible, hasta que puedas hacer la maniobra.",
+                "en": "If waiting on the road stops the vehicles behind you from moving on, you must leave the road on your **right side**, if possible, until you can make the maneuver."
+              },
+              "src": "RGC art. 78.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Se prohíbe cambiar de sentido en estos casos:",
+                "en": "U-turns are forbidden in these cases:"
+              },
+              "src": "RGC art. 79.1"
+            },
+            {
+              "t": "list",
+              "items": [
+                {
+                  "es": "Cuando no puedas comprobar que es seguro.",
+                  "en": "When you cannot check that it is safe."
+                },
+                {
+                  "es": "En pasos a nivel, túneles, pasos inferiores y tramos con la señal «Túnel» (S-5).",
+                  "en": "At level crossings, tunnels, underpasses and stretches with the “Tunnel” sign (S-5)."
+                },
+                {
+                  "es": "En autopistas y autovías, salvo en los lugares habilitados.",
+                  "en": "On motorways and dual carriageways, except at places made for it."
+                },
+                {
+                  "es": "En general, donde esté prohibido adelantar, salvo que el cambio de sentido esté expresamente autorizado.",
+                  "en": "In general, wherever overtaking is forbidden, unless the U-turn is expressly allowed."
+                }
+              ]
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "r-304",
+                "r-303"
+              ],
+              "caption": {
+                "es": "R-304 prohíbe la media vuelta. R-303 prohíbe el giro a la izquierda y también el cambio de sentido.",
+                "en": "R-304 forbids the U-turn. R-303 forbids the left turn and also the change of direction (U-turn)."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c5e",
+                "answer": 0,
+                "es": {
+                  "q": "Quieres cambiar de sentido en una autovía. ¿Qué dice la norma?",
+                  "options": [
+                    "Está prohibido, salvo en los lugares habilitados para ello",
+                    "Se puede en cualquier punto si no viene nadie",
+                    "Solo se puede por el arcén"
+                  ],
+                  "why": "El cambio de sentido está prohibido en autopistas y autovías, salvo en los lugares habilitados al efecto."
+                },
+                "en": {
+                  "q": "You want to make a U-turn on a dual carriageway. What does the rule say?",
+                  "options": [
+                    "It is forbidden, except at places made for it",
+                    "You may anywhere if nobody is coming",
+                    "You may only do it on the shoulder"
+                  ],
+                  "why": "U-turns are forbidden on motorways and dual carriageways, except at places made for it."
+                },
+                "terms": [
+                  {
+                    "es": "autovía",
+                    "en": "dual carriageway"
+                  }
+                ],
+                "src": "RGC art. 79.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c5f",
+                "answer": 2,
+                "es": {
+                  "q": "Circulas por un tramo en el que está prohibido adelantar y quieres cambiar de sentido. ¿Puedes?",
+                  "options": [
+                    "Sí, si no hay ningún coche cerca",
+                    "Sí, porque no es un adelantamiento",
+                    "No, salvo que el cambio de sentido esté expresamente autorizado"
+                  ],
+                  "why": "En general se prohíbe el cambio de sentido en todos los tramos en que esté prohibido adelantar, salvo autorización expresa."
+                },
+                "en": {
+                  "q": "You are on a stretch where overtaking is forbidden and want to make a U-turn. May you?",
+                  "options": [
+                    "Yes, if no car is close",
+                    "Yes, because it is not overtaking",
+                    "No, unless the U-turn is expressly allowed"
+                  ],
+                  "why": "In general U-turns are forbidden on all stretches where overtaking is forbidden, unless expressly allowed."
+                },
+                "terms": [
+                  {
+                    "es": "cambio de sentido",
+                    "en": "U-turn"
+                  }
+                ],
+                "src": "RGC art. 79.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Salir de una autopista",
+            "en": "Leaving a motorway"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Para salir de una autopista, autovía o cualquier otra vía, circula con suficiente antelación por el **carril más próximo a la salida** y entra lo antes posible en el carril de deceleración, si existe.",
+                "en": "To leave a motorway, dual carriageway or any other road, drive in good time in the **lane closest to the exit** and enter the deceleration lane as soon as possible, if there is one."
+              },
+              "src": "RGC art. 77"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "En las glorietas la salida tiene sus propias reglas. Las explica el módulo de Glorietas.",
+                "en": "Roundabout exits have their own rules. The Roundabouts module explains them."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c5g",
+                "answer": 1,
+                "es": {
+                  "q": "Vas a salir de una autopista por la siguiente salida. ¿Cómo lo haces?",
+                  "options": [
+                    "Cruzas desde el carril de la izquierda en el último momento",
+                    "Vas con antelación por el carril más cercano a la salida y entras pronto en el de deceleración",
+                    "Frenas en la calzada y entras despacio en la salida"
+                  ],
+                  "why": "Para abandonar una autopista hay que circular con antelación por el carril más próximo a la salida y entrar lo antes posible en el de deceleración."
+                },
+                "en": {
+                  "q": "You will leave a motorway at the next exit. How do you do it?",
+                  "options": [
+                    "Cut across from the left lane at the last moment",
+                    "Drive in good time in the lane nearest the exit and enter the deceleration lane early",
+                    "Brake on the carriageway and enter the exit slowly"
+                  ],
+                  "why": "To leave a motorway you must drive in good time in the lane nearest the exit and enter the deceleration lane as soon as possible."
+                },
+                "terms": [
+                  {
+                    "es": "carril de deceleración",
+                    "en": "deceleration lane"
+                  }
+                ],
+                "src": "RGC art. 77"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "Antes de girar o cambiar de carril: **avisa con antelación** y comprueba el tráfico.",
+          "en": "Before turning or changing lanes: **signal in advance** and check traffic."
+        },
+        {
+          "es": "Al cambiar de carril manda la **prioridad del que ya circula** por el carril al que pasas.",
+          "en": "When changing lanes, **the driver already in the lane** has priority."
+        },
+        {
+          "es": "Giro a la **izquierda** en doble sentido: pégate al **eje**, sin invadir el sentido contrario, y deja el centro del cruce a tu izquierda.",
+          "en": "Left turn on a two-way road: keep to the **center line**, without entering the opposite side, and leave the center of the junction on your left."
+        },
+        {
+          "es": "El **cambio de sentido** está prohibido en pasos a nivel, túneles, autovías (salvo en los lugares habilitados) y, en general, donde no se puede adelantar.",
+          "en": "**U-turns** are forbidden at level crossings, tunnels, dual carriageways (except at places made for it) and, in general, where overtaking is forbidden."
+        },
+        {
+          "es": "Para salir de una autopista usa el **carril más próximo a la salida** y el de deceleración.",
+          "en": "To leave a motorway use the **lane nearest the exit** and the deceleration lane."
+        }
+      ],
+      "covers": [],
+      "src": [
+        "Reglamento General de Circulación (RD 1428/2003), arts. 74 a 79; Anexo I, ap. 5.1, 3.5 (R-303, R-304)"
+      ]
+    },
+    {
+      "id": "reversing-signals",
+      "title": {
+        "es": "Marcha atrás y señales de maniobra",
+        "en": "Reversing and maneuver signals"
+      },
+      "minutes": 7,
+      "goals": [
+        {
+          "es": "Saber cuándo y cuánto se puede ir marcha atrás.",
+          "en": "Know when and how far you may reverse."
+        },
+        {
+          "es": "Avisar cada maniobra con la luz o el brazo que corresponde.",
+          "en": "Warn of each maneuver with the right light or arm signal."
+        },
+        {
+          "es": "Usar el claxon y las ráfagas solo en los casos permitidos.",
+          "en": "Use the horn and headlight flashes only in the permitted cases."
+        }
+      ],
+      "terms": [
+        {
+          "es": "marcha atrás",
+          "en": "reversing"
+        },
+        {
+          "es": "luz de marcha atrás",
+          "en": "reversing light"
+        },
+        {
+          "es": "luces de freno",
+          "en": "brake lights"
+        },
+        {
+          "es": "luz de emergencia",
+          "en": "hazard lights"
+        },
+        {
+          "es": "señal acústica",
+          "en": "horn (sound signal)"
+        },
+        {
+          "es": "ráfagas",
+          "en": "headlight flashes"
+        },
+        {
+          "es": "brazo",
+          "en": "arm"
+        }
+      ],
+      "pretest": {
+        "id": "overtaking-pre-6",
+        "answer": 1,
+        "es": {
+          "q": "Te has pasado de la salida en una autovía. ¿Puedes retroceder por el arcén?",
+          "options": [
+            "Sí, despacio y con las luces de emergencia",
+            "No: la marcha atrás está prohibida en autovías y autopistas",
+            "Sí, si no viene ningún coche"
+          ],
+          "why": "La ley prohíbe la marcha atrás en autovías y autopistas, aunque sea despacio o por el arcén."
+        },
+        "en": {
+          "q": "You missed your exit on a dual carriageway. May you reverse along the shoulder?",
+          "options": [
+            "Yes, slowly and with the hazard lights on",
+            "No: reversing is forbidden on dual carriageways and motorways",
+            "Yes, if no car is coming"
+          ],
+          "why": "The law forbids reversing on dual carriageways and motorways, even slowly or on the shoulder."
+        },
+        "src": "RGC art. 80.3"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Marcha atrás: solo cuando no hay otra opción",
+            "en": "Reversing: only when there is no other option"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Se prohíbe circular hacia atrás, salvo cuando no es posible avanzar ni cambiar de dirección o sentido, y en las maniobras complementarias de otra que la exija. Siempre con el recorrido **mínimo indispensable**.",
+                "en": "Driving backward is forbidden, except when you cannot go forward or change direction, and in maneuvers that complete another maneuver that requires it. Always with the **minimum distance** needed."
+              },
+              "src": "RGC art. 80.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Como maniobra complementaria de la parada, el estacionamiento o la incorporación a la circulación, la marcha atrás no puede pasar de **15 metros** ni invadir un cruce de vías.",
+                "en": "As a complementary maneuver to stopping, parking or joining traffic, reversing may not exceed **15 meters** or enter an intersection."
+              },
+              "src": "RGC art. 80.2"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "La marcha atrás está **prohibida en autovías y autopistas**.",
+                "en": "Reversing is **forbidden on dual carriageways and motorways**."
+              },
+              "src": "RGC art. 80.3"
+            },
+            {
+              "t": "us",
+              "text": {
+                "es": "15 metros son unos 49 pies.",
+                "en": "15 meters is about 49 feet."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c6a",
+                "answer": 2,
+                "es": {
+                  "q": "Aparcas en línea y necesitas retroceder para entrar en el hueco. ¿Cuál es el recorrido máximo hacia atrás en esta maniobra?",
+                  "options": [
+                    "5 metros, siempre en línea recta",
+                    "50 metros, si vas despacio",
+                    "15 metros, sin invadir un cruce de vías"
+                  ],
+                  "why": "Como maniobra complementaria del estacionamiento, la marcha atrás no puede superar 15 metros ni invadir un cruce."
+                },
+                "en": {
+                  "q": "You are parallel parking and must reverse to enter the space. What is the maximum distance you may reverse in this maneuver?",
+                  "options": [
+                    "5 meters, always in a straight line",
+                    "50 meters, if you go slowly",
+                    "15 meters, without entering an intersection"
+                  ],
+                  "why": "As a complementary parking maneuver, reversing may not exceed 15 meters or enter an intersection."
+                },
+                "terms": [
+                  {
+                    "es": "recorrido",
+                    "en": "distance traveled"
+                  }
+                ],
+                "src": "RGC art. 80.2"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Cómo se hace la marcha atrás",
+            "en": "How to reverse"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "La marcha atrás se hace **lentamente**, después de avisar y de comprobar que, por la visibilidad, el espacio y el tiempo necesarios, no va a ser un peligro para otros. Si hace falta, incluso **apeándote** o siguiendo las indicaciones de otra persona.",
+                "en": "Reverse **slowly**, after signaling and after making sure that, given visibility, space and time needed, it will not endanger others. If necessary, even by **getting out** or following another person’s directions."
+              },
+              "src": "RGC art. 81.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Detén el vehículo con toda rapidez si oyes avisos, ves otro vehículo, o una persona o animal cerca, o cuando lo exija la seguridad. Desiste de la maniobra si hace falta.",
+                "en": "Stop the vehicle very quickly if you hear warnings, see another vehicle, person or animal nearby, or whenever safety demands. Give up the maneuver if needed."
+              },
+              "src": "RGC art. 81.3"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c6b",
+                "answer": 0,
+                "es": {
+                  "q": "Vas a dar marcha atrás y no ves bien lo que hay detrás de tu coche. ¿Qué dice la norma?",
+                  "options": [
+                    "Comprueba que no hay peligro, incluso bajando del coche o con ayuda de otra persona",
+                    "Retrocede despacio tocando el claxon",
+                    "Retrocede rápido para tardar menos"
+                  ],
+                  "why": "Antes de retroceder debes cerciorarte de que no vas a ser un peligro, incluso apeándote o siguiendo las indicaciones de otra persona."
+                },
+                "en": {
+                  "q": "You will reverse and cannot see well what is behind your car. What does the rule say?",
+                  "options": [
+                    "Make sure there is no danger, even by getting out or with another person’s help",
+                    "Reverse slowly while honking",
+                    "Reverse quickly to take less time"
+                  ],
+                  "why": "Before reversing you must make sure you will not endanger anyone, even by getting out or following another person’s directions."
+                },
+                "terms": [
+                  {
+                    "es": "apearse",
+                    "en": "to get out of the vehicle"
+                  }
+                ],
+                "src": "RGC art. 81.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Avisa cada maniobra",
+            "en": "Signal every maneuver"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los conductores están obligados a avisar al resto de usuarios de las maniobras que van a hacer. Como norma general se avisa con las **luces del vehículo** o, si no, con el brazo.",
+                "en": "Drivers must warn other road users of the maneuvers they are about to make. As a general rule you warn with the **vehicle’s lights** or, failing that, with your arm."
+              },
+              "src": "RGC art. 108"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Debes avisar con señales ópticas toda maniobra que implique un desplazamiento **lateral o hacia atrás**, y también que vas a frenar de modo considerable o a inmovilizarte. Avisa con antelación suficiente. Si la luz es luminosa, permanece encendida hasta que termine la maniobra.",
+                "en": "You must warn with visual signals any maneuver involving a **sideways or backward** movement, and also that you will brake hard or stop. Warn in good time. A light signal stays on until the maneuver ends."
+              },
+              "src": "RGC art. 109.1"
+            },
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Maniobra",
+                  "en": "Maneuver"
+                },
+                {
+                  "es": "Cómo se avisa",
+                  "en": "How you signal"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "Moverte hacia un lado",
+                    "en": "Moving to one side"
+                  },
+                  {
+                    "es": "Intermitente de ese lado. Con el brazo: horizontal, palma hacia abajo, si es hacia el lado del brazo; doblado hacia arriba si es hacia el otro.",
+                    "en": "Turn signal on that side. With the arm: horizontal, palm down, if toward the arm’s side; bent upward if toward the other side."
+                  }
+                ],
+                [
+                  {
+                    "es": "Marcha atrás",
+                    "en": "Reversing"
+                  },
+                  {
+                    "es": "Luz de marcha atrás. Si no la tienes, brazo horizontal con la palma hacia atrás.",
+                    "en": "Reversing light. If you have none, arm horizontal with the palm facing back."
+                  }
+                ],
+                [
+                  {
+                    "es": "Frenar mucho o inmovilizarte",
+                    "en": "Braking hard or stopping"
+                  },
+                  {
+                    "es": "Luces de freno de forma repetida, o el brazo moviéndose de arriba abajo con movimientos cortos y rápidos.",
+                    "en": "Brake lights used repeatedly, or the arm moving up and down in short, quick movements."
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "La tabla resume el artículo 109.2. Los avisos con el brazo solo valen si los demás pueden verlos.",
+                "en": "The table summarizes article 109.2. Arm signals count only if others can see them."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c6c",
+                "answer": 2,
+                "es": {
+                  "q": "Acabas de desplazarte hacia un lado con el intermitente puesto. ¿Cuándo debe terminar el aviso?",
+                  "options": [
+                    "Cuando el siguiente coche te adelante",
+                    "Cuando termines el viaje",
+                    "Tan pronto como el vehículo ha adoptado su nueva trayectoria"
+                  ],
+                  "why": "En un desplazamiento lateral solo se avisa ese movimiento, así que el aviso concluye en cuanto el vehículo sigue su nueva trayectoria."
+                },
+                "en": {
+                  "q": "You have just moved sideways with your turn signal on. When must the signal end?",
+                  "options": [
+                    "When the next car overtakes you",
+                    "When you finish your trip",
+                    "As soon as the vehicle is on its new path"
+                  ],
+                  "why": "In a sideways move only that move is signaled, so the signal ends as soon as the vehicle follows its new path."
+                },
+                "terms": [
+                  {
+                    "es": "nueva trayectoria",
+                    "en": "new path"
+                  }
+                ],
+                "src": "RGC art. 109.2.a"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Frenar, parar y la luz de emergencia",
+            "en": "Braking, stopping and hazard lights"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si vas a frenar de forma considerable o a inmovilizarte, avísalo siempre que sea posible con las **luces de freno** usadas de forma repetida, o moviendo el brazo de arriba abajo.",
+                "en": "If you will brake hard or stop, warn of it whenever possible with your **brake lights** used repeatedly, or by moving your arm up and down."
+              },
+              "src": "RGC art. 109.2.c"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si te inmovilizas en una autopista o autovía, o donde se vea mucho peor, señaliza tu presencia con la **luz de emergencia**, si la tienes, y, si hace falta, con las luces de posición.",
+                "en": "If you stop on a motorway or dual carriageway, or where visibility is much reduced, mark your presence with the **hazard lights**, if you have them, and, if needed, with the position lights."
+              },
+              "src": "RGC art. 109.2.c"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si te detienes para parar o estacionar, usa además el intermitente del **lado hacia el que vas a parar**, si el vehículo lo tiene.",
+                "en": "If you stop in order to halt or park, also use the turn signal for the **side you will stop on**, if the vehicle has one."
+              },
+              "src": "RGC art. 109.2.c"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c6d",
+                "answer": 0,
+                "es": {
+                  "q": "Tienes que inmovilizar tu vehículo en una autopista. ¿Cómo señalizas su presencia?",
+                  "options": [
+                    "Con la luz de emergencia, si el coche la tiene",
+                    "Con el intermitente izquierdo",
+                    "Apagando todas las luces"
+                  ],
+                  "why": "La inmovilización en autopista o autovía se señaliza con la luz de emergencia, si se dispone de ella, y, en su caso, con las luces de posición."
+                },
+                "en": {
+                  "q": "You must stop your vehicle on a motorway. How do you mark its presence?",
+                  "options": [
+                    "With the hazard lights, if the car has them",
+                    "With the left turn signal",
+                    "By switching all lights off"
+                  ],
+                  "why": "A stop on a motorway or dual carriageway is marked with the hazard lights, if available, and, where needed, with the position lights."
+                },
+                "terms": [
+                  {
+                    "es": "luz de emergencia",
+                    "en": "hazard lights"
+                  }
+                ],
+                "src": "RGC art. 109.2.c"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Claxon y ráfagas",
+            "en": "Horn and headlight flashes"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "La señal acústica se usa solo **excepcionalmente** o cuando una norma lo prevé. Está prohibido su uso inmotivado o exagerado. Debe ser de sonido no estridente.",
+                "en": "The horn is used only **exceptionally** or where a rule provides for it. Unjustified or excessive use is forbidden. It must not be shrill."
+              },
+              "src": "RGC art. 110.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Un conductor de vehículo no prioritario puede usarla para evitar un posible accidente, sobre todo en vías estrechas con muchas curvas, y **fuera de poblado** para avisar a otro conductor de que vas a adelantarlo. También puedes usarla para avisar de tu presencia si te ves forzado a hacer un servicio de urgencia (art. 70).",
+                "en": "A driver of a non-priority vehicle may use it to avoid a possible accident, especially on narrow roads with many curves, and **outside a built-up area** to warn another driver that you will overtake them. You may also use it to warn of your presence if you are forced to perform an emergency service (art. 70)."
+              },
+              "src": "RGC art. 110.2"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "En lugar de la señal acústica puedes dar **ráfagas** con las luces, incluso en poblado, de forma intermitente y a intervalos muy cortos, evitando el deslumbramiento.",
+                "en": "Instead of the horn you may give **flashes** with your headlights, even in town, intermittently and at very short intervals, avoiding dazzle."
+              },
+              "src": "RGC art. 109.3"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c6e",
+                "answer": 1,
+                "es": {
+                  "q": "Circulas fuera de poblado. ¿En cuál de estos casos puedes usar el claxon?",
+                  "options": [
+                    "Para saludar a un conocido",
+                    "Para avisar a otro conductor de que vas a adelantarlo",
+                    "Para meter prisa a un conductor lento"
+                  ],
+                  "why": "Fuera de poblado se permite la señal acústica para avisar a otro conductor del propósito de adelantarlo. Su uso inmotivado o exagerado está prohibido."
+                },
+                "en": {
+                  "q": "You drive outside a built-up area. In which of these cases may you use the horn?",
+                  "options": [
+                    "To greet an acquaintance",
+                    "To warn another driver that you will overtake them",
+                    "To hurry a slow driver"
+                  ],
+                  "why": "Outside built-up areas the horn is allowed to warn another driver that you intend to overtake. Unjustified or excessive use is forbidden."
+                },
+                "terms": [
+                  {
+                    "es": "claxon",
+                    "en": "horn"
+                  }
+                ],
+                "src": "RGC art. 110"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "La **marcha atrás** está prohibida salvo que no puedas avanzar o como maniobra complementaria. Como máximo **15 m** al aparcar.",
+          "en": "**Reversing** is forbidden unless you cannot go forward or as a complementary maneuver. At most **15 m** when parking."
+        },
+        {
+          "es": "En **autovías y autopistas** no se da marcha atrás.",
+          "en": "You do not reverse on **motorways and dual carriageways**."
+        },
+        {
+          "es": "Marcha atrás **lenta**, avisada y con visibilidad: si no ves, **baja del coche** o pide ayuda.",
+          "en": "Reverse **slowly**, signaled and with visibility: if you cannot see, **get out** or ask for help."
+        },
+        {
+          "es": "Avisa con **luces** (o con el brazo) todo movimiento lateral o hacia atrás y todo frenazo fuerte.",
+          "en": "Signal with **lights** (or your arm) every sideways or backward move and any hard braking."
+        },
+        {
+          "es": "El **claxon** solo en casos justificados. Las **ráfagas** pueden sustituirlo, incluso en poblado.",
+          "en": "The **horn** only in justified cases. **Headlight flashes** may replace it, even in town."
+        }
+      ],
+      "covers": [],
+      "src": [
+        "Reglamento General de Circulación (RD 1428/2003), arts. 80, 81, 108, 109 y 110"
+      ]
+    }
+  ]
+}

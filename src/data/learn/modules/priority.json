@@ -1,0 +1,2703 @@
+{
+  "id": "priority",
+  "title": {
+    "es": "Prioridad, intersecciones y semáforos",
+    "en": "Right of way, junctions and traffic lights"
+  },
+  "blurb": {
+    "es": "Quién pasa primero: sin señales, ante un stop, en un semáforo, ante un agente, una ambulancia o un peatón.",
+    "en": "Who goes first: with no signs, at a STOP, at traffic lights, and for an officer, an ambulance or a pedestrian."
+  },
+  "lessons": [
+    {
+      "id": "no-signs",
+      "title": {
+        "es": "Sin señales: prioridad de la derecha",
+        "en": "No signs: priority to the right"
+      },
+      "minutes": 7,
+      "goals": [
+        {
+          "es": "Saber a quién cedes el paso en un cruce sin señales.",
+          "en": "Know whom you yield to at a junction with no signs."
+        },
+        {
+          "es": "Conocer las cuatro excepciones a la prioridad de la derecha.",
+          "en": "Know the four exceptions to priority to the right."
+        },
+        {
+          "es": "Ceder el paso de forma clara y segura.",
+          "en": "Yield clearly and safely."
+        }
+      ],
+      "terms": [
+        {
+          "es": "intersección (cruce)",
+          "en": "intersection"
+        },
+        {
+          "es": "prioridad de paso",
+          "en": "right of way"
+        },
+        {
+          "es": "ceder el paso",
+          "en": "to yield"
+        },
+        {
+          "es": "por tu derecha",
+          "en": "from your right"
+        },
+        {
+          "es": "pavimentada",
+          "en": "paved"
+        },
+        {
+          "es": "camino sin pavimentar",
+          "en": "unpaved track"
+        },
+        {
+          "es": "tranvía",
+          "en": "tram"
+        }
+      ],
+      "pretest": {
+        "id": "priority-pre-1",
+        "answer": 2,
+        "es": {
+          "q": "Llegas a un cruce sin señales ni semáforos. Un coche se acerca por tu derecha y otro por tu izquierda. ¿A quién cedes el paso?",
+          "options": [
+            "Solo al coche de la izquierda",
+            "A los dos coches",
+            "Solo al coche de la derecha"
+          ],
+          "why": "Sin señales, cedes el paso a quien se acerca por tu derecha. El coche de tu izquierda es quien te cede el paso a ti."
+        },
+        "en": {
+          "q": "You reach a junction with no signs or traffic lights. One car approaches from your right and another from your left. Whom do you yield to?",
+          "options": [
+            "Only the car on the left",
+            "Both cars",
+            "Only the car on the right"
+          ],
+          "why": "With no signs, you yield to whoever approaches from your right. The car on your left is the one that yields to you."
+        },
+        "src": "RGC art. 57.1"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Primero, busca señales",
+            "en": "First, look for signs"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Una **intersección** es un nudo de la red viaria donde todos los cruces de trayectorias son a nivel.",
+                "en": "An **intersection** is a node of the road network where all the crossings of paths are at the same level."
+              },
+              "src": "LSV anexo I, 62"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Antes de entrar en un cruce, busca una señal, un semáforo o un agente que diga quién pasa primero. Si lo hay, ellos mandan.",
+                "en": "Before you enter a junction, look for a sign, a traffic light or an officer that says who goes first. If there is one, it rules."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "La preferencia de paso en las intersecciones se ajusta a **la señalización que la regule**.",
+                "en": "Right of way at intersections follows **the signals that regulate it**."
+              },
+              "src": "RGC art. 56.1"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Si nada regula el cruce, se aplica una regla general. Es la que aprendes ahora.",
+                "en": "If nothing regulates the junction, a general rule applies. That is the one you learn now."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c1a",
+                "answer": 1,
+                "es": {
+                  "q": "¿Cuándo se aplica la regla general de ceder el paso a quien viene por la derecha?",
+                  "options": [
+                    "Siempre, aunque haya señales",
+                    "Solo cuando ninguna señal regula la prioridad",
+                    "Solo en las calles de las ciudades"
+                  ],
+                  "why": "La regla de la derecha vale solo si ninguna señal regula la prioridad. Si hay una señal, un semáforo o un agente, mandan ellos."
+                },
+                "en": {
+                  "q": "When does the general rule of yielding to whoever comes from the right apply?",
+                  "options": [
+                    "Always, even when there are signs",
+                    "Only when no sign regulates priority",
+                    "Only on city streets"
+                  ],
+                  "why": "The rule of the right applies only when no sign regulates priority. If a sign, a traffic light or an officer regulates it, that takes over."
+                },
+                "terms": [
+                  {
+                    "es": "en defecto de señal",
+                    "en": "in the absence of a sign"
+                  }
+                ],
+                "src": "RGC arts. 56.1 and 57.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Cedes el paso a quien viene por tu derecha",
+            "en": "Yield to whoever comes from your right"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "A falta de señal que regule la prioridad, cedes el paso a los vehículos que se acercan **por tu derecha**. Hay cuatro excepciones.",
+                "en": "With no sign that regulates priority, you yield to vehicles approaching **from your right**. There are four exceptions."
+              },
+              "src": "RGC art. 57.1"
+            },
+            {
+              "t": "figure",
+              "file": "priority-unsigned-junction",
+              "alt": {
+                "es": "Vista desde arriba de un cruce de dos calles sin señales. Un coche naranja A llega por la derecha de un coche azul B. Otro coche naranja C llega por la izquierda de B. Pasan en este orden: A, B y C.",
+                "en": "Top-down view of a crossing of two streets with no signs. An orange car A arrives from the right of a blue car B. Another orange car C arrives from B's left. They go in this order: A, B, C."
+              },
+              "caption": {
+                "es": "A viene por la derecha de B, así que pasa primero. B pasa después, porque C viene por su izquierda y espera.",
+                "en": "A comes from B's right, so it goes first. B goes next, because C comes from its left and waits."
+              },
+              "legend": [
+                {
+                  "mark": "A",
+                  "text": {
+                    "es": "Viene por la derecha de B: pasa primero.",
+                    "en": "Comes from B's right: goes first."
+                  }
+                },
+                {
+                  "mark": "B",
+                  "text": {
+                    "es": "Tú: cedes el paso a A y pasas antes que C.",
+                    "en": "You: yield to A and go before C."
+                  }
+                },
+                {
+                  "mark": "C",
+                  "text": {
+                    "es": "Viene por tu izquierda: te cede el paso.",
+                    "en": "Comes from your left: yields to you."
+                  }
+                }
+              ]
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Cada conductor cede a quien viene por su derecha. Por eso A pasa antes que B, y B antes que C.",
+                "en": "Each driver yields to whoever comes from their right. That is why A goes before B, and B before C."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Cuenta el **lado**, no el tamaño del coche ni el de la calle.",
+                "en": "What counts is the **side**, not the size of the car or of the street."
+              }
+            },
+            {
+              "t": "us",
+              "text": {
+                "es": "En EE. UU. suele pasar primero quien llega antes al cruce. Aquí manda el lado: cedes a quien se acerca por tu derecha.",
+                "en": "In the US, whoever reaches the intersection first usually goes first. Here the side rules: you yield to whoever approaches from your right."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c1b",
+                "answer": 0,
+                "es": {
+                  "q": "En un cruce sin señales, un coche se acerca por tu izquierda y ninguno por tu derecha. ¿Quién cede el paso?",
+                  "options": [
+                    "El coche de la izquierda te cede el paso a ti",
+                    "Tú cedes el paso al coche de la izquierda",
+                    "Cede el que vaya más despacio"
+                  ],
+                  "why": "Cada conductor cede a quien viene por su derecha. Tú vienes por la derecha del otro coche, así que pasas tú."
+                },
+                "en": {
+                  "q": "At a junction with no signs, one car approaches from your left and none from your right. Who yields?",
+                  "options": [
+                    "The car on the left yields to you",
+                    "You yield to the car on the left",
+                    "Whoever is slower yields"
+                  ],
+                  "why": "Each driver yields to whoever comes from their right. You are on the other car's right, so you go first."
+                },
+                "terms": [
+                  {
+                    "es": "por tu izquierda",
+                    "en": "from your left"
+                  }
+                ],
+                "src": "RGC art. 57.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Cómo se cede el paso",
+            "en": "How to yield"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Quien cede el paso no debe obligar al otro conductor a cambiar bruscamente de trayectoria o de velocidad. Por eso no empieza ni continúa su marcha hasta estar seguro de ello. Además, debe mostrar con tiempo que va a ceder, sobre todo reduciendo la velocidad poco a poco.",
+                "en": "A driver who yields must not force the other driver to change path or speed abruptly. So they do not start or continue until they are sure of it. They must also show in good time that they will yield, above all by slowing down gradually."
+              },
+              "src": "RGC art. 58.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Al acercarte a un cruce, modera la velocidad y, si hace falta, detente. Si el cruce está bien señalizado pero la visibilidad de la vía es casi nula, no pases de **50 km/h**.",
+                "en": "When you approach a junction, moderate your speed and stop if needed. If the junction is properly signed but visibility of the road is almost nil, do not exceed **50 km/h**."
+              },
+              "src": "RGC art. 46.1.b and h"
+            },
+            {
+              "t": "us",
+              "text": {
+                "es": "50 km/h son unas 31 mph.",
+                "en": "50 km/h is about 31 mph."
+              }
+            },
+            {
+              "t": "example",
+              "situation": {
+                "es": "Llegas a un cruce sin señales. Una furgoneta se acerca por tu derecha.",
+                "en": "You reach a junction with no signs. A van approaches from your right."
+              },
+              "action": {
+                "es": "Suelta el acelerador pronto y reduce la velocidad poco a poco. Si hace falta, detente. Pasa cuando la furgoneta haya pasado.",
+                "en": "Lift off the accelerator early and slow down gradually. Stop if you need to. Go once the van has passed."
+              },
+              "why": {
+                "es": "Quien cede debe mostrarlo con tiempo y no puede obligar al otro a frenar de golpe (art. 58.1).",
+                "en": "Whoever yields must show it in good time and cannot force the other to brake hard (art. 58.1)."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c1c",
+                "answer": 2,
+                "es": {
+                  "q": "Debes ceder el paso en un cruce. ¿Cómo muestras al otro conductor que vas a ceder?",
+                  "options": [
+                    "Frenando de golpe en el último momento",
+                    "Acelerando para despejar el cruce antes",
+                    "Reduciendo la velocidad poco a poco y con tiempo"
+                  ],
+                  "why": "La norma pide mostrar con antelación, sobre todo con una reducción gradual de la velocidad, que vas a ceder el paso."
+                },
+                "en": {
+                  "q": "You must yield at a junction. How do you show the other driver that you will yield?",
+                  "options": [
+                    "By braking hard at the last moment",
+                    "By speeding up to clear the junction first",
+                    "By slowing down gradually and in good time"
+                  ],
+                  "why": "The rule asks you to show in advance, above all with a gradual reduction of speed, that you will yield."
+                },
+                "terms": [
+                  {
+                    "es": "poco a poco",
+                    "en": "gradually"
+                  },
+                  {
+                    "es": "con tiempo",
+                    "en": "in good time"
+                  }
+                ],
+                "src": "RGC art. 58.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Vía pavimentada contra camino de tierra",
+            "en": "Paved road versus dirt track"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los vehículos de una vía **pavimentada** tienen preferencia sobre los de una vía sin pavimentar.",
+                "en": "Vehicles on a **paved** road have right of way over those coming from an unpaved one."
+              },
+              "src": "RGC art. 57.1.a"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Aquí el lado no importa. Pasa primero la vía pavimentada, venga el coche por tu izquierda o por tu derecha.",
+                "en": "Here the side does not matter. The paved road goes first, whether the car comes from your left or your right."
+              }
+            },
+            {
+              "t": "figure",
+              "file": "priority-paved-road",
+              "alt": {
+                "es": "Vista desde arriba de una carretera asfaltada con un camino de tierra, de color gris claro, que desemboca en ella. Un coche naranja A circula por la carretera y pasa por la izquierda de un coche azul B, que espera en el camino. Después B sale del camino y gira a la derecha.",
+                "en": "Top-down view of a paved road with a dirt track, light gray, joining it. An orange car A drives along the road and passes on the left of a blue car B, which waits on the track. Then B pulls out of the track and turns right."
+              },
+              "caption": {
+                "es": "A circula por la vía pavimentada y pasa primero, aunque venga por la izquierda de B.",
+                "en": "A is on the paved road and goes first, even though it comes from B's left."
+              },
+              "legend": [
+                {
+                  "mark": "A",
+                  "text": {
+                    "es": "Coche de la carretera pavimentada: tiene preferencia.",
+                    "en": "Car on the paved road: has right of way."
+                  }
+                },
+                {
+                  "mark": "B",
+                  "text": {
+                    "es": "Tú, en el camino sin pavimentar (gris claro): cedes el paso.",
+                    "en": "You, on the unpaved track (light gray): you yield."
+                  }
+                }
+              ]
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c1d",
+                "answer": 1,
+                "es": {
+                  "q": "Sales de un camino de tierra a una carretera asfaltada, sin señales. Un coche circula por la carretera y llega por tu izquierda. ¿Quién pasa primero?",
+                  "options": [
+                    "Tú, porque llegas por la derecha del coche",
+                    "El coche de la carretera asfaltada",
+                    "El que llegue antes al cruce"
+                  ],
+                  "why": "La vía pavimentada tiene preferencia sobre el camino sin pavimentar. En esta excepción el lado no cuenta."
+                },
+                "en": {
+                  "q": "You leave a dirt track onto a paved road, with no signs. A car on the road comes from your left. Who goes first?",
+                  "options": [
+                    "You, because you arrive from the car's right",
+                    "The car on the paved road",
+                    "Whoever reaches the junction first"
+                  ],
+                  "why": "The paved road has right of way over the unpaved track. In this exception the side does not count."
+                },
+                "terms": [
+                  {
+                    "es": "camino de tierra",
+                    "en": "dirt track"
+                  }
+                ],
+                "src": "RGC art. 57.1.a"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Raíles, glorietas y autopistas",
+            "en": "Rails, roundabouts and motorways"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Hay tres excepciones más. En ellas pasa primero un vehículo concreto, sin importar el lado.",
+                "en": "There are three more exceptions. In each, a specific vehicle goes first, whatever the side."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los vehículos que circulan por **raíles**, como un tranvía, tienen prioridad de paso sobre los demás usuarios.",
+                "en": "Vehicles that run on **rails**, such as a tram, have priority over all other users."
+              },
+              "src": "RGC art. 57.1.b"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "En las **glorietas**, quienes están dentro de la vía circular tienen preferencia sobre los que quieren entrar.",
+                "en": "In **roundabouts**, those already on the circular roadway have right of way over those who want to enter."
+              },
+              "src": "RGC art. 57.1.c"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Las glorietas tienen su propio módulo: «Glorietas».",
+                "en": "Roundabouts have their own module: \"Roundabouts\"."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los vehículos que circulan por una **autopista o autovía** tienen preferencia sobre los que quieren entrar en ella.",
+                "en": "Vehicles on a **motorway or dual carriageway** have right of way over those that want to enter it."
+              },
+              "src": "RGC art. 57.1.d"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c1e",
+                "answer": 0,
+                "es": {
+                  "q": "Un tranvía, que circula por sus raíles, llega a un cruce sin señales por tu izquierda. ¿Quién pasa primero?",
+                  "options": [
+                    "El tranvía, porque circula por raíles",
+                    "Tú, porque el tranvía viene por tu izquierda",
+                    "El que llegue antes al cruce"
+                  ],
+                  "why": "Los vehículos que circulan por raíles tienen prioridad sobre los demás usuarios, vengan por el lado que vengan."
+                },
+                "en": {
+                  "q": "A tram, running on its rails, reaches a junction with no signs from your left. Who goes first?",
+                  "options": [
+                    "The tram, because it runs on rails",
+                    "You, because the tram comes from your left",
+                    "Whoever reaches the junction first"
+                  ],
+                  "why": "Vehicles that run on rails have priority over other users, whichever side they come from."
+                },
+                "terms": [
+                  {
+                    "es": "tranvía",
+                    "en": "tram"
+                  },
+                  {
+                    "es": "raíles",
+                    "en": "rails"
+                  }
+                ],
+                "src": "RGC art. 57.1.b"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "Si nada regula el cruce, cedes el paso a quien viene **por tu derecha**.",
+          "en": "If nothing regulates the junction, you yield to whoever comes **from your right**."
+        },
+        {
+          "es": "Una señal, un semáforo o un agente **mandan** sobre esta regla.",
+          "en": "A sign, a traffic light or an officer **overrides** this rule."
+        },
+        {
+          "es": "Cede con tiempo: reduce poco a poco y no obligues al otro a frenar de golpe.",
+          "en": "Yield in good time: slow down gradually and do not force the other to brake hard."
+        },
+        {
+          "es": "Hay cuatro **excepciones**: vía pavimentada, raíles, glorieta y autopista o autovía.",
+          "en": "There are four **exceptions**: a paved road, rails, a roundabout, and a motorway or dual carriageway."
+        }
+      ],
+      "covers": [
+        "priority-01",
+        "priority-10"
+      ],
+      "src": [
+        "Reglamento General de Circulación (RD 1428/2003), arts. 46.1, 56.1, 57.1 y 58.1",
+        "Ley de Tráfico (RDL 6/2015), anexo I, definición 62"
+      ]
+    },
+    {
+      "id": "yield-and-stop",
+      "title": {
+        "es": "Ceda el paso, stop y vías con prioridad",
+        "en": "Yield, stop and priority roads"
+      },
+      "minutes": 8,
+      "goals": [
+        {
+          "es": "Saber qué obligan las señales de ceda el paso y de stop.",
+          "en": "Know what the yield and STOP signs require."
+        },
+        {
+          "es": "Reconocer una vía con prioridad y el fin de esa prioridad.",
+          "en": "Recognize a priority road and the end of that priority."
+        },
+        {
+          "es": "Saber quién pasa primero en un paso estrecho.",
+          "en": "Know who goes first in a narrow section."
+        }
+      ],
+      "terms": [
+        {
+          "es": "ceda el paso",
+          "en": "yield"
+        },
+        {
+          "es": "detención obligatoria (stop)",
+          "en": "mandatory stop (STOP)"
+        },
+        {
+          "es": "línea de detención",
+          "en": "stop line"
+        },
+        {
+          "es": "vía preferente",
+          "en": "priority road"
+        },
+        {
+          "es": "incorporación",
+          "en": "merge"
+        },
+        {
+          "es": "paso estrecho",
+          "en": "narrow section"
+        },
+        {
+          "es": "sentido contrario",
+          "en": "oncoming direction"
+        }
+      ],
+      "pretest": {
+        "id": "priority-pre-2",
+        "answer": 1,
+        "es": {
+          "q": "Llegas a una señal de stop. Por la vía principal se acercan un coche por tu derecha y otro por tu izquierda. ¿A quién cedes el paso?",
+          "options": [
+            "Solo al coche de la derecha",
+            "A los dos coches",
+            "Solo al coche de la izquierda"
+          ],
+          "why": "Ante un stop o un ceda el paso cedes siempre a los vehículos de la vía preferente, vengan por el lado que vengan."
+        },
+        "en": {
+          "q": "You reach a STOP sign. On the main road, one car approaches from your right and another from your left. Whom do you yield to?",
+          "options": [
+            "Only the car on the right",
+            "Both cars",
+            "Only the car on the left"
+          ],
+          "why": "At a STOP or yield sign you always yield to vehicles on the priority road, whichever side they come from."
+        },
+        "src": "RGC art. 56.5"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Ceda el paso (R-1)",
+            "en": "Yield (R-1)"
+          },
+          "blocks": [
+            {
+              "t": "signs",
+              "ids": [
+                "r-1"
+              ],
+              "caption": {
+                "es": "R-1 es el «ceda el paso»: en el próximo cruce cedes el paso a los vehículos de la vía a la que te acercas o del carril en el que te incorporas. También existe como marca pintada en el pavimento (M-6.5, con la línea discontinua M-4.2). (RGC Anexo I, ap. 5.1 y 5.2)",
+                "en": "R-1 is the yield sign: at the next junction you yield to vehicles on the road you are approaching or in the lane you are joining. It also exists as a marking painted on the pavement (M-6.5, with the dashed line M-4.2). (RGC Anexo I, ap. 5.1 and 5.2)"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si ves un ceda el paso o un stop, **cedes siempre el paso** a los vehículos de la vía preferente. Da igual por qué lado se acerquen. Si hace falta, te detienes por completo.",
+                "en": "At a yield or STOP sign, you **always yield** to vehicles on the priority road. It does not matter which side they approach from. If needed, you stop completely."
+              },
+              "src": "RGC art. 56.5"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Con el ceda el paso no siempre paras: reduces, miras y te detienes **solo si hace falta**.",
+                "en": "At a yield sign you do not always stop: you slow down, look and stop **only if needed**."
+              }
+            },
+            {
+              "t": "us",
+              "text": {
+                "es": "Es la misma idea que el «yield» de EE. UU.",
+                "en": "It is the same idea as the US \"yield\" sign."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c2a",
+                "answer": 0,
+                "es": {
+                  "q": "Estás en un cruce con señal de ceda el paso. Un coche de la vía principal se acerca por tu izquierda. ¿Qué haces?",
+                  "options": [
+                    "Le cedes el paso: la vía principal manda por los dos lados",
+                    "Pasas, porque solo cedes a quien viene por tu derecha",
+                    "Pasas, porque tú llegas antes que él"
+                  ],
+                  "why": "Cedes el paso a la vía preferente, venga el coche por el lado que venga."
+                },
+                "en": {
+                  "q": "You are at a junction with a yield sign. A car on the main road approaches from your left. What do you do?",
+                  "options": [
+                    "Yield to it: the main road has priority on both sides",
+                    "Go: you only yield to traffic from your right",
+                    "Go, because you get there before it"
+                  ],
+                  "why": "You yield to the priority road, whichever side the car comes from."
+                },
+                "terms": [
+                  {
+                    "es": "vía principal",
+                    "en": "main road"
+                  }
+                ],
+                "src": "RGC art. 56.5"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Stop (R-2)",
+            "en": "STOP (R-2)"
+          },
+          "blocks": [
+            {
+              "t": "signs",
+              "ids": [
+                "r-2"
+              ],
+              "caption": {
+                "es": "R-2: detención obligatoria o stop. (RGC Anexo I, ap. 5.1)",
+                "en": "R-2: mandatory stop, or STOP. (RGC Anexo I, ap. 5.1)"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Ante la señal de **stop** debes detener tu vehículo por completo, en todo caso. Después no puedes reanudar la marcha hasta cumplir lo que ordena la señal.",
+                "en": "At a **STOP** sign you must bring your vehicle to a complete stop, in every case. Afterward you cannot resume until you have done what the sign requires."
+              },
+              "src": "RGC arts. 56.5 and 132.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Con la marca de **stop**, detente ante la línea de detención o, si no hay, justo antes de la calzada. Después cede el paso a los vehículos de esa calzada.",
+                "en": "With the **STOP** marking, stop at the stop line or, if there is none, just before the road. Then yield to the vehicles on that road."
+              },
+              "src": "RGC anexo I, ap. 5.2 (M-4.1, M-6.3 and M-6.4)"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "La señal **R-2** obliga a detenerte ante la próxima línea de detención o, si no la hay, justo antes de la intersección, y a ceder el paso en ella a los vehículos de la vía a la que te acercas.",
+                "en": "Sign **R-2** requires you to stop at the next stop line or, if there is none, immediately before the intersection, and to yield there to vehicles on the road you are approaching."
+              },
+              "src": "RGC Anexo I, ap. 5.1 (R-2)"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si, por circunstancias excepcionales, desde donde te has detenido no hay visibilidad suficiente, debes detenerte de nuevo donde la tengas, sin poner en peligro a nadie.",
+                "en": "If, in exceptional circumstances, there is not enough visibility from where you stopped, you must stop again where you have it, without endangering anyone."
+              },
+              "src": "RGC Anexo I, ap. 5.1 (R-2) and ap. 5.2 (M-4.1)"
+            },
+            {
+              "t": "us",
+              "text": {
+                "es": "En EE. UU. muchos stops son «de cuatro lados»: pasa quien llegó primero. Aquí el stop suele proteger una vía con prioridad: cedes a esa vía, vengan por donde vengan.",
+                "en": "In the US, many stop signs are all-way stops: whoever arrived first goes first. Here a STOP usually protects a priority road: you yield to that road, whichever side its traffic comes from."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c2b",
+                "answer": 2,
+                "es": {
+                  "q": "Te detienes ante una señal de stop, pero unos coches aparcados te impiden ver la vía principal. ¿Qué haces?",
+                  "options": [
+                    "Sigues: ya te has detenido ante la línea",
+                    "Sales rápido y haces sonar el claxon",
+                    "Avanzas despacio hasta ver y te detienes otra vez"
+                  ],
+                  "why": "Si desde la línea no hay visibilidad suficiente, debes detenerte de nuevo donde la haya, sin poner en peligro a ningún usuario."
+                },
+                "en": {
+                  "q": "You stop at a STOP sign, but parked cars block your view of the main road. What do you do?",
+                  "options": [
+                    "Go: you already stopped at the line",
+                    "Pull out fast and sound the horn",
+                    "Creep forward until you can see, then stop again"
+                  ],
+                  "why": "If you cannot see enough from the line, you must stop again where you can, without endangering any road user."
+                },
+                "terms": [
+                  {
+                    "es": "visibilidad",
+                    "en": "visibility"
+                  },
+                  {
+                    "es": "línea de detención",
+                    "en": "stop line"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1 (R-2) and ap. 5.2 (M-4.1)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Quién pasa primero en el cruce",
+            "en": "Who goes first at the junction"
+          },
+          "blocks": [
+            {
+              "t": "figure",
+              "file": "priority-stop-line",
+              "alt": {
+                "es": "Cruce visto desde arriba. Un coche azul B espera detrás de la línea de detención de una calle secundaria. Por la vía principal pasan un coche naranja A, que viene por la derecha, y un coche naranja C, que viene por la izquierda. Después sale B.",
+                "en": "Junction seen from above. A blue car B waits behind the stop line of a side street. On the main road an orange car A, coming from the right, and an orange car C, coming from the left, pass. Then B pulls out."
+              },
+              "caption": {
+                "es": "B cede el paso a los vehículos de la vía principal, vengan por la derecha o por la izquierda, y sale cuando está libre.",
+                "en": "B yields to vehicles on the main road, from the right or the left, and pulls out when it is clear."
+              },
+              "legend": [
+                {
+                  "mark": "A",
+                  "text": {
+                    "es": "Vía principal, por tu derecha: pasa primero.",
+                    "en": "Main road, from your right: goes first."
+                  }
+                },
+                {
+                  "mark": "C",
+                  "text": {
+                    "es": "Vía principal, por tu izquierda: también pasa primero.",
+                    "en": "Main road, from your left: also goes first."
+                  }
+                },
+                {
+                  "mark": "B",
+                  "text": {
+                    "es": "Tú: esperas en la línea de detención.",
+                    "en": "You: wait at the stop line."
+                  }
+                }
+              ]
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Sales solo cuando puedes hacerlo sin obligar a nadie de la vía principal a frenar o a desviarse bruscamente.",
+                "en": "You pull out only when you can do so without forcing anyone on the main road to brake or swerve abruptly."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c2c",
+                "answer": 1,
+                "es": {
+                  "q": "Estás parado ante un stop. Llegan dos coches por la vía principal, uno por cada lado. ¿Cuándo sales?",
+                  "options": [
+                    "Cuando pase el de tu derecha: el de tu izquierda te cede",
+                    "Cuando puedes salir sin forzar a ninguno a frenar ni a desviarse bruscamente",
+                    "En cuanto veas un hueco, aunque otro tenga que frenar de golpe"
+                  ],
+                  "why": "Cedes a los dos lados. Solo sales si no fuerzas a nadie de la vía principal a cambiar bruscamente de velocidad o de trayectoria."
+                },
+                "en": {
+                  "q": "You are stopped at a STOP sign. Two cars arrive on the main road, one from each side. When do you pull out?",
+                  "options": [
+                    "When the one on your right has passed: the one on your left yields to you",
+                    "When you can pull out without forcing either to brake or swerve abruptly",
+                    "As soon as you see a gap, even if another has to brake hard"
+                  ],
+                  "why": "You yield to both sides. You pull out only if you force no one on the main road to change speed or path abruptly."
+                },
+                "terms": [
+                  {
+                    "es": "hueco",
+                    "en": "gap"
+                  }
+                ],
+                "src": "RGC arts. 56.5 and 58.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Calzada con prioridad (R-3) y su fin (R-4)",
+            "en": "Priority road (R-3) and its end (R-4)"
+          },
+          "blocks": [
+            {
+              "t": "signs",
+              "ids": [
+                "r-3",
+                "r-4"
+              ],
+              "caption": {
+                "es": "R-3: calzada con prioridad. R-4: fin de prioridad (avisa de que se acerca el punto donde la calzada la pierde). (RGC Anexo I, ap. 5.1)",
+                "en": "R-3: priority road. R-4: end of priority (it warns that the point where the road loses it is near). (RGC Anexo I, ap. 5.1)"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si ves la señal de **intersección con prioridad**, tienes prioridad en ese cruce. Lo mismo si circulas por una calzada con la señal de calzada con prioridad. Pasas antes que los vehículos de otras vías o que salen de ellas.",
+                "en": "If you see the **intersection with priority** sign, you have priority at that junction. The same goes if you drive on a road with the priority road sign. You go before vehicles on other roads or coming from them."
+              },
+              "src": "RGC art. 56.4"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "**R-4**, «fin de prioridad», avisa de que se acerca el punto donde la calzada pierde su prioridad. Si después no hay más señales, vuelve la regla de la derecha (art. 57.1).",
+                "en": "**R-4**, \"end of priority\", warns that the point where the road loses its priority is near. If there are no more signs afterward, the rule of the right applies again (art. 57.1)."
+              }
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "p-1c",
+                "p-1d",
+                "p-2"
+              ],
+              "caption": {
+                "es": "P-1c y P-1d avisan de una incorporación por la derecha o por la izquierda cuyos usuarios deben ceder el paso. P-2 avisa de una intersección en la que rige la regla general de prioridad (la de la derecha). (RGC Anexo I, ap. 5.1)",
+                "en": "P-1c and P-1d warn of a road joining from the right or the left whose users must yield. P-2 warns of an intersection where the general priority rule applies (priority to the right). (RGC Anexo I, ap. 5.1)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c2d",
+                "answer": 2,
+                "es": {
+                  "q": "Circulas por una calzada con la señal de calzada con prioridad. Otro coche sale de una calle lateral. ¿Quién tiene prioridad?",
+                  "options": [
+                    "El coche de la calle lateral, si viene por tu derecha",
+                    "El que llegue primero al cruce, sea cual sea",
+                    "Tú: la señal te da prioridad sobre las otras vías"
+                  ],
+                  "why": "La calzada con prioridad pasa antes que los vehículos de otras vías o que proceden de ellas."
+                },
+                "en": {
+                  "q": "You drive on a road with the priority road sign. Another car comes out of a side street. Who has priority?",
+                  "options": [
+                    "The side-street car, if it comes from your right",
+                    "Whoever reaches the junction first, either way",
+                    "You: the sign gives you priority over other roads"
+                  ],
+                  "why": "A road with the priority sign goes before vehicles on other roads or coming from them."
+                },
+                "terms": [
+                  {
+                    "es": "calle lateral",
+                    "en": "side street"
+                  }
+                ],
+                "src": "RGC art. 56.4"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Pasos estrechos",
+            "en": "Narrow sections"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Un **paso estrecho** es un tramo donde no pueden pasar a la vez, o casi no pueden, dos vehículos que van en sentidos contrarios.",
+                "en": "A **narrow section** is a stretch where two vehicles going in opposite directions cannot pass at the same time, or can hardly do so."
+              }
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "r-5",
+                "r-6"
+              ],
+              "caption": {
+                "es": "R-5, prioridad del sentido contrario: no entres en el paso estrecho si obligas a parar a los que vienen de frente. R-6, prioridad respecto al sentido contrario: tienes prioridad en el próximo paso estrecho. (RGC Anexo I, ap. 5.1)",
+                "en": "R-5, oncoming traffic has priority: do not enter the narrow section if you would force oncoming vehicles to stop. R-6, priority over oncoming traffic: you have priority in the next narrow section. (RGC Anexo I, ap. 5.1)"
+              }
+            },
+            {
+              "t": "figure",
+              "file": "priority-narrow-pass",
+              "alt": {
+                "es": "Vista desde arriba de una carretera que se estrecha hasta un solo carril. Un coche naranja A atraviesa el tramo estrecho mientras un coche azul B espera antes de entrar. Después pasa B.",
+                "en": "Top-down view of a road that narrows to a single lane. An orange car A drives through the narrow stretch while a blue car B waits before entering. Then B passes."
+              },
+              "caption": {
+                "es": "A tiene prioridad en el paso estrecho. B espera antes de entrar y pasa cuando A ya ha salido.",
+                "en": "A has priority in the narrow stretch. B waits before entering and goes once A has come out."
+              },
+              "legend": [
+                {
+                  "mark": "A",
+                  "text": {
+                    "es": "Coche con prioridad: entró primero (o tiene la señal R-6).",
+                    "en": "Car with priority: entered first (or has sign R-6)."
+                  }
+                },
+                {
+                  "mark": "B",
+                  "text": {
+                    "es": "Coche que espera: cede el paso (o tiene la señal R-5).",
+                    "en": "Car that waits: yields (or has sign R-5)."
+                  }
+                }
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Donde no hay señalización, pasa primero el vehículo que **entró primero** en el paso estrecho. Si hay duda, pasa el que tiene más dificultad para maniobrar.",
+                "en": "Where there are no signs, the vehicle that **entered first** goes first. In case of doubt, the one with more difficulty maneuvering goes first."
+              },
+              "src": "RGC art. 60.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si dos vehículos se encuentran en un puente o paso donde no caben a la vez, y un extremo tiene la señal R-5 o un ceda el paso, quien llega por ese extremo debe **retroceder**.",
+                "en": "If two vehicles meet on a bridge or similar crossing structure where they cannot pass each other, and one end has the R-5 sign or a yield sign, whoever arrives at that end must **reverse**."
+              },
+              "src": "RGC art. 61.2"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "En un tramo estrecho de **gran pendiente** (al menos un 7 %), tiene preferencia el vehículo que sube, salvo si este puede llegar antes a un apartadero (un sitio para apartarse).",
+                "en": "On a narrow stretch with a **steep gradient** (at least 7 %), the vehicle going uphill has right of way, unless it can reach a passing place (apartadero) built for the purpose first."
+              },
+              "src": "RGC art. 63.1"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c2e",
+                "answer": 1,
+                "es": {
+                  "q": "Un tramo estrecho no tiene señales y no caben dos coches a la vez. Tú ya has entrado y llega otro coche de frente. ¿Quién pasa primero?",
+                  "options": [
+                    "El otro coche, que llega ahora de frente",
+                    "Tú, porque entraste primero en el tramo",
+                    "El coche más pequeño cede al más grande"
+                  ],
+                  "why": "Sin señales, tiene preferencia quien entró primero en el paso estrecho."
+                },
+                "en": {
+                  "q": "A narrow stretch has no signs and two cars cannot fit at once. You are already in it and another car arrives from the front. Who goes first?",
+                  "options": [
+                    "The other car, which is arriving now",
+                    "You, because you entered the stretch first",
+                    "The smaller car yields to the larger one"
+                  ],
+                  "why": "With no signs, whoever entered the narrow stretch first has right of way."
+                },
+                "terms": [
+                  {
+                    "es": "paso estrecho",
+                    "en": "narrow section"
+                  }
+                ],
+                "src": "RGC art. 60.1"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "Ante un ceda el paso o un stop, **cedes siempre** a la vía preferente, venga por el lado que venga.",
+          "en": "At a yield or STOP sign, you **always yield** to the priority road, whichever side the traffic comes from."
+        },
+        {
+          "es": "El **stop** exige parar por completo, aunque no venga nadie.",
+          "en": "A **STOP** means a complete stop, even when nobody is coming."
+        },
+        {
+          "es": "**R-3** da prioridad a tu calzada. **R-4** avisa de que la pierdes.",
+          "en": "**R-3** gives your road priority. **R-4** warns that you are about to lose it."
+        },
+        {
+          "es": "En un **paso estrecho** sin señales pasa quien entró primero.",
+          "en": "In a **narrow section** with no signs, whoever entered first goes first."
+        }
+      ],
+      "covers": [
+        "priority-02",
+        "priority-03",
+        "priority-11"
+      ],
+      "src": [
+        "Reglamento General de Circulación (RD 1428/2003), arts. 56.4, 56.5, 58.1, 60.1, 61.2, 63.1 y 132.1",
+        "RGC anexo I, ap. 5.2 (marcas viales M-4.1, M-4.2, M-6.3 a M-6.5), texto publicado en BOE-A-2025-12199",
+        "RGC anexo I, ap. 5.1 (señales R-1 a R-6, P-1c, P-1d y P-2), texto publicado en BOE-A-2025-12199"
+      ]
+    },
+    {
+      "id": "traffic-lights",
+      "title": {
+        "es": "Semáforos",
+        "en": "Traffic lights"
+      },
+      "minutes": 8,
+      "goals": [
+        {
+          "es": "Saber qué hacer con la luz roja, la amarilla y la verde.",
+          "en": "Know what to do at red, yellow and green."
+        },
+        {
+          "es": "Entender las flechas y el amarillo intermitente.",
+          "en": "Understand arrows and flashing yellow."
+        },
+        {
+          "es": "No bloquear un cruce, ni siquiera con verde.",
+          "en": "Do not block a junction, even on green."
+        }
+      ],
+      "terms": [
+        {
+          "es": "semáforo",
+          "en": "traffic light"
+        },
+        {
+          "es": "luz roja",
+          "en": "red light"
+        },
+        {
+          "es": "amarillo fijo",
+          "en": "steady yellow"
+        },
+        {
+          "es": "amarillo intermitente",
+          "en": "flashing yellow"
+        },
+        {
+          "es": "flecha",
+          "en": "arrow"
+        },
+        {
+          "es": "línea de detención",
+          "en": "stop line"
+        },
+        {
+          "es": "circulación transversal",
+          "en": "cross traffic"
+        }
+      ],
+      "pretest": {
+        "id": "priority-pre-3",
+        "answer": 0,
+        "es": {
+          "q": "El semáforo se pone en amarillo fijo y puedes parar con seguridad antes de la línea de detención. ¿Qué haces?",
+          "options": [
+            "Te detienes, como con el rojo",
+            "Aceleras para pasar antes del rojo",
+            "Pasas con precaución"
+          ],
+          "why": "El amarillo fijo significa detenerse como con el rojo. Solo sigues si estás tan cerca que no puedes parar con seguridad suficiente."
+        },
+        "en": {
+          "q": "The light turns steady yellow and you can stop safely before the stop line. What do you do?",
+          "options": [
+            "Stop, as for a red light",
+            "Speed up to get through before the red",
+            "Go through with caution"
+          ],
+          "why": "Steady yellow means stop as for red. You only continue if you are so close that you cannot stop with enough safety."
+        },
+        "src": "RGC anexo I, 4.2.c"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Rojo: no pases",
+            "en": "Red: do not go"
+          },
+          "blocks": [
+            {
+              "t": "signs",
+              "ids": [
+                "p-3"
+              ],
+              "caption": {
+                "es": "P-3 es la señal de advertencia «semáforos»: avisa de un cruce o tramo regulado por semáforos. (RGC Anexo I, ap. 5.1)",
+                "en": "P-3 is the warning sign for traffic lights: it warns of a junction or stretch regulated by traffic lights. (RGC Anexo I, ap. 5.1)"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Una luz roja fija **prohíbe el paso**. Mientras está encendida, no rebasas el semáforo ni la línea de detención más cercana antes de él.",
+                "en": "A steady red light **prohibits passing**. While it is on, you do not go past the light or the nearest stop line before it."
+              },
+              "src": "RGC anexo I, 4.2.a"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si el semáforo está al otro lado del cruce o dentro de él, no entres en el cruce. Tampoco rebases la línea de detención que hay antes.",
+                "en": "If the light is on the far side of the junction or inside it, do not enter the junction. Do not cross the stop line before it either."
+              },
+              "src": "RGC anexo I, 4.2.a"
+            },
+            {
+              "t": "figure",
+              "file": "priority-red-light",
+              "alt": {
+                "es": "Cruce visto desde arriba con un semáforo. Un coche azul B se detiene antes de la línea de detención con la luz roja. Una flecha amarilla discontinua con una cruz roja marca el giro a la derecha, que no se puede hacer. Cuando el semáforo pasa a verde, B sigue de frente.",
+                "en": "Junction seen from above with a traffic light. A blue car B stops before the stop line at the red light. A dashed yellow arrow with a red cross marks the right turn, which is not allowed. When the light turns green, B goes straight."
+              },
+              "caption": {
+                "es": "Con el rojo te detienes antes de la línea y no giras a la derecha. Con el verde, sigues.",
+                "en": "At red you stop before the line and do not turn right. At green, you go."
+              },
+              "legend": [
+                {
+                  "mark": "B",
+                  "text": {
+                    "es": "Tú, parado antes de la línea de detención.",
+                    "en": "You, stopped before the stop line."
+                  }
+                }
+              ]
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Con el rojo tampoco giras a la derecha. Solo una **flecha verde** te permite moverte en esa dirección.",
+                "en": "At red you also do not turn right. Only a **green arrow** lets you move in that direction."
+              }
+            },
+            {
+              "t": "us",
+              "text": {
+                "es": "En la mayoría de los estados de EE. UU. se puede girar a la derecha con el rojo después de parar. En España no.",
+                "en": "In most US states you may turn right on red after stopping. In Spain you may not."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Una luz roja **intermitente** (o dos rojas que alternan) prohíbe el paso de forma temporal. Se usa antes de un paso a nivel o de un puente móvil. También junto a una salida de bomberos o si un avión se acerca a poca altura.",
+                "en": "A **flashing** red light (or two alternating red lights) temporarily prohibits passing. It is used before a level crossing or a movable bridge. Also beside a fire-engine exit or when an aircraft approaches at low altitude."
+              },
+              "src": "RGC anexo I, 4.2.b"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c3a",
+                "answer": 0,
+                "es": {
+                  "q": "El semáforo en rojo está al otro lado del cruce y hay una línea de detención antes de entrar en él. ¿Dónde te detienes?",
+                  "options": [
+                    "Antes de la línea de detención, fuera del cruce",
+                    "Dentro del cruce, para ver mejor el semáforo",
+                    "Justo debajo del semáforo, al otro lado"
+                  ],
+                  "why": "Con el semáforo al otro lado o dentro del cruce, no entras ni pasas la línea de detención anterior."
+                },
+                "en": {
+                  "q": "A red light is on the far side of the junction and there is a stop line before the junction. Where do you stop?",
+                  "options": [
+                    "Before the stop line, outside the junction",
+                    "Inside the junction, to see the light better",
+                    "Right under the light, on the far side"
+                  ],
+                  "why": "If the light is inside or across the junction, you do not enter it or cross the stop line before it."
+                },
+                "terms": [
+                  {
+                    "es": "línea de detención",
+                    "en": "stop line"
+                  }
+                ],
+                "src": "RGC anexo I, 4.2.a"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Amarillo fijo y amarillo intermitente",
+            "en": "Steady yellow and flashing yellow"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "El **amarillo fijo** significa detenerse como con el rojo. La excepción: si al encenderse ya estás tan cerca que no puedes parar con seguridad suficiente.",
+                "en": "**Steady yellow** means stop as for red. The exception: if when it comes on you are already so close that you cannot stop with enough safety."
+              },
+              "src": "RGC anexo I, 4.2.c"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c3b",
+                "answer": 1,
+                "es": {
+                  "q": "Se enciende el amarillo fijo cuando ya estás tan cerca de la línea que no puedes parar con seguridad suficiente. ¿Qué haces?",
+                  "options": [
+                    "Frenas con fuerza aunque sea peligroso",
+                    "Sigues: no puedes detenerte con seguridad",
+                    "Te detienes encima de la línea de detención"
+                  ],
+                  "why": "El amarillo fijo obliga a parar como con el rojo, salvo que estés tan cerca que no puedas hacerlo con seguridad suficiente."
+                },
+                "en": {
+                  "q": "Steady yellow comes on when you are already so close to the line that you cannot stop with enough safety. What do you do?",
+                  "options": [
+                    "Brake hard even if it is dangerous",
+                    "Continue: you cannot stop safely",
+                    "Stop right on top of the stop line"
+                  ],
+                  "why": "Steady yellow requires you to stop as for red, unless you are so close that you cannot do it with enough safety."
+                },
+                "terms": [
+                  {
+                    "es": "amarillo fijo",
+                    "en": "steady yellow"
+                  }
+                ],
+                "src": "RGC anexo I, 4.2.c"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "El **amarillo intermitente** te obliga a extremar la precaución y, si hace falta, a ceder el paso. Vale también para dos amarillos que alternan. No te libera de otras señales que obliguen a detenerse.",
+                "en": "A **flashing yellow** requires extreme caution and, where needed, yielding. The same goes for two alternating yellows. It does not release you from other signals that require you to stop."
+              },
+              "src": "RGC anexo I, 4.2.d"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "El amarillo intermitente no es un paso libre: las normas de prioridad siguen igual.",
+                "en": "Flashing yellow is not a free pass: the priority rules stay the same."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c3c",
+                "answer": 2,
+                "es": {
+                  "q": "El semáforo muestra amarillo intermitente y en tu calle hay también una señal de stop. ¿Qué haces?",
+                  "options": [
+                    "Pasas con prioridad, porque manda el semáforo",
+                    "Pasas con precaución, sin parar",
+                    "Te detienes: el amarillo no te libera del stop"
+                  ],
+                  "why": "El amarillo intermitente obliga a extremar la precaución, pero no te exime de otras señales que obliguen a detenerse."
+                },
+                "en": {
+                  "q": "The traffic light shows flashing yellow and there is also a STOP sign on your street. What do you do?",
+                  "options": [
+                    "Go with priority, because the light rules",
+                    "Go with caution, without stopping",
+                    "Stop: the yellow does not release you from the STOP"
+                  ],
+                  "why": "Flashing yellow requires extreme caution, but it does not exempt you from other signals that require you to stop."
+                },
+                "terms": [
+                  {
+                    "es": "amarillo intermitente",
+                    "en": "flashing yellow"
+                  }
+                ],
+                "src": "RGC anexo I, 4.2.d"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Verde: pasas con prioridad, pero sin bloquear",
+            "en": "Green: you go first, but do not block"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Una luz **verde fija** permite el paso con prioridad, excepto en el caso del artículo 59.1.",
+                "en": "A **steady green** light allows passage with priority, except in the case of article 59.1."
+              },
+              "src": "RGC anexo I, 4.2.e"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Aunque tengas prioridad, no entres en un cruce si es previsible que quedes parado. Así bloquearías la **circulación transversal**. Lo mismo vale para un paso de peatones o de ciclistas.",
+                "en": "Even with priority, do not enter a junction if you are likely to end up stopped. You would block the **cross traffic**. The same goes for a pedestrian or cycle crossing."
+              },
+              "src": "RGC art. 59.1"
+            },
+            {
+              "t": "figure",
+              "file": "priority-dont-block",
+              "alt": {
+                "es": "Cruce con semáforo en verde para el coche azul B. Delante, al otro lado, hay una cola de coches parados. La zona roja marca el cruce, donde B no debe entrar. Un coche naranja A espera en la calle que cruza. Cuando la cola avanza y hay sitio, B cruza.",
+                "en": "Junction with a green light for the blue car B. Ahead, on the far side, a queue of cars is stopped. The red zone marks the junction, where B must not enter. An orange car A waits on the crossing street. When the queue moves and there is room, B crosses."
+              },
+              "caption": {
+                "es": "Aunque tengas verde, no entres si no hay sitio al otro lado: bloquearías a A y al resto de la calle que cruza.",
+                "en": "Even on green, do not enter if there is no room on the far side: you would block A and the rest of the crossing street."
+              },
+              "legend": [
+                {
+                  "mark": "A",
+                  "text": {
+                    "es": "Coche de la calle que cruza, esperando su turno.",
+                    "en": "Car on the crossing street, waiting its turn."
+                  }
+                },
+                {
+                  "mark": "B",
+                  "text": {
+                    "es": "Tú, con verde, esperando fuera del cruce.",
+                    "en": "You, with green, waiting outside the junction."
+                  }
+                }
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si ya estás parado dentro de un cruce con semáforo y estorbas, sal sin esperar tu turno. Hazlo solo si no entorpeces a quienes avanzan en el sentido permitido.",
+                "en": "If you are already stopped inside a junction with traffic lights and are in the way, clear it without waiting for your turn. Do so only if you do not hinder users moving in the permitted direction."
+              },
+              "src": "RGC art. 59.2"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c3d",
+                "answer": 1,
+                "es": {
+                  "q": "Tienes el semáforo en verde, pero la cola de delante no te deja sitio al otro lado del cruce. ¿Qué haces?",
+                  "options": [
+                    "Entras y esperas dentro del cruce",
+                    "Esperas antes del cruce hasta que haya sitio",
+                    "Entras y haces sonar el claxon a los de delante"
+                  ],
+                  "why": "Aunque tengas prioridad, no debes entrar si es previsible que quedes parado e impidas la circulación transversal."
+                },
+                "en": {
+                  "q": "You have a green light, but the queue ahead leaves no room on the far side of the junction. What do you do?",
+                  "options": [
+                    "Enter and wait inside the junction",
+                    "Wait before the junction until there is room",
+                    "Enter and sound the horn at the cars ahead"
+                  ],
+                  "why": "Even with priority, you must not enter if you are likely to end up stopped and block the cross traffic."
+                },
+                "terms": [
+                  {
+                    "es": "circulación transversal",
+                    "en": "cross traffic"
+                  }
+                ],
+                "src": "RGC art. 59.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Flechas",
+            "en": "Arrows"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Una **flecha negra** sobre una luz roja o amarilla no cambia lo que significa esa luz. Solo la limita al movimiento que indica la flecha.",
+                "en": "A **black arrow** on a red or yellow light does not change what that light means. It only limits it to the movement the arrow shows."
+              },
+              "src": "RGC anexo I, 4.2.f"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Una **flecha verde** sobre fondo negro te permite tomar la dirección que indica. Vale sea cual sea la otra luz encendida.",
+                "en": "A **green arrow** on a black background lets you take the direction it shows. It applies whatever other light is on."
+              },
+              "src": "RGC anexo I, 4.2.g"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Avanza con precaución: deja pasar a los vehículos del carril al que te incorporas. No pongas en peligro a nadie que cruce la calzada.",
+                "en": "Proceed with caution: let vehicles in the lane you join go by. Do not endanger anyone crossing the roadway."
+              },
+              "src": "RGC anexo I, 4.2.g"
+            },
+            {
+              "t": "example",
+              "situation": {
+                "es": "El semáforo muestra rojo y una flecha verde hacia la derecha. Unas personas cruzan la calle a la que vas a entrar.",
+                "en": "The light shows red and a green arrow pointing right. Some people are crossing the street you are about to enter."
+              },
+              "action": {
+                "es": "Gira despacio, deja pasar a las personas y entra cuando la calle esté libre.",
+                "en": "Turn slowly, let the people cross, and enter when the street is clear."
+              },
+              "why": {
+                "es": "La flecha verde te permite girar, pero no te da prioridad sobre quien cruza (anexo I, 4.2.g).",
+                "en": "The green arrow lets you turn, but it does not give you priority over people crossing (annex I, 4.2.g)."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c3e",
+                "answer": 0,
+                "es": {
+                  "q": "Un semáforo muestra luz roja y una flecha verde hacia la derecha. ¿Qué puedes hacer?",
+                  "options": [
+                    "Girar a la derecha, con precaución y dejando pasar a quien cruce",
+                    "Seguir de frente, porque la flecha anula el rojo",
+                    "Esperar al verde: la flecha no cambia nada"
+                  ],
+                  "why": "La flecha verde permite tomar la dirección indicada aunque haya otra luz encendida, pero con precaución y cediendo el paso."
+                },
+                "en": {
+                  "q": "A traffic light shows a red light and a green arrow pointing right. What may you do?",
+                  "options": [
+                    "Turn right, with caution and letting anyone crossing go by",
+                    "Go straight, because the arrow cancels the red",
+                    "Wait for green: the arrow changes nothing"
+                  ],
+                  "why": "The green arrow lets you take the direction it shows even with another light on, but with caution and yielding."
+                },
+                "terms": [
+                  {
+                    "es": "flecha verde",
+                    "en": "green arrow"
+                  }
+                ],
+                "src": "RGC anexo I, 4.2.g"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Girar a la izquierda con verde",
+            "en": "Turning left on green"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Antes de girar a la izquierda, avisa con tiempo. Asegúrate de que la **velocidad y la distancia** de los vehículos que vienen de frente te dejan girar sin peligro. Si no, no hagas la maniobra.",
+                "en": "Before turning left, signal in good time. Make sure the **speed and distance** of oncoming vehicles let you do it safely. If not, do not make the maneuver."
+              },
+              "src": "RGC art. 74.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Tampoco gires a la izquierda si no tienes visibilidad suficiente.",
+                "en": "Do not turn left either if you do not have enough visibility."
+              },
+              "src": "RGC art. 74.1"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "El verde te da prioridad, pero no te permite poner en peligro a quien viene de frente. Espera dentro de tu carril hasta que haya un hueco seguro.",
+                "en": "Green gives you priority, but it does not let you endanger oncoming traffic. Wait in your lane until there is a safe gap."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c3f",
+                "answer": 2,
+                "es": {
+                  "q": "Con el semáforo en verde quieres girar a la izquierda y un coche viene de frente a poca distancia. ¿Qué haces?",
+                  "options": [
+                    "Giras ya: el verde te da prioridad",
+                    "Giras con prisa y haces sonar el claxon",
+                    "Esperas a que haya un hueco seguro para girar"
+                  ],
+                  "why": "Para girar a la izquierda, la velocidad y la distancia de los vehículos de frente deben permitirte hacerlo sin peligro."
+                },
+                "en": {
+                  "q": "On a green light you want to turn left and a car is coming toward you at a short distance. What do you do?",
+                  "options": [
+                    "Turn now: green gives you priority",
+                    "Turn quickly and sound the horn",
+                    "Wait for a safe gap before you turn"
+                  ],
+                  "why": "Before turning left you must make sure that the speed and distance of oncoming vehicles let you do it safely."
+                },
+                "terms": [
+                  {
+                    "es": "de frente",
+                    "en": "oncoming"
+                  }
+                ],
+                "src": "RGC art. 74.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Qué semáforo obedeces",
+            "en": "Which light you obey"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Obedece los semáforos y las señales verticales situados inmediatamente **a tu derecha**, encima de la calzada o encima de tu carril. Si no hay ninguno y vas a girar a la izquierda o seguir de frente, obedece los de tu izquierda. Si a derecha e izquierda hay indicaciones distintas y vas a girar a la izquierda o seguir de frente, obedece solo las de tu izquierda.",
+                "en": "Obey the lights and vertical signs located immediately **on your right**, above the roadway or above your lane. If there are none and you will turn left or go straight, obey those on your left. If the right and left show different indications and you will turn left or go straight, obey only those on your left."
+              },
+              "src": "RGC art. 132.3"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los semáforos de carril afectan solo a los vehículos que circulan por el carril sobre el que están. Una **aspa roja** prohíbe ocupar ese carril: sal de él cuanto antes.",
+                "en": "Lane lights affect only vehicles in the lane they are above. A **red cross** prohibits using that lane: leave it as soon as possible."
+              },
+              "src": "RGC anexo I, 4.3"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Una **flecha verde hacia abajo** sobre un carril permite circular por él. No te libera de detenerte ante una luz roja circular. Tampoco de obedecer otra señal o marca vial que obligue a detenerte o a ceder el paso.",
+                "en": "A **green arrow pointing down** over a lane allows you to drive in it. It does not release you from stopping at a red circular light. Nor from obeying any other sign or marking that requires you to stop or yield."
+              },
+              "src": "RGC anexo I, 4.3.b"
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "**Rojo**: no rebasas la línea de detención ni giras a la derecha, salvo con una flecha verde.",
+          "en": "**Red**: you do not pass the stop line or turn right, unless there is a green arrow."
+        },
+        {
+          "es": "**Amarillo fijo** = parar como con rojo, salvo que ya no puedas hacerlo con seguridad.",
+          "en": "**Steady yellow** = stop as for red, unless you can no longer do it safely."
+        },
+        {
+          "es": "**Amarillo intermitente** = extrema la precaución y cede el paso si hace falta.",
+          "en": "**Flashing yellow** = take extreme care and yield if needed."
+        },
+        {
+          "es": "**Verde** da prioridad, pero no entres en un cruce si no hay sitio al otro lado.",
+          "en": "**Green** gives priority, but do not enter a junction if there is no room on the far side."
+        },
+        {
+          "es": "Una **flecha verde** permite esa dirección, con precaución y cediendo el paso.",
+          "en": "A **green arrow** allows that direction, with caution and yielding."
+        }
+      ],
+      "covers": [
+        "priority-04",
+        "priority-05"
+      ],
+      "src": [
+        "Reglamento General de Circulación (RD 1428/2003), arts. 59.1, 59.2, 74.1 y 132.3, y anexo I, apartados 4.2 y 4.3",
+        "RGC anexo I, ap. 5.1 (señal P-3), texto publicado en BOE-A-2025-12199"
+      ]
+    },
+    {
+      "id": "officers-and-emergency",
+      "title": {
+        "es": "Agentes y vehículos prioritarios",
+        "en": "Officers and priority vehicles"
+      },
+      "minutes": 8,
+      "goals": [
+        {
+          "es": "Saber qué señal manda cuando dos se contradicen.",
+          "en": "Know which signal rules when two disagree."
+        },
+        {
+          "es": "Obedecer las señales con el brazo de un agente.",
+          "en": "Obey an officer's arm signals."
+        },
+        {
+          "es": "Saber qué hacer cuando llega un vehículo de emergencia.",
+          "en": "Know what to do when an emergency vehicle arrives."
+        }
+      ],
+      "terms": [
+        {
+          "es": "agente de la circulación",
+          "en": "traffic officer"
+        },
+        {
+          "es": "señalización circunstancial",
+          "en": "temporary signs"
+        },
+        {
+          "es": "vehículo prioritario",
+          "en": "priority vehicle"
+        },
+        {
+          "es": "servicio urgente",
+          "en": "urgent service"
+        },
+        {
+          "es": "facilitar el paso",
+          "en": "to make way"
+        },
+        {
+          "es": "carril de emergencia",
+          "en": "emergency lane"
+        },
+        {
+          "es": "marca vial",
+          "en": "road marking"
+        }
+      ],
+      "pretest": {
+        "id": "priority-pre-4",
+        "answer": 1,
+        "es": {
+          "q": "Tu semáforo está en verde, pero un agente de tráfico levanta un brazo en vertical hacia ti. ¿Qué haces?",
+          "options": [
+            "Sigues: el semáforo manda",
+            "Te detienes: el agente manda",
+            "Reduces y pasas despacio"
+          ],
+          "why": "Las señales y órdenes de un agente van antes que los semáforos. Con el brazo levantado en vertical hacia ti, te detienes."
+        },
+        "en": {
+          "q": "Your light is green, but a traffic officer raises one arm straight up toward you. What do you do?",
+          "options": [
+            "Go on: the light rules",
+            "Stop: the officer rules",
+            "Slow down and pass slowly"
+          ],
+          "why": "An officer's signals and orders come before traffic lights. With an arm raised straight up toward you, you stop."
+        },
+        "src": "RGC art. 133.1 and anexo I, 1.1.a"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Quién manda cuando dos señales se contradicen",
+            "en": "Which signal rules when two disagree"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Este es el orden de preferencia entre las señales. La primera manda sobre todas las demás:",
+                "en": "This is the order of precedence between signals. The first rules over all the others:"
+              },
+              "src": "RGC art. 133.1"
+            },
+            {
+              "t": "list",
+              "items": [
+                {
+                  "es": "Señales y órdenes de los **agentes** de tráfico.",
+                  "en": "Signals and orders of traffic **officers**."
+                },
+                {
+                  "es": "Señalización **circunstancial** (por ejemplo, de obras) y balizamiento.",
+                  "en": "**Temporary** signs (for example, roadworks) and beacons."
+                },
+                {
+                  "es": "**Semáforos**.",
+                  "en": "**Traffic lights**."
+                },
+                {
+                  "es": "**Señales verticales** de circulación.",
+                  "en": "**Vertical** traffic signs."
+                },
+                {
+                  "es": "**Marcas viales** (pintura en el pavimento).",
+                  "en": "**Road markings** (paint on the pavement)."
+                }
+              ],
+              "ordered": true
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si dos señales parecen contradecirse, prevalece la preferente según ese orden. Si son del mismo tipo, prevalece la más restrictiva.",
+                "en": "If two signals seem to contradict each other, the one higher in that order prevails. If they are of the same type, the more restrictive one prevails."
+              },
+              "src": "RGC art. 133.2"
+            },
+            {
+              "t": "example",
+              "situation": {
+                "es": "Una obra tiene una señal temporal que te desvía a la izquierda. Una señal vertical fija dice seguir de frente.",
+                "en": "Roadworks have a temporary sign that diverts you left. A fixed vertical sign says to go straight."
+              },
+              "action": {
+                "es": "Sigue la señal temporal.",
+                "en": "Follow the temporary sign."
+              },
+              "why": {
+                "es": "La señalización circunstancial va antes que las señales verticales (art. 133.1).",
+                "en": "Temporary signs come before vertical signs (art. 133.1)."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c4a",
+                "answer": 2,
+                "es": {
+                  "q": "Una señal temporal de obras te desvía a la izquierda, pero una señal vertical fija indica seguir de frente. ¿Cuál obedeces?",
+                  "options": [
+                    "La señal vertical fija, porque es permanente",
+                    "La que veas primero, porque es la más cercana",
+                    "La señal temporal de obras, que va antes"
+                  ],
+                  "why": "La señalización circunstancial va antes que las señales verticales en el orden de preferencia."
+                },
+                "en": {
+                  "q": "A temporary roadworks sign diverts you left, but a fixed vertical sign says to go straight. Which do you obey?",
+                  "options": [
+                    "The fixed vertical sign, because it is permanent",
+                    "Whichever you see first, because it is nearest",
+                    "The temporary roadworks sign, which comes first"
+                  ],
+                  "why": "Temporary signs come before vertical signs in the order of precedence."
+                },
+                "terms": [
+                  {
+                    "es": "señal circunstancial",
+                    "en": "temporary sign"
+                  },
+                  {
+                    "es": "obras",
+                    "en": "roadworks"
+                  }
+                ],
+                "src": "RGC art. 133.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "El agente levanta el brazo",
+            "en": "The officer raises an arm"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Las señales de los agentes deben ser visibles y sus órdenes se obedecen **de inmediato**.",
+                "en": "Officers' signals must be visible, and their orders are obeyed **immediately**."
+              },
+              "src": "RGC art. 141.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "**Brazo levantado en vertical**: obliga a detenerse a todos los usuarios que se acercan al agente. Hay una excepción: quien no puede hacerlo con seguridad suficiente. En un cruce, tampoco obliga a quien ya ha entrado en él.",
+                "en": "**Arm raised straight up**: it requires every user approaching the officer to stop. There is one exception: anyone who cannot do so safely enough. At a junction, it does not oblige anyone who has already entered it either."
+              },
+              "src": "RGC anexo I, 1.1.a"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Te detienes ante la línea de detención más cercana o, si no hay, justo antes del agente. En un cruce, te detienes antes de entrar en él.",
+                "en": "You stop at the nearest stop line or, if there is none, right before the officer. At a junction, you stop before entering it."
+              },
+              "src": "RGC anexo I, 1.1.a"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c4b",
+                "answer": 0,
+                "es": {
+                  "q": "Ya estás dentro de un cruce cuando el agente levanta el brazo en vertical. ¿Debes detenerte?",
+                  "options": [
+                    "No tienes que parar: ya has entrado en el cruce",
+                    "Sí, debes parar justo donde estás, en medio",
+                    "Solo si ves a otros coches parados delante"
+                  ],
+                  "why": "El brazo levantado, hecho en un cruce, no obliga a detenerse a los conductores que ya han entrado en él."
+                },
+                "en": {
+                  "q": "You are already inside a junction when the officer raises an arm straight up. Must you stop?",
+                  "options": [
+                    "No: you have already entered, so you need not stop",
+                    "Yes, you must stop right where you are",
+                    "Only if you see other cars stopped ahead"
+                  ],
+                  "why": "A raised arm, given at a junction, does not oblige drivers who have already entered it to stop."
+                },
+                "terms": [
+                  {
+                    "es": "brazo levantado",
+                    "en": "raised arm"
+                  }
+                ],
+                "src": "RGC anexo I, 1.1.a"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "El agente extiende los brazos",
+            "en": "The officer holds both arms out"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Con uno o los dos **brazos extendidos en horizontal**, el agente detiene a quien llega desde direcciones que cortan la de sus brazos. La señal sigue en vigor aunque el agente baje los brazos, mientras no cambie de posición ni haga otra señal.",
+                "en": "With one or both **arms held out horizontally**, the officer stops anyone arriving from directions that cross the line of the arms. The signal stays in force even if the officer lowers the arms, as long as they do not change position or give another signal."
+              },
+              "src": "RGC anexo I, 1.1.b"
+            },
+            {
+              "t": "figure",
+              "file": "priority-agent",
+              "alt": {
+                "es": "Cruce visto desde arriba con un agente de tráfico en el centro, con los brazos extendidos a los lados. Los coches rojos A y B, que llegan de frente y de espaldas al agente, se detienen antes de la línea. Los coches verdes C y D, que llegan por los lados del agente, cruzan.",
+                "en": "Junction seen from above with a traffic officer in the center, arms held out to the sides. The red cars A and B, arriving facing the officer and behind the officer, stop before the line. The green cars C and D, arriving at the officer's sides, cross."
+              },
+              "caption": {
+                "es": "Con los brazos extendidos, el agente detiene a quien llega de frente y de espaldas. Quien llega por sus lados no tiene que parar por esta señal.",
+                "en": "With arms held out, the officer stops those arriving from the front and from behind. Those arriving at the officer's sides do not have to stop for this signal."
+              },
+              "legend": [
+                {
+                  "mark": "P",
+                  "text": {
+                    "es": "Agente con los brazos extendidos.",
+                    "en": "Officer with arms held out."
+                  }
+                },
+                {
+                  "mark": "A",
+                  "text": {
+                    "es": "Llega de frente al agente: se detiene.",
+                    "en": "Arrives facing the officer: stops."
+                  }
+                },
+                {
+                  "mark": "B",
+                  "text": {
+                    "es": "Llega de espaldas al agente: se detiene.",
+                    "en": "Arrives behind the officer: stops."
+                  }
+                },
+                {
+                  "mark": "C",
+                  "text": {
+                    "es": "Llega por un lado del agente: no tiene que parar.",
+                    "en": "Arrives at one side of the officer: does not have to stop."
+                  }
+                },
+                {
+                  "mark": "D",
+                  "text": {
+                    "es": "Llega por el otro lado: no tiene que parar.",
+                    "en": "Arrives at the other side: does not have to stop."
+                  }
+                }
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Una **luz roja o amarilla que se balancea** obliga a detenerse a quienes el agente apunta con ella. Una serie de toques cortos y frecuentes de silbato ordena detenerse. Un toque largo ordena reanudar la marcha.",
+                "en": "A **swinging red or yellow light** obliges those it is pointed at to stop. A series of short, frequent whistle blasts orders you to stop. A long blast orders you to go on."
+              },
+              "src": "RGC anexo I, 1.1.c and e"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c4c",
+                "answer": 1,
+                "es": {
+                  "q": "Un agente en un cruce tiene los brazos extendidos a los lados. Llegas por uno de sus lados, no de frente ni de espaldas. ¿Te obliga a detenerte esa señal?",
+                  "options": [
+                    "Sí: detiene a todos los vehículos que se acercan",
+                    "No: detiene a quien llega de frente o de espaldas",
+                    "Solo si además tu semáforo está en rojo"
+                  ],
+                  "why": "Los brazos extendidos detienen a quien llega de frente o de espaldas al agente."
+                },
+                "en": {
+                  "q": "An officer at a junction holds both arms out to the sides. You arrive at one of the officer's sides, not facing or behind. Does that signal oblige you to stop?",
+                  "options": [
+                    "Yes: it stops every vehicle that approaches",
+                    "No: it stops those arriving facing or behind the officer",
+                    "Only if your own light is also red"
+                  ],
+                  "why": "Arms held out stop those arriving facing or behind the officer."
+                },
+                "terms": [
+                  {
+                    "es": "de frente",
+                    "en": "facing"
+                  },
+                  {
+                    "es": "de espaldas",
+                    "en": "from behind"
+                  }
+                ],
+                "src": "RGC anexo I, 1.1.b"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Vehículos prioritarios",
+            "en": "Priority vehicles"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Son **vehículos prioritarios** los de policía, bomberos, protección civil y salvamento, y asistencia sanitaria. Deben ir en servicio urgente y avisar con la luz y la sirena a la vez. Pueden usar solo la luz si la sirena no hace falta para la seguridad de los demás.",
+                "en": "**Priority vehicles** are those of the police, fire service, civil protection and rescue, and medical assistance. They must be in urgent service and warn with their light and siren at the same time. They may use the light alone if the siren is not needed for others' safety."
+              },
+              "src": "RGC art. 68.2"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Tienen prioridad de paso sobre los demás vehículos y usuarios. Pueden superar los límites de velocidad. Están exentos de otras normas y señales, en las condiciones que fija el reglamento. Las órdenes y señales de los agentes les obligan siempre.",
+                "en": "They have priority over other vehicles and users. They may exceed speed limits. They are exempt from other rules and signs, under the conditions the regulation sets. Officers' orders and signals always bind them."
+              },
+              "src": "RGC arts. 67.1 and 68.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Deben usar este régimen con moderación. Antes de saltarse una prioridad o un semáforo, toman precauciones extremas. Esperan a estar seguros de que no hay riesgo de atropellar a peatones y de que los demás han parado o van a dejarles paso.",
+                "en": "They must use this special status with restraint. Before ignoring a priority or a light, they take extreme precautions. They wait until sure there is no risk of running over pedestrians and that other drivers have stopped or are about to make way."
+              },
+              "src": "RGC art. 67.2"
+            },
+            {
+              "t": "figure",
+              "file": "priority-emergency",
+              "alt": {
+                "es": "Carretera vista desde arriba con arcén a la derecha. Una ambulancia roja A se acerca por detrás de un coche azul B. B se aparta al arcén y se detiene. La ambulancia pasa por el carril.",
+                "en": "Road seen from above with a hard shoulder on the right. A red ambulance A approaches from behind a blue car B. B pulls onto the shoulder and stops. The ambulance passes in the lane."
+              },
+              "caption": {
+                "es": "B se aparta a la derecha y se detiene. La ambulancia pasa.",
+                "en": "B pulls to the right and stops. The ambulance passes."
+              },
+              "legend": [
+                {
+                  "mark": "A",
+                  "text": {
+                    "es": "Ambulancia en servicio urgente, con sirena y luces.",
+                    "en": "Ambulance in urgent service, with siren and lights."
+                  }
+                },
+                {
+                  "mark": "B",
+                  "text": {
+                    "es": "Tú: te apartas a la derecha y paras si hace falta.",
+                    "en": "You: pull to the right and stop if needed."
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Qué haces tú",
+            "en": "What you do"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Cuando percibas las señales de un vehículo prioritario, **facilítale el paso**. Normalmente te apartas a la derecha o te detienes si hace falta. Elige según el momento y el lugar.",
+                "en": "As soon as you notice the signals of a priority vehicle, **make way** for it. Normally you pull over to the right, or stop if needed. Choose according to the moment and the place."
+              },
+              "src": "RGC art. 69"
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Hazlo con calma y sin frenazos. No aceleres para apartarte: busca un sitio donde no estorbes y avisa con el intermitente.",
+                "en": "Do it calmly and without sudden braking. Do not speed up to get out of the way: find a place where you do not obstruct, and signal."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Con una retención en autopista o autovía, los vehículos que van a paso de peatón o parados se orillan. Así dejan libre un **carril de emergencia**.",
+                "en": "With a jam on a motorway or dual carriageway, vehicles that crawl or stand still pull aside. That leaves a free **emergency lane**."
+              },
+              "src": "RGC art. 32.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Con **dos carriles** por sentido, el carril de emergencia se forma en el centro, entre ellos. Con **tres o más**, se forma entre el carril izquierdo y el contiguo. Los coches del carril izquierdo se mueven lo más a la izquierda posible. Los demás, lo más a la derecha.",
+                "en": "With **two lanes** each way, the emergency lane forms in the middle, between them. With **three or more**, it forms between the left lane and the next one. Cars in the left lane move as far left as possible. All the others move as far right as possible."
+              },
+              "src": "RGC art. 32.1"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c4d",
+                "answer": 2,
+                "es": {
+                  "q": "Hay una retención en una autopista de tres carriles por sentido y los coches están parados. ¿Cómo te colocas para dejar paso a los vehículos de emergencia?",
+                  "options": [
+                    "Todos los carriles se pegan a la derecha todo lo posible",
+                    "Todos los coches se quedan centrados en su carril",
+                    "El carril izquierdo se pega a la izquierda; los demás, a la derecha"
+                  ],
+                  "why": "Con tres o más carriles, el carril de emergencia se forma entre el carril izquierdo y el contiguo. Los vehículos del izquierdo se pegan a la izquierda y los demás a la derecha."
+                },
+                "en": {
+                  "q": "There is a jam on a motorway with three lanes each way and the cars are stopped. How do you position yourself to let emergency vehicles through?",
+                  "options": [
+                    "All lanes move as far right as possible",
+                    "All cars stay centered in their lane",
+                    "The left lane moves left; all the others move right"
+                  ],
+                  "why": "With three or more lanes, the emergency lane forms between the left lane and the next one. Left-lane vehicles move left and all the others move right."
+                },
+                "terms": [
+                  {
+                    "es": "carril de emergencia",
+                    "en": "emergency lane"
+                  },
+                  {
+                    "es": "retención",
+                    "en": "traffic jam"
+                  }
+                ],
+                "src": "RGC art. 32.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Un coche de policía te manda parar",
+            "en": "A police car orders you to stop"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Un vehículo de policía con sus señales de prioridad se coloca detrás de ti. Si además muestra una **luz roja intermitente hacia delante**, debes detenerte en el lado derecho, delante del vehículo policial. Hazlo con precaución y busca un lugar donde no causes más riesgos. Permanece dentro de tu vehículo.",
+                "en": "A police vehicle with its priority signals gets behind you. If it also shows a **flashing red light toward the front**, you must stop on the right side, in front of the police vehicle. Do it carefully and find a place that does not create further risks. Stay inside your vehicle."
+              },
+              "src": "RGC art. 69, para. 2 (in force from 2026-10-01)"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Sigue en todo momento las instrucciones que el agente dé por megafonía o por otro medio que puedas percibir.",
+                "en": "Follow at all times the instructions the officer gives by loudspeaker or any other means you can perceive."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c4e",
+                "answer": 1,
+                "es": {
+                  "q": "Un coche de policía te sigue con sus luces y muestra una luz roja intermitente hacia delante. ¿Qué haces?",
+                  "options": [
+                    "Aceleras para dejar pasar al coche de policía",
+                    "Te detienes a la derecha, delante de la policía, y no sales",
+                    "Te detienes en tu carril y sales a hablar con el agente"
+                  ],
+                  "why": "Debes detenerte con precaución en el lado derecho, delante del vehículo policial, en un lugar seguro, y permanecer en el interior."
+                },
+                "en": {
+                  "q": "A police car follows you with its lights on and shows a flashing red light toward the front. What do you do?",
+                  "options": [
+                    "Speed up to let the police car pass",
+                    "Stop on the right, ahead of the police car, and stay in",
+                    "Stop in your lane and get out to talk to the officer"
+                  ],
+                  "why": "You must stop carefully on the right side, in front of the police vehicle, in a safe place, and stay inside."
+                },
+                "terms": [
+                  {
+                    "es": "luz roja intermitente",
+                    "en": "flashing red light"
+                  }
+                ],
+                "src": "RGC art. 69, para. 2"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "Orden de las señales: **agente**, señal temporal, semáforo, señal vertical y marca vial.",
+          "en": "Order of signals: **officer**, temporary sign, traffic light, vertical sign and road marking."
+        },
+        {
+          "es": "**Brazo levantado**: te detienes antes del cruce. No obliga a quien ya ha entrado en él.",
+          "en": "**Raised arm**: you stop before the junction. It does not oblige anyone already inside it."
+        },
+        {
+          "es": "**Brazos extendidos**: paran quienes llegan de frente y de espaldas al agente.",
+          "en": "**Arms held out**: those arriving facing or behind the officer stop."
+        },
+        {
+          "es": "Ante un **vehículo prioritario** te apartas a la derecha o te detienes si hace falta.",
+          "en": "For a **priority vehicle**, pull to the right or stop if needed."
+        },
+        {
+          "es": "**Policía con luz roja hacia delante** detrás de ti: paras a la derecha, delante de ella, y te quedas dentro.",
+          "en": "**Police with a red light to the front** behind you: stop on the right, in front of them, and stay inside."
+        }
+      ],
+      "covers": [
+        "priority-06",
+        "priority-09"
+      ],
+      "src": [
+        "Reglamento General de Circulación (RD 1428/2003), arts. 32.1, 67, 68, 69, 133 y 141.1, y anexo I, apartado 1.1"
+      ]
+    },
+    {
+      "id": "pedestrians-and-cyclists",
+      "title": {
+        "es": "Peatones y ciclistas",
+        "en": "Pedestrians and cyclists"
+      },
+      "minutes": 7,
+      "goals": [
+        {
+          "es": "Saber cuándo debes dejar pasar a un peatón.",
+          "en": "Know when you must let a pedestrian pass."
+        },
+        {
+          "es": "Saber qué hacer al girar si hay gente cruzando.",
+          "en": "Know what to do when you turn and people are crossing."
+        },
+        {
+          "es": "Saber cuándo tiene prioridad un ciclista.",
+          "en": "Know when a cyclist has priority."
+        }
+      ],
+      "terms": [
+        {
+          "es": "peatón",
+          "en": "pedestrian"
+        },
+        {
+          "es": "paso de peatones",
+          "en": "pedestrian crossing"
+        },
+        {
+          "es": "acera",
+          "en": "sidewalk"
+        },
+        {
+          "es": "arcén",
+          "en": "shoulder"
+        },
+        {
+          "es": "girar",
+          "en": "to turn"
+        },
+        {
+          "es": "carril bici",
+          "en": "bike lane"
+        },
+        {
+          "es": "zona peatonal",
+          "en": "pedestrian zone"
+        }
+      ],
+      "pretest": {
+        "id": "priority-pre-5",
+        "answer": 1,
+        "es": {
+          "q": "Sales de un garaje y cruzas la acera para entrar en la calle. Un peatón camina por la acera. ¿Quién pasa primero?",
+          "options": [
+            "Tú, porque el coche ya está en movimiento",
+            "El peatón",
+            "El que llegue antes al paso"
+          ],
+          "why": "Los peatones tienen prioridad en las aceras y demás zonas peatonales. Al cruzarlas con el coche, les dejas pasar."
+        },
+        "en": {
+          "q": "You leave a garage and cross the sidewalk to enter the street. A pedestrian is walking along the sidewalk. Who goes first?",
+          "options": [
+            "You, because the car is already moving",
+            "The pedestrian",
+            "Whoever gets there first"
+          ],
+          "why": "Pedestrians have priority on sidewalks and other pedestrian areas. When you cross them in a car, you let them pass."
+        },
+        "src": "RGC art. 65.1.a"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "La regla general y la atención",
+            "en": "The general rule and paying attention"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "El conductor tiene prioridad sobre peatones y animales en la calzada y el arcén cuando se cortan sus trayectorias. Las excepciones están en los artículos 65 y 66: en ellas debes **dejarlos pasar**, llegando a detenerte si hace falta.",
+                "en": "As a general rule, when their paths cross, drivers have priority on the roadway and the shoulder over pedestrians and animals. There are exceptions in articles 65 and 66: in them drivers must **let them pass**, stopping if necessary."
+              },
+              "src": "RGC art. 64.1"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Esa regla no te permite despreocuparte. Debes circular a velocidad moderada y detenerte si hace falta cuando haya peatones, o pueda preverse que aparezcan.",
+                "en": "That rule does not let you stop paying attention. You must drive at a moderate speed and stop if needed when there are pedestrians, or when they may be expected to appear."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Presta especial atención a los niños, las personas mayores y las personas con discapacidad. También modera la velocidad en los pasos de peatones sin semáforo ni agente.",
+                "en": "Pay special attention to children, older people and people with disabilities. Also slow down at pedestrian crossings with no traffic light or officer."
+              },
+              "src": "RGC art. 46.1.a and b"
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Pasos de peatones",
+            "en": "Pedestrian crossings"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los peatones tienen prioridad de paso en los **pasos para peatones debidamente señalizados**.",
+                "en": "Pedestrians have right of way at **properly marked pedestrian crossings**."
+              },
+              "src": "RGC art. 65.1.a"
+            },
+            {
+              "t": "figure",
+              "file": "priority-zebra",
+              "alt": {
+                "es": "Carretera vista desde arriba con un paso de peatones. Una persona P cruza de izquierda a derecha. Un coche azul B se detiene antes de la línea de detención y sale cuando la persona ha terminado de cruzar.",
+                "en": "Road seen from above with a pedestrian crossing. A person P crosses from left to right. A blue car B stops before the stop line and pulls away once the person has finished crossing."
+              },
+              "caption": {
+                "es": "B se detiene antes del paso y espera hasta que la persona ha terminado de cruzar.",
+                "en": "B stops before the crossing and waits until the person has finished crossing."
+              },
+              "legend": [
+                {
+                  "mark": "P",
+                  "text": {
+                    "es": "Peatón cruzando por el paso.",
+                    "en": "Pedestrian using the crossing."
+                  }
+                },
+                {
+                  "mark": "B",
+                  "text": {
+                    "es": "Tú, parado antes del paso.",
+                    "en": "You, stopped before the crossing."
+                  }
+                }
+              ]
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Reduce la velocidad al acercarte y detente a tiempo, antes del paso.",
+                "en": "Slow down as you approach and stop in time, before the crossing."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Está prohibido adelantar en los pasos para peatones señalizados y en sus proximidades.",
+                "en": "Overtaking is prohibited at marked pedestrian crossings and near them."
+              },
+              "src": "RGC art. 87.1.b"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "No entres en un paso de peatones si es previsible que quedes parado encima y lo **obstruyas**, aunque tengas prioridad.",
+                "en": "Do not enter a pedestrian crossing if you are likely to end up stopped on it and **obstruct** it, even if you have priority."
+              },
+              "src": "RGC art. 59.1"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c5a",
+                "answer": 0,
+                "es": {
+                  "q": "Hay un paso de peatones y la cola de coches de delante está parada. Si avanzas, es previsible que quedes parado encima del paso. ¿Qué haces?",
+                  "options": [
+                    "Esperas antes del paso hasta que haya sitio",
+                    "Avanzas y te paras encima, con el intermitente",
+                    "Avanzas: tienes prioridad por la calzada"
+                  ],
+                  "why": "No debes entrar en un paso de peatones si es previsible que quedes detenido de forma que lo obstruyas."
+                },
+                "en": {
+                  "q": "There is a pedestrian crossing and the queue of cars ahead is stopped. If you move forward, you are likely to stop on the crossing. What do you do?",
+                  "options": [
+                    "Wait before the crossing until there is room",
+                    "Move forward and stop on it, with your signal on",
+                    "Move forward: you have priority on the road"
+                  ],
+                  "why": "You must not enter a pedestrian crossing if you are likely to end up stopped so that you obstruct it."
+                },
+                "terms": [
+                  {
+                    "es": "paso de peatones",
+                    "en": "pedestrian crossing"
+                  },
+                  {
+                    "es": "obstruir",
+                    "en": "to obstruct"
+                  }
+                ],
+                "src": "RGC art. 59.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Al girar, los peatones pasan primero",
+            "en": "When you turn, pedestrians go first"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Cuando vas a **girar** para entrar en otra vía y hay peatones cruzándola, ellos tienen prioridad, aunque no exista paso.",
+                "en": "When you are about to **turn** into another road and pedestrians are crossing it, they have priority, even if there is no crossing."
+              },
+              "src": "RGC art. 65.1.b"
+            },
+            {
+              "t": "figure",
+              "file": "priority-pedestrian-turn",
+              "alt": {
+                "es": "Cruce visto desde arriba. Un coche azul B gira a la derecha hacia una calle que dos personas P cruzan a pie, sin paso de peatones marcado. B espera a que terminen y luego entra en la calle.",
+                "en": "Junction seen from above. A blue car B turns right into a street that two people P are crossing on foot, with no marked crossing. B waits until they finish and then enters the street."
+              },
+              "caption": {
+                "es": "Al girar, B espera a las personas que cruzan la calle a la que entra, aunque no haya paso de peatones.",
+                "en": "When turning, B waits for the people crossing the street it enters, even though there is no pedestrian crossing."
+              },
+              "legend": [
+                {
+                  "mark": "P",
+                  "text": {
+                    "es": "Personas cruzando la calle a la que entras.",
+                    "en": "People crossing the street you are entering."
+                  }
+                },
+                {
+                  "mark": "B",
+                  "text": {
+                    "es": "Tú, esperando para entrar.",
+                    "en": "You, waiting to enter."
+                  }
+                }
+              ]
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Al acercarte a una esquina para girar, mira primero la calle a la que vas a entrar. Gira despacio.",
+                "en": "As you approach a corner to turn, look first at the street you are about to enter. Turn slowly."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c5b",
+                "answer": 2,
+                "es": {
+                  "q": "Giras a la derecha para entrar en una calle sin paso de peatones marcado. Dos personas la están cruzando. ¿Qué haces?",
+                  "options": [
+                    "Pasas por detrás de ellas sin parar",
+                    "Haces sonar el claxon para que se apresuren",
+                    "Esperas a que terminen de cruzar"
+                  ],
+                  "why": "Al girar, los peatones que cruzan la calle a la que entras tienen prioridad, aunque no haya paso de peatones."
+                },
+                "en": {
+                  "q": "You turn right into a street with no marked pedestrian crossing. Two people are crossing it. What do you do?",
+                  "options": [
+                    "Pass behind them without stopping",
+                    "Sound the horn so they hurry",
+                    "Wait until they finish crossing"
+                  ],
+                  "why": "When you turn, pedestrians crossing the street you enter have priority, even if there is no pedestrian crossing."
+                },
+                "terms": [
+                  {
+                    "es": "girar",
+                    "en": "to turn"
+                  }
+                ],
+                "src": "RGC art. 65.1.b"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Otros casos en que el peatón pasa primero",
+            "en": "Other cases where pedestrians go first"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Además de los pasos y los giros, los peatones tienen prioridad en estos casos:",
+                "en": "Besides crossings and turns, pedestrians have priority in these cases:"
+              },
+              "src": "RGC art. 65.1 and 65.2"
+            },
+            {
+              "t": "list",
+              "items": [
+                {
+                  "es": "En las **aceras** y demás zonas peatonales, por ejemplo cuando sales de un garaje.",
+                  "en": "On **sidewalks** and other pedestrian areas, for example when you leave a garage."
+                },
+                {
+                  "es": "Cuando cruzas un **arcén** por el que caminan peatones y no hay zona peatonal.",
+                  "en": "When you cross a **shoulder** where pedestrians are walking and there is no pedestrian area."
+                },
+                {
+                  "es": "En una parada señalizada, si los viajeros van a subir a un **autobús** o acaban de bajar y están entre él y la zona peatonal o el refugio más próximo.",
+                  "en": "At a marked stop, when passengers are about to board a **bus** or have just got off and are between it and the nearest pedestrian area or refuge."
+                },
+                {
+                  "es": "Ante unidades militares a pie, **filas escolares** y comitivas organizadas.",
+                  "en": "For military units on foot, **school lines** and organized processions."
+                },
+                {
+                  "es": "En una **zona peatonal** que cruzas por un paso habilitado, dejas pasar a los peatones.",
+                  "en": "In a **pedestrian zone** that you cross at an authorized crossing point, you let pedestrians pass."
+                }
+              ]
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c5c",
+                "answer": 1,
+                "es": {
+                  "q": "Un autobús está parado en su parada señalizada. Varias personas acaban de bajar y están entre el autobús y la acera. ¿Qué haces?",
+                  "options": [
+                    "Pasas despacio, sin detenerte",
+                    "Te detienes y les dejas pasar",
+                    "Haces sonar el claxon para que se aparten"
+                  ],
+                  "why": "Tienen prioridad los peatones que suben o acaban de bajar en una parada señalizada, mientras están entre el autobús y la zona peatonal."
+                },
+                "en": {
+                  "q": "A bus is stopped at its marked stop. Several people have just got off and are between the bus and the sidewalk. What do you do?",
+                  "options": [
+                    "Pass slowly without stopping",
+                    "Stop and let them cross",
+                    "Sound the horn so they move aside"
+                  ],
+                  "why": "Pedestrians boarding or just off a bus at a marked stop have priority while they are between the bus and the pedestrian area."
+                },
+                "terms": [
+                  {
+                    "es": "parada",
+                    "en": "bus stop"
+                  },
+                  {
+                    "es": "autobús",
+                    "en": "bus"
+                  }
+                ],
+                "src": "RGC art. 65.1.d"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Ciclistas",
+            "en": "Cyclists"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los ciclistas tienen prioridad de paso sobre otros vehículos en estos casos:",
+                "en": "Cyclists have right of way over other vehicles in these cases:"
+              },
+              "src": "RGC art. 64.2 (text in force from 2026-10-01)"
+            },
+            {
+              "t": "list",
+              "items": [
+                {
+                  "es": "Cuando circulan por un **carril bici**, un paso para ciclistas o un arcén debidamente señalizados.",
+                  "en": "When they ride in a **bike lane**, a cycle crossing or a shoulder that is properly marked."
+                },
+                {
+                  "es": "Cuando un vehículo de motor o un ciclomotor **gira** para entrar en otra vía, en los casos en que está permitido, y hay un ciclista cerca.",
+                  "en": "When a motor vehicle or moped **turns** into another road, where turning is allowed, and a cyclist is nearby."
+                },
+                {
+                  "es": "Cuando circulan en grupo y el primero ya ha empezado a cruzar o ha entrado en una glorieta.",
+                  "en": "When they ride as a group and the first has already started to cross or has entered a roundabout."
+                }
+              ]
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "En los demás casos valen las normas generales de prioridad entre vehículos.",
+                "en": "In all other cases, the general priority rules between vehicles apply."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Antes de girar, mira por el espejo y por el lado: puede haber un ciclista junto a ti.",
+                "en": "Before turning, check your mirror and your side: there may be a cyclist next to you."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c5d",
+                "answer": 0,
+                "es": {
+                  "q": "Vas a girar a la derecha y un ciclista circula a tu lado, en el mismo sentido, por un carril bici señalizado. ¿Quién tiene prioridad?",
+                  "options": [
+                    "El ciclista, que va por su carril",
+                    "Tú, porque ya estás girando",
+                    "El que llegue primero a la esquina"
+                  ],
+                  "why": "Los ciclistas tienen prioridad en un carril bici señalizado y cuando un vehículo de motor gira y hay un ciclista cerca."
+                },
+                "en": {
+                  "q": "You are about to turn right and a cyclist rides next to you, in the same direction, in a marked bike lane. Who has priority?",
+                  "options": [
+                    "The cyclist, who is in their own lane",
+                    "You, because you are already turning",
+                    "Whoever reaches the corner first"
+                  ],
+                  "why": "Cyclists have priority in a marked bike lane and when a motor vehicle turns and a cyclist is nearby."
+                },
+                "terms": [
+                  {
+                    "es": "carril bici",
+                    "en": "bike lane"
+                  },
+                  {
+                    "es": "ciclista",
+                    "en": "cyclist"
+                  }
+                ],
+                "src": "RGC art. 64.2"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "En un **paso de peatones** señalizado, el peatón pasa primero: reduces y te detienes antes del paso.",
+          "en": "At a marked **pedestrian crossing**, the pedestrian goes first: you slow down and stop before it."
+        },
+        {
+          "es": "**Al girar**, dejas pasar a quien cruza la calle a la que entras, aunque no haya paso.",
+          "en": "**When you turn**, you let pass anyone crossing the street you enter, even with no crossing."
+        },
+        {
+          "es": "Los peatones también pasan primero en las **aceras**, en el arcén sin zona peatonal y junto a las paradas de autobús.",
+          "en": "Pedestrians also go first on **sidewalks**, on a shoulder with no pedestrian area, and beside bus stops."
+        },
+        {
+          "es": "Un **ciclista** tiene prioridad en un carril bici señalizado y cuando giras y hay uno cerca.",
+          "en": "A **cyclist** has priority in a marked bike lane and when you turn and one is nearby."
+        }
+      ],
+      "covers": [
+        "priority-07",
+        "priority-08"
+      ],
+      "src": [
+        "Reglamento General de Circulación (RD 1428/2003), arts. 46.1, 59.1, 64.1, 64.2, 65.1 y 65.2"
+      ]
+    }
+  ]
+}

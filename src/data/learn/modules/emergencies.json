@@ -1,0 +1,1310 @@
+{
+  "id": "emergencies",
+  "title": {
+    "es": "Accidentes y primeros auxilios",
+    "en": "Collisions and first aid"
+  },
+  "blurb": {
+    "es": "Qué hacer si ves o sufres un accidente: protege, avisa, socorre, y cómo señalizar y esperar con seguridad si tu coche se queda parado.",
+    "en": "What to do if you see or have a collision: protect, alert, help, and how to signal and wait safely if your car stops on the road."
+  },
+  "lessons": [
+    {
+      "id": "pas-and-duty",
+      "title": {
+        "es": "PAS y el deber de auxiliar",
+        "en": "PAS and the duty to help"
+      },
+      "minutes": 6,
+      "goals": [
+        {
+          "es": "Decir qué significa PAS y en qué orden se hace.",
+          "en": "Say what PAS means and in what order you do it."
+        },
+        {
+          "es": "Saber que la ley te obliga a ayudar o a pedir ayuda.",
+          "en": "Know that the law requires you to help or to call for help."
+        },
+        {
+          "es": "Saber qué debes hacer si has chocado tú: no marcharte.",
+          "en": "Know what to do if you were in the collision: do not leave."
+        }
+      ],
+      "terms": [
+        {
+          "es": "proteger",
+          "en": "to protect"
+        },
+        {
+          "es": "avisar",
+          "en": "to alert"
+        },
+        {
+          "es": "socorrer",
+          "en": "to help (rescue)"
+        },
+        {
+          "es": "auxilio",
+          "en": "aid, help"
+        },
+        {
+          "es": "herido",
+          "en": "injured person"
+        },
+        {
+          "es": "calzada",
+          "en": "roadway"
+        },
+        {
+          "es": "agente de la autoridad",
+          "en": "traffic officer"
+        }
+      ],
+      "pretest": {
+        "id": "emergencies-pre-1",
+        "answer": 1,
+        "es": {
+          "q": "Presencias un accidente con heridos, pero tú no estás implicado. ¿Tienes alguna obligación?",
+          "options": [
+            "No, solo los conductores implicados",
+            "Sí: auxiliar a las víctimas o pedir auxilio",
+            "Solo si eres médico"
+          ],
+          "why": "La ley obliga a todo usuario de la vía que presencie un accidente a auxiliar o a solicitar auxilio para atender a las víctimas."
+        },
+        "en": {
+          "q": "You witness a collision with injured people, but you are not involved. Do you have any duty?",
+          "options": [
+            "No, only the drivers involved do",
+            "Yes: help the victims or call for help",
+            "Only if you are a doctor"
+          ],
+          "why": "The law requires any road user who witnesses a collision to help the victims or to call for help."
+        },
+        "src": "RGC art. 129.1"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "PAS: tres pasos, en orden",
+            "en": "PAS: three steps, in order"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Si ves un accidente, no improvises. Usa la regla **PAS**: **P**roteger, **A**visar, **S**ocorrer.",
+                "en": "If you see a collision, do not improvise. Use the **PAS** rule: **P**roteger (protect), **A**visar (alert), **S**ocorrer (help)."
+              }
+            },
+            {
+              "t": "list",
+              "ordered": true,
+              "items": [
+                {
+                  "es": "**Proteger**: detén tu vehículo sin crear otro peligro y señaliza el lugar. Piensa también en tu propia seguridad.",
+                  "en": "**Proteger**: stop your vehicle without creating a new danger and mark the scene. Think about your own safety too."
+                },
+                {
+                  "es": "**Avisar**: llama al **112** y da los datos del lugar y de los heridos.",
+                  "en": "**Avisar**: call **112** and give the location and the details of the injured."
+                },
+                {
+                  "es": "**Socorrer**: ayuda a los heridos, solo con lo que sepas hacer.",
+                  "en": "**Socorrer**: help the injured, only with what you know how to do."
+                }
+              ]
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "El orden importa. Si tú no estás a salvo, no podrás ayudar a nadie: primero te proteges a ti y al lugar.",
+                "en": "The order matters. If you are not safe, you cannot help anyone: first you protect yourself and the scene."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "emergencies-c1a",
+                "answer": 1,
+                "es": {
+                  "q": "Eres el primero en llegar a un accidente con heridos. ¿Qué haces primero?",
+                  "options": [
+                    "Sacar enseguida a todos los heridos del coche",
+                    "Protegerte y proteger el lugar para evitar otro accidente",
+                    "Darles agua para que se tranquilicen"
+                  ],
+                  "why": "En la regla PAS lo primero es proteger: tu seguridad y la del lugar. Luego se avisa al 112 y después se socorre."
+                },
+                "en": {
+                  "q": "You are the first to arrive at a collision with injured people. What do you do first?",
+                  "options": [
+                    "Pull all the injured out of the car at once",
+                    "Protect yourself and the scene to prevent another crash",
+                    "Give them water to calm them down"
+                  ],
+                  "why": "In the PAS rule, protect comes first: your safety and the scene's. Then you alert 112, and only then do you help."
+                },
+                "terms": [
+                  {
+                    "es": "proteger",
+                    "en": "to protect"
+                  }
+                ],
+                "src": "DGT guidance (PAS); RGC art. 129.2.a"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "La ley te obliga a ayudar",
+            "en": "The law requires you to help"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Quien se vea implicado en un accidente, lo presencie o sepa de él debe **auxiliar o solicitar auxilio** para atender a las víctimas, ayudar a evitar más peligros o daños, restablecer, en lo posible, la seguridad de la circulación y esclarecer los hechos.",
+                "en": "Anyone who is involved in a collision, witnesses it or learns of it must **help or call for help** for the victims, help prevent further danger or damage, restore road safety as far as possible, and help establish the facts."
+              },
+              "src": "RGC art. 129.1 (LSV art. 51.1)"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Fíjate en la palabra **o**: «auxiliar **o** solicitar auxilio». Si no sabes dar primeros auxilios, lo que se espera de ti es pedir auxilio llamando al 112.",
+                "en": "Notice the word **or**: “help **or** call for help”. If you do not know first aid, what is expected of you is to call for help by dialing 112."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "No socorrer a una persona desamparada y en peligro manifiesto y grave, cuando puedes hacerlo **sin riesgo propio ni de terceros**, es delito. Si no puedes ayudar tú, debes pedir ayuda ajena con urgencia.",
+                "en": "Failing to help a helpless person in obvious, serious danger, when you can do so **without risk to yourself or others**, is a crime. If you cannot help yourself, you must urgently ask for outside help."
+              },
+              "src": "Código Penal art. 195.1 y 195.2"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Si el accidente lo causaste tú y no ayudas, la pena es de prisión (art. 195.3). Y fíjate en «sin riesgo propio»: ayudar no significa ponerte en peligro. Si el lugar es peligroso, protégete primero.",
+                "en": "If you caused the collision and do not help, the penalty is prison (art. 195.3). And note “without risk to yourself”: helping does not mean putting yourself in danger. If the place is dangerous, protect yourself first."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "emergencies-c1b",
+                "answer": 2,
+                "es": {
+                  "q": "Presencias un accidente con un herido grave en la carretera. No sabes primeros auxilios. ¿Qué haces?",
+                  "options": [
+                    "Sigues tu camino: tú no estás implicado",
+                    "Esperas a que pase otra persona y lo atienda",
+                    "Pides auxilio llamando al 112"
+                  ],
+                  "why": "Todo el que presencia un accidente debe auxiliar o solicitar auxilio. Si no puedes ayudar tú, pides ayuda ajena con urgencia: el 112."
+                },
+                "en": {
+                  "q": "You witness a collision with a seriously injured person on the road. You do not know first aid. What do you do?",
+                  "options": [
+                    "Drive on: you are not involved",
+                    "Wait for someone else to pass and help",
+                    "Call for help by dialing 112"
+                  ],
+                  "why": "Anyone who witnesses a collision must help or call for help. If you cannot help yourself, you ask for outside help urgently: 112."
+                },
+                "terms": [
+                  {
+                    "es": "pedir auxilio",
+                    "en": "to call for help"
+                  }
+                ],
+                "src": "RGC art. 129.1; Código Penal art. 195.2"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Proteger: detente sin crear otro peligro",
+            "en": "Protect: stop without creating a new danger"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "El usuario implicado en un accidente debe, en lo posible, **detenerse de forma que no cree un nuevo peligro** para la circulación.",
+                "en": "A road user involved in a collision must, as far as possible, **stop in a way that does not create a new danger** for traffic."
+              },
+              "src": "RGC art. 129.2.a"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Hazte una **idea de conjunto** del accidente y de sus consecuencias. Así decides qué es más urgente: la seguridad de la circulación, auxiliar a las víctimas, dar tu identidad o colaborar con la autoridad.",
+                "en": "Get an **overall picture** of the collision and its consequences. That lets you decide what is most urgent: traffic safety, helping the victims, giving your identity or cooperating with the authorities."
+              },
+              "src": "RGC art. 129.2.b"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si no estás implicado, debes hacer lo mismo en lo que puedas y te afecte, salvo que tu colaboración manifiestamente no sea necesaria o ya haya llegado la autoridad.",
+                "en": "If you are not involved, you must do the same as far as you can and it applies to you, unless your help is clearly not needed or the authorities have already arrived."
+              },
+              "src": "RGC art. 129.3"
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Práctica que recomienda la DGT: apaga el motor, pon el freno de mano, enciende las luces de emergencia y ponte el chaleco reflectante antes de salir del coche.",
+                "en": "Practice the DGT recommends: switch off the engine, set the handbrake, turn on the hazard lights and put on your reflective vest before you get out of the car."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "emergencies-c1c",
+                "answer": 0,
+                "es": {
+                  "q": "Llegas a un accidente en una carretera y vas a parar. ¿Cómo debes detener tu vehículo?",
+                  "options": [
+                    "De forma que no cree un nuevo peligro para la circulación",
+                    "Lo más cerca posible de los heridos, aunque estorbe",
+                    "Atravesado en el carril, para que los demás frenen"
+                  ],
+                  "why": "Detener el vehículo sin crear un nuevo peligro es lo que exige el Reglamento. Un segundo accidente empeora la situación."
+                },
+                "en": {
+                  "q": "You come upon a collision on a road and are about to stop. How must you stop your vehicle?",
+                  "options": [
+                    "In a way that does not create a new danger for traffic",
+                    "As close as possible to the injured, even if it blocks traffic",
+                    "Sideways across the lane, so everyone else brakes"
+                  ],
+                  "why": "The Regulation requires you to stop without creating a new danger. A second crash makes things worse."
+                },
+                "terms": [
+                  {
+                    "es": "nuevo peligro",
+                    "en": "new danger"
+                  }
+                ],
+                "src": "RGC art. 129.2.a"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Si has chocado tú: no te marches",
+            "en": "If you were in the collision: do not leave"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si alguien parece herido o muerto, **avisa a la autoridad** y **permanece o vuelve al lugar** hasta que llegue. Solo puedes irte si te lo autorizan, o si debes socorrer a los heridos o ser atendido tú.",
+                "en": "If someone seems injured or dead, **alert the authorities** and **stay at, or return to, the scene** until they arrive. You may only leave if they authorize it, or if you must help the injured or be treated yourself."
+              },
+              "src": "RGC art. 129.2.e"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "No hace falta avisar ni quedarse si las heridas son claramente leves, la circulación vuelve a ser segura y nadie implicado lo pide.",
+                "en": "You need not alert anyone or stay if the injuries are clearly minor, traffic is safe again and nobody involved asks you to."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si te lo piden, debes dar tu **identidad** a las otras personas implicadas y facilitarles los **datos de tu vehículo**.",
+                "en": "If they ask, you must give the other people involved your **identity** and the **details of your vehicle**."
+              },
+              "src": "RGC art. 129.2.f y 129.2.g"
+            },
+            {
+              "t": "example",
+              "title": {
+                "es": "Un golpe con un herido",
+                "en": "A collision with an injured person"
+              },
+              "situation": {
+                "es": "Chocas con otro coche. El otro conductor dice que le duele el cuello y no se mueve. Ya has llamado al 112.",
+                "en": "You hit another car. The other driver says his neck hurts and does not move. You have already called 112."
+              },
+              "action": {
+                "es": "Quédate en un lugar seguro hasta que llegue la autoridad. Si tienes que apartarte, vuelve. No te marches sin su permiso.",
+                "en": "Stay in a safe place until the authorities arrive. If you have to move away, come back. Do not leave without their permission."
+              },
+              "why": {
+                "es": "Hay una persona herida y se ha avisado a la autoridad: debes permanecer o volver al lugar hasta que llegue (art. 129.2.e).",
+                "en": "A person is injured and the authorities have been alerted: you must stay at, or return to, the scene until they arrive (art. 129.2.e)."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "emergencies-c1d",
+                "answer": 1,
+                "es": {
+                  "q": "Has chocado con otro coche y una persona parece herida. Ya se ha avisado a la autoridad. ¿Qué debes hacer?",
+                  "options": [
+                    "Marcharte en cuanto el otro conductor te lo permita",
+                    "Permanecer o volver al lugar hasta que llegue la autoridad",
+                    "Seguir tu viaje y llamar más tarde para dar tus datos"
+                  ],
+                  "why": "Con una persona herida, debes permanecer o volver al lugar del accidente hasta que llegue la autoridad, salvo que te autorice a irte."
+                },
+                "en": {
+                  "q": "You have hit another car and a person seems injured. The authorities have already been alerted. What must you do?",
+                  "options": [
+                    "Leave as soon as the other driver lets you",
+                    "Stay at, or return to, the scene until the authorities arrive",
+                    "Drive on and call later to give your details"
+                  ],
+                  "why": "With an injured person, you must stay at or return to the scene until the authorities arrive, unless they authorize you to leave."
+                },
+                "terms": [
+                  {
+                    "es": "permanecer",
+                    "en": "to stay"
+                  }
+                ],
+                "src": "RGC art. 129.2.e"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "**PAS**: Proteger, Avisar, Socorrer, en ese orden. Primero tu seguridad.",
+          "en": "**PAS**: Proteger, Avisar, Socorrer, in that order. Your own safety first."
+        },
+        {
+          "es": "La ley te obliga a **auxiliar o pedir auxilio**, aunque no estés implicado.",
+          "en": "The law requires you to **help or call for help**, even if you are not involved."
+        },
+        {
+          "es": "Detente **sin crear otro peligro** para la circulación.",
+          "en": "Stop **without creating a new danger** for traffic."
+        },
+        {
+          "es": "Si estás implicado y hay heridos, **no te marches**: permanece o vuelve hasta que llegue la autoridad.",
+          "en": "If you are involved and there are injured people, **do not leave**: stay or return until the authorities arrive."
+        }
+      ],
+      "covers": [
+        "situations-01"
+      ],
+      "src": [
+        "Reglamento General de Circulación (RD 1428/2003), art. 129",
+        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), art. 51.1",
+        "Código Penal, art. 195",
+        "DGT guidance: «Qué hacer ante un accidente de tráfico» (dgt.es, actualizada el 30-11-2022)"
+      ]
+    },
+    {
+      "id": "call-112-first-aid",
+      "title": {
+        "es": "Llamar al 112 y ayudar sin empeorar",
+        "en": "Calling 112 and helping without making it worse"
+      },
+      "minutes": 6,
+      "goals": [
+        {
+          "es": "Saber que el número de emergencias es el 112 y qué datos dar.",
+          "en": "Know the emergency number is 112 and what details to give."
+        },
+        {
+          "es": "Saber cuándo ayudar y cuándo solo llamar.",
+          "en": "Know when to help and when to just call."
+        },
+        {
+          "es": "Conocer tres cosas que no se hacen: mover al herido, quitar el casco, dar de beber o comer.",
+          "en": "Know three things you do not do: move the injured, remove the helmet, give food or drink."
+        }
+      ],
+      "terms": [
+        {
+          "es": "112",
+          "en": "single emergency number"
+        },
+        {
+          "es": "punto kilométrico",
+          "en": "kilometer marker"
+        },
+        {
+          "es": "sentido de la marcha",
+          "en": "direction of travel"
+        },
+        {
+          "es": "primeros auxilios",
+          "en": "first aid"
+        },
+        {
+          "es": "casco",
+          "en": "helmet"
+        },
+        {
+          "es": "hemorragia",
+          "en": "bleeding"
+        },
+        {
+          "es": "atrapado",
+          "en": "trapped"
+        }
+      ],
+      "pretest": {
+        "id": "emergencies-pre-2",
+        "answer": 2,
+        "es": {
+          "q": "Llamas al 112 por un accidente. ¿Qué dato necesitan para saber adónde enviar ayuda?",
+          "options": [
+            "Quién ha tenido la culpa",
+            "El nombre de tu aseguradora",
+            "Dónde ha ocurrido: carretera, punto kilométrico y sentido"
+          ],
+          "why": "El servicio de emergencias necesita sobre todo el lugar exacto del accidente. La culpa y el seguro no cambian a dónde debe ir la ayuda."
+        },
+        "en": {
+          "q": "You call 112 about a collision. What detail do they need to know where to send help?",
+          "options": [
+            "Who was at fault",
+            "The name of your insurer",
+            "Where it happened: road, kilometer marker and direction"
+          ],
+          "why": "The emergency service needs the exact place above all. Fault and insurance do not change where help must go."
+        },
+        "src": "DGT guidance"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "El número es el 112",
+            "en": "The number is 112"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "En España el número de emergencias es el **112**. Es el número europeo de emergencias y funciona en todo el país. Te pone en contacto con un centro que avisa a los servicios que hagan falta.",
+                "en": "In Spain the emergency number is **112**. It is the European emergency number and works across the country. It connects you to a center that alerts whichever services are needed."
+              }
+            },
+            {
+              "t": "us",
+              "text": {
+                "es": "En EE. UU. se llama al 911. En España llama al 112, no al 911.",
+                "en": "In the US you dial 911. In Spain, dial 112, not 911."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "También existen el 062 (Guardia Civil), el 091 (Policía Nacional) y el 092 (Policía Local). Ante un accidente, empieza por el 112.",
+                "en": "There are also 062 (Guardia Civil), 091 (Policía Nacional) and 092 (Policía Local). For a collision, start with 112."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Qué decir al 112",
+            "en": "What to tell 112"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Habla claro y breve. Estos son los datos que la DGT recomienda dar:",
+                "en": "Speak clearly and briefly. These are the details the DGT recommends giving:"
+              }
+            },
+            {
+              "t": "list",
+              "items": [
+                {
+                  "es": "**Dónde**: calle y número, o carretera y punto kilométrico, localidad y sentido de la marcha.",
+                  "en": "**Where**: street and number, or road and kilometer marker, town and direction of travel."
+                },
+                {
+                  "es": "**Qué vehículos**: cuántos son y de qué tipo.",
+                  "en": "**Which vehicles**: how many and what type."
+                },
+                {
+                  "es": "**Cuántos heridos** hay y cómo están.",
+                  "en": "**How many injured** there are and how they are."
+                },
+                {
+                  "es": "**Circunstancias especiales**: personas atrapadas, riesgo de que caiga un vehículo, mercancías peligrosas, un coche en el agua.",
+                  "en": "**Special circumstances**: trapped people, a vehicle at risk of falling, dangerous goods, a car in water."
+                },
+                {
+                  "es": "Un **teléfono de contacto**.",
+                  "en": "A **contact phone number**."
+                }
+              ]
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Responde a lo que te pregunten y sigue las instrucciones del operador. Si dudas de qué hacer, llama al 112 y haz lo que te digan.",
+                "en": "Answer what you are asked and follow the operator's instructions. If you are unsure what to do, call 112 and do what they tell you."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "emergencies-c2a",
+                "answer": 0,
+                "es": {
+                  "q": "Llamas al 112 por un accidente en una carretera. ¿Qué datos del lugar debes dar?",
+                  "options": [
+                    "La carretera, el punto kilométrico y el sentido de la marcha",
+                    "Solo el color de los coches implicados",
+                    "Solo el nombre de tu aseguradora"
+                  ],
+                  "why": "El lugar exacto es el dato clave: carretera, punto kilométrico y sentido de la marcha, o calle y número en una población."
+                },
+                "en": {
+                  "q": "You call 112 about a collision on a road. What details of the location should you give?",
+                  "options": [
+                    "The road, the kilometer marker and the direction of travel",
+                    "Only the color of the cars involved",
+                    "Only the name of your insurer"
+                  ],
+                  "why": "The exact place is the key detail: road, kilometer marker and direction of travel, or street and number in a town."
+                },
+                "terms": [
+                  {
+                    "es": "punto kilométrico",
+                    "en": "kilometer marker"
+                  }
+                ],
+                "src": "DGT guidance"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Ayuda solo con lo que sepas",
+            "en": "Help only with what you know"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "La buena voluntad no basta. Si ayudas sin saber, puedes **empeorar** las lesiones. La DGT dice que solo se debe ayudar si se tienen conocimientos básicos de primeros auxilios.",
+                "en": "Good intentions are not enough. If you help without knowing how, you can make injuries **worse**. The DGT says you should only help if you have basic first-aid knowledge."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Antes de acercarte, comprueba que el lugar es seguro para ti. Si te conviertes en una víctima más, ya no puedes ayudar.",
+                "en": "Before you go closer, check that the place is safe for you. If you become another victim, you can no longer help."
+              }
+            },
+            {
+              "t": "list",
+              "items": [
+                {
+                  "es": "**Si sabes primeros auxilios**: comprime una herida que sangra, y protege al herido del frío o del calor.",
+                  "en": "**If you know first aid**: apply pressure to a bleeding wound, and protect the injured person from cold or heat."
+                },
+                {
+                  "es": "**Si no sabes**: no intentes nada. Llama al 112 y sigue sus instrucciones.",
+                  "en": "**If you do not**: do not try anything. Call 112 and follow their instructions."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Lo que no se hace",
+            "en": "What you do not do"
+          },
+          "blocks": [
+            {
+              "t": "list",
+              "items": [
+                {
+                  "es": "**No muevas** a un herido ni lo saques del coche, salvo que haya peligro inminente de incendio o explosión.",
+                  "en": "**Do not move** an injured person or take them out of the car, unless there is imminent danger of fire or explosion."
+                },
+                {
+                  "es": "**No quites el casco** a un motorista.",
+                  "en": "**Do not remove** a motorcyclist's **helmet**."
+                },
+                {
+                  "es": "**No des comida ni bebida** a los heridos.",
+                  "en": "**Do not give food or drink** to the injured."
+                }
+              ]
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Mover a un herido o quitarle el casco sin saber hacerlo puede agravar una lesión, por ejemplo en la columna.",
+                "en": "Moving an injured person or removing their helmet without knowing how can worsen an injury, for example to the spine."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Sobre el casco, la DGT dice que no se quita. El Ministerio de Sanidad añade que solo se retira si hay una indicación clara de hacerlo, y eso lo decide quien sabe. Si dudas, llama al 112 y sigue sus instrucciones.",
+                "en": "On the helmet, the DGT says do not take it off. The Ministry of Health adds that it comes off only when there is a clear indication to do so, and that is for someone who knows how to decide. If in doubt, call 112 and follow their instructions."
+              }
+            },
+            {
+              "t": "example",
+              "title": {
+                "es": "Un motorista en la calzada",
+                "en": "A motorcyclist on the road"
+              },
+              "situation": {
+                "es": "Un motorista yace en la calzada, consciente, con el casco puesto. Tú no sabes primeros auxilios.",
+                "en": "A motorcyclist lies on the road, conscious, wearing a helmet. You do not know first aid."
+              },
+              "action": {
+                "es": "Protege el lugar para que nadie lo atropelle. Llama al 112 y sigue las instrucciones del operador. No le quites el casco por tu cuenta.",
+                "en": "Protect the scene so nobody runs him over. Call 112 and follow the operator's instructions. Do not remove his helmet on your own."
+              },
+              "why": {
+                "es": "Quitar el casco sin técnica puede agravar una lesión de columna. El 112 te guía.",
+                "en": "Removing the helmet without the right technique can worsen a spinal injury. 112 will guide you."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "emergencies-c2b",
+                "answer": 2,
+                "es": {
+                  "q": "Un conductor herido y consciente te pide agua tras un accidente. ¿Qué haces?",
+                  "options": [
+                    "Se la das en pequeños sorbos",
+                    "Le das agua y un analgésico",
+                    "No le das nada de comer ni de beber"
+                  ],
+                  "why": "No se da comida ni bebida a los heridos. Llama al 112 y sigue sus instrucciones."
+                },
+                "en": {
+                  "q": "An injured, conscious driver asks you for water after a collision. What do you do?",
+                  "options": [
+                    "Give it to him in small sips",
+                    "Give him water and a painkiller",
+                    "Give him nothing to eat or drink"
+                  ],
+                  "why": "You do not give food or drink to the injured. Call 112 and follow their instructions."
+                },
+                "terms": [
+                  {
+                    "es": "beber",
+                    "en": "to drink"
+                  }
+                ],
+                "src": "DGT guidance"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "emergencies-c2c",
+                "answer": 1,
+                "es": {
+                  "q": "Un coche accidentado tiene dentro a su conductor herido. No hay humo ni fuego. ¿Qué haces?",
+                  "options": [
+                    "Lo sacas enseguida tirando de él",
+                    "No lo mueves; llamas al 112 y sigues sus instrucciones",
+                    "Lo tumbas en la calzada para que respire mejor"
+                  ],
+                  "why": "No se mueve a un herido ni se le saca del coche, salvo peligro inminente de incendio o explosión."
+                },
+                "en": {
+                  "q": "A crashed car has its injured driver still inside. There is no smoke or fire. What do you do?",
+                  "options": [
+                    "Pull him out at once",
+                    "Do not move him; call 112 and follow their instructions",
+                    "Lay him on the road so he can breathe better"
+                  ],
+                  "why": "You do not move an injured person or take them out of the car, unless there is imminent danger of fire or explosion."
+                },
+                "terms": [
+                  {
+                    "es": "peligro inminente",
+                    "en": "imminent danger"
+                  }
+                ],
+                "src": "DGT guidance"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "El número de emergencias es el **112**. El 911 es el de EE. UU.",
+          "en": "The emergency number is **112**. 911 is the US one."
+        },
+        {
+          "es": "Da **dónde**, **qué vehículos**, **cuántos heridos**, las **circunstancias especiales** y un teléfono.",
+          "en": "Give **where**, **which vehicles**, **how many injured**, any **special circumstances** and a phone number."
+        },
+        {
+          "es": "Ayuda **solo si sabes**. Si no, llama al 112 y sigue sus instrucciones.",
+          "en": "Help **only if you know how**. If not, call 112 and follow their instructions."
+        },
+        {
+          "es": "No muevas al herido, no le quites el casco y no le des comida ni bebida.",
+          "en": "Do not move the injured, do not remove the helmet and do not give food or drink."
+        }
+      ],
+      "covers": [
+        "situations-02",
+        "situations-03"
+      ],
+      "src": [
+        "DGT guidance: «Qué hacer ante un accidente de tráfico» (dgt.es, actualizada el 30-11-2022)",
+        "DGT guidance: «En caso de emergencia» (dgt.es)",
+        "DGT guidance: «Vacaciones en coche» (revista.dgt.es, 10-06-2022)",
+        "Ministerio de Sanidad: «Módulo 6. Comportamiento ante el accidente de tráfico» (sanidad.gob.es/ciudadanos/accidentes)"
+      ]
+    },
+    {
+      "id": "breakdowns-warning-devices",
+      "title": {
+        "es": "Avería o accidente en la vía: señales y lugar seguro",
+        "en": "Breakdown or collision on the road: signals and a safe place"
+      },
+      "minutes": 7,
+      "goals": [
+        {
+          "es": "Saber qué hacer si tu coche aún puede circular y qué hacer si queda inmovilizado.",
+          "en": "Know what to do if your car can still move and what to do if it is immobilized."
+        },
+        {
+          "es": "Saber qué dispositivo señaliza el peligro hoy y dónde se coloca.",
+          "en": "Know which device marks the danger today and where it goes."
+        },
+        {
+          "es": "Saber dónde esperar y por qué lado salir del coche.",
+          "en": "Know where to wait and which side to get out of the car."
+        }
+      ],
+      "terms": [
+        {
+          "es": "avería",
+          "en": "breakdown"
+        },
+        {
+          "es": "inmovilizado",
+          "en": "immobilized, unable to move"
+        },
+        {
+          "es": "baliza V-16",
+          "en": "V-16 beacon"
+        },
+        {
+          "es": "luz de emergencia",
+          "en": "hazard lights"
+        },
+        {
+          "es": "chaleco reflectante",
+          "en": "reflective vest"
+        },
+        {
+          "es": "arcén",
+          "en": "shoulder"
+        },
+        {
+          "es": "parte de accidente",
+          "en": "accident report form"
+        }
+      ],
+      "pretest": {
+        "id": "emergencies-pre-3",
+        "answer": 1,
+        "es": {
+          "q": "Tu coche queda inmovilizado en una autovía. ¿Dónde deben esperar los ocupantes?",
+          "options": [
+            "Dentro del coche, siempre",
+            "En un lugar seguro fuera de la calzada, si lo hay",
+            "De pie en el arcén, detrás del coche"
+          ],
+          "why": "Los ocupantes deben salir del coche si hay un lugar seguro fuera de la plataforma de circulación. Si el tráfico no permite salir con seguridad, se quedan dentro con el cinturón abrochado."
+        },
+        "en": {
+          "q": "Your car is immobilized on a dual carriageway. Where should the occupants wait?",
+          "options": [
+            "Inside the car, always",
+            "In a safe place off the roadway, if there is one",
+            "Standing on the shoulder, behind the car"
+          ],
+          "why": "Occupants must get out if there is a safe place outside the traffic platform. If traffic does not allow getting out safely, they stay inside with their seat belts fastened."
+        },
+        "src": "RGC art. 130.3"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Si todavía puedes circular",
+            "en": "If you can still drive"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si tras una avería o un accidente tu vehículo **puede continuar**, hazlo de inmediato y con seguridad. Si necesitas un servicio de auxilio, deja los carriles **lo antes posible** y ve a la **primera salida disponible** por el **arcén derecho**.",
+                "en": "If after a breakdown or collision your vehicle **can keep going**, do so immediately and safely. If you need a tow or rescue service, leave the lanes **as soon as possible** and head for the **first available exit** along the **right shoulder**."
+              },
+              "src": "RGC art. 130.2"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Si no puedes llegar a la salida, detente en el arcén derecho o en el lugar donde menos estorbes a la circulación.",
+                "en": "If you cannot reach the exit, stop on the right shoulder or wherever you obstruct traffic least."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si el vehículo o su carga obstaculizan la calzada, señalízalo y haz que se retire cuanto antes. Siempre que sea factible, sácalo de la calzada y déjalo cumpliendo las normas de estacionamiento.",
+                "en": "If the vehicle or its load blocks the roadway, mark it and have it removed as soon as possible. Whenever feasible, move it off the roadway and leave it complying with the parking rules."
+              },
+              "src": "RGC art. 130.1 (LSV art. 51.2)"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "emergencies-c3a",
+                "answer": 1,
+                "es": {
+                  "q": "Tu coche sufre una avería pero aún puede circular. Necesitas una grúa. ¿Qué debes hacer?",
+                  "options": [
+                    "Pararte en el carril donde estás y esperar",
+                    "Dejar los carriles cuanto antes por el arcén derecho, hacia la primera salida",
+                    "Cruzar hasta la mediana para parar allí"
+                  ],
+                  "why": "Si el vehículo puede continuar, debe dejar los carriles lo antes posible y dirigirse a la primera salida por el arcén derecho. Si no puede, se detiene en el arcén derecho o donde menos estorbe."
+                },
+                "en": {
+                  "q": "Your car breaks down but can still move. You need a tow truck. What must you do?",
+                  "options": [
+                    "Stop in the lane you are in and wait",
+                    "Leave the lanes as soon as possible along the right shoulder, toward the first exit",
+                    "Cross over to the median and stop there"
+                  ],
+                  "why": "If the vehicle can continue, it must leave the lanes as soon as possible and head for the first exit along the right shoulder. If it cannot, it stops on the right shoulder or where it obstructs least."
+                },
+                "terms": [
+                  {
+                    "es": "grúa",
+                    "en": "tow truck"
+                  }
+                ],
+                "src": "RGC art. 130.2"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Señalizar un vehículo inmovilizado",
+            "en": "Marking an immobilized vehicle"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si inmovilizas el vehículo en una autopista o autovía, o donde se ve poco, señaliza su presencia con la **luz de emergencia**, si la tienes, y, en su caso, con las luces de posición.",
+                "en": "If you immobilize the vehicle on a motorway or dual carriageway, or where visibility is poor, mark its presence with the **hazard lights**, if you have them, and, where applicable, the position lights."
+              },
+              "src": "RGC art. 109.2.c"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Además de las luces, el conductor debe emplear el **dispositivo de preseñalización de peligro** reglamentario para advertir de que el vehículo está inmovilizado, mientras se deja libre la vía.",
+                "en": "As well as the lights, the driver must use the regulation **hazard pre-warning device** to warn that the vehicle is immobilized, while the road is being cleared."
+              },
+              "src": "RGC art. 130.4"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Ese dispositivo es la **baliza V-16**. Indica que el vehículo ha quedado inmovilizado en la calzada o que su carga ha caído en ella. Es una luz de color **amarillo auto** que se coloca en la **parte más alta posible** del vehículo.",
+                "en": "That device is the **V-16 beacon**. It indicates that the vehicle has been immobilized on the roadway or that its load has fallen on it. It is a light of the color the law calls **amarillo auto** (amber), placed on the **highest possible part** of the vehicle."
+              },
+              "src": "RGV anexo XI, V-16, apdos. 1 y 2"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "La baliza comunica a la DGT cuándo la enciendes, cuándo la apagas y dónde está. Solo valen los modelos de la lista oficial que la DGT publica en dgt.es/v16.",
+                "en": "The beacon tells the DGT when you switch it on, when you switch it off and where it is. Only the models on the official list the DGT publishes at dgt.es/v16 are valid."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los triángulos de preseñalización y las balizas luminosas sin conexión a la DGT solo podían seguir usándose como señal V-16 hasta el **1 de enero de 2026**. Hoy ese plazo ha terminado.",
+                "en": "Warning triangles and light beacons without a connection to the DGT could only keep being used as the V-16 signal until **1 January 2026**. That deadline has now passed."
+              },
+              "src": "RD 159/2021, disposición transitoria primera"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "emergencies-c3b",
+                "answer": 0,
+                "es": {
+                  "q": "Tu coche queda inmovilizado en la calzada. ¿Qué dispositivo de preseñalización de peligro debes usar?",
+                  "options": [
+                    "La baliza V-16 luminosa",
+                    "Dos triángulos reglamentarios",
+                    "Solo las luces de emergencia"
+                  ],
+                  "why": "El dispositivo reglamentario es la baliza V-16. Las luces de emergencia se encienden además, no la sustituyen. Los triángulos ya no valen como V-16."
+                },
+                "en": {
+                  "q": "Your car is immobilized on the roadway. Which hazard pre-warning device must you use?",
+                  "options": [
+                    "The V-16 light beacon",
+                    "Two regulation triangles",
+                    "Only the hazard lights"
+                  ],
+                  "why": "The regulation device is the V-16 beacon. Hazard lights are switched on as well, not instead. Triangles no longer count as the V-16."
+                },
+                "terms": [
+                  {
+                    "es": "baliza V-16",
+                    "en": "V-16 beacon"
+                  }
+                ],
+                "src": "RGC art. 130.4; RGV anexo XI, V-16; RD 159/2021 disp. trans. 1.ª"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "emergencies-c3c",
+                "answer": 2,
+                "es": {
+                  "q": "¿Dónde se coloca la baliza V-16 en un vehículo inmovilizado?",
+                  "options": [
+                    "En el suelo, detrás del vehículo",
+                    "En el arcén, junto a la rueda",
+                    "En la parte más alta posible del vehículo"
+                  ],
+                  "why": "La baliza V-16 se coloca en la parte más alta posible del vehículo inmovilizado, para que se vea lo más posible."
+                },
+                "en": {
+                  "q": "Where does the V-16 beacon go on an immobilized vehicle?",
+                  "options": [
+                    "On the ground, behind the vehicle",
+                    "On the shoulder, next to the wheel",
+                    "On the highest possible part of the vehicle"
+                  ],
+                  "why": "The V-16 beacon goes on the highest possible part of the immobilized vehicle, so it can be seen as far as possible."
+                },
+                "terms": [
+                  {
+                    "es": "parte más alta",
+                    "en": "highest part"
+                  }
+                ],
+                "src": "RGV anexo XI, V-16, apdo. 2"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Baliza y chaleco: llévalos en el coche",
+            "en": "Beacon and vest: carry them in the car"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los turismos deben llevar en su dotación el **dispositivo luminoso V-16** y un **chaleco reflectante** de alta visibilidad.",
+                "en": "Cars must carry the **V-16 light device** and a high-visibility **reflective vest** as part of their equipment."
+              },
+              "src": "RGV anexo XII, apdo. 1, letras a) y b)"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si conduces un turismo, cuando salgas de él y pises la **calzada** o el **arcén** de una vía interurbana, debes ponerte el chaleco reflectante de alta visibilidad.",
+                "en": "If you drive a car, when you get out of it and step onto the **roadway** or the **shoulder** of an intercity road, you must put on the high-visibility reflective vest."
+              },
+              "src": "RGC art. 118.4"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "emergencies-c3d",
+                "answer": 1,
+                "es": {
+                  "q": "Sales de tu turismo en una carretera interurbana y vas a pisar la calzada o el arcén. ¿Qué debes ponerte?",
+                  "options": [
+                    "Una prenda de color claro",
+                    "Un chaleco reflectante de alta visibilidad",
+                    "Nada, si es de día"
+                  ],
+                  "why": "El conductor de un turismo debe usar el chaleco reflectante de alta visibilidad cuando sale del vehículo y ocupa la calzada o el arcén de una vía interurbana."
+                },
+                "en": {
+                  "q": "You get out of your car on an intercity road and are about to step onto the roadway or the shoulder. What must you put on?",
+                  "options": [
+                    "Light-colored clothing",
+                    "A high-visibility reflective vest",
+                    "Nothing, if it is daytime"
+                  ],
+                  "why": "A car driver must wear the high-visibility reflective vest when leaving the vehicle and occupying the roadway or shoulder of an intercity road."
+                },
+                "terms": [
+                  {
+                    "es": "chaleco reflectante",
+                    "en": "reflective vest"
+                  }
+                ],
+                "src": "RGC art. 118.4"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Dónde esperar: fuera de la calzada",
+            "en": "Where to wait: off the roadway"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si el vehículo no puede reemprender la marcha, los ocupantes deben **abandonarlo** si hay un **lugar seguro fuera de la plataforma de circulación**. Salen por el **lado contrario al tráfico** y no pisan ni esperan en los carriles ni en los arcenes.",
+                "en": "If the vehicle cannot set off again, the occupants must **leave it** if there is a **safe place outside the traffic platform**. They get out on the **side away from traffic** and do not walk or wait in the lanes or on the shoulders."
+              },
+              "src": "RGC art. 130.3"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si las condiciones de circulación no permiten salir con seguridad, los ocupantes **permanecen dentro del coche con el cinturón abrochado**.",
+                "en": "If traffic conditions do not allow getting out safely, the occupants **stay in the car with their seat belts fastened**."
+              },
+              "src": "RGC art. 130.3"
+            },
+            {
+              "t": "figure",
+              "file": "emergencies-breakdown-safe",
+              "alt": {
+                "es": "Vista desde arriba de una autovía de dos carriles con arcén a la derecha y una barrera. Un coche azul parado en el arcén lleva una luz amarilla en el techo. Dos personas salen por la puerta derecha, cruzan un hueco de la barrera y esperan detrás de ella, en una zona verde. Un coche naranja pasa por el carril de la izquierda. La calzada y el arcén están en rojo.",
+                "en": "Top-down view of a two-lane dual carriageway with a shoulder on the right and a barrier. A blue car stopped on the shoulder has a yellow light on its roof. Two people get out of the right-hand door, pass through a gap in the barrier and wait behind it, in a green zone. An orange car passes in the left lane. The lanes and the shoulder are shaded red."
+              },
+              "caption": {
+                "es": "Zona roja: calzada y arcén, no te quedes ahí. Zona verde: detrás de la barrera, fuera de la vía.",
+                "en": "Red zone: lanes and shoulder, do not stay there. Green zone: behind the barrier, off the road."
+              },
+              "legend": [
+                {
+                  "mark": "A",
+                  "text": {
+                    "es": "Tu coche, parado en el arcén.",
+                    "en": "Your car, stopped on the shoulder."
+                  }
+                },
+                {
+                  "mark": "B",
+                  "text": {
+                    "es": "Baliza V-16, en lo más alto del coche.",
+                    "en": "V-16 beacon, on the highest part of the car."
+                  }
+                },
+                {
+                  "mark": "C",
+                  "text": {
+                    "es": "Tú y tus pasajeros, fuera de la vía por el lado contrario al tráfico.",
+                    "en": "You and your passengers, off the road, leaving on the side away from traffic."
+                  }
+                },
+                {
+                  "mark": "D",
+                  "text": {
+                    "es": "Tráfico que sigue pasando.",
+                    "en": "Traffic that keeps passing."
+                  }
+                }
+              ]
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "La DGT recomienda esperar detrás de las barreras de protección o fuera de la calzada, y avisar con el 112.",
+                "en": "The DGT recommends waiting behind the protective barriers or off the roadway, and alerting 112."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "emergencies-c3e",
+                "answer": 1,
+                "es": {
+                  "q": "Tu coche está inmovilizado en el arcén de una autovía y hay un lugar seguro fuera de la vía. ¿Cómo sales?",
+                  "options": [
+                    "Por la puerta del conductor y esperas junto al coche",
+                    "Por el lado contrario al tráfico, hacia ese lugar seguro",
+                    "Por cualquier puerta y esperas de pie en el arcén"
+                  ],
+                  "why": "Los ocupantes salen por el lado contrario al flujo de tráfico, sin transitar ni permanecer en los carriles ni en los arcenes, y esperan fuera de la plataforma."
+                },
+                "en": {
+                  "q": "Your car is immobilized on the shoulder of a dual carriageway and there is a safe place off the road. How do you get out?",
+                  "options": [
+                    "By the driver's door, and wait next to the car",
+                    "On the side away from traffic, toward that safe place",
+                    "By any door, and wait standing on the shoulder"
+                  ],
+                  "why": "Occupants get out on the side away from the traffic flow, without walking or staying in the lanes or on the shoulders, and wait outside the platform."
+                },
+                "terms": [
+                  {
+                    "es": "lado contrario al tráfico",
+                    "en": "side away from traffic"
+                  }
+                ],
+                "src": "RGC art. 130.3"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "emergencies-c3f",
+                "answer": 2,
+                "es": {
+                  "q": "Tu coche está parado en un carril, pasa mucho tráfico rápido y no hay ningún lugar seguro fuera de la calzada. ¿Qué haces?",
+                  "options": [
+                    "Sales y esperas de pie junto al coche",
+                    "Sales y cruzas los carriles a pie hasta el otro lado",
+                    "Te quedas dentro con el cinturón abrochado"
+                  ],
+                  "why": "Si no puedes salir con seguridad, los ocupantes permanecen en el habitáculo con el cinturón abrochado."
+                },
+                "en": {
+                  "q": "Your car is stopped in a lane, a lot of fast traffic is passing and there is no safe place off the roadway. What do you do?",
+                  "options": [
+                    "Get out and stand next to the car",
+                    "Get out and cross the lanes on foot to the other side",
+                    "Stay inside with your seat belt fastened"
+                  ],
+                  "why": "If you cannot get out safely, the occupants stay in the cabin with their seat belts fastened."
+                },
+                "terms": [
+                  {
+                    "es": "cinturón abrochado",
+                    "en": "seat belt fastened"
+                  }
+                ],
+                "src": "RGC art. 130.3"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "El parte de accidente, en un lugar seguro",
+            "en": "The accident report, in a safe place"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Se **prohíbe** rellenar el **parte de accidente** en la plataforma de circulación. Hazlo en un lugar seguro fuera de la vía.",
+                "en": "It is **forbidden** to fill in the **accident report** on the traffic platform. Do it in a safe place off the road."
+              },
+              "src": "RGC art. 130.5"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Primero asegura a las personas y el lugar. El papeleo viene después, cuando nadie corre peligro.",
+                "en": "First make people and the scene safe. The paperwork comes later, when nobody is in danger."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "emergencies-c3g",
+                "answer": 0,
+                "es": {
+                  "q": "Has tenido un golpe leve con otro coche y quieres rellenar el parte de accidente. ¿Dónde lo haces?",
+                  "options": [
+                    "En un lugar seguro fuera de la vía",
+                    "En la calzada, para no mover los coches",
+                    "En el carril izquierdo, con las luces de emergencia"
+                  ],
+                  "why": "Está prohibido rellenar el parte de accidente en la plataforma de circulación. Se hace en un lugar seguro fuera de la vía."
+                },
+                "en": {
+                  "q": "You have had a minor collision with another car and want to fill in the accident report. Where do you do it?",
+                  "options": [
+                    "In a safe place off the road",
+                    "On the roadway, so you do not move the cars",
+                    "In the left lane, with the hazard lights on"
+                  ],
+                  "why": "It is forbidden to fill in the accident report on the traffic platform. It is done in a safe place off the road."
+                },
+                "terms": [
+                  {
+                    "es": "parte de accidente",
+                    "en": "accident report form"
+                  }
+                ],
+                "src": "RGC art. 130.5"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "Si puedes circular, deja los carriles por el **arcén derecho** y ve a la **primera salida**.",
+          "en": "If you can drive, leave the lanes along the **right shoulder** and go to the **first exit**."
+        },
+        {
+          "es": "Un coche inmovilizado se señaliza con la **luz de emergencia** y la **baliza V-16**, en lo más alto del coche.",
+          "en": "An immobilized car is marked with the **hazard lights** and the **V-16 beacon**, on the highest part of the car."
+        },
+        {
+          "es": "Los **triángulos** ya no valen como señal desde el 1 de enero de 2026.",
+          "en": "**Triangles** no longer count as the signal since 1 January 2026."
+        },
+        {
+          "es": "Ponte el **chaleco** antes de pisar la calzada o el arcén. Sal por el **lado contrario al tráfico**.",
+          "en": "Put on the **vest** before stepping onto the roadway or shoulder. Get out on the **side away from traffic**."
+        },
+        {
+          "es": "Si no puedes salir con seguridad, quédate **dentro con el cinturón abrochado**. El **parte** se rellena fuera de la vía.",
+          "en": "If you cannot get out safely, stay **inside with your seat belt fastened**. Fill in the **report** off the road."
+        }
+      ],
+      "covers": [],
+      "src": [
+        "Reglamento General de Circulación (RD 1428/2003), arts. 109.2.c, 118.4 y 130",
+        "Reglamento General de Vehículos (RD 2822/1998), anexo XI (V-16) y anexo XII",
+        "RD 159/2021 (servicios de auxilio en vías públicas), disposición transitoria primera",
+        "DGT guidance: «En caso de emergencia» (dgt.es)"
+      ]
+    }
+  ]
+}
