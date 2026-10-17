@@ -1,7 +1,7 @@
 // Validates the question bank before every deploy. Run with: npm run check
 import { existsSync, readFileSync, readdirSync } from 'node:fs';
 import { renderCredits } from './credits-lib.mjs';
-import { checkLearn } from './check-learn.mjs';
+import { checkLearn, badCitation } from './check-learn.mjs';
 
 const questions = JSON.parse(readFileSync(new URL('../src/data/questions.json', import.meta.url), 'utf8'));
 const categoriesSrc = readFileSync(new URL('../src/data/categories.ts', import.meta.url), 'utf8');
@@ -30,6 +30,7 @@ for (const q of questions) {
   }
   if (q.note && (!q.note.es?.trim() || !q.note.en?.trim())) problems.push(`${where}: note needs both es and en`);
   if (!q.src?.trim()) problems.push(`${where}: missing src`);
+  else if (badCitation(q.src)) problems.push(`${where}: ${badCitation(q.src)}`);
 }
 
 // Signs: every entry is complete, has its SVG, no SVG sits unused, and CREDITS.md is current.

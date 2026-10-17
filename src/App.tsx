@@ -14,10 +14,13 @@ import { authStatus } from './lib/auth';
 import { authEnabled } from './lib/supabase';
 import { a } from './authStrings';
 import { Practice } from './screens/Study';
-import { Course, ModuleScreen } from './screens/Learn';
-import { LessonScreen } from './screens/Lesson';
-import { ModuleQuiz } from './screens/ModuleQuiz';
 import { Suspense, lazy } from 'preact/compat';
+
+// The course (a megabyte of lesson text and the diagrams) loads only when someone opens Learn.
+const Course = lazy(() => import('./screens/Learn').then((m) => ({ default: m.Course })));
+const ModuleScreen = lazy(() => import('./screens/Learn').then((m) => ({ default: m.ModuleScreen })));
+const LessonScreen = lazy(() => import('./screens/Lesson').then((m) => ({ default: m.LessonScreen })));
+const ModuleQuiz = lazy(() => import('./screens/ModuleQuiz').then((m) => ({ default: m.ModuleQuiz })));
 
 // A preview of every lesson diagram, for authors. Not built into the production site.
 const FigureGallery = import.meta.env.DEV ? lazy(() => import('./screens/FigureGallery')) : null;
@@ -38,10 +41,19 @@ function Screen() {
     case 'welcome':
       return <Splash />;
     case 'learn':
-      if (!arg) return <Course />;
-      if (!arg2) return <ModuleScreen moduleId={arg} />;
-      if (arg2 === 'quiz') return <ModuleQuiz moduleId={arg} />;
-      return <LessonScreen moduleId={arg} lessonId={arg2} step={arg3 === '' || Number.isNaN(Number(arg3)) ? null : Number(arg3)} />;
+      return (
+        <Suspense fallback={<p class="muted">…</p>}>
+          {!arg ? (
+            <Course />
+          ) : !arg2 ? (
+            <ModuleScreen moduleId={arg} />
+          ) : arg2 === 'quiz' ? (
+            <ModuleQuiz moduleId={arg} />
+          ) : (
+            <LessonScreen moduleId={arg} lessonId={arg2} step={arg3 === '' || Number.isNaN(Number(arg3)) ? null : Number(arg3)} />
+          )}
+        </Suspense>
+      );
     case 'figures':
       return FigureGallery ? (
         <Suspense fallback={null}>

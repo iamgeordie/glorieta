@@ -9,7 +9,7 @@ import { allQuestions } from '../lib/quiz';
 import { exams, progress, resetAll, statsFor } from '../lib/store';
 import { learn } from '../lib/learn';
 import { courseProgress } from '../lib/learn-core';
-import { modules } from '../data/learn';
+import modules from 'virtual:learn-index';
 import { L } from '../learnStrings';
 
 export function Home() {

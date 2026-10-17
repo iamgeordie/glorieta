@@ -9,6 +9,26 @@ const BLOCKS = ['p', 'rule', 'list', 'table', 'figure', 'signs', 'us', 'tip', 'e
 // Words that make a check depend on the lesson text or a figure. Checks join the question bank, so they must stand alone.
 const DEPENDENT = /\b(figura|figure|arriba|above|diagrama|diagram|paso anterior|previous step|esta lección|this lesson|en el texto|in the text)\b/i;
 
+
+/**
+ * RGC articles 159 to 173 (sign and marking articles) were repealed on 2025-06-17 by RD 465/2025: their
+ * content now lives in Anexo I, ap. 5 (the Catalogue). Articles 151 to 158 are a different, newer set
+ * (cyclists, pedestrians, personal mobility vehicles, parking regime, environmental limits, safe school
+ * routes) added by RD 518/2026. A citation that uses those numbers for sign or marking content is wrong.
+ * Returns the problem, or '' when the citation is acceptable.
+ */
+export function badCitation(src) {
+  if (!/RGC|Reglamento General de Circulaci/i.test(src)) return '';
+  const cleaned = src.replace(/RD\s+\d+\/\d{4}/gi, '').replace(/\b\d{1,2}\/\d{1,2}\/\d{2,4}\b/g, '');
+  const numbers = [...cleaned.matchAll(/(?<![\d.])(\d{3})(?![\d])/g)].map((m) => Number(m[1]));
+  const gone = numbers.filter((n) => n >= 159 && n <= 173);
+  if (gone.length) return `cites RGC art. ${gone.join(', ')}: repealed 2025-06-17 (sign and marking text is now in Anexo I, ap. 5; cite "RGC Anexo I, ap. 5.1" or "5.2")`;
+  const oldSigns = numbers.filter((n) => n >= 151 && n <= 158);
+  if (oldSigns.length && /\((?:[RPSMV]-\d|[RPSMV]\d)|\bsign\b|\bseñal/i.test(cleaned))
+    return `cites RGC art. ${oldSigns.join(', ')} for a sign: arts. 151-158 are now the cyclist/pedestrian/VMP articles, not sign articles`;
+  return '';
+}
+
 export function checkLearn({ questions, signs, categoryIds }) {
   const problems = [];
   const notes = [];
@@ -58,6 +78,7 @@ export function checkLearn({ questions, signs, categoryIds }) {
       if (bank && DEPENDENT.test(`${v?.q ?? ''} ${v?.options?.join(' ') ?? ''}`)) bad(where, `${lang} question refers to the lesson or a figure; it must stand alone`);
     }
     if (!str(q.src)) bad(where, 'missing src');
+    else if (badCitation(q.src)) bad(where, badCitation(q.src));
     if (q.note) bi(`${where}.note`, q.note);
     for (const t of q.terms ?? []) if (!str(t.es) || !str(t.en)) bad(where, 'terms need es and en');
   };
@@ -73,6 +94,7 @@ export function checkLearn({ questions, signs, categoryIds }) {
       case 'rule':
         bi(where, b.text);
         if (!str(b.src)) bad(where, 'a rule needs src (the article it comes from)');
+        else if (badCitation(b.src)) bad(where, badCitation(b.src));
         break;
       case 'list':
         if (!Array.isArray(b.items) || b.items.length < 2) bad(where, 'a list needs at least 2 items');
@@ -194,6 +216,7 @@ export function checkLearn({ questions, signs, categoryIds }) {
       if (!Array.isArray(l.recap) || l.recap.length < 3 || l.recap.length > 6) bad(lw, 'recap: 3 to 6 points');
       else l.recap.forEach((r, i) => bi(`${lw}.recap[${i}]`, r));
       if (!Array.isArray(l.src) || l.src.length === 0 || l.src.some((s) => !str(s))) bad(lw, 'src must list the laws or documents the lesson rests on');
+      else for (const s of l.src) if (badCitation(s)) bad(lw, `src "${s.slice(0, 60)}...": ${badCitation(s)}`);
       for (const id of l.covers ?? []) {
         if (!bankIds.has(id)) bad(lw, `covers unknown question "${id}"`);
         covered.add(id);

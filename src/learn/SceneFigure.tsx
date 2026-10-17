@@ -102,7 +102,9 @@ export default function SceneFigure({ svg, scene, previewAt }: { svg: string; sc
   const total = Math.max(1, Math.round(scene.seconds * FPS));
   const ref = useRef<PlayerRef>(null);
   const [playing, setPlaying] = useState(false);
-  const [frame, setFrame] = useState(Math.round((previewAt ?? scene.poster ?? 0) * FPS));
+  // The last frame is total - 1: asking for a time at or past the end must still land on a real frame.
+  const startFrame = Math.min(total - 1, Math.round((previewAt ?? scene.poster ?? 0) * FPS));
+  const [frame, setFrame] = useState(startFrame);
 
   // Our own controls sit under the picture, so they never cover the road, and they are bilingual.
   useEffect(() => {
@@ -139,7 +141,7 @@ export default function SceneFigure({ svg, scene, previewAt }: { svg: string; sc
         fps={FPS}
         compositionWidth={width}
         compositionHeight={height}
-        initialFrame={Math.round((previewAt ?? scene.poster ?? 0) * FPS)}
+        initialFrame={startFrame}
         loop
         clickToPlay
         controls={false}

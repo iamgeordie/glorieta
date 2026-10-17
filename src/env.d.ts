@@ -14,3 +14,13 @@ interface ImportMetaEnv {
 interface ImportMeta {
   readonly env: ImportMetaEnv;
 }
+
+/** Built by scripts/vite-learn-data.ts from src/data/learn. */
+declare module 'virtual:learn-checks' {
+  const checks: import('./lib/quiz').Question[];
+  export default checks;
+}
+declare module 'virtual:learn-index' {
+  const index: { id: string; lessons: { id: string; minutes: number }[] }[];
+  export default index;
+}
