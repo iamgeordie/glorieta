@@ -1,7 +1,7 @@
 import { T } from '../i18n';
 import { terms } from '../data/vocab';
 import { lastExam } from '../format';
-import { authStatus } from '../lib/auth';
+import { authStatus, notice } from '../lib/auth';
 import { authEnabled } from '../lib/supabase';
 import { a } from '../authStrings';
 import { ui } from '../ui';
@@ -34,6 +34,12 @@ export function Home() {
 
   return (
     <section>
+      {notice.value && (
+        <p class="note notice" role="status">
+          <T t={notice.value} />
+          <button type="button" class="link" onClick={() => (notice.value = null)}><T t={ui.dismiss} /></button>
+        </p>
+      )}
       <p class="slogan"><T t={ui.slogan} /></p>
       <p class="lede"><Flag /><T t={ui.tagline} /></p>
       <ul class="list">

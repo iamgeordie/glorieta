@@ -444,3 +444,7 @@ th { color: var(--muted); font-size: 0.78rem; text-transform: uppercase; letter-
 .promo-cta { display: block; margin-top: 8px; font-weight: 700; color: #cfe0ff; text-decoration: underline; text-underline-offset: 3px; }
 .splash-promo .sub { color: rgba(255, 255, 255, 0.72); font-weight: 400; }
 .splash-promo .promo-cta .sub { color: rgba(207, 224, 255, 0.85); text-decoration: none; }
+
+/* A one-off message on the home screen after signing in. */
+.note.notice { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-top: 14px; }
+.note.notice .link { flex: none; padding: 0; }

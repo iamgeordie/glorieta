@@ -52,7 +52,7 @@ function Forms() {
       if (tab === 'signin') {
         const r = await signIn(email, password);
         if (!r.ok) setError(r.error);
-        else location.hash = '#/account';
+        else location.hash = '#/';
       } else if (tab === 'signup') {
         const r = await signUp({ email, password, name, marketing });
         if (!r.ok) setError(r.error);
@@ -149,7 +149,9 @@ function ResetPassword() {
     setBusy(false);
     if (!r.ok) return setError(r.error);
     setDone(true);
-    location.hash = '#/account';
+    // They are signed in now, so they go to the main page; the home screen shows the confirmation.
+    notice.value = a.passwordUpdated;
+    location.hash = '#/';
   };
 
   if (done) return <p class="note" role="status"><T t={a.passwordUpdated} /></p>;

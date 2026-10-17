@@ -62,7 +62,8 @@ export function initAuth() {
         notice.value = viaGoogle
           ? bi('Has iniciado sesión con Google.', 'You are signed in with Google.')
           : bi('Tu correo está confirmado. Ya has iniciado sesión.', 'Your email is confirmed. You are signed in.');
-        location.hash = '#/account';
+        // Signing in lands on the main page, which shows the notice above; the account page is one tap away.
+        location.hash = '#/';
       }
       // Supabase asks that its own calls are not made inside this callback, so hand off to the next tick.
       if (syncedFor !== session.user.id) {
