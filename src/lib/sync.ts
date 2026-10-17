@@ -3,6 +3,9 @@ import { signal } from '@preact/signals';
 import { bi, mode, type Bi } from '../i18n';
 import { describeAuthError } from './auth-errors';
 import { mergeExams, mergeProgress } from './merge';
+import { mergeCourse } from './learn-merge';
+import { learn, onLearnChange, replaceLearn } from './learn';
+import type { LearnState, LessonRecord, QuizRecord } from './learn-core';
 import { exams, onLocalChange, progress, replaceLocal, reviveProgress, type Entry, type ExamResult, type RawEntry } from './store';
 import { clearAttempts, pendingAttempts, removeAttempts } from './attempts';
 import { crmBrandId, requireClient } from './supabase';
@@ -26,11 +29,16 @@ export const profile = signal<Profile | null>(null);
 
 type ProgressRow = { item_id: string; card: RawEntry['card']; seen: number; right_count: number; updated_at: string };
 type ExamRow = { taken_at: string; total: number; errors: number; unanswered: number; passed: boolean };
+type LessonRow = { lesson_key: string; done: boolean; step: number; answered: LessonRecord['answered']; updated_at: string };
+type QuizRow = { module_id: string; best: number; last: number; attempts: number; updated_at: string };
 
 const dirtyIds = new Set<string>();
 const dirtyExams = new Set<string>();
+const dirtyLessons = new Set<string>();
+const dirtyQuizzes = new Set<string>();
 let timer: ReturnType<typeof setTimeout> | undefined;
 let stopListening: (() => void) | undefined;
+let stopLearnListening: (() => void) | undefined;
 let activeUser: User | null = null;
 
 const toRow = (userId: string, id: string, e: Entry) => ({
@@ -40,6 +48,27 @@ const toRow = (userId: string, id: string, e: Entry) => ({
   seen: e.seen,
   right_count: e.right,
   updated_at: e.at ?? new Date().toISOString(),
+});
+
+/** A lesson that was only opened (intro, nothing answered) is not worth a row. */
+const isBlankLesson = (l: LessonRecord) => !l.done && l.step === 0 && Object.keys(l.answered).length === 0;
+
+const lessonRow = (userId: string, key: string, l: LessonRecord) => ({
+  user_id: userId,
+  lesson_key: key,
+  done: l.done,
+  step: l.step,
+  answered: l.answered,
+  updated_at: l.at ?? new Date().toISOString(),
+});
+
+const quizRow = (userId: string, id: string, q: QuizRecord) => ({
+  user_id: userId,
+  module_id: id,
+  best: q.best,
+  last: q.last,
+  attempts: q.attempts,
+  updated_at: q.at,
 });
 
 const examRow = (userId: string, e: ExamResult) => ({
@@ -52,7 +81,7 @@ const examRow = (userId: string, e: ExamResult) => ({
 });
 
 /** Reads a whole table in pages. `orderBy` must name a unique column, or pages can overlap or skip rows. */
-async function fetchAll<T>(table: 'progress' | 'exam_results' | 'attempts', columns: string, orderBy?: string): Promise<T[]> {
+async function fetchAll<T>(table: 'progress' | 'exam_results' | 'attempts' | 'lesson_progress' | 'quiz_progress', columns: string, orderBy?: string): Promise<T[]> {
   const db = requireClient();
   const out: T[] = [];
   for (let from = 0; ; from += PAGE) {
@@ -139,6 +168,19 @@ async function reconcile(user: User) {
 
   if (p.changedLocally || x.changedLocally) replaceLocal({ progress: p.merged, exams: x.merged });
 
+  const lessonRows = await fetchAll<LessonRow>('lesson_progress', 'lesson_key, done, step, answered, updated_at', 'lesson_key');
+  const quizRows = await fetchAll<QuizRow>('quiz_progress', 'module_id, best, last, attempts, updated_at', 'module_id');
+  const remoteCourse: LearnState = {
+    lessons: Object.fromEntries(
+      lessonRows.map((r) => [r.lesson_key, { done: r.done, step: r.step, answered: r.answered ?? {}, at: new Date(r.updated_at).toISOString() } as LessonRecord]),
+    ),
+    quizzes: Object.fromEntries(
+      quizRows.map((r) => [r.module_id, { best: r.best, last: r.last, attempts: r.attempts, at: new Date(r.updated_at).toISOString() } as QuizRecord]),
+    ),
+  };
+  const c = mergeCourse(learn.value, remoteCourse);
+  if (c.changedLocally) replaceLearn(c.merged);
+
   for (let i = 0; i < p.push.length; i += 200) {
     const batch = p.push.slice(i, i + 200).map((id) => toRow(user.id, id, p.merged[id] as Entry));
     const { error } = await db.from('progress').upsert(batch, { onConflict: 'user_id,item_id' });
@@ -148,6 +190,18 @@ async function reconcile(user: User) {
     const { error } = await db
       .from('exam_results')
       .upsert(x.push.map((e) => examRow(user.id, e)), { onConflict: 'user_id,taken_at', ignoreDuplicates: true });
+    if (error) throw error;
+  }
+  const lessonsToPush = c.pushLessons.filter((k) => !isBlankLesson(c.merged.lessons[k] as LessonRecord));
+  for (let i = 0; i < lessonsToPush.length; i += 200) {
+    const batch = lessonsToPush.slice(i, i + 200).map((k) => lessonRow(user.id, k, c.merged.lessons[k] as LessonRecord));
+    const { error } = await db.from('lesson_progress').upsert(batch, { onConflict: 'user_id,lesson_key' });
+    if (error) throw error;
+  }
+  if (c.pushQuizzes.length) {
+    const { error } = await db
+      .from('quiz_progress')
+      .upsert(c.pushQuizzes.map((id) => quizRow(user.id, id, c.merged.quizzes[id] as QuizRecord)), { onConflict: 'user_id,module_id' });
     if (error) throw error;
   }
   await pushAttempts(user);
@@ -191,6 +245,7 @@ export async function startSync(user: User) {
   syncStatus.value = { state: 'syncing' };
   try {
     stopListening?.();
+    stopLearnListening?.();
     let p = await loadProfile(user);
     await reconcile(user);
     p = await sendToCrm(user, p);
@@ -198,6 +253,11 @@ export async function startSync(user: User) {
     stopListening = onLocalChange((e) => {
       if (e.kind === 'progress') dirtyIds.add(e.id);
       else dirtyExams.add(e.at);
+      schedulePush();
+    });
+    stopLearnListening = onLearnChange((e) => {
+      if (e.kind === 'lesson') dirtyLessons.add(e.key);
+      else dirtyQuizzes.add(e.id);
       schedulePush();
     });
     syncStatus.value = { state: 'ok', at: new Date().toISOString() };
@@ -209,9 +269,13 @@ export async function startSync(user: User) {
 export function stopSync() {
   stopListening?.();
   stopListening = undefined;
+  stopLearnListening?.();
+  stopLearnListening = undefined;
   clearTimeout(timer);
   dirtyIds.clear();
   dirtyExams.clear();
+  dirtyLessons.clear();
+  dirtyQuizzes.clear();
   activeUser = null;
   profile.value = null;
   serverStats.value = null;
@@ -225,11 +289,15 @@ function schedulePush() {
 
 async function pushDirty() {
   const user = activeUser;
-  if (!user || (dirtyIds.size === 0 && dirtyExams.size === 0 && pendingAttempts().length === 0)) return;
+  if (!user || (dirtyIds.size === 0 && dirtyExams.size === 0 && dirtyLessons.size === 0 && dirtyQuizzes.size === 0 && pendingAttempts().length === 0)) return;
   const ids = [...dirtyIds];
   const examKeys = [...dirtyExams];
+  const lessonKeys = [...dirtyLessons];
+  const quizIds = [...dirtyQuizzes];
   dirtyIds.clear();
   dirtyExams.clear();
+  dirtyLessons.clear();
+  dirtyQuizzes.clear();
   syncStatus.value = { state: 'syncing' };
   try {
     const db = requireClient();
@@ -243,12 +311,27 @@ async function pushDirty() {
       const { error } = await db.from('exam_results').upsert(batch, { onConflict: 'user_id,taken_at', ignoreDuplicates: true });
       if (error) throw error;
     }
+    const lessonBatch = lessonKeys.flatMap((k) => {
+      const l = learn.value.lessons[k];
+      return l && !isBlankLesson(l) ? [lessonRow(user.id, k, l)] : [];
+    });
+    if (lessonBatch.length) {
+      const { error } = await db.from('lesson_progress').upsert(lessonBatch, { onConflict: 'user_id,lesson_key' });
+      if (error) throw error;
+    }
+    const quizBatch = quizIds.flatMap((id) => (learn.value.quizzes[id] ? [quizRow(user.id, id, learn.value.quizzes[id] as QuizRecord)] : []));
+    if (quizBatch.length) {
+      const { error } = await db.from('quiz_progress').upsert(quizBatch, { onConflict: 'user_id,module_id' });
+      if (error) throw error;
+    }
     await pushAttempts(user);
     syncStatus.value = { state: 'ok', at: new Date().toISOString() };
   } catch (err) {
     // Put the work back so the next change or "Sync now" retries it; the failure stays on screen.
     ids.forEach((id) => dirtyIds.add(id));
     examKeys.forEach((k) => dirtyExams.add(k));
+    lessonKeys.forEach((k) => dirtyLessons.add(k));
+    quizIds.forEach((id) => dirtyQuizzes.add(id));
     syncStatus.value = { state: 'error', error: describeAuthError(err) };
   }
 }
@@ -287,6 +370,8 @@ export async function deleteMyData(): Promise<Bi | null> {
     serverStats.value = null;
     dirtyIds.clear();
     dirtyExams.clear();
+    dirtyLessons.clear();
+    dirtyQuizzes.clear();
     profile.value = null;
     return null;
   } catch (err) {
@@ -294,17 +379,19 @@ export async function deleteMyData(): Promise<Bi | null> {
   }
 }
 
-export type ExportBundle = { exported_at: string; app: 'glorieta'; account: { email: string | undefined; created_at: string | undefined }; profile: Profile | null; progress: ProgressRow[]; exam_results: ExamRow[]; attempts: unknown[] };
+export type ExportBundle = { exported_at: string; app: 'glorieta'; account: { email: string | undefined; created_at: string | undefined }; profile: Profile | null; progress: ProgressRow[]; exam_results: ExamRow[]; attempts: unknown[]; lesson_progress: LessonRow[]; quiz_progress: QuizRow[] };
 
 /** Everything the database holds about this person in Glorieta, for them to keep. */
 export async function exportMyData(): Promise<{ ok: true; data: ExportBundle } | { ok: false; error: Bi }> {
   const user = activeUser;
   if (!user) return { ok: false, error: bi('No has iniciado sesión.', 'You are not signed in.') };
   try {
-    const [progressRows, examRows, attemptRows] = await Promise.all([
+    const [progressRows, examRows, attemptRows, lessonRows, quizRows] = await Promise.all([
       fetchAll<ProgressRow>('progress', 'item_id, card, seen, right_count, updated_at', 'item_id'),
       fetchAll<ExamRow>('exam_results', 'taken_at, total, errors, unanswered, passed', 'taken_at'),
       fetchAll<unknown>('attempts', 'item_id, correct, mode, answered_at, id', 'id'),
+      fetchAll<LessonRow>('lesson_progress', 'lesson_key, done, step, answered, updated_at', 'lesson_key'),
+      fetchAll<QuizRow>('quiz_progress', 'module_id, best, last, attempts, updated_at', 'module_id'),
     ]);
     return {
       ok: true,
@@ -316,6 +403,8 @@ export async function exportMyData(): Promise<{ ok: true; data: ExportBundle } |
         progress: progressRows,
         exam_results: examRows,
         attempts: attemptRows,
+        lesson_progress: lessonRows,
+        quiz_progress: quizRows,
       },
     };
   } catch (err) {

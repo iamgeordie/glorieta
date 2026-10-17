@@ -22,7 +22,7 @@ The one design rule: **every piece of text can flip between Spanish and English 
 | Examiner phrases | What you will hear in the practical test, and what to do. |
 | Exam & US differences | Format, language options, license validity, and what changes from the US. Each fact is labeled official, secondary, or verify. |
 
-Progress lives in the browser's `localStorage`. There is no account and no server-side user data. (With an account, question progress syncs; course progress stays on the device.)
+Progress lives in the browser's `localStorage`. There is no account and no server-side user data. With an account, everything syncs across devices: question progress, mock exam results, and the course (finished lessons, where you stopped, quiz results). Merging never loses progress: a finished lesson stays finished and a best quiz score never shrinks.
 
 ## Learn: the course
 

@@ -18,13 +18,28 @@ function read(): LearnState {
 /** Where the learner is in the course. Kept on this device only. */
 export const learn = signal<LearnState>(read());
 
-function commit(next: LearnState) {
+export type LearnChange = { kind: 'lesson'; key: string } | { kind: 'quiz'; id: string };
+const listeners = new Set<(e: LearnChange) => void>();
+
+/** Lets the sync layer hear about local changes without this file importing it. */
+export function onLearnChange(fn: (e: LearnChange) => void) {
+  listeners.add(fn);
+  return () => listeners.delete(fn);
+}
+
+function commit(next: LearnState, change?: LearnChange) {
   learn.value = next;
   try {
     localStorage.setItem(KEY, JSON.stringify(next));
   } catch {
     // progress simply will not persist this visit
   }
+  if (change) listeners.forEach((fn) => fn(change));
+}
+
+/** Replace local state with a merged result from the server. Not reported as a local change. */
+export function replaceLearn(next: LearnState) {
+  commit(next);
 }
 
 const blank = (): LessonRecord => ({ done: false, step: 0, answered: {} });
@@ -32,7 +47,7 @@ const blank = (): LessonRecord => ({ done: false, step: 0, answered: {} });
 function updateLesson(moduleId: string, lessonId: string, change: (r: LessonRecord) => LessonRecord) {
   const key = lessonKey(moduleId, lessonId);
   const prev = learn.value.lessons[key] ?? blank();
-  commit({ ...learn.value, lessons: { ...learn.value.lessons, [key]: { ...change(prev), at: new Date().toISOString() } } });
+  commit({ ...learn.value, lessons: { ...learn.value.lessons, [key]: { ...change(prev), at: new Date().toISOString() } } }, { kind: 'lesson', key });
 }
 
 export const lessonRecord = (moduleId: string, lessonId: string): LessonRecord =>
@@ -57,7 +72,7 @@ export function saveQuiz(moduleId: string, correct: number, total: number) {
       ...learn.value.quizzes,
       [moduleId]: { best: Math.max(prev?.best ?? 0, score), last: score, attempts: (prev?.attempts ?? 0) + 1, at: new Date().toISOString() },
     },
-  });
+  }, { kind: 'quiz', id: moduleId });
 }
 
 export function resetLearn() {

@@ -92,5 +92,10 @@ export const L = {
     bi(`${seen}/${total} vistas${due > 0 ? ` · ${due} para repasar` : ''}`, `${seen}/${total} seen${due > 0 ? ` · ${due} due for review` : ''}`),
   play: bi('Reproducir', 'Play'),
   pause: bi('Pausa', 'Pause'),
-  localOnly: bi('Tu avance en el curso se guarda solo en este dispositivo.', 'Your course progress is saved on this device only.'),
+  progressDevice: bi('Tu avance en el curso se guarda solo en este dispositivo.', 'Your course progress is saved on this device only.'),
+  progressSignIn: bi('Tu avance se guarda en este dispositivo. Inicia sesión para conservarlo y verlo en otros.', 'Your progress is saved on this device. Sign in to keep it and see it on other devices.'),
+  progressSynced: bi('Tu avance se guarda en tu cuenta y se sincroniza entre dispositivos.', 'Your progress is saved to your account and syncs across your devices.'),
+  progressSyncing: bi('Sincronizando tu avance…', 'Syncing your progress…'),
+  progressSyncError: bi('No se pudo sincronizar ahora. Tu avance está a salvo en este dispositivo y se reintentará.', 'Could not sync right now. Your progress is safe on this device and will be retried.'),
+  signInLink: bi('Iniciar sesión', 'Sign in'),
 };

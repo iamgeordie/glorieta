@@ -6,6 +6,9 @@ import { courseProgress, lessonsDone, moduleStatus, nextUp, type ModuleStatus } 
 import { allQuestions } from '../lib/quiz';
 import { statsFor } from '../lib/store';
 import { bi } from '../i18n';
+import { authStatus } from '../lib/auth';
+import { authEnabled } from '../lib/supabase';
+import { syncStatus } from '../lib/sync';
 import { Flag } from '../Flag';
 
 const statusLabel: Record<ModuleStatus, ReturnType<typeof bi>> = {
@@ -24,6 +27,21 @@ function Bar({ value, total }: { value: number; total: number }) {
       <span style={{ width: `${pct}%` }} />
     </span>
   );
+}
+
+/** Says where the course progress lives, truthfully for the current state. */
+function ProgressNote() {
+  if (!authEnabled) return <p class="muted small"><T t={L.progressDevice} /></p>;
+  if (authStatus.value === 'loading') return null;
+  if (authStatus.value !== 'in') {
+    return (
+      <p class="muted small">
+        <T t={L.progressSignIn} /> <a href="#/account"><T t={L.signInLink} /></a>
+      </p>
+    );
+  }
+  const st = syncStatus.value.state;
+  return <p class={`muted small ${st === 'error' ? 'wrong' : ''}`}><T t={st === 'error' ? L.progressSyncError : st === 'syncing' ? L.progressSyncing : L.progressSynced} /></p>;
 }
 
 export function Course() {
@@ -87,7 +105,7 @@ export function Course() {
           );
         })}
       </ol>
-      <p class="muted small"><T t={L.localOnly} /></p>
+      <ProgressNote />
     </section>
   );
 }
