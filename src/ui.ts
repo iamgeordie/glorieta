@@ -7,6 +7,11 @@ export const ui = {
   slogan: bi('Guiri al Volante', 'Foreigner at the Wheel'),
   tagline: bi('Prepara el teórico del permiso B en español.', 'Prepare for the permiso B theory test in Spanish.'),
   home: bi('Inicio', 'Home'),
+  // A link from the welcome page to LinguaMama, the language-learning app by the same author.
+  promoKicker: bi('Para los atrevidos', 'For the daring'),
+  promoBody: bi('Aprende español (y otros idiomas) mientras aprendes a conducir.', 'Learn Spanish (and other languages) while learning to drive.'),
+  promoTagline: bi('Fluido antes de hablar.', 'Fluent before you speak.'),
+  promoCta: bi('¡Prueba LinguaMama.ai gratis!', 'Try LinguaMama.ai free!'),
   practice: bi('Practicar', 'Practice'),
   practiceHint: bi('Repaso espaciado: las preguntas que fallas vuelven antes.', 'Spaced review: questions you miss come back sooner.'),
   exam: bi('Simulacro de examen', 'Mock exam'),

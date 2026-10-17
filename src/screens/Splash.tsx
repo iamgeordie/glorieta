@@ -45,6 +45,17 @@ export function Splash() {
         </div>
       </main>
 
+      <a class="splash-promo" href="https://linguamama.ai" target="_blank" rel="noopener noreferrer">
+        {/* Decorative: the words beside it already say LinguaMama. */}
+        <img class="promo-logo" src="/linguamama-logo.png" width="56" height="56" alt="" />
+        <span class="promo-text">
+          <span class="promo-kicker"><T t={ui.promoKicker} /></span>
+          <span class="promo-line"><T t={ui.promoBody} /></span>
+          <strong class="promo-line promo-tagline"><T t={ui.promoTagline} /></strong>
+          <span class="promo-cta"><T t={ui.promoCta} /></span>
+        </span>
+      </a>
+
       <footer class="splash-foot">
         <p><T t={ui.unofficialFull} /></p>
         <p>

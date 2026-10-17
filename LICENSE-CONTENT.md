@@ -23,6 +23,8 @@ credit, link to the license, and say if you made changes.
   own licenses. Most are public domain; some are CC0 or CC BY-SA. See
   `public/signs/CREDITS.md`. This license does not change those terms.
   (The names and explanations of the signs are covered above; only the image files are not.)
+- **The LinguaMama name and logo** (`public/linguamama-logo.png`) are the author's brand marks, shown as a link to
+  linguamama.ai. They are not licensed for reuse; all rights reserved.
 - **The law itself.** The questions and lessons are original text based on Spanish
   regulations. They are not the DGT's official question bank, and the DGT is not
   a source of this content.

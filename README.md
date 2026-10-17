@@ -117,6 +117,7 @@ Three kinds of material, three licenses:
 | Source code | [Apache License 2.0](LICENSE) |
 | Written learning content (questions, explanations, lessons, vocabulary, sign meanings, interface text) and the original diagrams in `src/learn-figures/` | [CC BY 4.0](LICENSE-CONTENT.md) |
 | Traffic sign images in `public/signs/` | Their own licenses from Wikimedia Commons (public domain, CC0, or CC BY-SA), with credits in [`public/signs/CREDITS.md`](public/signs/CREDITS.md) |
+| The LinguaMama name and logo (`public/linguamama-logo.png`) | Not licensed for reuse: the author's brand marks, shown as a link to [linguamama.ai](https://linguamama.ai) |
 
 The sign images are unmodified copies and keep their original terms. Licensing the code under Apache 2.0 does not relicense them.
 
