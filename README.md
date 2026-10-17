@@ -14,14 +14,46 @@ The one design rule: **every piece of text can flip between Spanish and English 
 
 | Screen | What it does |
 |---|---|
-| Practice | 70 written questions plus a "what does this sign mean?" question for each sign, in 11 categories. Spaced repetition ([FSRS](https://github.com/open-spaced-repetition/ts-fsrs)) brings the ones you miss back sooner. |
+| Learn | A guided course: 13 modules, 63 short lessons, 315 check questions and 43 diagrams (many animated). Each lesson has key words, an ungraded guess, one idea per step with a retrieval check, and a recap. Each module ends in a quiz; 80% counts as mastered. See [How the course teaches](#learn-the-course). |
+| Practice | The 70 original questions, the 315 lesson checks, and a "what does this sign mean?" question for each sign, in 13 categories. Spaced repetition ([FSRS](https://github.com/open-spaced-repetition/ts-fsrs)) brings the ones you miss back sooner, whether you missed them in a lesson, a quiz or here. |
 | Mock exam | 30 questions (4 of them signs), countdown, up to 3 mistakes, with a review of what you missed. |
 | Traffic signs | A gallery of Spanish traffic signs with the official meaning in both languages, and practice questions built from the same data. |
 | Vocabulary | Flashcards for road terms, scheduled with the same FSRS engine. |
 | Examiner phrases | What you will hear in the practical test, and what to do. |
 | Exam & US differences | Format, language options, license validity, and what changes from the US. Each fact is labeled official, secondary, or verify. |
 
-Progress lives in the browser's `localStorage`. There is no account and no server-side user data.
+Progress lives in the browser's `localStorage`. There is no account and no server-side user data. (With an account, question progress syncs; course progress stays on the device.)
+
+## Learn: the course
+
+Thirteen modules in the order a newcomer should take them: roads and lanes, signs and markings, speed, right of way, roundabouts, overtaking and maneuvers, stopping and motorways, safety, alcohol and fatigue, hazards and vulnerable users, collisions and first aid, the vehicle, and licenses and points. The topics follow the DGT's official syllabus for the theory course; every lesson is written from the law, in our own words.
+
+How it teaches, and the research behind each choice:
+
+| Technique | Where you see it |
+|---|---|
+| Retrieval practice and spaced review (Dunlosky et al. 2013: both rated "high utility") | Inline checks that gate "Next"; every check joins the question bank and is rescheduled by FSRS |
+| Pretesting (Kornell; Richland et al.) | An ungraded "guess first" question before each lesson |
+| Pretraining, segmenting, signaling, coherence, words and pictures (Mayer) | Key words up front, one idea per step, bold on the one key term, no decoration, a diagram where space or motion is the point |
+| Mastery learning (Bloom; Khan Academy-style levels) | A module quiz with an 80% pass mark and a "review these lessons" list that links each missed question to the step that teaches it |
+| Interleaving | The quiz mixes in review items from modules you have already started |
+| Worked examples (Sweller) | "Situation, what to do, why" blocks |
+
+Diagrams are word-free inline SVG with bilingual HTML legends, so they follow the ES/EN switch and dark mode. Animated ones are choreographed in a small `<name>.anim.json` and played by the [Remotion](https://www.remotion.dev) Player (loaded only when a lesson shows one), with bilingual controls under the picture. Remotion is source-available, not open source: it is free for individuals and for-profit companies of up to three people, so check [its license](https://www.remotion.dev/docs/license/faq) if the team grows.
+
+### Where the lessons come from
+
+Only from the law. The DGT's manuals are copyrighted and its legal notice reserves reproduction, so none of their text or structure is copied; they are used only as a topic outline. Every legal rule cites the article it comes from, `rule` blocks are law and `tip` blocks are practice, and every number was read from a primary text. Signs and markings are cited to RGC Anexo I, ap. 5 (the Catalogue).
+
+```bash
+node scripts/boe.mjs laws                                 # the laws used and their BOE ids
+node scripts/boe.mjs BOE-A-2003-23514 art 57              # the in-force wording of an RGC article
+node scripts/boe.mjs BOE-A-2003-23514 grep "glorieta"     # in-force articles that mention a word
+node scripts/boe.mjs catalogue "R-305"                    # the in-force definition of a sign or marking
+node scripts/preview-figures.mjs /tmp/figs <name> --at 0,2.5   # screenshot a diagram (needs the dev server and Chrome)
+```
+
+The tool prints only the wording in force today and flags repealed text, because text that looks right can be repealed: the RGC's old sign and marking articles (151 to 173) were repealed on 2025-06-17, and articles 151 to 158 now mean something else. `npm run check` rejects citations of repealed articles. To write or change a lesson, read [`docs/learn-authoring.md`](docs/learn-authoring.md) (the standard) and [`docs/learn-curriculum.md`](docs/learn-curriculum.md) (what each module covers).
 
 ## Accounts (optional)
 
@@ -35,12 +67,12 @@ The splash page (`#/welcome`) is a full-screen `<canvas>`: cars circling the sig
 
 ## Stack
 
-Preact + TypeScript + Vite, deployed as static assets on a Cloudflare Worker. No backend.
+Preact + TypeScript + Vite, deployed as static assets on a Cloudflare Worker. No backend. The course text (about a megabyte) and the Remotion player load only inside Learn; the lesson check questions are built into the main bundle by a small Vite plugin so Practice and the mock exam can use them.
 
 ```bash
 npm install
 npm run dev        # local dev server
-npm run check      # validate the question bank
+npm run check      # validate the question bank, the course, the diagrams and every citation
 npm run build      # type-check and build to dist/
 npm run deploy     # check, build, wrangler deploy
 ```
@@ -61,6 +93,13 @@ Questions live in `src/data/questions.json`. Each has English and Spanish text, 
 
 Traffic law changes, and so does the exam. Check anything that matters at [dgt.es](https://www.dgt.es).
 
+The Learn course was written from the BOE texts in force on 2026-10-17 and then checked a second time by independent readers who had not seen the author's reasoning. That second pass found real errors in every module (wrong scope of a rule, omitted exceptions, claims taken from repealed articles, unsourced first-aid details, an exam feature the DGT had only announced), which were corrected; it also led to corrections in about twenty existing questions and several Facts entries. Four practical points to know:
+
+- Some rules rest on a plain reading, not on a sentence of the law, and the lessons say so (for example, what crossing a solid line allows for overtaking a cyclist).
+- Guidance that is not law (the two-second gap, rest breaks, first aid) comes from DGT and Ministry of Health pages and is labeled as guidance.
+- The theory exam's video hazard question was announced for late 2025, but the DGT's current exam page does not mention it; the Facts screen marks it "verify".
+- US comparisons are deliberately modest ("most states").
+
 The question bank was fact-checked on 2026-10-16 by an independent read of the BOE consolidated texts (Reglamento General de Circulación, Ley de Tráfico, Código Penal, and others) and dgt.es. That pass corrected two wrong explanations and several imprecise ones, and supplied the article numbers in each question's `src` line. It also caught a rule change: since 1 October 2026 (RD 518/2026), overtaking a cyclist outside town requires slowing at least 20 km/h below the road limit.
 
 What is still not confirmed from a primary source:
@@ -76,7 +115,7 @@ Three kinds of material, three licenses:
 | What | License |
 |---|---|
 | Source code | [Apache License 2.0](LICENSE) |
-| Written learning content (questions, explanations, vocabulary, sign meanings, interface text) | [CC BY 4.0](LICENSE-CONTENT.md) |
+| Written learning content (questions, explanations, lessons, vocabulary, sign meanings, interface text) and the original diagrams in `src/learn-figures/` | [CC BY 4.0](LICENSE-CONTENT.md) |
 | Traffic sign images in `public/signs/` | Their own licenses from Wikimedia Commons (public domain, CC0, or CC BY-SA), with credits in [`public/signs/CREDITS.md`](public/signs/CREDITS.md) |
 
 The sign images are unmodified copies and keep their original terms. Licensing the code under Apache 2.0 does not relicense them.

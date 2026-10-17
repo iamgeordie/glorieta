@@ -51,9 +51,18 @@ This app tells learners what the law is. A wrong rule is worse than a missing on
    everything in your own words from the law.
 6. **If you cannot verify it, leave it out** and say so in your report. Do not guess, round, or
    "remember". An honest gap is fine; a plausible error is not.
-7. **No local rules.** Teach national law. Municipal and regional variation is a one-line mention
+7. **Signs and markings are cited to the Catalogue, not to old articles.** Today the meaning of each
+   sign is in **RGC Anexo I, ap. 5.1** (Tomo I: code, name and definition of every vertical sign, in
+   sections 3.1 to 3.9) and road markings are in **ap. 5.2**. Read them with
+   `node scripts/boe.mjs catalogue "R-305"` (it prints the in-force definition from the published text of
+   RD 465/2025; the consolidated API only holds the annex's introduction). RGC art.
+   134.4 says the Catalogue is part of Anexo I. Cite them as `RGC Anexo I, ap. 5.1, 3.5 (R-305)` or
+   `RGC Anexo I, ap. 5.2 (marcas viales)`. Read the definition in the in-force text before you teach it:
+   it may differ from what the repealed articles said (and from older sources, books and videos).
+   `npm run check` fails any citation of RGC arts. 159 to 173, or of 151 to 158 for a sign.
+8. **No local rules.** Teach national law. Municipal and regional variation is a one-line mention
    at most ("councils can set lower limits with signs").
-8. **US comparisons** (`us` block) must be true across most of the US, stated modestly ("most US
+9. **US comparisons** (`us` block) must be true across most of the US, stated modestly ("most US
    states", "usually"). Convert units: 30 km/h is about 19 mph (km/h x 0.62). Leave a `us` block out
    rather than state a comparison you are not sure of.
 
@@ -61,11 +70,22 @@ This app tells learners what the law is. A wrong rule is worse than a missing on
 
 ```bash
 node scripts/boe.mjs laws                                   # the laws and their BOE ids
-node scripts/boe.mjs BOE-A-2003-23514 index                 # every block of the RGC (a57 = article 57, anexo1, ...)
-node scripts/boe.mjs BOE-A-2003-23514 a57 a58               # exact current text of those blocks
-node scripts/boe.mjs BOE-A-2003-23514 grep "glorieta"       # every block mentioning a word
-node scripts/boe.mjs BOE-A-2015-11722 grep "alcohol"        # same, in the Ley de Tráfico
+node scripts/boe.mjs BOE-A-2003-23514 index                 # every block of the RGC (a57 = article 57, A5 = Anexo I section 5, ...)
+node scripts/boe.mjs BOE-A-2003-23514 art 57 58             # SAFEST: every IN-FORCE block titled "Artículo 57" / "Artículo 58"
+node scripts/boe.mjs BOE-A-2003-23514 a57                   # one block by id (see the caution below)
+node scripts/boe.mjs BOE-A-2003-23514 grep "glorieta"       # in-force blocks that mention a word (repealed ones are left out)
+node scripts/boe.mjs BOE-A-2003-23514 repealed              # blocks that are NO LONGER in force, with the date
+node scripts/boe.mjs catalogue "R-305"                      # the IN-FORCE sign Catalogue: code, name and definition of a sign, or a marking (RGC Anexo I, ap. 5)
+node scripts/boe.mjs original BOE-A-2025-12199 "regex"      # the text as first published (for a decree that amends a law)
 ```
+
+**Repealed text is not law.** A block printed with `*** REPEALED since ... DO NOT CITE ***` is no longer in
+force. Block ids are not article numbers: a new article can reuse a number in a differently named block
+(RGC art. 153 today is the bicycle article, block `a1-6`; the old `a153` is repealed). **Cite by article
+number only after `art <number>` shows an in-force block with that title**, and never cite a block flagged
+REPEALED. In the RGC, the old sign and marking articles **151 to 173 were repealed on 2025-06-17** (RD
+465/2025). Articles 151 to 158 are now a *different* set (cyclists, pedestrians, personal mobility vehicles,
+parking regime, environmental restrictions, safe school routes); 159 to 173 no longer exist.
 
 Laws: RGC = Reglamento General de Circulación (`BOE-A-2003-23514`); LSV = Ley de Tráfico y Seguridad
 Vial (`BOE-A-2015-11722`, its *Anexo I* defines the basic terms and *Anexo II* the points);
