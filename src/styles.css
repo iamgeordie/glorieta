@@ -428,3 +428,7 @@ th { color: var(--muted); font-size: 0.78rem; text-transform: uppercase; letter-
 .scene-scrub { flex: 1; min-width: 0; accent-color: var(--primary); }
 
 .gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 16px; }
+
+/* The Spanish flag: sized by the text next to it. */
+.flag { display: inline-block; vertical-align: -0.12em; margin-right: 0.45em; border-radius: 0.12em; box-shadow: 0 0 0 1px rgba(128, 128, 128, 0.45); }
+.splash-slogan .flag { vertical-align: -0.1em; margin-right: 0.4em; }

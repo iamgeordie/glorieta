@@ -11,6 +11,7 @@ import { learn } from '../lib/learn';
 import { courseProgress } from '../lib/learn-core';
 import modules from 'virtual:learn-index';
 import { L } from '../learnStrings';
+import { Flag } from '../Flag';
 
 export function Home() {
   // Reading the signal subscribes the page to progress changes.
@@ -34,7 +35,7 @@ export function Home() {
   return (
     <section>
       <p class="slogan"><T t={ui.slogan} /></p>
-      <p class="lede"><T t={ui.tagline} /></p>
+      <p class="lede"><Flag /><T t={ui.tagline} /></p>
       <ul class="list">
         {tiles.map((t) => (
           <li key={t.href}>

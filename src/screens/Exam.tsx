@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'preact/hooks';
 import { T } from '../i18n';
+import { Flag } from '../Flag';
 import { EXAM_MAX_ERRORS, EXAM_MINUTES, EXAM_QUESTIONS } from '../data/facts';
 import { examFacts, maxMistakes, mistakes, questionOf, submitExam, timeLeft } from '../format';
 import { ui } from '../ui';
@@ -16,7 +17,7 @@ export function Exam() {
   if (phase === 'intro') {
     return (
       <section class="center">
-        <h1><T t={ui.exam} /></h1>
+        <h1><Flag /><T t={ui.exam} /></h1>
         <p><T t={ui.examHint} /></p>
         <p class="note"><T t={examFacts(EXAM_QUESTIONS, EXAM_MINUTES, EXAM_MAX_ERRORS)} /></p>
         <button type="button" class="primary" onClick={() => setPhase('run')}><T t={ui.start} /></button>

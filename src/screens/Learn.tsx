@@ -6,6 +6,7 @@ import { courseProgress, lessonsDone, moduleStatus, nextUp, type ModuleStatus } 
 import { allQuestions } from '../lib/quiz';
 import { statsFor } from '../lib/store';
 import { bi } from '../i18n';
+import { Flag } from '../Flag';
 
 const statusLabel: Record<ModuleStatus, ReturnType<typeof bi>> = {
   new: L.statusNew,
@@ -41,7 +42,7 @@ export function Course() {
 
   return (
     <section>
-      <h1><T t={L.courseTitle} /></h1>
+      <h1><Flag /><T t={L.courseTitle} /></h1>
       <p class="lede"><T t={L.courseLede} /></p>
 
       <div class="card">

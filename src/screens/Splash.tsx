@@ -6,6 +6,7 @@ import { markSplashSeen } from '../lib/splash-seen';
 import { authStatus } from '../lib/auth';
 import { authEnabled } from '../lib/supabase';
 import { a } from '../authStrings';
+import { Flag } from '../Flag';
 
 const COMMONS_PAGE = 'https://commons.wikimedia.org/wiki/File:Spain_traffic_signal_r402.svg';
 const LICENSE_URL = 'https://creativecommons.org/licenses/by-sa/4.0/';
@@ -31,7 +32,7 @@ export function Splash() {
       <main class="splash-main">
         <div ref={mark} class="splash-mark" aria-hidden="true" />
         <h1 class="splash-title">Glorieta</h1>
-        <p class="splash-slogan"><T t={ui.slogan} /></p>
+        <p class="splash-slogan"><Flag /><T t={ui.slogan} /></p>
         <p class="splash-lede"><T t={ui.tagline} /></p>
         <div class="splash-actions">
           <a class="primary splash-cta" href="#/" onClick={markSplashSeen}>
