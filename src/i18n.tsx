@@ -30,6 +30,12 @@ export function setMode(m: Mode) {
 
 export const bi = (es: string, en: string): Bi => ({ es, en });
 
+/** `**bold**` in a string marks the key term or number (the signalling principle: cue what matters). */
+export function rich(s: string): ComponentChildren {
+  if (!s.includes('**')) return s;
+  return s.split('**').map((part, i) => (i % 2 ? <strong key={i}>{part}</strong> : part));
+}
+
 /** Lets one card show both languages while the rest of the app stays in Spanish. */
 export const ModeOverride = createContext<Mode | null>(null);
 const useMode = (): Mode => useContext(ModeOverride) ?? mode.value;
@@ -38,12 +44,12 @@ const useMode = (): Mode => useContext(ModeOverride) ?? mode.value;
 export function T({ t, class: cls }: { t: Bi; class?: string }) {
   const m = useMode();
   // Identical strings (numbers, "STOP", "112") need no translation line.
-  if (m === 'es' || (m === 'both' && t.es === t.en)) return <span class={cls}>{t.es}</span>;
-  if (m === 'en') return <span class={cls}>{t.en}</span>;
+  if (m === 'es' || (m === 'both' && t.es === t.en)) return <span class={cls}>{rich(t.es)}</span>;
+  if (m === 'en') return <span class={cls}>{rich(t.en)}</span>;
   return (
     <span class={cls}>
-      {t.es}
-      <span class="sub">{t.en}</span>
+      {rich(t.es)}
+      <span class="sub">{rich(t.en)}</span>
     </span>
   );
 }
@@ -58,7 +64,7 @@ export function Peek({ t, class: cls }: { t: Bi; class?: string }) {
   if (m !== 'es') return <T t={t} class={cls} />;
   return (
     <span class={cls}>
-      {t.es}
+      {rich(t.es)}
       <button
         type="button"
         class={`peek ${open ? 'on' : ''}`}
@@ -71,7 +77,7 @@ export function Peek({ t, class: cls }: { t: Bi; class?: string }) {
       >
         EN
       </button>
-      {open && <span class="sub peeked">{t.en}</span>}
+      {open && <span class="sub peeked">{rich(t.en)}</span>}
     </span>
   );
 }

@@ -14,6 +14,9 @@ import { authStatus } from './lib/auth';
 import { authEnabled } from './lib/supabase';
 import { a } from './authStrings';
 import { Practice } from './screens/Study';
+import { Course, ModuleScreen } from './screens/Learn';
+import { LessonScreen } from './screens/Lesson';
+import { ModuleQuiz } from './screens/ModuleQuiz';
 
 // First visit with no deep link: show the splash once. A returning email link (?code=) goes straight in.
 if (!location.hash && !hasSeenSplash() && !new URL(location.href).searchParams.has('code')) {
@@ -26,10 +29,15 @@ addEventListener('hashchange', () => {
 });
 
 function Screen() {
-  const [, path = '', arg = ''] = route.value.split('/');
+  const [, path = '', arg = '', arg2 = '', arg3 = ''] = route.value.split('/');
   switch (path) {
     case 'welcome':
       return <Splash />;
+    case 'learn':
+      if (!arg) return <Course />;
+      if (!arg2) return <ModuleScreen moduleId={arg} />;
+      if (arg2 === 'quiz') return <ModuleQuiz moduleId={arg} />;
+      return <LessonScreen moduleId={arg} lessonId={arg2} step={arg3 === '' || Number.isNaN(Number(arg3)) ? null : Number(arg3)} />;
     case 'practice':
       return <Practice categoryId={arg || null} />;
     case 'exam':

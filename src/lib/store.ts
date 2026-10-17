@@ -1,6 +1,7 @@
 import { signal } from '@preact/signals';
 import { createEmptyCard, fsrs, Rating, type Card } from 'ts-fsrs';
 import { clearAttempts, recordAttempt, type AttemptMode } from './attempts';
+import { resetLearn } from './learn';
 
 const PROGRESS_KEY = 'glorieta.progress.v1';
 const EXAMS_KEY = 'glorieta.exams.v1';
@@ -103,6 +104,7 @@ export function resetAll() {
   progress.value = {};
   exams.value = [];
   clearAttempts();
+  resetLearn();
   try {
     localStorage.removeItem(PROGRESS_KEY);
     localStorage.removeItem(EXAMS_KEY);

@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'preact/hooks';
+import { useContext, useMemo, useState } from 'preact/hooks';
 import { bi, ModeOverride, mode, T } from '../i18n';
 import { categories, categoryById } from '../data/categories';
 import { questionOf, seenOf } from '../format';
@@ -21,13 +21,15 @@ export function QuestionCard({
   onSelect: (original: number) => void;
 }) {
   const [peek, setPeek] = useState(false);
-  const override = peek && mode.value === 'es' ? 'both' : null;
+  // Inside a lesson step the whole step may already be showing both languages.
+  const outer = useContext(ModeOverride);
+  const override = peek && mode.value === 'es' ? 'both' : outer;
   return (
     <ModeOverride.Provider value={override}>
       <article class="card question">
         <header class="card-head">
           <span class="chip"><T t={categoryById(q.cat).name} /></span>
-          {mode.value === 'es' && (
+          {mode.value === 'es' && outer === null && (
             <button type="button" class={`peek wide ${peek ? 'on' : ''}`} aria-pressed={peek} onClick={() => setPeek(!peek)}>
               EN
             </button>

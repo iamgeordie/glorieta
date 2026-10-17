@@ -12,8 +12,9 @@ export const categories: Category[] = [
   { id: 'docs', name: bi('Permisos y puntos', 'Licenses & points') },
   { id: 'signs', name: bi('Señales y marcas viales', 'Signs & markings') },
   { id: 'equipment', name: bi('Vehículo y equipamiento', 'Vehicle & equipment') },
-  { id: 'situations', name: bi('Estacionamiento, autopistas y emergencias', 'Parking, motorways & emergencies') },
+  { id: 'situations', name: bi('Estacionamiento, autopistas y túneles', 'Parking, motorways & tunnels') },
   { id: 'hazards', name: bi('Percepción del riesgo', 'Hazard perception') },
+  { id: 'emergencies', name: bi('Accidentes y primeros auxilios', 'Accidents & first aid') },
 ];
 
 export const categoryById = (id: string): Category => {

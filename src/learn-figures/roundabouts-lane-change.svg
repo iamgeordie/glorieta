@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360" focusable="false">
+  <rect class="f-grass" x="0" y="0" width="360" height="360"/>
+  <g class="f-road"><rect x="150" y="200" width="60" height="160"/><rect x="150" y="0" width="60" height="160"/><rect x="0" y="150" width="160" height="60"/><rect x="200" y="150" width="160" height="60"/></g>
+  <circle class="f-ring" cx="180" cy="180" r="96" stroke-width="84"/>
+  <path class="f-line f-dash" d="M180 324 V360 M180 0 V36 M0 180 H36 M324 180 H360"/>
+  <path class="f-line f-dash" d="M182 320 H208"/>
+  <path class="f-line f-dash" d="M152 40 H178"/>
+  <path class="f-line f-dash" d="M40 182 V208"/>
+  <path class="f-line f-dash" d="M320 152 V178"/>
+  <circle class="f-line f-dash" cx="180" cy="180" r="96" fill="none"/>
+  <circle class="f-curb" cx="180" cy="180" r="58"/>
+  <circle class="f-island" cx="180" cy="180" r="54"/>
+  <path class="f-zone" d="M275.5 196.8 A97 97 0 0 0 252.1 115.1 L282.6 87.7 A138 138 0 0 1 315.9 204 Z"/>
+  <path class="f-path" d="M241.4 223 L243.5 220.5 L246 218.1 L248.8 215.8 L251.9 213.5 L255.4 211.2 L259 208.8 L262.8 206.1 L266.7 203.2 L270.7 200.1 L274.5 196.7 L278.3 192.9 L281.8 188.9 L285.1 184.6 L287.9 180 L290.3 175.2 L292.2 170.2 L293.5 165.1 L294.1 159.9 L293.9 154.7 L293 149.7 L289.2 138.1 L284.2 126.9 L278.1 116.3 L270.9 106.4 L262.7 97.3 L253.6 89.1 L243.7 81.9 L233.1 75.8 L221.9 70.8 L210.3 67 L199 52 L195 30"/>
+  <use href="#v-car" class="f-me" transform="translate(241.4 223) rotate(-325)"/>
+  <use href="#v-car" class="f-other" transform="translate(295.9 163.7) rotate(-8)"/>
+  <circle class="f-badge" cx="263.4" cy="243" r="11"/><text class="f-badge-text" x="263.4" y="243">B</text>
+  <circle class="f-badge" cx="325.9" cy="159.7" r="11"/><text class="f-badge-text" x="325.9" y="159.7">A</text>
+</svg>

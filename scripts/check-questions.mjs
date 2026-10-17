@@ -1,6 +1,7 @@
 // Validates the question bank before every deploy. Run with: npm run check
 import { existsSync, readFileSync, readdirSync } from 'node:fs';
 import { renderCredits } from './credits-lib.mjs';
+import { checkLearn } from './check-learn.mjs';
 
 const questions = JSON.parse(readFileSync(new URL('../src/data/questions.json', import.meta.url), 'utf8'));
 const categoriesSrc = readFileSync(new URL('../src/data/categories.ts', import.meta.url), 'utf8');
@@ -63,10 +64,17 @@ if (!existsSync(faviconPath) || !readFileSync(faviconPath).equals(readFileSync(s
 const credits = existsSync(new URL('CREDITS.md', signDir)) ? readFileSync(new URL('CREDITS.md', signDir), 'utf8') : '';
 if (credits !== renderCredits(signs)) problems.push('public/signs/CREDITS.md is out of date; run npm run credits');
 
-for (const id of categoryIds) if (!perCat[id]) problems.push(`category "${id}" has no questions`);
+// The course: lessons, check questions and diagrams.
+const learn = checkLearn({ questions, signs, categoryIds });
+problems.push(...learn.problems);
+
+// A category's questions are the bank's plus the checks written into its lesson.
+for (const id of categoryIds) if (!perCat[id] && !learn.checksPerCat[id]) problems.push(`category "${id}" has no questions`);
 
 console.log(`${questions.length} text questions, answer positions: ${answers.join(' / ')}; ${signs.length} sign questions generated from signs.json`);
 console.log(Object.entries(perCat).map(([k, v]) => `${k}:${v}`).join('  '));
+console.log(`course: ${learn.moduleCount} modules, ${learn.lessonCount} lessons, ${learn.checkCount} check questions, ${learn.figureCount} figures`);
+for (const n of learn.notes) console.log(`note: ${n}`);
 if (problems.length) {
   console.error(`\n${problems.length} problem(s):\n- ${problems.join('\n- ')}`);
   process.exit(1);

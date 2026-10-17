@@ -14,6 +14,18 @@
   --warn-bg: #fff4dc;
   --radius: 14px;
   --gutter: 16px;
+  /* Lesson diagrams */
+  --fig-grass: #e6eee1;
+  --fig-island: #c9dcc0;
+  --fig-road: #4d5663;
+  --fig-curb: #aab2bd;
+  --fig-line: #f5f6f8;
+  --fig-me: #1f6fe5;
+  --fig-other: #e8922e;
+  --fig-danger: #d63a3a;
+  --fig-ok: #1e9e57;
+  --fig-neutral: #7d8794;
+  --fig-path: #ffd23f;
   color-scheme: light dark;
 }
 
@@ -32,6 +44,17 @@
     --wrong-bg: #3a151c;
     --warn: #f2b94b;
     --warn-bg: #33270e;
+    --fig-grass: #18241c;
+    --fig-island: #243a2b;
+    --fig-road: #2e353f;
+    --fig-curb: #5d6672;
+    --fig-line: #e9ebef;
+    --fig-me: #5b9bff;
+    --fig-other: #f0a24a;
+    --fig-danger: #ff6b6b;
+    --fig-ok: #4cc27a;
+    --fig-neutral: #8f9aa8;
+    --fig-path: #ffd23f;
   }
 }
 
@@ -282,3 +305,112 @@ button.secondary.full[disabled], .secondary[disabled] { opacity: 0.6; cursor: no
 .badge.ok { background: var(--right-bg, #e3f6e8); color: var(--right); }
 .legal { margin: 8px 0 0; text-align: center; }
 .legal a { color: var(--primary); }
+
+/* ---- Learn: course map, lessons, figures ---- */
+.stats { grid-template-columns: repeat(auto-fit, minmax(96px, 1fr)); }
+@media (min-width: 640px) { .stats { grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); } }
+
+.crumbs { margin: 16px 0 0; font-size: 0.85rem; color: var(--muted); }
+.crumbs a { color: var(--muted); }
+.crumbs + h1 { margin-top: 6px; }
+
+.modules, .lessons { list-style: none; display: grid; gap: 10px; margin: 14px 0; padding: 0; }
+.module-card, .lesson-row {
+  display: flex; gap: 14px; align-items: flex-start; padding: 14px 16px;
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+  color: var(--text); text-decoration: none;
+}
+.module-card:hover, .lesson-row:hover { border-color: var(--primary); }
+.module-card.mastered { border-color: var(--right); }
+.module-num, .lesson-mark {
+  flex: none; width: 34px; height: 34px; border-radius: 50%; display: grid; place-items: center;
+  font-weight: 800; font-size: 0.95rem; background: var(--bg); border: 2px solid var(--line); color: var(--muted);
+}
+.module-card.learning .module-num, .module-card.ready .module-num { border-color: var(--primary); color: var(--primary); }
+.module-card.mastered .module-num, .lesson-row.done .lesson-mark { background: var(--right); border-color: var(--right); color: #fff; }
+.module-body, .lesson-body { display: flex; flex-direction: column; gap: 3px; flex: 1; min-width: 0; }
+.module-body small, .lesson-body small { color: var(--muted); font-size: 0.85rem; }
+.module-meta { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; color: var(--muted); font-size: 0.8rem; }
+.module-meta .badge { margin-left: 0; }
+.badge.status-new { background: var(--bg); color: var(--muted); border: 1px solid var(--line); }
+.badge.status-learning { background: var(--warn-bg); color: var(--warn); }
+.badge.status-ready { background: var(--wrong-bg); color: var(--wrong); }
+.badge.status-mastered { background: var(--right-bg); color: var(--right); }
+.badge.status-ready, .badge.status-new { background-clip: padding-box; }
+
+.lesson { padding-bottom: 24px; }
+.seg { list-style: none; display: flex; gap: 4px; margin: 4px 0 16px; padding: 0; }
+.seg li { flex: 1; height: 6px; border-radius: 3px; background: var(--line); }
+.seg li.done { background: var(--primary); }
+.seg li.current { background: var(--primary); opacity: 0.55; }
+
+.step-title { font-size: 1.3rem; margin: 4px 0 12px; }
+.lp { margin: 0 0 12px; }
+.lp-list { margin: 0 0 12px; padding-left: 22px; }
+.lp-list li { margin: 0 0 6px; }
+.lesson-nav { display: flex; gap: 10px; margin: 14px 0 6px; }
+.lesson-nav .primary { flex: 1; }
+.lesson-nav .secondary { flex: none; }
+.step .card { margin: 12px 0; }
+
+.callout { border-radius: 10px; padding: 10px 14px; margin: 0 0 14px; border-left: 4px solid var(--primary); background: var(--bg); }
+.callout p { margin: 0; }
+.callout .label { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin-bottom: 2px; }
+.callout .src { display: block; margin-top: 6px; font-size: 0.78rem; color: var(--muted); }
+.callout.rule { border-left-color: var(--primary); }
+.callout.tip { border-left-color: var(--right); background: var(--right-bg); }
+.callout.example { border-left-color: var(--warn); }
+.callout.example dl { margin: 6px 0 0; display: grid; gap: 2px 12px; grid-template-columns: auto 1fr; }
+.callout.example dt { font-weight: 700; font-size: 0.85rem; color: var(--muted); }
+.callout.example dd { margin: 0 0 6px; }
+@media (max-width: 520px) { .callout.example dl { grid-template-columns: 1fr; } .callout.example dd { margin-bottom: 8px; } }
+
+.table-wrap { overflow-x: auto; margin: 0 0 14px; }
+table { border-collapse: collapse; width: 100%; font-size: 0.92rem; }
+th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { color: var(--muted); font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.04em; }
+
+.fig { margin: 0 0 16px; }
+.fig-art { border-radius: 12px; overflow: hidden; border: 1px solid var(--line); background: var(--fig-grass); }
+.fig-art svg { display: block; width: 100%; height: auto; max-height: 420px; }
+.fig figcaption { margin-top: 8px; font-size: 0.9rem; color: var(--muted); }
+.fig-legend { list-style: none; margin: 8px 0 0; padding: 0; display: grid; gap: 4px; font-size: 0.92rem; }
+.fig-mark { display: inline-grid; place-items: center; width: 22px; height: 22px; border-radius: 50%; background: var(--surface); border: 2px solid var(--text); font-size: 0.75rem; font-weight: 800; margin-right: 6px; }
+
+/* SVG parts shared by all lesson diagrams */
+.f-grass { fill: var(--fig-grass); }
+.f-island { fill: var(--fig-island); }
+.f-road { fill: var(--fig-road); }
+.f-ring { fill: none; stroke: var(--fig-road); }
+.f-curb { fill: var(--fig-curb); }
+.f-white { fill: var(--fig-line); }
+.f-line { stroke: var(--fig-line); stroke-width: 2.5; fill: none; }
+.f-dash { stroke-dasharray: 10 8; }
+.f-seam { stroke: rgba(0, 0, 0, 0.25); stroke-width: 1.5; fill: none; }
+.f-me { color: var(--fig-me); }
+.f-other { color: var(--fig-other); }
+.f-danger { color: var(--fig-danger); }
+.f-ok { color: var(--fig-ok); }
+.f-neutral { color: var(--fig-neutral); }
+.f-glass { fill: #fff; opacity: 0.75; }
+.f-path { stroke: var(--fig-path); stroke-width: 4; fill: none; stroke-linecap: round; stroke-linejoin: round; marker-end: url(#f-arrow); }
+.f-path-plain { stroke: var(--fig-path); stroke-width: 4; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+.f-zone { fill: var(--fig-danger); opacity: 0.28; }
+.f-zone-ok { fill: var(--fig-ok); opacity: 0.25; }
+.f-badge { fill: var(--surface); stroke: var(--text); stroke-width: 2; }
+.f-badge-text { font: 800 13px system-ui, sans-serif; fill: var(--text); text-anchor: middle; dominant-baseline: central; }
+#f-arrow path { fill: var(--fig-path); }
+
+.sign-strip-box { margin: 0 0 14px; }
+.sign-strip { list-style: none; display: grid; grid-template-columns: repeat(auto-fill, minmax(104px, 1fr)); gap: 10px; margin: 0 0 6px; padding: 0; }
+.sign-strip li { display: flex; flex-direction: column; align-items: center; gap: 4px; text-align: center; padding: 8px 6px; border: 1px solid var(--line); border-radius: 12px; background: var(--bg); }
+.sign-strip img { background: #fff; border-radius: 10px; padding: 4px; }
+
+.check-box { margin: 6px 0 14px; }
+.check-label { margin: 0 0 4px; font-weight: 800; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--primary); }
+.check-box .card { margin: 0; border-width: 2px; }
+.guess .stem { margin-top: 8px; }
+.guess-why { margin: 12px 0 0; padding: 10px 12px; border-left: 4px solid var(--primary); background: var(--bg); border-radius: 8px; }
+
+.left { text-align: left; }
+.small-num { font-size: 1.4rem; margin-top: 0; color: var(--muted); }

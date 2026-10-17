@@ -7,6 +7,10 @@ import { a } from '../authStrings';
 import { ui } from '../ui';
 import { allQuestions } from '../lib/quiz';
 import { exams, progress, resetAll, statsFor } from '../lib/store';
+import { learn } from '../lib/learn';
+import { courseProgress } from '../lib/learn-core';
+import { modules } from '../data/learn';
+import { L } from '../learnStrings';
 
 export function Home() {
   // Reading the signal subscribes the page to progress changes.
@@ -14,8 +18,10 @@ export function Home() {
   const q = statsFor(allQuestions.map((x) => x.id));
   const v = statsFor(terms.map((t) => `v:${t.id}`));
   const last = exams.value[exams.value.length - 1];
+  const course = courseProgress(modules, learn.value);
 
   const tiles = [
+    { href: '#/learn', title: L.learn, hint: L.learnHint },
     { href: '#/practice', title: ui.practice, hint: ui.practiceHint },
     { href: '#/exam', title: ui.exam, hint: ui.examHint },
     { href: '#/signs', title: ui.signsTile, hint: ui.signsTileHint },
@@ -43,6 +49,7 @@ export function Home() {
       <div class="card">
         <h2><T t={ui.progress} /></h2>
         <dl class="stats">
+          <div><dt><T t={L.learn} /></dt><dd>{course.done}/{course.lessons}</dd></div>
           <div><dt><T t={ui.practice} /></dt><dd>{q.seen}/{allQuestions.length}</dd></div>
           <div><dt><T t={ui.accuracy} /></dt><dd>{q.accuracy === null ? '–' : `${q.accuracy}%`}</dd></div>
           <div><dt><T t={ui.dueNow} /></dt><dd>{q.due}</dd></div>

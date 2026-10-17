@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360" focusable="false">
+  <rect class="f-grass" x="0" y="0" width="360" height="360"/>
+  <g class="f-road"><rect x="150" y="200" width="60" height="160"/><rect x="150" y="0" width="60" height="160"/><rect x="0" y="150" width="160" height="60"/><rect x="200" y="150" width="160" height="60"/></g>
+  <circle class="f-ring" cx="180" cy="180" r="96" stroke-width="60"/>
+  <path class="f-line f-dash" d="M180 312 V360 M180 0 V48 M0 180 H48 M312 180 H360"/>
+  <path class="f-line f-dash" d="M182 308 H208"/>
+  <path class="f-line f-dash" d="M152 52 H178"/>
+  <path class="f-line f-dash" d="M52 182 V208"/>
+  <path class="f-line f-dash" d="M308 152 V178"/>
+  <circle class="f-curb" cx="180" cy="180" r="66"/>
+  <circle class="f-island" cx="180" cy="180" r="62"/>
+  <path class="f-path" d="M195 318 L195 292 Q195 195 290 195 L320 195"/>
+  <path class="f-path" d="M195 318 L195 292 C245 288 276 245 276 180 C276 118 242 78 195 66 L195 34"/>
+  <path class="f-path" d="M195 318 L195 292 C262 286 280 236 280 180 C280 116 244 84 180 84 C120 84 90 112 86 165 L38 165"/>
+  <use href="#v-car" class="f-me" transform="translate(195 340) rotate(0)"/>
+  <circle class="f-badge" cx="344" cy="195" r="11"/><text class="f-badge-text" x="344" y="195">1</text>
+  <circle class="f-badge" cx="195" cy="14" r="11"/><text class="f-badge-text" x="195" y="14">2</text>
+  <circle class="f-badge" cx="16" cy="165" r="11"/><text class="f-badge-text" x="16" y="165">3</text>
+</svg>

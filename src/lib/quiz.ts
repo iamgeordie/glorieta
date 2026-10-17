@@ -1,5 +1,6 @@
 import questions from '../data/questions.json';
 import { signs, signFile, type Sign } from '../data/signs';
+import { checksOf, modules } from '../data/learn';
 import { isDue, isSeen, progress } from './store';
 
 export type LangBlock = { q: string; options: string[]; why: string };
@@ -16,7 +17,17 @@ export type Question = {
   src: string;
 };
 
-export const textQuestions = questions as unknown as Question[];
+const bankQuestions = questions as unknown as Question[];
+
+/**
+ * The check questions written into the lessons. They join the bank, so Practice and the mock exam
+ * draw on them and answering one in a lesson schedules it for spaced review like any other.
+ */
+export const lessonQuestions: Question[] = modules.flatMap((m) =>
+  m.lessons.flatMap((l) => checksOf(l).map(({ q }): Question => ({ ...q, cat: m.id }))),
+);
+
+export const textQuestions: Question[] = [...bankQuestions, ...lessonQuestions];
 
 export function shuffle<T>(items: readonly T[]): T[] {
   const a = [...items];
