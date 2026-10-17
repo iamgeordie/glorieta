@@ -8,7 +8,6 @@ export const ui = {
   tagline: bi('Prepara el teórico del permiso B en español.', 'Prepare for the permiso B theory test in Spanish.'),
   home: bi('Inicio', 'Home'),
   // A link from the welcome page to LinguaMama, the language-learning app by the same author.
-  promoKicker: bi('Para los atrevidos', 'For the daring'),
   promoBody: bi('Vives en España: aprende español con nuestra app hermana.', 'You’re living in Spain: learn Spanish with our sister app.'),
   promoTagline: bi('Fluido antes de hablar.', 'Fluent before you speak.'),
   promoCta: bi('¡Prueba LinguaMama.ai gratis!', 'Try LinguaMama.ai free!'),
