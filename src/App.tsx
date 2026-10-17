@@ -17,6 +17,10 @@ import { Practice } from './screens/Study';
 import { Course, ModuleScreen } from './screens/Learn';
 import { LessonScreen } from './screens/Lesson';
 import { ModuleQuiz } from './screens/ModuleQuiz';
+import { Suspense, lazy } from 'preact/compat';
+
+// A preview of every lesson diagram, for authors. Not built into the production site.
+const FigureGallery = import.meta.env.DEV ? lazy(() => import('./screens/FigureGallery')) : null;
 
 // First visit with no deep link: show the splash once. A returning email link (?code=) goes straight in.
 if (!location.hash && !hasSeenSplash() && !new URL(location.href).searchParams.has('code')) {
@@ -38,6 +42,14 @@ function Screen() {
       if (!arg2) return <ModuleScreen moduleId={arg} />;
       if (arg2 === 'quiz') return <ModuleQuiz moduleId={arg} />;
       return <LessonScreen moduleId={arg} lessonId={arg2} step={arg3 === '' || Number.isNaN(Number(arg3)) ? null : Number(arg3)} />;
+    case 'figures':
+      return FigureGallery ? (
+        <Suspense fallback={null}>
+          <FigureGallery names={arg} at={arg2 === '' || Number.isNaN(Number(arg2)) ? undefined : Number(arg2)} theme={arg3} />
+        </Suspense>
+      ) : (
+        <Home />
+      );
     case 'practice':
       return <Practice categoryId={arg || null} />;
     case 'exam':

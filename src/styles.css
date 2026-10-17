@@ -414,3 +414,17 @@ th { color: var(--muted); font-size: 0.78rem; text-transform: uppercase; letter-
 
 .left { text-align: left; }
 .small-num { font-size: 1.4rem; margin-top: 0; color: var(--muted); }
+
+/* Animated diagrams: the base road art and the moving actors share one viewBox. */
+.fig-art.animated { position: relative; }
+.scene-base, .scene-base svg { width: 100%; height: 100%; display: block; }
+.scene-actors { position: absolute; inset: 0; width: 100%; height: 100%; }
+.fig-art .fig-still svg { display: block; width: 100%; height: auto; max-height: 420px; }
+.fig-art.animated svg { max-height: none; }
+
+.scene-bar { display: flex; align-items: center; gap: 12px; padding: 8px 10px; background: var(--surface); border-top: 1px solid var(--line); }
+.scene-play { flex: none; min-width: 108px; min-height: 40px; padding: 6px 14px; border: 2px solid var(--primary); border-radius: 10px; background: var(--primary); color: var(--primary-text); font-weight: 700; }
+.scene-play .sub { color: inherit; opacity: 0.85; font-size: 0.7rem; }
+.scene-scrub { flex: 1; min-width: 0; accent-color: var(--primary); }
+
+.gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 16px; }

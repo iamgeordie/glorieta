@@ -90,5 +90,7 @@ export const L = {
   bestScore: (pct: number): Bi => bi(`Mejor resultado: ${pct}%`, `Best score: ${pct}%`),
   topicLine: (seen: number, total: number, due: number): Bi =>
     bi(`${seen}/${total} vistas${due > 0 ? ` · ${due} para repasar` : ''}`, `${seen}/${total} seen${due > 0 ? ` · ${due} due for review` : ''}`),
+  play: bi('Reproducir', 'Play'),
+  pause: bi('Pausa', 'Pause'),
   localOnly: bi('Tu avance en el curso se guarda solo en este dispositivo.', 'Your course progress is saved on this device only.'),
 };

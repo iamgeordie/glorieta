@@ -1,5 +1,11 @@
+import { Suspense, lazy } from 'preact/compat';
 import { T, mode } from '../i18n';
 import type { Block } from '../data/learn/types';
+import defs from './figure-defs.svg?raw';
+import type { Scene } from '../lib/scene-core';
+
+// Remotion is only downloaded when a lesson actually shows an animated diagram.
+const SceneFigure = lazy(() => import('./SceneFigure'));
 
 type FigureBlock = Extract<Block, { t: 'figure' }>;
 
@@ -10,56 +16,42 @@ const svgs = new Map<string, string>(
   Object.entries(raw).map(([path, src]) => [path.slice(path.lastIndexOf('/') + 1, -4), src]),
 );
 
+const sceneFiles = import.meta.glob<Scene>('../learn-figures/*.anim.json', { eager: true, import: 'default' });
+
+/** file name without extension -> its animation, for figures that have one (<name>.anim.json) */
+const scenes = new Map<string, Scene>(
+  Object.entries(sceneFiles).map(([path, scene]) => [path.slice(path.lastIndexOf('/') + 1, -'.anim.json'.length), scene]),
+);
+
 export const hasFigure = (file: string) => svgs.has(file);
+export const figureNames = [...svgs.keys()].sort();
 
 /**
- * Shapes shared by every diagram: top-down vehicles (front pointing up, centered on 0,0) and the
- * arrow head. Rendered once per lesson; a figure draws them with <use href="#v-car" .../>.
- * Colors come from CSS (see .f-* in styles.css) so diagrams follow light and dark mode.
+ * Shapes shared by every diagram (top-down vehicles, the arrow head), kept in figure-defs.svg so the
+ * preview script reads the same source. Rendered once per lesson; a figure draws them with
+ * <use href="#v-car" .../>. Colors come from CSS (.f-* in styles.css) so diagrams follow light and dark mode.
  */
 export function FigureDefs() {
-  return (
-    <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
-      <defs>
-        <marker id="f-arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto">
-          <path d="M0 0 L10 5 L0 10 z" />
-        </marker>
-        <g id="v-car">
-          <rect x="-10" y="-20" width="20" height="40" rx="6" fill="currentColor" />
-          <path d="M-7.5 -10 L7.5 -10 L6.5 -3 L-6.5 -3 Z" class="f-glass" />
-          <path d="M-6.5 8 L6.5 8 L7.5 14 L-7.5 14 Z" class="f-glass" />
-        </g>
-        <g id="v-truck">
-          <rect x="-11" y="-36" width="22" height="72" rx="3" fill="currentColor" />
-          <path d="M-8 -32 L8 -32 L8 -22 L-8 -22 Z" class="f-glass" />
-          <path d="M-11 -18 L11 -18" class="f-seam" />
-        </g>
-        <g id="v-moto">
-          <rect x="-3" y="-16" width="6" height="32" rx="3" fill="currentColor" />
-          <rect x="-9" y="-10" width="18" height="3" rx="1.5" fill="currentColor" />
-          <circle cx="0" cy="0" r="4.5" class="f-glass" />
-        </g>
-        <g id="v-bike">
-          <rect x="-2" y="-15" width="4" height="30" rx="2" fill="currentColor" />
-          <rect x="-6.5" y="-9" width="13" height="2.5" rx="1.2" fill="currentColor" />
-          <circle cx="0" cy="1" r="4" class="f-glass" />
-        </g>
-        <g id="v-ped">
-          <ellipse cx="0" cy="0" rx="8" ry="4.5" fill="currentColor" />
-          <circle cx="0" cy="0" r="3.6" class="f-glass" />
-        </g>
-      </defs>
-    </svg>
-  );
+  return <div dangerouslySetInnerHTML={{ __html: defs }} />;
 }
 
-export function Figure({ block }: { block: FigureBlock }) {
+export function Figure({ block, previewAt }: { block: FigureBlock; previewAt?: number }) {
   const svg = svgs.get(block.file);
   if (!svg) throw new Error(`Figure "${block.file}" is not in src/learn-figures`);
+  const scene = scenes.get(block.file);
   const alt = mode.value === 'en' ? block.alt.en : block.alt.es;
+  const still = <div class="fig-still" dangerouslySetInnerHTML={{ __html: svg }} />;
   return (
     <figure class="fig">
-      <div class="fig-art" role="img" aria-label={alt} dangerouslySetInnerHTML={{ __html: svg }} />
+      <div class={`fig-art${scene ? ' animated' : ''}`} role="img" aria-label={alt}>
+        {scene ? (
+          <Suspense fallback={still}>
+            <SceneFigure svg={svg} scene={scene} previewAt={previewAt} />
+          </Suspense>
+        ) : (
+          still
+        )}
+      </div>
       <figcaption>
         <T t={block.caption} />
       </figcaption>

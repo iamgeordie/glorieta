@@ -120,6 +120,39 @@ export function checkLearn({ questions, signs, categoryIds }) {
     }
   };
 
+
+  const SCENE_KINDS = ['car', 'truck', 'moto', 'bike', 'ped'];
+  const SCENE_TONES = ['me', 'other', 'danger', 'ok', 'neutral'];
+  const num = (v) => typeof v === 'number' && Number.isFinite(v);
+
+  /** An animation (<name>.anim.json): moving vehicles and reveals on top of the figure's base SVG. */
+  const checkScene = (w, scene, svg) => {
+    const fail = (m) => bad(w, m);
+    if (!num(scene.seconds) || scene.seconds <= 0 || scene.seconds > 20) fail('seconds must be a number above 0 and up to 20');
+    if (scene.poster !== undefined && (!num(scene.poster) || scene.poster < 0 || scene.poster > scene.seconds)) fail('poster must be inside the scene');
+    if ((!Array.isArray(scene.actors) || scene.actors.length === 0) && !scene.reveals?.length) fail('needs at least one actor or reveal');
+    const ids = new Set();
+    for (const a of scene.actors ?? []) {
+      const aw = `actor "${a.id}"`;
+      if (!a.id || ids.has(a.id)) fail(`${aw}: missing or duplicate id`);
+      ids.add(a.id);
+      if (!SCENE_KINDS.includes(a.kind)) fail(`${aw}: kind must be one of ${SCENE_KINDS.join(', ')}`);
+      if (!SCENE_TONES.includes(a.tone)) fail(`${aw}: tone must be one of ${SCENE_TONES.join(', ')}`);
+      if (a.path) {
+        if (!/^[MmLlHhVvCcSsQqTtAaZz0-9eE.,\s-]+$/.test(a.path) || !/^[Mm]/.test(a.path.trim())) fail(`${aw}: path is not valid SVG path data`);
+        if (!num(a.from) || !num(a.to) || a.from < 0 || a.to <= a.from || a.to > scene.seconds) fail(`${aw}: needs 0 <= from < to <= seconds`);
+        if (a.ease && !['linear', 'inOut'].includes(a.ease)) fail(`${aw}: ease must be linear or inOut`);
+      } else if (!Array.isArray(a.at) || a.at.length !== 3 || !a.at.every(num)) fail(`${aw}: with no path it needs at: [x, y, rotation]`);
+      if (a.show && (!Array.isArray(a.show) || a.show.length !== 2 || !a.show.every(num) || a.show[0] >= a.show[1])) fail(`${aw}: show must be [from, to]`);
+      if (a.badge && (!str(a.badge.mark) || [...a.badge.mark].length > 2 || !num(a.badge.dx) || !num(a.badge.dy))) fail(`${aw}: badge needs a 1-2 character mark, dx and dy`);
+    }
+    for (const r of scene.reveals ?? []) {
+      if (!r.id || !new RegExp(`\\sid="${r.id}"`).test(svg)) fail(`reveal "${r.id}": the base SVG has no element with that id`);
+      if (!num(r.from) || r.from < 0 || r.from >= scene.seconds) fail(`reveal "${r.id}": from must be inside the scene`);
+      if (r.to !== undefined && (!num(r.to) || r.to <= r.from)) fail(`reveal "${r.id}": to must come after from`);
+    }
+  };
+
   let lessonCount = 0;
   let checkCount = 0;
   for (const modId of order.filter((id) => moduleFiles.includes(id))) {
@@ -197,7 +230,11 @@ export function checkLearn({ questions, signs, categoryIds }) {
       if (!['v-car', 'v-truck', 'v-moto', 'v-bike', 'v-ped'].includes(m[1] ?? '')) bad(w, `<use> of unknown shared shape "#${m[1]}"`);
     }
     if (!usedFigures.has(f)) bad(w, 'is not used by any lesson');
+    const animPath = new URL(`${f}.anim.json`, figureDir);
+    if (existsSync(animPath)) checkScene(`${f}.anim.json`, JSON.parse(readFileSync(animPath, 'utf8')), svg);
   }
+  for (const f of readdirSync(figureDir).filter((f) => f.endsWith('.anim.json')))
+    if (!figureFiles.has(f.slice(0, -'.anim.json'.length))) bad(f, 'has no matching .svg');
 
   const signsMissing = signs.filter((s) => !shownSigns.has(s.id)).length;
   if (order.includes('signs') && signsMissing) notes.push(`${signsMissing} of ${signs.length} signs are not shown in any lesson`);
