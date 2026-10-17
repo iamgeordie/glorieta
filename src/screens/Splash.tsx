@@ -2,7 +2,6 @@ import { useEffect, useRef } from 'preact/hooks';
 import { LangSwitch, T } from '../i18n';
 import { ui } from '../ui';
 import { createSplash } from '../lib/splash-canvas';
-import { markSplashSeen } from '../lib/splash-seen';
 import { authStatus } from '../lib/auth';
 import { authEnabled } from '../lib/supabase';
 import { a } from '../authStrings';
@@ -35,11 +34,11 @@ export function Splash() {
         <p class="splash-slogan"><Flag /><T t={ui.slogan} /></p>
         <p class="splash-lede"><T t={ui.tagline} /></p>
         <div class="splash-actions">
-          <a class="primary splash-cta" href="#/" onClick={markSplashSeen}>
+          <a class="primary splash-cta" href="#/">
             <T t={ui.startStudying} />
           </a>
           {authEnabled && authStatus.value !== 'in' && (
-            <a class="secondary splash-cta splash-signin" href="#/account" onClick={markSplashSeen}>
+            <a class="secondary splash-cta splash-signin" href="#/account">
               <T t={a.signInOrCreate} />
             </a>
           )}

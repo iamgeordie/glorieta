@@ -9,7 +9,7 @@ import { Phrases, Vocab } from './screens/Cards';
 import { Signs } from './screens/Signs';
 import { Account } from './screens/Account';
 import { Splash } from './screens/Splash';
-import { hasSeenSplash } from './lib/splash-seen';
+import { hasStoredSession, landingFor } from './lib/landing';
 import { authStatus } from './lib/auth';
 import { authEnabled } from './lib/supabase';
 import { a } from './authStrings';
@@ -25,10 +25,20 @@ const ModuleQuiz = lazy(() => import('./screens/ModuleQuiz').then((m) => ({ defa
 // A preview of every lesson diagram, for authors. Not built into the production site.
 const FigureGallery = import.meta.env.DEV ? lazy(() => import('./screens/FigureGallery')) : null;
 
-// First visit with no deep link: show the splash once. A returning email link (?code=) goes straight in.
-if (!location.hash && !hasSeenSplash() && !new URL(location.href).searchParams.has('code')) {
-  location.hash = '#/welcome';
+// Opening the bare address lands on the welcome splash, unless the person is already signed in. A deep link
+// (anything after the #) and a return from an email or Google link (?code=) go where they point. This is decided
+// once, at arrival: afterwards "← Home" is ordinary navigation and always means the home screen.
+const arrivedAtRoot = (location.hash === '' || location.hash === '#/') && !new URL(location.href).searchParams.has('code');
+const landing = signal(arrivedAtRoot);
+
+function settleLanding(giveUp = false) {
+  if (!landing.value) return;
+  const verdict = landingFor({ status: authStatus.value, storedSession: hasStoredSession() });
+  if (verdict === 'wait' && !giveUp) return;
+  landing.value = false;
+  if (verdict !== 'home') location.replace('#/welcome');
 }
+settleLanding(); // most visitors can be decided at once; no saved session means no waiting
 const route = signal(location.hash || '#/');
 addEventListener('hashchange', () => {
   route.value = location.hash || '#/';
@@ -82,6 +92,14 @@ function Screen() {
 }
 
 export function App() {
+  // A saved session is being checked: hold the first screen for a moment instead of flashing the wrong one.
+  // If sign-in cannot be determined (offline, blocked storage), the splash is the safe default.
+  useEffect(() => {
+    settleLanding();
+    const giveUp = setTimeout(() => settleLanding(true), 3000);
+    return () => clearTimeout(giveUp);
+  }, [authStatus.value]);
+
   // E flips between Spanish and English; typing in a field is left alone.
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -94,6 +112,7 @@ export function App() {
     return () => removeEventListener('keydown', onKey);
   }, []);
 
+  if (landing.value) return null;
   const home = route.value === '#/' || route.value === '';
   if (route.value === '#/welcome') return <Screen />;
   return (
