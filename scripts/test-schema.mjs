@@ -1,10 +1,12 @@
-// Applies docs/backend/glorieta-schema.sql to an embedded Postgres (PGlite) with Supabase's roles and
-// auth.uid() set up, then checks row level security, privileges and constraints.
+// Applies docs/backend/glorieta-schema.sql, then glorieta-schema-002-course-progress.sql (in that order, as the
+// live database experienced them) to an embedded Postgres (PGlite) with Supabase's roles and auth.uid() set up,
+// then checks row level security, privileges and constraints. Also applies 002 a second time: it must be idempotent.
 import { PGlite } from '@electric-sql/pglite';
 import { readFileSync } from 'node:fs';
 import assert from 'node:assert/strict';
 
 const SQL = readFileSync(new URL('../docs/backend/glorieta-schema.sql', import.meta.url), 'utf8');
+const SQL2 = readFileSync(new URL('../docs/backend/glorieta-schema-002-course-progress.sql', import.meta.url), 'utf8');
 const A = '11111111-1111-1111-1111-111111111111';
 const B = '22222222-2222-2222-2222-222222222222';
 const db = new PGlite();
@@ -20,6 +22,8 @@ await db.exec(`
   insert into auth.users values ('${A}','a@example.test'), ('${B}','b@example.test');
 `);
 await db.exec(SQL); // must apply cleanly, exactly as written
+await db.exec(SQL2); // and so must the course-progress addition on top of it
+await db.exec(SQL2); // twice: it is idempotent
 
 const as = async (role, sub) => {
   await db.exec(`reset role; select set_config('request.jwt.claim.sub', '${sub ?? ''}', false); set role ${role};`);
@@ -108,26 +112,58 @@ await fails('exam errors cannot exceed total', `insert into glorieta.exam_result
 await fails('an attempt needs a valid mode', `insert into glorieta.attempts (user_id,item_id,correct,mode,answered_at) values ('${A}','x',true,'cheating',now())`, /check constraint/);
 await fails('an attempt needs an item id', `insert into glorieta.attempts (user_id,item_id,correct,mode,answered_at) values ('${A}','',true,'practice',now())`, /check constraint/);
 
+console.log('course progress (lesson_progress, quiz_progress)');
+const answered = `'{"roundabouts-c1a":{"sel":0,"ok":true}}'::jsonb`;
+await as('authenticated', A);
+await db.exec(`insert into glorieta.lesson_progress values ('${A}','roundabouts/direction-and-priority',true,5,${answered},now())`); ok('A saves a finished lesson');
+await db.exec(`insert into glorieta.quiz_progress values ('${A}','roundabouts',80,80,1,now())`); ok('A saves a quiz result');
+await db.exec(`insert into glorieta.lesson_progress values ('${A}','roundabouts/direction-and-priority',true,6,${answered},now()) on conflict (user_id,lesson_key) do update set done=excluded.done, step=excluded.step, answered=excluded.answered, updated_at=excluded.updated_at`);
+assert.equal((await rows(`select step from glorieta.lesson_progress`))[0].step, 6); ok('upsert on (user_id,lesson_key) updates A\'s own lesson row');
+await db.exec(`insert into glorieta.quiz_progress values ('${A}','roundabouts',100,90,2,now()) on conflict (user_id,module_id) do update set best=excluded.best, last=excluded.last, attempts=excluded.attempts, updated_at=excluded.updated_at`);
+assert.equal((await rows(`select best, attempts from glorieta.quiz_progress`))[0].best, 100); ok('upsert on (user_id,module_id) updates A\'s own quiz row');
+await fails('A cannot save a lesson for B', `insert into glorieta.lesson_progress values ('${B}','x/y',false,0,'{}'::jsonb,now())`, /row-level security/);
+await fails('A cannot save a quiz result for B', `insert into glorieta.quiz_progress values ('${B}','x',50,50,1,now())`, /row-level security/);
+await fails('A cannot move a lesson row to B (WITH CHECK)', `update glorieta.lesson_progress set user_id='${B}'`, /row-level security/);
+await fails('step cannot be negative', `insert into glorieta.lesson_progress values ('${A}','a/b',false,-1,'{}'::jsonb,now())`, /check constraint/);
+await fails('step cannot exceed 30', `insert into glorieta.lesson_progress values ('${A}','a/c',false,31,'{}'::jsonb,now())`, /check constraint/);
+await fails('answered must be a JSON object', `insert into glorieta.lesson_progress values ('${A}','a/d',false,0,'[1]'::jsonb,now())`, /check constraint/);
+await fails('answered is size-limited', `insert into glorieta.lesson_progress values ('${A}','a/e',false,0,jsonb_build_object('k', repeat('x', 20000)),now())`, /check constraint/);
+await fails('lesson_key cannot be empty', `insert into glorieta.lesson_progress values ('${A}','',false,0,'{}'::jsonb,now())`, /check constraint/);
+await fails('quiz percent over 100', `insert into glorieta.quiz_progress values ('${A}','m1',101,101,1,now())`, /check constraint/);
+await fails('latest quiz result cannot beat the best', `insert into glorieta.quiz_progress values ('${A}','m2',50,60,1,now())`, /check constraint/);
+await fails('quiz attempts start at 1', `insert into glorieta.quiz_progress values ('${A}','m3',50,50,0,now())`, /check constraint/);
+await as('authenticated', B);
+assert.equal((await rows(`select count(*)::int c from glorieta.lesson_progress`))[0].c, 0);
+assert.equal((await rows(`select count(*)::int c from glorieta.quiz_progress`))[0].c, 0); ok('B sees none of A\'s course progress');
+assert.equal((await db.query(`update glorieta.lesson_progress set step = 0 returning 1`)).rows.length, 0);
+assert.equal((await db.query(`delete from glorieta.quiz_progress returning 1`)).rows.length, 0); ok('B cannot change or delete A\'s course rows');
+await db.exec(`insert into glorieta.lesson_progress values ('${B}','speed/towns',false,2,'{}'::jsonb,now())`); ok('B saves their own lesson');
+await as('anon', '');
+await fails('anon cannot read lesson_progress', `select * from glorieta.lesson_progress`, /permission denied/);
+await fails('anon cannot write quiz_progress', `insert into glorieta.quiz_progress values ('${A}','m',1,1,1,now())`, /permission denied/);
+
 console.log('delete_my_data');
 await as('authenticated', B);
 await db.exec(`insert into glorieta.progress values ('${B}','b1',${card},1,1,now())`);
 await as('authenticated', A);
 await db.exec(`select glorieta.delete_my_data()`);
-for (const t of ['progress', 'profiles', 'exam_results', 'attempts']) assert.equal((await rows(`select count(*)::int c from glorieta.${t}`))[0].c, 0);
+for (const t of ['progress', 'profiles', 'exam_results', 'attempts', 'lesson_progress', 'quiz_progress']) assert.equal((await rows(`select count(*)::int c from glorieta.${t}`))[0].c, 0);
 ok('A\'s call removes all of A\'s rows');
 await as('authenticated', B);
 assert.equal((await rows(`select count(*)::int c from glorieta.progress`))[0].c, 1);
-assert.equal((await rows(`select count(*)::int c from glorieta.attempts`))[0].c, 1); ok('and none of B\'s');
+assert.equal((await rows(`select count(*)::int c from glorieta.attempts`))[0].c, 1);
+assert.equal((await rows(`select count(*)::int c from glorieta.lesson_progress`))[0].c, 1); ok('and none of B\'s, including B\'s course progress');
 
 console.log('privileges and cascade (as owner)');
 await db.exec(`reset role`);
 const anonGrants = await rows(`select count(*)::int c from information_schema.role_table_grants where table_schema='glorieta' and grantee in ('anon','PUBLIC')`);
 assert.equal(anonGrants[0].c, 0); ok('anon and PUBLIC hold no table privileges in glorieta');
 const rls = await rows(`select relname, relrowsecurity from pg_class c join pg_namespace n on n.oid=c.relnamespace where n.nspname='glorieta' and relkind='r' order by 1`);
-assert.equal(rls.length, 4);
+assert.equal(rls.length, 6);
 assert.ok(rls.every((r) => r.relrowsecurity)); ok(`row level security is on for all ${rls.length} tables`);
 await db.exec(`delete from auth.users where id='${B}'`);
-assert.equal((await rows(`select count(*)::int c from glorieta.progress`))[0].c, 0); ok('deleting the auth user cascades to their rows');
+assert.equal((await rows(`select count(*)::int c from glorieta.progress`))[0].c, 0);
+assert.equal((await rows(`select count(*)::int c from glorieta.lesson_progress`))[0].c, 0); ok('deleting the auth user cascades to their rows, course progress included');
 
 console.log(`\nALL ${n} CHECKS PASSED (plus the error-expectation checks above)`);
 await db.close();

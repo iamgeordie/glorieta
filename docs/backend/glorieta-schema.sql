@@ -1,9 +1,10 @@
 -- Glorieta: accounts, progress and exam results.
 --
--- WHERE THIS RUNS. Not from this repo. The Applied Relevance database is shared and its
--- migrations are written only in the appliedrelevance monorepo (supabase/migrations/).
--- A session rooted there should copy this file in under a new timestamped name.
--- See docs/backend/README.md for the full handoff, the checks to run, and what not to do.
+-- WHERE THIS RUNS. The Applied Relevance Supabase project is shared on purpose (one small instance for
+-- several hobby projects), and the `glorieta` schema is this app's own: it may change it freely, and it can
+-- be moved to a project of its own by moving this schema. This file is 001; later changes are numbered
+-- files beside it (glorieta-schema-002-course-progress.sql, ...), applied in order and idempotent.
+-- See docs/backend/README.md for how each was applied, the checks to run, and what not to do.
 --
 -- DESIGN.
 --   * One schema, `glorieta`, that only signed-in users can reach, and only for their own rows.

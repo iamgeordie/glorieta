@@ -8,7 +8,8 @@ Without that configuration the account screens do not exist and no Supabase code
 
 ```
 browser (local-first)                         Supabase project
-  localStorage  <-- sync (merge) -->   schema "glorieta": profiles, progress, exam_results
+  localStorage  <-- sync (merge) -->   schema "glorieta": profiles, progress, attempts, exam_results,
+                                                       lesson_progress, quiz_progress
        |                                     row level security: a user sees only their own rows
        +-- once, if opted in and email confirmed --> CRM lead-intake endpoint
 ```
@@ -36,6 +37,8 @@ browser (local-first)                         Supabase project
 | `progress` | each question or card's current spaced-repetition state (when it is due, how it is going) |
 | `attempts` | every answer as an append-only event: item, right or wrong, mode (practice, exam, vocab), when. Answers given before signing in are uploaded too, so a new account starts with its history |
 | `exam_results` | each mock exam, once |
+| `lesson_progress` | the Learn course, per lesson: finished or not, where you stopped, and your first answer to each check |
+| `quiz_progress` | the Learn course, per module quiz: best and latest percent, and how many attempts |
 | `profiles` | display name and the CRM opt-in with its timestamp |
 | `my_stats()` | a SQL function: per-topic attempts and accuracy for the signed-in person, computed in the database. The Account screen shows it |
 | `item_difficulty` | a view across everyone: per question, how many tried, how many got it right. No user ids, and readable by the service role only, so the owner can see which questions are too hard or too easy |
@@ -54,7 +57,25 @@ Copy `.env.example` to `.env.local` to try accounts in development. A deploy bui
 
 ## Database
 
-`glorieta-schema.sql` in this folder creates the schema, tables, policies and privileges. It is meant for
+Everything per person lives in the `glorieta` schema, and the schema belongs to this app. The Applied
+Relevance Supabase project is shared on purpose: one small instance carries several hobby projects instead of
+paying for one each. If Glorieta ever outgrows it, moving it is a matter of dumping the `glorieta` schema into a
+project of its own and changing the two public values in `.env.production`.
+
+Two files, applied in order. 001 is for an empty project; 002 is idempotent (safe to run twice):
+
+1. `glorieta-schema.sql` (001) creates the schema, tables, policies and privileges.
+2. `glorieta-schema-002-course-progress.sql` adds `lesson_progress` and `quiz_progress` and extends the erase function to cover them.
+
+**How 002 reached the live database (2026-10-17).** It was run as plain SQL in one transaction, then the API
+cache was reloaded (`notify pgrst, 'reload schema'`), and the result was checked read-only: row level security
+on all six tables, no grants to `anon` or `PUBLIC`, the erase function still `SECURITY INVOKER`, existing rows
+unchanged. It was *not* recorded as a Supabase migration, so the shared project's migration history gained
+no entry that has no file in the appliedrelevance monorepo. If you want 002 in that history, copy the file into
+the monorepo's `supabase/migrations/` under a new timestamped name and mark it applied
+(`supabase migration repair --status applied <timestamp>`), rather than applying it a second time.
+
+001 is meant for
 a project where the signed-in role can reach nothing but its own data, so check that before turning
 sign-up on. The schema has no trigger on `auth.users`, no `SECURITY DEFINER` function, and grants
 nothing to `anon`.
@@ -72,7 +93,8 @@ npm test
 - `src/lib/auth-errors.test.ts`: every error message exists in both languages and unknown errors are
   shown with their code, never swallowed.
 - `src/lib/attempts.test.ts`: the answer-log queue (cap keeps the newest, uploaded answers are removed by item and time).
-- `scripts/test-schema.mjs`: applies `glorieta-schema.sql` to an embedded Postgres ([PGlite](https://pglite.dev))
+- `src/lib/learn-merge.test.ts`: the course-progress merge rules (finished stays finished, answers union with the earlier answer winning, best quiz score and attempt count are kept, nothing is ever dropped).
+- `scripts/test-schema.mjs`: applies `glorieta-schema.sql`, then 002 (twice, to prove it is idempotent), to an embedded Postgres ([PGlite](https://pglite.dev))
   with Supabase's roles and `auth.uid()` modeled, then checks that one user cannot read, write, move or
   delete another's rows, that `anon` and a token with no subject see nothing, that the constraints hold,
   that the answer log is append-only and de-duplicated, that `my_stats()` sees only the caller's answers, that the cross-user view is closed to signed-in users and exposes no user ids, and that the erase function is scoped to the caller.
@@ -83,6 +105,8 @@ client-side validation only, and have not been exercised end to end.
 
 ## Limits
 
+- Course progress merges by keeping the best of both devices (it is mostly one-way: you finish lessons and improve scores), except that "where you stopped" and the latest quiz score follow the device used last.
+- Resetting progress on a device clears that device only; signed in, the course comes back from the account on the next sync. "Delete my Glorieta data" on the Account screen removes it from the account.
 - Last write wins per item: if you answer the same card on two devices, the later answer replaces the
   earlier one, including its counters. The schedule stays consistent; the counters can lose an update.
 - The user's consent is recorded in their account metadata at sign-up and acted on after the first
