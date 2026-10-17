@@ -155,7 +155,8 @@ export function checkLearn({ questions, signs, categoryIds }) {
 
   let lessonCount = 0;
   let checkCount = 0;
-  for (const modId of order.filter((id) => moduleFiles.includes(id))) {
+  // Every module file is checked, listed in order.json or not, so an author can validate before it is registered.
+  for (const modId of [...order.filter((id) => moduleFiles.includes(id)), ...moduleFiles.filter((id) => !order.includes(id))]) {
     const m = read(`data/learn/modules/${modId}.json`);
     const mw = `module ${modId}`;
     if (m.id !== modId) bad(mw, `id "${m.id}" must equal the file name`);
@@ -209,7 +210,7 @@ export function checkLearn({ questions, signs, categoryIds }) {
   }
 
   // Every written question in a category that has a module must be taught somewhere in it.
-  const withModule = new Set(order);
+  const withModule = new Set([...order, ...moduleFiles]);
   for (const q of questions) {
     if (withModule.has(q.cat) && !covered.has(q.id)) bad(`question ${q.id}`, `is in category "${q.cat}" but no lesson lists it in "covers"`);
   }

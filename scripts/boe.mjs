@@ -32,9 +32,13 @@ const decode = (s) =>
     .trim();
 
 async function get(path) {
-  const res = await fetch(`${API}/${path}`, { headers: { Accept: 'application/xml' } });
-  if (!res.ok) throw new Error(`BOE API ${res.status} for ${path}`);
-  return res.text();
+  // Several authors may query at once: back off and retry on rate limits and server errors.
+  for (let attempt = 1; ; attempt++) {
+    const res = await fetch(`${API}/${path}`, { headers: { Accept: 'application/xml' } });
+    if (res.ok) return res.text();
+    if (attempt >= 4 || (res.status < 500 && res.status !== 429)) throw new Error(`BOE API ${res.status} for ${path}`);
+    await new Promise((r) => setTimeout(r, 1500 * attempt));
+  }
 }
 
 const [, , id, cmd, ...rest] = process.argv;
