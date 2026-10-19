@@ -13,6 +13,9 @@ export const ui = {
   promoTagline: bi('Fluido antes de hablar.', 'Fluent before you speak.'),
   promoCta: bi('¡Prueba LinguaMama.ai gratis!', 'Try LinguaMama.ai free!'),
   practice: bi('Practicar', 'Practice'),
+  // A link out to the DGT's own free practice tests (real exam format, many questions from past exams).
+  officialTestsLink: bi('Tests oficiales de la DGT', 'Official DGT practice tests'),
+  officialTestsHint: bi('Gratis en la web de la DGT. Formato del examen real; elige el idioma antes de empezar.', 'Free on the DGT website. Real exam format; choose the language before you start.'),
   practiceHint: bi('Repaso espaciado: las preguntas que fallas vuelven antes.', 'Spaced review: questions you miss come back sooner.'),
   exam: bi('Simulacro de examen', 'Mock exam'),
   examHint: bi('30 preguntas, tiempo limitado, hasta 3 fallos.', '30 questions, time limit, up to 3 mistakes.'),

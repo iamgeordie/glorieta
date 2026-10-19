@@ -28,6 +28,7 @@ teaches its answer.
 | 11 | `emergencies` | Accidentes y primeros auxilios / Collisions and first aid | Protect, alert, help (PAS); first aid; breakdowns |
 | 12 | `equipment` | El vehículo: documentos, luces y mantenimiento / The vehicle: documents, lights and upkeep | Vehicle features and equipment; documents; roadworthiness (ITV); lighting; load; maintenance; efficient driving |
 | 13 | `docs` | Permisos, puntos y sanciones / Licenses, points and penalties | Driver's license classes, validity, points; the exam |
+| 14 | `examlang` | Leer el examen / Reading the exam | Legal Spanish words that translate badly (LSV Anexo I definitions); wording traps (salvo, únicamente, siempre que, nested negations) |
 
 Category ids already exist in `src/data/categories.ts` (`road` and `emergencies` are new). `emergencies`
 holds three older bank questions whose ids still start `situations-` (`situations-01..03`).
@@ -178,3 +179,14 @@ The pilot. Do not edit.
 - **Lessons (3 to 4):** classes of license and what B allows; the points system (start, loss, recovery,
   novice rules); validity and renewal; the exam path (theory, practical, validity of the theory pass).
 - **Watch:** points tables are exact; copy them. Do not teach fine amounts you did not read.
+
+### 14. `examlang`: Leer el examen
+- **Why:** people report the English version of the exam reads stiffly. We have **not** seen the official English
+  text and do not quote it. The module trains the skill: knowing the Spanish legal word behind the English one,
+  and reading modal and exception words (`salvo`, `únicamente`, `siempre que`, `excepcionalmente`).
+- **Sources:** LSV Anexo I (definitions: calzada, arcén, parada, detención, estacionamiento, travesía, autopista,
+  peatón, titular, turismo) and the rules read in the BOE (RGC arts. 94 and 117). Every check tests a real rule.
+- **Convention:** the `en` text of the checks is deliberately *literal* (it follows the Spanish word order). That
+  is our imitation, written by us; never present it as DGT text. Because checks join the bank, keep every check
+  an exam-style rule question, not a vocabulary quiz (vocabulary lives in `terms`, tables and pretests).
+- **Lessons (2):** words that translate badly; wording traps.

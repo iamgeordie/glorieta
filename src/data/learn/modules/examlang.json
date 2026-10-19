@@ -1,0 +1,1397 @@
+{
+  "id": "examlang",
+  "title": {
+    "es": "Leer el examen",
+    "en": "Reading the exam"
+  },
+  "blurb": {
+    "es": "Palabras de tráfico que se traducen mal y trampas de redacción que convierten una norma conocida en una respuesta equivocada.",
+    "en": "Traffic words that translate badly, and wording traps that turn a rule you know into a wrong answer."
+  },
+  "lessons": [
+    {
+      "id": "words",
+      "title": {
+        "es": "Palabras que se traducen mal",
+        "en": "Words that translate badly"
+      },
+      "minutes": 7,
+      "goals": [
+        {
+          "es": "Distinguir calzada, arcén, plataforma, carril, acera y refugio.",
+          "en": "Tell apart calzada, arcén, plataforma, carril, acera and refugio."
+        },
+        {
+          "es": "Distinguir parada, detención y estacionamiento.",
+          "en": "Tell apart parada, detención and estacionamiento."
+        },
+        {
+          "es": "Reconocer travesía, autopista, autovía y vía para automóviles.",
+          "en": "Recognize travesía, autopista, autovía and vía para automóviles."
+        },
+        {
+          "es": "Saber quién cuenta como peatón, conductor y titular.",
+          "en": "Know who counts as peatón, conductor and titular."
+        }
+      ],
+      "terms": [
+        {
+          "es": "turismo",
+          "en": "passenger car"
+        },
+        {
+          "es": "calzada",
+          "en": "roadway (the lanes)"
+        },
+        {
+          "es": "arcén",
+          "en": "shoulder"
+        },
+        {
+          "es": "parada",
+          "en": "short stop"
+        },
+        {
+          "es": "detención",
+          "en": "halt (not an arrest)"
+        },
+        {
+          "es": "estacionamiento",
+          "en": "parking"
+        },
+        {
+          "es": "travesía",
+          "en": "road through a town"
+        },
+        {
+          "es": "titular",
+          "en": "registered owner"
+        }
+      ],
+      "pretest": {
+        "id": "examlang-pre-1",
+        "answer": 1,
+        "es": {
+          "q": "En la ley de tráfico, ¿qué es un «turismo»?",
+          "options": [
+            "Un viaje de placer",
+            "Un automóvil para personas con al menos cuatro ruedas",
+            "Cualquier vehículo con muchas plazas"
+          ],
+          "why": "«Turismo» no es un viaje. Es un automóvil para personas con, por lo menos, cuatro ruedas y, además del asiento del conductor, ocho plazas como máximo."
+        },
+        "en": {
+          "q": "In the traffic law, what is a “turismo”?",
+          "options": [
+            "A pleasure trip",
+            "A motor vehicle for people with at least four wheels",
+            "Any vehicle with many seats"
+          ],
+          "why": "“Turismo” is not a trip. It is a motor vehicle for carrying people, with at least four wheels and, besides the driver’s seat, at most eight seats."
+        },
+        "src": "LSV Anexo I, 15"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Por qué importan las palabras",
+            "en": "Why the words matter"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "En el examen, cada palabra de la ley tiene un sentido exacto. Algunas personas que hacen el examen en inglés dicen que la traducción suena rígida. Nosotros no hemos visto el texto inglés oficial, así que este módulo no lo cita.",
+                "en": "On the exam, every word of the law has an exact meaning. Some people who take the exam in English say the translation reads stiffly. We have not seen the official English text, so this module does not quote it."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Lo que sí puedes entrenar es la palabra española que hay detrás de cada palabra inglesa. Si la conoces, aciertas aunque el inglés suene raro.",
+                "en": "What you can train is the Spanish word behind each English one. If you know it, you can answer even when the English sounds odd."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Las preguntas de práctica de este módulo imitan un inglés literal a propósito: siguen el orden de la frase española. Es texto nuestro, no de la DGT.",
+                "en": "The practice questions in this module imitate literal English on purpose: they follow the Spanish word order. It is our text, not the DGT’s."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Pregunta en tu oficina de la DGT si el examen en inglés muestra también el texto en español. Si lo muestra, léelo siempre.",
+                "en": "Ask your DGT office whether the English exam also shows the Spanish text. If it does, always read it."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Las partes de la vía",
+            "en": "The parts of a road"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Una **carretera** tiene varias partes con nombre propio. En inglés casi todas son simplemente «road», pero la ley las separa.",
+                "en": "A **carretera** has several parts with their own names. In English most of them are just “road”, but the law keeps them apart."
+              }
+            },
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Palabra",
+                  "en": "Word"
+                },
+                {
+                  "es": "Qué es",
+                  "en": "What it is"
+                },
+                {
+                  "es": "Cuidado con",
+                  "en": "Watch out for"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "calzada",
+                    "en": "calzada"
+                  },
+                  {
+                    "es": "La parte de la carretera para circular los vehículos. Se compone de carriles.",
+                    "en": "The part of the road for vehicles to travel on. It is made of lanes."
+                  },
+                  {
+                    "es": "No es toda la carretera: faltan los arcenes.",
+                    "en": "It is not the whole road: the shoulders are left out."
+                  }
+                ],
+                [
+                  {
+                    "es": "arcén",
+                    "en": "arcén"
+                  },
+                  {
+                    "es": "Franja afirmada junto a la calzada. Los automóviles solo la usan en circunstancias excepcionales.",
+                    "en": "A paved strip beside the calzada. Cars use it only in exceptional circumstances."
+                  },
+                  {
+                    "es": "«Excepcionales» es la palabra clave.",
+                    "en": "“Exceptional” is the key word."
+                  }
+                ],
+                [
+                  {
+                    "es": "plataforma",
+                    "en": "plataforma"
+                  },
+                  {
+                    "es": "La calzada más los arcenes.",
+                    "en": "The calzada plus the arcenes."
+                  },
+                  {
+                    "es": "No es una «platform» de estación.",
+                    "en": "It is not a “platform” like a station platform."
+                  }
+                ],
+                [
+                  {
+                    "es": "carril",
+                    "en": "carril"
+                  },
+                  {
+                    "es": "Una banda de la calzada con ancho para una fila de automóviles que no sean motos.",
+                    "en": "One strip of the calzada wide enough for one line of cars that are not motorcycles."
+                  },
+                  {
+                    "es": "Es solo una parte de la calzada.",
+                    "en": "It is only a part of the calzada."
+                  }
+                ],
+                [
+                  {
+                    "es": "acera",
+                    "en": "acera"
+                  },
+                  {
+                    "es": "Zona de la carretera, elevada o no, para los peatones.",
+                    "en": "A zone of the road, raised or not, for pedestrians."
+                  },
+                  {
+                    "es": "En inglés americano es la «sidewalk».",
+                    "en": "In American English it is the sidewalk."
+                  }
+                ],
+                [
+                  {
+                    "es": "refugio",
+                    "en": "refugio"
+                  },
+                  {
+                    "es": "Zona peatonal dentro de la calzada, protegida del tráfico.",
+                    "en": "A pedestrian zone inside the calzada, protected from traffic."
+                  },
+                  {
+                    "es": "No es un edificio para guarecerse.",
+                    "en": "It is not a building to shelter in."
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "**Calzada**: parte de la carretera dedicada a la circulación de vehículos. **Plataforma**: la calzada y los arcenes juntos.",
+                "en": "**Calzada**: the part of the road used by vehicles. **Plataforma**: the calzada and the arcenes together."
+              },
+              "src": "LSV Anexo I, 54 y 55"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "**Arcén**: franja afirmada junto a la calzada, no destinada al uso de automóviles más que en circunstancias excepcionales.",
+                "en": "**Arcén**: a paved strip beside the calzada, not meant for cars except in exceptional circumstances."
+              },
+              "src": "LSV Anexo I, 61"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "examlang-calzada",
+                "answer": 1,
+                "es": {
+                  "q": "La parte de la carretera dedicada a la circulación de vehículos, que se compone de un cierto número de carriles, es:",
+                  "options": [
+                    "La plataforma",
+                    "La calzada",
+                    "El arcén"
+                  ],
+                  "why": "La calzada es la parte dedicada a la circulación de vehículos y se compone de carriles. La plataforma es más grande: suma la calzada y los arcenes."
+                },
+                "en": {
+                  "q": "The part of the road dedicated to the circulation of vehicles, composed of a certain number of lanes, is:",
+                  "options": [
+                    "The platform (plataforma)",
+                    "The roadway (calzada)",
+                    "The shoulder (arcén)"
+                  ],
+                  "why": "The calzada is the part used by vehicles, and it is made of lanes. The plataforma is bigger: it adds the arcenes to the calzada."
+                },
+                "terms": [
+                  {
+                    "es": "calzada",
+                    "en": "roadway"
+                  },
+                  {
+                    "es": "plataforma",
+                    "en": "calzada plus shoulders"
+                  },
+                  {
+                    "es": "arcén",
+                    "en": "shoulder"
+                  }
+                ],
+                "src": "LSV Anexo I, 54, 55 y 61"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Parada, detención y estacionamiento",
+            "en": "Parada, detención and estacionamiento"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Son tres palabras distintas para un vehículo que no se mueve. En inglés las tres suelen sonar como «stop» o «parking».",
+                "en": "These are three different words for a vehicle that is not moving. In English all three tend to sound like “stop” or “parking”."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "**Detención**: inmovilizar el vehículo por una emergencia, por necesidades de la circulación o para cumplir una norma.",
+                "en": "**Detención**: holding the vehicle still because of an emergency, the needs of traffic, or to obey a rule."
+              },
+              "src": "LSV Anexo I, 80"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "**Parada**: inmovilizar el vehículo menos de dos minutos, sin que el conductor pueda abandonarlo.",
+                "en": "**Parada**: holding the vehicle still for less than two minutes, without the driver being able to leave it."
+              },
+              "src": "LSV Anexo I, 81"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "**Estacionamiento**: inmovilizar el vehículo cuando no es ni detención ni parada.",
+                "en": "**Estacionamiento**: holding the vehicle still when it is neither a detención nor a parada."
+              },
+              "src": "LSV Anexo I, 82"
+            },
+            {
+              "t": "example",
+              "title": {
+                "es": "Tres coches inmóviles",
+                "en": "Three still cars"
+              },
+              "situation": {
+                "es": "A) Esperas ante un semáforo en rojo. B) Dejas a un niño en la puerta del colegio: un minuto, y tú sigues al volante. C) Dejas el coche y te vas una hora.",
+                "en": "A) You wait at a red light. B) You drop a child at the school door: one minute, and you stay at the wheel. C) You leave the car and go away for an hour."
+              },
+              "action": {
+                "es": "A es una detención. B es una parada. C es un estacionamiento.",
+                "en": "A is a detención. B is a parada. C is an estacionamiento."
+              },
+              "why": {
+                "es": "A: te inmovilizas para cumplir una norma. B: menos de dos minutos y no abandonas el vehículo. C: no es ni detención ni parada.",
+                "en": "A: you hold still to obey a rule. B: under two minutes and you do not leave the vehicle. C: it is neither a detención nor a parada."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "examlang-parada",
+                "answer": 2,
+                "es": {
+                  "q": "La inmovilización de un vehículo durante un tiempo inferior a dos minutos, sin que el conductor pueda abandonarlo, se llama:",
+                  "options": [
+                    "Detención",
+                    "Estacionamiento",
+                    "Parada"
+                  ],
+                  "why": "Eso es la parada. La detención es por emergencia, necesidades de la circulación o una norma. El estacionamiento es todo lo demás."
+                },
+                "en": {
+                  "q": "The immobilization of a vehicle during a time lower than two minutes, without the driver being able to abandon it, is called:",
+                  "options": [
+                    "Halt (detención)",
+                    "Parking (estacionamiento)",
+                    "Stop (parada)"
+                  ],
+                  "why": "That is the parada. The detención is for an emergency, the needs of traffic, or a rule. The estacionamiento is everything else."
+                },
+                "terms": [
+                  {
+                    "es": "parada",
+                    "en": "stop under two minutes, driver stays"
+                  },
+                  {
+                    "es": "detención",
+                    "en": "halt for emergency, traffic or a rule"
+                  },
+                  {
+                    "es": "estacionamiento",
+                    "en": "parking"
+                  }
+                ],
+                "src": "LSV Anexo I, 80 a 82"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Dónde estás: poblado y travesía",
+            "en": "Where you are: poblado and travesía"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "**Poblado**: espacio con edificios, con las señales de entrada y de salida de poblado en sus vías de entrada y de salida.",
+                "en": "**Poblado**: an area with buildings, with the entry and exit signs on its roads in and out."
+              },
+              "src": "LSV Anexo I, 70"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "**Carretera**: vía pública pavimentada fuera de poblado, salvo los tramos de travesía.",
+                "en": "**Carretera**: a paved public road outside a poblado, except the stretches that are a travesía."
+              },
+              "src": "LSV Anexo I, 65"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "**Travesía**: tramo de carretera que pasa por un poblado. No lo es un tramo que tiene una variante o alternativa a la que puede acceder.",
+                "en": "**Travesía**: a stretch of carretera that runs through a poblado. A stretch that has a bypass or alternative road it can reach is not one."
+              },
+              "src": "LSV Anexo I, 71"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "**Vía urbana**: vía pública dentro de poblado, excepto las travesías. **Vía interurbana**: vía pública fuera de poblado.",
+                "en": "**Vía urbana**: a public road inside a poblado, except travesías. **Vía interurbana**: a public road outside a poblado."
+              },
+              "src": "LSV Anexo I, 72 y 73"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Ojo: «travesía» en inglés suena a «crossing» o a «voyage». Aquí es una carretera que atraviesa un pueblo.",
+                "en": "Careful: “travesía” sounds like “crossing” or “voyage”. Here it is a road that runs through a town."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "examlang-travesia",
+                "answer": 0,
+                "es": {
+                  "q": "Un tramo de carretera que discurre por poblado y que no dispone de una variante a la cual tenga acceso es:",
+                  "options": [
+                    "Una travesía",
+                    "Una vía urbana",
+                    "Una vía interurbana"
+                  ],
+                  "why": "Es una travesía. La vía urbana está dentro de poblado, pero la ley deja fuera las travesías. La vía interurbana está fuera de poblado."
+                },
+                "en": {
+                  "q": "A stretch of highway that runs through a built-up area and that does not have a bypass to which it has access is:",
+                  "options": [
+                    "A travesía",
+                    "An urban road (vía urbana)",
+                    "An interurban road (vía interurbana)"
+                  ],
+                  "why": "It is a travesía. The vía urbana is inside a poblado, but the law leaves travesías out. The vía interurbana is outside a poblado."
+                },
+                "terms": [
+                  {
+                    "es": "travesía",
+                    "en": "road through a town"
+                  },
+                  {
+                    "es": "poblado",
+                    "en": "built-up area with entry and exit signs"
+                  }
+                ],
+                "src": "LSV Anexo I, 70 a 73"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Las carreteras rápidas",
+            "en": "The faster roads"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Cuatro palabras que en inglés se parecen: autopista, autovía, vía para automóviles y carretera convencional. La diferencia está en el acceso y en las calzadas.",
+                "en": "Four words that look alike in English: autopista, autovía, vía para automóviles and carretera convencional. The difference is in access and in the calzadas."
+              }
+            },
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Palabra",
+                  "en": "Word"
+                },
+                {
+                  "es": "Acceso desde las propiedades colindantes",
+                  "en": "Access from adjoining properties"
+                },
+                {
+                  "es": "Calzadas",
+                  "en": "Calzadas"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "autopista",
+                    "en": "autopista"
+                  },
+                  {
+                    "es": "Ninguno. Solo para automóviles.",
+                    "en": "None. Only for cars."
+                  },
+                  {
+                    "es": "Una por sentido",
+                    "en": "One for each direction"
+                  }
+                ],
+                [
+                  {
+                    "es": "autovía",
+                    "en": "autovía"
+                  },
+                  {
+                    "es": "Limitado.",
+                    "en": "Limited."
+                  },
+                  {
+                    "es": "Una por sentido",
+                    "en": "One for each direction"
+                  }
+                ],
+                [
+                  {
+                    "es": "vía para automóviles",
+                    "en": "vía para automóviles"
+                  },
+                  {
+                    "es": "Limitación total. Solo para automóviles.",
+                    "en": "Total limitation. Only for cars."
+                  },
+                  {
+                    "es": "Una sola",
+                    "en": "A single one"
+                  }
+                ],
+                [
+                  {
+                    "es": "carretera convencional",
+                    "en": "carretera convencional"
+                  },
+                  {
+                    "es": "Es la que no cumple lo de las otras tres.",
+                    "en": "It is the one that does not meet the other three."
+                  },
+                  {
+                    "es": "No lo fija la definición.",
+                    "en": "The definition does not set it."
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "**Autopista**: carretera para la exclusiva circulación de automóviles, sin acceso de las propiedades colindantes, sin cruces a nivel, y con calzadas separadas para cada sentido salvo en puntos singulares o de forma temporal.",
+                "en": "**Autopista**: a road for the exclusive use of cars, with no access from adjoining properties, no level crossings, and separate calzadas for each direction except at special points or temporarily."
+              },
+              "src": "LSV Anexo I, 66"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "**Autovía**: igual, pero con acceso limitado de las propiedades colindantes y sin la exigencia de ser solo para automóviles.",
+                "en": "**Autovía**: the same, but with limited access from adjoining properties and without the requirement to be for cars only."
+              },
+              "src": "LSV Anexo I, 67"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "examlang-autopista",
+                "answer": 2,
+                "es": {
+                  "q": "La carretera para la exclusiva circulación de automóviles, a la que no tienen acceso las propiedades colindantes, es:",
+                  "options": [
+                    "La autovía",
+                    "La carretera convencional",
+                    "La autopista"
+                  ],
+                  "why": "Es la autopista: solo automóviles y sin acceso desde las propiedades colindantes. La autovía tiene acceso limitado, no ninguno."
+                },
+                "en": {
+                  "q": "The highway for the exclusive circulation of automobiles, to which the adjoining properties do not have access, is:",
+                  "options": [
+                    "The dual carriageway (autovía)",
+                    "The conventional road (carretera convencional)",
+                    "The motorway (autopista)"
+                  ],
+                  "why": "It is the autopista: only cars, and no access from adjoining properties. The autovía has limited access, not none."
+                },
+                "terms": [
+                  {
+                    "es": "autopista",
+                    "en": "motorway, no access from adjoining land"
+                  },
+                  {
+                    "es": "autovía",
+                    "en": "dual carriageway, limited access"
+                  }
+                ],
+                "src": "LSV Anexo I, 66 y 67"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Personas y vehículos",
+            "en": "People and vehicles"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "**Conductor**: la persona que maneja la dirección o va al mando de un vehículo, o a cuyo cargo está un animal.",
+                "en": "**Conductor**: the person who handles the steering or is in command of a vehicle, or who has an animal in their charge."
+              },
+              "src": "LSV Anexo I, 1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "**Peatón**: quien va a pie sin ser conductor. También lo es quien empuja un cochecito, quien lleva a pie un ciclo o un ciclomotor de dos ruedas, y quien va en silla de ruedas.",
+                "en": "**Peatón**: a person on foot who is not a driver. So is someone pushing a stroller, someone walking a cycle or a two-wheeled moped, and someone in a wheelchair."
+              },
+              "src": "LSV Anexo I, 4"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "**Titular del vehículo**: la persona a cuyo nombre figura inscrito el vehículo en el registro oficial.",
+                "en": "**Titular del vehículo**: the person in whose name the vehicle is entered in the official register."
+              },
+              "src": "LSV Anexo I, 5"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "**Turismo**: automóvil para el transporte de personas, con al menos cuatro ruedas y, además del conductor, ocho plazas como máximo.",
+                "en": "**Turismo**: a motor vehicle for carrying people, with at least four wheels and, besides the driver, at most eight seats."
+              },
+              "src": "LSV Anexo I, 15"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "El titular no es quien conduce. Y el «conductor habitual» es otra figura distinta: quien suele conducir el vehículo y se comunica al Registro de Vehículos.",
+                "en": "The titular is not the person who drives. And the “conductor habitual” is a different role again: the person who usually drives the vehicle and is reported to the Vehicle Register."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "examlang-peaton",
+                "answer": 1,
+                "es": {
+                  "q": "Una persona que conduce a pie una bicicleta se considera:",
+                  "options": [
+                    "Conductor de la bicicleta",
+                    "Peatón",
+                    "Ciclista, con las obligaciones de la bicicleta"
+                  ],
+                  "why": "La ley considera peatones a quienes conducen a pie un ciclo o un ciclomotor de dos ruedas."
+                },
+                "en": {
+                  "q": "A person who drives on foot a bicycle is considered as:",
+                  "options": [
+                    "Driver of the bicycle",
+                    "Pedestrian",
+                    "Cyclist, with the obligations of the bicycle"
+                  ],
+                  "why": "The law counts as pedestrians those who walk a cycle or a two-wheeled moped on foot."
+                },
+                "terms": [
+                  {
+                    "es": "peatón",
+                    "en": "pedestrian"
+                  },
+                  {
+                    "es": "conducir a pie",
+                    "en": "to walk (a bicycle)"
+                  }
+                ],
+                "src": "LSV Anexo I, 4"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "examlang-titular",
+                "answer": 0,
+                "es": {
+                  "q": "La persona a cuyo nombre está inscrito el vehículo en el registro oficial correspondiente es:",
+                  "options": [
+                    "El titular del vehículo",
+                    "El conductor habitual",
+                    "El conductor profesional"
+                  ],
+                  "why": "Esa persona es el titular. El conductor habitual es quien suele conducir el vehículo, y puede ser otra persona."
+                },
+                "en": {
+                  "q": "The person in whose name the vehicle appears registered in the corresponding official register is:",
+                  "options": [
+                    "The holder of the vehicle (titular)",
+                    "The habitual driver (conductor habitual)",
+                    "The professional driver (conductor profesional)"
+                  ],
+                  "why": "That person is the titular. The habitual driver is whoever usually drives the vehicle, and may be someone else."
+                },
+                "terms": [
+                  {
+                    "es": "titular del vehículo",
+                    "en": "registered owner"
+                  },
+                  {
+                    "es": "conductor habitual",
+                    "en": "usual driver"
+                  }
+                ],
+                "src": "LSV Anexo I, 2, 3 y 5"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "La calzada es la parte para los vehículos. Con los arcenes forma la plataforma.",
+          "en": "The calzada is the part for vehicles. With the arcenes it forms the plataforma."
+        },
+        {
+          "es": "Parada: menos de dos minutos, sin abandonar el vehículo. Detención: por emergencia, tráfico o norma. Estacionamiento: todo lo demás.",
+          "en": "Parada: under two minutes, without leaving the vehicle. Detención: for an emergency, traffic or a rule. Estacionamiento: everything else."
+        },
+        {
+          "es": "Una travesía es un tramo de carretera dentro de un poblado.",
+          "en": "A travesía is a stretch of carretera inside a poblado."
+        },
+        {
+          "es": "Autopista: solo automóviles y sin acceso desde las propiedades colindantes. Autovía: acceso limitado.",
+          "en": "Autopista: cars only and no access from adjoining properties. Autovía: limited access."
+        },
+        {
+          "es": "Peatón incluye a quien lleva a pie una bicicleta. El titular es quien figura en el registro, no quien conduce.",
+          "en": "A peatón includes someone walking a bicycle. The titular is the person in the register, not the one driving."
+        }
+      ],
+      "src": [
+        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), Anexo I: puntos 1 a 5, 15, 54, 55, 61 y 65 a 82"
+      ]
+    },
+    {
+      "id": "traps",
+      "title": {
+        "es": "Trampas de redacción",
+        "en": "Wording traps"
+      },
+      "minutes": 7,
+      "goals": [
+        {
+          "es": "Reconocer las palabras pequeñas que cambian una respuesta: salvo, únicamente, siempre que.",
+          "en": "Spot the small words that change an answer: salvo, únicamente, siempre que."
+        },
+        {
+          "es": "Entender una frase con un «no» dentro de otra negación.",
+          "en": "Understand a sentence with a “no” inside another negation."
+        },
+        {
+          "es": "Distinguir «podrá» (permiso) de «deberá» (obligación).",
+          "en": "Tell «podrá» (permission) from «deberá» (obligation)."
+        },
+        {
+          "es": "Leer una frase larga: verbo, condición y excepción.",
+          "en": "Read a long sentence: verb, condition and exception."
+        }
+      ],
+      "terms": [
+        {
+          "es": "salvo",
+          "en": "except"
+        },
+        {
+          "es": "únicamente",
+          "en": "only"
+        },
+        {
+          "es": "en todo caso",
+          "en": "in any case"
+        },
+        {
+          "es": "siempre que",
+          "en": "provided that"
+        },
+        {
+          "es": "excepcionalmente",
+          "en": "exceptionally"
+        },
+        {
+          "es": "podrá",
+          "en": "may"
+        },
+        {
+          "es": "deberá",
+          "en": "must"
+        },
+        {
+          "es": "queda prohibido",
+          "en": "it is prohibited"
+        }
+      ],
+      "pretest": {
+        "id": "examlang-pre-2",
+        "answer": 0,
+        "es": {
+          "q": "En «parar está prohibido, salvo en las zonas habilitadas», ¿qué significa «salvo»?",
+          "options": [
+            "Excepto",
+            "Siempre",
+            "Solo"
+          ],
+          "why": "«Salvo» introduce una excepción: la prohibición vale en todas partes menos en las zonas habilitadas."
+        },
+        "en": {
+          "q": "In “stopping is prohibited, salvo in the enabled zones”, what does “salvo” mean?",
+          "options": [
+            "Except",
+            "Always",
+            "Only"
+          ],
+          "why": "“Salvo” introduces an exception: the ban applies everywhere except in the enabled zones."
+        },
+        "src": "RGC art. 94.1.g"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Palabras pequeñas, gran efecto",
+            "en": "Small words, big effect"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Pocas palabras cambian tanto una respuesta como estas. Aprende cada una con su efecto.",
+                "en": "Few words change an answer as much as these. Learn each one with its effect."
+              }
+            },
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Palabra",
+                  "en": "Word"
+                },
+                {
+                  "es": "Significa",
+                  "en": "Means"
+                },
+                {
+                  "es": "Efecto",
+                  "en": "Effect"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "salvo",
+                    "en": "salvo"
+                  },
+                  {
+                    "es": "excepto",
+                    "en": "except"
+                  },
+                  {
+                    "es": "Abre una excepción a lo anterior.",
+                    "en": "Opens an exception to what came before."
+                  }
+                ],
+                [
+                  {
+                    "es": "únicamente, solo",
+                    "en": "únicamente, solo"
+                  },
+                  {
+                    "es": "solo",
+                    "en": "only"
+                  },
+                  {
+                    "es": "Cierra la lista: nada más cuenta.",
+                    "en": "Closes the list: nothing else counts."
+                  }
+                ],
+                [
+                  {
+                    "es": "en todo caso",
+                    "en": "en todo caso"
+                  },
+                  {
+                    "es": "en cualquier caso",
+                    "en": "in any case"
+                  },
+                  {
+                    "es": "Se aplica sin excepciones.",
+                    "en": "Applies without exceptions."
+                  }
+                ],
+                [
+                  {
+                    "es": "siempre",
+                    "en": "siempre"
+                  },
+                  {
+                    "es": "siempre",
+                    "en": "always"
+                  },
+                  {
+                    "es": "Sin excepciones.",
+                    "en": "No exceptions."
+                  }
+                ],
+                [
+                  {
+                    "es": "siempre que",
+                    "en": "siempre que"
+                  },
+                  {
+                    "es": "con la condición de que",
+                    "en": "provided that"
+                  },
+                  {
+                    "es": "No es «always»: pone una condición.",
+                    "en": "Not “always”: it sets a condition."
+                  }
+                ],
+                [
+                  {
+                    "es": "excepcionalmente",
+                    "en": "excepcionalmente"
+                  },
+                  {
+                    "es": "de forma excepcional",
+                    "en": "exceptionally"
+                  },
+                  {
+                    "es": "Solo en los casos que siguen.",
+                    "en": "Only in the cases that follow."
+                  }
+                ],
+                [
+                  {
+                    "es": "podrá, podrán",
+                    "en": "podrá, podrán"
+                  },
+                  {
+                    "es": "puede, pueden",
+                    "en": "may"
+                  },
+                  {
+                    "es": "Permiso, no obligación.",
+                    "en": "Permission, not obligation."
+                  }
+                ],
+                [
+                  {
+                    "es": "deberá, deberán",
+                    "en": "deberá, deberán"
+                  },
+                  {
+                    "es": "debe, deben; también «estará obligado»",
+                    "en": "must; also “estará obligado”, is obliged"
+                  },
+                  {
+                    "es": "Obligación.",
+                    "en": "Obligation."
+                  }
+                ],
+                [
+                  {
+                    "es": "queda prohibido",
+                    "en": "queda prohibido"
+                  },
+                  {
+                    "es": "está prohibido",
+                    "en": "it is prohibited"
+                  },
+                  {
+                    "es": "Prohibición.",
+                    "en": "Prohibition."
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "«Siempre» y «siempre que» se parecen mucho y significan cosas distintas. Si ves «siempre que», busca la condición.",
+                "en": "“Siempre” and “siempre que” look almost the same and mean different things. If you see “siempre que”, look for the condition."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "«Salvo»: la excepción",
+            "en": "“Salvo”: the exception"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Queda prohibido parar en autopistas y autovías, salvo en las zonas habilitadas para ello.",
+                "en": "It is prohibited to stop on autopistas and autovías, except in the zones set up for it."
+              },
+              "src": "RGC art. 94.1.g"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Si la ley dice «prohibido… salvo…», una respuesta con «siempre» o «nunca» queda mal: la ley deja una excepción.",
+                "en": "If the law says “prohibited… except…”, an answer with “always” or “never” is wrong: the law leaves an exception."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "examlang-salvo",
+                "answer": 1,
+                "es": {
+                  "q": "Según el Reglamento General de Circulación, parar en una autopista o autovía:",
+                  "options": [
+                    "Está prohibido en todo caso",
+                    "Está prohibido, salvo en las zonas habilitadas para ello",
+                    "Está permitido si dura menos de dos minutos"
+                  ],
+                  "why": "Parar en autopistas y autovías está prohibido, salvo en las zonas habilitadas. «En todo caso» es falso porque hay una excepción. Y la parada ya es la inmovilización de menos de dos minutos, así que ese tiempo no la permite."
+                },
+                "en": {
+                  "q": "According to the General Regulation of Circulation, to stop on motorways and dual carriageways:",
+                  "options": [
+                    "Is prohibited in any case",
+                    "Is prohibited, except in the zones enabled for it",
+                    "Is permitted if it lasts less than two minutes"
+                  ],
+                  "why": "Stopping on autopistas and autovías is prohibited, except in the enabled zones. “In any case” is false because there is an exception. And a parada is already a hold of under two minutes, so that length does not allow it."
+                },
+                "terms": [
+                  {
+                    "es": "salvo",
+                    "en": "except"
+                  },
+                  {
+                    "es": "en todo caso",
+                    "en": "in any case"
+                  },
+                  {
+                    "es": "habilitadas",
+                    "en": "set up, enabled"
+                  }
+                ],
+                "src": "RGC art. 94.1.g; LSV Anexo I, 81"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Un «no» dentro de otro «no»",
+            "en": "A “no” inside a “no”"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "El conductor y los ocupantes deben llevar abrochado el cinturón homologado, en vías urbanas e interurbanas. Esta obligación no es exigible en los vehículos que no tienen cinturones instalados.",
+                "en": "The driver and occupants must wear an approved seat belt, fastened, on urban and interurban roads. This duty does not apply in vehicles that have no belts installed."
+              },
+              "src": "RGC art. 117.1"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Una frase así tiene dos partes: la obligación («estarán obligados a utilizar») y su límite («no será exigible… en vehículos que no los tengan»). Primero localiza la obligación. Después busca dónde se acaba.",
+                "en": "A sentence like this has two parts: the duty (“are obliged to use”) and its limit (“will not be required… in vehicles that do not have them”). First find the duty. Then find where it stops."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "examlang-cinturon",
+                "answer": 2,
+                "es": {
+                  "q": "«Esta obligación, en lo que se refiere a los cinturones de seguridad, no será exigible en aquellos vehículos que no los tengan instalados.» Eso significa que:",
+                  "options": [
+                    "El cinturón es opcional en las vías urbanas",
+                    "El cinturón es obligatorio solo en carretera",
+                    "En un vehículo sin cinturones instalados no hay obligación de llevarlo"
+                  ],
+                  "why": "La obligación vale en vías urbanas e interurbanas. Solo no se exige en los vehículos que no tienen cinturones instalados."
+                },
+                "en": {
+                  "q": "“This obligation, in what refers to the seat belts, will not be required in those vehicles that do not have them installed.” This means that:",
+                  "options": [
+                    "The seat belt is optional on urban roads",
+                    "The seat belt is mandatory only on the open road",
+                    "In a vehicle with no belts installed there is no obligation to wear one"
+                  ],
+                  "why": "The duty applies on urban and interurban roads. It is only not required in vehicles that have no belts installed."
+                },
+                "terms": [
+                  {
+                    "es": "exigible",
+                    "en": "required, enforceable"
+                  },
+                  {
+                    "es": "homologado",
+                    "en": "approved"
+                  }
+                ],
+                "src": "RGC art. 117.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "«Excepcionalmente» y «siempre que»",
+            "en": "“Excepcionalmente” and “siempre que”"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "En un vehículo de hasta nueve plazas, los menores de 135 cm o menos van en los asientos traseros, con un sistema de retención infantil homologado adecuado a su talla y peso.",
+                "en": "In a vehicle of up to nine seats, minors of 135 cm or less sit in the rear seats, in an approved child restraint suited to their height and weight."
+              },
+              "src": "RGC art. 117.3"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Excepcionalmente pueden ir delante, siempre que usen un sistema de retención adecuado, en tres casos: el vehículo no tiene asientos traseros, todos los traseros están ocupados por menores, o no se pueden instalar allí todos los sistemas.",
+                "en": "Exceptionally they may ride in front, provided they use a suitable restraint, in three cases: the vehicle has no rear seats, all the rear seats are taken by minors, or not all the systems can be fitted there."
+              },
+              "src": "RGC art. 117.3, 1.º a 3.º"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "«Excepcionalmente podrán» da permiso solo en los casos de la lista. «Siempre que» añade una condición más. Si falta una de las dos cosas, no hay permiso.",
+                "en": "“Excepcionalmente podrán” gives permission only in the cases on the list. “Siempre que” adds one more condition. If either is missing, there is no permission."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "examlang-asiento-delantero",
+                "answer": 0,
+                "es": {
+                  "q": "Los menores de 135 cm o menos van en los asientos traseros. ¿En cuál de estos casos pueden ocupar excepcionalmente el asiento delantero, con un sistema de retención adecuado?",
+                  "options": [
+                    "Cuando el vehículo no dispone de asientos traseros",
+                    "Cuando el niño se marea en los asientos traseros",
+                    "Cuando el trayecto es corto"
+                  ],
+                  "why": "Las excepciones son tres: no hay asientos traseros, todos los traseros están ocupados por menores, o no se pueden instalar allí todos los sistemas. Marearse o hacer un viaje corto no cuentan."
+                },
+                "en": {
+                  "q": "The minors of 135 cm or less travel in the rear seats. In which of these cases can they exceptionally occupy the front seat, using a suitable restraint system?",
+                  "options": [
+                    "When the vehicle does not have rear seats",
+                    "When the child gets dizzy in the rear seats",
+                    "When the trip is short"
+                  ],
+                  "why": "There are three exceptions: no rear seats, all rear seats taken by minors, or not all the systems can be fitted there. Feeling dizzy or a short trip do not count."
+                },
+                "terms": [
+                  {
+                    "es": "excepcionalmente",
+                    "en": "exceptionally"
+                  },
+                  {
+                    "es": "siempre que",
+                    "en": "provided that"
+                  }
+                ],
+                "src": "RGC art. 117.3"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "«Únicamente»: la lista cerrada",
+            "en": "“Únicamente”: the closed list"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si el niño va delante y el vehículo tiene airbag frontal, solo puede usar un sistema orientado hacia atrás si el airbag está desactivado.",
+                "en": "If the child rides in front and the vehicle has a frontal airbag, a rear-facing system may be used only if the airbag is deactivated."
+              },
+              "src": "RGC art. 117.3"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "El texto legal dice «únicamente podrán… si». «Únicamente» deja una sola puerta abierta. Cualquier otra condición que ofrezca una respuesta es falsa.",
+                "en": "The legal text says “únicamente podrán… si”. “Únicamente” leaves one door open. Any other condition an answer offers is false."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "examlang-airbag",
+                "answer": 2,
+                "es": {
+                  "q": "Un niño va delante en un sistema de retención orientado hacia atrás y el coche tiene airbag frontal. ¿Cuándo está permitido?",
+                  "options": [
+                    "Si el asiento va echado hacia atrás",
+                    "Si un adulto acompaña al niño",
+                    "Únicamente si el airbag está desactivado"
+                  ],
+                  "why": "«Únicamente… si» cierra la lista: la única condición es que el airbag esté desactivado."
+                },
+                "en": {
+                  "q": "A child travels in front in a rear-facing restraint system and the car has a frontal airbag. When is it allowed?",
+                  "options": [
+                    "If the seat is moved back",
+                    "If an adult accompanies the child",
+                    "Only if the airbag has been deactivated"
+                  ],
+                  "why": "“Únicamente… si” closes the list: the only condition is that the airbag is deactivated."
+                },
+                "terms": [
+                  {
+                    "es": "únicamente",
+                    "en": "only"
+                  },
+                  {
+                    "es": "desactivado",
+                    "en": "deactivated"
+                  }
+                ],
+                "src": "RGC art. 117.3"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Si no puedes parar, no puedes estacionar",
+            "en": "If you cannot stop, you cannot park"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Queda prohibido estacionar en todos los lugares donde está prohibido parar.",
+                "en": "It is prohibited to park in every place where it is prohibited to stop."
+              },
+              "src": "RGC art. 94.2.a"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "La prohibición de parar arrastra la de estacionar. El artículo prohíbe además estacionar en otros sitios, como las zonas señalizadas para carga y descarga o delante de un vado señalizado.",
+                "en": "The ban on stopping carries the ban on parking with it. The article also bans parking in other places, such as zones marked for loading and unloading or in front of a marked driveway."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "examlang-parar-estacionar",
+                "answer": 1,
+                "es": {
+                  "q": "En un lugar donde está prohibido parar, estacionar:",
+                  "options": [
+                    "Está permitido si el conductor permanece en el vehículo",
+                    "También está prohibido",
+                    "Está permitido si dura menos de dos minutos"
+                  ],
+                  "why": "Queda prohibido estacionar en todos los lugares donde está prohibido parar. Además hay otros lugares solo para el estacionamiento, como los vados señalizados."
+                },
+                "en": {
+                  "q": "In a place where it is prohibited to stop, to park:",
+                  "options": [
+                    "Is permitted if the driver remains in the vehicle",
+                    "Is also prohibited",
+                    "Is permitted if it lasts less than two minutes"
+                  ],
+                  "why": "It is prohibited to park everywhere it is prohibited to stop. There are also places that apply to parking alone, such as marked driveways."
+                },
+                "terms": [
+                  {
+                    "es": "estacionar",
+                    "en": "to park"
+                  },
+                  {
+                    "es": "parar",
+                    "en": "to stop"
+                  }
+                ],
+                "src": "RGC art. 94.2"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Cómo leer una frase larga",
+            "en": "How to read a long sentence"
+          },
+          "blocks": [
+            {
+              "t": "list",
+              "ordered": true,
+              "items": [
+                {
+                  "es": "Busca el verbo: obligación (deberá), permiso (podrá) o prohibición (queda prohibido).",
+                  "en": "Find the verb: duty (deberá), permission (podrá) or prohibition (queda prohibido)."
+                },
+                {
+                  "es": "Busca los límites: salvo, únicamente, siempre que, excepcionalmente.",
+                  "en": "Find the limits: salvo, únicamente, siempre que, excepcionalmente."
+                },
+                {
+                  "es": "Cambia cada palabra clave por su sentido legal: calzada, parada, titular.",
+                  "en": "Swap each key word for its legal meaning: calzada, parada, titular."
+                },
+                {
+                  "es": "Compara cada opción con la frase, no con lo que haces en tu país.",
+                  "en": "Compare each option with the sentence, not with what you do back home."
+                }
+              ]
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Si el inglés suena raro, vuelve al español: la ley se escribió en español.",
+                "en": "If the English sounds odd, go back to the Spanish: the law was written in Spanish."
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "«Salvo» abre una excepción, «únicamente» cierra la lista y «siempre que» pone una condición.",
+          "en": "“Salvo” opens an exception, “únicamente” closes the list and “siempre que” sets a condition."
+        },
+        {
+          "es": "Una prohibición con «salvo» no es absoluta: desconfía de «siempre» y «nunca» en las respuestas.",
+          "en": "A ban with “salvo” is not absolute: be wary of “always” and “never” in the answers."
+        },
+        {
+          "es": "Una obligación con «no será exigible» tiene un límite: busca dónde se acaba.",
+          "en": "A duty with “no será exigible” has a limit: find where it stops."
+        },
+        {
+          "es": "Si está prohibido parar, también está prohibido estacionar.",
+          "en": "If stopping is prohibited, parking is prohibited too."
+        },
+        {
+          "es": "Si el inglés suena raro, vuelve a la palabra española.",
+          "en": "If the English sounds odd, go back to the Spanish word."
+        }
+      ],
+      "src": [
+        "Reglamento General de Circulación (RD 1428/2003), arts. 94.1.g, 94.2 y 117.1 y 117.3",
+        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), Anexo I, punto 81"
+      ]
+    }
+  ]
+}

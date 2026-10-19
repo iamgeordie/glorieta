@@ -14,8 +14,8 @@ The one design rule: **every piece of text can flip between Spanish and English 
 
 | Screen | What it does |
 |---|---|
-| Learn | A guided course: 13 modules, 63 short lessons, 315 check questions and 43 diagrams (many animated). Each lesson has key words, an ungraded guess, one idea per step with a retrieval check, and a recap. Each module ends in a quiz; 80% counts as mastered. See [How the course teaches](#learn-the-course). |
-| Practice | The 70 original questions, the 315 lesson checks, and a "what does this sign mean?" question for each sign, in 13 categories. Spaced repetition ([FSRS](https://github.com/open-spaced-repetition/ts-fsrs)) brings the ones you miss back sooner, whether you missed them in a lesson, a quiz or here. |
+| Learn | A guided course: 14 modules, 65 short lessons, 326 check questions and 43 diagrams (many animated). Each lesson has key words, an ungraded guess, one idea per step with a retrieval check, and a recap. Each module ends in a quiz; 80% counts as mastered. See [How the course teaches](#learn-the-course). |
+| Practice | The 70 original questions, the 326 lesson checks, and a "what does this sign mean?" question for each sign, in 14 categories. Spaced repetition ([FSRS](https://github.com/open-spaced-repetition/ts-fsrs)) brings the ones you miss back sooner, whether you missed them in a lesson, a quiz or here. |
 | Mock exam | 30 questions (4 of them signs), countdown, up to 3 mistakes, with a review of what you missed. |
 | Traffic signs | A gallery of Spanish traffic signs with the official meaning in both languages, and practice questions built from the same data. |
 | Vocabulary | Flashcards for road terms, scheduled with the same FSRS engine. |

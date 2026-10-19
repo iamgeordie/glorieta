@@ -16,6 +16,7 @@ export const categories: Category[] = [
   { id: 'emergencies', name: bi('Accidentes y primeros auxilios', 'Accidents & first aid') },
   { id: 'equipment', name: bi('Vehículo y equipamiento', 'Vehicle & equipment') },
   { id: 'docs', name: bi('Permisos, puntos y sanciones', 'Licenses, points & penalties') },
+  { id: 'examlang', name: bi('Leer el examen', 'Reading the exam') },
 ];
 
 export const categoryById = (id: string): Category => {

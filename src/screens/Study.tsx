@@ -1,6 +1,7 @@
 import { useContext, useMemo, useState } from 'preact/hooks';
 import { bi, ModeOverride, mode, T } from '../i18n';
 import { categories, categoryById } from '../data/categories';
+import { OFFICIAL_TESTS_URL } from '../data/facts';
 import { questionOf, seenOf } from '../format';
 import { ui } from '../ui';
 import { allQuestions, buildQueue, optionOrder, practicePool, type Question } from '../lib/quiz';
@@ -114,6 +115,12 @@ function CategoryPicker() {
           );
         })}
       </ul>
+      <div class="card">
+        <p>
+          <a href={OFFICIAL_TESTS_URL} target="_blank" rel="noreferrer noopener"><strong><T t={ui.officialTestsLink} /></strong></a>
+        </p>
+        <p class="muted small"><T t={ui.officialTestsHint} /></p>
+      </div>
     </section>
   );
 }

@@ -57,10 +57,14 @@ export const usVsSpain: Bi[] = [
   bi('En autopista se circula por la derecha y se adelanta por la izquierda.', 'On motorways you keep right and pass on the left.'),
 ];
 
+/** The DGT's own free practice tests; the address redirects to the sede electrónica. */
+export const OFFICIAL_TESTS_URL = 'https://www.dgt.es/.galleries/enlaces/sede/permisos/test-examen.html';
+
 export type SourceLink = { label: string; href: string };
 
 export const sources: SourceLink[] = [
   { label: 'DGT: requisitos, preparación y presentación a examen', href: 'https://www.dgt.es/nuestros-servicios/permisos-de-conducir/obtener-un-nuevo-permiso-de-conducir/requisitos-preparacion-y-presentacion-a-examen/' },
+  { label: 'DGT: test de examen (práctica oficial, preguntas similares a las del examen)', href: OFFICIAL_TESTS_URL },
   { label: 'Revista DGT: cambios en el examen teórico (oct. 2025)', href: 'https://revista.dgt.es/es/reportajes/2025/10OCTUBRE/1015N275-_CambiosTeorico.shtml' },
   { label: 'Sede electrónica DGT: impreso Mod. 04 (idioma del examen)', href: 'https://sede.dgt.gob.es/.galleries/modelos-solicitud/04/Mod.04-ES.pdf' },
   { label: 'BOE: Reglamento General de Circulación (RD 1428/2003)', href: 'https://www.boe.es/buscar/act.php?id=BOE-A-2003-23514' },
