@@ -15,7 +15,7 @@
         "es": "Tipos de vía",
         "en": "Types of road"
       },
-      "minutes": 6,
+      "minutes": 9,
       "goals": [
         {
           "es": "Distinguir una vía urbana, una carretera y una travesía.",
@@ -28,6 +28,10 @@
         {
           "es": "Saber quién no puede entrar en autopistas y autovías.",
           "en": "Know who may not enter autopistas and autovías."
+        },
+        {
+          "es": "Saber qué reglas especiales se aplican en autopistas y autovías.",
+          "en": "Know which special rules apply on autopistas and autovías."
         }
       ],
       "terms": [
@@ -164,15 +168,15 @@
         },
         {
           "title": {
-            "es": "Autopista, autovía y las demás",
-            "en": "Autopista, autovía and the others"
+            "es": "Autopista y autovía",
+            "en": "Autopista and autovía"
           },
           "blocks": [
             {
               "t": "p",
               "text": {
-                "es": "La ley define estos cuatro tipos de vía. Dos de ellos tienen una calzada para cada sentido.",
-                "en": "The law defines these four kinds of road. Two of them have a separate carriageway for each direction."
+                "es": "Las dos son carreteras hechas a propósito, con calzadas separadas y sin cruces a nivel. Cambia el acceso de las propiedades vecinas.",
+                "en": "Both are roads built on purpose, with separate carriageways and no same-level crossings. What changes is how neighboring properties reach them."
               }
             },
             {
@@ -184,6 +188,23 @@
               "src": "LSV anexo I, punto 66"
             },
             {
+              "t": "list",
+              "items": [
+                {
+                  "es": "Una franja de terreno que no es para circular separa las calzadas. Solo en casos excepcionales las separan otros medios.",
+                  "en": "A strip of land not used for traffic separates the carriageways. Only in exceptional cases do other means separate them."
+                },
+                {
+                  "es": "Esa separación puede faltar en puntos singulares o de forma temporal.",
+                  "en": "The separation may be missing at special points or temporarily."
+                },
+                {
+                  "es": "Ninguna otra vía, línea de tren o tranvía la cruza a nivel, y ella no cruza a nivel ninguna otra.",
+                  "en": "No other road, railway or tramway crosses it at the same level, and it crosses none at the same level."
+                }
+              ]
+            },
+            {
               "t": "rule",
               "text": {
                 "es": "Una **autovía** también tiene distintas calzadas para cada sentido y no tiene cruces a nivel. Pero las propiedades vecinas tienen **acceso limitado**.",
@@ -192,81 +213,32 @@
               "src": "LSV anexo I, punto 67"
             },
             {
-              "t": "rule",
-              "text": {
-                "es": "Una **vía para automóviles** es solo para automóviles. Tiene una sola calzada y limita del todo el acceso de las propiedades vecinas.",
-                "en": "A **vía para automóviles** is for automobiles only. It has a single carriageway and fully limits access from neighboring properties."
-              },
-              "src": "LSV anexo I, punto 68"
-            },
-            {
-              "t": "rule",
-              "text": {
-                "es": "Una **carretera convencional** es la que no reúne las características de una autopista, una autovía o una vía para automóviles.",
-                "en": "A **carretera convencional** is any road that does not meet the features of an autopista, an autovía or a road for automobiles."
-              },
-              "src": "LSV anexo I, punto 69"
-            },
-            {
-              "t": "table",
-              "head": [
+              "t": "list",
+              "items": [
                 {
-                  "es": "Tipo",
-                  "en": "Type"
+                  "es": "Las calzadas están separadas por una franja de terreno o por otros medios.",
+                  "en": "The carriageways are separated by a strip of land or by other means."
                 },
                 {
-                  "es": "Calzadas",
-                  "en": "Carriageways"
-                },
-                {
-                  "es": "Propiedades vecinas",
-                  "en": "Neighboring properties"
+                  "es": "No cruza a nivel ninguna otra vía, línea de tren o tranvía, ni ninguna la cruza a ella.",
+                  "en": "It crosses no other road, railway or tramway at the same level, and none crosses it."
                 }
-              ],
-              "rows": [
-                [
-                  {
-                    "es": "Autopista",
-                    "en": "Autopista"
-                  },
-                  {
-                    "es": "Una por sentido, separadas",
-                    "en": "One per direction, separated"
-                  },
-                  {
-                    "es": "Sin acceso",
-                    "en": "No access"
-                  }
-                ],
-                [
-                  {
-                    "es": "Autovía",
-                    "en": "Autovía"
-                  },
-                  {
-                    "es": "Una por sentido, separadas",
-                    "en": "One per direction, separated"
-                  },
-                  {
-                    "es": "Acceso limitado",
-                    "en": "Limited access"
-                  }
-                ],
-                [
-                  {
-                    "es": "Vía para automóviles",
-                    "en": "Road for automobiles"
-                  },
-                  {
-                    "es": "Una sola",
-                    "en": "Just one"
-                  },
-                  {
-                    "es": "Acceso totalmente limitado",
-                    "en": "Access fully limited"
-                  }
-                ]
               ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Las señales «Autopista» y «Autovía» marcan el principio de cada vía. Desde ahí se aplican sus **reglas especiales** de circulación. «Fin de autopista» marca el final de la autopista.",
+                "en": "The signs \"Autopista\" and \"Autovía\" mark where each road begins. From there its **special traffic rules** apply. \"Fin de autopista\" marks the end of the autopista."
+              },
+              "src": "RGC Anexo I, ap. 5.1 (S-1, S-1a, S-2)"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "La autopista es solo para automóviles por definición. La definición de autovía no lo dice, pero la norma prohíbe en ella las bicicletas y los ciclomotores, con una excepción en el arcén.",
+                "en": "An autopista is for automobiles only by definition. The definition of an autovía does not say that, but the rules ban bicycles and mopeds on it, with one exception on the shoulder."
+              }
             },
             {
               "t": "check",
@@ -302,6 +274,441 @@
                   }
                 ],
                 "src": "LSV anexo I, puntos 66 y 67"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "La vía para automóviles y la carretera convencional",
+            "en": "The road for automobiles and the conventional road"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Una **vía para automóviles** es solo para automóviles. Tiene una sola calzada y limita del todo el acceso de las propiedades vecinas.",
+                "en": "A **vía para automóviles** is for automobiles only. It has a single carriageway and fully limits access from neighboring properties."
+              },
+              "src": "LSV anexo I, punto 68"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "La señal «Vía reservada para automóviles» marca el principio de esta vía. La señal «Fin de vía reservada para automóviles» marca el final.",
+                "en": "The sign \"Vía reservada para automóviles\" marks where this road begins. The sign \"Fin de vía reservada para automóviles\" marks the end."
+              },
+              "src": "RGC Anexo I, ap. 5.1 (S-3, S-4)"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Un **automóvil** es un vehículo de motor que sirve, normalmente, para transportar personas o cosas, o para tirar de otros vehículos. No cuentan los ciclomotores ni los vehículos especiales.",
+                "en": "An **automóvil** is a motor vehicle that normally carries people or goods, or pulls other vehicles. Mopeds and special vehicles do not count."
+              },
+              "src": "LSV anexo I, puntos 12, 13 y 68"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Por eso una bicicleta no puede entrar en una vía reservada para automóviles. La excepción de los ciclistas mayores de 14 años solo vale para el arcén de las autovías.",
+                "en": "So a bicycle may not enter a road reserved for automobiles. The exception for cyclists over 14 only covers the shoulder of an autovía."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-t1g",
+                "answer": 0,
+                "es": {
+                  "q": "Una ciclista llega a un tramo con la señal «Vía reservada para automóviles». ¿Puede entrar con su bicicleta?",
+                  "options": [
+                    "No: una bicicleta no es un automóvil",
+                    "Sí, por el arcén, si tiene más de 14 años",
+                    "Sí, si va por el lado derecho de la calzada"
+                  ],
+                  "why": "Una vía reservada exclusivamente a automóviles no admite bicicletas: no son vehículos de motor. La excepción de los mayores de 14 años es solo para el arcén de las autovías."
+                },
+                "en": {
+                  "q": "A cyclist reaches a stretch with the sign \"Vía reservada para automóviles\". May she enter on her bicycle?",
+                  "options": [
+                    "No: a bicycle is not an automobile",
+                    "Yes, on the shoulder, if she is over 14",
+                    "Yes, if she keeps to the right side of the roadway"
+                  ],
+                  "why": "A road reserved exclusively for automobiles does not admit bicycles: they are not motor vehicles. The exception for riders over 14 is only for the shoulder of an autovía."
+                },
+                "terms": [
+                  {
+                    "es": "automóvil",
+                    "en": "automobile (motor vehicle)"
+                  },
+                  {
+                    "es": "arcén",
+                    "en": "shoulder"
+                  }
+                ],
+                "src": "LSV anexo I, puntos 12, 13 y 68; RGC art. 38.1"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Una **carretera convencional** es la que no reúne las características de una autopista, una autovía o una vía para automóviles.",
+                "en": "A **carretera convencional** is any road that does not meet the features of an autopista, an autovía or a road for automobiles."
+              },
+              "src": "LSV anexo I, punto 69"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Como se define por exclusión, una carretera convencional puede tener cruces a nivel. También puede dar acceso directo a las propiedades vecinas.",
+                "en": "Because it is defined by exclusion, a conventional road may have same-level crossings. It may also give neighboring properties direct access."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "En una carretera convencional, los turismos y las motocicletas van como máximo a **90 km/h** (unos 56 mph). Si los dos sentidos están separados físicamente, el titular de la vía puede fijar 100 km/h.",
+                "en": "On a conventional road, cars and motorcycles may go at most **90 km/h** (about 56 mph). If the two directions are physically separated, the road owner may set 100 km/h."
+              },
+              "src": "RGC art. 48.1.a"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-t1f",
+                "answer": 2,
+                "es": {
+                  "q": "¿En cuál de estas vías puede haber un cruce a nivel con otra carretera?",
+                  "options": [
+                    "En una autopista",
+                    "En una autovía",
+                    "En una carretera convencional"
+                  ],
+                  "why": "Las autopistas y las autovías no cruzan a nivel ninguna otra vía. La carretera convencional se define por exclusión y no tiene esa exigencia."
+                },
+                "en": {
+                  "q": "On which of these roads can there be a same-level crossing with another road?",
+                  "options": [
+                    "On an autopista",
+                    "On an autovía",
+                    "On a conventional road"
+                  ],
+                  "why": "Autopistas and autovías cross no other road at the same level. A conventional road is defined by exclusion and has no such requirement."
+                },
+                "terms": [
+                  {
+                    "es": "cruce a nivel",
+                    "en": "same-level crossing"
+                  },
+                  {
+                    "es": "carretera convencional",
+                    "en": "conventional road"
+                  }
+                ],
+                "src": "LSV anexo I, puntos 66, 67 y 69"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Las cuatro vías, lado a lado",
+            "en": "The four roads side by side"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Esta tabla junta lo que has visto. Desliza hacia los lados si no cabe en la pantalla.",
+                "en": "This table puts together what you have seen. Scroll sideways if it does not fit your screen."
+              }
+            },
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Característica",
+                  "en": "Feature"
+                },
+                {
+                  "es": "Autopista",
+                  "en": "Autopista"
+                },
+                {
+                  "es": "Autovía",
+                  "en": "Autovía"
+                },
+                {
+                  "es": "Vía para automóviles",
+                  "en": "Road for automobiles"
+                },
+                {
+                  "es": "Carretera convencional",
+                  "en": "Conventional road"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "**Calzadas**",
+                    "en": "**Carriageways**"
+                  },
+                  {
+                    "es": "Distintas para cada sentido, separadas",
+                    "en": "Separate for each direction"
+                  },
+                  {
+                    "es": "Distintas para cada sentido, separadas",
+                    "en": "Separate for each direction"
+                  },
+                  {
+                    "es": "Una sola",
+                    "en": "Just one"
+                  },
+                  {
+                    "es": "No se exige que estén separadas",
+                    "en": "Not required to be separate"
+                  }
+                ],
+                [
+                  {
+                    "es": "**Cruces a nivel**",
+                    "en": "**Same-level crossings**"
+                  },
+                  {
+                    "es": "Ninguno",
+                    "en": "None"
+                  },
+                  {
+                    "es": "Ninguno",
+                    "en": "None"
+                  },
+                  {
+                    "es": "La definición no los menciona",
+                    "en": "The definition does not mention them"
+                  },
+                  {
+                    "es": "Puede haberlos",
+                    "en": "There may be some"
+                  }
+                ],
+                [
+                  {
+                    "es": "**Propiedades vecinas**",
+                    "en": "**Neighboring properties**"
+                  },
+                  {
+                    "es": "Sin acceso",
+                    "en": "No access"
+                  },
+                  {
+                    "es": "Acceso limitado",
+                    "en": "Limited access"
+                  },
+                  {
+                    "es": "Acceso totalmente limitado",
+                    "en": "Access fully limited"
+                  },
+                  {
+                    "es": "No se exige limitar el acceso",
+                    "en": "Access need not be limited"
+                  }
+                ],
+                [
+                  {
+                    "es": "**Solo automóviles**",
+                    "en": "**Automobiles only**"
+                  },
+                  {
+                    "es": "Sí",
+                    "en": "Yes"
+                  },
+                  {
+                    "es": "La definición no lo dice",
+                    "en": "The definition does not say so"
+                  },
+                  {
+                    "es": "Sí",
+                    "en": "Yes"
+                  },
+                  {
+                    "es": "No",
+                    "en": "No"
+                  }
+                ],
+                [
+                  {
+                    "es": "**Bicicletas**",
+                    "en": "**Bicycles**"
+                  },
+                  {
+                    "es": "Prohibidas",
+                    "en": "Forbidden"
+                  },
+                  {
+                    "es": "Prohibidas; mayores de 14 por el arcén, si no hay señal que lo prohíba",
+                    "en": "Forbidden; riders over 14 may use the shoulder unless a sign forbids it"
+                  },
+                  {
+                    "es": "No entran: no son automóviles",
+                    "en": "Not allowed: not automobiles"
+                  },
+                  {
+                    "es": "Sin esta prohibición",
+                    "en": "Without this ban"
+                  }
+                ],
+                [
+                  {
+                    "es": "**Parar**",
+                    "en": "**Stopping**"
+                  },
+                  {
+                    "es": "Solo en zonas habilitadas",
+                    "en": "Only in designated areas"
+                  },
+                  {
+                    "es": "Solo en zonas habilitadas",
+                    "en": "Only in designated areas"
+                  },
+                  {
+                    "es": "Reglas generales",
+                    "en": "General rules"
+                  },
+                  {
+                    "es": "Reglas generales",
+                    "en": "General rules"
+                  }
+                ],
+                [
+                  {
+                    "es": "**Cambio de sentido y marcha atrás**",
+                    "en": "**U-turns and reversing**"
+                  },
+                  {
+                    "es": "Cambio de sentido solo donde se habilite; marcha atrás prohibida",
+                    "en": "U-turns only where provided; reversing forbidden"
+                  },
+                  {
+                    "es": "Cambio de sentido solo donde se habilite; marcha atrás prohibida",
+                    "en": "U-turns only where provided; reversing forbidden"
+                  },
+                  {
+                    "es": "Reglas generales",
+                    "en": "General rules"
+                  },
+                  {
+                    "es": "Reglas generales",
+                    "en": "General rules"
+                  }
+                ],
+                [
+                  {
+                    "es": "**Máxima para un turismo**",
+                    "en": "**Maximum for a car**"
+                  },
+                  {
+                    "es": "120 km/h (unos 74 mph)",
+                    "en": "120 km/h (about 74 mph)"
+                  },
+                  {
+                    "es": "120 km/h (unos 74 mph)",
+                    "en": "120 km/h (about 74 mph)"
+                  },
+                  {
+                    "es": "El art. 48 no la nombra aparte",
+                    "en": "Article 48 does not list it separately"
+                  },
+                  {
+                    "es": "90 km/h (unos 56 mph)",
+                    "en": "90 km/h (about 56 mph)"
+                  }
+                ],
+                [
+                  {
+                    "es": "**Mínima**",
+                    "en": "**Minimum**"
+                  },
+                  {
+                    "es": "60 km/h",
+                    "en": "60 km/h"
+                  },
+                  {
+                    "es": "60 km/h",
+                    "en": "60 km/h"
+                  },
+                  {
+                    "es": "La mitad del límite genérico",
+                    "en": "Half the generic limit"
+                  },
+                  {
+                    "es": "La mitad del límite genérico",
+                    "en": "Half the generic limit"
+                  }
+                ],
+                [
+                  {
+                    "es": "**Señal de principio**",
+                    "en": "**Start sign**"
+                  },
+                  {
+                    "es": "«Autopista»",
+                    "en": "\"Autopista\""
+                  },
+                  {
+                    "es": "«Autovía»",
+                    "en": "\"Autovía\""
+                  },
+                  {
+                    "es": "«Vía reservada para automóviles»",
+                    "en": "\"Vía reservada para automóviles\""
+                  },
+                  {
+                    "es": "Ninguna: es la que no cumple las otras tres",
+                    "en": "None: it is the road that meets none of the other three"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "En el examen, mira primero las calzadas: ¿separadas o una sola? Luego mira el acceso de las propiedades vecinas. Con esos dos datos distingues las tres vías especiales.",
+                "en": "On the exam, look at the carriageways first: separate or just one? Then look at neighboring-property access. Those two facts tell the three special roads apart."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-t1h",
+                "answer": 1,
+                "es": {
+                  "q": "Una vía tiene una sola calzada y limita del todo el acceso de las propiedades vecinas. ¿Qué tipo de vía es?",
+                  "options": [
+                    "Una autovía",
+                    "Una vía para automóviles",
+                    "Una carretera convencional"
+                  ],
+                  "why": "Una sola calzada y limitación total de accesos son las marcas de la vía para automóviles. La autovía tiene calzadas separadas y acceso solo limitado."
+                },
+                "en": {
+                  "q": "A road has a single carriageway and fully limits access from neighboring properties. What kind of road is it?",
+                  "options": [
+                    "An autovía",
+                    "A road for automobiles",
+                    "A conventional road"
+                  ],
+                  "why": "A single carriageway and total access limitation mark a road for automobiles. An autovía has separate carriageways and only limited access."
+                },
+                "terms": [
+                  {
+                    "es": "vía para automóviles",
+                    "en": "road for automobiles"
+                  }
+                ],
+                "src": "LSV anexo I, puntos 67, 68 y 69"
               }
             }
           ]
@@ -387,6 +794,30 @@
               }
             },
             {
+              "t": "rule",
+              "text": {
+                "es": "Salvo en los casos que fije el reglamento, está prohibido que los **peatones** circulen por autopistas y autovías.",
+                "en": "Except in cases the regulations set, **pedestrians** may not walk on autopistas and autovías."
+              },
+              "src": "LSV art. 49.3"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "También está prohibida la circulación de **animales** por autopistas y autovías.",
+                "en": "**Animals** are also forbidden on autopistas and autovías."
+              },
+              "src": "LSV art. 50.2"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si la autopista o la autovía es de **peaje**, debes pagarlo para circular por ella.",
+                "en": "If the autopista or autovía is a **toll** road, you must pay the toll to use it."
+              },
+              "src": "LSV art. 20.2"
+            },
+            {
               "t": "check",
               "q": {
                 "id": "road-t1d",
@@ -420,6 +851,210 @@
                   }
                 ],
                 "src": "RGC art. 38.4"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Lo que no se hace en una autopista o autovía",
+            "en": "What you do not do on an autopista or autovía"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "En autopistas y autovías está prohibido **parar**, salvo en las zonas habilitadas para ello.",
+                "en": "Stopping is forbidden on autopistas and autovías, except in areas set up for it."
+              },
+              "src": "LSV art. 40.1.g"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "También está prohibido hacer un **cambio de sentido**, salvo en los lugares habilitados al efecto.",
+                "en": "U-turns are also forbidden, except at places set up for them."
+              },
+              "src": "LSV art. 31.2"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "La **marcha atrás** está prohibida en autopistas y autovías.",
+                "en": "**Reversing** is forbidden on autopistas and autovías."
+              },
+              "src": "LSV art. 32.3"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-t1i",
+                "answer": 1,
+                "es": {
+                  "q": "Ves un hueco en la mediana de una autopista y quieres dar la vuelta. ¿Puedes?",
+                  "options": [
+                    "Sí, si no viene nadie",
+                    "No, salvo en los lugares habilitados para ello",
+                    "Sí, si pones el intermitente"
+                  ],
+                  "why": "En autopistas y autovías el cambio de sentido está prohibido, salvo en los lugares habilitados al efecto. Que no venga nadie no lo cambia."
+                },
+                "en": {
+                  "q": "You see a gap in the median of an autopista and want to turn around. May you?",
+                  "options": [
+                    "Yes, if nobody is coming",
+                    "No, except at places set up for it",
+                    "Yes, if you use your turn signal"
+                  ],
+                  "why": "U-turns are forbidden on autopistas and autovías, except at places set up for them. Nobody coming does not change that."
+                },
+                "terms": [
+                  {
+                    "es": "mediana",
+                    "en": "median"
+                  },
+                  {
+                    "es": "cambio de sentido",
+                    "en": "U-turn"
+                  }
+                ],
+                "src": "LSV art. 31.2"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "En autopistas y autovías no puedes circular a menos de **60 km/h**, aunque no haya otros vehículos. Hay excepciones si el tráfico, el vehículo o la vía te impiden mantener más velocidad sin riesgo.",
+                "en": "On autopistas and autovías you may not drive below **60 km/h** (about 37 mph), even with no other traffic. There are exceptions if traffic, your vehicle or the road stop you from keeping a higher speed safely."
+              },
+              "src": "RGC art. 49.1 y 49.2"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-t1j",
+                "answer": 2,
+                "es": {
+                  "q": "Circulas con tu coche en buen estado por una autovía sin retención ni obras. ¿Puedes ir a 50 km/h?",
+                  "options": [
+                    "Sí, si no hay otros vehículos",
+                    "Sí, si pones las luces de emergencia",
+                    "No: está prohibido ir a menos de 60 km/h"
+                  ],
+                  "why": "En autopistas y autovías no se puede circular a menos de 60 km/h, aunque no haya otros vehículos, salvo que el tráfico, el vehículo o la vía lo impidan."
+                },
+                "en": {
+                  "q": "You drive your car, in good condition, on an autovía with no jam or roadworks. May you go 50 km/h?",
+                  "options": [
+                    "Yes, if there are no other vehicles",
+                    "Yes, if you use your hazard lights",
+                    "No: driving below 60 km/h is forbidden"
+                  ],
+                  "why": "On autopistas and autovías you may not drive below 60 km/h, even with no other traffic, unless traffic, the vehicle or the road prevent it."
+                },
+                "terms": [
+                  {
+                    "es": "velocidad mínima",
+                    "en": "minimum speed"
+                  }
+                ],
+                "src": "RGC art. 49.1 y 49.2"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Velocidad máxima y salida",
+            "en": "Top speed and leaving"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Fuera de poblado, el límite genérico en autopistas y autovías es de **120 km/h** para turismos y motocicletas (unos 74 mph). Los autobuses van a 100 km/h y los camiones y las furgonetas, a 90 km/h.",
+                "en": "Outside a town, the generic limit on autopistas and autovías is **120 km/h** for cars and motorcycles (about 74 mph). Buses go 100 km/h, and trucks and vans go 90 km/h."
+              },
+              "src": "RGC art. 48.1.a"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si una autopista o autovía pasa por un poblado, el límite genérico es de **80 km/h**. El ayuntamiento y el titular de la vía pueden subirlo con señal, sin pasar del límite de fuera de poblado.",
+                "en": "If an autopista or autovía runs through a town, the generic limit is **80 km/h**. The town council and the road owner may raise it with a sign, but never above the limit outside a town."
+              },
+              "src": "RGC art. 50.6"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-t1k",
+                "answer": 2,
+                "es": {
+                  "q": "Conduces un camión por una autopista fuera de poblado. ¿Cuál es el límite genérico de velocidad?",
+                  "options": [
+                    "120 km/h",
+                    "100 km/h",
+                    "90 km/h"
+                  ],
+                  "why": "Fuera de poblado, en autopistas y autovías: 120 km/h para turismos y motocicletas, 100 km/h para autobuses y 90 km/h para camiones y furgonetas."
+                },
+                "en": {
+                  "q": "You drive a truck on an autopista outside a town. What is the generic speed limit?",
+                  "options": [
+                    "120 km/h",
+                    "100 km/h",
+                    "90 km/h"
+                  ],
+                  "why": "Outside a town, on autopistas and autovías: 120 km/h for cars and motorcycles, 100 km/h for buses and 90 km/h for trucks and vans."
+                },
+                "terms": [
+                  {
+                    "es": "camión",
+                    "en": "truck"
+                  }
+                ],
+                "src": "RGC art. 48.1.a"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Para salir, circula con tiempo por el carril más próximo a la salida. Entra **lo antes posible** en el carril de deceleración, si existe.",
+                "en": "To leave, drive in good time in the lane closest to the exit. Enter the deceleration lane **as early as possible**, if there is one."
+              },
+              "src": "RGC art. 77"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-t1l",
+                "answer": 0,
+                "es": {
+                  "q": "Vas a salir de una autopista y hay carril de deceleración. ¿Cuándo debes entrar en él?",
+                  "options": [
+                    "Lo antes posible, desde el carril más próximo a la salida",
+                    "Solo al final del carril, ya en la salida",
+                    "Cuando ya hayas frenado en el carril principal"
+                  ],
+                  "why": "Debes ir con tiempo por el carril más próximo a la salida y entrar en el carril de deceleración lo antes posible. Así no frenas estorbando a los demás."
+                },
+                "en": {
+                  "q": "You are about to leave an autopista and there is a deceleration lane. When must you enter it?",
+                  "options": [
+                    "As early as possible, from the lane closest to the exit",
+                    "Only at the end of the lane, at the exit itself",
+                    "After you have already slowed down in the main lane"
+                  ],
+                  "why": "Drive in good time in the lane closest to the exit and enter the deceleration lane as early as possible. That way you do not slow down in other drivers' way."
+                },
+                "terms": [
+                  {
+                    "es": "carril de deceleración",
+                    "en": "deceleration lane"
+                  }
+                ],
+                "src": "RGC art. 77"
               }
             }
           ]
@@ -519,21 +1154,26 @@
           "en": "**Autopista** and **autovía** have separate carriageways and no same-level crossings. On an autopista neighbors have no access; on an autovía, limited access."
         },
         {
-          "es": "En autopistas y autovías no entran bicicletas, ciclomotores, vehículos de tracción animal ni vehículos para personas de movilidad reducida.",
-          "en": "Bicycles, mopeds, animal-drawn vehicles and vehicles for people with reduced mobility may not enter autopistas or autovías."
+          "es": "La **vía para automóviles** tiene una sola calzada, limita del todo el acceso y es solo para automóviles. La **carretera convencional** es la que no cumple las otras tres.",
+          "en": "A **road for automobiles** has a single carriageway, fully limits access and is for automobiles only. A **conventional road** is any road that meets none of the other three."
         },
         {
-          "es": "Excepción: ciclistas **mayores de 14 años** por el arcén de la autovía, si ninguna señal lo prohíbe.",
-          "en": "Exception: cyclists **over 14** on the shoulder of an autovía, if no sign forbids it."
+          "es": "En autopistas y autovías no entran bicicletas, ciclomotores, vehículos de tracción animal ni vehículos para personas de movilidad reducida. Excepción: ciclistas **mayores de 14 años** por el arcén de la autovía, si ninguna señal lo prohíbe.",
+          "en": "Bicycles, mopeds, animal-drawn vehicles and vehicles for people with reduced mobility may not enter autopistas or autovías. Exception: cyclists **over 14** on the shoulder of an autovía, if no sign forbids it."
         },
         {
           "es": "Los **VMP** no pueden ir por autopistas, autovías ni travesías.",
           "en": "**VMPs** may not use autopistas, autovías or travesías."
+        },
+        {
+          "es": "En autopistas y autovías no se puede parar (salvo en zonas habilitadas), hacer un cambio de sentido (salvo en lugares habilitados), ir marcha atrás ni circular a menos de **60 km/h**.",
+          "en": "On autopistas and autovías you may not stop (except in designated areas), make a U-turn (except at designated places), reverse, or drive below **60 km/h**."
         }
       ],
       "src": [
-        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), anexo I, puntos 65 a 79",
-        "Reglamento General de Circulación (RD 1428/2003), art. 38 (redacción vigente desde 2026-10-01)"
+        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), anexo I, puntos 12, 13 y 65 a 79; arts. 20, 31, 32, 40, 49 y 50",
+        "Reglamento General de Circulación (RD 1428/2003), arts. 38, 48, 49, 50.6 y 77 (redacción vigente desde 2026-10-01)",
+        "RGC Anexo I, ap. 5.1 (catálogo de señales S-1, S-1a, S-2, S-3 y S-4)"
       ]
     },
     {
