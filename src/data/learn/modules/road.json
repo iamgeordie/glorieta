@@ -228,10 +228,10 @@
             {
               "t": "rule",
               "text": {
-                "es": "Las señales «Autopista» y «Autovía» marcan el principio de cada vía. Desde ahí se aplican sus **reglas especiales** de circulación. «Fin de autopista» marca el final de la autopista.",
-                "en": "The signs \"Autopista\" and \"Autovía\" mark where each road begins. From there its **special traffic rules** apply. \"Fin de autopista\" marks the end of the autopista."
+                "es": "Las señales «Autopista» y «Autovía» marcan el principio de cada vía. Desde ahí se aplican sus **reglas especiales** de circulación. «Fin de autopista» y «Fin de autovía» marcan el final de cada una.",
+                "en": "The signs \"Autopista\" and \"Autovía\" mark where each road begins. From there its **special traffic rules** apply. \"Fin de autopista\" and \"Fin de autovía\" mark where each ends."
               },
-              "src": "RGC Anexo I, ap. 5.1 (S-1, S-1a, S-2)"
+              "src": "RGC Anexo I, ap. 5.1 (S-1, S-1a, S-2, S-2a)"
             },
             {
               "t": "p",
@@ -372,7 +372,7 @@
                 "es": "En una carretera convencional, los turismos y las motocicletas van como máximo a **90 km/h** (unos 56 mph). Si los dos sentidos están separados físicamente, el titular de la vía puede fijar 100 km/h.",
                 "en": "On a conventional road, cars and motorcycles may go at most **90 km/h** (about 56 mph). If the two directions are physically separated, the road owner may set 100 km/h."
               },
-              "src": "RGC art. 48.1.a"
+              "src": "RGC art. 48.1.a y 48.1.a.1.º"
             },
             {
               "t": "check",
@@ -574,12 +574,12 @@
                     "en": "Only in designated areas"
                   },
                   {
-                    "es": "Reglas generales",
-                    "en": "General rules"
+                    "es": "No se aplica la prohibición de autopistas y autovías",
+                    "en": "The autopista and autovía ban does not apply"
                   },
                   {
-                    "es": "Reglas generales",
-                    "en": "General rules"
+                    "es": "No se aplica la prohibición de autopistas y autovías",
+                    "en": "The autopista and autovía ban does not apply"
                   }
                 ],
                 [
@@ -596,12 +596,12 @@
                     "en": "U-turns only where provided; reversing forbidden"
                   },
                   {
-                    "es": "Reglas generales",
-                    "en": "General rules"
+                    "es": "No se aplica la prohibición de autopistas y autovías",
+                    "en": "The autopista and autovía ban does not apply"
                   },
                   {
-                    "es": "Reglas generales",
-                    "en": "General rules"
+                    "es": "No se aplica la prohibición de autopistas y autovías",
+                    "en": "The autopista and autovía ban does not apply"
                   }
                 ],
                 [
@@ -640,8 +640,8 @@
                     "en": "60 km/h"
                   },
                   {
-                    "es": "La mitad del límite genérico",
-                    "en": "Half the generic limit"
+                    "es": "El art. 49.1 pide la mitad de la genérica, y el art. 48 no la fija",
+                    "en": "Article 49.1 sets half the generic limit, and article 48 sets none"
                   },
                   {
                     "es": "La mitad del límite genérico",
@@ -666,8 +666,8 @@
                     "en": "\"Vía reservada para automóviles\""
                   },
                   {
-                    "es": "Ninguna: es la que no cumple las otras tres",
-                    "en": "None: it is the road that meets none of the other three"
+                    "es": "Normalmente ninguna: se define por exclusión (hay señales para carretera multicarril y carretera 2+1)",
+                    "en": "Usually none: it is defined by exclusion (there are signs for multilane roads and 2+1 roads)"
                   }
                 ]
               ]
@@ -685,7 +685,7 @@
                 "id": "road-t1h",
                 "answer": 1,
                 "es": {
-                  "q": "Una vía tiene una sola calzada y limita del todo el acceso de las propiedades vecinas. ¿Qué tipo de vía es?",
+                  "q": "Una vía señalizada con la señal «Vía reservada para automóviles» tiene una sola calzada y limita del todo el acceso de las propiedades vecinas. ¿Qué tipo de vía es?",
                   "options": [
                     "Una autovía",
                     "Una vía para automóviles",
@@ -694,7 +694,7 @@
                   "why": "Una sola calzada y limitación total de accesos son las marcas de la vía para automóviles. La autovía tiene calzadas separadas y acceso solo limitado."
                 },
                 "en": {
-                  "q": "A road has a single carriageway and fully limits access from neighboring properties. What kind of road is it?",
+                  "q": "A road marked with the sign \"Vía reservada para automóviles\" has a single carriageway and fully limits access from neighboring properties. What kind of road is it?",
                   "options": [
                     "An autovía",
                     "A road for automobiles",
@@ -781,8 +781,8 @@
             {
               "t": "rule",
               "text": {
-                "es": "Está prohibido circular con **vehículos de movilidad personal** (VMP) por autopistas, autovías y travesías. También está prohibido por vías interurbanas y túneles urbanos. Hay excepciones, si ninguna señal lo prohíbe: vías ciclistas, carriles bici, carriles bici protegidos, pistas bici, sendas ciclables y vías cerradas a los vehículos de motor.",
-                "en": "It is forbidden to use **personal mobility vehicles** (VMP) on autopistas, autovías and travesías. It is also forbidden on intercity roads and urban tunnels. There are exceptions, if no sign forbids it: cycle ways, carril-bici, carril-bici protegido, pista-bici, sendas ciclables and roads closed to motor vehicles."
+                "es": "Está prohibido circular con **vehículos de movilidad personal** (VMP) por autopistas, autovías y travesías. También está prohibido por vías interurbanas y túneles urbanos. Solo en estas dos hay excepciones, si ninguna señal lo prohíbe: vías ciclistas, carriles bici, carriles bici protegidos, pistas bici, sendas ciclables y vías cerradas a los vehículos de motor.",
+                "en": "It is forbidden to use **personal mobility vehicles** (VMP) on autopistas, autovías and travesías. It is also forbidden on intercity roads and urban tunnels. Only on those two are there exceptions, if no sign forbids it: cycle ways, carril-bici, carril-bici protegido, pista-bici, sendas ciclables and roads closed to motor vehicles."
               },
               "src": "RGC art. 38.4"
             },
@@ -891,7 +891,7 @@
                 "id": "road-t1i",
                 "answer": 1,
                 "es": {
-                  "q": "Ves un hueco en la mediana de una autopista y quieres dar la vuelta. ¿Puedes?",
+                  "q": "Ves un hueco en la mediana de una autopista, sin ninguna señal de cambio de sentido, y quieres dar la vuelta. ¿Puedes?",
                   "options": [
                     "Sí, si no viene nadie",
                     "No, salvo en los lugares habilitados para ello",
@@ -900,7 +900,7 @@
                   "why": "En autopistas y autovías el cambio de sentido está prohibido, salvo en los lugares habilitados al efecto. Que no venga nadie no lo cambia."
                 },
                 "en": {
-                  "q": "You see a gap in the median of an autopista and want to turn around. May you?",
+                  "q": "You see a gap in the median of an autopista, with no U-turn sign, and want to turn around. May you?",
                   "options": [
                     "Yes, if nobody is coming",
                     "No, except at places set up for it",
@@ -924,8 +924,8 @@
             {
               "t": "rule",
               "text": {
-                "es": "En autopistas y autovías no puedes circular a menos de **60 km/h**, aunque no haya otros vehículos. Hay excepciones si el tráfico, el vehículo o la vía te impiden mantener más velocidad sin riesgo.",
-                "en": "On autopistas and autovías you may not drive below **60 km/h** (about 37 mph), even with no other traffic. There are exceptions if traffic, your vehicle or the road stop you from keeping a higher speed safely."
+                "es": "En autopistas y autovías, los vehículos de motor no pueden circular a menos de **60 km/h**, aunque no haya otros vehículos. Hay excepciones, por ejemplo si el tráfico, el vehículo o la vía impiden mantener más velocidad sin riesgo.",
+                "en": "On autopistas and autovías, motor vehicles may not drive below **60 km/h** (about 37 mph), even with no other traffic. There are exceptions, for example when traffic, the vehicle or the road prevent a higher speed safely."
               },
               "src": "RGC art. 49.1 y 49.2"
             },
@@ -941,7 +941,7 @@
                     "Sí, si pones las luces de emergencia",
                     "No: está prohibido ir a menos de 60 km/h"
                   ],
-                  "why": "En autopistas y autovías no se puede circular a menos de 60 km/h, aunque no haya otros vehículos, salvo que el tráfico, el vehículo o la vía lo impidan."
+                  "why": "En autopistas y autovías no se puede circular a menos de 60 km/h, aunque no haya otros vehículos. Hay excepciones, como cuando el tráfico, el vehículo o la vía lo impiden."
                 },
                 "en": {
                   "q": "You drive your car, in good condition, on an autovía with no jam or roadworks. May you go 50 km/h?",
@@ -950,7 +950,7 @@
                     "Yes, if you use your hazard lights",
                     "No: driving below 60 km/h is forbidden"
                   ],
-                  "why": "On autopistas and autovías you may not drive below 60 km/h, even with no other traffic, unless traffic, the vehicle or the road prevent it."
+                  "why": "On autopistas and autovías you may not drive below 60 km/h, even with no other traffic. There are exceptions, such as when traffic, the vehicle or the road prevent it."
                 },
                 "terms": [
                   {
@@ -972,16 +972,16 @@
             {
               "t": "rule",
               "text": {
-                "es": "Fuera de poblado, el límite genérico en autopistas y autovías es de **120 km/h** para turismos y motocicletas (unos 74 mph). Los autobuses van a 100 km/h y los camiones y las furgonetas, a 90 km/h.",
-                "en": "Outside a town, the generic limit on autopistas and autovías is **120 km/h** for cars and motorcycles (about 74 mph). Buses go 100 km/h, and trucks and vans go 90 km/h."
+                "es": "Fuera de poblado, el límite genérico en autopistas y autovías es de **120 km/h** para turismos y motocicletas (unos 74 mph). Los autobuses van a 100 km/h y los camiones y las furgonetas, entre otros, a 90 km/h.",
+                "en": "Outside a town, the generic limit on autopistas and autovías is **120 km/h** for cars and motorcycles (about 74 mph). Buses go 100 km/h, and trucks and vans, among others, go 90 km/h."
               },
               "src": "RGC art. 48.1.a"
             },
             {
               "t": "rule",
               "text": {
-                "es": "Si una autopista o autovía pasa por un poblado, el límite genérico es de **80 km/h**. El ayuntamiento y el titular de la vía pueden subirlo con señal, sin pasar del límite de fuera de poblado.",
-                "en": "If an autopista or autovía runs through a town, the generic limit is **80 km/h**. The town council and the road owner may raise it with a sign, but never above the limit outside a town."
+                "es": "Si una autopista o autovía pasa por un poblado, el límite genérico es de **80 km/h**. El ayuntamiento y el titular de la vía pueden subirlo de común acuerdo y con señal, sin pasar del límite de fuera de poblado.",
+                "en": "If an autopista or autovía runs through a town, the generic limit is **80 km/h**. The town council and the road owner may raise it by agreement and with a sign, but never above the limit outside a town."
               },
               "src": "RGC art. 50.6"
             },
@@ -1172,8 +1172,8 @@
       ],
       "src": [
         "Ley de Tráfico y Seguridad Vial (RDL 6/2015), anexo I, puntos 12, 13 y 65 a 79; arts. 20, 31, 32, 40, 49 y 50",
-        "Reglamento General de Circulación (RD 1428/2003), arts. 38, 48, 49, 50.6 y 77 (redacción vigente desde 2026-10-01)",
-        "RGC Anexo I, ap. 5.1 (catálogo de señales S-1, S-1a, S-2, S-3 y S-4)"
+        "Reglamento General de Circulación (RD 1428/2003), arts. 38, 48, 49, 50.6 y 77 (arts. 38 y 48 con la redacción vigente desde 2026-10-01)",
+        "RGC Anexo I, ap. 5.1 (catálogo de señales S-1, S-1a, S-2, S-2a, S-3 y S-4)"
       ]
     },
     {
