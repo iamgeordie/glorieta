@@ -3,6 +3,7 @@ import { useEffect } from 'preact/hooks';
 import { LangSwitch, mode, setMode, T } from './i18n';
 import { ui } from './ui';
 import { Exam } from './screens/Exam';
+import { British } from './screens/British';
 import { Facts } from './screens/Facts';
 import { Home } from './screens/Home';
 import { Phrases, Vocab } from './screens/Cards';
@@ -78,6 +79,8 @@ function Screen() {
       return <Exam />;
     case 'vocab':
       return <Vocab />;
+    case 'british':
+      return <British />;
     case 'signs':
       return <Signs />;
     case 'account':

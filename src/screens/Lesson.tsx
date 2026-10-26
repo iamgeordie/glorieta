@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'preact/hooks';
+import { Uk } from '../Uk';
 import { ModeOverride, mode, T } from '../i18n';
 import { bi } from '../i18n';
 import { L } from '../learnStrings';
@@ -47,7 +48,7 @@ function InlineCheck({ moduleId, lessonId, q }: { moduleId: string; lessonId: st
   return (
     <div class="check-box">
       <p class="check-label"><T t={L.checkLabel} /></p>
-      <QuestionCard q={question} order={answered ? [0, 1, 2] : order} selected={answered?.sel ?? null} reveal={!!answered} onSelect={pick} />
+      <QuestionCard q={question} order={order} selected={answered?.sel ?? null} reveal={!!answered} onSelect={pick} />
     </div>
   );
 }
@@ -256,7 +257,7 @@ function Intro({
           <p class="terms">
             {lesson.terms.map((t) => (
               <span class="term" key={t.es}>
-                <b>{t.es}</b> = {t.en}
+                <b>{t.es}</b> = {t.en} <Uk en={t.en} />
               </span>
             ))}
           </p>

@@ -1,4 +1,5 @@
 import { useContext, useMemo, useState } from 'preact/hooks';
+import { Uk } from '../Uk';
 import { bi, ModeOverride, mode, T } from '../i18n';
 import { categories, categoryById } from '../data/categories';
 import { OFFICIAL_TESTS_URL } from '../data/facts';
@@ -73,7 +74,7 @@ export function QuestionCard({
                 <strong class="label"><T t={ui.keyTerms} /></strong>
                 {q.terms.map((t) => (
                   <span class="term" key={t.es}>
-                    <b>{t.es}</b> = {t.en}
+                    <b>{t.es}</b> = {t.en} <Uk en={t.en} />
                   </span>
                 ))}
               </div>

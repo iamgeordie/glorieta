@@ -1,5 +1,6 @@
 import { T } from '../i18n';
 import { commonsPage, groupOrder, groupTitles, needsCredit, signFile, signs } from '../data/signs';
+import { Uk } from '../Uk';
 import { ui } from '../ui';
 
 export function Signs() {
@@ -27,6 +28,7 @@ export function Signs() {
                       <span class="sign-code">{s.code}</span>
                     </summary>
                     <p><T t={s.why} /></p>
+                    <p><Uk en={s.name.en} /></p>
                   </details>
                 </li>
               ))}

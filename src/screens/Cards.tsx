@@ -2,6 +2,7 @@ import { useMemo, useState } from 'preact/hooks';
 import { mode, Peek, T } from '../i18n';
 import { phrases, terms, type Term } from '../data/vocab';
 import { cardProgress } from '../format';
+import { Uk } from '../Uk';
 import { ui } from '../ui';
 import { buildQueue } from '../lib/quiz';
 import { grade } from '../lib/store';
@@ -45,7 +46,10 @@ export function Vocab() {
       <article class="card flash">
         <p class="flash-es" lang="es">{card.es}</p>
         {showBack ? (
-          <p class="flash-en" lang="en">{card.en}</p>
+          <>
+            <p class="flash-en" lang="en">{card.en}</p>
+            <p class="flash-uk"><Uk en={card.en} /></p>
+          </>
         ) : (
           <button type="button" class="secondary" onClick={() => setRevealed(true)}><T t={ui.showMeaning} /></button>
         )}
