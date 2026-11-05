@@ -102,5 +102,7 @@ export const a = {
   agreeGoogle: bi('Al continuar con Google aceptas:', 'By continuing with Google you agree to:'),
   privacyLink: bi('Política de privacidad', 'Privacy Policy'),
   termsLink: bi('Términos del servicio', 'Terms of Service'),
+  captchaNeeded: bi('Completa la comprobación de seguridad antes de continuar.', 'Complete the security check before continuing.'),
+  captchaLoadFailed: bi('No se pudo cargar la comprobación de seguridad. Revisa tu conexión, desactiva los bloqueadores de contenido y recarga la página.', 'The security check could not load. Check your connection, turn off content blockers and reload the page.'),
   signInFailed: bi('No se pudo completar el acceso.', 'Sign-in could not be completed.'),
 };

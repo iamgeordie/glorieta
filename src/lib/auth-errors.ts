@@ -19,6 +19,7 @@ const known: Record<string, Bi> = {
   over_request_rate_limit: bi('Demasiados intentos. Espera un momento y vuelve a probar.', 'Too many attempts. Wait a moment and try again.'),
   over_email_send_rate_limit: bi('Se han enviado demasiados correos. Espera unos minutos.', 'Too many emails were sent. Wait a few minutes.'),
   otp_expired: bi('El enlace ha caducado. Pide uno nuevo.', 'The link has expired. Request a new one.'),
+  captcha_failed: bi('Falló la comprobación de seguridad. Vuelve a intentarlo.', 'The security check failed. Please try again.'),
   session_not_found: bi('Tu sesión ha caducado. Inicia sesión de nuevo.', 'Your session has expired. Sign in again.'),
 };
 

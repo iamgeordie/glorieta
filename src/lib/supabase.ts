@@ -11,6 +11,11 @@ if (Boolean(url) !== Boolean(key)) {
 /** Accounts exist only when the app was built with a Supabase project configured. */
 export const authEnabled = Boolean(url && key);
 export const googleEnabled = authEnabled && import.meta.env.VITE_GOOGLE_AUTH_ENABLED === 'true';
+/** Public Cloudflare Turnstile site key. Supabase Auth rejects sign-in, sign-up and reset without its token. */
+export const turnstileSiteKey = import.meta.env.VITE_TURNSTILE_SITE_KEY?.trim() ?? '';
+if (authEnabled && !turnstileSiteKey) {
+  throw new Error('Accounts need VITE_TURNSTILE_SITE_KEY (the public Turnstile site key).');
+}
 export const crmBrandId = import.meta.env.VITE_PODOGRAPH_BRAND_ID?.trim() || undefined;
 
 /**

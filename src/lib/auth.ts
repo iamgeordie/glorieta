@@ -80,7 +80,7 @@ export function initAuth() {
 
 const fail = (err: unknown): { ok: false; error: Bi } => ({ ok: false, error: describeAuthError(err) });
 
-export type SignUpInput = { email: string; password: string; name: string; marketing: boolean };
+export type SignUpInput = { email: string; password: string; name: string; marketing: boolean; captchaToken: string };
 
 /** `confirm` means the account exists but the email link must be clicked before signing in. */
 export async function signUp(input: SignUpInput): Promise<Result<{ next: 'confirm' | 'signed-in' }>> {
@@ -89,6 +89,7 @@ export async function signUp(input: SignUpInput): Promise<Result<{ next: 'confir
     password: input.password,
     options: {
       emailRedirectTo: origin(),
+      captchaToken: input.captchaToken,
       // Consent is captured here, at the moment it is given, and acted on after the email is confirmed.
       data: {
         display_name: input.name.trim() || null,
@@ -103,8 +104,8 @@ export async function signUp(input: SignUpInput): Promise<Result<{ next: 'confir
   return { ok: true, next: data.session ? 'signed-in' : 'confirm' };
 }
 
-export async function signIn(email: string, password: string): Promise<Result> {
-  const { error } = await requireClient().auth.signInWithPassword({ email: email.trim(), password });
+export async function signIn(email: string, password: string, captchaToken: string): Promise<Result> {
+  const { error } = await requireClient().auth.signInWithPassword({ email: email.trim(), password, options: { captchaToken } });
   return error ? fail(error) : { ok: true };
 }
 
@@ -113,8 +114,8 @@ export async function signOut(): Promise<Result> {
   return error ? fail(error) : { ok: true };
 }
 
-export async function requestPasswordReset(email: string): Promise<Result> {
-  const { error } = await requireClient().auth.resetPasswordForEmail(email.trim(), { redirectTo: origin() });
+export async function requestPasswordReset(email: string, captchaToken: string): Promise<Result> {
+  const { error } = await requireClient().auth.resetPasswordForEmail(email.trim(), { redirectTo: origin(), captchaToken });
   return error ? fail(error) : { ok: true };
 }
 

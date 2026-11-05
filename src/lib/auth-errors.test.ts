@@ -9,7 +9,7 @@ test('known codes map to a plain message in both languages', () => {
 });
 
 test('every known message exists in both languages and is non-empty', () => {
-  for (const code of ['invalid_credentials', 'email_not_confirmed', 'user_already_exists', 'weak_password', 'same_password', 'over_request_rate_limit', 'otp_expired']) {
+  for (const code of ['invalid_credentials', 'email_not_confirmed', 'user_already_exists', 'weak_password', 'same_password', 'over_request_rate_limit', 'otp_expired', 'captcha_failed']) {
     const m = describeAuthError({ code });
     assert.ok(m.es.length > 10 && m.en.length > 10, code);
   }

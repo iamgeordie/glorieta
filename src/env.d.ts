@@ -5,6 +5,8 @@ interface ImportMetaEnv {
   readonly VITE_SUPABASE_URL?: string;
   /** Supabase publishable key (safe to ship in the browser; RLS is the protection). */
   readonly VITE_SUPABASE_PUBLISHABLE_KEY?: string;
+  /** Public Cloudflare Turnstile site key; required whenever accounts are on. */
+  readonly VITE_TURNSTILE_SITE_KEY?: string;
   /** 'true' once the Google provider is configured on the Supabase project. */
   readonly VITE_GOOGLE_AUTH_ENABLED?: string;
   /** Podograph brand id for Glorieta. Leads are only sent when this is set. */

@@ -10,6 +10,9 @@ export default defineConfig(({ mode }) => {
   if (Boolean(url) !== Boolean(key)) {
     throw new Error('Set both VITE_SUPABASE_URL and VITE_SUPABASE_PUBLISHABLE_KEY, or neither.');
   }
+  if (url && !env.VITE_TURNSTILE_SITE_KEY?.trim()) {
+    throw new Error('Accounts need VITE_TURNSTILE_SITE_KEY (the public Turnstile site key).');
+  }
   if (env.VITE_GOOGLE_AUTH_ENABLED === 'true' && !url) {
     throw new Error('VITE_GOOGLE_AUTH_ENABLED=true needs the Supabase variables as well.');
   }

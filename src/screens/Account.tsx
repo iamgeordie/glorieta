@@ -5,6 +5,7 @@ import { authStatus, currentUser, notice, recovering, returnError, requestPasswo
 import { googleEnabled } from '../lib/supabase';
 import { Field, LegalLinks, Message, MIN_PASSWORD, PasswordField } from './form-parts';
 import { Profile } from './Profile';
+import { Turnstile } from './Turnstile';
 
 export function Account({ view }: { view: string }) {
   if (view === 'reset' && recovering.value) return <ResetPassword />;
@@ -35,6 +36,8 @@ function Forms() {
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<Bi | null>(null);
   const [ok, setOk] = useState<Bi | null>(null);
+  const [captcha, setCaptcha] = useState<string | null>(null);
+  const [captchaRound, setCaptchaRound] = useState(0);
 
   const go = (t: Tab) => {
     setTab(t);
@@ -47,22 +50,25 @@ function Forms() {
     setError(null);
     setOk(null);
     if (tab !== 'forgot' && password.length < MIN_PASSWORD) return setError(a.passwordTooShort);
+    if (!captcha) return setError(a.captchaNeeded);
     setBusy(true);
     try {
       if (tab === 'signin') {
-        const r = await signIn(email, password);
+        const r = await signIn(email, password, captcha);
         if (!r.ok) setError(r.error);
         else location.hash = '#/';
       } else if (tab === 'signup') {
-        const r = await signUp({ email, password, name, marketing });
+        const r = await signUp({ email, password, name, marketing, captchaToken: captcha });
         if (!r.ok) setError(r.error);
         else if (r.next === 'confirm') setOk(a.checkEmail);
       } else {
-        const r = await requestPasswordReset(email);
+        const r = await requestPasswordReset(email, captcha);
         if (!r.ok) setError(r.error);
         else setOk(a.resetSent);
       }
     } finally {
+      // A Turnstile token works once, so every attempt needs a fresh one.
+      setCaptchaRound((n) => n + 1);
       setBusy(false);
     }
   };
@@ -107,6 +113,7 @@ function Forms() {
             <LegalLinks lead={a.agreeCreate} />
           </>
         )}
+        <Turnstile key={tab} onToken={setCaptcha} resetKey={captchaRound} />
         <Message error={error} ok={ok} />
         <button type="submit" class="primary full" disabled={busy}>
           <T t={busy ? a.working : tab === 'signin' ? a.signIn : tab === 'signup' ? a.signUp : a.sendReset} />
