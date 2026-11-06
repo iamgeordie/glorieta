@@ -644,10 +644,9 @@ th { color: var(--muted); font-size: 0.78rem; text-transform: uppercase; letter-
 /* The header is two rows: a banner with nothing to click, then the controls. A TV browser's own menu covers the top edge. */
 .topbar { display: block; padding: 0; --edge: max(var(--gutter), calc((100% - var(--page)) / 2 + var(--gutter))); }
 .banner { display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 2.8rem; padding: 4px var(--edge); background: var(--surface); border-bottom: 1px solid var(--line); }
-.banner-title { margin: 0; font-size: 1rem; line-height: 1.25; min-width: 0; }
+.banner-title { display: flex; align-items: center; gap: 12px; margin: 0; font-size: 1rem; line-height: 1.2; min-width: 0; }
+.banner-slogan { padding-left: 12px; border-left: 2px solid var(--line); color: var(--muted); font-weight: 600; }
 .banner-title strong { font-size: 1.15rem; }
-.banner-title .sub { display: inline; margin: 0 0 0 6px; }
-.banner-tagline { color: var(--muted); display: none; }
 .banner-progress { display: flex; align-items: center; gap: 10px; flex: none; font-size: 0.85rem; font-weight: 600; color: var(--muted); }
 .banner-progress .stat-bar { width: 7rem; margin: 0; }
 .banner-count .sub { display: none; }
@@ -655,7 +654,6 @@ th { color: var(--muted); font-size: 0.78rem; text-transform: uppercase; letter-
 .account-link.signed-in { display: inline-flex; align-items: center; gap: 8px; max-width: 16rem; }
 .account-name { overflow: hidden; text-overflow: ellipsis; }
 .avatar.mini { width: 28px; height: 28px; flex: none; font-size: 0.9rem; }
-@media (min-width: 800px) { .banner-tagline { display: inline; } }
 @media (max-width: 520px) { .banner-progress .stat-bar { width: 3.5rem; } .banner-count { display: none; } .account-name { display: none; } }
 @media (min-width: 1000px) and (orientation: landscape) and (max-height: 800px) { .banner { min-height: 3rem; padding-block: 4px; } .bar { padding-block: 4px; } }
 /* The welcome page keeps its language switch clear of the top edge too. */

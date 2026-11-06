@@ -32,12 +32,11 @@ function Banner() {
   const label = `${done} / ${outline.lessons}`;
   return (
     <div class="banner">
-      <p class="banner-title">
+      <div class="banner-title">
         <Flag />
         <strong>Glorieta</strong>
-        <span class="banner-slogan"> · <T t={ui.slogan} /></span>
-        <span class="banner-tagline"> · <T t={ui.tagline} /></span>
-      </p>
+        <span class="banner-slogan"><T t={ui.slogan} /></span>
+      </div>
       <div class="banner-progress" title={label}>
         <span class="banner-count"><T t={bi('Lecciones', 'Lessons')} /> {label}</span>
         <Bar value={done} total={outline.lessons} label={label} />
