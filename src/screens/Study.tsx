@@ -8,20 +8,31 @@ import { ui } from '../ui';
 import { allQuestions, buildQueue, optionOrder, practicePool, type Question } from '../lib/quiz';
 import { grade, statsFor } from '../lib/store';
 
-/** One question. `selected` and `order` use the original option indexes from the data. */
+/**
+ * The shuffled A/B/C order for one question, drawn once when the card mounts and kept for as long as it
+ * stays on screen. Answering never re-draws it; a new question is a new card, which draws a new order.
+ */
+export const useOptionOrder = (): number[] => useState(optionOrder)[0];
+
+/**
+ * One question. `selected` uses the original option indexes from the data. The card shuffles its own
+ * options; pass `order` only to show a question exactly as it was shown before (the exam's review).
+ */
 export function QuestionCard({
   q,
-  order,
+  order: given,
   selected,
   reveal,
   onSelect,
 }: {
   q: Question;
-  order: number[];
+  order?: number[];
   selected: number | null;
   reveal: boolean;
   onSelect: (original: number) => void;
 }) {
+  const own = useOptionOrder();
+  const order = given ?? own;
   const [peek, setPeek] = useState(false);
   // Inside a lesson step the whole step may already be showing both languages.
   const outer = useContext(ModeOverride);
@@ -140,7 +151,6 @@ function PracticeSession({ categoryId }: { categoryId: string }) {
   }, [categoryId]);
 
   const [index, setIndex] = useState(0);
-  const [order, setOrder] = useState(optionOrder);
   const [selected, setSelected] = useState<number | null>(null);
   const [correct, setCorrect] = useState(0);
   const [round, setRound] = useState(0);
@@ -158,7 +168,6 @@ function PracticeSession({ categoryId }: { categoryId: string }) {
   const advance = () => {
     setIndex(index + 1);
     setSelected(null);
-    setOrder(optionOrder());
     setRound(round + 1);
   };
 
@@ -166,7 +175,7 @@ function PracticeSession({ categoryId }: { categoryId: string }) {
     <section>
       <p class="progress-line"><T t={questionOf(index + 1, plan.queue.length, index === 0 ? plan.due : 0)} /></p>
       {index === 0 && plan.refresher && <p class="note"><T t={ui.nothingDue} /></p>}
-      <QuestionCard key={`${q.id}-${round}`} q={q} order={order} selected={selected} reveal={selected !== null} onSelect={answer} />
+      <QuestionCard key={`${q.id}-${round}`} q={q} selected={selected} reveal={selected !== null} onSelect={answer} />
       {selected !== null && (
         <button type="button" class="primary" onClick={advance}>
           <T t={index + 1 === plan.queue.length ? ui.finish : ui.next} />

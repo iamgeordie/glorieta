@@ -5,7 +5,7 @@ import { questionOf } from '../format';
 import { lessonById, moduleById, modules, whereTaught } from '../data/learn';
 import { saveQuiz } from '../lib/learn';
 import { isPass, percent, pickQuiz } from '../lib/learn-core';
-import { allQuestions, optionOrder, type Question } from '../lib/quiz';
+import { allQuestions, type Question } from '../lib/quiz';
 import { grade, isDue, isSeen } from '../lib/store';
 import { QuestionCard } from './Study';
 
@@ -40,7 +40,6 @@ function QuizRun({ moduleId }: { moduleId: string }) {
   }, [moduleId, round]);
 
   const [index, setIndex] = useState(0);
-  const [order, setOrder] = useState(optionOrder);
   const [selected, setSelected] = useState<number | null>(null);
   const [results, setResults] = useState<Result[]>([]);
   const saved = useRef(false);
@@ -76,7 +75,6 @@ function QuizRun({ moduleId }: { moduleId: string }) {
           setIndex(0);
           setSelected(null);
           setResults([]);
-          setOrder(optionOrder());
           setRound(round + 1);
         }}
       />
@@ -94,7 +92,6 @@ function QuizRun({ moduleId }: { moduleId: string }) {
   const advance = () => {
     setIndex(index + 1);
     setSelected(null);
-    setOrder(optionOrder());
   };
 
   return (
@@ -104,7 +101,7 @@ function QuizRun({ moduleId }: { moduleId: string }) {
         <T t={questionOf(index + 1, plan.length)} />
         {pick.review && <> · <strong><T t={L.review} /></strong></>}
       </p>
-      <QuestionCard key={`${q.id}-${index}`} q={q} order={order} selected={selected} reveal={selected !== null} onSelect={answer} />
+      <QuestionCard key={`${q.id}-${index}`} q={q} selected={selected} reveal={selected !== null} onSelect={answer} />
       {selected !== null && (
         <button type="button" class="primary" onClick={advance}>
           <T t={index + 1 === plan.length ? bi('Ver resultado', 'See result') : bi('Siguiente', 'Next')} />

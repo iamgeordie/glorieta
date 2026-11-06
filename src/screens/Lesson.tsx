@@ -8,9 +8,9 @@ import type { Block, CheckQuestion, Lesson as LessonData } from '../data/learn/t
 import { signs, signFile } from '../data/signs';
 import { Figure, FigureDefs } from '../learn/Figure';
 import { learn, completeLesson, lessonRecord, saveCheck, saveStep } from '../lib/learn';
-import { checkToQuestion, optionOrder, type Question } from '../lib/quiz';
+import { checkToQuestion, type Question } from '../lib/quiz';
 import { grade } from '../lib/store';
-import { QuestionCard } from './Study';
+import { QuestionCard, useOptionOrder } from './Study';
 
 const signById = new Map(signs.map((s) => [s.id, s]));
 
@@ -36,7 +36,6 @@ function SignStrip({ ids, caption }: { ids: string[]; caption?: { es: string; en
 }
 
 function InlineCheck({ moduleId, lessonId, q }: { moduleId: string; lessonId: string; q: CheckQuestion }) {
-  const [order] = useState(optionOrder);
   const answered = lessonRecord(moduleId, lessonId).answered[q.id];
   const question: Question = checkToQuestion(q, moduleId);
   const pick = (original: number) => {
@@ -48,7 +47,7 @@ function InlineCheck({ moduleId, lessonId, q }: { moduleId: string; lessonId: st
   return (
     <div class="check-box">
       <p class="check-label"><T t={L.checkLabel} /></p>
-      <QuestionCard q={question} order={order} selected={answered?.sel ?? null} reveal={!!answered} onSelect={pick} />
+      <QuestionCard q={question} selected={answered?.sel ?? null} reveal={!!answered} onSelect={pick} />
     </div>
   );
 }
@@ -153,7 +152,7 @@ function LessonBody({ moduleId, lessonId, wanted }: { moduleId: string; lessonId
   const rec = lessonRecord(moduleId, lessonId);
   const [peek, setPeek] = useState(false);
   const [guess, setGuess] = useState<number | null>(null);
-  const [guessOrder] = useState(optionOrder);
+  const guessOrder = useOptionOrder();
 
   // 0 = intro, 1..total = steps, total + 1 = recap.
   const step = Math.min(Math.max(wanted ?? rec.step, 0), total + 1);
