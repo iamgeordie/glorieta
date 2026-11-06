@@ -168,6 +168,8 @@ function LessonBody({ moduleId, lessonId, wanted }: { moduleId: string; lessonId
 
   const content = step >= 1 && step <= total ? lesson.steps[step - 1] : undefined;
   const checks = content ? content.blocks.filter((b): b is Extract<Block, { t: 'check' }> => b.t === 'check') : [];
+  // The questions at the end of a step get their own column on a wide screen. The rest is reading text.
+  const readingEnd = content ? content.blocks.map((b) => b.t !== 'check').lastIndexOf(true) + 1 : 0;
   const unanswered = checks.some((c) => !rec.answered[c.q.id]);
   const last = step === total;
 
@@ -200,9 +202,18 @@ function LessonBody({ moduleId, lessonId, wanted }: { moduleId: string; lessonId
             </header>
             <h2 class="step-title"><T t={content.title} /></h2>
             <div class="step-body">
-              {content.blocks.map((b, i) => (
-                <BlockView key={i} block={b} moduleId={moduleId} lessonId={lessonId} />
-              ))}
+              <div class="step-text">
+                {content.blocks.slice(0, readingEnd).map((b, i) => (
+                  <BlockView key={i} block={b} moduleId={moduleId} lessonId={lessonId} />
+                ))}
+              </div>
+              {readingEnd < content.blocks.length && (
+                <div class="step-checks">
+                  {content.blocks.slice(readingEnd).map((b, i) => (
+                    <BlockView key={readingEnd + i} block={b} moduleId={moduleId} lessonId={lessonId} />
+                  ))}
+                </div>
+              )}
             </div>
           </article>
         )}

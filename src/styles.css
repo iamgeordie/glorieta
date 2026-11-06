@@ -464,6 +464,7 @@ th { color: var(--muted); font-size: 0.78rem; text-transform: uppercase; letter-
    Landscape (a 1080p or 720p recording, a laptop) spreads content across columns.
    Portrait (a 1080x1920 recording, a tablet) stays one or two columns but fills the width. */
 .card-columns, .step-body, .intro-grid { display: block; }
+.step-text, .step-checks { display: contents; }
 .table-split { display: block; }
 .table-split .table-wrap + .table-wrap thead { display: none; }
 
@@ -472,11 +473,14 @@ th { color: var(--muted); font-size: 0.78rem; text-transform: uppercase; letter-
   .list { grid-template-columns: repeat(2, 1fr); }
   .modules, .lessons { grid-template-columns: repeat(2, 1fr); }
   .card-columns { column-count: 2; column-gap: 20px; }
-  .intro-grid { column-count: 2; column-gap: 20px; }
+  .intro-grid { display: grid; grid-template-columns: 1fr 1fr; column-gap: 20px; align-items: start; }
+  .intro-grid { grid-template-rows: auto 1fr; }
+  .intro-grid > .guess { grid-column: 2; grid-row: 1 / span 2; }
   .list.stack > .card { margin: 0; padding: 12px 14px; }
   .card { padding: 14px 18px; }
-  .step-body { column-count: 2; column-gap: 24px; }
-  .step-body > .table-wrap { column-span: all; }
+  .step-text { display: block; column-count: 2; column-gap: 24px; }
+  .step-text > .table-wrap { column-span: all; }
+  .step-checks { display: grid; grid-template-columns: 1fr 1fr; gap: 0 20px; align-items: start; margin-top: 12px; }
   .fig-art.animated { display: grid; justify-items: center; }
   .scene { width: 100%; max-width: calc(52vh * var(--ar, 1)); }
 }
@@ -489,9 +493,16 @@ th { color: var(--muted); font-size: 0.78rem; text-transform: uppercase; letter-
   .modules { grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr)); }
   .lessons { grid-template-columns: repeat(2, 1fr); }
   .card-columns { column-count: 3; column-gap: 20px; }
-  .intro-grid { column-count: 2; column-gap: 24px; }
-  .step-body { column-count: 3; column-gap: 28px; }
-  .step-body > .table-wrap { column-span: all; }
+  .intro-grid { display: grid; grid-template-columns: 1fr 1fr; column-gap: 24px; align-items: start; }
+  .intro-grid { grid-template-rows: auto 1fr; }
+  .intro-grid > .guess { grid-column: 2; grid-row: 1 / span 2; }
+  /* Reading text flows in columns; the quiz keeps its own column, so answering never moves anything. */
+  .step-body { display: grid; grid-template-columns: minmax(0, 1fr) minmax(22rem, 27rem); column-gap: 28px; align-items: start; }
+  .step-body:not(:has(.step-checks)) { grid-template-columns: minmax(0, 1fr); }
+  .step-text { display: block; column-count: 2; column-gap: 28px; }
+  .step-body:not(:has(.step-checks)) .step-text { column-count: 3; }
+  .step-text > .table-wrap { column-span: all; }
+  .step-checks { display: block; }
   .table-split { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; align-items: start; }
   .table-split .table-wrap + .table-wrap thead { display: table-header-group; }
   .question { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr); column-gap: 32px; align-items: start; }
@@ -519,7 +530,7 @@ th { color: var(--muted); font-size: 0.78rem; text-transform: uppercase; letter-
 }
 
 /* Cards and blocks stay whole when they flow into columns. */
-.card-columns > *, .step-body > *, .intro-grid > * { break-inside: avoid; }
+.card-columns > *, .step-text > * { break-inside: avoid; }
 .card-columns > .card, .intro-grid > .card { margin-top: 0; }
 @media (min-width: 800px) {
   .card-columns > .card, .intro-grid > .card { margin-bottom: 20px; }
