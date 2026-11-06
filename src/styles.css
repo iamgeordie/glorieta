@@ -604,3 +604,39 @@ th { color: var(--muted); font-size: 0.78rem; text-transform: uppercase; letter-
   .group-box > summary.group { padding: 6px 0; }
   .sign-grid { grid-template-columns: repeat(auto-fill, minmax(7.5rem, 1fr)); }
 }
+
+/* Welcome page on big screens: the roundabout, title and buttons grow with the window. */
+@media (min-width: 800px) and (orientation: portrait) {
+  .splash-main { --mark: clamp(150px, min(50vw, 30svh), 620px); gap: 8px; }
+  .splash-title { font-size: clamp(2.6rem, 11vw, 7.5rem); }
+  .splash-slogan { font-size: clamp(1.2rem, 4.4vw, 3rem); margin-top: 14px; }
+  .splash-lede { max-width: 44rem; font-size: 1.35rem; margin: 12px 0 30px; }
+  .splash .splash-cta { min-width: 18rem; font-size: 1.35rem; padding-block: 18px; }
+  .splash-actions { gap: 20px; }
+  .splash-promo { width: min(100% - 2 * var(--gutter), 42rem); padding: 18px 22px; gap: 20px; margin-bottom: 28px; }
+  .promo-logo { width: 84px; height: 84px; }
+  .promo-line { font-size: 1.2rem; }
+  .promo-tagline { font-size: 1.3rem; }
+  .splash-foot { font-size: 1rem; padding-bottom: 28px; }
+  .splash-foot p { max-width: 50rem; }
+}
+@media (min-width: 1000px) and (orientation: landscape) {
+  .splash-main { --mark: clamp(150px, min(30vw, 27svh), 440px); }
+  .splash-title { font-size: clamp(2.6rem, 7vh, 6rem); }
+  .splash-slogan { font-size: clamp(1.2rem, 3.4vh, 2.4rem); }
+  .splash-lede { max-width: 40rem; font-size: 1.2rem; }
+  .splash .splash-cta { font-size: 1.2rem; padding-block: 14px; }
+  .splash-promo { width: min(100% - 2 * var(--gutter), 36rem); }
+  .splash-foot { font-size: 0.9rem; }
+}
+@media (min-width: 1000px) and (orientation: landscape) and (max-height: 800px) {
+  .splash-main { --mark: clamp(120px, 24svh, 300px); padding-bottom: 4px; }
+  .splash-mark { margin-bottom: calc(var(--mark) * 0.42 + 6px); }
+  .splash-title { font-size: clamp(2.2rem, 6vh, 4rem); }
+  .splash-top { padding-top: 8px; }
+  .splash-foot { padding-bottom: 8px; }
+  .splash-foot p { margin-bottom: 2px; }
+  .splash-lede { margin-bottom: 12px; }
+  .splash-promo { margin-bottom: 10px; padding: 8px 14px; }
+  .promo-logo { width: 44px; height: 44px; }
+}
