@@ -42,7 +42,7 @@ export function Profile() {
   const user = currentUser.value;
   if (!user) return null;
   return (
-    <div>
+    <div class="card-columns">
       <Header user={user} />
       <Study />
       <Topics />

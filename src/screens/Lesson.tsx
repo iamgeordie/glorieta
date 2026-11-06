@@ -200,9 +200,11 @@ function LessonBody({ moduleId, lessonId, wanted }: { moduleId: string; lessonId
               )}
             </header>
             <h2 class="step-title"><T t={content.title} /></h2>
-            {content.blocks.map((b, i) => (
-              <BlockView key={i} block={b} moduleId={moduleId} lessonId={lessonId} />
-            ))}
+            <div class="step-body">
+              {content.blocks.map((b, i) => (
+                <BlockView key={i} block={b} moduleId={moduleId} lessonId={lessonId} />
+              ))}
+            </div>
           </article>
         )}
 
@@ -241,6 +243,7 @@ function Intro({
   const question: Question | null = pre ? checkToQuestion(pre, moduleId) : null;
   return (
     <>
+      <div class="intro-grid">
       <div class="card">
         <h2><T t={L.goals} /></h2>
         <ul class="lp-list">
@@ -286,6 +289,7 @@ function Intro({
           )}
         </div>
       )}
+      </div>
 
       <button type="button" class="primary" onClick={onStart}><T t={L.startLesson} /></button>
     </>
@@ -301,6 +305,7 @@ function Recap({ moduleId, lesson, nextId }: { moduleId: string; lesson: LessonD
   const right = checks.filter(({ q }) => rec.answered[q.id]?.ok).length;
   return (
     <>
+      <div class="intro-grid">
       <div class="card">
         <h2><T t={L.recap} /></h2>
         <ul class="lp-list">
@@ -317,6 +322,7 @@ function Recap({ moduleId, lesson, nextId }: { moduleId: string; lesson: LessonD
             <li key={s}>{s}</li>
           ))}
         </ul>
+      </div>
       </div>
       <div class="actions">
         {nextId ? (

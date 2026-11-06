@@ -11,6 +11,7 @@ export function Signs() {
       <p class="muted"><T t={ui.signsHint} /></p>
       <a class="primary cta" href="#/practice/signs"><T t={ui.practiceSigns} /></a>
 
+      <div class="group-grid">
       {groupOrder.map((group, i) => {
         const inGroup = signs.filter((s) => s.group === group);
         return (
@@ -36,6 +37,7 @@ export function Signs() {
           </details>
         );
       })}
+      </div>
 
       <details class="credits">
         <summary><T t={ui.signCredits} /> ({credited.length})</summary>

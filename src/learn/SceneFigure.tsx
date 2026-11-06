@@ -132,7 +132,7 @@ export default function SceneFigure({ svg, scene, previewAt }: { svg: string; sc
   };
 
   return (
-    <div class="scene">
+    <div class="scene" style={`--ar:${width / height}`}>
       <Player
         ref={ref}
         component={SceneComposition}

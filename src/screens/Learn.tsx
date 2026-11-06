@@ -59,7 +59,8 @@ export function Course() {
         : null;
 
   return (
-    <section>
+    <section class="course">
+      <div class="course-side">
       <h1><Flag /><T t={L.courseTitle} /></h1>
       <p class="lede"><T t={L.courseLede} /></p>
 
@@ -82,6 +83,8 @@ export function Course() {
           ))}
         </ol>
       </details>
+      <ProgressNote />
+      </div>
 
       <ol class="modules">
         {modules.map((m, i) => {
@@ -105,7 +108,6 @@ export function Course() {
           );
         })}
       </ol>
-      <ProgressNote />
     </section>
   );
 }

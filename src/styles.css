@@ -14,6 +14,7 @@
   --warn-bg: #fff4dc;
   --radius: 14px;
   --gutter: 16px;
+  --page: 720px;
   /* Lesson diagrams */
   --fig-grass: #e6eee1;
   --fig-island: #c9dcc0;
@@ -60,15 +61,18 @@
 
 * { box-sizing: border-box; }
 
+/* Type grows with the screen, so a recording at 1080p is as readable as a phone. */
+html { font-size: clamp(16px, calc(1.05vmin + 7px), 24px); }
+
 body {
   margin: 0;
   background: var(--bg);
   color: var(--text);
-  font: 17px/1.5 system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  font: 1.0625rem/1.5 system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
   -webkit-text-size-adjust: 100%;
 }
 
-main { max-width: 720px; margin: 0 auto; padding: 0 var(--gutter); }
+main { max-width: var(--page); margin: 0 auto; padding: 0 var(--gutter); }
 main { padding-bottom: 64px; }
 
 h1 { font-size: 1.6rem; line-height: 1.2; margin: 20px 0 12px; }
@@ -82,7 +86,7 @@ button:focus-visible, a:focus-visible { outline: 3px solid var(--primary); outli
 .topbar {
   position: sticky; top: 0; z-index: 5;
   display: flex; align-items: center; justify-content: space-between; gap: 12px;
-  padding: 10px max(var(--gutter), calc((100% - 720px) / 2 + var(--gutter)));
+  padding: 10px max(var(--gutter), calc((100% - var(--page)) / 2 + var(--gutter)));
   background: var(--bg); border-bottom: 1px solid var(--line);
 }
 .brand { font-weight: 700; font-size: 1.15rem; color: var(--text); text-decoration: none; }
@@ -455,3 +459,136 @@ th { color: var(--muted); font-size: 0.78rem; text-transform: uppercase; letter-
 /* A one-off message on the home screen after signing in. */
 .note.notice { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-top: 14px; }
 .note.notice .link { flex: none; padding: 0; }
+
+/* ---- Big screens: use the width, and keep each screen on one page ----
+   Landscape (a 1080p or 720p recording, a laptop) spreads content across columns.
+   Portrait (a 1080x1920 recording, a tablet) stays one or two columns but fills the width. */
+.card-columns, .step-body, .intro-grid { display: block; }
+.table-split { display: block; }
+.table-split .table-wrap + .table-wrap thead { display: none; }
+
+@media (min-width: 800px) and (orientation: portrait) {
+  :root { --page: 1000px; --gutter: 28px; }
+  .list { grid-template-columns: repeat(2, 1fr); }
+  .modules, .lessons { grid-template-columns: repeat(2, 1fr); }
+  .card-columns { column-count: 2; column-gap: 20px; }
+  .intro-grid { column-count: 2; column-gap: 20px; }
+  .list.stack > .card { margin: 0; padding: 12px 14px; }
+  .card { padding: 14px 18px; }
+  .step-body { column-count: 2; column-gap: 24px; }
+  .step-body > .table-wrap { column-span: all; }
+  .fig-art.animated { display: grid; justify-items: center; }
+  .scene { width: 100%; max-width: calc(52vh * var(--ar, 1)); }
+}
+
+@media (min-width: 1000px) and (orientation: landscape) {
+  :root { --page: 1680px; --gutter: 28px; }
+  html { font-size: clamp(14px, calc(0.95vmin + 6.5px), 22px); }
+  .list { grid-template-columns: repeat(auto-fill, minmax(21rem, 1fr)); gap: 12px; }
+  .list.stack { grid-template-columns: repeat(auto-fill, minmax(26rem, 1fr)); }
+  .modules { grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr)); }
+  .lessons { grid-template-columns: repeat(2, 1fr); }
+  .card-columns { column-count: 3; column-gap: 20px; }
+  .intro-grid { column-count: 2; column-gap: 24px; }
+  .step-body { column-count: 3; column-gap: 28px; }
+  .step-body > .table-wrap { column-span: all; }
+  .table-split { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; align-items: start; }
+  .table-split .table-wrap + .table-wrap thead { display: table-header-group; }
+  .question { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr); column-gap: 32px; align-items: start; }
+  .question > .card-head { grid-column: 1 / -1; }
+  .step .question { display: block; }
+}
+
+@media (min-width: 1000px) and (orientation: landscape) {
+  .course-side { display: grid; grid-template-columns: minmax(0, 1fr) minmax(22rem, 30rem); column-gap: 32px; align-items: start; }
+  .course-side > h1 { grid-column: 1; grid-row: 1; }
+  .course-side > .lede { grid-column: 1; grid-row: 2; margin: 0 0 8px; }
+  .course-side > .card { grid-column: 2; grid-row: 1 / span 4; margin: 14px 0 0; }
+  .course-side > .credits { grid-column: 1; grid-row: 3; margin: 4px 0 0; }
+  .course-side > .muted { grid-column: 1; grid-row: 4; margin: 4px 0 0; }
+  .course .modules { grid-template-columns: repeat(5, 1fr); margin-top: 14px; }
+  .module-card { padding: 12px 14px; gap: 10px; }
+  .list.stack { grid-template-columns: repeat(4, 1fr); }
+  .list.stack > .card { margin: 0; padding: 12px 14px; }
+  .phrase .say { margin-bottom: 8px; }
+  .card { padding: 14px 18px; }
+  td, th { padding: 5px 10px; }
+  .sign-grid { grid-template-columns: repeat(auto-fill, minmax(8.5rem, 1fr)); }
+  h1 { margin: 14px 0 8px; }
+  .lede { margin-top: 10px; }
+}
+
+/* Cards and blocks stay whole when they flow into columns. */
+.card-columns > *, .step-body > *, .intro-grid > * { break-inside: avoid; }
+.card-columns > .card, .intro-grid > .card { margin-top: 0; }
+@media (min-width: 800px) {
+  .card-columns > .card, .intro-grid > .card { margin-bottom: 20px; }
+}
+.account .auth-form, .account > form.card { max-width: 34rem; margin-inline: auto; }
+
+/* The sign catalogue: group headings sit side by side; an open group takes the full row. */
+@media (min-width: 800px) and (orientation: portrait) {
+  .group-grid { display: grid; grid-template-columns: repeat(2, 1fr); column-gap: 28px; align-items: start; }
+  .group-box { margin: 6px 0 0; }
+  .group-box[open] { grid-column: 1 / -1; }
+}
+@media (min-width: 1000px) and (orientation: landscape) {
+  .group-grid { display: grid; grid-template-columns: repeat(3, 1fr); column-gap: 32px; align-items: start; }
+  .group-box { margin: 6px 0 0; }
+  .group-box[open] { grid-column: 1 / -1; }
+}
+
+@media (min-width: 1000px) and (orientation: landscape) {
+  .crumbs { margin-top: 8px; }
+  .lesson .seg { margin: 2px 0 10px; }
+  .step-title { font-size: 1.2rem; margin: 2px 0 8px; }
+  .lp, .lp-list { margin-bottom: 8px; }
+  .callout { margin-bottom: 10px; padding: 8px 12px; }
+  .step .card { margin: 8px 0; }
+  .lesson { padding-bottom: 8px; }
+  .lesson-nav { position: sticky; bottom: 0; z-index: 4; margin: 8px 0 0; padding: 10px 0; background: var(--bg); }
+  .lesson-nav .primary { flex: none; min-width: 16rem; }
+  .question .stem { font-size: 1.45rem; }
+  .question .option { font-size: 1.1rem; }
+  .question .sign { margin-left: 0; width: 11rem; height: 11rem; }
+  main { padding-bottom: 24px; }
+}
+
+@media (min-width: 1000px) and (orientation: landscape) {
+  .step .question .stem { font-size: 1.1rem; margin-bottom: 10px; }
+  .step .question .option { font-size: 1rem; min-height: 44px; padding: 8px 12px; }
+  .step .question .sign { width: 8rem; height: 8rem; }
+  .step .fig-art svg, .fig-art .fig-still svg { max-height: 300px; }
+  .step .check-box { margin: 4px 0 8px; }
+  .step .card { padding: 12px 16px; }
+  .fig { margin-bottom: 10px; }
+}
+
+/* An animated diagram never grows taller than most of the screen. */
+@media (min-width: 1000px) and (orientation: landscape) {
+  .fig-art.animated { display: grid; justify-items: center; }
+  .scene { width: 100%; max-width: calc(52vh * var(--ar, 1)); }
+}
+
+/* Short landscape screens (a 1280x720 recording): tighter still. */
+@media (min-width: 1000px) and (orientation: landscape) and (max-height: 800px) {
+  html { font-size: clamp(13px, calc(0.95vmin + 6.5px), 22px); }
+  .topbar { padding-top: 6px; padding-bottom: 6px; }
+  h1 { font-size: 1.4rem; margin: 10px 0 6px; }
+  .slogan { margin-top: 10px; }
+  .card { padding: 10px 14px; margin: 10px 0; }
+  .tile { min-height: 0; padding: 10px 14px; }
+  .card-columns { column-count: 4; }
+  .list.stack { grid-template-columns: repeat(6, 1fr); gap: 8px; }
+  .list.stack > .card { padding: 8px 10px; }
+  .phrase .say { font-size: 1rem; margin-bottom: 6px; }
+  .phrase .label { font-size: 0.65rem; }
+  td, th { padding: 3px 8px; }
+  .module-card .module-body > small { display: none; }
+  p { margin-bottom: 8px; }
+  .module-card { padding: 10px 12px; }
+  .course-side > .card { margin-top: 8px; }
+  .stats dd { font-size: 1.3rem; }
+  .group-box > summary.group { padding: 6px 0; }
+  .sign-grid { grid-template-columns: repeat(auto-fill, minmax(7.5rem, 1fr)); }
+}

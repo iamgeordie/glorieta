@@ -12,7 +12,7 @@ export function Account({ view }: { view: string }) {
   const status = authStatus.value;
   if (status === 'loading') return <p class="muted"><T t={a.loading} /></p>;
   return (
-    <section>
+    <section class="account">
       <h1><T t={a.account} /></h1>
       {notice.value && <p class="note" role="status"><T t={notice.value} /></p>}
       {returnError.value && (
@@ -20,7 +20,7 @@ export function Account({ view }: { view: string }) {
           <T t={a.signInFailed} /> <span class="muted small block">{returnError.value}</span>
         </p>
       )}
-      {status === 'in' ? <Profile /> : <Forms />}
+      {status === 'in' ? <Profile /> : <div class="auth-form"><Forms /></div>}
     </section>
   );
 }
@@ -163,7 +163,7 @@ function ResetPassword() {
 
   if (done) return <p class="note" role="status"><T t={a.passwordUpdated} /></p>;
   return (
-    <section>
+    <section class="account">
       <h1><T t={a.resetTitle} /></h1>
       <form class="card" onSubmit={submit}>
         <PasswordField label={a.newPassword} value={password} onInput={setPassword} autocomplete="new-password" />

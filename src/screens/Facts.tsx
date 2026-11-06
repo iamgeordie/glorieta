@@ -6,6 +6,7 @@ export function Facts() {
   return (
     <section>
       <h1><T t={ui.facts} /></h1>
+      <div class="card-columns">
       {factGroups.map((g) => (
         <div key={g.title.en} class="card">
           <h2><T t={g.title} /></h2>
@@ -41,6 +42,7 @@ export function Facts() {
             <span key={a} class="term"><b>{a}</b> = {full}</span>
           ))}
         </p>
+      </div>
       </div>
       <p class="muted"><strong><T t={ui.unofficialTitle} />.</strong> <T t={ui.unofficial} /></p>
     </section>

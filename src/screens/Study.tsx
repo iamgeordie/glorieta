@@ -37,8 +37,11 @@ export function QuestionCard({
             </button>
           )}
         </header>
-        {q.image && <img class="sign" src={q.image} alt="Señal de tráfico / Traffic sign" width="160" height="160" />}
-        <h2 class="stem"><T t={bi(q.es.q, q.en.q)} /></h2>
+        <div class="q-ask">
+          {q.image && <img class="sign" src={q.image} alt="Señal de tráfico / Traffic sign" width="160" height="160" />}
+          <h2 class="stem"><T t={bi(q.es.q, q.en.q)} /></h2>
+        </div>
+        <div class="q-answer">
         <div class="options" role="group">
           {order.map((original, position) => {
             const state =
@@ -82,6 +85,7 @@ export function QuestionCard({
             <p class="src"><T t={ui.source} />: {q.src}</p>
           </div>
         )}
+        </div>
       </article>
     </ModeOverride.Provider>
   );
