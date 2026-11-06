@@ -126,6 +126,26 @@ function BlockView({ block, moduleId, lessonId }: { block: Block; moduleId: stri
   }
 }
 
+type Segment = { text: Block[]; checks: Block[] };
+
+/** Splits a step into rows: reading blocks, then the check questions that follow them. */
+function segmentsOf(blocks: Block[]): Segment[] {
+  const out: Segment[] = [];
+  let cur: Segment = { text: [], checks: [] };
+  for (const b of blocks) {
+    if (b.t === 'check') cur.checks.push(b);
+    else {
+      if (cur.checks.length > 0) {
+        out.push(cur);
+        cur = { text: [], checks: [] };
+      }
+      cur.text.push(b);
+    }
+  }
+  if (cur.text.length > 0 || cur.checks.length > 0) out.push(cur);
+  return out;
+}
+
 const hash = (m: string, l: string, step?: number) => `#/learn/${m}/${l}${step === undefined ? '' : `/${step}`}`;
 
 /** Intro (pretraining and a guess), the steps, then the recap. */
@@ -168,8 +188,9 @@ function LessonBody({ moduleId, lessonId, wanted }: { moduleId: string; lessonId
 
   const content = step >= 1 && step <= total ? lesson.steps[step - 1] : undefined;
   const checks = content ? content.blocks.filter((b): b is Extract<Block, { t: 'check' }> => b.t === 'check') : [];
-  // The questions at the end of a step get their own column on a wide screen. The rest is reading text.
-  const readingEnd = content ? content.blocks.map((b) => b.t !== 'check').lastIndexOf(true) + 1 : 0;
+  // Each run of reading text and the questions that follow it is one row. On a wide screen the questions get
+  // their own column, so answering one grows its row and never reflows the text beside it.
+  const segments = content ? segmentsOf(content.blocks) : [];
   const unanswered = checks.some((c) => !rec.answered[c.q.id]);
   const last = step === total;
 
@@ -201,20 +222,20 @@ function LessonBody({ moduleId, lessonId, wanted }: { moduleId: string; lessonId
               )}
             </header>
             <h2 class="step-title"><T t={content.title} /></h2>
-            <div class="step-body">
-              <div class="step-text">
-                {content.blocks.slice(0, readingEnd).map((b, i) => (
-                  <BlockView key={i} block={b} moduleId={moduleId} lessonId={lessonId} />
-                ))}
+            {segments.map((seg, n) => (
+              <div class="step-body" key={n}>
+                {seg.text.length > 0 && (
+                  <div class="step-text">
+                    {seg.text.map((b, i) => <BlockView key={i} block={b} moduleId={moduleId} lessonId={lessonId} />)}
+                  </div>
+                )}
+                {seg.checks.length > 0 && (
+                  <div class="step-checks">
+                    {seg.checks.map((b, i) => <BlockView key={i} block={b} moduleId={moduleId} lessonId={lessonId} />)}
+                  </div>
+                )}
               </div>
-              {readingEnd < content.blocks.length && (
-                <div class="step-checks">
-                  {content.blocks.slice(readingEnd).map((b, i) => (
-                    <BlockView key={readingEnd + i} block={b} moduleId={moduleId} lessonId={lessonId} />
-                  ))}
-                </div>
-              )}
-            </div>
+            ))}
           </article>
         )}
 
