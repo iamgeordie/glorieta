@@ -1,6 +1,6 @@
 import { signal } from '@preact/signals';
 import { useEffect } from 'preact/hooks';
-import { LangSwitch, mode, setMode, T } from './i18n';
+import { bi, LangSwitch, mode, setMode, T } from './i18n';
 import { ui } from './ui';
 import { Exam } from './screens/Exam';
 import { British } from './screens/British';
@@ -11,11 +11,59 @@ import { Signs } from './screens/Signs';
 import { Account } from './screens/Account';
 import { Splash } from './screens/Splash';
 import { hasStoredSession, landingFor } from './lib/landing';
-import { authStatus } from './lib/auth';
+import { authStatus, currentUser } from './lib/auth';
+import { profile } from './lib/sync';
+import { initialOf, labelOf, pictureOf } from './lib/identity';
+import { learn } from './lib/learn';
+import outline from './data/learn/outline.json';
+import { Bar } from './Bar';
+import { Flag } from './Flag';
 import { authEnabled } from './lib/supabase';
 import { a } from './authStrings';
 import { Practice } from './screens/Study';
 import { Suspense, lazy } from 'preact/compat';
+
+/**
+ * A strip across the very top with nothing to click. TV browsers cover the top edge with their own menu
+ * whenever the pointer moves, so every control sits in the row below this one.
+ */
+function Banner() {
+  const done = Object.values(learn.value.lessons).filter((l) => l.done).length;
+  const label = `${done} / ${outline.lessons}`;
+  return (
+    <div class="banner">
+      <p class="banner-title">
+        <Flag />
+        <strong>Glorieta</strong>
+        <span class="banner-slogan"> · <T t={ui.slogan} /></span>
+        <span class="banner-tagline"> · <T t={ui.tagline} /></span>
+      </p>
+      <div class="banner-progress" title={label}>
+        <span class="banner-count"><T t={bi('Lecciones', 'Lessons')} /> {label}</span>
+        <Bar value={done} total={outline.lessons} label={label} />
+      </div>
+    </div>
+  );
+}
+
+function AccountLink() {
+  const user = currentUser.value;
+  if (authStatus.value !== 'in' || !user) {
+    return <a class="account-link" href="#/account"><T t={a.signInLink} /></a>;
+  }
+  const name = labelOf(user, profile.value?.display_name);
+  const picture = pictureOf(user);
+  return (
+    <a class="account-link signed-in" href="#/account" aria-label={`${a.account.es}: ${name}`}>
+      {picture ? (
+        <img class="avatar mini" src={picture} alt="" width="28" height="28" referrerpolicy="no-referrer" />
+      ) : (
+        <span class="avatar mini initial" aria-hidden="true">{initialOf(name)}</span>
+      )}
+      <span class="account-name">{name}</span>
+    </a>
+  );
+}
 
 // The course (a megabyte of lesson text and the diagrams) loads only when someone opens Learn.
 const Course = lazy(() => import('./screens/Learn').then((m) => ({ default: m.Course })));
@@ -121,20 +169,21 @@ export function App() {
   return (
     <>
       <header class="topbar">
-        <a class="brand" href={home ? '#/welcome' : '#/'} aria-label={home ? ui.appName.es : ui.home.es}>
-          {home ? (
-            <>
-              <img class="brand-mark" src="/signs/r-402.svg" width="24" height="24" alt="" />
-              <T t={ui.appName} />
-            </>
-          ) : (
-            <>← <T t={ui.home} /></>
-          )}
-        </a>
-        {authEnabled && (
-          <a class="account-link" href="#/account"><T t={authStatus.value === 'in' ? a.account : a.signInLink} /></a>
-        )}
-        <LangSwitch />
+        <Banner />
+        <nav class="bar">
+          <a class="brand" href={home ? '#/welcome' : '#/'} aria-label={home ? ui.appName.es : ui.home.es}>
+            {home ? (
+              <>
+                <img class="brand-mark" src="/signs/r-402.svg" width="24" height="24" alt="" />
+                <T t={bi('Inicio', 'Welcome')} />
+              </>
+            ) : (
+              <>← <T t={ui.home} /></>
+            )}
+          </a>
+          {authEnabled && <AccountLink />}
+          <LangSwitch />
+        </nav>
       </header>
       <main>
         <Screen />

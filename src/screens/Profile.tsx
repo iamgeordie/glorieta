@@ -2,6 +2,7 @@ import { useEffect, useState } from 'preact/hooks';
 import type { User } from '@supabase/supabase-js';
 import { T, type Bi } from '../i18n';
 import { a } from '../authStrings';
+import { initialOf, pictureOf } from '../lib/identity';
 import { currentUser, signOut, updatePassword } from '../lib/auth';
 import { deleteMyData, exportMyData, loadStats, profile, saveProfile, serverStats, syncNow, syncStatus } from '../lib/sync';
 import { exams, progress, resetAll } from '../lib/store';
@@ -10,19 +11,10 @@ import { Field, LegalLinks, Message, MIN_PASSWORD, PasswordField } from './form-
 
 const asText = (v: unknown): string | null => (typeof v === 'string' && v.trim() !== '' ? v.trim() : null);
 
-/** The picture Google supplies, if any. Only an https address is ever used as an image source. */
-function pictureOf(user: User): string | null {
-  const meta = user.user_metadata ?? {};
-  const url = asText(meta.avatar_url) ?? asText(meta.picture);
-  return url && url.startsWith('https://') ? url : null;
-}
-
 function nameOf(user: User, saved: string | null | undefined): string {
   const meta = user.user_metadata ?? {};
   return saved ?? asText(meta.full_name) ?? asText(meta.name) ?? asText(meta.display_name) ?? user.email?.split('@')[0] ?? '';
 }
-
-const initialOf = (name: string) => (name.trim()[0] ?? '?').toUpperCase();
 
 const day = (iso: string | undefined | null) =>
   iso ? new Date(iso).toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' }) : '—';

@@ -75,6 +75,10 @@ for (const id of categoryIds) if (!perCat[id] && !learn.checksPerCat[id]) proble
 console.log(`${questions.length} text questions, answer positions: ${answers.join(' / ')}; ${signs.length} sign questions generated from signs.json`);
 console.log(Object.entries(perCat).map(([k, v]) => `${k}:${v}`).join('  '));
 console.log(`course: ${learn.moduleCount} modules, ${learn.lessonCount} lessons, ${learn.checkCount} check questions, ${learn.figureCount} figures`);
+const outline = JSON.parse(readFileSync(new URL('../src/data/learn/outline.json', import.meta.url), 'utf8'));
+if (outline.lessons !== learn.lessonCount || outline.modules !== learn.moduleCount) {
+  problems.push(`src/data/learn/outline.json says ${outline.modules} modules / ${outline.lessons} lessons; the course has ${learn.moduleCount} / ${learn.lessonCount}`);
+}
 for (const n of learn.notes) console.log(`note: ${n}`);
 if (problems.length) {
   console.error(`\n${problems.length} problem(s):\n- ${problems.join('\n- ')}`);

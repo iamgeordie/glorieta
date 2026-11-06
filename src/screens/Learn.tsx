@@ -10,6 +10,7 @@ import { authStatus } from '../lib/auth';
 import { authEnabled } from '../lib/supabase';
 import { syncStatus } from '../lib/sync';
 import { Flag } from '../Flag';
+import { Bar } from '../Bar';
 
 const statusLabel: Record<ModuleStatus, ReturnType<typeof bi>> = {
   new: L.statusNew,
@@ -19,15 +20,6 @@ const statusLabel: Record<ModuleStatus, ReturnType<typeof bi>> = {
 };
 
 const minutesOf = (m: { lessons: { minutes: number }[] }) => m.lessons.reduce((n, l) => n + l.minutes, 0);
-
-function Bar({ value, total }: { value: number; total: number }) {
-  const pct = total > 0 ? Math.round((100 * value) / total) : 0;
-  return (
-    <span class="stat-bar" role="progressbar" aria-valuemin={0} aria-valuemax={total} aria-valuenow={value}>
-      <span style={{ width: `${pct}%` }} />
-    </span>
-  );
-}
 
 /** Says where the course progress lives, truthfully for the current state. */
 function ProgressNote() {
