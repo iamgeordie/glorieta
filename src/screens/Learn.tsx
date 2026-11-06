@@ -9,7 +9,6 @@ import { bi } from '../i18n';
 import { authStatus } from '../lib/auth';
 import { authEnabled } from '../lib/supabase';
 import { syncStatus } from '../lib/sync';
-import { Flag } from '../Flag';
 import { Bar } from '../Bar';
 
 const statusLabel: Record<ModuleStatus, ReturnType<typeof bi>> = {
@@ -53,7 +52,7 @@ export function Course() {
   return (
     <section class="course">
       <div class="course-side">
-      <h1><Flag /><T t={L.courseTitle} /></h1>
+      <h1><T t={L.courseTitle} /></h1>
       <p class="lede"><T t={L.courseLede} /></p>
 
       <div class="card">

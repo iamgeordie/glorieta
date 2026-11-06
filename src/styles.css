@@ -645,6 +645,8 @@ th { color: var(--muted); font-size: 0.78rem; text-transform: uppercase; letter-
 .topbar { display: block; padding: 0; --edge: max(var(--gutter), calc((100% - var(--page)) / 2 + var(--gutter))); }
 .banner { display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 2.8rem; padding: 4px var(--edge); background: var(--surface); border-bottom: 1px solid var(--line); }
 .banner-title { display: flex; align-items: center; gap: 12px; margin: 0; font-size: 1rem; line-height: 1.2; min-width: 0; }
+.banner-mark { flex: none; display: block; border-radius: 50%; }
+.banner-title .flag { margin-right: 0; }
 .banner-slogan { padding-left: 12px; border-left: 2px solid var(--line); color: var(--muted); font-weight: 600; }
 .banner-title strong { font-size: 1.15rem; }
 .banner-progress { display: flex; align-items: center; gap: 10px; flex: none; font-size: 0.85rem; font-weight: 600; color: var(--muted); }
@@ -665,7 +667,7 @@ th { color: var(--muted); font-size: 0.78rem; text-transform: uppercase; letter-
  * rather than letting its controls ride up under the toolbar.
  */
 @media (min-width: 1600px) and (orientation: landscape) {
-  html.tv { font-size: clamp(19px, calc(1.3vmin + 7px), 28px); }
+  html.tv { font-size: clamp(18px, calc(1.1vmin + 7px), 26px); }
   html.tv .topbar { position: static; }
   html.tv .banner { min-height: 150px; padding-block: 12px; }
   html.tv .banner-title { font-size: 1.2rem; }

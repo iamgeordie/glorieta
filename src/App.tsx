@@ -33,6 +33,7 @@ function Banner() {
   return (
     <div class="banner">
       <div class="banner-title">
+        <img class="banner-mark" src="/signs/r-402.svg" width="36" height="36" alt="" />
         <Flag />
         <strong>Glorieta</strong>
         <span class="banner-slogan"><T t={ui.slogan} /></span>
@@ -172,10 +173,7 @@ export function App() {
         <nav class="bar">
           <a class="brand" href={home ? '#/welcome' : '#/'} aria-label={home ? ui.appName.es : ui.home.es}>
             {home ? (
-              <>
-                <img class="brand-mark" src="/signs/r-402.svg" width="24" height="24" alt="" />
-                <T t={bi('Inicio', 'Welcome')} />
-              </>
+              <T t={bi('Inicio', 'Welcome')} />
             ) : (
               <>← <T t={ui.home} /></>
             )}
