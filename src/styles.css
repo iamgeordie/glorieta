@@ -662,21 +662,25 @@ th { color: var(--muted); font-size: 0.78rem; text-transform: uppercase; letter-
 .splash-top { padding-top: 3rem; }
 
 /*
- * TV mode (open the site with ?tv; ?tv=0 turns it off): a full-HD screen across a room gets bigger type, and the first 140px are left empty,
- * because the browser's own toolbar covers that much whenever the pointer moves. The header scrolls away
- * rather than letting its controls ride up under the toolbar; the title and the controls share one row below.
+ * TV mode (open the site with ?tv; ?tv=0 turns it off): a full-HD screen across a room gets bigger type, and a header exactly as tall as that toolbar,
+ * because the browser's own toolbar covers that much whenever the pointer moves. The header holds the
+ * title and progress, nothing clickable; the menu bar below it always stays in view.
  */
 @media (min-width: 1600px) and (orientation: landscape) {
   html.tv { font-size: clamp(18px, calc(1.1vmin + 7px), 26px); }
-  html.tv .topbar { position: static; }
-  html.tv .topbar { display: flex; align-items: center; gap: 24px; padding: 140px var(--edge) 8px; background: var(--surface); border-bottom: 1px solid var(--line); }
-  html.tv .banner { flex: 1; min-height: 0; padding: 0; border: 0; background: none; }
-  html.tv .banner-title { font-size: 1.1rem; }
-  html.tv .banner-title strong { font-size: 1.6rem; }
-  html.tv .banner-progress { font-size: 0.95rem; }
-  html.tv .banner-progress .stat-bar { width: 9rem; height: 10px; border-radius: 5px; }
-  html.tv .bar { flex: none; padding: 0; gap: 18px; }
-  html.tv .splash-top { padding-top: 140px; }
+  html.tv .banner { height: 120px; min-height: 0; padding-block: 0; }
+  html.tv .banner-title { font-size: 1.1rem; gap: 16px; }
+  html.tv .banner-title strong { font-size: 2rem; }
+  html.tv .banner-mark { width: 52px; height: 52px; }
+  html.tv .banner-progress { font-size: 1.05rem; }
+  html.tv .banner-progress .stat-bar { width: 14rem; height: 12px; border-radius: 6px; }
+  html.tv .bar { padding-block: 8px; gap: 20px; }
+  html.tv .splash-top { padding-top: 130px; }
   html.tv .splash-main { --mark: clamp(150px, min(30vw, 17svh), 440px); }
   html.tv .splash-title { font-size: clamp(2.6rem, 6vh, 5rem); }
 }
+
+.bar .navlink { font-weight: 600; font-size: 0.9rem; text-decoration: none; white-space: nowrap; color: var(--primary); }
+.bar .navlink[aria-current] { color: var(--text); }
+.bar .navlink + .navlink { margin-right: auto; }
+.bar .navlink .sub { color: inherit; opacity: 0.75; }

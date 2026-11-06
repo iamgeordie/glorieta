@@ -170,14 +170,9 @@ export function App() {
     <>
       <header class="topbar">
         <Banner />
-        <nav class="bar">
-          <a class="brand" href={home ? '#/welcome' : '#/'} aria-label={home ? ui.appName.es : ui.home.es}>
-            {home ? (
-              <T t={bi('Inicio', 'Welcome')} />
-            ) : (
-              <>← <T t={ui.home} /></>
-            )}
-          </a>
+        <nav class="bar" aria-label="Glorieta">
+          <a class="navlink" href="#/" aria-current={home ? 'page' : undefined}><T t={bi('Inicio', 'Home')} /></a>
+          <a class="navlink" href="#/welcome"><T t={bi('Bienvenida', 'Welcome')} /></a>
           {authEnabled && <AccountLink />}
           <LangSwitch />
         </nav>
