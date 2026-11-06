@@ -660,3 +660,22 @@ th { color: var(--muted); font-size: 0.78rem; text-transform: uppercase; letter-
 @media (min-width: 1000px) and (orientation: landscape) and (max-height: 800px) { .banner { min-height: 3rem; padding-block: 4px; } .bar { padding-block: 4px; } }
 /* The welcome page keeps its language switch clear of the top edge too. */
 .splash-top { padding-top: 3rem; }
+
+/*
+ * A full-HD screen across a room (the TV browser): bigger type, and the first 150px belong to the banner,
+ * because the browser's own toolbar covers that much whenever the pointer moves. The header scrolls away
+ * rather than letting its controls ride up under the toolbar.
+ */
+@media (min-width: 1600px) and (orientation: landscape) {
+  html { font-size: clamp(19px, calc(1.3vmin + 7px), 28px); }
+  .topbar { position: static; }
+  .banner { min-height: 150px; padding-block: 12px; }
+  .banner-title { font-size: 1.2rem; }
+  .banner-title strong { font-size: 1.7rem; }
+  .banner-progress { font-size: 1rem; }
+  .banner-progress .stat-bar { width: 12rem; height: 12px; border-radius: 6px; }
+  .bar { padding-block: 10px; }
+  .splash-top { padding-top: 150px; }
+  .splash-main { --mark: clamp(150px, min(30vw, 17svh), 440px); }
+  .splash-title { font-size: clamp(2.6rem, 6vh, 5rem); }
+}
