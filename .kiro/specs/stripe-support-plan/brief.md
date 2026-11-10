@@ -68,9 +68,11 @@ Reuse LinguaMama's mechanism, unchanged in shape:
   `auth.users` id instead of LinguaMama's `people` row) and the storage target (`glorieta`
   schema).
 - **Hosting.** LinguaMama's deployed functions run against LinguaMama's own Supabase project
-  and cannot see Glorieta's users, so Glorieta runs its own copy. The design phase picks between
-  the Glorieta Worker (add a script for `/api/billing/*`) and an Edge Function on the shared
-  project, against the credential constraint in Requirement 6.
+  and cannot see Glorieta's users, so Glorieta runs its own copy, in the Glorieta Worker (a
+  script for `/api/billing/*`). The Worker writes the mirror only through one HMAC-signed
+  `security definer` function in the `glorieta` schema, so its database credential reaches
+  nothing else. An Edge Function on the shared project was rejected: the platform injects the
+  service-role key into it, and deploys there belong to the monorepo.
 - **Two webhooks, one account.** Stripe delivers every account event to both LinguaMama's and
   Glorieta's endpoints. Each app tags the customers it creates and acts only on its own.
   LinguaMama's resolver falls back to matching by email, so a person using one address in both
