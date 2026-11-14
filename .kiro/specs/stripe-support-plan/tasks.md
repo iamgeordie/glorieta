@@ -128,16 +128,19 @@ schema; nothing is mocked.
   task 9.1
 
 - [ ] 8. Stripe test-mode setup
-- [ ] 8.1 `scripts/stripe-catalog.mjs`: idempotent by lookup key; creates the Product, both EUR
+- [x] 8.1 `scripts/stripe-catalog.mjs`: idempotent by lookup key; creates the Product, both EUR
   Prices (amounts as arguments), the `glorieta_supporter` Feature, the product feature, and the
   portal configuration limited to the two Prices; all tagged `app=glorieta`; prints the portal
   configuration id
   - _Requirements: 1.1–1.4, 3.2_
-- [ ] 8.2 **(Geordie)** In Stripe test mode: create the restricted key with the design's
-  permissions and save it in 1Password; give Claude the monthly and annual amounts
+- [ ] 8.2 **(Geordie)** In Stripe test mode: create the Worker's restricted key with the design's
+  permissions, and a second restricted key for `scripts/stripe-catalog.mjs` (write on Products,
+  Prices, Entitlements Features and Customer portal configuration; the Worker's key can only read the
+  catalog). Save both in 1Password; give Claude the monthly and annual amounts. Steps in
+  `docs/billing.md`
   - _Requirements: 6.1, 6.4_
 - [ ] 8.3 Run the catalog script against test mode; add the portal configuration id to `vars`
-- [ ] 8.4 Apply 003 to the live `glorieta` schema the way 002 was applied: plain SQL in one
+- [x] 8.4 Apply 003 to the live `glorieta` schema the way 002 was applied: plain SQL in one
   transaction, `notify pgrst, 'reload schema'`, no migration-history entry; then check read-only
   that RLS is on for all eight tables, `anon` holds only the `billing_apply` grant, and existing
   rows are unchanged

@@ -98,6 +98,13 @@ no entry that has no file in the appliedrelevance monorepo. If you want 002 in t
 the monorepo's `supabase/migrations/` under a new timestamped name and mark it applied
 (`supabase migration repair --status applied <timestamp>`), rather than applying it a second time.
 
+**How 003 reached the live database (2026-11-14).** The same way as 002: the file's SQL in one
+transaction, then `notify pgrst, 'reload schema'`, with no migration-history entry. Checked read-only
+afterwards: row level security on all eight tables, no table grant to `anon` or `PUBLIC`, `anon` able to
+execute `billing_apply()` and nothing else, `billing_apply()` the only `SECURITY DEFINER` function, existing
+rows unchanged. Through the API, an unsigned call as `anon` is refused and `anon` cannot read `billing`.
+`billing_key` is still empty until the key is inserted (see `docs/billing.md`).
+
 001 is meant for
 a project where the signed-in role can reach nothing but its own data, so check that before turning
 sign-up on. The schema has no trigger on `auth.users`, and from 003 on exactly one `SECURITY DEFINER`

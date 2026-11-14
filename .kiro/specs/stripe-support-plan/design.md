@@ -423,8 +423,10 @@ key. `src/lib/auth-errors.ts` maps `active_support_plan` to a bilingual message.
 
 ### Stripe catalog (Req 1)
 
-Created by a script, `scripts/stripe-catalog.mjs`, that reads the restricted key from the
-environment, runs against test mode first, and is idempotent by lookup key:
+Created by a script, `scripts/stripe-catalog.mjs`, that reads its own restricted key
+(`STRIPE_SETUP_KEY`, write on the catalog only; the Worker's key can only read it) from the
+environment, runs against test mode first, refuses a live key without `--live`, and is idempotent by
+Product id and lookup key:
 
 | Object | Identity | Metadata |
 |---|---|---|
