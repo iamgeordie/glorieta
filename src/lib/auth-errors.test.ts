@@ -25,3 +25,16 @@ test('a plain Error and a bare string are still reported', () => {
   assert.match(describeAuthError(new Error('network down')).en, /network down/);
   assert.match(describeAuthError('oops').en, /oops/);
 });
+
+test('support-plan errors are explained in both languages', () => {
+  for (const code of ['already_supporter', 'no_profile', 'no_customer', 'catalog_incomplete', 'portal_not_configured', 'stripe_delete_failed', 'unauthenticated']) {
+    const m = describeAuthError({ code, message: 'from the billing API' });
+    assert.ok(m.es.length > 10 && m.en.length > 10 && !m.en.includes('could not be completed'), code);
+  }
+});
+
+test('the erasure guard, raised by the database as P0001, is recognized by its message', () => {
+  const m = describeAuthError({ code: 'P0001', message: 'active_support_plan', hint: 'Call /api/billing/erase first.' });
+  assert.match(m.en, /active support plan/);
+  assert.match(m.es, /plan de apoyo activo/);
+});

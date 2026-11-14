@@ -8,6 +8,9 @@ import { deleteMyData, exportMyData, loadStats, profile, saveProfile, serverStat
 import { exams, progress, resetAll } from '../lib/store';
 import { categories } from '../data/categories';
 import { Field, LegalLinks, Message, MIN_PASSWORD, PasswordField } from './form-parts';
+import { b } from '../billingStrings';
+import { billing, isSupporter, openPortal, readBilling } from '../lib/billing';
+import { isTv } from '../lib/tv';
 
 const asText = (v: unknown): string | null => (typeof v === 'string' && v.trim() !== '' ? v.trim() : null);
 
@@ -38,6 +41,7 @@ export function Profile() {
       <Header user={user} />
       <Study />
       <Topics />
+      {!isTv() && <SupportCard />}
       <Details />
       {providersOf(user).includes('email') ? <PasswordCard /> : <GooglePasswordNote />}
       <Data />
@@ -64,6 +68,7 @@ function Header({ user }: { user: User }) {
           <span class={user.email_confirmed_at ? 'badge ok' : 'badge'}>
             <T t={user.email_confirmed_at ? a.emailVerified : a.emailUnverified} />
           </span>
+          {!isTv() && isSupporter(billing.value) && <span class="badge supporter"><T t={b.badge} /></span>}
         </p>
       </div>
       <dl class="facts">
@@ -135,6 +140,48 @@ function Topics() {
           ))}
         </ul>
       )}
+    </div>
+  );
+}
+
+/** The support plan: re-read on every visit, so a badge that just landed shows at once. */
+function SupportCard() {
+  const row = billing.value;
+  const [error, setError] = useState<Bi | null>(null);
+  const [busy, setBusy] = useState(false);
+  useEffect(() => {
+    void readBilling().then((err) => err && setError(err));
+  }, []);
+  const manage = async () => {
+    setBusy(true);
+    const err = await openPortal();
+    if (err) {
+      setError(err);
+      setBusy(false);
+    }
+  };
+  return (
+    <div class="card">
+      <h2><T t={b.cardTitle} /></h2>
+      {row === undefined && !error && <p class="muted small"><T t={a.loading} /></p>}
+      {row !== undefined && isSupporter(row) && (
+        <>
+          <p><span class="badge supporter"><T t={b.badge} /></span> <T t={b.active} /></p>
+          <div class="actions">
+            <button type="button" class="secondary" onClick={() => void manage()} disabled={busy}><T t={busy ? b.redirecting : b.manage} /></button>
+          </div>
+          <p class="muted small"><T t={b.manageHint} /></p>
+        </>
+      )}
+      {row !== undefined && !isSupporter(row) && (
+        <>
+          <p class="muted small"><T t={b.cardNone} /></p>
+          <div class="actions">
+            <a class="secondary" href="#/support"><T t={b.cardSee} /></a>
+          </div>
+        </>
+      )}
+      <Message error={error} />
     </div>
   );
 }
@@ -258,6 +305,7 @@ function Data() {
       <div class="actions">
         <button type="button" class="secondary danger" onClick={() => void erase()}><T t={a.deleteData} /></button>
       </div>
+      {!isTv() && <p class="muted small"><T t={b.eraseNote} /></p>}
       <p class="muted small"><T t={a.deleteAccountNote} /></p>
       <Message error={msg.error} ok={msg.ok} />
     </div>

@@ -9,6 +9,7 @@ import type { LearnState, LessonRecord, QuizRecord } from './learn-core';
 import { exams, onLocalChange, progress, replaceLocal, reviveProgress, type Entry, type ExamResult, type RawEntry } from './store';
 import { clearAttempts, pendingAttempts, removeAttempts } from './attempts';
 import { crmBrandId, requireClient } from './supabase';
+import { eraseBilling } from './billing';
 
 /** Where a lead goes. Origin-checked and rate-limited by Podograph; see docs/backend/README.md. */
 const LEADS_URL = 'https://api.podograph.com/leads/capture';
@@ -81,7 +82,7 @@ const examRow = (userId: string, e: ExamResult) => ({
 });
 
 /** Reads a whole table in pages. `orderBy` must name a unique column, or pages can overlap or skip rows. */
-async function fetchAll<T>(table: 'progress' | 'exam_results' | 'attempts' | 'lesson_progress' | 'quiz_progress', columns: string, orderBy?: string): Promise<T[]> {
+async function fetchAll<T>(table: 'progress' | 'exam_results' | 'attempts' | 'lesson_progress' | 'quiz_progress' | 'billing', columns: string, orderBy?: string): Promise<T[]> {
   const db = requireClient();
   const out: T[] = [];
   for (let from = 0; ; from += PAGE) {
@@ -361,6 +362,8 @@ export async function saveProfile(patch: Partial<Pick<Profile, 'display_name' | 
 export async function deleteMyData(): Promise<Bi | null> {
   try {
     const db = requireClient();
+    // End any support plan first. If Stripe cannot, nothing is deleted and the person is told why.
+    await eraseBilling();
     // Withdraw the consent captured at sign-up first, or the next sync would recreate the profile and re-send the lead.
     const meta = await db.auth.updateUser({ data: { marketing_opt_in: false, marketing_consent_at: null } });
     if (meta.error) throw meta.error;
@@ -379,19 +382,21 @@ export async function deleteMyData(): Promise<Bi | null> {
   }
 }
 
-export type ExportBundle = { exported_at: string; app: 'glorieta'; account: { email: string | undefined; created_at: string | undefined }; profile: Profile | null; progress: ProgressRow[]; exam_results: ExamRow[]; attempts: unknown[]; lesson_progress: LessonRow[]; quiz_progress: QuizRow[] };
+export type ExportBundle = { exported_at: string; app: 'glorieta'; account: { email: string | undefined; created_at: string | undefined }; profile: Profile | null; progress: ProgressRow[]; exam_results: ExamRow[]; attempts: unknown[]; lesson_progress: LessonRow[]; quiz_progress: QuizRow[]; billing: BillingExportRow | null };
+type BillingExportRow = { stripe_customer_id: string; entitlements: string[]; history: unknown[]; created_at: string; updated_at: string };
 
 /** Everything the database holds about this person in Glorieta, for them to keep. */
 export async function exportMyData(): Promise<{ ok: true; data: ExportBundle } | { ok: false; error: Bi }> {
   const user = activeUser;
   if (!user) return { ok: false, error: bi('No has iniciado sesión.', 'You are not signed in.') };
   try {
-    const [progressRows, examRows, attemptRows, lessonRows, quizRows] = await Promise.all([
+    const [progressRows, examRows, attemptRows, lessonRows, quizRows, billingRows] = await Promise.all([
       fetchAll<ProgressRow>('progress', 'item_id, card, seen, right_count, updated_at', 'item_id'),
       fetchAll<ExamRow>('exam_results', 'taken_at, total, errors, unanswered, passed', 'taken_at'),
       fetchAll<unknown>('attempts', 'item_id, correct, mode, answered_at, id', 'id'),
       fetchAll<LessonRow>('lesson_progress', 'lesson_key, done, step, answered, updated_at', 'lesson_key'),
       fetchAll<QuizRow>('quiz_progress', 'module_id, best, last, attempts, updated_at', 'module_id'),
+      fetchAll<BillingExportRow>('billing', 'stripe_customer_id, entitlements, history, created_at, updated_at', 'user_id'),
     ]);
     return {
       ok: true,
@@ -405,6 +410,7 @@ export async function exportMyData(): Promise<{ ok: true; data: ExportBundle } |
         attempts: attemptRows,
         lesson_progress: lessonRows,
         quiz_progress: quizRows,
+        billing: billingRows[0] ?? null,
       },
     };
   } catch (err) {

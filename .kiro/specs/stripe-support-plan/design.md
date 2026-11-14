@@ -298,12 +298,12 @@ The Stripe webhook endpoint is created with only the four event types enabled. (
 |---|---|
 | Route `#/support`: what the plan pays for, the statement that every study feature stays free, the two plans from `/api/billing/prices`, sign-in prompt when signed out, "Manage" when already a supporter | `src/screens/Support.tsx` (Req 2.6, 7.4, 7.5) |
 | Thank-you and cancelled notices driven by `?checkout=` | `src/screens/Support.tsx` (Req 2.7, 2.8) |
-| Menu bar link to `#/support` | `src/Bar.tsx` (Req 7.1) |
-| Supporter badge and "Manage plan" | `src/screens/Profile.tsx`, account link in `src/Bar.tsx` (Req 7.2) |
+| Menu bar link to `#/support`, hidden at 520 px and below, where the bar has no room for it | menu bar in `src/App.tsx` (Req 7.1) |
+| Supporter badge and "Manage plan" | `src/screens/Profile.tsx`, account link in `src/App.tsx` (Req 7.2) |
 | Billing client: `getPrices`, `startCheckout`, `openPortal`, `eraseBilling`, `readBilling` | `src/lib/billing.ts` |
 | Erasure calls `eraseBilling()` before `delete_my_data` and stops on its error | `deleteMyData()` in `src/lib/sync.ts` (Req 8.1, 8.2) |
 | ES and EN strings | `src/billingStrings.ts`, same `{ es, en }` shape as `authStrings.ts` (Req 7.3) |
-| Nothing billing-related renders when `tv.ts` reports TV mode | `Bar.tsx`, `Profile.tsx`, router (Req 7.6) |
+| Nothing billing-related renders when `tv.ts` reports TV mode | `App.tsx` (menu, badge, router), `Profile.tsx` (Req 7.6) |
 
 The welcome flow and the sign-up flow do not link to the support page. (Req 7.1)
 

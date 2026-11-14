@@ -15,3 +15,6 @@ export function applyTvMode() {
   }
   document.documentElement.classList.toggle('tv', on);
 }
+
+/** True in TV mode. Billing stays off the TV entirely. */
+export const isTv = (): boolean => document.documentElement.classList.contains('tv');

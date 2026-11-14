@@ -101,28 +101,31 @@ schema; nothing is mocked.
   reaches Stripe or the database
   - _Requirements: 5.1, 5.3, 9.5_
 
-- [ ] 7. Supporter UI
-- [ ] 7.1 `src/billingStrings.ts` with every new string in `{ es, en }`; map `active_support_plan`,
+- [x] 7. Supporter UI
+- [x] 7.1 `src/billingStrings.ts` with every new string in `{ es, en }`; map `active_support_plan`,
   `already_supporter`, `no_profile`, `no_customer`, `catalog_incomplete` and
   `stripe_delete_failed` in `src/lib/auth-errors.ts`, and extend `auth-errors.test.ts` to check
   them in both languages
   - _Requirements: 7.3_
-- [ ] 7.2 `src/lib/billing.ts`: `getPrices`, `startCheckout`, `openPortal`, `eraseBilling`,
+- [x] 7.2 `src/lib/billing.ts`: `getPrices`, `startCheckout`, `openPortal`, `eraseBilling`,
   `readBilling`, present only when `authEnabled`
-- [ ] 7.3 `src/screens/Support.tsx` at `#/support`: what the plan pays for, that every study
+- [x] 7.3 `src/screens/Support.tsx` at `#/support`: what the plan pays for, that every study
   feature stays free, the plans from Stripe, a sign-in prompt when signed out, Manage when already a
   supporter, thank-you and cancelled notices from `?checkout=` (read once, then removed from the
   address bar), and a re-read of the mirror on every open
   - _Requirements: 2.6, 2.7, 2.8, 7.4, 7.5_
-- [ ] 7.4 Menu bar link in `src/Bar.tsx`; supporter badge and Manage plan in
+- [x] 7.4 Menu bar link in `src/Bar.tsx`; supporter badge and Manage plan in
   `src/screens/Profile.tsx` and on the account link; no link from the welcome or sign-up flows
   - _Requirements: 7.1, 7.2_
-- [ ] 7.5 `deleteMyData()` in `src/lib/sync.ts` calls `eraseBilling()` first and stops on its error
+- [x] 7.5 `deleteMyData()` in `src/lib/sync.ts` calls `eraseBilling()` first and stops on its error
   - _Requirements: 8.1, 8.2_
-- [ ] 7.6 Hide the menu link, badge, Manage button and `#/support` route in TV mode (`src/lib/tv.ts`)
+- [x] 7.6 Hide the menu link, badge, Manage button and `#/support` route in TV mode (`src/lib/tv.ts`)
   - _Requirements: 7.6_
-- [ ] 7.7 Check the support page, profile and erase flow in the browser pane in ES, ES+EN and EN,
-  at phone width and desktop width, and in TV mode
+- [x] 7.7 Check the signed-out support page in the browser pane (production build, `wrangler dev`
+  behind it) in ES and EN, at phone and desktop width, in TV mode, and the `?checkout=` notices
+- [ ] 7.8 Check the signed-in views (plans with Choose buttons, supporter badge in the menu bar and
+  profile, the profile's support card, Manage, erase) with a real signed-in test account, as part of
+  task 9.1
 
 - [ ] 8. Stripe test-mode setup
 - [ ] 8.1 `scripts/stripe-catalog.mjs`: idempotent by lookup key; creates the Product, both EUR

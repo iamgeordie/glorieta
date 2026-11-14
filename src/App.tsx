@@ -21,6 +21,10 @@ import { Flag } from './Flag';
 import { authEnabled } from './lib/supabase';
 import { a } from './authStrings';
 import { Practice } from './screens/Study';
+import { Support } from './screens/Support';
+import { b } from './billingStrings';
+import { billing, isSupporter, readBilling } from './lib/billing';
+import { isTv } from './lib/tv';
 import { Suspense, lazy } from 'preact/compat';
 
 /**
@@ -61,6 +65,7 @@ function AccountLink() {
         <span class="avatar mini initial" aria-hidden="true">{initialOf(name)}</span>
       )}
       <span class="account-name">{name}</span>
+      {!isTv() && isSupporter(billing.value) && <span class="badge supporter mini"><T t={b.badge} /></span>}
     </a>
   );
 }
@@ -133,6 +138,9 @@ function Screen() {
       return <Signs />;
     case 'account':
       return authEnabled ? <Account view={arg} /> : <Home />;
+    case 'support':
+      // No billing on the TV, and none in a build without accounts.
+      return authEnabled && !isTv() ? <Support /> : <Home />;
     case 'phrases':
       return <Phrases />;
     case 'facts':
@@ -149,6 +157,13 @@ export function App() {
     settleLanding();
     const giveUp = setTimeout(() => settleLanding(true), 3000);
     return () => clearTimeout(giveUp);
+  }, [authStatus.value]);
+
+  // The supporter badge in the menu bar needs the person's billing row; a sign-out forgets it.
+  useEffect(() => {
+    if (!authEnabled || isTv()) return;
+    if (authStatus.value === 'in') void readBilling();
+    else billing.value = undefined;
   }, [authStatus.value]);
 
   // E flips between Spanish and English; typing in a field is left alone.
@@ -173,6 +188,9 @@ export function App() {
         <nav class="bar" aria-label="Glorieta">
           <a class="navlink" href="#/" aria-current={home ? 'page' : undefined}><T t={bi('Inicio', 'Home')} /></a>
           <a class="navlink" href="#/welcome"><T t={bi('Bienvenida', 'Welcome')} /></a>
+          {authEnabled && !isTv() && (
+            <a class="navlink support-link" href="#/support" aria-current={route.value.startsWith('#/support') ? 'page' : undefined}><T t={b.navSupport} /></a>
+          )}
           {authEnabled && <AccountLink />}
           <LangSwitch />
         </nav>

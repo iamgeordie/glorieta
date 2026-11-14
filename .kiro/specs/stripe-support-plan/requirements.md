@@ -165,7 +165,8 @@ that a leak cannot reach LinguaMama's billing or the shared database outside `gl
 
 #### Acceptance Criteria
 
-1. The Glorieta App shall offer the support page from the menu bar and the profile page, and
+1. The Glorieta App shall offer the support page from the menu bar on screens wider than 520 px
+   (a phone's menu bar has no room beside the language switch) and from the profile page, and
    shall never interrupt a lesson, practice session or mock exam with it. The welcome and
    sign-up flows shall not link to it.
 2. While a user holds `glorieta_supporter`, the profile page and the account link shall show a
