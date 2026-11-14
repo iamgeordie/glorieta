@@ -5,8 +5,8 @@ own files. Tasks marked **(Geordie)** need access only Geordie has: the Stripe d
 1Password, or the switch to live mode. Development uses Stripe test mode and the real `glorieta`
 schema; nothing is mocked.
 
-- [ ] 1. Billing schema (003) and its tests
-- [ ] 1.1 Write `docs/backend/glorieta-schema-003-billing.sql`
+- [x] 1. Billing schema (003) and its tests
+- [x] 1.1 Write `docs/backend/glorieta-schema-003-billing.sql`
   - `glorieta.only_glorieta_keys(text[])`, `glorieta.billing`, `glorieta.billing_key`, exactly as in
     the design's Data Models section, each `create … if not exists` / `create or replace`
   - `glorieta.billing_apply(p_body text, p_sig text) returns jsonb`: `security definer`,
@@ -17,7 +17,7 @@ schema; nothing is mocked.
   - `delete_my_data()` rewritten in `plpgsql`, still `security invoker`, raising
     `active_support_plan` while the caller's row holds `glorieta_supporter`
   - _Requirements: 4.1, 4.4, 4.5, 4.6, 4.8, 6.3, 8.3_
-- [ ] 1.2 Extend `scripts/test-schema.mjs` to apply 003 after 002, twice
+- [x] 1.2 Extend `scripts/test-schema.mjs` to apply 003 after 002, twice
   - Model Supabase's `extensions` schema in PGlite with the `pgcrypto` contrib extension, and sign
     test calls with `node:crypto` `createHmac('sha256', key)`
   - Assert: unsigned, wrongly signed and stale calls are refused; a replayed event id changes
@@ -28,7 +28,7 @@ schema; nothing is mocked.
     grant in the schema and no table grant; `delete_my_data` refuses a supporter, succeeds after
     `clear`, and removes the billing row through the profile foreign key
   - _Requirements: 4.1–4.8, 6.3, 8.3, 9.5_
-- [ ] 1.3 Update `docs/backend/README.md`: the third file, the one `security definer` function and
+- [x] 1.3 Update `docs/backend/README.md`: the third file, the one `security definer` function and
   the one `anon` grant (replacing "no `SECURITY DEFINER` function, grants nothing to `anon`"), how
   `billing_key` is set, and the new tests
   - _Requirements: 6.3, 6.4_

@@ -40,6 +40,8 @@ browser (local-first)                         Supabase project
 | `lesson_progress` | the Learn course, per lesson: finished or not, where you stopped, and your first answer to each check |
 | `quiz_progress` | the Learn course, per module quiz: best and latest percent, and how many attempts |
 | `profiles` | display name and the CRM opt-in with its timestamp |
+| `billing` | the support plan: the person's Stripe customer id and a one-way mirror of their active Stripe entitlement keys (`glorieta_*` only), the last applied Stripe event, the last 50 transitions, and the supporter state last reported to Podograph. Readable by its owner; written only by `billing_apply()` |
+| `billing_key` | the HMAC key `billing_apply()` checks signatures against. One row, readable by no role but the table owner |
 | `my_stats()` | a SQL function: per-topic attempts and accuracy for the signed-in person, computed in the database. The Account screen shows it |
 | `item_difficulty` | a view across everyone: per question, how many tried, how many got it right. No user ids, and readable by the service role only, so the owner can see which questions are too hard or too easy |
 
@@ -62,10 +64,31 @@ Relevance Supabase project is shared on purpose: one small instance carries seve
 paying for one each. If Glorieta ever outgrows it, moving it is a matter of dumping the `glorieta` schema into a
 project of its own and changing the two public values in `.env.production`.
 
-Two files, applied in order. 001 is for an empty project; 002 is idempotent (safe to run twice):
+Three files, applied in order. 001 is for an empty project; 002 and 003 are idempotent (safe to run twice):
 
 1. `glorieta-schema.sql` (001) creates the schema, tables, policies and privileges.
 2. `glorieta-schema-002-course-progress.sql` adds `lesson_progress` and `quiz_progress` and extends the erase function to cover them.
+3. `glorieta-schema-003-billing.sql` adds the support plan's `billing` mirror, its `billing_key`, the signed writer `billing_apply()`, and makes the erase function refuse while a support plan is active.
+
+**The billing writer.** `billing_apply(p_body text, p_sig text)` is the schema's one `SECURITY DEFINER`
+function and the only thing `anon` may touch: 003 grants `anon` USAGE on the schema and EXECUTE on that
+function, and no table privilege. The Glorieta Worker calls it with the public publishable key after verifying
+a Stripe webhook, signing the exact JSON body with HMAC-SHA256. The function refuses a call with a wrong
+signature, one issued more than 300 seconds ago, and any operation other than `link_customer`, `entitlements`,
+`clear` and `crm_reported`. So the key the Worker holds can set Glorieta supporter flags and nothing else in the
+database. The key is not in the file; insert it once from 1Password, and give the Worker the same value as its
+`BILLING_HMAC_KEY` secret:
+
+```sql
+insert into glorieta.billing_key (secret) values ('<64 or more hex characters>')
+on conflict (id) do update set secret = excluded.secret;
+```
+
+**Erasure with a support plan.** "Delete my Glorieta data" first asks the Worker (`/api/billing/erase`) to
+delete the person's Stripe customer, which cancels the plan at once, and to clear the mirror. Only then does
+`delete_my_data()` run; it refuses with `active_support_plan` while the mirror still says the person is a
+supporter, so no client can erase a paying person's data and leave the plan running. The billing row goes with
+the profile through its foreign key.
 
 **How 002 reached the live database (2026-10-17).** It was run as plain SQL in one transaction, then the API
 cache was reloaded (`notify pgrst, 'reload schema'`), and the result was checked read-only: row level security
@@ -77,8 +100,8 @@ the monorepo's `supabase/migrations/` under a new timestamped name and mark it a
 
 001 is meant for
 a project where the signed-in role can reach nothing but its own data, so check that before turning
-sign-up on. The schema has no trigger on `auth.users`, no `SECURITY DEFINER` function, and grants
-nothing to `anon`.
+sign-up on. The schema has no trigger on `auth.users`, and from 003 on exactly one `SECURITY DEFINER`
+function, `billing_apply()`, which is also the only grant to `anon`.
 
 Apply it with your own migration process, then expose the `glorieta` schema to the API and add the
 site's address to the auth redirect URLs (email links return there).
@@ -94,10 +117,10 @@ npm test
   shown with their code, never swallowed.
 - `src/lib/attempts.test.ts`: the answer-log queue (cap keeps the newest, uploaded answers are removed by item and time).
 - `src/lib/learn-merge.test.ts`: the course-progress merge rules (finished stays finished, answers union with the earlier answer winning, best quiz score and attempt count are kept, nothing is ever dropped).
-- `scripts/test-schema.mjs`: applies `glorieta-schema.sql`, then 002 (twice, to prove it is idempotent), to an embedded Postgres ([PGlite](https://pglite.dev))
-  with Supabase's roles and `auth.uid()` modeled, then checks that one user cannot read, write, move or
+- `scripts/test-schema.mjs`: applies `glorieta-schema.sql`, then 002 and 003 (each twice, to prove they are idempotent), to an embedded Postgres ([PGlite](https://pglite.dev))
+  with Supabase's roles, `auth.uid()` and the `extensions` schema with pgcrypto modeled, then checks that one user cannot read, write, move or
   delete another's rows, that `anon` and a token with no subject see nothing, that the constraints hold,
-  that the answer log is append-only and de-duplicated, that `my_stats()` sees only the caller's answers, that the cross-user view is closed to signed-in users and exposes no user ids, and that the erase function is scoped to the caller.
+  that the answer log is append-only and de-duplicated, that `my_stats()` sees only the caller's answers, that the cross-user view is closed to signed-in users and exposes no user ids, and that the erase function is scoped to the caller. For billing it checks that unsigned, wrongly signed, tampered and stale calls to `billing_apply()` are refused; that only `glorieta_` keys are stored; that a replayed Stripe event changes nothing; that history stops at 50; that an unknown customer or an erased person gets no row; that a person reads only their own billing row and no client role (nor the service role) can write it; that no role can read the key; that `anon` can execute exactly one function; and that erasure refuses a supporter until the mirror is cleared.
 
 What the tests do **not** prove: behavior against a real Supabase project (PostgREST, GoTrue, email
 delivery, the CRM endpoint). The sign-up, sign-in and reset flows have been checked for rendering and
