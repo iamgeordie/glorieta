@@ -130,7 +130,7 @@ are none to grant.
 | File | Responsibility |
 |---|---|
 | `index.ts` | Router for `/api/billing/*`; method checks; JSON errors; nothing else |
-| `stripe.ts` | The only `new Stripe()` in the repo. API version pinned to `2026-03-25.dahlia` (LinguaMama's pin), `Stripe.createFetchHttpClient()`, `Stripe.createSubtleCryptoProvider()` |
+| `stripe.ts` | The only `new Stripe()` in the repo. API version pinned to `Stripe.API_VERSION`, the version the installed SDK is typed against (`2026-08-26.dahlia` for 22.6.2, the same dahlia line as LinguaMama's `2026-03-25.dahlia`); refuses any key that is not `rk_`. `Stripe.createFetchHttpClient()`, `Stripe.createSubtleCryptoProvider()` |
 | `auth.ts` | Reads `Authorization: Bearer <jwt>`, resolves the user with `supabase.auth.getUser(jwt)`; 401 on anything else |
 | `mirror.ts` | Signs and sends `billing_apply()` calls; reads the caller's own row with the caller's JWT |
 | `entitlements.ts` | Pure: filter keys to `glorieta_*`, decide supporter state, decide whether Podograph needs a signal |
@@ -461,7 +461,7 @@ The Worker logs each webhook outcome with event id, type and result (`applied`, 
 All tests run in `npm test`, which becomes:
 
 ```
-node --test src/lib/*.test.ts worker/*.test.ts && node scripts/test-schema.mjs && node scripts/assert-no-secrets.mjs
+node --test src/lib/*.test.ts worker/*.test.ts scripts/*.test.mjs && node scripts/test-schema.mjs
 ```
 
 | Test | Covers | Req |
@@ -469,7 +469,7 @@ node --test src/lib/*.test.ts worker/*.test.ts && node scripts/test-schema.mjs &
 | `worker/entitlements.test.ts` | `glorieta_` filter; supporter decision; Podograph decision across consent, `crm_synced_at` and reported state | 4.5, 8.4, 8.5 |
 | `worker/webhook.test.ts` | Real `stripe.webhooks.generateTestHeaderString` signatures: bad signature → 400; foreign customer → 200 with no database call; unknown event → 200 | 5.1–5.3 |
 | `scripts/test-schema.mjs` (extended) | Applies 003 in PGlite with pgcrypto in schema `extensions`: unsigned and wrongly signed calls refused; stale call refused; replayed event id is a no-op; non-`glorieta_` keys never stored; history capped at 50; `no_row` for unknown customers; a user reads only their own row; no client role can write it; `billing_key` unreadable by every role; `anon` holds exactly one execute grant; `delete_my_data` refuses a supporter and succeeds after `clear`; 003 applies twice | 4.1–4.8, 6.3, 8.3 |
-| `scripts/assert-no-secrets.mjs` | Fails if `dist/` contains `sk_`, `rk_`, `whsec_` or `sb_secret_` followed by key characters; also runs in `npm run deploy` | 6.5 |
+| `scripts/secret-scan.test.mjs`, `scripts/assert-no-secrets.mjs` | The detector finds `sk_`, `rk_`, `whsec_` and `sb_secret_` keys and ignores public keys (unit test); the scan fails `npm run build`, and so every deploy, if `dist/` contains one | 6.5 |
 
 The Worker tests exercise the real Stripe SDK's signing and the real pure modules. Network calls
 to Stripe, Supabase and Podograph are exercised by the end-to-end run, not stubbed.

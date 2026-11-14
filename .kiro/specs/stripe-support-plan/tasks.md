@@ -33,21 +33,22 @@ schema; nothing is mocked.
   `billing_key` is set, and the new tests
   - _Requirements: 6.3, 6.4_
 
-- [ ] 2. Worker scaffold
-- [ ] 2.1 Add the `stripe` npm package at major version 22; add `worker/index.ts` with a router
+- [x] 2. Worker scaffold
+- [x] 2.1 Add the `stripe` npm package at major version 22; add `worker/index.ts` with a router
   that answers only `/api/billing/*` and returns a JSON 404 for any other `/api/*` path
-- [ ] 2.2 Update `wrangler.jsonc`: `main`, `compatibility_flags: ["nodejs_compat"]`,
+- [x] 2.2 Update `wrangler.jsonc`: `main`, `compatibility_flags: ["nodejs_compat"]`,
   `assets.binding`, `assets.run_worker_first: ["/api/*"]`, and the `vars` from the design
-- [ ] 2.3 Add `worker/stripe.ts` (the only `new Stripe()`, API version `2026-03-25.dahlia`, fetch
+- [x] 2.3 Add `worker/stripe.ts` (the only `new Stripe()`, API version `2026-03-25.dahlia`, fetch
   HTTP client, SubtleCrypto provider) and `worker/auth.ts` (`Authorization: Bearer`, resolved
   with `supabase.auth.getUser`, 401 `unauthenticated` otherwise)
   - _Requirements: 2.5, 6.1_
-- [ ] 2.4 Add a `tsconfig` for `worker/` with Workers types, and include it in `npm run build`
-- [ ] 2.5 Proxy `/api` to `wrangler dev` (port 8787) in `vite.config.ts`; add a `.dev.vars.example`
+- [x] 2.4 Add a `tsconfig` for `worker/` with Workers types, and include it in `npm run build`
+- [x] 2.5 Proxy `/api` to `wrangler dev` (port 8787) in `vite.config.ts`; add a `.dev.vars.example`
   listing the three secret names with no values
-- [ ] 2.6 Add `scripts/assert-no-secrets.mjs`: fail if `dist/` contains `sk_`, `rk_`, `whsec_` or
-  `sb_secret_` followed by key characters; run it in `npm test` and in `npm run deploy`, and add
-  `worker/*.test.ts` to `npm test`
+- [x] 2.6 Add `scripts/assert-no-secrets.mjs`: fail if `dist/` contains `sk_`, `rk_`, `whsec_` or
+  `sb_secret_` followed by key characters; it runs at the end of `npm run build` (so in every
+  deploy), its detector `scripts/secret-scan.mjs` is unit-tested in `npm test`, and `npm test` runs
+  `worker/*.test.ts`
   - _Requirements: 6.4, 6.5, 9.5_
 
 - [ ] 3. Pure billing logic

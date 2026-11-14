@@ -1,10 +1,28 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "glorieta",
+  "main": "worker/index.ts",
   "compatibility_date": "2026-10-01",
-  "assets": { "directory": "./dist", "not_found_handling": "single-page-application" },
+  "compatibility_flags": ["nodejs_compat"],
+  "upload_source_maps": true,
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application",
+    // Only the API reaches the script; every other path is served from the assets as before.
+    "run_worker_first": ["/api/*"]
+  },
   "routes": [{ "pattern": "glorieta.anaidic.com", "custom_domain": true }],
   // One canonical URL: the custom domain. workers.dev and preview URLs stay off.
   "workers_dev": false,
-  "preview_urls": false
+  "preview_urls": false,
+  "observability": { "enabled": true },
+  // Public configuration. Secrets (STRIPE_RESTRICTED_KEY, STRIPE_WEBHOOK_SECRET, BILLING_HMAC_KEY) are set with
+  // `wrangler secret put` and declared in worker/env.d.ts.
+  "vars": {
+    "SITE_ORIGIN": "https://glorieta.anaidic.com",
+    "SUPABASE_URL": "https://qgfmwstgkwyqqwyqroav.supabase.co",
+    "SUPABASE_PUBLISHABLE_KEY": "sb_publishable_qGi7AfmrPvli1JOZWNwFzQ_eO5_rj9D",
+    "PODOGRAPH_BRAND_ID": "glorieta"
+  }
 }

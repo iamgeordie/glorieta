@@ -16,5 +16,9 @@ export default defineConfig(({ mode }) => {
   if (env.VITE_GOOGLE_AUTH_ENABLED === 'true' && !url) {
     throw new Error('VITE_GOOGLE_AUTH_ENABLED=true needs the Supabase variables as well.');
   }
-  return { plugins: [preact(), learnData()] };
+  return {
+    plugins: [preact(), learnData()],
+    // The billing API runs in the Worker. In development, `wrangler dev` serves it on 8787.
+    server: { proxy: { '/api': 'http://localhost:8787' } },
+  };
 });

@@ -8,12 +8,14 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc --noEmit && vite build",
+    "build": "tsc --noEmit && npm run types:worker && tsc --noEmit -p worker && vite build && node scripts/assert-no-secrets.mjs",
     "preview": "vite preview",
     "check": "node scripts/check-questions.mjs",
     "credits": "node scripts/build-credits.mjs",
-    "test": "node --test src/lib/*.test.ts && node scripts/test-schema.mjs",
-    "deploy": "npm run check && npm run build && node scripts/assert-accounts.mjs && wrangler deploy"
+    "test": "node --test src/lib/*.test.ts worker/*.test.ts scripts/*.test.mjs && node scripts/test-schema.mjs",
+    "deploy": "npm run check && npm run build && node scripts/assert-accounts.mjs && wrangler deploy",
+    "types:worker": "wrangler types worker/worker-configuration.d.ts --strict-vars=false",
+    "dev:worker": "wrangler dev"
   },
   "dependencies": {
     "@preact/signals": "^2.11.3",
@@ -21,6 +23,7 @@
     "@supabase/supabase-js": "^2.118.0",
     "preact": "^11.0.1",
     "remotion": "4.0.536",
+    "stripe": "^22.6.2",
     "ts-fsrs": "^5.4.2"
   },
   "devDependencies": {
