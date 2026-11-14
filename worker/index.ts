@@ -1,11 +1,19 @@
 // The Glorieta Worker. It runs only for /api/* (wrangler.jsonc, assets.run_worker_first); every other
 // request is served from the static assets without reaching this script.
+import { checkout, erase, portal, prices } from './billing.ts';
 import { HttpError, errorResponse } from './http.ts';
+import { webhook } from './webhook.ts';
 
 type Handler = (request: Request, env: Cloudflare.Env, ctx: ExecutionContext) => Promise<Response>;
 
-/** Billing routes, keyed by "METHOD /path". Added by the billing endpoints. */
-export const routes = new Map<string, Handler>();
+/** Billing routes, keyed by "METHOD /path". */
+export const routes = new Map<string, Handler>([
+  ['GET /api/billing/prices', prices],
+  ['POST /api/billing/checkout', checkout],
+  ['POST /api/billing/portal', portal],
+  ['POST /api/billing/erase', erase],
+  ['POST /api/billing/webhook', webhook],
+]);
 
 export async function handle(request: Request, env: Cloudflare.Env, ctx: ExecutionContext): Promise<Response> {
   const { pathname } = new URL(request.url);

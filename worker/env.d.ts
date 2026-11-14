@@ -5,5 +5,7 @@ declare namespace Cloudflare {
     STRIPE_RESTRICTED_KEY: string;
     STRIPE_WEBHOOK_SECRET: string;
     BILLING_HMAC_KEY: string;
+    /** Stripe customer portal configuration (bpc_…). A var, not a secret; differs between test and live mode. */
+    STRIPE_PORTAL_CONFIGURATION?: string;
   }
 }

@@ -51,52 +51,52 @@ schema; nothing is mocked.
   `worker/*.test.ts`
   - _Requirements: 6.4, 6.5, 9.5_
 
-- [ ] 3. Pure billing logic
-- [ ] 3.1 `worker/catalog.ts`: `month` → `glorieta_supporter_monthly`, `year` →
+- [x] 3. Pure billing logic
+- [x] 3.1 `worker/catalog.ts`: `month` → `glorieta_supporter_monthly`, `year` →
   `glorieta_supporter_annual`; reject any other interval
   - _Requirements: 1.5, 2.1_
-- [ ] 3.2 `worker/entitlements.ts`: filter keys to `glorieta_*`, supporter decision, and the
+- [x] 3.2 `worker/entitlements.ts`: filter keys to `glorieta_*`, supporter decision, and the
   Podograph decision (consent on, `crm_synced_at` set, reported state differs)
   - _Requirements: 4.5, 4.7, 8.4, 8.5_
-- [ ] 3.3 `worker/entitlements.test.ts` covering every branch of 3.2
+- [x] 3.3 `worker/entitlements.test.ts` covering every branch of 3.2
   - _Requirements: 9.5_
 
-- [ ] 4. Mirror client
-- [ ] 4.1 `worker/mirror.ts`: build the body as a JSON string with `op` and `issued_at`, sign it
+- [x] 4. Mirror client
+- [x] 4.1 `worker/mirror.ts`: build the body as a JSON string with `op` and `issued_at`, sign it
   with `BILLING_HMAC_KEY` through Web Crypto, call `rpc('billing_apply', { p_body, p_sig })` on
   schema `glorieta` with the publishable key; throw on any database error
-- [ ] 4.2 `readOwnBilling(jwt)`: read the caller's `glorieta.billing` row with their JWT
+- [x] 4.2 `readOwnBilling(jwt)`: read the caller's `glorieta.billing` row with their JWT
   - _Requirements: 4.6, 6.3_
 
-- [ ] 5. User-facing endpoints
-- [ ] 5.1 `GET /api/billing/prices`: both Prices by lookup key with the product expanded, both
+- [x] 5. User-facing endpoints
+- [x] 5.1 `GET /api/billing/prices`: both Prices by lookup key with the product expanded, both
   tagged `app=glorieta`, else 503 `catalog_incomplete`; `Cache-Control: public, max-age=300`
   - _Requirements: 1.3, 1.5_
-- [ ] 5.2 `POST /api/billing/checkout`: 409 `already_supporter`; reuse the stored customer or
+- [x] 5.2 `POST /api/billing/checkout`: 409 `already_supporter`; reuse the stored customer or
   create one tagged `app=glorieta` and `glorieta_user_id`, link it, delete the loser of a race;
   409 `no_profile`; Checkout Session exactly as in the design (subscription metadata, automatic tax,
   required billing address, promotion codes, `client_reference_id`, locale, `?checkout=` return
   URLs)
   - _Requirements: 2.1–2.6_
-- [ ] 5.3 `POST /api/billing/portal`: 404 `no_customer`; otherwise a portal session with
+- [x] 5.3 `POST /api/billing/portal`: 404 `no_customer`; otherwise a portal session with
   `STRIPE_PORTAL_CONFIGURATION` and `return_url` `#/account`
   - _Requirements: 3.1, 3.3, 3.4_
-- [ ] 5.4 `POST /api/billing/erase`: delete the customer (treating `resource_missing` as done),
+- [x] 5.4 `POST /api/billing/erase`: delete the customer (treating `resource_missing` as done),
   then `clear`; 502 `stripe_delete_failed` stops the erasure
   - _Requirements: 8.1, 8.2_
 
-- [ ] 6. Webhook
-- [ ] 6.1 `POST /api/billing/webhook`: `constructEventAsync` (400 on failure); the four event
+- [x] 6. Webhook
+- [x] 6.1 `POST /api/billing/webhook`: `constructEventAsync` (400 on failure); the four event
   types, everything else 200; retrieve the customer and skip unless `metadata.app === 'glorieta'`,
   treating a deleted customer as an empty entitlement set; list active entitlements from Stripe and
   call `billing_apply` `entitlements`; `link_customer` for `checkout.session.completed`; 500 on any
   failure; one log line per event with id, type and outcome, and no email address
   - _Requirements: 4.2, 4.3, 4.4, 4.7, 4.8, 5.1–5.4_
-- [ ] 6.2 `worker/crm.ts`: post `glorieta_supporter_started` / `glorieta_supporter_ended` to
+- [x] 6.2 `worker/crm.ts`: post `glorieta_supporter_started` / `glorieta_supporter_ended` to
   `/leads/capture` with no `Origin` header when 3.2 says so, then `crm_reported`; a Podograph
   failure returns 500 from the webhook
   - _Requirements: 8.4, 8.5_
-- [ ] 6.3 `worker/webhook.test.ts`: signatures made with `stripe.webhooks.generateTestHeaderString`
+- [x] 6.3 `worker/webhook.test.ts`: signatures made with `stripe.webhooks.generateTestHeaderString`
   and a test secret; a bad signature returns 400, an unknown event type returns 200, and neither
   reaches Stripe or the database
   - _Requirements: 5.1, 5.3, 9.5_
