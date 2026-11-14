@@ -150,12 +150,14 @@ schema; nothing is mocked.
   HMAC key"), insert it into `glorieta.billing_key`, and set it as a Worker secret; checked live: a
   call signed by `worker/mirror.ts` with it is accepted and one with another key is refused
   - _Requirements: 6.2, 6.4_
-- [ ] 8.5b **(Geordie)** Set `STRIPE_RESTRICTED_KEY` and `STRIPE_WEBHOOK_SECRET` on the Worker with
-  `wrangler secret put`
+- [ ] 8.5b Set `STRIPE_RESTRICTED_KEY` on the Worker with `wrangler secret put`, from the key Geordie
+  creates in 8.2 (`STRIPE_WEBHOOK_SECRET` is set, from 8.6)
   - _Requirements: 6.2, 6.4_
-- [ ] 8.6 **(Geordie)** Create the test-mode webhook endpoint for
+- [x] 8.6 Create the test-mode webhook endpoint for
   `https://glorieta.anaidic.com/api/billing/webhook` with only the four event types, and save its
-  signing secret
+  signing secret: endpoint `we_1Ubgrm23tZR70mOfGtIlomnb` on `acct_103f1123tZR70mOf`, API version
+  `2026-08-26.dahlia`, metadata `app=glorieta`; secret in 1Password (AppliedRelevance, "Glorieta
+  Stripe webhook secret (test mode)") and in the Worker as `STRIPE_WEBHOOK_SECRET`
   - _Requirements: 5.5, 6.2_
 
 - [ ] 9. End-to-end in test mode

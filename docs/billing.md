@@ -57,9 +57,18 @@ for the one database.
    on conflict (id) do update set secret = excluded.secret;
    ```
 
-4. Developers → Webhooks → Add endpoint: URL `https://glorieta.anaidic.com/api/billing/webhook`, events
-   `checkout.session.completed`, `customer.subscription.updated`, `customer.subscription.deleted`,
-   `entitlements.active_entitlement_summary.updated`, and nothing else. Save its signing secret.
+4. The webhook endpoint takes `https://glorieta.anaidic.com/api/billing/webhook`, the events
+   `checkout.session.completed`, `customer.subscription.updated`, `customer.subscription.deleted` and
+   `entitlements.active_entitlement_summary.updated` and nothing else, API version
+   `2026-08-26.dahlia` (the Worker's), and metadata `app=glorieta`. In test mode it exists:
+   `we_1Ubgrm23tZR70mOfGtIlomnb`, secret in 1Password as "Glorieta Stripe webhook secret (test mode)".
+   For live mode, create it the same way, with the Stripe CLI switched to live mode:
+
+   ```bash
+   stripe webhook_endpoints create --live -d url=https://glorieta.anaidic.com/api/billing/webhook -d api_version=2026-08-26.dahlia -d "description=Glorieta billing" -d "metadata[app]=glorieta" -d "enabled_events[]=checkout.session.completed" -d "enabled_events[]=customer.subscription.updated" -d "enabled_events[]=customer.subscription.deleted" -d "enabled_events[]=entitlements.active_entitlement_summary.updated"
+   ```
+
+   The signing secret is shown only in that response; save it to 1Password at once.
 5. Set the Worker's secrets:
 
    ```bash
