@@ -36,18 +36,21 @@ for the one database.
 2. Create the catalog. Amounts are euro cents:
 
    ```bash
-   STRIPE_SETUP_KEY="$(op read 'op://<vault>/<Glorieta catalog test key>/credential')" node scripts/stripe-catalog.mjs --monthly <cents> --annual <cents>
+   STRIPE_SETUP_KEY="$(op read 'op://AppliedRelevance/<Glorieta catalog test key>/credential')" node scripts/stripe-catalog.mjs --monthly 300 --annual 3000
    ```
 
    It prints the portal configuration id. Put it in `wrangler.jsonc` under `vars` as
    `STRIPE_PORTAL_CONFIGURATION`.
-3. Generate the HMAC key and save it in 1Password:
+3. The HMAC key is already in place: 1Password item "Glorieta billing HMAC key" (AppliedRelevance
+   vault), `glorieta.billing_key`, and the Worker secret `BILLING_HMAC_KEY`. To rotate it, generate a
+   new one and save it in 1Password:
 
    ```bash
    openssl rand -hex 32
    ```
 
-   Insert it into the database (Supabase SQL editor, project `qgfmwstgkwyqqwyqroav`):
+   then insert it into the database (Supabase SQL editor, project `qgfmwstgkwyqqwyqroav`) and set the
+   Worker secret in step 5 in the same sitting, since calls fail while the two differ:
 
    ```sql
    insert into glorieta.billing_key (secret) values ('<the 64 hex characters>')

@@ -139,14 +139,19 @@ schema; nothing is mocked.
   catalog). Save both in 1Password; give Claude the monthly and annual amounts. Steps in
   `docs/billing.md`
   - _Requirements: 6.1, 6.4_
-- [ ] 8.3 Run the catalog script against test mode; add the portal configuration id to `vars`
+- [ ] 8.3 Run the catalog script against test mode with the agreed amounts, €3 a month and €30 a
+  year (`--monthly 300 --annual 3000`); add the portal configuration id to `vars`
 - [x] 8.4 Apply 003 to the live `glorieta` schema the way 002 was applied: plain SQL in one
   transaction, `notify pgrst, 'reload schema'`, no migration-history entry; then check read-only
   that RLS is on for all eight tables, `anon` holds only the `billing_apply` grant, and existing
   rows are unchanged
   - _Requirements: 4.6, 6.3_
-- [ ] 8.5 **(Geordie)** Generate `BILLING_HMAC_KEY`, save it in 1Password, insert it into
-  `glorieta.billing_key`, and set the three Worker secrets with `wrangler secret put`
+- [x] 8.5 Generate `BILLING_HMAC_KEY`, save it in 1Password (AppliedRelevance vault, "Glorieta billing
+  HMAC key"), insert it into `glorieta.billing_key`, and set it as a Worker secret; checked live: a
+  call signed by `worker/mirror.ts` with it is accepted and one with another key is refused
+  - _Requirements: 6.2, 6.4_
+- [ ] 8.5b **(Geordie)** Set `STRIPE_RESTRICTED_KEY` and `STRIPE_WEBHOOK_SECRET` on the Worker with
+  `wrangler secret put`
   - _Requirements: 6.2, 6.4_
 - [ ] 8.6 **(Geordie)** Create the test-mode webhook endpoint for
   `https://glorieta.anaidic.com/api/billing/webhook` with only the four event types, and save its
