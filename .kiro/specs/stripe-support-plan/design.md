@@ -430,7 +430,7 @@ Product id and lookup key:
 
 | Object | Identity | Metadata |
 |---|---|---|
-| Product *Glorieta Supporter* | — | `app=glorieta` |
+| Product *Glorieta Supporter* | id `glorieta_supporter`; card statement `APPREL GLORIETA` | `app=glorieta` |
 | Price, monthly, EUR, recurring | lookup key `glorieta_supporter_monthly` | `app=glorieta` |
 | Price, annual, EUR, recurring | lookup key `glorieta_supporter_annual` | `app=glorieta` |
 | Entitlements Feature | lookup key `glorieta_supporter` | `app=glorieta` |

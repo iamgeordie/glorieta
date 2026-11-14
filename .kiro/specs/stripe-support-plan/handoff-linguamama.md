@@ -66,7 +66,11 @@ can reach a Glorieta customer or product, all in `supabase/functions/`:
      unchanged, and LinguaMama's webhook logs show `skipped glorieta customer`.
    - `get-pricing` does not list *Glorieta Supporter*.
    - Starting LinguaMama checkout with that email creates or reuses a non-Glorieta customer.
-3. Deploy `stripe-webhook`, `create-checkout-session` and `get-pricing` to LinguaMama's project
-   (`myekgdmvvpyfyvexmrgd`), and report the commit SHA back to the Glorieta session.
+3. Deploy `stripe-webhook`, `create-checkout-session` and `get-pricing` to **both** Supabase projects
+   that receive LinguaMama's Stripe events, and report the commit SHA back to the Glorieta session.
+   On the Applied Relevance Stripe account (`acct_103f1123tZR70mOf`), the test-mode webhook goes to
+   `myekgdmvvpyfyvexmrgd` and the live-mode webhook goes to `prtfprwryjhspcdoyner`.
+   The live project serves 4 active live subscriptions, so deploy there only after the
+   test-mode checks pass.
 
 Glorieta's live mode waits for this deploy (Glorieta spec Requirement 5.6 and 9.4).

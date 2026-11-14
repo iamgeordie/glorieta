@@ -1,5 +1,6 @@
 // Creates or checks Glorieta's support-plan catalog in Stripe, idempotently:
-//   Product        glorieta_supporter           "Glorieta Supporter", metadata app=glorieta
+//   Product        glorieta_supporter           "Glorieta Supporter", metadata app=glorieta,
+//                                               card statement "APPREL GLORIETA"
 //   Feature        lookup key glorieta_supporter, attached to the Product
 //   Prices         glorieta_supporter_monthly / glorieta_supporter_annual, EUR, recurring
 //   Portal config  metadata app=glorieta: cancel at period end, card update, invoices, switch between the two Prices
@@ -21,6 +22,8 @@ const PRODUCT_ID = 'glorieta_supporter';
 const FEATURE_KEY = 'glorieta_supporter';
 const PRICES = { month: 'glorieta_supporter_monthly', year: 'glorieta_supporter_annual' };
 const SITE = 'https://glorieta.anaidic.com';
+// What a supporter's card statement shows for the plan, instead of the account-wide "APPLIED RELEVANCE".
+const STATEMENT_DESCRIPTOR = 'APPREL GLORIETA';
 
 function args() {
   const a = process.argv.slice(2);
@@ -51,15 +54,16 @@ let product;
 try {
   product = await stripe.products.retrieve(PRODUCT_ID);
   if (product.metadata.app !== APP) throw new Error(`Product ${PRODUCT_ID} exists without metadata app=${APP}; refusing to touch it.`);
-  if (!product.active) {
-    product = await stripe.products.update(PRODUCT_ID, { active: true });
-    log('product', product.id, 'activated');
+  if (!product.active || product.statement_descriptor !== STATEMENT_DESCRIPTOR) {
+    product = await stripe.products.update(PRODUCT_ID, { active: true, statement_descriptor: STATEMENT_DESCRIPTOR });
+    log('product', product.id, 'updated');
   } else log('product', product.id, 'ok');
 } catch (err) {
   if (err?.code !== 'resource_missing') throw err;
   product = await stripe.products.create({
     id: PRODUCT_ID,
     name: 'Glorieta Supporter',
+    statement_descriptor: STATEMENT_DESCRIPTOR,
     description: 'Optional support plan for Glorieta, the free study app for the Spanish driving theory test. Every study feature stays free.',
     metadata: { app: APP },
   });
