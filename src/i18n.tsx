@@ -30,6 +30,28 @@ export function setMode(m: Mode) {
 
 export const bi = (es: string, en: string): Bi => ({ es, en });
 
+const EXAM_KEY = 'glorieta.examEnglish';
+
+function loadExam(): boolean {
+  try {
+    return localStorage.getItem(EXAM_KEY) === '1';
+  } catch {
+    return false;
+  }
+}
+
+/** Show questions' English in the literal register of the exam's English version, where a question has one. */
+export const examEnglish = signal<boolean>(loadExam());
+
+export function setExamEnglish(on: boolean) {
+  examEnglish.value = on;
+  try {
+    localStorage.setItem(EXAM_KEY, on ? '1' : '0');
+  } catch {
+    // the choice still applies for this visit
+  }
+}
+
 /** `**bold**` in a string marks the key term or number (the signalling principle: cue what matters). */
 export function rich(s: string): ComponentChildren {
   if (!s.includes('**')) return s;

@@ -123,6 +123,10 @@
                   "options": ["A tu izquierda", "A tu derecha", "Depende del carril"],
                   "why": "El centro queda siempre a tu izquierda. Por eso la glorieta se recorre en sentido contrario a las agujas del reloj."
                 },
+                "exam": {
+                  "q": "You circulate by a roundabout in Spain. Towards where is the centre of the roundabout?",
+                  "options": ["At your left.", "At your right.", "It depends on the lane."]
+                },
                 "en": {
                   "q": "You are driving around a roundabout in Spain. Where is the center of the roundabout?",
                   "options": ["On your left", "On your right", "It depends on the lane"],
@@ -177,6 +181,10 @@
                   "options": ["Entras: tú vienes por la derecha", "Cedes el paso y entras cuando haya un hueco", "Aceleras para entrar antes que él"],
                   "why": "Los vehículos que ya están en la glorieta tienen preferencia. Se cede el paso en la entrada y se entra cuando hay un hueco seguro."
                 },
+                "exam": {
+                  "q": "You arrive at a roundabout without signs that change the priority. A car circulates inside, at your left. What do you do?",
+                  "options": ["You enter: you come by the right.", "You yield way and you enter when there is a gap.", "You accelerate in order to enter before him."]
+                },
                 "en": {
                   "q": "You reach a roundabout with no signs that change priority. A car is circulating inside, on your left. What do you do?",
                   "options": ["Enter: you are coming from the right", "Yield and enter when there is a gap", "Speed up to get in before it"],
@@ -215,6 +223,10 @@
                   "q": "En la entrada de una glorieta hay un semáforo en rojo. ¿Qué manda?",
                   "options": ["La regla de la glorieta: entras si no viene nadie por la izquierda", "El vehículo más grande", "El semáforo: te detienes aunque no veas ningún coche"],
                   "why": "La señalización que regula la preferencia manda sobre la regla general. Con el semáforo en rojo no se debe rebasar el semáforo ni la línea de detención: te detienes."
+                },
+                "exam": {
+                  "q": "At the entrance of a roundabout there is a traffic light in red. What rules?",
+                  "options": ["The rule of the roundabout: you enter if nobody comes by the left.", "The biggest vehicle.", "The traffic light: you stop although you do not see any car."]
                 },
                 "en": {
                   "q": "There is a red traffic light at the entrance of a roundabout. Which one governs?",
@@ -314,6 +326,10 @@
                   "options": ["A la derecha", "A la izquierda", "De frente"],
                   "why": "Por convención, en una glorieta de cuatro calles en cruz la primera salida es a la derecha, la segunda sigue recto y la tercera es a la izquierda."
                 },
+                "exam": {
+                  "q": "The examiner says «In the roundabout, take the second exit». The roundabout has four streets in cross. Towards where do you exit, normally?",
+                  "options": ["To the right.", "To the left.", "Straight ahead."]
+                },
                 "en": {
                   "q": "The examiner says “At the roundabout, take the second exit”. The roundabout has four streets in a cross. Which way do you usually go?",
                   "options": ["To the right", "To the left", "Straight ahead"],
@@ -402,6 +418,10 @@
                   "options": ["El que ya circula por el carril exterior", "Tú, porque vas a salir", "El que llegue antes al punto de cruce"],
                   "why": "Quien cambia de carril debe respetar la prioridad del que circula por el carril al que quiere pasar."
                 },
+                "exam": {
+                  "q": "You go by the interior lane of a roundabout and you want to pass to the exterior in order to exit. Who has priority?",
+                  "options": ["The one who already circulates by the exterior lane.", "You, because you are going to exit.", "The one who arrives before at the point of crossing."]
+                },
                 "en": {
                   "q": "You are in the inner lane of a roundabout and want to move to the outer lane to exit. Who has priority?",
                   "options": ["The one already in the outer lane", "You, because you are about to exit", "Whoever reaches the crossing point first"],
@@ -447,6 +467,10 @@
                   "q": "Pasas de largo tu salida en una glorieta. ¿Qué es lo más seguro?",
                   "options": ["Parar y dar marcha atrás hasta la salida", "Dar otra vuelta a la glorieta", "Cruzar los carriles de golpe hacia la salida"],
                   "why": "Dar otra vuelta es lo más seguro. Frenar de golpe, ir marcha atrás o cortar la trayectoria a otros crea un peligro."
+                },
+                "exam": {
+                  "q": "You pass of long your exit in a roundabout. What is the most safe?",
+                  "options": ["To stop and to give reverse gear until the exit.", "To give another turn to the roundabout.", "To cross the lanes of a blow towards the exit."]
                 },
                 "en": {
                   "q": "You drive past your exit in a roundabout. What is the safest thing to do?",
@@ -513,6 +537,10 @@
                   "options": ["Moderarla, y detenerte si hace falta", "Mantenerla para no estorbar", "Aumentarla para entrar pronto"],
                   "why": "Al aproximarse a una glorieta donde no se tiene prioridad hay que moderar la velocidad, incluso hasta detenerse si es necesario."
                 },
+                "exam": {
+                  "q": "You approach a roundabout in which you do not have priority. What must you do with the speed?",
+                  "options": ["To moderate it, and to stop if it is necessary.", "To maintain it in order not to hinder.", "To increase it in order to enter soon."]
+                },
                 "en": {
                   "q": "You approach a roundabout where you do not have priority. What should you do with your speed?",
                   "options": ["Moderate it, and stop if needed", "Keep it so you do not hold anyone up", "Increase it to get in quickly"],
@@ -558,6 +586,10 @@
                   "q": "Esperas para entrar en una glorieta. Un coche que viene por tu izquierda no usa el intermitente. ¿Qué es lo prudente?",
                   "options": ["Suponer que seguirá dando vueltas y entrar", "Suponer que va a salir y entrar", "No suponer nada y entrar solo cuando el hueco sea claro"],
                   "why": "Sin intermitente no puedes saber qué hará. Entra solo cuando el hueco sea claro."
+                },
+                "exam": {
+                  "q": "You wait in order to enter a roundabout. A car that comes by your left does not use the indicator. What is the prudent?",
+                  "options": ["To suppose that it will continue giving turns and to enter.", "To suppose that it is going to exit and to enter.", "To suppose nothing and to enter only when the gap is clear."]
                 },
                 "en": {
                   "q": "You wait to enter a roundabout. A car coming from your left uses no turn signal. What is the prudent thing to do?",

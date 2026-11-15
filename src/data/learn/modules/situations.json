@@ -134,6 +134,14 @@
                   ],
                   "why": "En una parada el conductor no puede abandonar el vehículo. Si te alejas, aunque sea medio minuto, es un estacionamiento."
                 },
+                "exam": {
+                  "q": "You leave the car in front of a bakery and you enter 30 seconds to buy bread. What is it, legally?",
+                  "options": [
+                    "A stop, because it lasts less than two minutes.",
+                    "A parking, because you abandon the vehicle.",
+                    "A detention, because it is very brief."
+                  ]
+                },
                 "en": {
                   "q": "You leave your car in front of a bakery and go in for 30 seconds to buy bread. What is it, legally?",
                   "options": [
@@ -219,6 +227,14 @@
                   ],
                   "why": "La señal R-308 prohíbe estacionar, pero no prohíbe la parada. La señal R-307 sí prohíbe las dos cosas."
                 },
+                "exam": {
+                  "q": "There is this sign of prohibited parking. You want to let get off a passenger and you remain at the wheel. Can you stop?",
+                  "options": [
+                    "Yes: that sign prohibits to park, not to stop.",
+                    "No: any immobilisation is prohibited.",
+                    "Yes, but only if you switch off the engine."
+                  ]
+                },
                 "en": {
                   "q": "There is this no-parking sign. You want to let a passenger out and you stay at the wheel. May you stop?",
                   "options": [
@@ -298,6 +314,14 @@
                     "Sí, si no pasa ningún autobús"
                   ],
                   "why": "En los carriles reservados exclusivamente a ciertos usuarios está prohibido parar, aunque sea un momento."
+                },
+                "exam": {
+                  "q": "A lane is reserved only for buses. You want to stop half a minute in order to let get off a passenger. Can you?",
+                  "options": [
+                    "Yes, to stop is something brief.",
+                    "No: it is prohibited to stop in reserved lanes.",
+                    "Yes, if no bus passes."
+                  ]
                 },
                 "en": {
                   "q": "A lane is reserved for buses only. You want to stop for half a minute to let a passenger out. May you?",
@@ -396,6 +420,14 @@
                     "No: está prohibido parar si dificultas el giro de otros"
                   ],
                   "why": "En las intersecciones y cerca de ellas está prohibido parar si se dificulta el giro a otros vehículos."
+                },
+                "exam": {
+                  "q": "You want to stop a moment at the corner of a crossing and your car hinders the turn of other vehicles. Can you?",
+                  "options": [
+                    "Yes, to stop a moment is always permitted.",
+                    "Yes, if you leave put the emergency light.",
+                    "No: it is prohibited to stop if you make difficult the turn of others."
+                  ]
                 },
                 "en": {
                   "q": "You want to stop for a moment at the corner of a junction and your car blocks other vehicles from turning. May you?",
@@ -583,6 +615,14 @@
                   ],
                   "why": "Fuera de poblado se para o se estaciona fuera de la calzada, en el lado derecho, y se deja libre la parte transitable del arcén."
                 },
+                "exam": {
+                  "q": "Outside town you want to leave the car parked. Where must you put it?",
+                  "options": [
+                    "On the left side of the carriageway, if there is little traffic.",
+                    "On the carriageway, as near as possible to the right edge.",
+                    "Outside the carriageway, to the right, without occupying the passable hard shoulder."
+                  ]
+                },
                 "en": {
                   "q": "Outside a town you want to leave your car parked. Where must you put it?",
                   "options": [
@@ -667,6 +707,14 @@
                   ],
                   "why": "Si entre tu coche y el borde opuesto o una línea que prohíbe cruzar quedan menos de tres metros, el estacionamiento se considera peligroso."
                 },
+                "exam": {
+                  "q": "In a street with continuous line in the centre you park to the right and 2 metres remain free until the line. Is it correct?",
+                  "options": [
+                    "Yes, there remains place for a small car to pass.",
+                    "No: it is considered dangerous if less than three metres remain.",
+                    "Yes, if you put the emergency light."
+                  ]
+                },
                 "en": {
                   "q": "On a street with a solid line down the middle you park on the right and 2 meters remain free up to the line. Is that correct?",
                   "options": [
@@ -746,6 +794,14 @@
                   ],
                   "why": "En una pendiente de subida se deja la primera marcha y en una de bajada la marcha atrás, junto con el freno de estacionamiento."
                 },
+                "exam": {
+                  "q": "You leave a car of manual change parked on an uphill slope. Which gear do you leave put, besides the parking brake?",
+                  "options": [
+                    "First.",
+                    "Reverse gear.",
+                    "Neutral."
+                  ]
+                },
                 "en": {
                   "q": "You park a manual-transmission car on an uphill slope. Which gear do you leave it in, besides the parking brake?",
                   "options": [
@@ -823,6 +879,14 @@
                     "No: estacionar en doble fila está prohibido"
                   ],
                   "why": "Estacionar en doble fila está prohibido. El artículo no menciona ninguna excepción por la duración ni por la luz de emergencia."
+                },
+                "exam": {
+                  "q": "You put the car in double row with the emergency light and you go for five minutes. Is it correct?",
+                  "options": [
+                    "Yes, the emergency light permits it.",
+                    "Yes, if they are less than ten minutes.",
+                    "No: to park in double row is prohibited."
+                  ]
                 },
                 "en": {
                   "q": "You put your car in a second row with the hazard lights on and walk away for five minutes. Is that correct?",
@@ -912,6 +976,14 @@
                     "El estacionamiento es libre y gratuito"
                   ],
                   "why": "La línea amarilla discontinua prohíbe estacionar, o lo limita en ciertos momentos que indica una señal. La continua prohíbe además parar."
+                },
+                "exam": {
+                  "q": "Next to the kerb there is a discontinuous yellow line. What does it mean?",
+                  "options": [
+                    "It is prohibited to stop and to park.",
+                    "It is prohibited to park.",
+                    "The parking is free and gratuitous."
+                  ]
                 },
                 "en": {
                   "q": "There is a dashed yellow line along the curb. What does it mean?",
@@ -1148,6 +1220,14 @@
                   ],
                   "why": "Al principio del carril debes comprobar que puedes entrar sin peligro, incluso deteniéndote si es necesario. Después aceleras."
                 },
+                "exam": {
+                  "q": "At the beginning of the acceleration lane you see that you cannot enter traffic without danger. What does the regulation say?",
+                  "options": [
+                    "You enter all the same: the others have to let you pass.",
+                    "You can never stop: you must enter without stopping.",
+                    "You can even stop, if it is necessary."
+                  ]
+                },
                 "en": {
                   "q": "At the start of the acceleration lane you see that you cannot merge safely. What does the regulation say?",
                   "options": [
@@ -1230,6 +1310,14 @@
                   ],
                   "why": "En autopistas y autovías no se puede circular a menos de 60 km/h, aunque no haya otros vehículos, salvo que las circunstancias lo impidan."
                 },
+                "exam": {
+                  "q": "You circulate by a dual carriageway almost empty and your car works well. Can you go at 50 km/h?",
+                  "options": [
+                    "Yes, if there are no other vehicles.",
+                    "No: the minimum in motorways and dual carriageways is of 60 km/h.",
+                    "Yes, if you put the emergency light."
+                  ]
+                },
                 "en": {
                   "q": "You are on an almost empty dual carriageway and your car runs well. May you drive at 50 km/h?",
                   "options": [
@@ -1305,6 +1393,14 @@
                     "Circulo con antelación por el carril más próximo a la salida"
                   ],
                   "why": "Para salir hay que ir con suficiente antelación por el carril más próximo a la salida y entrar pronto en el carril de deceleración."
+                },
+                "exam": {
+                  "q": "Your exit of the motorway is the next one. How do you prepare yourself?",
+                  "options": [
+                    "I pass to the left lane in order to brake without hindering.",
+                    "I wait for the last moment and I cross the lanes.",
+                    "I circulate in advance by the lane nearest to the exit."
+                  ]
                 },
                 "en": {
                   "q": "Your motorway exit is the next one. How do you prepare?",
@@ -1382,6 +1478,14 @@
                     "Sí, con la luz de emergencia"
                   ],
                   "why": "En autopistas y autovías está prohibido parar, salvo en las zonas habilitadas. Una emergencia es otra situación."
+                },
+                "exam": {
+                  "q": "You want to consult the mobile a moment and you stop on the hard shoulder of a motorway, without any emergency. Is it correct?",
+                  "options": [
+                    "No: it is only possible to stop in the enabled zones.",
+                    "Yes, a moment on the hard shoulder is the normal.",
+                    "Yes, with the emergency light."
+                  ]
                 },
                 "en": {
                   "q": "You want to check your phone for a moment and stop on the shoulder of a motorway, with no emergency. Is that correct?",
@@ -1557,6 +1661,14 @@
                   ],
                   "why": "En los túneles hay que llevar encendido el alumbrado a cualquier hora: posición y, si está bien iluminado, también el de cruce."
                 },
+                "exam": {
+                  "q": "You enter at midday, with sun, in a well illuminated tunnel. Which lights do you carry?",
+                  "options": [
+                    "The position ones and the dipped ones.",
+                    "None: it is day.",
+                    "Only the position ones."
+                  ]
+                },
                 "en": {
                   "q": "At noon, in full sun, you enter a well-lit tunnel. Which lights do you use?",
                   "options": [
@@ -1625,6 +1737,14 @@
                   ],
                   "why": "Los vehículos de masa máxima autorizada superior a 3.500 kg deben dejar al menos 150 metros o 6 segundos en un túnel. Los demás, 100 metros o 4 segundos."
                 },
+                "exam": {
+                  "q": "You drive a lorry of 7.500 kg of maximum authorised mass by a tunnel and you are not going to overtake. Which minimum distance do you leave with the vehicle in front?",
+                  "options": [
+                    "100 metres or 4 seconds.",
+                    "50 metres or 2 seconds.",
+                    "150 metres or 6 seconds."
+                  ]
+                },
                 "en": {
                   "q": "You drive a truck with a maximum authorized mass of 7,500 kg through a tunnel and are not going to overtake. What is the minimum distance you leave to the vehicle ahead?",
                   "options": [
@@ -1681,6 +1801,14 @@
                   ],
                   "why": "En un túnel está prohibido adelantar si tu sentido tiene un solo carril. Solo se puede con más de un carril, sin invadir el sentido contrario."
                 },
+                "exam": {
+                  "q": "You go by a tunnel with a single lane in your direction and a slow lorry in front. Can you overtake it?",
+                  "options": [
+                    "Yes, if the visibility is good.",
+                    "No: with a single lane in your direction it is prohibited to overtake.",
+                    "Yes, if you put the emergency light."
+                  ]
+                },
                 "en": {
                   "q": "You are in a tunnel with a single lane in your direction and a slow truck ahead. May you overtake it?",
                   "options": [
@@ -1736,6 +1864,14 @@
                     "Sí, si vas despacio"
                   ],
                   "why": "Nadie debe entrar en un túnel si el semáforo de la boca no le permite el paso. Solo los servicios de urgencia y similares están exceptuados."
+                },
+                "exam": {
+                  "q": "The traffic light of the mouth of a tunnel is in red and from outside you do not see any problem inside. Do you enter?",
+                  "options": [
+                    "No: the traffic light of the entrance commands.",
+                    "Yes, if nobody comes by the tunnel.",
+                    "Yes, if you go slowly."
+                  ]
                 },
                 "en": {
                   "q": "The traffic light at the mouth of a tunnel is red and from outside you see no problem inside. Do you enter?",
@@ -1839,6 +1975,14 @@
                   ],
                   "why": "Si te inmovilizas por necesidades de la circulación no debes abandonar el vehículo: apaga el motor y deja las luces de posición."
                 },
+                "exam": {
+                  "q": "You are stopped inside a tunnel because of a retention of traffic, without any breakdown. What do you do?",
+                  "options": [
+                    "To get out of the car and to walk until the exit.",
+                    "To go backwards until the entrance.",
+                    "To remain in the car, with the engine switched off and the position lights."
+                  ]
+                },
                 "en": {
                   "q": "You are stopped inside a tunnel because of a traffic jam, with no breakdown. What do you do?",
                   "options": [
@@ -1870,6 +2014,14 @@
                     "Salen y caminan por la calzada hasta la entrada"
                   ],
                   "why": "Tras una emergencia, los ocupantes abandonan el vehículo y van al refugio o a la salida más próximos, sin andar por la calzada si hay zonas excluidas al tráfico."
+                },
+                "exam": {
+                  "q": "Your car breaks down in a tunnel and cannot move. What do the occupants do?",
+                  "options": [
+                    "They wait inside with the belt put.",
+                    "They get out and go to the nearest shelter or exit.",
+                    "They get out and walk by the carriageway until the entrance."
+                  ]
                 },
                 "en": {
                   "q": "Your car breaks down in a tunnel and cannot move. What do the occupants do?",
@@ -2049,6 +2201,14 @@
                   ],
                   "why": "Todos los conductores deben extremar la prudencia y reducir la velocidad por debajo de la máxima permitida al aproximarse a un paso a nivel."
                 },
+                "exam": {
+                  "q": "You approach a level crossing. What must you do with the speed?",
+                  "options": [
+                    "To maintain it if you see that no train comes.",
+                    "To reduce it below the maximum permitted.",
+                    "To reduce it only if the barriers are lowered."
+                  ]
+                },
                 "en": {
                   "q": "You are approaching a level crossing. What must you do with your speed?",
                   "options": [
@@ -2141,6 +2301,14 @@
                   ],
                   "why": "Una luz roja intermitente antes de un paso a nivel prohíbe temporalmente el paso, aunque la barrera todavía esté levantada."
                 },
+                "exam": {
+                  "q": "Before a level crossing a red light blinks, but the barrier has not yet lowered. What do you do?",
+                  "options": [
+                    "You cross quickly: there is still time.",
+                    "You cross if you do not see any train.",
+                    "You stop: the intermittent red light prohibits the passage."
+                  ]
+                },
                 "en": {
                   "q": "A red light is flashing before a level crossing, but the barrier has not come down yet. What do you do?",
                   "options": [
@@ -2172,6 +2340,14 @@
                     "Rodeando la barrera, si no ves ningún tren"
                   ],
                   "why": "Quien encuentra el paso cerrado debe detenerse en su carril, uno detrás de otro, hasta que tenga paso libre."
+                },
+                "exam": {
+                  "q": "The barriers of a level crossing are lowered and there is a row of cars. How do you wait?",
+                  "options": [
+                    "Behind the car in front, in your lane.",
+                    "Overtaking the row by the other lane.",
+                    "Going round the barrier, if you do not see any train."
+                  ]
                 },
                 "en": {
                   "q": "The barriers at a level crossing are down and there is a line of cars. How do you wait?",
@@ -2227,6 +2403,14 @@
                     "Que debes parar siempre y tocar la bocina"
                   ],
                   "why": "En un paso a nivel sin barreras ni semáforo, nadie debe entrar sin asegurarse antes de que no se acerca ningún vehículo sobre raíles."
+                },
+                "exam": {
+                  "q": "A level crossing has neither barriers nor traffic light. What does the regulation say before entering?",
+                  "options": [
+                    "That you can enter if you do not hear any train.",
+                    "That you must make sure that no vehicle approaches by the track.",
+                    "That you must always stop and sound the horn."
+                  ]
                 },
                 "en": {
                   "q": "A level crossing has no barriers or traffic light. What does the regulation say before entering?",
@@ -2284,6 +2468,14 @@
                   ],
                   "why": "Solo se cruza la vía después de comprobar que no hay riesgo de quedar inmovilizado dentro del paso. Además, está prohibido parar en él."
                 },
+                "exam": {
+                  "q": "On the other side of a level crossing there is a queue of cars and there is no space for yours. Do you enter the crossing?",
+                  "options": [
+                    "Yes, the queue will advance immediately.",
+                    "Yes, if you put the emergency light.",
+                    "No: you must avoid the risk of remaining immobilised inside."
+                  ]
+                },
                 "en": {
                   "q": "On the far side of a level crossing there is a line of cars and no room for yours. Do you enter the crossing?",
                   "options": [
@@ -2339,6 +2531,14 @@
                     "Llamar al taller antes de moverte"
                   ],
                   "why": "Si queda detenido en un paso a nivel, el conductor debe desalojar rápidamente a los ocupantes y dejar el paso libre cuanto antes."
+                },
+                "exam": {
+                  "q": "Your car breaks down on the tracks of a level crossing. What do you do first?",
+                  "options": [
+                    "To make the occupants get out and to leave free the passage as soon as possible.",
+                    "To wait inside the car for the crane.",
+                    "To call the workshop before moving."
+                  ]
                 },
                 "en": {
                   "q": "Your car breaks down on the tracks of a level crossing. What do you do first?",
@@ -2500,6 +2700,14 @@
                   ],
                   "why": "La bocina se puede usar para evitar un posible accidente, y de forma especial en vías estrechas con muchas curvas."
                 },
+                "exam": {
+                  "q": "You drive by a narrow road with many curves and little visibility. Can you use the horn?",
+                  "options": [
+                    "No: the horn is never used outside town.",
+                    "Yes, in order to avoid a possible accident.",
+                    "Only if you see another vehicle."
+                  ]
+                },
                 "en": {
                   "q": "You are driving on a narrow road with many curves and poor visibility. May you use the horn?",
                   "options": [
@@ -2562,6 +2770,14 @@
                   ],
                   "why": "La bocina solo se usa en los casos que fija el reglamento, como evitar un posible accidente. Meter prisa no es uno de ellos."
                 },
+                "exam": {
+                  "q": "The traffic light puts itself in green and the car in front does not start. Can you sound the horn in order to hurry it?",
+                  "options": [
+                    "Yes, a short touch.",
+                    "Yes, if there is a queue behind.",
+                    "No: it is none of the permitted cases."
+                  ]
+                },
                 "en": {
                   "q": "The light turns green and the car ahead does not move. May you honk to hurry it?",
                   "options": [
@@ -2617,6 +2833,14 @@
                     "Dar destellos largos de largo alcance"
                   ],
                   "why": "Se pueden hacer advertencias luminosas, incluso en poblado, con las luces de corto o largo alcance de forma intermitente, a intervalos muy cortos y evitando el deslumbramiento."
+                },
+                "exam": {
+                  "q": "In order to warn another driver instead of using the horn, what is permitted?",
+                  "options": [
+                    "Short flashes of the lights, without dazzling.",
+                    "To leave the long-range light fixed.",
+                    "To give long flashes of long range."
+                  ]
                 },
                 "en": {
                   "q": "To warn another driver instead of using the horn, what is allowed?",

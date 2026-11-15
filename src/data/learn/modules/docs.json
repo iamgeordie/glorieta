@@ -142,6 +142,14 @@
                   ],
                   "why": "Todas las clases de permiso de una persona constan en un único documento, con las categorías de vehículos que autorizan."
                 },
+                "exam": {
+                  "q": "A person has the permits A2 and B. How do his classes appear?",
+                  "options": [
+                    "In two documents, one by class.",
+                    "In a single document.",
+                    "In a document for each vehicle which he possesses."
+                  ]
+                },
                 "en": {
                   "q": "A person holds permits A2 and B. How do the classes appear?",
                   "options": [
@@ -252,6 +260,14 @@
                   ],
                   "why": "La B autoriza automóviles de hasta 3.500 kg y ocho pasajeros más el conductor. Una furgoneta de 5.000 kg es de la clase C1, y un microbús con doce pasajeros, de la D1 o la D."
                 },
+                "exam": {
+                  "q": "What can you drive with the permit of the class B?",
+                  "options": [
+                    "A van of 5.000 kg of maximum authorised mass.",
+                    "A microbus with twelve passengers besides the driver.",
+                    "A car of 3.500 kg with eight passengers besides the driver."
+                  ]
+                },
                 "en": {
                   "q": "What may you drive with a class B permit?",
                   "options": [
@@ -283,6 +299,14 @@
                     "Solo si el remolque va vacío"
                   ],
                   "why": "La clase B incluye un remolque de hasta 750 kg de masa máxima autorizada. Por encima de ese peso se aplican otras reglas, o la clase B+E."
+                },
+                "exam": {
+                  "q": "With a permit B and a car, can you carry a trailer of 700 kg of maximum authorised mass?",
+                  "options": [
+                    "Yes: until 750 kg another class is not necessary.",
+                    "No: any trailer demands the class B+E.",
+                    "Only if the trailer goes empty."
+                  ]
                 },
                 "en": {
                   "q": "With a class B permit and a car, may you tow a trailer of 700 kg maximum authorized mass?",
@@ -491,6 +515,14 @@
                   ],
                   "why": "La clase A1 se obtiene a los 16 años cumplidos. La B y la A2 piden 18, y la A, 20."
                 },
+                "exam": {
+                  "q": "From which age can the permit of the class A1 (motorcycles of up to 125 cm³) be obtained?",
+                  "options": [
+                    "14 years completed.",
+                    "18 years completed.",
+                    "16 years completed."
+                  ]
+                },
                 "en": {
                   "q": "From what age can you get a class A1 permit (motorcycles up to 125 cc)?",
                   "options": [
@@ -562,6 +594,14 @@
                   ],
                   "why": "La B solo permite conducir motos de la clase A1 en España cuando tiene más de tres años de antigüedad."
                 },
+                "exam": {
+                  "q": "You have the permit B since 18 months ago. Can you drive in Spain a motorcycle of 125 cm³ and 11 kW?",
+                  "options": [
+                    "No: more than three years with the B are needed.",
+                    "Yes: the class B authorises all the motorcycles.",
+                    "Yes: with more than one year of permit it is enough."
+                  ]
+                },
                 "en": {
                   "q": "You have held class B for 18 months. May you ride a 125 cc, 11 kW motorcycle in Spain?",
                   "options": [
@@ -632,6 +672,14 @@
                     "No hace falta mostrarlo si lo tienes guardado en casa"
                   ],
                   "why": "La ley permite acreditar el permiso mostrándolo en físico o en digital. Pero debes llevarlo contigo al conducir, no dejarlo en casa."
+                },
+                "exam": {
+                  "q": "How can you accredit before an agent that you have driving permit?",
+                  "options": [
+                    "Only with the physical document.",
+                    "With the physical document or with a digital version.",
+                    "It is not necessary to show it if you have it kept at home."
+                  ]
                 },
                 "en": {
                   "q": "How can you prove to an officer that you hold a driver’s permit?",
@@ -826,6 +874,14 @@
                   ],
                   "why": "Hay un único crédito de puntos para todas las clases. Perder puntos afecta al permiso sea cual sea su clase."
                 },
+                "exam": {
+                  "q": "You lose points driving your car with the permit B. Does it also affect your motorcycle permit A2?",
+                  "options": [
+                    "Yes: the credit is unique and the loss affects all your classes.",
+                    "No: each permit has its own points.",
+                    "Only if the infraction is very serious."
+                  ]
+                },
                 "en": {
                   "q": "You lose points driving your car with class B. Does it also affect your A2 motorcycle permit?",
                   "options": [
@@ -907,6 +963,14 @@
                     "12"
                   ],
                   "why": "Los conductores noveles pasan de ocho a doce puntos cuando transcurren dos años sin sanciones firmes que resten puntos."
+                },
+                "exam": {
+                  "q": "A novice driver began with 8 points and passes two years without sanctions which subtract points. How many points does he have afterwards?",
+                  "options": [
+                    "8: they do not change.",
+                    "10.",
+                    "12."
+                  ]
                 },
                 "en": {
                   "q": "A novice driver started with 8 points and goes two years without penalties that cost points. How many points does the driver have then?",
@@ -1026,6 +1090,14 @@
                   ],
                   "why": "V-13 es «conductor novel»: el permiso tiene menos de un año. El aprendizaje tiene otra señal (V-14), y el vehículo lento, la V-5."
                 },
+                "exam": {
+                  "q": "A car carries the signal of «novice driver». What does it indicate?",
+                  "options": [
+                    "That the driver is learning with a teacher.",
+                    "That it is driven by a person with less than one year of permit.",
+                    "That the vehicle cannot exceed the 40 km/h."
+                  ]
+                },
                 "en": {
                   "q": "A car carries the “novice driver” sign. What does it show?",
                   "options": [
@@ -1105,6 +1177,14 @@
                   ],
                   "why": "Los puntos se descuentan al anotar en el registro una sanción firme en vía administrativa, no por la simple denuncia."
                 },
+                "exam": {
+                  "q": "When are the points of a serious infraction which removes them discounted?",
+                  "options": [
+                    "As soon as the agent delivers you the denunciation.",
+                    "Only if you commit again the same infraction.",
+                    "When the sanction is firm and it is noted in the register."
+                  ]
+                },
                 "en": {
                   "q": "When are the points for a serious offense that carries a points loss deducted?",
                   "options": [
@@ -1171,6 +1251,14 @@
                     "12: todo el crédito"
                   ],
                   "why": "La suma sería 14, pero la ley limita la pérdida a ocho puntos por infracciones cometidas en un solo día, salvo ciertas muy graves."
+                },
+                "exam": {
+                  "q": "A driver with 12 points commits the same day three infractions: mobile in the hand (6 points), without belt (4) and traffic light in red (4). If the three sanctions are firm, how many points does he lose?",
+                  "options": [
+                    "14: the sum of the three.",
+                    "8: the maximum for infractions committed in a single day.",
+                    "12: all the credit."
+                  ]
                 },
                 "en": {
                   "q": "A driver with 12 points commits three offenses on the same day: phone in hand (6 points), no seat belt (4) and red light (4). If all three penalties are final, how many points does the driver lose?",
@@ -1244,6 +1332,14 @@
                   ],
                   "why": "El curso permite una recuperación parcial de hasta seis puntos, una vez cada dos años."
                 },
+                "exam": {
+                  "q": "A driver has lost 8 points. How many can he recover, at the maximum, with a course of sensitisation and road re-education?",
+                  "options": [
+                    "Six.",
+                    "The eight which he lost.",
+                    "Two."
+                  ]
+                },
                 "en": {
                   "q": "A driver has lost 8 points. How many can the driver recover, at most, with a road awareness and re-education course?",
                   "options": [
@@ -1275,6 +1371,14 @@
                     "Veinte"
                   ],
                   "why": "Con la bonificación por no tener sanciones, y con los cursos de conducción segura y eficiente, el máximo es de quince puntos."
+                },
+                "exam": {
+                  "q": "A driver has never received a firm sanction. Which is the maximum of points which he can come to have?",
+                  "options": [
+                    "Twelve.",
+                    "Fifteen.",
+                    "Twenty."
+                  ]
                 },
                 "en": {
                   "q": "A driver has never received a final penalty. What is the most points the driver can reach?",
@@ -1347,6 +1451,14 @@
                   ],
                   "why": "Son seis meses desde la notificación. Los tres meses son para los conductores profesionales."
                 },
+                "exam": {
+                  "q": "A non-professional driver loses all his points. How much must he wait, at the minimum, in order to obtain a new permit?",
+                  "options": [
+                    "Six months from the notification.",
+                    "Three months from the notification.",
+                    "Two years from the notification."
+                  ]
+                },
                 "en": {
                   "q": "A non-professional driver loses all points. How long must the driver wait, at minimum, to get a new permit?",
                   "options": [
@@ -1378,6 +1490,14 @@
                     "Doce meses"
                   ],
                   "why": "Si los pierde otra vez en los tres años siguientes a obtener el nuevo permiso, la espera sube a doce meses."
+                },
+                "exam": {
+                  "q": "A non-professional driver recovers his permit after losing all the points and, two years afterwards, loses them another time. How much must he wait, at the minimum, for a new permit?",
+                  "options": [
+                    "Six months.",
+                    "Three years.",
+                    "Twelve months."
+                  ]
                 },
                 "en": {
                   "q": "A non-professional driver gets a permit back after losing all points and, two years later, loses them all again. How long must the driver wait, at minimum, for a new permit?",
@@ -1622,6 +1742,14 @@
                   ],
                   "why": "Los puntos se pierden por infracciones graves o muy graves que lleven aparejada pérdida de puntos según los anexos II y IV. Las leves no los quitan."
                 },
+                "exam": {
+                  "q": "Which infractions can remove points of the permit?",
+                  "options": [
+                    "Only the serious or very serious which appear in the annexes of the law.",
+                    "All, also the slight.",
+                    "Only those which are committed with a company car."
+                  ]
+                },
                 "en": {
                   "q": "Which offenses can take points from the permit?",
                   "options": [
@@ -1653,6 +1781,14 @@
                     "200 euros"
                   ],
                   "why": "La regla general es: leves, hasta 100 euros; graves, 200 euros; muy graves, 500 euros. Algunas infracciones tienen su propia cuantía."
+                },
+                "exam": {
+                  "q": "Which is the general fine which the law fixes for a serious infraction?",
+                  "options": [
+                    "100 euros.",
+                    "500 euros.",
+                    "200 euros."
+                  ]
                 },
                 "en": {
                   "q": "What is the general fine the law sets for a serious offense?",
@@ -1724,6 +1860,14 @@
                   ],
                   "why": "El pago voluntario reduce la multa un 50 %, pero la sanción es firme desde el pago, y una sanción firme descuenta los puntos."
                 },
+                "exam": {
+                  "q": "You pay with the 50 % of discount the fine of a serious infraction which subtracts points. What happens with the points?",
+                  "options": [
+                    "They are not discounted: the discount annuls them.",
+                    "They are discounted equally, because the sanction remains firm.",
+                    "Only the half is discounted."
+                  ]
+                },
                 "en": {
                   "q": "You pay at a 50 percent discount the fine for a serious offense that costs points. What happens to the points?",
                   "options": [
@@ -1755,6 +1899,14 @@
                     "La posibilidad de renovar el permiso"
                   ],
                   "why": "Con el pago voluntario con descuento renuncias a presentar alegaciones y la vía administrativa se agota."
+                },
+                "exam": {
+                  "q": "What do you lose on paying the fine with the reduction of the 50 %?",
+                  "options": [
+                    "The permit during fifteen days.",
+                    "The right to present allegations.",
+                    "The possibility of renewing the permit."
+                  ]
                 },
                 "en": {
                   "q": "What do you give up by paying the fine with the 50 percent reduction?",
@@ -1919,6 +2071,14 @@
                   ],
                   "why": "Adelantar a ciclistas sin dejar 1,5 metros de separación, o poniéndolos en peligro, quita seis puntos."
                 },
+                "exam": {
+                  "q": "You overtake a cyclist without leaving 1,5 metres of separation. How many points do you lose if they sanction you in firm?",
+                  "options": [
+                    "6.",
+                    "4.",
+                    "8."
+                  ]
+                },
                 "en": {
                   "q": "You overtake a cyclist without leaving 1.5 meters. How many points do you lose if you get a final penalty?",
                   "options": [
@@ -2072,6 +2232,14 @@
                   ],
                   "why": "No detenerse en un stop, en un ceda el paso o en un semáforo en rojo, o no respetar la preferencia de paso, quita cuatro puntos."
                 },
+                "exam": {
+                  "q": "You do not stop before a signal of stop. How many points do you lose if they sanction you in firm?",
+                  "options": [
+                    "2.",
+                    "6.",
+                    "4."
+                  ]
+                },
                 "en": {
                   "q": "You do not stop at a stop sign. How many points do you lose if you get a final penalty?",
                   "options": [
@@ -2103,6 +2271,14 @@
                     "6"
                   ],
                   "why": "No usar el cinturón, o usarlo mal, quita cuatro puntos; lo mismo vale para la retención infantil y el casco."
+                },
+                "exam": {
+                  "q": "You circulate without using the safety belt. How many points do you lose if they sanction you in firm?",
+                  "options": [
+                    "3.",
+                    "4.",
+                    "6."
+                  ]
                 },
                 "en": {
                   "q": "You drive without wearing a seat belt. How many points do you lose if you get a final penalty?",
@@ -2213,6 +2389,14 @@
                     "3"
                   ],
                   "why": "Conducir con auriculares conectados a aparatos de sonido, u otros dispositivos que reducen la atención, quita tres puntos."
+                },
+                "exam": {
+                  "q": "You drive with earphones connected to an apparatus of music. How many points do you lose if they sanction you in firm?",
+                  "options": [
+                    "2.",
+                    "4.",
+                    "3."
+                  ]
                 },
                 "en": {
                   "q": "You drive with earphones connected to a music player. How many points do you lose if you get a final penalty?",
@@ -2420,6 +2604,14 @@
                   ],
                   "why": "Con límite 50, de 81 a 90 km/h registrados son 4 puntos. De 71 a 80 son 2, y desde 91 son 6."
                 },
+                "exam": {
+                  "q": "The limit of the road is 50 km/h and a radar registers 85 km/h. How many points do you lose if they sanction you in firm?",
+                  "options": [
+                    "4.",
+                    "2.",
+                    "6."
+                  ]
+                },
                 "en": {
                   "q": "The road’s limit is 50 km/h and a speed camera records 85 km/h. How many points do you lose if you get a final penalty?",
                   "options": [
@@ -2451,6 +2643,14 @@
                     "2"
                   ],
                   "why": "Con límite 120, de 151 a 170 km/h registrados son 2 puntos. Hasta 150 no se pierden puntos, y de 171 a 180 son 4."
+                },
+                "exam": {
+                  "q": "The limit of the road is 120 km/h and a radar registers 160 km/h. How many points do you lose if they sanction you in firm?",
+                  "options": [
+                    "0.",
+                    "4.",
+                    "2."
+                  ]
                 },
                 "en": {
                   "q": "The road’s limit is 120 km/h and a speed camera records 160 km/h. How many points do you lose if you get a final penalty?",
@@ -2692,6 +2892,14 @@
                   ],
                   "why": "La B dura diez años hasta los 65 y cinco años desde esa edad. Los tres años son para las clases C y D."
                 },
+                "exam": {
+                  "q": "You are 67 years old and have the permit B. Every how many years must you renew it?",
+                  "options": [
+                    "Every five years.",
+                    "Every ten years.",
+                    "Every three years."
+                  ]
+                },
                 "en": {
                   "q": "You are 67 and hold class B. How often must you renew it?",
                   "options": [
@@ -2723,6 +2931,14 @@
                     "Sí, durante tres meses más"
                   ],
                   "why": "Con la vigencia vencida el permiso no autoriza a conducir. Primero hay que renovarlo."
+                },
+                "exam": {
+                  "q": "Your permit B expired yesterday and you have not yet renewed it. Can you drive with it?",
+                  "options": [
+                    "Yes, until they give you date for the renewal.",
+                    "No: an expired permit does not authorise to drive.",
+                    "Yes, during three months more."
+                  ]
                 },
                 "en": {
                   "q": "Your class B permit expired yesterday and you have not renewed it yet. May you drive with it?",
@@ -2788,6 +3004,14 @@
                   ],
                   "why": "La solicitud puede presentarse con una antelación máxima de tres meses, y el nuevo período cuenta desde la fecha de caducidad."
                 },
+                "exam": {
+                  "q": "With how much maximum anticipation, as general rule, can you ask for the renewal of the permit before it expires?",
+                  "options": [
+                    "Three months.",
+                    "One month.",
+                    "One year."
+                  ]
+                },
                 "en": {
                   "q": "As a general rule, how far ahead of expiry can you apply to renew your permit?",
                   "options": [
@@ -2819,6 +3043,14 @@
                     "Que conservas las aptitudes psicofísicas exigidas"
                   ],
                   "why": "Para renovar hay que acreditar las aptitudes psicofísicas con el informe de un centro de reconocimiento autorizado. No se repite el teórico."
+                },
+                "exam": {
+                  "q": "What must you accredit in order to renew your driving permit?",
+                  "options": [
+                    "That you have again passed the theoretical exam.",
+                    "That your car has passed the ITV.",
+                    "That you conserve the psychophysical aptitudes demanded."
+                  ]
                 },
                 "en": {
                   "q": "What must you prove to renew your driver’s permit?",
@@ -2914,6 +3146,14 @@
                   ],
                   "why": "El permiso extranjero vale hasta seis meses desde que se adquiere la residencia normal. Después hay que obtener un permiso español, o canjearlo si hay convenio."
                 },
+                "exam": {
+                  "q": "As general rule, until when can a resident use his permit of a non-community country in order to drive in Spain?",
+                  "options": [
+                    "While the permit is in force.",
+                    "Until six months from when he acquires the normal residence.",
+                    "Until two years from when he arrives in Spain."
+                  ]
+                },
                 "en": {
                   "q": "As a general rule, until when may a resident use a permit from a non-EU country to drive in Spain?",
                   "options": [
@@ -2945,6 +3185,14 @@
                     "Seis meses"
                   ],
                   "why": "Para obtener un permiso, un extranjero debe acreditar al menos seis meses de residencia normal o de estancia por estudios en España."
+                },
+                "exam": {
+                  "q": "A foreigner wants to obtain a Spanish permit. Which minimum time of normal residence or of stay by studies must he accredit?",
+                  "options": [
+                    "One month.",
+                    "Two years.",
+                    "Six months."
+                  ]
                 },
                 "en": {
                   "q": "A foreigner wants to obtain a Spanish permit. What minimum time of normal residence or study stay must they prove?",
@@ -3130,6 +3378,14 @@
                   ],
                   "why": "Las pruebas son eliminatorias. Sin superar la de conocimientos no se pasa a las de aptitudes y comportamientos."
                 },
+                "exam": {
+                  "q": "You fail the test of knowledge (theoretical). Can you then do the test of circulation in open roads?",
+                  "options": [
+                    "Yes: they are independent tests.",
+                    "No: the tests are eliminatory and the theoretical goes before.",
+                    "Yes, if the teacher of the driving school asks for it."
+                  ]
+                },
                 "en": {
                   "q": "You fail the knowledge (theory) test. May you then take the open-road driving test?",
                   "options": [
@@ -3193,6 +3449,14 @@
                     "Solo en un circuito del Estado"
                   ],
                   "why": "El aprendizaje se realiza en escuelas de conductores autorizadas. La licencia de aprendizaje es otra vía, que se concede una sola vez."
+                },
+                "exam": {
+                  "q": "According to the regulation, which is the general way to learn to drive?",
+                  "options": [
+                    "In authorised schools of drivers.",
+                    "Only with a relative who has permit.",
+                    "Only in a circuit of the State."
+                  ]
                 },
                 "en": {
                   "q": "According to the regulation, what is the general way to learn to drive?",
@@ -3284,6 +3548,14 @@
                   ],
                   "why": "Los errores no pueden superar el 10 % de las preguntas, y si sale decimal se redondea hacia arriba. El 10 % de 35 es 3,5, es decir, 4."
                 },
+                "exam": {
+                  "q": "In a theoretical test of 35 questions, how many errors are allowed at the maximum?",
+                  "options": [
+                    "3.",
+                    "4.",
+                    "5."
+                  ]
+                },
                 "en": {
                   "q": "In a theory test of 35 questions, how many errors are allowed at most?",
                   "options": [
@@ -3315,6 +3587,14 @@
                     "45 minutos"
                   ],
                   "why": "El tiempo es de un minuto por pregunta, y se amplía si hay vídeos. Con 30 preguntas son 30 minutos."
+                },
+                "exam": {
+                  "q": "A theoretical test has 30 questions and no video. How much time does the regulation foresee?",
+                  "options": [
+                    "30 minutes.",
+                    "20 minutes.",
+                    "45 minutes."
+                  ]
                 },
                 "en": {
                   "q": "A theory test has 30 questions and no video. How much time does the regulation allow?",
@@ -3380,6 +3660,14 @@
                   ],
                   "why": "El aprobado de cada prueba vale dos años. Si pasa ese plazo sin superar la siguiente, hay que volver a aprobarla."
                 },
+                "exam": {
+                  "q": "After passing the theoretical, what happens if two years pass without overcoming the following test?",
+                  "options": [
+                    "The pass continues being valid without limit.",
+                    "Only it is necessary to pay again the fee.",
+                    "It is necessary to pass again the theoretical test."
+                  ]
+                },
                 "en": {
                   "q": "After passing the theory test, what happens if two years pass without passing the next test?",
                   "options": [
@@ -3412,6 +3700,14 @@
                   ],
                   "why": "Cada solicitud da derecho a dos convocatorias. Si no te presentas a una, la pierdes, salvo causas justificadas."
                 },
+                "exam": {
+                  "q": "How many calls to do the tests does each application of permit include?",
+                  "options": [
+                    "Two.",
+                    "One.",
+                    "Three."
+                  ]
+                },
                 "en": {
                   "q": "How many test sittings does each permit application include?",
                   "options": [
@@ -3443,6 +3739,14 @@
                     "Tres meses antes"
                   ],
                   "why": "La antelación máxima para la primera convocatoria de conocimientos es de tres meses anteriores a la edad mínima."
+                },
+                "exam": {
+                  "q": "With how much maximum anticipation with respect to the minimum age can you present yourself to the first call of the test of knowledge?",
+                  "options": [
+                    "One year before.",
+                    "You cannot present yourself before completing the age.",
+                    "Three months before."
+                  ]
                 },
                 "en": {
                   "q": "How far ahead of the minimum age may you take the first sitting of the knowledge test?",
@@ -3560,6 +3864,14 @@
                   ],
                   "why": "Dos faltas deficientes bastan para ser declarado no apto. La prueba es apto o no apto, sin notas."
                 },
+                "exam": {
+                  "q": "In the practical test in open roads you commit two deficient faults. Which result do you obtain?",
+                  "options": [
+                    "Apt: three are needed in order to fail.",
+                    "Not apt.",
+                    "Apt, but with a low mark."
+                  ]
+                },
                 "en": {
                   "q": "In the open-road practical test you commit two serious (deficient) faults. What result do you get?",
                   "options": [
@@ -3591,6 +3903,14 @@
                     "No apto: bastan nueve faltas leves"
                   ],
                   "why": "Con faltas leves solo se suspende al llegar a diez. Con una deficiente bastan cinco leves, pero aquí no hay ninguna deficiente."
+                },
+                "exam": {
+                  "q": "In the test in open roads you commit nine slight faults and no other. Which result do you obtain?",
+                  "options": [
+                    "Not apt: five slight faults are enough.",
+                    "Apt: the limit is of ten slight faults.",
+                    "Not apt: nine slight faults are enough."
+                  ]
                 },
                 "en": {
                   "q": "In the open-road test you commit nine minor faults and no others. What result do you get?",

@@ -209,6 +209,14 @@
                   ],
                   "why": "Las señales de prohibición se obedecen aunque parezcan contradecir las normas generales de circulación."
                 },
+                "exam": {
+                  "q": "A sign prohibits a turn that the general norm yes would permit in that crossing. What do you do?",
+                  "options": [
+                    "You obey the sign.",
+                    "You turn: the general norm rules.",
+                    "You turn if nobody comes."
+                  ]
+                },
                 "en": {
                   "q": "A sign forbids a turn that the general rule would allow at that junction. What do you do?",
                   "options": [
@@ -320,6 +328,14 @@
                   ],
                   "why": "En el orden de preferencia, los semáforos van antes que las señales verticales."
                 },
+                "exam": {
+                  "q": "A traffic light and a vertical sign of the same road give contrary orders. Which rules?",
+                  "options": [
+                    "The vertical sign, because it is permanent.",
+                    "The traffic light.",
+                    "The one that you see first."
+                  ]
+                },
                 "en": {
                   "q": "A traffic light and a vertical sign on the same road give opposite orders. Which one rules?",
                   "options": [
@@ -412,6 +428,14 @@
                   ],
                   "why": "La señalización provisional va antes que las señales verticales habituales en el orden de preferencia."
                 },
+                "exam": {
+                  "q": "In some works you see a sign of maximum speed of yellow background. Before there was another, of white background, with a different figure. Which do you obey?",
+                  "options": [
+                    "The white: it is the permanent.",
+                    "The one that has the highest figure.",
+                    "The yellow: it is provisional and prevails."
+                  ]
+                },
                 "en": {
                   "q": "At roadworks you see a maximum-speed sign with a yellow background. Earlier there was another, white one, with a different number. Which do you obey?",
                   "options": [
@@ -480,6 +504,14 @@
                   ],
                   "why": "Quien sigue de frente o gira a la izquierda solo obedece las señales y semáforos situados inmediatamente a su izquierda cuando las de ambos lados son distintas."
                 },
+                "exam": {
+                  "q": "You are going to continue straight ahead. The sign of your right and the one of your left give different indications. Which do you obey?",
+                  "options": [
+                    "The one of your right.",
+                    "The one of your left.",
+                    "The most restrictive of the two."
+                  ]
+                },
                 "en": {
                   "q": "You are going straight on. The sign on your right and the one on your left give different instructions. Which do you obey?",
                   "options": [
@@ -543,6 +575,14 @@
                     "Solo hasta el primer cruce"
                   ],
                   "why": "Las señales de reglamentación junto al cartel del pueblo valen para todo el pueblo, salvo que otras señales indiquen otra cosa en ciertos tramos."
+                },
+                "exam": {
+                  "q": "A sign of maximum speed is beside the poster with the name of a village. To which part of the village does it apply?",
+                  "options": [
+                    "To all the village, except sections with other signs.",
+                    "Only to the first street.",
+                    "Only until the first crossing."
+                  ]
                 },
                 "en": {
                   "q": "A maximum-speed sign stands beside the sign with a town’s name. Which part of the town does it apply to?",
@@ -695,6 +735,14 @@
                   ],
                   "why": "Las señales de peligro avisan de la proximidad y naturaleza de un peligro difícil de percibir a tiempo, para que adaptes tu conducta."
                 },
+                "exam": {
+                  "q": "For what does a danger sign serve?",
+                  "options": [
+                    "In order to prohibit a manoeuvre.",
+                    "In order to indicate a useful service.",
+                    "In order to warn of a danger difficult to see in time."
+                  ]
+                },
                 "en": {
                   "q": "What is a warning sign for?",
                   "options": [
@@ -771,6 +819,14 @@
                     "Fondo verde y letras blancas"
                   ],
                   "why": "En autopistas y autovías, el cartel de dirección propia es azul con letras blancas. El blanco con letras negras es el de las carreteras convencionales, y el verde se reserva a los límites de comunidad autónoma o de provincia."
+                },
+                "exam": {
+                  "q": "You circulate by a dual carriageway. Of which colours is the poster that indicates the direction of your own road?",
+                  "options": [
+                    "Blue background and white letters.",
+                    "White background and black letters.",
+                    "Green background and white letters."
+                  ]
                 },
                 "en": {
                   "q": "You are driving on a dual carriageway. What colors does the sign showing your own road’s direction have?",
@@ -974,6 +1030,14 @@
                   ],
                   "why": "Un panel complementario puede indicar la distancia hasta el principio del tramo peligroso o la longitud del tramo."
                 },
+                "exam": {
+                  "q": "What can a complementary panel indicate under a danger sign?",
+                  "options": [
+                    "The distance to the danger or its length.",
+                    "The maximum speed of the road.",
+                    "The permit necessary in order to pass."
+                  ]
+                },
                 "en": {
                   "q": "What can a supplementary panel below a warning sign show?",
                   "options": [
@@ -1059,6 +1123,14 @@
                   ],
                   "why": "Sin señales que regulen la prioridad, cedes el paso a los vehículos que se aproximan por tu derecha."
                 },
+                "exam": {
+                  "q": "You approach a crossing with this sign and no other priority sign. Who passes first?",
+                  "options": [
+                    "The one who comes by your left.",
+                    "The one who goes faster.",
+                    "The one who comes by your right."
+                  ]
+                },
                 "en": {
                   "q": "You approach a junction with this sign and no other priority sign. Who goes first?",
                   "options": [
@@ -1095,6 +1167,14 @@
                     "El que tenga el coche más grande"
                   ],
                   "why": "La señal P-1c te da prioridad. Los usuarios que se incorporan a tu vía deben ceder el paso."
+                },
+                "exam": {
+                  "q": "You circulate by a road with this sign: others enter traffic from the right. A car enters from that side. Who yields way?",
+                  "options": [
+                    "You, because he comes by your right.",
+                    "The one who enters traffic.",
+                    "The one who has the bigger car."
+                  ]
                 },
                 "en": {
                   "q": "You drive on a road with this sign: others merge from the right. A car joins from that side. Who yields?",
@@ -1162,6 +1242,14 @@
                     "De un paso de peatones"
                   ],
                   "why": "La señal P-3 avisa de un cruce aislado o de un tramo con la circulación regulada por semáforos."
+                },
+                "exam": {
+                  "q": "You see a triangle with red border and three lights of colours in vertical: red, yellow and green. What does it warn?",
+                  "options": [
+                    "Of traffic lights further ahead.",
+                    "Of a zone of works.",
+                    "Of a pedestrian crossing."
+                  ]
                 },
                 "en": {
                   "q": "You see a triangle with a red border and three colored lights stacked: red, amber and green. What does it warn of?",
@@ -1248,6 +1336,14 @@
                   ],
                   "why": "Las luces rojas intermitentes prohíben temporalmente el paso antes de un paso a nivel."
                 },
+                "exam": {
+                  "q": "Before a level crossing two red lights switch on that blink alternately. What do you do?",
+                  "options": [
+                    "You pass in a hurry before the train arrives.",
+                    "You do not pass while they continue blinking.",
+                    "You pass slowly if you do not see any train."
+                  ]
+                },
                 "en": {
                   "q": "Before a level crossing two red lights start flashing alternately. What do you do?",
                   "options": [
@@ -1330,6 +1426,14 @@
                   ],
                   "why": "Dos franjas indican 150 m. Con tres franjas son 200 m y con una franja, 100 m."
                 },
+                "exam": {
+                  "q": "You see a post with two inclined red stripes before a level crossing. At which distance is it?",
+                  "options": [
+                    "100 m.",
+                    "200 m.",
+                    "150 m."
+                  ]
+                },
                 "en": {
                   "q": "You see a post with two slanted red stripes before a level crossing. How far away is it?",
                   "options": [
@@ -1398,6 +1502,14 @@
                     "De un puente muy estrecho"
                   ],
                   "why": "La señal P-27 avisa de que la vía desemboca en un muelle o en una corriente de agua."
+                },
+                "exam": {
+                  "q": "What does this sign warn?",
+                  "options": [
+                    "That the surface is slippery.",
+                    "That the road ends in a quay or in water.",
+                    "Of a very narrow bridge."
+                  ]
                 },
                 "en": {
                   "q": "What does this sign warn of?",
@@ -1590,6 +1702,14 @@
                   ],
                   "why": "En las señales P-16 la cifra indica la inclinación de la pendiente, en porcentaje."
                 },
+                "exam": {
+                  "q": "In a danger sign by strong slope appears a figure with the sign %. What does it indicate?",
+                  "options": [
+                    "The maximum recommended speed.",
+                    "The inclination of the slope.",
+                    "The length of the slope in kilometres."
+                  ]
+                },
                 "en": {
                   "q": "A warning sign for a steep slope shows a number with the % sign. What does it show?",
                   "options": [
@@ -1661,6 +1781,14 @@
                   ],
                   "why": "Cuando puedas proyectar gravilla a otros usuarios debes circular a velocidad moderada."
                 },
+                "exam": {
+                  "q": "You see the sign of projection of gravel. What do you do?",
+                  "options": [
+                    "You moderate the speed in order not to project gravel to others.",
+                    "You accelerate in order to pass the section as soon as possible.",
+                    "You pass to the contrary lane."
+                  ]
+                },
                 "en": {
                   "q": "You see the sign for loose gravel. What do you do?",
                   "options": [
@@ -1730,6 +1858,14 @@
                     "El que entró primero en el tramo"
                   ],
                   "why": "Sin señalización expresa, tiene preferencia el vehículo que entró primero en el tramo estrecho."
+                },
+                "exam": {
+                  "q": "In a section so narrow that two cars do not fit at the same time, without any sign, who passes first?",
+                  "options": [
+                    "The one who goes faster.",
+                    "The one who carries the biggest vehicle.",
+                    "The one who entered first in the section."
+                  ]
                 },
                 "en": {
                   "q": "On a stretch so narrow that two cars cannot fit side by side, with no sign, who goes first?",
@@ -1837,6 +1973,14 @@
                   ],
                   "why": "La velocidad debe permitirte detener el vehículo dentro de tu campo de visión y ante cualquier obstáculo."
                 },
+                "exam": {
+                  "q": "With fog and reduced visibility, what must your speed always permit you?",
+                  "options": [
+                    "To follow the car that goes in front.",
+                    "To maintain the limit of the road.",
+                    "To stop within your field of vision."
+                  ]
+                },
                 "en": {
                   "q": "In fog and reduced visibility, what must your speed always allow you to do?",
                   "options": [
@@ -1909,6 +2053,14 @@
                   ],
                   "why": "Cerca de centros docentes debes moderar la velocidad y detenerte si hace falta. El claxon no se usa sin motivo."
                 },
+                "exam": {
+                  "q": "You see the sign of children near a school and you do not see any. What do you do?",
+                  "options": [
+                    "You moderate the speed and you are ready to stop.",
+                    "You maintain the speed: there are no children in sight.",
+                    "You sound the horn in order to warn them."
+                  ]
+                },
                 "en": {
                   "q": "You see the children sign near a school and you see no children. What do you do?",
                   "options": [
@@ -1974,6 +2126,14 @@
                     "La ignoras si tienes prioridad"
                   ],
                   "why": "En las obras debes seguir las indicaciones del personal que regula el paso de vehículos."
+                },
+                "exam": {
+                  "q": "In some works, a person with a paddle regulates the passage of vehicles. What do you do?",
+                  "options": [
+                    "You obey her only if she is police.",
+                    "You follow her indications.",
+                    "You ignore her if you have priority."
+                  ]
                 },
                 "en": {
                   "q": "At roadworks a person with a paddle sign is regulating the passage of vehicles. What do you do?",
@@ -2149,6 +2309,14 @@
                   ],
                   "why": "El rombo amarillo con borde blanco es la señal R-3, calzada con prioridad. No es una señal de peligro."
                 },
+                "exam": {
+                  "q": "A sign with form of yellow rhombus with white border indicates that:",
+                  "options": [
+                    "There is a danger further ahead.",
+                    "You must yield way in the next crossing.",
+                    "You circulate by a carriageway with priority."
+                  ]
+                },
                 "en": {
                   "q": "A sign shaped like a yellow diamond with a white border means that:",
                   "options": [
@@ -2246,6 +2414,14 @@
                   ],
                   "why": "Si desde el punto de detención no hay visibilidad suficiente, debes detenerte otra vez donde la tengas."
                 },
+                "exam": {
+                  "q": "You are stopped before a STOP and from the line you do not see the preferential road. What do you do?",
+                  "options": [
+                    "You stop again where you see, without putting anybody in danger.",
+                    "You advance slowly without stopping again.",
+                    "You sound the horn and you continue."
+                  ]
+                },
                 "en": {
                   "q": "You are stopped at a STOP sign and from the line you cannot see the priority road. What do you do?",
                   "options": [
@@ -2277,6 +2453,14 @@
                     "Reduciendo la velocidad poco a poco y con antelación"
                   ],
                   "why": "Debes mostrar con antelación que vas a ceder, sobre todo reduciendo gradualmente la velocidad. Solo paras del todo cuando hace falta."
+                },
+                "exam": {
+                  "q": "You arrive at a sign of «yield way». How do you show that you are going to yield?",
+                  "options": [
+                    "Putting the left indicator.",
+                    "Stopping always completely.",
+                    "Reducing the speed little by little and with anticipation."
+                  ]
                 },
                 "en": {
                   "q": "You reach a yield sign. How do you show that you will yield?",
@@ -2349,6 +2533,14 @@
                     "Está prohibido entrar"
                   ],
                   "why": "Es la señal R-6: en el paso estrecho tienes prioridad sobre los vehículos que vienen en sentido contrario."
+                },
+                "exam": {
+                  "q": "You see a blue square with a big white arrow towards ahead and another small red one in contrary sense. What does it indicate?",
+                  "options": [
+                    "You must let pass those who come from in front.",
+                    "You have priority in the narrow passage.",
+                    "It is prohibited to enter."
+                  ]
                 },
                 "en": {
                   "q": "You see a blue square with a large white arrow pointing ahead and a small red one pointing the opposite way. What does it mean?",
@@ -2434,6 +2626,14 @@
                   ],
                   "why": "Es la señal R-101: prohíbe el acceso a toda clase de vehículos a quien la ve de frente."
                 },
+                "exam": {
+                  "q": "You see from in front a red circle with a white horizontal bar. What does it mean?",
+                  "options": [
+                    "Entrance prohibited to any vehicle.",
+                    "Obligatory detention.",
+                    "Entrance prohibited only to lorries."
+                  ]
+                },
                 "en": {
                   "q": "You meet head-on a red circle with a white horizontal bar. What does it mean?",
                   "options": [
@@ -2504,6 +2704,14 @@
                     "Sí, si circulas despacio"
                   ],
                   "why": "La señal R-107 prohíbe el acceso si la masa máxima autorizada supera la indicada, aunque el vehículo circule vacío."
+                },
+                "exam": {
+                  "q": "A sign prohibits the access to vehicles of goods with mass superior to the indicated. Your lorry exceeds that authorised mass, but goes empty. Can you pass?",
+                  "options": [
+                    "Yes, because it goes empty.",
+                    "No: the maximum authorised mass counts, although it goes empty.",
+                    "Yes, if you circulate slowly."
+                  ]
                 },
                 "en": {
                   "q": "A sign forbids access to goods vehicles over the mass shown. Your truck exceeds that authorized mass, but it is empty. Can you pass?",
@@ -2634,6 +2842,14 @@
                     "Solo a los camiones vacíos"
                   ],
                   "why": "R-205 prohíbe el paso a los vehículos cuya altura máxima, incluida la carga, supere la indicada."
+                },
+                "exam": {
+                  "q": "This sign shows a height. To which vehicles does it prohibit the passage?",
+                  "options": [
+                    "To those which, with their load, are higher than the figure.",
+                    "To those which are lower than the figure.",
+                    "Only to the empty lorries."
+                  ]
                 },
                 "en": {
                   "q": "This sign shows a height. Which vehicles does it forbid to pass?",
@@ -2851,6 +3067,14 @@
                   ],
                   "why": "Cuando la limitación de velocidad va con una señal de peligro, termina cuando termina el peligro."
                 },
+                "exam": {
+                  "q": "A sign of maximum speed goes in the same post as a sign of danger. Until when is it applied?",
+                  "options": [
+                    "Until the end of the village.",
+                    "Until the following crossing.",
+                    "Until the danger finishes."
+                  ]
+                },
                 "en": {
                   "q": "A maximum-speed sign is on the same post as a warning sign. Until when does it apply?",
                   "options": [
@@ -2937,6 +3161,14 @@
                     "Girar a la derecha"
                   ],
                   "why": "La señal R-303 prohíbe girar a la izquierda e incluye también la prohibición del cambio de sentido."
+                },
+                "exam": {
+                  "q": "This sign prohibits to turn to the left. Which other manoeuvre does it prohibit also?",
+                  "options": [
+                    "To overtake.",
+                    "The change of direction of the march.",
+                    "To turn to the right."
+                  ]
                 },
                 "en": {
                   "q": "This sign forbids turning left. What other maneuver does it also forbid?",
@@ -3066,6 +3298,14 @@
                   ],
                   "why": "Es la señal R-308: prohíbe estacionar en ese lado de la calzada, pero no prohíbe la parada."
                 },
+                "exam": {
+                  "q": "A blue sign with a single red diagonal bar, what does it prohibit?",
+                  "options": [
+                    "To stop and to park.",
+                    "To park only at night.",
+                    "To park, but not to stop."
+                  ]
+                },
                 "en": {
                   "q": "A blue sign with a single red diagonal bar, what does it forbid?",
                   "options": [
@@ -3160,6 +3400,14 @@
                   ],
                   "why": "Es la señal R-403a: las flechas marcan las únicas direcciones que puedes tomar, de frente o a la derecha."
                 },
+                "exam": {
+                  "q": "A blue sign with two white arrows, one towards ahead and another towards the right, what does it permit you?",
+                  "options": [
+                    "To continue straight ahead or to turn to the right.",
+                    "To continue straight ahead or to turn to the left.",
+                    "Only to turn to the right."
+                  ]
+                },
                 "en": {
                   "q": "A blue sign with two white arrows, one straight ahead and one to the right, what does it allow you to do?",
                   "options": [
@@ -3229,6 +3477,14 @@
                     "Sí, porque la señal solo obliga a ciclomotores"
                   ],
                   "why": "La R-407b obliga a los ciclomotores a circular por esa vía y prohíbe a los demás usuarios utilizarla."
+                },
+                "exam": {
+                  "q": "This sign obliges the mopeds to use that road. Can a passenger car enter?",
+                  "options": [
+                    "Yes, if it circulates slowly.",
+                    "No: the road is reserved to mopeds.",
+                    "Yes, because the sign only obliges mopeds."
+                  ]
                 },
                 "en": {
                   "q": "This sign obliges mopeds to use that road. Can a car enter?",
@@ -3313,6 +3569,14 @@
                     "Fin de todas las prohibiciones"
                   ],
                   "why": "Es la señal R-500: desde ahí dejan de aplicarse todas las prohibiciones de las señales anteriores para vehículos en movimiento."
+                },
+                "exam": {
+                  "q": "A white circle with several black diagonal stripes, what does it mean?",
+                  "options": [
+                    "End of the zone of works.",
+                    "Prohibited to circulate at night.",
+                    "End of all the prohibitions."
+                  ]
                 },
                 "en": {
                   "q": "A white circle with several diagonal black stripes, what does it mean?",
@@ -3526,6 +3790,14 @@
                   ],
                   "why": "Las marcas viales nuevas en tramos con obras son amarillas. Las demás marcas son blancas, salvo las que se indiquen de otro color."
                 },
+                "exam": {
+                  "q": "A section in works has new road markings. Of which colour are they?",
+                  "options": [
+                    "Yellow.",
+                    "Red.",
+                    "White, always."
+                  ]
+                },
                 "en": {
                   "q": "A stretch with roadworks has new road markings. What color are they?",
                   "options": [
@@ -3640,6 +3912,14 @@
                   ],
                   "why": "Una línea continua significa que no debes atravesarla ni circular sobre ella ni, si separa los dos sentidos, por su izquierda."
                 },
+                "exam": {
+                  "q": "A continuous line separates the two directions of a road. What must you not do?",
+                  "options": [
+                    "To circulate by its right.",
+                    "To cross it or to circulate by its left.",
+                    "To circulate at more than 50 km/h."
+                  ]
+                },
                 "en": {
                   "q": "A continuous line separates the two directions of a road. What must you not do?",
                   "options": [
@@ -3672,6 +3952,14 @@
                   ],
                   "why": "Una línea discontinua puede atravesarse para cambiar de carril, siempre respetando la prioridad del vehículo del carril al que pasas."
                 },
+                "exam": {
+                  "q": "A discontinuous line separates two lanes of the same direction. Can you cross it in order to change lane?",
+                  "options": [
+                    "Yes, respecting the priority of who circulates by the other lane.",
+                    "No: it is prohibited to cross it.",
+                    "Yes, and you always have priority."
+                  ]
+                },
                 "en": {
                   "q": "A dashed line separates two lanes going the same way. May you cross it to change lane?",
                   "options": [
@@ -3703,6 +3991,14 @@
                     "Solo las de posición"
                   ],
                   "why": "En un carril reversible debes llevar encendida al menos la luz de cruce, tanto de día como de noche."
+                },
+                "exam": {
+                  "q": "You circulate by a lane delimited on both sides by double discontinuous markings, a reversible lane. Which lights must you carry?",
+                  "options": [
+                    "None during the day.",
+                    "At least the dipped ones, by day and by night.",
+                    "Only the position ones."
+                  ]
                 },
                 "en": {
                   "q": "You drive in a lane marked on both sides by double dashed lines, a reversible lane. Which lights must you have on?",
@@ -3791,6 +4087,14 @@
                     "Adelantar, si es seguro, y volver a tu carril aunque cruces la continua"
                   ],
                   "why": "Cuentas solo la línea de tu lado. Si empezaste a adelantar desde el lado de la discontinua, puedes volver a tu carril cruzando la continua."
+                },
+                "exam": {
+                  "q": "A continuous line stuck to a discontinuous one separates the directions, and the discontinuous one is on your side. What can you do?",
+                  "options": [
+                    "Nothing: the continuous one always commands.",
+                    "To cross it only in order to turn to the right.",
+                    "To overtake, if it is safe, and to return to your lane even if you cross the continuous one."
+                  ]
                 },
                 "en": {
                   "q": "A continuous line next to a dashed one separates the two directions, and the dashed one is on your side. What may you do?",
@@ -3898,6 +4202,14 @@
                   ],
                   "why": "Una línea discontinua transversal es una línea de ceda el paso: no la franqueas si tienes que ceder el paso."
                 },
+                "exam": {
+                  "q": "You see a discontinuous line across your lane before a crossing. What does it indicate?",
+                  "options": [
+                    "That you must yield way if the signalling or the norm demands it.",
+                    "That you must always stop completely.",
+                    "That a pedestrian crossing begins."
+                  ]
+                },
                 "en": {
                   "q": "You see a dashed line across your lane before a junction. What does it show?",
                   "options": [
@@ -3998,6 +4310,14 @@
                   ],
                   "why": "La flecha de retorno anuncia una línea continua que prohíbe circular por su izquierda. Hay que desistir de adelantar o terminar cuanto antes."
                 },
+                "exam": {
+                  "q": "You are overtaking and you see a return arrow painted on the carriageway. What does it announce?",
+                  "options": [
+                    "An obligatory change of direction.",
+                    "The end of the limitation of speed.",
+                    "A near continuous line: the overtaking ends as soon as possible."
+                  ]
+                },
                 "en": {
                   "q": "You are overtaking and see a return arrow painted on the road. What does it announce?",
                   "options": [
@@ -4082,6 +4402,14 @@
                   ],
                   "why": "El cebreado significa que ningún conductor debe entrar en esa zona con su vehículo, salvo quienes estén obligados a circular por el arcén."
                 },
+                "exam": {
+                  "q": "A zone of oblique white stripes surrounded by a continuous line, can you enter with your car?",
+                  "options": [
+                    "No, except who must circulate by the hard shoulder.",
+                    "Yes, if nobody comes.",
+                    "Yes, only in order to overtake."
+                  ]
+                },
                 "en": {
                   "q": "A zone of white oblique stripes surrounded by a continuous line: may you enter it with your car?",
                   "options": [
@@ -4113,6 +4441,14 @@
                     "Que es una zona de estacionamiento"
                   ],
                   "why": "La cuadrícula recuerda la prohibición de entrar en una intersección si previsiblemente vas a quedar detenido e impedir la circulación transversal."
+                },
+                "exam": {
+                  "q": "A yellow grid in a crossing, what does it remind you?",
+                  "options": [
+                    "That you must always stop there.",
+                    "That you do not enter if you are going to remain stopped and to block the crossing.",
+                    "That it is a zone of parking."
+                  ]
                 },
                 "en": {
                   "q": "A yellow grid at a junction, what does it remind you of?",
@@ -4220,6 +4556,14 @@
                     "Parar un momento sin abandonar el vehículo, pero no estacionar"
                   ],
                   "why": "La línea amarilla discontinua prohíbe estacionar en todo su largo. La continua prohíbe parar y estacionar."
+                },
+                "exam": {
+                  "q": "Next to the kerb there is a discontinuous yellow line. What can you do?",
+                  "options": [
+                    "To park, because it is not continuous.",
+                    "Nothing: it is not possible even to stop.",
+                    "To stop a moment without abandoning the vehicle, but not to park."
+                  ]
                 },
                 "en": {
                   "q": "There is a dashed yellow line along the curb. What may you do?",

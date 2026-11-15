@@ -1,6 +1,6 @@
 import { useContext, useMemo, useState } from 'preact/hooks';
 import { Uk } from '../Uk';
-import { bi, ModeOverride, mode, T } from '../i18n';
+import { bi, examEnglish, ModeOverride, mode, setExamEnglish, T } from '../i18n';
 import { categories, categoryById } from '../data/categories';
 import { OFFICIAL_TESTS_URL } from '../data/facts';
 import { questionOf, seenOf } from '../format';
@@ -37,6 +37,11 @@ export function QuestionCard({
   // Inside a lesson step the whole step may already be showing both languages.
   const outer = useContext(ModeOverride);
   const override = peek && mode.value === 'es' ? 'both' : outer;
+  const showsEnglish = (override ?? mode.value) !== 'es';
+  // The exam register replaces the plain English of the question and its options, never the explanation.
+  const exam = examEnglish.value && q.exam ? q.exam : null;
+  const enQ = exam?.q ?? q.en.q;
+  const enOption = (i: number) => (exam ? exam.options[i] : q.en.options[i]) ?? '';
   return (
     <ModeOverride.Provider value={override}>
       <article class="card question">
@@ -47,10 +52,21 @@ export function QuestionCard({
               EN
             </button>
           )}
+          {q.exam && showsEnglish && (
+            <button
+              type="button"
+              class={`peek wide exam-en ${examEnglish.value ? 'on' : ''}`}
+              aria-pressed={examEnglish.value}
+              title={ui.examEnglishHint.en}
+              onClick={() => setExamEnglish(!examEnglish.value)}
+            >
+              <T t={ui.examEnglish} />
+            </button>
+          )}
         </header>
         <div class="q-ask">
           {q.image && <img class="sign" src={q.image} alt="Señal de tráfico / Traffic sign" width="160" height="160" />}
-          <h2 class="stem"><T t={bi(q.es.q, q.en.q)} /></h2>
+          <h2 class="stem"><T t={bi(q.es.q, enQ)} /></h2>
         </div>
         <div class="q-answer">
         <div class="options" role="group">
@@ -66,7 +82,7 @@ export function QuestionCard({
                 onClick={() => onSelect(original)}
               >
                 <span class="letter">{'ABC'[position]}</span>
-                <T t={bi(q.es.options[original] ?? '', q.en.options[original] ?? '')} />
+                <T t={bi(q.es.options[original] ?? '', enOption(original))} />
               </button>
             );
           })}

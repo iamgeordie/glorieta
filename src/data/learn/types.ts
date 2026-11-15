@@ -11,6 +11,8 @@ export type CheckQuestion = {
   answer: number;
   es: { q: string; options: string[]; why: string };
   en: { q: string; options: string[]; why: string };
+  /** Exam English: a literal rendering of `es` (docs/learn-authoring.md, "Exam English"). */
+  exam?: { q: string; options: string[] };
   terms?: { es: string; en: string }[];
   note?: Bi;
   /**

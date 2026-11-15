@@ -148,6 +148,14 @@
                   ],
                   "why": "Para un conductor corriente el máximo es 0,25 mg/l de aire espirado. El aire espirado cuenta igual que la sangre, y 0,30 lo supera."
                 },
+                "exam": {
+                  "q": "You drive a passenger car with a permit which you got ten years ago. In a control you blow 0,30 mg/l. Which is your situation?",
+                  "options": [
+                    "You are inside the limit: the maximum is 0,40 mg/l.",
+                    "You exceed the limit: the maximum is 0,25 mg/l.",
+                    "You are inside the limit: only the blood counts."
+                  ]
+                },
                 "en": {
                   "q": "You drive a car with a permit you got ten years ago. At a checkpoint you blow 0.30 mg/L. What is your situation?",
                   "options": [
@@ -225,6 +233,14 @@
                   ],
                   "why": "Un vehículo de viajeros de más de nueve plazas tiene el límite bajo: 0,15 mg/l. Con 0,20 mg/l lo superas aunque no llegues a 0,25."
                 },
+                "exam": {
+                  "q": "You drive a bus of thirty places. In a control you blow 0,20 mg/l. What happens?",
+                  "options": [
+                    "You are inside the general limit of 0,25 mg/l.",
+                    "You are inside: the buses do not have limit.",
+                    "You exceed the limit: yours is 0,15 mg/l."
+                  ]
+                },
                 "en": {
                   "q": "You drive a thirty-seat bus. At a checkpoint you blow 0.20 mg/L. What happens?",
                   "options": [
@@ -286,6 +302,14 @@
                     "Estás dentro: el límite bajo es solo para camiones"
                   ],
                   "why": "Durante los dos primeros años con el permiso el límite es 0,15 mg/l, sea cual sea el vehículo. Con 0,20 mg/l lo superas."
+                },
+                "exam": {
+                  "q": "You obtained the permit B fourteen months ago. You drive your car and you blow 0,20 mg/l. What happens?",
+                  "options": [
+                    "You exceed your limit, which is 0,15 mg/l.",
+                    "You are inside: the maximum is 0,25 mg/l.",
+                    "You are inside: the low limit is only for lorries."
+                  ]
                 },
                 "en": {
                   "q": "You got your B permit fourteen months ago. You drive your car and blow 0.20 mg/L. What happens?",
@@ -396,6 +420,14 @@
                   ],
                   "why": "La ley dice que el conductor menor de edad no puede circular con ninguna tasa: 0 mg/l de aire espirado y 0 g/l de sangre."
                 },
+                "exam": {
+                  "q": "Which rate of alcohol in expired air can a driver minor of age have?",
+                  "options": [
+                    "0,15 mg/l",
+                    "0,25 mg/l",
+                    "0 mg/l"
+                  ]
+                },
                 "en": {
                   "q": "What exhaled-air alcohol level may a driver who is a minor have?",
                   "options": [
@@ -449,6 +481,14 @@
                     "Un café fuerte baja la tasa antes de salir"
                   ],
                   "why": "Dormir unas horas no basta: el alcohol se elimina más despacio durante el sueño. Solo el tiempo lo baja; el café no."
+                },
+                "exam": {
+                  "q": "You have drunk enough at night and you sleep three hours. In the morning you have to drive. What is true?",
+                  "options": [
+                    "You can still have alcohol in blood: sleeping it is eliminated more slowly.",
+                    "Sleeping has eliminated the alcohol and you can now drive.",
+                    "A strong coffee lowers the rate before leaving."
+                  ]
                 },
                 "en": {
                   "q": "You drank a lot at night and sleep three hours. You have to drive in the morning. What is true?",
@@ -611,6 +651,14 @@
                   ],
                   "why": "Todos los conductores están obligados a someterse a las pruebas, y los controles preventivos son uno de los casos en que los agentes pueden pedirlas."
                 },
+                "exam": {
+                  "q": "You drive with normality and you have not committed any infraction. The agents set up a preventive alcohol control. Are you obliged to blow?",
+                  "options": [
+                    "No: only if you have committed an infraction.",
+                    "Only if the agents notice symptoms.",
+                    "Yes: in a preventive control the drivers must submit themselves to the test."
+                  ]
+                },
                 "en": {
                   "q": "You drive normally and have committed no offense. Officers set up a preventive alcohol checkpoint. Must you blow?",
                   "options": [
@@ -666,6 +714,14 @@
                     "Llevarte a un hospital para un análisis de sangre obligatorio"
                   ],
                   "why": "Con un resultado por encima de la tasa, el agente practica una segunda prueba de aire espirado por un procedimiento similar, y te informa de ello antes."
+                },
+                "exam": {
+                  "q": "In a first blow you give 0,35 mg/l driving a passenger car. What must the agent do?",
+                  "options": [
+                    "To make you a second test of expired air, informing you before.",
+                    "To sanction you directly: only one test is enough.",
+                    "To take you to a hospital for an obligatory blood analysis."
+                  ]
                 },
                 "en": {
                   "q": "On a first breath you blow 0.35 mg/L driving a car. What must the officer do?",
@@ -746,6 +802,14 @@
                   ],
                   "why": "Con un resultado positivo, el agente puede inmovilizar el vehículo salvo que otra persona habilitada pueda conducirlo."
                 },
+                "exam": {
+                  "q": "The result of the control is positive and no other enabled person can drive your car. What can the agent do?",
+                  "options": [
+                    "To let you continue if you promise to drive slowly.",
+                    "To immobilise the vehicle.",
+                    "To withdraw you the permit on the act."
+                  ]
+                },
                 "en": {
                   "q": "The checkpoint result is positive and no other qualified person can drive your car. What can the officer do?",
                   "options": [
@@ -809,6 +873,14 @@
                     "No: por debajo de 0,60 mg/l solo se sanciona a los noveles"
                   ],
                   "why": "El delito no depende solo de la cifra. Conducir bajo la influencia del alcohol puede serlo con una tasa menor, y por encima de 0,60 mg/l siempre lo es."
+                },
+                "exam": {
+                  "q": "A driver of passenger car blows 0,45 mg/l, but circulates making esses and speaks with difficulty. Can it be a crime?",
+                  "options": [
+                    "Yes: to drive under the influence of the alcohol can be a crime although it does not reach 0,60 mg/l.",
+                    "No: it is only a crime above 0,60 mg/l.",
+                    "No: below 0,60 mg/l only the novices are sanctioned."
+                  ]
                 },
                 "en": {
                   "q": "A car driver blows 0.45 mg/L, but is weaving and speaks with difficulty. Can it be a crime?",
@@ -904,6 +976,14 @@
                     "4 puntos"
                   ],
                   "why": "Para un conductor corriente, más de 0,25 hasta 0,50 mg/l supone la pérdida de 4 puntos. Más de 0,50 mg/l son 6 puntos."
+                },
+                "exam": {
+                  "q": "You drive a passenger car with a permit of six years ago and you give 0,40 mg/l in expired air, without it being a crime. How many points do you lose?",
+                  "options": [
+                    "6 points.",
+                    "2 points.",
+                    "4 points."
+                  ]
                 },
                 "en": {
                   "q": "You drive a car with a permit from six years ago and blow 0.40 mg/L of exhaled air, and it is not a crime. How many points do you lose?",
@@ -1072,6 +1152,14 @@
                   ],
                   "why": "El reglamento prohíbe conducir tras tomar estas sustancias a los conductores de vehículos y también a los de bicicletas."
                 },
+                "exam": {
+                  "q": "A cyclist gives positive in an illegal drug in a control. Does the prohibition affect him?",
+                  "options": [
+                    "No: the prohibition is only for motor vehicles.",
+                    "Yes: the prohibition reaches also whoever drives a bicycle.",
+                    "Only if he circulates by an interurban road."
+                  ]
+                },
                 "en": {
                   "q": "A cyclist tests positive for an illegal drug at a checkpoint. Does the ban apply?",
                   "options": [
@@ -1133,6 +1221,14 @@
                     "Sí: el conductor está obligado a someterse a ella"
                   ],
                   "why": "El conductor está obligado a someterse a las pruebas de alcohol y de drogas que practican los agentes de tráfico."
+                },
+                "exam": {
+                  "q": "In a control an agent asks you for a test of saliva in order to detect drugs. Are you obliged to do it?",
+                  "options": [
+                    "No: it is voluntary.",
+                    "Only if you present symptoms.",
+                    "Yes: the driver is obliged to submit to it."
+                  ]
                 },
                 "en": {
                   "q": "At a checkpoint an officer asks you for a saliva test for drugs. Must you take it?",
@@ -1196,6 +1292,14 @@
                     "2 puntos"
                   ],
                   "why": "Conducir con presencia de drogas en el organismo supone la pérdida de 6 puntos del permiso."
+                },
+                "exam": {
+                  "q": "You give positive in an illegal drug in a control, without it being a crime. How many points do you lose?",
+                  "options": [
+                    "6 points.",
+                    "4 points.",
+                    "2 points."
+                  ]
                 },
                 "en": {
                   "q": "You test positive for an illegal drug at a checkpoint, and it is not a crime. How many points do you lose?",
@@ -1356,6 +1460,14 @@
                   ],
                   "why": "La ley prohíbe conducir bajo el efecto de medicamentos que alteran el estado físico o mental necesario para circular sin peligro, aunque estén recetados."
                 },
+                "exam": {
+                  "q": "Your doctor prescribes you a medicine and it gives you much sleep. Can you drive?",
+                  "options": [
+                    "Yes: it is prescribed and it is legal.",
+                    "Yes, if you only drive by city.",
+                    "No: you cannot drive under the effect of a medicine which alters your state."
+                  ]
+                },
                 "en": {
                   "q": "Your doctor prescribes a medicine and it makes you very sleepy. Can you drive?",
                   "options": [
@@ -1403,6 +1515,14 @@
                     "Sí, salvo que lo tomes por la noche"
                   ],
                   "why": "Las sustancias recetadas con finalidad terapéutica se excluyen, siempre que estés en condiciones de conducir con diligencia, precaución y sin distracciones."
+                },
+                "exam": {
+                  "q": "You take a prescribed medicine. You drive with normality, attentive and without sleep. In a control the presence of that substance jumps. Is it an infraction for drugs?",
+                  "options": [
+                    "Yes: every substance in the organism counts as drug.",
+                    "No: a substance prescribed with therapeutic aim remains excluded if you can drive with attention.",
+                    "Yes, except that you take it by the night."
+                  ]
                 },
                 "en": {
                   "q": "You take a prescribed medicine. You drive normally, alert and not sleepy. At a checkpoint the substance shows up. Is it a drug offense?",
@@ -1477,6 +1597,14 @@
                   ],
                   "why": "El pictograma avisa de un posible efecto sobre la conducción. No es una prohibición general: lee el prospecto y consulta a un profesional sanitario."
                 },
+                "exam": {
+                  "q": "What does the pictogram of a car on the box of a medicine indicate?",
+                  "options": [
+                    "That it can affect your driving: read the leaflet and consult a sanitary professional.",
+                    "That it is prohibited to drive while the treatment lasts.",
+                    "That it has no effect on the driving."
+                  ]
+                },
                 "en": {
                   "q": "What does a car pictogram on a medicine box indicate?",
                   "options": [
@@ -1530,6 +1658,14 @@
                     "No hay problema si el medicamento es de venta libre"
                   ],
                   "why": "El alcohol puede reforzar los efectos del medicamento y sus efectos secundarios. La DGT aconseja no combinarlos."
+                },
+                "exam": {
+                  "q": "What does the DGT advise about mixing alcohol and medicines before driving?",
+                  "options": [
+                    "To avoid the mixture: it can reinforce the effects of both.",
+                    "To wait one hour between the alcohol and the medicine.",
+                    "There is no problem if the medicine is of free sale."
+                  ]
                 },
                 "en": {
                   "q": "What does the DGT advise about mixing alcohol and medicines before driving?",
@@ -1708,6 +1844,14 @@
                   ],
                   "why": "La DGT recomienda parar cada dos horas o cada 200 km, y siempre, no solo cuando se nota el sueño."
                 },
+                "exam": {
+                  "q": "You carry two hours driving by dual carriageway and you feel well. What does the DGT recommend?",
+                  "options": [
+                    "To stop and rest at least 20 or 30 minutes.",
+                    "To continue while you do not have sleep.",
+                    "To continue one hour more and to stop afterwards."
+                  ]
+                },
                 "en": {
                   "q": "You have been driving for two hours on a highway and feel fine. What does the DGT recommend?",
                   "options": [
@@ -1787,6 +1931,14 @@
                   ],
                   "why": "Son señales de sueño. Lo seguro es parar en un lugar adecuado y descansar."
                 },
+                "exam": {
+                  "q": "You drive by night, you yawn, you blink much and you deviate towards the centre of the carriageway. What do you do?",
+                  "options": [
+                    "You open the window and you continue.",
+                    "You stop in a suitable place and you rest.",
+                    "You raise the music and you accelerate in order to arrive before."
+                  ]
+                },
                 "en": {
                   "q": "You drive at night, yawn, blink a lot and drift toward the center of the road. What do you do?",
                   "options": [
@@ -1848,6 +2000,14 @@
                     "Tomar un café y seguir sin parar"
                   ],
                   "why": "La DGT aconseja parar y descansar: una cabezada de 20 a 30 minutos ayuda. Los estimulantes, como el café, alivian un rato y después puede venir un efecto rebote."
+                },
+                "exam": {
+                  "q": "You notice much sleep while you drive by a dual carriageway. What is the most correct?",
+                  "options": [
+                    "To open the window and to raise the music in order to continue.",
+                    "To stop in a safe place and to take a nap of 20 to 30 minutes.",
+                    "To take a coffee and to continue without stopping."
+                  ]
                 },
                 "en": {
                   "q": "You feel very sleepy while driving on a dual carriageway. What is the best thing to do?",

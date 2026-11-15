@@ -80,6 +80,10 @@ export function checkLearn({ questions, signs, categoryIds }) {
       else if (new Set(v.options).size !== 3) bad(where, `${lang}.options has duplicates`);
       if (bank && DEPENDENT.test(`${v?.q ?? ''} ${v?.options?.join(' ') ?? ''}`)) bad(where, `${lang} question refers to the lesson or a figure; it must stand alone`);
     }
+    if (q.exam !== undefined) {
+      if (!str(q.exam?.q)) bad(where, 'exam.q is empty');
+      if (!Array.isArray(q.exam?.options) || q.exam.options.length !== 3 || q.exam.options.some((o) => !str(o))) bad(where, 'exam.options must be exactly 3 non-empty strings');
+    }
     if (q.sign !== undefined && !signIds.has(q.sign)) bad(where, `sign "${q.sign}" is not in signs.json`);
     for (const lang of ['es', 'en']) {
       const text = `${q[lang]?.q ?? ''} ${(q[lang]?.options ?? []).join(' ')}`;
