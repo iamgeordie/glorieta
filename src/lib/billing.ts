@@ -7,6 +7,8 @@ import { requireClient } from './supabase';
 
 export type Interval = 'month' | 'year';
 export type Plan = { interval: Interval; amount: number; currency: string; name: string };
+/** "Buy me a coffee": the preset amounts and the allowed range, in cents, as the Worker reports them. */
+export type Coffee = { currency: string; presets: number[]; min: number; max: number };
 export type BillingRow = { stripe_customer_id: string; entitlements: string[] };
 export type PlanState = {
   interval: Interval | null;
@@ -26,6 +28,20 @@ export const isSupporter = (row: BillingRow | null | undefined): boolean => !!ro
 
 /** How the person came back from Checkout, read once from `?checkout=` and then removed from the address. */
 export const checkoutReturn = signal<'success' | 'cancel' | null>(takeCheckoutParam());
+
+/** True once, after a coffee was paid (`?coffee=thanks`), then removed from the address. */
+export const coffeeThanks = signal<boolean>(takeParam('coffee') === 'thanks');
+
+/** Sends the browser to Stripe Checkout for a one-time coffee of `amount` cents. */
+export async function buyCoffee(amount: number, locale: 'es' | 'en'): Promise<Bi | null> {
+  try {
+    const { url } = await api<{ url: string }>('coffee', { method: 'POST', body: { amount, locale }, signedIn: true });
+    location.assign(url);
+    return null;
+  } catch (err) {
+    return describeAuthError(err);
+  }
+}
 
 /** True once, after the change-card page saved a card (`?card=saved`), then removed from the address. */
 export const cardSaved = signal<boolean>(takeParam('card') === 'saved');
@@ -77,9 +93,10 @@ async function api<T>(path: string, init: { method?: 'GET' | 'POST'; body?: unkn
   return body;
 }
 
-export async function getPlans(): Promise<{ ok: true; plans: Plan[] } | { ok: false; error: Bi }> {
+export async function getPlans(): Promise<{ ok: true; plans: Plan[]; coffee: Coffee } | { ok: false; error: Bi }> {
   try {
-    return { ok: true, plans: (await api<{ plans: Plan[] }>('prices')).plans };
+    const r = await api<{ plans: Plan[]; coffee: Coffee }>('prices');
+    return { ok: true, plans: r.plans, coffee: r.coffee };
   } catch (err) {
     return { ok: false, error: describeAuthError(err) };
   }

@@ -28,6 +28,7 @@ const known: Record<string, Bi> = {
   no_customer: bi('No tienes ningún plan de apoyo que gestionar.', 'You have no support plan to manage.'),
   catalog_incomplete: bi('Los planes de apoyo no están disponibles ahora mismo.', 'The support plans are not available right now.'),
   no_plan: bi('No tienes ningún plan de apoyo activo.', 'You have no active support plan.'),
+  bad_amount: bi('Elige una cantidad en euros enteros, de 2 a 200.', 'Choose a whole number of euros, from 2 to 200.'),
   same_plan: bi('Ya estás en ese plan.', 'You are already on that plan.'),
   stripe_delete_failed: bi(
     'Stripe no pudo cancelar tu plan, así que no hemos borrado nada. Vuelve a intentarlo.',

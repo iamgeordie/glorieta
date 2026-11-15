@@ -4,7 +4,9 @@ import { b } from '../billingStrings';
 import { authStatus } from '../lib/auth';
 import {
   billing,
+  buyCoffee,
   cardSaved,
+  coffeeThanks,
   changeCard,
   checkoutReturn,
   getPlan,
@@ -14,6 +16,7 @@ import {
   setCancel,
   startCheckout,
   switchTo,
+  type Coffee,
   type Interval,
   type Invoice,
   type Plan,
@@ -35,11 +38,16 @@ export function Support() {
   const signedIn = authStatus.value === 'in';
   const row = billing.value;
   const [plans, setPlans] = useState<Plan[] | null>(null);
+  const [coffee, setCoffee] = useState<Coffee | null>(null);
   const [error, setError] = useState<Bi | null>(null);
   const [busy, setBusy] = useState(false);
 
   useEffect(() => {
-    void getPlans().then((r) => (r.ok ? setPlans(r.plans) : setError(r.error)));
+    void getPlans().then((r) => {
+      if (!r.ok) return setError(r.error);
+      setPlans(r.plans);
+      setCoffee(r.coffee);
+    });
   }, []);
   // The mirror is re-read every time this page opens, so a badge that just landed shows at once.
   useEffect(() => {
@@ -105,6 +113,7 @@ export function Support() {
           <p class="muted small"><T t={b.stripeNote} /></p>
         </div>
       )}
+      {coffee && <CoffeeCard coffee={coffee} signedIn={signedIn} />}
       <Message error={error} />
     </section>
   );
@@ -288,6 +297,68 @@ function ManagePlan({ plans }: { plans: Plan[] | null }) {
             </ul>
           )}
         </>
+      )}
+      <Message error={error} />
+    </div>
+  );
+}
+
+/** A one-time coffee: preset amounts or another whole number of euros. No plan, no badge. */
+function CoffeeCard({ coffee, signedIn }: { coffee: Coffee; signedIn: boolean }) {
+  const [euros, setEuros] = useState('');
+  const [error, setError] = useState<Bi | null>(null);
+  const [busy, setBusy] = useState(false);
+  const give = async (cents: number) => {
+    setBusy(true);
+    setError(null);
+    const err = await buyCoffee(cents, checkoutLocale());
+    if (err) {
+      setError(err);
+      setBusy(false);
+    }
+  };
+  // Whole euros only, so the field never needs decimal or locale parsing.
+  const typed = /^[0-9]{1,3}$/.test(euros.trim()) ? Number(euros.trim()) * 100 : null;
+  const typedOk = typed !== null && typed >= coffee.min && typed <= coffee.max;
+  return (
+    <div class="card coffee">
+      <h2><T t={b.coffeeTitle} /></h2>
+      {coffeeThanks.value && (
+        <p class="note notice" role="status">
+          <T t={b.coffeeThanks} />
+          <button type="button" class="link" onClick={() => (coffeeThanks.value = false)} aria-label="OK">OK</button>
+        </p>
+      )}
+      <p class="muted small"><T t={b.coffeeText} /></p>
+      {signedIn ? (
+        <>
+          <div class="actions">
+            {coffee.presets.map((cents) => (
+              <button type="button" key={cents} class="secondary" disabled={busy} onClick={() => void give(cents)}>
+                {money(cents, coffee.currency)}
+              </button>
+            ))}
+          </div>
+          <div class="actions coffee-other">
+            <label>
+              <T t={b.coffeeOther} />{' '}
+              <input
+                type="number"
+                inputMode="numeric"
+                min={coffee.min / 100}
+                max={coffee.max / 100}
+                step={1}
+                value={euros}
+                onInput={(e) => setEuros((e.target as HTMLInputElement).value)}
+              />
+            </label>
+            <button type="button" class="primary" disabled={busy || !typedOk} onClick={() => typed !== null && void give(typed)}>
+              <T t={busy ? b.redirecting : b.coffeeGive} />
+            </button>
+          </div>
+        </>
+      ) : (
+        <p><T t={b.coffeeSignIn} /></p>
       )}
       <Message error={error} />
     </div>

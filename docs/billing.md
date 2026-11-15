@@ -9,9 +9,9 @@ LinguaMama also uses. Every study feature stays free. The spec is in
 
 | Piece | Where |
 |---|---|
-| Billing API (`/api/billing/prices`, `checkout`, `plan`, `cancel`, `switch`, `card`, `erase`, `webhook`) | `worker/`, served by the same Cloudflare Worker as the site, only for `/api/*` |
+| Billing API (`/api/billing/prices`, `checkout`, `coffee`, `plan`, `cancel`, `switch`, `card`, `erase`, `webhook`) | `worker/`, served by the same Cloudflare Worker as the site, only for `/api/*` |
 | Entitlement mirror | `glorieta.billing`, written only by `glorieta.billing_apply()` (HMAC-signed calls) |
-| Catalog (Product, Prices, Feature) | created by `scripts/stripe-catalog.mjs` |
+| Catalog (Product, Prices, Feature; the coffee Product) | created by `scripts/stripe-catalog.mjs` |
 | Support page, badge, profile card | `src/screens/Support.tsx`, `src/screens/Profile.tsx`, `src/App.tsx` |
 
 ## Keys and secrets
@@ -138,6 +138,10 @@ npm run deploy
   email addresses are logged.
 - A failed delivery returns 500 and Stripe retries it. Replays are harmless: an event already applied
   changes nothing.
+- "Invítame a un café / Buy me a coffee" is a one-time payment on the Product `glorieta_coffee`: €3, €5 or
+  €10, or another whole number of euros from €2 to €200, checked by the Worker. It needs a signed-in account,
+  so the payment lands on the person's Glorieta-tagged customer, and Checkout creates an invoice as the
+  receipt. It grants no entitlement and no badge.
 - Supporters manage the plan on the support page (`worker/manage.ts`), not in Stripe's hosted portal,
   which can only carry the shared account's branding. A new card is entered on a setup-mode Checkout
   page and becomes the plan's card when the webhook sees it complete.

@@ -220,6 +220,14 @@ tagged `app=glorieta`, and names a Glorieta subscription of the same customer, i
 becomes the customer's `invoice_settings.default_payment_method` and the subscription's
 `default_payment_method`.
 
+#### `POST /api/billing/coffee` (signed in)
+
+A one-time payment ("Invítame a un café / Buy me a coffee"), added 2026-11-15. `amount` is cents, whole
+euros from 200 to 20000 (presets 300, 500, 1000, reported by `GET prices`); 400 `bad_amount` otherwise.
+Checkout in `payment` mode on the caller's Glorieta customer (created and linked as for a plan), one line
+with `price_data` on Product `glorieta_coffee`, `invoice_creation` on, automatic tax, Glorieta branding.
+No entitlement, no badge, nothing in the mirror beyond the customer link.
+
 #### `POST /api/billing/erase` (signed in)
 
 Runs before `glorieta.delete_my_data()`. If the caller has no row, it returns

@@ -3,6 +3,8 @@
 //                                               card statement "APPREL GLORIETA"
 //   Feature        lookup key glorieta_supporter, attached to the Product
 //   Prices         glorieta_supporter_monthly / glorieta_supporter_annual, EUR, recurring
+//   Product        glorieta_coffee              "Glorieta: un café", one-time support; no Price (the amount is
+//                                               set per Checkout Session), no Feature, so no badge
 //
 // Usage (amounts in euro cents, so no rounding is ever involved):
 //   STRIPE_SETUP_KEY=rk_test_... node scripts/stripe-catalog.mjs --monthly 300 --annual 3000
@@ -125,6 +127,29 @@ for (const [interval, lookup_key] of Object.entries(PRICES)) {
   if (current) await stripe.prices.update(current.id, { active: false });
   priceIds[interval] = created.id;
   log(`price ${interval}`, `${created.id} ${amount} eur cents`, current ? 'replaced' : 'created');
+}
+
+// "Buy me a coffee": a one-time payment. The Worker sets the amount on each Checkout Session.
+const COFFEE_ID = 'glorieta_coffee';
+const coffeeFields = {
+  name: 'Glorieta: un café / a coffee',
+  description: 'One-time support for Glorieta, the free study app for the Spanish driving theory test. No plan, nothing renews.',
+  statement_descriptor: STATEMENT_DESCRIPTOR,
+  images: [IMAGE],
+};
+try {
+  const coffee = await stripe.products.retrieve(COFFEE_ID);
+  if (coffee.metadata.app !== APP) throw new Error(`Product ${COFFEE_ID} exists without metadata app=${APP}; refusing to touch it.`);
+  const same = coffee.active && coffee.name === coffeeFields.name && coffee.statement_descriptor === STATEMENT_DESCRIPTOR && coffee.images?.[0] === IMAGE;
+  if (same) log('product', COFFEE_ID, 'ok');
+  else {
+    await stripe.products.update(COFFEE_ID, { ...coffeeFields, active: true });
+    log('product', COFFEE_ID, 'updated');
+  }
+} catch (err) {
+  if (err?.code !== 'resource_missing') throw err;
+  await stripe.products.create({ id: COFFEE_ID, ...coffeeFields, metadata: { app: APP } });
+  log('product', COFFEE_ID, 'created');
 }
 
 console.log(`\nCatalog ready (${live ? 'live' : 'test'} mode): monthly ${priceIds.month}, annual ${priceIds.year}.`);

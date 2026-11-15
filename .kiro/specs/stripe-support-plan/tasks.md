@@ -165,6 +165,11 @@ schema; nothing is mocked.
   the support page's manage section; the portal endpoint, var and catalog portal configuration removed
   - _Requirements: 3.1, 3.2, 3.3, 3.4_
 
+- [x] 8.8 "Buy me a coffee", a one-time payment (added 2026-11-15): Product `glorieta_coffee` in the
+  catalog script; `POST /api/billing/coffee` with presets €3/€5/€10 or another whole number of euros from
+  €2 to €200; payment mode on the person's Glorieta customer, invoice as receipt, no entitlement, no badge;
+  the coffee card on the support page
+
 - [ ] 9. End-to-end in test mode
 - [x] 9.1 (Run on the deployed site, 2026-11-15, instead of locally.) Locally (`wrangler dev`, `stripe listen`, `npm run dev`): subscribe with `4242 4242 4242
   4242`, see `glorieta_supporter` in the mirror and the badge in the app

@@ -81,3 +81,13 @@ test('the plan endpoints refuse a malformed body before anything else', async ()
 test('the hosted portal endpoint is gone', async () => {
   assert.equal((await call('POST', '/api/billing/portal')).status, 404);
 });
+
+test('a coffee is whole euros between 2 and 200, given in cents', async () => {
+  const { parseCoffeeAmount } = await import('./catalog.ts');
+  for (const ok of [200, 300, 500, 1000, 20000]) assert.equal(parseCoffeeAmount(ok), ok);
+  for (const bad of [100, 199, 250, 20100, 3.5, '500', null, -500]) assert.equal(parseCoffeeAmount(bad), null, String(bad));
+});
+
+test('a coffee needs a session', async () => {
+  assert.equal((await call('POST', '/api/billing/coffee', { amount: 500, locale: 'es' })).status, 401);
+});
