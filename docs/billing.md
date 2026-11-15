@@ -43,6 +43,11 @@ for the one database.
 
    It prints the portal configuration id. Put it in `wrangler.jsonc` under `vars` as
    `STRIPE_PORTAL_CONFIGURATION`.
+
+   In test mode the catalog exists, created with the test "Glorieta Worker" key as `STRIPE_SETUP_KEY`
+   (that key also has catalog write): product `glorieta_supporter`, prices
+   `price_1Uc38g23tZR70mOfmNijZBL0` (300 cents a month) and `price_1Uc38h23tZR70mOfkfZz7tNc` (3000 cents a
+   year), portal configuration `bpc_1Uc38i23tZR70mOf1BGs44wK`.
 3. The HMAC key is already in place: 1Password item "Glorieta billing HMAC key" (AppliedRelevance
    vault), `glorieta.billing_key`, and the Worker secret `BILLING_HMAC_KEY`. To rotate it, generate a
    new one and save it in 1Password:
