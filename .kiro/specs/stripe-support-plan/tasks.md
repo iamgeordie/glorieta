@@ -165,7 +165,7 @@ schema; nothing is mocked.
   the support page's manage section; the portal endpoint, var and catalog portal configuration removed
   - _Requirements: 3.1, 3.2, 3.3, 3.4_
 
-- [x] 9. End-to-end in test mode
+- [ ] 9. End-to-end in test mode
 - [x] 9.1 (Run on the deployed site, 2026-11-15, instead of locally.) Locally (`wrangler dev`, `stripe listen`, `npm run dev`): subscribe with `4242 4242 4242
   4242`, see `glorieta_supporter` in the mirror and the badge in the app
   - _Requirements: 9.1_
@@ -183,7 +183,7 @@ schema; nothing is mocked.
   `people` row and confirm, read-only on project `myekgdmvvpyfyvexmrgd`, that the row is unchanged
   and `get-pricing` lists no *Glorieta Supporter*
   - _Requirements: 5.6, 9.4_
-- [ ] 9.7 Deploy with test-mode keys and repeat 9.1 against `glorieta.anaidic.com`
+- [x] 9.7 Deploy with test-mode keys and repeat 9.1 against `glorieta.anaidic.com`
 
 - [ ] 10. Live mode **(Geordie)**
 - [ ] 10.1 Live restricted key, live catalog through `scripts/stripe-catalog.mjs`, live portal
