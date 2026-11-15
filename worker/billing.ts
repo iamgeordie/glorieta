@@ -98,6 +98,12 @@ export async function checkout(request: Request, env: Cloudflare.Env): Promise<R
     customer_update: { address: 'auto', name: 'auto' },
     billing_address_collection: 'required',
     allow_promotion_codes: true,
+    // Glorieta's name and mark on this page only; the account's own branding (LinguaMama's) stays as it is.
+    branding_settings: {
+      display_name: 'Glorieta',
+      icon: { type: 'url', url: `${env.SITE_ORIGIN}/brand/glorieta-icon.png` },
+      button_color: '#1f4fd8',
+    },
     locale,
     success_url: `${env.SITE_ORIGIN}/?checkout=success#/support`,
     cancel_url: `${env.SITE_ORIGIN}/?checkout=cancel#/support`,

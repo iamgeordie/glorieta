@@ -5,7 +5,7 @@ The SVG files in this folder are Spanish traffic sign drawings from
 They are **unmodified copies** of the files named in the tables below. Each keeps the
 license it has on Commons; the Apache-2.0 license of this project does not apply to them.
 
-The R-402 roundabout sign is also the app logo: `public/favicon.svg` is a byte-identical copy of `r-402.svg`, and the splash page draws the file unmodified, only rotating it as a whole.
+The R-402 roundabout sign is also the app logo: `public/favicon.svg` is a byte-identical copy of `r-402.svg`, and the splash page draws the file unmodified, only rotating it as a whole. `public/brand/glorieta-icon.png` is the same sign rendered as a 512 px PNG, for the Stripe checkout page.
 
 This file is generated from `src/data/signs.json` by `npm run credits`. Do not edit it by hand.
 

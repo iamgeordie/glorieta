@@ -24,6 +24,8 @@ const PRICES = { month: 'glorieta_supporter_monthly', year: 'glorieta_supporter_
 const SITE = 'https://glorieta.anaidic.com';
 // What a supporter's card statement shows for the plan, instead of the account-wide "APPLIED RELEVANCE".
 const STATEMENT_DESCRIPTOR = 'APPREL GLORIETA';
+// The product picture on the checkout page and in receipts.
+const IMAGE = `${SITE}/brand/glorieta-icon.png`;
 
 function args() {
   const a = process.argv.slice(2);
@@ -54,8 +56,8 @@ let product;
 try {
   product = await stripe.products.retrieve(PRODUCT_ID);
   if (product.metadata.app !== APP) throw new Error(`Product ${PRODUCT_ID} exists without metadata app=${APP}; refusing to touch it.`);
-  if (!product.active || product.statement_descriptor !== STATEMENT_DESCRIPTOR) {
-    product = await stripe.products.update(PRODUCT_ID, { active: true, statement_descriptor: STATEMENT_DESCRIPTOR });
+  if (!product.active || product.statement_descriptor !== STATEMENT_DESCRIPTOR || product.images?.[0] !== IMAGE) {
+    product = await stripe.products.update(PRODUCT_ID, { active: true, statement_descriptor: STATEMENT_DESCRIPTOR, images: [IMAGE] });
     log('product', product.id, 'updated');
   } else log('product', product.id, 'ok');
 } catch (err) {
@@ -64,6 +66,7 @@ try {
     id: PRODUCT_ID,
     name: 'Glorieta Supporter',
     statement_descriptor: STATEMENT_DESCRIPTOR,
+    images: [IMAGE],
     description: 'Optional support plan for Glorieta, the free study app for the Spanish driving theory test. Every study feature stays free.',
     metadata: { app: APP },
   });
