@@ -165,7 +165,7 @@ schema; nothing is mocked.
   the support page's manage section; the portal endpoint, var and catalog portal configuration removed
   - _Requirements: 3.1, 3.2, 3.3, 3.4_
 
-- [ ] 9. End-to-end in test mode
+- [x] 9. End-to-end in test mode
 - [x] 9.1 (Run on the deployed site, 2026-11-15, instead of locally.) Locally (`wrangler dev`, `stripe listen`, `npm run dev`): subscribe with `4242 4242 4242
   4242`, see `glorieta_supporter` in the mirror and the badge in the app
   - _Requirements: 9.1_
@@ -173,10 +173,10 @@ schema; nothing is mocked.
   - _Requirements: 9.3_
 - [x] 9.3 Cancel on the support page, end the subscription (ended through the API, since the customer had no test clock), see the mirror empty
   - _Requirements: 9.2_
-- [ ] 9.4 With a consenting test account, see `glorieta_supporter_started` and `_ended` on its
+- [x] 9.4 With a consenting test account, see `glorieta_supporter_started` and `_ended` on its
   Podograph contact through the Podograph MCP; with a non-consenting one, see nothing
   - _Requirements: 8.4, 8.5_
-- [ ] 9.5 Erase data as a supporter: customer deleted in Stripe, billing row gone, no new row after
+- [x] 9.5 Erase data as a supporter: customer deleted in Stripe, billing row gone, no new row after
   the trailing webhooks
   - _Requirements: 4.8, 8.1, 8.3_
 - [ ] 9.6 After the LinguaMama handoff is deployed: subscribe with an email that has a LinguaMama
