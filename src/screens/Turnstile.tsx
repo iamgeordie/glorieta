@@ -53,6 +53,8 @@ export function Turnstile({ onToken, resetKey }: { onToken: (token: string | nul
         widget.current = api.render(box.current, {
           sitekey: turnstileSiteKey,
           size: 'flexible',
+          // Invisible unless Cloudflare actually needs the person to click; most visitors never see it.
+          appearance: 'interaction-only',
           callback: (token: string) => onToken(token),
           'expired-callback': () => onToken(null),
           'error-callback': () => {
