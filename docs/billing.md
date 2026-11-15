@@ -33,6 +33,8 @@ for the one database.
 
 1. In the Stripe dashboard, **test mode**, Developers → API keys → Create restricted key: create
    "Glorieta Worker" and "Glorieta catalog" with the permissions above. Save both in 1Password.
+   The test "Glorieta Worker" key is "Glorieta Worker (Stripe test restricted key)", item id
+   `633fyrwp5w3ypgcaij4fx7z6hy`, and is set as the Worker secret `STRIPE_RESTRICTED_KEY`.
 2. Create the catalog. Amounts are euro cents:
 
    ```bash
