@@ -108,7 +108,11 @@ export async function cancel(request: Request, env: Cloudflare.Env): Promise<Res
   return json({ plan: summarize(updated) });
 }
 
-/** POST /api/billing/switch {"interval": "month"|"year"}: move the plan to the other Price, prorated. */
+/**
+ * POST /api/billing/switch {"interval": "month"|"year"}: move the plan to the other Price. The difference
+ * is invoiced at once: moving up is charged now, moving down leaves the unused part as credit for the
+ * next charges. (Stripe's default would hold the difference until the next renewal, a year away.)
+ */
 export async function switchPlan(request: Request, env: Cloudflare.Env): Promise<Response> {
   const body = await readJson(request);
   const interval = parseInterval(body.interval);
@@ -122,7 +126,7 @@ export async function switchPlan(request: Request, env: Cloudflare.Env): Promise
   if (!target) throw new HttpError(503, 'catalog_incomplete', `No ${interval}ly price.`);
   const updated = await stripe.subscriptions.update(sub.id, {
     items: [{ id: item.id, price: target.price_id }],
-    proration_behavior: 'create_prorations',
+    proration_behavior: 'always_invoice',
     // Switching is a choice to keep supporting, so it also undoes a pending cancellation.
     cancel_at_period_end: false,
     expand: ['default_payment_method'],

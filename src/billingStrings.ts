@@ -52,8 +52,8 @@ export const b = {
   switchToAnnual: bi('Pasar a anual', 'Switch to annual'),
   switchToMonthly: bi('Pasar a mensual', 'Switch to monthly'),
   switchNote: bi(
-    'El cambio es inmediato. Stripe descuenta la parte no usada del plan actual del primer cobro del nuevo.',
-    'The change is immediate. Stripe takes the unused part of the current plan off the first charge of the new one.',
+    'El cambio es inmediato. Al pasar a anual se cobra ahora la diferencia, descontando lo no usado del plan actual. Al pasar a mensual, lo no usado queda como saldo para los próximos cobros.',
+    'The change is immediate. Moving to annual charges the difference now, minus the unused part of the current plan. Moving to monthly leaves the unused part as credit for the next charges.',
   ),
   cancelPlan: bi('Cancelar el plan', 'Cancel the plan'),
   cancelNote: bi(

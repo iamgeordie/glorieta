@@ -212,7 +212,7 @@ endpoint reads the caller's row (404 `no_customer` without one) and picks the ne
 |---|---|
 | `GET /api/billing/plan` | `{ plan, invoices }`: interval, amount, status, `period_end` (from the subscription item), `cancel_at_period_end`, the card; the last 12 non-draft invoices with their hosted and PDF links |
 | `POST /api/billing/cancel {cancel}` | `cancel_at_period_end` true or false |
-| `POST /api/billing/switch {interval}` | the item moves to the other Price by lookup key, `create_prorations`; also clears a pending cancellation; 409 `same_plan` |
+| `POST /api/billing/switch {interval}` | the item moves to the other Price by lookup key, `always_invoice` (the difference is charged or credited at once); also clears a pending cancellation; 409 `same_plan` |
 | `POST /api/billing/card {locale}` | a Checkout Session in `setup` mode, Glorieta branding, `setup_intent_data.metadata` = `app`, `glorieta_user_id`, `subscription_id`; returns to `?card=saved#/support` |
 
 The webhook's `checkout.session.completed` handles a `setup` session: if the SetupIntent succeeded, is
