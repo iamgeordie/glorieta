@@ -126,7 +126,7 @@ export const setCancel = (cancel: boolean) =>
 
 /** Move the plan to the other interval; Stripe prorates the difference. */
 export const switchTo = (interval: Interval) =>
-  attempt(async () => (await api<{ plan: PlanState }>('switch', { method: 'POST', body: { interval }, signedIn: true })).plan);
+  attempt(() => api<{ plan: PlanState; invoice: Invoice | null }>('switch', { method: 'POST', body: { interval }, signedIn: true }));
 
 /** Sends the browser to Glorieta's change-card page on Stripe. Returns an error only if it could not. */
 export async function changeCard(locale: 'es' | 'en'): Promise<Bi | null> {

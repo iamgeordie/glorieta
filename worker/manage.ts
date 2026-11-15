@@ -8,6 +8,9 @@ import { brandingSettings, loadPlans } from './billing.ts';
 import { readOwnBilling } from './mirror.ts';
 import { getStripe } from './stripe.ts';
 
+const idOf = (ref: string | { id?: string } | null | undefined): string | null =>
+  typeof ref === 'string' ? ref : (ref?.id ?? null);
+
 /** Statuses in which a subscription is still the person's plan (it can be managed, not only viewed). */
 const LIVE = new Set<Stripe.Subscription.Status>(['active', 'trialing', 'past_due', 'unpaid']);
 
@@ -129,9 +132,12 @@ export async function switchPlan(request: Request, env: Cloudflare.Env): Promise
     proration_behavior: 'always_invoice',
     // Switching is a choice to keep supporting, so it also undoes a pending cancellation.
     cancel_at_period_end: false,
-    expand: ['default_payment_method'],
+    expand: ['default_payment_method', 'latest_invoice'],
   });
-  return json({ plan: summarize(updated) });
+  // The invoice the switch just made: a charge (moving up) or a credit (moving down).
+  const latest = updated.latest_invoice;
+  const invoice = latest && typeof latest === 'object' && latest.id !== idOf(sub.latest_invoice) ? summarizeInvoice(latest) : null;
+  return json({ plan: summarize(updated), invoice });
 }
 
 /**

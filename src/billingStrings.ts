@@ -55,6 +55,13 @@ export const b = {
     'El cambio es inmediato. Al pasar a anual se cobra ahora la diferencia, descontando lo no usado del plan actual. Al pasar a mensual, lo no usado queda como saldo para los próximos cobros.',
     'The change is immediate. Moving to annual charges the difference now, minus the unused part of the current plan. Moving to monthly leaves the unused part as credit for the next charges.',
   ),
+  switchedAnnual: bi('Ahora tienes el plan anual.', 'You are now on the annual plan.'),
+  switchedMonthly: bi('Ahora tienes el plan mensual.', 'You are now on the monthly plan.'),
+  charged: bi('Cobrado ahora:', 'Charged now:'),
+  credited: bi('Saldo a tu favor para los próximos cobros:', 'Credit towards your next charges:'),
+  chargePending: bi('El cobro está pendiente; míralo en Facturas.', 'The payment is pending; see Invoices.'),
+  cancelledOk: bi('Plan cancelado. Sigue activo hasta el final del periodo pagado.', 'Plan cancelled. It stays active until the end of the period you paid for.'),
+  resumedOk: bi('Plan mantenido. Se renovará con normalidad.', 'Plan kept. It will renew as usual.'),
   cancelPlan: bi('Cancelar el plan', 'Cancel the plan'),
   cancelNote: bi(
     'El plan seguirá activo hasta el final del periodo pagado, y después no se renovará.',

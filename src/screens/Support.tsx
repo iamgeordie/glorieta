@@ -118,6 +118,8 @@ function ManagePlan({ plans }: { plans: Plan[] | null }) {
   const [error, setError] = useState<Bi | null>(null);
   const [busy, setBusy] = useState(false);
   const [confirming, setConfirming] = useState<Confirming>(null);
+  /** What the last change did, shown until the next one. */
+  const [done, setDone] = useState<{ text: Bi; amount?: { label: Bi; value: string } | undefined } | null>(null);
 
   const load = () => void getPlan().then((r) => (r.ok ? setState(r.value) : setError(r.error)));
   useEffect(load, []);
@@ -128,14 +130,41 @@ function ManagePlan({ plans }: { plans: Plan[] | null }) {
     return () => clearTimeout(t);
   }, []);
 
-  const run = async (op: () => Promise<{ ok: true; value: PlanState } | { ok: false; error: Bi }>) => {
-    setBusy(true);
-    setError(null);
-    const r = await op();
+  const finish = (error: Bi | null) => {
     setBusy(false);
     setConfirming(null);
-    if (r.ok) setState((s) => (s ? { ...s, plan: r.value } : s));
-    else setError(r.error);
+    if (error) setError(error);
+  };
+  const cancelOrKeep = async (cancel: boolean) => {
+    setBusy(true);
+    setError(null);
+    setDone(null);
+    const r = await setCancel(cancel);
+    if (r.ok) {
+      setState((s) => (s ? { ...s, plan: r.value } : s));
+      setDone({ text: cancel ? b.cancelledOk : b.resumedOk });
+    }
+    finish(r.ok ? null : r.error);
+  };
+  const doSwitch = async (to: Interval) => {
+    setBusy(true);
+    setError(null);
+    setDone(null);
+    const r = await switchTo(to);
+    if (r.ok) {
+      const inv = r.value.invoice;
+      const amount = !inv || inv.total === 0
+        ? undefined
+        : inv.total < 0
+          ? { label: b.credited, value: money(-inv.total, inv.currency) }
+          : { label: inv.status === 'paid' ? b.charged : b.chargePending, value: money(inv.total, inv.currency) };
+      setDone({ text: to === 'year' ? b.switchedAnnual : b.switchedMonthly, amount });
+      // Read the plan and invoices again, so the new invoice is listed.
+      const fresh = await getPlan();
+      if (fresh.ok) setState(fresh.value);
+      else setState((s) => (s ? { ...s, plan: r.value.plan } : s));
+    }
+    finish(r.ok ? null : r.error);
   };
   const card = async () => {
     setBusy(true);
@@ -157,6 +186,13 @@ function ManagePlan({ plans }: { plans: Plan[] | null }) {
         <p class="note notice" role="status">
           <T t={b.cardSaved} />
           <button type="button" class="link" onClick={() => (cardSaved.value = false)} aria-label="OK">OK</button>
+        </p>
+      )}
+      {done && (
+        <p class="note notice" role="status">
+          <T t={done.text} />
+          {done.amount && <> <T t={done.amount.label} /> <b>{done.amount.value}</b></>}
+          <button type="button" class="link" onClick={() => setDone(null)} aria-label="OK">OK</button>
         </p>
       )}
       {state === null && !error && <p class="muted small"><T t={b.loadingPlan} /></p>}
@@ -204,7 +240,7 @@ function ManagePlan({ plans }: { plans: Plan[] | null }) {
                 </button>
               )}
               {plan.cancel_at_period_end ? (
-                <button type="button" class="primary" disabled={busy} onClick={() => void run(() => setCancel(false))}>
+                <button type="button" class="primary" disabled={busy} onClick={() => void cancelOrKeep(false)}>
                   <T t={busy ? b.working : b.resumePlan} />
                 </button>
               ) : (
@@ -220,7 +256,7 @@ function ManagePlan({ plans }: { plans: Plan[] | null }) {
                   type="button"
                   class="primary"
                   disabled={busy}
-                  onClick={() => void run(() => (confirming === 'switch' && other ? switchTo(other) : setCancel(true)))}
+                  onClick={() => void (confirming === 'switch' && other ? doSwitch(other) : cancelOrKeep(true))}
                 >
                   <T t={busy ? b.working : b.confirm} />
                 </button>
