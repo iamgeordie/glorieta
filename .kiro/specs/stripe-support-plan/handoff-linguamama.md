@@ -30,7 +30,9 @@ can reach a Glorieta customer or product, all in `supabase/functions/`:
    per event and return 200 with no side effect when `customer.metadata.app === 'glorieta'`. For
    `checkout.session.completed` use `session.customer`; for the subscription events use
    `subscription.customer`; for `entitlements.active_entitlement_summary.updated` use
-   `summary.customer`. Log `[stripe-webhook] skipped glorieta customer <id> (<event.id>)`.
+   `summary.customer`. A deleted customer (`customer.deleted`) has no metadata: return 200 with no side
+   effect for it too when no `people` row holds that customer id. Log
+   `[stripe-webhook] skipped glorieta customer <id> (<event.id>)`.
 2. **Same guard inside `resolvePerson()`.** In step 2, after `stripe.customers.retrieve`, return
    `null` when `customer.metadata?.app === 'glorieta'`, so no other caller of `syncEntitlements`
    can take the email fallback for a Glorieta customer.
