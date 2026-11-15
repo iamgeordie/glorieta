@@ -11,6 +11,8 @@ export type Question = {
   answer: number;
   en: LangBlock;
   es: LangBlock;
+  /** Exam English: a deliberately literal rendering of `es` in the register of the exam's English version. */
+  exam?: { q: string; options: string[] };
   terms?: { es: string; en: string }[];
   note?: { es: string; en: string };
   /** Path to a sign image shown above the question. */

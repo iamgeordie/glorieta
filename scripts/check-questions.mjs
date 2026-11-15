@@ -28,6 +28,11 @@ for (const q of questions) {
       problems.push(`${where}: ${lang}.options must be exactly 3 non-empty strings`);
     else if (new Set(v.options).size !== 3) problems.push(`${where}: ${lang}.options contains duplicates`);
   }
+  if (q.exam) {
+    if (!q.exam.q?.trim()) problems.push(`${where}: exam.q is empty`);
+    if (!Array.isArray(q.exam.options) || q.exam.options.length !== 3 || q.exam.options.some((o) => !o?.trim()))
+      problems.push(`${where}: exam.options must be exactly 3 non-empty strings, in the same order as es.options`);
+  }
   if (q.note && (!q.note.es?.trim() || !q.note.en?.trim())) problems.push(`${where}: note needs both es and en`);
   if (!q.src?.trim()) problems.push(`${where}: missing src`);
   else if (badCitation(q.src)) problems.push(`${where}: ${badCitation(q.src)}`);

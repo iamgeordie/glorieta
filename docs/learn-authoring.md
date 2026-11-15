@@ -115,6 +115,30 @@ node -e "const s=require('./src/data/signs.json');for(const x of s)console.log(x
   but checks must stand alone (see below).
 - No emoji, no exclamation marks except in the quiz result strings that already exist.
 
+## Exam English (`exam`)
+
+The exam's English version is a literal translation of the Spanish. A learner who has only read natural
+English stumbles on it. A bank question can carry a third block, `exam`, with `q` and `options` (no `why`):
+our own word-for-word rendering of its `es` text, in that register. Same meaning, same option order as
+`es`. The explanation stays in plain `en`.
+
+Render the Spanish, not the plain English, and keep these habits:
+
+| Habit | Spanish | Exam English |
+|---|---|---|
+| Legal nouns carried over | calzada, arcén, vía, turismo, poblado, actuación | carriageway, hard shoulder, road, passenger car, town, actuation |
+| Verbs carried over | circular, incorporarse, ceder el paso, rebasar, provocar | circulate, enter traffic, yield way, pass, provoke |
+| Exceptions | salvo que, siempre que, únicamente | except that, provided that, only |
+| Infinitive options | Reducir la velocidad | To reduce the speed. |
+| Spanish word order and articles | semáforo en rojo, la velocidad | traffic light in red, the speed |
+| *Por* and *para* | por la glorieta, para adelantar | by the roundabout, in order to overtake |
+| Formal *usted*, kept as "you" | ¿Puede girar? | Can you turn? |
+| Permission | ¿Está permitido…? ¿Se puede…? | Is it allowed to…? Is it possible to…? |
+| Fixed phrases word for word | dar positivo, línea continua, eje de la calzada | give positive, continuous line, axis of the carriageway |
+| British spelling | neumáticos, autorizar | tyres, authorise |
+
+The `exam` text is ours. Never present it as DGT text.
+
 ## Lesson shape
 
 Targets, not quotas. The roundabouts module is the reference.
