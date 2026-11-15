@@ -18,7 +18,17 @@ export const notice = signal<Bi | null>(null);
 export const returnError = signal<string | null>(null);
 
 // Supabase strips ?code= from the URL as soon as it exchanges it, so look before it does.
-const returnedFromEmailLink = typeof location !== 'undefined' && new URL(location.href).searchParams.has('code');
+const startUrl = typeof location !== 'undefined' ? new URL(location.href) : null;
+/**
+ * The shared project's Send Email hook links straight to the app with ?token_hash=…&type=…, instead of
+ * Supabase's verify endpoint (which would come back with ?code=). Such a link is verified here.
+ */
+const emailToken = startUrl?.searchParams.get('token_hash')
+  ? { token_hash: startUrl.searchParams.get('token_hash') as string, type: startUrl.searchParams.get('type') ?? 'signup' }
+  : null;
+const returnedFromEmailLink = Boolean(startUrl?.searchParams.has('code') || emailToken);
+const OTP_TYPES = ['signup', 'recovery', 'invite', 'magiclink', 'email', 'email_change'] as const;
+type OtpType = (typeof OTP_TYPES)[number];
 let syncedFor: string | null = null;
 
 // A failed sign-in comes back as ?error=...&error_description=... (or the same in the #fragment). Show it
@@ -76,6 +86,7 @@ export function initAuth() {
       authStatus.value = 'out';
     }
   });
+  if (emailToken) void verifyEmailToken(supabase, emailToken);
 }
 
 const fail = (err: unknown): { ok: false; error: Bi } => ({ ok: false, error: describeAuthError(err) });
@@ -136,4 +147,22 @@ export async function signInWithGoogle(): Promise<Result> {
   }
   const { error } = await requireClient().auth.signInWithOAuth({ provider: 'google', options: { redirectTo: origin() } });
   return error ? fail(error) : { ok: true };
+}
+
+/** Completes a ?token_hash= email link: confirms the address (or starts a password reset) and signs in. */
+async function verifyEmailToken(client: NonNullable<typeof supabase>, link: { token_hash: string; type: string }) {
+  // Take the token out of the address bar at once: it works only once, and must not be bookmarked or shared.
+  const url = new URL(location.href);
+  url.searchParams.delete('token_hash');
+  url.searchParams.delete('type');
+  history.replaceState(history.state, '', `${url.pathname}${url.search}${url.hash}`);
+  if (!(OTP_TYPES as readonly string[]).includes(link.type)) {
+    returnError.value = `Unknown email link type: ${link.type}`;
+    return;
+  }
+  const { error } = await client.auth.verifyOtp({ token_hash: link.token_hash, type: link.type as OtpType });
+  if (error) {
+    returnError.value = error.code ? `${error.message} (${error.code})` : error.message;
+    location.hash = '#/account';
+  }
 }

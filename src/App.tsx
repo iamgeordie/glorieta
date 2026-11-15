@@ -82,7 +82,7 @@ const FigureGallery = import.meta.env.DEV ? lazy(() => import('./screens/FigureG
 // Opening the bare address lands on the welcome splash, unless the person is already signed in. A deep link
 // (anything after the #) and a return from an email or Google link (?code=) go where they point. This is decided
 // once, at arrival: afterwards "← Home" is ordinary navigation and always means the home screen.
-const arrivedAtRoot = (location.hash === '' || location.hash === '#/') && !new URL(location.href).searchParams.has('code');
+const arrivedAtRoot = (location.hash === '' || location.hash === '#/') && !['code', 'token_hash'].some((k) => new URL(location.href).searchParams.has(k));
 const landing = signal(arrivedAtRoot);
 
 function settleLanding(giveUp = false) {
