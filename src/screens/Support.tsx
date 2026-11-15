@@ -2,14 +2,31 @@ import { useEffect, useState } from 'preact/hooks';
 import { mode, T, type Bi } from '../i18n';
 import { b } from '../billingStrings';
 import { authStatus } from '../lib/auth';
-import { billing, checkoutReturn, getPlans, isSupporter, openPortal, readBilling, startCheckout, type Interval, type Plan } from '../lib/billing';
+import {
+  billing,
+  cardSaved,
+  changeCard,
+  checkoutReturn,
+  getPlan,
+  getPlans,
+  isSupporter,
+  readBilling,
+  setCancel,
+  startCheckout,
+  switchTo,
+  type Interval,
+  type Invoice,
+  type Plan,
+  type PlanState,
+} from '../lib/billing';
 import { Message } from './form-parts';
 
 /** Stripe amounts are in cents. Formatted in the reader's language, in the plan's own currency. */
-function price(plan: Plan): string {
-  const lang = mode.value === 'en' ? 'en-GB' : 'es-ES';
-  return new Intl.NumberFormat(lang, { style: 'currency', currency: plan.currency.toUpperCase() }).format(plan.amount / 100);
-}
+const lang = () => (mode.value === 'en' ? 'en-GB' : 'es-ES');
+const money = (cents: number, currency: string) =>
+  new Intl.NumberFormat(lang(), { style: 'currency', currency: currency.toUpperCase() }).format(cents / 100);
+const price = (plan: Plan): string => money(plan.amount, plan.currency);
+const date = (seconds: number) => new Date(seconds * 1000).toLocaleDateString(lang(), { day: 'numeric', month: 'long', year: 'numeric' });
 
 /** Checkout cannot show two languages at once; with both on, it opens in English, the reader's own. */
 const checkoutLocale = (): 'es' | 'en' => (mode.value === 'es' ? 'es' : 'en');
@@ -38,15 +55,6 @@ export function Support() {
       setBusy(false);
     }
   };
-  const manage = async () => {
-    setBusy(true);
-    setError(null);
-    const err = await openPortal();
-    if (err) {
-      setError(err);
-      setBusy(false);
-    }
-  };
 
   const returned = checkoutReturn.value;
   return (
@@ -65,13 +73,7 @@ export function Support() {
       </div>
 
       {signedIn && isSupporter(row) ? (
-        <div class="card">
-          <p class="bold"><span class="badge supporter"><T t={b.badge} /></span> <T t={b.active} /></p>
-          <div class="actions">
-            <button type="button" class="primary" onClick={() => void manage()} disabled={busy}><T t={busy ? b.redirecting : b.manage} /></button>
-          </div>
-          <p class="muted small"><T t={b.manageHint} /></p>
-        </div>
+        <ManagePlan plans={plans} />
       ) : (
         <div class="card">
           {plans === null && !error && <p class="muted small"><T t={b.loadingPlans} /></p>}
@@ -105,5 +107,150 @@ export function Support() {
       )}
       <Message error={error} />
     </section>
+  );
+}
+
+type Confirming = null | 'switch' | 'cancel';
+
+/** The supporter's own plan: renewal, card, switch, cancel or keep, and invoices. All of it stays in Glorieta. */
+function ManagePlan({ plans }: { plans: Plan[] | null }) {
+  const [state, setState] = useState<{ plan: PlanState | null; invoices: Invoice[] } | null>(null);
+  const [error, setError] = useState<Bi | null>(null);
+  const [busy, setBusy] = useState(false);
+  const [confirming, setConfirming] = useState<Confirming>(null);
+
+  const load = () => void getPlan().then((r) => (r.ok ? setState(r.value) : setError(r.error)));
+  useEffect(load, []);
+  // After the change-card page the webhook sets the new card within seconds: read the plan again then.
+  useEffect(() => {
+    if (!cardSaved.value) return;
+    const t = setTimeout(load, 4000);
+    return () => clearTimeout(t);
+  }, []);
+
+  const run = async (op: () => Promise<{ ok: true; value: PlanState } | { ok: false; error: Bi }>) => {
+    setBusy(true);
+    setError(null);
+    const r = await op();
+    setBusy(false);
+    setConfirming(null);
+    if (r.ok) setState((s) => (s ? { ...s, plan: r.value } : s));
+    else setError(r.error);
+  };
+  const card = async () => {
+    setBusy(true);
+    setError(null);
+    const err = await changeCard(checkoutLocale());
+    if (err) {
+      setError(err);
+      setBusy(false);
+    }
+  };
+
+  const plan = state?.plan;
+  const other: Interval | null = plan?.interval === 'month' ? 'year' : plan?.interval === 'year' ? 'month' : null;
+  const otherPlan = plans?.find((p) => p.interval === other);
+  return (
+    <div class="card manage">
+      <p class="bold"><span class="badge supporter"><T t={b.badge} /></span> <T t={b.active} /></p>
+      {cardSaved.value && (
+        <p class="note notice" role="status">
+          <T t={b.cardSaved} />
+          <button type="button" class="link" onClick={() => (cardSaved.value = false)} aria-label="OK">OK</button>
+        </p>
+      )}
+      {state === null && !error && <p class="muted small"><T t={b.loadingPlan} /></p>}
+      {state && !plan && <p><T t={b.planEnded} /></p>}
+      {plan && (
+        <>
+          <h2><T t={b.yourPlan} /></h2>
+          <dl class="facts">
+            <div>
+              <dt><T t={plan.interval === 'year' ? b.annual : b.monthly} /></dt>
+              <dd>
+                {plan.amount !== null && money(plan.amount, plan.currency)}{' '}
+                <span class="muted small"><T t={plan.interval === 'year' ? b.perYear : b.perMonth} /></span>
+              </dd>
+            </div>
+            {plan.period_end !== null && (
+              <div>
+                <dt><T t={plan.cancel_at_period_end ? b.endsOn : b.renewsOn} /></dt>
+                <dd>{date(plan.period_end)}</dd>
+              </div>
+            )}
+            <div>
+              <dt><T t={b.card} /></dt>
+              <dd>
+                {plan.card ? (
+                  <>
+                    <span class="caps">{plan.card.brand}</span> •••• {plan.card.last4}{' '}
+                    <span class="muted small"><T t={b.expires} /> {String(plan.card.exp_month).padStart(2, '0')}/{plan.card.exp_year}</span>
+                  </>
+                ) : (
+                  <T t={b.noCard} />
+                )}
+              </dd>
+            </div>
+          </dl>
+          {plan.cancel_at_period_end && <p class="muted small"><T t={b.endsNote} /></p>}
+          {(plan.status === 'past_due' || plan.status === 'unpaid') && <p class="form-error" role="alert"><T t={b.pastDue} /></p>}
+
+          {confirming === null && (
+            <div class="actions">
+              <button type="button" class="secondary" disabled={busy} onClick={() => void card()}><T t={busy ? b.redirecting : b.changeCard} /></button>
+              {other && otherPlan && (
+                <button type="button" class="secondary" disabled={busy} onClick={() => setConfirming('switch')}>
+                  <T t={other === 'year' ? b.switchToAnnual : b.switchToMonthly} /> ({price(otherPlan)})
+                </button>
+              )}
+              {plan.cancel_at_period_end ? (
+                <button type="button" class="primary" disabled={busy} onClick={() => void run(() => setCancel(false))}>
+                  <T t={busy ? b.working : b.resumePlan} />
+                </button>
+              ) : (
+                <button type="button" class="secondary" disabled={busy} onClick={() => setConfirming('cancel')}><T t={b.cancelPlan} /></button>
+              )}
+            </div>
+          )}
+          {confirming !== null && (
+            <div class="confirm">
+              <p><T t={confirming === 'switch' ? b.switchNote : b.cancelNote} /></p>
+              <div class="actions">
+                <button
+                  type="button"
+                  class="primary"
+                  disabled={busy}
+                  onClick={() => void run(() => (confirming === 'switch' && other ? switchTo(other) : setCancel(true)))}
+                >
+                  <T t={busy ? b.working : b.confirm} />
+                </button>
+                <button type="button" class="secondary" disabled={busy} onClick={() => setConfirming(null)}><T t={b.back} /></button>
+              </div>
+            </div>
+          )}
+        </>
+      )}
+      {state && (
+        <>
+          <h2><T t={b.invoices} /></h2>
+          {state.invoices.length === 0 ? (
+            <p class="muted small"><T t={b.noInvoices} /></p>
+          ) : (
+            <ul class="invoices">
+              {state.invoices.map((inv) => (
+                <li key={inv.id}>
+                  <span>{date(inv.created)}</span>
+                  <span>{money(inv.total, inv.currency)}</span>
+                  <span class="muted small">{inv.status === 'paid' ? <T t={b.paid} /> : inv.status === 'open' ? <T t={b.open} /> : inv.status}</span>
+                  {inv.url && <a href={inv.url} target="_blank" rel="noopener noreferrer"><T t={b.view} /></a>}
+                  {inv.pdf && <a href={inv.pdf} target="_blank" rel="noopener noreferrer">PDF</a>}
+                </li>
+              ))}
+            </ul>
+          )}
+        </>
+      )}
+      <Message error={error} />
+    </div>
   );
 }

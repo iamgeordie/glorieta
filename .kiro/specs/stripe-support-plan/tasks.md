@@ -160,13 +160,18 @@ schema; nothing is mocked.
   Stripe webhook secret (test mode)") and in the Worker as `STRIPE_WEBHOOK_SECRET`
   - _Requirements: 5.5, 6.2_
 
+- [x] 8.7 Manage the plan inside Glorieta instead of the hosted portal (Req 3, revised): `GET plan`,
+  `POST cancel`, `switch`, `card` in `worker/manage.ts`; setup-mode card change applied by the webhook;
+  the support page's manage section; the portal endpoint, var and catalog portal configuration removed
+  - _Requirements: 3.1, 3.2, 3.3, 3.4_
+
 - [ ] 9. End-to-end in test mode
 - [ ] 9.1 Locally (`wrangler dev`, `stripe listen`, `npm run dev`): subscribe with `4242 4242 4242
   4242`, see `glorieta_supporter` in the mirror and the badge in the app
   - _Requirements: 9.1_
 - [ ] 9.2 `stripe events resend` the last applied event; `updated_at` and `history` unchanged
   - _Requirements: 9.3_
-- [ ] 9.3 Cancel in the portal, advance a Stripe test clock past the period end, see the mirror empty
+- [ ] 9.3 Cancel on the support page, advance a Stripe test clock past the period end, see the mirror empty
   - _Requirements: 9.2_
 - [ ] 9.4 With a consenting test account, see `glorieta_supporter_started` and `_ended` on its
   Podograph contact through the Podograph MCP; with a non-consenting one, see nothing

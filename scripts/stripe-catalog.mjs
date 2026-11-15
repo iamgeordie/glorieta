@@ -3,14 +3,13 @@
 //                                               card statement "APPREL GLORIETA"
 //   Feature        lookup key glorieta_supporter, attached to the Product
 //   Prices         glorieta_supporter_monthly / glorieta_supporter_annual, EUR, recurring
-//   Portal config  metadata app=glorieta: cancel at period end, card update, invoices, switch between the two Prices
 //
 // Usage (amounts in euro cents, so no rounding is ever involved):
 //   STRIPE_SETUP_KEY=rk_test_... node scripts/stripe-catalog.mjs --monthly 300 --annual 3000
 //   STRIPE_SETUP_KEY=rk_live_... node scripts/stripe-catalog.mjs --monthly 300 --annual 3000 --live
 //
 // STRIPE_SETUP_KEY is a restricted key used only here, with write access to Products, Prices,
-// Entitlements Features and Customer portal configurations. It is not the Worker's key, which can only
+// Entitlements Features. It is not the Worker's key, which can only
 // read the catalog. Running it again changes nothing that already matches. A Price whose amount differs
 // is never edited (Stripe Prices are immutable): pass --replace-prices to create a new one and move the
 // lookup key to it; existing subscriptions keep their old Price. Tax behaviour (VAT inclusive or not) is
@@ -128,35 +127,4 @@ for (const [interval, lookup_key] of Object.entries(PRICES)) {
   log(`price ${interval}`, `${created.id} ${amount} eur cents`, current ? 'replaced' : 'created');
 }
 
-// The customer portal configuration Glorieta passes on every portal session.
-const portalFeatures = {
-  customer_update: { enabled: false },
-  invoice_history: { enabled: true },
-  payment_method_update: { enabled: true },
-  subscription_cancel: { enabled: true, mode: 'at_period_end' },
-  subscription_update: {
-    enabled: true,
-    default_allowed_updates: ['price'],
-    proration_behavior: 'create_prorations',
-    products: [{ product: PRODUCT_ID, prices: [priceIds.month, priceIds.year] }],
-  },
-};
-const portalFields = {
-  business_profile: {
-    headline: 'Glorieta: manage your support plan',
-    privacy_policy_url: 'https://appliedrelevance.com/privacy',
-    terms_of_service_url: 'https://appliedrelevance.com/terms',
-  },
-  default_return_url: `${SITE}/#/account`,
-  features: portalFeatures,
-  metadata: { app: APP },
-};
-const configs = [];
-for await (const c of stripe.billingPortal.configurations.list({ active: true, limit: 100 })) configs.push(c);
-const mine = configs.find((c) => c.metadata?.app === APP);
-const portal = mine
-  ? await stripe.billingPortal.configurations.update(mine.id, portalFields)
-  : await stripe.billingPortal.configurations.create(portalFields);
-log('portal config', portal.id, mine ? 'updated' : 'created');
-
-console.log(`\nSet in wrangler.jsonc vars (${live ? 'live' : 'test'} mode):\n  "STRIPE_PORTAL_CONFIGURATION": "${portal.id}"`);
+console.log(`\nCatalog ready (${live ? 'live' : 'test'} mode): monthly ${priceIds.month}, annual ${priceIds.year}.`);

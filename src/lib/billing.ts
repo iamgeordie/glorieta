@@ -1,5 +1,5 @@
 // The support plan, from the browser's side. The Worker (/api/billing/*) talks to Stripe; this module
-// asks it for plans, Checkout and the portal, and reads the person's own mirror row from the database.
+// asks it for plans, Checkout and plan changes, and reads the person's own mirror row from the database.
 import { signal } from '@preact/signals';
 import type { Bi } from '../i18n';
 import { describeAuthError } from './auth-errors';
@@ -8,6 +8,17 @@ import { requireClient } from './supabase';
 export type Interval = 'month' | 'year';
 export type Plan = { interval: Interval; amount: number; currency: string; name: string };
 export type BillingRow = { stripe_customer_id: string; entitlements: string[] };
+export type PlanState = {
+  interval: Interval | null;
+  amount: number | null;
+  currency: string;
+  status: 'active' | 'trialing' | 'past_due' | 'unpaid' | 'canceled' | 'incomplete' | 'incomplete_expired' | 'paused';
+  /** Seconds since the epoch. */
+  period_end: number | null;
+  cancel_at_period_end: boolean;
+  card: { brand: string; last4: string; exp_month: number; exp_year: number } | null;
+};
+export type Invoice = { id: string; number: string | null; created: number; total: number; currency: string; status: string | null; url: string | null; pdf: string | null };
 
 /** The signed-in person's mirror row: undefined until read, null when they have none. */
 export const billing = signal<BillingRow | null | undefined>(undefined);
@@ -16,13 +27,21 @@ export const isSupporter = (row: BillingRow | null | undefined): boolean => !!ro
 /** How the person came back from Checkout, read once from `?checkout=` and then removed from the address. */
 export const checkoutReturn = signal<'success' | 'cancel' | null>(takeCheckoutParam());
 
-function takeCheckoutParam(): 'success' | 'cancel' | null {
+/** True once, after the change-card page saved a card (`?card=saved`), then removed from the address. */
+export const cardSaved = signal<boolean>(takeParam('card') === 'saved');
+
+function takeParam(name: string): string | null {
   const url = new URL(location.href);
-  const v = url.searchParams.get('checkout');
+  const v = url.searchParams.get(name);
   if (v === null) return null;
-  url.searchParams.delete('checkout');
+  url.searchParams.delete(name);
   history.replaceState(history.state, '', `${url.pathname}${url.search}${url.hash}`);
-  return v === 'success' ? 'success' : 'cancel';
+  return v;
+}
+
+function takeCheckoutParam(): 'success' | 'cancel' | null {
+  const v = takeParam('checkout');
+  return v === null ? null : v === 'success' ? 'success' : 'cancel';
 }
 
 class ApiError extends Error {
@@ -89,15 +108,32 @@ export async function startCheckout(interval: Interval, locale: 'es' | 'en'): Pr
   }
 }
 
-/** Sends the browser to the Stripe customer portal. */
-export async function openPortal(): Promise<Bi | null> {
+type Result<T> = { ok: true; value: T } | { ok: false; error: Bi };
+const attempt = async <T>(run: () => Promise<T>): Promise<Result<T>> => {
   try {
-    const { url } = await api<{ url: string }>('portal', { method: 'POST', signedIn: true });
-    location.assign(url);
-    return null;
+    return { ok: true, value: await run() };
   } catch (err) {
-    return describeAuthError(err);
+    return { ok: false, error: describeAuthError(err) };
   }
+};
+
+/** The current plan (null once it has ended) and the recent invoices. */
+export const getPlan = () => attempt(() => api<{ plan: PlanState | null; invoices: Invoice[] }>('plan', { signedIn: true }));
+
+/** Cancel at the end of the period (true), or keep the plan after all (false). */
+export const setCancel = (cancel: boolean) =>
+  attempt(async () => (await api<{ plan: PlanState }>('cancel', { method: 'POST', body: { cancel }, signedIn: true })).plan);
+
+/** Move the plan to the other interval; Stripe prorates the difference. */
+export const switchTo = (interval: Interval) =>
+  attempt(async () => (await api<{ plan: PlanState }>('switch', { method: 'POST', body: { interval }, signedIn: true })).plan);
+
+/** Sends the browser to Glorieta's change-card page on Stripe. Returns an error only if it could not. */
+export async function changeCard(locale: 'es' | 'en'): Promise<Bi | null> {
+  const r = await attempt(() => api<{ url: string }>('card', { method: 'POST', body: { locale }, signedIn: true }));
+  if (!r.ok) return r.error;
+  location.assign(r.value.url);
+  return null;
 }
 
 /**

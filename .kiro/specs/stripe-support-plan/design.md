@@ -103,9 +103,9 @@ Local development keeps test-mode values in `.dev.vars`, which is already in `.g
 |---|---|
 | Checkout Sessions | Write |
 | Customers | Write (create, retrieve, delete) |
-| Customer portal sessions | Write |
+| Subscriptions | Write (cancel at period end, switch Price, default card) |
 | Products, Prices | Read |
-| Subscriptions | Read |
+| Invoices, SetupIntents | Read |
 | Entitlements (active entitlements) | Read |
 | Everything else | None |
 
@@ -202,15 +202,23 @@ id, so it cannot point Checkout at a LinguaMama Price.
    `checkout` once and removes it from the address bar. (Req 2.1, 2.4, 2.7)
 5. Return `{ "url": session.url }`.
 
-#### `POST /api/billing/portal` (signed in)
+#### Managing the plan (signed in), `worker/manage.ts`
 
-Reads the caller's row; 404 `no_customer` if there is none. (Req 3.4) Otherwise creates a portal
-session with `configuration: STRIPE_PORTAL_CONFIGURATION` and
-`return_url: ${SITE_ORIGIN}/#/account`, and returns `{ "url" }`. (Req 3.1, 3.3)
+The hosted portal was dropped (Req 3, revised): it can only show the shared account's branding. Every
+endpoint reads the caller's row (404 `no_customer` without one) and picks the newest subscription with
+`metadata.app=glorieta` in `active`, `trialing`, `past_due` or `unpaid` (404 `no_plan` without one).
 
-The portal configuration is created once in Stripe (test mode, then live): cancellation at period
-end, payment method update, invoice history, and subscription update limited to the two Glorieta
-Prices. (Req 3.2)
+| Endpoint | Does |
+|---|---|
+| `GET /api/billing/plan` | `{ plan, invoices }`: interval, amount, status, `period_end` (from the subscription item), `cancel_at_period_end`, the card; the last 12 non-draft invoices with their hosted and PDF links |
+| `POST /api/billing/cancel {cancel}` | `cancel_at_period_end` true or false |
+| `POST /api/billing/switch {interval}` | the item moves to the other Price by lookup key, `create_prorations`; also clears a pending cancellation; 409 `same_plan` |
+| `POST /api/billing/card {locale}` | a Checkout Session in `setup` mode, Glorieta branding, `setup_intent_data.metadata` = `app`, `glorieta_user_id`, `subscription_id`; returns to `?card=saved#/support` |
+
+The webhook's `checkout.session.completed` handles a `setup` session: if the SetupIntent succeeded, is
+tagged `app=glorieta`, and names a Glorieta subscription of the same customer, its payment method
+becomes the customer's `invoice_settings.default_payment_method` and the subscription's
+`default_payment_method`.
 
 #### `POST /api/billing/erase` (signed in)
 

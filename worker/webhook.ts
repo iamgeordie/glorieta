@@ -5,6 +5,7 @@ import { APP_TAG } from './catalog.ts';
 import { sendSupporterSignal } from './crm.ts';
 import { crmSignal, glorietaKeys } from './entitlements.ts';
 import { json } from './http.ts';
+import { applySavedCard } from './manage.ts';
 import { applyEntitlements, linkCustomer, recordCrmReported } from './mirror.ts';
 import { getStripe, webhookCrypto } from './stripe.ts';
 
@@ -54,6 +55,8 @@ async function dispatch(stripe: Stripe, env: Cloudflare.Env, event: Stripe.Event
       if (!customerId || !userId) return 'ignored';
       const customer = await stripe.customers.retrieve(customerId);
       if (customer.deleted || customer.metadata.app !== APP_TAG) return 'foreign';
+      // A setup-mode session is the "change card" page: make the saved card the plan's card.
+      if (session.mode === 'setup') return applySavedCard(stripe, session);
       // The customer was linked when Checkout started; this only confirms it. No entitlements here:
       // the subscription and entitlement events that follow carry those.
       const link = await linkCustomer(env, userId, customerId);

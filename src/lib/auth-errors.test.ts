@@ -27,7 +27,7 @@ test('a plain Error and a bare string are still reported', () => {
 });
 
 test('support-plan errors are explained in both languages', () => {
-  for (const code of ['already_supporter', 'no_profile', 'no_customer', 'catalog_incomplete', 'portal_not_configured', 'stripe_delete_failed', 'unauthenticated']) {
+  for (const code of ['already_supporter', 'no_profile', 'no_customer', 'catalog_incomplete', 'no_plan', 'same_plan', 'stripe_delete_failed', 'unauthenticated']) {
     const m = describeAuthError({ code, message: 'from the billing API' });
     assert.ok(m.es.length > 10 && m.en.length > 10 && !m.en.includes('could not be completed'), code);
   }

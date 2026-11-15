@@ -9,7 +9,7 @@ import { exams, progress, resetAll } from '../lib/store';
 import { categories } from '../data/categories';
 import { Field, LegalLinks, Message, MIN_PASSWORD, PasswordField } from './form-parts';
 import { b } from '../billingStrings';
-import { billing, isSupporter, openPortal, readBilling } from '../lib/billing';
+import { billing, isSupporter, readBilling } from '../lib/billing';
 import { isTv } from '../lib/tv';
 
 const asText = (v: unknown): string | null => (typeof v === 'string' && v.trim() !== '' ? v.trim() : null);
@@ -148,18 +148,9 @@ function Topics() {
 function SupportCard() {
   const row = billing.value;
   const [error, setError] = useState<Bi | null>(null);
-  const [busy, setBusy] = useState(false);
   useEffect(() => {
     void readBilling().then((err) => err && setError(err));
   }, []);
-  const manage = async () => {
-    setBusy(true);
-    const err = await openPortal();
-    if (err) {
-      setError(err);
-      setBusy(false);
-    }
-  };
   return (
     <div class="card">
       <h2><T t={b.cardTitle} /></h2>
@@ -168,7 +159,7 @@ function SupportCard() {
         <>
           <p><span class="badge supporter"><T t={b.badge} /></span> <T t={b.active} /></p>
           <div class="actions">
-            <button type="button" class="secondary" onClick={() => void manage()} disabled={busy}><T t={busy ? b.redirecting : b.manage} /></button>
+            <a class="secondary" href="#/support"><T t={b.manage} /></a>
           </div>
           <p class="muted small"><T t={b.manageHint} /></p>
         </>

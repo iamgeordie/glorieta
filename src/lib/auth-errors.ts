@@ -27,7 +27,8 @@ const known: Record<string, Bi> = {
   no_profile: bi('Tu cuenta aún se está preparando. Vuelve a intentarlo en un momento.', 'Your account is still being set up. Try again in a moment.'),
   no_customer: bi('No tienes ningún plan de apoyo que gestionar.', 'You have no support plan to manage.'),
   catalog_incomplete: bi('Los planes de apoyo no están disponibles ahora mismo.', 'The support plans are not available right now.'),
-  portal_not_configured: bi('La gestión del plan no está disponible ahora mismo.', 'Plan management is not available right now.'),
+  no_plan: bi('No tienes ningún plan de apoyo activo.', 'You have no active support plan.'),
+  same_plan: bi('Ya estás en ese plan.', 'You are already on that plan.'),
   stripe_delete_failed: bi(
     'Stripe no pudo cancelar tu plan, así que no hemos borrado nada. Vuelve a intentarlo.',
     'Stripe could not cancel your plan, so nothing was deleted. Please try again.',

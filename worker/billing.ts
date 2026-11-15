@@ -1,4 +1,4 @@
-// The signed-in and public billing endpoints: prices, checkout, portal, erase.
+// The signed-in and public billing endpoints: prices, checkout, erase. Managing a plan is in manage.ts.
 import type Stripe from 'stripe';
 import { requireUser } from './auth.ts';
 import { APP_TAG, PRICE_LOOKUP_KEYS, parseInterval, parseLocale, type Interval } from './catalog.ts';
@@ -43,6 +43,13 @@ export async function loadPlans(stripe: Stripe): Promise<Plan[]> {
   }
   return plans;
 }
+
+/** Glorieta's name and mark on a Checkout page; the account's own branding (LinguaMama's) stays as it is. */
+export const brandingSettings = (env: Pick<Cloudflare.Env, 'SITE_ORIGIN'>): Stripe.Checkout.SessionCreateParams.BrandingSettings => ({
+  display_name: 'Glorieta',
+  icon: { type: 'url', url: `${env.SITE_ORIGIN}/brand/glorieta-icon.png` },
+  button_color: '#1f4fd8',
+});
 
 export async function prices(_request: Request, env: Cloudflare.Env): Promise<Response> {
   const plans = await loadPlans(getStripe(env));
@@ -98,31 +105,12 @@ export async function checkout(request: Request, env: Cloudflare.Env): Promise<R
     customer_update: { address: 'auto', name: 'auto' },
     billing_address_collection: 'required',
     allow_promotion_codes: true,
-    // Glorieta's name and mark on this page only; the account's own branding (LinguaMama's) stays as it is.
-    branding_settings: {
-      display_name: 'Glorieta',
-      icon: { type: 'url', url: `${env.SITE_ORIGIN}/brand/glorieta-icon.png` },
-      button_color: '#1f4fd8',
-    },
+    branding_settings: brandingSettings(env),
     locale,
     success_url: `${env.SITE_ORIGIN}/?checkout=success#/support`,
     cancel_url: `${env.SITE_ORIGIN}/?checkout=cancel#/support`,
   });
   if (!session.url) throw new Error('Stripe returned a Checkout Session without a URL');
-  return json({ url: session.url });
-}
-
-export async function portal(request: Request, env: Cloudflare.Env): Promise<Response> {
-  const { jwt } = await requireUser(request, env);
-  const row = await readOwnBilling(env, jwt);
-  if (!row) throw new HttpError(404, 'no_customer', 'You have no support plan to manage.');
-  const configuration = env.STRIPE_PORTAL_CONFIGURATION;
-  if (!configuration) throw new HttpError(503, 'portal_not_configured', 'The billing portal is not configured yet.');
-  const session = await getStripe(env).billingPortal.sessions.create({
-    customer: row.stripe_customer_id,
-    configuration,
-    return_url: `${env.SITE_ORIGIN}/#/account`,
-  });
   return json({ url: session.url });
 }
 

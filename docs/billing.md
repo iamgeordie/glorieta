@@ -9,9 +9,9 @@ LinguaMama also uses. Every study feature stays free. The spec is in
 
 | Piece | Where |
 |---|---|
-| Billing API (`/api/billing/prices`, `checkout`, `portal`, `erase`, `webhook`) | `worker/`, served by the same Cloudflare Worker as the site, only for `/api/*` |
+| Billing API (`/api/billing/prices`, `checkout`, `plan`, `cancel`, `switch`, `card`, `erase`, `webhook`) | `worker/`, served by the same Cloudflare Worker as the site, only for `/api/*` |
 | Entitlement mirror | `glorieta.billing`, written only by `glorieta.billing_apply()` (HMAC-signed calls) |
-| Catalog (Product, Prices, Feature, portal configuration) | created by `scripts/stripe-catalog.mjs` |
+| Catalog (Product, Prices, Feature) | created by `scripts/stripe-catalog.mjs` |
 | Support page, badge, profile card | `src/screens/Support.tsx`, `src/screens/Profile.tsx`, `src/App.tsx` |
 
 ## Keys and secrets
@@ -21,8 +21,8 @@ Three Stripe credentials and one shared key, each saved in 1Password. None goes 
 
 | Name | What | Used by |
 |---|---|---|
-| `STRIPE_RESTRICTED_KEY` | Restricted key, "Glorieta Worker": **Write** Checkout Sessions, Customers, Customer portal; **Read** Products, Prices, Subscriptions, Entitlements; everything else None | the Worker (`wrangler secret`) |
-| `STRIPE_SETUP_KEY` | Restricted key, "Glorieta catalog": **Write** Products, Prices, Entitlements Features, Customer portal configuration; everything else None | `scripts/stripe-catalog.mjs`, run by hand |
+| `STRIPE_RESTRICTED_KEY` | Restricted key, "Glorieta Worker": **Write** Checkout Sessions, Customers, Subscriptions; **Read** Products, Prices, Invoices, SetupIntents, Entitlements; everything else None | the Worker (`wrangler secret`) |
+| `STRIPE_SETUP_KEY` | Restricted key, "Glorieta catalog": **Write** Products, Prices, Entitlements Features; everything else None | `scripts/stripe-catalog.mjs`, run by hand |
 | `STRIPE_WEBHOOK_SECRET` | Signing secret of the Glorieta webhook endpoint (`whsec_…`) | the Worker (`wrangler secret`) |
 | `BILLING_HMAC_KEY` | 64 hex characters, shared by the Worker and `glorieta.billing_key` | the Worker (`wrangler secret`) and the database |
 
@@ -41,13 +41,10 @@ for the one database.
    STRIPE_SETUP_KEY="$(op read 'op://AppliedRelevance/<Glorieta catalog test key>/credential')" node scripts/stripe-catalog.mjs --monthly 300 --annual 3000
    ```
 
-   It prints the portal configuration id. Put it in `wrangler.jsonc` under `vars` as
-   `STRIPE_PORTAL_CONFIGURATION`.
-
    In test mode the catalog exists, created with the test "Glorieta Worker" key as `STRIPE_SETUP_KEY`
    (that key also has catalog write): product `glorieta_supporter`, prices
    `price_1Uc38g23tZR70mOfmNijZBL0` (300 cents a month) and `price_1Uc38h23tZR70mOfkfZz7tNc` (3000 cents a
-   year), portal configuration `bpc_1Uc38i23tZR70mOf1BGs44wK`.
+   year).
 3. The HMAC key is already in place: 1Password item "Glorieta billing HMAC key" (AppliedRelevance
    vault), `glorieta.billing_key`, and the Worker secret `BILLING_HMAC_KEY`. To rotate it, generate a
    new one and save it in 1Password:
@@ -114,7 +111,7 @@ Vite proxies `/api` to the Worker on 8787.
 1. Subscribe with card `4242 4242 4242 4242`: `glorieta.billing.entitlements` holds
    `glorieta_supporter` and the badge shows.
 2. `stripe events resend <evt_…>` for the last applied event: `updated_at` and `history` unchanged.
-3. Cancel in the portal, advance a test clock past the period end: the entitlements empty.
+3. Cancel on the support page, advance a test clock past the period end: the entitlements empty.
 4. A consenting test account gets `glorieta_supporter_started` and `_ended` on its Podograph contact; a
    non-consenting one gets nothing.
 5. Delete my data as a supporter: the Stripe customer is deleted, the billing row is gone, and the
@@ -128,8 +125,7 @@ The live "Glorieta Worker" key is in 1Password: "Glorieta Worker (Stripe live re
 (AppliedRelevance vault, item id `7hbpjaz7flgfokj4xrg544m43q`; read it by id, since the parentheses
 are not valid in an `op://` reference).
 
-Repeat steps 1, 2, 4 and 5 of the setup in **live mode** (the HMAC key stays as it is), put the live
-portal configuration id in `vars`, then:
+Repeat steps 1, 2, 4 and 5 of the setup in **live mode** (the HMAC key stays as it is), then:
 
 ```bash
 npm run deploy
@@ -142,6 +138,9 @@ npm run deploy
   email addresses are logged.
 - A failed delivery returns 500 and Stripe retries it. Replays are harmless: an event already applied
   changes nothing.
+- Supporters manage the plan on the support page (`worker/manage.ts`), not in Stripe's hosted portal,
+  which can only carry the shared account's branding. A new card is entered on a setup-mode Checkout
+  page and becomes the plan's card when the webhook sees it complete.
 - Receipts, failed-payment and renewal emails come from Stripe, under the account's settings.
 - Customers, subscriptions, products and prices Glorieta creates carry metadata `app=glorieta`.
   Glorieta ignores every customer without it.

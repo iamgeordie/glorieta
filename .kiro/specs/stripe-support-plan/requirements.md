@@ -81,14 +81,20 @@ that support stays a free choice.
 
 #### Acceptance Criteria
 
-1. When a supporter chooses to manage the plan, the Billing Service shall create a Stripe
-   customer portal session for that user's customer and return its URL.
-2. Glorieta shall use its own portal configuration, passed as `configuration` on every portal
-   session, never the account default (which is LinguaMama's). It shall allow cancellation, payment method update,
-   switching between the monthly and annual Prices, and invoice history.
-3. When a portal session ends, Stripe shall return the user to Glorieta's profile page.
-4. If a user without a stored Stripe customer asks for a portal session, then the Billing
-   Service shall refuse it with 404.
+Revised 2026-11-15: the hosted customer portal carries the shared account's branding (LinguaMama's
+logo and "Return to Applied Relevance, LLC") and cannot be branded per configuration, so the plan is
+managed inside Glorieta.
+
+1. When a supporter opens the support page, Glorieta shall show the plan's interval and price, its
+   renewal or end date, the saved card, and the recent invoices with links to Stripe's invoice pages.
+2. A supporter shall be able to cancel at the end of the period, undo that before the period ends,
+   and switch between the monthly and annual Prices with proration, without leaving Glorieta.
+3. A supporter shall be able to change the card on a Stripe Checkout page in setup mode, in
+   Glorieta's branding; when it completes, the Webhook Handler shall make that card the default for
+   the customer's invoices and for the Glorieta subscription.
+4. If a user without a stored Stripe customer asks for their plan, then the Billing Service shall
+   refuse it with 404 `no_customer`; with no live subscription, plan changes are refused with 404
+   `no_plan`.
 
 ### Requirement 4: Entitlement Mirror
 
@@ -149,7 +155,7 @@ that a leak cannot reach LinguaMama's billing or the shared database outside `gl
 #### Acceptance Criteria
 
 1. Glorieta shall call Stripe with its own restricted API key, limited to: write on Checkout
-   Sessions, Customers and Billing Portal Sessions; read on Products, Prices, Subscriptions and
+   Sessions, Customers and Subscriptions; read on Products, Prices, Invoices, SetupIntents and
    Entitlements.
 2. Glorieta shall verify webhooks with its own endpoint signing secret.
 3. The credential the Webhook Handler uses to write the mirror shall grant no access outside
