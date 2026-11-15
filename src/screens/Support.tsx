@@ -256,7 +256,10 @@ function ManagePlan({ plans }: { plans: Plan[] | null }) {
                   type="button"
                   class="primary"
                   disabled={busy}
-                  onClick={() => void (confirming === 'switch' && other ? doSwitch(other) : cancelOrKeep(true))}
+                  onClick={() => {
+                    if (confirming === 'cancel') void cancelOrKeep(true);
+                    else if (confirming === 'switch' && other) void doSwitch(other);
+                  }}
                 >
                   <T t={busy ? b.working : b.confirm} />
                 </button>
