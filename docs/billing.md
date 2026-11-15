@@ -134,14 +134,16 @@ npm run deploy
 ## Operating notes
 
 - Each webhook delivery logs one JSON line in Workers Logs: event id, type and outcome (`applied`,
-  `noop`, `no_row`, `foreign`, `ignored`, `linked`, `no_profile`, or `failed` with the error). No
+  `noop`, `no_row`, `foreign`, `ignored`, `linked`, `no_profile`, `unpaid`, or `failed` with the error). No
   email addresses are logged.
 - A failed delivery returns 500 and Stripe retries it. Replays are harmless: an event already applied
   changes nothing.
 - "Invítame a un café / Buy me a coffee" is a one-time payment on the Product `glorieta_coffee`: €3, €5 or
   €10, or another whole number of euros from €2 to €200, checked by the Worker. It needs a signed-in account,
   so the payment lands on the person's Glorieta-tagged customer, and Checkout creates an invoice as the
-  receipt. It grants no entitlement and no badge.
+  receipt. Once paid, the webhook records it in `glorieta.coffees` (`billing_apply` op `coffee`, keyed by the
+  Checkout Session, so a replay adds nothing), which earns the permanent Café badge. Mecenas shows instead
+  while a plan is active.
 - Supporters manage the plan on the support page (`worker/manage.ts`), not in Stripe's hosted portal,
   which can only carry the shared account's branding. A new card is entered on a setup-mode Checkout
   page and becomes the plan's card when the webhook sees it complete.

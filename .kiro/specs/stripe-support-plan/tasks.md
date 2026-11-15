@@ -167,8 +167,9 @@ schema; nothing is mocked.
 
 - [x] 8.8 "Buy me a coffee", a one-time payment (added 2026-11-15): Product `glorieta_coffee` in the
   catalog script; `POST /api/billing/coffee` with presets €3/€5/€10 or another whole number of euros from
-  €2 to €200; payment mode on the person's Glorieta customer, invoice as receipt, no entitlement, no badge;
-  the coffee card on the support page
+  €2 to €200; payment mode on the person's Glorieta customer, invoice as receipt; the coffee card on the
+  support page. A paid coffee earns the permanent Café badge: `glorieta.coffees` (schema 004, applied live
+  2026-11-15), written by `billing_apply` op `coffee` from the webhook
 
 - [ ] 9. End-to-end in test mode
 - [x] 9.1 (Run on the deployed site, 2026-11-15, instead of locally.) Locally (`wrangler dev`, `stripe listen`, `npm run dev`): subscribe with `4242 4242 4242

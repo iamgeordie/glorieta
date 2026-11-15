@@ -226,7 +226,10 @@ A one-time payment ("Invítame a un café / Buy me a coffee"), added 2026-11-15.
 euros from 200 to 20000 (presets 300, 500, 1000, reported by `GET prices`); 400 `bad_amount` otherwise.
 Checkout in `payment` mode on the caller's Glorieta customer (created and linked as for a plan), one line
 with `price_data` on Product `glorieta_coffee`, `invoice_creation` on, automatic tax, Glorieta branding.
-No entitlement, no badge, nothing in the mirror beyond the customer link.
+No Stripe entitlement. When `checkout.session.completed` arrives paid with `metadata.kind = coffee`, the
+webhook calls `billing_apply` op `coffee` (customer, session id, `amount_subtotal`, currency), which inserts
+one `glorieta.coffees` row keyed by the session id (schema 004). Any coffee row shows the Café badge; Mecenas
+takes its place while a plan is active.
 
 #### `POST /api/billing/erase` (signed in)
 

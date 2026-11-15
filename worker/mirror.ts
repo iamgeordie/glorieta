@@ -19,12 +19,14 @@ export type EntitlementsResult =
     };
 export type ClearResult = { status: 'cleared' | 'no_row' };
 export type CrmReportedResult = { status: 'ok' | 'no_row' };
+export type CoffeeResult = { status: 'applied' | 'noop'; user_id: string } | { status: 'no_row' };
 
 export type MirrorOp =
   | { op: 'link_customer'; user_id: string; customer_id: string }
   | { op: 'entitlements'; event_id: string; customer_id: string; entitlements: string[] }
   | { op: 'clear'; user_id: string; customer_id: string }
-  | { op: 'crm_reported'; user_id: string; state: CrmState };
+  | { op: 'crm_reported'; user_id: string; state: CrmState }
+  | { op: 'coffee'; customer_id: string; session_id: string; amount: number; currency: string };
 
 const encoder = new TextEncoder();
 
@@ -63,6 +65,9 @@ export const applyEntitlements = (env: MirrorEnv, event_id: string, customer_id:
 
 export const clearEntitlements = (env: MirrorEnv, user_id: string, customer_id: string) =>
   apply<ClearResult>(env, { op: 'clear', user_id, customer_id });
+
+export const recordCoffee = (env: MirrorEnv, customer_id: string, session_id: string, amount: number, currency: string) =>
+  apply<CoffeeResult>(env, { op: 'coffee', customer_id, session_id, amount, currency });
 
 export const recordCrmReported = (env: MirrorEnv, user_id: string, state: CrmState) =>
   apply<CrmReportedResult>(env, { op: 'crm_reported', user_id, state });

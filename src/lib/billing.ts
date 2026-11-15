@@ -9,7 +9,7 @@ export type Interval = 'month' | 'year';
 export type Plan = { interval: Interval; amount: number; currency: string; name: string };
 /** "Buy me a coffee": the preset amounts and the allowed range, in cents, as the Worker reports them. */
 export type Coffee = { currency: string; presets: number[]; min: number; max: number };
-export type BillingRow = { stripe_customer_id: string; entitlements: string[] };
+export type BillingRow = { stripe_customer_id: string; entitlements: string[]; coffee: boolean };
 export type PlanState = {
   interval: Interval | null;
   amount: number | null;
@@ -25,6 +25,9 @@ export type Invoice = { id: string; number: string | null; created: number; tota
 /** The signed-in person's mirror row: undefined until read, null when they have none. */
 export const billing = signal<BillingRow | null | undefined>(undefined);
 export const isSupporter = (row: BillingRow | null | undefined): boolean => !!row?.entitlements.includes('glorieta_supporter');
+/** The badge to show: Mecenas while a plan is active, otherwise Café once any coffee is paid. */
+export const badgeOf = (row: BillingRow | null | undefined): 'supporter' | 'coffee' | null =>
+  isSupporter(row) ? 'supporter' : row?.coffee ? 'coffee' : null;
 
 /** How the person came back from Checkout, read once from `?checkout=` and then removed from the address. */
 export const checkoutReturn = signal<'success' | 'cancel' | null>(takeCheckoutParam());
@@ -105,9 +108,15 @@ export async function getPlans(): Promise<{ ok: true; plans: Plan[]; coffee: Cof
 /** Reads the person's own row (row level security limits it to them) into `billing`. */
 export async function readBilling(): Promise<Bi | null> {
   try {
-    const { data, error } = await requireClient().from('billing').select('stripe_customer_id, entitlements').maybeSingle();
-    if (error) throw error;
-    billing.value = (data as BillingRow | null) ?? null;
+    const client = requireClient();
+    const [row, coffees] = await Promise.all([
+      client.from('billing').select('stripe_customer_id, entitlements').maybeSingle(),
+      client.from('coffees').select('session_id').limit(1),
+    ]);
+    if (row.error) throw row.error;
+    if (coffees.error) throw coffees.error;
+    const data = row.data as { stripe_customer_id: string; entitlements: string[] } | null;
+    billing.value = data ? { ...data, coffee: (coffees.data ?? []).length > 0 } : null;
     return null;
   } catch (err) {
     return describeAuthError(err);

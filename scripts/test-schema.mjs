@@ -1,4 +1,4 @@
-// Applies docs/backend/glorieta-schema.sql, then 002 (course progress), then 003 (billing), in that order, as the
+// Applies docs/backend/glorieta-schema.sql, then 002 (course progress), 003 (billing) and 004 (coffees), in that order, as the
 // live database experienced them, to an embedded Postgres (PGlite) with Supabase's roles, auth.uid() and the
 // `extensions` schema (pgcrypto) set up, then checks row level security, privileges and constraints. 002 and 003
 // are each applied a second time: they must be idempotent.
@@ -11,6 +11,7 @@ import assert from 'node:assert/strict';
 const SQL = readFileSync(new URL('../docs/backend/glorieta-schema.sql', import.meta.url), 'utf8');
 const SQL2 = readFileSync(new URL('../docs/backend/glorieta-schema-002-course-progress.sql', import.meta.url), 'utf8');
 const SQL3 = readFileSync(new URL('../docs/backend/glorieta-schema-003-billing.sql', import.meta.url), 'utf8');
+const SQL4 = readFileSync(new URL('../docs/backend/glorieta-schema-004-coffee.sql', import.meta.url), 'utf8');
 const A = '11111111-1111-1111-1111-111111111111';
 const B = '22222222-2222-2222-2222-222222222222';
 const db = new PGlite({ extensions: { pgcrypto } });
@@ -31,6 +32,8 @@ await db.exec(SQL2); // and so must the course-progress addition on top of it
 await db.exec(SQL2); // twice: it is idempotent
 await db.exec(SQL3); // the billing mirror
 await db.exec(SQL3); // twice: it is idempotent
+await db.exec(SQL4); // coffees
+await db.exec(SQL4); // twice: it is idempotent
 
 const as = async (role, sub) => {
   await db.exec(`reset role; select set_config('request.jwt.claim.sub', '${sub ?? ''}', false); set role ${role};`);
@@ -224,6 +227,24 @@ assert.equal((await apply({ op: 'entitlements', event_id: 'evt_Two', customer_id
 ok('crm_reported is stored and returned');
 await applyFails('crm_reported accepts only supporter or none', () => apply({ op: 'crm_reported', user_id: A, state: 'vip' }), /check constraint/);
 
+console.log('coffees (004)');
+await as('anon', '');
+assert.deepEqual(await apply({ op: 'coffee', customer_id: 'cus_Nobody9', session_id: 'cs_test_Nobody', amount: 500, currency: 'eur' }), { status: 'no_row' });
+ok('a coffee for an unknown customer is not stored');
+assert.deepEqual(await apply({ op: 'coffee', customer_id: C_A, session_id: 'cs_test_A1', amount: 500, currency: 'eur' }), { status: 'applied', user_id: A });
+assert.deepEqual(await apply({ op: 'coffee', customer_id: C_A, session_id: 'cs_test_A1', amount: 500, currency: 'eur' }), { status: 'noop', user_id: A });
+await db.exec('reset role');
+assert.equal((await rows(`select count(*)::int c from glorieta.coffees where user_id = '${A}'`))[0].c, 1); ok('a coffee is stored once, a replay adds nothing');
+await as('anon', '');
+await applyFails('a coffee outside 2 to 200 euros is refused', () => apply({ op: 'coffee', customer_id: C_A, session_id: 'cs_test_A2', amount: 100, currency: 'eur' }), /check constraint/);
+await fails('anon cannot read coffees', `select * from glorieta.coffees`, /permission denied for table/);
+await as('authenticated', B);
+assert.equal((await rows(`select count(*)::int c from glorieta.coffees`))[0].c, 0); ok('B cannot see A\'s coffees');
+await fails('B cannot insert a coffee', `insert into glorieta.coffees (session_id, user_id, amount, currency) values ('cs_test_Forged', '${B}', 500, 'eur')`, /permission denied/);
+await as('authenticated', A);
+assert.equal((await rows(`select count(*)::int c from glorieta.coffees`))[0].c, 1); ok('A reads their own coffee');
+await as('anon', '');
+
 console.log('billing privileges');
 await fails('anon cannot read billing', `select * from glorieta.billing`, /permission denied for table/);
 await fails('anon cannot read billing_key', `select * from glorieta.billing_key`, /permission denied for table/);
@@ -257,7 +278,7 @@ await as('authenticated', B);
 await db.exec(`insert into glorieta.progress values ('${B}','b1',${card},1,1,now())`);
 await as('authenticated', A);
 await db.exec(`select glorieta.delete_my_data()`);
-for (const t of ['progress', 'profiles', 'exam_results', 'attempts', 'lesson_progress', 'quiz_progress', 'billing']) assert.equal((await rows(`select count(*)::int c from glorieta.${t}`))[0].c, 0);
+for (const t of ['progress', 'profiles', 'exam_results', 'attempts', 'lesson_progress', 'quiz_progress', 'billing', 'coffees']) assert.equal((await rows(`select count(*)::int c from glorieta.${t}`))[0].c, 0);
 ok('A\'s call removes all of A\'s rows');
 await as('authenticated', B);
 assert.equal((await rows(`select count(*)::int c from glorieta.progress`))[0].c, 1);
@@ -274,7 +295,7 @@ await db.exec(`reset role`);
 const anonGrants = await rows(`select count(*)::int c from information_schema.role_table_grants where table_schema='glorieta' and grantee in ('anon','PUBLIC')`);
 assert.equal(anonGrants[0].c, 0); ok('anon and PUBLIC hold no table privileges in glorieta');
 const rls = await rows(`select relname, relrowsecurity from pg_class c join pg_namespace n on n.oid=c.relnamespace where n.nspname='glorieta' and relkind='r' order by 1`);
-assert.equal(rls.length, 8);
+assert.equal(rls.length, 9);
 assert.ok(rls.every((r) => r.relrowsecurity)); ok(`row level security is on for all ${rls.length} tables`);
 await db.exec(`delete from auth.users where id='${B}'`);
 assert.equal((await rows(`select count(*)::int c from glorieta.progress`))[0].c, 0);

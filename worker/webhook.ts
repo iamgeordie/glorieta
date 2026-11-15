@@ -6,7 +6,7 @@ import { sendSupporterSignal } from './crm.ts';
 import { crmSignal, glorietaKeys } from './entitlements.ts';
 import { json } from './http.ts';
 import { applySavedCard } from './manage.ts';
-import { applyEntitlements, linkCustomer, recordCrmReported } from './mirror.ts';
+import { applyEntitlements, linkCustomer, recordCoffee, recordCrmReported } from './mirror.ts';
 import { getStripe, webhookCrypto } from './stripe.ts';
 
 export const HANDLED_EVENTS = [
@@ -16,7 +16,7 @@ export const HANDLED_EVENTS = [
   'entitlements.active_entitlement_summary.updated',
 ] as const;
 
-type Outcome = 'applied' | 'noop' | 'no_row' | 'foreign' | 'ignored' | 'linked' | 'no_profile';
+type Outcome = 'applied' | 'noop' | 'no_row' | 'foreign' | 'ignored' | 'linked' | 'no_profile' | 'unpaid';
 
 const idOf = (ref: string | { id: string } | null | undefined): string | null =>
   typeof ref === 'string' ? ref : (ref?.id ?? null);
@@ -60,6 +60,15 @@ async function dispatch(stripe: Stripe, env: Cloudflare.Env, event: Stripe.Event
       // The customer was linked when Checkout started; this only confirms it. No entitlements here:
       // the subscription and entitlement events that follow carry those.
       const link = await linkCustomer(env, userId, customerId);
+      if (link.status !== 'linked') return link.status;
+      // A one-time coffee: record it once it is paid; that is what earns the Café badge.
+      if (session.mode === 'payment' && session.metadata?.kind === 'coffee') {
+        if (session.payment_status !== 'paid') return 'unpaid';
+        // The amount before tax: the price the person chose, the same in every country.
+        const amount = session.amount_subtotal;
+        if (amount === null || !session.currency) throw new Error(`Coffee session ${session.id} has no amount`);
+        return (await recordCoffee(env, customerId, session.id, amount, session.currency)).status;
+      }
       return link.status;
     }
     case 'customer.subscription.updated':

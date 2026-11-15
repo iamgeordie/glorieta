@@ -21,9 +21,10 @@ import { Flag } from './Flag';
 import { authEnabled } from './lib/supabase';
 import { a } from './authStrings';
 import { Practice } from './screens/Study';
+import { SupporterBadge } from './SupporterBadge';
 import { Support } from './screens/Support';
 import { b } from './billingStrings';
-import { billing, isSupporter, readBilling } from './lib/billing';
+import { billing, readBilling } from './lib/billing';
 import { isTv } from './lib/tv';
 import { Suspense, lazy } from 'preact/compat';
 
@@ -65,7 +66,7 @@ function AccountLink() {
         <span class="avatar mini initial" aria-hidden="true">{initialOf(name)}</span>
       )}
       <span class="account-name">{name}</span>
-      {!isTv() && isSupporter(billing.value) && <span class="badge supporter mini"><T t={b.badge} /></span>}
+      <SupporterBadge mini />
     </a>
   );
 }

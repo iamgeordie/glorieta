@@ -82,7 +82,7 @@ const examRow = (userId: string, e: ExamResult) => ({
 });
 
 /** Reads a whole table in pages. `orderBy` must name a unique column, or pages can overlap or skip rows. */
-async function fetchAll<T>(table: 'progress' | 'exam_results' | 'attempts' | 'lesson_progress' | 'quiz_progress' | 'billing', columns: string, orderBy?: string): Promise<T[]> {
+async function fetchAll<T>(table: 'progress' | 'exam_results' | 'attempts' | 'lesson_progress' | 'quiz_progress' | 'billing' | 'coffees', columns: string, orderBy?: string): Promise<T[]> {
   const db = requireClient();
   const out: T[] = [];
   for (let from = 0; ; from += PAGE) {
@@ -382,7 +382,8 @@ export async function deleteMyData(): Promise<Bi | null> {
   }
 }
 
-export type ExportBundle = { exported_at: string; app: 'glorieta'; account: { email: string | undefined; created_at: string | undefined }; profile: Profile | null; progress: ProgressRow[]; exam_results: ExamRow[]; attempts: unknown[]; lesson_progress: LessonRow[]; quiz_progress: QuizRow[]; billing: BillingExportRow | null };
+export type ExportBundle = { exported_at: string; app: 'glorieta'; account: { email: string | undefined; created_at: string | undefined }; profile: Profile | null; progress: ProgressRow[]; exam_results: ExamRow[]; attempts: unknown[]; lesson_progress: LessonRow[]; quiz_progress: QuizRow[]; billing: BillingExportRow | null; coffees: CoffeeExportRow[] };
+type CoffeeExportRow = { session_id: string; amount: number; currency: string; paid_at: string };
 type BillingExportRow = { stripe_customer_id: string; entitlements: string[]; history: unknown[]; created_at: string; updated_at: string };
 
 /** Everything the database holds about this person in Glorieta, for them to keep. */
@@ -390,13 +391,14 @@ export async function exportMyData(): Promise<{ ok: true; data: ExportBundle } |
   const user = activeUser;
   if (!user) return { ok: false, error: bi('No has iniciado sesión.', 'You are not signed in.') };
   try {
-    const [progressRows, examRows, attemptRows, lessonRows, quizRows, billingRows] = await Promise.all([
+    const [progressRows, examRows, attemptRows, lessonRows, quizRows, billingRows, coffeeRows] = await Promise.all([
       fetchAll<ProgressRow>('progress', 'item_id, card, seen, right_count, updated_at', 'item_id'),
       fetchAll<ExamRow>('exam_results', 'taken_at, total, errors, unanswered, passed', 'taken_at'),
       fetchAll<unknown>('attempts', 'item_id, correct, mode, answered_at, id', 'id'),
       fetchAll<LessonRow>('lesson_progress', 'lesson_key, done, step, answered, updated_at', 'lesson_key'),
       fetchAll<QuizRow>('quiz_progress', 'module_id, best, last, attempts, updated_at', 'module_id'),
       fetchAll<BillingExportRow>('billing', 'stripe_customer_id, entitlements, history, created_at, updated_at', 'user_id'),
+      fetchAll<CoffeeExportRow>('coffees', 'session_id, amount, currency, paid_at', 'session_id'),
     ]);
     return {
       ok: true,
@@ -411,6 +413,7 @@ export async function exportMyData(): Promise<{ ok: true; data: ExportBundle } |
         lesson_progress: lessonRows,
         quiz_progress: quizRows,
         billing: billingRows[0] ?? null,
+        coffees: coffeeRows,
       },
     };
   } catch (err) {

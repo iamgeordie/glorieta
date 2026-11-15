@@ -164,6 +164,7 @@ export async function coffee(request: Request, env: Cloudflare.Env): Promise<Res
     mode: 'payment',
     customer,
     client_reference_id: user.id,
+    metadata: { app: APP_TAG, glorieta_user_id: user.id, kind: 'coffee' },
     line_items: [{ price_data: { currency: COFFEE.currency, unit_amount: amount, product: product.id }, quantity: 1 }],
     payment_intent_data: { metadata: { app: APP_TAG, glorieta_user_id: user.id, kind: 'coffee' } },
     invoice_creation: { enabled: true, invoice_data: { metadata: { app: APP_TAG, glorieta_user_id: user.id, kind: 'coffee' } } },

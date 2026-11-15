@@ -9,6 +9,7 @@ import { exams, progress, resetAll } from '../lib/store';
 import { categories } from '../data/categories';
 import { Field, LegalLinks, Message, MIN_PASSWORD, PasswordField } from './form-parts';
 import { b } from '../billingStrings';
+import { SupporterBadge } from '../SupporterBadge';
 import { billing, isSupporter, readBilling } from '../lib/billing';
 import { isTv } from '../lib/tv';
 
@@ -68,7 +69,7 @@ function Header({ user }: { user: User }) {
           <span class={user.email_confirmed_at ? 'badge ok' : 'badge'}>
             <T t={user.email_confirmed_at ? a.emailVerified : a.emailUnverified} />
           </span>
-          {!isTv() && isSupporter(billing.value) && <span class="badge supporter"><T t={b.badge} /></span>}
+          <SupporterBadge />
         </p>
       </div>
       <dl class="facts">
@@ -166,7 +167,11 @@ function SupportCard() {
       )}
       {row !== undefined && !isSupporter(row) && (
         <>
-          <p class="muted small"><T t={b.cardNone} /></p>
+          {row?.coffee ? (
+            <p><SupporterBadge /> <T t={b.coffeeHad} /></p>
+          ) : (
+            <p class="muted small"><T t={b.cardNone} /></p>
+          )}
           <div class="actions">
             <a class="secondary" href="#/support"><T t={b.cardSee} /></a>
           </div>
