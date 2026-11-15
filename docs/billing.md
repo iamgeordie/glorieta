@@ -117,6 +117,10 @@ Vite proxies `/api` to the Worker on 8787.
 
 ## Live mode
 
+The live "Glorieta Worker" key is in 1Password: "Glorieta Worker (Stripe live restricted key)"
+(AppliedRelevance vault, item id `7hbpjaz7flgfokj4xrg544m43q`; read it by id, since the parentheses
+are not valid in an `op://` reference).
+
 Repeat steps 1, 2, 4 and 5 of the setup in **live mode** (the HMAC key stays as it is), put the live
 portal configuration id in `vars`, then:
 
