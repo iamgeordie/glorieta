@@ -197,4 +197,6 @@ schema; nothing is mocked.
   (no portal configuration: plan management moved into Glorieta in 8.7)
   - _Requirements: 1.4, 9.6_
 - [ ] 10.2 One real subscription and cancellation, and one coffee, on Geordie's own account; refund both in Stripe
+  - Coffee done 2026-11-16: €3, live session `cs_live_…`, recorded in `glorieta.coffees`, Café badge shown;
+    subscription still to do
   - _Requirements: 9.6_
