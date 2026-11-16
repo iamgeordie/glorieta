@@ -162,7 +162,8 @@ export function App() {
 
   // The supporter badge in the menu bar needs the person's billing row; a sign-out forgets it.
   useEffect(() => {
-    if (!authEnabled || isTv()) return;
+    // The badge shows in TV mode too; only the ways to pay stay off the TV.
+    if (!authEnabled) return;
     if (authStatus.value === 'in') void readBilling();
     else billing.value = undefined;
   }, [authStatus.value]);

@@ -182,7 +182,8 @@ that a leak cannot reach LinguaMama's billing or the shared database outside `gl
    pays for.
 5. A signed-out visitor who opens the support page shall see the plans and a sign-in prompt,
    and shall reach Checkout only after signing in.
-6. The Glorieta App shall show nothing billing-related in TV mode (`?tv`).
+6. In TV mode (`?tv`) the Glorieta App shall offer no way to pay: no support link, support page, support
+   card or plan management. The supporter and Café badges still show, as on every other screen.
 
 ### Requirement 8: Erasure and Consent
 
