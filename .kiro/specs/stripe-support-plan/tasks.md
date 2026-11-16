@@ -192,9 +192,9 @@ schema; nothing is mocked.
 - [x] 9.7 Deploy with test-mode keys and repeat 9.1 against `glorieta.anaidic.com`
 
 - [ ] 10. Live mode **(Geordie)**
-- [ ] 10.1 Live restricted key, live catalog through `scripts/stripe-catalog.mjs`, live portal
-  configuration id in `vars`, live webhook endpoint and secret, `wrangler secret put` for both,
-  `npm run deploy`
+- [x] 10.1 (2026-11-16) Live catalog through `scripts/stripe-catalog.mjs` with the live Worker key, live webhook
+  endpoint `we_1UcSFf23tZR70mOftdv5CIDd` and its secret, `wrangler secret put` for both, `npm run deploy`
+  (no portal configuration: plan management moved into Glorieta in 8.7)
   - _Requirements: 1.4, 9.6_
-- [ ] 10.2 One real subscription and cancellation on Geordie's own account; refund it in Stripe
+- [ ] 10.2 One real subscription and cancellation, and one coffee, on Geordie's own account; refund both in Stripe
   - _Requirements: 9.6_

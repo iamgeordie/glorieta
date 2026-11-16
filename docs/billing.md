@@ -125,11 +125,21 @@ The live "Glorieta Worker" key is in 1Password: "Glorieta Worker (Stripe live re
 (AppliedRelevance vault, item id `7hbpjaz7flgfokj4xrg544m43q`; read it by id, since the parentheses
 are not valid in an `op://` reference).
 
-Repeat steps 1, 2, 4 and 5 of the setup in **live mode** (the HMAC key stays as it is), then:
+Live since 2026-11-16, on account `acct_103f1123tZR70mOf`:
+
+| Piece | Live value |
+|---|---|
+| Catalog | created with the live "Glorieta Worker" key as `STRIPE_SETUP_KEY` (it has catalog write): product `glorieta_supporter`, prices `price_1UcSFT23tZR70mOfKv3rCpgy` (300 cents a month) and `price_1UcSFT23tZR70mOf4k5TBEGw` (3000 cents a year), feature `feat_61VlqCoOeYPvN1o2T4123tZR70mOfVho`, product `glorieta_coffee` |
+| Webhook endpoint | `we_1UcSFf23tZR70mOftdv5CIDd`, API version `2026-08-26.dahlia`, the four events; secret in 1Password as "Glorieta Stripe webhook secret (live mode)", item id `plufa7bhk3mgpvlgdh4psdkf6u` |
+| Worker secrets | `STRIPE_RESTRICTED_KEY` and `STRIPE_WEBHOOK_SECRET` hold the live values; `BILLING_HMAC_KEY` is unchanged |
+
+To change the catalog, run the script with the live key and `--live`:
 
 ```bash
-npm run deploy
+STRIPE_SETUP_KEY="$(op read 'op://AppliedRelevance/7hbpjaz7flgfokj4xrg544m43q/credential')" node scripts/stripe-catalog.mjs --monthly 300 --annual 3000 --live
 ```
+
+Local development keeps the test-mode values in `.dev.vars`.
 
 ## Operating notes
 
