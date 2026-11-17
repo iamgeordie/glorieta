@@ -3021,6 +3021,41 @@
               "src": "RGC art. 41.1"
             },
             {
+              "t": "figure",
+              "file": "road-works-contraflow",
+              "alt": {
+                "es": "Vista desde arriba de una autovía. La calzada de abajo está cerrada por obras con conos. Un camión azul que va hacia la derecha cruza por un paso en la mediana y sigue por el carril más cercano a la mediana de la otra calzada, separado con conos de los coches naranjas que vienen de frente.",
+                "en": "Top-down view of a dual carriageway. The lower carriageway is closed for roadworks with cones. A blue truck heading right crosses through a gap in the central reservation and continues in the lane next to it on the other carriageway, separated by cones from the orange cars coming the other way."
+              },
+              "caption": {
+                "es": "Por obras, el camión puede usar el carril habilitado en sentido contrario. Sigue con la luz de cruce y entre 60 y 80 km/h.",
+                "en": "Because of roadworks, the truck may use the lane opened in the opposite direction. It keeps its low beams on and stays between 60 and 80 km/h."
+              },
+              "legend": [
+                {
+                  "mark": "1",
+                  "text": {
+                    "es": "Calzada cerrada por obras.",
+                    "en": "Carriageway closed for roadworks."
+                  }
+                },
+                {
+                  "mark": "2",
+                  "text": {
+                    "es": "Carril habilitado en sentido contrario al habitual, separado con conos.",
+                    "en": "Lane opened in the opposite direction to normal, separated by cones."
+                  }
+                },
+                {
+                  "mark": "3",
+                  "text": {
+                    "es": "Tu camión: por obras, puede usar ese carril.",
+                    "en": "Your truck: because of roadworks, it may use that lane."
+                  }
+                }
+              ]
+            },
+            {
               "t": "example",
               "situation": {
                 "es": "Conduces una furgoneta con remolque por una autovía en obras. Unos conos te desvían a un carril habilitado en sentido contrario al habitual, y no hay ninguna señal que te lo prohíba.",
@@ -3110,6 +3145,34 @@
                 "en": "Anyone driving on the shoulders and in that extra lane goes at a maximum of **80 km/h** and a minimum of **60 km/h**, or lower if signs say so, and has **at least the low beams** on, day and night."
               },
               "src": "RGC art. 42.1"
+            },
+            {
+              "t": "figure",
+              "file": "road-extra-lane",
+              "alt": {
+                "es": "Vista desde arriba de una carretera de doble sentido con arcenes. Una fila de balizas desplaza el centro de la calzada: quedan dos carriles hacia la derecha y uno hacia la izquierda. Un coche azul va por el carril adicional, junto a un coche gris en el otro carril de su sentido, y vienen de frente coches naranjas.",
+                "en": "Top-down view of a two-way road with shoulders. A row of beacons shifts the center of the roadway: there are two lanes heading right and one heading left. A blue car drives in the extra lane, beside a gray car in the other lane of its direction, and orange cars come the other way."
+              },
+              "caption": {
+                "es": "Con los dos arcenes, tu sentido tiene dos carriles y el contrario uno. Luz de cruce y entre 60 y 80 km/h.",
+                "en": "Using both shoulders, your direction has two lanes and the other has one. Low beams and between 60 and 80 km/h."
+              },
+              "legend": [
+                {
+                  "mark": "1",
+                  "text": {
+                    "es": "Balizas provisionales: marcan el nuevo centro de la calzada.",
+                    "en": "Temporary beacons: they mark the new center of the roadway."
+                  }
+                },
+                {
+                  "mark": "2",
+                  "text": {
+                    "es": "Tú, en el carril adicional circunstancial.",
+                    "en": "You, in the occasional extra lane."
+                  }
+                }
+              ]
             },
             {
               "t": "check",

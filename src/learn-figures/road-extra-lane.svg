@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 240" focusable="false">
+  <rect class="f-grass" x="0" y="0" width="360" height="240"/>
+  <rect class="f-road" x="0" y="58" width="360" height="124"/>
+  <path class="f-line" d="M0 61 H360 M0 179 H360"/>
+  <g id="before">
+    <path class="f-line" d="M0 81 H360 M0 159 H360"/>
+    <path class="f-line f-dash" d="M0 120 H360"/>
+  </g>
+  <g id="after">
+    <path class="f-line f-dash" d="M0 140 H360"/>
+    <circle class="f-danger" fill="currentColor" cx="8.0" cy="100.0" r="3.5"/>
+    <circle class="f-danger" fill="currentColor" cx="26.0" cy="100.0" r="3.5"/>
+    <circle class="f-danger" fill="currentColor" cx="44.0" cy="100.0" r="3.5"/>
+    <circle class="f-danger" fill="currentColor" cx="62.0" cy="100.0" r="3.5"/>
+    <circle class="f-danger" fill="currentColor" cx="80.0" cy="100.0" r="3.5"/>
+    <circle class="f-danger" fill="currentColor" cx="98.0" cy="100.0" r="3.5"/>
+    <circle class="f-danger" fill="currentColor" cx="116.0" cy="100.0" r="3.5"/>
+    <circle class="f-danger" fill="currentColor" cx="134.0" cy="100.0" r="3.5"/>
+    <circle class="f-danger" fill="currentColor" cx="152.0" cy="100.0" r="3.5"/>
+    <circle class="f-danger" fill="currentColor" cx="170.0" cy="100.0" r="3.5"/>
+    <circle class="f-danger" fill="currentColor" cx="188.0" cy="100.0" r="3.5"/>
+    <circle class="f-danger" fill="currentColor" cx="206.0" cy="100.0" r="3.5"/>
+    <circle class="f-danger" fill="currentColor" cx="224.0" cy="100.0" r="3.5"/>
+    <circle class="f-danger" fill="currentColor" cx="242.0" cy="100.0" r="3.5"/>
+    <circle class="f-danger" fill="currentColor" cx="260.0" cy="100.0" r="3.5"/>
+    <circle class="f-danger" fill="currentColor" cx="278.0" cy="100.0" r="3.5"/>
+    <circle class="f-danger" fill="currentColor" cx="296.0" cy="100.0" r="3.5"/>
+    <circle class="f-danger" fill="currentColor" cx="314.0" cy="100.0" r="3.5"/>
+    <circle class="f-danger" fill="currentColor" cx="332.0" cy="100.0" r="3.5"/>
+    <circle class="f-danger" fill="currentColor" cx="350.0" cy="100.0" r="3.5"/>
+    <circle class="f-badge" cx="330" cy="100" r="11"/><text class="f-badge-text" x="330" y="100">1</text>
+  </g>
+</svg>
