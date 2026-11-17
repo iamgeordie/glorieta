@@ -550,19 +550,19 @@
         "es": "Límites fuera de poblado",
         "en": "Limits outside towns"
       },
-      "minutes": 7,
+      "minutes": 8,
       "goals": [
         {
           "es": "Leer la tabla de límites de autopistas, autovías y carreteras convencionales.",
           "en": "Read the limits table for motorways, dual carriageways and conventional roads."
         },
         {
-          "es": "Saber cuándo un vehículo tiene un límite distinto, como una furgoneta o un autobús.",
-          "en": "Know when a vehicle has a different limit, such as a van or a bus."
+          "es": "Saber cuándo un vehículo tiene un límite distinto: furgonetas, autobuses, vehículos especiales y cuadriciclos.",
+          "en": "Know when a vehicle has a different limit: vans, buses, special vehicles and quadricycles."
         },
         {
-          "es": "Conocer la velocidad mínima y por qué no puedes pasarte del límite al adelantar.",
-          "en": "Know the minimum speed, and why you may not exceed the limit to overtake."
+          "es": "Calcular la velocidad mínima y saber por qué no puedes pasarte del límite al adelantar.",
+          "en": "Work out the minimum speed, and know why you may not exceed the limit to overtake."
         }
       ],
       "terms": [
@@ -949,6 +949,198 @@
         },
         {
           "title": {
+            "es": "Vehículos especiales, de tres ruedas y cuadriciclos",
+            "en": "Special vehicles, three-wheelers and quadricycles"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Tres grupos de vehículos tienen límites propios fuera de poblado. Un tractor agrícola o un motocultor son **vehículos especiales**.",
+                "en": "Three groups of vehicles have limits of their own outside towns. A farm tractor or a two-wheel tractor is a **special vehicle**."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Un **vehículo especial** está hecho para obras o servicios concretos, o es maquinaria agrícola o su remolque. El tractor agrícola y el motocultor son vehículos especiales.",
+                "en": "A **special vehicle** is built for specific works or services, or is farm machinery or its trailer. Farm tractors and two-wheel tractors are special vehicles."
+              },
+              "src": "LSV Anexo I (vehículo especial, tractor agrícola, motocultor)"
+            },
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Vehículo",
+                  "en": "Vehicle"
+                },
+                {
+                  "es": "Límite",
+                  "en": "Limit"
+                },
+                {
+                  "es": "Apartado",
+                  "en": "Paragraph"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "Vehículo de tres ruedas o cuadriciclo",
+                    "en": "Three-wheel vehicle or quadricycle"
+                  },
+                  {
+                    "es": "70 km/h en cualquier vía donde pueda circular",
+                    "en": "70 km/h on any road where it may go"
+                  },
+                  {
+                    "es": "48.1.h",
+                    "en": "48.1.h"
+                  }
+                ],
+                [
+                  {
+                    "es": "Vehículo especial sin señalización de frenado, con remolque, o motocultor",
+                    "en": "Special vehicle with no brake lights, towing a trailer, or a two-wheel tractor"
+                  },
+                  {
+                    "es": "25 km/h",
+                    "en": "25 km/h"
+                  },
+                  {
+                    "es": "48.1.c.1.º",
+                    "en": "48.1.c.1.º"
+                  }
+                ],
+                [
+                  {
+                    "es": "Resto de vehículos especiales",
+                    "en": "All other special vehicles"
+                  },
+                  {
+                    "es": "40 km/h. Si pueden pasar de 60 km/h en llano y cumplen sus normas, 70 km/h",
+                    "en": "40 km/h. If they can go faster than 60 km/h on the flat and meet their vehicle rules, 70 km/h"
+                  },
+                  {
+                    "es": "48.1.c.2.º",
+                    "en": "48.1.c.2.º"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Un vehículo de tres ruedas asimilado a las motocicletas tiene los límites de las motocicletas. El **cuadriciclo ligero** va con los ciclomotores, a 45 km/h.",
+                "en": "A three-wheel vehicle classed with motorcycles takes the motorcycle limits. A **light quadricycle** goes with mopeds, at 45 km/h."
+              },
+              "src": "RGC art. 48.1.a.2.º y 48.1.e"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Un vehículo especial solo puede ir por autopista o autovía si puede pasar de **60 km/h** en llano y cumple las condiciones del anexo III. Si excede las masas o dimensiones permitidas, lo debe autorizar su permiso complementario.",
+                "en": "A special vehicle may use a motorway or dual carriageway only if it can go faster than **60 km/h** on the flat and meets the conditions of Anexo III. If it exceeds the permitted weights or dimensions, its supplementary permit must allow it."
+              },
+              "src": "RGC art. 38.3"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "speed-outside-c5",
+                "answer": 2,
+                "es": {
+                  "q": "Un tractor agrícola arrastra un remolque por una carretera convencional, sin señales de velocidad. ¿Cuál es su máximo?",
+                  "options": [
+                    "40 km/h",
+                    "45 km/h",
+                    "25 km/h"
+                  ],
+                  "why": "Un tractor agrícola es un vehículo especial. Si lleva remolque, su máximo es de 25 km/h. Los 40 km/h son para los demás vehículos especiales."
+                },
+                "exam": {
+                  "q": "An agricultural tractor drags a trailer by a conventional road, without signs of speed. Which is its maximum?",
+                  "options": [
+                    "40 km/h.",
+                    "45 km/h.",
+                    "25 km/h."
+                  ]
+                },
+                "en": {
+                  "q": "A farm tractor is towing a trailer on a conventional road with no speed signs. What is its maximum?",
+                  "options": [
+                    "40 km/h",
+                    "45 km/h",
+                    "25 km/h"
+                  ],
+                  "why": "A farm tractor is a special vehicle. Towing a trailer, its maximum is 25 km/h. The 40 km/h limit is for other special vehicles."
+                },
+                "terms": [
+                  {
+                    "es": "tractor agrícola",
+                    "en": "farm tractor"
+                  },
+                  {
+                    "es": "remolque",
+                    "en": "trailer"
+                  },
+                  {
+                    "es": "vehículo especial",
+                    "en": "special vehicle"
+                  }
+                ],
+                "src": "RGC art. 48.1.c; LSV Anexo I (tractor agrícola)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "speed-outside-c6",
+                "answer": 1,
+                "es": {
+                  "q": "Conduces un cuadriciclo que no es ligero por una carretera convencional, sin señales de velocidad. ¿Cuál es tu máximo?",
+                  "options": [
+                    "90 km/h",
+                    "70 km/h",
+                    "45 km/h"
+                  ],
+                  "why": "Los vehículos de tres ruedas y los cuadriciclos tienen un límite de 70 km/h. Solo el cuadriciclo ligero va a 45 km/h, como un ciclomotor."
+                },
+                "exam": {
+                  "q": "You drive a quadricycle which is not light by a conventional road, without signs of speed. Which is your maximum?",
+                  "options": [
+                    "90 km/h.",
+                    "70 km/h.",
+                    "45 km/h."
+                  ]
+                },
+                "en": {
+                  "q": "You drive a quadricycle that is not a light one on a conventional road with no speed signs. What is your maximum?",
+                  "options": [
+                    "90 km/h",
+                    "70 km/h",
+                    "45 km/h"
+                  ],
+                  "why": "Three-wheel vehicles and quadricycles have a 70 km/h limit. Only a light quadricycle goes at 45 km/h, like a moped."
+                },
+                "terms": [
+                  {
+                    "es": "cuadriciclo",
+                    "en": "quadricycle (four-wheel microcar or quad)"
+                  },
+                  {
+                    "es": "cuadriciclo ligero",
+                    "en": "light quadricycle (moped class)"
+                  }
+                ],
+                "src": "RGC art. 48.1.e y 48.1.h"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
             "es": "Velocidad mínima: no entorpezcas",
             "en": "Minimum speed: do not hold traffic up"
           },
@@ -960,6 +1152,158 @@
                 "en": "You must not hold up another vehicle by driving without good reason at an unusually low speed. On motorways and dual carriageways it is forbidden to drive below **60 km/h**. On other roads, below half the default limit for that vehicle."
               },
               "src": "RGC art. 49.1"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Fuera de autopistas y autovías, tu mínima es **la mitad** del límite genérico de tu vehículo en esa vía. Vale también en poblado.",
+                "en": "Off motorways and dual carriageways, your minimum is **half** the default limit for your vehicle on that road. This also applies in town."
+              }
+            },
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Vía y vehículo",
+                  "en": "Road and vehicle"
+                },
+                {
+                  "es": "Límite genérico",
+                  "en": "Default limit"
+                },
+                {
+                  "es": "Mínima",
+                  "en": "Minimum"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "Autopista o autovía, vehículo a motor",
+                    "en": "Motorway or dual carriageway, motor vehicle"
+                  },
+                  {
+                    "es": "El de la tabla",
+                    "en": "From the table"
+                  },
+                  {
+                    "es": "60 km/h",
+                    "en": "60 km/h"
+                  }
+                ],
+                [
+                  {
+                    "es": "Convencional: turismo, motocicleta o autobús",
+                    "en": "Conventional road: car, motorcycle or bus"
+                  },
+                  {
+                    "es": "90 km/h",
+                    "en": "90 km/h"
+                  },
+                  {
+                    "es": "45 km/h",
+                    "en": "45 km/h"
+                  }
+                ],
+                [
+                  {
+                    "es": "Convencional: camión o furgoneta",
+                    "en": "Conventional road: truck or van"
+                  },
+                  {
+                    "es": "80 km/h",
+                    "en": "80 km/h"
+                  },
+                  {
+                    "es": "40 km/h",
+                    "en": "40 km/h"
+                  }
+                ],
+                [
+                  {
+                    "es": "Convencional: tres ruedas o cuadriciclo",
+                    "en": "Conventional road: three-wheeler or quadricycle"
+                  },
+                  {
+                    "es": "70 km/h",
+                    "en": "70 km/h"
+                  },
+                  {
+                    "es": "35 km/h",
+                    "en": "35 km/h"
+                  }
+                ],
+                [
+                  {
+                    "es": "Vía sin pavimentar",
+                    "en": "Unpaved road"
+                  },
+                  {
+                    "es": "30 km/h",
+                    "en": "30 km/h"
+                  },
+                  {
+                    "es": "15 km/h",
+                    "en": "15 km/h"
+                  }
+                ],
+                [
+                  {
+                    "es": "Travesía",
+                    "en": "Travesía"
+                  },
+                  {
+                    "es": "50 km/h",
+                    "en": "50 km/h"
+                  },
+                  {
+                    "es": "25 km/h",
+                    "en": "25 km/h"
+                  }
+                ],
+                [
+                  {
+                    "es": "Calle con plataforma única",
+                    "en": "Street with a single platform"
+                  },
+                  {
+                    "es": "20 km/h",
+                    "en": "20 km/h"
+                  },
+                  {
+                    "es": "10 km/h",
+                    "en": "10 km/h"
+                  }
+                ],
+                [
+                  {
+                    "es": "Calle de un carril por sentido",
+                    "en": "Street with one lane each way"
+                  },
+                  {
+                    "es": "30 km/h",
+                    "en": "30 km/h"
+                  },
+                  {
+                    "es": "15 km/h",
+                    "en": "15 km/h"
+                  }
+                ],
+                [
+                  {
+                    "es": "Calle de dos o más carriles por sentido",
+                    "en": "Street with two or more lanes each way"
+                  },
+                  {
+                    "es": "50 km/h",
+                    "en": "50 km/h"
+                  },
+                  {
+                    "es": "25 km/h",
+                    "en": "25 km/h"
+                  }
+                ]
+              ]
             },
             {
               "t": "p",
@@ -1014,6 +1358,90 @@
                   }
                 ],
                 "src": "RGC art. 49.1 y 49.2"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "speed-outside-c7",
+                "answer": 0,
+                "es": {
+                  "q": "Conduces un camión por una carretera convencional, sin señales de velocidad. ¿Por debajo de qué velocidad no debes circular sin causa justificada?",
+                  "options": [
+                    "40 km/h",
+                    "45 km/h",
+                    "60 km/h"
+                  ],
+                  "why": "Fuera de autopistas y autovías, la mínima es la mitad del límite genérico. Un camión tiene 80 km/h en carretera convencional, así que su mínima es de 40 km/h."
+                },
+                "exam": {
+                  "q": "You drive a lorry by a conventional road, without signs of speed. Below which speed must you not circulate without justified cause?",
+                  "options": [
+                    "40 km/h.",
+                    "45 km/h.",
+                    "60 km/h."
+                  ]
+                },
+                "en": {
+                  "q": "You drive a truck on a conventional road with no speed signs. Below what speed must you not drive without good reason?",
+                  "options": [
+                    "40 km/h",
+                    "45 km/h",
+                    "60 km/h"
+                  ],
+                  "why": "Off motorways and dual carriageways, the minimum is half the default limit. A truck has 80 km/h on a conventional road, so its minimum is 40 km/h."
+                },
+                "terms": [
+                  {
+                    "es": "carretera convencional",
+                    "en": "conventional road"
+                  },
+                  {
+                    "es": "causa justificada",
+                    "en": "good reason"
+                  }
+                ],
+                "src": "RGC art. 48.1.a y 49.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "speed-outside-c8",
+                "answer": 2,
+                "es": {
+                  "q": "Circulas en turismo por una calle de un único carril por sentido, sin señales de velocidad. ¿Cuál es tu velocidad mínima?",
+                  "options": [
+                    "10 km/h",
+                    "20 km/h",
+                    "15 km/h"
+                  ],
+                  "why": "En esa calle el límite genérico es de 30 km/h. La mínima es la mitad: 15 km/h."
+                },
+                "exam": {
+                  "q": "You circulate in passenger car by a street of a single lane by direction, without signs of speed. Which is your minimum speed?",
+                  "options": [
+                    "10 km/h.",
+                    "20 km/h.",
+                    "15 km/h."
+                  ]
+                },
+                "en": {
+                  "q": "You drive a car on a town street with a single lane each way and no speed signs. What is your minimum speed?",
+                  "options": [
+                    "10 km/h",
+                    "20 km/h",
+                    "15 km/h"
+                  ],
+                  "why": "On that street the default limit is 30 km/h. The minimum is half of that: 15 km/h."
+                },
+                "terms": [
+                  {
+                    "es": "velocidad mínima",
+                    "en": "minimum speed"
+                  }
+                ],
+                "src": "RGC art. 49.1 y 50.1.b"
               }
             }
           ]
@@ -1103,12 +1531,16 @@
           "en": "School transport and dangerous goods: **10 km/h less**."
         },
         {
-          "es": "En autopista y autovía no se circula por debajo de **60 km/h** sin causa justificada.",
-          "en": "On a motorway or dual carriageway you may not drive below **60 km/h** without good reason."
+          "es": "Mínima: **60 km/h** en autopista y autovía; en las demás vías, **la mitad** del límite genérico.",
+          "en": "Minimum: **60 km/h** on a motorway or dual carriageway; on other roads, **half** the default limit."
         },
         {
           "es": "**Adelantar** no permite pasarse del límite.",
           "en": "**Overtaking** does not let you exceed the limit."
+        },
+        {
+          "es": "Vehículos especiales: **25** o **40 km/h**. Tres ruedas y cuadriciclos: **70 km/h**.",
+          "en": "Special vehicles: **25** or **40 km/h**. Three-wheelers and quadricycles: **70 km/h**."
         }
       ],
       "covers": [
@@ -1116,7 +1548,7 @@
         "speed-04"
       ],
       "src": [
-        "Reglamento General de Circulación (RD 1428/2003), arts. 47, 48, 49 y 51 (derogado)",
+        "Reglamento General de Circulación (RD 1428/2003), arts. 38, 47, 48, 49, 50 y 51 (derogado)",
         "Ley de Tráfico y Seguridad Vial (RDL 6/2015), Anexo I"
       ]
     },
