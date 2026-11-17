@@ -2442,7 +2442,7 @@
         "es": "Carriles especiales",
         "en": "Special lanes"
       },
-      "minutes": 7,
+      "minutes": 8,
       "goals": [
         {
           "es": "Saber que en los carriles reservados mandan las señales, y que no se puede parar en el del transporte público.",
@@ -2453,8 +2453,8 @@
           "en": "Recognize the VAO lane and the reversible lane, and obey their signals."
         },
         {
-          "es": "Conocer las reglas de un carril usado en sentido contrario al habitual.",
-          "en": "Know the rules for a lane used in the opposite direction to normal."
+          "es": "Conocer las reglas de un carril usado en sentido contrario al habitual, y qué cambia cuando se habilita por obras.",
+          "en": "Know the rules for a lane used in the opposite direction to normal, and what changes when it is opened for roadworks."
         }
       ],
       "terms": [
@@ -2481,6 +2481,10 @@
         {
           "es": "sentido contrario al habitual",
           "en": "opposite to the usual direction"
+        },
+        {
+          "es": "obras",
+          "en": "roadworks"
         },
         {
           "es": "parada",
@@ -2872,8 +2876,8 @@
             {
               "t": "rule",
               "text": {
-                "es": "Solo pueden usarlos **motocicletas y turismos**. Está prohibido al resto de vehículos, incluidos los turismos con remolque.",
-                "en": "Only **motorcycles and cars** may use them. They are forbidden to all other vehicles, including cars with a trailer."
+                "es": "Cuando se habilita **por fluidez**, solo pueden usarlo **motocicletas y turismos**. Está prohibido al resto de vehículos, incluidos los turismos con remolque.",
+                "en": "When it is opened **to keep traffic flowing**, only **motorcycles and cars** may use it. It is forbidden to all other vehicles, including cars with a trailer."
               },
               "src": "RGC art. 41.1"
             },
@@ -2912,7 +2916,7 @@
                     "Solo motocicletas y turismos",
                     "Motocicletas y turismos, también con remolque"
                   ],
-                  "why": "Solo pueden usarlo las motocicletas y los turismos. Está prohibido al resto de vehículos, incluidos los turismos con remolque."
+                  "why": "Cuando el carril se habilita por fluidez, solo pueden usarlo las motocicletas y los turismos. Está prohibido al resto de vehículos, incluidos los turismos con remolque."
                 },
                 "exam": {
                   "q": "The authority enables a lane in order to circulate in contrary sense to the usual one for reasons of fluidity. Which vehicles can use it?",
@@ -2929,7 +2933,7 @@
                     "Only motorcycles and cars",
                     "Motorcycles and cars, also with a trailer"
                   ],
-                  "why": "Only motorcycles and cars may use it. It is forbidden to all other vehicles, including cars with a trailer."
+                  "why": "When the lane is opened to keep traffic flowing, only motorcycles and cars may use it. It is forbidden to all other vehicles, including cars with a trailer."
                 },
                 "terms": [
                   {
@@ -2989,6 +2993,89 @@
               }
             }
           ]
+        },
+        {
+          "title": {
+            "es": "Carril en sentido contrario por obras",
+            "en": "An opposite-direction lane for roadworks"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si hay **obras** en la calzada, el titular de la carretera también puede habilitar carriles en sentido contrario al habitual, de acuerdo con la autoridad de tráfico.",
+                "en": "If there are **roadworks** on the roadway, the road's owner may also open lanes in the opposite direction to normal, in agreement with the traffic authority."
+              },
+              "src": "RGC art. 41.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "En ese caso pueden usarlos **todos los vehículos** autorizados a circular por la vía en obras, salvo que se prohíba expresamente. Las condiciones son las mismas: al menos la luz de cruce, entre 60 y 80 km/h y sin invadir los otros carriles.",
+                "en": "In that case **all vehicles** allowed on the road under works may use them, unless this is expressly forbidden. The conditions are the same: at least the low beams, between 60 and 80 km/h and no moving into the other lanes."
+              },
+              "src": "RGC art. 41.1"
+            },
+            {
+              "t": "example",
+              "situation": {
+                "es": "Conduces una furgoneta con remolque por una autovía en obras. Unos conos te desvían a un carril habilitado en sentido contrario al habitual, y no hay ninguna señal que te lo prohíba.",
+                "en": "You drive a van with a trailer on a dual carriageway under works. Cones divert you into a lane opened in the opposite direction to normal, and no sign forbids it to you."
+              },
+              "action": {
+                "es": "Sigue el desvío. Lleva la luz de cruce, mantente entre 60 y 80 km/h y no salgas de tu carril.",
+                "en": "Follow the diversion. Use your low beams, stay between 60 and 80 km/h and do not leave your lane."
+              },
+              "why": {
+                "es": "Por obras, ese carril lo puede usar cualquier vehículo autorizado en la vía, salvo prohibición expresa (RGC art. 41.1). La regla de solo motocicletas y turismos vale cuando se habilita por fluidez.",
+                "en": "For roadworks, any vehicle allowed on the road may use that lane unless expressly forbidden (RGC art. 41.1). The motorcycles-and-cars-only rule applies when it is opened to keep traffic flowing."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-s4g",
+                "answer": 1,
+                "es": {
+                  "q": "Por unas obras en la calzada, se habilita un carril para circular en sentido contrario al habitual. Conduces un camión y ninguna señal lo prohíbe. ¿Puedes usar ese carril?",
+                  "options": [
+                    "No: solo pueden usarlo motocicletas y turismos",
+                    "Sí, con la luz de cruce y entre 60 y 80 km/h",
+                    "Sí, y sin límite de velocidad mínima"
+                  ],
+                  "why": "Cuando el carril se habilita por obras, pueden usarlo todos los vehículos autorizados en esa vía, salvo prohibición expresa. Se lleva al menos la luz de cruce y se circula entre 60 y 80 km/h, o menos si así se indica."
+                },
+                "exam": {
+                  "q": "Because of works on the carriageway, a lane is enabled to circulate in contrary sense to the usual one. You drive a truck and no sign prohibits it. Can you use that lane?",
+                  "options": [
+                    "No: only motorcycles and passenger cars can use it.",
+                    "Yes, with the dipped light and between 60 and 80 km/h.",
+                    "Yes, and without a minimum speed limit."
+                  ]
+                },
+                "en": {
+                  "q": "Because of roadworks on the roadway, a lane is opened for driving in the opposite direction to normal. You drive a truck and no sign forbids it. May you use that lane?",
+                  "options": [
+                    "No: only motorcycles and cars may use it",
+                    "Yes, with low beams and between 60 and 80 km/h",
+                    "Yes, and with no minimum speed"
+                  ],
+                  "why": "When the lane is opened for roadworks, all vehicles allowed on that road may use it, unless expressly forbidden. You drive with at least the low beams on, between 60 and 80 km/h, or lower if signs say so."
+                },
+                "terms": [
+                  {
+                    "es": "obras",
+                    "en": "roadworks"
+                  },
+                  {
+                    "es": "camión",
+                    "en": "truck"
+                  }
+                ],
+                "src": "RGC art. 41.1"
+              }
+            }
+          ]
         }
       ],
       "recap": [
@@ -3009,8 +3096,12 @@
           "en": "Red cross: leave the lane. Green arrow: you may use it. Slanted white or yellow arrow: move into the lane it points to."
         },
         {
-          "es": "En un carril usado en **sentido contrario** al habitual: solo motocicletas y turismos, luz de cruce y entre 60 y 80 km/h.",
-          "en": "In a lane used in the **opposite direction**: only motorcycles and cars, low beams and between 60 and 80 km/h."
+          "es": "En un carril usado en **sentido contrario** al habitual: luz de cruce y entre 60 y 80 km/h. Si se habilita por fluidez, solo motocicletas y turismos.",
+          "en": "In a lane used in the **opposite direction**: low beams and between 60 and 80 km/h. If it is opened to keep traffic flowing, only motorcycles and cars."
+        },
+        {
+          "es": "Si se habilita por **obras**, puede usarlo **cualquier vehículo** autorizado en la vía, salvo prohibición expresa.",
+          "en": "If it is opened for **roadworks**, **any vehicle** allowed on the road may use it, unless expressly forbidden."
         }
       ],
       "src": [
