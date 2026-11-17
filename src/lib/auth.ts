@@ -145,7 +145,12 @@ export async function signInWithGoogle(): Promise<Result> {
   if (!googleEnabled) {
     return { ok: false, error: bi('El acceso con Google aún no está configurado.', 'Google sign-in is not set up yet.') };
   }
-  const { error } = await requireClient().auth.signInWithOAuth({ provider: 'google', options: { redirectTo: origin() } });
+  const { error } = await requireClient().auth.signInWithOAuth({
+    provider: 'google',
+    // Always show Google's account chooser: signing out of the app leaves the browser signed in
+    // to Google, which would otherwise hand back the default account with no way to pick another.
+    options: { redirectTo: origin(), queryParams: { prompt: 'select_account' } },
+  });
   return error ? fail(error) : { ok: true };
 }
 
