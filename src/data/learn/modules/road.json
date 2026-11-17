@@ -2442,7 +2442,7 @@
         "es": "Carriles especiales",
         "en": "Special lanes"
       },
-      "minutes": 8,
+      "minutes": 9,
       "goals": [
         {
           "es": "Saber que en los carriles reservados mandan las señales, y que no se puede parar en el del transporte público.",
@@ -2455,6 +2455,10 @@
         {
           "es": "Conocer las reglas de un carril usado en sentido contrario al habitual, y qué cambia cuando se habilita por obras.",
           "en": "Know the rules for a lane used in the opposite direction to normal, and what changes when it is opened for roadworks."
+        },
+        {
+          "es": "Reconocer un carril adicional circunstancial y circular por él con la luz de cruce y entre 60 y 80 km/h.",
+          "en": "Recognize an occasional extra lane and drive in it with low beams and between 60 and 80 km/h."
         }
       ],
       "terms": [
@@ -2475,16 +2479,16 @@
           "en": "lane signal"
         },
         {
-          "es": "luz de cruce",
-          "en": "low beam"
-        },
-        {
           "es": "sentido contrario al habitual",
           "en": "opposite to the usual direction"
         },
         {
           "es": "obras",
           "en": "roadworks"
+        },
+        {
+          "es": "carril adicional circunstancial",
+          "en": "occasional extra lane"
         },
         {
           "es": "parada",
@@ -3076,6 +3080,82 @@
               }
             }
           ]
+        },
+        {
+          "title": {
+            "es": "El carril adicional circunstancial",
+            "en": "The occasional extra lane"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "En una calzada de **doble sentido con arcenes**, si la anchura lo permite, la autoridad de tráfico puede habilitar un **carril adicional** en uno de los sentidos. Lo hace con señales y balizas provisionales que desplazan la zona por la que circulan los vehículos.",
+                "en": "On a **two-way roadway with shoulders**, if it is wide enough, the traffic authority may open an **extra lane** in one direction. It does this with temporary signs and beacons that shift the area vehicles drive on."
+              },
+              "src": "RGC art. 42.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Se usan **los dos arcenes**: quedan dos carriles en un sentido y uno en el otro. Siempre estará señalizado.",
+                "en": "**Both shoulders** are used: there are two lanes in one direction and one in the other. It will always be signed."
+              },
+              "src": "RGC art. 42.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Quien circule por los arcenes y por ese carril adicional va a un máximo de **80 km/h** y un mínimo de **60 km/h**, o menos si así se indica, y lleva **al menos la luz de cruce**, de día y de noche.",
+                "en": "Anyone driving on the shoulders and in that extra lane goes at a maximum of **80 km/h** and a minimum of **60 km/h**, or lower if signs say so, and has **at least the low beams** on, day and night."
+              },
+              "src": "RGC art. 42.1"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-s4h",
+                "answer": 0,
+                "es": {
+                  "q": "En una carretera de doble sentido, con balizas provisionales, se han usado los dos arcenes para tener dos carriles en tu sentido y uno en el otro. Sin otra señal, ¿cómo circulas?",
+                  "options": [
+                    "Con la luz de cruce y entre 60 y 80 km/h",
+                    "Con la luz de cruce solo si es de noche",
+                    "A la velocidad genérica de la carretera"
+                  ],
+                  "why": "Por un carril adicional circunstancial y por los arcenes se circula entre 60 y 80 km/h, o menos si así se indica, y con al menos la luz de cruce, de día y de noche."
+                },
+                "exam": {
+                  "q": "On a road of double direction, with provisional beacons, the two hard shoulders have been used to have two lanes in your direction and one in the other. Without another sign, how do you circulate?",
+                  "options": [
+                    "With the dipped light and between 60 and 80 km/h.",
+                    "With the dipped light only if it is at night.",
+                    "At the generic speed of the road."
+                  ]
+                },
+                "en": {
+                  "q": "On a two-way road, temporary beacons use both shoulders to give two lanes in your direction and one in the other. With no other sign, how do you drive?",
+                  "options": [
+                    "With low beams and between 60 and 80 km/h",
+                    "With low beams only at night",
+                    "At the road's general speed limit"
+                  ],
+                  "why": "In an occasional extra lane and on the shoulders you drive between 60 and 80 km/h, or lower if signs say so, with at least the low beams on, day and night."
+                },
+                "terms": [
+                  {
+                    "es": "arcén",
+                    "en": "shoulder"
+                  },
+                  {
+                    "es": "carril adicional circunstancial",
+                    "en": "occasional extra lane"
+                  }
+                ],
+                "src": "RGC art. 42.1"
+              }
+            }
+          ]
         }
       ],
       "recap": [
@@ -3096,16 +3176,16 @@
           "en": "Red cross: leave the lane. Green arrow: you may use it. Slanted white or yellow arrow: move into the lane it points to."
         },
         {
-          "es": "En un carril usado en **sentido contrario** al habitual: luz de cruce y entre 60 y 80 km/h. Si se habilita por fluidez, solo motocicletas y turismos.",
-          "en": "In a lane used in the **opposite direction**: low beams and between 60 and 80 km/h. If it is opened to keep traffic flowing, only motorcycles and cars."
+          "es": "En un carril usado en **sentido contrario**: luz de cruce y entre 60 y 80 km/h. Por fluidez, solo motocicletas y turismos; por **obras**, cualquier vehículo autorizado en la vía, salvo prohibición expresa.",
+          "en": "In a lane used in the **opposite direction**: low beams and between 60 and 80 km/h. For traffic flow, only motorcycles and cars; for **roadworks**, any vehicle allowed on the road, unless expressly forbidden."
         },
         {
-          "es": "Si se habilita por **obras**, puede usarlo **cualquier vehículo** autorizado en la vía, salvo prohibición expresa.",
-          "en": "If it is opened for **roadworks**, **any vehicle** allowed on the road may use it, unless expressly forbidden."
+          "es": "**Carril adicional circunstancial**: se usan los dos arcenes para tener dos carriles en un sentido. Luz de cruce y entre 60 y 80 km/h.",
+          "en": "**Occasional extra lane**: both shoulders are used to give two lanes in one direction. Low beams and between 60 and 80 km/h."
         }
       ],
       "src": [
-        "Reglamento General de Circulación (RD 1428/2003), arts. 35, 40.1, 41.1 y 94.1, y anexo I, apartado 4.3 (semáforos de carril) (redacción vigente desde 2026-10-01 en el art. 35)",
+        "Reglamento General de Circulación (RD 1428/2003), arts. 35, 40.1, 41.1, 42.1 y 94.1, y anexo I, apartado 4.3 (semáforos de carril) (redacción vigente desde 2026-10-01 en el art. 35)",
         "Ley de Tráfico y Seguridad Vial (RDL 6/2015), anexo I, punto 81"
       ]
     },
