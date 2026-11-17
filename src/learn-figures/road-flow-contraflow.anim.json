@@ -1,0 +1,70 @@
+{
+  "seconds": 8,
+  "poster": 4.4,
+  "reveals": [],
+  "actors": [
+    {
+      "id": "me",
+      "kind": "car",
+      "tone": "me",
+      "path": "M-30 135 L130 135 C170 135 170 105 210 105 L400 105",
+      "from": 0.4,
+      "to": 6.4,
+      "ease": "linear",
+      "badge": {
+        "mark": "2",
+        "dx": -32,
+        "dy": 0
+      }
+    },
+    {
+      "id": "moto",
+      "kind": "moto",
+      "tone": "neutral",
+      "path": "M-30 135 L130 135 C170 135 170 105 210 105 L400 105",
+      "from": 1.6,
+      "to": 7.6,
+      "ease": "linear",
+      "show": [
+        1.6,
+        8
+      ]
+    },
+    {
+      "id": "truck",
+      "kind": "truck",
+      "tone": "other",
+      "path": "M-50 165 L420 165",
+      "from": 0.0,
+      "to": 8.0,
+      "ease": "linear",
+      "badge": {
+        "mark": "3",
+        "dx": 0,
+        "dy": 27
+      }
+    },
+    {
+      "id": "w1",
+      "kind": "car",
+      "tone": "neutral",
+      "path": "M400 75 L-40 75",
+      "from": 0.6,
+      "to": 5.4,
+      "ease": "linear"
+    },
+    {
+      "id": "w2",
+      "kind": "car",
+      "tone": "neutral",
+      "path": "M400 75 L-40 75",
+      "from": 3.2,
+      "to": 8.0,
+      "ease": "linear",
+      "show": [
+        3.2,
+        8
+      ]
+    }
+  ]
+}

@@ -2872,8 +2872,8 @@
             {
               "t": "rule",
               "text": {
-                "es": "Si una calzada tiene **más de un carril por sentido**, la autoridad de tráfico puede habilitar, para dar fluidez, carriles que se usan en sentido contrario al habitual. Estarán señalizados.",
-                "en": "If a roadway has **more than one lane per direction**, the traffic authority may open lanes to be used in the opposite direction to normal, to keep traffic flowing. They will be signed."
+                "es": "Si una calzada tiene **más de un carril por sentido**, la autoridad de tráfico puede habilitar, para dar fluidez, carriles que se usan en sentido contrario al habitual. Estarán señalizados. Tu sentido conserva sus carriles normales: el carril habilitado se toma del sentido contrario.",
+                "en": "If a roadway has **more than one lane per direction**, the traffic authority may open lanes to be used in the opposite direction to normal, to keep traffic flowing. They will be signed. Your direction keeps its normal lanes: the opened lane is taken from the opposite direction."
               },
               "src": "RGC art. 41.1"
             },
@@ -2907,6 +2907,41 @@
                 "es": "60 km/h son unas 37 mph y 80 km/h unas 50 mph.",
                 "en": "60 km/h is about 37 mph and 80 km/h about 50 mph."
               }
+            },
+            {
+              "t": "figure",
+              "file": "road-flow-contraflow",
+              "alt": {
+                "es": "Vista desde arriba de una calzada con dos carriles por sentido. Una fila de balizas cede a tu sentido uno de los carriles del sentido contrario. Un coche azul y una moto pasan a ese carril. Un camión naranja sigue por el carril derecho de su sentido. Coches grises vienen de frente por el carril que les queda.",
+                "en": "Top-down view of a roadway with two lanes per direction. A row of beacons gives your direction one of the lanes of the opposite direction. A blue car and a motorcycle move into that lane. An orange truck stays in the right-hand lane of its direction. Gray cars come the other way in the lane they have left."
+              },
+              "caption": {
+                "es": "Por fluidez, solo motocicletas y turismos usan el carril habilitado. El camión sigue por los carriles normales de su sentido, que siguen abiertos.",
+                "en": "For traffic flow, only motorcycles and cars use the opened lane. The truck stays in its direction's normal lanes, which remain open."
+              },
+              "legend": [
+                {
+                  "mark": "1",
+                  "text": {
+                    "es": "Carril habilitado en sentido contrario al habitual, separado con balizas.",
+                    "en": "Lane opened in the opposite direction to normal, separated by beacons."
+                  }
+                },
+                {
+                  "mark": "2",
+                  "text": {
+                    "es": "Tú, en turismo: puedes usarlo. La moto también.",
+                    "en": "You, in a car: you may use it. So may the motorcycle."
+                  }
+                },
+                {
+                  "mark": "3",
+                  "text": {
+                    "es": "Camión: no puede usarlo y sigue por su carril normal.",
+                    "en": "Truck: it may not use it and stays in its normal lane."
+                  }
+                }
+              ]
             },
             {
               "t": "check",
