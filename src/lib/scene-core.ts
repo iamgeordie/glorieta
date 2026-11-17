@@ -84,5 +84,19 @@ export const headingDeg = (dx: number, dy: number): number => {
   return deg < 0 ? deg + 360 : deg;
 };
 
+/** Where the front edge of each motor vehicle is in its own drawing (front up, y negative). Bikes and walkers carry no beam. */
+export const BEAM_FRONT: Partial<Record<Kind, number>> = { car: -20, truck: -36, moto: -16 };
+export const BEAM_FADE_SECONDS = 0.25;
+
+/**
+ * Opacity of a vehicle's headlight beam: lit only while it moves along its path, easing in after it
+ * sets off and out before it stops. A parked or waiting vehicle shows none.
+ */
+export function beamOpacity(t: number, from?: number, to?: number): number {
+  if (from === undefined || to === undefined || to <= from || t <= from || t >= to) return 0;
+  const fade = Math.min(BEAM_FADE_SECONDS, (to - from) / 2);
+  return Math.min(1, (t - from) / fade, (to - t) / fade);
+}
+
 /** The shortest signed turn from a to b, so a vehicle never spins the long way round. */
 export const shortestTurn = (a: number, b: number): number => ((((b - a) % 360) + 540) % 360) - 180;

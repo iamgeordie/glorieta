@@ -4,11 +4,25 @@
       <path d="M0 0 L10 5 L0 10 z" />
     </marker>
     <!-- Top-down vehicles: front pointing up, centered on 0,0. Color comes from CSS (.f-me, .f-other, ...). -->
+    <!-- The front reads from the windscreen set forward, headlights on the front corners, tail lights at the back and mirrors. -->
     <g id="v-car">
-      <rect x="-10" y="-20" width="20" height="40" rx="6" fill="currentColor" />
-      <path d="M-7.5 -10 L7.5 -10 L6.5 -3 L-6.5 -3 Z" class="f-glass" />
-      <path d="M-6.5 8 L6.5 8 L7.5 14 L-7.5 14 Z" class="f-glass" />
+      <rect x="-12.6" y="-8.5" width="3.4" height="3" rx="1" fill="currentColor" />
+      <rect x="9.2" y="-8.5" width="3.4" height="3" rx="1" fill="currentColor" />
+      <path d="M-7 -20.5 Q0 -22 7 -20.5 Q10 -19.6 10 -15 L10 15 Q10 20 6 20.5 L-6 20.5 Q-10 20 -10 15 L-10 -15 Q-10 -19.6 -7 -20.5 Z" fill="currentColor" />
+      <path d="M-8.2 -9.5 Q0 -12 8.2 -9.5 L6.8 -2.5 Q0 -3.6 -6.8 -2.5 Z" class="f-screen" />
+      <path d="M-6.6 -9.6 Q0 -11.2 3 -10.9" class="f-glint" />
+      <path d="M-6.6 11 Q0 10 6.6 11 L7.4 15.4 Q0 14.6 -7.4 15.4 Z" class="f-screen f-rear" />
+      <rect x="-8.8" y="-20.2" width="5.2" height="2.6" rx="1.2" class="f-headlight" />
+      <rect x="3.6" y="-20.2" width="5.2" height="2.6" rx="1.2" class="f-headlight" />
+      <rect x="-8.6" y="18.2" width="4.6" height="2" rx="1" class="f-taillight" />
+      <rect x="4" y="18.2" width="4.6" height="2" rx="1" class="f-taillight" />
     </g>
+    <!-- Headlight beam, drawn ahead of a moving vehicle's front edge (y = 0 here). -->
+    <linearGradient id="f-beam-fade" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#ffe9a3" stop-opacity="0.45" />
+      <stop offset="1" stop-color="#ffe9a3" stop-opacity="0" />
+    </linearGradient>
+    <path id="v-beam" d="M-8 0 L-13 -20 L13 -20 L8 0 Z" fill="url(#f-beam-fade)" />
     <g id="v-truck">
       <rect x="-11" y="-36" width="22" height="72" rx="3" fill="currentColor" />
       <path d="M-8 -32 L8 -32 L8 -22 L-8 -22 Z" class="f-glass" />

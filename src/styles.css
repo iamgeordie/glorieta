@@ -404,6 +404,11 @@ th { color: var(--muted); font-size: 0.78rem; text-transform: uppercase; letter-
 .f-ok { color: var(--fig-ok); }
 .f-neutral { color: var(--fig-neutral); }
 .f-glass { fill: #fff; opacity: 0.75; }
+.f-screen { fill: #16202b; }
+.f-rear { opacity: 0.85; }
+.f-glint { stroke: #fff; stroke-width: 0.9; opacity: 0.45; fill: none; }
+.f-headlight { fill: #fff6c8; }
+.f-taillight { fill: #ff4d4d; }
 .f-path { stroke: var(--fig-path); stroke-width: 4; fill: none; stroke-linecap: round; stroke-linejoin: round; marker-end: url(#f-arrow); }
 .f-path-plain { stroke: var(--fig-path); stroke-width: 4; fill: none; stroke-linecap: round; stroke-linejoin: round; }
 .f-zone { fill: var(--fig-danger); opacity: 0.28; }

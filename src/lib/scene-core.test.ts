@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { test } from 'node:test';
-import { drawProgress, headingDeg, isVisible, progressAt, revealOpacity, shortestTurn } from './scene-core.ts';
+import { beamOpacity, drawProgress, headingDeg, isVisible, progressAt, revealOpacity, shortestTurn } from './scene-core.ts';
 
 test('progress runs 0 to 1 over the move and holds at both ends', () => {
   assert.equal(progressAt(0, 1, 3, 'linear'), 0);
@@ -56,4 +56,26 @@ test('the shortest turn goes the near way round', () => {
   assert.equal(shortestTurn(10, 350), -20);
   assert.equal(shortestTurn(0, 180), -180);
   assert.equal(shortestTurn(90, 90), 0);
+});
+
+test('the headlight beam is lit only while the vehicle moves', () => {
+  assert.equal(beamOpacity(0.5, 1, 3), 0);
+  assert.equal(beamOpacity(1, 1, 3), 0);
+  assert.equal(beamOpacity(2, 1, 3), 1);
+  assert.equal(beamOpacity(3, 1, 3), 0);
+  assert.equal(beamOpacity(9, 1, 3), 0);
+});
+
+test('the beam eases in after setting off and out before stopping', () => {
+  assert.ok(Math.abs(beamOpacity(1.125, 1, 3) - 0.5) < 1e-9);
+  assert.ok(Math.abs(beamOpacity(2.875, 1, 3) - 0.5) < 1e-9);
+});
+
+test('a parked vehicle or a zero-length move shows no beam', () => {
+  assert.equal(beamOpacity(2), 0);
+  assert.equal(beamOpacity(1, 1, 1), 0);
+});
+
+test('a very short move still peaks at its middle', () => {
+  assert.ok(Math.abs(beamOpacity(1.1, 1, 1.2) - 1) < 1e-9);
 });

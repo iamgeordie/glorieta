@@ -3,7 +3,7 @@ import { Player, type PlayerRef } from '@remotion/player';
 import { T } from '../i18n';
 import { L } from '../learnStrings';
 import { AbsoluteFill, useCurrentFrame, useVideoConfig } from 'remotion';
-import { drawProgress, FPS, headingDeg, isVisible, progressAt, revealOpacity, type Actor, type Scene } from '../lib/scene-core';
+import { BEAM_FRONT, beamOpacity, drawProgress, FPS, headingDeg, isVisible, progressAt, revealOpacity, type Actor, type Scene } from '../lib/scene-core';
 
 const SVG_NS = 'http://www.w3.org/2000/svg';
 
@@ -72,9 +72,13 @@ function SceneComposition({ svg, scene, viewBox }: { svg: string; scene: Scene; 
         {scene.actors.map((a) => {
           if (!isVisible(t, a.show)) return null;
           const { x, y, rot } = poseOf(a, t, measured);
+          const pose = `translate(${x.toFixed(1)} ${y.toFixed(1)}) rotate(${rot.toFixed(1)})`;
+          const front = BEAM_FRONT[a.kind];
+          const beam = a.path && front !== undefined ? beamOpacity(t, a.from ?? 0, a.to ?? 0) : 0;
           return (
             <g key={a.id}>
-              <use href={`#v-${a.kind}`} class={`f-${a.tone}`} transform={`translate(${x.toFixed(1)} ${y.toFixed(1)}) rotate(${rot.toFixed(1)})`} />
+              {beam > 0 && <use href="#v-beam" opacity={beam.toFixed(2)} transform={`${pose} translate(0 ${front})`} />}
+              <use href={`#v-${a.kind}`} class={`f-${a.tone}`} transform={pose} />
               {a.badge && (
                 <g transform={`translate(${(x + a.badge.dx).toFixed(1)} ${(y + a.badge.dy).toFixed(1)})`}>
                   <circle class="f-badge" r="11" />
