@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360" focusable="false">
+  <rect class="f-island" x="0" y="0" width="360" height="360"/>
+  <g transform="translate(0 0)">
+    <rect class="f-grass" x="0" y="0" width="176" height="176" rx="6"/>
+    <rect class="f-road" x="58" y="0" width="60" height="176"/>
+    <rect class="f-road" x="0" y="20" width="176" height="60"/>
+    <path class="f-line f-dash" d="M0 50 H52 M124 50 H176 M88 86 V176 M88 0 V14"/>
+    <path id="route1" class="f-path" d="M108 100 L108 95 Q108 65 138 65 L152 65"/>
+    <g transform="translate(28 150)"><circle class="f-badge" r="11"/><text class="f-badge-text">1</text></g>
+  </g>
+  <g transform="translate(184 0)">
+    <rect class="f-grass" x="0" y="0" width="176" height="176" rx="6"/>
+    <rect class="f-road" x="58" y="0" width="60" height="176"/>
+    <rect class="f-road" x="0" y="20" width="176" height="60"/>
+    <path class="f-line f-dash" d="M0 50 H52 M124 50 H176 M88 86 V176 M88 0 V14"/>
+    <path class="f-white" d="M73 122 l6 8 h-3.5 v7 h-5 v-7 h-3.5 z"/>
+    <path class="f-white" d="M103 122 l6 8 h-3.5 v7 h-5 v-7 h-3.5 z"/>
+    <path id="route2" class="f-path" d="M68 100 L68 75 Q68 35 28 35 L24 35"/>
+    <g transform="translate(148 150)"><circle class="f-badge" r="11"/><text class="f-badge-text">2</text></g>
+  </g>
+  <g transform="translate(0 184)">
+    <rect class="f-grass" x="0" y="0" width="176" height="176" rx="6"/>
+    <rect class="f-road" x="58" y="0" width="60" height="176"/>
+    <rect class="f-road" x="0" y="20" width="176" height="60"/>
+    <path class="f-line f-dash" d="M0 50 H52 M124 50 H176 M88 86 V176 M88 0 V14"/>
+    <circle class="f-white" cx="88" cy="50" r="3.5"/>
+    <path id="route3" class="f-path" d="M97 100 L97 52 Q97 30 75 30 L24 30"/>
+    <g transform="translate(28 150)"><circle class="f-badge" r="11"/><text class="f-badge-text">3</text></g>
+  </g>
+  <g transform="translate(184 184)">
+    <rect class="f-grass" x="0" y="0" width="176" height="176" rx="6"/>
+    <rect class="f-road" x="46" y="0" width="84" height="176"/>
+    <rect class="f-road" x="0" y="20" width="176" height="60"/>
+    <path class="f-line f-dash" d="M0 50 H40 M136 50 H176 M74 86 V176 M74 0 V14 M102 86 V176 M102 0 V14"/>
+    <path id="route4" class="f-path" d="M88 100 L88 58 Q88 35 65 35 L24 35"/>
+    <g transform="translate(22 150)"><circle class="f-badge" r="11"/><text class="f-badge-text">4</text></g>
+  </g>
+</svg>

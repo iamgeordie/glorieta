@@ -58,6 +58,8 @@ function SceneComposition({ svg, scene, viewBox }: { svg: string; scene: Scene; 
         const p = drawProgress(t, r.from, r.to);
         el.style.strokeDasharray = `${len}`;
         el.style.strokeDashoffset = `${len * (1 - p)}`;
+        // The arrowhead sits at the path's end, so it waits until the stroke has reached it.
+        el.style.markerEnd = p < 1 ? 'none' : '';
         el.style.opacity = t < r.from ? '0' : `${ceiling}`;
       } else {
         el.style.opacity = `${revealOpacity(t, r.from, r.to) * ceiling}`;
