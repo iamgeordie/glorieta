@@ -19,6 +19,12 @@ export default defineConfig(({ mode }) => {
   return {
     plugins: [preact(), learnData()],
     // The billing API runs in the Worker. In development, `wrangler dev` serves it on 8787.
-    server: { proxy: { '/api': 'http://localhost:8787' } },
+    server: {
+      proxy: { '/api': 'http://localhost:8787' },
+      // _landru holds symlinks into the whole Landru archive; never watch or crawl it.
+      watch: { ignored: ['**/_landru/**'] },
+    },
+    // Without this the dependency scan crawls every .html under the root, _landru included.
+    optimizeDeps: { entries: ['index.html'] },
   };
 });
