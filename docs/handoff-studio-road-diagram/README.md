@@ -86,6 +86,29 @@ right, the car from the right gets a check and crosses, your cross clears, you g
 moves. It uses Studio's `road` theme tokens. To view it, copy it to a scratch folder as `index.html`, put
 Glorieta's `public/signs/p-2.svg` at `assets/p-2.svg`, and run `npx hyperframes render --fps 25`.
 
+## Pilot episode draft
+
+`right-of-way-at-junctions.json` beside this file is the drafted master script for the pilot episode
+(`right-of-way-at-junctions`, 26 scenes), written against Studio's live `episode_create_system` rules on 2026-11-17:
+bookends with Jordi on a town square, then 13 `road-diagram` scenes (one per Glorieta figure), 3 `sign` scenes
+(R-1, R-2, R-3 with R-4), and `cards`, `timeline` and `readout` scenes for rules that are lists or numbers. Every
+fact comes from Glorieta's `priority.json` lessons. A1 and A2 sentence lengths and key-word repetition were checked
+by script.
+
+What it assumes, which the design should settle:
+
+- **`road-diagram` parameters** are written minimally as `figure` (a Glorieta figure name), `heading`, and `start`
+  (the 1-based master sentence, per level, on which the choreography begins). Replace `start` with whatever beat
+  and cue shape the design settles on.
+- **`sign` parameters** are written as `signs` (codes) plus a `cue` phrase per locale.
+- **Four new icons** are used: `traffic-light`, `tram`, `bike`, `road-marking`. Add them to the icon set, or switch
+  those scenes to signs or diagrams.
+- Only masters are written. Per-locale scripts come from the translation stage, as usual. On-screen labels are
+  authored for es-ES and en-GB.
+
+Create the episode only once both templates exist and validate, with `create_episode` and then `update_scene`, and
+add it to the `guiri-al-volante` series. Do not run the pipeline.
+
 ## Pilot and acceptance
 
 The pilot is the right-of-way module: Glorieta's 10 `src/learn-figures/priority-*.anim.json` (agent, dont-block,

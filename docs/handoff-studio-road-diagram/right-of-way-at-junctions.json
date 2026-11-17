@@ -1,0 +1,848 @@
+{
+  "name": "Right of Way at Junctions",
+  "slug": "right-of-way-at-junctions",
+  "description": "Who goes first in Spain: signals and their order, priority to the right, paved roads, trams, roundabouts and motorways, yield and stop signs, priority roads, narrow sections, traffic lights, officers, ambulances, pedestrians and cyclists. Every rule about position is an animated road diagram.",
+  "status": "draft",
+  "characters": [],
+  "thumbnail_prompt": "A quiet crossroads in a small Spanish town seen from above at a gentle angle, whitewashed houses on the four corners, orange trees along the pavements, one white car waiting at the edge of the crossroads and one dark green car crossing from the right, bright morning sun, no people, no signs.",
+  "scenes": [
+    {
+      "scene_name": "Introduction",
+      "slug": "introduction",
+      "scene_description": "Opening bookend with the topic on screen.",
+      "scripts": {
+        "A1_master": "Relax. Watch and listen. Do not speak. Do not translate. Let it flow. Today, right of way.",
+        "A2_master": "Relax. Watch and listen. Do not speak. Do not translate. Let it flow. Today, right of way."
+      },
+      "graphic": {
+        "template": "bookend",
+        "title": {
+          "es-ES": "Prioridad de paso",
+          "en-GB": "Right of way"
+        }
+      },
+      "characters": [
+        "jordi"
+      ],
+      "image_prompt": "Jordi sits on a wooden bench on a quiet square in a small Spanish town, with whitewashed houses, orange trees in round stone planters, and a narrow cobbled street crossing the far side of the square. He holds a tablet on his lap and looks down at it, the tablet angled toward him and away from the camera so its screen is not visible. His hands rest loosely at the tablet's edges, and his face has a calm, attentive expression. He is the only person in the frame. Camera at eye level, medium shot with Jordi seated in the lower right of the frame and the square fully visible across the left and upper parts of the frame. Soft morning light from the left."
+    },
+    {
+      "scene_name": "Look for a Signal First",
+      "slug": "look-for-a-signal",
+      "scene_description": "Before a junction, a signal decides who goes first; with no signal, a general rule decides.",
+      "scripts": {
+        "A1_master": "This is a junction. Two roads cross here. Look for a signal first. The signal decides. No signal? A rule decides.",
+        "A2_master": "This is a junction, where two roads cross at the same level. Before the junction, a driver looks for a signal. The signal can be an officer, a traffic light or a sign. When a junction has a signal, the signal decides who goes first. When a junction has no signal, a general rule decides."
+      },
+      "graphic": {
+        "template": "cards",
+        "theme": "road",
+        "heading": {
+          "es-ES": "Primero, busca una señal",
+          "en-GB": "First, look for a signal"
+        },
+        "accumulate": true,
+        "items": [
+          {
+            "icon": "person",
+            "label": {
+              "es-ES": "Agente",
+              "en-GB": "Officer"
+            },
+            "cue": {
+              "es-ES": "agente",
+              "en-GB": "officer"
+            }
+          },
+          {
+            "icon": "traffic-light",
+            "label": {
+              "es-ES": "Semáforo",
+              "en-GB": "Traffic light"
+            },
+            "cue": {
+              "es-ES": "semáforo",
+              "en-GB": "traffic light"
+            }
+          },
+          {
+            "icon": "warning",
+            "label": {
+              "es-ES": "Señal",
+              "en-GB": "Sign"
+            },
+            "cue": {
+              "es-ES": "señal",
+              "en-GB": "sign"
+            }
+          }
+        ]
+      },
+      "characters": []
+    },
+    {
+      "scene_name": "The Order of Signals",
+      "slug": "the-order-of-signals",
+      "scene_description": "Officers come first, then temporary signs, traffic lights, fixed signs and road markings.",
+      "scripts": {
+        "A1_master": "This is the order of signals. The officer's signals come first. Then temporary signs. Then traffic lights. Then fixed signs. Then road markings.",
+        "A2_master": "This is the order of signals in Spain, from strongest to weakest. An officer's signals come first and rule over everything else. Temporary signs at roadworks come second. Traffic lights come third, and fixed signs come fourth. Road markings painted on the road come last. When two signals disagree, the higher signal wins."
+      },
+      "graphic": {
+        "template": "timeline",
+        "theme": "road",
+        "heading": {
+          "es-ES": "El orden de las señales",
+          "en-GB": "The order of signals"
+        },
+        "steps": [
+          {
+            "icon": "person",
+            "label": {
+              "es-ES": "Agentes",
+              "en-GB": "Officers"
+            },
+            "cue": {
+              "es-ES": "agente",
+              "en-GB": "officer"
+            }
+          },
+          {
+            "icon": "warning",
+            "label": {
+              "es-ES": "Señales de obras",
+              "en-GB": "Roadworks signs"
+            },
+            "cue": {
+              "es-ES": "obras",
+              "en-GB": "temporary"
+            }
+          },
+          {
+            "icon": "traffic-light",
+            "label": {
+              "es-ES": "Semáforos",
+              "en-GB": "Traffic lights"
+            },
+            "cue": {
+              "es-ES": "semáforos",
+              "en-GB": "traffic lights"
+            }
+          },
+          {
+            "icon": "ban",
+            "label": {
+              "es-ES": "Señales verticales",
+              "en-GB": "Fixed signs"
+            },
+            "cue": {
+              "es-ES": "verticales",
+              "en-GB": "fixed signs"
+            }
+          },
+          {
+            "icon": "road-marking",
+            "label": {
+              "es-ES": "Marcas viales",
+              "en-GB": "Road markings"
+            },
+            "cue": {
+              "es-ES": "marcas",
+              "en-GB": "road markings"
+            }
+          }
+        ]
+      },
+      "characters": []
+    },
+    {
+      "scene_name": "Priority to the Right",
+      "slug": "priority-to-the-right",
+      "scene_description": "At a junction with no signs, each driver yields to the car on the right.",
+      "scripts": {
+        "A1_master": "This is a junction without signs. A car comes from the right. The right-hand car goes first. You wait for it. Then you go.",
+        "A2_master": "This is a junction without signs, so the rule of the right decides. Three cars arrive at the junction at the same time. Each driver yields to the car on the right. The car from the right always goes first. So the first car goes, then the second, then the third. Every driver looks to the right before the junction."
+      },
+      "graphic": {
+        "template": "road-diagram",
+        "theme": "road",
+        "figure": "priority-unsigned-junction",
+        "heading": {
+          "es-ES": "Prioridad a la derecha",
+          "en-GB": "Priority to the right"
+        },
+        "start": {
+          "A1": 2,
+          "A2": 2
+        }
+      },
+      "characters": []
+    },
+    {
+      "scene_name": "The Side, Not the Size",
+      "slug": "the-side-not-the-size",
+      "scene_description": "Only the side counts: not the size of the car, the width of the street, or who arrives first.",
+      "scripts": {
+        "A1_master": "The side decides. A big truck waits too. A wide street waits too. Arriving first does not count. Only the right side counts.",
+        "A2_master": "This is the rule of the side, and only the side counts. A big truck on the left waits for a car on the right. A wide street does not beat a narrow street. Arriving first does not decide either. The side decides, so the car on the right goes first. The right side always wins over the left side."
+      },
+      "graphic": {
+        "template": "cards",
+        "theme": "road",
+        "heading": {
+          "es-ES": "Cuenta el lado",
+          "en-GB": "The side counts"
+        },
+        "accumulate": true,
+        "items": [
+          {
+            "icon": "route",
+            "mark": "yes",
+            "label": {
+              "es-ES": "El lado",
+              "en-GB": "The side"
+            },
+            "cue": {
+              "es-ES": "lado",
+              "en-GB": "side"
+            }
+          },
+          {
+            "icon": "truck",
+            "mark": "no",
+            "label": {
+              "es-ES": "El tamaño del coche",
+              "en-GB": "The size of the car"
+            },
+            "cue": {
+              "es-ES": "camión",
+              "en-GB": "truck"
+            }
+          },
+          {
+            "icon": "route",
+            "mark": "no",
+            "label": {
+              "es-ES": "El ancho de la calle",
+              "en-GB": "The width of the street"
+            },
+            "cue": {
+              "es-ES": "calle",
+              "en-GB": "street"
+            }
+          },
+          {
+            "icon": "clock",
+            "mark": "no",
+            "label": {
+              "es-ES": "Llegar primero",
+              "en-GB": "Arriving first"
+            },
+            "cue": {
+              "es-ES": "primero",
+              "en-GB": "first"
+            }
+          }
+        ]
+      },
+      "characters": []
+    },
+    {
+      "scene_name": "How to Yield",
+      "slug": "how-to-yield",
+      "scene_description": "The yielding driver slows down early and never makes the other car brake or swerve.",
+      "scripts": {
+        "A1_master": "This is yielding. Slow down early. Look to the right. Stop if needed. Yield to the other car. The other car never brakes.",
+        "A2_master": "This is how a driver yields at a junction. The driver slows down early, so the other driver sees it. Yielding means the other car never has to brake hard. The other car never has to swerve either. The driver who yields waits until it is clearly safe. Yielding early keeps the junction calm."
+      },
+      "graphic": {
+        "template": "timeline",
+        "theme": "road",
+        "heading": {
+          "es-ES": "Cómo ceder el paso",
+          "en-GB": "How to yield"
+        },
+        "steps": [
+          {
+            "icon": "gauge",
+            "label": {
+              "es-ES": "Reduce pronto",
+              "en-GB": "Slow down early"
+            },
+            "cue": {
+              "es-ES": "reduce",
+              "en-GB": "slows"
+            }
+          },
+          {
+            "icon": "eye",
+            "label": {
+              "es-ES": "Mira",
+              "en-GB": "Look"
+            },
+            "cue": {
+              "es-ES": "mira",
+              "en-GB": "look"
+            }
+          },
+          {
+            "icon": "parking",
+            "label": {
+              "es-ES": "Para si hace falta",
+              "en-GB": "Stop if needed"
+            },
+            "cue": {
+              "es-ES": "para",
+              "en-GB": "stop"
+            }
+          }
+        ]
+      },
+      "characters": []
+    },
+    {
+      "scene_name": "Fifty When You Cannot See",
+      "slug": "fifty-when-you-cannot-see",
+      "scene_description": "At a signed junction with almost no view of the road, the top speed is fifty kilometers per hour.",
+      "scripts": {
+        "A1_master": "This is fifty. The junction is hard to see. Drive at fifty or less. Fifty kilometers per hour.",
+        "A2_master": "This is fifty kilometers per hour at a junction you cannot see well. A high wall hides the road beside the junction. The signs are there, but the view is almost gone. Here a driver never goes faster than fifty kilometers per hour. Drivers slow down to fifty before the hidden junction. Fifty is the top speed, and slower is often better."
+      },
+      "graphic": {
+        "template": "readout",
+        "theme": "road",
+        "heading": {
+          "es-ES": "Sin visibilidad: 50",
+          "en-GB": "No view: 50"
+        },
+        "value": 50,
+        "decimals": 0,
+        "unit": {
+          "es-ES": "km/h",
+          "en-GB": "km/h"
+        },
+        "cue": {
+          "es-ES": "cincuenta",
+          "en-GB": "fifty"
+        }
+      },
+      "characters": []
+    },
+    {
+      "scene_name": "The Paved Road Goes First",
+      "slug": "the-paved-road-goes-first",
+      "scene_description": "A paved road has priority over a dirt track, from either side.",
+      "scripts": {
+        "A1_master": "This is a paved road. This is a dirt track. The paved road goes first. The paved road always wins.",
+        "A2_master": "This is a paved road meeting a dirt track. A car comes out of the dirt track on the right. On the dirt track, the driver waits for the paved road. The paved road goes first, from the left or from the right. Here the side does not matter, only the paved road."
+      },
+      "graphic": {
+        "template": "road-diagram",
+        "theme": "road",
+        "figure": "priority-paved-road",
+        "heading": {
+          "es-ES": "Calzada pavimentada primero",
+          "en-GB": "The paved road goes first"
+        },
+        "start": {
+          "A1": 3,
+          "A2": 2
+        }
+      },
+      "characters": []
+    },
+    {
+      "scene_name": "The Tram Goes First",
+      "slug": "the-tram-goes-first",
+      "scene_description": "Vehicles on rails, such as a tram, go first over every other road user.",
+      "scripts": {
+        "A1_master": "This is a tram. The tram runs on rails. The tram goes first. Cars wait for the tram.",
+        "A2_master": "This is a tram, a vehicle that runs on rails through the city. The tram crosses a street full of cars. Vehicles on rails go first over everyone else. The tram goes first, from the left or from the right. Every driver waits for the tram to pass."
+      },
+      "graphic": {
+        "template": "cards",
+        "theme": "road",
+        "heading": {
+          "es-ES": "El tranvía primero",
+          "en-GB": "The tram goes first"
+        },
+        "accumulate": true,
+        "items": [
+          {
+            "icon": "tram",
+            "mark": "yes",
+            "label": {
+              "es-ES": "Tranvía",
+              "en-GB": "Tram"
+            },
+            "cue": {
+              "es-ES": "tranvía",
+              "en-GB": "tram"
+            }
+          },
+          {
+            "icon": "car",
+            "mark": "no",
+            "label": {
+              "es-ES": "Coches",
+              "en-GB": "Cars"
+            },
+            "cue": {
+              "es-ES": "coches",
+              "en-GB": "cars"
+            }
+          }
+        ]
+      },
+      "characters": []
+    },
+    {
+      "scene_name": "Inside the Roundabout Goes First",
+      "slug": "inside-the-roundabout-goes-first",
+      "scene_description": "A car already on the roundabout has priority over a car that wants to enter.",
+      "scripts": {
+        "A1_master": "This is a roundabout. A car is inside. The car inside goes first. You wait to enter.",
+        "A2_master": "This is a roundabout, and two cars are near it. One car is already driving inside the roundabout. The other car wants to enter from the street. The car already inside the roundabout goes first. The entering car waits for a gap in the roundabout."
+      },
+      "graphic": {
+        "template": "road-diagram",
+        "theme": "road",
+        "figure": "roundabouts-direction-priority",
+        "heading": {
+          "es-ES": "Dentro de la glorieta, primero",
+          "en-GB": "Inside the roundabout first"
+        },
+        "start": {
+          "A1": 2,
+          "A2": 2
+        }
+      },
+      "characters": []
+    },
+    {
+      "scene_name": "Joining the Motorway",
+      "slug": "joining-the-motorway",
+      "scene_description": "Traffic already on the motorway has priority over a car joining it.",
+      "scripts": {
+        "A1_master": "This is a motorway. A car wants to enter. The motorway traffic goes first. The car waits for a gap.",
+        "A2_master": "This is a motorway entry with a long lane beside it. A car drives down the lane toward the motorway. The cars already on the motorway go first. The entering car adjusts its speed and finds a gap. It joins the motorway without making anyone brake."
+      },
+      "graphic": {
+        "template": "road-diagram",
+        "theme": "road",
+        "figure": "situations-motorway-entry",
+        "heading": {
+          "es-ES": "Entrar en la autopista",
+          "en-GB": "Joining the motorway"
+        },
+        "start": {
+          "A1": 2,
+          "A2": 2
+        }
+      },
+      "characters": []
+    },
+    {
+      "scene_name": "The Yield Sign",
+      "slug": "the-yield-sign",
+      "scene_description": "At a yield sign the driver always yields to the other road and stops only if needed.",
+      "scripts": {
+        "A1_master": "This is a yield sign. It is a triangle. Slow down and look. Stop only if needed. Then yield.",
+        "A2_master": "This is a yield sign, a white triangle with a red border pointing down. A driver at this sign always yields to the other road. The side of the other car does not matter here. The driver slows down and looks carefully. At a yield sign, the driver stops only when it is needed. Yield means let the other road go first."
+      },
+      "graphic": {
+        "template": "sign",
+        "theme": "road",
+        "signs": [
+          "R-1"
+        ],
+        "heading": {
+          "es-ES": "Ceda el paso",
+          "en-GB": "Yield"
+        },
+        "cue": {
+          "es-ES": "ceda",
+          "en-GB": "yield"
+        }
+      },
+      "characters": []
+    },
+    {
+      "scene_name": "The Stop Sign",
+      "slug": "the-stop-sign",
+      "scene_description": "At a stop sign every driver stops completely, at the line, and then yields.",
+      "scripts": {
+        "A1_master": "This is a stop sign. It has eight sides. Stop the car completely. Always stop here. Then yield.",
+        "A2_master": "This is a stop sign, red with eight sides. At this sign, every driver stops the car completely, every time. The car stops at the white stop line. With no line, the car stops just before the road. After the stop, the driver yields to the other road."
+      },
+      "graphic": {
+        "template": "sign",
+        "theme": "road",
+        "signs": [
+          "R-2"
+        ],
+        "heading": {
+          "es-ES": "Stop",
+          "en-GB": "Stop"
+        },
+        "cue": {
+          "es-ES": "stop",
+          "en-GB": "stop"
+        }
+      },
+      "characters": []
+    },
+    {
+      "scene_name": "The Stop Line",
+      "slug": "the-stop-line",
+      "scene_description": "The car stops at the line, looks both ways and pulls out only when nobody has to brake.",
+      "scripts": {
+        "A1_master": "This is the stop line. The car stops at the line. The driver looks both ways. A car passes. Now the driver goes.",
+        "A2_master": "This is the stop line in front of a stop sign. The car stops with its front at the white line. The driver looks left and right along the main road. A car on the main road passes without braking. The line marks exactly where the car stops. From the line, the driver pulls out when nobody must brake."
+      },
+      "graphic": {
+        "template": "road-diagram",
+        "theme": "road",
+        "figure": "priority-stop-line",
+        "heading": {
+          "es-ES": "La línea de detención",
+          "en-GB": "The stop line"
+        },
+        "start": {
+          "A1": 2,
+          "A2": 2
+        }
+      },
+      "characters": []
+    },
+    {
+      "scene_name": "The Priority Road",
+      "slug": "the-priority-road",
+      "scene_description": "A yellow diamond marks a priority road; its end brings back priority to the right.",
+      "scripts": {
+        "A1_master": "This is a priority road. The sign is a yellow diamond. You go first here. Other roads wait for you.",
+        "A2_master": "This is a priority road, marked with a yellow diamond with a white border. Cars on this road go first at every junction along it. Cars coming from the side roads wait for them. A crossed-out diamond warns that the priority road ends soon. After the end, the car on the right goes first again."
+      },
+      "graphic": {
+        "template": "sign",
+        "theme": "road",
+        "signs": [
+          "R-3",
+          "R-4"
+        ],
+        "heading": {
+          "es-ES": "Calzada con prioridad",
+          "en-GB": "Priority road"
+        },
+        "cue": {
+          "es-ES": "prioridad",
+          "en-GB": "priority road"
+        }
+      },
+      "characters": []
+    },
+    {
+      "scene_name": "The Narrow Section",
+      "slug": "the-narrow-section",
+      "scene_description": "On a narrow section with no signs, the car that entered first goes first.",
+      "scripts": {
+        "A1_master": "This is a narrow road. Two cars cannot pass. The first car goes first. The other car waits.",
+        "A2_master": "This is a narrow section, where two cars cannot pass each other. One car enters the narrow section first. With no signs, the car that entered first goes first. The other car waits at the wide part of the road. When in doubt, the car with more difficulty goes first."
+      },
+      "graphic": {
+        "template": "road-diagram",
+        "theme": "road",
+        "figure": "priority-narrow-pass",
+        "heading": {
+          "es-ES": "El paso estrecho",
+          "en-GB": "The narrow section"
+        },
+        "start": {
+          "A1": 3,
+          "A2": 2
+        }
+      },
+      "characters": []
+    },
+    {
+      "scene_name": "The Red Light",
+      "slug": "the-red-light",
+      "scene_description": "A red light means no car passes the line, and there is no right turn on red.",
+      "scripts": {
+        "A1_master": "This is a red light. Red means stop. Stop at the line. Do not turn right on red.",
+        "A2_master": "This is a red light at a junction in town. The car stops before the white stop line. A red light means no car may pass the line. A driver also may not turn right on red. Only a green arrow allows a turn while the light is red."
+      },
+      "graphic": {
+        "template": "road-diagram",
+        "theme": "road",
+        "figure": "priority-red-light",
+        "heading": {
+          "es-ES": "Luz roja",
+          "en-GB": "Red light"
+        },
+        "start": {
+          "A1": 3,
+          "A2": 2
+        }
+      },
+      "characters": []
+    },
+    {
+      "scene_name": "The Yellow Light",
+      "slug": "the-yellow-light",
+      "scene_description": "Steady yellow means stop like red; blinking yellow means extreme caution.",
+      "scripts": {
+        "A1_master": "This is a yellow light. Yellow means stop too. Too close? Then continue. Blinking yellow means caution.",
+        "A2_master": "This is a yellow light, and a steady yellow light means stop, like red. The only exception is a car already too close to stop safely. A blinking yellow light is different, and it means extreme caution. With a blinking yellow light, the normal priority rules still apply."
+      },
+      "graphic": {
+        "template": "cards",
+        "theme": "caution",
+        "heading": {
+          "es-ES": "Luz amarilla",
+          "en-GB": "Yellow light"
+        },
+        "accumulate": true,
+        "items": [
+          {
+            "icon": "traffic-light",
+            "label": {
+              "es-ES": "Amarilla fija: para",
+              "en-GB": "Steady yellow: stop"
+            },
+            "cue": {
+              "es-ES": "fija",
+              "en-GB": "steady"
+            }
+          },
+          {
+            "icon": "warning",
+            "label": {
+              "es-ES": "Amarilla intermitente: precaución",
+              "en-GB": "Blinking yellow: caution"
+            },
+            "cue": {
+              "es-ES": "intermitente",
+              "en-GB": "blinking"
+            }
+          }
+        ]
+      },
+      "characters": []
+    },
+    {
+      "scene_name": "Green, but Do Not Block",
+      "slug": "green-but-do-not-block",
+      "scene_description": "Even on green, a driver does not enter a junction where the car would end up stopped.",
+      "scripts": {
+        "A1_master": "This is a green light. Green means go. But the junction is full. Do not enter the junction. Wait for space.",
+        "A2_master": "This is a green light at a busy junction. The cars ahead are stopped in a long line. Green gives priority, but the junction has no space. A car that enters now will stop inside the junction. A stopped car there blocks the cross traffic, so the driver waits. The junction must be clear before the car enters."
+      },
+      "graphic": {
+        "template": "road-diagram",
+        "theme": "road",
+        "figure": "priority-dont-block",
+        "heading": {
+          "es-ES": "Verde, pero sin bloquear",
+          "en-GB": "Green, but do not block"
+        },
+        "start": {
+          "A1": 3,
+          "A2": 3
+        }
+      },
+      "characters": []
+    },
+    {
+      "scene_name": "The Traffic Officer",
+      "slug": "the-traffic-officer",
+      "scene_description": "An officer's raised arm stops every approaching car; the officer comes before lights and signs.",
+      "scripts": {
+        "A1_master": "This is a traffic officer. The officer raises an arm. Every car stops. The officer comes first.",
+        "A2_master": "This is a traffic officer standing in the middle of a junction. The officer raises one arm straight up, and every approaching car stops. With both arms held out, cars from the front and back stop. An officer's signals come before lights and signs. Drivers obey the officer's signals immediately."
+      },
+      "graphic": {
+        "template": "road-diagram",
+        "theme": "road",
+        "figure": "priority-agent",
+        "heading": {
+          "es-ES": "El agente",
+          "en-GB": "The officer"
+        },
+        "start": {
+          "A1": 2,
+          "A2": 2
+        }
+      },
+      "characters": []
+    },
+    {
+      "scene_name": "The Ambulance",
+      "slug": "the-ambulance",
+      "scene_description": "A priority vehicle in urgent service goes first; drivers move calmly to the right.",
+      "scripts": {
+        "A1_master": "This is an ambulance. Its lights flash. Its siren sounds. Move to the right. Let the ambulance pass.",
+        "A2_master": "This is an ambulance in urgent service with flashing lights and a siren. The ambulance has priority over every other vehicle. Drivers ahead move calmly to the right for the ambulance. If needed, they stop at the side of the road. Nobody brakes hard or speeds up to get away. The ambulance passes, and traffic moves on."
+      },
+      "graphic": {
+        "template": "road-diagram",
+        "theme": "road",
+        "figure": "priority-emergency",
+        "heading": {
+          "es-ES": "Vehículos prioritarios",
+          "en-GB": "Priority vehicles"
+        },
+        "start": {
+          "A1": 2,
+          "A2": 3
+        }
+      },
+      "characters": []
+    },
+    {
+      "scene_name": "The Emergency Lane",
+      "slug": "the-emergency-lane",
+      "scene_description": "In a motorway jam with two lanes each way, cars open an emergency lane in the middle.",
+      "scripts": {
+        "A1_master": "This is a traffic jam. The cars move apart. A lane opens in the middle. The ambulance uses this lane.",
+        "A2_master": "This is a traffic jam on a motorway with two lanes each way. The stopped cars move apart to open an emergency lane. With two lanes, the emergency lane opens in the middle. The cars on the left move left, and the others move right. An ambulance drives fast down the free emergency lane."
+      },
+      "graphic": {
+        "template": "road-diagram",
+        "theme": "road",
+        "figure": "road-emergency-lane",
+        "heading": {
+          "es-ES": "El carril de emergencia",
+          "en-GB": "The emergency lane"
+        },
+        "start": {
+          "A1": 2,
+          "A2": 2
+        }
+      },
+      "characters": []
+    },
+    {
+      "scene_name": "The Pedestrian Crossing",
+      "slug": "the-pedestrian-crossing",
+      "scene_description": "On a marked pedestrian crossing, the person on foot goes first.",
+      "scripts": {
+        "A1_master": "This is a pedestrian crossing. A woman is crossing. The car stops. The woman crosses first.",
+        "A2_master": "This is a pedestrian crossing with wide white stripes on the road. A woman steps onto the pedestrian crossing. The car slows down early and stops before the stripes. On a marked crossing, the person on foot goes first. The car waits until the crossing is clear."
+      },
+      "graphic": {
+        "template": "road-diagram",
+        "theme": "road",
+        "figure": "priority-zebra",
+        "heading": {
+          "es-ES": "Paso de peatones",
+          "en-GB": "Pedestrian crossing"
+        },
+        "start": {
+          "A1": 2,
+          "A2": 2
+        }
+      },
+      "characters": []
+    },
+    {
+      "scene_name": "Turning and People Crossing",
+      "slug": "turning-and-people-crossing",
+      "scene_description": "When a car turns into a street, people crossing it go first, even with no crossing.",
+      "scripts": {
+        "A1_master": "This car is turning. A man is crossing. The man goes first. The car waits. The man finishes crossing.",
+        "A2_master": "This is a turn into a side street. A man is crossing the side street on foot. There is no pedestrian crossing here at all. When a car turns, people crossing that street still go first. The driver turns slowly and waits for the man. The man goes first while he is crossing."
+      },
+      "graphic": {
+        "template": "road-diagram",
+        "theme": "road",
+        "figure": "priority-pedestrian-turn",
+        "heading": {
+          "es-ES": "Al girar, el peatón primero",
+          "en-GB": "When you turn, people on foot first"
+        },
+        "start": {
+          "A1": 2,
+          "A2": 2
+        }
+      },
+      "characters": []
+    },
+    {
+      "scene_name": "The Cyclist",
+      "slug": "the-cyclist",
+      "scene_description": "A cyclist in a marked bike lane goes first over a car turning across it.",
+      "scripts": {
+        "A1_master": "This is a cyclist. She rides in a bike lane. The cyclist goes first. Check the mirror. Then turn.",
+        "A2_master": "This is a cyclist riding in a marked bike lane. A car beside her wants to turn right. The cyclist in the bike lane goes first. The driver checks the mirror before the turn. The car waits until the cyclist has passed. A group of cyclists also goes first once the first rider has started crossing."
+      },
+      "graphic": {
+        "template": "cards",
+        "theme": "road",
+        "heading": {
+          "es-ES": "El ciclista",
+          "en-GB": "The cyclist"
+        },
+        "accumulate": true,
+        "items": [
+          {
+            "icon": "bike",
+            "mark": "yes",
+            "label": {
+              "es-ES": "Carril bici: el ciclista primero",
+              "en-GB": "Bike lane: the cyclist first"
+            },
+            "cue": {
+              "es-ES": "carril bici",
+              "en-GB": "bike lane"
+            }
+          },
+          {
+            "icon": "eye",
+            "label": {
+              "es-ES": "Mira el espejo",
+              "en-GB": "Check the mirror"
+            },
+            "cue": {
+              "es-ES": "espejo",
+              "en-GB": "mirror"
+            }
+          },
+          {
+            "icon": "person",
+            "mark": "yes",
+            "label": {
+              "es-ES": "En grupo: pasan todos",
+              "en-GB": "In a group: all go"
+            },
+            "cue": {
+              "es-ES": "grupo",
+              "en-GB": "group"
+            }
+          }
+        ]
+      },
+      "characters": []
+    },
+    {
+      "scene_name": "Closing",
+      "slug": "closing",
+      "scene_description": "Closing bookend with the topic on screen.",
+      "scripts": {
+        "A1_master": "That was right of way. You understood. One hour every day. When most words are clear, move up a level. See you in the next episode.",
+        "A2_master": "That was right of way. You understood. One hour every day. When most words are clear, move up a level. See you in the next episode."
+      },
+      "graphic": {
+        "template": "bookend",
+        "title": {
+          "es-ES": "Prioridad de paso",
+          "en-GB": "Right of way"
+        }
+      },
+      "characters": [
+        "jordi"
+      ],
+      "image_prompt": "Jordi sits on a wooden bench on a quiet square in a small Spanish town, with whitewashed houses, orange trees in round stone planters, and a narrow cobbled street crossing the far side of the square. He sits back against the bench with the tablet resting in his lap and looks down at it, the tablet angled toward him and away from the camera so its screen is not visible. His hands lie loose on the tablet, and he has a faint thoughtful smile. He is the only person in the frame. Camera at eye level, medium shot with Jordi seated in the lower right of the frame and the square fully visible across the left and upper parts of the frame. Soft morning light from the left."
+    }
+  ]
+}
