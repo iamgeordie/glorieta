@@ -5236,6 +5236,287 @@
                 ],
                 "src": "LSV Anexo I, 12"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-veh-5",
+                "answer": 2,
+                "es": {
+                  "q": "Según la ley de tráfico, ¿qué es un vehículo?",
+                  "options": [
+                    "Solo un aparato con motor",
+                    "Cualquier aparato que esté en la vía",
+                    "Un aparato apto para circular por las vías"
+                  ],
+                  "why": "Vehículo es todo aparato apto para circular por las vías. Una bicicleta, sin motor, también es un vehículo."
+                },
+                "en": {
+                  "q": "Under the traffic law, what is a vehicle?",
+                  "options": [
+                    "Only a device with an engine",
+                    "Any device that is on the road",
+                    "A device fit to travel on the roads"
+                  ],
+                  "why": "A vehicle is any device fit to travel on the roads. A bicycle, with no engine, is a vehicle too."
+                },
+                "exam": {
+                  "q": "According to the traffic law, what is a vehicle?",
+                  "options": [
+                    "Only an apparatus with engine.",
+                    "Any apparatus that is on the road.",
+                    "An apparatus apt to circulate by the roads."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "vehículo",
+                    "en": "vehicle"
+                  },
+                  {
+                    "es": "apto para circular",
+                    "en": "fit to circulate"
+                  }
+                ],
+                "src": "LSV Anexo I, 6"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-veh-6",
+                "answer": 0,
+                "es": {
+                  "q": "Según la ley, ¿para qué sirve normalmente un automóvil?",
+                  "options": [
+                    "Para transportar personas, cosas o ambas, o para arrastrar otros vehículos",
+                    "Solo para transportar personas",
+                    "Para trabajos agrícolas y obras"
+                  ],
+                  "why": "Automóvil es el vehículo de motor que sirve normalmente para transportar personas o cosas, o ambas, o para arrastrar otros vehículos con ese fin. Los vehículos especiales no lo son."
+                },
+                "en": {
+                  "q": "Under the law, what is an automobile normally used for?",
+                  "options": [
+                    "Carrying people, goods or both, or towing other vehicles",
+                    "Only carrying people",
+                    "Farm work and construction"
+                  ],
+                  "why": "An automobile is a motor vehicle normally used to carry people or goods, or both, or to tow other vehicles for that purpose. Special vehicles are not automobiles."
+                },
+                "exam": {
+                  "q": "According to the law, for what does an automobile serve normally?",
+                  "options": [
+                    "To transport persons, things or both, or to tow other vehicles.",
+                    "Only to transport persons.",
+                    "For agricultural works and constructions."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "automóvil",
+                    "en": "automobile"
+                  },
+                  {
+                    "es": "vehículo especial",
+                    "en": "special vehicle"
+                  }
+                ],
+                "src": "LSV Anexo I, 13"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Conductor, peatón y ciclo",
+            "en": "Driver, pedestrian and cycle"
+          },
+          "blocks": [
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Palabra",
+                  "en": "Word"
+                },
+                {
+                  "es": "Qué significa en la ley",
+                  "en": "What it means in law"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "**Conductor**",
+                    "en": "**Driver** (conductor)"
+                  },
+                  {
+                    "es": "Persona que maneja el mecanismo de dirección o va al mando de un vehículo, o lleva animales. En autoescuela, quien está a cargo de los mandos adicionales.",
+                    "en": "The person who handles the steering or is in control of a vehicle, or is in charge of animals. In a learner car, whoever is in charge of the extra controls."
+                  }
+                ],
+                [
+                  {
+                    "es": "**Peatón**",
+                    "en": "**Pedestrian** (peatón)"
+                  },
+                  {
+                    "es": "Persona que, sin ser conductor, transita a pie por las vías. También quien lleva a pie una bici o un ciclomotor de dos ruedas.",
+                    "en": "A person who, without being a driver, travels on foot on the roads. Also someone walking a bicycle or a two-wheeled moped."
+                  }
+                ],
+                [
+                  {
+                    "es": "**Ciclo**",
+                    "en": "**Cycle** (ciclo)"
+                  },
+                  {
+                    "es": "Vehículo de al menos dos ruedas movido solo o sobre todo por la fuerza de quien va en él, en particular con pedales.",
+                    "en": "A vehicle of at least two wheels moved only or mainly by the muscle power of the people on it, in particular with pedals."
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Estas definiciones son las del Anexo I de la ley de tráfico.",
+                "en": "These definitions are those of Annex I of the traffic law."
+              },
+              "src": "LSV Anexo I, 1, 4 y 7"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-veh-7",
+                "answer": 0,
+                "es": {
+                  "q": "Según la ley, ¿quién es el conductor de un vehículo?",
+                  "options": [
+                    "Quien maneja el mecanismo de dirección o va al mando del vehículo",
+                    "El titular que aparece en el permiso de circulación",
+                    "Cualquier persona que va dentro del vehículo"
+                  ],
+                  "why": "Conductor es la persona que maneja el mecanismo de dirección o va al mando de un vehículo. En prácticas de autoescuela, lo es quien está a cargo de los mandos adicionales."
+                },
+                "en": {
+                  "q": "Under the law, who is the driver of a vehicle?",
+                  "options": [
+                    "Whoever handles the steering or is in control of the vehicle",
+                    "The registered owner named on the registration document",
+                    "Anyone traveling inside the vehicle"
+                  ],
+                  "why": "The driver is the person who handles the steering or is in control of a vehicle. In a driving-school car, it is whoever is in charge of the extra controls."
+                },
+                "exam": {
+                  "q": "According to the law, who is the driver of a vehicle?",
+                  "options": [
+                    "Who handles the steering mechanism or goes at the command of the vehicle.",
+                    "The holder who appears in the circulation permit.",
+                    "Any person who goes inside the vehicle."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "conductor",
+                    "en": "driver"
+                  },
+                  {
+                    "es": "mecanismo de dirección",
+                    "en": "steering mechanism"
+                  }
+                ],
+                "src": "LSV Anexo I, 1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-veh-8",
+                "answer": 1,
+                "es": {
+                  "q": "Según la ley, ¿quién es peatón?",
+                  "options": [
+                    "Solo quien cruza por un paso de peatones",
+                    "Quien, sin ser conductor, transita a pie por las vías",
+                    "Cualquier persona que no tiene permiso de conducción"
+                  ],
+                  "why": "Peatón es la persona que, sin ser conductor, transita a pie por las vías. También lo es quien lleva a pie una bicicleta o un ciclomotor de dos ruedas."
+                },
+                "en": {
+                  "q": "Under the law, who is a pedestrian?",
+                  "options": [
+                    "Only someone crossing at a pedestrian crossing",
+                    "Someone who, without being a driver, travels on foot on the roads",
+                    "Anyone without a driving permit"
+                  ],
+                  "why": "A pedestrian is a person who, without being a driver, travels on foot on the roads. So is someone walking a bicycle or a two-wheeled moped."
+                },
+                "exam": {
+                  "q": "According to the law, who is a pedestrian?",
+                  "options": [
+                    "Only who crosses by a pedestrian crossing.",
+                    "Who, without being a driver, transits on foot by the roads.",
+                    "Any person who does not have driving licence."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "peatón",
+                    "en": "pedestrian"
+                  },
+                  {
+                    "es": "transitar a pie",
+                    "en": "to transit on foot"
+                  }
+                ],
+                "src": "LSV Anexo I, 4"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-veh-9",
+                "answer": 2,
+                "es": {
+                  "q": "Según la ley, ¿qué es un ciclo?",
+                  "options": [
+                    "Cualquier vehículo de dos ruedas, con o sin motor",
+                    "Un ciclomotor de menos de 50 cm³",
+                    "Un vehículo de al menos dos ruedas movido por la fuerza de quien va en él, en particular con pedales"
+                  ],
+                  "why": "Ciclo es el vehículo de al menos dos ruedas propulsado exclusiva o principalmente por la energía muscular de quien va en él, en particular con pedales."
+                },
+                "en": {
+                  "q": "Under the law, what is a cycle?",
+                  "options": [
+                    "Any two-wheeler, with or without an engine",
+                    "A moped under 50 cc",
+                    "A vehicle of at least two wheels moved by its rider’s muscle power, in particular with pedals"
+                  ],
+                  "why": "A cycle is a vehicle of at least two wheels powered only or mainly by the muscle power of the people on it, in particular with pedals."
+                },
+                "exam": {
+                  "q": "According to the law, what is a cycle?",
+                  "options": [
+                    "Any vehicle of two wheels, with or without engine.",
+                    "A moped of less than 50 cm³.",
+                    "A vehicle of at least two wheels propelled by the force of who goes on it, in particular with pedals."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "ciclo",
+                    "en": "cycle"
+                  },
+                  {
+                    "es": "pedales",
+                    "en": "pedals"
+                  }
+                ],
+                "src": "LSV Anexo I, 7"
+              }
             }
           ]
         },
@@ -5509,6 +5790,58 @@
                   }
                 ],
                 "src": "LSV Anexo I, 19"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Un **derivado de turismo** es un automóvil para servicios o para transportar **solo mercancías**. Viene de un turismo: conserva su carrocería y tiene **una sola fila de asientos**.",
+                "en": "A **car-derived vehicle** (derivado de turismo) is an automobile for services or for carrying **goods only**. It comes from a passenger car: it keeps the body and has **a single row of seats**."
+              },
+              "src": "RGV Anexo II (derivado de turismo)"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-veh-10",
+                "answer": 1,
+                "es": {
+                  "q": "¿A qué se destina un vehículo derivado de turismo?",
+                  "options": [
+                    "A transportar hasta nueve personas",
+                    "A servicios o al transporte exclusivo de mercancías",
+                    "A arrastrar remolques pesados"
+                  ],
+                  "why": "El derivado de turismo conserva la carrocería del turismo, tiene una sola fila de asientos y se destina a servicios o al transporte exclusivo de mercancías."
+                },
+                "en": {
+                  "q": "What is a car-derived vehicle (derivado de turismo) meant for?",
+                  "options": [
+                    "Carrying up to nine people",
+                    "Services, or carrying goods only",
+                    "Towing heavy trailers"
+                  ],
+                  "why": "A car-derived vehicle keeps the car’s body, has one row of seats and is meant for services or for carrying goods only."
+                },
+                "exam": {
+                  "q": "The vehicle derived from passenger car is destined to...",
+                  "options": [
+                    "transport up to nine persons.",
+                    "services or exclusive transport of goods.",
+                    "tow heavy trailers."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "derivado de turismo",
+                    "en": "derived from passenger car"
+                  },
+                  {
+                    "es": "mercancías",
+                    "en": "goods"
+                  }
+                ],
+                "src": "RGV Anexo II (derivado de turismo)"
               }
             }
           ]

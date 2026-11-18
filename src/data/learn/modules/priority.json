@@ -1367,6 +1367,58 @@
                 ],
                 "src": "RGC art. 63.1"
               }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los vehículos que necesitan **autorización especial** para circular no pueden cruzarse en un puente si su calzada mide menos de **seis metros**: cada uno necesita al menos tres metros de ancho.",
+                "en": "Vehicles that need **special authorization** to travel may not pass each other on a bridge whose roadway is less than **six meters** wide: each needs at least three meters."
+              },
+              "src": "RGC art. 61.3"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c2l",
+                "answer": 1,
+                "es": {
+                  "q": "Dos vehículos que necesitan autorización especial para circular llegan de frente a un puente con una calzada de 5 metros de ancho. ¿Pueden cruzarse en él?",
+                  "options": [
+                    "Sí, si pasan despacio y con cuidado",
+                    "No: en puentes de menos de seis metros no pueden cruzarse",
+                    "Sí, si los dos llevan la luz de emergencia"
+                  ],
+                  "why": "Los vehículos que necesitan autorización especial no pueden cruzarse en puentes con calzada de menos de seis metros. Quién pasa primero lo decide la señalización del puente o las reglas de preferencia."
+                },
+                "en": {
+                  "q": "Two vehicles that need special authorization to travel meet head-on at a bridge with a 5-meter roadway. May they pass each other on it?",
+                  "options": [
+                    "Yes, if they go slowly and carefully",
+                    "No: on bridges under six meters they may not pass each other",
+                    "Yes, if both have their hazard lights on"
+                  ],
+                  "why": "Vehicles that need special authorization may not pass each other on bridges with a roadway under six meters. Who goes first is set by the bridge's signs or the priority rules."
+                },
+                "exam": {
+                  "q": "Two vehicles that need special authorisation to circulate arrive face to face at a bridge with a carriageway of 5 metres of width. Can they cross each other on it?",
+                  "options": [
+                    "Yes, if they pass slowly and with care.",
+                    "No: on bridges of less than six metres they cannot cross each other.",
+                    "Yes, if both carry the emergency light."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "autorización especial",
+                    "en": "special authorisation"
+                  },
+                  {
+                    "es": "cruzarse",
+                    "en": "to cross each other (pass oncoming)"
+                  }
+                ],
+                "src": "RGC art. 61.3"
+              }
             }
           ]
         },
@@ -1647,6 +1699,10 @@
         {
           "es": "No bloquear un cruce, ni siquiera con verde.",
           "en": "Do not block a junction, even on green."
+        },
+        {
+          "es": "Saber a quién se dirigen los semáforos de peatones, de ciclos y de franja blanca.",
+          "en": "Know who pedestrian, cycle and white-bar lights are for."
         }
       ],
       "terms": [
@@ -2115,6 +2171,50 @@
                 ],
                 "src": "RGC anexo I, 4.2.g"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c3j",
+                "answer": 2,
+                "es": {
+                  "q": "Estás en el carril reservado para girar a la derecha y se enciende la flecha verde de ese giro. Tú querías seguir recto. ¿Qué haces?",
+                  "options": [
+                    "Esperas parado a que se ponga verde la luz circular",
+                    "Sigues recto con precaución",
+                    "Avanzas y giras a la derecha"
+                  ],
+                  "why": "Quien está en el carril reservado a la dirección de la flecha verde, o en el que esa circulación debe usar, tiene que avanzar en esa dirección al encenderse la flecha."
+                },
+                "en": {
+                  "q": "You are in the lane reserved for turning right and the green arrow for that turn comes on. You wanted to go straight. What do you do?",
+                  "options": [
+                    "Wait, stopped, for the round light to turn green",
+                    "Go straight with caution",
+                    "Move off and turn right"
+                  ],
+                  "why": "Whoever is in the lane reserved for the green arrow's direction, or in the lane that movement must use, has to move off in that direction when the arrow comes on."
+                },
+                "exam": {
+                  "q": "You are in the lane reserved for turning to the right and the green arrow of that turn is illuminated. You wanted to continue straight on. What do you do?",
+                  "options": [
+                    "You wait stopped until the circular light turns green.",
+                    "You continue straight on with caution.",
+                    "You advance and turn to the right."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "carril reservado",
+                    "en": "reserved lane"
+                  },
+                  {
+                    "es": "flecha verde",
+                    "en": "green arrow"
+                  }
+                ],
+                "src": "RGC Anexo I, 4.2.g"
+              }
             }
           ]
         },
@@ -2262,6 +2362,302 @@
                 ],
                 "src": "RGC art. 132.3"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c3h",
+                "answer": 1,
+                "es": {
+                  "q": "Sobre tu carril luce una flecha verde que apunta hacia abajo. Más adelante, el semáforo circular del cruce está en rojo. ¿Qué haces?",
+                  "options": [
+                    "Sigues: la flecha verde te da paso",
+                    "Te detienes ante el semáforo en rojo",
+                    "Cambias de carril para no encontrar el rojo"
+                  ],
+                  "why": "La flecha verde de un semáforo de carril solo te permite circular por ese carril. No te libera de detenerte ante una luz roja circular."
+                },
+                "en": {
+                  "q": "A green arrow pointing down is lit over your lane. Further on, the round light at the junction is red. What do you do?",
+                  "options": [
+                    "Keep going: the green arrow lets you through",
+                    "Stop at the red light",
+                    "Change lanes so you do not meet the red"
+                  ],
+                  "why": "A green arrow on a lane light only lets you drive in that lane. It does not release you from stopping at a red round light."
+                },
+                "exam": {
+                  "q": "Above your lane a green arrow pointing downwards is illuminated. Further ahead, the circular traffic light of the intersection is in red. What do you do?",
+                  "options": [
+                    "You continue: the green arrow gives you way.",
+                    "You stop before the traffic light in red.",
+                    "You change lane in order not to find the red."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "semáforo de carril",
+                    "en": "lane traffic light"
+                  },
+                  {
+                    "es": "semáforo circular",
+                    "en": "circular traffic light"
+                  }
+                ],
+                "src": "RGC Anexo I, 4.3.b"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c3i",
+                "answer": 0,
+                "es": {
+                  "q": "Circulas por un carril con una flecha verde hacia abajo y llegas a un cruce sin señales ni semáforos. Por tu derecha se acerca un coche. ¿Quién pasa primero?",
+                  "options": [
+                    "El coche que viene por tu derecha",
+                    "Tú, porque tu carril tiene luz verde",
+                    "El que vaya más deprisa"
+                  ],
+                  "why": "La flecha verde de carril no da prioridad. Sin otras señales, se aplican las normas generales de prioridad: cedes el paso a quien viene por tu derecha."
+                },
+                "en": {
+                  "q": "You are in a lane with a green arrow pointing down and reach a junction with no signs or lights. A car is coming from your right. Who goes first?",
+                  "options": [
+                    "The car coming from your right",
+                    "You, because your lane has a green light",
+                    "Whoever is faster"
+                  ],
+                  "why": "A green lane arrow gives no right of way. With no other signs, the general priority rules apply: you yield to traffic from your right."
+                },
+                "exam": {
+                  "q": "You circulate by a lane with a green arrow pointing downwards and arrive at an intersection without signs or traffic lights. By your right a car approaches. Who passes first?",
+                  "options": [
+                    "The car that comes by your right.",
+                    "You, because your lane has green light.",
+                    "The one that goes faster."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "prioridad de paso",
+                    "en": "right of way"
+                  },
+                  {
+                    "es": "semáforo de carril",
+                    "en": "lane traffic light"
+                  }
+                ],
+                "src": "RGC Anexo I, 4.3.b"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Semáforos para peatones, ciclos y transporte público",
+            "en": "Lights for pedestrians, cycles and public transport"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "El semáforo **para peatones** muestra la silueta de una persona. Con el peatón rojo quieto, los peatones no deben empezar a cruzar. Con el peatón verde andando, pueden empezar; si el verde parpadea, se acaba su tiempo.",
+                "en": "The **pedestrian** light shows the outline of a person. With the red standing walker, pedestrians must not start to cross. With the green walking one, they may start; if the green flashes, their time is running out."
+              },
+              "src": "RGC Anexo I, 4.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Un semáforo **circular** normal es para los vehículos, y la bicicleta es un vehículo. Si sus luces muestran la **silueta de un ciclo**, sus indicaciones son solo para los ciclos.",
+                "en": "An ordinary **round** light is for vehicles, and a bicycle is a vehicle. If its lights show the **outline of a cycle**, its signals are for cycles only."
+              },
+              "src": "RGC Anexo I, 4.2 y 4.4.1; LSV Anexo I, 6 y 7"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Un semáforo con una **franja blanca** sobre fondo negro es solo para **tranvías y autobuses de líneas regulares**. Si hay carril bus, solo para los que van por él. Franja horizontal: no pases, como con el rojo. Vertical: de frente. Oblicua: gira hacia ese lado. Intermitente: como el amarillo fijo.",
+                "en": "A light with a **white bar** on a black background is only for **trams and regular-route buses**. If there is a bus lane, only for those in it. Horizontal bar: do not go, as for red. Vertical: straight on. Slanted: turn that way. Flashing: as for steady yellow."
+              },
+              "src": "RGC Anexo I, 4.4.2"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c3k",
+                "answer": 1,
+                "es": {
+                  "q": "Giras a la derecha con tu coche. En la calle a la que entras, el semáforo del paso de peatones muestra en rojo la silueta de un peatón quieto. ¿Qué te indica a ti?",
+                  "options": [
+                    "Que debes detenerte antes del paso",
+                    "Nada: ese semáforo es solo para los peatones",
+                    "Que los ciclistas también deben parar"
+                  ],
+                  "why": "El semáforo con la silueta de un peatón está reservado a los peatones: en rojo les dice que no empiecen a cruzar. Tú obedeces las señales para vehículos."
+                },
+                "en": {
+                  "q": "You turn right in your car. On the street you enter, the crosswalk light shows the red outline of a standing walker. What does it tell you?",
+                  "options": [
+                    "That you must stop before the crosswalk",
+                    "Nothing: that light is for pedestrians only",
+                    "That cyclists must stop too"
+                  ],
+                  "why": "The light with a pedestrian outline is reserved for pedestrians: on red it tells them not to start crossing. You obey the signals for vehicles."
+                },
+                "exam": {
+                  "q": "You turn to the right with your car. In the street you enter, the traffic light of the pedestrian crossing shows a red motionless pedestrian. What does it indicate to you?",
+                  "options": [
+                    "That you must stop before the crossing.",
+                    "Nothing: that traffic light is only for the pedestrians.",
+                    "That the cyclists must also stop."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "semáforo para peatones",
+                    "en": "traffic light reserved for pedestrians"
+                  },
+                  {
+                    "es": "paso para peatones",
+                    "en": "pedestrian crossing"
+                  }
+                ],
+                "src": "RGC Anexo I, 4.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c3l",
+                "answer": 2,
+                "es": {
+                  "q": "Vas en bicicleta y llegas a un cruce con un semáforo circular normal, sin dibujo de ciclo, en rojo. ¿Qué haces?",
+                  "options": [
+                    "Pasas si no viene nadie: ese semáforo es para los coches",
+                    "Cruzas por el paso de peatones sin bajarte",
+                    "Te detienes: también vale para las bicicletas"
+                  ],
+                  "why": "El semáforo circular para vehículos vale para todos ellos, también para la bicicleta, que es un vehículo. Solo el que tiene la silueta de un ciclo es exclusivo de los ciclos."
+                },
+                "en": {
+                  "q": "You are riding a bicycle and reach a junction with an ordinary round light, with no cycle picture, on red. What do you do?",
+                  "options": [
+                    "Go if nobody is coming: that light is for cars",
+                    "Cross on the crosswalk without getting off",
+                    "Stop: it applies to bicycles too"
+                  ],
+                  "why": "The round light for vehicles applies to all of them, including the bicycle, which is a vehicle. Only a light with a cycle outline is for cycles alone."
+                },
+                "exam": {
+                  "q": "You go by bicycle and arrive at an intersection with a normal circular traffic light, without drawing of cycle, in red. What do you do?",
+                  "options": [
+                    "You pass if nobody comes: that traffic light is for the cars.",
+                    "You cross by the pedestrian crossing without getting off.",
+                    "You stop: it is also valid for the bicycles."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "semáforo circular",
+                    "en": "circular traffic light"
+                  },
+                  {
+                    "es": "ciclo",
+                    "en": "cycle"
+                  }
+                ],
+                "src": "RGC Anexo I, 4.2; LSV Anexo I, 6 y 7"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c3m",
+                "answer": 0,
+                "es": {
+                  "q": "Vas en ciclomotor y llegas a un cruce. Un semáforo muestra en rojo la silueta de un ciclo. ¿Te obliga a detenerte?",
+                  "options": [
+                    "No: sus indicaciones son solo para los ciclos",
+                    "Sí: el ciclomotor también es de dos ruedas",
+                    "Sí, pero solo de noche"
+                  ],
+                  "why": "Cuando las luces de un semáforo tienen la silueta de un ciclo, sus indicaciones se refieren solo a los ciclos. El ciclomotor no es un ciclo: tiene motor. Sigue las demás señales."
+                },
+                "en": {
+                  "q": "You ride a moped and reach a junction. A light shows a red cycle outline. Does it require you to stop?",
+                  "options": [
+                    "No: its signals are for cycles only",
+                    "Yes: a moped also has two wheels",
+                    "Yes, but only at night"
+                  ],
+                  "why": "When a light shows the outline of a cycle, its signals refer only to cycles. A moped is not a cycle: it has an engine. Follow the other signals."
+                },
+                "exam": {
+                  "q": "You go by moped and arrive at an intersection. A traffic light shows in red the silhouette of a cycle. Does it oblige you to stop?",
+                  "options": [
+                    "No: its indications are only for the cycles.",
+                    "Yes: the moped is also of two wheels.",
+                    "Yes, but only at night."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "silueta de un ciclo",
+                    "en": "silhouette of a cycle"
+                  },
+                  {
+                    "es": "ciclomotor",
+                    "en": "moped"
+                  }
+                ],
+                "src": "RGC Anexo I, 4.4.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c3n",
+                "answer": 2,
+                "es": {
+                  "q": "Un semáforo tiene encendida una franja blanca horizontal sobre fondo negro. No hay carril bus. ¿Quién debe detenerse?",
+                  "options": [
+                    "Los turismos y las motocicletas",
+                    "Todos los vehículos",
+                    "Los tranvías y los autobuses de líneas regulares"
+                  ],
+                  "why": "El semáforo de franja blanca es solo para tranvías y autobuses de líneas regulares. La franja horizontal les prohíbe el paso, como la luz roja."
+                },
+                "en": {
+                  "q": "A light shows a horizontal white bar on a black background. There is no bus lane. Who must stop?",
+                  "options": [
+                    "Cars and motorcycles",
+                    "All vehicles",
+                    "Trams and regular-route buses"
+                  ],
+                  "why": "The white-bar light is only for trams and regular-route buses. The horizontal bar forbids them to pass, as a red light does."
+                },
+                "exam": {
+                  "q": "A traffic light has illuminated a horizontal white strip on black background. There is no bus lane. Who must stop?",
+                  "options": [
+                    "The passenger cars and the motorcycles.",
+                    "All the vehicles.",
+                    "The trams and the buses of regular lines."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "franja blanca",
+                    "en": "white strip"
+                  },
+                  {
+                    "es": "autobús de línea regular",
+                    "en": "regular line bus"
+                  }
+                ],
+                "src": "RGC Anexo I, 4.4.2"
+              }
             }
           ]
         }
@@ -2286,6 +2682,10 @@
         {
           "es": "Una **flecha verde** permite esa dirección, con precaución y cediendo el paso.",
           "en": "A **green arrow** allows that direction, with caution and yielding."
+        },
+        {
+          "es": "Semáforo con **peatón**: solo peatones. Con **ciclo**: solo ciclos. Con **franja blanca**: tranvías y autobuses de línea. El circular normal: todos los vehículos.",
+          "en": "Light with a **pedestrian**: pedestrians only. With a **cycle**: cycles only. With a **white bar**: trams and regular buses. The ordinary round one: all vehicles."
         }
       ],
       "covers": [
@@ -3611,6 +4011,50 @@
                   }
                 ],
                 "src": "RGC art. 46.1.a y b"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c5j",
+                "answer": 2,
+                "es": {
+                  "q": "Fuera de poblado, una persona en silla de ruedas con motor avanza al paso por el arcén. Un agente le hace señal de que se detenga. ¿Debe obedecer?",
+                  "options": [
+                    "No: es un peatón, no un conductor",
+                    "Solo si va por la calzada",
+                    "Sí: los peatones también deben obedecer a los agentes y los semáforos"
+                  ],
+                  "why": "Quien va al paso en silla de ruedas, con o sin motor, es peatón. Todos los usuarios de la vía, también los peatones, obedecen las señales, y las órdenes de los agentes son las primeras."
+                },
+                "en": {
+                  "q": "Outside a town, a person in a powered wheelchair moves at walking pace along the shoulder. An officer signals them to stop. Must they obey?",
+                  "options": [
+                    "No: they are a pedestrian, not a driver",
+                    "Only if they are on the roadway",
+                    "Yes: pedestrians must also obey officers and traffic lights"
+                  ],
+                  "why": "Someone moving at walking pace in a wheelchair, powered or not, is a pedestrian. All road users, pedestrians included, obey the signals, and officers' orders come first."
+                },
+                "exam": {
+                  "q": "Outside a town, a person in a wheelchair with motor advances at walking pace by the hard shoulder. An agent makes him a signal to stop. Must he obey?",
+                  "options": [
+                    "No: he is a pedestrian, not a driver.",
+                    "Only if he goes by the carriageway.",
+                    "Yes: the pedestrians must also obey the agents and the traffic lights."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "silla de ruedas",
+                    "en": "wheelchair"
+                  },
+                  {
+                    "es": "agente",
+                    "en": "agent (traffic officer)"
+                  }
+                ],
+                "src": "LSV Anexo I, 4; RGC arts. 132.1 y 133.1"
               }
             }
           ]

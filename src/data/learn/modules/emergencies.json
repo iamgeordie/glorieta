@@ -2402,6 +2402,162 @@
                 ],
                 "src": "RGC art. 130.2"
               }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Un **vehículo de auxilio en vías públicas** (la grúa) se destina sobre todo al rescate y transporte de vehículos accidentados o averiados. Lleva, entre otras, la señal V-24.",
+                "en": "A **roadside assistance vehicle** (the tow truck) is meant above all for rescuing and carrying crashed or broken-down vehicles. Among other signs, it carries the V-24 plate."
+              },
+              "src": "RGV Anexo II, D.05; RD 159/2021 art. 5.3"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Cuando presta un servicio de auxilio, la grúa tiene **preferencia de paso** sobre los demás vehículos y usuarios. Sus operarios no pueden trabajar en el lado **pegado al tráfico**, salvo que sea imprescindible y lo comuniquen antes a la autoridad de tráfico.",
+                "en": "While on an assistance job, the tow truck has **priority** over other vehicles and road users. Its crew may not work on the side **next to the traffic**, unless it is essential and they tell the traffic authority first."
+              },
+              "src": "RD 159/2021 arts. 4.5 y 6.a"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "emergencies-c3k",
+                "answer": 2,
+                "es": {
+                  "q": "¿A qué se destina sobre todo un vehículo de auxilio en vías públicas?",
+                  "options": [
+                    "A vigilar el tráfico y poner multas",
+                    "A limpiar y reparar la carretera",
+                    "A rescatar y transportar vehículos accidentados o averiados"
+                  ],
+                  "why": "Es la grúa de auxilio: su función principal es rescatar y transportar vehículos accidentados o averiados. Los vehículos de mantenimiento de la vía no entran en esa definición."
+                },
+                "exam": {
+                  "q": "To what is a vehicle of assistance on public roads mainly destined?",
+                  "options": [
+                    "To watch the traffic and put fines.",
+                    "To clean and repair the road.",
+                    "To rescue and transport crashed or broken-down vehicles."
+                  ]
+                },
+                "en": {
+                  "q": "What is a roadside assistance vehicle mainly for?",
+                  "options": [
+                    "Watching traffic and issuing fines",
+                    "Cleaning and repairing the road",
+                    "Rescuing and carrying crashed or broken-down vehicles"
+                  ],
+                  "why": "It is the tow truck: its main job is rescuing and carrying crashed or broken-down vehicles. Road maintenance vehicles are not included in that definition."
+                },
+                "terms": [
+                  {
+                    "es": "vehículo de auxilio en vías públicas",
+                    "en": "roadside assistance vehicle"
+                  },
+                  {
+                    "es": "grúa",
+                    "en": "tow truck, crane"
+                  },
+                  {
+                    "es": "averiado",
+                    "en": "broken down"
+                  }
+                ],
+                "src": "RGV Anexo II, D.05"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "emergencies-c3l",
+                "answer": 0,
+                "es": {
+                  "q": "Una grúa recoge un coche averiado en el arcén. ¿Puede su operario trabajar por el lado que da al tráfico?",
+                  "options": [
+                    "No, salvo que sea imprescindible y lo avise antes a la autoridad de tráfico",
+                    "Sí, siempre que lleve el chaleco",
+                    "Sí, si tiene encendida la luz amarilla"
+                  ],
+                  "why": "Están prohibidas las operaciones de auxilio en el lado inmediatamente contiguo al tráfico. Si es inevitable, se avisa a la autoridad, que regula el tráfico para trabajar con seguridad."
+                },
+                "exam": {
+                  "q": "A crane picks up a broken-down car on the hard shoulder. Can its operator work by the side that gives to the traffic?",
+                  "options": [
+                    "No, except that it is essential and he warns the traffic authority beforehand.",
+                    "Yes, provided that he carries the vest.",
+                    "Yes, if he has the yellow light switched on."
+                  ]
+                },
+                "en": {
+                  "q": "A tow truck is picking up a broken-down car on the shoulder. May its operator work on the side facing the traffic?",
+                  "options": [
+                    "No, unless it is essential and he tells the traffic authority first",
+                    "Yes, as long as he wears the vest",
+                    "Yes, if the yellow light is on"
+                  ],
+                  "why": "Assistance work on the side right next to the traffic is banned. If it cannot be avoided, the authority is told and regulates traffic so the work is safe."
+                },
+                "terms": [
+                  {
+                    "es": "operario de auxilio",
+                    "en": "assistance operator"
+                  },
+                  {
+                    "es": "flujo de tráfico",
+                    "en": "traffic flow"
+                  },
+                  {
+                    "es": "arcén",
+                    "en": "hard shoulder"
+                  }
+                ],
+                "src": "RD 159/2021 art. 4.5"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "emergencies-c3m",
+                "answer": 1,
+                "es": {
+                  "q": "Una grúa de auxilio en carretera se acerca con su luz encendida para atender una avería. ¿Tiene preferencia de paso?",
+                  "options": [
+                    "No: la preferencia es solo de ambulancias, bomberos y policía",
+                    "Sí, cuando está prestando un servicio de auxilio",
+                    "Solo dentro de poblado"
+                  ],
+                  "why": "Los vehículos de auxilio en vías públicas tienen preferencia de paso sobre los demás vehículos y usuarios cuando se hallan en servicio de auxilio."
+                },
+                "exam": {
+                  "q": "A crane of road assistance approaches with its light switched on in order to attend a breakdown. Does it have priority of passage?",
+                  "options": [
+                    "No, the priority is only of ambulances, firemen and police.",
+                    "Yes, when it is providing an assistance service.",
+                    "Only within town."
+                  ]
+                },
+                "en": {
+                  "q": "A roadside assistance tow truck approaches with its light on to deal with a breakdown. Does it have priority?",
+                  "options": [
+                    "No: only ambulances, fire engines and police have priority",
+                    "Yes, while it is on an assistance job",
+                    "Only in built-up areas"
+                  ],
+                  "why": "Roadside assistance vehicles have priority over other vehicles and road users while they are on an assistance job."
+                },
+                "terms": [
+                  {
+                    "es": "preferencia de paso",
+                    "en": "priority of passage, right of way"
+                  },
+                  {
+                    "es": "servicio de auxilio",
+                    "en": "assistance service"
+                  }
+                ],
+                "src": "RD 159/2021 art. 6.a; LSV art. 27"
+              }
             }
           ]
         },

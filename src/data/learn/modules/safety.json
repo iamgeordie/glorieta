@@ -1054,6 +1054,65 @@
                 ],
                 "src": "DGT guidance (En coche, dgt.es, 2024)"
               }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Según la DGT, cada tipo de airbag protege sobre todo en un tipo de choque. Los **frontales** protegen la cabeza y el tórax en el choque de frente. Los laterales protegen el tórax en el golpe lateral. Los de techo protegen la cabeza en el vuelco.",
+                "en": "According to the DGT, each kind of airbag protects mainly in one kind of crash. **Front** airbags protect the head and chest in a head-on crash. Side airbags protect the chest in a side impact. Roof airbags protect the head in a rollover."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c1zh",
+                "answer": 1,
+                "es": {
+                  "q": "El coche tiene airbag en el volante y en el salpicadero. Según la DGT, ¿en qué choque te protegen sobre todo?",
+                  "options": [
+                    "Cuando el coche vuelca",
+                    "Cuando chocas de frente",
+                    "Cuando te golpean por un lado"
+                  ],
+                  "why": "Los airbags frontales protegen la cabeza y el tórax en el choque frontal. Para los golpes laterales están los laterales, y para el vuelco, los de techo o cortinilla."
+                },
+                "exam": {
+                  "q": "The car has airbag in the steering wheel and in the dashboard. According to the DGT, in which collision do they protect you above all?",
+                  "options": [
+                    "When the car overturns.",
+                    "When you collide frontally.",
+                    "When they hit you on one side."
+                  ]
+                },
+                "en": {
+                  "q": "Your car has an airbag in the steering wheel and in the dashboard. Which crash do they mainly protect you in, according to the DGT?",
+                  "options": [
+                    "When the car rolls over",
+                    "When you hit head-on",
+                    "When you are hit from the side"
+                  ],
+                  "why": "Front airbags protect the head and chest in a head-on crash. Side airbags handle side impacts, and roof (curtain) airbags handle rollovers."
+                },
+                "terms": [
+                  {
+                    "es": "airbag frontal",
+                    "en": "front airbag"
+                  },
+                  {
+                    "es": "choque frontal",
+                    "en": "frontal collision, head-on crash"
+                  },
+                  {
+                    "es": "salpicadero",
+                    "en": "dashboard"
+                  },
+                  {
+                    "es": "vuelco",
+                    "en": "rollover, overturning"
+                  }
+                ],
+                "src": "DGT guidance (En coche, dgt.es, 2024)"
+              }
             }
           ]
         },
@@ -1623,6 +1682,120 @@
                   }
                 ],
                 "src": "DGT guidance"
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "**ISOFIX** es un sistema estándar para instalar la silla infantil. La silla se engancha a dos anclajes metálicos de la estructura del coche. Un tercer punto, una correa superior o una pata de apoyo, le da estabilidad. Según la DGT, así es más difícil colocarla mal.",
+                "en": "**ISOFIX** is a standard system for fitting a child seat. The seat clips onto two metal anchors built into the car’s structure. A third point, a top strap or a support leg, keeps it steady. According to the DGT, it makes fitting the seat wrongly less likely."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Consejo que recoge la DGT: usa un sistema **con respaldo** siempre que puedas, también en el alzador. Protege más en los choques laterales y guía mejor el cinturón. La DGT recomienda seguir con sistema de retención hasta que el niño pase de **150 cm**.",
+                "en": "Advice the DGT passes on: use a restraint **with a backrest** whenever you can, booster seats included. It protects more in side impacts and guides the belt better. The DGT advises keeping a child restraint until the child is taller than **150 cm** (about 4 ft 11 in)."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c1zf",
+                "answer": 2,
+                "es": {
+                  "q": "¿Qué es el sistema ISOFIX?",
+                  "options": [
+                    "Un airbag pensado para los asientos de los niños",
+                    "Una señal que avisa de que viaja un niño",
+                    "Un sistema estándar para anclar la silla infantil al coche"
+                  ],
+                  "why": "ISOFIX engancha la silla a anclajes metálicos de la estructura del coche, con un tercer punto de apoyo. Reduce el riesgo de instalarla mal y la DGT lo trata como seguridad pasiva."
+                },
+                "exam": {
+                  "q": "What is the ISOFIX system?",
+                  "options": [
+                    "An airbag thought for the seats of the children.",
+                    "A signal that warns that a child travels.",
+                    "A standard system in order to anchor the child seat to the car."
+                  ]
+                },
+                "en": {
+                  "q": "What is the ISOFIX system?",
+                  "options": [
+                    "An airbag designed for children’s seats",
+                    "A sign warning that a child is on board",
+                    "A standard system for anchoring a child seat to the car"
+                  ],
+                  "why": "ISOFIX clips the seat onto metal anchors in the car’s structure, with a third support point. It makes wrong fitting less likely, and the DGT files it under passive safety."
+                },
+                "terms": [
+                  {
+                    "es": "ISOFIX",
+                    "en": "ISOFIX (child-seat anchorage)"
+                  },
+                  {
+                    "es": "anclaje",
+                    "en": "anchorage"
+                  },
+                  {
+                    "es": "silla infantil",
+                    "en": "child seat"
+                  },
+                  {
+                    "es": "seguridad pasiva",
+                    "en": "passive safety"
+                  }
+                ],
+                "src": "DGT guidance (Sillitas de la A a la Z, dgt.es, 2026)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c1zg",
+                "answer": 0,
+                "es": {
+                  "q": "Tu sobrina ya es grande para su silla y vas a comprarle un alzador. Según la DGT, ¿cuál es mejor?",
+                  "options": [
+                    "Uno con respaldo, siempre que sea posible",
+                    "Uno sin respaldo, porque se mueve con más libertad",
+                    "Da igual: los dos protegen lo mismo"
+                  ],
+                  "why": "Los sistemas con respaldo protegen más en los choques laterales y guían mejor el cinturón. Por eso la DGT recoge el consejo de usarlos siempre que sea posible."
+                },
+                "exam": {
+                  "q": "Your niece is already big for her seat and you are going to buy her a booster. According to the DGT, which is better?",
+                  "options": [
+                    "One with backrest, provided that it is possible.",
+                    "One without backrest, because she moves with more freedom.",
+                    "It is the same: the two protect the same."
+                  ]
+                },
+                "en": {
+                  "q": "Your niece has outgrown her child seat and you are buying her a booster. According to the DGT, which is better?",
+                  "options": [
+                    "One with a backrest, whenever possible",
+                    "One without a backrest, so she can move more freely",
+                    "It makes no difference: both protect the same"
+                  ],
+                  "why": "Restraints with a backrest protect more in side impacts and guide the belt better. That is why the DGT passes on the advice to use them whenever possible."
+                },
+                "terms": [
+                  {
+                    "es": "alzador, elevador",
+                    "en": "booster seat"
+                  },
+                  {
+                    "es": "respaldo",
+                    "en": "backrest"
+                  },
+                  {
+                    "es": "choque lateral",
+                    "en": "side collision"
+                  }
+                ],
+                "src": "DGT guidance (Sillitas de la A a la Z, dgt.es, 2026)"
               }
             }
           ]
@@ -3146,6 +3319,161 @@
                 ],
                 "src": "RGC art. 54.1"
               }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los ciclistas que circulan **en grupo** pueden ir sin esa separación entre ellos. A cambio deben extremar la atención para no chocar unos con otros.",
+                "en": "Cyclists riding **in a group** may ride without that gap between them. In return they must take extra care not to run into each other."
+              },
+              "src": "RGC art. 54.1"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Según una guía de la DGT, no respetar la distancia de seguridad es la **principal causa de los alcances**. Ayudas como el control de crucero adaptativo o el frenado de emergencia reducen ese riesgo, pero no sustituyen tu prudencia.",
+                "en": "According to a DGT guide, not keeping a safe distance is the **main cause of rear-end crashes**. Aids such as adaptive cruise control or emergency braking reduce that risk, but they do not replace your own care."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c3n",
+                "answer": 2,
+                "es": {
+                  "q": "Según el reglamento, ¿qué debes tener en cuenta sobre todo para fijar la distancia con el vehículo de delante?",
+                  "options": [
+                    "Solo la potencia de tu motor",
+                    "El tamaño del vehículo que llevas delante",
+                    "La velocidad, la adherencia y el frenado"
+                  ],
+                  "why": "El espacio libre debe permitirte parar sin chocar si el de delante frena de golpe. Para calcularlo cuentan sobre todo la velocidad y las condiciones de adherencia y de frenado."
+                },
+                "exam": {
+                  "q": "According to the regulation, what must you take into account above all in order to fix the distance with the vehicle in front?",
+                  "options": [
+                    "Only the power of your engine.",
+                    "The size of the vehicle that you have in front.",
+                    "The speed, the adherence and the braking."
+                  ]
+                },
+                "en": {
+                  "q": "According to the regulation, what must you mainly take into account to set your distance from the vehicle ahead?",
+                  "options": [
+                    "Only your engine’s power",
+                    "The size of the vehicle in front",
+                    "Speed, grip and braking"
+                  ],
+                  "why": "The gap must let you stop without hitting it if it brakes suddenly. Speed and the grip and braking conditions count most when you judge it."
+                },
+                "terms": [
+                  {
+                    "es": "adherencia",
+                    "en": "grip, adherence"
+                  },
+                  {
+                    "es": "frenado brusco",
+                    "en": "sudden braking"
+                  },
+                  {
+                    "es": "vehículo precedente",
+                    "en": "vehicle in front"
+                  }
+                ],
+                "src": "RGC art. 54.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c3o",
+                "answer": 1,
+                "es": {
+                  "q": "Un grupo de ciclistas circula en pelotón, muy juntos unos de otros. ¿Es correcto?",
+                  "options": [
+                    "No: cada ciclista debe dejar distancia para frenar sin chocar",
+                    "Sí: en grupo pueden circular sin esa separación, extremando la atención",
+                    "Solo si van por un carril bici"
+                  ],
+                  "why": "La regla de dejar espacio para frenar sin chocar tiene una excepción: los ciclistas en grupo. Pueden ir juntos, pero deben extremar la atención para evitar alcances entre ellos."
+                },
+                "exam": {
+                  "q": "A group of cyclists circulates in a pack, very close some to others. Is it correct?",
+                  "options": [
+                    "No, each cyclist must leave distance in order to brake without colliding.",
+                    "Yes, in group they can circulate without that separation, taking extreme attention.",
+                    "Only if they go by a cycle lane."
+                  ]
+                },
+                "en": {
+                  "q": "A group of cyclists rides in a pack, very close to one another. Is that correct?",
+                  "options": [
+                    "No: each cyclist must leave room to brake without a collision",
+                    "Yes: in a group they may ride without that gap, taking extra care",
+                    "Only if they are in a bike lane"
+                  ],
+                  "why": "The rule about leaving room to brake has one exception: cyclists in a group. They may ride close together, but must take extra care to avoid rear-end collisions among themselves."
+                },
+                "terms": [
+                  {
+                    "es": "en grupo",
+                    "en": "in a group"
+                  },
+                  {
+                    "es": "pelotón",
+                    "en": "pack of cyclists"
+                  },
+                  {
+                    "es": "alcance",
+                    "en": "rear-end collision"
+                  }
+                ],
+                "src": "RGC art. 54.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c3m",
+                "answer": 0,
+                "es": {
+                  "q": "Según la DGT, ¿cuál es la principal causa de que un vehículo choque contra la parte trasera del que va delante?",
+                  "options": [
+                    "No guardar la distancia de seguridad",
+                    "Que el de delante lleve las luces de freno sucias",
+                    "Circular por el carril derecho"
+                  ],
+                  "why": "Una guía de la DGT señala que no respetar la distancia de seguridad es el principal causante de los alcances. Con espacio suficiente puedes frenar a tiempo."
+                },
+                "exam": {
+                  "q": "According to the DGT, which is the main cause that a vehicle collides against the rear part of the one that goes in front?",
+                  "options": [
+                    "Not keeping the safety distance.",
+                    "That the one in front carries the brake lights dirty.",
+                    "To circulate by the right lane."
+                  ]
+                },
+                "en": {
+                  "q": "According to the DGT, what is the main reason a vehicle crashes into the back of the one in front?",
+                  "options": [
+                    "Not keeping a safe distance",
+                    "Dirty brake lights on the vehicle in front",
+                    "Driving in the right lane"
+                  ],
+                  "why": "A DGT guide says that not keeping a safe distance is the main cause of rear-end crashes. With enough room you can brake in time."
+                },
+                "terms": [
+                  {
+                    "es": "alcance",
+                    "en": "rear-end collision"
+                  },
+                  {
+                    "es": "distancia de seguridad",
+                    "en": "safety distance"
+                  }
+                ],
+                "src": "DGT guidance (Guía para monitores de cursos de conducción segura y eficiente de turismos, dgt.es, 2023)"
+              }
             }
           ]
         },
@@ -3808,6 +4136,102 @@
                   }
                 ],
                 "src": "RGC art. 54.2 y 54.3"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c3p",
+                "answer": 2,
+                "es": {
+                  "q": "Vas detrás de un turismo y has puesto el intermitente para adelantarlo. ¿Puedes pegarte a él mientras esperas el momento?",
+                  "options": [
+                    "Sí: al señalar el adelantamiento ya no hay distancia mínima",
+                    "Sí, si el de delante circula despacio",
+                    "No: siempre debes poder parar sin chocar si frena de golpe"
+                  ],
+                  "why": "La separación de 50 metros es para quien no señala que va a adelantar. Pero la distancia que te permite parar sin chocar se exige siempre a quien circula detrás de otro."
+                },
+                "exam": {
+                  "q": "You go behind a passenger car and you have put the indicator in order to overtake it. Can you stick to it while you wait for the moment?",
+                  "options": [
+                    "Yes, on signalling the overtaking there is no longer a minimum distance.",
+                    "Yes, if the one in front circulates slowly.",
+                    "No, you must always be able to stop without colliding if it brakes suddenly."
+                  ]
+                },
+                "en": {
+                  "q": "You are behind a car and have signaled to overtake it. May you close right up to it while you wait for your chance?",
+                  "options": [
+                    "Yes: once you signal the overtake there is no minimum distance",
+                    "Yes, if the car in front is going slowly",
+                    "No: you must always be able to stop without hitting it if it brakes"
+                  ],
+                  "why": "The 50-meter gap is for drivers not signaling an overtake. But the distance that lets you stop without a collision always applies to anyone driving behind another vehicle."
+                },
+                "terms": [
+                  {
+                    "es": "adelantamiento",
+                    "en": "overtaking"
+                  },
+                  {
+                    "es": "turismo",
+                    "en": "passenger car"
+                  },
+                  {
+                    "es": "distancia de seguridad",
+                    "en": "safety distance"
+                  }
+                ],
+                "src": "RGC art. 54.1 y 54.2"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c3q",
+                "answer": 1,
+                "es": {
+                  "q": "Tu camión tiene 3.000 kg de masa máxima autorizada. Vas por una autopista de tres carriles y no piensas adelantar. ¿Cuánto espacio dejas delante?",
+                  "options": [
+                    "Medio kilómetro",
+                    "El suficiente para frenar sin chocar si el de delante frena de golpe",
+                    "Cuatro segundos, como en un túnel"
+                  ],
+                  "why": "La separación de 50 m es para vehículos de más de 3.500 kg o de más de 10 m, y no se aplica donde hay más de un carril por sentido. Rige la regla general: poder parar sin chocar."
+                },
+                "exam": {
+                  "q": "Your lorry has 3,000 kg of maximum authorised mass. You go by a motorway of three lanes and you do not intend to overtake. How much space do you leave in front?",
+                  "options": [
+                    "Half a kilometre.",
+                    "The sufficient one to brake without colliding if the one in front brakes suddenly.",
+                    "Four seconds, as in a tunnel."
+                  ]
+                },
+                "en": {
+                  "q": "Your truck has a maximum authorized mass of 3,000 kg. You are on a three-lane motorway and do not plan to overtake. How much space do you leave ahead?",
+                  "options": [
+                    "Half a kilometer",
+                    "Enough to brake without a collision if the vehicle ahead brakes sharply",
+                    "Four seconds, as in a tunnel"
+                  ],
+                  "why": "The 50 m gap is for vehicles over 3,500 kg or over 10 m long, and it does not apply where there is more than one lane each way. The general rule applies: be able to stop without a collision."
+                },
+                "terms": [
+                  {
+                    "es": "masa máxima autorizada (MMA)",
+                    "en": "maximum authorised mass (MAM)"
+                  },
+                  {
+                    "es": "camión",
+                    "en": "lorry, truck"
+                  },
+                  {
+                    "es": "autopista",
+                    "en": "motorway"
+                  }
+                ],
+                "src": "RGC art. 54.1, 54.2 y 54.3.c"
               }
             }
           ]

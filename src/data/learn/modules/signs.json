@@ -677,6 +677,50 @@
                 ],
                 "src": "RGC art. 132.3"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-order-j",
+                "answer": 1,
+                "es": {
+                  "q": "Circulas por una autovía. A tu derecha, separada por una isleta, va una vía de servicio con su propia calzada. Junto a ella hay una señal de velocidad máxima de 40. ¿Rige para ti?",
+                  "options": [
+                    "Sí, porque la ves desde tu carril",
+                    "No: una señal se aplica a la calzada que pueden usar aquellos a quienes se dirige",
+                    "Solo si llueve"
+                  ],
+                  "why": "Toda señal se aplica a toda la anchura de la calzada que pueden usar los conductores a quienes se dirige. Una señal colocada para otra calzada no rige en la tuya."
+                },
+                "en": {
+                  "q": "You are on a dual carriageway. On your right, past a traffic island, runs a service road with its own roadway. Beside it there is a 40 speed-limit sign. Does it apply to you?",
+                  "options": [
+                    "Yes, because you can see it from your lane",
+                    "No: a sign applies to the roadway its addressees may use",
+                    "Only if it rains"
+                  ],
+                  "why": "Every sign applies to the full width of the roadway that the drivers it is meant for may use. A sign placed for another roadway does not apply on yours."
+                },
+                "exam": {
+                  "q": "You circulate by a dual carriageway. On your right, separated by an island, goes a service road with its own carriageway. Next to it there is a sign of maximum speed of 40. Does it rule for you?",
+                  "options": [
+                    "Yes, because you see it from your lane.",
+                    "No: a sign is applied to the carriageway that those to whom it is directed can use.",
+                    "Only if it rains."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "calzada",
+                    "en": "carriageway"
+                  },
+                  {
+                    "es": "vía de servicio",
+                    "en": "service road"
+                  }
+                ],
+                "src": "RGC art. 135"
+              }
             }
           ]
         },
@@ -6708,6 +6752,51 @@
                 "src": "RGC Anexo I, ap. 5.1, 3.8 (S-29)",
                 "sign": "s-29"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-ind-ze",
+                "answer": 0,
+                "es": {
+                  "q": "Entras en la zona que empieza con esta señal y quieres dejar el coche. ¿Dónde puedes estacionar?",
+                  "options": [
+                    "Solo donde lo indiquen señales o marcas",
+                    "Donde quieras, si no estorbas a los peatones",
+                    "En ningún lugar: es una zona solo para peatones"
+                  ],
+                  "why": "En la zona de estancia y juego, los vehículos solo pueden estacionar en los lugares designados por señales o por marcas. Además van a 10 km/h y dan prioridad a los peatones."
+                },
+                "en": {
+                  "q": "You enter the zone that starts with this sign and want to leave your car. Where may you park?",
+                  "options": [
+                    "Only where signs or markings show",
+                    "Anywhere, if you do not get in pedestrians' way",
+                    "Nowhere: it is a pedestrians-only zone"
+                  ],
+                  "why": "In a residential and play zone, vehicles may park only in places designated by signs or markings. They also go at 10 km/h and give way to pedestrians."
+                },
+                "exam": {
+                  "q": "You enter in the zone that begins with this sign and you want to leave the car. Where can you park?",
+                  "options": [
+                    "Only where signs or markings indicate it.",
+                    "Where you want, if you do not hinder the pedestrians.",
+                    "In no place: it is a zone only for pedestrians."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "zona de estancia y juego",
+                    "en": "residential and play zone"
+                  },
+                  {
+                    "es": "estacionar",
+                    "en": "to park"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.8 (S-28)",
+                "sign": "s-28"
+              }
             }
           ]
         },
@@ -8989,6 +9078,50 @@
                 ],
                 "src": "RGC Anexo I, ap. 5.2 (marcas viales), 4.4"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-mark-t",
+                "answer": 2,
+                "es": {
+                  "q": "Entras en una calzada por un carril de incorporación. En tu carril hay pintado en el suelo un triángulo blanco con la punta hacia ti. ¿Qué significa?",
+                  "options": [
+                    "Que el carril termina y empieza el arcén",
+                    "Que más adelante hay un paso para peatones",
+                    "Que cedes el paso a quien circula por la calzada a la que te acercas"
+                  ],
+                  "why": "El triángulo pintado es la marca de ceda el paso: significa lo mismo que la señal vertical. Si está en un carril delimitado, obliga solo a quien circula por ese carril."
+                },
+                "en": {
+                  "q": "You join a roadway from an entry lane. A white triangle pointing toward you is painted in your lane. What does it mean?",
+                  "options": [
+                    "That the lane ends and the shoulder begins",
+                    "That there is a pedestrian crossing ahead",
+                    "That you yield to traffic on the roadway you are approaching"
+                  ],
+                  "why": "The painted triangle is the yield marking: it means the same as the vertical sign. If it is in a marked lane, it binds only those driving in that lane."
+                },
+                "exam": {
+                  "q": "You enter a carriageway by a merging lane. In your lane there is painted on the ground a white triangle with the point towards you. What does it mean?",
+                  "options": [
+                    "That the lane ends and the hard shoulder begins.",
+                    "That further ahead there is a pedestrian crossing.",
+                    "That you yield way to whoever circulates by the carriageway you approach."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "ceda el paso",
+                    "en": "give way (yield)"
+                  },
+                  {
+                    "es": "marca vial",
+                    "en": "road marking"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.2 (marcas viales M-6.5)"
+              }
             }
           ]
         },
@@ -9096,6 +9229,94 @@
                   }
                 ],
                 "src": "RGC Anexo I, ap. 5.2 (marcas viales), 4.3"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-mark-r",
+                "answer": 2,
+                "es": {
+                  "q": "Vas por el carril izquierdo, que tiene pintada una flecha de giro a la izquierda. Una línea continua lo separa del carril de al lado, el de seguir de frente. Quieres seguir de frente. ¿Qué haces?",
+                  "options": [
+                    "Te cambias al carril de al lado con el intermitente",
+                    "Sigues de frente desde tu carril, con precaución",
+                    "Giras a la izquierda: la flecha lo obliga y la línea no te deja cambiar"
+                  ],
+                  "why": "Las flechas indican los movimientos permitidos u obligados en su carril. Una línea continua no se puede atravesar, así que no puedes cambiarte al carril de seguir de frente."
+                },
+                "en": {
+                  "q": "You are in the left lane, which has a left-turn arrow painted on it. A solid line separates it from the next lane, the one for going straight. You want to go straight. What do you do?",
+                  "options": [
+                    "Move to the next lane with your turn signal",
+                    "Go straight from your lane, carefully",
+                    "Turn left: the arrow requires it and the line stops you from changing"
+                  ],
+                  "why": "Arrows show the movements allowed or required in their lane. A solid line may not be crossed, so you cannot move into the straight-ahead lane."
+                },
+                "exam": {
+                  "q": "You go by the left lane, which has painted an arrow of turn to the left. A continuous line separates it from the next lane, the one of continuing straight on. You want to continue straight on. What do you do?",
+                  "options": [
+                    "You change to the next lane with the indicator.",
+                    "You continue straight on from your lane, with caution.",
+                    "You turn to the left: the arrow obliges it and the line does not let you change."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "flecha de selección de carriles",
+                    "en": "lane selection arrow"
+                  },
+                  {
+                    "es": "línea continua",
+                    "en": "continuous line"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.2 (marcas viales M-2.1 y M-5.1)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-mark-s",
+                "answer": 0,
+                "es": {
+                  "q": "Llegas a un cruce por una calle con dos carriles en tu sentido. En el izquierdo hay una flecha recta. En el derecho, una flecha recta con otra hacia la derecha. Quieres girar a la derecha. ¿Qué carril usas?",
+                  "options": [
+                    "El derecho",
+                    "Cualquiera de los dos",
+                    "El izquierdo, para abrir más el giro"
+                  ],
+                  "why": "Cada flecha indica los movimientos permitidos a quien circula por su carril. Solo el carril con la flecha hacia la derecha permite ese giro."
+                },
+                "en": {
+                  "q": "You reach a junction on a street with two lanes in your direction. The left one has a straight arrow. The right one has a straight arrow plus a right arrow. You want to turn right. Which lane do you use?",
+                  "options": [
+                    "The right one",
+                    "Either one",
+                    "The left one, to make a wider turn"
+                  ],
+                  "why": "Each arrow shows the movements allowed for whoever drives in its lane. Only the lane with the right arrow allows that turn."
+                },
+                "exam": {
+                  "q": "You arrive at an intersection by a street with two lanes in your direction. In the left one there is a straight arrow. In the right one, a straight arrow with another one to the right. You want to turn to the right. Which lane do you use?",
+                  "options": [
+                    "The right one.",
+                    "Any of the two.",
+                    "The left one, in order to open the turn more."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "flecha",
+                    "en": "arrow"
+                  },
+                  {
+                    "es": "cambio de dirección",
+                    "en": "change of direction (turn)"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.2 (marcas viales M-5.1 y M-5.2)"
               }
             }
           ]
@@ -9434,6 +9655,307 @@
         "Reglamento General de Circulación (RD 1428/2003), arts. 40.1, 59.1, 84.1, 91.2.a, 147.1 y 147.2",
         "RGC Anexo I, apartado 5.2 (Catálogo de marcas viales), apartados 2, 4.1, 4.2, 4.3, 4.4 y 4.7, en la redacción del RD 465/2025",
         "RGC Anexo I, apartado 5.2 (marcas viales), 4.4, 4.7 y 5.1"
+      ]
+    },
+    {
+      "id": "vehicle-signs",
+      "title": {
+        "es": "Señales en los vehículos",
+        "en": "Signs on vehicles"
+      },
+      "minutes": 4,
+      "goals": [
+        {
+          "es": "Reconocer la señal de vehículo lento y saber cuánto corre ese vehículo.",
+          "en": "Recognize the slow-vehicle sign and know how fast that vehicle can go."
+        },
+        {
+          "es": "Saber qué es un vehículo de auxilio en vías públicas y qué puede hacer.",
+          "en": "Know what a roadside assistance vehicle is and what it may do."
+        },
+        {
+          "es": "Saber dónde va el distintivo de uso compartido.",
+          "en": "Know where the shared-use badge goes."
+        }
+      ],
+      "terms": [
+        {
+          "es": "vehículo lento",
+          "en": "slow vehicle"
+        },
+        {
+          "es": "auxilio en vías públicas",
+          "en": "assistance on public roads (roadside assistance)"
+        },
+        {
+          "es": "grúa",
+          "en": "tow truck"
+        },
+        {
+          "es": "distintivo",
+          "en": "badge"
+        },
+        {
+          "es": "uso compartido",
+          "en": "shared use"
+        },
+        {
+          "es": "parabrisas",
+          "en": "windscreen"
+        }
+      ],
+      "pretest": {
+        "id": "signs-pre-veh",
+        "answer": 1,
+        "es": {
+          "q": "Un vehículo lleva detrás la señal de «Vehículo lento». ¿Qué velocidad no puede pasar, por construcción?",
+          "options": [
+            "25 km/h",
+            "40 km/h",
+            "60 km/h"
+          ],
+          "why": "La señal de vehículo lento indica un vehículo de motor o conjunto que, por construcción, no puede pasar de 40 km/h."
+        },
+        "en": {
+          "q": "A vehicle carries the “slow vehicle” sign at the back. What speed can it not exceed, by design?",
+          "options": [
+            "25 km/h",
+            "40 km/h",
+            "60 km/h"
+          ],
+          "why": "The slow-vehicle sign marks a motor vehicle or combination that, by design, cannot go over 40 km/h."
+        },
+        "src": "RGV Anexo XI (V-5)"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Vehículo lento",
+            "en": "Slow vehicle"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Algunas señales no están en la vía, sino en los propios vehículos. Te dicen algo del vehículo que tienes delante.",
+                "en": "Some signs are not on the road but on the vehicles themselves. They tell you something about the vehicle in front of you."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "La señal **V-5, vehículo lento**, es un triángulo rojo en la parte de atrás. Indica un vehículo de motor o un conjunto que, por construcción, **no puede pasar de 40 km/h**.",
+                "en": "Sign **V-5, slow vehicle**, is a red triangle on the back. It marks a motor vehicle or combination that, by design, **cannot go over 40 km/h**."
+              },
+              "src": "RGV Anexo XI (V-5)"
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Cuarenta kilómetros por hora son unas 25 millas por hora. Prepárate para alcanzarlo pronto.",
+                "en": "Forty kilometers per hour is about 25 mph. Expect to catch up with it quickly."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-veh-a",
+                "answer": 0,
+                "es": {
+                  "q": "Delante de ti, un tractor lleva detrás la señal de «Vehículo lento». ¿Qué te dice esa señal?",
+                  "options": [
+                    "Que por construcción no puede pasar de 40 km/h",
+                    "Que su carga es peligrosa",
+                    "Que es una máquina que trabaja en la vía"
+                  ],
+                  "why": "La señal de vehículo lento (V-5) indica un vehículo de motor o conjunto de vehículos que, por construcción, no puede superar los 40 km/h. Va en la parte de atrás."
+                },
+                "en": {
+                  "q": "Ahead of you, a tractor carries the “slow vehicle” sign at the back. What does that sign tell you?",
+                  "options": [
+                    "That by design it cannot go over 40 km/h",
+                    "That its load is dangerous",
+                    "That it is a machine working on the road"
+                  ],
+                  "why": "The slow-vehicle sign (V-5) marks a motor vehicle or combination that, by design, cannot exceed 40 km/h. It goes on the back."
+                },
+                "exam": {
+                  "q": "In front of you, a tractor carries behind the sign of «Slow vehicle». What does that sign say to you?",
+                  "options": [
+                    "That by construction it cannot exceed 40 km/h.",
+                    "That its load is dangerous.",
+                    "That it is a machine that works on the road."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "vehículo lento",
+                    "en": "slow vehicle"
+                  },
+                  {
+                    "es": "por construcción",
+                    "en": "by construction"
+                  }
+                ],
+                "src": "RGV Anexo XI (V-5)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Auxilio en vías públicas",
+            "en": "Roadside assistance"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "La señal **V-24** identifica un **vehículo de servicio de auxilio en vías públicas**, como una grúa. Es una placa en la parte delantera o trasera del vehículo.",
+                "en": "Sign **V-24** identifies a **public-road assistance service vehicle**, such as a tow truck. It is a plate on the front or back of the vehicle."
+              },
+              "src": "RGV Anexo XI (V-24)"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "En las vías urbanas se permite a estos vehículos parar o estacionar **el tiempo indispensable** para retirar los vehículos averiados o accidentados, si no crean un nuevo peligro ni estorban la circulación.",
+                "en": "On urban roads these vehicles may stop or park **for as long as strictly needed** to remove broken-down or crashed vehicles, if they create no new danger and do not obstruct traffic."
+              },
+              "src": "RGC art. 156.1.d"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Pueden usar el arcén para llegar a un servicio de urgencia, con sus señales luminosas y a no más de **30 km/h**.",
+                "en": "They may use the shoulder to reach an emergency job, with their warning lights on and at no more than **30 km/h**."
+              },
+              "src": "RGC art. 36.4"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-veh-b",
+                "answer": 1,
+                "es": {
+                  "q": "En una calle, una grúa con la placa de «Vehículo de servicio de auxilio en vías públicas» se para para cargar un coche accidentado. ¿Lo permite la norma?",
+                  "options": [
+                    "No: nunca puede parar en la calzada",
+                    "Sí, el tiempo indispensable para retirarlo, sin crear un nuevo peligro",
+                    "Sí, todo el tiempo que quiera, porque presta un servicio"
+                  ],
+                  "why": "Se permite la parada o el estacionamiento de los vehículos de auxilio en vías públicas el tiempo indispensable para retirar vehículos averiados o accidentados, si no crean un nuevo peligro ni estorban."
+                },
+                "en": {
+                  "q": "On a street, a tow truck carrying the “public-road assistance service vehicle” plate stops to load a crashed car. Do the rules allow it?",
+                  "options": [
+                    "No: it may never stop on the roadway",
+                    "Yes, for as long as needed to remove it, without creating a new danger",
+                    "Yes, for as long as it likes, because it is providing a service"
+                  ],
+                  "why": "Public-road assistance vehicles may stop or park for as long as strictly needed to remove broken-down or crashed vehicles, if they create no new danger or obstruction."
+                },
+                "exam": {
+                  "q": "In a street, a tow truck with the plate of «Vehicle of assistance service on public roads» stops in order to load a crashed car. Does the norm allow it?",
+                  "options": [
+                    "No: it can never stop on the carriageway.",
+                    "Yes, the indispensable time in order to remove it, without creating a new danger.",
+                    "Yes, all the time it wants, because it provides a service."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "vehículo de auxilio",
+                    "en": "assistance vehicle"
+                  },
+                  {
+                    "es": "averiado o accidentado",
+                    "en": "broken-down or crashed"
+                  }
+                ],
+                "src": "RGC art. 156.1.d"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Distintivo de uso compartido",
+            "en": "Shared-use badge"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "El distintivo **V-26, de uso compartido**, es un círculo azul. Indica que el Registro de Vehículos clasifica el vehículo como de uso compartido. Si tiene parabrisas, va **preferentemente en el ángulo superior izquierdo**, por dentro. Si no tiene, en un sitio bien visible.",
+                "en": "Badge **V-26, shared use**, is a blue circle. It shows that the Vehicle Register classes the vehicle as shared-use. With a windscreen, it goes **preferably in the top left corner**, on the inside. Without one, somewhere clearly visible."
+              },
+              "src": "RGV Anexo XI (V-26)"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-veh-c",
+                "answer": 2,
+                "es": {
+                  "q": "Un coche de alquiler por minutos lleva el distintivo de uso compartido. ¿Dónde debe ir preferentemente ese distintivo?",
+                  "options": [
+                    "En la luneta trasera, por fuera",
+                    "Junto a la placa de matrícula delantera",
+                    "En el ángulo superior izquierdo del parabrisas, por dentro"
+                  ],
+                  "why": "Si el vehículo tiene parabrisas, el distintivo de uso compartido (V-26) va preferentemente en el ángulo superior izquierdo, por su cara interior. Sin parabrisas, en un sitio bien visible."
+                },
+                "en": {
+                  "q": "A car rented by the minute carries the shared-use badge. Where should that badge preferably go?",
+                  "options": [
+                    "On the rear window, outside",
+                    "Next to the front license plate",
+                    "In the top left corner of the windscreen, inside"
+                  ],
+                  "why": "If the vehicle has a windscreen, the shared-use badge (V-26) goes preferably in its top left corner, on the inside. Without a windscreen, somewhere clearly visible."
+                },
+                "exam": {
+                  "q": "A car of rental by minutes carries the badge of shared use. Where must that badge go preferably?",
+                  "options": [
+                    "On the rear window, on the outside.",
+                    "Next to the front registration plate.",
+                    "In the upper left corner of the windscreen, on the inside."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "distintivo de uso compartido",
+                    "en": "shared use badge"
+                  },
+                  {
+                    "es": "parabrisas",
+                    "en": "windscreen"
+                  }
+                ],
+                "src": "RGV Anexo XI (V-26)"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "**Vehículo lento** (V-5): por construcción no pasa de **40 km/h**.",
+          "en": "**Slow vehicle** (V-5): by design it does not go over **40 km/h**."
+        },
+        {
+          "es": "**V-24**: vehículo de auxilio en vías públicas, como una grúa. Para el tiempo indispensable para retirar un vehículo averiado o accidentado.",
+          "en": "**V-24**: public-road assistance vehicle, such as a tow truck. It stops only as long as needed to remove a broken-down or crashed vehicle."
+        },
+        {
+          "es": "**Uso compartido** (V-26): círculo azul, preferentemente arriba a la izquierda del parabrisas.",
+          "en": "**Shared use** (V-26): blue circle, preferably top left of the windscreen."
+        }
+      ],
+      "src": [
+        "RGV Anexo XI (V-5, V-24 y V-26)",
+        "RGC arts. 36.4 y 156.1.d"
       ]
     }
   ]

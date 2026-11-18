@@ -160,6 +160,58 @@
                 ],
                 "src": "LSV art. 59.2"
               }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los **ciclomotores** también se matriculan. Su matrícula y su **licencia de circulación** se tramitan en la Jefatura de Tráfico del domicilio del propietario.",
+                "en": "**Mopeds** are registered too. Their plate and their **licencia de circulación** (moped registration document) are issued by the traffic office of the owner’s home province."
+              },
+              "src": "RGV art. 28.1"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c1l",
+                "answer": 1,
+                "es": {
+                  "q": "¿Hay que matricular un ciclomotor?",
+                  "options": [
+                    "No: solo se matriculan los automóviles",
+                    "Sí: tiene matrícula y licencia de circulación",
+                    "Solo si su motor pasa de 50 cm³"
+                  ],
+                  "why": "La matriculación de los ciclomotores y la expedición de su licencia de circulación se hacen en la Jefatura de Tráfico del domicilio del propietario."
+                },
+                "en": {
+                  "q": "Must a moped be registered?",
+                  "options": [
+                    "No: only cars and other automobiles are registered",
+                    "Yes: it has a plate and a moped registration document",
+                    "Only if its engine is over 50 cc"
+                  ],
+                  "why": "Mopeds are registered, and their registration document is issued, by the traffic office of the owner’s home province."
+                },
+                "exam": {
+                  "q": "Is it necessary to register a moped?",
+                  "options": [
+                    "No; only automobiles are registered.",
+                    "Yes; it has a registration plate and a circulation licence.",
+                    "Only if its engine exceeds 50 cm³."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "matricular",
+                    "en": "register (a vehicle)"
+                  },
+                  {
+                    "es": "licencia de circulación",
+                    "en": "circulation licence (moped)"
+                  }
+                ],
+                "src": "RGV art. 28.1"
+              }
             }
           ]
         },
@@ -335,6 +387,218 @@
                   }
                 ],
                 "src": "RDL 8/2004 art. 5.1"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Para el seguro obligatorio, también son **vehículos a motor** los remolques y semirremolques. Pero no tienen que asegurarse los remolques y semirremolques de **750 kg** de masa máxima autorizada o menos.",
+                "en": "For compulsory insurance, trailers and semi-trailers also count as **motor vehicles**. But trailers and semi-trailers with a maximum authorized mass of **750 kg** or less are exempt from insurance."
+              },
+              "src": "RDL 8/2004 arts. 1 bis.1.b y 2.8.b"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c1h",
+                "answer": 2,
+                "es": {
+                  "q": "Tu turismo arrastra un remolque de 1.000 kg de masa máxima autorizada. ¿Necesita el remolque seguro obligatorio?",
+                  "options": [
+                    "No: los remolques nunca necesitan seguro",
+                    "Solo si circula por autopista",
+                    "Sí: pasa de 750 kg de MMA"
+                  ],
+                  "why": "Los remolques cuentan como vehículos a motor para el seguro. Solo quedan exentos los de 750 kg de MMA o menos."
+                },
+                "en": {
+                  "q": "Your car tows a trailer with a maximum authorized mass of 1,000 kg. Does the trailer need compulsory insurance?",
+                  "options": [
+                    "No: trailers never need insurance",
+                    "Only if it is driven on a motorway",
+                    "Yes: its MMA is over 750 kg"
+                  ],
+                  "why": "Trailers count as motor vehicles for insurance. Only those with an MMA of 750 kg or less are exempt."
+                },
+                "exam": {
+                  "q": "Your passenger car tows a trailer of 1,000 kg of maximum authorised mass. Does the trailer need compulsory insurance?",
+                  "options": [
+                    "No; trailers never need insurance.",
+                    "Only if it circulates by motorway.",
+                    "Yes; it exceeds 750 kg of MAM."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "remolque",
+                    "en": "trailer"
+                  },
+                  {
+                    "es": "masa máxima autorizada (MMA)",
+                    "en": "maximum authorised mass (MAM)"
+                  },
+                  {
+                    "es": "seguro obligatorio",
+                    "en": "compulsory insurance"
+                  }
+                ],
+                "src": "RDL 8/2004 arts. 1 bis.1.b y 2.8.b"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Un **ciclomotor** también es vehículo a motor para el seguro: tiene motor y una velocidad máxima de fabricación de más de 25 km/h. Su propietario debe asegurarlo.",
+                "en": "A **moped** is also a motor vehicle for insurance: it has an engine and a top design speed of over 25 km/h. Its owner must insure it."
+              },
+              "src": "RDL 8/2004 arts. 1 bis.1.a y 2.1"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c1i",
+                "answer": 0,
+                "es": {
+                  "q": "Te compras un ciclomotor. ¿Debe tener seguro obligatorio para circular?",
+                  "options": [
+                    "Sí, como cualquier vehículo a motor",
+                    "No: el seguro solo es para coches y motos",
+                    "Solo si lleva pasajero"
+                  ],
+                  "why": "Para la ley del seguro, el ciclomotor es un vehículo a motor. Su propietario debe suscribir y mantener el seguro obligatorio."
+                },
+                "en": {
+                  "q": "You buy a moped. Must it have compulsory insurance to be driven on the road?",
+                  "options": [
+                    "Yes, like any motor vehicle",
+                    "No: insurance is only for cars and motorcycles",
+                    "Only if it carries a passenger"
+                  ],
+                  "why": "Under the insurance law a moped is a motor vehicle. Its owner must take out and keep compulsory insurance."
+                },
+                "exam": {
+                  "q": "You buy a moped. Must it have compulsory insurance in order to circulate?",
+                  "options": [
+                    "Yes, like any motor vehicle.",
+                    "No; the insurance is only for cars and motorcycles.",
+                    "Only if it carries a passenger."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "ciclomotor",
+                    "en": "moped"
+                  },
+                  {
+                    "es": "seguro obligatorio",
+                    "en": "compulsory insurance"
+                  }
+                ],
+                "src": "RDL 8/2004 arts. 1 bis.1.a y 2.1"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "El seguro obligatorio **no cubre** los daños personales ni materiales que cause un vehículo **robado**. En ese caso indemniza el Consorcio de Compensación de Seguros.",
+                "en": "Compulsory insurance **does not cover** injury or damage caused by a **stolen** vehicle. In that case the Consorcio de Compensación de Seguros (the state compensation fund) pays."
+              },
+              "src": "RDL 8/2004 art. 5.3"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si el daño se debe a conducir bajo la influencia del **alcohol** o de drogas, la aseguradora paga a la víctima y después puede **repetir**: reclamar lo pagado al conductor, al propietario y al asegurado.",
+                "en": "If the harm comes from driving under the influence of **alcohol** or drugs, the insurer pays the victim and can then **claim it back** from the driver, the owner and the insured."
+              },
+              "src": "RDL 8/2004 art. 10.a"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c1j",
+                "answer": 1,
+                "es": {
+                  "q": "Un ladrón roba un coche y atropella a un peatón. ¿Cubre el seguro obligatorio de ese coche los daños del peatón?",
+                  "options": [
+                    "Sí, igual que en cualquier accidente",
+                    "No: el vehículo robado queda fuera; paga el Consorcio de Compensación de Seguros",
+                    "Solo si el propietario iba en el coche"
+                  ],
+                  "why": "El seguro obligatorio excluye los daños causados por un vehículo robado. A esas víctimas las indemniza el Consorcio de Compensación de Seguros."
+                },
+                "en": {
+                  "q": "A thief steals a car and hits a pedestrian. Does that car’s compulsory insurance cover the pedestrian’s injuries?",
+                  "options": [
+                    "Yes, as in any crash",
+                    "No: a stolen vehicle is excluded; the state compensation fund pays",
+                    "Only if the owner was in the car"
+                  ],
+                  "why": "Compulsory insurance excludes harm caused by a stolen vehicle. Those victims are paid by the Consorcio de Compensación de Seguros."
+                },
+                "exam": {
+                  "q": "A thief steals a car and runs over a pedestrian. Does the compulsory insurance of that car cover the damages of the pedestrian?",
+                  "options": [
+                    "Yes, the same as in any accident.",
+                    "No; the stolen vehicle is left out; the Insurance Compensation Consortium pays.",
+                    "Only if the owner was travelling in the car."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "vehículo robado",
+                    "en": "stolen vehicle"
+                  },
+                  {
+                    "es": "Consorcio de Compensación de Seguros",
+                    "en": "Insurance Compensation Consortium"
+                  }
+                ],
+                "src": "RDL 8/2004 art. 5.3"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c1k",
+                "answer": 2,
+                "es": {
+                  "q": "Un conductor con una tasa de alcohol superior a la permitida causa un accidente con heridos. ¿Qué hace su aseguradora?",
+                  "options": [
+                    "Nada: el alcohol anula siempre el seguro",
+                    "Paga solo los daños materiales",
+                    "Indemniza a las víctimas y después puede reclamar lo pagado al conductor"
+                  ],
+                  "why": "Las víctimas cobran igual. La aseguradora, después de pagar, puede repetir contra el conductor, el propietario y el asegurado."
+                },
+                "en": {
+                  "q": "A driver over the alcohol limit causes a crash with injuries. What does the insurer do?",
+                  "options": [
+                    "Nothing: alcohol always cancels the insurance",
+                    "It pays only for damage to property",
+                    "It pays the victims and can then claim the money back from the driver"
+                  ],
+                  "why": "The victims are still paid. After paying, the insurer can claim it back from the driver, the owner and the insured."
+                },
+                "exam": {
+                  "q": "A driver with an alcohol rate higher than the allowed causes an accident with injured persons. What does his insurer do?",
+                  "options": [
+                    "Nothing; alcohol always cancels the insurance.",
+                    "It pays only the material damages.",
+                    "It indemnifies the victims and afterwards can claim what was paid from the driver."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "repetir (la aseguradora)",
+                    "en": "claim back (the insurer)"
+                  },
+                  {
+                    "es": "indemnizar",
+                    "en": "indemnify, pay compensation"
+                  }
+                ],
+                "src": "RDL 8/2004 art. 10.a"
               }
             }
           ]
@@ -1561,6 +1825,58 @@
                 ],
                 "src": "RGC art. 101.1"
               }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "En un túnel **insuficientemente iluminado**, si vas a más de 40 km/h, llevas la **luz de carretera**, salvo que debas usar la de cruce para no deslumbrar.",
+                "en": "In a **poorly lit** tunnel, above 40 km/h, you use the **high beam**, unless you must use the low beam so as not to dazzle anyone."
+              },
+              "src": "RGC art. 100.1"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c3s",
+                "answer": 0,
+                "es": {
+                  "q": "Es de día y entras a 80 km/h en un túnel insuficientemente iluminado. No viene nadie. ¿Qué luz llevas?",
+                  "options": [
+                    "La de carretera, si no deslumbras a nadie",
+                    "Solo la de posición",
+                    "La antiniebla trasera"
+                  ],
+                  "why": "En túneles mal iluminados, a más de 40 km/h, se usa la luz de carretera a cualquier hora, salvo que haya que cambiar a la de cruce para no deslumbrar."
+                },
+                "en": {
+                  "q": "It is daytime and you enter a poorly lit tunnel at 80 km/h (about 50 mph). Nobody is coming. Which light do you use?",
+                  "options": [
+                    "The high beam, as long as you dazzle nobody",
+                    "Only the position lights",
+                    "The rear fog light"
+                  ],
+                  "why": "In poorly lit tunnels, above 40 km/h, the high beam is used at any hour, unless you must switch to the low beam to avoid dazzling."
+                },
+                "exam": {
+                  "q": "It is daytime and you enter at 80 km/h a tunnel insufficiently illuminated. Nobody comes. Which light do you carry?",
+                  "options": [
+                    "The main beam, if you do not dazzle anyone.",
+                    "Only the position light.",
+                    "The rear fog light."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "insuficientemente iluminado",
+                    "en": "insufficiently illuminated"
+                  },
+                  {
+                    "es": "luz de carretera (largo alcance)",
+                    "en": "main beam, long-range light"
+                  }
+                ],
+                "src": "RGC art. 100.1"
+              }
             }
           ]
         },
@@ -2011,6 +2327,50 @@
                   }
                 ],
                 "src": "DGT guidance (Campaña de control y vigilancia de furgonetas, 2023)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c3t",
+                "answer": 1,
+                "es": {
+                  "q": "De noche, en una carretera sin iluminar, llevas la luz de carretera. Detrás de una curva aparece un coche de frente, que no cambia sus luces. ¿Qué haces?",
+                  "options": [
+                    "Mantienes la de carretera hasta que él cambie",
+                    "Pasas a la de cruce, aunque él no lo haga",
+                    "Haces destellos seguidos para que cambie"
+                  ],
+                  "why": "La luz de carretera se sustituye por la de cruce en cuanto puedes deslumbrar a otro, sobre todo a quien viene de frente, aunque él no cumpla. No vuelves a ella hasta haberlo rebasado."
+                },
+                "en": {
+                  "q": "At night, on an unlit road, you have the high beam on. Around a bend a car appears coming toward you and does not dim its lights. What do you do?",
+                  "options": [
+                    "Keep the high beam until the other driver dims",
+                    "Switch to the low beam, even if the other driver does not",
+                    "Flash your lights repeatedly so they dim"
+                  ],
+                  "why": "Switch from high to low beam as soon as you could dazzle someone, above all an oncoming driver, even if they do not dim. Go back to high beam only after passing them."
+                },
+                "exam": {
+                  "q": "At night, on a road without illumination, you carry the main beam. Behind a curve a car appears from the front, which does not change its lights. What do you do?",
+                  "options": [
+                    "You keep the main beam until he changes.",
+                    "You change to the dipped beam, even if he does not do it.",
+                    "You make repeated flashes so that he changes."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "deslumbramiento",
+                    "en": "dazzling"
+                  },
+                  {
+                    "es": "luz de cruce (corto alcance)",
+                    "en": "dipped beam, short-range light"
+                  }
+                ],
+                "src": "RGC art. 102.1"
               }
             }
           ]
@@ -2912,6 +3272,62 @@
                 ],
                 "src": "RGC art. 105.1"
               }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Parado o estacionado de noche en la calzada o el arcén de una **travesía** mal iluminada, llevas las **luces de posición**. Si estás estacionado en línea, puedes cambiarlas por las de **estacionamiento** o por las dos de posición del lado de la calzada.",
+                "en": "Stopped or parked at night on the carriageway or shoulder of a poorly lit **travesía** (a road through a town), you keep the **position lights** on. If you are parked parallel to the curb, you may use the **parking lights** instead, or the two position lights on the side facing the traffic."
+              },
+              "src": "RGC art. 105.2"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c4i",
+                "answer": 2,
+                "es": {
+                  "q": "De noche dejas el coche estacionado en línea en el arcén de una travesía mal iluminada. ¿Qué luces dejas encendidas?",
+                  "options": [
+                    "Ninguna: estás fuera de la calzada",
+                    "Las de emergencia, toda la noche",
+                    "Las de posición, o las de estacionamiento, o las dos de posición del lado de la calzada"
+                  ],
+                  "why": "En travesías mal iluminadas, el vehículo parado o estacionado de noche lleva las luces de posición. Estacionado en línea, puede sustituirlas por las de estacionamiento o por las dos de posición del lado de la calzada."
+                },
+                "en": {
+                  "q": "At night you leave your car parked parallel on the shoulder of a poorly lit road through a town. Which lights do you leave on?",
+                  "options": [
+                    "None: you are off the carriageway",
+                    "The hazard lights, all night",
+                    "The position lights, or the parking lights, or the two position lights on the traffic side"
+                  ],
+                  "why": "On a poorly lit road through a town, a vehicle stopped or parked at night keeps its position lights on. Parked parallel, it may use the parking lights or the two position lights on the traffic side instead."
+                },
+                "exam": {
+                  "q": "At night you leave the car parked in line on the hard shoulder of a through-town road poorly illuminated. Which lights do you leave on?",
+                  "options": [
+                    "None; you are outside the carriageway.",
+                    "The emergency lights, all night.",
+                    "The position lights, or the parking lights, or the two position lights of the side of the carriageway."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "travesía",
+                    "en": "through-town road"
+                  },
+                  {
+                    "es": "alumbrado de estacionamiento",
+                    "en": "parking lights"
+                  },
+                  {
+                    "es": "estacionado en línea",
+                    "en": "parked in line, parallel"
+                  }
+                ],
+                "src": "RGC art. 105.2"
+              }
             }
           ]
         },
@@ -3070,6 +3486,102 @@
                 ],
                 "src": "RGC art. 109.2.a"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c4j",
+                "answer": 0,
+                "es": {
+                  "q": "Vas a frenar con fuerza porque el tráfico se para delante. ¿Cómo avisas a los de detrás, si es posible?",
+                  "options": [
+                    "Encendiendo varias veces las luces de frenado",
+                    "Con un toque largo de claxon",
+                    "Encendiendo la luz antiniebla trasera"
+                  ],
+                  "why": "La intención de detenerte o de frenar de forma considerable se advierte, siempre que sea posible, con el uso reiterado de las luces de frenado, aunque te obligue el tráfico."
+                },
+                "en": {
+                  "q": "You are about to brake hard because traffic is stopping ahead. How do you warn those behind, if possible?",
+                  "options": [
+                    "By flashing your brake lights several times",
+                    "With a long blast of the horn",
+                    "By switching on the rear fog light"
+                  ],
+                  "why": "The intention to stop or brake hard is signaled, where possible, by using the brake lights repeatedly, even when traffic forces it."
+                },
+                "exam": {
+                  "q": "You are going to brake strongly because the traffic stops ahead. How do you warn those behind, if it is possible?",
+                  "options": [
+                    "Switching on several times the brake lights.",
+                    "With a long touch of horn.",
+                    "Switching on the rear fog light."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "luces de frenado",
+                    "en": "brake lights"
+                  },
+                  {
+                    "es": "advertencia óptica",
+                    "en": "optical warning"
+                  }
+                ],
+                "src": "RGC art. 109.1 y 109.2.c"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si te detienes para **parar o estacionar**, enciende además el **intermitente** del lado hacia el que vas a hacerlo.",
+                "en": "If you are stopping in order to **stop or park**, also switch on the **turn signal** on the side you are pulling over to."
+              },
+              "src": "RGC art. 109.2.c"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c4k",
+                "answer": 1,
+                "es": {
+                  "q": "Vas por el carril derecho y quieres parar junto a la acera de la derecha. ¿Qué señal usas?",
+                  "options": [
+                    "Ninguna: parar no se señaliza",
+                    "El intermitente derecho",
+                    "Las luces de emergencia, siempre"
+                  ],
+                  "why": "Cuando la inmovilización es para parar o estacionar, se usa además el intermitente del lado hacia el que te diriges."
+                },
+                "en": {
+                  "q": "You are in the right lane and want to stop by the curb on your right. Which signal do you use?",
+                  "options": [
+                    "None: stopping is not signaled",
+                    "The right turn signal",
+                    "The hazard lights, always"
+                  ],
+                  "why": "When you stop in order to stop or park, you also use the turn signal on the side you are heading to."
+                },
+                "exam": {
+                  "q": "You circulate by the right lane and want to stop next to the right sidewalk. Which signal do you use?",
+                  "options": [
+                    "None; stopping is not signalled.",
+                    "The right direction indicator.",
+                    "The emergency lights, always."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "intermitente (indicador de dirección)",
+                    "en": "direction indicator"
+                  },
+                  {
+                    "es": "parar",
+                    "en": "to stop (briefly)"
+                  }
+                ],
+                "src": "RGC art. 109.2.c"
+              }
             }
           ]
         },
@@ -3196,6 +3708,169 @@
                   }
                 ],
                 "src": "RGV Anexo XI, V-2.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c4l",
+                "answer": 2,
+                "es": {
+                  "q": "Un vehículo especial trabaja en la vía a menos de 40 km/h. ¿Cuándo debe llevar encendida la señal luminosa amarilla de vehículo-obstáculo?",
+                  "options": [
+                    "Solo de noche",
+                    "Solo con niebla o lluvia",
+                    "Mientras haga ese trabajo, de día y de noche"
+                  ],
+                  "why": "La V-2 marca a un vehículo que hace un servicio o trabajo en la vía, parado o a 40 km/h como máximo. La norma no la limita a unas horas: la lleva mientras haga ese trabajo."
+                },
+                "en": {
+                  "q": "A special vehicle is working on the road at under 40 km/h (25 mph). When must it show the amber vehicle-obstacle light?",
+                  "options": [
+                    "Only at night",
+                    "Only in fog or rain",
+                    "While it does that work, by day and by night"
+                  ],
+                  "why": "The V-2 marks a vehicle doing a service or work on the road, stopped or at 40 km/h at most. The rule does not limit it to certain hours: it uses it while doing that work."
+                },
+                "exam": {
+                  "q": "A special vehicle works on the road at less than 40 km/h. When must it carry the yellow luminous signal of vehicle-obstacle?",
+                  "options": [
+                    "Only at night.",
+                    "Only with fog or rain.",
+                    "While it does that work, by day and by night."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "vehículo especial",
+                    "en": "special vehicle"
+                  },
+                  {
+                    "es": "señal luminosa",
+                    "en": "luminous signal"
+                  }
+                ],
+                "src": "RGV Anexo XI, V-2.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Placas que identifican al vehículo",
+            "en": "Plates that identify a vehicle"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Algunos vehículos llevan detrás una **placa** que te dice qué son. Fíjate en dos que salen en el examen.",
+                "en": "Some vehicles carry a **plate** at the back that tells you what they are. Two of them come up in the exam."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "La señal **V-5, «Vehículo lento»**, es un triángulo rojo. Indica un vehículo de motor o conjunto que, **por construcción**, no puede pasar de **40 km/h**. Va en la parte trasera.",
+                "en": "Signal **V-5, “Slow vehicle”**, is a red triangle. It marks a motor vehicle or combination that, **by design**, cannot exceed **40 km/h** (25 mph). It goes on the rear."
+              },
+              "src": "RGV Anexo XI, V-5.1 y V-5.2"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c4m",
+                "answer": 0,
+                "es": {
+                  "q": "Delante de ti va un tractor con un triángulo rojo en la parte trasera, la señal «Vehículo lento». ¿Qué te indica?",
+                  "options": [
+                    "Que por construcción no puede pasar de 40 km/h",
+                    "Que lleva mercancías peligrosas",
+                    "Que su carga sobresale por detrás"
+                  ],
+                  "why": "La señal V-5 «Vehículo lento» indica un vehículo de motor o conjunto que por construcción no puede superar 40 km/h."
+                },
+                "en": {
+                  "q": "Ahead of you is a tractor with a red triangle on the back, the “Slow vehicle” sign. What does it tell you?",
+                  "options": [
+                    "That by design it cannot exceed 40 km/h",
+                    "That it carries dangerous goods",
+                    "That its load sticks out at the back"
+                  ],
+                  "why": "The V-5 “Slow vehicle” sign marks a motor vehicle or combination that by design cannot exceed 40 km/h."
+                },
+                "exam": {
+                  "q": "Ahead of you goes a tractor with a red triangle on the rear part, the signal “Slow vehicle”. What does it indicate to you?",
+                  "options": [
+                    "That by construction it cannot exceed 40 km/h.",
+                    "That it carries dangerous goods.",
+                    "That its load protrudes from behind."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "vehículo lento",
+                    "en": "slow vehicle"
+                  },
+                  {
+                    "es": "por construcción",
+                    "en": "by construction, by design"
+                  }
+                ],
+                "src": "RGV Anexo XI, V-5.1"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "El **vehículo de auxilio en vías públicas** se destina sobre todo al **rescate y transporte** de vehículos accidentados o averiados. Se identifica con la señal **V-24**, una placa delante o detrás.",
+                "en": "A **roadside assistance vehicle** is meant mainly for **rescuing and carrying** crashed or broken-down vehicles. It is identified by signal **V-24**, a plate at the front or rear."
+              },
+              "src": "RGV Anexo II (vehículo de auxilio en vías públicas); RGV Anexo XI, V-24"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c4n",
+                "answer": 1,
+                "es": {
+                  "q": "Un camión lleva la placa de «vehículo de servicio de auxilio en vías públicas». ¿A qué se dedica principalmente?",
+                  "options": [
+                    "Al mantenimiento de la carretera",
+                    "A recoger y llevarse vehículos que han sufrido una avería o un accidente",
+                    "Al transporte urgente de heridos"
+                  ],
+                  "why": "Según el Reglamento General de Vehículos, el vehículo de auxilio en vías públicas se destina principalmente al rescate y transporte de vehículos accidentados o averiados. Los de conservación de la vía no entran en esa definición."
+                },
+                "en": {
+                  "q": "A truck carries the “roadside assistance service vehicle” plate. What is its main job?",
+                  "options": [
+                    "Maintaining the road",
+                    "Picking up vehicles after a breakdown or a crash and taking them away",
+                    "Taking injured people to hospital urgently"
+                  ],
+                  "why": "Under the vehicle regulation, a roadside assistance vehicle is meant mainly for rescuing and carrying crashed or broken-down vehicles. Road-maintenance vehicles fall outside that definition."
+                },
+                "exam": {
+                  "q": "A lorry carries the plate of “public road assistance service vehicle”. To what is it mainly dedicated?",
+                  "options": [
+                    "To the maintenance of the road.",
+                    "To pick up vehicles that suffered a breakdown or an accident and carry them.",
+                    "To the urgent transport of injured persons."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "vehículo de auxilio en vías públicas",
+                    "en": "public road assistance vehicle"
+                  },
+                  {
+                    "es": "averiado",
+                    "en": "broken down"
+                  }
+                ],
+                "src": "RGV Anexo II (vehículo de auxilio en vías públicas)"
               }
             }
           ]
@@ -3516,6 +4191,154 @@
                 ],
                 "src": "RGV Anexo XII, apartado 1"
               }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Las **motocicletas** solo tienen que llevar un **chaleco reflectante** de alta visibilidad. No se les exige rueda de repuesto ni baliza V-16.",
+                "en": "**Motorcycles** only have to carry a high-visibility **reflective vest**. They are not required to carry a spare wheel or a V-16 beacon."
+              },
+              "src": "RGV Anexo XII, apartados 1 y 3"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c5j",
+                "answer": 2,
+                "es": {
+                  "q": "¿Qué accesorio obligatorio debe llevar una motocicleta?",
+                  "options": [
+                    "Una rueda de repuesto y sus herramientas",
+                    "La baliza V-16 y un extintor",
+                    "Un chaleco reflectante de alta visibilidad"
+                  ],
+                  "why": "La dotación de las motocicletas es solo el chaleco reflectante. La rueda de repuesto y la V-16 se exigen a turismos y vehículos ligeros."
+                },
+                "en": {
+                  "q": "Which compulsory accessory must a motorcycle carry?",
+                  "options": [
+                    "A spare wheel and its tools",
+                    "The V-16 beacon and a fire extinguisher",
+                    "A high-visibility reflective vest"
+                  ],
+                  "why": "A motorcycle’s required kit is only the reflective vest. The spare wheel and the V-16 are required of cars and light vehicles."
+                },
+                "exam": {
+                  "q": "Which compulsory accessory must a motorcycle carry?",
+                  "options": [
+                    "A spare wheel and its tools.",
+                    "The V-16 device and an extinguisher.",
+                    "A reflective vest of high visibility."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "chaleco reflectante",
+                    "en": "reflective vest"
+                  },
+                  {
+                    "es": "dotación",
+                    "en": "equipment, kit"
+                  }
+                ],
+                "src": "RGV Anexo XII, apartado 3"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c5k",
+                "answer": 0,
+                "es": {
+                  "q": "¿Forma parte el botiquín de la dotación obligatoria de un turismo?",
+                  "options": [
+                    "No: la lista obligatoria es la V-16, el chaleco y la rueda o sistema alternativo",
+                    "Sí, en todos los turismos",
+                    "Solo en los turismos de más de cinco plazas"
+                  ],
+                  "why": "La dotación obligatoria de un turismo es la baliza V-16, un chaleco de alta visibilidad y una rueda de repuesto, de uso temporal o un sistema alternativo. El botiquín no está en esa lista."
+                },
+                "en": {
+                  "q": "Is a first-aid kit part of a passenger car’s compulsory kit?",
+                  "options": [
+                    "No: the required list is the V-16, the vest and the wheel or an alternative system",
+                    "Yes, in every car",
+                    "Only in cars with more than five seats"
+                  ],
+                  "why": "A car’s compulsory kit is the V-16 beacon, a high-visibility vest and a spare or temporary wheel, or an alternative system. A first-aid kit is not on that list."
+                },
+                "exam": {
+                  "q": "Does the first-aid kit form part of the compulsory equipment of a passenger car?",
+                  "options": [
+                    "No; the compulsory list is the V-16, the vest and the wheel or alternative system.",
+                    "Yes, in all passenger cars.",
+                    "Only in passenger cars of more than five seats."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "botiquín",
+                    "en": "first-aid kit"
+                  },
+                  {
+                    "es": "dotación obligatoria",
+                    "en": "compulsory equipment"
+                  }
+                ],
+                "src": "RGV Anexo XII, apartado 1"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si usas una **rueda de uso temporal** o un sistema alternativo, circula respetando las **limitaciones** propias de esa solución.",
+                "en": "If you use a **temporary-use spare wheel** or an alternative system, drive within the **limits** that come with it."
+              },
+              "src": "RGV Anexo XII, apartado 1.c"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c5l",
+                "answer": 1,
+                "es": {
+                  "q": "Has pinchado y montas la rueda de uso temporal que trae tu coche. ¿Cómo sigues el viaje?",
+                  "options": [
+                    "Como con una rueda normal, sin límites",
+                    "Respetando las limitaciones propias de esa rueda",
+                    "Solo por vías urbanas"
+                  ],
+                  "why": "Con una rueda de uso temporal o un sistema alternativo se circula respetando sus limitaciones. No es una rueda para hacer el viaje como si nada."
+                },
+                "en": {
+                  "q": "You have a puncture and fit the temporary-use spare wheel your car carries. How do you continue the trip?",
+                  "options": [
+                    "As with a normal wheel, with no limits",
+                    "Within the limits that come with that wheel",
+                    "Only on urban roads"
+                  ],
+                  "why": "With a temporary-use wheel or an alternative system you drive within its limits. It is not a wheel for carrying on as normal."
+                },
+                "exam": {
+                  "q": "You have had a puncture and you fit the temporary use wheel that your car brings. How do you continue the journey?",
+                  "options": [
+                    "As with a normal wheel, without limits.",
+                    "Respecting the limitations proper to that wheel.",
+                    "Only by urban roads."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "rueda de uso temporal",
+                    "en": "temporary use wheel"
+                  },
+                  {
+                    "es": "pinchazo",
+                    "en": "puncture"
+                  }
+                ],
+                "src": "RGV Anexo XII, apartado 1.c"
+              }
             }
           ]
         },
@@ -3754,6 +4577,102 @@
                 "en": "It is forbidden to carry people in a place that is **not meant and fitted** for them."
               },
               "src": "RGC art. 10.1"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c5n",
+                "answer": 0,
+                "es": {
+                  "q": "Tu turismo tiene cinco plazas autorizadas. Vas con tu pareja y tres niños de 6, 8 y 10 años. ¿Podéis ir todos?",
+                  "options": [
+                    "No: cada niño cuenta como una persona y seríais seis",
+                    "Sí: los menores de 12 años no cuentan como plaza",
+                    "Sí, si los niños van sentados detrás"
+                  ],
+                  "why": "El número de personas transportadas no puede superar el de plazas autorizadas. Cada niño es una persona más: seis personas no caben en cinco plazas."
+                },
+                "en": {
+                  "q": "Your car has five authorized seats. You travel with your partner and three children aged 6, 8 and 10. May all of you go?",
+                  "options": [
+                    "No: each child counts as one person, and you would be six",
+                    "Yes: children under 12 do not count as a seat",
+                    "Yes, if the children sit in the back"
+                  ],
+                  "why": "The number of people carried may not exceed the authorized seats. Each child is one more person: six people do not fit in five seats."
+                },
+                "exam": {
+                  "q": "Your passenger car has five authorised seats. You go with your partner and three children of 6, 8 and 10 years. Can you all go?",
+                  "options": [
+                    "No; each child counts as one person and you would be six.",
+                    "Yes; those under 12 years do not count as a seat.",
+                    "Yes, if the children travel seated behind."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "plazas autorizadas",
+                    "en": "authorised seats"
+                  },
+                  {
+                    "es": "ocupantes",
+                    "en": "occupants"
+                  }
+                ],
+                "src": "RGC art. 9.1"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los vehículos autorizados a llevar a la vez **personas y carga** deben tener una **protección** adecuada para la carga. Así no molesta a los ocupantes ni puede dañarlos si sale proyectada.",
+                "en": "Vehicles authorized to carry **people and load** at the same time must have suitable **protection** for the load, so it does not bother the occupants or hurt them if it is thrown forward."
+              },
+              "src": "RGC art. 10.3"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c5m",
+                "answer": 2,
+                "es": {
+                  "q": "Tu furgoneta mixta lleva personas y carga a la vez. ¿Qué exige la norma?",
+                  "options": [
+                    "Que la carga vaya en el techo",
+                    "Que los pasajeros vayan detrás de la carga",
+                    "Una protección para la carga, para que no dañe a los ocupantes si sale proyectada"
+                  ],
+                  "why": "Los vehículos autorizados a transportar a la vez personas y carga deben llevar una protección adecuada, de manera que la carga no estorbe a los ocupantes ni pueda dañarlos si sale proyectada."
+                },
+                "en": {
+                  "q": "Your mixed-use van carries people and load at the same time. What does the rule require?",
+                  "options": [
+                    "That the load go on the roof",
+                    "That the passengers sit behind the load",
+                    "Protection for the load, so it cannot hurt the occupants if thrown forward"
+                  ],
+                  "why": "Vehicles authorized to carry people and load together must have suitable protection, so the load does not bother the occupants or hurt them if it is thrown forward."
+                },
+                "exam": {
+                  "q": "Your mixed van carries persons and load at the same time. What does the norm demand?",
+                  "options": [
+                    "That the load goes on the roof.",
+                    "That the passengers travel behind the load.",
+                    "A protection for the load, so that it does not harm the occupants if it is projected."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "vehículo mixto",
+                    "en": "mixed vehicle"
+                  },
+                  {
+                    "es": "proyectada (la carga)",
+                    "en": "projected, thrown (the load)"
+                  }
+                ],
+                "src": "RGC art. 10.3"
+              }
             }
           ]
         },
@@ -5129,6 +6048,50 @@
                 ],
                 "src": "RGC art. 19.2"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c8i",
+                "answer": 0,
+                "es": {
+                  "q": "Tu turismo lleva un retrovisor dentro y otro fuera del lado del conductor, pero ninguno fuera a la derecha. Con el de dentro ves bien hacia atrás. ¿Puedes circular?",
+                  "options": [
+                    "Sí: el exterior derecho es opcional en ese caso",
+                    "No: los dos exteriores son siempre obligatorios",
+                    "Solo dentro de poblado"
+                  ],
+                  "why": "Un turismo debe llevar el retrovisor interior y el exterior izquierdo. El derecho es opcional, salvo que el interior no deje ver la vía por detrás."
+                },
+                "en": {
+                  "q": "Your car has a mirror inside and one outside on the driver’s side, but none outside on the right. Through the inside one you see well behind. May you drive it?",
+                  "options": [
+                    "Yes: the right exterior mirror is optional in that case",
+                    "No: both exterior mirrors are always required",
+                    "Only within towns"
+                  ],
+                  "why": "A car must have the interior mirror and the left exterior mirror. The right one is optional, unless the interior mirror gives no view of the road behind."
+                },
+                "exam": {
+                  "q": "Your passenger car carries a mirror inside and another outside on the side of the driver, but none outside on the right. With the inside one you see well behind. Can you circulate?",
+                  "options": [
+                    "Yes; the right exterior one is optional in that case.",
+                    "No; the two exterior ones are always compulsory.",
+                    "Only inside town."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "retrovisor",
+                    "en": "rear-view mirror"
+                  },
+                  {
+                    "es": "retrovisor exterior izquierdo",
+                    "en": "left exterior rear-view mirror"
+                  }
+                ],
+                "src": "RGV Anexo III, ap. 2"
+              }
             }
           ]
         },
@@ -5345,6 +6308,50 @@
                   {
                     "es": "carrocería",
                     "en": "bodywork"
+                  }
+                ],
+                "src": "RGV Anexo III, ap. 3"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c8j",
+                "answer": 2,
+                "es": {
+                  "q": "Tu motocicleta alcanza por construcción 180 km/h. ¿Qué retrovisores debe llevar?",
+                  "options": [
+                    "Solo el izquierdo",
+                    "Solo el derecho",
+                    "Los dos: izquierdo y derecho"
+                  ],
+                  "why": "Las motocicletas de velocidad máxima superior a 100 km/h deben llevar dos retrovisores exteriores, uno a cada lado. Hasta 100 km/h, el derecho es optativo."
+                },
+                "en": {
+                  "q": "Your motorcycle has a design top speed of 180 km/h (about 112 mph). Which mirrors must it have?",
+                  "options": [
+                    "Only the left one",
+                    "Only the right one",
+                    "Both: left and right"
+                  ],
+                  "why": "Motorcycles with a top speed over 100 km/h must have two exterior mirrors, one on each side. Up to 100 km/h, the right one is optional."
+                },
+                "exam": {
+                  "q": "Your motorcycle reaches by construction 180 km/h. Which rear-view mirrors must it carry?",
+                  "options": [
+                    "Only the left one.",
+                    "Only the right one.",
+                    "Both: left and right."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "retrovisor",
+                    "en": "rear-view mirror"
+                  },
+                  {
+                    "es": "velocidad máxima",
+                    "en": "maximum speed"
                   }
                 ],
                 "src": "RGV Anexo III, ap. 3"
@@ -5833,6 +6840,53 @@
               "text": {
                 "es": "**Líquidos**: mantén bien el nivel de aceite, anticongelante, líquido del limpiaparabrisas y líquido de frenos. Si el de frenos está por debajo de la marca, no lo rellenes sin más: llévalo al taller, porque puede haber una fuga o unas pastillas gastadas. (Guía DGT)",
                 "en": "**Fluids**: keep oil, coolant, washer fluid and brake fluid at the right level. If brake fluid is below the mark, do not just top it up: take the car to a workshop, because there may be a leak or worn pads. (DGT guidance)"
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Según la revista de la DGT, llevar **neumáticos de invierno en verano** no es seguro, aunque mucha gente lo crea. Cuando llega el calor, vuelve a montar los neumáticos normales. (Guía de la DGT)",
+                "en": "According to the DGT magazine, using **winter tires in summer** is not safe, although many people believe it is. When the warm weather comes, refit your normal tires. (DGT guidance)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c6u",
+                "answer": 2,
+                "es": {
+                  "q": "Llevas neumáticos de invierno y empieza el verano. Según la DGT, ¿es seguro seguir con ellos?",
+                  "options": [
+                    "Sí: valen para todo el año",
+                    "Sí, si vas a menos de 90 km/h",
+                    "No: conviene cambiarlos por los normales"
+                  ],
+                  "why": "La revista de la DGT señala como creencia falsa que llevar neumáticos de invierno en verano sea seguro. Con el calor, cámbialos."
+                },
+                "en": {
+                  "q": "You have winter tires on and summer is starting. According to the DGT, is it safe to keep them?",
+                  "options": [
+                    "Yes: they work all year round",
+                    "Yes, if you drive below 90 km/h",
+                    "No: you should swap them for normal tires"
+                  ],
+                  "why": "The DGT magazine lists the idea that winter tires are safe in summer as a mistaken belief. When it gets warm, change them."
+                },
+                "exam": {
+                  "q": "You carry winter tyres and summer begins. According to the DGT, is it safe to continue with them?",
+                  "options": [
+                    "Yes; they are valid for the whole year.",
+                    "Yes, if you go at less than 90 km/h.",
+                    "No; it is advisable to change them for the normal ones."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "neumáticos de invierno",
+                    "en": "winter tyres"
+                  }
+                ],
+                "src": "DGT guidance: revista DGT «No sabemos conducir en invierno» (2021)"
               }
             }
           ]
@@ -6468,6 +7522,50 @@
                 ],
                 "src": "RGV Anexo XI, V-26.1"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c6s",
+                "answer": 1,
+                "es": {
+                  "q": "Tu coche está clasificado como vehículo de uso compartido y te piden poner su distintivo. ¿Dónde va, preferentemente?",
+                  "options": [
+                    "En el ángulo inferior derecho del parabrisas",
+                    "En el ángulo superior izquierdo del parabrisas, por dentro",
+                    "En la placa de matrícula trasera"
+                  ],
+                  "why": "El distintivo de uso compartido va preferentemente en el ángulo superior izquierdo del parabrisas, por su cara interior. En vehículos sin parabrisas, en un sitio bien visible."
+                },
+                "en": {
+                  "q": "Your car is classified as a shared-use vehicle and you are asked to display its badge. Where does it go, preferably?",
+                  "options": [
+                    "In the lower right corner of the windshield",
+                    "In the upper left corner of the windshield, on the inside",
+                    "On the rear license plate"
+                  ],
+                  "why": "The shared-use badge goes preferably in the upper left corner of the windshield, on the inside. On vehicles without a windshield, somewhere clearly visible."
+                },
+                "exam": {
+                  "q": "Your car is classified as a shared use vehicle and they ask you to place its badge. Where does it go, preferably?",
+                  "options": [
+                    "In the lower right angle of the windscreen.",
+                    "In the upper left angle of the windscreen, by the inner face.",
+                    "On the rear registration plate."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "distintivo de uso compartido",
+                    "en": "shared use badge"
+                  },
+                  {
+                    "es": "parabrisas",
+                    "en": "windscreen"
+                  }
+                ],
+                "src": "RGV Anexo XI, V-26.3"
+              }
             }
           ]
         },
@@ -6865,6 +7963,50 @@
                 ],
                 "src": "DGT guidance (dgt.es, «Conducción eficiente»; revista DGT, «10 claves para ahorrar combustible», 2014)"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c6t",
+                "answer": 0,
+                "es": {
+                  "q": "Según la DGT, vas a estar parado más de 60 segundos esperando a alguien. ¿Qué haces con el motor?",
+                  "options": [
+                    "Lo apagas: parado a ralentí también consume",
+                    "Lo dejas encendido para no gastar al arrancar",
+                    "Lo aceleras un poco para que no se cale"
+                  ],
+                  "why": "La DGT aconseja apagar el motor en paradas de más de 60 segundos. Un coche parado funciona a ralentí y, aunque gasta poco, consume."
+                },
+                "en": {
+                  "q": "According to the DGT, you will be stopped for more than 60 seconds waiting for someone. What do you do with the engine?",
+                  "options": [
+                    "Switch it off: idling also uses fuel",
+                    "Leave it running so as not to waste fuel restarting",
+                    "Rev it a little so it does not stall"
+                  ],
+                  "why": "The DGT advises switching off the engine for stops of more than 60 seconds. A stopped car idles, and even if it uses little fuel, it uses some."
+                },
+                "exam": {
+                  "q": "According to the DGT, you are going to be stopped more than 60 seconds waiting for somebody. What do you do with the engine?",
+                  "options": [
+                    "You switch it off; stopped at idle it also consumes.",
+                    "You leave it on so as not to spend when starting.",
+                    "You accelerate it a little so that it does not stall."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "ralentí",
+                    "en": "idle"
+                  },
+                  {
+                    "es": "conducción eficiente",
+                    "en": "efficient driving"
+                  }
+                ],
+                "src": "DGT guidance: dgt.es «Conducción eficiente» (2022)"
+              }
             }
           ]
         }
@@ -7116,6 +8258,101 @@
                   }
                 ],
                 "src": "DGT guidance"
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Según la revista de la DGT, el circuito de refrigeración lleva **anticongelante**: si fuera solo agua, se dilataría al helarse y podría reventar el motor. La **luneta térmica** es clave para ver bien por la luna trasera cuando hay hielo o vaho. (Guía de la DGT)",
+                "en": "According to the DGT magazine, the cooling system carries **antifreeze**: plain water would expand when it froze and could burst the engine. The **heated rear window** is key to seeing clearly through the rear glass when there is ice or mist. (DGT guidance)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c9n",
+                "answer": 0,
+                "es": {
+                  "q": "Llega el invierno y hiela por las noches. Según la DGT, ¿qué evita que el líquido de refrigeración se congele y dañe el motor?",
+                  "options": [
+                    "El anticongelante en el circuito",
+                    "Llenar el circuito solo con agua",
+                    "Arrancar el motor con el acelerador pisado"
+                  ],
+                  "why": "El refrigerante lleva anticongelante. Si fuera solo agua, se dilataría al helarse y podría reventar el motor."
+                },
+                "en": {
+                  "q": "Winter is here and it freezes at night. According to the DGT, what stops the coolant from freezing and damaging the engine?",
+                  "options": [
+                    "Antifreeze in the system",
+                    "Filling the system with water only",
+                    "Starting the engine with the accelerator pressed"
+                  ],
+                  "why": "The coolant contains antifreeze. Plain water would expand when it froze and could burst the engine."
+                },
+                "exam": {
+                  "q": "Winter arrives and it freezes at night. According to the DGT, what prevents the coolant liquid from freezing and damaging the engine?",
+                  "options": [
+                    "The antifreeze in the circuit.",
+                    "To fill the circuit only with water.",
+                    "To start the engine with the accelerator pressed."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "anticongelante",
+                    "en": "antifreeze"
+                  },
+                  {
+                    "es": "líquido refrigerante",
+                    "en": "coolant liquid"
+                  }
+                ],
+                "src": "DGT guidance: revista DGT «Revisión: reválida ante el frío» (2016)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c9o",
+                "answer": 1,
+                "es": {
+                  "q": "Una mañana fría la luna trasera de tu coche está empañada y con escarcha. ¿Para qué sirve la luneta térmica?",
+                  "options": [
+                    "Para calentar a los pasajeros de atrás",
+                    "Para quitar el hielo y el vaho y ver bien por detrás",
+                    "Para que la luna no se raye"
+                  ],
+                  "why": "La luneta térmica elimina el hielo y el vaho de la luna trasera. La DGT la considera fundamental para ver bien a través de ella."
+                },
+                "en": {
+                  "q": "On a cold morning your car’s rear window is misted up and frosty. What is the heated rear window for?",
+                  "options": [
+                    "To warm the rear passengers",
+                    "To clear ice and mist so you can see behind",
+                    "To keep the glass from scratching"
+                  ],
+                  "why": "The heated rear window clears ice and mist from the rear glass. The DGT calls it essential for seeing properly through it."
+                },
+                "exam": {
+                  "q": "One cold morning the rear window of your car is fogged and with frost. What is the heated rear window for?",
+                  "options": [
+                    "To heat the passengers of behind.",
+                    "To eliminate the ice and the fog and see well behind.",
+                    "So that the window does not get scratched."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "luneta térmica",
+                    "en": "heated rear window"
+                  },
+                  {
+                    "es": "vaho",
+                    "en": "mist, condensation"
+                  }
+                ],
+                "src": "DGT guidance: revista DGT «Revisión: reválida ante el frío» (2016)"
               }
             }
           ]

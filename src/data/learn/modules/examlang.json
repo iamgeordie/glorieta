@@ -789,6 +789,94 @@
                 ],
                 "src": "LSV Anexo I, 2, 3 y 5"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "examlang-vehiculo",
+                "answer": 1,
+                "es": {
+                  "q": "Para la ley, ¿es un vehículo una bicicleta?",
+                  "options": [
+                    "No, porque no tiene motor",
+                    "Sí: es un aparato apto para circular por las vías",
+                    "Solo si la conduce un mayor de 14 años"
+                  ],
+                  "why": "La ley define el vehículo como el aparato apto para circular por las vías. No hace falta motor: la bicicleta es un ciclo, y el ciclo es un vehículo."
+                },
+                "en": {
+                  "q": "Under the law, is a bicycle a vehicle?",
+                  "options": [
+                    "No, because it has no engine",
+                    "Yes: it is a device fit to travel on the roads",
+                    "Only if ridden by someone over 14"
+                  ],
+                  "why": "The law defines a vehicle as a device fit to travel on the roads. No engine is needed: a bicycle is a cycle, and a cycle is a vehicle."
+                },
+                "exam": {
+                  "q": "For the law, is a bicycle a vehicle?",
+                  "options": [
+                    "No, because it does not have engine.",
+                    "Yes: it is an apparatus fit to circulate by the roads.",
+                    "Only if it is driven by a person older than 14 years."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "vehículo",
+                    "en": "vehicle"
+                  },
+                  {
+                    "es": "apto para circular",
+                    "en": "fit to circulate"
+                  }
+                ],
+                "src": "LSV Anexo I, 6 y 7"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "examlang-conductor",
+                "answer": 2,
+                "es": {
+                  "q": "En un coche de autoescuela con doble mando, durante una clase, ¿quién tiene la consideración de conductor?",
+                  "options": [
+                    "El alumno, porque lleva el volante",
+                    "Los dos a la vez",
+                    "La persona que está a cargo de los mandos adicionales"
+                  ],
+                  "why": "Conductor es quien maneja el mecanismo de dirección o va al mando de un vehículo. Pero en los vehículos de aprendizaje, el conductor es quien está a cargo de los mandos adicionales."
+                },
+                "en": {
+                  "q": "In a driving-school car with dual controls, during a lesson, who counts as the driver?",
+                  "options": [
+                    "The learner, because they hold the wheel",
+                    "Both at once",
+                    "The person in charge of the extra controls"
+                  ],
+                  "why": "A driver is whoever operates the steering or is in control of a vehicle. But in learner vehicles, the driver is the person in charge of the additional controls."
+                },
+                "exam": {
+                  "q": "In a driving school car with double controls, during a class, who has the consideration of driver?",
+                  "options": [
+                    "The student, because he carries the steering wheel.",
+                    "Both at the same time.",
+                    "The person who is in charge of the additional controls."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "conductor",
+                    "en": "driver"
+                  },
+                  {
+                    "es": "mandos adicionales",
+                    "en": "additional controls"
+                  }
+                ],
+                "src": "LSV Anexo I, 1"
+              }
             }
           ]
         }
@@ -2236,6 +2324,94 @@
                 ],
                 "src": "LSV Anexo I, 9 y 14"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "examlang-automovil",
+                "answer": 1,
+                "es": {
+                  "q": "Un vehículo de motor se usa sobre todo para arrastrar remolques con mercancías. Para la ley, ¿es un automóvil?",
+                  "options": [
+                    "No: el automóvil solo sirve para transportar personas",
+                    "Sí: también lo es el que sirve para la tracción de otros vehículos con ese fin",
+                    "Solo si pesa menos de 3.500 kg"
+                  ],
+                  "why": "Automóvil es el vehículo de motor que sirve normalmente para transportar personas, cosas o ambas a la vez, o para arrastrar otros vehículos con ese fin. Se excluyen los vehículos especiales."
+                },
+                "en": {
+                  "q": "A motor vehicle is used mainly to pull trailers with goods. Under the law, is it an automobile?",
+                  "options": [
+                    "No: an automobile only carries people",
+                    "Yes: so is one used to pull other vehicles for that purpose",
+                    "Only if it weighs under 3,500 kg"
+                  ],
+                  "why": "An automobile is a motor vehicle normally used to carry people, things or both, or to pull other vehicles for that purpose. Special vehicles are left out."
+                },
+                "exam": {
+                  "q": "A motor vehicle is used above all to tow trailers with goods. For the law, is it an automobile?",
+                  "options": [
+                    "No: the automobile only serves to transport people.",
+                    "Yes: it is also the one that serves for the traction of other vehicles with that purpose.",
+                    "Only if it weighs less than 3,500 kg."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "automóvil",
+                    "en": "automobile"
+                  },
+                  {
+                    "es": "tracción",
+                    "en": "traction (towing)"
+                  }
+                ],
+                "src": "LSV Anexo I, 13"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "examlang-ciclo",
+                "answer": 0,
+                "es": {
+                  "q": "Un triciclo de pedales, sin motor, ¿es un ciclo para la ley?",
+                  "options": [
+                    "Sí: el ciclo tiene al menos dos ruedas y lo mueve la fuerza de quien va en él",
+                    "No: el ciclo tiene solo dos ruedas",
+                    "No: es un ciclomotor"
+                  ],
+                  "why": "Ciclo es el vehículo de al menos dos ruedas propulsado exclusiva o principalmente por la energía muscular de quien va en él, sobre todo con pedales. La bicicleta es el ciclo de dos ruedas."
+                },
+                "en": {
+                  "q": "Under the law, is a pedal tricycle with no motor a cycle?",
+                  "options": [
+                    "Yes: a cycle has at least two wheels and is moved by its rider's strength",
+                    "No: a cycle has only two wheels",
+                    "No: it is a moped"
+                  ],
+                  "why": "A cycle is a vehicle with at least two wheels powered only or mainly by the muscle power of those on it, above all with pedals. A bicycle is the two-wheeled cycle."
+                },
+                "exam": {
+                  "q": "A tricycle of pedals, without engine, is it a cycle for the law?",
+                  "options": [
+                    "Yes: the cycle has at least two wheels and is moved by the force of whoever goes on it.",
+                    "No: the cycle has only two wheels.",
+                    "No: it is a moped."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "ciclo",
+                    "en": "cycle"
+                  },
+                  {
+                    "es": "bicicleta",
+                    "en": "bicycle"
+                  }
+                ],
+                "src": "LSV Anexo I, 7 y 8"
+              }
             }
           ]
         },
@@ -2612,6 +2788,50 @@
                   }
                 ],
                 "src": "LSV Anexo I, 24"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "examlang-derivado",
+                "answer": 2,
+                "es": {
+                  "q": "Un coche de reparto conserva la carrocería de un turismo, pero solo tiene una fila de asientos. ¿Cómo lo llama la ley?",
+                  "options": [
+                    "Vehículo mixto adaptable",
+                    "Furgoneta",
+                    "Derivado de turismo"
+                  ],
+                  "why": "El derivado de turismo es un automóvil para servicios o para transporte exclusivo de mercancías. Deriva de un turismo, conserva su carrocería y tiene una sola fila de asientos."
+                },
+                "en": {
+                  "q": "A delivery car keeps the body of a passenger car but has only one row of seats. What does the law call it?",
+                  "options": [
+                    "Adaptable mixed-use vehicle",
+                    "Van",
+                    "Car-derived vehicle"
+                  ],
+                  "why": "A car-derived vehicle (derivado de turismo) is an automobile for services or for carrying only goods. It comes from a passenger car, keeps its body and has a single row of seats."
+                },
+                "exam": {
+                  "q": "A delivery car keeps the body of a passenger car, but it only has one row of seats. How does the law call it?",
+                  "options": [
+                    "Adaptable mixed vehicle.",
+                    "Van.",
+                    "Derived from passenger car."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "derivado de turismo",
+                    "en": "derived from passenger car"
+                  },
+                  {
+                    "es": "fila de asientos",
+                    "en": "row of seats"
+                  }
+                ],
+                "src": "RGV Anexo II, A (derivado de turismo)"
               }
             }
           ]

@@ -215,6 +215,94 @@
                 ],
                 "src": "RGC arts. 82.2 y 30.1"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c1g",
+                "answer": 0,
+                "es": {
+                  "q": "En una carretera de doble sentido, el coche de delante indica claramente que gira a la izquierda y se pega al eje. A su derecha queda sitio de sobra en tu carril. ¿Puedes pasarlo?",
+                  "options": [
+                    "Sí, por la derecha y con la máxima precaución",
+                    "No: siempre se adelanta por la izquierda",
+                    "Solo por la izquierda, invadiendo el sentido contrario"
+                  ],
+                  "why": "Si el de delante indica claramente que va a girar a la izquierda, o a parar a ese lado, y hay espacio suficiente, el adelantamiento se hace por la derecha, con las máximas precauciones."
+                },
+                "en": {
+                  "q": "On a two-way road, the car ahead clearly signals a left turn and moves to the center line. There is plenty of room on its right in your lane. May you pass it?",
+                  "options": [
+                    "Yes, on the right and with the utmost care",
+                    "No: you always overtake on the left",
+                    "Only on the left, entering the oncoming side"
+                  ],
+                  "why": "If the vehicle ahead clearly shows it will turn left, or stop on that side, and there is enough room, you overtake on the right, with the utmost care."
+                },
+                "exam": {
+                  "q": "On a road of double direction, the car in front indicates clearly that it turns to the left and sticks to the axis. On its right there is plenty of space in your lane. Can you pass it?",
+                  "options": [
+                    "Yes, by the right and with the maximum precaution.",
+                    "No: one always overtakes by the left.",
+                    "Only by the left, invading the opposite direction."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "adelantar por la derecha",
+                    "en": "to overtake on the right"
+                  },
+                  {
+                    "es": "eje de la calzada",
+                    "en": "axis of the carriageway"
+                  }
+                ],
+                "src": "RGC art. 82.2"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c1h",
+                "answer": 1,
+                "es": {
+                  "q": "En una calzada de doble sentido, un tranvía circula por la zona central. Quieres adelantarlo y hay espacio. ¿Por dónde lo haces?",
+                  "options": [
+                    "Por la izquierda, como a cualquier vehículo",
+                    "Por la derecha, con la máxima precaución",
+                    "Por el lado con menos tráfico"
+                  ],
+                  "why": "En las vías con circulación en ambos sentidos, a los tranvías que van por la zona central se les adelanta por la derecha, si hay espacio y con la máxima precaución."
+                },
+                "en": {
+                  "q": "On a two-way roadway, a tram runs along the middle. You want to overtake it and there is room. Which side do you use?",
+                  "options": [
+                    "The left, as for any vehicle",
+                    "The right, with the utmost care",
+                    "Whichever side has less traffic"
+                  ],
+                  "why": "On two-way roads, trams running along the middle are overtaken on the right, if there is room and with the utmost care."
+                },
+                "exam": {
+                  "q": "On a carriageway of double direction, a tram circulates by the central zone. You want to overtake it and there is space. By where do you do it?",
+                  "options": [
+                    "By the left, as any vehicle.",
+                    "By the right, with the maximum precaution.",
+                    "By the side with less traffic."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "tranvía",
+                    "en": "tram"
+                  },
+                  {
+                    "es": "zona central",
+                    "en": "central zone"
+                  }
+                ],
+                "src": "RGC art. 82.2"
+              }
             }
           ]
         },
@@ -3126,6 +3214,50 @@
                 ],
                 "src": "RGC art. 75.1.b"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c5y",
+                "answer": 0,
+                "es": {
+                  "q": "Vas a girar a la izquierda en una calzada de doble sentido que no tiene ninguna marca en el centro. ¿Dónde te colocas antes del giro?",
+                  "options": [
+                    "Junto al eje de la calzada, sin invadir el sentido contrario",
+                    "Pegado al borde derecho, para dejar pasar a los demás",
+                    "En el centro, aunque ocupes parte del sentido contrario"
+                  ],
+                  "why": "Para girar a la izquierda en una calzada de doble sentido te ciñes a la marca que separa los sentidos o, si no la hay, al eje de la calzada, sin invadir el lado contrario."
+                },
+                "en": {
+                  "q": "You will turn left on a two-way roadway with no marking in the middle. Where do you position yourself before the turn?",
+                  "options": [
+                    "Next to the center of the roadway, without entering the oncoming side",
+                    "Close to the right edge, to let others pass",
+                    "In the middle, even if you take part of the oncoming side"
+                  ],
+                  "why": "To turn left on a two-way roadway you keep to the line between directions or, if there is none, to the center of the roadway, without entering the other side."
+                },
+                "exam": {
+                  "q": "You are going to turn to the left on a carriageway of double direction that has no marking in the centre. Where do you place yourself before the turn?",
+                  "options": [
+                    "Next to the axis of the carriageway, without invading the opposite direction.",
+                    "Stuck to the right edge, in order to let the others pass.",
+                    "In the centre, although you occupy part of the opposite direction."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "eje de la calzada",
+                    "en": "axis of the carriageway"
+                  },
+                  {
+                    "es": "sentido contrario",
+                    "en": "opposite direction"
+                  }
+                ],
+                "src": "RGC art. 75.1.b"
+              }
             }
           ]
         },
@@ -4138,6 +4270,94 @@
                   {
                     "es": "luz de emergencia",
                     "en": "hazard lights"
+                  }
+                ],
+                "src": "RGC art. 109.2.c"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c6l",
+                "answer": 2,
+                "es": {
+                  "q": "Vas a frenar con fuerza porque ves una retención delante. ¿Cómo avisas a los de detrás, si es posible?",
+                  "options": [
+                    "Con el intermitente derecho",
+                    "Con ráfagas de la luz de carretera",
+                    "Usando de forma repetida las luces de freno, o subiendo y bajando el brazo con movimientos cortos"
+                  ],
+                  "why": "La intención de frenar de modo considerable o de inmovilizarte se avisa, siempre que se pueda, con el uso reiterado de las luces de freno o moviendo el brazo alternativamente, con movimientos cortos y rápidos."
+                },
+                "en": {
+                  "q": "You are about to brake hard because you see a queue ahead. How do you warn drivers behind, if possible?",
+                  "options": [
+                    "With the right turn signal",
+                    "By flashing your high beams",
+                    "By using the brake lights repeatedly, or moving your arm up and down in short strokes"
+                  ],
+                  "why": "The intention to brake hard or stop is signaled, whenever possible, by repeated use of the brake lights or by moving the arm up and down in short, quick movements."
+                },
+                "exam": {
+                  "q": "You are going to brake with force because you see a retention in front. How do you warn those behind, if it is possible?",
+                  "options": [
+                    "With the right indicator.",
+                    "With flashes of the long-range light.",
+                    "Using in a repeated way the brake lights, or raising and lowering the arm with short movements."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "luces de frenado",
+                    "en": "brake lights"
+                  },
+                  {
+                    "es": "frenar de modo considerable",
+                    "en": "to brake considerably"
+                  }
+                ],
+                "src": "RGC art. 109.2.c"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c6m",
+                "answer": 0,
+                "es": {
+                  "q": "Circulas por el carril derecho de una calle y vas a parar junto a la acera de la derecha. ¿Qué señal usas para avisar a los de detrás?",
+                  "options": [
+                    "El intermitente derecho",
+                    "La luz de emergencia, sin intermitente",
+                    "El intermitente izquierdo, para que te adelanten"
+                  ],
+                  "why": "Si te inmovilizas para parar o estacionar, avisas además con el intermitente del lado hacia el que vas a parar."
+                },
+                "en": {
+                  "q": "You are in the right lane of a street and will stop by the right-hand curb. What signal do you use to warn those behind?",
+                  "options": [
+                    "The right turn signal",
+                    "The hazard lights, without a turn signal",
+                    "The left turn signal, so they overtake you"
+                  ],
+                  "why": "If you stop in order to halt or park, you also signal with the turn signal on the side you will stop on."
+                },
+                "exam": {
+                  "q": "You circulate by the right lane of a street and you are going to stop next to the right sidewalk. Which signal do you use to warn those behind?",
+                  "options": [
+                    "The right indicator.",
+                    "The emergency light, without indicator.",
+                    "The left indicator, so that they overtake you."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "intermitente",
+                    "en": "indicator (turn signal)"
+                  },
+                  {
+                    "es": "parar",
+                    "en": "to stop"
                   }
                 ],
                 "src": "RGC art. 109.2.c"

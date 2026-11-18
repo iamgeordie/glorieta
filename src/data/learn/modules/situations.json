@@ -685,6 +685,94 @@
                 ],
                 "src": "RGC art. 94.1.d"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c1i",
+                "answer": 1,
+                "es": {
+                  "q": "Llegas a una parada de autobús urbano señalizada. Quieres dejar a un amigo, sin bajarte del coche, en unos segundos. ¿Puedes parar ahí?",
+                  "options": [
+                    "Sí, si no viene ningún autobús",
+                    "No: en las zonas de parada del transporte público urbano está prohibido parar",
+                    "Sí, con la luz de emergencia encendida"
+                  ],
+                  "why": "Está prohibido parar en las zonas destinadas a la parada y el estacionamiento de uso exclusivo del transporte público urbano. Y donde no se puede parar, tampoco se puede estacionar."
+                },
+                "en": {
+                  "q": "You reach a marked city bus stop. You want to drop a friend off, staying in the car, in a few seconds. May you stop there?",
+                  "options": [
+                    "Yes, if no bus is coming",
+                    "No: stopping is banned in stop zones of urban public transport",
+                    "Yes, with the hazard lights on"
+                  ],
+                  "why": "Stopping is banned in zones set aside for the exclusive stopping and parking of urban public transport. And where you cannot stop, you cannot park either."
+                },
+                "exam": {
+                  "q": "You arrive at a signposted urban bus stop. You want to leave a friend, without getting out of the car, in a few seconds. Can you stop there?",
+                  "options": [
+                    "Yes, if no bus comes.",
+                    "No: in the stop zones of urban public transport it is prohibited to stop.",
+                    "Yes, with the emergency light switched on."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "parada de autobús",
+                    "en": "bus stop"
+                  },
+                  {
+                    "es": "transporte público urbano",
+                    "en": "urban public transport"
+                  }
+                ],
+                "src": "RGC art. 94.1.i y 94.2.a"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c1j",
+                "answer": 2,
+                "es": {
+                  "q": "Quieres parar un momento en un carril bici para recoger un paquete. Te quedas al volante. ¿Puedes?",
+                  "options": [
+                    "Sí, si no pasa ningún ciclista",
+                    "Sí, durante menos de dos minutos",
+                    "No: está prohibido parar en los carriles reservados a las bicicletas"
+                  ],
+                  "why": "Está prohibido parar en los carriles reservados para las bicicletas, aunque sea un momento. Tampoco se puede estacionar en ellos."
+                },
+                "en": {
+                  "q": "You want to stop for a moment in a bike lane to pick up a parcel. You stay at the wheel. May you?",
+                  "options": [
+                    "Yes, if no cyclist is passing",
+                    "Yes, for less than two minutes",
+                    "No: stopping is banned in lanes reserved for bicycles"
+                  ],
+                  "why": "Stopping is banned in lanes reserved for bicycles, even for a moment. Parking in them is banned too."
+                },
+                "exam": {
+                  "q": "You want to stop a moment in a bicycle lane in order to collect a parcel. You stay at the wheel. Can you?",
+                  "options": [
+                    "Yes, if no cyclist passes.",
+                    "Yes, during less than two minutes.",
+                    "No: it is prohibited to stop in the lanes reserved for the bicycles."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "carril bici",
+                    "en": "bicycle lane"
+                  },
+                  {
+                    "es": "parar",
+                    "en": "to stop"
+                  }
+                ],
+                "src": "RGC art. 94.1.h y 94.2.a"
+              }
             }
           ]
         }
@@ -966,6 +1054,58 @@
                   }
                 ],
                 "src": "RGC art. 90.2"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "De noche, si paras o estacionas en la calzada o el arcén de una **travesía insuficientemente iluminada**, deja encendidas las **luces de posición**. Puedes cambiarlas por las de estacionamiento o, si estacionas en línea, por las dos de posición del lado de la calzada.",
+                "en": "At night, if you stop or park on the roadway or shoulder of a **poorly lit through-town road**, leave the **position lights** on. You may swap them for parking lights or, if parked in line, for the two position lights on the roadway side."
+              },
+              "src": "RGC art. 105.2"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c2q",
+                "answer": 1,
+                "es": {
+                  "q": "De noche estacionas en línea en el arcén de una travesía mal iluminada. ¿Qué luces dejas encendidas?",
+                  "options": [
+                    "Ninguna: en el arcén no hace falta",
+                    "Las de posición; puedes cambiarlas por las de estacionamiento o por las dos de posición que dan a la calzada",
+                    "La luz de emergencia, toda la noche"
+                  ],
+                  "why": "Parado o estacionado de noche en la calzada o el arcén de una travesía insuficientemente iluminada, llevas las luces de posición. Puedes sustituirlas por las de estacionamiento o, estacionado en línea, por las dos de posición del lado de la calzada."
+                },
+                "en": {
+                  "q": "At night you park in line on the shoulder of a poorly lit through-town road. Which lights do you leave on?",
+                  "options": [
+                    "None: on the shoulder they are not needed",
+                    "The position lights; you may swap them for parking lights or for the two position lights facing the roadway",
+                    "The hazard lights, all night"
+                  ],
+                  "why": "Stopped or parked at night on the roadway or shoulder of a poorly lit through-town road, you keep the position lights on. You may replace them with parking lights or, when parked in line, with the two position lights on the roadway side."
+                },
+                "exam": {
+                  "q": "At night you park in line on the hard shoulder of a badly lit crossing through town. Which lights do you leave switched on?",
+                  "options": [
+                    "None: on the hard shoulder it is not necessary.",
+                    "The position ones; you can change them for the parking ones or for the two position ones that face the carriageway.",
+                    "The emergency light, all night."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "travesía",
+                    "en": "crossing through town"
+                  },
+                  {
+                    "es": "luces de estacionamiento",
+                    "en": "parking lights"
+                  }
+                ],
+                "src": "RGC art. 105.2"
               }
             }
           ]
@@ -1404,6 +1544,50 @@
                 ],
                 "src": "RGC art. 94.2.g"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c2n",
+                "answer": 0,
+                "es": {
+                  "q": "No encuentras sitio y piensas dejar el coche sobre la acera, pegado a la pared, para no estorbar en la calzada. ¿Está permitido?",
+                  "options": [
+                    "No: está prohibido estacionar sobre las aceras",
+                    "Sí, si dejas un metro libre para los peatones",
+                    "Sí, de noche, cuando pasan pocos peatones"
+                  ],
+                  "why": "Está prohibido estacionar sobre las aceras, los paseos y las demás zonas destinadas al paso de peatones. La acera es el espacio de los peatones."
+                },
+                "en": {
+                  "q": "You cannot find a space and think of leaving the car on the sidewalk, against the wall, so as not to block the roadway. Is that allowed?",
+                  "options": [
+                    "No: parking on sidewalks is banned",
+                    "Yes, if you leave a meter free for pedestrians",
+                    "Yes, at night, when few pedestrians pass"
+                  ],
+                  "why": "Parking is banned on sidewalks, promenades and other areas meant for pedestrians. The sidewalk is the pedestrians' space."
+                },
+                "exam": {
+                  "q": "You do not find a place and you think of leaving the car on the sidewalk, stuck to the wall, in order not to hinder on the carriageway. Is it allowed?",
+                  "options": [
+                    "No: it is prohibited to park on the sidewalks.",
+                    "Yes, if you leave one metre free for the pedestrians.",
+                    "Yes, at night, when few pedestrians pass."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "acera",
+                    "en": "sidewalk"
+                  },
+                  {
+                    "es": "estacionar",
+                    "en": "to park"
+                  }
+                ],
+                "src": "RGC art. 94.2.e"
+              }
             }
           ]
         },
@@ -1777,6 +1961,94 @@
                   }
                 ],
                 "src": "RGC art. 94.2.b; LSV art. 105.1.g"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c2o",
+                "answer": 1,
+                "es": {
+                  "q": "Junto al bordillo de una zona de carga y descarga hay pintada una línea amarilla en zigzag. ¿Qué prohíbe esa marca?",
+                  "options": [
+                    "Parar y estacionar",
+                    "Estacionar, a los vehículos en general",
+                    "Solo circular por encima de ella"
+                  ],
+                  "why": "La marca en zigzag indica que el estacionamiento está prohibido a los vehículos en general, porque el lugar está reservado a un uso que no implica larga permanencia, como la parada de autobuses o la carga y descarga."
+                },
+                "en": {
+                  "q": "A yellow zigzag line is painted along the curb of a loading zone. What does that marking ban?",
+                  "options": [
+                    "Stopping and parking",
+                    "Parking, for vehicles in general",
+                    "Only driving over it"
+                  ],
+                  "why": "The zigzag marking shows that parking is banned for vehicles in general, because the spot is kept for a use that involves no long stay, such as bus stops or loading."
+                },
+                "exam": {
+                  "q": "Next to the curb of a loading and unloading zone there is painted a yellow line in zigzag. What does that marking prohibit?",
+                  "options": [
+                    "To stop and to park.",
+                    "To park, to the vehicles in general.",
+                    "Only to circulate over it."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "marca en zigzag",
+                    "en": "zigzag marking"
+                  },
+                  {
+                    "es": "carga y descarga",
+                    "en": "loading and unloading"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.2 (marcas viales M-7.9)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c2p",
+                "answer": 2,
+                "es": {
+                  "q": "Unas plazas de estacionamiento están pintadas de un color que no es el blanco. ¿Qué puede indicar ese color?",
+                  "options": [
+                    "Que las plazas son solo para motocicletas",
+                    "Que está prohibido estacionar en ellas",
+                    "Una limitación de tiempo, un tipo de usuario o un fin concreto"
+                  ],
+                  "why": "Las marcas de estacionamiento pueden ser de otros colores, además del blanco, o llevar pictogramas. Así indican limitaciones temporales, plazas para cierto tipo de usuario o para un fin concreto."
+                },
+                "en": {
+                  "q": "Some parking spaces are painted a color other than white. What can that color indicate?",
+                  "options": [
+                    "That the spaces are for motorcycles only",
+                    "That parking in them is banned",
+                    "A time limit, a type of user or a specific purpose"
+                  ],
+                  "why": "Parking markings may be other colors besides white, or carry pictograms. That way they show time limits, spaces for a certain type of user or for a specific purpose."
+                },
+                "exam": {
+                  "q": "Some parking places are painted in a colour that is not white. What can that colour indicate?",
+                  "options": [
+                    "That the places are only for motorcycles.",
+                    "That it is prohibited to park in them.",
+                    "A limitation of time, a type of user or a concrete purpose."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "marcas de estacionamiento",
+                    "en": "parking markings"
+                  },
+                  {
+                    "es": "limitación horaria",
+                    "en": "time limitation"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.2 (marcas viales M-7.3 y M-7.4)"
               }
             }
           ]
@@ -2597,6 +2869,58 @@
                   }
                 ],
                 "src": "RGC arts. 98.1, 99.1 y 101.1"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "En un túnel **insuficientemente iluminado**, a cualquier hora, si vas a **más de 40 km/h**, lleva la **luz de largo alcance**, salvo cuando debas usar la de cruce, sobre todo para no deslumbrar.",
+                "en": "In a **poorly lit** tunnel, at any hour, if you drive **faster than 40 km/h**, use the **high beam**, except when you must use the low beam, above all to avoid dazzling others."
+              },
+              "src": "RGC art. 100.1"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c4h",
+                "answer": 0,
+                "es": {
+                  "q": "Es de día. Entras a 80 km/h en un túnel mal iluminado y no hay nadie cerca, ni delante ni de frente. ¿Qué luz llevas?",
+                  "options": [
+                    "La de largo alcance (de carretera)",
+                    "Solo las de posición",
+                    "La antiniebla trasera"
+                  ],
+                  "why": "En túneles insuficientemente iluminados, a más de 40 km/h y a cualquier hora, se lleva la luz de largo alcance, salvo que haya que usar la de cruce para no deslumbrar."
+                },
+                "en": {
+                  "q": "It is daytime. You enter a poorly lit tunnel at 80 km/h and nobody is near, ahead or oncoming. Which light do you use?",
+                  "options": [
+                    "The high beam",
+                    "Only the position lights",
+                    "The rear fog light"
+                  ],
+                  "why": "In poorly lit tunnels, above 40 km/h and at any hour, you use the high beam, unless you must use the low beam to avoid dazzling."
+                },
+                "exam": {
+                  "q": "It is daytime. You enter at 80 km/h in a badly lit tunnel and there is nobody near, neither in front nor coming. Which light do you carry?",
+                  "options": [
+                    "The long-range one (main beam).",
+                    "Only the position ones.",
+                    "The rear fog light."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "insuficientemente iluminado",
+                    "en": "insufficiently lit"
+                  },
+                  {
+                    "es": "alumbrado de largo alcance",
+                    "en": "long-range lighting (main beam)"
+                  }
+                ],
+                "src": "RGC art. 100.1"
               }
             }
           ]

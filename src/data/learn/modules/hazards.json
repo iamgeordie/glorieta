@@ -155,6 +155,61 @@
                 "es": "Si tienes que frenar de golpe, probablemente anticipaste tarde. Cuanto antes decidas, más suave es la maniobra.",
                 "en": "If you have to brake hard, you probably anticipated late. The earlier you decide, the smoother the maneuver."
               }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Una guía de la DGT resume la conducción segura en tres principios: **observar** con atención, **comunicarte** con los demás usuarios y **actuar** correctamente. Comunicar es avisar a tiempo de tus maniobras, para que te vean y te entiendan.",
+                "en": "A DGT guide sums up safe driving in three principles: **observe** carefully, **communicate** with other road users and **act** correctly. Communicating means signaling your maneuvers in good time, so others see you and understand you."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c1c",
+                "answer": 1,
+                "es": {
+                  "q": "Según la DGT, ¿cuál de estas costumbres ayuda a evitar un accidente?",
+                  "options": [
+                    "Decidir las maniobras en el último momento, para no despistar a nadie",
+                    "Señalizar tus maniobras a tiempo, para que los demás te vean y te entiendan",
+                    "Confiar en que los demás adivinen lo que vas a hacer"
+                  ],
+                  "why": "Comunicarte con los demás usuarios es uno de los principios de la conducción segura. Si avisas a tiempo, los demás pueden prever tu maniobra."
+                },
+                "exam": {
+                  "q": "According to the DGT, which of these habits helps to avoid an accident?",
+                  "options": [
+                    "To decide the manoeuvres at the last moment, in order not to distract anybody.",
+                    "To signal your manoeuvres in time, so that the others see you and understand you.",
+                    "To trust that the others guess what you are going to do."
+                  ]
+                },
+                "en": {
+                  "q": "According to the DGT, which of these habits helps you avoid a crash?",
+                  "options": [
+                    "Deciding maneuvers at the last moment, so as not to confuse anyone",
+                    "Signaling your maneuvers in time, so others see and understand you",
+                    "Trusting others to guess what you are going to do"
+                  ],
+                  "why": "Communicating with other road users is one of the principles of safe driving. If you signal in time, others can foresee your maneuver."
+                },
+                "terms": [
+                  {
+                    "es": "señalizar",
+                    "en": "to signal"
+                  },
+                  {
+                    "es": "maniobra",
+                    "en": "manoeuvre"
+                  },
+                  {
+                    "es": "usuarios de la vía",
+                    "en": "road users"
+                  }
+                ],
+                "src": "DGT guidance (Guía para monitores de cursos de conducción segura y eficiente de turismos, dgt.es, 2023)"
+              }
             }
           ]
         },
@@ -1359,6 +1414,61 @@
                 ],
                 "src": "DGT guidance (Niebla: visibilidad bajo mínimos, 2021)"
               }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Consejos de la DGT con lluvia: baja la velocidad, aumenta la distancia y vigila el estado de los neumáticos. Si hay **charcos**, frena con suavidad y de forma mantenida, nunca de golpe.",
+                "en": "DGT advice in the rain: slow down, leave more distance and keep an eye on your tires. Where there are **puddles**, brake gently and steadily, never sharply."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c3s",
+                "answer": 0,
+                "es": {
+                  "q": "La calzada tiene charcos después de una tormenta. Según la DGT, ¿cómo debes circular?",
+                  "options": [
+                    "Más despacio, frenando con suavidad y de forma mantenida",
+                    "A la misma velocidad, para no perder impulso en el agua",
+                    "Frenando fuerte justo al entrar en cada charco"
+                  ],
+                  "why": "Con lluvia hay menos adherencia y el agua puede provocar aquaplaning. La DGT aconseja reducir la velocidad, aumentar la distancia y frenar con suavidad."
+                },
+                "exam": {
+                  "q": "The carriageway has pools of water after a storm. According to the DGT, how must you circulate?",
+                  "options": [
+                    "More slowly, braking with smoothness and in a sustained way.",
+                    "At the same speed, in order not to lose impulse in the water.",
+                    "Braking hard just on entering each pool."
+                  ]
+                },
+                "en": {
+                  "q": "There are puddles on the road after a storm. According to the DGT, how should you drive?",
+                  "options": [
+                    "More slowly, braking gently and steadily",
+                    "At the same speed, so you keep your momentum through the water",
+                    "Braking hard just as you enter each puddle"
+                  ],
+                  "why": "Rain means less grip, and water can cause aquaplaning. The DGT advises slowing down, leaving more distance and braking gently."
+                },
+                "terms": [
+                  {
+                    "es": "charco",
+                    "en": "pool of water, puddle"
+                  },
+                  {
+                    "es": "calzada",
+                    "en": "carriageway"
+                  },
+                  {
+                    "es": "aquaplaning",
+                    "en": "aquaplaning"
+                  }
+                ],
+                "src": "DGT guidance (Guía para monitores de cursos de conducción segura y eficiente de turismos, dgt.es, 2023)"
+              }
             }
           ]
         },
@@ -1648,6 +1758,61 @@
                 ],
                 "src": "DGT guidance (Hielo y nieve: con la adherencia al límite, dgt.es, 2021)"
               }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Con nieve, el sol puede reflejarse con fuerza en el suelo blanco. La DGT avisa de este reflejo: puede hacer falta el parasol o unas gafas de sol.",
+                "en": "In snow, the sun can reflect strongly off the white ground. The DGT warns about this glare: you may need the sun visor or sunglasses."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c3q",
+                "answer": 2,
+                "es": {
+                  "q": "Ha nevado y ahora sale el sol, que brilla mucho sobre la nieve. Según la DGT, ¿qué te puede ayudar?",
+                  "options": [
+                    "Encender las luces largas",
+                    "Nada: con nieve nunca hace falta proteger la vista",
+                    "El parasol o unas gafas de sol"
+                  ],
+                  "why": "La DGT avisa del reflejo del sol sobre la nieve. Puede deslumbrarte, y el parasol o unas gafas de sol te ayudan a ver bien."
+                },
+                "exam": {
+                  "q": "It has snowed and now the sun comes out, which shines a lot on the snow. According to the DGT, what can help you?",
+                  "options": [
+                    "To switch on the long-range lights.",
+                    "Nothing, with snow it is never necessary to protect the sight.",
+                    "The sun visor or some sunglasses."
+                  ]
+                },
+                "en": {
+                  "q": "It has snowed and now the sun comes out and shines brightly on the snow. According to the DGT, what can help you?",
+                  "options": [
+                    "Switching on the high beams",
+                    "Nothing: in snow you never need to protect your eyes",
+                    "The sun visor or sunglasses"
+                  ],
+                  "why": "The DGT warns about sunlight reflecting off snow. It can dazzle you, and the sun visor or sunglasses help you see well."
+                },
+                "terms": [
+                  {
+                    "es": "reflejo",
+                    "en": "reflection, glare"
+                  },
+                  {
+                    "es": "parasol",
+                    "en": "sun visor"
+                  },
+                  {
+                    "es": "gafas de sol",
+                    "en": "sunglasses"
+                  }
+                ],
+                "src": "DGT guidance (Guía para monitores de cursos de conducción segura y eficiente de turismos, dgt.es, 2023)"
+              }
             }
           ]
         },
@@ -1719,6 +1884,61 @@
                   }
                 ],
                 "src": "DGT guidance"
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Consejos de la DGT con viento fuerte: reduce la velocidad, corrige la dirección para mantener la trayectoria y lleva las **ventanillas cerradas**. Con nubes de humo o polvo, cierra también las ventanillas y usa la recirculación del aire.",
+                "en": "DGT advice in strong wind: slow down, correct the steering to hold your line and keep the **windows closed**. In clouds of smoke or dust, close the windows too and use air recirculation."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c3r",
+                "answer": 1,
+                "es": {
+                  "q": "Hace un día de mucho viento y sopla polvo por la carretera. Según la DGT, ¿cómo llevas las ventanillas?",
+                  "options": [
+                    "Bajadas, para notar mejor el viento",
+                    "Cerradas, para que no entre polvo ni nada en el coche",
+                    "Medio abiertas, para que no se empañen"
+                  ],
+                  "why": "La DGT aconseja llevar las ventanillas cerradas con viento fuerte. Con polvo o humo, ciérralas y usa la recirculación del aire, para que no entre en el habitáculo."
+                },
+                "exam": {
+                  "q": "It is a day of a lot of wind and dust blows along the road. According to the DGT, how do you carry the windows?",
+                  "options": [
+                    "Lowered, in order to notice the wind better.",
+                    "Closed, so that neither dust nor anything enters the car.",
+                    "Half open, so that they do not mist up."
+                  ]
+                },
+                "en": {
+                  "q": "It is a very windy day and dust is blowing across the road. According to the DGT, how do you keep your windows?",
+                  "options": [
+                    "Down, to feel the wind better",
+                    "Closed, so no dust or anything else gets into the car",
+                    "Half open, so they do not mist up"
+                  ],
+                  "why": "The DGT advises keeping the windows closed in strong wind. With dust or smoke, close them and use air recirculation so it does not get into the cabin."
+                },
+                "terms": [
+                  {
+                    "es": "ventanilla",
+                    "en": "window"
+                  },
+                  {
+                    "es": "viento lateral",
+                    "en": "side wind"
+                  },
+                  {
+                    "es": "habitáculo",
+                    "en": "passenger compartment"
+                  }
+                ],
+                "src": "DGT guidance (Guía para monitores de cursos de conducción segura y eficiente de turismos, dgt.es, 2023)"
               }
             }
           ]
@@ -1838,6 +2058,65 @@
                   }
                 ],
                 "src": "RGC art. 102.1"
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "El sol bajo también deslumbra. Según la DGT, es más peligroso al **amanecer y al anochecer**. Lleva el parabrisas limpio para evitar reflejos, usa el parasol o gafas de sol y modera la velocidad.",
+                "en": "A low sun dazzles too. According to the DGT, it is most dangerous at **dawn and dusk**. Keep the windshield clean to avoid reflections, use the sun visor or sunglasses and slow down."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c3p",
+                "answer": 0,
+                "es": {
+                  "q": "Conduces al amanecer, con el sol de frente y el parabrisas sucio. Según la DGT, ¿qué ocurre?",
+                  "options": [
+                    "El sol y sus reflejos te deslumbran y te cuesta ver a los demás",
+                    "Nada: el parabrisas sucio filtra la luz del sol",
+                    "Solo afecta a quien viene de frente"
+                  ],
+                  "why": "El deslumbramiento del sol es más peligroso al amanecer y al anochecer. Un parabrisas limpio evita reflejos; usa el parasol o gafas de sol y modera la velocidad."
+                },
+                "exam": {
+                  "q": "You drive at dawn, with the sun in front and the windscreen dirty. According to the DGT, what happens?",
+                  "options": [
+                    "The sun and its reflections dazzle you and it costs you to see the others.",
+                    "Nothing, the dirty windscreen filters the light of the sun.",
+                    "It only affects whoever comes from the front."
+                  ]
+                },
+                "en": {
+                  "q": "You are driving at dawn, into the sun, with a dirty windshield. According to the DGT, what happens?",
+                  "options": [
+                    "The sun and its reflections dazzle you and you struggle to see others",
+                    "Nothing: a dirty windshield filters the sunlight",
+                    "It only affects oncoming drivers"
+                  ],
+                  "why": "Sun glare is most dangerous at dawn and dusk. A clean windshield avoids reflections; use the sun visor or sunglasses and slow down."
+                },
+                "terms": [
+                  {
+                    "es": "deslumbramiento",
+                    "en": "dazzle, glare"
+                  },
+                  {
+                    "es": "parabrisas",
+                    "en": "windscreen"
+                  },
+                  {
+                    "es": "amanecer",
+                    "en": "dawn"
+                  },
+                  {
+                    "es": "anochecer",
+                    "en": "dusk"
+                  }
+                ],
+                "src": "DGT guidance (Guía para monitores de cursos de conducción segura y eficiente de turismos, dgt.es, 2023)"
               }
             }
           ]
@@ -2559,6 +2838,121 @@
                 ],
                 "src": "RGC art. 123.1"
               }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Está prohibido estacionar **sobre las aceras**, paseos y demás zonas para peatones.",
+                "en": "Parking **on sidewalks**, promenades and other pedestrian areas is banned."
+              },
+              "src": "RGC art. 94.2.e"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Un coche sobre la acera obliga al peatón a bajar a la calzada, entre el tráfico. Es más grave para quien lleva un carrito o una silla de ruedas. La ley pide a todos los conductores especial cuidado con los peatones.",
+                "en": "A car on the sidewalk forces pedestrians down into the roadway, among the traffic. It is worse for someone pushing a stroller or using a wheelchair. The law asks every driver to take special care with pedestrians."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c4s",
+                "answer": 2,
+                "es": {
+                  "q": "¿Cuál de estas conductas de un conductor pone en peligro a los peatones?",
+                  "options": [
+                    "Estacionar en una zona azul con el tique",
+                    "Parar en doble fila con las luces de emergencia",
+                    "Estacionar sobre la acera"
+                  ],
+                  "why": "Estacionar en la acera está prohibido. Obliga a los peatones a caminar por la calzada, entre los coches. Parar en doble fila también está prohibido, pero no te quita el sitio del peatón."
+                },
+                "exam": {
+                  "q": "Which of these behaviours of a driver puts the pedestrians in danger?",
+                  "options": [
+                    "To park in a blue zone with the ticket.",
+                    "To stop in double row with the emergency lights.",
+                    "To park on the pavement."
+                  ]
+                },
+                "en": {
+                  "q": "Which of these driver behaviors puts pedestrians in danger?",
+                  "options": [
+                    "Parking in a pay-and-display zone with a ticket",
+                    "Stopping double-parked with the hazard lights on",
+                    "Parking on the sidewalk"
+                  ],
+                  "why": "Parking on the sidewalk is banned. It forces pedestrians to walk in the roadway, among the cars. Double parking is banned too, but it does not take the pedestrian’s space."
+                },
+                "terms": [
+                  {
+                    "es": "acera",
+                    "en": "pavement, sidewalk"
+                  },
+                  {
+                    "es": "estacionar",
+                    "en": "to park"
+                  },
+                  {
+                    "es": "doble fila",
+                    "en": "double row, double parking"
+                  }
+                ],
+                "src": "RGC arts. 94.2.e y 121.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c4t",
+                "answer": 0,
+                "es": {
+                  "q": "Una persona en silla de ruedas con motor va por el arcén de una carretera. ¿Debe obedecer las señales y los semáforos?",
+                  "options": [
+                    "Sí: todos los usuarios de la vía deben obedecerlos",
+                    "No: las señales solo obligan a los vehículos de motor",
+                    "Solo cuando cruza la calzada"
+                  ],
+                  "why": "Todos los usuarios de las vías deben obedecer las señales de obligación y de prohibición. Los vehículos para personas de movilidad reducida usan el arcén derecho si no tienen una vía propia."
+                },
+                "exam": {
+                  "q": "A person in a wheelchair with engine goes by the hard shoulder of a road. Must they obey the signals and the traffic lights?",
+                  "options": [
+                    "Yes, all the users of the road must obey them.",
+                    "No, the signals only oblige the motor vehicles.",
+                    "Only when they cross the carriageway."
+                  ]
+                },
+                "en": {
+                  "q": "A person in a powered wheelchair is using the shoulder of a road. Must they obey signs and traffic lights?",
+                  "options": [
+                    "Yes: every road user must obey them",
+                    "No: signs only bind motor vehicles",
+                    "Only when crossing the roadway"
+                  ],
+                  "why": "Every road user must obey signs that order or forbid something. Vehicles for people with reduced mobility use the right-hand shoulder when they have no lane of their own."
+                },
+                "terms": [
+                  {
+                    "es": "silla de ruedas",
+                    "en": "wheelchair"
+                  },
+                  {
+                    "es": "vehículo para personas de movilidad reducida",
+                    "en": "vehicle for people with reduced mobility"
+                  },
+                  {
+                    "es": "arcén",
+                    "en": "hard shoulder"
+                  },
+                  {
+                    "es": "obedecer las señales",
+                    "en": "to obey the signals"
+                  }
+                ],
+                "src": "RGC arts. 132.1 y 36.1"
+              }
             }
           ]
         },
@@ -2846,6 +3240,120 @@
                   }
                 ],
                 "src": "DGT guidance (temario ESTT OEP 2021, parte 1, tema 2, rev. 2022)"
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Según la DGT, una carrocería con golpes y aristas de chapa es un **grave peligro** para los usuarios vulnerables si atropellas a alguien. Repara los daños y no añadas piezas rígidas o cortantes en la parte delantera.",
+                "en": "According to the DGT, bodywork with dents and sharp metal edges is a **serious danger** to vulnerable road users if you hit someone. Repair the damage and do not add rigid or sharp parts to the front."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c4u",
+                "answer": 1,
+                "es": {
+                  "q": "El parachoques delantero de tu coche quedó roto tras un golpe y tiene bordes de chapa cortantes. ¿Por qué debes repararlo pronto?",
+                  "options": [
+                    "Solo por estética: no afecta a la seguridad",
+                    "Porque en un atropello esas aristas pueden herir gravemente al peatón",
+                    "Porque gasta más combustible"
+                  ],
+                  "why": "La DGT avisa de que las aristas de chapa por golpes son un grave peligro para los usuarios vulnerables en caso de atropello."
+                },
+                "exam": {
+                  "q": "The front bumper of your car was broken after a blow and has sharp sheet-metal edges. Why must you repair it soon?",
+                  "options": [
+                    "Only for aesthetics, it does not affect the safety.",
+                    "Because in a running-over those edges can wound the pedestrian seriously.",
+                    "Because it spends more fuel."
+                  ]
+                },
+                "en": {
+                  "q": "Your car’s front bumper broke in a knock and now has sharp metal edges. Why should you repair it soon?",
+                  "options": [
+                    "Only for looks: it does not affect safety",
+                    "Because if you hit a pedestrian, those edges can injure them badly",
+                    "Because it uses more fuel"
+                  ],
+                  "why": "The DGT warns that sharp metal edges from knocks are a serious danger to vulnerable road users if they are hit."
+                },
+                "terms": [
+                  {
+                    "es": "parachoques",
+                    "en": "bumper"
+                  },
+                  {
+                    "es": "atropello",
+                    "en": "running over (a pedestrian)"
+                  },
+                  {
+                    "es": "carrocería",
+                    "en": "bodywork"
+                  },
+                  {
+                    "es": "usuario vulnerable",
+                    "en": "vulnerable road user"
+                  }
+                ],
+                "src": "DGT guidance (Guía para monitores de cursos de conducción segura y eficiente de turismos, dgt.es, 2023)"
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "La misma guía de la DGT cuenta como **usuarios vulnerables**: los peatones (sobre todo niños, mayores y personas con movilidad reducida o problemas de vista u oído), los ciclistas, los motoristas y quienes conducen un VMP.",
+                "en": "The same DGT guide counts as **vulnerable road users**: pedestrians (above all children, older people and people with reduced mobility or poor sight or hearing), cyclists, motorcyclists and riders of personal mobility vehicles."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c4v",
+                "answer": 0,
+                "es": {
+                  "q": "Según la DGT, ¿qué grupo de peatones merece una atención especial por ser más vulnerable?",
+                  "options": [
+                    "Los niños, las personas mayores y las de movilidad reducida",
+                    "Los adultos que caminan deprisa",
+                    "Los que van por la acera con el semáforo en verde"
+                  ],
+                  "why": "La DGT incluye entre los usuarios vulnerables a los peatones, con especial atención a niños, mayores y personas con movilidad reducida o problemas sensoriales."
+                },
+                "exam": {
+                  "q": "According to the DGT, which group of pedestrians deserves special attention for being more vulnerable?",
+                  "options": [
+                    "The children, the elderly people and those of reduced mobility.",
+                    "The adults who walk quickly.",
+                    "Those who go by the pavement with the traffic light in green."
+                  ]
+                },
+                "en": {
+                  "q": "According to the DGT, which group of pedestrians deserves special attention because it is more vulnerable?",
+                  "options": [
+                    "Children, older people and people with reduced mobility",
+                    "Adults walking quickly",
+                    "Those on the sidewalk when the light is green"
+                  ],
+                  "why": "The DGT counts pedestrians among vulnerable users, with special attention to children, older people and people with reduced mobility or sensory problems."
+                },
+                "terms": [
+                  {
+                    "es": "usuario vulnerable",
+                    "en": "vulnerable road user"
+                  },
+                  {
+                    "es": "personas mayores",
+                    "en": "elderly people"
+                  },
+                  {
+                    "es": "movilidad reducida",
+                    "en": "reduced mobility"
+                  }
+                ],
+                "src": "DGT guidance (Guía para monitores de cursos de conducción segura y eficiente de turismos, dgt.es, 2023)"
               }
             }
           ]
@@ -3492,6 +4000,61 @@
                 ],
                 "src": "RGC art. 153.5"
               }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Según la DGT, las bicicletas y las motos tienen un **equilibrio inestable** y se caen con facilidad. Son muy sensibles a un suelo deslizante, por lluvia o grasa, o en mal estado, con baches o gravilla.",
+                "en": "According to the DGT, bicycles and motorcycles have **unstable balance** and fall easily. They are very sensitive to a slippery surface, from rain or grease, or a poor one, with potholes or gravel."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c5o",
+                "answer": 2,
+                "es": {
+                  "q": "Llueve y adelante va una ciclista. ¿Qué debes esperar de ella sobre el asfalto mojado?",
+                  "options": [
+                    "Que tiene prioridad sobre ti mientras llueva",
+                    "Que debe circular por el centro de la calzada",
+                    "Que su bici es menos estable y puede desviarse sin aviso"
+                  ],
+                  "why": "Las bicicletas tienen un equilibrio inestable y son muy sensibles al suelo deslizante. Con lluvia, deja más espacio y baja la velocidad."
+                },
+                "exam": {
+                  "q": "It rains and a cyclist goes ahead. What must you expect from her on the wet asphalt?",
+                  "options": [
+                    "That she has priority over you while it rains.",
+                    "That she must circulate by the centre of the carriageway.",
+                    "That her bicycle is less stable and can deviate without warning."
+                  ]
+                },
+                "en": {
+                  "q": "It is raining and a cyclist is riding ahead. What should you expect from her on the wet asphalt?",
+                  "options": [
+                    "That she has priority over you while it rains",
+                    "That she must ride in the middle of the roadway",
+                    "That her bike is less stable and may swerve without warning"
+                  ],
+                  "why": "Bicycles have unstable balance and are very sensitive to slippery surfaces. In rain, leave more room and slow down."
+                },
+                "terms": [
+                  {
+                    "es": "equilibrio inestable",
+                    "en": "unstable balance"
+                  },
+                  {
+                    "es": "suelo deslizante",
+                    "en": "slippery surface"
+                  },
+                  {
+                    "es": "ciclista",
+                    "en": "cyclist"
+                  }
+                ],
+                "src": "DGT guidance (Guía para monitores de cursos de conducción segura y eficiente de turismos, dgt.es, 2023)"
+              }
             }
           ]
         },
@@ -3569,6 +4132,61 @@
                   }
                 ],
                 "src": "RGC art. 104.a"
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Según la DGT, los usuarios vulnerables, como motoristas y ciclistas, tienen una **alta probabilidad** de resultar heridos graves o muertos si sufren un accidente. No tienen una carrocería que los proteja.",
+                "en": "According to the DGT, vulnerable road users such as motorcyclists and cyclists have a **high chance** of serious injury or death in a crash. They have no bodywork to protect them."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c5p",
+                "answer": 1,
+                "es": {
+                  "q": "Una moto y un turismo sufren el mismo tipo de choque. Según la DGT, ¿quién tiene más probabilidad de acabar con lesiones graves o mortales?",
+                  "options": [
+                    "El conductor del turismo, porque va más rápido",
+                    "El motorista, porque no tiene carrocería que lo proteja",
+                    "Los dos igual, si llevan casco o cinturón"
+                  ],
+                  "why": "La DGT cuenta a los motoristas entre los usuarios vulnerables: si tienen un accidente, es muy probable que resulten heridos graves o muertos."
+                },
+                "exam": {
+                  "q": "A motorcycle and a passenger car suffer the same type of collision. According to the DGT, who has more probability of ending with serious or mortal injuries?",
+                  "options": [
+                    "The driver of the passenger car, because he goes faster.",
+                    "The motorcyclist, because he has no bodywork that protects him.",
+                    "The two the same, if they carry helmet or belt."
+                  ]
+                },
+                "en": {
+                  "q": "A motorcycle and a car have the same kind of crash. According to the DGT, who is more likely to end up seriously or fatally injured?",
+                  "options": [
+                    "The car driver, because cars go faster",
+                    "The motorcyclist, because there is no bodywork to protect them",
+                    "Both equally, if they wear a helmet or a belt"
+                  ],
+                  "why": "The DGT counts motorcyclists among vulnerable road users: in a crash they are very likely to be seriously injured or killed."
+                },
+                "terms": [
+                  {
+                    "es": "motorista",
+                    "en": "motorcyclist"
+                  },
+                  {
+                    "es": "lesiones mortales",
+                    "en": "fatal injuries"
+                  },
+                  {
+                    "es": "usuario vulnerable",
+                    "en": "vulnerable road user"
+                  }
+                ],
+                "src": "DGT guidance (Guía para monitores de cursos de conducción segura y eficiente de turismos, dgt.es, 2023)"
               }
             }
           ]
@@ -3868,6 +4486,150 @@
                   }
                 ],
                 "src": "RGC art. 38.4.a"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Para circular, un VMP necesita, entre otras cosas, **dos frenos independientes** capaces de detenerlo, **catadióptricos** delante (blanco), detrás (rojo) y en los dos lados, y alumbrado delantero y trasero. Tiene **una sola plaza**.",
+                "en": "To be ridden, a VMP needs, among other things, **two independent brakes** able to bring it to a stop, **reflectors** at the front (white), the rear (red) and on both sides, and front and rear lights. It has **a single seat** (one rider only)."
+              },
+              "src": "RGV Anexo XXI (redacción en vigor desde el 30-1-2026)"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c5l",
+                "answer": 0,
+                "es": {
+                  "q": "¿Qué sistema de frenos debe tener un patinete eléctrico (VMP)?",
+                  "options": [
+                    "Dos frenos independientes que puedan detenerlo del todo",
+                    "Basta con que el motor lo frene al soltar el acelerador",
+                    "Un solo freno, en la rueda trasera"
+                  ],
+                  "why": "Todos los VMP deben tener dos frenos independientes. Deben poder decelerar el vehículo hasta pararlo; si uno falla, el otro debe seguir frenando."
+                },
+                "exam": {
+                  "q": "Which brake system must an electric scooter (PMV) have?",
+                  "options": [
+                    "Two independent brakes that can stop it completely.",
+                    "It is enough that the engine brakes it on releasing the accelerator.",
+                    "A single brake, on the rear wheel."
+                  ]
+                },
+                "en": {
+                  "q": "What braking system must an e-scooter (VMP) have?",
+                  "options": [
+                    "Two independent brakes able to stop it completely",
+                    "It is enough for the motor to slow it when you release the throttle",
+                    "A single brake, on the rear wheel"
+                  ],
+                  "why": "Every VMP must have two independent brakes. They must be able to slow it to a stop, and if one fails the other must still brake."
+                },
+                "terms": [
+                  {
+                    "es": "vehículo de movilidad personal (VMP)",
+                    "en": "personal mobility vehicle (PMV)"
+                  },
+                  {
+                    "es": "freno independiente",
+                    "en": "independent brake"
+                  },
+                  {
+                    "es": "patinete eléctrico",
+                    "en": "electric scooter"
+                  }
+                ],
+                "src": "RGV Anexo XXI (redacción en vigor desde el 30-1-2026)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c5m",
+                "answer": 1,
+                "es": {
+                  "q": "¿Dónde debe llevar catadióptricos un patinete eléctrico (VMP)?",
+                  "options": [
+                    "Solo detrás, en rojo",
+                    "Delante, detrás y en los dos lados",
+                    "No los necesita si lleva luces"
+                  ],
+                  "why": "Los VMP llevan catadióptricos delante (blanco), detrás (rojo) y en ambos laterales, además del alumbrado delantero y trasero."
+                },
+                "exam": {
+                  "q": "Where must an electric scooter (PMV) carry retro-reflectors?",
+                  "options": [
+                    "Only behind, in red.",
+                    "In front, behind and on the two sides.",
+                    "It does not need them if it carries lights."
+                  ]
+                },
+                "en": {
+                  "q": "Where must an e-scooter (VMP) have reflectors?",
+                  "options": [
+                    "Only at the rear, in red",
+                    "At the front, the rear and on both sides",
+                    "It needs none if it has lights"
+                  ],
+                  "why": "A VMP carries reflectors at the front (white), the rear (red) and on both sides, besides front and rear lights."
+                },
+                "terms": [
+                  {
+                    "es": "catadióptrico",
+                    "en": "retro-reflector"
+                  },
+                  {
+                    "es": "lateral",
+                    "en": "side"
+                  }
+                ],
+                "src": "RGV Anexo XXI (redacción en vigor desde el 30-1-2026)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c5n",
+                "answer": 2,
+                "es": {
+                  "q": "Un amigo quiere subirse contigo a tu patinete eléctrico (VMP) para ir a clase. ¿Puede?",
+                  "options": [
+                    "Sí, si los dos lleváis casco",
+                    "Sí, en trayectos urbanos cortos",
+                    "No: un VMP tiene una sola plaza"
+                  ],
+                  "why": "El reglamento define el VMP como un vehículo de una sola plaza. Solo puede ir en él quien lo conduce."
+                },
+                "exam": {
+                  "q": "A friend wants to get on with you on your electric scooter (PMV) in order to go to class. Can he?",
+                  "options": [
+                    "Yes, if the two of you carry helmet.",
+                    "Yes, on short urban journeys.",
+                    "No, a PMV has a single seat."
+                  ]
+                },
+                "en": {
+                  "q": "A friend wants to ride with you on your e-scooter (VMP) to get to class. May he?",
+                  "options": [
+                    "Yes, if you both wear helmets",
+                    "Yes, on short trips in town",
+                    "No: a VMP has a single seat"
+                  ],
+                  "why": "The regulation defines a VMP as a one-seat vehicle. Only the rider may travel on it."
+                },
+                "terms": [
+                  {
+                    "es": "plaza",
+                    "en": "seat (place for a person)"
+                  },
+                  {
+                    "es": "pasajero",
+                    "en": "passenger"
+                  }
+                ],
+                "src": "RGV Anexo XXI (redacción en vigor desde el 30-1-2026)"
               }
             }
           ]
@@ -5223,6 +5985,61 @@
                   }
                 ],
                 "src": "DGT guidance; RGC art. 45"
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Según una guía de la DGT, la velocidad inadecuada es, junto con las **distracciones** y el **alcohol**, una de las principales causas de los siniestros. Se relaciona con al menos uno de cada siete accidentes con víctimas.",
+                "en": "According to a DGT guide, unsuitable speed is, together with **distractions** and **alcohol**, one of the main causes of crashes. It is linked to at least one in seven crashes with casualties."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c6l",
+                "answer": 1,
+                "es": {
+                  "q": "Según la DGT, ¿qué es la velocidad inadecuada en los accidentes de tráfico?",
+                  "options": [
+                    "Una causa rara, que casi nunca aparece",
+                    "Una de las causas principales, junto con las distracciones y el alcohol",
+                    "Solo una causa en las autopistas"
+                  ],
+                  "why": "Una guía de la DGT sitúa la velocidad inadecuada, junto con las distracciones y el alcohol, entre las principales causas de siniestros. Además, a más velocidad, lesiones más graves."
+                },
+                "exam": {
+                  "q": "According to the DGT, what is the inadequate speed in traffic accidents?",
+                  "options": [
+                    "A rare cause, which almost never appears.",
+                    "One of the main causes, together with the distractions and the alcohol.",
+                    "Only a cause on the motorways."
+                  ]
+                },
+                "en": {
+                  "q": "According to the DGT, what role does unsuitable speed play in road crashes?",
+                  "options": [
+                    "A rare cause that hardly ever appears",
+                    "One of the main causes, together with distractions and alcohol",
+                    "A cause only on motorways"
+                  ],
+                  "why": "A DGT guide places unsuitable speed, with distractions and alcohol, among the main causes of crashes. And the higher the speed, the worse the injuries."
+                },
+                "terms": [
+                  {
+                    "es": "velocidad inadecuada",
+                    "en": "inadequate speed"
+                  },
+                  {
+                    "es": "siniestro",
+                    "en": "accident, crash"
+                  },
+                  {
+                    "es": "distracción",
+                    "en": "distraction"
+                  }
+                ],
+                "src": "DGT guidance (Guía para monitores de cursos de conducción segura y eficiente de turismos, dgt.es, 2023)"
               }
             }
           ]

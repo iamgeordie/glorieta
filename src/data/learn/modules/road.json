@@ -2241,6 +2241,110 @@
                 ],
                 "src": "RGC art. 6"
               }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Todo usuario de la vía debe comportarse de forma que **no entorpezca indebidamente** la circulación, ni cause peligro, perjuicios o molestias innecesarias a las personas, ni daños a los bienes o al medio ambiente.",
+                "en": "Every road user must behave so as **not to obstruct traffic unduly**, nor cause danger, harm or needless nuisance to people, nor damage to property or the environment."
+              },
+              "src": "LSV art. 10.1"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-p6c",
+                "answer": 0,
+                "es": {
+                  "q": "Paras el coche en medio de una calle estrecha para charlar con un amigo y se forma una cola detrás. ¿Qué norma general incumples?",
+                  "options": [
+                    "La de no entorpecer indebidamente la circulación",
+                    "Ninguna, si paras menos de dos minutos",
+                    "Solo la de los límites de velocidad"
+                  ],
+                  "why": "Todo usuario de la vía está obligado a no entorpecer indebidamente la circulación y a no causar peligro, perjuicios o molestias innecesarias."
+                },
+                "en": {
+                  "q": "You stop your car in the middle of a narrow street to chat with a friend and a line forms behind you. Which general rule are you breaking?",
+                  "options": [
+                    "The duty not to obstruct traffic unduly",
+                    "None, if you stop for less than two minutes",
+                    "Only the speed limits"
+                  ],
+                  "why": "Every road user must not obstruct traffic unduly and must not cause danger, harm or needless nuisance."
+                },
+                "exam": {
+                  "q": "You stop the car in the middle of a narrow street in order to chat with a friend and a queue forms behind. Which general norm do you break?",
+                  "options": [
+                    "The one of not hindering unduly the circulation.",
+                    "None, if you stop less than two minutes.",
+                    "Only the one of the speed limits."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "entorpecer",
+                    "en": "to hinder"
+                  },
+                  {
+                    "es": "usuario de la vía",
+                    "en": "road user"
+                  }
+                ],
+                "src": "LSV art. 10.1"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los **resaltos** de los pasos para peatones y las bandas transversales **no se consideran obstáculos** en la calzada, si cumplen su regulación y se garantiza la seguridad de los usuarios, en particular de los ciclistas.",
+                "en": "**Speed humps** at pedestrian crossings and transverse rumble strips **are not considered obstacles** on the roadway, if they meet their rules and the safety of users, cyclists in particular, is ensured."
+              },
+              "src": "RGC art. 5.2"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-p6d",
+                "answer": 2,
+                "es": {
+                  "q": "En un paso para peatones hay un resalto bien construido, que cumple su regulación. ¿Cómo lo trata la norma?",
+                  "options": [
+                    "Como un obstáculo que hay que señalizar y retirar",
+                    "Como un obstáculo solo de noche",
+                    "No es un obstáculo en la calzada, si garantiza la seguridad, sobre todo de los ciclistas"
+                  ],
+                  "why": "Los resaltos de los pasos para peatones y las bandas transversales no se consideran obstáculos, siempre que cumplan su regulación y se garantice la seguridad de los usuarios, en particular de los ciclistas."
+                },
+                "en": {
+                  "q": "A well-built speed hump that meets its rules sits at a pedestrian crossing. How does the law treat it?",
+                  "options": [
+                    "As an obstacle that must be marked and removed",
+                    "As an obstacle only at night",
+                    "It is not an obstacle on the roadway, if it keeps users safe, especially cyclists"
+                  ],
+                  "why": "Speed humps at pedestrian crossings and transverse strips are not considered obstacles, as long as they meet their rules and the safety of users, cyclists in particular, is ensured."
+                },
+                "exam": {
+                  "q": "In a pedestrian crossing there is a well built bump, that fulfils its regulation. How does the norm treat it?",
+                  "options": [
+                    "As an obstacle that must be signalled and removed.",
+                    "As an obstacle only at night.",
+                    "It is not an obstacle on the carriageway, provided that it guarantees the safety, above all of the cyclists."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "resalto",
+                    "en": "bump (speed hump)"
+                  },
+                  {
+                    "es": "obstáculo",
+                    "en": "obstacle"
+                  }
+                ],
+                "src": "RGC art. 5.2"
+              }
             }
           ]
         }
@@ -3544,6 +3648,50 @@
                   }
                 ],
                 "src": "RGC Anexo I, ap. 5.2 (marcas viales M-1.4, M-1.6, M-1.7 y M-2.4)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-s4u",
+                "answer": 2,
+                "es": {
+                  "q": "Un carril bus está separado del tuyo por una línea ancha discontinua. Tu carril va muy lento. ¿Puedes circular por el carril bus para avanzar más deprisa?",
+                  "options": [
+                    "Sí, porque la línea es discontinua",
+                    "Sí, si no viene ningún autobús",
+                    "No: la línea discontinua solo deja usarlo para ciertas maniobras permitidas"
+                  ],
+                  "why": "La línea ancha discontinua permite a los demás vehículos usar el carril reservado para realizar ciertas maniobras permitidas, no para circular por él. Su uso se ajusta a las señales."
+                },
+                "en": {
+                  "q": "A bus lane is separated from yours by a wide dashed line. Your lane is very slow. May you drive in the bus lane to move faster?",
+                  "options": [
+                    "Yes, because the line is dashed",
+                    "Yes, if no bus is coming",
+                    "No: the dashed line only lets you use it for certain permitted maneuvers"
+                  ],
+                  "why": "The wide dashed line lets other vehicles use the reserved lane to make certain permitted maneuvers, not to drive along it. Its use follows the signs."
+                },
+                "exam": {
+                  "q": "A bus lane is separated from yours by a wide broken line. Your lane goes very slowly. Can you circulate by the bus lane in order to advance faster?",
+                  "options": [
+                    "Yes, because the line is broken.",
+                    "Yes, if no bus comes.",
+                    "No: the broken line only lets you use it for certain permitted manoeuvres."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "carril bus",
+                    "en": "bus lane"
+                  },
+                  {
+                    "es": "línea discontinua",
+                    "en": "broken line"
+                  }
+                ],
+                "src": "RGC art. 35.1; RGC Anexo I, ap. 5.2 (marcas viales M-1.6 y M-1.7)"
               }
             }
           ]
@@ -4948,6 +5096,50 @@
                   }
                 ],
                 "src": "RGC arts. 36.1 y 38.2"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-h5g",
+                "answer": 0,
+                "es": {
+                  "q": "Una persona conduce un vehículo para personas de movilidad reducida por una carretera sin vía especial para él. El arcén derecho es transitable y suficiente. ¿Por dónde debe ir?",
+                  "options": [
+                    "Por el arcén de la derecha",
+                    "Por el carril derecho de la calzada",
+                    "Por el arcén izquierdo, de frente al tráfico"
+                  ],
+                  "why": "Los vehículos para personas de movilidad reducida van por el arcén de su derecha si es transitable y suficiente. Si no lo es, usan la parte imprescindible de la calzada."
+                },
+                "en": {
+                  "q": "Someone drives a vehicle for people with reduced mobility on a road with no special lane for it. The right shoulder is passable and wide enough. Where should they go?",
+                  "options": [
+                    "On the right shoulder",
+                    "In the right lane of the roadway",
+                    "On the left shoulder, facing traffic"
+                  ],
+                  "why": "Vehicles for people with reduced mobility use the shoulder on their right if it is passable and wide enough. If not, they use only as much of the roadway as they need."
+                },
+                "exam": {
+                  "q": "A person drives a vehicle for persons of reduced mobility by a road without special road for it. The right hard shoulder is passable and sufficient. By where must he go?",
+                  "options": [
+                    "By the right hard shoulder.",
+                    "By the right lane of the carriageway.",
+                    "By the left hard shoulder, facing the traffic."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "vehículo para personas de movilidad reducida",
+                    "en": "vehicle for persons of reduced mobility"
+                  },
+                  {
+                    "es": "arcén transitable",
+                    "en": "passable hard shoulder"
+                  }
+                ],
+                "src": "RGC art. 36.1"
               }
             }
           ]

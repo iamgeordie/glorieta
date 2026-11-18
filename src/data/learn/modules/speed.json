@@ -1468,6 +1468,50 @@
                 ],
                 "src": "RGC art. 48.1.e y 48.1.h"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "speed-outside-c16",
+                "answer": 0,
+                "es": {
+                  "q": "Un vehículo especial que no excede las masas ni las dimensiones permitidas solo alcanza 50 km/h en llano. ¿Puede circular por una autopista?",
+                  "options": [
+                    "No: solo pueden los que pasan de 60 km/h en llano y cumplen las condiciones del anexo III",
+                    "Sí, por el arcén y de día",
+                    "Sí, si lleva encendida la luz de emergencia"
+                  ],
+                  "why": "Los vehículos especiales que no exceden las masas o dimensiones solo pueden ir por autopistas y autovías si pueden superar los 60 km/h en llano y cumplen las condiciones del anexo III del reglamento."
+                },
+                "en": {
+                  "q": "A special vehicle within the permitted masses and dimensions only reaches 50 km/h on level ground. May it use a motorway?",
+                  "options": [
+                    "No: only those that exceed 60 km/h on level ground and meet the annex III conditions may",
+                    "Yes, on the shoulder and by day",
+                    "Yes, if it has its hazard lights on"
+                  ],
+                  "why": "Special vehicles within the masses or dimensions may use motorways and dual carriageways only if they can exceed 60 km/h on level ground and meet the conditions in annex III of the regulation."
+                },
+                "exam": {
+                  "q": "A special vehicle that does not exceed the permitted masses or dimensions only reaches 50 km/h in level terrain. Can it circulate by a motorway?",
+                  "options": [
+                    "No: only those that exceed 60 km/h in level terrain and fulfil the conditions of annex III can.",
+                    "Yes, by the hard shoulder and by day.",
+                    "Yes, if it carries switched on the emergency light."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "vehículo especial",
+                    "en": "special vehicle"
+                  },
+                  {
+                    "es": "en llano",
+                    "en": "on the flat"
+                  }
+                ],
+                "src": "RGC art. 38.3"
+              }
             }
           ]
         },
@@ -1822,6 +1866,50 @@
                   }
                 ],
                 "src": "RGC art. 49.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "speed-outside-c15",
+                "answer": 1,
+                "es": {
+                  "q": "En una autovía hay placas de hielo y no puedes ir más deprisa sin riesgo. Vas a 40 km/h. ¿Es correcto?",
+                  "options": [
+                    "No: en autovía nunca se puede bajar de 60 km/h",
+                    "Sí: las circunstancias de la vía permiten ir por debajo de la mínima",
+                    "Solo si circulas por el arcén"
+                  ],
+                  "why": "Se puede circular por debajo de la velocidad mínima cuando las circunstancias del tráfico, del vehículo o de la vía impiden ir más deprisa sin riesgo. Si alguien puede alcanzarte, usa la luz de emergencia."
+                },
+                "en": {
+                  "q": "A dual carriageway has patches of ice and you cannot go faster without risk. You are doing 40 km/h. Is that right?",
+                  "options": [
+                    "No: on a dual carriageway you may never go below 60 km/h",
+                    "Yes: road conditions allow going below the minimum",
+                    "Only if you drive on the shoulder"
+                  ],
+                  "why": "You may go below the minimum speed when traffic, vehicle or road conditions make a higher speed unsafe. If someone could catch up with you, use the hazard lights."
+                },
+                "exam": {
+                  "q": "On a dual carriageway there are ice patches and you cannot go faster without risk. You go at 40 km/h. Is it correct?",
+                  "options": [
+                    "No: on a dual carriageway one can never go below 60 km/h.",
+                    "Yes: the circumstances of the road allow going below the minimum.",
+                    "Only if you circulate by the hard shoulder."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "velocidad mínima",
+                    "en": "minimum speed"
+                  },
+                  {
+                    "es": "placa de hielo",
+                    "en": "ice patch"
+                  }
+                ],
+                "src": "RGC art. 49.2 y 49.3"
               }
             }
           ]
@@ -2720,6 +2808,58 @@
                   }
                 ],
                 "src": "RGC art. 53.1"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los **ciclistas que circulan en grupo** pueden ir sin guardar entre ellos esa separación de seguridad, extremando la atención para no chocar unos con otros.",
+                "en": "**Cyclists riding in a group** may go without keeping that safety gap between them, taking extra care not to run into each other."
+              },
+              "src": "RGC art. 54.1"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "speed-adapt-c11",
+                "answer": 1,
+                "es": {
+                  "q": "Un grupo de ciclistas rueda muy junto por una carretera. ¿Deben guardar entre ellos la separación que permite detenerse sin chocar?",
+                  "options": [
+                    "Sí, como cualquier otro vehículo",
+                    "No: pueden ir en grupo sin esa separación, extremando la atención",
+                    "Solo cuando circulan de noche"
+                  ],
+                  "why": "La norma permite a los ciclistas circular en grupo sin mantener la distancia de seguridad entre ellos, pero deben extremar la atención para evitar alcances. Es una excepción solo para bicicletas."
+                },
+                "en": {
+                  "q": "A group of cyclists rides very close together on a road. Must they keep between them the gap that lets them stop without hitting each other?",
+                  "options": [
+                    "Yes, like any other vehicle",
+                    "No: they may ride in a group without that gap, taking extra care",
+                    "Only when riding at night"
+                  ],
+                  "why": "The rules let cyclists ride in a group without keeping the safety distance between them, but they must take extra care to avoid rear-end collisions. It is an exception for bicycles only."
+                },
+                "exam": {
+                  "q": "A group of cyclists rolls very close by a road. Must they keep between them the separation that allows to stop without colliding?",
+                  "options": [
+                    "Yes, as any other vehicle.",
+                    "No: they can go in group without that separation, extremely careful.",
+                    "Only when they circulate at night."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "ciclistas en grupo",
+                    "en": "cyclists in group"
+                  },
+                  {
+                    "es": "distancia de seguridad",
+                    "en": "safety distance"
+                  }
+                ],
+                "src": "RGC art. 54.1"
               }
             }
           ]
