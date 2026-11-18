@@ -55,6 +55,15 @@ export function Splash() {
         </span>
       </a>
 
+      <a class="splash-contrib" href="https://www.malaga-ai.community/" target="_blank" rel="noopener">
+        <span class="contrib-label"><T t={ui.contributionsFrom} /></span>
+        <span class="contrib-org">
+          {/* Decorative: the name beside it says Malaga AI. */}
+          <img class="contrib-logo" src="/malaga-ai.svg" width="40" height="40" alt="" />
+          Malaga AI
+        </span>
+      </a>
+
       <footer class="splash-foot">
         <p><T t={ui.unofficialFull} /></p>
         <p>

@@ -460,6 +460,13 @@ th { color: var(--muted); font-size: 0.78rem; text-transform: uppercase; letter-
 .promo-cta { display: block; margin-top: 8px; font-weight: 700; color: #cfe0ff; text-decoration: underline; text-underline-offset: 3px; }
 .splash-promo .sub { color: rgba(255, 255, 255, 0.72); font-weight: 400; }
 .splash-promo .promo-cta .sub { color: rgba(207, 224, 255, 0.85); text-decoration: none; }
+.splash-contrib { position: relative; z-index: 1; display: flex; flex-direction: column; align-items: center; gap: 6px; width: fit-content; margin: 0 auto 16px; padding: 6px 12px; border-radius: 10px; text-decoration: none; }
+.splash-contrib:hover .contrib-org { text-decoration: underline; text-underline-offset: 3px; }
+.splash-contrib:focus-visible { outline: 3px solid #ffd24d; outline-offset: 2px; }
+.contrib-label { font-size: 0.72rem; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(255, 255, 255, 0.62); }
+.splash-contrib .contrib-label .sub { color: rgba(255, 255, 255, 0.5); text-transform: none; letter-spacing: normal; }
+.contrib-org { display: flex; align-items: center; gap: 10px; font-size: 1.1rem; font-weight: 600; color: #18dae3; }
+.contrib-logo { flex: none; width: 40px; height: 40px; }
 
 /* A one-off message on the home screen after signing in. */
 .note.notice { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-top: 14px; }

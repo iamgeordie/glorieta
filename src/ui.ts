@@ -11,6 +11,7 @@ export const ui = {
   // A link from the welcome page to LinguaMama, the language-learning app by the same author.
   promoBody: bi('Vives en España: aprende español con nuestra app hermana.', 'You’re living in Spain: learn Spanish with our sister app.'),
   promoTagline: bi('Fluido antes de hablar.', 'Fluent before you speak.'),
+  contributionsFrom: bi('Con contribuciones de', 'With contributions from'),
   promoCta: bi('¡Prueba LinguaMama.ai gratis!', 'Try LinguaMama.ai free!'),
   practice: bi('Practicar', 'Practice'),
   // Toggles the question's English between plain English and our literal imitation of the exam's English.
