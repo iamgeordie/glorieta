@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'preact/hooks';
 import { Uk } from '../Uk';
 import { ModeOverride, mode, T } from '../i18n';
-import { bi } from '../i18n';
+import { bi, type Bi } from '../i18n';
 import { L } from '../learnStrings';
 import { checksOf, lessonById } from '../data/learn';
 import type { Block, CheckQuestion, Lesson as LessonData } from '../data/learn/types';
@@ -197,6 +197,13 @@ function LessonBody({ moduleId, lessonId, wanted }: { moduleId: string; lessonId
   const override = peek && mode.value === 'es' ? 'both' : null;
   const nextLesson = module.lessons[index + 1];
 
+  // The dots link to every part Next could already reach: all of a finished lesson, otherwise up to the first
+  // step with an unanswered check. So they help you read back without letting you skip a check.
+  const blocked = rec.done ? -1 : lesson.steps.findIndex((s) => s.blocks.some((b) => b.t === 'check' && !rec.answered[b.q.id]));
+  const reach = blocked === -1 ? total + 1 : blocked + 1;
+  const partName = (i: number): Bi => (i === 0 ? L.intro : i === total + 1 ? L.recap : L.stepOf(i, total));
+  const say = (t: Bi) => (mode.value === 'en' ? t.en : t.es);
+
   return (
     <section class="lesson">
       <FigureDefs />
@@ -206,7 +213,13 @@ function LessonBody({ moduleId, lessonId, wanted }: { moduleId: string; lessonId
       <h1><T t={lesson.title} /></h1>
       <ol class="seg" aria-label={`${step} / ${total + 1}`}>
         {Array.from({ length: total + 2 }, (_, i) => (
-          <li key={i} class={i < step ? 'done' : i === step ? 'current' : ''} />
+          <li key={i} class={i < step ? 'done' : i === step ? 'current' : ''}>
+            {i !== step && i <= reach ? (
+              <a href={hash(moduleId, lessonId, i)} aria-label={say(partName(i))} title={say(partName(i))} />
+            ) : (
+              <span aria-current={i === step ? 'step' : undefined} />
+            )}
+          </li>
         ))}
       </ol>
 
@@ -361,6 +374,7 @@ function Recap({ moduleId, lesson, nextId }: { moduleId: string; lesson: LessonD
         ) : (
           <a class="primary" href={`#/learn/${moduleId}/quiz`}><T t={L.takeQuiz} /></a>
         )}
+        <a class="secondary" href={hash(moduleId, lesson.id, 1)}><T t={L.readAgain} /></a>
         <a class="secondary" href={`#/learn/${moduleId}`}><T t={L.backToCourse} /></a>
         <a class="secondary" href={`#/practice/${moduleId}`}><T t={L.practiceTopic} /></a>
       </div>
