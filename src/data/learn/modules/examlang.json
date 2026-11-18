@@ -2157,6 +2157,20 @@
                     "es": "«streetcar»",
                     "en": "streetcar"
                   }
+                ],
+                [
+                  {
+                    "es": "cilindrada",
+                    "en": "“cilindrada”"
+                  },
+                  {
+                    "es": "«cubic capacity, engine capacity (cm³)»",
+                    "en": "cubic capacity, engine capacity (cm³)"
+                  },
+                  {
+                    "es": "«engine size»",
+                    "en": "engine size"
+                  }
                 ]
               ]
             },
@@ -2359,6 +2373,76 @@
                     "es": "«cargo»",
                     "en": "cargo"
                   }
+                ],
+                [
+                  {
+                    "es": "plazas",
+                    "en": "“plazas”"
+                  },
+                  {
+                    "es": "«seats, places»",
+                    "en": "seats, places"
+                  },
+                  {
+                    "es": "«seats»",
+                    "en": "seats"
+                  }
+                ],
+                [
+                  {
+                    "es": "destinado al transporte de personas / de mercancías",
+                    "en": "“destinado al transporte de personas / de mercancías”"
+                  },
+                  {
+                    "es": "«intended for the transport of persons / of goods»",
+                    "en": "intended for the transport of persons / of goods"
+                  },
+                  {
+                    "es": "«passenger / cargo vehicle»",
+                    "en": "passenger / cargo vehicle"
+                  }
+                ],
+                [
+                  {
+                    "es": "conjunto de vehículos",
+                    "en": "“conjunto de vehículos”"
+                  },
+                  {
+                    "es": "«combination of vehicles, set of vehicles»",
+                    "en": "combination of vehicles, set of vehicles"
+                  },
+                  {
+                    "es": "«rig (vehicle plus trailer)»",
+                    "en": "rig (vehicle plus trailer)"
+                  }
+                ],
+                [
+                  {
+                    "es": "vehículo articulado",
+                    "en": "“vehículo articulado”"
+                  },
+                  {
+                    "es": "«articulated vehicle»",
+                    "en": "articulated vehicle"
+                  },
+                  {
+                    "es": "«tractor-semitrailer»",
+                    "en": "tractor-semitrailer"
+                  }
+                ],
+                [
+                  {
+                    "es": "tren de carretera",
+                    "en": "“tren de carretera”"
+                  },
+                  {
+                    "es": "«road train»",
+                    "en": "road train"
+                  },
+                  {
+                    "es": "«truck and trailer»",
+                    "en": "truck and trailer"
+                  }
                 ]
               ]
             },
@@ -2416,6 +2500,118 @@
                   }
                 ],
                 "src": "LSV Anexo I, 15, 18 y 19"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "**Autobús** o autocar: automóvil de más de nueve plazas, incluida la del conductor, hecho para llevar personas y su equipaje.",
+                "en": "**Autobús** (bus or coach): an automobile with more than nine seats, counting the driver’s, built to carry people and their luggage."
+              },
+              "src": "LSV Anexo I, 16"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "examlang-autobus",
+                "answer": 1,
+                "es": {
+                  "q": "Un automóvil para personas tiene once plazas, contando la del conductor. ¿Qué es para la ley?",
+                  "options": [
+                    "Un turismo",
+                    "Un autobús o autocar",
+                    "Un vehículo mixto adaptable"
+                  ],
+                  "why": "Con más de nueve plazas, incluida la del conductor, es un autobús o autocar. Un turismo tiene, además del asiento del conductor, ocho plazas como máximo."
+                },
+                "exam": {
+                  "q": "An automobile for persons has eleven places, counting that of the driver. What is it for the law?",
+                  "options": [
+                    "A passenger car.",
+                    "A bus or coach.",
+                    "An adaptable mixed-use vehicle."
+                  ]
+                },
+                "en": {
+                  "q": "A passenger vehicle has eleven seats, counting the driver’s. What is it in law?",
+                  "options": [
+                    "A car (turismo)",
+                    "A bus or coach (autobús, autocar)",
+                    "A convertible people-and-cargo van (vehículo mixto adaptable)"
+                  ],
+                  "why": "With more than nine seats, counting the driver’s, it is an autobús. A turismo has at most eight seats besides the driver’s."
+                },
+                "terms": [
+                  {
+                    "es": "plazas",
+                    "en": "seats, places"
+                  },
+                  {
+                    "es": "autobús, autocar",
+                    "en": "bus, coach"
+                  },
+                  {
+                    "es": "incluida la del conductor",
+                    "en": "counting the driver’s"
+                  }
+                ],
+                "src": "LSV Anexo I, 15 y 16"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "**Conjunto de vehículos**: el vehículo articulado (vehículo de motor acoplado a un semirremolque) y el tren de carretera (vehículo de motor enganchado a un remolque).",
+                "en": "**Conjunto de vehículos** (combination of vehicles): the articulated vehicle (a motor vehicle coupled to a semitrailer) and the road train (a motor vehicle hitched to a trailer)."
+              },
+              "src": "LSV Anexo I, 24"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "examlang-conjunto",
+                "answer": 0,
+                "es": {
+                  "q": "Un vehículo de motor enganchado a un remolque forma un conjunto de vehículos. ¿Cómo se llama?",
+                  "options": [
+                    "Tren de carretera",
+                    "Vehículo articulado",
+                    "Vehículo especial"
+                  ],
+                  "why": "Con remolque es un tren de carretera. Con semirremolque, que apoya parte de su masa en el vehículo de motor, es un vehículo articulado."
+                },
+                "exam": {
+                  "q": "A motor vehicle hitched to a trailer forms a combination of vehicles. How is it called?",
+                  "options": [
+                    "Road train.",
+                    "Articulated vehicle.",
+                    "Special vehicle."
+                  ]
+                },
+                "en": {
+                  "q": "A motor vehicle hitched to a trailer makes a combination of vehicles. What is it called?",
+                  "options": [
+                    "A road train (tren de carretera)",
+                    "An articulated vehicle (vehículo articulado)",
+                    "A special vehicle (vehículo especial)"
+                  ],
+                  "why": "With a trailer it is a tren de carretera. With a semitrailer, which rests part of its mass on the towing vehicle, it is a vehículo articulado."
+                },
+                "terms": [
+                  {
+                    "es": "conjunto de vehículos",
+                    "en": "combination of vehicles"
+                  },
+                  {
+                    "es": "tren de carretera",
+                    "en": "road train"
+                  },
+                  {
+                    "es": "vehículo articulado",
+                    "en": "articulated vehicle"
+                  }
+                ],
+                "src": "LSV Anexo I, 24"
               }
             }
           ]
@@ -2556,30 +2752,30 @@
                 "id": "examlang-remolque-ligero",
                 "answer": 0,
                 "es": {
-                  "q": "Un remolque ligero es aquel cuya masa máxima autorizada no excede de:",
+                  "q": "Tu turismo arrastra un remolque de 600 kg de MMA. ¿Cómo lo llama la ley?",
                   "options": [
-                    "750 kg",
-                    "1.500 kg",
-                    "3.500 kg"
+                    "Remolque ligero",
+                    "Semirremolque",
+                    "Vehículo especial"
                   ],
-                  "why": "Remolque ligero es el de MMA no superior a 750 kg. Por encima de esa cifra ya no es «ligero»."
+                  "why": "Es remolque ligero el que tiene una MMA de 750 kg o menos. Un semirremolque apoya parte de su masa en el vehículo que lo arrastra."
                 },
                 "exam": {
-                  "q": "A light trailer is that whose maximum authorised mass does not exceed:",
+                  "q": "Your passenger car tows a trailer of 600 kg of MAM. How does the law call it?",
                   "options": [
-                    "750 kg.",
-                    "1,500 kg.",
-                    "3,500 kg."
+                    "Light trailer.",
+                    "Semi-trailer.",
+                    "Special vehicle."
                   ]
                 },
                 "en": {
-                  "q": "A light trailer is one whose maximum authorized mass does not exceed:",
+                  "q": "Your car tows a trailer with a maximum authorized mass of 600 kg. What does the law call it?",
                   "options": [
-                    "750 kg",
-                    "1,500 kg",
-                    "3,500 kg"
+                    "A light trailer (remolque ligero)",
+                    "A semitrailer (semirremolque)",
+                    "A special vehicle (vehículo especial)"
                   ],
-                  "why": "A remolque ligero has an MMA of no more than 750 kg. Above that figure it is no longer “light”."
+                  "why": "A remolque ligero is one with an MMA of 750 kg or less. A semitrailer rests part of its mass on the vehicle that tows it."
                 },
                 "terms": [
                   {
@@ -2702,6 +2898,20 @@
                     "es": "«two-wheeler»",
                     "en": "two-wheeler"
                   }
+                ],
+                [
+                  {
+                    "es": "en servicio urgente",
+                    "en": "“en servicio urgente”"
+                  },
+                  {
+                    "es": "«in urgent service»",
+                    "en": "in urgent service"
+                  },
+                  {
+                    "es": "«on an emergency call»",
+                    "en": "on an emergency call"
+                  }
                 ]
               ]
             },
@@ -2767,6 +2977,62 @@
                   }
                 ],
                 "src": "LSV Anexo I, 13, 25 y 28"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Son **prioritarios** los vehículos de policía, extinción de incendios, protección civil y salvamento, y asistencia sanitaria, pública o privada, que circulen en **servicio urgente** y avisen con la señal luminosa y la señal acústica especial a la vez.",
+                "en": "Police, fire, civil protection and rescue, and medical vehicles, public or private, are **priority vehicles** when they travel on an urgent call (**servicio urgente**) and warn with their special light and siren together."
+              },
+              "src": "RGC art. 68.2"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "examlang-urgente",
+                "answer": 2,
+                "es": {
+                  "q": "¿Cuál de estos vehículos puede ser prioritario, si circula en servicio urgente y avisa con la señal luminosa y la acústica especial?",
+                  "options": [
+                    "Un taxi que lleva a un pasajero enfermo",
+                    "Un coche particular que lleva a un herido",
+                    "Una ambulancia de una empresa privada"
+                  ],
+                  "why": "Pueden ser prioritarios los vehículos de policía, bomberos, protección civil y salvamento, y de asistencia sanitaria, pública o privada. Un taxi o un coche particular no están en esa lista."
+                },
+                "exam": {
+                  "q": "Which of these vehicles can be priority, if it circulates in urgent service and warns with the luminous signal and the special acoustic one?",
+                  "options": [
+                    "A taxi that carries a sick passenger.",
+                    "A private car that carries an injured person.",
+                    "An ambulance of a private company."
+                  ]
+                },
+                "en": {
+                  "q": "Which of these can be a priority (emergency) vehicle when it is on an urgent call and uses its special light and siren together?",
+                  "options": [
+                    "A taxi carrying a sick passenger",
+                    "A private car carrying an injured person",
+                    "An ambulance run by a private company"
+                  ],
+                  "why": "Police, fire, civil protection and rescue, and medical vehicles, public or private, can be priority vehicles. A taxi or a private car is not on that list."
+                },
+                "terms": [
+                  {
+                    "es": "servicio urgente",
+                    "en": "urgent service (exam) / emergency call"
+                  },
+                  {
+                    "es": "vehículo prioritario",
+                    "en": "priority vehicle"
+                  },
+                  {
+                    "es": "señal luminosa",
+                    "en": "luminous signal"
+                  }
+                ],
+                "src": "RGC art. 68.2"
               }
             }
           ]
@@ -3076,6 +3342,62 @@
                     "es": "«liability insurance»",
                     "en": "liability insurance"
                   }
+                ],
+                [
+                  {
+                    "es": "clase de permiso (B, A1, A2…)",
+                    "en": "“clase de permiso (B, A1, A2…)”"
+                  },
+                  {
+                    "es": "«class or category of licence»",
+                    "en": "class or category of licence"
+                  },
+                  {
+                    "es": "«license class»",
+                    "en": "license class"
+                  }
+                ],
+                [
+                  {
+                    "es": "antigüedad del permiso",
+                    "en": "“antigüedad del permiso”"
+                  },
+                  {
+                    "es": "«seniority of the licence, years holding the licence»",
+                    "en": "seniority of the licence, years holding the licence"
+                  },
+                  {
+                    "es": "«years licensed»",
+                    "en": "years licensed"
+                  }
+                ],
+                [
+                  {
+                    "es": "saldo de puntos",
+                    "en": "“saldo de puntos”"
+                  },
+                  {
+                    "es": "«balance of points»",
+                    "en": "balance of points"
+                  },
+                  {
+                    "es": "«points left on the license»",
+                    "en": "points left on the license"
+                  }
+                ],
+                [
+                  {
+                    "es": "Jefatura Provincial de Tráfico",
+                    "en": "“Jefatura Provincial de Tráfico”"
+                  },
+                  {
+                    "es": "«Provincial Traffic Headquarters»",
+                    "en": "Provincial Traffic Headquarters"
+                  },
+                  {
+                    "es": "«local DMV office»",
+                    "en": "local DMV office"
+                  }
                 ]
               ]
             },
@@ -3165,7 +3487,7 @@
       ],
       "src": [
         "Ley de Tráfico y Seguridad Vial (RDL 6/2015), Anexo I: puntos 9 a 37 y 86",
-        "Reglamento General de Circulación (RD 1428/2003), art. 67",
+        "Reglamento General de Circulación (RD 1428/2003), arts. 67 y 68",
         "Reglamento General de Vehículos (RD 2822/1998), art. 10 y Anexo XI (V-13)"
       ]
     },
@@ -3784,6 +4106,48 @@
                   {
                     "es": "«horn»",
                     "en": "horn"
+                  }
+                ],
+                [
+                  {
+                    "es": "panel complementario",
+                    "en": "“panel complementario”"
+                  },
+                  {
+                    "es": "«complementary panel, additional panel»",
+                    "en": "complementary panel, additional panel"
+                  },
+                  {
+                    "es": "«plaque under a sign»",
+                    "en": "plaque under a sign"
+                  }
+                ],
+                [
+                  {
+                    "es": "señal luminosa, dispositivo luminoso",
+                    "en": "“señal luminosa, dispositivo luminoso”"
+                  },
+                  {
+                    "es": "«luminous signal, luminous device»",
+                    "en": "luminous signal, luminous device"
+                  },
+                  {
+                    "es": "«flashing light»",
+                    "en": "flashing light"
+                  }
+                ],
+                [
+                  {
+                    "es": "flecha verde / amarilla",
+                    "en": "“flecha verde / amarilla”"
+                  },
+                  {
+                    "es": "«green / amber arrow»",
+                    "en": "green / amber arrow"
+                  },
+                  {
+                    "es": "«green / yellow arrow»",
+                    "en": "green / yellow arrow"
                   }
                 ]
               ]
@@ -4650,6 +5014,20 @@
                     "es": "«parallel parking»",
                     "en": "parallel parking"
                   }
+                ],
+                [
+                  {
+                    "es": "carga y descarga",
+                    "en": "“carga y descarga”"
+                  },
+                  {
+                    "es": "«loading and unloading»",
+                    "en": "loading and unloading"
+                  },
+                  {
+                    "es": "«loading and unloading»",
+                    "en": "loading and unloading"
+                  }
                 ]
               ]
             },
@@ -5050,6 +5428,48 @@
                     "es": "«fitness to drive»",
                     "en": "fitness to drive"
                   }
+                ],
+                [
+                  {
+                    "es": "Código Penal",
+                    "en": "“Código Penal”"
+                  },
+                  {
+                    "es": "«Penal Code, Criminal Code»",
+                    "en": "Penal Code, Criminal Code"
+                  },
+                  {
+                    "es": "«criminal law»",
+                    "en": "criminal law"
+                  }
+                ],
+                [
+                  {
+                    "es": "obstaculizar, entorpecer la circulación",
+                    "en": "“obstaculizar, entorpecer la circulación”"
+                  },
+                  {
+                    "es": "«to obstruct, to hinder the circulation»",
+                    "en": "to obstruct, to hinder the circulation"
+                  },
+                  {
+                    "es": "«to block traffic»",
+                    "en": "to block traffic"
+                  }
+                ],
+                [
+                  {
+                    "es": "causa justificada",
+                    "en": "“causa justificada”"
+                  },
+                  {
+                    "es": "«justified cause»",
+                    "en": "justified cause"
+                  },
+                  {
+                    "es": "«good reason»",
+                    "en": "good reason"
+                  }
                 ]
               ]
             },
@@ -5137,6 +5557,1227 @@
       "src": [
         "Ley de Tráfico y Seguridad Vial (RDL 6/2015), arts. 26, 104 y 105; Anexo I, puntos 80 a 82",
         "Reglamento General de Circulación (RD 1428/2003), arts. 20, 49, 74, 78 y 91"
+      ]
+    },
+    {
+      "id": "condition-words",
+      "title": {
+        "es": "El tiempo, el conductor y el accidente, palabra por palabra",
+        "en": "Weather, driver and crashes, word by word"
+      },
+      "minutes": 7,
+      "goals": [
+        {
+          "es": "Reconocer las palabras del examen sobre visibilidad, noche y firme: reduced visibility, sunset, insufficiently lit, grip.",
+          "en": "Recognize the exam’s words for visibility, night and road surface: reduced visibility, sunset, insufficiently lit, grip."
+        },
+        {
+          "es": "Nombrar las piezas del vehículo que salen en el examen: inflation pressure, tread, shock absorbers.",
+          "en": "Name the vehicle parts the exam mentions: inflation pressure, tread, shock absorbers."
+        },
+        {
+          "es": "Nombrar el estado del conductor en el inglés del examen: fatigue, distraction, reaction capacity, field of vision.",
+          "en": "Name the driver’s condition in exam English: fatigue, distraction, reaction capacity, field of vision."
+        },
+        {
+          "es": "Entender las palabras de un accidente: collision, rear-end collision, running over, victims.",
+          "en": "Understand the words of a crash: collision, rear-end collision, running over, victims."
+        }
+      ],
+      "terms": [
+        {
+          "es": "condiciones meteorológicas o ambientales",
+          "en": "weather or environmental conditions"
+        },
+        {
+          "es": "disminuir sensiblemente la visibilidad",
+          "en": "to significantly reduce visibility"
+        },
+        {
+          "es": "entre el ocaso y la salida del sol",
+          "en": "between sunset and sunrise"
+        },
+        {
+          "es": "vía insuficientemente iluminada",
+          "en": "insufficiently lit road (exam) / poorly lit road"
+        },
+        {
+          "es": "adherencia",
+          "en": "adherence, grip (exam) / traction"
+        },
+        {
+          "es": "fatiga",
+          "en": "fatigue (exam) / tiredness"
+        },
+        {
+          "es": "atropello",
+          "en": "running over (exam) / hitting a pedestrian"
+        },
+        {
+          "es": "colisión por alcance",
+          "en": "rear-end collision"
+        }
+      ],
+      "pretest": {
+        "id": "examlang-pre-conditions",
+        "answer": 0,
+        "es": {
+          "q": "En el inglés del examen, «grip» o «adherence» es:",
+          "options": [
+            "La adherencia de los neumáticos al firme",
+            "La presión de inflado de los neumáticos",
+            "El dibujo de los neumáticos"
+          ],
+          "why": "«Grip» y «adherence» son la adherencia: el agarre del neumático al firme. La presión es «inflation pressure» y el dibujo, «tread»."
+        },
+        "en": {
+          "q": "In exam English, “grip” or “adherence” is:",
+          "options": [
+            "How well the tires hold the road (adherencia)",
+            "The tire inflation pressure (presión de inflado)",
+            "The tire tread (dibujo)"
+          ],
+          "why": "“Grip” and “adherence” mean adherencia, how well the tire holds the surface. Pressure is “inflation pressure” and the tread is “tread”."
+        },
+        "src": "RGC art. 54.1"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "La visibilidad y el tiempo",
+            "en": "Visibility and weather"
+          },
+          "blocks": [
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Español",
+                  "en": "Spanish"
+                },
+                {
+                  "es": "Inglés del examen",
+                  "en": "Exam English"
+                },
+                {
+                  "es": "Inglés de EE. UU.",
+                  "en": "Plain American"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "condiciones meteorológicas o ambientales",
+                    "en": "“condiciones meteorológicas o ambientales”"
+                  },
+                  {
+                    "es": "«meteorological or environmental conditions, weather conditions»",
+                    "en": "meteorological or environmental conditions, weather conditions"
+                  },
+                  {
+                    "es": "«weather and surroundings»",
+                    "en": "weather and surroundings"
+                  }
+                ],
+                [
+                  {
+                    "es": "disminuir sensiblemente la visibilidad",
+                    "en": "“disminuir sensiblemente la visibilidad”"
+                  },
+                  {
+                    "es": "«to significantly reduce the visibility»",
+                    "en": "to significantly reduce the visibility"
+                  },
+                  {
+                    "es": "«to make it hard to see»",
+                    "en": "to make it hard to see"
+                  }
+                ],
+                [
+                  {
+                    "es": "visibilidad reducida",
+                    "en": "“visibilidad reducida”"
+                  },
+                  {
+                    "es": "«reduced visibility, poor visibility»",
+                    "en": "reduced visibility, poor visibility"
+                  },
+                  {
+                    "es": "«poor visibility»",
+                    "en": "poor visibility"
+                  }
+                ],
+                [
+                  {
+                    "es": "niebla espesa, lluvia intensa, nevada",
+                    "en": "“niebla espesa, lluvia intensa, nevada”"
+                  },
+                  {
+                    "es": "«thick fog, intense rain, snowfall»",
+                    "en": "thick fog, intense rain, snowfall"
+                  },
+                  {
+                    "es": "«thick fog, heavy rain, snow»",
+                    "en": "thick fog, heavy rain, snow"
+                  }
+                ],
+                [
+                  {
+                    "es": "nubes de humo o de polvo",
+                    "en": "“nubes de humo o de polvo”"
+                  },
+                  {
+                    "es": "«clouds of smoke or of dust»",
+                    "en": "clouds of smoke or of dust"
+                  },
+                  {
+                    "es": "«smoke or dust»",
+                    "en": "smoke or dust"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "El alumbrado es obligatorio, también de día, cuando hay **condiciones meteorológicas o ambientales** que disminuyen sensiblemente la visibilidad: niebla, lluvia intensa, nevada, nubes de humo o de polvo, o algo parecido.",
+                "en": "Lights are required, by day too, when **weather or environmental conditions** noticeably reduce visibility: fog, heavy rain, snowfall, clouds of smoke or dust, or anything similar."
+              },
+              "src": "RGC art. 106.1"
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "«Sensiblemente» quiere decir «de forma notable». El examen lo traduce como «significantly» o, a veces, «sensibly».",
+                "en": "“Sensiblemente” means “noticeably”. The exam renders it as “significantly” or sometimes “sensibly”, a false friend."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "examlang-visibilidad",
+                "answer": 2,
+                "es": {
+                  "q": "La norma obliga a llevar el alumbrado, también de día, si hay condiciones ambientales que disminuyan sensiblemente la visibilidad. ¿Cuál de estas situaciones es una de ellas?",
+                  "options": [
+                    "Una calzada mojada, con el cielo despejado",
+                    "Un tramo con mucho tráfico a mediodía",
+                    "Una nube de humo que cruza la carretera"
+                  ],
+                  "why": "Los ejemplos de la norma son la niebla, la lluvia intensa, la nevada y las nubes de humo o de polvo. Una calzada mojada con buena visibilidad o el tráfico denso no son condiciones de ese tipo."
+                },
+                "exam": {
+                  "q": "The norm obliges to carry the lighting, also by day, if there are environmental conditions that sensibly diminish the visibility. Which of these situations is one of them?",
+                  "options": [
+                    "A wet carriageway, with the sky clear.",
+                    "A section with much traffic at midday.",
+                    "A cloud of smoke that crosses the road."
+                  ]
+                },
+                "en": {
+                  "q": "You must use your lights, even by day, when conditions noticeably reduce visibility. Which of these is one of those conditions?",
+                  "options": [
+                    "A wet road under a clear sky",
+                    "A busy stretch of road at noon",
+                    "A cloud of smoke drifting across the road"
+                  ],
+                  "why": "The rule’s examples are fog, heavy rain, snowfall and clouds of smoke or dust. A wet road with good visibility, or heavy traffic, is not that kind of condition."
+                },
+                "terms": [
+                  {
+                    "es": "condiciones meteorológicas o ambientales",
+                    "en": "meteorological or environmental conditions"
+                  },
+                  {
+                    "es": "disminuir sensiblemente la visibilidad",
+                    "en": "to significantly reduce visibility"
+                  },
+                  {
+                    "es": "nubes de humo o de polvo",
+                    "en": "clouds of smoke or dust"
+                  }
+                ],
+                "src": "RGC art. 106.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "La noche y la iluminación de la vía",
+            "en": "Night and street lighting"
+          },
+          "blocks": [
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Español",
+                  "en": "Spanish"
+                },
+                {
+                  "es": "Inglés del examen",
+                  "en": "Exam English"
+                },
+                {
+                  "es": "Inglés de EE. UU.",
+                  "en": "Plain American"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "ocaso, puesta del sol",
+                    "en": "“ocaso, puesta del sol”"
+                  },
+                  {
+                    "es": "«sunset»",
+                    "en": "sunset"
+                  },
+                  {
+                    "es": "«sunset, sundown»",
+                    "en": "sunset, sundown"
+                  }
+                ],
+                [
+                  {
+                    "es": "salida del sol",
+                    "en": "“salida del sol”"
+                  },
+                  {
+                    "es": "«sunrise»",
+                    "en": "sunrise"
+                  },
+                  {
+                    "es": "«sunrise»",
+                    "en": "sunrise"
+                  }
+                ],
+                [
+                  {
+                    "es": "vía insuficientemente iluminada",
+                    "en": "“vía insuficientemente iluminada”"
+                  },
+                  {
+                    "es": "«insufficiently lit road, insufficiently illuminated road»",
+                    "en": "insufficiently lit road, insufficiently illuminated road"
+                  },
+                  {
+                    "es": "«poorly lit road»",
+                    "en": "poorly lit road"
+                  }
+                ],
+                [
+                  {
+                    "es": "vía suficientemente iluminada",
+                    "en": "“vía suficientemente iluminada”"
+                  },
+                  {
+                    "es": "«sufficiently lit road»",
+                    "en": "sufficiently lit road"
+                  },
+                  {
+                    "es": "«well-lit road»",
+                    "en": "well-lit road"
+                  }
+                ],
+                [
+                  {
+                    "es": "placa de matrícula",
+                    "en": "“placa de matrícula”"
+                  },
+                  {
+                    "es": "«registration plate»",
+                    "en": "registration plate"
+                  },
+                  {
+                    "es": "«license plate»",
+                    "en": "license plate"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Entre el **ocaso** y la salida del sol, todo vehículo lleva encendidas las luces de posición, y las de gálibo si mide más de 2,10 metros de ancho. La norma también dice «entre la puesta y la salida del sol»: es el mismo periodo.",
+                "en": "Between sunset (**ocaso**) and sunrise, every vehicle has its position lights on, and its clearance lights if it is more than 2.10 meters wide. The rules also say “entre la puesta y la salida del sol”: the same period."
+              },
+              "src": "RGC arts. 99.1 y 105.1"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "examlang-ocaso",
+                "answer": 0,
+                "es": {
+                  "q": "En la norma, «entre el ocaso y la salida del sol» quiere decir:",
+                  "options": [
+                    "Desde que se pone el sol hasta que vuelve a salir",
+                    "Desde la medianoche hasta el amanecer",
+                    "Solo cuando hay niebla o lluvia intensa"
+                  ],
+                  "why": "«Ocaso» es la puesta del sol. La norma dice a veces «entre la puesta y la salida del sol»: es el mismo periodo, toda la noche."
+                },
+                "exam": {
+                  "q": "In the norm, “between the sunset and the rising of the sun” means:",
+                  "options": [
+                    "From when the sun sets until it rises again.",
+                    "From the midnight until the dawn.",
+                    "Only when there is fog or intense rain."
+                  ]
+                },
+                "en": {
+                  "q": "In the rules, “entre el ocaso y la salida del sol” means:",
+                  "options": [
+                    "From sundown until the sun rises again",
+                    "From midnight until dawn",
+                    "Only in fog or heavy rain"
+                  ],
+                  "why": "“Ocaso” is sunset. The rules sometimes say “entre la puesta y la salida del sol” instead: the same period, the whole night."
+                },
+                "terms": [
+                  {
+                    "es": "ocaso",
+                    "en": "sunset"
+                  },
+                  {
+                    "es": "salida del sol",
+                    "en": "sunrise"
+                  },
+                  {
+                    "es": "puesta del sol",
+                    "en": "sunset"
+                  }
+                ],
+                "src": "RGC arts. 99.1 y 105.1"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Una **vía insuficientemente iluminada** es aquella en la que, con vista normal, en algún punto de su calzada no se puede leer una placa de matrícula a 10 metros o no se distingue un vehículo pintado de oscuro a 50 metros.",
+                "en": "An **insufficiently lit road** (vía insuficientemente iluminada) is one where, with normal eyesight, somewhere on its roadway you cannot read a license plate at 10 meters or make out a dark-painted vehicle at 50 meters."
+              },
+              "src": "RGC art. 100.3"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "examlang-insuficiente",
+                "answer": 1,
+                "es": {
+                  "q": "Una vía se considera insuficientemente iluminada si, en algún punto de su calzada y con vista normal, no puedes leer una placa de matrícula a:",
+                  "options": [
+                    "50 metros",
+                    "10 metros",
+                    "100 metros"
+                  ],
+                  "why": "Es la definición del reglamento: no lees una matrícula a 10 metros o no distingues un vehículo oscuro a 50 metros. Los 50 metros son para el vehículo, no para la matrícula."
+                },
+                "exam": {
+                  "q": "A road is considered insufficiently illuminated if, at some point of its carriageway and with normal sight, you cannot read a registration plate at:",
+                  "options": [
+                    "50 metres.",
+                    "10 metres.",
+                    "100 metres."
+                  ]
+                },
+                "en": {
+                  "q": "A road counts as insufficiently lit if, somewhere on its roadway and with normal eyesight, you cannot read a license plate at:",
+                  "options": [
+                    "50 meters",
+                    "10 meters",
+                    "100 meters"
+                  ],
+                  "why": "That is the definition in the rules: you cannot read a plate at 10 meters, or you cannot make out a dark-painted vehicle at 50 meters. The 50 meters is for the vehicle, not the plate."
+                },
+                "terms": [
+                  {
+                    "es": "vía insuficientemente iluminada",
+                    "en": "insufficiently lit road"
+                  },
+                  {
+                    "es": "placa de matrícula",
+                    "en": "registration plate (exam) / license plate"
+                  }
+                ],
+                "src": "RGC art. 100.3"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "El firme y la adherencia",
+            "en": "The road surface and grip"
+          },
+          "blocks": [
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Español",
+                  "en": "Spanish"
+                },
+                {
+                  "es": "Inglés del examen",
+                  "en": "Exam English"
+                },
+                {
+                  "es": "Inglés de EE. UU.",
+                  "en": "Plain American"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "adherencia",
+                    "en": "“adherencia”"
+                  },
+                  {
+                    "es": "«adherence, grip»",
+                    "en": "adherence, grip"
+                  },
+                  {
+                    "es": "«traction»",
+                    "en": "traction"
+                  }
+                ],
+                [
+                  {
+                    "es": "firme, pavimento",
+                    "en": "“firme, pavimento”"
+                  },
+                  {
+                    "es": "«road surface, pavement»",
+                    "en": "road surface, pavement"
+                  },
+                  {
+                    "es": "«road surface»",
+                    "en": "road surface"
+                  }
+                ],
+                [
+                  {
+                    "es": "pavimento deslizante, firme deslizante",
+                    "en": "“pavimento deslizante, firme deslizante”"
+                  },
+                  {
+                    "es": "«slippery pavement, slippery surface»",
+                    "en": "slippery pavement, slippery surface"
+                  },
+                  {
+                    "es": "«slick road»",
+                    "en": "slick road"
+                  }
+                ],
+                [
+                  {
+                    "es": "obras",
+                    "en": "“obras”"
+                  },
+                  {
+                    "es": "«works, roadworks»",
+                    "en": "works, roadworks"
+                  },
+                  {
+                    "es": "«work zone»",
+                    "en": "work zone"
+                  }
+                ],
+                [
+                  {
+                    "es": "tramo",
+                    "en": "“tramo”"
+                  },
+                  {
+                    "es": "«section, stretch (of road)»",
+                    "en": "section, stretch (of road)"
+                  },
+                  {
+                    "es": "«stretch of road»",
+                    "en": "stretch of road"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Detrás de otro vehículo dejas un espacio libre que te permita detenerte, si frena bruscamente, sin colisionar con él. Para calcularlo cuentan sobre todo la velocidad y las **condiciones de adherencia** y frenado.",
+                "en": "Behind another vehicle you leave a gap that lets you stop without hitting it if it brakes hard. What counts most is your speed and the **grip** (adherencia) and braking conditions."
+              },
+              "src": "RGC art. 54.1"
+            },
+            {
+              "t": "us",
+              "text": {
+                "es": "En EE. UU. se dice «traction». El examen dice «adherence» o «grip».",
+                "en": "In the US you say “traction”. The exam says “adherence” or “grip”."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "examlang-adherencia",
+                "answer": 2,
+                "es": {
+                  "q": "Para calcular el espacio libre que dejas con el vehículo de delante, la norma pide tener en cuenta sobre todo la velocidad y las condiciones de:",
+                  "options": [
+                    "Potencia y consumo del motor",
+                    "Carga y número de ocupantes",
+                    "Adherencia y frenado"
+                  ],
+                  "why": "Ese espacio debe permitirte parar sin colisionar si el de delante frena bruscamente. Depende de la velocidad y de la adherencia y el frenado: si la adherencia baja, necesitas más espacio."
+                },
+                "exam": {
+                  "q": "In order to calculate the free space that you leave with the vehicle ahead, the norm asks to bear in mind especially the speed and the conditions of:",
+                  "options": [
+                    "Power and consumption of the engine.",
+                    "Load and number of occupants.",
+                    "Adherence and braking."
+                  ]
+                },
+                "en": {
+                  "q": "When you judge the gap to the vehicle ahead, the rules say to consider mainly your speed and the conditions of:",
+                  "options": [
+                    "Engine power and fuel use",
+                    "Load and number of passengers",
+                    "Grip and braking"
+                  ],
+                  "why": "The gap must let you stop without a collision if the vehicle ahead brakes hard. It depends on speed and on grip and braking: when grip drops, you need more room."
+                },
+                "terms": [
+                  {
+                    "es": "adherencia",
+                    "en": "adherence, grip (exam) / traction"
+                  },
+                  {
+                    "es": "frenar bruscamente",
+                    "en": "to brake sharply"
+                  },
+                  {
+                    "es": "colisionar",
+                    "en": "to collide"
+                  }
+                ],
+                "src": "RGC art. 54.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Las piezas del vehículo",
+            "en": "The vehicle’s parts"
+          },
+          "blocks": [
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Español",
+                  "en": "Spanish"
+                },
+                {
+                  "es": "Inglés del examen",
+                  "en": "Exam English"
+                },
+                {
+                  "es": "Inglés de EE. UU.",
+                  "en": "Plain American"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "presión de inflado",
+                    "en": "“presión de inflado”"
+                  },
+                  {
+                    "es": "«inflation pressure»",
+                    "en": "inflation pressure"
+                  },
+                  {
+                    "es": "«tire pressure»",
+                    "en": "tire pressure"
+                  }
+                ],
+                [
+                  {
+                    "es": "dibujo del neumático",
+                    "en": "“dibujo del neumático”"
+                  },
+                  {
+                    "es": "«tread of the tyre»",
+                    "en": "tread of the tyre"
+                  },
+                  {
+                    "es": "«tire tread»",
+                    "en": "tire tread"
+                  }
+                ],
+                [
+                  {
+                    "es": "amortiguadores",
+                    "en": "“amortiguadores”"
+                  },
+                  {
+                    "es": "«shock absorbers»",
+                    "en": "shock absorbers"
+                  },
+                  {
+                    "es": "«shocks»",
+                    "en": "shocks"
+                  }
+                ],
+                [
+                  {
+                    "es": "sistema antibloqueo de frenos (ABS)",
+                    "en": "“sistema antibloqueo de frenos (ABS)”"
+                  },
+                  {
+                    "es": "«anti-lock braking system (ABS)»",
+                    "en": "anti-lock braking system (ABS)"
+                  },
+                  {
+                    "es": "«anti-lock brakes»",
+                    "en": "anti-lock brakes"
+                  }
+                ],
+                [
+                  {
+                    "es": "ruedas motrices",
+                    "en": "“ruedas motrices”"
+                  },
+                  {
+                    "es": "«driving wheels»",
+                    "en": "driving wheels"
+                  },
+                  {
+                    "es": "«drive wheels»",
+                    "en": "drive wheels"
+                  }
+                ],
+                [
+                  {
+                    "es": "marchas largas / cortas",
+                    "en": "“marchas largas / cortas”"
+                  },
+                  {
+                    "es": "«long (high) gears / short (low) gears»",
+                    "en": "long (high) gears / short (low) gears"
+                  },
+                  {
+                    "es": "«high / low gears»",
+                    "en": "high / low gears"
+                  }
+                ],
+                [
+                  {
+                    "es": "pedal de freno",
+                    "en": "“pedal de freno”"
+                  },
+                  {
+                    "es": "«brake pedal»",
+                    "en": "brake pedal"
+                  },
+                  {
+                    "es": "«brake pedal»",
+                    "en": "brake pedal"
+                  }
+                ],
+                [
+                  {
+                    "es": "rueda de repuesto",
+                    "en": "“rueda de repuesto”"
+                  },
+                  {
+                    "es": "«spare wheel»",
+                    "en": "spare wheel"
+                  },
+                  {
+                    "es": "«spare tire»",
+                    "en": "spare tire"
+                  }
+                ],
+                [
+                  {
+                    "es": "extintor",
+                    "en": "“extintor”"
+                  },
+                  {
+                    "es": "«fire extinguisher»",
+                    "en": "fire extinguisher"
+                  },
+                  {
+                    "es": "«fire extinguisher»",
+                    "en": "fire extinguisher"
+                  }
+                ],
+                [
+                  {
+                    "es": "homologado",
+                    "en": "“homologado”"
+                  },
+                  {
+                    "es": "«approved, homologated»",
+                    "en": "approved, homologated"
+                  },
+                  {
+                    "es": "«certified»",
+                    "en": "certified"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Estas palabras salen en las preguntas de mantenimiento y de frenada. **Homologado** quiere decir aprobado oficialmente: el examen lo traduce como «approved» o «homologated».",
+                "en": "These words come up in questions on maintenance and braking. **Homologado** means officially approved: the exam renders it as “approved” or “homologated”."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "El estado del conductor",
+            "en": "The driver’s condition"
+          },
+          "blocks": [
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Español",
+                  "en": "Spanish"
+                },
+                {
+                  "es": "Inglés del examen",
+                  "en": "Exam English"
+                },
+                {
+                  "es": "Inglés de EE. UU.",
+                  "en": "Plain American"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "fatiga, cansancio",
+                    "en": "“fatiga, cansancio”"
+                  },
+                  {
+                    "es": "«fatigue, tiredness»",
+                    "en": "fatigue, tiredness"
+                  },
+                  {
+                    "es": "«tiredness»",
+                    "en": "tiredness"
+                  }
+                ],
+                [
+                  {
+                    "es": "distracción",
+                    "en": "“distracción”"
+                  },
+                  {
+                    "es": "«distraction»",
+                    "en": "distraction"
+                  },
+                  {
+                    "es": "«distraction»",
+                    "en": "distraction"
+                  }
+                ],
+                [
+                  {
+                    "es": "atención permanente, concentración",
+                    "en": "“atención permanente, concentración”"
+                  },
+                  {
+                    "es": "«permanent attention, concentration»",
+                    "en": "permanent attention, concentration"
+                  },
+                  {
+                    "es": "«full attention, focus»",
+                    "en": "full attention, focus"
+                  }
+                ],
+                [
+                  {
+                    "es": "capacidad de reacción, reflejos",
+                    "en": "“capacidad de reacción, reflejos”"
+                  },
+                  {
+                    "es": "«reaction capacity, reflexes»",
+                    "en": "reaction capacity, reflexes"
+                  },
+                  {
+                    "es": "«reaction time, reflexes»",
+                    "en": "reaction time, reflexes"
+                  }
+                ],
+                [
+                  {
+                    "es": "campo visual, campo de visión",
+                    "en": "“campo visual, campo de visión”"
+                  },
+                  {
+                    "es": "«visual field, field of vision»",
+                    "en": "visual field, field of vision"
+                  },
+                  {
+                    "es": "«field of view»",
+                    "en": "field of view"
+                  }
+                ],
+                [
+                  {
+                    "es": "medicamentos, efectos secundarios",
+                    "en": "“medicamentos, efectos secundarios”"
+                  },
+                  {
+                    "es": "«medicines, side effects»",
+                    "en": "medicines, side effects"
+                  },
+                  {
+                    "es": "«prescription drugs, side effects»",
+                    "en": "prescription drugs, side effects"
+                  }
+                ],
+                [
+                  {
+                    "es": "factor de riesgo, conducta de riesgo",
+                    "en": "“factor de riesgo, conducta de riesgo”"
+                  },
+                  {
+                    "es": "«risk factor, risky behaviour»",
+                    "en": "risk factor, risky behaviour"
+                  },
+                  {
+                    "es": "«risk factor, risky behavior»",
+                    "en": "risk factor, risky behavior"
+                  }
+                ],
+                [
+                  {
+                    "es": "conducción preventiva",
+                    "en": "“conducción preventiva”"
+                  },
+                  {
+                    "es": "«preventive driving, defensive driving»",
+                    "en": "preventive driving, defensive driving"
+                  },
+                  {
+                    "es": "«defensive driving»",
+                    "en": "defensive driving"
+                  }
+                ],
+                [
+                  {
+                    "es": "conducción eficiente",
+                    "en": "“conducción eficiente”"
+                  },
+                  {
+                    "es": "«efficient driving»",
+                    "en": "efficient driving"
+                  },
+                  {
+                    "es": "«eco-driving»",
+                    "en": "eco-driving"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "El conductor debe mantener su **libertad de movimientos**, el campo necesario de visión y la atención permanente a la conducción.",
+                "en": "Drivers must keep their **freedom of movement**, the field of vision they need and their full attention on driving."
+              },
+              "src": "RGC art. 18.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Se prohíbe conducir con auriculares conectados a aparatos de sonido y usar el móvil. Una excepción: los dispositivos inalámbricos **certificados u homologados** integrados en el casco de moto o ciclomotor, solo para intercomunicación o navegación y sin afectar a la seguridad.",
+                "en": "Driving with earphones connected to a sound device, and using a phone, are banned. One exception: wireless devices that are **certified or approved** (homologados) and built into a motorcycle or moped helmet, only for intercom or navigation and without affecting safety."
+              },
+              "src": "RGC art. 18.2"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "examlang-casco-homologado",
+                "answer": 0,
+                "es": {
+                  "q": "Conduces una motocicleta. ¿Qué dispositivo de comunicación permite la norma mientras circulas?",
+                  "options": [
+                    "Uno inalámbrico homologado, integrado en el casco, para intercomunicación o navegación",
+                    "Un auricular con cable en un solo oído, bajo el casco",
+                    "El móvil en la mano, en tramos rectos y con poco tráfico"
+                  ],
+                  "why": "La excepción es para dispositivos inalámbricos certificados u homologados integrados en el casco, solo para intercomunicación o navegación y siempre que no afecten a la seguridad. Los auriculares y el móvil en la mano siguen prohibidos."
+                },
+                "exam": {
+                  "q": "You drive a motorcycle. Which device of communication does the norm permit while you circulate?",
+                  "options": [
+                    "A wireless homologated one, integrated in the helmet, for intercommunication or navigation.",
+                    "An earphone with cable in only one ear, under the helmet.",
+                    "The mobile in the hand, on straight sections and with little traffic."
+                  ]
+                },
+                "en": {
+                  "q": "You ride a motorcycle. Which communication device do the rules allow while you ride?",
+                  "options": [
+                    "A wireless, approved unit built into the helmet, for intercom or navigation",
+                    "A wired earbud in one ear, under the helmet",
+                    "Your phone in your hand, on straight stretches with light traffic"
+                  ],
+                  "why": "The exception covers certified or approved wireless devices built into the helmet, only for intercom or navigation, and only if they do not affect safety. Earbuds and a hand-held phone stay banned."
+                },
+                "terms": [
+                  {
+                    "es": "homologado",
+                    "en": "approved, homologated (exam) / certified"
+                  },
+                  {
+                    "es": "casco de protección",
+                    "en": "protective helmet"
+                  },
+                  {
+                    "es": "atención permanente",
+                    "en": "permanent attention"
+                  }
+                ],
+                "src": "RGC art. 18.2"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "El accidente",
+            "en": "The crash"
+          },
+          "blocks": [
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Español",
+                  "en": "Spanish"
+                },
+                {
+                  "es": "Inglés del examen",
+                  "en": "Exam English"
+                },
+                {
+                  "es": "Inglés de EE. UU.",
+                  "en": "Plain American"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "colisión, colisionar",
+                    "en": "“colisión, colisionar”"
+                  },
+                  {
+                    "es": "«collision, to collide»",
+                    "en": "collision, to collide"
+                  },
+                  {
+                    "es": "«crash, to crash»",
+                    "en": "crash, to crash"
+                  }
+                ],
+                [
+                  {
+                    "es": "colisión por alcance",
+                    "en": "“colisión por alcance”"
+                  },
+                  {
+                    "es": "«rear-end collision»",
+                    "en": "rear-end collision"
+                  },
+                  {
+                    "es": "«rear-end crash»",
+                    "en": "rear-end crash"
+                  }
+                ],
+                [
+                  {
+                    "es": "atropello, atropellar",
+                    "en": "“atropello, atropellar”"
+                  },
+                  {
+                    "es": "«running over, to run over»",
+                    "en": "running over, to run over"
+                  },
+                  {
+                    "es": "«hitting a pedestrian»",
+                    "en": "hitting a pedestrian"
+                  }
+                ],
+                [
+                  {
+                    "es": "víctima, fallecido",
+                    "en": "“víctima, fallecido”"
+                  },
+                  {
+                    "es": "«victim, deceased, fatality»",
+                    "en": "victim, deceased, fatality"
+                  },
+                  {
+                    "es": "«casualty, person killed»",
+                    "en": "casualty, person killed"
+                  }
+                ],
+                [
+                  {
+                    "es": "herido grave / leve, lesiones",
+                    "en": "“herido grave / leve, lesiones”"
+                  },
+                  {
+                    "es": "«seriously / slightly injured, injuries»",
+                    "en": "seriously / slightly injured, injuries"
+                  },
+                  {
+                    "es": "«badly / slightly hurt, injuries»",
+                    "en": "badly / slightly hurt, injuries"
+                  }
+                ],
+                [
+                  {
+                    "es": "primeros auxilios",
+                    "en": "“primeros auxilios”"
+                  },
+                  {
+                    "es": "«first aid»",
+                    "en": "first aid"
+                  },
+                  {
+                    "es": "«first aid»",
+                    "en": "first aid"
+                  }
+                ],
+                [
+                  {
+                    "es": "daños materiales",
+                    "en": "“daños materiales”"
+                  },
+                  {
+                    "es": "«material damage»",
+                    "en": "material damage"
+                  },
+                  {
+                    "es": "«property damage»",
+                    "en": "property damage"
+                  }
+                ],
+                [
+                  {
+                    "es": "huellas",
+                    "en": "“huellas”"
+                  },
+                  {
+                    "es": "«traces, marks»",
+                    "en": "traces, marks"
+                  },
+                  {
+                    "es": "«marks at the scene»",
+                    "en": "marks at the scene"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si parece que alguien ha muerto o está gravemente herido, evita cambiar el estado de las cosas y las **huellas** u otras pruebas, salvo que eso perjudique la seguridad de los heridos o de la circulación.",
+                "en": "If someone seems to be dead or seriously injured, avoid changing the scene and the **marks** (huellas) or other evidence, unless leaving them harms the safety of the injured or of traffic."
+              },
+              "src": "RGC art. 129.2.c"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "examlang-huellas",
+                "answer": 1,
+                "es": {
+                  "q": "Tras un accidente con un herido grave, los implicados deben evitar modificar el estado de las cosas y las huellas. ¿Cuándo pueden mover algo?",
+                  "options": [
+                    "Nunca, aunque peligre la circulación",
+                    "Cuando no moverlo perjudique la seguridad de los heridos o de la circulación",
+                    "Cuando lo pida cualquier testigo"
+                  ],
+                  "why": "La regla tiene una excepción con «salvo que»: se puede modificar el lugar si dejarlo como está perjudica la seguridad de los heridos o de la circulación. Las huellas sirven para aclarar la responsabilidad."
+                },
+                "exam": {
+                  "q": "After an accident with a seriously injured person, those implied must avoid modifying the state of the things and the traces. When can they move something?",
+                  "options": [
+                    "Never, although the circulation is in danger.",
+                    "When not moving it harms the safety of the injured or of the circulation.",
+                    "When any witness asks for it."
+                  ]
+                },
+                "en": {
+                  "q": "After a crash with a seriously injured person, those involved must avoid disturbing the scene and the marks on it. When may they move something?",
+                  "options": [
+                    "Never, even if traffic is put at risk",
+                    "When leaving it would harm the safety of the injured or of traffic",
+                    "When any witness asks them to"
+                  ],
+                  "why": "The rule has an exception introduced by “salvo que”: you may change the scene if leaving it as it is harms the safety of the injured or of traffic. The marks help establish who was responsible."
+                },
+                "terms": [
+                  {
+                    "es": "huellas",
+                    "en": "traces, marks"
+                  },
+                  {
+                    "es": "herido grave",
+                    "en": "seriously injured"
+                  },
+                  {
+                    "es": "implicado",
+                    "en": "involved (exam: implied)"
+                  }
+                ],
+                "src": "RGC art. 129.2.c"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "«Condiciones meteorológicas o ambientales» son el tiempo y el entorno: niebla, lluvia intensa, nevada, humo o polvo.",
+          "en": "“Condiciones meteorológicas o ambientales” are weather and surroundings: fog, heavy rain, snowfall, smoke or dust."
+        },
+        {
+          "es": "«Entre el ocaso y la salida del sol» quiere decir de noche. «Ocaso» es la puesta del sol.",
+          "en": "“Entre el ocaso y la salida del sol” means at night. “Ocaso” is sunset."
+        },
+        {
+          "es": "Vía insuficientemente iluminada: no lees una matrícula a 10 metros o no distingues un vehículo oscuro a 50.",
+          "en": "Insufficiently lit road: you cannot read a plate at 10 meters or make out a dark vehicle at 50."
+        },
+        {
+          "es": "«Adherence» o «grip» es la adherencia: el agarre de los neumáticos al firme.",
+          "en": "“Adherence” or “grip” is adherencia: how well the tires hold the road."
+        },
+        {
+          "es": "«Homologado» es «approved» u «homologated»: aprobado oficialmente.",
+          "en": "“Homologado” is “approved” or “homologated”: officially approved."
+        }
+      ],
+      "src": [
+        "Reglamento General de Circulación (RD 1428/2003), arts. 18, 54, 99, 100, 105, 106 y 129"
       ]
     },
     {
@@ -5320,6 +6961,20 @@
                   {
                     "es": "No es «always»: pone una condición.",
                     "en": "Not “always”: it sets a condition."
+                  }
+                ],
+                [
+                  {
+                    "es": "como norma general",
+                    "en": "“como norma general”"
+                  },
+                  {
+                    "es": "«as a general rule»",
+                    "en": "as a general rule"
+                  },
+                  {
+                    "es": "«as a rule, usually»",
+                    "en": "as a rule, usually"
                   }
                 ],
                 [
@@ -5599,6 +7254,62 @@
                 ],
                 "src": "RGC art. 117.3"
               }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Las operaciones de **carga o descarga** se hacen fuera de la vía. Excepcionalmente, cuando sea inexcusable hacerlas en ella, se hacen sin causar peligros ni perturbaciones graves y respetando las normas de parada y estacionamiento.",
+                "en": "**Loading and unloading** takes place off the road. Exceptionally, when it truly cannot be avoided, it is done on the road, without causing danger or serious disruption and following the stopping and parking rules."
+              },
+              "src": "RGC art. 16"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "examlang-carga",
+                "answer": 1,
+                "es": {
+                  "q": "Según la norma, ¿dónde se hacen, como regla, las operaciones de carga y descarga de mercancías?",
+                  "options": [
+                    "En la calzada, junto a la acera",
+                    "Fuera de la vía",
+                    "En el arcén, con la señal de emergencia"
+                  ],
+                  "why": "La regla es fuera de la vía. Solo excepcionalmente, cuando sea inexcusable, se hacen en ella, sin causar peligros ni perturbaciones graves."
+                },
+                "exam": {
+                  "q": "According to the norm, where are done, as a rule, the operations of loading and unloading of goods?",
+                  "options": [
+                    "On the carriageway, beside the pavement.",
+                    "Outside the road.",
+                    "On the hard shoulder, with the emergency signal."
+                  ]
+                },
+                "en": {
+                  "q": "Under the rules, where does loading and unloading normally take place?",
+                  "options": [
+                    "On the roadway, next to the sidewalk",
+                    "Off the road",
+                    "On the shoulder, with the hazard lights on"
+                  ],
+                  "why": "The rule is off the road. Only exceptionally, when it truly cannot be avoided, is it done on the road, without causing danger or serious disruption."
+                },
+                "terms": [
+                  {
+                    "es": "carga y descarga",
+                    "en": "loading and unloading"
+                  },
+                  {
+                    "es": "excepcionalmente",
+                    "en": "exceptionally"
+                  },
+                  {
+                    "es": "inexcusable",
+                    "en": "unavoidable"
+                  }
+                ],
+                "src": "RGC art. 16"
+              }
             }
           ]
         },
@@ -5797,7 +7508,7 @@
         }
       ],
       "src": [
-        "Reglamento General de Circulación (RD 1428/2003), arts. 94.1.g, 94.2 y 117.1 y 117.3",
+        "Reglamento General de Circulación (RD 1428/2003), arts. 16, 94.1.g, 94.2 y 117.1 y 117.3",
         "Ley de Tráfico y Seguridad Vial (RDL 6/2015), Anexo I, punto 81"
       ]
     }

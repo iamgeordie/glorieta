@@ -1357,6 +1357,50 @@
                 ],
                 "src": "RGV Anexo XI, V-13.2"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-points-12",
+                "answer": 2,
+                "es": {
+                  "q": "Tienes el permiso B desde hace dos años y ahora apruebas el A2. ¿Tienes que llevar la «L» en la moto?",
+                  "options": [
+                    "Sí, durante un año, porque el A2 es nuevo",
+                    "Sí, pero solo seis meses",
+                    "No: no es tu primer permiso, ya tuviste otro al menos un año"
+                  ],
+                  "why": "La «L» es para quien obtiene un permiso por primera vez. No es «primera vez» si ya tuviste otro permiso, de cualquier clase, durante al menos un año."
+                },
+                "en": {
+                  "q": "You have held a class B permit for two years and now you pass A2. Must you carry the “L” on the motorcycle?",
+                  "options": [
+                    "Yes, for a year, because the A2 is new",
+                    "Yes, but only for six months",
+                    "No: it is not your first permit; you already held another for at least a year"
+                  ],
+                  "why": "The “L” is for someone who obtains a permit for the first time. It is not a “first time” if you already held another permit, of any class, for at least a year."
+                },
+                "exam": {
+                  "q": "You have the permit B for two years and now you pass the A2. Is it obligatory for you to carry the «L» on the motorcycle?",
+                  "options": [
+                    "Yes, during one year, because the A2 is new.",
+                    "Yes, but only six months.",
+                    "No: it is not your first permit, you already had another one at least one year."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "conductor novel",
+                    "en": "novice driver"
+                  },
+                  {
+                    "es": "por primera vez",
+                    "en": "for the first time"
+                  }
+                ],
+                "src": "RGV Anexo XI, V-13.2"
+              }
             }
           ]
         },
@@ -1583,7 +1627,7 @@
                   ]
                 },
                 "en": {
-                  "q": "A driver has lost 8 points. How many can the driver recover, at most, with a road awareness and re-education course?",
+                  "q": "A driver has lost 8 points. With a course of road awareness and re-education, how many can the driver win back at most?",
                   "options": [
                     "Six",
                     "All eight that were lost",
@@ -3316,6 +3360,62 @@
                 ],
                 "src": "RGCond arts. 13.1 and 44.1"
               }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si te roban el permiso, lo pierdes o se estropea, la **Jefatura Provincial de Tráfico** puede darte un **duplicado** si lo pides. Si luego encuentras el original perdido, debes devolverlo a la Jefatura.",
+                "en": "If your permit is stolen, lost or damaged, the **provincial traffic office** can issue a **duplicate** at your request. If you later find the lost original, you must return it to that office."
+              },
+              "src": "RGCond art. 11.1 y 11.3"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-validity-7",
+                "answer": 2,
+                "es": {
+                  "q": "Has perdido tu permiso de conducción. ¿Qué haces?",
+                  "options": [
+                    "Volver a examinarte de la teoría",
+                    "Llevar una fotocopia del permiso mientras tanto",
+                    "Pedir un duplicado en la Jefatura Provincial de Tráfico"
+                  ],
+                  "why": "En caso de sustracción, extravío o deterioro, la Jefatura Provincial de Tráfico expide un duplicado a petición del titular. No hay que repetir ninguna prueba."
+                },
+                "en": {
+                  "q": "You have lost your driving permit. What do you do?",
+                  "options": [
+                    "Take the theory test again",
+                    "Carry a photocopy of the permit in the meantime",
+                    "Ask the provincial traffic office for a duplicate"
+                  ],
+                  "why": "If it is stolen, lost or damaged, the provincial traffic office issues a duplicate at the holder’s request. You do not repeat any test."
+                },
+                "exam": {
+                  "q": "You have lost your driving licence. What do you do?",
+                  "options": [
+                    "To take the theory exam again.",
+                    "To carry a photocopy of the licence in the meantime.",
+                    "To request a duplicate at the Provincial Traffic Headquarters."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "duplicado",
+                    "en": "duplicate"
+                  },
+                  {
+                    "es": "extravío",
+                    "en": "loss"
+                  },
+                  {
+                    "es": "Jefatura Provincial de Tráfico",
+                    "en": "Provincial Traffic Headquarters"
+                  }
+                ],
+                "src": "RGCond art. 11.1"
+              }
             }
           ]
         },
@@ -3488,7 +3588,8 @@
       "src": [
         "Reglamento General de Conductores (RD 818/2009), arts. 7.1, 12, 13, 21, 22 y 44",
         "Ley de Tráfico y Seguridad Vial (RDL 6/2015), art. 61.3",
-        "DGT (dgt.es): lista de países con convenio de canje de permisos extranjeros"
+        "DGT (dgt.es): lista de países con convenio de canje de permisos extranjeros",
+        "RGCond art. 11"
       ]
     },
     {
@@ -4080,6 +4181,62 @@
                 ],
                 "src": "Código Penal art. 379.1"
               }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Conducir un vehículo de motor o un ciclomotor con el permiso **sin vigencia por haber perdido todos los puntos** se castiga con **prisión de tres a seis meses**, o multa de doce a veinticuatro meses, o trabajos en beneficio de la comunidad de 31 a 90 días.",
+                "en": "Driving a motor vehicle or moped when the permit has **lost its validity because all points were lost** is punished with **three to six months in prison**, or a fine of twelve to twenty-four months, or 31 to 90 days of community service."
+              },
+              "src": "CP art. 384"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-duties-8",
+                "answer": 1,
+                "es": {
+                  "q": "Te declaran la pérdida de vigencia del permiso por quedarte sin puntos, y aun así sigues conduciendo. ¿Puede castigarse con cárcel?",
+                  "options": [
+                    "No: es solo una infracción administrativa con multa",
+                    "Sí: con prisión de tres a seis meses, o multa o trabajos en beneficio de la comunidad",
+                    "Solo si además provocas un accidente"
+                  ],
+                  "why": "Es un delito del Código Penal (art. 384). La pena es prisión de tres a seis meses, o multa de doce a veinticuatro meses, o trabajos en beneficio de la comunidad de 31 a 90 días."
+                },
+                "en": {
+                  "q": "Your permit is declared no longer valid because you ran out of points, and you keep driving anyway. Can it be punished with prison?",
+                  "options": [
+                    "No: it is only an administrative offense with a fine",
+                    "Yes: three to six months in prison, or a fine or community service",
+                    "Only if you also cause a crash"
+                  ],
+                  "why": "It is a crime under the Criminal Code (art. 384). The penalty is three to six months in prison, or a fine of twelve to twenty-four months, or 31 to 90 days of community service."
+                },
+                "exam": {
+                  "q": "They declare the loss of validity of your licence for being left without points, and even so you continue driving. Can it be punished with prison?",
+                  "options": [
+                    "No: it is only an administrative infraction with a fine.",
+                    "Yes: with prison from three to six months, or a fine or works for the benefit of the community.",
+                    "Only if in addition you provoke an accident."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "pérdida de vigencia",
+                    "en": "loss of validity"
+                  },
+                  {
+                    "es": "pena de prisión",
+                    "en": "prison sentence"
+                  },
+                  {
+                    "es": "trabajos en beneficio de la comunidad",
+                    "en": "community service"
+                  }
+                ],
+                "src": "CP art. 384"
+              }
             }
           ]
         }
@@ -4106,7 +4263,8 @@
       "src": [
         "Reglamento General de Conductores (RD 818/2009), arts. 3, 10 y 36",
         "Ley de Tráfico y Seguridad Vial (RDL 6/2015), art. 82",
-        "Código Penal (LO 10/1995), arts. 379, 380, 382 bis, 383 y 384"
+        "Código Penal (LO 10/1995), arts. 379, 380, 382 bis, 383 y 384",
+        "Código Penal, art. 384"
       ]
     },
     {
@@ -4478,6 +4636,62 @@
                 ],
                 "src": "RGCond anexo VI, B.2"
               }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Usar en las pruebas del permiso **dispositivos de intercomunicación** no autorizados, o ayudar a quien los usa, es una infracción **muy grave**: 500 euros. Además, el aspirante no puede presentarse a las pruebas durante **seis meses**.",
+                "en": "Using unauthorized **intercom devices** in the permit tests, or helping someone who uses them, is a **very serious** offense: 500 euros. On top of that, the candidate may not sit the tests for **six months**."
+              },
+              "src": "LSV art. 77.u, 80.1 y 80.4"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-exam-10",
+                "answer": 0,
+                "es": {
+                  "q": "Un aspirante lleva un pinganillo oculto para que le dicten las respuestas del examen teórico y lo descubren. ¿Qué le puede pasar?",
+                  "options": [
+                    "Multa de 500 euros y no poder examinarse en seis meses",
+                    "Solo suspende ese examen y repite la semana siguiente",
+                    "Una multa leve de 100 euros"
+                  ],
+                  "why": "Usar dispositivos de intercomunicación no autorizados en las pruebas es infracción muy grave (500 euros). Además, durante seis meses no puede presentarse a las pruebas."
+                },
+                "en": {
+                  "q": "A candidate has a hidden earpiece so someone can dictate the theory test answers, and is caught. What can happen?",
+                  "options": [
+                    "A 500-euro fine and no tests for six months",
+                    "They only fail that test and retake it the next week",
+                    "A minor fine of 100 euros"
+                  ],
+                  "why": "Using unauthorized intercom devices in the tests is a very serious offense (500 euros). In addition, the candidate may not sit the tests for six months."
+                },
+                "exam": {
+                  "q": "An applicant carries a hidden earpiece so that they dictate to him the answers of the theoretical exam and they discover him. What can happen to him?",
+                  "options": [
+                    "Fine of 500 euros and not being able to take the exam in six months.",
+                    "He only fails that exam and repeats the following week.",
+                    "A minor fine of 100 euros."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "dispositivos de intercomunicación",
+                    "en": "intercom devices"
+                  },
+                  {
+                    "es": "aspirante",
+                    "en": "applicant / candidate"
+                  },
+                  {
+                    "es": "infracción muy grave",
+                    "en": "very serious offence"
+                  }
+                ],
+                "src": "LSV art. 77.u, 80.1 y 80.4"
+              }
             }
           ]
         },
@@ -4824,7 +5038,8 @@
         "docs-03"
       ],
       "src": [
-        "Reglamento General de Conductores (RD 818/2009), arts. 41, 43, 49, 51, 53, 55 y 58, y anexos V y VI"
+        "Reglamento General de Conductores (RD 818/2009), arts. 41, 43, 49, 51, 53, 55 y 58, y anexos V y VI",
+        "LSV arts. 77.u y 80"
       ]
     },
     {

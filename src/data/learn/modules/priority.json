@@ -271,6 +271,101 @@
                 ],
                 "src": "RGC art. 57.1"
               }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Una **bicicleta** o un **carro de tracción animal** también son vehículos. Si llegan por tu derecha a un cruce sin señales, pasan antes que tú.",
+                "en": "A **bicycle** or an **animal-drawn cart** is a vehicle too. If one reaches a junction with no signs from your right, it goes before you."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c1f",
+                "answer": 2,
+                "es": {
+                  "q": "Llegas a un cruce sin señales ni semáforos. Por tu derecha se acerca una bicicleta y por tu izquierda nadie. ¿Quién pasa primero?",
+                  "options": [
+                    "Tú, porque un coche tiene preferencia sobre una bicicleta",
+                    "El que vaya más rápido",
+                    "La bicicleta, porque viene por tu derecha"
+                  ],
+                  "why": "Sin señales, cedes el paso a los vehículos que se acercan por tu derecha. Una bicicleta es un vehículo, así que la regla vale igual."
+                },
+                "exam": {
+                  "q": "You arrive at an intersection without signs nor traffic lights. By your right a bicycle approaches and by your left nobody. Who passes first?",
+                  "options": [
+                    "You, because a car has preference over a bicycle.",
+                    "The one that goes faster.",
+                    "The bicycle, because it comes by your right."
+                  ]
+                },
+                "en": {
+                  "q": "You reach a junction with no signs or lights. A bicycle approaches from your right and nobody from your left. Who goes first?",
+                  "options": [
+                    "You, because a car has priority over a bicycle",
+                    "Whoever is faster",
+                    "The bicycle, because it comes from your right"
+                  ],
+                  "why": "With no signs, you yield to vehicles approaching from your right. A bicycle is a vehicle, so the rule applies just the same."
+                },
+                "terms": [
+                  {
+                    "es": "intersección sin señalizar",
+                    "en": "unsignposted intersection"
+                  },
+                  {
+                    "es": "ciclo",
+                    "en": "cycle"
+                  }
+                ],
+                "src": "RGC arts. 57.1 y 64.2; LSV Anexo I, definiciones 6 a 8"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c1g",
+                "answer": 0,
+                "es": {
+                  "q": "En un camino rural llegas a un cruce sin señales. Un carro tirado por un caballo se acerca por tu derecha. ¿Qué haces?",
+                  "options": [
+                    "Le cedes el paso",
+                    "Pasas tú: un carro no es un vehículo",
+                    "Tocas la bocina y pasas"
+                  ],
+                  "why": "Un carro de tracción animal es un vehículo. En un cruce sin señales, el que viene por tu derecha tiene preferencia."
+                },
+                "exam": {
+                  "q": "On a rural road you arrive at an intersection without signs. A cart pulled by a horse approaches by your right. What do you do?",
+                  "options": [
+                    "To yield way to it.",
+                    "To pass yourself: a cart is not a vehicle.",
+                    "To use the horn and pass."
+                  ]
+                },
+                "en": {
+                  "q": "On a country road you reach a junction with no signs. A horse-drawn cart approaches from your right. What do you do?",
+                  "options": [
+                    "Yield to it",
+                    "Go first: a cart is not a vehicle",
+                    "Honk and go"
+                  ],
+                  "why": "An animal-drawn cart is a vehicle. At a junction with no signs, whoever comes from your right has priority."
+                },
+                "terms": [
+                  {
+                    "es": "vehículo de tracción animal",
+                    "en": "animal-drawn vehicle"
+                  },
+                  {
+                    "es": "ceder el paso",
+                    "en": "give way"
+                  }
+                ],
+                "src": "RGC arts. 57.1 y 62.1.c"
+              }
             }
           ]
         },
@@ -524,7 +619,7 @@
                 "en": {
                   "q": "A tram, running on its rails, reaches a junction with no signs from your left. Who goes first?",
                   "options": [
-                    "The tram, because it runs on rails",
+                    "The tram: rail vehicles go first",
                     "You, because the tram comes from your left",
                     "Whoever reaches the junction first"
                   ],
@@ -570,7 +665,8 @@
       ],
       "src": [
         "Reglamento General de Circulación (RD 1428/2003), arts. 46.1, 56.1, 57.1 y 58.1",
-        "Ley de Tráfico (RDL 6/2015), anexo I, definición 62"
+        "Ley de Tráfico (RDL 6/2015), anexo I, definición 62",
+        "Ley de Tráfico (RDL 6/2015), anexo I, definiciones 6 a 8"
       ]
     },
     {
@@ -724,6 +820,58 @@
                   }
                 ],
                 "src": "RGC art. 56.5"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "La **línea discontinua** pintada a lo ancho del carril marca hasta dónde llegas cuando debes ceder el paso. No la pases, salvo que circunstancias anormales reduzcan la visibilidad. Vale también en un cruce sin señal de prioridad.",
+                "en": "The **dashed line** painted across the lane marks how far you go when you must yield. Do not cross it, unless unusual conditions reduce visibility. It also applies at a junction with no priority sign."
+              },
+              "src": "RGC Anexo I, ap. 5.2 (M-4.2)"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c2h",
+                "answer": 1,
+                "es": {
+                  "q": "Debes ceder el paso en un cruce. La niebla es densa y desde la línea discontinua transversal no ves la otra vía. ¿Qué haces?",
+                  "options": [
+                    "Te quedas siempre detrás de la línea, aunque no veas",
+                    "Avanzas despacio hasta ver bien, sin poner en peligro a nadie",
+                    "Cruzas deprisa para estar poco tiempo en el cruce"
+                  ],
+                  "why": "No debes rebasar la línea de ceda el paso, salvo en circunstancias anormales que reduzcan la visibilidad. Entonces avanzas con cuidado hasta ver la vía preferente."
+                },
+                "exam": {
+                  "q": "You must yield way at an intersection. The fog is dense and from the transverse dashed line you do not see the other road. What do you do?",
+                  "options": [
+                    "To stay always behind the line, although you do not see.",
+                    "To advance slowly until seeing well, without endangering anybody.",
+                    "To cross quickly in order to be little time in the intersection."
+                  ]
+                },
+                "en": {
+                  "q": "You must yield at a junction. The fog is thick and from the dashed line across the lane you cannot see the other road. What do you do?",
+                  "options": [
+                    "Always stay behind the line, even if you cannot see",
+                    "Creep forward until you can see well, without putting anyone at risk",
+                    "Cross quickly to spend little time in the junction"
+                  ],
+                  "why": "You must not cross the yield line, except in unusual conditions that reduce visibility. Then you edge forward carefully until you can see the priority road."
+                },
+                "terms": [
+                  {
+                    "es": "marca transversal discontinua",
+                    "en": "transverse dashed marking"
+                  },
+                  {
+                    "es": "visibilidad reducida",
+                    "en": "reduced visibility"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.2 (M-4.2)"
               }
             }
           ]
@@ -1002,6 +1150,57 @@
                 ],
                 "src": "RGC art. 56.4"
               }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Esta señal también te da prioridad sobre un **tranvía** que llega de otra vía. La preferencia de los raíles es la regla de los cruces **sin** señales.",
+                "en": "This sign also gives you priority over a **tram** arriving from another road. The priority of rails is the rule for junctions **without** signs."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c2i",
+                "answer": 2,
+                "es": {
+                  "q": "Circulas por una vía con la señal de calzada con prioridad. En el próximo cruce, un tranvía llega por tu derecha desde otra calle. ¿Quién tiene preferencia?",
+                  "options": [
+                    "El tranvía, porque circula sobre raíles",
+                    "El tranvía, porque viene por tu derecha",
+                    "Tú, porque tu vía está señalizada con prioridad"
+                  ],
+                  "why": "La señal de calzada con prioridad te da preferencia sobre los vehículos que vienen de otra vía. La prioridad de los raíles se aplica cuando no hay señal que regule el cruce."
+                },
+                "exam": {
+                  "q": "You circulate by a road with the sign of carriageway with priority. At the next intersection, a tram arrives by your right from another street. Who has preference?",
+                  "options": [
+                    "The tram, for circulating on rails.",
+                    "The tram, because it comes by your right.",
+                    "You, because your road is signposted with priority."
+                  ]
+                },
+                "en": {
+                  "q": "You are on a road with the priority road sign. At the next junction a tram arrives from your right out of another street. Who has priority?",
+                  "options": [
+                    "The tram: rail vehicles go first",
+                    "The tram, because it comes from your right",
+                    "You, because your road is signed as the priority road"
+                  ],
+                  "why": "The priority road sign gives you priority over vehicles coming from another road. The priority of rails applies when no sign regulates the junction."
+                },
+                "terms": [
+                  {
+                    "es": "calzada con prioridad",
+                    "en": "priority road"
+                  },
+                  {
+                    "es": "tranvía",
+                    "en": "tram"
+                  }
+                ],
+                "src": "RGC arts. 56.4 y 57.1.b"
+              }
             }
           ]
         },
@@ -1119,6 +1318,54 @@
                   }
                 ],
                 "src": "RGC art. 60.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c2j",
+                "answer": 0,
+                "es": {
+                  "q": "Subes por un tramo estrecho con una pendiente del 10 % y sin señales. Un coche baja de frente y no cabéis los dos. Ninguno tiene cerca un apartadero. ¿Quién pasa primero?",
+                  "options": [
+                    "Tú, porque subes",
+                    "El coche que baja, porque le cuesta más frenar",
+                    "El que haya encendido antes las luces"
+                  ],
+                  "why": "En un tramo estrecho de gran pendiente (al menos un 7 %), tiene preferencia el que sube. La excepción es que pueda llegar antes a un apartadero."
+                },
+                "exam": {
+                  "q": "You go up by a narrow stretch with a slope of 10 % and without signs. A car comes down in front and you do not fit both. None has a passing place near. Who passes first?",
+                  "options": [
+                    "You, because you go up.",
+                    "The car that comes down, because braking costs it more.",
+                    "The one that switched on the lights before."
+                  ]
+                },
+                "en": {
+                  "q": "You are climbing a narrow stretch with a 10% gradient and no signs. A car comes down toward you and there is no room for both. Neither has a passing place nearby. Who goes first?",
+                  "options": [
+                    "You, because you are going uphill",
+                    "The car coming down, because braking is harder for it",
+                    "Whoever turned their lights on first"
+                  ],
+                  "why": "On a narrow stretch with a steep gradient (at least 7%), the vehicle going uphill has priority. The exception is when it could reach a passing place first."
+                },
+                "terms": [
+                  {
+                    "es": "tramo de gran pendiente",
+                    "en": "steep stretch"
+                  },
+                  {
+                    "es": "sentido ascendente",
+                    "en": "uphill direction"
+                  },
+                  {
+                    "es": "apartadero",
+                    "en": "passing place"
+                  }
+                ],
+                "src": "RGC art. 63.1"
               }
             }
           ]
@@ -1292,6 +1539,54 @@
                   {
                     "es": "preferencia de paso",
                     "en": "right of way (preference of passage)"
+                  }
+                ],
+                "src": "RGC art. 62.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c2k",
+                "answer": 1,
+                "es": {
+                  "q": "Conduces un turismo y entras a la vez que un ciclomotor en un tramo estrecho sin señales. Solo cabe uno. ¿Quién da marcha atrás?",
+                  "options": [
+                    "Tú, porque el ciclomotor es más pequeño y más frágil",
+                    "El ciclomotor",
+                    "El que esté más cerca de una salida"
+                  ],
+                  "why": "Cuando uno debe retroceder, la ley da la preferencia al turismo frente a ciclomotores, motocicletas y bicicletas. Retrocede el ciclomotor."
+                },
+                "exam": {
+                  "q": "You drive a passenger car into a narrow stretch without signs and, in that same moment, a moped enters by the other end. Only one fits. Who goes in reverse?",
+                  "options": [
+                    "You, because the moped is smaller and more fragile.",
+                    "The moped.",
+                    "The one that is nearer to an exit."
+                  ]
+                },
+                "en": {
+                  "q": "You drive a car into a narrow stretch with no signs, and a moped comes in from the far end in that same moment. Only one fits. Who backs up?",
+                  "options": [
+                    "You, because the moped is smaller and more fragile",
+                    "The moped",
+                    "Whoever is closer to a way out"
+                  ],
+                  "why": "When one must reverse, the law gives priority to the passenger car over mopeds, motorcycles and bicycles. The moped backs up."
+                },
+                "terms": [
+                  {
+                    "es": "turismo",
+                    "en": "passenger car"
+                  },
+                  {
+                    "es": "ciclomotor",
+                    "en": "moped"
+                  },
+                  {
+                    "es": "marcha atrás",
+                    "en": "reverse"
                   }
                 ],
                 "src": "RGC art. 62.1"
@@ -1939,7 +2234,7 @@
                   "why": "Si los semáforos de la derecha y de la izquierda dicen cosas distintas, quien gira a la izquierda o sigue recto obedece solo al de su izquierda."
                 },
                 "exam": {
-                  "q": "You are going to continue straight ahead. The traffic light on your right is in green and the one on your left, in red. Which one do you obey?",
+                  "q": "You will continue straight on. The traffic light on your right is in green and the one on your left, in red. Which one do you obey?",
                   "options": [
                     "The one on the right, because it is the one that rules.",
                     "The one on the left.",
@@ -2303,6 +2598,54 @@
                 ],
                 "src": "RGC anexo I, 1.1.a"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c4l",
+                "answer": 2,
+                "es": {
+                  "q": "Fuera de un cruce, un agente levanta el brazo en vertical. Entre tú y el agente hay una línea de detención pintada. ¿Dónde te detienes?",
+                  "options": [
+                    "Justo delante del agente",
+                    "Donde quieras, mientras no lo pases",
+                    "En la línea de detención"
+                  ],
+                  "why": "Con el brazo levantado, te detienes ante la línea de detención más cercana. Solo si no hay línea te detienes inmediatamente antes del agente."
+                },
+                "exam": {
+                  "q": "Outside an intersection, an agent raises the arm vertically. Between you and the agent there is a painted stop line. Where do you stop?",
+                  "options": [
+                    "Just in front of the agent.",
+                    "Where you want, provided that you do not pass him.",
+                    "At the stop line."
+                  ]
+                },
+                "en": {
+                  "q": "Away from any junction, an officer raises an arm straight up. There is a painted stop line between you and the officer. Where do you stop?",
+                  "options": [
+                    "Right in front of the officer",
+                    "Wherever you like, as long as you do not pass the officer",
+                    "At the stop line"
+                  ],
+                  "why": "With the arm raised, you stop at the nearest stop line. Only if there is no line do you stop just before the officer."
+                },
+                "terms": [
+                  {
+                    "es": "brazo levantado verticalmente",
+                    "en": "arm raised vertically"
+                  },
+                  {
+                    "es": "línea de detención",
+                    "en": "stop line"
+                  },
+                  {
+                    "es": "agente",
+                    "en": "agent"
+                  }
+                ],
+                "src": "RGC anexo I, 1.1.a"
+              }
             }
           ]
         },
@@ -2467,6 +2810,50 @@
                   }
                 ],
                 "src": "RGC anexo I, 1.1.e"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c4m",
+                "answer": 0,
+                "es": {
+                  "q": "Estás detenido detrás de un agente que tenía los brazos extendidos en horizontal. Ahora los baja, pero no se gira ni hace otra señal. ¿Qué haces?",
+                  "options": [
+                    "Sigues detenido",
+                    "Reanudas la marcha, porque ya no tiene los brazos extendidos",
+                    "Avanzas despacio hasta su altura"
+                  ],
+                  "why": "La señal de brazos extendidos sigue en vigor aunque el agente los baje, mientras no cambie de posición ni haga otra señal."
+                },
+                "exam": {
+                  "q": "You are stopped behind an agent who had the arms extended horizontally. Now he lowers them, but he does not turn nor makes another signal. What do you do?",
+                  "options": [
+                    "To continue stopped.",
+                    "To resume the march, because he no longer has the arms extended.",
+                    "To advance slowly up to his height."
+                  ]
+                },
+                "en": {
+                  "q": "You are stopped behind an officer who had both arms held out to the sides. Now the officer lowers them, but does not turn or make another signal. What do you do?",
+                  "options": [
+                    "Stay stopped",
+                    "Move off, because the arms are no longer out",
+                    "Creep forward until you are level with the officer"
+                  ],
+                  "why": "The outstretched-arms signal stays in force even when the officer lowers the arms, as long as the officer does not change position or make another signal."
+                },
+                "terms": [
+                  {
+                    "es": "brazos extendidos horizontalmente",
+                    "en": "arms extended horizontally"
+                  },
+                  {
+                    "es": "reanudar la marcha",
+                    "en": "resume the march"
+                  }
+                ],
+                "src": "RGC anexo I, 1.1.b"
               }
             }
           ]
@@ -2777,6 +3164,110 @@
                 ],
                 "src": "RGC arts. 67.1 y 68.2"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c4n",
+                "answer": 1,
+                "es": {
+                  "q": "Un camión de bomberos va en servicio urgente con la luz y la sirena encendidas. Un agente que regula un cruce le ordena detenerse. ¿Debe obedecer?",
+                  "options": [
+                    "No: en servicio urgente está exento de todas las normas",
+                    "Sí: las órdenes de los agentes obligan siempre",
+                    "Solo si no hay otro camino"
+                  ],
+                  "why": "Los vehículos prioritarios pueden dejar de cumplir algunas normas si no ponen a nadie en peligro. Pero las órdenes y señales de los agentes son siempre obligatorias."
+                },
+                "exam": {
+                  "q": "A fire engine goes in urgent service with the light and the siren switched on. An agent who regulates an intersection orders it to stop. Must it obey?",
+                  "options": [
+                    "No: in urgent service it is exempt from all the rules.",
+                    "Yes: the orders of the agents always oblige.",
+                    "Only if there is no other way."
+                  ]
+                },
+                "en": {
+                  "q": "A fire engine on an urgent call has its light and siren on. An officer directing a junction orders it to stop. Must it obey?",
+                  "options": [
+                    "No: on an urgent call it is exempt from every rule",
+                    "Yes: officers' orders always bind",
+                    "Only if there is no other route"
+                  ],
+                  "why": "Priority vehicles may skip some rules if they put no one at risk. But officers' orders and signals are always binding."
+                },
+                "terms": [
+                  {
+                    "es": "vehículo prioritario",
+                    "en": "priority vehicle"
+                  },
+                  {
+                    "es": "servicio urgente",
+                    "en": "urgent service"
+                  },
+                  {
+                    "es": "órdenes de los agentes",
+                    "en": "orders of the agents"
+                  }
+                ],
+                "src": "RGC art. 68.1"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si un caso muy grave te obliga a hacer un servicio de urgencia con tu coche normal, sin otro medio posible, avisa a los demás: **bocina intermitente** y luz de emergencia, o un pañuelo agitado. Aun así, **respetas las normas**, sobre todo en los cruces. Un agente puede pedirte que lo justifiques.",
+                "en": "If a very serious situation forces you to make an emergency run in your ordinary car, with no other option, warn others: **horn in bursts** and hazard lights, or a waved cloth. Even so, you **keep to the rules**, especially at junctions. An officer may ask you to justify it."
+              },
+              "src": "RGC art. 70"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c4o",
+                "answer": 0,
+                "es": {
+                  "q": "No hay ambulancia y llevas en tu coche a una persona muy grave al hospital. ¿Qué es correcto?",
+                  "options": [
+                    "Avisas con la bocina intermitente y la luz de emergencia, y respetas las normas de circulación",
+                    "Puedes saltarte los semáforos en rojo si avisas con las luces",
+                    "Circulas por encima del límite: tu coche pasa a ser prioritario"
+                  ],
+                  "why": "Un vehículo no prioritario en servicio de urgencia avisa con la bocina de forma intermitente y la luz de emergencia. Debe respetar las normas, sobre todo en las intersecciones."
+                },
+                "exam": {
+                  "q": "There is no ambulance and you take in your car a very serious person to the hospital. What is correct?",
+                  "options": [
+                    "To warn with the intermittent horn and the emergency light, and to respect the traffic rules.",
+                    "You can skip the traffic lights in red if you warn with the lights.",
+                    "To circulate above the limit: your car becomes priority."
+                  ]
+                },
+                "en": {
+                  "q": "There is no ambulance and you are driving a seriously ill person to hospital in your own car. What is correct?",
+                  "options": [
+                    "Warn with the horn in bursts and the hazard lights, and obey the traffic rules",
+                    "You may run red lights if you warn with your lights",
+                    "You may exceed the limit: your car becomes a priority vehicle"
+                  ],
+                  "why": "A non-priority vehicle on an emergency run warns with the horn in bursts and the hazard lights. It must obey the traffic rules, especially at junctions."
+                },
+                "terms": [
+                  {
+                    "es": "vehículo no prioritario en servicio de urgencia",
+                    "en": "non-priority vehicle in emergency service"
+                  },
+                  {
+                    "es": "luz de emergencia",
+                    "en": "emergency light"
+                  },
+                  {
+                    "es": "avisador acústico",
+                    "en": "acoustic warning device"
+                  }
+                ],
+                "src": "RGC art. 70.1 y 70.2"
+              }
             }
           ]
         },
@@ -2958,7 +3449,8 @@
         "priority-09"
       ],
       "src": [
-        "Reglamento General de Circulación (RD 1428/2003), arts. 32.1, 67, 68, 69, 133 y 141.1, y anexo I, apartados 1.1 y 1.2"
+        "Reglamento General de Circulación (RD 1428/2003), arts. 32.1, 67, 68, 69, 133 y 141.1, y anexo I, apartados 1.1 y 1.2",
+        "Reglamento General de Circulación (RD 1428/2003), art. 70"
       ]
     },
     {
@@ -3230,6 +3722,58 @@
                   }
                 ],
                 "src": "RGC art. 59.1"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "El peatón también tiene deberes. En un paso señalizado solo con marcas, sin semáforo ni agente, tiene preferencia, pero solo entra en la calzada cuando la **distancia y la velocidad** de los coches le permiten cruzar con seguridad.",
+                "en": "Pedestrians have duties too. At a crossing marked only with paint, with no light or officer, they have priority, but they step into the roadway only when the **distance and speed** of the cars let them cross safely."
+              },
+              "src": "RGC art. 124.1.c"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c5i",
+                "answer": 1,
+                "es": {
+                  "q": "Eres peatón y llegas a un paso de peatones sin semáforo ni agente. Un coche se acerca muy deprisa y muy cerca. ¿Qué dice el reglamento?",
+                  "options": [
+                    "Cruza ya: en el paso tienes preferencia",
+                    "Entra en la calzada solo cuando la distancia y la velocidad del coche lo permitan con seguridad",
+                    "Cruza por otro sitio, fuera del paso"
+                  ],
+                  "why": "En un paso señalizado sin semáforo ni agente, el peatón tiene preferencia, pero solo debe entrar en la calzada cuando la distancia y la velocidad de los vehículos le dejan hacerlo con seguridad."
+                },
+                "exam": {
+                  "q": "You are a pedestrian and you arrive at a pedestrian crossing without traffic light nor agent. A car approaches very quickly and very near. What does the regulation say?",
+                  "options": [
+                    "To cross now: at the crossing you have preference.",
+                    "To enter the carriageway only when the distance and the speed of the car allow it with safety.",
+                    "To cross by another place, outside the crossing."
+                  ]
+                },
+                "en": {
+                  "q": "You are on foot and reach a pedestrian crossing with no traffic light or officer. A car is coming very fast and very close. What does the regulation say?",
+                  "options": [
+                    "Cross now: you have priority on the crossing",
+                    "Step into the roadway only when the car's distance and speed let you do it safely",
+                    "Cross somewhere else, away from the crossing"
+                  ],
+                  "why": "At a marked crossing with no light or officer, pedestrians have priority, but they should step into the roadway only when the vehicles' distance and speed let them do it safely."
+                },
+                "terms": [
+                  {
+                    "es": "paso para peatones",
+                    "en": "pedestrian crossing"
+                  },
+                  {
+                    "es": "penetrar en la calzada",
+                    "en": "enter the carriageway"
+                  }
+                ],
+                "src": "RGC art. 124.1.c"
               }
             }
           ]
@@ -3730,7 +4274,8 @@
       ],
       "src": [
         "Reglamento General de Circulación (RD 1428/2003), arts. 46.1, 59.1, 64.1, 64.2, 65.1, 65.2 y 66",
-        "RGC anexo I, ap. 5.1 (señal P-23), texto publicado en BOE-A-2025-12199"
+        "RGC anexo I, ap. 5.1 (señal P-23), texto publicado en BOE-A-2025-12199",
+        "Reglamento General de Circulación (RD 1428/2003), art. 124.1"
       ]
     },
     {

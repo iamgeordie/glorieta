@@ -42,7 +42,7 @@ for (const q of questions) {
 const signs = JSON.parse(readFileSync(new URL('../src/data/signs.json', import.meta.url), 'utf8'));
 const signDir = new URL('../public/signs/', import.meta.url);
 const signGroups = ['priority', 'entry', 'restriction', 'speed', 'prohibition', 'mandatory', 'end', 'warning', 'indication'];
-const licenses = ['Public domain', 'CC0', 'CC BY-SA 3.0', 'CC BY-SA 4.0'];
+const licenses = ['Public domain', 'CC0', 'CC BY 4.0', 'CC BY-SA 3.0', 'CC BY-SA 4.0'];
 const signIds = new Set();
 for (const s of signs) {
   const where = `sign "${s.id}"`;

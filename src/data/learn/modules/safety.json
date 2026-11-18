@@ -342,6 +342,27 @@
               }
             },
             {
+              "t": "p",
+              "text": {
+                "es": "Según un folleto de la DGT, con el cinturón **holgado** (por una pinza o por ropa muy gruesa) tu cuerpo recorre más distancia antes de frenarse. Así es más fácil chocar con el volante o el salpicadero.",
+                "en": "According to a DGT booklet, with a **slack** belt (because of a clip or very bulky clothes) your body travels further before it stops. That makes it easier to hit the steering wheel or the dashboard."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "En el **efecto submarino**, el cuerpo mal sujeto se escurre por debajo de la banda abdominal. Puede chocar con el volante, dañar el abdomen o golpear las piernas contra la parte baja del coche. Lo favorecen un respaldo muy inclinado y las toallas o cojines sobre el asiento.",
+                "en": "In the **submarine effect**, a poorly held body slips under the lap strap. It can hit the steering wheel, injure the abdomen or slam the legs into the lower part of the car. A steeply reclined backrest and towels or cushions on the seat make it more likely."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Detrás, el cinturón importa igual: sin él, en un choque el pasajero sale lanzado contra los asientos delanteros y puede matar o herir a quien va delante. Y tras un golpe fuerte, la DGT aconseja **cambiar el cinturón**.",
+                "en": "In the back the belt matters just as much: without it, a rear passenger is thrown against the front seats in a crash and can kill or injure the people in front. And after a hard impact, the DGT advises **replacing the belt**."
+              }
+            },
+            {
               "t": "check",
               "q": {
                 "id": "safety-c1f",
@@ -432,6 +453,230 @@
                 ],
                 "src": "DGT guidance; RGC art. 117.1"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c1t",
+                "answer": 2,
+                "es": {
+                  "q": "Vuelves de la playa y pones una toalla gruesa doblada sobre el asiento antes de sentarte. ¿Qué riesgo tiene en un choque?",
+                  "options": [
+                    "Ninguno, si el cinturón está abrochado",
+                    "Que el airbag no se active",
+                    "Que el cuerpo se deslice por debajo de la banda abdominal"
+                  ],
+                  "why": "Toallas, cojines o fundas añadidos al asiento favorecen el efecto submarino: el cuerpo se escurre bajo la banda abdominal del cinturón."
+                },
+                "exam": {
+                  "q": "You return from the beach and place a thick folded towel on the seat before sitting. What risk does it have in a collision?",
+                  "options": [
+                    "None, provided that the seat belt is fastened.",
+                    "That the airbag is not activated.",
+                    "That the body slides below the abdominal band."
+                  ]
+                },
+                "en": {
+                  "q": "You come back from the beach and put a thick folded towel on the seat before sitting down. What is the risk in a crash?",
+                  "options": [
+                    "None, if the belt is fastened",
+                    "That the airbag does not go off",
+                    "That your body slides under the lap strap"
+                  ],
+                  "why": "Towels, cushions or covers added to the seat favor the submarine effect: the body slips under the lap strap of the belt."
+                },
+                "terms": [
+                  {
+                    "es": "efecto submarino",
+                    "en": "submarine effect (submarining)"
+                  },
+                  {
+                    "es": "banda abdominal",
+                    "en": "lap strap (abdominal band)"
+                  }
+                ],
+                "src": "DGT guidance (Cinturón de seguridad. Sistemas de retención infantil, DGT 2014)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c1u",
+                "answer": 0,
+                "es": {
+                  "q": "Un pasajero se pone una pinza en el cinturón para que no le apriete. ¿Qué ocurre si hay un choque?",
+                  "options": [
+                    "Su cuerpo avanza más antes de frenarse y puede golpear el salpicadero",
+                    "Nada: la pinza solo afecta a la comodidad",
+                    "El cinturón se bloquea antes y sujeta mejor"
+                  ],
+                  "why": "La pinza deja holgura. Con el cinturón holgado, el cuerpo recorre más distancia y es más fácil chocar con el volante o el salpicadero."
+                },
+                "exam": {
+                  "q": "A passenger puts a clip on the seat belt so that it does not press. What happens if there is a collision?",
+                  "options": [
+                    "The body advances more before braking and can strike the dashboard.",
+                    "Nothing: the clip only affects the comfort.",
+                    "The belt locks earlier and holds better."
+                  ]
+                },
+                "en": {
+                  "q": "A passenger puts a clip on the seat belt so it does not press on them. What happens in a crash?",
+                  "options": [
+                    "Their body moves further before stopping and may hit the dashboard",
+                    "Nothing: the clip only affects comfort",
+                    "The belt locks sooner and holds better"
+                  ],
+                  "why": "The clip leaves slack. With a slack belt the body travels further, so hitting the steering wheel or dashboard is more likely."
+                },
+                "terms": [
+                  {
+                    "es": "pinza",
+                    "en": "clip"
+                  },
+                  {
+                    "es": "holgura",
+                    "en": "slack"
+                  },
+                  {
+                    "es": "salpicadero",
+                    "en": "dashboard"
+                  }
+                ],
+                "src": "DGT guidance (Cinturón de seguridad. Sistemas de retención infantil, DGT 2014)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c1v",
+                "answer": 1,
+                "es": {
+                  "q": "Tu coche ha tenido un choque fuerte y el cinturón del conductor parece intacto. ¿Qué aconseja la DGT?",
+                  "options": [
+                    "Seguir usándolo si se abrocha bien",
+                    "Cambiarlo, porque la cinta o los anclajes pueden estar dañados",
+                    "Lavarlo y revisar solo la hebilla"
+                  ],
+                  "why": "Un golpe fuerte puede debilitar la cinta y romper los anclajes aunque no se vea. Por eso la DGT aconseja poner un cinturón nuevo."
+                },
+                "exam": {
+                  "q": "Your car has suffered a strong collision and the seat belt of the driver seems intact. What does the DGT advise?",
+                  "options": [
+                    "To continue using it if it fastens well.",
+                    "To replace it, because the strap or the anchorages can be damaged.",
+                    "To wash it and check only the buckle."
+                  ]
+                },
+                "en": {
+                  "q": "Your car has had a hard crash and the driver’s seat belt looks intact. What does the DGT advise?",
+                  "options": [
+                    "Keep using it if it buckles properly",
+                    "Replace it, because the webbing or anchorages may be damaged",
+                    "Wash it and check only the buckle"
+                  ],
+                  "why": "A hard impact can weaken the webbing and crack the anchorages even if you cannot see it. That is why the DGT advises fitting a new belt."
+                },
+                "terms": [
+                  {
+                    "es": "anclaje",
+                    "en": "anchorage"
+                  },
+                  {
+                    "es": "cinta",
+                    "en": "webbing (strap)"
+                  }
+                ],
+                "src": "DGT guidance (Cinturón de seguridad. Sistemas de retención infantil, DGT 2014)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c1w",
+                "answer": 2,
+                "es": {
+                  "q": "Un amigo viaja detrás sin cinturón: dice que atrás no hay volante con el que chocar. ¿Qué le contestas?",
+                  "options": [
+                    "Que tiene razón si el viaje es corto",
+                    "Que solo es obligatorio en autopista",
+                    "Que en un choque saldría lanzado y podría herir a quien va delante"
+                  ],
+                  "why": "Los pasajeros de atrás van a la misma velocidad. Sin cinturón salen despedidos contra los asientos delanteros y pueden matar o herir a sus ocupantes. Además, es obligatorio en todas las plazas."
+                },
+                "exam": {
+                  "q": "A friend travels behind without seat belt: he says that behind there is no steering wheel to crash against. What do you answer him?",
+                  "options": [
+                    "That he is right if the journey is short.",
+                    "That it is only obligatory on motorway.",
+                    "That in a collision he would be projected and could injure who travels in front."
+                  ]
+                },
+                "en": {
+                  "q": "A friend rides in the back without a seat belt: he says there is no steering wheel to hit back there. What do you tell him?",
+                  "options": [
+                    "He is right if the trip is short",
+                    "It is only required on motorways",
+                    "In a crash he would be thrown forward and could hurt the people in front"
+                  ],
+                  "why": "Rear passengers travel at the same speed. Unbelted, they are thrown against the front seats and can kill or injure the people sitting there. The belt is also required in every seat."
+                },
+                "terms": [
+                  {
+                    "es": "plaza trasera",
+                    "en": "rear seat"
+                  },
+                  {
+                    "es": "salir despedido",
+                    "en": "to be thrown (ejected)"
+                  }
+                ],
+                "src": "DGT guidance (Cinturón de seguridad. Sistemas de retención infantil, DGT 2014); RGC art. 117.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c1x",
+                "answer": 1,
+                "es": {
+                  "q": "¿Por dónde debe pasar la banda diagonal del cinturón, la que cruza el pecho?",
+                  "options": [
+                    "Pegada al cuello, para que no resbale",
+                    "Por la clavícula, entre el cuello y el hombro",
+                    "Por debajo del brazo, para ir más cómodo"
+                  ],
+                  "why": "La banda superior cruza la clavícula, entre cuello y hombro. Sobre el cuello puede causar lesiones graves en un choque."
+                },
+                "exam": {
+                  "q": "Through where must the diagonal band of the seat belt pass, the one that crosses the chest?",
+                  "options": [
+                    "Stuck to the neck, so that it does not slip.",
+                    "Over the clavicle, between neck and shoulder.",
+                    "Below the arm, to travel more comfortable."
+                  ]
+                },
+                "en": {
+                  "q": "Where should the diagonal strap of the seat belt, the one across the chest, go?",
+                  "options": [
+                    "Right against the neck, so it does not slip",
+                    "Across the collarbone, between neck and shoulder",
+                    "Under the arm, for comfort"
+                  ],
+                  "why": "The upper strap crosses the collarbone, between neck and shoulder. Across the neck it can cause serious injuries in a crash."
+                },
+                "terms": [
+                  {
+                    "es": "banda diagonal",
+                    "en": "diagonal (shoulder) strap"
+                  },
+                  {
+                    "es": "clavícula",
+                    "en": "clavicle (collarbone)"
+                  }
+                ],
+                "src": "DGT guidance (Cinturón de seguridad. Sistemas de retención infantil, DGT 2014)"
+              }
             }
           ]
         },
@@ -474,6 +719,20 @@
               "text": {
                 "es": "En un alcance, el asiento empuja el tronco hacia delante y la cabeza se queda atrás. El cuello se dobla hacia atrás y luego hacia delante: es el **latigazo cervical**, que produce un **esguince cervical** (una lesión del cuello). Por eso importa el reposacabezas bien ajustado.",
                 "en": "In a rear-end collision, the seat pushes the body forward while the head stays behind. The neck bends back and then forward: that is **whiplash**, which causes a **neck sprain**. That is why a well-adjusted head restraint matters."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "La DGT da al airbag cuatro funciones: absorber parte de la energía del cuerpo, evitar el golpe contra el volante o el salpicadero, reducir las **heridas por cristales** y limitar el movimiento de la cabeza.",
+                "en": "The DGT gives the airbag four jobs: soaking up part of the body’s energy, preventing a blow against the wheel or the dashboard, reducing **injuries from broken glass**, and limiting head movement."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Hay varios tipos: **frontales** (en el volante y en el salpicadero), **laterales** (en el costado de los asientos o en las puertas) y de **techo o cortina** (encima de las ventanillas).",
+                "en": "There are several types: **front** airbags (in the steering wheel and the dashboard), **side** airbags (in the side of the seats or the doors) and **roof or curtain** airbags (above the windows)."
               }
             },
             {
@@ -663,6 +922,138 @@
                 ],
                 "src": "DGT guidance (temario ESTT OEP 2021, tema 7: biomecánica del accidente, rev. 2022)"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c1y",
+                "answer": 0,
+                "es": {
+                  "q": "Según la DGT, ¿cuál de estas es una función del airbag frontal?",
+                  "options": [
+                    "Reducir las heridas en la cara por los cristales",
+                    "Sustituir al cinturón en trayectos cortos",
+                    "Mantener el cuerpo pegado al respaldo"
+                  ],
+                  "why": "El airbag absorbe energía, evita golpes contra el volante o el salpicadero, reduce las heridas por cristales y limita el movimiento de la cabeza. No sustituye al cinturón."
+                },
+                "exam": {
+                  "q": "According to the DGT, which of these is a function of the frontal airbag?",
+                  "options": [
+                    "To reduce the injuries in the face by the glass.",
+                    "To replace the seat belt in short journeys.",
+                    "To keep the body stuck to the backrest."
+                  ]
+                },
+                "en": {
+                  "q": "According to the DGT, which of these is a job of the front airbag?",
+                  "options": [
+                    "Reducing face injuries from broken glass",
+                    "Replacing the seat belt on short trips",
+                    "Keeping the body pressed against the backrest"
+                  ],
+                  "why": "The airbag absorbs energy, prevents blows against the wheel or dashboard, reduces injuries from glass and limits head movement. It does not replace the belt."
+                },
+                "terms": [
+                  {
+                    "es": "airbag frontal",
+                    "en": "front (frontal) airbag"
+                  },
+                  {
+                    "es": "parabrisas",
+                    "en": "windscreen"
+                  }
+                ],
+                "src": "DGT guidance (En coche, dgt.es, 2024)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c1z",
+                "answer": 2,
+                "es": {
+                  "q": "Además del airbag frontal, ¿qué otros airbags puede llevar un turismo?",
+                  "options": [
+                    "Ninguno: solo existe el frontal",
+                    "Solo uno dentro del maletero",
+                    "Laterales y de techo o cortina"
+                  ],
+                  "why": "La DGT describe airbags frontales, laterales (en asientos o puertas) y de techo o cortina (sobre las ventanillas)."
+                },
+                "exam": {
+                  "q": "Besides the frontal airbag, what other airbags can a passenger car carry?",
+                  "options": [
+                    "None: only the frontal one exists.",
+                    "Only one inside the boot.",
+                    "Lateral ones and of roof or curtain."
+                  ]
+                },
+                "en": {
+                  "q": "Besides the front airbag, which other airbags can a passenger car have?",
+                  "options": [
+                    "None: only the front one exists",
+                    "Only one inside the trunk",
+                    "Side airbags and roof (curtain) airbags"
+                  ],
+                  "why": "The DGT describes front airbags, side airbags (in seats or doors) and roof or curtain airbags (above the windows)."
+                },
+                "terms": [
+                  {
+                    "es": "airbag lateral",
+                    "en": "side airbag"
+                  },
+                  {
+                    "es": "airbag de cortina",
+                    "en": "curtain airbag"
+                  },
+                  {
+                    "es": "turismo",
+                    "en": "passenger car"
+                  }
+                ],
+                "src": "DGT guidance (En coche, dgt.es, 2024)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c1za",
+                "answer": 1,
+                "es": {
+                  "q": "Según la DGT, ¿qué distancia es la ideal entre tu cuerpo y el airbag del volante?",
+                  "options": [
+                    "5 cm",
+                    "25 cm",
+                    "60 cm"
+                  ],
+                  "why": "La DGT dice que nunca debe ser menor de 10 cm y que lo ideal son 25 cm. Así el airbag se abre sin golpearte de lleno."
+                },
+                "exam": {
+                  "q": "According to the DGT, what distance is the ideal between your body and the airbag of the steering wheel?",
+                  "options": [
+                    "5 centimetres.",
+                    "25 centimetres.",
+                    "60 centimetres."
+                  ]
+                },
+                "en": {
+                  "q": "According to the DGT, what is the ideal distance between your body and the steering-wheel airbag?",
+                  "options": [
+                    "5 cm (2 in)",
+                    "25 cm (10 in)",
+                    "60 cm (24 in)"
+                  ],
+                  "why": "The DGT says it must never be under 10 cm and that 25 cm is ideal. That way the airbag opens without hitting you full on."
+                },
+                "terms": [
+                  {
+                    "es": "volante",
+                    "en": "steering wheel"
+                  }
+                ],
+                "src": "DGT guidance (En coche, dgt.es, 2024)"
+              }
             }
           ]
         },
@@ -687,6 +1078,22 @@
                 "en": "Two more exemptions. Vehicles on an **emergency call**, only inside built-up areas: never on motorways, dual carriageways or conventional roads. The one exception: passengers in an ambulance who are caring for the patient on the way are exempt on any road. **Taxis** in urban traffic of large cities: they may carry people under 135 cm without a child seat if they sit in the back."
               },
               "src": "RGC art. 119.2"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Fuera de estos casos, el cinturón es obligatorio para todos, también en ciudad. El conductor de un taxi o de una furgoneta de reparto **no tiene una exención propia**.",
+                "en": "Outside these cases, the belt is required for everyone, in town as well. The driver of a taxi or of a delivery van **has no exemption of their own**."
+              },
+              "src": "RGC arts. 117.1 y 119 (redacción en vigor desde el 1-10-2026)"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Cada infracción la responde **quien la comete**: si un pasajero adulto no se abrocha, el responsable es él. El conductor responde del casco del pasajero y de los sistemas de retención infantil (salvo el conductor profesional de servicio público).",
+                "en": "Each offense is answered for by **whoever commits it**: if an adult passenger does not buckle up, they are responsible. The driver answers for the passenger’s helmet and for child restraints (except a professional driver in public service)."
+              },
+              "src": "LSV art. 82.a; LSV art. 13.4"
             },
             {
               "t": "check",
@@ -774,6 +1181,98 @@
                   }
                 ],
                 "src": "RGC art. 119.2"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c1zb",
+                "answer": 0,
+                "es": {
+                  "q": "Conduces una furgoneta de reparto por la ciudad y paras cada pocos minutos para entregar paquetes. ¿Debes llevar el cinturón?",
+                  "options": [
+                    "Sí, siempre que circules",
+                    "No, en ciudad el repartidor está exento",
+                    "Solo si pasas de 50 km/h"
+                  ],
+                  "why": "Las exenciones son la marcha atrás o el estacionamiento, el certificado médico y los servicios de urgencia en poblado. El reparto no está entre ellas."
+                },
+                "exam": {
+                  "q": "You drive a delivery van by the city and you stop every few minutes to deliver parcels. Must you use the seat belt?",
+                  "options": [
+                    "Yes, whenever you circulate.",
+                    "No, in the city the delivery driver is exempt.",
+                    "Only if you exceed 50 km/h."
+                  ]
+                },
+                "en": {
+                  "q": "You drive a delivery van around town and stop every few minutes to drop off parcels. Must you wear the seat belt?",
+                  "options": [
+                    "Yes, whenever you are driving",
+                    "No, delivery drivers are exempt in town",
+                    "Only over 50 km/h"
+                  ],
+                  "why": "The exemptions are reversing or parking, a medical certificate, and emergency services in built-up areas. Deliveries are not among them."
+                },
+                "terms": [
+                  {
+                    "es": "furgoneta de reparto",
+                    "en": "delivery van"
+                  },
+                  {
+                    "es": "exento",
+                    "en": "exempt"
+                  }
+                ],
+                "src": "RGC arts. 117.1 y 119"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c1zc",
+                "answer": 2,
+                "es": {
+                  "q": "Llevas a un amigo adulto en el asiento del copiloto y no se abrocha el cinturón. Un agente lo denuncia. ¿Quién es el responsable?",
+                  "options": [
+                    "Tú, como conductor",
+                    "El titular del coche",
+                    "Tu amigo, el pasajero"
+                  ],
+                  "why": "La responsabilidad recae en el autor de la infracción. El conductor solo responde por otros en casos concretos, como el casco del pasajero de moto o los sistemas de retención infantil."
+                },
+                "exam": {
+                  "q": "You transport an adult friend in the seat of the co-driver and he does not fasten the seat belt. An agent reports it. Who is the responsible?",
+                  "options": [
+                    "You, as driver.",
+                    "The holder of the car.",
+                    "Your friend, the passenger."
+                  ]
+                },
+                "en": {
+                  "q": "You carry an adult friend in the front passenger seat and he does not fasten his belt. An officer reports it. Who is responsible?",
+                  "options": [
+                    "You, as the driver",
+                    "The car’s registered owner",
+                    "Your friend, the passenger"
+                  ],
+                  "why": "Responsibility falls on whoever commits the offense. The driver only answers for others in specific cases, such as a motorcycle passenger’s helmet or child restraints."
+                },
+                "terms": [
+                  {
+                    "es": "responsable",
+                    "en": "responsible (liable)"
+                  },
+                  {
+                    "es": "copiloto",
+                    "en": "front passenger (co-driver)"
+                  },
+                  {
+                    "es": "titular",
+                    "en": "registered owner (holder)"
+                  }
+                ],
+                "src": "LSV art. 82"
               }
             }
           ]
@@ -942,6 +1441,50 @@
                   }
                 ],
                 "src": "RGC art. 117.1; DGT guidance"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c1zd",
+                "answer": 1,
+                "es": {
+                  "q": "Alquilas por minutos un coche de uso compartido (carsharing) para llevar a tu sobrina, que mide 120 cm. ¿Qué necesita?",
+                  "options": [
+                    "Nada: en vehículos compartidos no se exige",
+                    "Un sistema de retención infantil adecuado a su talla y peso",
+                    "Solo el cinturón de adulto"
+                  ],
+                  "why": "Los menores de 135 cm o menos usan un sistema de retención infantil en cualquier vehículo de hasta nueve plazas. La única salvedad es el taxi en tráfico urbano, con el niño detrás."
+                },
+                "exam": {
+                  "q": "You rent by minutes a shared-use car (carsharing) to transport your niece, who measures 120 cm. What does she need?",
+                  "options": [
+                    "Nothing: in shared vehicles it is not demanded.",
+                    "A child restraint system adapted to her height and weight.",
+                    "Only the seat belt of adult."
+                  ]
+                },
+                "en": {
+                  "q": "You rent a shared car by the minute (carsharing) to take your niece, who is 120 cm tall. What does she need?",
+                  "options": [
+                    "Nothing: it is not required in shared vehicles",
+                    "A child restraint suited to her height and weight",
+                    "Only the adult seat belt"
+                  ],
+                  "why": "Minors 135 cm or shorter use a child restraint in any vehicle with up to nine seats. The only exception is a taxi in urban traffic, with the child in the back."
+                },
+                "terms": [
+                  {
+                    "es": "vehículo de uso compartido",
+                    "en": "shared-use vehicle (carsharing)"
+                  },
+                  {
+                    "es": "sistema de retención infantil",
+                    "en": "child restraint system"
+                  }
+                ],
+                "src": "RGC arts. 117.1, 117.3 y 119.2"
               }
             }
           ]
@@ -1174,6 +1717,14 @@
               "src": "LSV art. 82.a y 13.4"
             },
             {
+              "t": "rule",
+              "text": {
+                "es": "Si el conductor o un pasajero no usa el **casco** o el **sistema de retención infantil** obligatorio, los agentes pueden **inmovilizar el vehículo**. No se aplica a los ciclistas. La inmovilización se levanta cuando desaparece la causa.",
+                "en": "If the driver or a passenger does not use a required **helmet** or **child restraint**, officers may **immobilize the vehicle**. This does not apply to cyclists. The immobilization is lifted once the cause is gone."
+              },
+              "src": "LSV art. 104.1.c y 104.2"
+            },
+            {
               "t": "check",
               "q": {
                 "id": "safety-c1e",
@@ -1352,6 +1903,54 @@
                 ],
                 "src": "LSV art. 82.a; LSV Anexo II, 15"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c1ze",
+                "answer": 1,
+                "es": {
+                  "q": "Un agente para tu coche y ve que tu hija, de 110 cm, viaja sin sistema de retención infantil. Además de denunciar, ¿qué puede hacer?",
+                  "options": [
+                    "Nada más: solo puede poner la multa",
+                    "Inmovilizar el vehículo hasta que se corrija",
+                    "Retirarte el permiso de conducción para siempre"
+                  ],
+                  "why": "Los agentes pueden inmovilizar el vehículo si alguien no usa el casco o el sistema de retención infantil obligatorio (no a los ciclistas). Se levanta cuando cesa la causa."
+                },
+                "exam": {
+                  "q": "An agent stops your car and sees that your daughter, of 110 cm, travels without child restraint system. Besides reporting, what can he do?",
+                  "options": [
+                    "Nothing more: he can only impose the fine.",
+                    "To immobilise the vehicle until it is corrected.",
+                    "To withdraw your driving licence forever."
+                  ]
+                },
+                "en": {
+                  "q": "An officer stops your car and sees that your 110 cm daughter has no child restraint. Besides reporting it, what can the officer do?",
+                  "options": [
+                    "Nothing else: only issue the fine",
+                    "Immobilize the vehicle until it is put right",
+                    "Take away your driving licence for good"
+                  ],
+                  "why": "Officers may immobilize the vehicle if someone does not use a required helmet or child restraint (not for cyclists). It is lifted when the cause ends."
+                },
+                "terms": [
+                  {
+                    "es": "inmovilizar",
+                    "en": "to immobilise"
+                  },
+                  {
+                    "es": "agente",
+                    "en": "officer (agent)"
+                  },
+                  {
+                    "es": "sistema de retención infantil",
+                    "en": "child restraint system"
+                  }
+                ],
+                "src": "LSV art. 104.1.c"
+              }
             }
           ]
         }
@@ -1389,7 +1988,10 @@
       "src": [
         "Reglamento General de Circulación (RD 1428/2003), arts. 117, 118 y 119",
         "Ley de Tráfico (RDL 6/2015), arts. 13.4, 76.h, 82.a y Anexo II",
-        "DGT guidance (dgt.es): en coche, con niños; revista Tráfico y Seguridad Vial: cómo colocarse el cinturón"
+        "DGT guidance (dgt.es): en coche, con niños; revista Tráfico y Seguridad Vial: cómo colocarse el cinturón",
+        "Ley de Tráfico (RDL 6/2015), art. 104.1.c",
+        "DGT guidance (Cinturón de seguridad. Sistemas de retención infantil, DGT 2014)",
+        "DGT guidance (En coche, dgt.es, 2024)"
       ]
     },
     {
@@ -2059,6 +2661,20 @@
               }
             },
             {
+              "t": "p",
+              "text": {
+                "es": "La DGT distingue dos orígenes. **Factores externos**, fuera de ti: vías muy conocidas o monótonas, exceso de señales, publicidad o un accidente que te quedas mirando. **Factores internos**, de ti mismo: tu estado físico, tus capacidades, el alcohol, las drogas o los medicamentos.",
+                "en": "The DGT separates two sources. **External factors**, outside you: very familiar or monotonous roads, too many signs, advertising or a crash you stare at. **Internal factors**, from you: your physical state, your abilities, alcohol, drugs or medicines."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Dentro del coche también distraen cambiar de emisora o de canción, hablar o **discutir** con los acompañantes, los **niños**, manejar el GPS, maquillarse o buscar objetos.",
+                "en": "Inside the car you are also distracted by changing the station or the song, talking or **arguing** with passengers, **children**, working the GPS, putting on makeup or looking for things."
+              }
+            },
+            {
               "t": "check",
               "q": {
                 "id": "safety-c2g",
@@ -2240,6 +2856,98 @@
                   }
                 ],
                 "src": "DGT guidance (Conducir con sueño o cansancio, 2026; nota de prensa Jornada de somnolencia y conducción, 2023)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c2m",
+                "answer": 1,
+                "es": {
+                  "q": "¿De dónde pueden venir las distracciones al volante?",
+                  "options": [
+                    "Solo del teléfono móvil",
+                    "De fuera y de dentro del coche, incluido tu propio estado",
+                    "Solo de lo que pasa fuera del coche"
+                  ],
+                  "why": "La DGT distingue factores externos (vía monótona, publicidad, señales, un accidente) e internos (tu estado físico, alcohol, drogas, medicamentos). Dentro del coche también distraen la música o los acompañantes."
+                },
+                "exam": {
+                  "q": "From where can the distractions at the wheel come?",
+                  "options": [
+                    "Only from the mobile telephone.",
+                    "From outside of the car and from inside, including your own state.",
+                    "Only from what happens outside of the car."
+                  ]
+                },
+                "en": {
+                  "q": "Where can distractions at the wheel come from?",
+                  "options": [
+                    "Only from the mobile phone",
+                    "From outside and inside the car, including your own condition",
+                    "Only from what happens outside the car"
+                  ],
+                  "why": "The DGT separates external factors (a monotonous road, advertising, signs, a crash) from internal ones (your physical state, alcohol, drugs, medicines). Inside the car, music or passengers distract too."
+                },
+                "terms": [
+                  {
+                    "es": "distracción",
+                    "en": "distraction"
+                  },
+                  {
+                    "es": "factor externo",
+                    "en": "external factor"
+                  },
+                  {
+                    "es": "factor interno",
+                    "en": "internal factor"
+                  }
+                ],
+                "src": "DGT guidance (Distracciones al conducir, dgt.es, 2022)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c2n",
+                "answer": 0,
+                "es": {
+                  "q": "Tus hijos discuten en el asiento de atrás y tú te metes en la pelea mientras conduces. ¿Afecta a tu conducción?",
+                  "options": [
+                    "Sí: una discusión te quita atención de la vía",
+                    "No, si no sueltas el volante",
+                    "Solo si giras la cabeza más de un minuto"
+                  ],
+                  "why": "Hablar o discutir con los acompañantes y la presencia de niños están entre las distracciones que cita la DGT. Si hace falta, para en un lugar seguro."
+                },
+                "exam": {
+                  "q": "Your children argue in the rear seat and you intervene in the fight while you drive. Does it affect your driving?",
+                  "options": [
+                    "Yes: an argument takes the attention away from the road.",
+                    "No, if you do not release the steering wheel.",
+                    "Only if you turn the head more than one minute."
+                  ]
+                },
+                "en": {
+                  "q": "Your children are arguing in the back seat and you join the quarrel while driving. Does it affect your driving?",
+                  "options": [
+                    "Yes: an argument takes your attention off the road",
+                    "No, as long as your hands stay on the wheel",
+                    "Only if you turn your head for over a minute"
+                  ],
+                  "why": "Talking or arguing with passengers, and children on board, are among the distractions the DGT lists. If needed, stop in a safe place."
+                },
+                "terms": [
+                  {
+                    "es": "acompañante",
+                    "en": "passenger (companion)"
+                  },
+                  {
+                    "es": "discutir",
+                    "en": "to argue"
+                  }
+                ],
+                "src": "DGT guidance (Distracciones al conducir, dgt.es, 2022)"
               }
             }
           ]
@@ -3068,7 +3776,7 @@
                 "id": "safety-c3i",
                 "answer": 2,
                 "es": {
-                  "q": "Conduces un camión de más de 3.500 kg por una carretera con un carril por sentido, fuera de poblado, detrás de otro vehículo. No vas a adelantar. ¿Qué separación mínima debes dejar?",
+                  "q": "Tu camión pasa de 3.500 kg. Vas por una carretera de doble sentido con un carril para cada uno, fuera de poblado, siguiendo a otro vehículo sin intención de adelantarlo. ¿Cuánto espacio dejas delante, como mínimo?",
                   "options": [
                     "20 metros",
                     "100 metros",
@@ -3077,7 +3785,7 @@
                   "why": "Los vehículos de más de 3.500 kg deben dejar al menos 50 metros para que quien viene detrás pueda adelantarles. Los 100 m son del túnel."
                 },
                 "exam": {
-                  "q": "You drive a lorry of more than 3.500 kg by a road with one lane by sense, outside of town, behind another vehicle. You are not going to overtake. Which minimum separation must you leave?",
+                  "q": "Your lorry exceeds 3,500 kg. You circulate by a road of double direction with one lane for each one, outside of town, following another vehicle without intention to overtake it. How much space do you leave in front, as minimum?",
                   "options": [
                     "20 metres.",
                     "100 metres.",
@@ -3085,7 +3793,7 @@
                   ]
                 },
                 "en": {
-                  "q": "You drive a truck over 3,500 kg on a road with one lane per direction, outside a town, behind another vehicle. You will not overtake. What minimum gap must you leave?",
+                  "q": "Your truck weighs over 3,500 kg. You are on a two-way road with one lane each way, outside a town, following another vehicle with no plan to overtake it. At minimum, how much space do you leave ahead?",
                   "options": [
                     "20 meters",
                     "100 meters",
@@ -3951,6 +4659,367 @@
         },
         {
           "title": {
+            "es": "Más ayudas: avisan, sujetan y registran",
+            "en": "More aids: they warn, hold and record"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Otros sistemas que describe la DGT:",
+                "en": "Other systems the DGT describes:"
+              }
+            },
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Sistema",
+                  "en": "System"
+                },
+                {
+                  "es": "Qué hace",
+                  "en": "What it does"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "DDR, detector de somnolencia y distracción",
+                    "en": "DDR, drowsiness and distraction warning"
+                  },
+                  {
+                    "es": "Avisa si pierdes la concentración por cansancio o sueño: un mensaje, una taza humeante en el cuadro o vibraciones en el volante. Busca que pares a descansar",
+                    "en": "Warns you if you lose concentration from tiredness or sleepiness: a message, a steaming cup on the dashboard or vibrations in the wheel. It wants you to stop and rest"
+                  }
+                ],
+                [
+                  {
+                    "es": "FCW, aviso de colisión frontal",
+                    "en": "FCW, forward collision warning"
+                  },
+                  {
+                    "es": "Vigila la vía delante y avisa con luz y sonido de un choque inminente, también con peatones y ciclistas",
+                    "en": "Watches the road ahead and warns with light and sound of an imminent crash, including with pedestrians and cyclists"
+                  }
+                ],
+                [
+                  {
+                    "es": "REV, detección marcha atrás",
+                    "en": "REV, reversing detection"
+                  },
+                  {
+                    "es": "Avisa con luz o sonido de personas u objetos detrás al ir marcha atrás. No frena ni gira",
+                    "en": "Warns with light or sound of people or objects behind when reversing. It does not brake or steer"
+                  }
+                ],
+                [
+                  {
+                    "es": "Hill Holder, ayuda de salida en pendiente",
+                    "en": "Hill Holder, hill start assist"
+                  },
+                  {
+                    "es": "Un sensor mide la inclinación y evita que el coche se vaya hacia atrás al levantar el pie del freno",
+                    "en": "A sensor measures the slope and stops the car rolling back when you lift your foot off the brake"
+                  }
+                ],
+                [
+                  {
+                    "es": "TPMS, control de presión de neumáticos",
+                    "en": "TPMS, tire-pressure monitoring"
+                  },
+                  {
+                    "es": "Vigila la presión en tiempo real y avisa si baja del nivel seguro",
+                    "en": "Monitors pressure in real time and warns if it drops below the safe level"
+                  }
+                ],
+                [
+                  {
+                    "es": "EDR, «caja negra»",
+                    "en": "EDR, “black box”"
+                  },
+                  {
+                    "es": "Registra datos como la velocidad y la frenada justo antes, durante y después de un accidente. No graba imágenes ni sonido",
+                    "en": "Records data such as speed and braking just before, during and after a crash. It records no images or sound"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Cámara de marcha atrás, cámara 360° o sensores de aparcamiento ayudan a ver lo que tapa la carrocería. Aun así, mira tú también antes de mover el coche.",
+                "en": "A reversing camera, a 360° camera or parking sensors help you see what the bodywork hides. Even so, look for yourself before you move the car."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c4m",
+                "answer": 2,
+                "es": {
+                  "q": "En el cuadro de tu coche aparece una taza de café humeante y el volante vibra. ¿Qué sistema te avisa y qué busca?",
+                  "options": [
+                    "El control de presión de neumáticos: que infles las ruedas",
+                    "El limitador de velocidad: que frenes",
+                    "El detector de somnolencia: que pares a descansar"
+                  ],
+                  "why": "El DDR detecta la pérdida de concentración por cansancio o sueño y avisa con mensajes, una taza en el cuadro o vibraciones. Su objetivo es que te detengas hasta estar en condiciones."
+                },
+                "exam": {
+                  "q": "On the instrument panel of your car a steaming cup of coffee appears and the steering wheel vibrates. Which system warns you and what does it seek?",
+                  "options": [
+                    "The control of the pressure of the tyres: that you inflate the wheels.",
+                    "The speed limiter: that you brake.",
+                    "The drowsiness detector: that you stop to rest."
+                  ]
+                },
+                "en": {
+                  "q": "A steaming coffee cup appears on your dashboard and the steering wheel vibrates. Which system is warning you, and what does it want?",
+                  "options": [
+                    "The tire-pressure monitor: that you inflate the tires",
+                    "The speed limiter: that you brake",
+                    "The drowsiness warning: that you stop to rest"
+                  ],
+                  "why": "DDR detects lost concentration from tiredness or sleepiness and warns with messages, a cup on the dashboard or vibrations. Its aim is that you stop until you are fit to go on."
+                },
+                "terms": [
+                  {
+                    "es": "detector de somnolencia",
+                    "en": "drowsiness (and distraction) warning"
+                  },
+                  {
+                    "es": "cuadro de mandos",
+                    "en": "instrument panel"
+                  }
+                ],
+                "src": "DGT guidance (Sistemas avanzados de ayuda a la conducción (ADAS), dgt.es, 2026)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c4n",
+                "answer": 0,
+                "es": {
+                  "q": "¿Qué hace el aviso de colisión frontal (FCW)?",
+                  "options": [
+                    "Avisa con luz y sonido de un choque inminente con lo que hay delante",
+                    "Frena siempre el coche hasta pararlo",
+                    "Mantiene el coche centrado en su carril"
+                  ],
+                  "why": "El FCW vigila la vía y avisa de un choque inminente, también con peatones y ciclistas. Quien puede llegar a frenar es la frenada de emergencia (AEB); el mantenimiento de carril corrige la dirección."
+                },
+                "exam": {
+                  "q": "What does the frontal collision warning (FCW) do?",
+                  "options": [
+                    "It warns with light and sound of an imminent collision with what there is in front.",
+                    "It always brakes the car until stopping it.",
+                    "It keeps the car centred in its lane."
+                  ]
+                },
+                "en": {
+                  "q": "What does forward collision warning (FCW) do?",
+                  "options": [
+                    "It warns with a light and a sound of an imminent crash with what is ahead",
+                    "It always brakes the car to a stop",
+                    "It keeps the car centered in its lane"
+                  ],
+                  "why": "FCW watches the road and warns of an imminent crash, including with pedestrians and cyclists. Emergency braking (AEB) is the system that may brake; lane keeping corrects the steering."
+                },
+                "terms": [
+                  {
+                    "es": "aviso de colisión frontal",
+                    "en": "forward collision warning (FCW)"
+                  },
+                  {
+                    "es": "colisión inminente",
+                    "en": "imminent collision"
+                  }
+                ],
+                "src": "DGT guidance (Sistemas avanzados de ayuda a la conducción (ADAS), dgt.es, 2026)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c4o",
+                "answer": 1,
+                "es": {
+                  "q": "Tu coche tiene asistente de arranque en pendiente (Hill Holder). Estás detenido en una subida y sueltas el pedal de freno. ¿Qué hace el sistema?",
+                  "options": [
+                    "Acelera solo para subir la cuesta",
+                    "Retiene el coche para que no se vaya hacia atrás",
+                    "Pone el freno de mano hasta que lo quites tú"
+                  ],
+                  "why": "Un sensor detecta la inclinación y el sistema impide que el coche retroceda al soltar el freno. Así tienes tiempo de acelerar."
+                },
+                "exam": {
+                  "q": "Your car has hill start assistance (Hill Holder). You are stopped facing up a slope and you release the brake pedal. What does the system do?",
+                  "options": [
+                    "It accelerates alone to climb the slope.",
+                    "It retains the car so that it does not go backwards.",
+                    "It puts the handbrake until you remove it."
+                  ]
+                },
+                "en": {
+                  "q": "Your car has hill start assist (Hill Holder). You are stopped facing uphill and release the brake pedal. What does the system do?",
+                  "options": [
+                    "It accelerates by itself to climb the hill",
+                    "It holds the car so it does not roll back",
+                    "It applies the parking brake until you release it"
+                  ],
+                  "why": "A sensor detects the slope and the system stops the car rolling back when you release the brake. That gives you time to accelerate."
+                },
+                "terms": [
+                  {
+                    "es": "pendiente",
+                    "en": "slope (gradient)"
+                  },
+                  {
+                    "es": "asistente de arranque en pendiente",
+                    "en": "hill start assist"
+                  }
+                ],
+                "src": "DGT guidance (revista DGT, Los vehículos para los exámenes, con ADAS, 2019)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c4p",
+                "answer": 2,
+                "es": {
+                  "q": "¿Qué registra la «caja negra» (EDR) de un vehículo?",
+                  "options": [
+                    "Vídeo y sonido de todo el viaje",
+                    "Las llamadas que hace el conductor",
+                    "Velocidad y frenada en torno a un accidente"
+                  ],
+                  "why": "El registrador de datos guarda parámetros técnicos, como la velocidad o la frenada, justo antes, durante y después de un accidente. No graba imágenes ni sonido."
+                },
+                "exam": {
+                  "q": "What does the “black box” (EDR) of a vehicle record?",
+                  "options": [
+                    "Video and sound of all the journey.",
+                    "The calls that the driver makes.",
+                    "Speed and braking around an accident."
+                  ]
+                },
+                "en": {
+                  "q": "What does a vehicle’s “black box” (EDR) record?",
+                  "options": [
+                    "Video and sound of the whole trip",
+                    "The calls the driver makes",
+                    "Speed and braking around a crash"
+                  ],
+                  "why": "The data recorder stores technical readings such as speed or braking just before, during and after a crash. It records no images or sound."
+                },
+                "terms": [
+                  {
+                    "es": "caja negra",
+                    "en": "black box (event data recorder)"
+                  },
+                  {
+                    "es": "registrador de datos",
+                    "en": "data recorder"
+                  }
+                ],
+                "src": "DGT guidance (revista DGT, ADAS para camiones y autobuses, 2025)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c4q",
+                "answer": 0,
+                "es": {
+                  "q": "Se enciende en el cuadro el testigo del sistema TPMS. ¿Qué te está diciendo?",
+                  "options": [
+                    "Que la presión de algún neumático ha bajado del nivel seguro",
+                    "Que el coche de delante frena de golpe",
+                    "Que llevas el cinturón desabrochado"
+                  ],
+                  "why": "El TPMS vigila la presión de los neumáticos en tiempo real y avisa si cae por debajo del nivel seguro. Revisa las ruedas en cuanto puedas parar."
+                },
+                "exam": {
+                  "q": "The warning light of the TPMS system lights up on the panel. What is it telling you?",
+                  "options": [
+                    "That the pressure of some tyre has dropped below the safe level.",
+                    "That the car in front brakes suddenly.",
+                    "That you carry the seat belt unfastened."
+                  ]
+                },
+                "en": {
+                  "q": "The TPMS warning light comes on on your dashboard. What is it telling you?",
+                  "options": [
+                    "That a tire’s pressure has dropped below the safe level",
+                    "That the car ahead is braking hard",
+                    "That your seat belt is unfastened"
+                  ],
+                  "why": "TPMS monitors tire pressure in real time and warns if it falls below the safe level. Check the tires as soon as you can stop."
+                },
+                "terms": [
+                  {
+                    "es": "presión de los neumáticos",
+                    "en": "tyre pressure"
+                  },
+                  {
+                    "es": "testigo",
+                    "en": "warning light"
+                  }
+                ],
+                "src": "DGT guidance (revista DGT, ADAS para camiones y autobuses, 2025)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c4r",
+                "answer": 1,
+                "es": {
+                  "q": "Vas a salir marcha atrás de un garaje y no ves bien lo que hay detrás. ¿Qué ayuda puede llevar tu coche para esa zona?",
+                  "options": [
+                    "El limitador de velocidad",
+                    "Una cámara o un detector de marcha atrás",
+                    "El detector de somnolencia"
+                  ],
+                  "why": "La detección de marcha atrás avisa con luz o sonido de personas u objetos detrás del vehículo, y muchos coches llevan cámara de marcha atrás. Aun así, mira tú también."
+                },
+                "exam": {
+                  "q": "You are going to exit in reverse from a garage and you do not see well what there is behind. What aid can your car carry for that zone?",
+                  "options": [
+                    "The speed limiter.",
+                    "A camera or a reverse detector.",
+                    "The drowsiness detector."
+                  ]
+                },
+                "en": {
+                  "q": "You are about to reverse out of a garage and cannot see well behind. What aid can your car have for that area?",
+                  "options": [
+                    "The speed limiter",
+                    "A reversing camera or reversing detector",
+                    "The drowsiness warning"
+                  ],
+                  "why": "Reversing detection warns with light or sound of people or objects behind the vehicle, and many cars have a reversing camera. Even so, look for yourself."
+                },
+                "terms": [
+                  {
+                    "es": "marcha atrás",
+                    "en": "reverse"
+                  },
+                  {
+                    "es": "cámara de marcha atrás",
+                    "en": "reversing camera"
+                  }
+                ],
+                "src": "DGT guidance (Sistemas avanzados de ayuda a la conducción (ADAS), dgt.es, 2026); revista DGT 2019"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
             "es": "Tú sigues conduciendo",
             "en": "You are still driving"
           },
@@ -4203,12 +5272,18 @@
         {
           "es": "Conducir a la defensiva es **prever** y moderar la velocidad cuando hay riesgo (niños, ciclistas, cruces).",
           "en": "Defensive driving is **anticipating** and moderating speed when there is risk (children, cyclists, junctions)."
+        },
+        {
+          "es": "Más ayudas: DDR (somnolencia), FCW (aviso de choque), detección marcha atrás, Hill Holder, TPMS y la **caja negra** (EDR).",
+          "en": "More aids: DDR (drowsiness), FCW (crash warning), reversing detection, Hill Holder, TPMS and the **black box** (EDR)."
         }
       ],
       "src": [
         "Reglamento General de Circulación (RD 1428/2003), arts. 3, 17 y 46",
         "Ley de Tráfico (RDL 6/2015), art. 13",
-        "DGT (dgt.es): ayudas avanzadas a la conducción (ADAS), clasificación de seguridad de los vehículos y vehículos de conducción asistida"
+        "DGT (dgt.es): ayudas avanzadas a la conducción (ADAS), clasificación de seguridad de los vehículos y vehículos de conducción asistida",
+        "DGT guidance (Sistemas avanzados de ayuda a la conducción (ADAS), dgt.es, 2026)",
+        "DGT guidance (revista DGT): Los vehículos para los exámenes, con ADAS (2019); ADAS para camiones y autobuses (2025)"
       ]
     },
     {

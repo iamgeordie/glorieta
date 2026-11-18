@@ -1411,6 +1411,13 @@
               }
             },
             {
+              "t": "p",
+              "text": {
+                "es": "Las **cadenas** van en las **ruedas motrices**: delante si el coche es de tracción delantera, detrás si es de tracción trasera. En un 4x4, la DGT aconseja ponerlas delante, porque esas ruedas dirigen el coche. Con cadenas, no pases de **30 km/h**.",
+                "en": "**Snow chains** go on the **drive wheels**: at the front on a front-wheel-drive car, at the back on a rear-wheel-drive one. On a 4x4 the DGT advises the front, because those wheels steer the car. With chains on, do not go over **30 km/h** (19 mph)."
+              }
+            },
+            {
               "t": "check",
               "q": {
                 "id": "hazards-c3h",
@@ -1544,6 +1551,102 @@
                   }
                 ],
                 "src": "DGT guidance"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c3n",
+                "answer": 2,
+                "es": {
+                  "q": "Nieva, tu coche es de tracción trasera y llevas cadenas solo para dos ruedas. ¿Dónde las pones?",
+                  "options": [
+                    "En las delanteras, porque giran",
+                    "Una en cada eje",
+                    "En las traseras, que son las motrices"
+                  ],
+                  "why": "Las cadenas se montan en las ruedas motrices. En un coche de tracción trasera son las de atrás. Solo en un 4x4 la DGT aconseja las delanteras."
+                },
+                "exam": {
+                  "q": "It snows, your car is of rear traction and you carry chains only for two wheels. Where do you put them?",
+                  "options": [
+                    "On the front ones, because they turn.",
+                    "One on each axle.",
+                    "On the rear ones, which are the driving ones."
+                  ]
+                },
+                "en": {
+                  "q": "It is snowing, your car is rear-wheel drive and you have chains for only two wheels. Where do you fit them?",
+                  "options": [
+                    "On the front wheels, because they steer",
+                    "One chain on each axle",
+                    "On the rear wheels, which are the drive wheels"
+                  ],
+                  "why": "Chains go on the drive wheels. On a rear-wheel-drive car those are the rear ones. Only on a 4x4 does the DGT advise the front."
+                },
+                "terms": [
+                  {
+                    "es": "cadenas",
+                    "en": "snow chains"
+                  },
+                  {
+                    "es": "ruedas motrices",
+                    "en": "driving wheels"
+                  },
+                  {
+                    "es": "tracción trasera",
+                    "en": "rear-wheel drive (rear traction)"
+                  }
+                ],
+                "src": "DGT guidance (Hielo y nieve: con la adherencia al límite, dgt.es, 2021)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c3o",
+                "answer": 0,
+                "es": {
+                  "q": "Tienes que bajar un puerto largo con placas de hielo. ¿Cómo lo haces?",
+                  "options": [
+                    "Con marchas cortas, para frenar con el motor y tocar poco el pedal",
+                    "En punto muerto, para que el coche ruede libre",
+                    "En la marcha más larga y frenando fuerte en cada curva"
+                  ],
+                  "why": "Cuesta abajo, la DGT aconseja marchas cortas que retengan el coche con el motor, y el pedal de freno solo cuando sea imprescindible y con mucha suavidad."
+                },
+                "exam": {
+                  "q": "You have to descend a long mountain pass with ice plates. How do you do it?",
+                  "options": [
+                    "With short gears, to brake with the engine and touch little the pedal.",
+                    "In neutral, so that the car rolls free.",
+                    "In the longest gear and braking hard in each curve."
+                  ]
+                },
+                "en": {
+                  "q": "You have to go down a long mountain road with patches of ice. How do you do it?",
+                  "options": [
+                    "In low gears, to brake with the engine and barely touch the pedal",
+                    "In neutral, so the car rolls freely",
+                    "In top gear, braking hard at every bend"
+                  ],
+                  "why": "Downhill, the DGT advises low gears that hold the car back with the engine, and the brake pedal only when essential and very gently."
+                },
+                "terms": [
+                  {
+                    "es": "marchas cortas",
+                    "en": "low (short) gears"
+                  },
+                  {
+                    "es": "freno motor",
+                    "en": "engine braking"
+                  },
+                  {
+                    "es": "punto muerto",
+                    "en": "neutral"
+                  }
+                ],
+                "src": "DGT guidance (Hielo y nieve: con la adherencia al límite, dgt.es, 2021)"
               }
             }
           ]
@@ -1768,7 +1871,8 @@
       ],
       "src": [
         "Reglamento General de Circulación (RD 1428/2003), arts. 45, 46.1.g y k, 102 y 106",
-        "DGT guidance (dgt.es): circular bajo la lluvia; hielo y nieve; recomendaciones de tráfico (niebla, noche); en coche (viento); en moto"
+        "DGT guidance (dgt.es): circular bajo la lluvia; hielo y nieve; recomendaciones de tráfico (niebla, noche); en coche (viento); en moto",
+        "DGT guidance (dgt.es): Hielo y nieve: con la adherencia al límite (2021); revista DGT: Nieve y hielo, agarrarse al asfalto (2022)"
       ]
     },
     {
@@ -2169,6 +2273,22 @@
               }
             },
             {
+              "t": "rule",
+              "text": {
+                "es": "Donde hay pasos de peatones, el peatón cruza por ellos. Al atravesar la calzada camina **perpendicular** al eje, sin entretenerse ni pararse sin necesidad.",
+                "en": "Where there are pedestrian crossings, pedestrians cross on them. When crossing the roadway they walk **at right angles** to its center line, without dawdling or stopping needlessly."
+              },
+              "src": "RGC art. 124.1 y 124.3"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Fuera de poblado, en la calzada o el arcén, de noche **o con niebla, lluvia u otra causa que reduzca mucho la visibilidad**, el peatón lleva un elemento luminoso o reflectante visible a **150 metros**. Un **grupo** lleva además, en el lado más cercano al centro, luces **blancas o amarillas** hacia delante y **rojas** hacia atrás.",
+                "en": "Outside built-up areas, on the roadway or shoulder, at night **or in fog, rain or anything else that sharply cuts visibility**, a pedestrian carries a light or reflective item visible from **150 meters**. A **group** also carries, on the side nearest the middle, **white or yellow** lights to the front and **red** ones to the rear."
+              },
+              "src": "RGC art. 123"
+            },
+            {
               "t": "check",
               "q": {
                 "id": "hazards-c4d",
@@ -2307,6 +2427,138 @@
                 ],
                 "src": "DGT guidance (nota de prensa: el móvil y la impaciencia, factores de riesgo en los cruces, 2026)"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c4m",
+                "answer": 1,
+                "es": {
+                  "q": "Un peatón cruza una calle sin pasos de peatones cerca, tras comprobar que no hay riesgo. ¿Cómo debe atravesar la calzada?",
+                  "options": [
+                    "En diagonal, para llegar antes a su destino",
+                    "En perpendicular al eje, sin pararse",
+                    "Parándose en el centro a mirar"
+                  ],
+                  "why": "Al atravesar la calzada, el peatón camina perpendicular al eje, sin demorarse ni detenerse sin necesidad. Así pasa el menor tiempo posible en ella."
+                },
+                "exam": {
+                  "q": "A pedestrian crosses a street without pedestrian crossings near, after checking that there is no risk. How must he cross the carriageway?",
+                  "options": [
+                    "In diagonal, to arrive earlier at his destination.",
+                    "Perpendicularly to the axis, without stopping.",
+                    "Stopping in the centre to look."
+                  ]
+                },
+                "en": {
+                  "q": "A pedestrian crosses a street with no crosswalk nearby, after checking it is safe. How must they cross the roadway?",
+                  "options": [
+                    "Diagonally, to reach their destination sooner",
+                    "At right angles to the center line, without stopping",
+                    "Stopping in the middle to look"
+                  ],
+                  "why": "When crossing the roadway, a pedestrian walks at right angles to its center line, without lingering or stopping needlessly. That keeps their time on it as short as possible."
+                },
+                "terms": [
+                  {
+                    "es": "perpendicular",
+                    "en": "perpendicular (at right angles)"
+                  },
+                  {
+                    "es": "eje de la calzada",
+                    "en": "axis (center line) of the carriageway"
+                  }
+                ],
+                "src": "RGC art. 124"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c4n",
+                "answer": 0,
+                "es": {
+                  "q": "De noche, un grupo de excursionistas camina por el arcén de una carretera interurbana. ¿Qué luces debe llevar en el lado más cercano al centro de la calzada?",
+                  "options": [
+                    "Blanca o amarilla hacia delante y roja hacia atrás",
+                    "Roja hacia delante y blanca hacia atrás",
+                    "Azul intermitente en los dos sentidos"
+                  ],
+                  "why": "Los grupos de peatones llevan, en el lado más próximo al centro de la calzada, luces blancas o amarillas hacia delante y rojas hacia atrás, que pueden ir en un solo conjunto."
+                },
+                "exam": {
+                  "q": "At night, a group of hikers walks by an interurban road, on its hard shoulder. What lights must it carry on the side nearest to the centre of the carriageway?",
+                  "options": [
+                    "White or yellow forwards and red backwards.",
+                    "Red forwards and white backwards.",
+                    "Flashing blue in both directions."
+                  ]
+                },
+                "en": {
+                  "q": "At night a group of hikers walks along an intercity road, on its shoulder. Which lights must it carry on the side nearest the middle of the roadway?",
+                  "options": [
+                    "White or yellow to the front and red to the rear",
+                    "Red to the front and white to the rear",
+                    "Flashing blue both ways"
+                  ],
+                  "why": "Groups of pedestrians carry, on the side nearest the middle of the roadway, white or yellow lights to the front and red to the rear, which may form one unit."
+                },
+                "terms": [
+                  {
+                    "es": "grupo de peatones",
+                    "en": "group of pedestrians"
+                  },
+                  {
+                    "es": "arcén",
+                    "en": "hard shoulder"
+                  }
+                ],
+                "src": "RGC art. 123.2"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c4o",
+                "answer": 2,
+                "es": {
+                  "q": "Es de día, pero hay una niebla espesa. Caminas por el arcén de una carretera interurbana. ¿Debes llevar un elemento luminoso o reflectante?",
+                  "options": [
+                    "No, solo es obligatorio de noche",
+                    "Solo si el arcén es muy estrecho",
+                    "Sí: también cuando la visibilidad baja mucho"
+                  ],
+                  "why": "La obligación rige entre el ocaso y la salida del sol, y también con condiciones meteorológicas o ambientales que reduzcan mucho la visibilidad."
+                },
+                "exam": {
+                  "q": "It is day, but there is a thick fog. You walk by an interurban road, on its hard shoulder. Must you take some luminous or reflective element?",
+                  "options": [
+                    "No, it is only obligatory at night.",
+                    "Only if this hard shoulder is very narrow.",
+                    "Yes: also when the visibility decreases a lot."
+                  ]
+                },
+                "en": {
+                  "q": "It is daytime but there is thick fog. You are walking along an intercity road, on its shoulder. Must you carry a light or reflective item?",
+                  "options": [
+                    "No, it is only required at night",
+                    "Only if that shoulder is very narrow",
+                    "Yes: also when visibility drops sharply"
+                  ],
+                  "why": "The duty applies between sunset and sunrise, and also when weather or surroundings sharply reduce visibility."
+                },
+                "terms": [
+                  {
+                    "es": "elemento reflectante",
+                    "en": "reflective (retro-reflective) element"
+                  },
+                  {
+                    "es": "fuera de poblado",
+                    "en": "outside a built-up area"
+                  }
+                ],
+                "src": "RGC art. 123.1"
+              }
             }
           ]
         },
@@ -2362,33 +2614,40 @@
               }
             },
             {
+              "t": "p",
+              "text": {
+                "es": "Un temario de la DGT explica por qué los **niños** corren más riesgo. Ven con la misma nitidez que un adulto, pero su **campo visual es menor por su estatura**: un coche aparcado o un contenedor les tapa, y a ellos tampoco se les ve. Los menores de 7 años localizan mal de qué lado viene el ruido de un coche, y hasta los 8 no entienden bien la velocidad.",
+                "en": "A DGT syllabus explains why **children** are at greater risk. They see as sharply as adults, but their **field of vision is smaller because they are short**: a parked car or a dumpster hides things from them, and hides them from you. Under-7s struggle to tell which side a car’s noise comes from, and until 8 they do not fully grasp speed."
+              }
+            },
+            {
               "t": "check",
               "q": {
                 "id": "hazards-c4f",
                 "answer": 0,
                 "es": {
-                  "q": "¿Qué debes tener en cuenta con las personas mayores que cruzan la calle?",
+                  "q": "Una persona mayor espera en el bordillo para cruzar y tú te acercas. ¿Qué es razonable esperar?",
                   "options": [
-                    "Que necesitan más tiempo y pueden calcular mal tu velocidad",
-                    "Que siempre ven y oyen bien a los vehículos",
-                    "Que tienen prisa y cruzan corriendo"
+                    "Que tarde más en cruzar y calcule mal tu velocidad",
+                    "Que te vea y te oiga perfectamente",
+                    "Que cruce corriendo antes de que llegues"
                   ],
                   "why": "Las personas mayores se mueven más despacio y pueden subestimar la velocidad de los vehículos. Modera la velocidad y dales tiempo."
                 },
                 "exam": {
-                  "q": "What must you take into account with the elderly people that cross the street?",
+                  "q": "An elderly person waits at the kerb to cross and you approach. What is reasonable to expect?",
                   "options": [
-                    "That they need more time and can calculate badly your speed.",
-                    "That they always see and hear well the vehicles.",
-                    "That they are in a hurry and cross running."
+                    "That the person takes more time to cross and calculates badly your speed.",
+                    "That the person sees you and hears you perfectly.",
+                    "That the person crosses running before you arrive."
                   ]
                 },
                 "en": {
-                  "q": "What should you keep in mind about older people crossing the street?",
+                  "q": "An older person is waiting at the curb to cross as you approach. What is it reasonable to expect?",
                   "options": [
-                    "They need more time and may misjudge your speed",
-                    "They always see and hear vehicles well",
-                    "They are in a hurry and cross at a run"
+                    "That they take longer to cross and misjudge your speed",
+                    "That they see and hear you perfectly",
+                    "That they run across before you get there"
                   ],
                   "why": "Older people move more slowly and may underestimate how fast vehicles are going. Moderate your speed and give them time."
                 },
@@ -2544,6 +2803,50 @@
                 ],
                 "src": "DGT guidance (Atropellos en pasos de peatones, 2025); RGC art. 46.1.a"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c4p",
+                "answer": 1,
+                "es": {
+                  "q": "¿Por qué un niño pequeño puede no ver el coche que se acerca a un paso de peatones?",
+                  "options": [
+                    "Porque los niños ven menos nítido que los adultos",
+                    "Porque, por su estatura, los coches aparcados le tapan la vista",
+                    "Porque los niños miran siempre al suelo al cruzar"
+                  ],
+                  "why": "Según la DGT, su agudeza visual es como la de un adulto, pero su campo visual es menor por su estatura: los coches aparcados o el mobiliario urbano le tapan, y tampoco se le ve a él."
+                },
+                "exam": {
+                  "q": "Why can a small child not see the car that approaches a pedestrian crossing?",
+                  "options": [
+                    "Because the children see less sharp than the adults.",
+                    "Because, due to his stature, the parked cars cover his view.",
+                    "Because the children always look at the ground when crossing."
+                  ]
+                },
+                "en": {
+                  "q": "Why might a small child not see a car approaching a pedestrian crossing?",
+                  "options": [
+                    "Because children see less sharply than adults",
+                    "Because, given their height, parked cars block their view",
+                    "Because children always look at the ground when crossing"
+                  ],
+                  "why": "According to the DGT, their visual sharpness is like an adult’s, but their field of vision is smaller because of their height: parked cars or street furniture block it, and they cannot be seen either."
+                },
+                "terms": [
+                  {
+                    "es": "campo visual",
+                    "en": "field of vision"
+                  },
+                  {
+                    "es": "estatura",
+                    "en": "height (stature)"
+                  }
+                ],
+                "src": "DGT guidance (temario ESTT OEP 2021, parte 1, tema 2, rev. 2022)"
+              }
             }
           ]
         },
@@ -2582,6 +2885,22 @@
                 "es": "Los animales son imprevisibles. Si un rebaño ocupa la carretera, la DGT aconseja **detenerte**, no tocar el claxon ni acelerar (los asustas) y esperar a que se aparten.",
                 "en": "Animals are unpredictable. If a herd blocks the road, the DGT advises **stopping**, not honking or revving (it scares them), and waiting for them to move aside."
               }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "El ganado en **manada o rebaño** va **al paso**, lo más cerca posible del borde derecho y sin ocupar nunca más de la mitad derecha de la calzada. En cruces y estrechamientos, los animales ceden el paso a los vehículos, salvo en los casos del artículo 66.",
+                "en": "Livestock in a **herd or flock** moves **at walking pace**, as close as possible to the right edge, never taking more than the right half of the roadway. At junctions and narrow stretches the animals give way to vehicles, except in the cases of article 66."
+              },
+              "src": "RGC art. 127.1.c y f"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los animales solo pueden ir por la vía si no hay vía pecuaria practicable, y siempre custodiados. Por **autopistas y autovías** está prohibida la circulación de animales.",
+                "en": "Animals may use the road only if there is no usable livestock route, and always under supervision. Animals are banned from **motorways and dual carriageways**."
+              },
+              "src": "LSV art. 50"
             },
             {
               "t": "check",
@@ -2674,6 +2993,102 @@
                 ],
                 "src": "RGC art. 46.1.c; DGT guidance"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c4q",
+                "answer": 0,
+                "es": {
+                  "q": "Un pastor lleva un rebaño de ovejas por una carretera convencional. ¿Cómo debe ir el rebaño?",
+                  "options": [
+                    "Al paso y junto al borde derecho",
+                    "Al trote, para dejar libre la vía antes",
+                    "Por el centro, para que se vea bien"
+                  ],
+                  "why": "El ganado en rebaño va al paso, lo más cerca posible del borde derecho y sin ocupar más de la mitad derecha de la calzada."
+                },
+                "exam": {
+                  "q": "A shepherd conducts a flock of sheep by a conventional road. How must the flock travel?",
+                  "options": [
+                    "At walking pace and next to the right edge.",
+                    "At a trot, to leave the road free earlier.",
+                    "By the centre, so that it is seen well."
+                  ]
+                },
+                "en": {
+                  "q": "A shepherd drives a flock of sheep along a conventional road. How must the flock move?",
+                  "options": [
+                    "At walking pace, close to the right edge",
+                    "At a trot, to clear the road sooner",
+                    "Down the middle, so it is easy to see"
+                  ],
+                  "why": "A flock moves at walking pace, as close as possible to the right edge, taking no more than the right half of the roadway."
+                },
+                "terms": [
+                  {
+                    "es": "rebaño",
+                    "en": "flock (herd)"
+                  },
+                  {
+                    "es": "al paso",
+                    "en": "at walking pace"
+                  },
+                  {
+                    "es": "carretera convencional",
+                    "en": "conventional road"
+                  }
+                ],
+                "src": "RGC art. 127.1.c"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c4r",
+                "answer": 2,
+                "es": {
+                  "q": "No hay vía pecuaria cerca. ¿Por qué vía está prohibido llevar caballos, aunque vayan custodiados?",
+                  "options": [
+                    "Por una carretera convencional",
+                    "Por un camino vecinal",
+                    "Por una autovía"
+                  ],
+                  "why": "La ley prohíbe la circulación de animales por autopistas y autovías. En otras vías pueden ir, custodiados, si no hay vía pecuaria practicable."
+                },
+                "exam": {
+                  "q": "There is no livestock route near. By which road is it prohibited to drive horses, although they go guarded?",
+                  "options": [
+                    "By a conventional road.",
+                    "By a neighbourhood road.",
+                    "By a dual carriageway."
+                  ]
+                },
+                "en": {
+                  "q": "There is no livestock route nearby. On which road is it forbidden to lead horses, even under supervision?",
+                  "options": [
+                    "A conventional road",
+                    "A local road",
+                    "A dual carriageway"
+                  ],
+                  "why": "The law bans animals from motorways and dual carriageways. On other roads they may go, supervised, if there is no usable livestock route."
+                },
+                "terms": [
+                  {
+                    "es": "vía pecuaria",
+                    "en": "livestock route"
+                  },
+                  {
+                    "es": "autovía",
+                    "en": "dual carriageway"
+                  },
+                  {
+                    "es": "custodiado",
+                    "en": "guarded (supervised)"
+                  }
+                ],
+                "src": "LSV art. 50"
+              }
             }
           ]
         }
@@ -2707,7 +3122,10 @@
       "src": [
         "Reglamento General de Circulación (RD 1428/2003), arts. 45, 46.1, 65.1, 121.1, 123.1 y 124.2",
         "Reglamento General de Circulación (RD 1428/2003), arts. 46.1.c, 66, 122, 125 y 152",
-        "DGT guidance (dgt.es): percepción del riesgo; consejos para personas mayores"
+        "DGT guidance (dgt.es): percepción del riesgo; consejos para personas mayores",
+        "Reglamento General de Circulación (RD 1428/2003), arts. 123, 124 y 127",
+        "Ley de Tráfico (RDL 6/2015), art. 50",
+        "DGT guidance (temario ESTT OEP 2021, parte 1, tema 2, rev. 2022)"
       ]
     },
     {
@@ -2850,6 +3268,14 @@
               }
             },
             {
+              "t": "rule",
+              "text": {
+                "es": "Los ciclistas **no pueden circular por las aceras**, salvo los menores de 12 años cuando el ayuntamiento lo permita. Sí pueden usar otras zonas peatonales con las limitaciones municipales, respetando siempre la prioridad de los peatones.",
+                "en": "Cyclists **may not ride on sidewalks**, except under-12s where the town council allows it. They may use other pedestrian areas within municipal limits, always respecting pedestrians’ priority."
+              },
+              "src": "RGC art. 153.2"
+            },
+            {
               "t": "check",
               "q": {
                 "id": "hazards-c5a",
@@ -2887,6 +3313,50 @@
                   }
                 ],
                 "src": "RGC art. 64.2.b"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c5k",
+                "answer": 1,
+                "es": {
+                  "q": "Tienes 30 años y vas en bicicleta por la ciudad. ¿Puedes circular por la acera?",
+                  "options": [
+                    "Sí, si vas despacio",
+                    "No, como regla general",
+                    "Sí, si no hay carril bici"
+                  ],
+                  "why": "Los ciclistas no pueden ir por las aceras. La excepción es para menores de 12 años, si el ayuntamiento lo permite."
+                },
+                "exam": {
+                  "q": "You are 30 years old and you go by bicycle through the city. Can you circulate on the pavement?",
+                  "options": [
+                    "Yes, if you go slowly.",
+                    "No, as a general rule.",
+                    "Yes, if there is no bicycle lane."
+                  ]
+                },
+                "en": {
+                  "q": "You are 30 and cycling in town. May you ride on the sidewalk?",
+                  "options": [
+                    "Yes, if you go slowly",
+                    "No, as a general rule",
+                    "Yes, if there is no bike lane"
+                  ],
+                  "why": "Cyclists may not ride on sidewalks. The exception is for under-12s, where the town council allows it."
+                },
+                "terms": [
+                  {
+                    "es": "acera",
+                    "en": "pavement (sidewalk)"
+                  },
+                  {
+                    "es": "carril bici",
+                    "en": "bicycle lane"
+                  }
+                ],
+                "src": "RGC art. 153.2"
               }
             }
           ]
@@ -3435,6 +3905,828 @@
         "Reglamento General de Vehículos (RD 2822/1998), anexo II, definiciones",
         "Reglamento General de Circulación (RD 1428/2003), art. 118",
         "DGT guidance (dgt.es): en moto"
+      ]
+    },
+    {
+      "id": "motorcycle-riding",
+      "title": {
+        "es": "En moto: pasajero, equipo y técnica",
+        "en": "On a motorcycle: passenger, gear and technique"
+      },
+      "minutes": 7,
+      "goals": [
+        {
+          "es": "Saber quién puede ir de pasajero en moto o ciclomotor, y cómo.",
+          "en": "Know who may ride as a passenger on a motorcycle or moped, and how."
+        },
+        {
+          "es": "Elegir casco, guantes y ropa que de verdad protegen.",
+          "en": "Choose a helmet, gloves and clothing that really protect."
+        },
+        {
+          "es": "Frenar y circular con seguridad sobre baches, gravilla o pintura.",
+          "en": "Brake and ride safely over potholes, gravel or paint."
+        },
+        {
+          "es": "Saber qué hacer en una caída y qué ayudas electrónicas llevan las motos.",
+          "en": "Know what to do in a fall and which electronic aids motorcycles have."
+        }
+      ],
+      "terms": [
+        {
+          "es": "pasajero",
+          "en": "passenger"
+        },
+        {
+          "es": "a horcajadas",
+          "en": "astride"
+        },
+        {
+          "es": "reposapiés",
+          "en": "footrest"
+        },
+        {
+          "es": "casco integral",
+          "en": "full-face helmet"
+        },
+        {
+          "es": "visera antivaho",
+          "en": "anti-fog visor"
+        },
+        {
+          "es": "bache",
+          "en": "pothole"
+        },
+        {
+          "es": "freno delantero",
+          "en": "front brake"
+        },
+        {
+          "es": "chaleco con airbag",
+          "en": "airbag vest"
+        }
+      ],
+      "pretest": {
+        "id": "hazards-pre-8",
+        "answer": 0,
+        "es": {
+          "q": "Como regla general, ¿a partir de qué edad puede ir un pasajero en moto?",
+          "options": [
+            "Más de 12 años",
+            "Más de 7 años",
+            "Más de 16 años"
+          ],
+          "why": "Como regla general, el pasajero debe ser mayor de 12 años. Desde los 7, solo si conduce su padre, madre, tutor o un adulto autorizado por ellos."
+        },
+        "exam": {
+          "q": "As a general rule, from which age can a passenger travel on motorcycle?",
+          "options": [
+            "More than 12 years.",
+            "More than 7 years.",
+            "More than 16 years."
+          ]
+        },
+        "en": {
+          "q": "As a general rule, from what age may a passenger ride on a motorcycle?",
+          "options": [
+            "Over 12",
+            "Over 7",
+            "Over 16"
+          ],
+          "why": "As a general rule the passenger must be over 12. From 7, only if a parent, guardian or an adult they authorize is riding."
+        },
+        "terms": [
+          {
+            "es": "pasajero",
+            "en": "passenger"
+          },
+          {
+            "es": "motocicleta",
+            "en": "motorcycle"
+          }
+        ],
+        "src": "RGC art. 12; LSV art. 13.5"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "El pasajero",
+            "en": "The passenger"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "En moto o ciclomotor puede ir un **pasajero mayor de 12 años**, si así consta en el permiso o licencia de circulación del vehículo. Lleva casco homologado, va **a horcajadas**, con los pies en los **reposapiés laterales**, en el asiento detrás del conductor. Nunca entre el conductor y el manillar.",
+                "en": "A motorcycle or moped may carry a **passenger over 12**, if the vehicle’s registration document allows it. They wear an approved helmet and ride **astride**, feet on the **side footrests**, on the seat behind the rider. Never between the rider and the handlebars."
+              },
+              "src": "RGC art. 12.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Excepcionalmente, desde los **7 años**, si conduce su padre, madre, tutor o un mayor de edad autorizado por ellos, con casco homologado y las mismas condiciones.",
+                "en": "As an exception, from age **7**, if the rider is their parent, guardian or an adult authorized by them, with an approved helmet and the same conditions."
+              },
+              "src": "RGC art. 12.2; LSV art. 13.5"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si el pasajero no lleva casco o no tiene la edad mínima, el responsable es **el conductor**.",
+                "en": "If the passenger has no helmet or is under the minimum age, **the rider** is responsible."
+              },
+              "src": "LSV art. 82.a"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c8a",
+                "answer": 1,
+                "es": {
+                  "q": "Tu vecino quiere llevar en su ciclomotor a tu hijo de 9 años, con casco. Tú no le has dado permiso. ¿Puede hacerlo?",
+                  "options": [
+                    "Sí, porque el niño tiene más de 7 años",
+                    "No: solo con sus padres, su tutor o un adulto que ellos autoricen",
+                    "Sí, si solo circulan por ciudad"
+                  ],
+                  "why": "Los menores de 12 años no pueden ir de pasajeros en moto o ciclomotor. Desde los 7, solo si conduce el padre, la madre, el tutor o un mayor de edad autorizado por ellos, y con casco."
+                },
+                "exam": {
+                  "q": "Your neighbour wants to transport your son of 9 years on his moped, with helmet. You have not given him permission. Can he do it?",
+                  "options": [
+                    "Yes, because the child has more than 7 years.",
+                    "No: only with his parents, tutor or an adult authorised by them.",
+                    "Yes, if they circulate only by the city."
+                  ]
+                },
+                "en": {
+                  "q": "Your neighbor wants to take your 9-year-old son on his moped, with a helmet. You have not given permission. May he?",
+                  "options": [
+                    "Yes, because the child is over 7",
+                    "No: only with his parents, guardian or an adult they authorize",
+                    "Yes, if they only ride in town"
+                  ],
+                  "why": "Under-12s may not ride as passengers on a motorcycle or moped. From 7, only if a parent, guardian or an adult they authorize is riding, with a helmet."
+                },
+                "terms": [
+                  {
+                    "es": "ciclomotor",
+                    "en": "moped"
+                  },
+                  {
+                    "es": "tutor",
+                    "en": "guardian (tutor)"
+                  },
+                  {
+                    "es": "mayor de edad",
+                    "en": "adult (of legal age)"
+                  }
+                ],
+                "src": "RGC art. 12.2; LSV art. 13.5"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c8b",
+                "answer": 2,
+                "es": {
+                  "q": "Llevas de pasajera en tu moto a una amiga de 20 años. ¿Cómo debe ir sentada?",
+                  "options": [
+                    "De lado, con los dos pies en el mismo reposapiés",
+                    "Delante de ti, entre tú y el manillar",
+                    "A horcajadas, detrás de ti, con los pies en los reposapiés laterales"
+                  ],
+                  "why": "El pasajero va a horcajadas, en el asiento detrás del conductor y con los pies en los reposapiés laterales. Nunca entre el conductor y el manillar."
+                },
+                "exam": {
+                  "q": "You transport as passenger on your motorcycle a friend of 20 years. How must she travel seated?",
+                  "options": [
+                    "Sideways, with the two feet on the same footrest.",
+                    "In front of you, between you and the handlebar.",
+                    "Astride, behind you, with the feet on the lateral footrests."
+                  ]
+                },
+                "en": {
+                  "q": "You carry a 20-year-old friend as a passenger on your motorcycle. How must she sit?",
+                  "options": [
+                    "Sideways, with both feet on the same footrest",
+                    "In front of you, between you and the handlebars",
+                    "Astride, behind you, with her feet on the side footrests"
+                  ],
+                  "why": "The passenger rides astride, on the seat behind the rider, feet on the side footrests. Never between the rider and the handlebars."
+                },
+                "terms": [
+                  {
+                    "es": "a horcajadas",
+                    "en": "astride"
+                  },
+                  {
+                    "es": "reposapiés",
+                    "en": "footrest"
+                  },
+                  {
+                    "es": "manillar",
+                    "en": "handlebar"
+                  }
+                ],
+                "src": "RGC art. 12.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Casco, guantes y ropa",
+            "en": "Helmet, gloves and clothing"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "La DGT aconseja el **casco integral**: protege toda la cabeza y también la cara. El casco abierto deja la cara expuesta a los golpes y la mayoría no protege los ojos.",
+                "en": "The DGT recommends a **full-face helmet**: it protects the whole head and the face too. An open-face helmet leaves the face exposed to blows, and most do not protect the eyes."
+              }
+            },
+            {
+              "t": "list",
+              "items": [
+                {
+                  "es": "**Color**: claro o brillante, para que te vean de día y de noche.",
+                  "en": "**Color**: light or bright, so you are seen by day and by night."
+                },
+                {
+                  "es": "**Visera**: limpia, sin rayas y **antivaho**. Con casco sin visera, gafas de patillas flexibles.",
+                  "en": "**Visor**: clean, unscratched and **anti-fog**. With a helmet without a visor, goggles with flexible arms."
+                },
+                {
+                  "es": "**Guantes**: que permitan agarrar bien los mandos. Protegen del frío, del calor y de la lluvia; los hay de invierno y de verano.",
+                  "en": "**Gloves**: they must let you grip the controls well. They protect from cold, heat and rain; there are winter and summer ones."
+                },
+                {
+                  "es": "**Botas** para pies y tobillos, y **ropa** de manga y pernera largas resistente a la abrasión.",
+                  "en": "**Boots** for feet and ankles, and long-sleeved, long-legged **clothing** that resists abrasion."
+                }
+              ]
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c8c",
+                "answer": 0,
+                "es": {
+                  "q": "¿Qué tipo de casco recomienda la DGT porque protege también la cara?",
+                  "options": [
+                    "El integral",
+                    "El abierto (jet)",
+                    "El de bicicleta homologado"
+                  ],
+                  "why": "El integral protege toda la cabeza y la cara. El abierto deja la cara expuesta a los golpes y la mayoría no protege los ojos."
+                },
+                "exam": {
+                  "q": "What type of helmet does the DGT recommend because it also protects the face?",
+                  "options": [
+                    "The integral one.",
+                    "The open one (jet).",
+                    "The homologated bicycle one."
+                  ]
+                },
+                "en": {
+                  "q": "Which type of helmet does the DGT recommend because it also protects the face?",
+                  "options": [
+                    "The full-face helmet",
+                    "The open-face (jet) helmet",
+                    "An approved bicycle helmet"
+                  ],
+                  "why": "A full-face helmet protects the whole head and the face. An open-face one leaves the face exposed to blows, and most do not protect the eyes."
+                },
+                "terms": [
+                  {
+                    "es": "casco integral",
+                    "en": "full-face (integral) helmet"
+                  },
+                  {
+                    "es": "casco abierto",
+                    "en": "open-face helmet"
+                  }
+                ],
+                "src": "DGT guidance (En moto, dgt.es, 2025)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c8d",
+                "answer": 2,
+                "es": {
+                  "q": "Vas a comprar un casco. Pensando en tu seguridad, ¿importa el color?",
+                  "options": [
+                    "No, solo importa la talla",
+                    "Sí: los oscuros se ensucian menos y duran más",
+                    "Sí: los claros o brillantes hacen que te vean mejor"
+                  ],
+                  "why": "La DGT aconseja cascos de colores claros o brillantes, visibles de día y de noche. Y no pintarlos ni ponerles pegatinas después de comprarlos."
+                },
+                "exam": {
+                  "q": "You are going to buy a helmet. Thinking of your safety, does the colour matter?",
+                  "options": [
+                    "No, only the size matters.",
+                    "Yes: the dark ones get less dirty and last more.",
+                    "Yes: the light or bright ones make that they see you better."
+                  ]
+                },
+                "en": {
+                  "q": "You are buying a helmet. Thinking of your safety, does the color matter?",
+                  "options": [
+                    "No, only the size matters",
+                    "Yes: dark ones show less dirt and last longer",
+                    "Yes: light or bright ones help others see you"
+                  ],
+                  "why": "The DGT advises light or bright helmets, visible by day and night. And not painting them or adding stickers after you buy them."
+                },
+                "terms": [
+                  {
+                    "es": "colores claros",
+                    "en": "light colors"
+                  },
+                  {
+                    "es": "casco",
+                    "en": "helmet"
+                  }
+                ],
+                "src": "DGT guidance (En moto, dgt.es, 2025)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c8e",
+                "answer": 1,
+                "es": {
+                  "q": "Es pleno verano y vas en moto por ciudad. ¿Qué guantes son adecuados?",
+                  "options": [
+                    "Ninguno: con calor los guantes estorban",
+                    "Unos de verano que te dejen agarrar bien los mandos",
+                    "Unos gruesos de invierno, que protegen más"
+                  ],
+                  "why": "La DGT aconseja guantes que permitan agarrar bien los mandos: protegen del frío, del calor y de la lluvia, y en una caída. Los hay de verano. En vías interurbanas, además, son obligatorios."
+                },
+                "exam": {
+                  "q": "It is full summer and you go on motorcycle through the city. What gloves are adequate?",
+                  "options": [
+                    "None: with heat the gloves hinder.",
+                    "Summer ones that let you grip well the controls.",
+                    "Thick winter ones, which protect more."
+                  ]
+                },
+                "en": {
+                  "q": "It is midsummer and you are riding a motorcycle in town. Which gloves are suitable?",
+                  "options": [
+                    "None: in the heat gloves get in the way",
+                    "Summer gloves that let you grip the controls well",
+                    "Thick winter gloves, which protect more"
+                  ],
+                  "why": "The DGT advises gloves that let you grip the controls well: they protect from cold, heat and rain, and in a fall. Summer ones exist. On interurban roads they are also compulsory."
+                },
+                "terms": [
+                  {
+                    "es": "guantes de protección",
+                    "en": "protective gloves"
+                  },
+                  {
+                    "es": "mandos",
+                    "en": "controls"
+                  }
+                ],
+                "src": "DGT guidance (En moto, dgt.es, 2025); RGC art. 118.1.b"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c8f",
+                "answer": 0,
+                "es": {
+                  "q": "Con frío o lluvia, la visera del casco se te empaña. ¿Qué visera aconseja la DGT?",
+                  "options": [
+                    "Una antivaho, limpia y sin rayas",
+                    "Una oscura, para que no se note el vaho",
+                    "Ninguna: mejor ir con la visera levantada"
+                  ],
+                  "why": "La DGT pide una visera antivaho, limpia y sin rayas, que deje ver bien. Si el casco no tiene visera, gafas de patillas flexibles."
+                },
+                "exam": {
+                  "q": "With cold or rain, the visor of the helmet fogs up. What visor does the DGT advise?",
+                  "options": [
+                    "An anti-fog one, clean and without scratches.",
+                    "A dark one, so that the fog is not noticed.",
+                    "None: better to go with the visor raised."
+                  ]
+                },
+                "en": {
+                  "q": "In cold or rain, your helmet visor fogs up. Which visor does the DGT advise?",
+                  "options": [
+                    "An anti-fog one, clean and unscratched",
+                    "A tinted one, so the fog does not show",
+                    "None: better to ride with the visor up"
+                  ],
+                  "why": "The DGT asks for an anti-fog visor, clean and unscratched, that lets you see well. With no visor, goggles with flexible arms."
+                },
+                "terms": [
+                  {
+                    "es": "visera",
+                    "en": "visor (screen)"
+                  },
+                  {
+                    "es": "antivaho",
+                    "en": "anti-fog"
+                  },
+                  {
+                    "es": "empañarse",
+                    "en": "to fog up"
+                  }
+                ],
+                "src": "DGT guidance (En moto, dgt.es, 2025)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Baches, gravilla y frenadas",
+            "en": "Potholes, gravel and braking"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Adecúa la velocidad al **estado de la vía**, del vehículo y de su carga, de modo que puedas detenerte ante cualquier obstáculo.",
+                "en": "Match your speed to the **state of the road**, of the vehicle and of its load, so that you can stop for any obstacle."
+              },
+              "src": "RGC art. 45"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Una moto se apoya en dos ruedas estrechas. La DGT pide **especial cuidado** con baches, agujeros y pequeños obstáculos, y ver pronto el aceite, la gravilla o la arena. La pintura del suelo puede ser muy resbaladiza.",
+                "en": "A motorcycle stands on two narrow wheels. The DGT asks for **special care** with potholes, holes and small obstacles, and for spotting oil, gravel or sand early. Road paint can be very slippery."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Para frenar, la DGT aconseja **los dos frenos**: empieza por el trasero y aumenta poco a poco el delantero. Un frenazo brusco con el delantero, sin ABS, puede bloquear la rueda. Y frena **con la moto recta**, antes de inclinarla: tumbada, la rueda agarra menos.",
+                "en": "To brake, the DGT advises **both brakes**: start with the rear and build up the front gradually. A sudden grab of the front brake without ABS can lock the wheel. And brake **with the bike upright**, before leaning: leaned over, the tire grips less."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c8g",
+                "answer": 1,
+                "es": {
+                  "q": "Vas en moto y ves delante un tramo lleno de baches y con gravilla suelta. ¿Qué haces?",
+                  "options": [
+                    "Mantienes la velocidad para pasar rápido",
+                    "Reduces la velocidad antes de llegar y lo cruzas con suavidad",
+                    "Frenas fuerte con el delantero justo encima de la gravilla"
+                  ],
+                  "why": "Adecúa la velocidad al estado de la vía antes de llegar. Sobre la gravilla la rueda agarra poco: un frenazo con el delantero puede bloquearla."
+                },
+                "exam": {
+                  "q": "You go on motorcycle and see in front a section full of potholes and with loose gravel. What do you do?",
+                  "options": [
+                    "You maintain the speed to pass quickly.",
+                    "You reduce the speed before arriving and you cross it with smoothness.",
+                    "You brake hard with the front one just on top of the gravel."
+                  ]
+                },
+                "en": {
+                  "q": "You are riding a motorcycle and see ahead a stretch full of potholes with loose gravel. What do you do?",
+                  "options": [
+                    "Keep your speed to get through quickly",
+                    "Slow down before you reach it and ride over it smoothly",
+                    "Brake hard with the front brake right on the gravel"
+                  ],
+                  "why": "Match your speed to the state of the road before you get there. On gravel the tire grips little: a hard front brake can lock it."
+                },
+                "terms": [
+                  {
+                    "es": "bache",
+                    "en": "pothole"
+                  },
+                  {
+                    "es": "gravilla",
+                    "en": "gravel"
+                  },
+                  {
+                    "es": "firme",
+                    "en": "road surface"
+                  }
+                ],
+                "src": "RGC art. 45; DGT guidance (En moto, dgt.es, 2025)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c8h",
+                "answer": 2,
+                "es": {
+                  "q": "Llegas en moto a una curva y tienes que frenar. Según la DGT, ¿cuándo es mejor hacerlo?",
+                  "options": [
+                    "Con la moto ya inclinada, dentro de la curva",
+                    "Solo con el freno delantero, a fondo",
+                    "Antes de la curva, con la moto recta"
+                  ],
+                  "why": "Inclinada, la rueda tiene menos adherencia. Frena antes de tumbar la moto, con los dos frenos y de forma progresiva."
+                },
+                "exam": {
+                  "q": "You arrive on motorcycle at a curve and you have to brake. According to the DGT, when is it better to do it?",
+                  "options": [
+                    "With the motorcycle already inclined, inside the curve.",
+                    "Only with the front brake, to the bottom.",
+                    "Before the curve, with the motorcycle straight."
+                  ]
+                },
+                "en": {
+                  "q": "You ride up to a bend and need to brake. According to the DGT, when is it best?",
+                  "options": [
+                    "With the bike already leaned over, in the bend",
+                    "With the front brake only, fully on",
+                    "Before the bend, with the bike upright"
+                  ],
+                  "why": "Leaned over, the tire has less grip. Brake before you lean, with both brakes and progressively."
+                },
+                "terms": [
+                  {
+                    "es": "curva",
+                    "en": "curve (bend)"
+                  },
+                  {
+                    "es": "adherencia",
+                    "en": "grip"
+                  },
+                  {
+                    "es": "inclinar",
+                    "en": "to lean"
+                  }
+                ],
+                "src": "DGT guidance (En moto, dgt.es, 2025)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c8i",
+                "answer": 0,
+                "es": {
+                  "q": "Tu moto no tiene ABS y debes frenar con fuerza. ¿Qué técnica aconseja la DGT?",
+                  "options": [
+                    "Los dos frenos: primero el trasero y luego, poco a poco, el delantero",
+                    "Solo el delantero, de golpe y a fondo",
+                    "Solo el trasero, para no caerte nunca"
+                  ],
+                  "why": "Usar los dos frenos acorta la frenada. Un golpe brusco al delantero sin ABS puede bloquear la rueda; el trasero solo frena menos y también puede bloquearse."
+                },
+                "exam": {
+                  "q": "Your motorcycle does not have ABS and you must brake with force. What technique does the DGT advise?",
+                  "options": [
+                    "The two brakes: first the rear one and then, little by little, the front one.",
+                    "Only the front one, suddenly and to the bottom.",
+                    "Only the rear one, in order never to fall."
+                  ]
+                },
+                "en": {
+                  "q": "Your motorcycle has no ABS and you must brake hard. What technique does the DGT advise?",
+                  "options": [
+                    "Both brakes: rear first, then the front, building up gradually",
+                    "Only the front, suddenly and fully",
+                    "Only the rear, so you never fall"
+                  ],
+                  "why": "Using both brakes shortens the stop. A sudden grab of the front without ABS can lock the wheel; the rear alone brakes less and can lock too."
+                },
+                "terms": [
+                  {
+                    "es": "freno delantero",
+                    "en": "front brake"
+                  },
+                  {
+                    "es": "freno trasero",
+                    "en": "rear brake"
+                  },
+                  {
+                    "es": "bloquear la rueda",
+                    "en": "to lock the wheel"
+                  }
+                ],
+                "src": "DGT guidance (En moto, dgt.es, 2025)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Hazte ver, mantén tu carril y, si caes, deslízate",
+            "en": "Be seen, keep your lane and, if you fall, slide"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "La DGT aconseja no ir en los **ángulos muertos** de otros conductores, llevar la luz de cruce, ropa clara o reflectante y señalizar siempre las maniobras. Desaconseja circular sin **disciplina de carril**, haciendo zigzag entre los coches.",
+                "en": "The DGT advises staying out of other drivers’ **blind spots**, using the low beam, wearing light or reflective clothing and always signaling. It advises against riding without **lane discipline**, weaving between cars."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Si te caes, la DGT aconseja **dejarte deslizar** e intentar que el cuerpo no choque contra nada.",
+                "en": "If you fall, the DGT advises **letting yourself slide** and trying not to hit anything with your body."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c8j",
+                "answer": 1,
+                "es": {
+                  "q": "Hay retención en una vía de dos carriles y vas en moto. ¿Qué aconseja la DGT?",
+                  "options": [
+                    "Avanzar en zigzag entre los coches para salir antes",
+                    "Mantener la disciplina de carril y evitar el zigzag",
+                    "Ir siempre en el ángulo muerto del coche de delante"
+                  ],
+                  "why": "La DGT desaconseja circular sin disciplina de carril y haciendo zigzag. Pide también no ir en los ángulos muertos de los demás."
+                },
+                "exam": {
+                  "q": "There is a traffic hold-up on a road of two lanes and you go on motorcycle. What does the DGT advise?",
+                  "options": [
+                    "To advance in zigzag between the cars to get out earlier.",
+                    "To maintain the lane discipline and avoid the zigzag.",
+                    "To circulate always in the blind spot of the car in front."
+                  ]
+                },
+                "en": {
+                  "q": "Traffic is backed up on a two-lane road and you are on a motorcycle. What does the DGT advise?",
+                  "options": [
+                    "Weave between the cars to get out sooner",
+                    "Keep lane discipline and avoid weaving",
+                    "Always ride in the blind spot of the car ahead"
+                  ],
+                  "why": "The DGT advises against riding without lane discipline and weaving. It also asks you to stay out of others’ blind spots."
+                },
+                "terms": [
+                  {
+                    "es": "retención",
+                    "en": "traffic hold-up (jam)"
+                  },
+                  {
+                    "es": "zigzag",
+                    "en": "weaving"
+                  },
+                  {
+                    "es": "ángulo muerto",
+                    "en": "blind spot"
+                  }
+                ],
+                "src": "DGT guidance (En moto, dgt.es, 2025)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c8k",
+                "answer": 2,
+                "es": {
+                  "q": "Pierdes el control de la moto y caes al suelo deslizando. ¿Qué aconseja la DGT?",
+                  "options": [
+                    "Intentar levantarte enseguida mientras deslizas",
+                    "Agarrarte a la moto para frenarla",
+                    "Dejarte deslizar y evitar chocar contra algo"
+                  ],
+                  "why": "La DGT aconseja dejarse deslizar e intentar que el cuerpo no choque contra nada. Levantarse o agarrarse a la moto aumenta el riesgo de golpe."
+                },
+                "exam": {
+                  "q": "You lose the control of the motorcycle and you fall to the ground sliding. What does the DGT advise?",
+                  "options": [
+                    "To try to get up immediately while you slide.",
+                    "To hold on to the motorcycle to brake it.",
+                    "To let yourself slide and avoid crashing against something."
+                  ]
+                },
+                "en": {
+                  "q": "You lose control of your motorcycle and fall, sliding along the ground. What does the DGT advise?",
+                  "options": [
+                    "Try to get up at once while you slide",
+                    "Hold on to the bike to slow it down",
+                    "Let yourself slide and avoid hitting anything"
+                  ],
+                  "why": "The DGT advises letting yourself slide and trying not to hit anything. Getting up or holding on to the bike raises the risk of a blow."
+                },
+                "terms": [
+                  {
+                    "es": "caída",
+                    "en": "fall"
+                  },
+                  {
+                    "es": "deslizarse",
+                    "en": "to slide"
+                  }
+                ],
+                "src": "DGT guidance (En moto, dgt.es, 2025)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Ayudas electrónicas en la moto",
+            "en": "Electronic aids on motorcycles"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Las motos también llevan sistemas de ayuda, según la revista de la DGT: **ABS** (la rueda no se bloquea al frenar), **control de tracción**, **frenada combinada** (reparte la frenada entre las dos ruedas), arranque en pendiente o aviso de colisión frontal. La DGT promueve además el **chaleco con airbag** para el motorista.",
+                "en": "Motorcycles have assistance systems too, according to the DGT’s magazine: **ABS** (the wheel does not lock when braking), **traction control**, **combined braking** (it shares braking between both wheels), hill start or forward collision warning. The DGT also promotes the **airbag vest** for riders."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c8l",
+                "answer": 0,
+                "es": {
+                  "q": "¿Puede una moto llevar sistemas de seguridad como el ABS, o un airbag para el motorista?",
+                  "options": [
+                    "Sí: hay ABS, control de tracción y chalecos con airbag",
+                    "No: esos sistemas solo existen en los coches",
+                    "Solo las motos de competición"
+                  ],
+                  "why": "Las motos pueden llevar ABS, control de tracción, frenada combinada y otras ayudas. Para el motorista existen chalecos con airbag, que la DGT promueve."
+                },
+                "exam": {
+                  "q": "Can a motorcycle carry safety systems such as the ABS, or an airbag for the motorcyclist?",
+                  "options": [
+                    "Yes: there are ABS, traction control and vests with airbag.",
+                    "No: those systems only exist in the cars.",
+                    "Only the competition motorcycles."
+                  ]
+                },
+                "en": {
+                  "q": "Can a motorcycle have safety systems such as ABS, or an airbag for the rider?",
+                  "options": [
+                    "Yes: there is ABS, traction control and airbag vests",
+                    "No: those systems only exist in cars",
+                    "Only racing motorcycles"
+                  ],
+                  "why": "Motorcycles can have ABS, traction control, combined braking and other aids. For the rider there are airbag vests, which the DGT promotes."
+                },
+                "terms": [
+                  {
+                    "es": "control de tracción",
+                    "en": "traction control"
+                  },
+                  {
+                    "es": "chaleco con airbag",
+                    "en": "airbag vest"
+                  }
+                ],
+                "src": "DGT guidance (revista DGT, Las motos también tienen ADAS, 2022)"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "Pasajero: **mayor de 12 años**; desde los 7, solo con padre, madre, tutor o adulto autorizado. Casco, a horcajadas y pies en los reposapiés.",
+          "en": "Passenger: **over 12**; from 7, only with a parent, guardian or authorized adult. Helmet, astride, feet on the footrests."
+        },
+        {
+          "es": "El conductor responde del casco y de la edad del pasajero.",
+          "en": "The rider answers for the passenger’s helmet and age."
+        },
+        {
+          "es": "Casco **integral** de color claro, visera antivaho, guantes que agarren bien, botas y ropa antiabrasión.",
+          "en": "**Full-face** helmet in a light color, anti-fog visor, gloves that grip well, boots and abrasion-resistant clothing."
+        },
+        {
+          "es": "Baches y gravilla: reduce antes de llegar. Frena con **los dos frenos** y con la moto recta.",
+          "en": "Potholes and gravel: slow down before you get there. Brake with **both brakes** and the bike upright."
+        },
+        {
+          "es": "Nada de zigzag entre coches. Si caes, **déjate deslizar**.",
+          "en": "No weaving between cars. If you fall, **let yourself slide**."
+        }
+      ],
+      "src": [
+        "Reglamento General de Circulación (RD 1428/2003), arts. 12, 45 y 118",
+        "Ley de Tráfico (RDL 6/2015), arts. 13.5 y 82",
+        "DGT guidance (dgt.es): En moto (2025)",
+        "DGT guidance (revista DGT): Las motos también tienen ADAS (2022)"
       ]
     },
     {
@@ -4524,6 +5816,13 @@
               }
             },
             {
+              "t": "p",
+              "text": {
+                "es": "Un temario de la DGT explica que el riesgo de los jóvenes depende de la edad, la experiencia y el sexo, y crece por cómo conducen a menudo: **de noche**, con **pasajeros jóvenes**, a **alta velocidad** y sin usar bien el cinturón o el casco. También influyen la inmadurez, las emociones y las distracciones dentro del coche.",
+                "en": "A DGT syllabus explains that young people’s risk depends on age, experience and sex, and grows with how they often drive: **at night**, with **young passengers**, at **high speed** and without using the belt or helmet properly. Immaturity, emotions and distractions inside the car also play a part."
+              }
+            },
+            {
               "t": "check",
               "q": {
                 "id": "hazards-c7c",
@@ -4657,6 +5956,50 @@
                   }
                 ],
                 "src": "DGT guidance (Las principales cifras de la siniestralidad vial, España 2024); DGT guidance (temario ESTT OEP 2021, tema 3: magnitud del problema, rev. 2022)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c7q",
+                "answer": 1,
+                "es": {
+                  "q": "Según la DGT, ¿qué circunstancia agrava el riesgo de los conductores jóvenes?",
+                  "options": [
+                    "Conducir siempre solos y de día",
+                    "Conducir de noche con otros jóvenes a bordo",
+                    "Llevar el permiso recién renovado"
+                  ],
+                  "why": "La DGT señala que el riesgo juvenil se agrava al conducir de noche, con pasajeros jóvenes, a alta velocidad y sin usar bien la seguridad pasiva."
+                },
+                "exam": {
+                  "q": "According to the DGT, which circumstance aggravates the risk of young drivers?",
+                  "options": [
+                    "To drive always alone and by day.",
+                    "To drive at night with other young people on board.",
+                    "To carry the licence recently renewed."
+                  ]
+                },
+                "en": {
+                  "q": "According to the DGT, which circumstance increases young drivers’ risk?",
+                  "options": [
+                    "Always driving alone in daylight",
+                    "Driving at night with other young people on board",
+                    "Having just renewed their licence"
+                  ],
+                  "why": "The DGT says young drivers’ risk rises when they drive at night, with young passengers, at high speed and without using passive safety properly."
+                },
+                "terms": [
+                  {
+                    "es": "conductor joven",
+                    "en": "young driver"
+                  },
+                  {
+                    "es": "conductor novel",
+                    "en": "novice driver"
+                  }
+                ],
+                "src": "DGT guidance (temario ESTT OEP 2021, parte 1, tema 2, rev. 2022)"
               }
             }
           ]
@@ -5012,6 +6355,273 @@
               }
             }
           ]
+        },
+        {
+          "title": {
+            "es": "Cómo se muere en la carretera: tipos de siniestro y víctimas",
+            "en": "How people die on the road: crash types and victims"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Según la DGT, en 2024 el tipo de siniestro con más muertos fue la **salida de la vía**: 630 fallecidos, el 35 %. En vías interurbanas supuso el 41 %, seguida de la **colisión frontal** (21 %). En vías urbanas, el primero fue el **atropello a peatón**: el 41 % de los muertos en ciudad.",
+                "en": "According to the DGT, the crash type that killed most people in 2024 was **running off the road**: 630 deaths, 35%. On interurban roads it was 41%, followed by **head-on collisions** (21%). On urban roads the first was **a pedestrian being hit**: 41% of deaths in towns."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Murieron **320 peatones**. El grupo de edad con más fallecidos fue el de **75 a 84 años** (71), y 167 tenían más de 64 años (el 52 %).",
+                "en": "**320 pedestrians** died. The age group with the most deaths was **75 to 84** (71), and 167 were over 64 (52%)."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "En el informe de la DGT sobre ciclistas (2024, datos de 2022), el **69 %** de las víctimas ciclistas se registró en vías urbanas. El choque más frecuente fue la **colisión lateral o frontolateral**, y los cruces y su entorno reunieron el 41 % de las víctimas. Entre los ciclistas fallecidos, la lesión principal fue el **traumatismo en la cabeza** (41 %).",
+                "en": "In the DGT’s cyclist report (2024, 2022 data), **69%** of cyclist casualties were on urban roads. The most common collision was **side or front-to-side**, and junctions and their surroundings accounted for 41% of casualties. Among cyclists killed, the main injury was **head trauma** (41%)."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "En 2024, el **73 %** de los ocupantes de furgoneta fallecidos murió en **carreteras convencionales**.",
+                "en": "In 2024, **73%** of van occupants killed died on **conventional roads**."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "En ciudad, mira por los peatones, sobre todo mayores. En los cruces, busca la bici antes de girar.",
+                "en": "In town, watch for pedestrians, above all older ones. At junctions, look for the bike before you turn."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c7l",
+                "answer": 2,
+                "es": {
+                  "q": "Según las cifras de la DGT de 2024, ¿qué tipo de siniestro causó más muertos en vías urbanas?",
+                  "options": [
+                    "La salida de la vía",
+                    "La colisión trasera",
+                    "El atropello a peatón"
+                  ],
+                  "why": "En 2024, el atropello a peatón causó el 41 % de los fallecidos en vías urbanas. En vías interurbanas, el primero fue la salida de la vía."
+                },
+                "exam": {
+                  "q": "According to the figures of the DGT of 2024, what type of accident caused more deaths on urban roads?",
+                  "options": [
+                    "The leaving of the road.",
+                    "The rear collision.",
+                    "The run-over of a pedestrian."
+                  ]
+                },
+                "en": {
+                  "q": "According to the DGT’s 2024 figures, which type of crash killed the most people on urban roads?",
+                  "options": [
+                    "Running off the road",
+                    "Rear-end collision",
+                    "A pedestrian being hit"
+                  ],
+                  "why": "In 2024, pedestrians being hit caused 41% of deaths on urban roads. On interurban roads, running off the road came first."
+                },
+                "terms": [
+                  {
+                    "es": "atropello",
+                    "en": "running over (a pedestrian being hit)"
+                  },
+                  {
+                    "es": "salida de la vía",
+                    "en": "leaving the road (run-off-road)"
+                  }
+                ],
+                "src": "DGT guidance (Las principales cifras de la siniestralidad vial, España 2024)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c7m",
+                "answer": 0,
+                "es": {
+                  "q": "Según la DGT, ¿qué grupo de edad tuvo más peatones fallecidos en 2024?",
+                  "options": [
+                    "De 75 a 84 años",
+                    "De 15 a 24 años",
+                    "De 0 a 14 años"
+                  ],
+                  "why": "En 2024 murieron 71 peatones de 75 a 84 años, el grupo con más fallecidos. De los 320 peatones muertos, 167 tenían más de 64 años."
+                },
+                "exam": {
+                  "q": "According to the DGT, which age group had more deceased pedestrians in 2024?",
+                  "options": [
+                    "From 75 to 84 years.",
+                    "From 15 to 24 years.",
+                    "From 0 to 14 years."
+                  ]
+                },
+                "en": {
+                  "q": "According to the DGT, which age group had the most pedestrians killed in 2024?",
+                  "options": [
+                    "75 to 84",
+                    "15 to 24",
+                    "0 to 14"
+                  ],
+                  "why": "In 2024, 71 pedestrians aged 75 to 84 died, the group with the most deaths. Of the 320 pedestrians killed, 167 were over 64."
+                },
+                "terms": [
+                  {
+                    "es": "peatón fallecido",
+                    "en": "pedestrian killed (deceased)"
+                  },
+                  {
+                    "es": "grupo de edad",
+                    "en": "age group"
+                  }
+                ],
+                "src": "DGT guidance (Las principales cifras de la siniestralidad vial, España 2024)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c7n",
+                "answer": 1,
+                "es": {
+                  "q": "Según un informe de la DGT, ¿qué tipo de choque es el más frecuente entre las víctimas ciclistas?",
+                  "options": [
+                    "La colisión frontal en autovía",
+                    "La colisión lateral o frontolateral",
+                    "La caída sin otro vehículo en un túnel"
+                  ],
+                  "why": "El informe de la DGT sobre ciclistas muestra que la colisión lateral y frontolateral registra las mayores cifras en casi todos los casos. En ciudad causó el 48 % de los ciclistas fallecidos."
+                },
+                "exam": {
+                  "q": "According to a report of the DGT, what type of collision is the most frequent among the cyclist victims?",
+                  "options": [
+                    "The frontal collision on dual carriageway.",
+                    "The lateral or fronto-lateral collision.",
+                    "The fall without another vehicle in a tunnel."
+                  ]
+                },
+                "en": {
+                  "q": "According to a DGT report, which type of collision is the most common among cyclist casualties?",
+                  "options": [
+                    "A head-on collision on a dual carriageway",
+                    "A side or front-to-side collision",
+                    "A fall with no other vehicle in a tunnel"
+                  ],
+                  "why": "The DGT’s cyclist report shows side and front-to-side collisions have the highest figures in almost every case. In towns they caused 48% of cyclist deaths."
+                },
+                "terms": [
+                  {
+                    "es": "colisión frontolateral",
+                    "en": "front-to-side collision"
+                  },
+                  {
+                    "es": "víctima",
+                    "en": "casualty (victim)"
+                  }
+                ],
+                "src": "DGT guidance (Informe de siniestralidad en ciclistas, 2024)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c7o",
+                "answer": 2,
+                "es": {
+                  "q": "Entre los ciclistas que mueren en un siniestro, ¿qué lesión principal señala la DGT?",
+                  "options": [
+                    "Fracturas en las piernas",
+                    "Heridas en las manos",
+                    "Traumatismo en la cabeza"
+                  ],
+                  "why": "Entre los ciclistas fallecidos, la lesión se localizó sobre todo en cabeza y cuello, con traumatismo craneoencefálico (41 %). Por eso importa el casco."
+                },
+                "exam": {
+                  "q": "Among the cyclists that die in an accident, what main injury does the DGT indicate?",
+                  "options": [
+                    "Fractures in the legs.",
+                    "Wounds in the hands.",
+                    "Traumatism in the head."
+                  ]
+                },
+                "en": {
+                  "q": "Among cyclists killed in crashes, which main injury does the DGT point to?",
+                  "options": [
+                    "Leg fractures",
+                    "Hand injuries",
+                    "Head trauma"
+                  ],
+                  "why": "Among cyclists killed, the injury was mostly to the head and neck, with head trauma (41%). That is why the helmet matters."
+                },
+                "terms": [
+                  {
+                    "es": "traumatismo craneoencefálico",
+                    "en": "head injury (cranioencephalic trauma)"
+                  },
+                  {
+                    "es": "casco",
+                    "en": "helmet"
+                  }
+                ],
+                "src": "DGT guidance (Informe de siniestralidad en ciclistas, 2024)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c7p",
+                "answer": 0,
+                "es": {
+                  "q": "Según la DGT, ¿en qué tipo de vía murieron más ocupantes de furgonetas en 2024?",
+                  "options": [
+                    "En carreteras convencionales",
+                    "En autovías",
+                    "En caminos vecinales"
+                  ],
+                  "why": "En 2024, las carreteras convencionales registraron el 73 % de los ocupantes de furgoneta fallecidos (58 de 79). Las autovías, el 16 %."
+                },
+                "exam": {
+                  "q": "According to the DGT, on which type of road did more occupants of vans die in 2024?",
+                  "options": [
+                    "On conventional roads.",
+                    "On dual carriageways.",
+                    "On neighbourhood roads."
+                  ]
+                },
+                "en": {
+                  "q": "According to the DGT, on which type of road did the most van occupants die in 2024?",
+                  "options": [
+                    "Conventional roads",
+                    "Dual carriageways",
+                    "Local roads"
+                  ],
+                  "why": "In 2024, conventional roads recorded 73% of van occupants killed (58 of 79). Dual carriageways, 16%."
+                },
+                "terms": [
+                  {
+                    "es": "furgoneta",
+                    "en": "van"
+                  },
+                  {
+                    "es": "ocupante",
+                    "en": "occupant"
+                  },
+                  {
+                    "es": "camino vecinal",
+                    "en": "local road"
+                  }
+                ],
+                "src": "DGT guidance (Siniestralidad de las furgonetas en España 2024, informe rápido, 2025)"
+              }
+            }
+          ]
         }
       ],
       "recap": [
@@ -5042,7 +6652,8 @@
       ],
       "src": [
         "Reglamento General de Conductores (RD 818/2009), art. 4.2",
-        "DGT guidance (dgt.es): Las principales cifras de la siniestralidad vial, España 2024; Siniestralidad de las furgonetas en España (2025); Informe de siniestralidad en ciclistas (2024); Consejos para personas mayores (2022); temario ESTT OEP 2021, tema 3 (rev. 2022)"
+        "DGT guidance (dgt.es): Las principales cifras de la siniestralidad vial, España 2024; Siniestralidad de las furgonetas en España (2025); Informe de siniestralidad en ciclistas (2024); Consejos para personas mayores (2022); temario ESTT OEP 2021, tema 3 (rev. 2022)",
+        "DGT guidance (dgt.es): Siniestralidad de las furgonetas en España 2024 (2025); Informe de siniestralidad en ciclistas (2024); DGT guidance (temario ESTT OEP 2021, parte 1, tema 2, rev. 2022)"
       ]
     }
   ]

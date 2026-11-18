@@ -597,6 +597,50 @@
             {
               "t": "check",
               "q": {
+                "id": "situations-c1h",
+                "answer": 2,
+                "es": {
+                  "q": "Quieres parar un momento, sin bajarte, en una zona señalizada para uso exclusivo de personas con discapacidad. ¿Puedes?",
+                  "options": [
+                    "Sí, si no te bajas del coche",
+                    "Sí, si enciendes la luz de emergencia",
+                    "No: ahí está prohibido incluso parar"
+                  ],
+                  "why": "Está prohibido parar en las zonas señalizadas para uso exclusivo de personas con discapacidad. Y donde no se puede parar, tampoco se puede estacionar."
+                },
+                "exam": {
+                  "q": "You want to stop a moment, without getting out, in a zone signposted for exclusive use of persons with disability. Can you?",
+                  "options": [
+                    "Yes, if you do not get out of the car.",
+                    "Yes, if you switch on the emergency light.",
+                    "No: there it is prohibited even to stop."
+                  ]
+                },
+                "en": {
+                  "q": "You want to stop for a moment, staying in the car, in a zone that signs reserve for people with disabilities only. May you?",
+                  "options": [
+                    "Yes, if you stay in the car",
+                    "Yes, if you turn on the hazard lights",
+                    "No: even stopping is banned there"
+                  ],
+                  "why": "Stopping is banned in zones signed for the exclusive use of people with disabilities. And where you cannot stop, you cannot park either."
+                },
+                "terms": [
+                  {
+                    "es": "parada",
+                    "en": "stop"
+                  },
+                  {
+                    "es": "zona de uso exclusivo",
+                    "en": "exclusive-use zone"
+                  }
+                ],
+                "src": "RGC art. 94.1.j y 94.2.a"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
                 "id": "situations-c1g",
                 "answer": 1,
                 "es": {
@@ -815,7 +859,7 @@
                   "options": [
                     "On the carriageway, next to the line of the right edge.",
                     "On the left hard shoulder, if there is little traffic.",
-                    "Outside the carriageway, to the right, without occupying the passable part of the hard shoulder."
+                    "Outside the carriageway, to the right, leaving free the passable zone of the hard shoulder."
                   ]
                 },
                 "en": {
@@ -878,6 +922,50 @@
                   }
                 ],
                 "src": "RGC art. 92.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c2k",
+                "answer": 0,
+                "es": {
+                  "q": "En poblado, entras en una calle de sentido único sin señales ni marcas que prohíban estacionar. ¿En qué lado puedes dejar el coche?",
+                  "options": [
+                    "En el derecho o en el izquierdo",
+                    "Solo en el derecho",
+                    "Solo en el izquierdo"
+                  ],
+                  "why": "En vías urbanas se estaciona lo más cerca posible del borde derecho. En las de un solo sentido también se puede usar el lado izquierdo."
+                },
+                "exam": {
+                  "q": "In town, you enter a one-way street without signs nor markings that prohibit parking. On which side can you leave the car?",
+                  "options": [
+                    "On either side, right or left.",
+                    "Only on the right.",
+                    "Only on the left."
+                  ]
+                },
+                "en": {
+                  "q": "In town you turn into a one-way street with no signs or markings banning parking. Which side may you leave the car on?",
+                  "options": [
+                    "The right or the left",
+                    "Only the right",
+                    "Only the left"
+                  ],
+                  "why": "On urban roads you park as close as possible to the right edge. On one-way streets you may also use the left side."
+                },
+                "terms": [
+                  {
+                    "es": "vía de sentido único",
+                    "en": "one-way road"
+                  },
+                  {
+                    "es": "vía urbana",
+                    "en": "urban road"
+                  }
+                ],
+                "src": "RGC art. 90.2"
               }
             }
           ]
@@ -1077,6 +1165,54 @@
                   }
                 ],
                 "src": "RGC art. 92.3.b y 92.3.c"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c2m",
+                "answer": 2,
+                "es": {
+                  "q": "Estacionas un turismo con remolque en una cuesta de subida pronunciada y no llevas calzos. ¿Qué haces?",
+                  "options": [
+                    "Pones una piedra detrás de una rueda",
+                    "Dejas solo el freno de estacionamiento",
+                    "Apoyas una rueda delantera en el bordillo, girada hacia el centro de la calzada"
+                  ],
+                  "why": "Un conjunto de vehículos en una pendiente sensible debe quedar calzado: con calzos (nunca piedras) o apoyando una rueda directriz en el bordillo. En subida, las ruedas van hacia el centro de la calzada."
+                },
+                "exam": {
+                  "q": "You park a passenger car with trailer on a steep uphill slope and you do not carry chocks. What do you do?",
+                  "options": [
+                    "To put a stone behind a wheel.",
+                    "To leave only the parking brake.",
+                    "To rest a front wheel on the kerb, turned towards the centre of the carriageway."
+                  ]
+                },
+                "en": {
+                  "q": "You park a car with a trailer on a steep uphill slope and you have no wheel chocks. What do you do?",
+                  "options": [
+                    "Put a stone behind a wheel",
+                    "Leave just the parking brake on",
+                    "Rest a front wheel against the curb, turned toward the middle of the road"
+                  ],
+                  "why": "A vehicle combination on a marked slope must be chocked: with chocks (never stones) or by resting a steering wheel against the curb. Uphill, the wheels point toward the middle of the roadway."
+                },
+                "terms": [
+                  {
+                    "es": "calzos",
+                    "en": "chocks"
+                  },
+                  {
+                    "es": "bordillo",
+                    "en": "kerb"
+                  },
+                  {
+                    "es": "conjunto de vehículos",
+                    "en": "combination of vehicles"
+                  }
+                ],
+                "src": "RGC art. 92.3.d"
               }
             },
             {
@@ -1586,6 +1722,62 @@
                 ],
                 "src": "RGC Anexo I, ap. 5.2 (M-7.7 y M-7.8)"
               }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "En las zonas de estacionamiento con **limitación horaria** que fija el ayuntamiento, no puedes estacionar sin el distintivo (el tique o la autorización), ni más tiempo del permitido. Si no pones el distintivo, la autoridad puede **retirar** el coche a un depósito.",
+                "en": "In **time-limited** parking zones set up by the town council, you may not park without the permit display (the ticket or authorization), nor for longer than allowed. If you do not display it, the authorities may **tow** the car to a pound."
+              },
+              "src": "RGC art. 94.2.b; LSV art. 105.1.g"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c2l",
+                "answer": 1,
+                "es": {
+                  "q": "Dejas el coche en una zona de estacionamiento con limitación horaria y no pones el tique que lo autoriza. ¿Qué puede pasar?",
+                  "options": [
+                    "Nada, si vuelves antes del tiempo máximo",
+                    "Es estacionamiento prohibido y la grúa puede retirar el coche",
+                    "Solo es un problema si la calle es de un solo sentido"
+                  ],
+                  "why": "Está prohibido estacionar en zonas con limitación horaria sin el distintivo que lo autoriza. Además, la autoridad puede retirar el vehículo y llevarlo al depósito."
+                },
+                "exam": {
+                  "q": "You leave the car in a parking zone with time limitation and you do not put the ticket that authorises it. What can happen?",
+                  "options": [
+                    "Nothing, if you come back before the maximum time.",
+                    "It is prohibited parking and the tow truck can remove the car.",
+                    "It is only a problem if the street is one-way."
+                  ]
+                },
+                "en": {
+                  "q": "You leave your car in a time-limited parking zone without displaying the ticket that authorizes it. What can happen?",
+                  "options": [
+                    "Nothing, if you are back before the time limit",
+                    "It is banned parking and the tow truck may remove the car",
+                    "It only matters on a one-way street"
+                  ],
+                  "why": "Parking in a time-limited zone without the permit display is banned. The authorities may also remove the vehicle to the pound."
+                },
+                "terms": [
+                  {
+                    "es": "estacionamiento con limitación horaria",
+                    "en": "parking with time limitation"
+                  },
+                  {
+                    "es": "distintivo",
+                    "en": "permit display"
+                  },
+                  {
+                    "es": "retirada del vehículo",
+                    "en": "removal of the vehicle"
+                  }
+                ],
+                "src": "RGC art. 94.2.b; LSV art. 105.1.g"
+              }
             }
           ]
         }
@@ -1908,7 +2100,7 @@
                 "exam": {
                   "q": "You circulate by a dual carriageway almost empty and your car works well. Can you go at 50 km/h?",
                   "options": [
-                    "Yes, if there are no other vehicles.",
+                    "Yes, when the road is empty.",
                     "No: the minimum in motorways and dual carriageways is of 60 km/h.",
                     "Yes, if you put the emergency light."
                   ]
@@ -1916,7 +2108,7 @@
                 "en": {
                   "q": "You are on an almost empty dual carriageway and your car runs well. May you drive at 50 km/h?",
                   "options": [
-                    "Yes, if there are no other vehicles",
+                    "Yes, when the road is empty",
                     "No: the minimum on motorways and dual carriageways is 60 km/h",
                     "Yes, if you turn on the hazard lights"
                   ],
@@ -2162,6 +2354,58 @@
                 ],
                 "src": "RGC art. 130.2"
               }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los peatones no pueden pedir que los lleven (hacer **autostop**) en ningún tramo de una autopista o autovía, ni siquiera en la explanada de un **peaje**. Y tú solo puedes parar en las zonas habilitadas.",
+                "en": "Pedestrians may not ask for a ride (**hitchhike**) anywhere on an autopista or autovía, not even on the apron of a **toll plaza**. And you may only stop in the areas set up for it."
+              },
+              "src": "RGC arts. 125.1 y 94.1.g"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c3h",
+                "answer": 0,
+                "es": {
+                  "q": "En la explanada de un peaje de autopista, una persona te pide que la lleves. ¿Puedes recogerla?",
+                  "options": [
+                    "No: en la autopista no se puede pedir pasaje, tampoco en el peaje",
+                    "Sí, si paras en el arcén después del peaje",
+                    "Sí, porque el peaje no forma parte de la autopista"
+                  ],
+                  "why": "Los peatones no pueden hacer peticiones de pasaje en ningún tramo de autopistas o autovías, incluidas las explanadas de los peajes. Además, solo puedes parar en las zonas habilitadas."
+                },
+                "exam": {
+                  "q": "On the esplanade of a motorway toll, a person asks you to take him. Can you pick him up?",
+                  "options": [
+                    "No: on the motorway it is not possible to ask for passage, neither at the toll.",
+                    "Yes, if you stop on the hard shoulder after the toll.",
+                    "Yes, because the toll is not part of the motorway."
+                  ]
+                },
+                "en": {
+                  "q": "On the apron of a motorway toll plaza, a person asks you for a ride. May you pick them up?",
+                  "options": [
+                    "No: asking for rides is banned on the motorway, toll plaza included",
+                    "Yes, if you stop on the shoulder after the toll",
+                    "Yes, because the toll plaza is not part of the motorway"
+                  ],
+                  "why": "Pedestrians may not ask for rides anywhere on autopistas or autovías, toll plazas included. Besides, you may stop only in the areas set up for it."
+                },
+                "terms": [
+                  {
+                    "es": "petición de pasaje (autostop)",
+                    "en": "request for passage (hitchhiking)"
+                  },
+                  {
+                    "es": "estación de peaje",
+                    "en": "toll station"
+                  }
+                ],
+                "src": "RGC arts. 125.1 y 94.1.g"
+              }
             }
           ]
         }
@@ -2402,7 +2646,7 @@
                   "why": "Los vehículos de masa máxima autorizada superior a 3.500 kg deben dejar al menos 150 metros o 6 segundos en un túnel. Los demás, 100 metros o 4 segundos."
                 },
                 "exam": {
-                  "q": "You drive a lorry of 7.500 kg of maximum authorised mass by a tunnel and you are not going to overtake. Which minimum distance do you leave with the vehicle in front?",
+                  "q": "By a tunnel you drive a lorry whose maximum authorised mass is 7.500 kg, without intention to overtake. Which minimum distance must separate you from the preceding vehicle?",
                   "options": [
                     "100 metres or 4 seconds.",
                     "50 metres or 2 seconds.",
@@ -2708,6 +2952,50 @@
                 ],
                 "src": "RGC art. 97.3"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c4g",
+                "answer": 1,
+                "es": {
+                  "q": "Dentro de un paso inferior tu coche sufre una avería, pero puede seguir andando. ¿Qué haces?",
+                  "options": [
+                    "Paras junto al borde derecho y pides auxilio",
+                    "Sigues hasta salir del paso inferior, si es posible",
+                    "Das media vuelta para salir por donde entraste"
+                  ],
+                  "why": "Si la avería permite la marcha, continúas hasta la salida del túnel o paso inferior. Si no es posible, hasta una zona reservada para emergencias."
+                },
+                "exam": {
+                  "q": "Inside an underpass your car suffers a breakdown, but it can keep moving. What do you do?",
+                  "options": [
+                    "To stop next to the right edge and to ask for help.",
+                    "To continue until leaving the underpass, if it is possible.",
+                    "To make a U-turn in order to leave by where you entered."
+                  ]
+                },
+                "en": {
+                  "q": "Your car breaks down inside an underpass, but it can still move. What do you do?",
+                  "options": [
+                    "Stop by the right edge and call for help",
+                    "Keep going until you are out of the underpass, if you can",
+                    "Turn around and leave the way you came in"
+                  ],
+                  "why": "If the breakdown still lets you drive, carry on to the exit of the tunnel or underpass. If that is not possible, go to an emergency area."
+                },
+                "terms": [
+                  {
+                    "es": "paso inferior",
+                    "en": "underpass"
+                  },
+                  {
+                    "es": "avería",
+                    "en": "breakdown"
+                  }
+                ],
+                "src": "RGC art. 97.3.f"
+              }
             }
           ]
         }
@@ -2866,7 +3154,7 @@
                   "why": "Todos los conductores deben extremar la prudencia y reducir la velocidad por debajo de la máxima permitida al aproximarse a un paso a nivel."
                 },
                 "exam": {
-                  "q": "You approach a level crossing. What must you do with the speed?",
+                  "q": "Ahead there is a level crossing. How must the speed change?",
                   "options": [
                     "To maintain it if you see that no train comes.",
                     "To reduce it below the maximum permitted.",
@@ -2874,7 +3162,7 @@
                   ]
                 },
                 "en": {
-                  "q": "You are approaching a level crossing. What must you do with your speed?",
+                  "q": "A level crossing is coming up ahead. How should your speed change?",
                   "options": [
                     "Keep it if you see no train coming",
                     "Reduce it to below the maximum allowed",

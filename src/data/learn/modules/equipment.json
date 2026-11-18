@@ -455,6 +455,58 @@
                 ],
                 "src": "LSV art. 10.2"
               }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los coches llevan **dos placas** de matrícula, delante y detrás. Las motocicletas, los ciclomotores, los vehículos de tres ruedas y los cuatriciclos llevan **una sola placa, detrás**, en posición vertical o casi vertical.",
+                "en": "Cars carry **two** license plates, front and rear. Motorcycles, mopeds, three-wheelers and quadricycles carry **a single plate, at the rear**, upright or nearly upright."
+              },
+              "src": "RGV art. 49.1; RGV Anexo XVIII, III.1 y III.2"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c1g",
+                "answer": 2,
+                "es": {
+                  "q": "Te compras una moto de 125 cc. ¿Cuántas placas de matrícula debe llevar y dónde?",
+                  "options": [
+                    "Ninguna, si se conduce con el permiso B",
+                    "Dos: una delante y otra detrás",
+                    "Una sola, en la parte trasera"
+                  ],
+                  "why": "Motocicletas, ciclomotores, vehículos de tres ruedas y cuatriciclos llevan una sola placa, detrás, vertical o casi vertical. Da igual el permiso con que se conduzca."
+                },
+                "en": {
+                  "q": "You buy a 125 cc motorcycle. How many license plates must it carry, and where?",
+                  "options": [
+                    "None, if it is ridden with a class B permit",
+                    "Two: a front plate and a rear plate",
+                    "Just one, at the rear"
+                  ],
+                  "why": "Motorcycles, mopeds, three-wheelers and quadricycles carry a single plate at the rear, upright or nearly so. The permit you ride it with makes no difference."
+                },
+                "exam": {
+                  "q": "You buy a motorcycle of 125 cc. How many registration plates must it carry and where?",
+                  "options": [
+                    "None, if it is driven with the permit B.",
+                    "Two: a front plate and a rear plate.",
+                    "A single one, in the rear part."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "placa de matrícula",
+                    "en": "registration plate"
+                  },
+                  {
+                    "es": "parte trasera",
+                    "en": "rear part"
+                  }
+                ],
+                "src": "RGV Anexo XVIII, III.2"
+              }
             }
           ]
         }
@@ -490,7 +542,8 @@
         "Ley de Tráfico y Seguridad Vial (RDL 6/2015), arts. 10 y 59",
         "Reglamento General de Vehículos (RD 2822/1998), arts. 1 y 3",
         "Texto refundido de la Ley sobre responsabilidad civil y seguro en la circulación de vehículos a motor (RDL 8/2004), arts. 2 y 5",
-        "Reglamento del seguro obligatorio (RD 1507/2008), art. 14"
+        "Reglamento del seguro obligatorio (RD 1507/2008), art. 14",
+        "Reglamento General de Vehículos, art. 49 y Anexo XVIII"
       ]
     },
     {
@@ -622,6 +675,58 @@
               "text": {
                 "es": "En EE. UU. las inspecciones periódicas dependen del estado: algunos exigen revisión de seguridad o de emisiones y otros no. En España la ITV es una obligación nacional.",
                 "en": "In the US, periodic inspections depend on the state: some require a safety or emissions check and others none. In Spain the ITV is a national obligation."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si haces una **reforma de importancia** en un vehículo, un remolque o un semirremolque, el titular debe **regularizarla** ante el órgano de industria. Entre los tipos de inspección técnica está la que se hace con ocasión de una reforma.",
+                "en": "If you make a **major modification** to a vehicle, trailer or semi-trailer, the owner must **regularize it** with the industry authority. One of the kinds of technical inspection is the one carried out for a modification."
+              },
+              "src": "RGV art. 7.2; RD 920/2017 art. 5.2"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c2g",
+                "answer": 0,
+                "es": {
+                  "q": "Instalas un enganche de remolque en tu coche, que es una reforma de importancia. ¿Qué tienes que hacer?",
+                  "options": [
+                    "Regularizar la reforma, con su inspección en una estación ITV",
+                    "Nada hasta la próxima ITV periódica",
+                    "Solo avisar a tu compañía de seguros"
+                  ],
+                  "why": "El titular debe regularizar toda reforma de importancia. El reglamento de la ITV prevé una inspección técnica con ocasión de las reformas, aparte de la periódica."
+                },
+                "en": {
+                  "q": "You fit a tow hitch to your car, which is a major modification. What must you do?",
+                  "options": [
+                    "Regularize the modification, with its inspection at an ITV station",
+                    "Nothing until the next periodic ITV",
+                    "Only tell your insurance company"
+                  ],
+                  "why": "The owner must regularize every major modification. The ITV regulation provides for a technical inspection when a modification is made, separate from the periodic one."
+                },
+                "exam": {
+                  "q": "You install a towing hook on your car, which is a reform of importance. What do you have to do?",
+                  "options": [
+                    "To regularise the reform, with its inspection in an ITV station.",
+                    "Nothing until the next periodic ITV.",
+                    "Only to notify your insurance company."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "reforma de importancia",
+                    "en": "major modification (reform of importance)"
+                  },
+                  {
+                    "es": "estación ITV",
+                    "en": "ITV station"
+                  }
+                ],
+                "src": "RGV art. 7.2; RD 920/2017 art. 5.2"
               }
             }
           ]
@@ -1168,7 +1273,8 @@
       "src": [
         "Real Decreto 920/2017 (inspección técnica de vehículos), arts. 4, 6, 9, 11 y 12",
         "Reglamento General de Vehículos (RD 2822/1998), art. 10 y Anexo XI (V-19)",
-        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), arts. 76.o y 78.2"
+        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), arts. 76.o y 78.2",
+        "Reglamento General de Vehículos, art. 7"
       ]
     },
     {
@@ -1332,6 +1438,54 @@
                 ],
                 "src": "RGC art. 98.1"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c3r",
+                "answer": 1,
+                "es": {
+                  "q": "El sol acaba de ponerse, pero todavía hay bastante claridad. ¿Tienes que encender el alumbrado?",
+                  "options": [
+                    "No: solo cuando ya sea de noche cerrada",
+                    "Sí: la obligación empieza a la puesta del sol",
+                    "Solo si llueve o hay niebla"
+                  ],
+                  "why": "Las luces son obligatorias entre la puesta y la salida del sol, aunque aún quede luz natural."
+                },
+                "en": {
+                  "q": "The sun has just set, but it is still fairly bright. Must you switch your lights on?",
+                  "options": [
+                    "No: only once it is fully dark",
+                    "Yes: the duty starts at sunset",
+                    "Only if it is raining or foggy"
+                  ],
+                  "why": "Lights are compulsory between sunset and sunrise, even if there is still some daylight."
+                },
+                "exam": {
+                  "q": "The sun has just set, but there is still quite a lot of brightness. Do you have to switch on the lighting?",
+                  "options": [
+                    "No: only when it is already closed night.",
+                    "Yes: the obligation starts at sunset.",
+                    "Only if it rains or there is fog."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "ocaso / puesta del sol",
+                    "en": "sunset"
+                  },
+                  {
+                    "es": "salida del sol",
+                    "en": "sunrise"
+                  },
+                  {
+                    "es": "alumbrado",
+                    "en": "lighting"
+                  }
+                ],
+                "src": "RGC art. 98.1"
+              }
             }
           ]
         },
@@ -1391,7 +1545,7 @@
                   "q": "It is daytime and you enter a sufficiently illuminated underpass. Which lights do you carry switched on?",
                   "options": [
                     "None, because there is already sufficient light.",
-                    "The position light and the dipped beam.",
+                    "Those of position together with the short-range ones.",
                     "Only the position light."
                   ]
                 },
@@ -1532,6 +1686,158 @@
                 ],
                 "src": "RGC art. 100.1"
               }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "De noche, en una vía urbana o interurbana **suficientemente iluminada**, llevas encendida la luz de cruce **además** de la de posición. En **poblado** también usas la de cruce cuando la vía está poco iluminada.",
+                "en": "At night, on a **well-lit** urban or open road, you have the low beam on **as well as** the position lights. In a **town** you also use the low beam when the street is poorly lit."
+              },
+              "src": "RGC art. 101.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "La obligación de llevar la luz de **carretera** se refiere a vías **fuera de poblado**, a más de 40 km/h. Esa luz puede ir sola o junto con la de cruce.",
+                "en": "The duty to use the **high beam** applies to roads **outside towns**, above 40 km/h. That light may be used alone or together with the low beam."
+              },
+              "src": "RGC art. 100.1"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c3l",
+                "answer": 1,
+                "es": {
+                  "q": "Es de noche y circulas por una calle de un pueblo con muy pocas farolas. ¿Qué luz llevas, además de la de posición?",
+                  "options": [
+                    "La de carretera, porque la calle está oscura",
+                    "La de cruce",
+                    "Solo la de posición, porque es zona urbana"
+                  ],
+                  "why": "En poblado, si la vía está insuficientemente iluminada, se lleva la luz de cruce. La obligación de usar la de carretera es para vías fuera de poblado."
+                },
+                "en": {
+                  "q": "It is night and you are driving down a village street with very few streetlights. Which light do you have on, besides the position lights?",
+                  "options": [
+                    "The high beam, because the street is dark",
+                    "The low beam",
+                    "Only the position lights, because it is an urban area"
+                  ],
+                  "why": "In a town, if the street is poorly lit, you use the low beam. The duty to use the high beam is for roads outside towns."
+                },
+                "exam": {
+                  "q": "It is night and you circulate by a street of a town with very few streetlights. What light do you carry, in addition to the position one?",
+                  "options": [
+                    "The long-range one, because the street is dark.",
+                    "The short-range or dipped one.",
+                    "Only the position one, because it is an urban zone."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "poblado",
+                    "en": "built-up area / town"
+                  },
+                  {
+                    "es": "luz de cruce (corto alcance)",
+                    "en": "dipped beam (short-range light)"
+                  },
+                  {
+                    "es": "insuficientemente iluminada",
+                    "en": "insufficiently lit"
+                  }
+                ],
+                "src": "RGC art. 101.1 y 100.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c3m",
+                "answer": 0,
+                "es": {
+                  "q": "Conduces de noche por una avenida bien iluminada. ¿Basta con llevar encendidas las luces de posición?",
+                  "options": [
+                    "No: además de la de posición necesitas la de cruce",
+                    "Sí, porque las farolas ya iluminan la calzada",
+                    "Sí, si vas a menos de 40 km/h"
+                  ],
+                  "why": "Entre la puesta y la salida del sol, en vías suficientemente iluminadas, se lleva la luz de cruce además de la de posición. La de posición sola no basta para circular."
+                },
+                "en": {
+                  "q": "You are driving at night along a well-lit avenue. Is it enough to have the position lights on?",
+                  "options": [
+                    "No: you need the low beam as well as the position lights",
+                    "Yes, because the streetlights already light the roadway",
+                    "Yes, if you go slower than 40 km/h"
+                  ],
+                  "why": "Between sunset and sunrise, on well-lit roads, you use the low beam in addition to the position lights. Position lights alone are not enough to drive."
+                },
+                "exam": {
+                  "q": "You drive at night by a well-illuminated avenue. Is it sufficient to carry switched on the position lights?",
+                  "options": [
+                    "No: in addition to the position one you need the dipped one.",
+                    "Yes, because the streetlights already illuminate the carriageway.",
+                    "Yes, if you go at less than 40 km/h."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "suficientemente iluminada",
+                    "en": "sufficiently lit"
+                  },
+                  {
+                    "es": "luces de posición",
+                    "en": "position lights"
+                  }
+                ],
+                "src": "RGC art. 101.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c3n",
+                "answer": 2,
+                "es": {
+                  "q": "Vas de noche por una carretera sin farolas y con la luz de carretera encendida. ¿Puedes llevar también la de cruce a la vez?",
+                  "options": [
+                    "No: tienes que elegir una de las dos",
+                    "Solo si hay niebla",
+                    "Sí: la de carretera puede ir sola o con la de cruce"
+                  ],
+                  "why": "El reglamento permite usar la luz de largo alcance aisladamente o junto con la de corto alcance."
+                },
+                "en": {
+                  "q": "You are on an unlit road at night with the high beam on. May you have the low beam on at the same time?",
+                  "options": [
+                    "No: you must choose one or the other",
+                    "Only if there is fog",
+                    "Yes: the high beam may be used alone or with the low beam"
+                  ],
+                  "why": "The regulation allows the high beam to be used on its own or together with the low beam."
+                },
+                "exam": {
+                  "q": "You go at night by a road without streetlights and with the long-range light switched on. Can you also carry the short-range one at the same time?",
+                  "options": [
+                    "No: you have to choose one of the two.",
+                    "Only if there is fog.",
+                    "Yes: the long-range one can go alone or with the short-range one."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "luz de largo alcance o de carretera",
+                    "en": "main beam (long-range light)"
+                  },
+                  {
+                    "es": "simultáneamente",
+                    "en": "simultaneously"
+                  }
+                ],
+                "src": "RGC art. 100.1"
+              }
             }
           ]
         },
@@ -1610,6 +1916,101 @@
                   }
                 ],
                 "src": "RGC art. 102.3"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c3o",
+                "answer": 1,
+                "es": {
+                  "q": "De noche paras el coche en el arcén de una carretera oscura para mirar el mapa. ¿Qué haces con la luz de carretera?",
+                  "options": [
+                    "La dejas puesta para que te vean mejor",
+                    "La apagas: no se puede usar con el vehículo parado",
+                    "La dejas solo si no viene nadie de frente"
+                  ],
+                  "why": "Está prohibido usar la luz de largo alcance siempre que el vehículo esté parado o estacionado."
+                },
+                "en": {
+                  "q": "At night you stop the car on the shoulder of a dark road to look at the map. What do you do with the high beam?",
+                  "options": [
+                    "Leave it on so you are seen better",
+                    "Switch it off: it may not be used while the vehicle is stopped",
+                    "Leave it on only if nobody is coming the other way"
+                  ],
+                  "why": "Using the high beam is forbidden whenever the vehicle is stopped or parked."
+                },
+                "exam": {
+                  "q": "At night you stop the car on the hard shoulder of a dark road to look at the map. What do you do with the main-beam light?",
+                  "options": [
+                    "You leave it on so that they see you better.",
+                    "You switch it off: it cannot be used with the vehicle stopped.",
+                    "You leave it only if nobody comes from the front."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "parado o estacionado",
+                    "en": "stopped or parked"
+                  },
+                  {
+                    "es": "arcén",
+                    "en": "hard shoulder"
+                  }
+                ],
+                "src": "RGC art. 100.2"
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Con el coche muy cargado detrás, el morro sube y los faros apuntan más alto. La DGT recomienda **volver a reglar su altura** con el vehículo cargado, porque pueden deslumbrar. Si los faros están mal ajustados, también la luz de cruce deslumbra. (DGT guidance)",
+                "en": "With a heavy load at the back, the nose rises and the headlamps aim higher. The DGT recommends **adjusting their height again** with the vehicle loaded, because they can dazzle. If the headlamps are badly adjusted, even the low beam dazzles. (DGT guidance)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c3p",
+                "answer": 0,
+                "es": {
+                  "q": "Vas a salir de noche con la furgoneta llena de material pesado en la caja. Según la DGT, ¿qué conviene revisar de las luces?",
+                  "options": [
+                    "La altura de los faros, porque con carga pueden deslumbrar",
+                    "Nada: la carga no influye en las luces",
+                    "Solo que funcionen los intermitentes"
+                  ],
+                  "why": "La DGT avisa de que, con el vehículo cargado, los faros cambian de altura y pueden deslumbrar a otros, y recomienda reglarlos de nuevo."
+                },
+                "en": {
+                  "q": "You are setting off at night with the van full of heavy material in the back. According to the DGT, what should you check about the lights?",
+                  "options": [
+                    "The headlamp height, because with a load they can dazzle",
+                    "Nothing: the load does not affect the lights",
+                    "Only that the turn signals work"
+                  ],
+                  "why": "The DGT warns that a loaded vehicle changes the height of the headlamps, which can dazzle others, and recommends adjusting them again."
+                },
+                "exam": {
+                  "q": "You are going to leave at night with the van full of heavy material in the box. According to the DGT, what is it advisable to check of the lights?",
+                  "options": [
+                    "The height of the headlights, because with load they can dazzle.",
+                    "Nothing: the load does not influence the lights.",
+                    "Only that the indicators work."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "reglaje de los faros",
+                    "en": "headlamp adjustment"
+                  },
+                  {
+                    "es": "deslumbrar",
+                    "en": "to dazzle"
+                  }
+                ],
+                "src": "DGT guidance (Campaña de control y vigilancia de furgonetas, 2023)"
               }
             }
           ]
@@ -1853,7 +2254,7 @@
                 "en": {
                   "q": "Your motorcycle, without a sidecar, has a single low-beam headlight at the front. Does it comply?",
                   "options": [
-                    "No: it needs two, one on each side of the handlebar",
+                    "No: it needs a pair, left and right on the handlebar",
                     "Yes: it may have one or two at the front",
                     "No: it also needs another at the rear"
                   ],
@@ -1997,8 +2398,8 @@
                   "q": "According to the legal definition, what do the position lights serve for?",
                   "options": [
                     "To illuminate the road at a short distance.",
-                    "To indicate the presence and the width of the vehicle.",
-                    "To warn that you are going to turn."
+                    "To indicate the presence of the vehicle and how wide it is.",
+                    "To warn of a turn that you will make."
                   ]
                 },
                 "terms": [
@@ -2153,6 +2554,53 @@
                 ],
                 "src": "RGC art. 107"
               }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Algunos coches tienen **luces adaptativas**. Según la revista de la DGT, una cámara mide la luz ambiente y la distancia a otros vehículos, y el faro enciende la iluminación más adecuada al tiempo, la velocidad y el estado de la carretera. (DGT guidance)",
+                "en": "Some cars have **adaptive lights**. According to the DGT magazine, a camera measures the ambient light and the distance to other vehicles, and the headlamp switches on the lighting best suited to the weather, the speed and the state of the road. (DGT guidance)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c3q",
+                "answer": 2,
+                "es": {
+                  "q": "¿Qué hacen las luces adaptativas de algunos coches, según la DGT?",
+                  "options": [
+                    "Encienden siempre la luz de carretera, sin importar el tráfico",
+                    "Sustituyen a las luces de posición durante el día",
+                    "Ajustan la iluminación a las condiciones de la vía y del tráfico"
+                  ],
+                  "why": "Las luces adaptativas usan una cámara que mide la luz ambiente y la distancia a otros vehículos, y eligen la iluminación más adecuada al tiempo, la velocidad y la carretera."
+                },
+                "en": {
+                  "q": "According to the DGT, what do the adaptive lights some cars have do?",
+                  "options": [
+                    "They always switch on the high beam, whatever the traffic",
+                    "They replace the position lights during the day",
+                    "They adjust the lighting to the road and traffic conditions"
+                  ],
+                  "why": "Adaptive lights use a camera that measures ambient light and the distance to other vehicles, and pick the lighting best suited to the weather, the speed and the road."
+                },
+                "exam": {
+                  "q": "According to the DGT, what do the adaptive lights of some cars do?",
+                  "options": [
+                    "They always switch on the long-range light, regardless of the traffic.",
+                    "They substitute the position lights during the day.",
+                    "They adjust the lighting to the conditions of the road and of the traffic."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "luces adaptativas",
+                    "en": "adaptive lights"
+                  }
+                ],
+                "src": "DGT guidance (revista DGT, «Las tecnologías, al rescate», 2016)"
+              }
             }
           ]
         }
@@ -2190,7 +2638,9 @@
         "Reglamento General de Vehículos (RD 2822/1998), Anexo X",
         "Ley de Tráfico y Seguridad Vial (RDL 6/2015), Anexo I",
         "Reglamento General de Circulación (RD 1428/2003), arts. 45 y 107",
-        "DGT guidance: revista.dgt.es («Luces: sin sombra de duda», «Cómo evitar los deslumbramientos al volante»)"
+        "DGT guidance: revista.dgt.es («Luces: sin sombra de duda», «Cómo evitar los deslumbramientos al volante»)",
+        "RGC arts. 100 y 101",
+        "DGT guidance: Campaña de control y vigilancia de furgonetas (2023); revista DGT «Las tecnologías, al rescate» (2016)"
       ]
     },
     {
@@ -2338,6 +2788,58 @@
                 ],
                 "src": "RGC art. 104.b"
               }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si circulas de día por el carril de tu sentido que está **junto** a uno habilitado en sentido contrario al habitual, también llevas al menos la luz de cruce.",
+                "en": "If you drive by day in your own direction’s lane that runs **next to** a lane opened to the opposite direction, you also have at least the low beam on."
+              },
+              "src": "RGC art. 41.1"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c4h",
+                "answer": 0,
+                "es": {
+                  "q": "Es de día. Circulas por tu carril habitual y, justo al lado, han abierto un carril para el sentido contrario. ¿Qué luz llevas?",
+                  "options": [
+                    "Al menos la de cruce",
+                    "Ninguna, porque es de día",
+                    "Solo las de emergencia"
+                  ],
+                  "why": "Quien circula por el carril del sentido normal contiguo a uno habilitado en sentido contrario lleva al menos la luz de cruce, de día y de noche."
+                },
+                "en": {
+                  "q": "It is daytime. You are in your usual lane and, right next to it, a lane has been opened for the opposite direction. Which light do you have on?",
+                  "options": [
+                    "At least the low beam",
+                    "None, because it is daytime",
+                    "Only the hazard lights"
+                  ],
+                  "why": "Drivers in the normal-direction lane next to a lane opened in the opposite direction keep at least the low beam on, by day and by night."
+                },
+                "exam": {
+                  "q": "It is daytime. You circulate by your usual lane and, just beside it, they have enabled a lane for the opposite direction. What light do you carry?",
+                  "options": [
+                    "At least the dipped one.",
+                    "None, because it is daytime.",
+                    "Only the emergency ones."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "carril habilitado en sentido contrario",
+                    "en": "lane enabled in the opposite direction"
+                  },
+                  {
+                    "es": "contiguo",
+                    "en": "adjacent"
+                  }
+                ],
+                "src": "RGC art. 41.1"
+              }
             }
           ]
         },
@@ -2387,7 +2889,7 @@
                   "why": "A vehicle immobilized on the roadway or shoulder between sunset and sunrise must have its position lights on and, where fitted, its clearance lights. Outside towns, add the hazard lights and the V-16."
                 },
                 "exam": {
-                  "q": "At night, your car remains immobilised on the hard shoulder of a road. What lights must remain switched on as a minimum?",
+                  "q": "At night, your car remains immobilised on the interurban hard shoulder. What lights must remain switched on as a minimum?",
                   "options": [
                     "The dipped beam ones, so that they see you from far.",
                     "None, if you have placed the V-16 beacon.",
@@ -2546,7 +3048,7 @@
                 "exam": {
                   "q": "You have changed lane and your indicator continues switched on. When must the warning of the lateral displacement finish?",
                   "options": [
-                    "As soon as the vehicle has taken its new trajectory.",
+                    "At the moment the new trajectory has been adopted by the vehicle.",
                     "When you have travelled some hundred metres.",
                     "When the journey finishes."
                   ]
@@ -2731,7 +3233,8 @@
       "src": [
         "Reglamento General de Circulación (RD 1428/2003), arts. 49.3, 104, 105, 107, 109 y 130.4",
         "Reglamento General de Circulación, Anexo I, ap. 5.1 (señal S-24, Catálogo de señales)",
-        "Reglamento General de Vehículos (RD 2822/1998), Anexo XI, V-2"
+        "Reglamento General de Vehículos (RD 2822/1998), Anexo XI, V-2",
+        "RGC art. 41"
       ]
     },
     {
@@ -3622,6 +4125,114 @@
                 ],
                 "src": "RGC art. 15.2.a"
               }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Cuando la carga sobresale, se toman todas las precauciones para no causar daños ni peligros, y la carga va **resguardada en su extremo saliente** para reducir los efectos de un roce o un choque.",
+                "en": "When the load sticks out, you take every precaution not to cause harm or danger, and the load is **padded at its protruding end** to lessen the effects of a scrape or a knock."
+              },
+              "src": "RGC art. 15.5"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c7l",
+                "answer": 0,
+                "es": {
+                  "q": "Un camión lleva unos tubos que sobresalen por detrás, dentro de lo permitido. ¿Qué exige la norma en la parte que sobresale?",
+                  "options": [
+                    "Que vaya resguardada, para aminorar un roce o un choque",
+                    "Nada, si no supera los tres metros",
+                    "Que se ate con una cuerda roja, sin más"
+                  ],
+                  "why": "La carga que sobresale de la proyección en planta debe ir resguardada en su extremidad, además de señalizada, para reducir los efectos de un posible roce o choque."
+                },
+                "en": {
+                  "q": "A truck carries some pipes that stick out at the rear, within the limits. What do the rules require at the part that sticks out?",
+                  "options": [
+                    "That it be padded, to lessen a scrape or a knock",
+                    "Nothing, if it is not over three meters",
+                    "That it be tied with a red cord, nothing more"
+                  ],
+                  "why": "A load that sticks out beyond the vehicle’s outline must be padded at its end, as well as marked, to lessen the effects of a possible scrape or knock."
+                },
+                "exam": {
+                  "q": "A lorry carries some tubes that protrude from the rear, within what is permitted. What does the regulation require in the protruding part?",
+                  "options": [
+                    "That it goes protected, to reduce a rubbing or a collision.",
+                    "Nothing, if it does not exceed three metres.",
+                    "That it is tied with a red rope, nothing more."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "resguardada",
+                    "en": "protected / padded"
+                  },
+                  {
+                    "es": "extremidad saliente",
+                    "en": "protruding end"
+                  },
+                  {
+                    "es": "proyección en planta",
+                    "en": "plan projection (outline seen from above)"
+                  }
+                ],
+                "src": "RGC art. 15.5"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Entre la puesta y la salida del sol, o con poca visibilidad, la carga que sobresale por **detrás** lleva además una **luz roja**. Si sobresale por **delante**, se señaliza con una **luz blanca**.",
+                "en": "Between sunset and sunrise, or in poor visibility, a load sticking out at the **rear** also carries a **red light**. If it sticks out at the **front**, it is marked with a **white light**."
+              },
+              "src": "RGC art. 15.6"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c7m",
+                "answer": 1,
+                "es": {
+                  "q": "De noche, un camión lleva vigas que sobresalen por delante y por detrás. ¿Qué luz marca el extremo delantero de la carga?",
+                  "options": [
+                    "Una luz roja, como en el extremo trasero",
+                    "Una luz blanca",
+                    "Una luz amarilla intermitente"
+                  ],
+                  "why": "Por la noche, la carga que sobresale por detrás lleva el panel V-20 y una luz roja; si sobresale por delante, se señaliza con una luz blanca."
+                },
+                "en": {
+                  "q": "At night a truck carries beams that stick out at the front and the rear. Which light marks the front end of the load?",
+                  "options": [
+                    "A red light, as at the rear end",
+                    "A white light",
+                    "A flashing yellow light"
+                  ],
+                  "why": "At night, a load sticking out at the rear carries the V-20 panel and a red light; if it sticks out at the front, it is marked with a white light."
+                },
+                "exam": {
+                  "q": "At night, a lorry carries beams that protrude from the front and from the rear. What light marks the front end of the load?",
+                  "options": [
+                    "A red light, as in the rear end.",
+                    "A white light.",
+                    "A flashing yellow light."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "luz blanca",
+                    "en": "white light"
+                  },
+                  {
+                    "es": "carga indivisible",
+                    "en": "indivisible load"
+                  }
+                ],
+                "src": "RGC art. 15.6"
+              }
             }
           ]
         },
@@ -3923,6 +4534,16 @@
                     "es": "2,55 m",
                     "en": "2.55 m"
                   }
+                ],
+                [
+                  {
+                    "es": "Anchura de las superestructuras de vehículos acondicionados (mercancías a temperatura dirigida)",
+                    "en": "Width of the superstructure of conditioned vehicles (goods at controlled temperature)"
+                  },
+                  {
+                    "es": "2,60 m",
+                    "en": "2.60 m"
+                  }
                 ]
               ]
             },
@@ -3975,6 +4596,54 @@
                   }
                 ],
                 "src": "RGV Anexo IX, 3.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c7n",
+                "answer": 2,
+                "es": {
+                  "q": "¿Cuál es la anchura máxima de la superestructura de un vehículo acondicionado, el que lleva mercancías a temperatura dirigida?",
+                  "options": [
+                    "2,55 metros, como cualquier vehículo",
+                    "2,50 metros",
+                    "2,60 metros"
+                  ],
+                  "why": "La regla general de anchura es 2,55 metros, pero las superestructuras de los vehículos acondicionados pueden llegar a 2,60 metros."
+                },
+                "en": {
+                  "q": "What is the maximum width of the superstructure of a conditioned vehicle, one that carries goods at a controlled temperature?",
+                  "options": [
+                    "2.55 meters, like any vehicle",
+                    "2.50 meters",
+                    "2.60 meters"
+                  ],
+                  "why": "The general width rule is 2.55 meters, but the superstructures of conditioned vehicles may reach 2.60 meters."
+                },
+                "exam": {
+                  "q": "What is the maximum width of the superstructure of a conditioned vehicle, the one that carries goods at directed temperature?",
+                  "options": [
+                    "2.55 metres, like any vehicle.",
+                    "2.50 metres.",
+                    "2.60 metres."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "vehículo acondicionado",
+                    "en": "conditioned vehicle"
+                  },
+                  {
+                    "es": "superestructura",
+                    "en": "superstructure"
+                  },
+                  {
+                    "es": "anchura máxima",
+                    "en": "maximum width"
+                  }
+                ],
+                "src": "RGV Anexo IX, ap. 3.1"
               }
             }
           ]
@@ -4250,7 +4919,8 @@
       "src": [
         "Reglamento General de Circulación (RD 1428/2003), arts. 5, 9, 12, 13, 15 y 16",
         "Reglamento General de Vehículos (RD 2822/1998), arts. 25 y 26; Anexo IX; Anexo XI, V-16",
-        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), Anexo I"
+        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), Anexo I",
+        "RGC art. 15.5 y 15.6"
       ]
     },
     {
@@ -4406,6 +5076,58 @@
                   }
                 ],
                 "src": "RGV Anexo III, ap. 2"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Queda prohibido, en todo caso, poner **vidrios tintados o coloreados no homologados**.",
+                "en": "Fitting **tinted or colored glass that is not type-approved** is forbidden in every case."
+              },
+              "src": "RGC art. 19.2"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c8h",
+                "answer": 2,
+                "es": {
+                  "q": "Quieres cambiar las ventanillas de tu coche por unos cristales oscuros que no están homologados. ¿Lo permite la norma?",
+                  "options": [
+                    "Sí, si son solo las ventanillas traseras",
+                    "Sí, si llevas dos retrovisores exteriores",
+                    "No: los vidrios tintados no homologados están prohibidos"
+                  ],
+                  "why": "Las láminas o cortinillas en las ventanillas traseras se permiten con dos retrovisores exteriores. Pero los vidrios tintados o coloreados no homologados están prohibidos en todo caso."
+                },
+                "en": {
+                  "q": "You want to replace your car’s windows with dark glass that is not type-approved. Do the rules allow it?",
+                  "options": [
+                    "Yes, if it is only the rear windows",
+                    "Yes, if you have two exterior mirrors",
+                    "No: tinted glass that is not type-approved is forbidden"
+                  ],
+                  "why": "Films or sun shades on the rear windows are allowed with two exterior mirrors. But tinted or colored glass that is not type-approved is forbidden in every case."
+                },
+                "exam": {
+                  "q": "You want to change the windows of your car for some dark glasses that are not homologated. Does the regulation permit it?",
+                  "options": [
+                    "Yes, if they are only the rear windows.",
+                    "Yes, if you carry two exterior rear-view mirrors.",
+                    "No: the non-homologated tinted glasses are prohibited."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "vidrios tintados",
+                    "en": "tinted glass"
+                  },
+                  {
+                    "es": "homologado",
+                    "en": "approved / homologated"
+                  }
+                ],
+                "src": "RGC art. 19.2"
               }
             }
           ]
@@ -4567,6 +5289,62 @@
                   {
                     "es": "optativo",
                     "en": "optional"
+                  }
+                ],
+                "src": "RGV Anexo III, ap. 3"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Un **cuatriciclo ligero** o un vehículo de tres ruedas con **carrocería** que cubra al conductor lleva retrovisor **interior** y retrovisor **exterior izquierdo**; el derecho es optativo. Sin carrocería, basta con el exterior izquierdo.",
+                "en": "A **light quadricycle** or three-wheeler with **bodywork** around the driver has an **interior** mirror and a **left exterior** mirror; the right one is optional. Without bodywork, the left exterior mirror is enough."
+              },
+              "src": "RGV Anexo III, ap. 3"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c8g",
+                "answer": 1,
+                "es": {
+                  "q": "Tienes un cuatriciclo ligero con carrocería cerrada, como un coche pequeño. ¿Qué retrovisores debe tener como mínimo?",
+                  "options": [
+                    "Solo el exterior izquierdo",
+                    "El interior y el exterior izquierdo",
+                    "Los dos exteriores y el interior"
+                  ],
+                  "why": "Con carrocería que cubra al conductor, son obligatorios el interior y el exterior izquierdo. El derecho es optativo, salvo que el interior no dé la visión exigida."
+                },
+                "en": {
+                  "q": "You have a light quadricycle with closed bodywork, like a small car. Which mirrors must it have at least?",
+                  "options": [
+                    "Only the left exterior one",
+                    "The interior one and the left exterior one",
+                    "Both exterior ones and the interior one"
+                  ],
+                  "why": "With bodywork covering the driver, the interior and left exterior mirrors are compulsory. The right one is optional, unless the interior one cannot give the required view."
+                },
+                "exam": {
+                  "q": "You have a light quadricycle with closed bodywork, like a small car. What rear-view mirrors must it have as a minimum?",
+                  "options": [
+                    "Only the exterior left one.",
+                    "The interior one and the exterior left one.",
+                    "The two exterior ones and the interior one."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "cuatriciclo ligero",
+                    "en": "light quadricycle"
+                  },
+                  {
+                    "es": "retrovisor",
+                    "en": "rear-view mirror"
+                  },
+                  {
+                    "es": "carrocería",
+                    "en": "bodywork"
                   }
                 ],
                 "src": "RGV Anexo III, ap. 3"
@@ -4764,7 +5542,9 @@
       "covers": [],
       "src": [
         "Reglamento General de Vehículos (RD 2822/1998), Anexo III",
-        "Reglamento General de Circulación (RD 1428/2003), arts. 7 y 19"
+        "Reglamento General de Circulación (RD 1428/2003), arts. 7 y 19",
+        "RGV Anexo III, ap. 3",
+        "RGC art. 19"
       ]
     },
     {
@@ -4917,6 +5697,106 @@
                   }
                 ],
                 "src": "RGV Anexo VII, apartado 3"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "La **presión de inflado** debe revisarse **con regularidad**, con manómetros homologados y verificados.",
+                "en": "Tire **inflation pressure** must be checked **regularly**, with approved and verified gauges."
+              },
+              "src": "RGV Anexo VII, apartado 6"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c6m",
+                "answer": 0,
+                "es": {
+                  "q": "Tu moto no está sujeta a la profundidad mínima de 1,6 mm. ¿Qué exige igualmente la norma a sus neumáticos?",
+                  "options": [
+                    "Que no tengan ampollas, deformaciones anormales, roturas ni grietas",
+                    "Nada: las motos no tienen requisitos de neumáticos",
+                    "Solo que sean de la misma marca delante y detrás"
+                  ],
+                  "why": "El mínimo de 1,6 mm es para turismos, furgonetas pequeñas y sus remolques. Pero todo neumático debe conservar sus inscripciones y no tener ampollas, deformaciones anormales, roturas, cables a la vista ni grietas."
+                },
+                "en": {
+                  "q": "Your motorcycle is not covered by the 1.6 mm minimum depth. What do the rules still require of its tires?",
+                  "options": [
+                    "That they have no blisters, abnormal deformation, tears or cracks",
+                    "Nothing: motorcycles have no tire requirements",
+                    "Only that front and rear be the same brand"
+                  ],
+                  "why": "The 1.6 mm minimum is for cars, small vans and their trailers. But every tire must keep its markings and show no blisters, abnormal deformation, tears, exposed cords or cracks."
+                },
+                "exam": {
+                  "q": "Your motorcycle is not subject to the minimum depth of 1.6 mm. What does the regulation equally require of its tyres?",
+                  "options": [
+                    "That they do not have blisters, abnormal deformations, breakages or cracks.",
+                    "Nothing: motorcycles do not have requirements of tyres.",
+                    "Only that they are of the same brand in front and behind."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "ampollas",
+                    "en": "blisters"
+                  },
+                  {
+                    "es": "deformaciones anormales",
+                    "en": "abnormal deformations"
+                  },
+                  {
+                    "es": "grietas",
+                    "en": "cracks"
+                  }
+                ],
+                "src": "RGV Anexo VII, apartados 2 y 4"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c6n",
+                "answer": 1,
+                "es": {
+                  "q": "¿Qué dice el reglamento de vehículos sobre la presión de inflado de los neumáticos?",
+                  "options": [
+                    "Que solo se revisa en la ITV",
+                    "Que debe revisarse con regularidad, con manómetros homologados",
+                    "Que la fija cada conductor a su gusto"
+                  ],
+                  "why": "La presión de inflado debe revisarse regularmente, con manómetros homologados y verificados. La presión correcta es la que recomienda el fabricante del vehículo."
+                },
+                "en": {
+                  "q": "What does the vehicle regulation say about tire inflation pressure?",
+                  "options": [
+                    "That it is checked only at the ITV",
+                    "That it must be checked regularly, with approved gauges",
+                    "That each driver sets it as they like"
+                  ],
+                  "why": "Inflation pressure must be checked regularly, with approved and verified gauges. The right pressure is the one the vehicle’s manufacturer recommends."
+                },
+                "exam": {
+                  "q": "What does the regulation of vehicles say about the inflation pressure of the tyres?",
+                  "options": [
+                    "That it is only checked in the ITV.",
+                    "That it must be checked regularly, with homologated pressure gauges.",
+                    "That each driver sets it to his liking."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "presión de inflado",
+                    "en": "inflation pressure"
+                  },
+                  {
+                    "es": "manómetro",
+                    "en": "pressure gauge"
+                  }
+                ],
+                "src": "RGV Anexo VII, apartado 6"
               }
             }
           ]
@@ -5166,6 +6046,61 @@
                   }
                 ],
                 "src": "DGT guidance"
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Según la DGT, con calor la banda de rodadura se desgasta alrededor de un **25 % más** y sube el riesgo de pinchazo. La velocidad alta también calienta el neumático, y cargar el coche sin subir la presión equivale a llevarla baja. (DGT guidance)",
+                "en": "According to the DGT, in hot weather the tread wears about **25% more** and the risk of a puncture rises. High speed also heats the tire, and loading the car without raising the pressure is like running it underinflated. (DGT guidance)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c6o",
+                "answer": 2,
+                "es": {
+                  "q": "En pleno verano haces muchos kilómetros con el asfalto muy caliente. Según la DGT, ¿qué les pasa a los neumáticos?",
+                  "options": [
+                    "Duran más, porque la goma se ablanda y agarra mejor",
+                    "Nada: la temperatura no les afecta",
+                    "Se desgastan más deprisa y hay más riesgo de pinchazo"
+                  ],
+                  "why": "La DGT indica que con calor la banda de rodadura se desgasta en torno a un 25 % más y aumenta el riesgo de pinchazo."
+                },
+                "en": {
+                  "q": "In midsummer you drive many kilometers on very hot asphalt. According to the DGT, what happens to the tires?",
+                  "options": [
+                    "They last longer, because the rubber softens and grips better",
+                    "Nothing: temperature does not affect them",
+                    "They wear faster and the risk of a puncture is higher"
+                  ],
+                  "why": "The DGT says that in hot weather the tread wears about 25% more and the risk of a puncture rises."
+                },
+                "exam": {
+                  "q": "In full summer you do many kilometres with the asphalt very hot. According to the DGT, what happens to the tyres?",
+                  "options": [
+                    "They last more, because the rubber softens and grips better.",
+                    "Nothing: the temperature does not affect them.",
+                    "They wear out faster and there is more risk of puncture."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "banda de rodadura",
+                    "en": "tread"
+                  },
+                  {
+                    "es": "pinchazo",
+                    "en": "puncture"
+                  },
+                  {
+                    "es": "desgaste",
+                    "en": "wear"
+                  }
+                ],
+                "src": "DGT guidance (revista DGT, «Más calor, más peligro», 2021)"
               }
             }
           ]
@@ -5773,6 +6708,163 @@
                 ],
                 "src": "DGT guidance"
               }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Arranca **sin pisar el acelerador**. Con motor de **gasolina**, empieza a circular enseguida. Con **diésel**, espera unos segundos para que el aceite llegue bien a las zonas que lubrica. (DGT guidance)",
+                "en": "Start the engine **without pressing the accelerator**. With a **gasoline** engine, move off right away. With a **diesel**, wait a few seconds so the oil reaches the parts it lubricates. (DGT guidance)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c6p",
+                "answer": 0,
+                "es": {
+                  "q": "Tu coche tiene motor diésel y acabas de arrancarlo en frío. Según la DGT, ¿qué conviene hacer?",
+                  "options": [
+                    "Esperar unos segundos antes de empezar a circular",
+                    "Acelerar en punto muerto para calentarlo",
+                    "Salir de inmediato a fondo para calentarlo antes"
+                  ],
+                  "why": "En diésel, la DGT aconseja esperar unos segundos para que el aceite llegue a las zonas de lubricación. En gasolina se sale enseguida. En ambos, el motor se calienta circulando, nunca acelerando parado."
+                },
+                "en": {
+                  "q": "Your car has a diesel engine and you have just started it cold. According to the DGT, what should you do?",
+                  "options": [
+                    "Wait a few seconds before moving off",
+                    "Rev it in neutral to warm it up",
+                    "Move off at once with full throttle to warm it faster"
+                  ],
+                  "why": "With a diesel, the DGT advises waiting a few seconds so the oil reaches the lubrication points. With gasoline you move off right away. In both, the engine warms up while driving, never by revving it standing still."
+                },
+                "exam": {
+                  "q": "Your car has a diesel engine and you have just started it cold. According to the DGT, what is it advisable to do?",
+                  "options": [
+                    "To wait some seconds before initiating the march.",
+                    "To accelerate in neutral to heat it.",
+                    "To leave immediately at full throttle to heat it before."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "motor diésel",
+                    "en": "diesel engine"
+                  },
+                  {
+                    "es": "iniciar la marcha",
+                    "en": "to start moving off"
+                  }
+                ],
+                "src": "DGT guidance (dgt.es, «Conducción eficiente»)"
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Según la revista de la DGT, el peso de más y las **bacas** pueden subir el consumo **hasta un 40 %**. Quita la baca cuando no la uses. (DGT guidance)",
+                "en": "According to the DGT magazine, extra weight and **roof racks** can raise fuel use by **up to 40%**. Take the rack off when you are not using it. (DGT guidance)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c6q",
+                "answer": 1,
+                "es": {
+                  "q": "Volviste de vacaciones hace semanas y sigues con la baca vacía puesta en el techo. ¿Qué te diría la DGT?",
+                  "options": [
+                    "Que da igual: vacía no influye en el consumo",
+                    "Que la quites, porque aumenta el consumo",
+                    "Que solo importa en autopista"
+                  ],
+                  "why": "La baca aumenta la resistencia al aire. La revista de la DGT indica que el peso extra y las bacas pueden subir el consumo hasta un 40 %."
+                },
+                "en": {
+                  "q": "You came back from vacation weeks ago and still have the empty roof rack on. What would the DGT tell you?",
+                  "options": [
+                    "That it does not matter: empty, it has no effect on fuel use",
+                    "To take it off, because it increases fuel use",
+                    "That it only matters on the motorway"
+                  ],
+                  "why": "The roof rack increases air resistance. The DGT magazine says extra weight and roof racks can raise fuel use by up to 40%."
+                },
+                "exam": {
+                  "q": "You returned from holidays weeks ago and you continue with the empty roof rack put on the roof. What would the DGT tell you?",
+                  "options": [
+                    "That it is the same: empty it does not influence the consumption.",
+                    "That you remove it, because it increases the consumption.",
+                    "That it only matters on the motorway."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "baca / portaequipajes",
+                    "en": "roof rack"
+                  },
+                  {
+                    "es": "consumo",
+                    "en": "fuel consumption"
+                  }
+                ],
+                "src": "DGT guidance (revista DGT, «10 claves para conducir de forma eficiente», 2017)"
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "La conducción eficiente exige menos esfuerzo al coche: hay menos desgaste de frenos, embrague, neumáticos y motor, y **menos gastos de mantenimiento**. La DGT añade que mantener la distancia y anticiparse **aumenta la seguridad vial**. (DGT guidance)",
+                "en": "Efficient driving puts less strain on the car: less wear on brakes, clutch, tires and engine, and **lower maintenance costs**. The DGT adds that keeping your distance and anticipating **improves road safety**. (DGT guidance)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c6r",
+                "answer": 2,
+                "es": {
+                  "q": "Además de gastar menos combustible, ¿qué otra ventaja tiene la conducción eficiente, según la DGT?",
+                  "options": [
+                    "Permite ir más rápido sin riesgo",
+                    "Ninguna más: solo ahorra combustible",
+                    "Desgasta menos el vehículo, abarata el mantenimiento y mejora la seguridad"
+                  ],
+                  "why": "Al evitar acelerones y frenazos y anticiparse, el coche sufre menos y cuesta menos mantenerlo. La DGT también relaciona la conducción eficiente con más seguridad vial."
+                },
+                "en": {
+                  "q": "Besides using less fuel, what other benefit does efficient driving have, according to the DGT?",
+                  "options": [
+                    "It lets you go faster without risk",
+                    "No other: it only saves fuel",
+                    "Less wear on the vehicle, cheaper upkeep and better safety"
+                  ],
+                  "why": "By avoiding hard acceleration and braking and by anticipating, the car suffers less and costs less to maintain. The DGT also links efficient driving with greater road safety."
+                },
+                "exam": {
+                  "q": "In addition to spending less fuel, what other advantage does efficient driving have, according to the DGT?",
+                  "options": [
+                    "It allows going faster without risk.",
+                    "No other: it only saves fuel.",
+                    "It wears the vehicle less, makes the maintenance cheaper and improves safety."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "conducción eficiente",
+                    "en": "efficient driving"
+                  },
+                  {
+                    "es": "costes de mantenimiento",
+                    "en": "maintenance costs"
+                  },
+                  {
+                    "es": "seguridad vial",
+                    "en": "road safety"
+                  }
+                ],
+                "src": "DGT guidance (dgt.es, «Conducción eficiente»; revista DGT, «10 claves para ahorrar combustible», 2014)"
+              }
             }
           ]
         }
@@ -5814,7 +6906,9 @@
         "Guía DGT (revista.dgt.es, «Coche siempre a punto») y guía IDAE (idae.es, «10 reglas de oro de la conducción eficiente»)",
         "Reglamento General de Vehículos (RD 2822/1998), Anexo II (E) y Anexo VIII",
         "DGT guidance: revista.dgt.es (puesta a punto, neumáticos, conducción eficiente) y dgt.es (conducción eficiente)",
-        "Reglamento General de Vehículos (RD 2822/1998), Anexo XI, V-26"
+        "Reglamento General de Vehículos (RD 2822/1998), Anexo XI, V-26",
+        "RGV Anexo VII, apartado 6",
+        "DGT guidance: revista DGT «Más calor, más peligro» (2021), «10 claves para conducir de forma eficiente» (2017), «10 claves para ahorrar combustible» (2014); dgt.es «Conducción eficiente»"
       ]
     },
     {
@@ -6092,6 +7186,57 @@
                   }
                 ],
                 "src": "DGT guidance"
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Según la revista de la DGT, un amortiguador en mal estado causa problemas de control en curvas, desgaste irregular de los neumáticos y **más tendencia al aquaplaning**. Hazlos revisar periódicamente. (DGT guidance)",
+                "en": "According to the DGT magazine, a worn shock absorber causes control problems in curves, uneven tire wear and **a greater tendency to aquaplane**. Have them checked regularly. (DGT guidance)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c9l",
+                "answer": 0,
+                "es": {
+                  "q": "Llueve mucho y la calzada tiene agua. Si los amortiguadores de tu coche están gastados, ¿qué riesgo crece, según la DGT?",
+                  "options": [
+                    "El de aquaplaning y pérdida de control",
+                    "Ninguno: los amortiguadores solo afectan a la comodidad",
+                    "Solo el de que se apaguen las luces"
+                  ],
+                  "why": "Los amortiguadores mantienen las ruedas en contacto con el suelo. Si están mal, la DGT avisa de más tendencia al aquaplaning y de problemas de control."
+                },
+                "en": {
+                  "q": "It is raining hard and there is water on the roadway. If your car’s shock absorbers are worn, which risk grows, according to the DGT?",
+                  "options": [
+                    "Aquaplaning and loss of control",
+                    "None: shock absorbers only affect comfort",
+                    "Only that the lights go out"
+                  ],
+                  "why": "Shock absorbers keep the wheels in contact with the ground. If they are worn, the DGT warns of a greater tendency to aquaplane and of control problems."
+                },
+                "exam": {
+                  "q": "It rains a lot and the carriageway has water. If the shock absorbers of your car are worn, what risk grows, according to the DGT?",
+                  "options": [
+                    "That of aquaplaning and loss of control.",
+                    "None: the shock absorbers only affect comfort.",
+                    "Only that the lights switch off."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "amortiguador",
+                    "en": "shock absorber"
+                  },
+                  {
+                    "es": "aquaplaning (acuaplanamiento)",
+                    "en": "aquaplaning"
+                  }
+                ],
+                "src": "DGT guidance (revista DGT, test de diciembre de 2019)"
               }
             }
           ]
@@ -6413,6 +7558,61 @@
                 ],
                 "src": "DGT guidance"
               }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Pasar por zonas con mucha agua puede mojar las pastillas y **restar eficacia a los frenos** durante un tiempo. La DGT aconseja secarlos pisando el pedal varias veces, con suavidad. (DGT guidance)",
+                "en": "Driving through deep water can wet the pads and **make the brakes less effective** for a while. The DGT advises drying them by pressing the pedal several times, gently. (DGT guidance)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c9m",
+                "answer": 1,
+                "es": {
+                  "q": "Acabas de cruzar un charco muy grande y notas que el coche frena peor. Según la DGT, ¿qué haces?",
+                  "options": [
+                    "Frenas a fondo una vez para comprobar que funcionan",
+                    "Pisas el freno varias veces con suavidad para secarlos",
+                    "Nada: el agua no afecta a los frenos"
+                  ],
+                  "why": "El agua puede afectar a las pastillas y los frenos pierden eficacia temporalmente. La DGT aconseja pisar el pedal de forma repetida y suave para secarlos."
+                },
+                "en": {
+                  "q": "You have just driven through a very large puddle and the car brakes worse. According to the DGT, what do you do?",
+                  "options": [
+                    "Brake hard once to check they work",
+                    "Press the brake gently several times to dry them",
+                    "Nothing: water does not affect the brakes"
+                  ],
+                  "why": "Water can affect the pads and the brakes temporarily lose effectiveness. The DGT advises pressing the pedal repeatedly and gently to dry them."
+                },
+                "exam": {
+                  "q": "You have just crossed a very big puddle and you notice that the car brakes worse. According to the DGT, what do you do?",
+                  "options": [
+                    "You brake to the bottom once to check that they work.",
+                    "You press the brake several times with smoothness to dry them.",
+                    "Nothing: the water does not affect the brakes."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "pastillas de freno",
+                    "en": "brake pads"
+                  },
+                  {
+                    "es": "eficacia",
+                    "en": "effectiveness"
+                  },
+                  {
+                    "es": "charco",
+                    "en": "puddle"
+                  }
+                ],
+                "src": "DGT guidance (revista DGT, «Conducir sobre mojado», 2013)"
+              }
             }
           ]
         },
@@ -6667,7 +7867,8 @@
         "Ley de Tráfico y Seguridad Vial (RDL 6/2015), art. 10.3",
         "Reglamento General de Circulación (RD 1428/2003), art. 115",
         "DGT guidance: revista.dgt.es («La importancia del ABS», «Frenos, un elemento clave para la seguridad», «Lo que cuesta frenar por tipo de vehículo», «Las reglas de oro del mantenimiento del neumático», «Puntos a revisar de su coche», «Verano: 8 puntos para revisar en nuestro coche», «La revisión invernal imprescindible para no quedarse tirado», «Lo que debes saber sobre el aire acondicionado», «Conductor, un puesto a medida», test de diciembre de 2019)",
-        "DGT guidance: dgt.es («Conducción eficiente», «Cómo ahorrar combustible conduciendo», «En coche»)"
+        "DGT guidance: dgt.es («Conducción eficiente», «Cómo ahorrar combustible conduciendo», «En coche»)",
+        "DGT guidance: revista DGT «Conducir sobre mojado» (2013), test de diciembre de 2019"
       ]
     }
   ]

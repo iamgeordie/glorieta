@@ -12,7 +12,10 @@
       "minutes": 6,
       "goals": [
         { "es": "Decir en qué sentido se circula por una glorieta.", "en": "Say which way traffic circulates in a roundabout." },
-        { "es": "Saber quién tiene prioridad al entrar y dónde cedes el paso.", "en": "Know who has priority when you enter and where you yield." },
+        {
+          "es": "Saber quién tiene prioridad al entrar y dónde cedes el paso.",
+          "en": "Know who has priority when you enter and where you yield."
+        },
         { "es": "Reconocer las señales de glorieta y de ceda el paso.", "en": "Recognize the roundabout and yield signs." }
       ],
       "terms": [
@@ -102,7 +105,10 @@
                 "en": "Traffic turns counterclockwise. The car waiting to enter sees it arrive from its left."
               },
               "legend": [
-                { "mark": "A", "text": { "es": "Coche que ya circula por la glorieta.", "en": "Car already circulating in the roundabout." } },
+                {
+                  "mark": "A",
+                  "text": { "es": "Coche que ya circula por la glorieta.", "en": "Car already circulating in the roundabout." }
+                },
                 { "mark": "B", "text": { "es": "Tú, esperando en la entrada.", "en": "You, waiting at the entrance." } }
               ]
             },
@@ -178,16 +184,28 @@
                 "answer": 1,
                 "es": {
                   "q": "Llegas a una glorieta sin señales que cambien la prioridad. Un coche circula dentro, a tu izquierda. ¿Qué haces?",
-                  "options": ["Entras: tú vienes por la derecha", "Cedes el paso y entras cuando haya un hueco", "Aceleras para entrar antes que él"],
+                  "options": [
+                    "Entras: tú vienes por la derecha",
+                    "Cedes el paso y entras cuando haya un hueco",
+                    "Aceleras para entrar antes que él"
+                  ],
                   "why": "Los vehículos que ya están en la glorieta tienen preferencia. Se cede el paso en la entrada y se entra cuando hay un hueco seguro."
                 },
                 "exam": {
                   "q": "You arrive at a roundabout without signs that change the priority. A car circulates inside, at your left. What do you do?",
-                  "options": ["You enter: you come by the right.", "You yield way and you enter when there is a gap.", "You accelerate in order to enter before him."]
+                  "options": [
+                    "You enter: you come by the right.",
+                    "You yield way and you enter when there is a gap.",
+                    "You accelerate in order to enter before him."
+                  ]
                 },
                 "en": {
                   "q": "You reach a roundabout with no signs that change priority. A car is circulating inside, on your left. What do you do?",
-                  "options": ["Enter: you are coming from the right", "Yield and enter when there is a gap", "Speed up to get in before it"],
+                  "options": [
+                    "Enter: you are coming from the right",
+                    "Yield and enter when there is a gap",
+                    "Speed up to get in before it"
+                  ],
                   "why": "Vehicles already in the roundabout have right of way. You yield at the entrance and enter when there is a safe gap."
                 },
                 "terms": [{ "es": "hueco", "en": "gap" }],
@@ -221,16 +239,28 @@
                 "answer": 2,
                 "es": {
                   "q": "En la entrada de una glorieta hay un semáforo en rojo. ¿Qué manda?",
-                  "options": ["La regla de la glorieta: entras si no viene nadie por la izquierda", "El vehículo más grande", "El semáforo: te detienes aunque no veas ningún coche"],
+                  "options": [
+                    "La regla de la glorieta: entras si no viene nadie por la izquierda",
+                    "El vehículo más grande",
+                    "El semáforo: te detienes aunque no veas ningún coche"
+                  ],
                   "why": "La señalización que regula la preferencia manda sobre la regla general. Con el semáforo en rojo no se debe rebasar el semáforo ni la línea de detención: te detienes."
                 },
                 "exam": {
                   "q": "At the entrance of a roundabout there is a traffic light in red. What rules?",
-                  "options": ["The rule of the roundabout: you enter if nobody comes by the left.", "The biggest vehicle.", "The traffic light: you stop although you do not see any car."]
+                  "options": [
+                    "The rule of the roundabout: you enter if nobody comes by the left.",
+                    "The biggest vehicle.",
+                    "The traffic light: you stop although you do not see any car."
+                  ]
                 },
                 "en": {
                   "q": "There is a red traffic light at the entrance of a roundabout. Which one governs?",
-                  "options": ["The roundabout rule: you enter if nobody comes from the left", "The largest vehicle", "The traffic light: you stop even if you see no car"],
+                  "options": [
+                    "The roundabout rule: you enter if nobody comes from the left",
+                    "The largest vehicle",
+                    "The traffic light: you stop even if you see no car"
+                  ],
                   "why": "The signals that regulate priority override the general rule. With a red light you must not go past the light or the stop line: you stop."
                 },
                 "terms": [{ "es": "semáforo", "en": "traffic light" }],
@@ -241,13 +271,25 @@
         }
       ],
       "recap": [
-        { "es": "Giras **en sentido contrario a las agujas del reloj**: el centro queda a tu izquierda.", "en": "You turn **counterclockwise**: the center stays on your left." },
-        { "es": "Quien **ya está dentro** tiene preferencia. Tú **cedes el paso** al entrar.", "en": "Whoever is **already inside** has right of way. You **yield** when entering." },
+        {
+          "es": "Giras **en sentido contrario a las agujas del reloj**: el centro queda a tu izquierda.",
+          "en": "You turn **counterclockwise**: the center stays on your left."
+        },
+        {
+          "es": "Quien **ya está dentro** tiene preferencia. Tú **cedes el paso** al entrar.",
+          "en": "Whoever is **already inside** has right of way. You **yield** when entering."
+        },
         { "es": "Los coches con prioridad llegan **por tu izquierda**.", "en": "The cars with priority arrive **from your left**." },
-        { "es": "Una **señal o un semáforo** pueden cambiar esa regla, y mandan ellos.", "en": "A **sign or traffic light** can change that rule, and it takes over." }
+        {
+          "es": "Una **señal o un semáforo** pueden cambiar esa regla, y mandan ellos.",
+          "en": "A **sign or traffic light** can change that rule, and it takes over."
+        }
       ],
       "covers": ["roundabouts-01", "roundabouts-02", "roundabouts-05"],
-      "src": ["Reglamento General de Circulación (RD 1428/2003), arts. 43.2, 46.1.h, 56.1, 56.3 y 57.1.c; Anexo I, ap. 4.2.a", "RGC Anexo I, ap. 5.1 (Catálogo de señales verticales): P-4, R-402 y R-1"]
+      "src": [
+        "Reglamento General de Circulación (RD 1428/2003), arts. 43.2, 46.1.h, 56.1, 56.3 y 57.1.c; Anexo I, ap. 4.2.a",
+        "RGC Anexo I, ap. 5.1 (Catálogo de señales verticales): P-4, R-402 y R-1"
+      ]
     },
     {
       "id": "lanes-and-exits",
@@ -255,7 +297,10 @@
       "minutes": 7,
       "goals": [
         { "es": "Contar las salidas y saber hacia dónde llevan.", "en": "Count the exits and know where they lead." },
-        { "es": "Cambiar del carril interior al exterior antes de tu salida.", "en": "Move from the inner lane to the outer lane before your exit." },
+        {
+          "es": "Cambiar del carril interior al exterior antes de tu salida.",
+          "en": "Move from the inner lane to the outer lane before your exit."
+        },
         { "es": "Señalizar la salida a tiempo.", "en": "Signal your exit in good time." }
       ],
       "terms": [
@@ -271,12 +316,20 @@
         "answer": 1,
         "es": {
           "q": "Circulas por el carril interior y tu salida es la siguiente. ¿Qué es lo correcto?",
-          "options": ["Cruzar directamente hasta la salida", "Pasar con tiempo al carril exterior y luego salir", "Pararte en la glorieta hasta que pase todo el mundo"],
+          "options": [
+            "Cruzar directamente hasta la salida",
+            "Pasar con tiempo al carril exterior y luego salir",
+            "Pararte en la glorieta hasta que pase todo el mundo"
+          ],
           "why": "Hay que cambiar al carril exterior con antelación y con seguridad, y solo entonces salir."
         },
         "en": {
           "q": "You are in the inner lane and your exit is the next one. What is correct?",
-          "options": ["Cut straight across to the exit", "Move to the outer lane in good time, then exit", "Stop in the roundabout until everyone has passed"],
+          "options": [
+            "Cut straight across to the exit",
+            "Move to the outer lane in good time, then exit",
+            "Stop in the roundabout until everyone has passed"
+          ],
           "why": "You must change to the outer lane early and safely, and only then exit."
         },
         "src": "RGC arts. 74.2 and 109"
@@ -354,8 +407,14 @@
             {
               "t": "list",
               "items": [
-                { "es": "**Salida próxima** (por ejemplo, la primera): ve por el carril **exterior**.", "en": "**Nearby exit** (for example, the first): use the **outer** lane." },
-                { "es": "**Salida lejana**: puedes ir por el carril **interior** y pasar al exterior antes de salir.", "en": "**Faraway exit**: you can use the **inner** lane and move to the outer one before you exit." }
+                {
+                  "es": "**Salida próxima** (por ejemplo, la primera): ve por el carril **exterior**.",
+                  "en": "**Nearby exit** (for example, the first): use the **outer** lane."
+                },
+                {
+                  "es": "**Salida lejana**: puedes ir por el carril **interior** y pasar al exterior antes de salir.",
+                  "en": "**Faraway exit**: you can use the **inner** lane and move to the outer one before you exit."
+                }
               ]
             },
             {
@@ -389,8 +448,17 @@
                 "en": "Before you move to the outer lane, check the red zone: another car may be there."
               },
               "legend": [
-                { "mark": "A", "text": { "es": "Coche en el carril exterior. Tiene prioridad.", "en": "Car in the outer lane. It has priority." } },
-                { "mark": "B", "text": { "es": "Tú, en el carril interior, pasando al exterior.", "en": "You, in the inner lane, moving to the outer one." } }
+                {
+                  "mark": "A",
+                  "text": { "es": "Coche en el carril exterior. Tiene prioridad.", "en": "Car in the outer lane. It has priority." }
+                },
+                {
+                  "mark": "B",
+                  "text": {
+                    "es": "Tú, en el carril interior, pasando al exterior.",
+                    "en": "You, in the inner lane, moving to the outer one."
+                  }
+                }
               ]
             },
             {
@@ -415,16 +483,28 @@
                 "answer": 0,
                 "es": {
                   "q": "Vas por el carril interior de una glorieta y quieres pasar al exterior para salir. ¿Quién tiene prioridad?",
-                  "options": ["El que ya circula por el carril exterior", "Tú, porque vas a salir", "El que llegue antes al punto de cruce"],
+                  "options": [
+                    "El que ya circula por el carril exterior",
+                    "Tú, porque vas a salir",
+                    "El que llegue antes al punto de cruce"
+                  ],
                   "why": "Quien cambia de carril debe respetar la prioridad del que circula por el carril al que quiere pasar."
                 },
                 "exam": {
                   "q": "You go by the interior lane of a roundabout and you want to pass to the exterior in order to exit. Who has priority?",
-                  "options": ["The one who already circulates by the exterior lane.", "You, because you are going to exit.", "The one who arrives before at the point of crossing."]
+                  "options": [
+                    "The one who already circulates by the exterior lane.",
+                    "You, because you are going to exit.",
+                    "The one who arrives before at the point of crossing."
+                  ]
                 },
                 "en": {
                   "q": "You are in the inner lane of a roundabout and want to move to the outer lane to exit. Who has priority?",
-                  "options": ["The one already in the outer lane", "You, because you are about to exit", "Whoever reaches the crossing point first"],
+                  "options": [
+                    "The one already in the outer lane",
+                    "You, because you are about to exit",
+                    "Whoever reaches the crossing point first"
+                  ],
                   "why": "Whoever changes lane must respect the priority of the driver in the lane they want to move into."
                 },
                 "terms": [{ "es": "cambio de carril", "en": "lane change" }],
@@ -465,12 +545,20 @@
                 "answer": 1,
                 "es": {
                   "q": "Pasas de largo tu salida en una glorieta. ¿Qué es lo más seguro?",
-                  "options": ["Parar y dar marcha atrás hasta la salida", "Dar otra vuelta a la glorieta", "Cruzar los carriles de golpe hacia la salida"],
+                  "options": [
+                    "Parar y dar marcha atrás hasta la salida",
+                    "Dar otra vuelta a la glorieta",
+                    "Cruzar los carriles de golpe hacia la salida"
+                  ],
                   "why": "Dar otra vuelta es lo más seguro. Frenar de golpe, ir marcha atrás o cortar la trayectoria a otros crea un peligro."
                 },
                 "exam": {
                   "q": "You pass of long your exit in a roundabout. What is the most safe?",
-                  "options": ["To stop and to give reverse gear until the exit.", "To give another turn to the roundabout.", "To cross the lanes of a blow towards the exit."]
+                  "options": [
+                    "To stop and to give reverse gear until the exit.",
+                    "To give another turn to the roundabout.",
+                    "To cross the lanes of a blow towards the exit."
+                  ]
                 },
                 "en": {
                   "q": "You drive past your exit in a roundabout. What is the safest thing to do?",
@@ -482,17 +570,98 @@
               }
             }
           ]
+        },
+        {
+          "title": { "es": "Cambiar de sentido en una glorieta", "en": "Turning back at a roundabout" },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "El cambio de sentido está **prohibido** donde no puedas comprobar el tráfico, en pasos a nivel, en túneles, en autopistas y autovías (salvo en lugares habilitados) y donde esté prohibido adelantar. Las glorietas **no están en esa lista**, y la prohibición de adelantar en las intersecciones no se aplica a las glorietas.",
+                "en": "Turning back is **forbidden** where you cannot check the traffic, at level crossings, in tunnels, on autopistas and autovías (except at places set up for it) and wherever passing is forbidden. Roundabouts are **not on that list**, and the ban on passing at junctions does not apply to roundabouts."
+              },
+              "src": "RGC arts. 79.1 y 87.1.c.1.º"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Para volver por donde has venido, das la vuelta completa a la glorieta, **con el centro a tu izquierda**, y sales por la calle por la que entraste. La DGT recuerda que las glorietas sirven también para cambiar de sentido.",
+                "en": "To go back the way you came, you go all the way around the roundabout, **keeping the center on your left**, and leave by the street you entered from. The DGT points out that roundabouts are also used to turn back."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "En una glorieta grande de varios carriles, para cambiar de sentido la DGT aconseja ir por un carril interior y pasar al exterior poco a poco antes de salir, con el intermitente en cada cambio.",
+                "en": "In a large multi-lane roundabout, the DGT advises using an inner lane to turn back and moving out gradually before your exit, signaling each lane change."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "roundabouts-c2d",
+                "answer": 1,
+                "es": {
+                  "q": "Te has equivocado de camino y quieres volver por la misma calle. Llegas a una glorieta sin señales especiales. ¿Puedes usarla para cambiar de sentido?",
+                  "options": [
+                    "No: en las intersecciones está prohibido cambiar de sentido",
+                    "Sí: das la vuelta con el centro a tu izquierda y sales por donde entraste",
+                    "Sí, pero girando por la izquierda del centro para ir más corto"
+                  ],
+                  "why": "La norma no prohíbe cambiar de sentido en las glorietas. Se hace recorriendo la glorieta con el centro a la izquierda y saliendo por la vía de entrada."
+                },
+                "exam": {
+                  "q": "You have gone the wrong way and you want to return by the same street. You arrive at a roundabout without special signs. Can you use it in order to make a change of direction of travel?",
+                  "options": [
+                    "No: in the intersections the change of direction of travel is prohibited.",
+                    "Yes: you go around with the centre on your left and you exit by where you entered.",
+                    "Yes, but turning by the left of the centre in order to go shorter."
+                  ]
+                },
+                "en": {
+                  "q": "You took a wrong turn and want to go back along the same street. You reach a roundabout with no special signs. May you use it to turn back?",
+                  "options": [
+                    "No: turning back is forbidden at junctions",
+                    "Yes: go around with the center on your left and leave where you came in",
+                    "Yes, but pass left of the center to make it shorter"
+                  ],
+                  "why": "The rules do not forbid turning back at a roundabout. You go around it with the center on your left and leave by the road you came in on."
+                },
+                "terms": [
+                  { "es": "cambio de sentido", "en": "U-turn, change of direction of travel" },
+                  { "es": "glorieta", "en": "roundabout" }
+                ],
+                "src": "RGC arts. 43.2, 79.1 y 87.1.c; DGT guidance: «Glorietas: cómo circular de forma segura» (dgt.es, 2021)"
+              }
+            }
+          ]
         }
       ],
       "recap": [
-        { "es": "Las salidas se cuentan **desde tu entrada**: 1.ª derecha, 2.ª recto, 3.ª izquierda (glorieta de cuatro calles).", "en": "Exits are counted **from your entrance**: 1st right, 2nd straight, 3rd left (four-street roundabout)." },
-        { "es": "Para salir desde el carril interior, **pasa al exterior con tiempo**.", "en": "To exit from the inner lane, **move to the outer lane in good time**." },
-        { "es": "Al cambiar de carril **cedes** a quien ya va por el carril al que pasas.", "en": "When you change lane you **yield** to whoever is already in the lane you move into." },
-        { "es": "**Intermitente derecho** con antelación antes de tu salida.", "en": "**Right turn signal** in good time before your exit." },
+        {
+          "es": "Las salidas se cuentan **desde tu entrada**: 1.ª derecha, 2.ª recto, 3.ª izquierda (glorieta de cuatro calles).",
+          "en": "Exits are counted **from your entrance**: 1st right, 2nd straight, 3rd left (four-street roundabout)."
+        },
+        {
+          "es": "Para salir desde el carril interior, **pasa al exterior con tiempo**.",
+          "en": "To exit from the inner lane, **move to the outer lane in good time**."
+        },
+        {
+          "es": "Al cambiar de carril **cedes** a quien ya va por el carril al que pasas.",
+          "en": "When you change lane you **yield** to whoever is already in the lane you move into."
+        },
+        {
+          "es": "**Intermitente derecho** con antelación antes de tu salida.",
+          "en": "**Right turn signal** in good time before your exit."
+        },
         { "es": "¿Te pasaste? **Da otra vuelta.**", "en": "Missed it? **Go around again.**" }
       ],
       "covers": ["roundabouts-03", "roundabouts-04"],
-      "src": ["Reglamento General de Circulación (RD 1428/2003), arts. 74.1, 74.2 y 109"]
+      "src": [
+        "Reglamento General de Circulación (RD 1428/2003), arts. 74.1, 74.2 y 109",
+        "RGC arts. 79.1 y 87.1.c",
+        "DGT guidance: «Glorietas: cómo circular de forma segura» (dgt.es, 2021)"
+      ]
     },
     {
       "id": "reading-the-roundabout",
@@ -501,7 +670,10 @@
       "goals": [
         { "es": "Reducir la velocidad al acercarte a una glorieta.", "en": "Slow down as you approach a roundabout." },
         { "es": "No dar por hecho lo que hará otro conductor.", "en": "Not assume what another driver will do." },
-        { "es": "Saber que los peatones rodean la glorieta o usan los pasos.", "en": "Know that pedestrians walk around the roundabout or use crossings." }
+        {
+          "es": "Saber que los peatones rodean la glorieta o usan los pasos.",
+          "en": "Know that pedestrians walk around the roundabout or use crossings."
+        }
       ],
       "terms": [
         { "es": "moderar la velocidad", "en": "to moderate your speed" },
@@ -539,7 +711,11 @@
                 },
                 "exam": {
                   "q": "You approach a roundabout in which you do not have priority. What must you do with the speed?",
-                  "options": ["To moderate it, and to stop if it is necessary.", "To maintain it in order not to hinder.", "To increase it in order to enter soon."]
+                  "options": [
+                    "To moderate it, and to stop if it is necessary.",
+                    "To maintain it in order not to hinder.",
+                    "To increase it in order to enter soon."
+                  ]
                 },
                 "en": {
                   "q": "You approach a roundabout where you do not have priority. What should you do with your speed?",
@@ -584,16 +760,28 @@
                 "answer": 2,
                 "es": {
                   "q": "Esperas para entrar en una glorieta. Un coche que viene por tu izquierda no usa el intermitente. ¿Qué es lo prudente?",
-                  "options": ["Suponer que seguirá dando vueltas y entrar", "Suponer que va a salir y entrar", "No suponer nada y entrar solo cuando el hueco sea claro"],
+                  "options": [
+                    "Suponer que seguirá dando vueltas y entrar",
+                    "Suponer que va a salir y entrar",
+                    "No suponer nada y entrar solo cuando el hueco sea claro"
+                  ],
                   "why": "Sin intermitente no puedes saber qué hará. Entra solo cuando el hueco sea claro."
                 },
                 "exam": {
                   "q": "You wait in order to enter a roundabout. A car that comes by your left does not use the indicator. What is the prudent?",
-                  "options": ["To suppose that it will continue giving turns and to enter.", "To suppose that it is going to exit and to enter.", "To suppose nothing and to enter only when the gap is clear."]
+                  "options": [
+                    "To suppose that it will continue giving turns and to enter.",
+                    "To suppose that it is going to exit and to enter.",
+                    "To suppose nothing and to enter only when the gap is clear."
+                  ]
                 },
                 "en": {
                   "q": "You wait to enter a roundabout. A car coming from your left uses no turn signal. What is the prudent thing to do?",
-                  "options": ["Assume it will keep going around, and enter", "Assume it will exit, and enter", "Assume nothing and enter only when the gap is clear"],
+                  "options": [
+                    "Assume it will keep going around, and enter",
+                    "Assume it will exit, and enter",
+                    "Assume nothing and enter only when the gap is clear"
+                  ],
                   "why": "With no turn signal you cannot know what it will do. Enter only when the gap is clear."
                 },
                 "terms": [{ "es": "no suponer", "en": "do not assume" }],
@@ -619,14 +807,59 @@
                 "es": "Los pasos de peatones suelen estar en las calles que llegan a la glorieta. Míralos al **entrar** y al **salir**.",
                 "en": "Pedestrian crossings are usually on the streets that join the roundabout. Check them when you **enter** and when you **leave**."
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "roundabouts-c3c",
+                "answer": 2,
+                "es": {
+                  "q": "Vas a pie y quieres llegar al otro lado de una glorieta. No hay ningún paso de peatones en ella. ¿Qué debes hacer?",
+                  "options": [
+                    "Cruzar por el centro, que es el camino más corto",
+                    "Atravesar la calzada en línea recta, mirando a la izquierda",
+                    "Rodear la glorieta, sin atravesar su calzada"
+                  ],
+                  "why": "Los peatones no pueden atravesar una glorieta por su calzada. Deben rodearla, salvo que haya un paso de peatones habilitado."
+                },
+                "exam": {
+                  "q": "You go on foot and you want to reach the other side of a roundabout. There is no pedestrian crossing in it. What must you do?",
+                  "options": [
+                    "To cross by the centre, which is the shortest way.",
+                    "To cross the carriageway in a straight line, looking to the left.",
+                    "To go around the roundabout, without crossing its carriageway."
+                  ]
+                },
+                "en": {
+                  "q": "You are on foot and want to reach the far side of a roundabout. It has no pedestrian crossing. What must you do?",
+                  "options": [
+                    "Cut across the middle, the shortest way",
+                    "Cross the roadway in a straight line, looking left",
+                    "Walk around the roundabout without crossing its roadway"
+                  ],
+                  "why": "Pedestrians may not cross a roundabout through its roadway. They must walk around it, unless there is a pedestrian crossing."
+                },
+                "terms": [
+                  { "es": "peatón", "en": "pedestrian" },
+                  { "es": "rodear", "en": "to go around" },
+                  { "es": "paso para peatones", "en": "pedestrian crossing" }
+                ],
+                "src": "RGC art. 124.4"
+              }
             }
           ]
         }
       ],
       "recap": [
-        { "es": "**Modera la velocidad** al acercarte si no tienes prioridad.", "en": "**Moderate your speed** as you approach if you do not have priority." },
+        {
+          "es": "**Modera la velocidad** al acercarte si no tienes prioridad.",
+          "en": "**Moderate your speed** as you approach if you do not have priority."
+        },
         { "es": "**No supongas** lo que hará otro conductor. Observa.", "en": "**Do not assume** what another driver will do. Observe." },
-        { "es": "Los peatones **rodean** la glorieta o usan un paso de peatones. Míralos al entrar y al salir.", "en": "Pedestrians **go around** the roundabout or use a crossing. Check for them when you enter and leave." }
+        {
+          "es": "Los peatones **rodean** la glorieta o usan un paso de peatones. Míralos al entrar y al salir.",
+          "en": "Pedestrians **go around** the roundabout or use a crossing. Check for them when you enter and leave."
+        }
       ],
       "covers": ["hazards-04"],
       "src": ["Reglamento General de Circulación (RD 1428/2003), arts. 46.1.h, 108.1 y 124.4"]

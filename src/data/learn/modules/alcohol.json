@@ -221,6 +221,54 @@
                 ],
                 "src": "RGC art. 20"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c1g",
+                "answer": 0,
+                "es": {
+                  "q": "Vas en bicicleta por una carretera y un agente te hace la prueba de alcohol. ¿Qué tasa máxima en aire espirado puedes tener?",
+                  "options": [
+                    "0,25 mg/l, la misma que un conductor corriente",
+                    "Ninguna tasa: la bicicleta no tiene motor",
+                    "0,50 mg/l, porque la bicicleta va más despacio"
+                  ],
+                  "why": "El límite general de 0,25 mg/l en aire espirado (0,5 g/l en sangre) vale también para quien conduce una bicicleta."
+                },
+                "en": {
+                  "q": "You are riding a bicycle on a road and an officer tests you for alcohol. What is the maximum exhaled-air level you may have?",
+                  "options": [
+                    "0.25 mg/L, the same as an ordinary driver",
+                    "No limit at all: bikes have no engine",
+                    "0.50 mg/L, because a bicycle is slower"
+                  ],
+                  "why": "The general limit of 0.25 mg/L in exhaled air (0.5 g/L in blood) also applies to someone riding a bicycle."
+                },
+                "exam": {
+                  "q": "You circulate in bicycle by a road and an agent carries out the alcohol test on you. What maximum rate in exhaled air can you have?",
+                  "options": [
+                    "0.25 mg/l, the same as an ordinary driver.",
+                    "No rate: the bicycle has no engine.",
+                    "0.50 mg/l, because the bicycle goes more slowly."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "conductor de bicicleta",
+                    "en": "driver of a bicycle"
+                  },
+                  {
+                    "es": "tasa de alcohol",
+                    "en": "alcohol rate"
+                  },
+                  {
+                    "es": "aire espirado",
+                    "en": "exhaled air"
+                  }
+                ],
+                "src": "RGC art. 20 (párrafo 1)"
+              }
             }
           ]
         },
@@ -302,6 +350,98 @@
                   {
                     "es": "autobús",
                     "en": "bus"
+                  }
+                ],
+                "src": "RGC art. 20 (párrafo 2)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c1h",
+                "answer": 1,
+                "es": {
+                  "q": "Conduces una ambulancia en servicio de urgencia. Tienes el permiso desde hace quince años. ¿Cuál es tu tasa máxima en aire espirado?",
+                  "options": [
+                    "0,25 mg/l, porque no eres conductor novel",
+                    "0,15 mg/l",
+                    "0 mg/l"
+                  ],
+                  "why": "Quien conduce un vehículo de servicio de urgencia tiene el límite bajo: 0,15 mg/l en aire espirado o 0,3 g/l en sangre, sea cual sea su antigüedad."
+                },
+                "en": {
+                  "q": "You drive an ambulance on an emergency call. You have held your permit for fifteen years. What is your maximum exhaled-air level?",
+                  "options": [
+                    "0.25 mg/L, because you are not a novice",
+                    "0.15 mg/L",
+                    "0 mg/L"
+                  ],
+                  "why": "A driver of an emergency-service vehicle has the lower limit: 0.15 mg/L in exhaled air or 0.3 g/L in blood, however long they have held the permit."
+                },
+                "exam": {
+                  "q": "You drive an ambulance in urgency service. You have the permit since fifteen years ago. Which is your maximum rate in exhaled air?",
+                  "options": [
+                    "0.25 mg/l, because you are not a novice driver.",
+                    "0.15 mg/l.",
+                    "0 mg/l."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "servicio de urgencia",
+                    "en": "urgency service (emergency)"
+                  },
+                  {
+                    "es": "antigüedad del permiso",
+                    "en": "seniority of the permit"
+                  }
+                ],
+                "src": "RGC art. 20 (párrafo 2)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c1i",
+                "answer": 2,
+                "es": {
+                  "q": "Llevas a niños al colegio en un vehículo de transporte escolar. ¿Qué tasa de alcohol en sangre no puedes superar?",
+                  "options": [
+                    "0,5 g/l, como cualquier conductor",
+                    "1,2 g/l",
+                    "0,3 g/l"
+                  ],
+                  "why": "El transporte escolar y de menores está entre los vehículos con límite bajo: 0,3 g/l en sangre o 0,15 mg/l en aire espirado. 1,2 g/l es la cifra a partir de la cual es delito."
+                },
+                "en": {
+                  "q": "You take children to school in a school transport vehicle. What blood alcohol level must you not exceed?",
+                  "options": [
+                    "0.5 g/L, like any driver",
+                    "1.2 g/L",
+                    "0.3 g/L"
+                  ],
+                  "why": "School transport and transport of minors are among the vehicles with the lower limit: 0.3 g/L in blood or 0.15 mg/L in exhaled air. 1.2 g/L is the level above which it is a crime."
+                },
+                "exam": {
+                  "q": "You take children to the school in a vehicle of school transport. Which rate of alcohol in blood can you not exceed?",
+                  "options": [
+                    "0.5 g/l, like any driver.",
+                    "1.2 g/l.",
+                    "0.3 g/l."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "transporte escolar",
+                    "en": "school transport"
+                  },
+                  {
+                    "es": "transporte de menores",
+                    "en": "transport of minors"
+                  },
+                  {
+                    "es": "alcohol en sangre",
+                    "en": "alcohol in blood"
                   }
                 ],
                 "src": "RGC art. 20 (párrafo 2)"
@@ -618,6 +758,61 @@
                 ],
                 "src": "DGT guidance on alcohol (dgt.es, Consumo de alcohol)"
               }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Guía de la DGT: tampoco sirven los chicles, los caramelos, la menta, masticar granos de café ni beber mucha agua. Ninguno de esos trucos baja la tasa.",
+                "en": "DGT guidance: chewing gum, sweets, mint, chewing coffee beans or drinking lots of water do not work either. None of those tricks lowers your level."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c1j",
+                "answer": 1,
+                "es": {
+                  "q": "Has bebido dos cervezas. Antes de conducir tomas un café y masticas chicle. ¿Qué efecto tiene en tu tasa de alcohol?",
+                  "options": [
+                    "La baja lo bastante si esperas diez minutos",
+                    "Ninguno: solo el paso del tiempo la baja",
+                    "La reduce a la mitad"
+                  ],
+                  "why": "Ni el café, ni el chicle, ni los caramelos reducen la tasa de alcohol. Solo el paso del tiempo lo elimina."
+                },
+                "en": {
+                  "q": "You have had two beers. Before driving you drink a coffee and chew gum. What effect does it have on your alcohol level?",
+                  "options": [
+                    "It lowers it enough if you wait ten minutes",
+                    "None: only the passing of time lowers it",
+                    "It cuts it in half"
+                  ],
+                  "why": "Neither coffee, nor gum, nor sweets lower your alcohol level. Only the passing of time removes it."
+                },
+                "exam": {
+                  "q": "You have drunk two beers. Before driving you take a coffee and you chew gum. What effect does it have on your rate of alcohol?",
+                  "options": [
+                    "It lowers it enough if you wait ten minutes.",
+                    "None: only the passing of time lowers it.",
+                    "It reduces it by half."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "tasa de alcohol",
+                    "en": "alcohol rate"
+                  },
+                  {
+                    "es": "chicle",
+                    "en": "chewing gum"
+                  },
+                  {
+                    "es": "caramelo",
+                    "en": "sweet"
+                  }
+                ],
+                "src": "DGT guidance (dgt.es, Consumo de alcohol, 20-03-2025)"
+              }
             }
           ]
         }
@@ -648,7 +843,8 @@
       "src": [
         "Reglamento General de Circulación (RD 1428/2003), art. 20",
         "Ley de Tráfico y Seguridad Vial (RDL 6/2015), art. 14.1",
-        "DGT guidance on alcohol (dgt.es, Consumo de alcohol)"
+        "DGT guidance on alcohol (dgt.es, Consumo de alcohol)",
+        "DGT guidance (dgt.es, Consumo de alcohol, 20-03-2025)"
       ]
     },
     {
@@ -787,6 +983,54 @@
                 ],
                 "src": "RGC art. 21"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c2h",
+                "answer": 2,
+                "es": {
+                  "q": "Un peatón cruza sin mirar y provoca un accidente con un coche. ¿Pueden los agentes hacerle la prueba de alcohol?",
+                  "options": [
+                    "No: la prueba es solo para conductores",
+                    "Solo si ha resultado herido",
+                    "Sí: pueden hacérsela a cualquier usuario implicado como posible responsable"
+                  ],
+                  "why": "Los agentes pueden hacer la prueba a cualquier usuario de la vía implicado directamente como posible responsable de un accidente, también a un peatón."
+                },
+                "en": {
+                  "q": "A pedestrian crosses without looking and causes a crash with a car. Can officers test him for alcohol?",
+                  "options": [
+                    "No: the test is only for drivers",
+                    "Only if he was injured",
+                    "Yes: they can test any road user involved as a possible cause"
+                  ],
+                  "why": "Officers can test any road user directly involved as a possible cause of a crash, including a pedestrian."
+                },
+                "exam": {
+                  "q": "A pedestrian crosses without looking and provokes an accident with a car. Can the agents carry out the alcohol test on him?",
+                  "options": [
+                    "No: the test is only for drivers.",
+                    "Only if he has been injured.",
+                    "Yes: they can carry it out on any user involved as possible responsible."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "usuario de la vía",
+                    "en": "user of the road"
+                  },
+                  {
+                    "es": "implicado",
+                    "en": "involved"
+                  },
+                  {
+                    "es": "posible responsable",
+                    "en": "possible responsible"
+                  }
+                ],
+                "src": "RGC art. 21 (párrafo 2, a); LSV art. 14.2"
+              }
             }
           ]
         },
@@ -844,6 +1088,50 @@
                   "why": "With a result above the limit, the officer carries out a second exhaled-air test by a similar procedure, and informs you of it first."
                 },
                 "terms": [
+                  {
+                    "es": "segunda prueba",
+                    "en": "second test"
+                  }
+                ],
+                "src": "RGC art. 23.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c2i",
+                "answer": 0,
+                "es": {
+                  "q": "Un conductor con el permiso desde hace diez años sopla 0,20 mg/l, por debajo de su límite. Pero habla con dificultad y no se tiene bien en pie. ¿Qué hace el agente?",
+                  "options": [
+                    "Le hace una segunda prueba de aire espirado",
+                    "Le deja seguir, porque no supera la tasa",
+                    "Le saca sangre allí mismo"
+                  ],
+                  "why": "Si hay síntomas evidentes de alcohol, el agente hace una segunda prueba de aire espirado aunque la primera no supere la tasa."
+                },
+                "en": {
+                  "q": "A driver who has held a permit for ten years blows 0.20 mg/L, under his limit. But he slurs his words and is unsteady on his feet. What does the officer do?",
+                  "options": [
+                    "Gives him a second exhaled-air test",
+                    "Lets him go on, because he is under the limit",
+                    "Takes a blood sample right there"
+                  ],
+                  "why": "If there are obvious signs of alcohol, the officer gives a second exhaled-air test even when the first is under the limit."
+                },
+                "exam": {
+                  "q": "A driver with the permit since ten years ago blows 0.20 mg/l, below his limit. But he speaks with difficulty and does not stand well. What does the agent do?",
+                  "options": [
+                    "He carries out a second test of exhaled air on him.",
+                    "He lets him continue, because he does not exceed the rate.",
+                    "He takes blood from him in the same place."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "síntomas evidentes",
+                    "en": "evident symptoms"
+                  },
                   {
                     "es": "segunda prueba",
                     "en": "second test"
@@ -1038,6 +1326,50 @@
                 ],
                 "src": "RGC art. 25.3; LSV art. 104.2"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c2j",
+                "answer": 1,
+                "es": {
+                  "q": "Un conductor se niega a soplar en un control. Además de las demás consecuencias, ¿qué puede hacer el agente con su coche?",
+                  "options": [
+                    "Nada: sin prueba no hay positivo",
+                    "Inmovilizarlo",
+                    "Solo ponerle una multa al coche"
+                  ],
+                  "why": "La negativa a hacer las pruebas permite inmovilizar el vehículo, igual que un resultado positivo. Además, negarse es delito."
+                },
+                "en": {
+                  "q": "A driver refuses to blow at a checkpoint. Besides the other consequences, what can the officer do with his car?",
+                  "options": [
+                    "Nothing: without a test there is no positive",
+                    "Immobilize it",
+                    "Only give the car a fine"
+                  ],
+                  "why": "Refusing the tests allows the vehicle to be immobilized, just like a positive result. Refusing is also a crime."
+                },
+                "exam": {
+                  "q": "A driver refuses to blow in a control. Apart from the other consequences, what can the agent do with his car?",
+                  "options": [
+                    "Nothing: without test there is no positive.",
+                    "Immobilise it.",
+                    "Only put a fine on the car."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "negativa a las pruebas",
+                    "en": "refusal of the tests"
+                  },
+                  {
+                    "es": "inmovilizar",
+                    "en": "immobilise"
+                  }
+                ],
+                "src": "RGC art. 25.2; LSV art. 104.1.d"
+              }
             }
           ]
         },
@@ -1209,6 +1541,50 @@
                   {
                     "es": "puntos",
                     "en": "points"
+                  }
+                ],
+                "src": "LSV anexo II, punto 1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c2k",
+                "answer": 2,
+                "es": {
+                  "q": "Tienes el permiso B desde hace un año. Soplas 0,35 mg/l y no es delito. ¿Cuántos puntos pierdes?",
+                  "options": [
+                    "Ninguno: no llegas a 0,50 mg/l",
+                    "4 puntos",
+                    "6 puntos"
+                  ],
+                  "why": "Con menos de dos años de permiso, más de 0,30 mg/l en aire espirado supone 6 puntos. Entre más de 0,15 y 0,30 mg/l son 4."
+                },
+                "en": {
+                  "q": "You have held your B permit for one year. You blow 0.35 mg/L and it is not a crime. How many points do you lose?",
+                  "options": [
+                    "None: you are under 0.50 mg/L",
+                    "4 points",
+                    "6 points"
+                  ],
+                  "why": "With a permit less than two years old, over 0.30 mg/L of exhaled air costs 6 points. Over 0.15 and up to 0.30 mg/L costs 4."
+                },
+                "exam": {
+                  "q": "You have the B permit since one year ago. You blow 0.35 mg/l and it is not a crime. How many points do you lose?",
+                  "options": [
+                    "None: you do not reach 0.50 mg/l.",
+                    "4 points.",
+                    "6 points."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "pérdida de puntos",
+                    "en": "loss of points"
+                  },
+                  {
+                    "es": "permiso de conducción",
+                    "en": "driving permit"
                   }
                 ],
                 "src": "LSV anexo II, punto 1"
@@ -1502,6 +1878,62 @@
                   }
                 ],
                 "src": "LSV art. 14.2; RGV anexo II (vehículo de movilidad personal)"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Las pruebas de drogas se hacen en los **mismos casos** que las de alcohol: accidente, síntomas, denuncia por una infracción o control preventivo. Si te niegas, el agente puede inmovilizar el vehículo.",
+                "en": "Drug tests are done in the **same cases** as alcohol tests: a crash, symptoms, being reported for an offense, or a preventive checkpoint. If you refuse, the officer can immobilize the vehicle."
+              },
+              "src": "RGC art. 28.1.b (y art. 21)"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c3e",
+                "answer": 1,
+                "es": {
+                  "q": "Un agente te para por saltarte un semáforo en rojo. ¿Puede pedirte además una prueba de drogas?",
+                  "options": [
+                    "No: solo en un control preventivo",
+                    "Sí: puede hacerla a un conductor denunciado por una infracción",
+                    "Solo si has tenido un accidente"
+                  ],
+                  "why": "Las pruebas de drogas se piden en los mismos casos que las de alcohol. Uno de ellos es que te denuncien por una infracción."
+                },
+                "en": {
+                  "q": "An officer stops you for running a red light. Can he also ask you for a drug test?",
+                  "options": [
+                    "No: only at a preventive checkpoint",
+                    "Yes: he can test a driver reported for an offense",
+                    "Only if you have had a crash"
+                  ],
+                  "why": "Drug tests are requested in the same cases as alcohol tests. One of them is being reported for an offense."
+                },
+                "exam": {
+                  "q": "An agent stops you for passing a traffic light in red. Can he also ask you for a test of drugs?",
+                  "options": [
+                    "No: only in a preventive control.",
+                    "Yes: he can carry it out on a driver reported for an infraction.",
+                    "Only if you have had an accident."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "denunciado",
+                    "en": "reported (for an offence)"
+                  },
+                  {
+                    "es": "prueba de drogas",
+                    "en": "drug test"
+                  },
+                  {
+                    "es": "infracción",
+                    "en": "infraction"
+                  }
+                ],
+                "src": "RGC arts. 21 (párrafo 2, c) y 28.1.b"
               }
             }
           ]
@@ -1886,6 +2318,50 @@
                 ],
                 "src": "DGT guidance (dgt.es, Consumo de alcohol, actualizada el 20-03-2025)"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c6j",
+                "answer": 0,
+                "es": {
+                  "q": "Según la DGT, ¿cómo cambia la vista de un conductor que ha bebido?",
+                  "options": [
+                    "Se deslumbra con más facilidad y calcula peor las distancias",
+                    "Ve mejor de noche porque está relajado",
+                    "No cambia hasta superar 1,2 g/l"
+                  ],
+                  "why": "Con alcohol te deslumbras antes, ves peor luces y señales, calculas mal distancias y velocidades y puede aparecer la visión en túnel."
+                },
+                "en": {
+                  "q": "According to the DGT, how does a driver's vision change after drinking?",
+                  "options": [
+                    "He is dazzled more easily and judges distances worse",
+                    "He sees better at night because he is relaxed",
+                    "It does not change until over 1.2 g/L"
+                  ],
+                  "why": "With alcohol you are dazzled sooner, see lights and signs worse, misjudge distances and speeds, and tunnel vision can appear."
+                },
+                "exam": {
+                  "q": "According to the DGT, how does the vision of a driver who has drunk change?",
+                  "options": [
+                    "He is dazzled more easily and calculates distances worse.",
+                    "He sees better at night because he is relaxed.",
+                    "It does not change until exceeding 1.2 g/l."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "deslumbramiento",
+                    "en": "dazzle (glare)"
+                  },
+                  {
+                    "es": "visión en túnel",
+                    "en": "tunnel vision"
+                  }
+                ],
+                "src": "DGT guidance (dgt.es, Consumo de alcohol, 20-03-2025)"
+              }
             }
           ]
         },
@@ -1994,6 +2470,14 @@
                 {
                   "es": "**Rapidez**: cuanto más deprisa bebes, más alcohol absorbes.",
                   "en": "**Speed**: the faster you drink, the more alcohol you absorb."
+                },
+                {
+                  "es": "**Experiencia**: los efectos son mayores en conductores con poca experiencia. Es una razón de la tasa más baja para los noveles.",
+                  "en": "**Experience**: the effects are greater in drivers with little experience. It is one reason for the lower limit for novices."
+                },
+                {
+                  "es": "**Tu estado**: la fatiga, el sueño, la ansiedad, el estrés o una enfermedad también influyen en cómo te afecta el alcohol.",
+                  "en": "**Your condition**: fatigue, sleepiness, anxiety, stress or an illness also influence how alcohol affects you."
                 }
               ]
             },
@@ -2083,6 +2567,145 @@
                   }
                 ],
                 "src": "DGT guidance (dgt.es, Consumo de alcohol, actualizada el 20-03-2025)"
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Guía de la DGT: comer retrasa la absorción, pero el alcohol que bebes **siempre** acaba pasando a la sangre.",
+                "en": "DGT guidance: eating slows absorption, but the alcohol you drink **always** ends up in your blood."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c6k",
+                "answer": 2,
+                "es": {
+                  "q": "Sacaste el permiso hace seis meses. Según la DGT, ¿cómo te afecta el alcohol comparado con un conductor con años de experiencia?",
+                  "options": [
+                    "Igual: depende solo de lo que bebas",
+                    "Menos, porque reaccionas más rápido",
+                    "Más: los efectos son mayores con poca experiencia"
+                  ],
+                  "why": "La DGT explica que los efectos del alcohol son mayores en los conductores con poca experiencia. Por eso, en parte, los noveles tienen una tasa más baja."
+                },
+                "en": {
+                  "q": "You got your permit six months ago. According to the DGT, how does alcohol affect you compared with a driver with years of experience?",
+                  "options": [
+                    "The same: it depends only on what you drink",
+                    "Less, because you react faster",
+                    "More: the effects are greater with little experience"
+                  ],
+                  "why": "The DGT explains that the effects of alcohol are greater in drivers with little experience. That is partly why novices have a lower limit."
+                },
+                "exam": {
+                  "q": "You obtained the permit six months ago. According to the DGT, how does the alcohol affect you compared with a driver with years of experience?",
+                  "options": [
+                    "The same: it depends only on what you drink.",
+                    "Less, because you react faster.",
+                    "More: the effects are greater with little experience."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "conductor novel",
+                    "en": "novice driver"
+                  },
+                  {
+                    "es": "experiencia",
+                    "en": "experience"
+                  }
+                ],
+                "src": "DGT guidance (dgt.es, Consumo de alcohol, 20-03-2025)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c6l",
+                "answer": 1,
+                "es": {
+                  "q": "Tomas una copa de vino durante una comida abundante. ¿Qué hace la comida con ese alcohol?",
+                  "options": [
+                    "Impide que llegue a la sangre",
+                    "Retrasa su paso a la sangre, pero acaba llegando",
+                    "Hace que se elimine más deprisa"
+                  ],
+                  "why": "Con comida en el estómago el alcohol pasa más despacio a la sangre, pero pasa igual. La comida no lo elimina."
+                },
+                "en": {
+                  "q": "You have a glass of wine with a big meal. What does the food do to that alcohol?",
+                  "options": [
+                    "It stops it reaching the blood",
+                    "It slows its way into the blood, but it still gets there",
+                    "It makes it leave the body faster"
+                  ],
+                  "why": "With food in the stomach, alcohol passes into the blood more slowly, but it still passes. Food does not remove it."
+                },
+                "exam": {
+                  "q": "You take a glass of wine during an abundant meal. What does the food do with that alcohol?",
+                  "options": [
+                    "It prevents it from reaching the blood.",
+                    "It delays its passage to the blood, but it ends up arriving.",
+                    "It makes it be eliminated more quickly."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "absorción",
+                    "en": "absorption"
+                  },
+                  {
+                    "es": "estómago vacío",
+                    "en": "empty stomach"
+                  }
+                ],
+                "src": "DGT guidance (dgt.es, Consumo de alcohol, 20-03-2025)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c6m",
+                "answer": 0,
+                "es": {
+                  "q": "Llevas muchas horas al volante, estás cansado y tomas una cerveza. ¿Qué es cierto?",
+                  "options": [
+                    "Tu cansancio también influye en cómo te afecta el alcohol",
+                    "La cerveza te quitará el cansancio",
+                    "El cansancio no tiene nada que ver con el alcohol"
+                  ],
+                  "why": "La DGT cita la fatiga, el sueño, la ansiedad y el estrés entre los factores que influyen en los efectos del alcohol. Cansancio y alcohol se suman."
+                },
+                "en": {
+                  "q": "You have been at the wheel for many hours, you are tired and you drink a beer. What is true?",
+                  "options": [
+                    "Your tiredness also influences how alcohol affects you",
+                    "The beer will take your tiredness away",
+                    "Tiredness has nothing to do with alcohol"
+                  ],
+                  "why": "The DGT lists fatigue, sleepiness, anxiety and stress among the factors that influence the effects of alcohol. Tiredness and alcohol add up."
+                },
+                "exam": {
+                  "q": "You carry many hours at the wheel, you are tired and you take a beer. What is true?",
+                  "options": [
+                    "Your tiredness also influences how the alcohol affects you.",
+                    "The beer will take away the tiredness.",
+                    "The tiredness has nothing to do with the alcohol."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "fatiga",
+                    "en": "fatigue"
+                  },
+                  {
+                    "es": "cansancio",
+                    "en": "tiredness"
+                  }
+                ],
+                "src": "DGT guidance (dgt.es, Consumo de alcohol, 20-03-2025)"
               }
             }
           ]
@@ -2346,7 +2969,7 @@
         "es": "Medicamentos y enfermedad",
         "en": "Medicines and illness"
       },
-      "minutes": 6,
+      "minutes": 8,
       "goals": [
         {
           "es": "Saber cuándo un medicamento te prohíbe conducir.",
@@ -2621,10 +3244,411 @@
         },
         {
           "title": {
+            "es": "Qué medicamentos vigilar",
+            "en": "Which medicines to watch"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "La DGT señala varios grupos de medicamentos que pueden afectar a la conducción, también algunos **sin receta**:",
+                "en": "The DGT points to several groups of medicines that can affect driving, including some sold **without a prescription**:"
+              }
+            },
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Medicamento",
+                  "en": "Medicine"
+                },
+                {
+                  "es": "Efectos posibles al volante",
+                  "en": "Possible effects at the wheel"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "Para dormir (**hipnóticos**)",
+                    "en": "For sleep (**hypnotics**)"
+                  },
+                  {
+                    "es": "Somnolencia, menos atención y menos capacidad de reacción",
+                    "en": "Drowsiness, less attention and slower reactions"
+                  }
+                ],
+                [
+                  {
+                    "es": "Para la ansiedad (**ansiolíticos**)",
+                    "en": "For anxiety (**anxiolytics**)"
+                  },
+                  {
+                    "es": "Somnolencia, menos atención y menos capacidad de reacción",
+                    "en": "Drowsiness, less attention and slower reactions"
+                  }
+                ],
+                [
+                  {
+                    "es": "Antidepresivos",
+                    "en": "Antidepressants"
+                  },
+                  {
+                    "es": "Nerviosismo, somnolencia, peor coordinación, visión borrosa",
+                    "en": "Nervousness, drowsiness, poorer coordination, blurred vision"
+                  }
+                ],
+                [
+                  {
+                    "es": "Para el dolor (**analgésicos**)",
+                    "en": "For pain (**painkillers**)"
+                  },
+                  {
+                    "es": "Somnolencia, menos concentración y reacción, mareo",
+                    "en": "Drowsiness, less concentration and slower reactions, dizziness"
+                  }
+                ],
+                [
+                  {
+                    "es": "Antigripales y anticatarrales",
+                    "en": "Flu and cold medicines"
+                  },
+                  {
+                    "es": "Somnolencia",
+                    "en": "Drowsiness"
+                  }
+                ],
+                [
+                  {
+                    "es": "Antialérgicos y antihistamínicos",
+                    "en": "Allergy medicines and antihistamines"
+                  },
+                  {
+                    "es": "Somnolencia, reacción más lenta; los colirios, visión borrosa",
+                    "en": "Drowsiness, slower reactions; eye drops, blurred vision"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Guía de la DGT: si un medicamento te da sueño, debilidad o visión borrosa, **no lo dejes** por tu cuenta, pero **no conduzcas**. Di siempre que conduces: el profesional puede buscar el medicamento que menos te afecte.",
+                "en": "DGT guidance: if a medicine makes you sleepy, weak or gives you blurred vision, **do not stop taking it** on your own, but **do not drive**. Always say that you drive: the professional can look for the medicine that affects you least."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c4g",
+                "answer": 2,
+                "es": {
+                  "q": "Anoche tomaste un hipnótico para dormir. ¿Qué efecto puede tener hoy al volante?",
+                  "options": [
+                    "Ninguno: su efecto acaba al despertar",
+                    "Reaccionas más rápido porque has descansado",
+                    "Somnolencia y menos capacidad de reacción, incluso después de dormir"
+                  ],
+                  "why": "Los hipnóticos pueden dar somnolencia y reducir la atención y la reacción. La DGT advierte de que los medicamentos para dormir pueden afectar a la conducción aun después de dormir."
+                },
+                "en": {
+                  "q": "Last night you took a hypnotic to sleep. What effect can it have at the wheel today?",
+                  "options": [
+                    "None: its effect ends when you wake up",
+                    "You react faster because you have rested",
+                    "Drowsiness and slower reactions, even after sleeping"
+                  ],
+                  "why": "Hypnotics can cause drowsiness and reduce attention and reaction. The DGT warns that sleep medicines can affect driving even after you have slept."
+                },
+                "exam": {
+                  "q": "Last night you took a hypnotic in order to sleep. What effect can it have today at the wheel?",
+                  "options": [
+                    "None: its effect ends on waking up.",
+                    "You react faster because you have rested.",
+                    "Drowsiness and less capacity of reaction, even after sleeping."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "hipnótico",
+                    "en": "hypnotic (sleeping pill)"
+                  },
+                  {
+                    "es": "capacidad de reacción",
+                    "en": "capacity of reaction"
+                  },
+                  {
+                    "es": "somnolencia",
+                    "en": "drowsiness"
+                  }
+                ],
+                "src": "DGT guidance (dgt.es, folleto «Medicamentos y conducción. Información y recomendaciones»); DGT guidance (dgt.es, Cansancio: estas son las señales de alarma, 04-02-2026)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c4h",
+                "answer": 0,
+                "es": {
+                  "q": "Tomas un antigripal que compraste sin receta. ¿Qué efecto secundario debes vigilar antes de conducir?",
+                  "options": [
+                    "La somnolencia",
+                    "Ninguno: lo que se vende sin receta no afecta a la conducción",
+                    "Solo la visión doble, y solo de noche"
+                  ],
+                  "why": "Los antigripales y anticatarrales pueden dar somnolencia. Algunos medicamentos sin receta también disminuyen la capacidad para conducir."
+                },
+                "en": {
+                  "q": "You take a flu medicine you bought without a prescription. Which side effect should you watch for before driving?",
+                  "options": [
+                    "Drowsiness",
+                    "None: what is sold without a prescription does not affect driving",
+                    "Only double vision, and only at night"
+                  ],
+                  "why": "Flu and cold medicines can cause drowsiness. Some medicines sold without a prescription also reduce your ability to drive."
+                },
+                "exam": {
+                  "q": "You take an anti-flu medicine that you bought without prescription. Which side effect must you watch before driving?",
+                  "options": [
+                    "The drowsiness.",
+                    "None: what is sold without prescription does not affect the driving.",
+                    "Only the double vision, and only at night."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "antigripal",
+                    "en": "anti-flu medicine"
+                  },
+                  {
+                    "es": "sin receta",
+                    "en": "without prescription"
+                  },
+                  {
+                    "es": "efecto secundario",
+                    "en": "side effect"
+                  }
+                ],
+                "src": "DGT guidance (dgt.es, folleto «Medicamentos y conducción. Información y recomendaciones»)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c4i",
+                "answer": 1,
+                "es": {
+                  "q": "Tomas un analgésico para un dolor de espalda. ¿Puede afectar a tu conducción?",
+                  "options": [
+                    "No: solo quita el dolor",
+                    "Sí: puede dar somnolencia o mareo y reducir tu concentración y tu reacción",
+                    "Solo si lo tomas con café"
+                  ],
+                  "why": "Los analgésicos pueden causar somnolencia y mareo y reducir la concentración y la capacidad de reacción."
+                },
+                "en": {
+                  "q": "You take a painkiller for back pain. Can it affect your driving?",
+                  "options": [
+                    "No: it only takes the pain away",
+                    "Yes: it can cause drowsiness or dizziness and reduce your concentration and reactions",
+                    "Only if you take it with coffee"
+                  ],
+                  "why": "Painkillers can cause drowsiness and dizziness and reduce concentration and reaction capacity."
+                },
+                "exam": {
+                  "q": "You take an analgesic for a pain of the back. Can it affect your driving?",
+                  "options": [
+                    "No: it only takes away the pain.",
+                    "Yes: it can give drowsiness or dizziness and reduce your concentration and your reaction.",
+                    "Only if you take it with coffee."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "analgésico",
+                    "en": "analgesic (painkiller)"
+                  },
+                  {
+                    "es": "mareo",
+                    "en": "dizziness"
+                  }
+                ],
+                "src": "DGT guidance (dgt.es, folleto «Medicamentos y conducción. Información y recomendaciones»)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c4j",
+                "answer": 2,
+                "es": {
+                  "q": "Un medicamento que te recetaron te da mucho sueño, y mañana tienes que conducir. ¿Qué aconseja la DGT?",
+                  "options": [
+                    "Dejar de tomarlo un día para poder conducir",
+                    "Tomar un café fuerte y conducir con cuidado",
+                    "Seguir el tratamiento, no conducir y consultar al profesional sanitario"
+                  ],
+                  "why": "No dejes la medicación por tu cuenta. Si te da sueño, no conduzcas y consulta: puede haber otro medicamento que te afecte menos."
+                },
+                "en": {
+                  "q": "A medicine you were prescribed makes you very sleepy, and tomorrow you have to drive. What does the DGT advise?",
+                  "options": [
+                    "Skip it for a day so you can drive",
+                    "Drink a strong coffee and drive carefully",
+                    "Keep up the treatment, do not drive and ask a health professional"
+                  ],
+                  "why": "Do not stop medication on your own. If it makes you sleepy, do not drive, and ask: there may be another medicine that affects you less."
+                },
+                "exam": {
+                  "q": "A medicine that they prescribed you gives you a lot of sleep, and tomorrow you have to drive. What does the DGT advise?",
+                  "options": [
+                    "To leave it one day so that you can drive.",
+                    "To take a strong coffee and to drive with care.",
+                    "To follow the treatment, not to drive and to consult the health professional."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "tratamiento",
+                    "en": "treatment"
+                  },
+                  {
+                    "es": "profesional sanitario",
+                    "en": "health professional"
+                  }
+                ],
+                "src": "DGT guidance (dgt.es, folleto «Medicamentos y conducción. Información y recomendaciones»)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
             "es": "Enfermedad y mezclas",
             "en": "Illness and mixing"
           },
           "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Algunas enfermedades, y no solo sus medicamentos, afectan a la conducción. La DGT destaca las **neurológicas** y las **mentales**.",
+                "en": "Some illnesses, not only their medicines, affect driving. The DGT singles out **neurological** and **mental** illnesses."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Guía de la DGT: en la **epilepsia**, una crisis puede alterar de golpe el nivel de conciencia. Cumplir el tratamiento y seguir al médico reduce el riesgo. Evita conducir al empezar el tratamiento, si te añaden medicación o si olvidas una dosis.",
+                "en": "DGT guidance: with **epilepsy**, a seizure can suddenly change your level of consciousness. Following the treatment and your doctor's advice lowers the risk. Avoid driving when you start treatment, when medication is added, or if you miss a dose."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "En la **depresión** sin tratar son frecuentes la fatiga, la lentitud mental, las distracciones, los fallos de atención y los problemas de sueño. Todo eso afecta a la conducción.",
+                "en": "With untreated **depression**, fatigue, slowed thinking, distraction, lapses of attention and sleep problems are common. All of that affects driving."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Si tienes una enfermedad mental, consulta a tu médico si puedes conducir y dile que conduces. Depende de la enfermedad, de su fase y de la medicación.",
+                "en": "If you have a mental illness, ask your doctor whether you can drive and tell them you drive. It depends on the illness, its stage and the medication."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c4k",
+                "answer": 1,
+                "es": {
+                  "q": "¿Por qué la epilepsia es un riesgo especial al volante?",
+                  "options": [
+                    "Porque obliga a conducir siempre más despacio",
+                    "Porque una crisis puede alterar de golpe el nivel de conciencia",
+                    "Porque solo afecta a la vista de noche"
+                  ],
+                  "why": "Una crisis epiléptica puede alterar la conciencia de repente. Cumplir el tratamiento y seguir al médico reduce el riesgo."
+                },
+                "en": {
+                  "q": "Why is epilepsy a particular risk at the wheel?",
+                  "options": [
+                    "Because it forces you to always drive slower",
+                    "Because a seizure can suddenly change your level of consciousness",
+                    "Because it only affects your eyesight at night"
+                  ],
+                  "why": "An epileptic seizure can change consciousness suddenly. Following the treatment and the doctor's advice lowers the risk."
+                },
+                "exam": {
+                  "q": "Why is epilepsy a special risk at the wheel?",
+                  "options": [
+                    "Because it obliges to always drive more slowly.",
+                    "Because a crisis can alter suddenly the level of consciousness.",
+                    "Because it only affects the sight at night."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "epilepsia",
+                    "en": "epilepsy"
+                  },
+                  {
+                    "es": "crisis",
+                    "en": "crisis (seizure)"
+                  },
+                  {
+                    "es": "nivel de conciencia",
+                    "en": "level of consciousness"
+                  }
+                ],
+                "src": "DGT guidance (revista.dgt.es, «Epilepsia: la importancia del control», 23-09-2021)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c4l",
+                "answer": 0,
+                "es": {
+                  "q": "Un conductor tiene una depresión sin tratar. ¿Qué le puede pasar al volante?",
+                  "options": [
+                    "Se distrae con más facilidad y puede tener fatiga o somnolencia",
+                    "Presta más atención porque conduce más despacio",
+                    "Nada, si no toma ningún medicamento"
+                  ],
+                  "why": "Según un estudio publicado por la DGT, la depresión sin tratar trae a menudo fatiga, lentitud mental, distracciones y problemas de sueño. Todo eso empeora la conducción."
+                },
+                "en": {
+                  "q": "A driver has untreated depression. What can happen to him at the wheel?",
+                  "options": [
+                    "He gets distracted more easily and may have fatigue or drowsiness",
+                    "He pays more attention because he drives slower",
+                    "Nothing, as long as he takes no medicine"
+                  ],
+                  "why": "According to a study published by the DGT, untreated depression often brings fatigue, slowed thinking, distraction and sleep problems. All of that makes driving worse."
+                },
+                "exam": {
+                  "q": "A driver suffers a depression without treating. What can happen to him at the wheel?",
+                  "options": [
+                    "He is distracted more easily and can have fatigue or drowsiness.",
+                    "He pays more attention because he drives more slowly.",
+                    "Nothing, if he does not take any medicine."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "depresión",
+                    "en": "depression"
+                  },
+                  {
+                    "es": "distracción",
+                    "en": "distraction"
+                  }
+                ],
+                "src": "DGT guidance (dgt.es, Observatorio Nacional de Seguridad Vial, estudio sobre trastornos del estado de ánimo y de ansiedad y conducción, 2025)"
+              }
+            },
             {
               "t": "tip",
               "text": {
@@ -2862,6 +3886,61 @@
                 ],
                 "src": "DGT guidance (revista.dgt.es, alergias y conducción, 2017 y 2019; «Anticatarrales y conducción», 2015)"
               }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Guía de la DGT (2021): si tienes alergia al polen, evita conducir al **amanecer** y al **anochecer**, cuando hay más polen, y por zonas húmedas o con mucha vegetación. Cuida la limpieza del coche y cambia los filtros cuando toque.",
+                "en": "DGT guidance (2021): if you are allergic to pollen, avoid driving at **dawn** and **dusk**, when there is most pollen, and through damp areas or areas with a lot of vegetation. Keep the car clean and change the filters when due."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c4m",
+                "answer": 2,
+                "es": {
+                  "q": "Eres alérgico al polen y tienes que viajar en primavera. ¿Cuándo y por dónde es mejor no conducir?",
+                  "options": [
+                    "De noche y por autopista",
+                    "A mediodía y por ciudad",
+                    "Al amanecer y al anochecer, y por zonas con mucha vegetación"
+                  ],
+                  "why": "Al amanecer y al anochecer hay más polen en el aire. La DGT aconseja evitar esas horas y las zonas húmedas o con mucha vegetación."
+                },
+                "en": {
+                  "q": "You are allergic to pollen and must travel in spring. When and where is it better not to drive?",
+                  "options": [
+                    "At night and on the motorway",
+                    "At midday and in town",
+                    "At dawn and dusk, and through areas with a lot of vegetation"
+                  ],
+                  "why": "At dawn and dusk there is more pollen in the air. The DGT advises avoiding those hours and damp areas or areas with a lot of vegetation."
+                },
+                "exam": {
+                  "q": "You are allergic to pollen and you have to travel in spring. When and where is it better not to drive?",
+                  "options": [
+                    "At night and by motorway.",
+                    "At midday and by town.",
+                    "At dawn and at dusk, and by zones with a lot of vegetation."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "alergia al polen",
+                    "en": "pollen allergy"
+                  },
+                  {
+                    "es": "amanecer",
+                    "en": "dawn"
+                  },
+                  {
+                    "es": "anochecer",
+                    "en": "dusk"
+                  }
+                ],
+                "src": "DGT guidance (revista.dgt.es, «Alergia: un 30% más de riesgo de accidente», 26-04-2021)"
+              }
             }
           ]
         }
@@ -2896,7 +3975,12 @@
         "Ley de Tráfico y Seguridad Vial (RDL 6/2015), arts. 10 y 14.1",
         "DGT guidance on medicines and driving (revista.dgt.es, Salud vial)",
         "DGT guidance on alcohol (dgt.es, Consumo de alcohol)",
-        "DGT guidance (revista.dgt.es, alergias y conducción, 2017 y 2019; «Anticatarrales y conducción», 2015)"
+        "DGT guidance (revista.dgt.es, alergias y conducción, 2017 y 2019; «Anticatarrales y conducción», 2015)",
+        "DGT guidance (dgt.es, folleto «Medicamentos y conducción. Información y recomendaciones»)",
+        "DGT guidance (revista.dgt.es, «Epilepsia: la importancia del control», 23-09-2021)",
+        "DGT guidance (dgt.es, Observatorio Nacional de Seguridad Vial, estudio sobre trastornos del estado de ánimo y de ansiedad y conducción, 2025)",
+        "DGT guidance (revista.dgt.es, «Salud mental al volante», 09-10-2020)",
+        "DGT guidance (revista.dgt.es, «Alergia: un 30% más de riesgo de accidente», 26-04-2021)"
       ]
     },
     {
@@ -3207,6 +4291,10 @@
                 {
                   "es": "Comidas copiosas, alcohol, un catarro, el estrés o la falta de experiencia al volante.",
                   "en": "Heavy meals, alcohol, a cold, stress or a lack of experience at the wheel."
+                },
+                {
+                  "es": "Conducir de noche con mala iluminación, con hambre, o por un firme en mal estado que hace vibrar el coche.",
+                  "en": "Driving at night with poor lighting, while hungry, or on a badly kept surface that makes the car vibrate."
                 }
               ]
             },
@@ -3352,6 +4440,54 @@
                 ],
                 "src": "DGT guidance (nota de prensa «La somnolencia estuvo presente en el 7% de los siniestros mortales de tráfico»; página «Conducir con fatiga»)"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c5k",
+                "answer": 0,
+                "es": {
+                  "q": "Recorres muchos kilómetros por una carretera con el firme en mal estado. ¿Cómo afecta a tu cansancio?",
+                  "options": [
+                    "Lo adelanta: las vibraciones y la atención extra cansan más",
+                    "No afecta: solo cuenta el tiempo al volante",
+                    "Lo retrasa, porque te mantiene despierto"
+                  ],
+                  "why": "Un firme mal conservado hace vibrar el vehículo y exige más atención. La DGT lo cita entre los factores que adelantan la fatiga, junto con la noche con poca luz o conducir con hambre."
+                },
+                "en": {
+                  "q": "You cover many kilometers on a road with a badly kept surface. How does it affect your tiredness?",
+                  "options": [
+                    "It brings it on sooner: the vibration and extra attention tire you more",
+                    "It has no effect: only the time at the wheel counts",
+                    "It delays it, because it keeps you awake"
+                  ],
+                  "why": "A badly kept surface makes the vehicle vibrate and demands more attention. The DGT lists it among the factors that bring fatigue on sooner, along with night driving with poor light or driving hungry."
+                },
+                "exam": {
+                  "q": "You travel many kilometres by a road with the surface in bad condition. How does it affect your tiredness?",
+                  "options": [
+                    "It brings it forward: the vibrations and the extra attention tire more.",
+                    "It does not affect: only the time at the wheel counts.",
+                    "It delays it, because it keeps you awake."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "firme",
+                    "en": "road surface"
+                  },
+                  {
+                    "es": "mal estado",
+                    "en": "bad condition"
+                  },
+                  {
+                    "es": "fatiga",
+                    "en": "fatigue"
+                  }
+                ],
+                "src": "DGT guidance (dgt.es, Conducir con fatiga, 30-11-2022)"
+              }
             }
           ]
         },
@@ -3470,7 +4606,7 @@
                   "why": "Son señales de sueño. Lo seguro es parar en un lugar adecuado y descansar."
                 },
                 "exam": {
-                  "q": "You drive by night, you yawn, you blink much and you deviate towards the centre of the carriageway. What do you do?",
+                  "q": "You drive by night, you yawn, you blink much and you deviate towards the middle of the carriageway. What do you do?",
                   "options": [
                     "You open the window and you continue.",
                     "You stop in a suitable place and you rest.",
@@ -3481,7 +4617,7 @@
                   "q": "You drive at night, yawn, blink a lot and drift toward the center of the road. What do you do?",
                   "options": [
                     "Open the window and keep going",
-                    "Stop in a suitable place and rest",
+                    "Pull over somewhere suitable and take a break",
                     "Turn the music up and speed up to arrive sooner"
                   ],
                   "why": "These are signs of sleepiness. The safe thing is to stop in a suitable place and rest."
@@ -3493,6 +4629,86 @@
                   }
                 ],
                 "src": "DGT guidance on sleepiness (dgt.es)"
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "La fatiga también se nota en el cuerpo. La DGT describe estas señales:",
+                "en": "Fatigue also shows in your body. The DGT describes these signs:"
+              }
+            },
+            {
+              "t": "list",
+              "items": [
+                {
+                  "es": "cambias de postura a menudo y necesitas estirarte",
+                  "en": "you change position often and need to stretch"
+                },
+                {
+                  "es": "hormigueos, picores o calambres en brazos y piernas",
+                  "en": "tingling, itching or cramps in your arms and legs"
+                },
+                {
+                  "es": "dolor de nuca y de espalda, y rigidez en cuello y hombros",
+                  "en": "pain in the back of the neck and back, and stiffness in the neck and shoulders"
+                },
+                {
+                  "es": "boca seca y movimientos menos coordinados",
+                  "en": "a dry mouth and less coordinated movements"
+                }
+              ]
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c5j",
+                "answer": 1,
+                "es": {
+                  "q": "Llevas tres horas conduciendo. Cambias de postura todo el rato, te pican las piernas y te duele la nuca. ¿Qué te indica tu cuerpo?",
+                  "options": [
+                    "Solo que el asiento está mal regulado",
+                    "Que aparece la fatiga: debes parar y descansar",
+                    "Que necesitas subir la calefacción"
+                  ],
+                  "why": "Los cambios frecuentes de postura, los hormigueos y picores y el dolor de nuca o de espalda son señales de fatiga. Para en un lugar seguro y descansa."
+                },
+                "en": {
+                  "q": "You have been driving for three hours. You keep shifting position, your legs itch and the back of your neck hurts. What is your body telling you?",
+                  "options": [
+                    "Only that the seat is badly adjusted",
+                    "That fatigue is setting in: you should stop and rest",
+                    "That you need to turn up the heating"
+                  ],
+                  "why": "Frequent changes of position, tingling and itching, and pain in the neck or back are signs of fatigue. Stop somewhere safe and rest."
+                },
+                "exam": {
+                  "q": "You carry three hours driving. You change posture all the time, your legs itch and your nape hurts. What does your body indicate to you?",
+                  "options": [
+                    "Only that the seat is badly adjusted.",
+                    "That fatigue appears: you must stop and rest.",
+                    "That you need to raise the heating."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "postura",
+                    "en": "posture"
+                  },
+                  {
+                    "es": "picor",
+                    "en": "itching"
+                  },
+                  {
+                    "es": "hormigueo",
+                    "en": "tingling"
+                  },
+                  {
+                    "es": "nuca",
+                    "en": "nape"
+                  }
+                ],
+                "src": "DGT guidance (dgt.es, Conducir con fatiga, 30-11-2022); DGT guidance (dgt.es, Cansancio: estas son las señales de alarma, 04-02-2026)"
               }
             }
           ]
@@ -3619,6 +4835,207 @@
                 ],
                 "src": "DGT guidance (dgt.es, Conducir con sueño o cansancio, 09-07-2026)"
               }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Guía de la DGT: no basta con dormir las horas necesarias. El sueño debe ser **reparador**. Un sueño **fragmentado**, con interrupciones, descansa poco, aunque no recuerdes haberte despertado.",
+                "en": "DGT guidance: sleeping the hours you need is not enough. Sleep must be **restful**. **Fragmented** sleep, with interruptions, rests you little, even if you do not remember waking up."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Con sueño puedes sentirte en tensión, más nervioso e incluso más agresivo. Y la somnolencia no actúa solo de noche: los accidentes de día en los que influye son muy numerosos.",
+                "en": "When sleepy you can feel tense, more nervous and even more aggressive. And sleepiness does not act only at night: daytime crashes in which it plays a part are very numerous."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Abrir la ventanilla o poner la música alta no quita el cansancio. El café o el té, con precaución: el **efecto rebote** puede traer el sueño de repente. Lo único eficaz es parar y descansar.",
+                "en": "Opening the window or playing loud music does not remove tiredness. Coffee or tea, with caution: the **rebound effect** can bring sleep on suddenly. The only thing that works is to stop and rest."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c5l",
+                "answer": 2,
+                "es": {
+                  "q": "Anoche dormiste ocho horas, pero te despertaste muchas veces. ¿Qué es cierto antes de conducir?",
+                  "options": [
+                    "Has dormido las horas necesarias: no te puede dar sueño",
+                    "Basta con bajar la ventanilla para estar bien",
+                    "Puedes tener somnolencia, porque el sueño no fue reparador"
+                  ],
+                  "why": "No basta con las horas: el sueño debe ser reparador. Un sueño fragmentado puede dejar somnolencia al día siguiente."
+                },
+                "en": {
+                  "q": "Last night you slept eight hours, but you woke up many times. What is true before you drive?",
+                  "options": [
+                    "You slept the hours you need: you cannot get sleepy",
+                    "Rolling the window down is enough to be fine",
+                    "You may be drowsy, because your sleep was not restful"
+                  ],
+                  "why": "Hours alone are not enough: sleep must be restful. Fragmented sleep can leave you drowsy the next day."
+                },
+                "exam": {
+                  "q": "Last night you slept eight hours, but you woke up many times. What is true before driving?",
+                  "options": [
+                    "You have slept the necessary hours: sleep cannot come to you.",
+                    "It is enough to lower the window in order to be well.",
+                    "You can have drowsiness, because the sleep was not restorative."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "sueño reparador",
+                    "en": "restorative sleep"
+                  },
+                  {
+                    "es": "sueño fragmentado",
+                    "en": "fragmented sleep"
+                  },
+                  {
+                    "es": "somnolencia",
+                    "en": "drowsiness"
+                  }
+                ],
+                "src": "DGT guidance (dgt.es, Conducir con sueño o cansancio, 09-07-2026)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c5m",
+                "answer": 1,
+                "es": {
+                  "q": "En un viaje empiezas a tener sueño y piensas tomar varios cafés para seguir. ¿Qué dice la DGT?",
+                  "options": [
+                    "Es la mejor solución: el café elimina el sueño",
+                    "Úsalos con precaución: el sueño puede volver de golpe; lo eficaz es parar y descansar",
+                    "El café solo funciona si lo tomas con mucho azúcar"
+                  ],
+                  "why": "Los estimulantes como el café o el té pueden tener efecto rebote: el sueño aparece de repente. Lo único eficaz es parar y descansar."
+                },
+                "en": {
+                  "q": "On a trip you start to feel sleepy and plan to drink several coffees to keep going. What does the DGT say?",
+                  "options": [
+                    "It is the best solution: coffee removes sleepiness",
+                    "Use them with caution: sleep can come back suddenly; what works is to stop and rest",
+                    "Coffee only works with a lot of sugar"
+                  ],
+                  "why": "Stimulants such as coffee or tea can have a rebound effect: sleep appears suddenly. The only thing that works is to stop and rest."
+                },
+                "exam": {
+                  "q": "In a trip you begin to have sleep and you think of taking several coffees in order to continue. What does the DGT say?",
+                  "options": [
+                    "It is the best solution: the coffee eliminates the sleep.",
+                    "Use them with caution: the sleep can return suddenly; the effective thing is to stop and rest.",
+                    "The coffee only works if you take it with a lot of sugar."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "estimulante",
+                    "en": "stimulant"
+                  },
+                  {
+                    "es": "efecto rebote",
+                    "en": "rebound effect"
+                  }
+                ],
+                "src": "DGT guidance (dgt.es, Conducir con sueño o cansancio, 09-07-2026)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c5n",
+                "answer": 0,
+                "es": {
+                  "q": "¿En qué momento del día hay accidentes en los que influye la somnolencia?",
+                  "options": [
+                    "De noche y también de día: los accidentes diurnos son muy numerosos",
+                    "Solo de madrugada",
+                    "Solo después de cenar"
+                  ],
+                  "why": "La somnolencia no actúa solo de noche. Las horas de más riesgo son de 3 a 5 de la mañana y de 2 a 4 de la tarde."
+                },
+                "en": {
+                  "q": "At what time of day are there crashes in which drowsiness plays a part?",
+                  "options": [
+                    "At night and also by day: daytime crashes are very numerous",
+                    "Only in the early hours",
+                    "Only after dinner"
+                  ],
+                  "why": "Drowsiness does not act only at night. The riskiest hours are 3 to 5 in the morning and 2 to 4 in the afternoon."
+                },
+                "exam": {
+                  "q": "At which moment of the day are there accidents in which drowsiness influences?",
+                  "options": [
+                    "At night and also by day: the daytime accidents are very numerous.",
+                    "Only at dawn.",
+                    "Only after having dinner."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "somnolencia",
+                    "en": "drowsiness"
+                  },
+                  {
+                    "es": "madrugada",
+                    "en": "early morning hours"
+                  }
+                ],
+                "src": "DGT guidance (dgt.es, Conducir con sueño o cansancio, 09-07-2026)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c5o",
+                "answer": 2,
+                "es": {
+                  "q": "Has dormido muy poco. Según la DGT, ¿cómo puede cambiar tu humor al volante?",
+                  "options": [
+                    "Estarás más tranquilo y paciente",
+                    "No cambia: el sueño solo afecta a la vista",
+                    "Puedes estar más tenso, nervioso e incluso agresivo"
+                  ],
+                  "why": "Con sueño puedes sentirte en tensión, más nervioso e incluso más agresivo, además de reaccionar más tarde."
+                },
+                "en": {
+                  "q": "You have slept very little. According to the DGT, how can your mood change at the wheel?",
+                  "options": [
+                    "You will be calmer and more patient",
+                    "It does not change: sleep only affects your eyes",
+                    "You can be more tense, nervous and even aggressive"
+                  ],
+                  "why": "When sleepy you can feel tense, more nervous and even more aggressive, as well as reacting later."
+                },
+                "exam": {
+                  "q": "You have slept very little. According to the DGT, how can your mood change at the wheel?",
+                  "options": [
+                    "You will be calmer and more patient.",
+                    "It does not change: the sleep only affects the sight.",
+                    "You can be more tense, nervous and even aggressive."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "nervioso",
+                    "en": "nervous"
+                  },
+                  {
+                    "es": "agresivo",
+                    "en": "aggressive"
+                  }
+                ],
+                "src": "DGT guidance (dgt.es, Conducir con sueño o cansancio, 09-07-2026)"
+              }
             }
           ]
         }
@@ -3657,7 +5074,8 @@
         "Ley de Tráfico y Seguridad Vial (RDL 6/2015), art. 77.i",
         "DGT guidance on sleepiness and fatigue (dgt.es, Evita conductas de riesgo)",
         "DGT guidance (dgt.es, Conducir con fatiga, 30-11-2022)",
-        "DGT guidance (dgt.es, Conducir con sueño o cansancio, 09-07-2026)"
+        "DGT guidance (dgt.es, Conducir con sueño o cansancio, 09-07-2026)",
+        "DGT guidance (dgt.es, Cansancio: estas son las señales de alarma, 04-02-2026)"
       ]
     },
     {
@@ -3854,6 +5272,108 @@
                   {
                     "es": "impulsivo",
                     "en": "impulsive"
+                  }
+                ],
+                "src": "DGT guidance (dgt.es, Conducir con estrés, 30-11-2022)"
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Guía de la DGT: cuando el estrés te agota, tus decisiones son **más lentas**, cometes más errores, te distraes con más facilidad y la **fatiga** llega antes, incluso en trayectos cortos.",
+                "en": "DGT guidance: when stress wears you out, your decisions are **slower**, you make more mistakes, you get distracted more easily and **fatigue** comes sooner, even on short trips."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "En los momentos más críticos del estrés, como justo después de un enfado fuerte, lo prudente es no conducir hasta calmarte.",
+                "en": "At the most critical moments of stress, such as just after a big row, the prudent thing is not to drive until you calm down."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c7f",
+                "answer": 1,
+                "es": {
+                  "q": "Llevas semanas con mucho estrés y estás agotado. Según la DGT, ¿qué te pasa al volante?",
+                  "options": [
+                    "Decides más rápido porque estás alerta",
+                    "Decides más despacio, te distraes más y te cansas antes",
+                    "Solo conduces más despacio, sin más riesgo"
+                  ],
+                  "why": "En la fase de agotamiento del estrés las decisiones son más lentas, hay más errores y distracciones, y la fatiga aparece antes."
+                },
+                "en": {
+                  "q": "You have been under heavy stress for weeks and you are worn out. According to the DGT, what happens to you at the wheel?",
+                  "options": [
+                    "You decide faster because you are alert",
+                    "You decide more slowly, get distracted more and tire sooner",
+                    "You only drive slower, with no extra risk"
+                  ],
+                  "why": "In the exhaustion phase of stress, decisions are slower, there are more mistakes and distractions, and fatigue appears sooner."
+                },
+                "exam": {
+                  "q": "You carry weeks with a lot of stress and you are exhausted. According to the DGT, what happens to you at the wheel?",
+                  "options": [
+                    "You decide faster because you are alert.",
+                    "You decide more slowly, you are distracted more and you tire sooner.",
+                    "You only drive more slowly, without more risk."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "estrés",
+                    "en": "stress"
+                  },
+                  {
+                    "es": "toma de decisiones",
+                    "en": "decision-making"
+                  }
+                ],
+                "src": "DGT guidance (dgt.es, Conducir con estrés, 30-11-2022)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c7g",
+                "answer": 0,
+                "es": {
+                  "q": "Acabas de discutir a gritos con alguien y estás muy alterado. Tienes que coger el coche. ¿Qué es lo más prudente?",
+                  "options": [
+                    "Esperar a calmarte antes de conducir; si no puedes evitarlo, extremar la precaución",
+                    "Conducir deprisa para despejarte",
+                    "Poner la música muy alta y salir enseguida"
+                  ],
+                  "why": "En los momentos más críticos del estrés, la DGT aconseja evitar conducir en lo posible. Si tienes que hacerlo, extrema la precaución."
+                },
+                "en": {
+                  "q": "You have just had a shouting match with someone and you are very upset. You have to take the car. What is the most prudent thing?",
+                  "options": [
+                    "Wait until you calm down before driving; if you cannot avoid it, take extreme care",
+                    "Drive fast to clear your head",
+                    "Turn the music up loud and leave at once"
+                  ],
+                  "why": "At the most critical moments of stress, the DGT advises avoiding driving where possible. If you must drive, take extreme care."
+                },
+                "exam": {
+                  "q": "You have just argued shouting with someone and you are very altered. You have to take the car. What is the most prudent?",
+                  "options": [
+                    "To wait to calm down before driving; if you cannot avoid it, to take extreme precaution.",
+                    "To drive fast in order to clear yourself.",
+                    "To put the music very loud and to leave immediately."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "discusión",
+                    "en": "argument"
+                  },
+                  {
+                    "es": "extremar la precaución",
+                    "en": "take extreme precaution"
                   }
                 ],
                 "src": "DGT guidance (dgt.es, Conducir con estrés, 30-11-2022)"

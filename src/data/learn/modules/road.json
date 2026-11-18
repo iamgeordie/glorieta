@@ -1146,6 +1146,54 @@
                 ],
                 "src": "RGC art. 38.4"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-t1o",
+                "answer": 2,
+                "es": {
+                  "q": "Quieres ir en patinete eléctrico (VMP) de un pueblo a otro por una carretera convencional sin carril bici. ¿Puedes?",
+                  "options": [
+                    "Sí, pegado al borde derecho de la calzada",
+                    "Sí, por el arcén si es transitable",
+                    "No: los VMP no pueden ir por vías interurbanas, salvo por vías para ciclos y similares"
+                  ],
+                  "why": "Los VMP tienen prohibidas las vías interurbanas. Solo pueden usar en ellas vías ciclistas, carriles bici, pistas bici, sendas ciclables y vías cerradas a los vehículos de motor, si ninguna señal lo prohíbe."
+                },
+                "exam": {
+                  "q": "You want to go by electric scooter (PMV) from one town to another by a conventional road without bicycle lane. Can you?",
+                  "options": [
+                    "Yes, keeping near the right border of the carriageway.",
+                    "Yes, by the hard shoulder if it is passable.",
+                    "No: PMVs cannot circulate by interurban roads, except by cycle roads and similar."
+                  ]
+                },
+                "en": {
+                  "q": "You want to ride an e-scooter (VMP) from one town to the next on a conventional road with no bike lane. May you?",
+                  "options": [
+                    "Yes, keeping tight to the right side of the roadway",
+                    "Yes, on a usable shoulder",
+                    "No: VMPs may not use intercity roads, except cycle ways and similar"
+                  ],
+                  "why": "VMPs are banned from intercity roads. There they may only use cycle ways, bike lanes, bike tracks, cycle paths and roads closed to motor vehicles, unless a sign forbids it."
+                },
+                "terms": [
+                  {
+                    "es": "vehículo de movilidad personal (VMP)",
+                    "en": "personal mobility vehicle (PMV), e-scooter"
+                  },
+                  {
+                    "es": "vía interurbana",
+                    "en": "interurban road"
+                  },
+                  {
+                    "es": "carretera convencional",
+                    "en": "conventional road"
+                  }
+                ],
+                "src": "RGC art. 38.4"
+              }
             }
           ]
         },
@@ -1248,7 +1296,7 @@
                 "exam": {
                   "q": "You circulate with your car in good state by a dual carriageway without retention nor works. Can you go at 50 km/h?",
                   "options": [
-                    "Yes, if there are no other vehicles.",
+                    "Yes, if no other vehicle circulates.",
                     "Yes, if you put the emergency lights.",
                     "No: it is prohibited to go at less than 60 km/h."
                   ]
@@ -1256,7 +1304,7 @@
                 "en": {
                   "q": "You drive your car, in good condition, on an autovía with no jam or roadworks. May you go 50 km/h?",
                   "options": [
-                    "Yes, if there are no other vehicles",
+                    "Yes, if the road is empty",
                     "Yes, if you use your hazard lights",
                     "No: driving below 60 km/h is forbidden"
                   ],
@@ -1361,7 +1409,7 @@
                   "q": "You are going to leave a motorway and there is lane of deceleration. When must you enter in it?",
                   "options": [
                     "As soon as possible, from the lane nearest to the exit.",
-                    "Only at the end of the lane, already in the exit.",
+                    "Only where the lane finishes, already in the exit.",
                     "When you have already braked in the main lane."
                   ]
                 },
@@ -1369,7 +1417,7 @@
                   "q": "You are about to leave an autopista and there is a deceleration lane. When must you enter it?",
                   "options": [
                     "As early as possible, from the lane closest to the exit",
-                    "Only at the end of the lane, at the exit itself",
+                    "Only where the lane finishes, at the exit itself",
                     "After you have already slowed down in the main lane"
                   ],
                   "why": "Drive in good time in the lane closest to the exit and enter the deceleration lane as early as possible. That way you do not slow down in other drivers' way."
@@ -1473,6 +1521,54 @@
                   }
                 ],
                 "src": "LSV anexo I, puntos 75 a 78"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-t1p",
+                "answer": 1,
+                "es": {
+                  "q": "Vas en ciclomotor y ves a tu derecha una vía ciclista sin ninguna señal que autorice a otros vehículos. ¿Puedes usarla para evitar un atasco?",
+                  "options": [
+                    "Sí, porque un ciclomotor es un vehículo de dos ruedas",
+                    "No: es para ciclos; otros vehículos solo con autorización señalizada",
+                    "Sí, si no circula ninguna bicicleta por ella"
+                  ],
+                  "why": "Una vía ciclista está hecha para el tráfico de ciclos. Otros vehículos solo pueden usarla si la autoridad de tráfico lo autoriza y lo indica con señales."
+                },
+                "exam": {
+                  "q": "You go by moped and you see on your right a cycle road without any sign that authorises other vehicles. Can you use it in order to avoid a traffic jam?",
+                  "options": [
+                    "Yes, because a moped is a two-wheeled vehicle.",
+                    "No: it is for cycles; other vehicles only with signposted authorisation.",
+                    "Yes, if no bicycle circulates by it."
+                  ]
+                },
+                "en": {
+                  "q": "You are on a moped and see a cycle way on your right, with no sign allowing other vehicles. May you use it to get around a traffic jam?",
+                  "options": [
+                    "Yes, because a moped has two wheels",
+                    "No: it is for cycles; others only with signed permission",
+                    "Yes, if no bicycle is using it"
+                  ],
+                  "why": "A cycle way is built for cycle traffic. Other vehicles may use it only if the traffic authority allows it and shows that with signs."
+                },
+                "terms": [
+                  {
+                    "es": "vía ciclista",
+                    "en": "cycle road, cycle way"
+                  },
+                  {
+                    "es": "ciclomotor",
+                    "en": "moped"
+                  },
+                  {
+                    "es": "ciclo",
+                    "en": "cycle"
+                  }
+                ],
+                "src": "LSV anexo I, punto 74"
               }
             }
           ]
@@ -1922,7 +2018,7 @@
                   "why": "Cuando hay refugios, isletas o dispositivos de guía se circula por la parte de la calzada que queda a su derecha. Solo en una vía de un sentido, o dentro de la parte de un solo sentido, puedes elegir lado."
                 },
                 "exam": {
-                  "q": "You circulate by a road of double direction and in the centre of the carriageway a refuge for pedestrians appears. How do you go around it?",
+                  "q": "You circulate by a road of double direction and a refuge for pedestrians appears in the middle of the carriageway. How do you go around it?",
                   "options": [
                     "Leaving it to your left, that is to say, passing by its right.",
                     "Leaving it to your right, in order not to step on the hard shoulder.",
@@ -1930,7 +2026,7 @@
                   ]
                 },
                 "en": {
-                  "q": "You are on a two-way road and a pedestrian refuge appears in the middle of the roadway. How do you get round it?",
+                  "q": "You drive on a road with traffic both ways, and a pedestrian refuge appears mid-roadway. How do you get round it?",
                   "options": [
                     "Keeping it on your left, that is, passing on its right",
                     "Keeping it on your right, so as not to use the shoulder",
@@ -2492,7 +2588,7 @@
                   "why": "Con tres o más carriles, estos vehículos circulan normalmente por el de la derecha. Pueden usar el contiguo si el tráfico o la vía lo aconsejan y no entorpecen a otro que les siga."
                 },
                 "exam": {
-                  "q": "A lorry of more than 3.500 kg circulates outside of town by a carriageway with three lanes in its direction. Which lanes does it use normally?",
+                  "q": "A lorry whose MAM exceeds 3,500 kg circulates outside of town by a carriageway with three lanes in its direction. Which lanes does it use normally?",
                   "options": [
                     "Any of the three, like a passenger car.",
                     "The one of the right and, if it proceeds, the contiguous.",
@@ -2568,6 +2664,54 @@
                 ],
                 "src": "RGC art. 31.1 y 31.2"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-w3j",
+                "answer": 0,
+                "es": {
+                  "q": "Vas en motocicleta por una autovía con tres carriles en tu sentido. ¿Puedes usar el carril de la izquierda?",
+                  "options": [
+                    "Sí, cuando el tráfico o la vía lo aconsejen y no entorpezcas a quien te sigue",
+                    "No: las motocicletas solo usan el derecho y el central",
+                    "Solo si el tráfico está parado en los otros dos carriles"
+                  ],
+                  "why": "Fuera de poblado circulas normalmente por el carril de la derecha. Puedes usar los demás, también el de la izquierda, cuando las circunstancias del tráfico o de la vía lo aconsejen y sin entorpecer a quien te siga."
+                },
+                "exam": {
+                  "q": "You go by motorcycle by a dual carriageway with three lanes in your direction. Can you use the left lane?",
+                  "options": [
+                    "Yes, when the traffic or the road advise it and you do not hinder who follows you.",
+                    "No: motorcycles only use the right one and the central one.",
+                    "Only if the traffic is stopped in the other two lanes."
+                  ]
+                },
+                "en": {
+                  "q": "You ride a motorcycle on an autovía with three lanes in your direction. May you use the left lane?",
+                  "options": [
+                    "Yes, when traffic or the road makes it advisable and you do not hold up anyone behind",
+                    "No: motorcycles only use the right and middle lanes",
+                    "Only if traffic is stopped in the other two lanes"
+                  ],
+                  "why": "Outside towns you normally drive in the right lane. You may use the others, the left one included, when traffic or road conditions make it advisable and you do not hold up anyone behind you."
+                },
+                "terms": [
+                  {
+                    "es": "autovía",
+                    "en": "dual carriageway"
+                  },
+                  {
+                    "es": "carril",
+                    "en": "lane"
+                  },
+                  {
+                    "es": "entorpecer",
+                    "en": "to hinder"
+                  }
+                ],
+                "src": "RGC art. 31.1"
+              }
             }
           ]
         },
@@ -2639,6 +2783,54 @@
                   }
                 ],
                 "src": "RGC arts. 29.1 y 33"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-w3k",
+                "answer": 1,
+                "es": {
+                  "q": "Una autovía con tres carriles marcados por sentido cruza tu ciudad. En ese tramo, ¿puedes ir por el carril que mejor convenga a tu destino, como en una calle?",
+                  "options": [
+                    "Sí, porque estás dentro de poblado",
+                    "No: esa regla del poblado no vale en autopistas ni autovías",
+                    "Sí, pero solo de noche, con poco tráfico"
+                  ],
+                  "why": "En poblado, con dos o más carriles marcados en tu sentido, eliges el carril que mejor convenga a tu destino. La norma excluye las autopistas y las autovías, aunque pasen por un poblado."
+                },
+                "exam": {
+                  "q": "A dual carriageway with three lanes marked in each direction crosses your city. In that section, can you choose the lane most convenient for your destination, as in a street?",
+                  "options": [
+                    "Yes, because you are inside a town.",
+                    "No: that rule of the town is not valid on motorways nor dual carriageways.",
+                    "Yes, but only at night, with little traffic."
+                  ]
+                },
+                "en": {
+                  "q": "An autovía with three marked lanes each way runs through your city. On that stretch, may you use whichever lane best suits your destination, as on a city street?",
+                  "options": [
+                    "Yes, because you are inside a town",
+                    "No: that in-town rule does not apply on autopistas or autovías",
+                    "Yes, but only at night with light traffic"
+                  ],
+                  "why": "In a town, with two or more marked lanes in your direction, you choose the lane that best suits your destination. The rule leaves out autopistas and autovías, even where they pass through a town."
+                },
+                "terms": [
+                  {
+                    "es": "poblado",
+                    "en": "town, built-up area"
+                  },
+                  {
+                    "es": "autovía",
+                    "en": "dual carriageway"
+                  },
+                  {
+                    "es": "autopista",
+                    "en": "motorway"
+                  }
+                ],
+                "src": "RGC art. 33"
               }
             },
             {
@@ -3243,6 +3435,54 @@
               }
             },
             {
+              "t": "check",
+              "q": {
+                "id": "road-s4t",
+                "answer": 0,
+                "es": {
+                  "q": "Vas en motocicleta por una calle con un carril marcado con la inscripción BUS y ninguna señal autoriza a las motos. ¿Puedes circular por ese carril para avanzar más deprisa?",
+                  "options": [
+                    "No: el carril está reservado a los autobuses",
+                    "Sí: las motos ocupan poco espacio",
+                    "Sí, si los otros carriles están atascados"
+                  ],
+                  "why": "El uso de los carriles reservados se ajusta a sus señales. La inscripción BUS reserva el carril a los autobuses; una moto no circula por él salvo que una señal lo permita."
+                },
+                "exam": {
+                  "q": "You go by motorcycle by a street with a lane marked with the inscription BUS and no sign authorises motorcycles. Can you circulate by that lane in order to advance faster?",
+                  "options": [
+                    "No: the lane is reserved for the buses.",
+                    "Yes: motorcycles occupy little space.",
+                    "Yes, if the other lanes are jammed."
+                  ]
+                },
+                "en": {
+                  "q": "You ride a motorcycle on a street with a lane marked BUS, and no sign allows motorcycles. May you ride in that lane to get ahead faster?",
+                  "options": [
+                    "No: the lane is reserved for buses",
+                    "Yes: motorcycles take up little room",
+                    "Yes, if the other lanes are jammed"
+                  ],
+                  "why": "Reserved lanes are used as their signs say. The BUS marking reserves the lane for buses; a motorcycle does not ride in it unless a sign allows it."
+                },
+                "terms": [
+                  {
+                    "es": "carril bus",
+                    "en": "bus lane"
+                  },
+                  {
+                    "es": "carril reservado",
+                    "en": "reserved lane"
+                  },
+                  {
+                    "es": "inscripción",
+                    "en": "inscription, painted word"
+                  }
+                ],
+                "src": "RGC art. 35.1; RGC Anexo I, ap. 5.2 (marca vial M-6.1)"
+              }
+            },
+            {
               "t": "rule",
               "text": {
                 "es": "Las líneas que separan los carriles especiales son **más anchas**: de 0,30 o 0,40 metros, frente a los 0,10 o 0,15 metros de una línea normal. Separan carriles de cambio de velocidad, carriles de trenzado, carriles reservados a ciertos vehículos (autobuses, taxis) o carriles adicionales para vehículos lentos.",
@@ -3443,6 +3683,150 @@
                 ],
                 "src": "RGC art. 35.2.a"
               }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "La señal «Carril reservado para vehículos con alta ocupación» (S-51b) indica uno o varios carriles **solo para VAO**. Su imagen lleva el **número de personas** a partir del cual se considera alta ocupación en ese tramo.",
+                "en": "The sign \"Lane reserved for high-occupancy vehicles\" (S-51b) marks one or more lanes **for VAO only**. Its picture shows the **number of people** from which a vehicle counts as high-occupancy on that stretch."
+              },
+              "src": "RGC Anexo I, ap. 5.1 (S-51b)"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-s4p",
+                "answer": 0,
+                "es": {
+                  "q": "¿Cómo puede ser la reserva de un carril para vehículos con alta ocupación (VAO)?",
+                  "options": [
+                    "Permanente o temporal, con horario fijo o según el tráfico",
+                    "Siempre temporal, solo en las horas punta",
+                    "Siempre permanente, todos los días y a todas horas"
+                  ],
+                  "why": "La reserva de carriles VAO puede ser permanente o temporal, con horario fijo o en función del estado de la circulación, según lo decida la autoridad de tráfico."
+                },
+                "exam": {
+                  "q": "How can the reservation of a lane for high occupancy vehicles (HOV) be?",
+                  "options": [
+                    "Permanent or temporary, with fixed timetable or according to the traffic.",
+                    "Always temporary, only in the rush hours.",
+                    "Always permanent, all the days and at all hours."
+                  ]
+                },
+                "en": {
+                  "q": "How may a lane be reserved for high-occupancy vehicles (VAO)?",
+                  "options": [
+                    "Permanently or temporarily, on a fixed schedule or by traffic conditions",
+                    "Only temporarily, at rush hour",
+                    "Only permanently, every day around the clock"
+                  ],
+                  "why": "A VAO lane may be reserved permanently or temporarily, on a fixed schedule or depending on traffic, as the traffic authority decides."
+                },
+                "terms": [
+                  {
+                    "es": "carril VAO",
+                    "en": "HOV lane (high occupancy vehicles)"
+                  },
+                  {
+                    "es": "habilitación",
+                    "en": "enabling, opening"
+                  }
+                ],
+                "src": "RGC art. 35.2.b"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-s4q",
+                "answer": 1,
+                "es": {
+                  "q": "Conduces solo un vehículo mixto adaptable que lleva la señal de persona con discapacidad. El tramo VAO exige dos ocupantes. ¿Puedes usar el carril VAO?",
+                  "options": [
+                    "No: siempre hacen falta los ocupantes que fija el tramo",
+                    "Sí: con esa señal basta con el conductor",
+                    "Sí, pero solo si eres conductor novel"
+                  ],
+                  "why": "Los vehículos autorizados en el carril VAO pueden usarlo con solo el conductor si llevan la señal V-15 o la tarjeta de estacionamiento para personas con discapacidad y movilidad reducida."
+                },
+                "exam": {
+                  "q": "You drive alone an adaptable mixed-use vehicle that carries the sign of person with disability. The HOV section requires two occupants. Can you use the HOV lane?",
+                  "options": [
+                    "No: the occupants that the section fixes are always necessary.",
+                    "Yes: with that sign the driver is sufficient.",
+                    "Only when the driver is a novice."
+                  ]
+                },
+                "en": {
+                  "q": "You are alone in an adaptable mixed-use vehicle displaying the disability sign. The VAO stretch requires two occupants. May you use the VAO lane?",
+                  "options": [
+                    "No: you always need the occupants the stretch requires",
+                    "Yes: with that sign the driver alone is enough",
+                    "Only when the driver is a new driver"
+                  ],
+                  "why": "Vehicles allowed in a VAO lane may use it with only the driver on board if they display the V-15 sign or the parking card for people with disabilities and reduced mobility."
+                },
+                "terms": [
+                  {
+                    "es": "vehículo mixto adaptable",
+                    "en": "adaptable mixed-use vehicle"
+                  },
+                  {
+                    "es": "ocupante",
+                    "en": "occupant"
+                  },
+                  {
+                    "es": "carril VAO",
+                    "en": "HOV lane"
+                  }
+                ],
+                "src": "RGC art. 35.2.a"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-s4r",
+                "answer": 2,
+                "es": {
+                  "q": "Sobre un carril ves la señal «Carril reservado para vehículos con alta ocupación» con un 3 dibujado. ¿Qué indica ese número?",
+                  "options": [
+                    "La velocidad mínima en el carril, 30 km/h",
+                    "El número de carriles que quedan reservados",
+                    "Cuántas personas, como mínimo, deben ir en el vehículo"
+                  ],
+                  "why": "En esa señal figura el número de personas a partir del cual se considera alta ocupación. Con un 3, el vehículo debe llevar tres personas o más."
+                },
+                "exam": {
+                  "q": "Over a lane you see the sign of lane reserved for vehicles of high occupancy, with a 3 drawn. What does that number indicate?",
+                  "options": [
+                    "The minimum speed in the lane, 30 km/h.",
+                    "The number of lanes that remain reserved.",
+                    "How many persons, as a minimum, must go in the vehicle."
+                  ]
+                },
+                "en": {
+                  "q": "Over a lane you see the sign for a lane kept for high-occupancy vehicles, with a 3 on it. What does the number mean?",
+                  "options": [
+                    "The lane's minimum speed, 30 km/h",
+                    "How many lanes are reserved",
+                    "The minimum number of people in the vehicle"
+                  ],
+                  "why": "That sign shows the number of people from which a vehicle counts as high-occupancy. With a 3, the vehicle must carry three or more people."
+                },
+                "terms": [
+                  {
+                    "es": "alta ocupación",
+                    "en": "high occupancy"
+                  },
+                  {
+                    "es": "carril reservado",
+                    "en": "reserved lane"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1 (S-51b)"
+              }
             }
           ]
         },
@@ -3518,6 +3902,13 @@
                   }
                 }
               ]
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "La norma del carril reversible **no limita los tipos de vehículo**. Es distinto del carril en sentido contrario por fluidez, que solo admite motocicletas y turismos.",
+                "en": "The reversible-lane rule **does not limit the types of vehicle**. That is unlike a lane opened against the usual direction for traffic flow, which only admits motorcycles and cars."
+              }
             },
             {
               "t": "check",
@@ -3654,6 +4045,54 @@
                 ],
                 "src": "RGC Anexo I, ap. 4.3"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-s4s",
+                "answer": 1,
+                "es": {
+                  "q": "Conduces una furgoneta. El carril reversible está abierto en tu sentido y ninguna señal prohíbe tu vehículo. ¿Puedes usarlo?",
+                  "options": [
+                    "No: solo pueden usarlo motocicletas y turismos",
+                    "Sí, con al menos la luz de cruce encendida",
+                    "Sí, pero solo si no supera los 3.500 kg y es de día"
+                  ],
+                  "why": "La norma del carril reversible no limita los tipos de vehículo. Quien circula por él lleva al menos la luz de cruce, de día y de noche. El límite a motocicletas y turismos es del carril en sentido contrario por fluidez."
+                },
+                "exam": {
+                  "q": "You drive a van. The reversible lane is open in your direction and no sign prohibits your vehicle. Can you use it?",
+                  "options": [
+                    "No: only motorcycles and passenger cars can use it.",
+                    "Yes, with at least the dipped beam switched on.",
+                    "Yes, but only if it does not exceed 3,500 kg and it is daytime."
+                  ]
+                },
+                "en": {
+                  "q": "You drive a van. The reversible lane is open in your direction and no sign bans your vehicle. May you use it?",
+                  "options": [
+                    "No: only motorcycles and cars may use it",
+                    "Yes, with at least your low beams on",
+                    "Yes, but only under 3,500 kg and in daylight"
+                  ],
+                  "why": "The reversible-lane rule does not limit vehicle types. Anyone using it keeps at least the low beams on, day and night. The motorcycles-and-cars limit belongs to lanes opened against traffic for flow."
+                },
+                "terms": [
+                  {
+                    "es": "carril reversible",
+                    "en": "reversible lane"
+                  },
+                  {
+                    "es": "furgoneta",
+                    "en": "van"
+                  },
+                  {
+                    "es": "luz de cruce",
+                    "en": "dipped beam, low beam"
+                  }
+                ],
+                "src": "RGC art. 40.1"
+              }
             }
           ]
         },
@@ -3760,7 +4199,7 @@
                   ]
                 },
                 "en": {
-                  "q": "The authority opens a lane for driving in the opposite direction to normal to keep traffic flowing. Which vehicles may use it?",
+                  "q": "The authority opens a contraflow lane, against the normal direction, to keep traffic flowing. Which vehicles may use it?",
                   "options": [
                     "All, with low beams on",
                     "Only motorcycles and cars",
@@ -3820,6 +4259,102 @@
                   {
                     "es": "velocidad mínima",
                     "en": "minimum speed"
+                  }
+                ],
+                "src": "RGC art. 41.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-s4n",
+                "answer": 2,
+                "es": {
+                  "q": "Circulas por un carril habilitado en sentido contrario al habitual y el coche de delante va despacio. ¿Puedes pasar al carril normal de tu sentido para adelantarlo?",
+                  "options": [
+                    "Sí, si la línea de conos tiene un hueco",
+                    "Sí, si no tocas ningún cono al pasar",
+                    "No: no puedes invadir los carriles del sentido normal, ni para adelantar"
+                  ],
+                  "why": "Quien circula por un carril habilitado en sentido contrario al habitual no puede desplazarse a los carriles del sentido normal, ni siquiera para adelantar."
+                },
+                "exam": {
+                  "q": "You circulate by a lane enabled for the contrary direction to the habitual and the car in front goes slowly. Can you pass to the normal lane of your direction in order to overtake it?",
+                  "options": [
+                    "Yes, if the line of cones has a gap.",
+                    "Yes, if you do not touch any cone when passing.",
+                    "No: you cannot invade the lanes of the normal direction, not even in order to overtake."
+                  ]
+                },
+                "en": {
+                  "q": "You are in a lane opened against the usual direction, and the car ahead is slow. May you move into the normal lane of your direction to pass it?",
+                  "options": [
+                    "Yes, if there is a gap in the line of cones",
+                    "Yes, if you touch no cone as you cross",
+                    "No: you may not move into the normal-direction lanes, not even to pass"
+                  ],
+                  "why": "Drivers in a lane opened against the usual direction may not move sideways into the normal-direction lanes, not even to pass."
+                },
+                "terms": [
+                  {
+                    "es": "carril habilitado",
+                    "en": "enabled lane"
+                  },
+                  {
+                    "es": "sentido contrario al habitual",
+                    "en": "opposite direction to the usual one"
+                  },
+                  {
+                    "es": "invadir",
+                    "en": "to invade, to move into"
+                  }
+                ],
+                "src": "RGC art. 41.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-s4o",
+                "answer": 0,
+                "es": {
+                  "q": "Es de día. Vas por el carril normal de tu sentido, justo al lado de un carril habilitado para circular en sentido contrario al habitual. ¿Qué luz llevas?",
+                  "options": [
+                    "Al menos la luz de cruce",
+                    "Ninguna, porque es de día",
+                    "Solo las luces de posición"
+                  ],
+                  "why": "Los conductores de los carriles normales contiguos al habilitado en sentido contrario llevan al menos la luz de cruce, de día y de noche, y no pueden invadir ese carril."
+                },
+                "exam": {
+                  "q": "It is daytime. You go by the normal lane of your direction, just next to a lane enabled for the contrary direction to the habitual. Which light do you carry?",
+                  "options": [
+                    "At least the dipped beam.",
+                    "None, because it is daytime.",
+                    "Only the position lights."
+                  ]
+                },
+                "en": {
+                  "q": "It is daytime. You are in the normal lane of your direction, right next to a lane opened against the usual direction. What lights do you use?",
+                  "options": [
+                    "At least the low beams",
+                    "None, because it is daytime",
+                    "Only the parking lights"
+                  ],
+                  "why": "Drivers in the normal lanes next to a lane opened against the usual direction keep at least the low beams on, day and night, and may not move into that lane."
+                },
+                "terms": [
+                  {
+                    "es": "contiguo",
+                    "en": "adjacent, next to"
+                  },
+                  {
+                    "es": "luz de cruce",
+                    "en": "dipped beam, low beam"
+                  },
+                  {
+                    "es": "luz de posición",
+                    "en": "position light"
                   }
                 ],
                 "src": "RGC art. 41.1"
@@ -3922,7 +4457,7 @@
                   ]
                 },
                 "en": {
-                  "q": "Because of roadworks on the roadway, a lane is opened for driving in the opposite direction to normal. You drive a truck and no sign forbids it. May you use that lane?",
+                  "q": "Because of roadworks, a contraflow lane is opened against the normal direction. You drive a truck and no sign forbids it. May you use that lane?",
                   "options": [
                     "No: only motorcycles and cars may use it",
                     "Yes, with low beams and between 60 and 80 km/h",
@@ -4079,7 +4614,8 @@
       "src": [
         "Reglamento General de Circulación (RD 1428/2003), arts. 35, 40.1, 41.1, 42.1, 83.3 y 94.1, y anexo I, apartado 4.3 (semáforos de carril) (redacción vigente desde 2026-10-01 en el art. 35)",
         "RGC Anexo I, ap. 5.2 (marcas viales M-1.1 a M-1.7, M-2.4, M-6.1 y M-6.2)",
-        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), anexo I, punto 81"
+        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), anexo I, punto 81",
+        "RGC Anexo I, ap. 5.1 (señal S-51b, Catálogo de señales)"
       ]
     },
     {
@@ -4473,7 +5009,7 @@
                   "options": [
                     "Ride in single file, one behind the other",
                     "Stay two abreast and turn on their lights",
-                    "Move onto the shoulder even if it is not passable"
+                    "Move onto the shoulder, usable or not"
                   ],
                   "why": "Between sunset and sunrise, cyclists who use the roadway because there is no passable shoulder must ride in single file."
                 },

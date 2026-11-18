@@ -196,6 +196,14 @@
               }
             },
             {
+              "t": "rule",
+              "text": {
+                "es": "Salvo causa justificada, nadie puede instalar, retirar, trasladar, ocultar o modificar la señalización de una vía sin permiso de su titular o de la autoridad de tráfico. Tampoco se pueden poner junto a las señales carteles u objetos que confundan o les quiten visibilidad.",
+                "en": "Except for a justified reason, nobody may install, remove, move, hide or alter a road's signs without permission from the road owner or the traffic authority. Nor may anyone put boards or objects near signs that confuse drivers or make the signs harder to see."
+              },
+              "src": "RGC art. 140.2 y 140.3"
+            },
+            {
               "t": "check",
               "q": {
                 "id": "signs-order-a",
@@ -233,6 +241,50 @@
                   }
                 ],
                 "src": "RGC art. 132.2"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-order-i",
+                "answer": 2,
+                "es": {
+                  "q": "Un conductor cree que una señal de la carretera está mal colocada. ¿Puede quitarla o moverla?",
+                  "options": [
+                    "Sí, si después avisa a la policía",
+                    "No, nunca, aunque haya una causa justificada",
+                    "No, salvo causa justificada o con permiso del titular de la vía"
+                  ],
+                  "why": "Nadie puede instalar, retirar, trasladar, ocultar ni modificar una señal sin permiso del titular de la vía o de la autoridad de tráfico, salvo causa justificada."
+                },
+                "exam": {
+                  "q": "A driver believes that a sign of the road is badly placed. Can he remove it or move it?",
+                  "options": [
+                    "Yes, if afterwards he notifies the police.",
+                    "No, never, even if there is a justified cause.",
+                    "No, except for justified cause or with permission of the owner of the road."
+                  ]
+                },
+                "en": {
+                  "q": "A driver thinks a road sign is in the wrong place. May they remove it or move it?",
+                  "options": [
+                    "Yes, as long as they tell the police afterward",
+                    "No, never, not even for a justified reason",
+                    "No, except for a justified reason or with the road owner's permission"
+                  ],
+                  "why": "Nobody may install, remove, move, hide or alter a sign without permission from the road owner or the traffic authority, except for a justified reason."
+                },
+                "terms": [
+                  {
+                    "es": "titular de la vía",
+                    "en": "road owner (owner of the road)"
+                  },
+                  {
+                    "es": "causa justificada",
+                    "en": "justified cause"
+                  }
+                ],
+                "src": "RGC art. 140.2"
               }
             }
           ]
@@ -356,6 +408,50 @@
                   }
                 ],
                 "src": "RGC art. 133.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-order-h",
+                "answer": 0,
+                "es": {
+                  "q": "El semáforo de tu carril está en verde, pero una fila de conos cierra ese carril más adelante. ¿Qué obedeces?",
+                  "options": [
+                    "Los conos: el balizamiento va antes que el semáforo",
+                    "El semáforo, porque una luz manda más que un cono",
+                    "Lo que diga la marca vial pintada en el carril"
+                  ],
+                  "why": "En el orden de preferencia, la señalización circunstancial y el balizamiento van justo después de los agentes y antes que los semáforos, las señales verticales y las marcas viales."
+                },
+                "exam": {
+                  "q": "The traffic light of your lane is in green, but a row of cones closes that lane further ahead. What do you obey?",
+                  "options": [
+                    "The cones: the beaconing goes before the traffic light.",
+                    "The traffic light, because a light commands more than a cone.",
+                    "What the road marking painted on the lane says."
+                  ]
+                },
+                "en": {
+                  "q": "The traffic light for your lane is green, but a line of cones closes that lane farther ahead. What do you obey?",
+                  "options": [
+                    "The cones: beacons and barriers outrank traffic lights",
+                    "The traffic light, because a light outranks a cone",
+                    "Whatever the marking painted in the lane says"
+                  ],
+                  "why": "In the order of precedence, temporary signs and beacons come right after officers and before traffic lights, vertical signs and road markings."
+                },
+                "terms": [
+                  {
+                    "es": "balizamiento",
+                    "en": "beaconing (cones, beacons, barriers)"
+                  },
+                  {
+                    "es": "orden de preferencia",
+                    "en": "order of priority between signals"
+                  }
+                ],
+                "src": "RGC art. 133.1 y 133.2"
               }
             }
           ]
@@ -557,7 +653,7 @@
                   "why": "Quien sigue de frente o gira a la izquierda solo obedece las señales y semáforos situados inmediatamente a su izquierda cuando las de ambos lados son distintas."
                 },
                 "exam": {
-                  "q": "You are going to continue straight ahead. The sign of your right and the one of your left give different indications. Which do you obey?",
+                  "q": "You will follow straight on. The sign on your right and the one on your left give different indications. Which do you obey?",
                   "options": [
                     "The one of your right.",
                     "The one of your left.",
@@ -938,7 +1034,8 @@
       "src": [
         "Reglamento General de Circulación (RD 1428/2003), arts. 131 a 133, 135, 137, 142.1, 144.1, 145.1, 145.3 y 145.4",
         "RGC Anexo I, apartados 1.1 y 5 (Tomo I, 2.5 y 2.6), en la redacción del RD 465/2025",
-        "Norma 8.1-IC señalización vertical (Orden FOM/534/2014, BOE-A-2014-3654), apartados 2.1, 3.3.2.1 y 4.3.2.1"
+        "Norma 8.1-IC señalización vertical (Orden FOM/534/2014, BOE-A-2014-3654), apartados 2.1, 3.3.2.1 y 4.3.2.1",
+        "Reglamento General de Circulación (RD 1428/2003), art. 140"
       ]
     },
     {
@@ -1086,7 +1183,7 @@
                   "q": "What can a complementary panel indicate under a danger sign?",
                   "options": [
                     "The distance to the danger or its length.",
-                    "The maximum speed of the road.",
+                    "The maximum speed permitted on that road.",
                     "The permit necessary in order to pass."
                   ]
                 },
@@ -1094,7 +1191,7 @@
                   "q": "What can a supplementary panel below a warning sign show?",
                   "options": [
                     "The distance to the danger or its length",
-                    "The maximum speed of the road",
+                    "The road's speed limit",
                     "The license needed to pass"
                   ],
                   "why": "A supplementary panel can show the distance to the start of the dangerous stretch or the length of the stretch."
@@ -1160,6 +1257,26 @@
                 "en": "If no sign regulates priority, you must yield to vehicles approaching from your right, with exceptions: a paved road against an unpaved one, vehicles on rails, roundabouts, and motorways and dual carriageways."
               },
               "src": "RGC art. 57.1"
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "p-1",
+                "p-1a",
+                "p-1b"
+              ],
+              "caption": {
+                "es": "P-1: intersección con prioridad. P-1a: con prioridad sobre una vía a la derecha. P-1b: con prioridad sobre una vía a la izquierda.",
+                "en": "P-1: junction with priority. P-1a: with priority over a road on the right. P-1b: with priority over a road on the left."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "P-1 avisa de un cruce con una vía cuyos usuarios deben **ceder el paso**: tú tienes prioridad. P-1a y P-1b dicen lo mismo de una vía que llega por la derecha o por la izquierda. El trazo grueso es tu vía.",
+                "en": "P-1 warns of a junction with a road whose users must **give way**: you have priority. P-1a and P-1b say the same of a road joining from the right or from the left. The thick stroke is your road."
+              },
+              "src": "RGC Anexo I, ap. 5.1, 3.1 (P-1, P-1a y P-1b)"
             },
             {
               "t": "check",
@@ -1245,6 +1362,92 @@
                 ],
                 "src": "RGC art. 56.4",
                 "sign": "p-1c"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-warn-i",
+                "answer": 1,
+                "es": {
+                  "q": "Pasas esta señal y, en el cruce, llega un coche por la vía de la derecha. ¿Quién pasa primero?",
+                  "options": [
+                    "Él, porque viene por tu derecha",
+                    "Tú: los de esa vía deben cederte el paso",
+                    "El que llegue antes al cruce"
+                  ],
+                  "why": "La señal P-1a avisa de un cruce con una vía a la derecha cuyos usuarios deben ceder el paso. La señal deja sin efecto la regla de la derecha."
+                },
+                "exam": {
+                  "q": "You pass this sign and, at the intersection, a car arrives by the road on the right. Who passes first?",
+                  "options": [
+                    "He, because he comes by your right.",
+                    "You: those of that road must yield way to you.",
+                    "The one who arrives before at the intersection."
+                  ]
+                },
+                "en": {
+                  "q": "You pass this sign, and at the junction a car arrives on the road from the right. Who goes first?",
+                  "options": [
+                    "The other car, because it comes from your right",
+                    "You: traffic on that road must give way to you",
+                    "Whoever reaches the junction first"
+                  ],
+                  "why": "Sign P-1a warns of a junction with a road on the right whose users must give way. The sign overrides the yield-to-the-right rule."
+                },
+                "terms": [
+                  {
+                    "es": "intersección con prioridad",
+                    "en": "intersection with priority"
+                  },
+                  {
+                    "es": "ceder el paso",
+                    "en": "give way / yield way"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.1 (P-1a)",
+                "sign": "p-1a"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-warn-j",
+                "answer": 0,
+                "es": {
+                  "q": "¿Qué indica esta señal?",
+                  "options": [
+                    "Un cruce próximo en el que los de la otra vía deben cederte el paso",
+                    "Un cruce próximo en el que cedes el paso a la derecha",
+                    "Un tramo en el que está prohibido girar"
+                  ],
+                  "why": "P-1 es «Intersección con prioridad»: avisa de un cruce con una vía cuyos usuarios deben ceder el paso."
+                },
+                "exam": {
+                  "q": "What does this sign indicate?",
+                  "options": [
+                    "A nearby intersection in which those of the other road must yield way to you.",
+                    "A nearby intersection in which you yield way to the right.",
+                    "A section in which it is prohibited to turn."
+                  ]
+                },
+                "en": {
+                  "q": "What does this sign mean?",
+                  "options": [
+                    "A junction ahead where traffic on the other road must give way to you",
+                    "A junction ahead where you give way to the right",
+                    "A stretch where turning is forbidden"
+                  ],
+                  "why": "P-1 is \"Junction with priority\": it warns of a junction with a road whose users must give way."
+                },
+                "terms": [
+                  {
+                    "es": "intersección con prioridad",
+                    "en": "intersection with priority"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.1 (P-1)",
+                "sign": "p-1"
               }
             }
           ]
@@ -1586,6 +1789,24 @@
               ]
             },
             {
+              "t": "signs",
+              "ids": [
+                "p-6"
+              ],
+              "caption": {
+                "es": "P-6: cruce de tranvía.",
+                "en": "P-6: tram crossing."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "P-6 avisa de un cruce con una línea de **tranvía**, que tiene prioridad de paso.",
+                "en": "P-6 warns of a crossing with a **tram** line, which has right of way."
+              },
+              "src": "RGC Anexo I, ap. 5.1, 3.1 (P-6)"
+            },
+            {
               "t": "check",
               "q": {
                 "id": "signs-warn-g",
@@ -1624,6 +1845,51 @@
                 ],
                 "src": "Catálogo oficial (señal P-27)",
                 "sign": "p-27"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-warn-k",
+                "answer": 2,
+                "es": {
+                  "q": "Te acercas a esta señal. En el cruce que anuncia, ¿quién tiene prioridad?",
+                  "options": [
+                    "El vehículo que venga por la derecha",
+                    "Tú, si vas por la vía más ancha",
+                    "El tranvía"
+                  ],
+                  "why": "P-6 avisa de un cruce con una línea de tranvía, y el tranvía tiene prioridad de paso."
+                },
+                "exam": {
+                  "q": "You approach this sign. At the crossing that it announces, who has priority?",
+                  "options": [
+                    "The vehicle that comes by the right.",
+                    "You, if you go by the widest road.",
+                    "The tram."
+                  ]
+                },
+                "en": {
+                  "q": "You are approaching this sign. At the crossing it announces, who has right of way?",
+                  "options": [
+                    "The vehicle coming from the right",
+                    "You, if you are on the wider road",
+                    "The tram"
+                  ],
+                  "why": "P-6 warns of a crossing with a tram line, and the tram has right of way."
+                },
+                "terms": [
+                  {
+                    "es": "tranvía",
+                    "en": "tram"
+                  },
+                  {
+                    "es": "prioridad de paso",
+                    "en": "right of way"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.1 (P-6)",
+                "sign": "p-6"
               }
             }
           ]
@@ -1916,6 +2182,14 @@
               "src": "RGC art. 46.1.g"
             },
             {
+              "t": "rule",
+              "text": {
+                "es": "Las **guías sonoras** son pequeñas hendiduras en el firme, o resaltes en la marca vial, que vibran y suenan al pisarlas. Sirven para avisarte de que te sales de tu trayectoria sin querer.",
+                "en": "**Rumble strips** are small grooves in the surface, or ridges on the road marking, that vibrate and make a noise when you drive on them. They warn you that you are drifting off your path without meaning to."
+              },
+              "src": "RGC Anexo I, ap. 3.1.2"
+            },
+            {
               "t": "check",
               "q": {
                 "id": "signs-road-b",
@@ -1953,6 +2227,50 @@
                   }
                 ],
                 "src": "RGC art. 46.1.g"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-road-t",
+                "answer": 0,
+                "es": {
+                  "q": "Te desvías un poco hacia el borde y el coche vibra y hace ruido al pisar unas hendiduras junto a la línea. ¿Para qué están?",
+                  "options": [
+                    "Para avisarte de que te sales de tu trayectoria sin querer",
+                    "Para que el agua de lluvia se vaya del firme",
+                    "Para marcar dónde puedes parar en el arcén"
+                  ],
+                  "why": "Son guías sonoras: hendiduras o resaltes que vibran y suenan al pisarlos para alertar de un desvío involuntario."
+                },
+                "exam": {
+                  "q": "You deviate a little towards the edge and the car vibrates and makes noise on stepping on some grooves next to the line. What are they for?",
+                  "options": [
+                    "To warn you that you leave your trajectory involuntarily.",
+                    "So that the rain water goes away from the road surface.",
+                    "To mark where you can stop on the hard shoulder."
+                  ]
+                },
+                "en": {
+                  "q": "You drift a little toward the edge, and the car vibrates and rumbles over some grooves next to the line. What are they for?",
+                  "options": [
+                    "To warn you that you are leaving your path without meaning to",
+                    "To drain rainwater off the road surface",
+                    "To mark where you may stop on the shoulder"
+                  ],
+                  "why": "They are rumble strips: grooves or ridges that vibrate and make noise to warn you of an unintended drift."
+                },
+                "terms": [
+                  {
+                    "es": "guía sonora",
+                    "en": "sound guide / rumble strip"
+                  },
+                  {
+                    "es": "firme",
+                    "en": "road surface"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 3.1.2"
               }
             }
           ]
@@ -2108,6 +2426,24 @@
               "src": "RGC art. 45"
             },
             {
+              "t": "signs",
+              "ids": [
+                "p-50"
+              ],
+              "caption": {
+                "es": "P-50: otros peligros.",
+                "en": "P-50: other dangers."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "P-50 avisa de un peligro **distinto** de los que anuncian las demás señales de peligro. Un panel debajo puede decir cuál es.",
+                "en": "P-50 warns of a danger **other** than those the other warning signs announce. A panel underneath may say what it is."
+              },
+              "src": "RGC Anexo I, ap. 5.1, 3.1 (P-50)"
+            },
+            {
               "t": "check",
               "q": {
                 "id": "signs-road-d",
@@ -2145,6 +2481,47 @@
                   }
                 ],
                 "src": "RGC art. 45"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-road-v",
+                "answer": 2,
+                "es": {
+                  "q": "¿Qué significa esta señal?",
+                  "options": [
+                    "Que la carretera se acaba más adelante",
+                    "Que hay un control de policía",
+                    "Que se acerca un peligro que no tiene una señal propia"
+                  ],
+                  "why": "P-50, «Otros peligros», avisa de un peligro distinto de los que advierten las demás señales."
+                },
+                "exam": {
+                  "q": "What does this sign mean?",
+                  "options": [
+                    "That the road ends further ahead.",
+                    "That there is a police control.",
+                    "That a danger approaches which does not have its own sign."
+                  ]
+                },
+                "en": {
+                  "q": "What does this sign mean?",
+                  "options": [
+                    "That the road ends farther ahead",
+                    "That there is a police checkpoint",
+                    "That a danger is coming that has no sign of its own"
+                  ],
+                  "why": "P-50, \"Other dangers\", warns of a danger other than those the other signs announce."
+                },
+                "terms": [
+                  {
+                    "es": "otros peligros",
+                    "en": "other dangers"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.1 (P-50)",
+                "sign": "p-50"
               }
             }
           ]
@@ -2225,6 +2602,18 @@
                   }
                 ],
                 "src": "RGC arts. 46.1.b y 110.1"
+              }
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "p-20a",
+                "p-20b",
+                "p-20c"
+              ],
+              "caption": {
+                "es": "P-20a: paso para peatones. P-20b: peatones. P-20c: pasos para peatones y ciclistas.",
+                "en": "P-20a: pedestrian crossing. P-20b: pedestrians. P-20c: pedestrian and cycle crossings."
               }
             },
             {
@@ -2336,6 +2725,88 @@
                   }
                 ],
                 "src": "RGC Anexo I, ap. 5.1, 3.1 (P-21b)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-road-z",
+                "answer": 1,
+                "es": {
+                  "q": "¿De qué avisa esta señal?",
+                  "options": [
+                    "De un tramo con muchos peatones por la calzada",
+                    "De uno o varios pasos para peatones más adelante",
+                    "De una calle peatonal en la que no puedes entrar"
+                  ],
+                  "why": "P-20a, «Paso para peatones», avisa de uno o varios pasos para peatones próximos. La de un peatón sin franjas, P-20b, avisa de un tramo con mucho tránsito de peatones."
+                },
+                "exam": {
+                  "q": "Of what does this sign warn?",
+                  "options": [
+                    "Of a section with many pedestrians on the carriageway.",
+                    "Of one or several pedestrian crossings further ahead.",
+                    "Of a pedestrian street in which you cannot enter."
+                  ]
+                },
+                "en": {
+                  "q": "What does this sign warn you about?",
+                  "options": [
+                    "A stretch with many pedestrians on the roadway",
+                    "One or more pedestrian crossings ahead",
+                    "A pedestrian street you may not enter"
+                  ],
+                  "why": "P-20a, \"Pedestrian crossing\", warns of one or more crossings ahead. The one with a pedestrian and no stripes, P-20b, warns of a stretch with heavy pedestrian traffic."
+                },
+                "terms": [
+                  {
+                    "es": "paso para peatones",
+                    "en": "pedestrian crossing"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.1 (P-20a)",
+                "sign": "p-20a"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-road-w",
+                "answer": 0,
+                "es": {
+                  "q": "¿Qué encontrarás más adelante, según esta señal?",
+                  "options": [
+                    "Un paso para peatones junto a un paso para ciclistas, o compartido con él",
+                    "Una vía ciclista en la que los peatones no pueden entrar",
+                    "Un carril bici que sube a la acera"
+                  ],
+                  "why": "P-20c avisa de un paso para peatones adosado a un paso para ciclistas o compartido con él."
+                },
+                "exam": {
+                  "q": "What will you find further ahead, according to this sign?",
+                  "options": [
+                    "A pedestrian crossing attached to a crossing for cyclists, or shared with it.",
+                    "A cycle road in which pedestrians cannot enter.",
+                    "A bicycle lane that goes up to the pavement."
+                  ]
+                },
+                "en": {
+                  "q": "According to this sign, what is ahead?",
+                  "options": [
+                    "A pedestrian crossing next to a cycle crossing, or shared with one",
+                    "A cycle path that pedestrians may not enter",
+                    "A bike lane that goes up onto the sidewalk"
+                  ],
+                  "why": "P-20c warns of a pedestrian crossing next to, or shared with, a cycle crossing."
+                },
+                "terms": [
+                  {
+                    "es": "paso para ciclistas",
+                    "en": "cycle crossing"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.1 (P-20c)",
+                "sign": "p-20c"
               }
             }
           ]
@@ -2492,7 +2963,8 @@
       "covers": [],
       "src": [
         "Reglamento General de Circulación (RD 1428/2003), arts. 45, 46.1, 60.1, 60.5, 63.1, 110.1 y 148",
-        "Catálogo oficial de señales (Anexo I, 5), nombres y significados de las señales"
+        "Catálogo oficial de señales (Anexo I, 5), nombres y significados de las señales",
+        "RGC Anexo I, apartado 3.1.2 (dispositivos de guía)"
       ]
     },
     {
@@ -2870,6 +3342,51 @@
                 ],
                 "src": "Catálogo oficial (señal R-6)"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-prio-h",
+                "answer": 1,
+                "es": {
+                  "q": "Llegas a un paso estrecho con esta señal y un coche se acerca de frente. ¿Qué haces?",
+                  "options": [
+                    "Entras deprisa, porque llegaste primero",
+                    "Esperas: no entras hasta poder cruzarlo sin hacer parar al que viene",
+                    "Avisas con las luces y entras"
+                  ],
+                  "why": "R-5, «Prioridad del sentido contrario», prohíbe entrar en el paso estrecho mientras no puedas cruzarlo sin obligar a detenerse a los que vienen de frente."
+                },
+                "exam": {
+                  "q": "You arrive at a narrow passage with this sign and a car approaches from the front. What do you do?",
+                  "options": [
+                    "You enter quickly, because you arrived first.",
+                    "You wait: you do not enter until you can cross it without making stop the one who comes.",
+                    "You warn with the lights and you enter."
+                  ]
+                },
+                "en": {
+                  "q": "You reach a narrow stretch with this sign, and a car is coming toward you. What do you do?",
+                  "options": [
+                    "Go in quickly, since you got there first",
+                    "Wait: do not go in until you can get through without making the oncoming car stop",
+                    "Flash your lights and go in"
+                  ],
+                  "why": "R-5, \"Priority for oncoming traffic\", forbids entering the narrow stretch until you can get through without making oncoming vehicles stop."
+                },
+                "terms": [
+                  {
+                    "es": "paso estrecho",
+                    "en": "narrow passage"
+                  },
+                  {
+                    "es": "sentido contrario",
+                    "en": "opposite direction / oncoming"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.2 (R-5)",
+                "sign": "r-5"
+              }
             }
           ]
         },
@@ -2962,6 +3479,96 @@
                 ],
                 "src": "RGC art. 145.2.b"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-prio-i",
+                "answer": 0,
+                "es": {
+                  "q": "Ves esta señal a la entrada de un camino. ¿Qué prohíbe?",
+                  "options": [
+                    "La circulación de toda clase de vehículos en los dos sentidos",
+                    "Solo entrar en tu sentido: de frente pueden salir vehículos",
+                    "Solo la circulación de vehículos de motor"
+                  ],
+                  "why": "R-100, «Circulación prohibida», prohíbe circular a toda clase de vehículos en ambos sentidos. La de entrada prohibida, R-101, solo prohíbe el acceso."
+                },
+                "exam": {
+                  "q": "You see this sign where a way begins. What does it prohibit?",
+                  "options": [
+                    "The circulation of all kinds of vehicles in both directions.",
+                    "Only to enter in your direction: from the front vehicles can come out.",
+                    "Only the circulation of motor vehicles."
+                  ]
+                },
+                "en": {
+                  "q": "You see this sign where a road begins. What does it forbid?",
+                  "options": [
+                    "Traffic of every kind of vehicle in both directions",
+                    "Only entering in your direction: vehicles may come out the other way",
+                    "Only motor vehicle traffic"
+                  ],
+                  "why": "R-100, \"No traffic\", forbids every kind of vehicle in both directions. The no-entry sign, R-101, only forbids going in."
+                },
+                "terms": [
+                  {
+                    "es": "circulación prohibida",
+                    "en": "circulation prohibited / no traffic"
+                  },
+                  {
+                    "es": "en ambos sentidos",
+                    "en": "in both directions"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.3 (R-100 y R-101)",
+                "sign": "r-100"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-prio-j",
+                "answer": 1,
+                "es": {
+                  "q": "Conduces un ciclomotor y llegas a esta señal. ¿Puedes entrar?",
+                  "options": [
+                    "No: prohíbe la entrada a todos los vehículos de dos ruedas",
+                    "Sí: prohíbe las motocicletas, no los ciclomotores",
+                    "Solo si no pasas de 45 km/h"
+                  ],
+                  "why": "R-104 prohíbe la entrada a motocicletas y a vehículos de tres ruedas asimilados. Para los ciclomotores hay otra señal, R-105."
+                },
+                "exam": {
+                  "q": "You drive a moped and you arrive at this sign. Can you enter?",
+                  "options": [
+                    "No: it prohibits the entry to all the two-wheeled vehicles.",
+                    "Yes: it prohibits motorcycles, not mopeds.",
+                    "Only if you do not exceed 45 km/h."
+                  ]
+                },
+                "en": {
+                  "q": "You are riding a moped and reach this sign. May you go in?",
+                  "options": [
+                    "No: it bans every two-wheeled vehicle",
+                    "Yes: it bans motorcycles, not mopeds",
+                    "Only if you stay under 45 km/h"
+                  ],
+                  "why": "R-104 bans motorcycles and three-wheelers treated as motorcycles. Mopeds have their own sign, R-105."
+                },
+                "terms": [
+                  {
+                    "es": "ciclomotor",
+                    "en": "moped"
+                  },
+                  {
+                    "es": "motocicleta",
+                    "en": "motorcycle"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.3 (R-104 y R-105)",
+                "sign": "r-104"
+              }
             }
           ]
         },
@@ -3040,6 +3647,51 @@
                   }
                 ],
                 "src": "Catálogo oficial (señal R-107)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-prio-k",
+                "answer": 2,
+                "es": {
+                  "q": "Conduces una furgoneta pequeña de reparto, muy por debajo de 3.500 kg. ¿Puedes pasar esta señal?",
+                  "options": [
+                    "Sí, porque no llega a 3.500 kg",
+                    "Sí, si va vacía",
+                    "No: vale para todos los vehículos de mercancías, sea cual sea su masa"
+                  ],
+                  "why": "R-106 prohíbe el acceso a camiones, tractocamiones y furgones o furgonetas de mercancías, independientemente de su masa."
+                },
+                "exam": {
+                  "q": "You drive a small delivery van, well below 3,500 kg. Can you pass this sign?",
+                  "options": [
+                    "Yes, because it does not reach 3,500 kg.",
+                    "Yes, if it goes empty.",
+                    "No: it is valid for all the goods vehicles, whatever their mass."
+                  ]
+                },
+                "en": {
+                  "q": "You are driving a small delivery van, well under 3,500 kg. May you go past this sign?",
+                  "options": [
+                    "Yes, because it is under 3,500 kg",
+                    "Yes, if it is empty",
+                    "No: it applies to every goods vehicle, whatever its weight"
+                  ],
+                  "why": "R-106 bans trucks, tractor units and goods vans of any mass."
+                },
+                "terms": [
+                  {
+                    "es": "furgoneta",
+                    "en": "van"
+                  },
+                  {
+                    "es": "transporte de mercancías",
+                    "en": "transport of goods"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.3 (R-106)",
+                "sign": "r-106"
               }
             }
           ]
@@ -3179,6 +3831,141 @@
                 ],
                 "src": "Catálogo oficial (señal R-205)",
                 "sign": "r-205"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-prio-l",
+                "answer": 0,
+                "es": {
+                  "q": "Esta señal limita la masa. ¿Qué masa cuenta para saber si puedes pasar?",
+                  "options": [
+                    "La que tiene el vehículo en ese momento, con su carga",
+                    "Solo la del vehículo vacío",
+                    "Solo la de la carga"
+                  ],
+                  "why": "R-201 prohíbe el paso a los vehículos cuya masa en carga supera las toneladas indicadas: cuenta el vehículo con lo que lleva."
+                },
+                "exam": {
+                  "q": "This sign limits the mass. Which mass counts to know if you can pass?",
+                  "options": [
+                    "The one that the vehicle has at that moment, with its load.",
+                    "Only that of the empty vehicle.",
+                    "Only that of the load."
+                  ]
+                },
+                "en": {
+                  "q": "This sign limits weight. Which weight counts in deciding whether you may pass?",
+                  "options": [
+                    "The vehicle's weight right then, with its load",
+                    "Only the empty vehicle's weight",
+                    "Only the load's weight"
+                  ],
+                  "why": "R-201 bans vehicles whose laden mass exceeds the tonnes shown: the vehicle counts with what it carries."
+                },
+                "terms": [
+                  {
+                    "es": "masa en carga",
+                    "en": "laden mass"
+                  },
+                  {
+                    "es": "limitación de masa",
+                    "en": "mass limitation"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.4 (R-201)",
+                "sign": "r-201"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-prio-m",
+                "answer": 1,
+                "es": {
+                  "q": "Tu vehículo mide menos que la anchura de esta señal, pero la carga sobresale por los lados y la supera. ¿Puedes pasar?",
+                  "options": [
+                    "Sí, porque el vehículo cabe",
+                    "No: cuenta la anchura máxima con la carga",
+                    "Sí, si pasas despacio y por el centro"
+                  ],
+                  "why": "R-204 prohíbe el paso a los vehículos cuya anchura máxima, incluida la carga, supere la indicada."
+                },
+                "exam": {
+                  "q": "Your vehicle measures less than the width of this sign, but the load protrudes by the sides and exceeds it. Can you pass?",
+                  "options": [
+                    "Yes, because the vehicle fits.",
+                    "No: the maximum width with the load counts.",
+                    "Yes, if you pass slowly and by the centre."
+                  ]
+                },
+                "en": {
+                  "q": "Your vehicle is narrower than the width on this sign, but the load sticks out at the sides and is wider. May you pass?",
+                  "options": [
+                    "Yes, because the vehicle fits",
+                    "No: what counts is the full width including the load",
+                    "Yes, if you go slowly down the middle"
+                  ],
+                  "why": "R-204 bans vehicles whose maximum width, load included, exceeds the figure shown."
+                },
+                "terms": [
+                  {
+                    "es": "limitación de anchura",
+                    "en": "width limitation"
+                  },
+                  {
+                    "es": "incluida la carga",
+                    "en": "including the load"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.4 (R-204)",
+                "sign": "r-204"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-prio-n",
+                "answer": 2,
+                "es": {
+                  "q": "¿Qué te obliga a hacer esta señal?",
+                  "options": [
+                    "Reducir la velocidad y pasar sin parar si no hay nadie",
+                    "Ceder el paso a quien venga por la derecha",
+                    "Detenerte y no seguir hasta cumplir lo que indica la señal"
+                  ],
+                  "why": "R-200, «Prohibición de pasar sin detenerse», marca una detención obligatoria, por ejemplo ante una aduana, un control o un peaje. No puedes seguir hasta cumplir lo que establece."
+                },
+                "exam": {
+                  "q": "What does this sign oblige you to do?",
+                  "options": [
+                    "To reduce the speed and to pass without stopping if there is nobody.",
+                    "To yield way to who comes by the right.",
+                    "To stop and not to continue until fulfilling what the sign indicates."
+                  ]
+                },
+                "en": {
+                  "q": "What does this sign require you to do?",
+                  "options": [
+                    "Slow down and go through without stopping if nobody is there",
+                    "Give way to anyone coming from the right",
+                    "Stop, and not go on until you have done what the sign requires"
+                  ],
+                  "why": "R-200, \"No passing without stopping\", marks a compulsory stop, for example at customs, a checkpoint or a toll. You may not go on until you have done what it requires."
+                },
+                "terms": [
+                  {
+                    "es": "prohibición de pasar sin detenerse",
+                    "en": "prohibition of passing without stopping"
+                  },
+                  {
+                    "es": "aduana",
+                    "en": "customs"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.4 (R-200) y RGC art. 132.1",
+                "sign": "r-200"
               }
             }
           ]
@@ -3499,6 +4286,47 @@
                 "src": "Catálogo oficial (señal R-303)",
                 "sign": "r-303"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-ban-k",
+                "answer": 0,
+                "es": {
+                  "q": "Con esta señal, ¿qué maniobra no puedes hacer?",
+                  "options": [
+                    "Cambiar el sentido de la marcha",
+                    "Girar a la izquierda",
+                    "Girar a la derecha o a la izquierda"
+                  ],
+                  "why": "R-304 prohíbe solo el cambio de sentido de la marcha. Puedes girar a la izquierda o a la derecha si otra señal no lo impide."
+                },
+                "exam": {
+                  "q": "With this sign, which manoeuvre can you not do?",
+                  "options": [
+                    "To change the direction of the march.",
+                    "To turn to the left.",
+                    "To turn to the right or to the left."
+                  ]
+                },
+                "en": {
+                  "q": "With this sign, which maneuver may you not make?",
+                  "options": [
+                    "A U-turn",
+                    "A left turn",
+                    "A right or a left turn"
+                  ],
+                  "why": "R-304 forbids only the U-turn. You may turn left or right unless another sign forbids it."
+                },
+                "terms": [
+                  {
+                    "es": "cambio de sentido",
+                    "en": "change of direction (U-turn)"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.5 (R-304)",
+                "sign": "r-304"
+              }
             }
           ]
         },
@@ -3596,6 +4424,22 @@
               "src": "RGC art. 94.2.b y 94.2.f"
             },
             {
+              "t": "rule",
+              "text": {
+                "es": "R-308 prohíbe estacionar en el lado de la calzada donde está, desde la señal hasta la intersección más próxima, salvo que se indique otra cosa. **No prohíbe la parada.** Un panel debajo puede limitar la prohibición a unos días u horas.",
+                "en": "R-308 forbids parking on the side of the roadway where it stands, from the sign to the next junction, unless something else is shown. **It does not forbid stopping.** A panel underneath can limit the ban to certain days or hours."
+              },
+              "src": "RGC Anexo I, ap. 5.1, 3.5 (R-308) y 3.17 (S-860)"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "R-309, zona de estacionamiento limitado: el estacionamiento dura un tiempo limitado y debes indicar, como manda la norma, la hora en que empiezas a estacionar.",
+                "en": "R-309, limited parking zone: parking is time-limited and you must show, in the required way, the time you started parking."
+              },
+              "src": "RGC Anexo I, ap. 5.1, 3.5 (R-309)"
+            },
+            {
               "t": "check",
               "q": {
                 "id": "signs-ban-c",
@@ -3633,6 +4477,96 @@
                   }
                 ],
                 "src": "Catálogo oficial (señal R-308)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-ban-l",
+                "answer": 1,
+                "es": {
+                  "q": "Estacionas en la zona que empieza con esta señal. ¿Qué debes hacer?",
+                  "options": [
+                    "Nada más: es una zona de estacionamiento libre",
+                    "Indicar, de la forma que manda la norma, la hora a la que empiezas a estacionar",
+                    "Quedarte dentro del coche"
+                  ],
+                  "why": "R-309 es una zona de estacionamiento de duración limitada: el conductor debe indicar la hora de comienzo del estacionamiento."
+                },
+                "exam": {
+                  "q": "You park in the zone that begins with this sign. What must you do?",
+                  "options": [
+                    "Nothing more: it is a zone of free parking.",
+                    "To indicate, in the regulatory form, the time at which you begin to park.",
+                    "To stay inside the car."
+                  ]
+                },
+                "en": {
+                  "q": "You park in the zone that starts at this sign. What must you do?",
+                  "options": [
+                    "Nothing else: parking there is unrestricted",
+                    "Show, in the required way, the time you started parking",
+                    "Stay inside the car"
+                  ],
+                  "why": "R-309 is a time-limited parking zone: the driver must show the time parking began."
+                },
+                "terms": [
+                  {
+                    "es": "zona de estacionamiento limitado",
+                    "en": "limited parking zone"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.5 (R-309)",
+                "sign": "r-309"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-ban-m",
+                "answer": 2,
+                "es": {
+                  "q": "Bajo esta señal, un panel dice «Laborables de 9 a 20 h». Es un martes laborable a las 10. ¿Qué puedes hacer?",
+                  "options": [
+                    "Estacionar, porque el panel solo informa",
+                    "Ni parar ni estacionar",
+                    "Parar, pero no estacionar"
+                  ],
+                  "why": "En ese horario rige R-308, que prohíbe estacionar pero no prohíbe la parada."
+                },
+                "exam": {
+                  "q": "Under this sign, a panel says \"Working days from 9 to 20 h\". It is a working Tuesday at 10. What can you do?",
+                  "options": [
+                    "To park, because the panel only informs.",
+                    "Neither to stop nor to park.",
+                    "To stop, but not to park."
+                  ]
+                },
+                "en": {
+                  "q": "Under this sign a panel reads \"Working days 9 to 20 h\". It is a working Tuesday at 10 a.m. What may you do?",
+                  "options": [
+                    "Park, because the panel is only for information",
+                    "Neither stop nor park",
+                    "Stop, but not park"
+                  ],
+                  "why": "During those hours R-308 applies: it forbids parking but not stopping."
+                },
+                "terms": [
+                  {
+                    "es": "estacionar",
+                    "en": "to park"
+                  },
+                  {
+                    "es": "parar",
+                    "en": "to stop (briefly)"
+                  },
+                  {
+                    "es": "panel complementario",
+                    "en": "additional panel"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.5 (R-308) y 3.17 (S-860)",
+                "sign": "r-308"
               }
             }
           ]
@@ -3789,6 +4723,96 @@
                 ],
                 "src": "RGC Anexo I, ap. 5.1, 3.6 (R-400c)"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-ban-n",
+                "answer": 1,
+                "es": {
+                  "q": "Esta señal está sobre una isleta. ¿Por dónde debes pasar?",
+                  "options": [
+                    "Por la derecha de la isleta",
+                    "Por el lado que marca la flecha: la izquierda",
+                    "Por cualquiera de los dos lados"
+                  ],
+                  "why": "En R-401 la flecha señala el lado del refugio, isleta u obstáculo por el que hay que pasar. Pasar por ese lado no te obliga a seguir después una dirección concreta."
+                },
+                "exam": {
+                  "q": "This sign is on a traffic island. By where must you pass?",
+                  "options": [
+                    "By the right of the island.",
+                    "By the side that the arrow marks: the left.",
+                    "By any of the two sides."
+                  ]
+                },
+                "en": {
+                  "q": "This sign stands on a traffic island. Which way must you go past it?",
+                  "options": [
+                    "On the right of the island",
+                    "On the side the arrow shows: the left",
+                    "On either side"
+                  ],
+                  "why": "On R-401 the arrow shows the side of the refuge, island or obstacle you must pass on. Passing on that side does not commit you to any direction afterward."
+                },
+                "terms": [
+                  {
+                    "es": "paso obligatorio",
+                    "en": "compulsory passage"
+                  },
+                  {
+                    "es": "isleta",
+                    "en": "traffic island"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.6 (R-401b)",
+                "sign": "r-401b"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-ban-o",
+                "answer": 0,
+                "es": {
+                  "q": "Entras en un cruce con esta señal y quieres salir a la izquierda. ¿Cómo lo haces?",
+                  "options": [
+                    "Rodeas el centro en el sentido de las flechas hasta tu salida",
+                    "Giras a la izquierda por el camino más corto",
+                    "Esperas a que no venga nadie y giras directamente"
+                  ],
+                  "why": "R-402 marca el sentido giratorio obligatorio: debes circular en el sentido de las flechas y salir por donde quieras, sin atajar."
+                },
+                "exam": {
+                  "q": "You enter an intersection with this sign and you want to leave to the left. How do you do it?",
+                  "options": [
+                    "You go around the centre in the direction of the arrows until your exit.",
+                    "You turn to the left by the shortest way.",
+                    "You wait until nobody comes and you turn directly."
+                  ]
+                },
+                "en": {
+                  "q": "You enter a junction with this sign and want to leave to the left. How do you do it?",
+                  "options": [
+                    "Go around the center the way the arrows point, to your exit",
+                    "Turn left by the shortest route",
+                    "Wait until it is clear and turn straight off"
+                  ],
+                  "why": "R-402 sets the compulsory direction of rotation: drive the way the arrows point and leave where you want, without cutting across."
+                },
+                "terms": [
+                  {
+                    "es": "sentido obligatorio en glorieta",
+                    "en": "compulsory direction in a roundabout"
+                  },
+                  {
+                    "es": "sentido giratorio",
+                    "en": "rotary direction"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.6 (R-402)",
+                "sign": "r-402"
+              }
             }
           ]
         },
@@ -3842,6 +4866,24 @@
                 "es": "Fíjate en la diferencia: R-409 y R-410 **reservan** el camino y prohíben usarlo a los demás. R-408 solo obliga a los carros a ir por él; no prohíbe el paso a otros usuarios.",
                 "en": "Note the difference: R-409 and R-410 **reserve** the path and forbid everyone else to use it. R-408 only obliges carts to use it; it does not forbid other users."
               }
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "r-407a"
+              ],
+              "caption": {
+                "es": "R-407a: vía reservada y obligatoria para ciclos.",
+                "en": "R-407a: road reserved for and compulsory for cycles."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "R-407a obliga a los ciclos a circular por esa vía y prohíbe usarla a los demás. R-404, «Calzada obligatoria para automóviles, excepto motocicletas de dos ruedas», obliga a los **automóviles** a usar esa calzada, salvo las motocicletas de dos ruedas y los vehículos de tres ruedas asimilados a ellas.",
+                "en": "R-407a requires cycles to use that road and forbids everyone else from using it. R-404, \"Compulsory roadway for automobiles, except two-wheeled motorcycles\", requires **automobiles** to use that roadway, except two-wheeled motorcycles and three-wheelers treated as motorcycles."
+              },
+              "src": "RGC Anexo I, ap. 5.1, 3.6 (R-404 y R-407a)"
             },
             {
               "t": "check",
@@ -4015,6 +5057,95 @@
                 ],
                 "src": "RGC Anexo I, ap. 5.1, 3.6 (R-408 y R-410)"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-ban-p",
+                "answer": 0,
+                "es": {
+                  "q": "¿Puedes entrar con un turismo en la vía que empieza con esta señal?",
+                  "options": [
+                    "No: solo pueden usarla los ciclos",
+                    "Sí, si circulas despacio",
+                    "Sí, para adelantar a una bicicleta"
+                  ],
+                  "why": "R-407a obliga a los ciclos a circular por esa vía y prohíbe usarla a los demás usuarios."
+                },
+                "exam": {
+                  "q": "Can you enter with a passenger car in the road that begins with this sign?",
+                  "options": [
+                    "No: only the cycles can use it.",
+                    "Yes, if you circulate slowly.",
+                    "Yes, in order to overtake a bicycle."
+                  ]
+                },
+                "en": {
+                  "q": "May you drive a car onto the road that starts at this sign?",
+                  "options": [
+                    "No: only cycles may use it",
+                    "Yes, if you drive slowly",
+                    "Yes, to pass a bicycle"
+                  ],
+                  "why": "R-407a requires cycles to use that road and forbids all other users from using it."
+                },
+                "terms": [
+                  {
+                    "es": "vía reservada para ciclos",
+                    "en": "road reserved for cycles"
+                  },
+                  {
+                    "es": "turismo",
+                    "en": "passenger car"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.6 (R-407a)",
+                "sign": "r-407a"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-ban-q",
+                "answer": 2,
+                "es": {
+                  "q": "A la entrada de una calzada está la señal «Calzada obligatoria para automóviles, excepto motocicletas de dos ruedas». ¿Quién debe circular por ella?",
+                  "options": [
+                    "Solo los turismos",
+                    "Todos los vehículos, también las bicicletas",
+                    "Los automóviles, salvo las motocicletas de dos ruedas y los de tres ruedas asimilados"
+                  ],
+                  "why": "Esa señal obliga a circular por esa calzada a los automóviles, excepto las motocicletas de dos ruedas y los vehículos de tres ruedas asimilados a motocicletas."
+                },
+                "exam": {
+                  "q": "At the entrance of a carriageway is the sign \"Compulsory carriageway for automobiles, except two-wheeled motorcycles\". Who must circulate by it?",
+                  "options": [
+                    "Only passenger cars.",
+                    "All the vehicles, also bicycles.",
+                    "The automobiles, except two-wheeled motorcycles and the three-wheeled ones assimilated."
+                  ]
+                },
+                "en": {
+                  "q": "Where a roadway begins there is the sign \"Compulsory roadway for automobiles, except two-wheeled motorcycles\". Who must use it?",
+                  "options": [
+                    "Only cars",
+                    "Every vehicle, bicycles included",
+                    "Automobiles, except two-wheeled motorcycles and three-wheelers treated as motorcycles"
+                  ],
+                  "why": "That sign requires automobiles to use that roadway, except two-wheeled motorcycles and three-wheelers treated as motorcycles."
+                },
+                "terms": [
+                  {
+                    "es": "automóvil",
+                    "en": "automobile"
+                  },
+                  {
+                    "es": "calzada obligatoria",
+                    "en": "compulsory carriageway"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.6 (R-404)"
+              }
             }
           ]
         },
@@ -4106,6 +5237,47 @@
                 ],
                 "src": "Catálogo oficial (señal R-500)"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-ban-r",
+                "answer": 0,
+                "es": {
+                  "q": "Pasas esta señal. ¿Qué cambia?",
+                  "options": [
+                    "Deja de regir la velocidad mínima que marcaba una señal anterior",
+                    "Termina el límite de velocidad máxima",
+                    "Empieza una zona de 30 km/h"
+                  ],
+                  "why": "R-506, «Fin de velocidad mínima», marca el lugar desde donde deja de aplicarse una señal anterior de velocidad mínima."
+                },
+                "exam": {
+                  "q": "You pass this sign. What changes?",
+                  "options": [
+                    "The minimum speed that a previous sign marked stops ruling.",
+                    "The limit of maximum speed ends.",
+                    "A zone of 30 km/h begins."
+                  ]
+                },
+                "en": {
+                  "q": "You pass this sign. What changes?",
+                  "options": [
+                    "A minimum speed set by an earlier sign no longer applies",
+                    "The maximum speed limit ends",
+                    "A 30 km/h zone begins"
+                  ],
+                  "why": "R-506, \"End of minimum speed\", marks where an earlier minimum-speed sign stops applying."
+                },
+                "terms": [
+                  {
+                    "es": "velocidad mínima",
+                    "en": "minimum speed"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.7 (R-506)",
+                "sign": "r-506"
+              }
             }
           ]
         }
@@ -4139,7 +5311,8 @@
       "src": [
         "Reglamento General de Circulación (RD 1428/2003), arts. 54.1, 94.2, 110 y 145.2",
         "Ley de Tráfico y Seguridad Vial (RDL 6/2015), Anexo I, puntos 81 y 82",
-        "Catálogo oficial de señales (Anexo I, 5), nombres y significados de las señales"
+        "Catálogo oficial de señales (Anexo I, 5), nombres y significados de las señales",
+        "RGC Anexo I, apartado 5.1 (Catálogo de señales verticales, Tomo I: apartado 3.17)"
       ]
     },
     {
@@ -4812,6 +5985,356 @@
               }
             }
           ]
+        },
+        {
+          "title": {
+            "es": "Sentido único, cambios de sentido y telepeaje",
+            "en": "One-way roads, U-turns and electronic tolls"
+          },
+          "blocks": [
+            {
+              "t": "signs",
+              "ids": [
+                "s-11",
+                "s-22",
+                "s-25",
+                "s-32"
+              ],
+              "caption": {
+                "es": "S-11: calzada de un carril de sentido único. S-22: cambio de sentido al mismo nivel. S-25: cambio de sentido a distinto nivel. S-32: telepeaje.",
+                "en": "S-11: one-lane, one-way roadway. S-22: U-turn at the same level. S-25: U-turn at a different level. S-32: electronic toll."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "S-11 indica que en la calzada de un carril que sigue en la dirección de la flecha se circula en ese sentido, y que está **prohibido circular en sentido contrario**. Es cuadrada: informa de cómo es la calzada, no te obliga a ir de frente como la flecha redonda azul.",
+                "en": "S-11 shows that on the one-lane roadway ahead, traffic goes the way the arrow points, and **driving the opposite way is forbidden**. It is square: it tells you about the roadway; unlike the round blue arrow, it does not order you to go straight on."
+              },
+              "src": "RGC Anexo I, ap. 5.1, 3.8 (S-11)"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "S-22 anuncia un lugar donde se puede **cambiar de sentido al mismo nivel**. S-25 anuncia una **salida** por la que se puede cambiar de sentido a distinto nivel, por un paso superior o inferior.",
+                "en": "S-22 announces a place where you can **make a U-turn at the same level**. S-25 announces an **exit** you can take to make a U-turn at a different level, over or under the road."
+              },
+              "src": "RGC Anexo I, ap. 5.1, 3.8 (S-22 y S-25)"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "S-32, sobre un carril de peaje, indica que ahí puedes pagar por **telepeaje**, además de por otros medios, si llevas el equipo. Quien usa un telepeaje debe llevar ese equipo en condiciones de funcionar.",
+                "en": "S-32, over a toll lane, shows that you can pay there by **electronic toll** as well as by other means, if you carry the device. Anyone using electronic tolling must carry a working device."
+              },
+              "src": "RGC Anexo I, ap. 5.1, 3.8 (S-32) y RGC art. 132.1"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-ind-r",
+                "answer": 1,
+                "es": {
+                  "q": "¿Qué indica esta señal?",
+                  "options": [
+                    "Que es obligatorio seguir de frente en el próximo cruce",
+                    "Que en la calzada de un carril que sigue solo se circula en el sentido de la flecha",
+                    "Que circulas por una vía con prioridad"
+                  ],
+                  "why": "S-11 es «Calzada de un carril de sentido único»: se circula en el sentido de la flecha y está prohibido hacerlo en sentido contrario. No es una señal de obligación."
+                },
+                "exam": {
+                  "q": "What does this sign indicate?",
+                  "options": [
+                    "That it is compulsory to continue straight ahead at the next intersection.",
+                    "That on the one-lane carriageway that continues one only circulates in the direction of the arrow.",
+                    "That you circulate by a road with priority."
+                  ]
+                },
+                "en": {
+                  "q": "What does this sign mean?",
+                  "options": [
+                    "That you must go straight on at the next junction",
+                    "That on the one-lane roadway ahead, traffic goes only the way the arrow points",
+                    "That you are on a priority road"
+                  ],
+                  "why": "S-11 is \"One-lane, one-way roadway\": traffic goes the way of the arrow and driving the other way is forbidden. It is not a mandatory sign."
+                },
+                "terms": [
+                  {
+                    "es": "sentido único",
+                    "en": "one way"
+                  },
+                  {
+                    "es": "calzada",
+                    "en": "carriageway / roadway"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.8 (S-11)",
+                "sign": "s-11"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-ind-s",
+                "answer": 2,
+                "es": {
+                  "q": "¿Qué anuncia esta señal?",
+                  "options": [
+                    "Que está prohibido cambiar de sentido durante 150 m",
+                    "Una salida hacia un paso inferior",
+                    "Un lugar, a la distancia que indica, donde puedes cambiar de sentido al mismo nivel"
+                  ],
+                  "why": "S-22 indica la proximidad de un lugar donde se puede cambiar de sentido al mismo nivel. La cifra da la distancia."
+                },
+                "exam": {
+                  "q": "What does this sign announce?",
+                  "options": [
+                    "That it is prohibited to change direction during 150 m.",
+                    "An exit towards an underpass.",
+                    "A place, at the distance that it indicates, where you can change direction at the same level."
+                  ]
+                },
+                "en": {
+                  "q": "What does this sign announce?",
+                  "options": [
+                    "That U-turns are forbidden for 150 m",
+                    "An exit to an underpass",
+                    "A place, at the distance shown, where you can make a U-turn at the same level"
+                  ],
+                  "why": "S-22 shows an upcoming place where you can make a U-turn at the same level. The number gives the distance."
+                },
+                "terms": [
+                  {
+                    "es": "cambio de sentido",
+                    "en": "change of direction (U-turn)"
+                  },
+                  {
+                    "es": "al mismo nivel",
+                    "en": "at the same level"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.8 (S-22)",
+                "sign": "s-22"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-ind-t",
+                "answer": 0,
+                "es": {
+                  "q": "¿Qué indica esta señal?",
+                  "options": [
+                    "Una salida por la que puedes cambiar de sentido a distinto nivel",
+                    "Una bifurcación obligatoria hacia la izquierda",
+                    "Un cambio de sentido prohibido"
+                  ],
+                  "why": "S-25 indica la proximidad de una salida a través de la cual se puede cambiar de sentido a distinto nivel."
+                },
+                "exam": {
+                  "q": "What does this sign indicate?",
+                  "options": [
+                    "An exit by which you can change direction at a different level.",
+                    "A compulsory fork towards the left.",
+                    "A prohibited change of direction."
+                  ]
+                },
+                "en": {
+                  "q": "What does this sign mean?",
+                  "options": [
+                    "An exit you can take to make a U-turn at a different level",
+                    "A compulsory fork to the left",
+                    "A U-turn ban"
+                  ],
+                  "why": "S-25 shows an upcoming exit you can take to make a U-turn at a different level."
+                },
+                "terms": [
+                  {
+                    "es": "a distinto nivel",
+                    "en": "at a different level"
+                  },
+                  {
+                    "es": "salida",
+                    "en": "exit"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.8 (S-25)",
+                "sign": "s-25"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-ind-u",
+                "answer": 2,
+                "es": {
+                  "q": "Esta señal está sobre un carril de un peaje. ¿Qué significa?",
+                  "options": [
+                    "Que solo pueden usarlo los vehículos con equipo de telepeaje",
+                    "Que en ese carril no se paga",
+                    "Que puedes pagar con telepeaje, si llevas el equipo, o por otros medios"
+                  ],
+                  "why": "S-32 indica que en ese carril se puede pagar por telepeaje, si el vehículo lleva el equipo, además de por otros medios. El carril solo para telepeaje tiene otra señal, de obligación."
+                },
+                "exam": {
+                  "q": "This sign is over a lane of a toll. What does it mean?",
+                  "options": [
+                    "That only the vehicles with electronic toll equipment can use it.",
+                    "That in that lane one does not pay.",
+                    "That you can pay with electronic toll, if you carry the equipment, or by other means."
+                  ]
+                },
+                "en": {
+                  "q": "This sign is over a lane at a toll plaza. What does it mean?",
+                  "options": [
+                    "Only vehicles with an electronic toll device may use it",
+                    "There is no charge in that lane",
+                    "You can pay by electronic toll, if you have the device, or by other means"
+                  ],
+                  "why": "S-32 shows that in that lane you can pay electronically, if the vehicle has the device, as well as by other means. The electronic-only lane has a different, mandatory sign."
+                },
+                "terms": [
+                  {
+                    "es": "telepeaje",
+                    "en": "electronic toll"
+                  },
+                  {
+                    "es": "peaje",
+                    "en": "toll"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.8 (S-32)",
+                "sign": "s-32"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Puertos de montaña y señales que valen con nieve",
+            "en": "Mountain passes and signs that apply in snow"
+          },
+          "blocks": [
+            {
+              "t": "signs",
+              "ids": [
+                "s-21",
+                "s-890a"
+              ],
+              "caption": {
+                "es": "S-21: transitabilidad en tramo o puerto de montaña. S-890a: aplicación de la señalización con nieve.",
+                "en": "S-21: passability of a mountain pass or stretch. S-890a: sign applies in snow."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "S-21 indica el **estado de paso** del puerto o tramo cuyo nombre aparece arriba. Sus filas dicen, para cada tipo de vehículo, si el paso está abierto, cerrado o con condiciones, como llevar cadenas.",
+                "en": "S-21 shows the **state of passage** of the pass or stretch named at the top. Its rows say, for each type of vehicle, whether the way is open, closed or conditional, for example on carrying chains."
+              },
+              "src": "RGC Anexo I, ap. 5.1, 3.8 (S-21)"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "El panel S-890a, debajo de una señal, indica que esa señal **solo se aplica cuando hay nieve**. Hay paneles iguales para la lluvia (S-890b) y la niebla (S-890c).",
+                "en": "Panel S-890a, under a sign, shows that the sign **applies only when there is snow**. Similar panels exist for rain (S-890b) and fog (S-890c)."
+              },
+              "src": "RGC Anexo I, ap. 5.1, 3.17 (S-890a)"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-ind-v",
+                "answer": 0,
+                "es": {
+                  "q": "Antes de subir a un puerto ves este cartel. ¿Qué información te da?",
+                  "options": [
+                    "El estado de paso del puerto que nombra en su parte superior, según el tipo de vehículo",
+                    "La distancia hasta la próxima área de servicio",
+                    "La velocidad máxima en cada tramo del puerto"
+                  ],
+                  "why": "S-21, «Transitabilidad en tramo o puerto de montaña», indica la situación de paso del puerto o tramo que se nombra en la parte superior."
+                },
+                "exam": {
+                  "q": "Before going up a mountain pass you see this panel. What information does it give you?",
+                  "options": [
+                    "The state of passage of the pass named in its upper part, according to the type of vehicle.",
+                    "The distance until the next service area.",
+                    "The maximum speed in each section of the pass."
+                  ]
+                },
+                "en": {
+                  "q": "Before climbing a mountain pass you see this board. What does it tell you?",
+                  "options": [
+                    "Whether the pass named at the top is open to each type of vehicle",
+                    "How far it is to the next service area",
+                    "The speed limit on each stretch of the pass"
+                  ],
+                  "why": "S-21, \"Passability of a mountain pass or stretch\", shows whether the pass or stretch named at the top can be used."
+                },
+                "terms": [
+                  {
+                    "es": "puerto de montaña",
+                    "en": "mountain pass"
+                  },
+                  {
+                    "es": "transitabilidad",
+                    "en": "passability"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.8 (S-21)",
+                "sign": "s-21"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-ind-w",
+                "answer": 1,
+                "es": {
+                  "q": "Este panel está debajo de una señal de velocidad máxima de 60. ¿Cuándo rige ese límite?",
+                  "options": [
+                    "Siempre, durante todo el invierno",
+                    "Solo cuando hay nieve",
+                    "Solo de noche"
+                  ],
+                  "why": "El panel S-890a indica que la señal que acompaña se aplica únicamente cuando se dan circunstancias de nieve."
+                },
+                "exam": {
+                  "q": "This panel is under a sign of maximum speed of 60. When does that limit rule?",
+                  "options": [
+                    "Always, during the whole winter.",
+                    "Only when there is snow.",
+                    "Only at night."
+                  ]
+                },
+                "en": {
+                  "q": "This panel is under a 60 speed limit sign. When does the limit apply?",
+                  "options": [
+                    "Always, all winter long",
+                    "Only when there is snow",
+                    "Only at night"
+                  ],
+                  "why": "Panel S-890a shows that the sign above it applies only when there is snow."
+                },
+                "terms": [
+                  {
+                    "es": "nieve",
+                    "en": "snow"
+                  },
+                  {
+                    "es": "panel complementario",
+                    "en": "additional panel"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.17 (S-890a)",
+                "sign": "s-890a"
+              }
+            }
+          ]
         }
       ],
       "recap": [
@@ -4834,12 +6357,17 @@
         {
           "es": "S-500 abre las normas de **poblado** y S-510 las cierra; S-24 termina la obligación de luz de cruce.",
           "en": "S-500 starts the **built-up area** rules and S-510 ends them; S-24 ends the dipped-headlight obligation."
+        },
+        {
+          "es": "**S-11**: calzada de un carril de sentido único. **S-22** y **S-25**: dónde cambiar de sentido. **S-32**: telepeaje, además de otros medios.",
+          "en": "**S-11**: one-lane, one-way roadway. **S-22** and **S-25**: where to make a U-turn. **S-32**: electronic toll, as well as other means."
         }
       ],
       "covers": [],
       "src": [
         "Reglamento General de Circulación (RD 1428/2003), arts. 95.6 y 146.1",
-        "RGC Anexo I, apartado 5.1 (Catálogo de señales verticales, Tomo I: apartados 3.8, 3.14 y 3.18), en la redacción del RD 465/2025"
+        "RGC Anexo I, apartado 5.1 (Catálogo de señales verticales, Tomo I: apartados 3.8, 3.14 y 3.18), en la redacción del RD 465/2025",
+        "RGC Anexo I, apartado 5.1 (Catálogo de señales verticales, Tomo I: apartado 3.17)"
       ]
     },
     {
@@ -5037,6 +6565,24 @@
               }
             },
             {
+              "t": "signs",
+              "ids": [
+                "s-29"
+              ],
+              "caption": {
+                "es": "S-29: fin de zona de estancia y juego.",
+                "en": "S-29: end of residential and play zone."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "S-29 marca el final de la zona de estancia y juego: desde ahí se aplican de nuevo las **normas generales** de circulación.",
+                "en": "S-29 marks the end of the residential and play zone: from there the **general** traffic rules apply again."
+              },
+              "src": "RGC Anexo I, ap. 5.1, 3.8 (S-29)"
+            },
+            {
               "t": "check",
               "q": {
                 "id": "signs-ind-j",
@@ -5120,6 +6666,47 @@
                   }
                 ],
                 "src": "RGC Anexo I, ap. 5.1, 3.8 (S-47)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-ind-y",
+                "answer": 1,
+                "es": {
+                  "q": "Sales de una zona por donde está esta señal. ¿Qué normas rigen ahora?",
+                  "options": [
+                    "Sigues a 10 km/h como máximo hasta el próximo cruce",
+                    "Las normas generales de circulación",
+                    "Las de una zona de coexistencia, a 20 km/h"
+                  ],
+                  "why": "S-29, «Fin de zona de estancia y juego», indica que se aplican de nuevo las normas generales de circulación."
+                },
+                "exam": {
+                  "q": "You leave a zone by where this sign is. Which rules rule now?",
+                  "options": [
+                    "You continue at 10 km/h as maximum until the next intersection.",
+                    "The general rules of circulation.",
+                    "Those of a coexistence zone, at 20 km/h."
+                  ]
+                },
+                "en": {
+                  "q": "You leave an area past this sign. Which rules apply now?",
+                  "options": [
+                    "You keep to 10 km/h until the next junction",
+                    "The general traffic rules",
+                    "The rules of a shared zone, at 20 km/h"
+                  ],
+                  "why": "S-29, \"End of residential and play zone\", means the general traffic rules apply again."
+                },
+                "terms": [
+                  {
+                    "es": "zona de estancia y juego",
+                    "en": "residential and play zone"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.8 (S-29)",
+                "sign": "s-29"
               }
             }
           ]
@@ -5256,6 +6843,27 @@
               }
             },
             {
+              "t": "signs",
+              "ids": [
+                "s-107",
+                "s-109",
+                "s-114",
+                "s-120"
+              ],
+              "caption": {
+                "es": "S-107: campamento. S-109: lugar pintoresco. S-114: merendero. S-120: parque o espacio natural.",
+                "en": "S-107: campsite. S-109: scenic spot. S-114: picnic area. S-120: park or natural area."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Las señales de servicio son azules con un recuadro blanco. S-107: lugar donde se permite **acampar**. S-109: un sitio **pintoresco** o el lugar desde el que se ve. S-114: lugar para **comer o beber**. S-120: un **parque o espacio natural**, que puede llevar su nombre.",
+                "en": "Service signs are blue with a white panel. S-107: a place where **camping** is allowed. S-109: a **scenic** spot, or the place it can be seen from. S-114: a place to **eat or drink**. S-120: a **park or natural area**, which may carry its name."
+              },
+              "src": "RGC Anexo I, ap. 5.1, 3.10 (S-107, S-109, S-114 y S-120)"
+            },
+            {
               "t": "check",
               "q": {
                 "id": "signs-ind-m",
@@ -5342,6 +6950,129 @@
                   }
                 ],
                 "src": "RGC Anexo I, ap. 5.1, 3.10 (S-129)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-ind-z",
+                "answer": 0,
+                "es": {
+                  "q": "¿Qué indica esta señal?",
+                  "options": [
+                    "Un lugar que se puede usar para comer o beber",
+                    "Una zona donde se permite acampar",
+                    "Un vivero forestal"
+                  ],
+                  "why": "S-114, «Merendero», indica un lugar que puede usarse para el consumo de comidas o bebidas."
+                },
+                "exam": {
+                  "q": "What does this sign indicate?",
+                  "options": [
+                    "A place that can be used for eating or drinking.",
+                    "A zone where camping is permitted.",
+                    "A forest nursery."
+                  ]
+                },
+                "en": {
+                  "q": "What does this sign mean?",
+                  "options": [
+                    "A place you can use to eat or drink",
+                    "An area where camping is allowed",
+                    "A tree nursery"
+                  ],
+                  "why": "S-114, \"Picnic area\", shows a place that can be used for eating or drinking."
+                },
+                "terms": [
+                  {
+                    "es": "merendero",
+                    "en": "picnic area"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.10 (S-114)",
+                "sign": "s-114"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-ind-za",
+                "answer": 1,
+                "es": {
+                  "q": "¿Qué indica esta señal?",
+                  "options": [
+                    "Un refugio de montaña para emergencias",
+                    "Un lugar donde está permitido acampar",
+                    "Un albergue juvenil"
+                  ],
+                  "why": "S-107, «Campamento», indica la situación de un lugar donde está permitida la acampada."
+                },
+                "exam": {
+                  "q": "What does this sign indicate?",
+                  "options": [
+                    "A mountain refuge for emergencies.",
+                    "A place where camping is permitted.",
+                    "A youth hostel."
+                  ]
+                },
+                "en": {
+                  "q": "What does this sign mean?",
+                  "options": [
+                    "A mountain shelter for emergencies",
+                    "A place where camping is allowed",
+                    "A youth hostel"
+                  ],
+                  "why": "S-107, \"Campsite\", shows where camping is allowed."
+                },
+                "terms": [
+                  {
+                    "es": "campamento",
+                    "en": "campsite"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.10 (S-107)",
+                "sign": "s-107"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-ind-zb",
+                "answer": 2,
+                "es": {
+                  "q": "¿Qué indica esta señal?",
+                  "options": [
+                    "Un radar que fotografía a los vehículos",
+                    "Una oficina de información turística",
+                    "Un sitio pintoresco o el lugar desde el que se ve"
+                  ],
+                  "why": "S-109, «Lugar pintoresco», indica un sitio pintoresco o el lugar desde el que se divisa. No tiene nada que ver con los radares."
+                },
+                "exam": {
+                  "q": "What does this sign indicate?",
+                  "options": [
+                    "A radar that photographs the vehicles.",
+                    "An office of tourist information.",
+                    "A picturesque site or the place from which it is seen."
+                  ]
+                },
+                "en": {
+                  "q": "What does this sign mean?",
+                  "options": [
+                    "A speed camera that photographs vehicles",
+                    "A tourist information office",
+                    "A scenic spot, or the place it can be seen from"
+                  ],
+                  "why": "S-109, \"Scenic spot\", shows a picturesque place or the spot it can be seen from. It has nothing to do with speed cameras."
+                },
+                "terms": [
+                  {
+                    "es": "lugar pintoresco",
+                    "en": "picturesque place / scenic spot"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.10 (S-109)",
+                "sign": "s-109"
               }
             }
           ]
@@ -5502,6 +7233,25 @@
               }
             },
             {
+              "t": "signs",
+              "ids": [
+                "s-840",
+                "s-880b"
+              ],
+              "caption": {
+                "es": "S-840: preseñalización de detención obligatoria. S-880b: la señal se aplica a vehículos con remolque, salvo los de un solo eje.",
+                "en": "S-840: advance warning of a stop. S-880b: the sign applies to vehicles with a trailer, except single-axle ones."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "S-840, debajo de un ceda el paso, indica a qué distancia está la señal de **stop** del próximo cruce. Los paneles S-880 limitan la señal a un tipo de vehículo: S-880b, a los vehículos **con remolque**, salvo los de un solo eje.",
+                "en": "S-840, under a give-way sign, shows how far away the **stop** sign of the next junction is. The S-880 panels limit a sign to one type of vehicle: S-880b to vehicles **with a trailer**, except single-axle ones."
+              },
+              "src": "RGC Anexo I, ap. 5.1, 3.17 (S-840 y S-880b)"
+            },
+            {
               "t": "check",
               "q": {
                 "id": "signs-ind-q",
@@ -5608,6 +7358,96 @@
                 ],
                 "src": "RGC Anexo I, ap. 5.1, Tomo I, 2.2 y 4 (pictogramas)"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-ind-zc",
+                "answer": 1,
+                "es": {
+                  "q": "Este panel está debajo de una señal de ceda el paso. ¿Qué te dice?",
+                  "options": [
+                    "Que el ceda el paso vale durante 150 m",
+                    "Que a 150 m, en el próximo cruce, hay una señal de stop",
+                    "Que te detengas a 150 m del cruce"
+                  ],
+                  "why": "S-840, colocado bajo un ceda el paso, indica la distancia a la señal de detención obligatoria (stop) de la próxima intersección."
+                },
+                "exam": {
+                  "q": "This panel is under a give way sign. What does it tell you?",
+                  "options": [
+                    "That the give way is valid during 150 m.",
+                    "That at 150 m, at the next intersection, there is a stop sign.",
+                    "That you stop at 150 m from the intersection."
+                  ]
+                },
+                "en": {
+                  "q": "This panel is under a give-way sign. What does it tell you?",
+                  "options": [
+                    "That the give-way applies for 150 m",
+                    "That 150 m ahead, at the next junction, there is a stop sign",
+                    "That you must stop 150 m before the junction"
+                  ],
+                  "why": "S-840, under a give-way sign, gives the distance to the stop sign at the next junction."
+                },
+                "terms": [
+                  {
+                    "es": "detención obligatoria",
+                    "en": "compulsory stop"
+                  },
+                  {
+                    "es": "ceda el paso",
+                    "en": "give way"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.17 (S-840)",
+                "sign": "s-840"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-ind-zd",
+                "answer": 1,
+                "es": {
+                  "q": "Este panel está debajo de una señal de giro a la derecha prohibido. Conduces un turismo sin remolque. ¿Puedes girar a la derecha?",
+                  "options": [
+                    "No: la prohibición vale para todos",
+                    "Sí: la prohibición es solo para vehículos con remolque, salvo los de un solo eje",
+                    "Solo si no viene nadie de frente"
+                  ],
+                  "why": "S-880b indica que la señal se refiere exclusivamente a vehículos con remolque, excepto los de un solo eje. A tu turismo sin remolque no le afecta."
+                },
+                "exam": {
+                  "q": "This panel is under a sign of turn to the right prohibited. You drive a passenger car without trailer. Can you turn to the right?",
+                  "options": [
+                    "No: the prohibition is valid for all.",
+                    "Yes: the prohibition is only for vehicles with trailer, except those of a single axle.",
+                    "Only if nobody comes from the front."
+                  ]
+                },
+                "en": {
+                  "q": "This panel is under a no-right-turn sign. You are driving a car with no trailer. May you turn right?",
+                  "options": [
+                    "No: the ban applies to everyone",
+                    "Yes: the ban is only for vehicles with a trailer, except single-axle ones",
+                    "Only if nothing is coming the other way"
+                  ],
+                  "why": "S-880b shows that the sign refers only to vehicles with a trailer, except single-axle ones. It does not affect your car without a trailer."
+                },
+                "terms": [
+                  {
+                    "es": "remolque",
+                    "en": "trailer"
+                  },
+                  {
+                    "es": "eje",
+                    "en": "axle"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.17 (S-880b)",
+                "sign": "s-880b"
+              }
             }
           ]
         }
@@ -5639,6 +7479,666 @@
         "Reglamento General de Circulación (RD 1428/2003), arts. 146.2.e y 146.3",
         "RGC Anexo I, apartado 5.1 (Catálogo de señales verticales, Tomo I: apartados 3.8, 3.10 y 3.17), en la redacción del RD 465/2025",
         "RGC Anexo I, apartado 5.2 (marcas viales), 4.2"
+      ]
+    },
+    {
+      "id": "lane-signs",
+      "title": {
+        "es": "Señales de carriles",
+        "en": "Lane signs"
+      },
+      "minutes": 7,
+      "goals": [
+        {
+          "es": "Leer las señales azules que anuncian carriles que aparecen, terminan o se separan.",
+          "en": "Read the blue signs that announce lanes that begin, end or split off."
+        },
+        {
+          "es": "Saber qué carril usar cuando hay velocidades mínimas por carril.",
+          "en": "Know which lane to use when lanes have minimum speeds."
+        },
+        {
+          "es": "Reconocer los carriles y vías reservados: VAO y ciclos.",
+          "en": "Recognize reserved lanes and roads: HOV and cycles."
+        }
+      ],
+      "terms": [
+        {
+          "es": "carril",
+          "en": "lane"
+        },
+        {
+          "es": "final de carril",
+          "en": "end of lane"
+        },
+        {
+          "es": "bifurcación",
+          "en": "fork"
+        },
+        {
+          "es": "velocidad mínima",
+          "en": "minimum speed"
+        },
+        {
+          "es": "vehículo con alta ocupación (VAO)",
+          "en": "high-occupancy vehicle (HOV)"
+        },
+        {
+          "es": "vía ciclista",
+          "en": "cycle road / cycle path"
+        },
+        {
+          "es": "sentido único",
+          "en": "one way"
+        }
+      ],
+      "pretest": {
+        "id": "signs-pre-lanes",
+        "answer": 2,
+        "es": {
+          "q": "En una señal azul de carriles, una flecha se dobla y se junta con otra. ¿Qué anuncia?",
+          "options": [
+            "Que se abre un carril nuevo",
+            "Que puedes adelantar por la derecha",
+            "Que ese carril termina y hay que cambiarse"
+          ],
+          "why": "Las señales de final de carril dibujan el carril que desaparece uniéndose a otro: hay que cambiar de carril."
+        },
+        "en": {
+          "q": "On a blue lane sign, one arrow bends and merges into another. What does it announce?",
+          "options": [
+            "That a new lane opens",
+            "That you may pass on the right",
+            "That the lane ends and you must change lanes"
+          ],
+          "why": "End-of-lane signs draw the disappearing lane merging into another: you must change lanes."
+        },
+        "src": "RGC Anexo I, ap. 5.1, 3.9 (S-52)"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Carriles que aparecen",
+            "en": "Lanes that begin"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Las **señales de carriles** son azules y cuadradas o rectangulares. Cada flecha es un carril de tu sentido; una flecha hacia abajo es el sentido contrario.",
+                "en": "**Lane signs** are blue squares or rectangles. Each arrow is a lane in your direction; an arrow pointing down is the opposite direction."
+              }
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "s-53b",
+                "s-53c"
+              ],
+              "caption": {
+                "es": "S-53b: paso de dos a tres carriles. S-53c: lo mismo, con la velocidad máxima de cada carril.",
+                "en": "S-53b: two lanes become three. S-53c: the same, with each lane's speed limit."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "S-53b indica que un tramo con dos carriles en un sentido pasa a tener **tres** en ese sentido. S-53c dice lo mismo y además da la **velocidad máxima** de cada carril.",
+                "en": "S-53b shows that a stretch with two lanes in one direction is about to have **three** in that direction. S-53c says the same and also gives each lane's **speed limit**."
+              },
+              "src": "RGC Anexo I, ap. 5.1, 3.9 (S-53b y S-53c)"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "En tramos de obras, las señales de carriles tienen el fondo **amarillo** en vez de azul y los símbolos negros. Significan lo mismo.",
+                "en": "In roadworks, lane signs have a **yellow** background instead of blue, with black symbols. They mean the same."
+              },
+              "src": "RGC Anexo I, ap. 5 (Tomo I, 2.5)"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-lane-a",
+                "answer": 2,
+                "es": {
+                  "q": "¿Qué indica esta señal?",
+                  "options": [
+                    "Que tres carriles se reducen a dos",
+                    "Las velocidades mínimas de cada carril",
+                    "Que se pasa de dos a tres carriles, con la velocidad máxima de cada uno"
+                  ],
+                  "why": "S-53c indica el paso de dos a tres carriles en el mismo sentido y la velocidad máxima de cada uno. Los círculos rojos son límites máximos."
+                },
+                "exam": {
+                  "q": "What does this sign indicate?",
+                  "options": [
+                    "That three lanes reduce to two.",
+                    "The minimum speeds of each lane.",
+                    "That one passes from two to three lanes, with the maximum speed of each one."
+                  ]
+                },
+                "en": {
+                  "q": "What does this sign mean?",
+                  "options": [
+                    "That three lanes narrow to two",
+                    "The minimum speed in each lane",
+                    "That two lanes become three, with the speed limit for each"
+                  ],
+                  "why": "S-53c shows two lanes in one direction becoming three, with the maximum speed in each. Red circles are maximum limits."
+                },
+                "terms": [
+                  {
+                    "es": "velocidad máxima",
+                    "en": "maximum speed"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.9 (S-53c)",
+                "sign": "s-53c"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Carriles que terminan",
+            "en": "Lanes that end"
+          },
+          "blocks": [
+            {
+              "t": "signs",
+              "ids": [
+                "s-52",
+                "s-52a",
+                "s-52b",
+                "s-52c",
+                "s-52d"
+              ],
+              "caption": {
+                "es": "Final de carril. S-52: tres carriles, termina el derecho. S-52a y S-52b: doble sentido, termina el derecho o el izquierdo. S-52c y S-52d: dos carriles, termina el derecho o el izquierdo.",
+                "en": "End of lane. S-52: three lanes, the right one ends. S-52a and S-52b: two-way road, the right or left lane ends. S-52c and S-52d: two lanes, the right or left one ends."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Las señales de **final de carril** indican que un carril desaparece y que hay que **cambiar de carril**. El carril que termina es el que se dobla y se junta con otro: puede ser el derecho o el izquierdo, en calzadas de sentido único o de doble sentido.",
+                "en": "**End-of-lane** signs show that a lane disappears and you must **change lanes**. The lane that ends is the one that bends and merges into another: it may be the right or the left one, on one-way or two-way roads."
+              },
+              "src": "RGC Anexo I, ap. 5.1, 3.9 (S-52 a S-52d)"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Una línea discontinua puede atravesarse para cambiar de carril, respetando la prioridad del vehículo que circula por el carril al que pasas.",
+                "en": "A broken line may be crossed to change lanes, giving way to the vehicle already in the lane you move into."
+              },
+              "src": "RGC Anexo I, ap. 5.2 (marcas viales), 4.1"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-lane-b",
+                "answer": 0,
+                "es": {
+                  "q": "Circulas por el carril izquierdo de una calzada de sentido único y ves esta señal. ¿Qué haces?",
+                  "options": [
+                    "Pasas al carril derecho con antelación, respetando a quien ya va por él",
+                    "Sigues por tu carril: es el derecho el que termina",
+                    "Paras al final del carril y esperas un hueco"
+                  ],
+                  "why": "S-52d indica, en una calzada de dos carriles de sentido único, que desaparece el carril izquierdo y hay que cambiar de carril."
+                },
+                "exam": {
+                  "q": "You circulate by the left lane of a one-way carriageway and you see this sign. What do you do?",
+                  "options": [
+                    "You pass to the right lane in advance, respecting who already goes by it.",
+                    "You continue by your lane: it is the right one that ends.",
+                    "You stop where your lane finishes and you wait for a gap."
+                  ]
+                },
+                "en": {
+                  "q": "You are in the left lane of a one-way roadway and see this sign. What do you do?",
+                  "options": [
+                    "Move to the right lane early, giving way to traffic already in it",
+                    "Stay in your lane: it is the right lane that ends",
+                    "Stop where your lane runs out and wait for a gap"
+                  ],
+                  "why": "S-52d shows, on a one-way, two-lane roadway, that the left lane disappears and you must change lanes."
+                },
+                "terms": [
+                  {
+                    "es": "final de carril",
+                    "en": "end of lane"
+                  },
+                  {
+                    "es": "cambio de carril",
+                    "en": "lane change"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.9 (S-52d)",
+                "sign": "s-52d"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-lane-c",
+                "answer": 1,
+                "es": {
+                  "q": "¿Qué indica esta señal?",
+                  "options": [
+                    "Que el sentido contrario pierde un carril",
+                    "Que, en tu sentido, termina el carril derecho y hay que cambiarse",
+                    "Que se abre un carril para adelantar"
+                  ],
+                  "why": "S-52a indica, en una calzada de doble sentido con dos carriles en tu sentido, que desaparece el carril derecho. La flecha hacia abajo es el sentido contrario."
+                },
+                "exam": {
+                  "q": "What does this sign indicate?",
+                  "options": [
+                    "That the opposite direction loses a lane.",
+                    "That, in your direction, the right lane ends and one must change.",
+                    "That a lane opens in order to overtake."
+                  ]
+                },
+                "en": {
+                  "q": "What does this sign mean?",
+                  "options": [
+                    "That oncoming traffic loses a lane",
+                    "That in your direction the right lane ends and you must move over",
+                    "That a passing lane opens"
+                  ],
+                  "why": "S-52a shows, on a two-way road with two lanes in your direction, that the right lane disappears. The down arrow is oncoming traffic."
+                },
+                "terms": [
+                  {
+                    "es": "doble sentido",
+                    "en": "two-way"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.9 (S-52a)",
+                "sign": "s-52a"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Bifurcaciones",
+            "en": "Forks"
+          },
+          "blocks": [
+            {
+              "t": "signs",
+              "ids": [
+                "s-60a",
+                "s-60b",
+                "s-61a"
+              ],
+              "caption": {
+                "es": "S-60a y S-60b: bifurcación a la izquierda o a la derecha en calzada de dos carriles. S-61a: bifurcación a la izquierda en calzada de tres carriles.",
+                "en": "S-60a and S-60b: fork to the left or right on a two-lane roadway. S-61a: fork to the left on a three-lane roadway."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "En una **bifurcación**, un carril se separa de los demás y cambia de dirección. La flecha que se curva muestra qué carril se va: el izquierdo o el derecho. Ponte con tiempo en el carril de tu destino.",
+                "en": "At a **fork**, one lane separates from the others and changes direction. The curving arrow shows which lane leaves: the left or the right one. Get into the lane for your destination in good time."
+              },
+              "src": "RGC Anexo I, ap. 5.1, 3.9 (S-60a, S-60b y S-61a)"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-lane-d",
+                "answer": 2,
+                "es": {
+                  "q": "Circulas por una calzada de tres carriles del mismo sentido y ves esta señal. ¿Qué anuncia?",
+                  "options": [
+                    "Que el carril izquierdo termina y se une al central",
+                    "Que debes girar a la izquierda obligatoriamente",
+                    "Que el carril izquierdo se separa y cambia de dirección hacia ese lado"
+                  ],
+                  "why": "S-61a indica, en una calzada de tres carriles del mismo sentido, una bifurcación con cambio de dirección en el carril izquierdo."
+                },
+                "exam": {
+                  "q": "You circulate by a carriageway of three lanes of the same direction and you see this sign. What does it announce?",
+                  "options": [
+                    "The left lane finishes and joins the central one.",
+                    "That you must turn to the left compulsorily.",
+                    "That the left lane separates and changes direction towards that side."
+                  ]
+                },
+                "en": {
+                  "q": "You are on a roadway with three lanes in one direction and see this sign. What does it announce?",
+                  "options": [
+                    "The left lane finishes, merging into the middle one",
+                    "That you must turn left",
+                    "That the left lane splits off and heads to that side"
+                  ],
+                  "why": "S-61a shows, on a three-lane one-way roadway, a fork in which the left lane changes direction."
+                },
+                "terms": [
+                  {
+                    "es": "bifurcación",
+                    "en": "fork / bifurcation"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.9 (S-61a)",
+                "sign": "s-61a"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Velocidad mínima por carril",
+            "en": "Minimum speed by lane"
+          },
+          "blocks": [
+            {
+              "t": "signs",
+              "ids": [
+                "s-50a",
+                "s-50b",
+                "s-50c",
+                "s-50e"
+              ],
+              "caption": {
+                "es": "Carriles reservados en función de la velocidad señalizada. S-50a y S-50b: doble sentido, carril nuevo a la izquierda o a la derecha. S-50c: sentido único, carril nuevo a la derecha. S-50e: sentido único.",
+                "en": "Lanes reserved by signed speed. S-50a and S-50b: two-way road, new lane on the left or right. S-50c: one-way, new lane on the right. S-50e: one-way."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "El carril que lleva una **velocidad mínima** (círculo azul con cifra) solo pueden usarlo los vehículos que van a esa velocidad o más. Aun así, **si las circunstancias lo permiten, debes circular por el carril de la derecha**. La obligación acaba en la señal de fin de velocidad mínima o en una señal de final de carril.",
+                "en": "A lane carrying a **minimum speed** (blue circle with a number) may only be used by vehicles at that speed or above. Even so, **when circumstances allow, you must drive in the right lane**. The requirement ends at the end-of-minimum-speed sign or at an end-of-lane sign."
+              },
+              "src": "RGC Anexo I, ap. 5.1, 3.9 (S-50a, S-50b, S-50c y S-50e)"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-lane-e",
+                "answer": 1,
+                "es": {
+                  "q": "Ves esta señal en una subida. Tu camión sube despacio, por debajo de la cifra de los círculos azules. ¿Por qué carril vas?",
+                  "options": [
+                    "Por cualquiera, si pones las luces de emergencia",
+                    "Por el carril de la derecha, el que no tiene velocidad mínima",
+                    "Por el central, para no molestar en el derecho"
+                  ],
+                  "why": "S-50c: los carriles con la señal de velocidad mínima solo pueden usarlos quienes van a esa velocidad o más. Si vas más despacio, usas el carril sin velocidad mínima."
+                },
+                "exam": {
+                  "q": "You see this sign on an uphill. Your lorry goes up slowly, below the figure of the blue circles. By which lane do you go?",
+                  "options": [
+                    "By any, if you put on the emergency lights.",
+                    "By the right lane, the one that does not have minimum speed.",
+                    "By the central one, in order not to disturb on the right."
+                  ]
+                },
+                "en": {
+                  "q": "You see this sign on a climb. Your truck is going up slowly, below the number in the blue circles. Which lane do you use?",
+                  "options": [
+                    "Any lane, with your hazard lights on",
+                    "The right lane, the one with no minimum speed",
+                    "The middle lane, to keep out of the way on the right"
+                  ],
+                  "why": "S-50c: the lanes with the minimum-speed sign may only be used by vehicles at that speed or above. If you are slower, use the lane without a minimum."
+                },
+                "terms": [
+                  {
+                    "es": "velocidad mínima",
+                    "en": "minimum speed"
+                  },
+                  {
+                    "es": "camión",
+                    "en": "lorry / truck"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.9 (S-50c)",
+                "sign": "s-50c"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-lane-f",
+                "answer": 0,
+                "es": {
+                  "q": "Vas en turismo bastante por encima de la cifra del círculo azul y el carril derecho está libre. ¿Por qué carril circulas?",
+                  "options": [
+                    "Por el derecho, porque las circunstancias lo permiten",
+                    "Por el izquierdo, porque superas la velocidad mínima",
+                    "Por el que prefieras"
+                  ],
+                  "why": "S-50a: el carril nuevo de la izquierda solo pueden usarlo quienes van a la velocidad indicada o más, pero si las circunstancias lo permiten se debe circular por el carril de la derecha."
+                },
+                "exam": {
+                  "q": "You go in a passenger car much faster than the figure of the blue circle and the right lane is free. By which lane do you circulate?",
+                  "options": [
+                    "By the right one, because the circumstances allow it.",
+                    "By the left one, because you exceed the minimum speed.",
+                    "By the one you prefer."
+                  ]
+                },
+                "en": {
+                  "q": "You are in a car going much faster than the number in the blue circle, and the right lane is clear. Which lane do you use?",
+                  "options": [
+                    "The right lane, because circumstances allow it",
+                    "The left lane, because you are faster than the minimum",
+                    "Whichever you like"
+                  ],
+                  "why": "S-50a: the new left lane may only be used by vehicles at or above the speed shown, but when circumstances allow you must drive in the right lane."
+                },
+                "terms": [
+                  {
+                    "es": "carril de la derecha",
+                    "en": "right lane"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.9 (S-50a)",
+                "sign": "s-50a"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Carriles y vías reservados: VAO y ciclos",
+            "en": "Reserved lanes and roads: HOV and cycles"
+          },
+          "blocks": [
+            {
+              "t": "signs",
+              "ids": [
+                "s-51b",
+                "s-64a",
+                "s-35",
+                "s-44"
+              ],
+              "caption": {
+                "es": "S-51b: carril VAO. S-64a: carril reservado y obligatorio para ciclos junto a una calzada de sentido único. S-35: vía reservada para ciclos. S-44: fin de vía para ciclos, VMP y peatones con espacios diferenciados.",
+                "en": "S-51b: HOV lane. S-64a: compulsory cycle lane beside a one-way roadway. S-35: road reserved for cycles. S-44: end of a road for cycles, PMVs and pedestrians with separate spaces."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "S-51b indica uno o varios carriles **solo para vehículos con alta ocupación**. La cifra dice desde cuántas personas a bordo se considera alta ocupación en ese tramo.",
+                "en": "S-51b shows one or more lanes **only for high-occupancy vehicles**. The number says how many people on board count as high occupancy on that stretch."
+              },
+              "src": "RGC Anexo I, ap. 5.1, 3.9 (S-51b)"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "S-64a: en una calzada de sentido único, los ciclos deben ir por el carril marcado con la bicicleta y los demás no pueden usarlo. S-35: una vía para ciclos, prohibida a los demás usuarios. S-44: termina una vía para ciclos, vehículos de movilidad personal y peatones.",
+                "en": "S-64a: on a one-way roadway, cycles must use the lane marked with the bicycle and others may not use it. S-35: a road for cycles, closed to other users. S-44: the end of a road for cycles, personal mobility vehicles and pedestrians."
+              },
+              "src": "RGC Anexo I, ap. 5.1, 3.9 (S-64a) y 3.8 (S-35 y S-44)"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-lane-g",
+                "answer": 2,
+                "es": {
+                  "q": "Conduces un turismo por esta calzada. ¿Puedes circular por el carril de la derecha?",
+                  "options": [
+                    "Sí, si no hay ciclistas",
+                    "Sí, para adelantar",
+                    "No: está reservado a los ciclos"
+                  ],
+                  "why": "S-64a obliga a los ciclos a circular por el carril sobre el que está la bicicleta y prohíbe usarlo a los demás usuarios."
+                },
+                "exam": {
+                  "q": "You drive a passenger car by this carriageway. Can you circulate by the right lane?",
+                  "options": [
+                    "Yes, if there are no cyclists.",
+                    "Yes, in order to overtake.",
+                    "No: it is reserved for cycles."
+                  ]
+                },
+                "en": {
+                  "q": "You are driving a car on this roadway. May you use the right lane?",
+                  "options": [
+                    "Yes, if there are no cyclists",
+                    "Yes, to pass",
+                    "No: it is reserved for cycles"
+                  ],
+                  "why": "S-64a requires cycles to use the lane under the bicycle and forbids everyone else from using it."
+                },
+                "terms": [
+                  {
+                    "es": "carril bici",
+                    "en": "cycle lane"
+                  },
+                  {
+                    "es": "ciclo",
+                    "en": "cycle"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.9 (S-64a)",
+                "sign": "s-64a"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-lane-h",
+                "answer": 0,
+                "es": {
+                  "q": "A la entrada de una vía está esta señal. ¿Puedes entrar con tu turismo?",
+                  "options": [
+                    "No: es una vía para ciclos y los demás no pueden usarla",
+                    "Sí: una señal cuadrada solo informa",
+                    "Sí, si vas a menos de 20 km/h"
+                  ],
+                  "why": "S-35, «Vía reservada para ciclos», indica una vía para la circulación de ciclos y prohíbe usarla a los demás usuarios."
+                },
+                "exam": {
+                  "q": "At the entrance of a road is this sign. Can you enter with your passenger car?",
+                  "options": [
+                    "No: it is a road for cycles and the others cannot use it.",
+                    "Yes: a square sign only informs.",
+                    "Yes, if you go at less than 20 km/h."
+                  ]
+                },
+                "en": {
+                  "q": "This sign stands where a road begins. May you drive your car in?",
+                  "options": [
+                    "No: it is a road for cycles and nobody else may use it",
+                    "Yes: a square sign is only information",
+                    "Yes, if you stay under 20 km/h"
+                  ],
+                  "why": "S-35, \"Road reserved for cycles\", shows a road for cycle traffic and forbids other users from using it."
+                },
+                "terms": [
+                  {
+                    "es": "vía reservada para ciclos",
+                    "en": "road reserved for cycles"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.8 (S-35)",
+                "sign": "s-35"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-lane-i",
+                "answer": 1,
+                "es": {
+                  "q": "¿Qué indica esta señal sobre un carril?",
+                  "options": [
+                    "Que el carril es para vehículos de dos plazas como máximo",
+                    "Que el carril es solo para vehículos con alta ocupación",
+                    "Que en ese carril se puede adelantar por la derecha"
+                  ],
+                  "why": "S-51b indica uno o varios carriles destinados exclusivamente a vehículos con alta ocupación. La cifra es el número de personas desde el que se considera alta ocupación."
+                },
+                "exam": {
+                  "q": "What does this sign over a lane indicate?",
+                  "options": [
+                    "That the lane is for vehicles of two seats as maximum.",
+                    "That the lane is only for vehicles with high occupancy.",
+                    "That in that lane it is possible to overtake on the right."
+                  ]
+                },
+                "en": {
+                  "q": "What does this sign over a lane mean?",
+                  "options": [
+                    "That the lane is for two-seat vehicles at most",
+                    "That the lane is only for high-occupancy vehicles",
+                    "That passing on the right is allowed in that lane"
+                  ],
+                  "why": "S-51b shows lanes only for high-occupancy vehicles. The number is how many people on board count as high occupancy."
+                },
+                "terms": [
+                  {
+                    "es": "vehículo con alta ocupación (VAO)",
+                    "en": "high-occupancy vehicle (HOV)"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.9 (S-51b)",
+                "sign": "s-51b"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "Las señales de carriles son azules (amarillas en obras). Cada flecha es un carril.",
+          "en": "Lane signs are blue (yellow in roadworks). Each arrow is a lane."
+        },
+        {
+          "es": "**Final de carril**: el carril que se dobla termina; cámbiate con tiempo y respeta a quien ya va por el otro.",
+          "en": "**End of lane**: the lane that bends ends; move over early and give way to traffic already in the other lane."
+        },
+        {
+          "es": "**Bifurcación**: el carril cuya flecha se curva se separa y cambia de dirección.",
+          "en": "**Fork**: the lane whose arrow curves splits off and changes direction."
+        },
+        {
+          "es": "Carril con **velocidad mínima**: solo si vas a esa velocidad o más, y aun así por la derecha si se puede.",
+          "en": "Lane with a **minimum speed**: only if you go that fast or faster, and even then keep right when you can."
+        },
+        {
+          "es": "**VAO** y vías para **ciclos**: reservados; los demás no pueden usarlos.",
+          "en": "**HOV** lanes and **cycle** roads: reserved; others may not use them."
+        }
+      ],
+      "covers": [],
+      "src": [
+        "RGC Anexo I, apartado 5.1 (Catálogo de señales verticales, Tomo I: apartados 3.8 y 3.9), en la redacción del RD 465/2025",
+        "RGC Anexo I, apartado 5 (Tomo I, 2.5)",
+        "RGC Anexo I, apartado 5.2 (marcas viales), 4.1"
       ]
     },
     {
@@ -5909,6 +8409,22 @@
               "src": "RGC art. 40.1 y RGC Anexo I, ap. 5.2 (marcas viales), 4.1"
             },
             {
+              "t": "rule",
+              "text": {
+                "es": "Las líneas discontinuas que separan carriles normales tienen trazos de 0,10 a 0,15 m de ancho. Las que separan un carril especial (de aceleración o deceleración, de trenzado, reservado o adicional) son **más anchas**: 0,30 m, y 0,40 m en autopistas y autovías.",
+                "en": "Broken lines between ordinary lanes have strokes 0.10 to 0.15 m wide. Those that separate a special lane (acceleration or deceleration, weaving, reserved or additional) are **wider**: 0.30 m, and 0.40 m on motorways and dual carriageways."
+              },
+              "src": "RGC Anexo I, ap. 5.2 (marcas viales), 4.1 y 5.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si los huecos entre trazos se acortan mucho, la línea es un **preaviso**: anuncia una línea continua próxima o un tramo con un riesgo especial. En carretera, el trazo normal es de 4 m con huecos de 8,5 m; el de preaviso, de 3,5 m con huecos de 1,5 m.",
+                "en": "If the gaps between strokes get much shorter, the line is an **advance warning**: it announces a continuous line ahead or a stretch with a special risk. On ordinary roads the normal pattern is 4 m strokes with 8.5 m gaps; the warning pattern is 3.5 m strokes with 1.5 m gaps."
+              },
+              "src": "RGC Anexo I, ap. 5.2 (marcas viales), 4.1 y 5.1"
+            },
+            {
               "t": "check",
               "q": {
                 "id": "signs-mark-b",
@@ -5918,7 +8434,7 @@
                   "options": [
                     "Circular por su derecha",
                     "Atravesarla o circular por su izquierda",
-                    "Circular a más de 50 km/h"
+                    "Llevar encendidas las luces de cruce"
                   ],
                   "why": "Una línea continua significa que no debes atravesarla ni circular sobre ella ni, si separa los dos sentidos, por su izquierda."
                 },
@@ -5927,7 +8443,7 @@
                   "options": [
                     "To circulate by its right.",
                     "To cross it or to circulate by its left.",
-                    "To circulate at more than 50 km/h."
+                    "To carry switched on the dipped beam lights."
                   ]
                 },
                 "en": {
@@ -5935,7 +8451,7 @@
                   "options": [
                     "Drive on its right",
                     "Cross it or drive on its left",
-                    "Drive faster than 50 km/h"
+                    "Keep your low beams on"
                   ],
                   "why": "A continuous line means you must not cross it or drive on it or, if it separates the two directions, on its left."
                 },
@@ -6030,6 +8546,90 @@
                   }
                 ],
                 "src": "RGC art. 40.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-mark-l",
+                "answer": 0,
+                "es": {
+                  "q": "Una línea discontinua de trazos mucho más anchos que los normales separa un carril del tuyo. ¿Qué indica?",
+                  "options": [
+                    "Que ese carril es especial: de aceleración o salida, reservado o adicional",
+                    "Que puedes circular sobre la línea",
+                    "Que se acerca un paso a nivel"
+                  ],
+                  "why": "Las líneas discontinuas anchas (0,30 o 0,40 m) separan carriles o cuñas de cambio de velocidad, de trenzado, reservados o adicionales de los carriles normales."
+                },
+                "exam": {
+                  "q": "A discontinuous line of strokes much wider than the normal ones separates a lane from yours. What does it indicate?",
+                  "options": [
+                    "That that lane is special: of acceleration or exit, reserved or additional.",
+                    "That you can circulate over the line.",
+                    "That a level crossing approaches."
+                  ]
+                },
+                "en": {
+                  "q": "A broken line with much wider strokes than usual separates a lane from yours. What does it mean?",
+                  "options": [
+                    "That the lane is special: an on- or off-ramp lane, reserved or additional",
+                    "That you may drive on the line",
+                    "That a railroad crossing is coming"
+                  ],
+                  "why": "Wide broken lines (0.30 or 0.40 m) separate speed-change, weaving, reserved or additional lanes from the ordinary ones."
+                },
+                "terms": [
+                  {
+                    "es": "línea discontinua",
+                    "en": "discontinuous (broken) line"
+                  },
+                  {
+                    "es": "carril de aceleración",
+                    "en": "acceleration lane"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.2 (marcas viales), 4.1 y 5.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-mark-m",
+                "answer": 1,
+                "es": {
+                  "q": "En una carretera, la línea discontinua del centro pasa a tener los huecos mucho más cortos. ¿Qué anuncia?",
+                  "options": [
+                    "Que empieza una zona donde se puede adelantar",
+                    "Una línea continua próxima o un tramo con un riesgo especial",
+                    "Que el carril se ensancha"
+                  ],
+                  "why": "Una línea discontinua con los huecos mucho más cortos es un preaviso de una marca continua o de un tramo que presenta un riesgo especial."
+                },
+                "exam": {
+                  "q": "On a road, the discontinuous line of the centre passes to have the gaps much shorter. What does it announce?",
+                  "options": [
+                    "That a zone begins where it is possible to overtake.",
+                    "A nearby continuous line or a section with a special risk.",
+                    "That the lane widens."
+                  ]
+                },
+                "en": {
+                  "q": "On a road, the broken center line suddenly has much shorter gaps. What does it announce?",
+                  "options": [
+                    "That a passing zone begins",
+                    "A solid line ahead, or a stretch with a special risk",
+                    "That the lane gets wider"
+                  ],
+                  "why": "A broken line with much shorter gaps is an advance warning of a continuous line or of a stretch with a special risk."
+                },
+                "terms": [
+                  {
+                    "es": "eje de la calzada",
+                    "en": "axis of the carriageway / center line"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.2 (marcas viales), 4.1"
               }
             }
           ]
@@ -6251,6 +8851,22 @@
               }
             },
             {
+              "t": "rule",
+              "text": {
+                "es": "Dos líneas transversales discontinuas y paralelas sobre la calzada marcan un **paso para ciclistas**: debes dejarles pasar. El suelo entre ellas puede ir pintado de rojo.",
+                "en": "Two parallel broken lines across the roadway mark a **cycle crossing**: you must let cyclists cross. The surface between them may be painted red."
+              },
+              "src": "RGC Anexo I, ap. 5.2 (marcas viales), 4.2"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Una **limitación de velocidad pintada** en un carril delimitado por líneas solo obliga a quien circula por ese carril. Rige hasta una señal de fin de limitación o de otra velocidad máxima distinta.",
+                "en": "A **speed limit painted** in a lane marked off by lines binds only traffic in that lane. It applies until an end-of-limit sign or a different maximum-speed sign."
+              },
+              "src": "RGC Anexo I, ap. 5.2 (marcas viales), 4.4"
+            },
+            {
               "t": "check",
               "q": {
                 "id": "signs-mark-f",
@@ -6288,6 +8904,90 @@
                   }
                 ],
                 "src": "RGC Anexo I, ap. 5.2 (marcas viales), 4.2"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-mark-n",
+                "answer": 2,
+                "es": {
+                  "q": "Dos líneas discontinuas paralelas cruzan tu carril, con el suelo rojo entre ellas. Se acerca una bicicleta para cruzar. ¿Qué haces?",
+                  "options": [
+                    "Sigues: solo es una línea de ceda el paso doble",
+                    "Pasas si la bicicleta aún no ha entrado",
+                    "Le dejas pasar: es un paso para ciclistas"
+                  ],
+                  "why": "Dos líneas transversales discontinuas y paralelas indican un paso para ciclistas, en el que los vehículos deben dejarles paso."
+                },
+                "exam": {
+                  "q": "Two parallel discontinuous lines cross your lane, with the floor red between them. A bicycle approaches to cross. What do you do?",
+                  "options": [
+                    "You continue: it is only a double give way line.",
+                    "You pass if the bicycle has not yet entered.",
+                    "You let it pass: it is a crossing for cyclists."
+                  ]
+                },
+                "en": {
+                  "q": "Two parallel broken lines run across your lane, with red pavement between them. A bicycle is coming to cross. What do you do?",
+                  "options": [
+                    "Keep going: it is just a double yield line",
+                    "Go if the bicycle has not entered yet",
+                    "Let it cross: it is a cycle crossing"
+                  ],
+                  "why": "Two parallel broken lines across the road mark a cycle crossing, where vehicles must let cyclists cross."
+                },
+                "terms": [
+                  {
+                    "es": "paso para ciclistas",
+                    "en": "cycle crossing"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.2 (marcas viales), 4.2"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-mark-o",
+                "answer": 1,
+                "es": {
+                  "q": "En el carril de tu izquierda hay pintado un «60» en el suelo; en el tuyo no hay nada. ¿A quién obliga ese límite?",
+                  "options": [
+                    "A todos los carriles de la calzada",
+                    "Solo a quien circula por el carril donde está pintado",
+                    "Solo a los camiones"
+                  ],
+                  "why": "Una limitación de velocidad pintada en un carril delimitado por marcas longitudinales solo obliga a los vehículos que circulan por ese carril."
+                },
+                "exam": {
+                  "q": "On the lane to your left there is a \"60\" painted on the floor; on yours there is nothing. Whom does that limit oblige?",
+                  "options": [
+                    "All the lanes of the carriageway.",
+                    "Only who circulates by the lane where it is painted.",
+                    "Only lorries."
+                  ]
+                },
+                "en": {
+                  "q": "The lane to your left has \"60\" painted on it; yours has nothing. Who must obey that limit?",
+                  "options": [
+                    "Every lane on the roadway",
+                    "Only traffic in the lane where it is painted",
+                    "Only trucks"
+                  ],
+                  "why": "A speed limit painted in a lane marked off by lines binds only the vehicles in that lane."
+                },
+                "terms": [
+                  {
+                    "es": "señal horizontal",
+                    "en": "horizontal sign (painted on the road)"
+                  },
+                  {
+                    "es": "limitación de velocidad",
+                    "en": "speed limitation"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.2 (marcas viales), 4.4"
               }
             }
           ]
@@ -6381,7 +9081,7 @@
                   ]
                 },
                 "en": {
-                  "q": "You are overtaking and see a return arrow painted on the road. What does it announce?",
+                  "q": "You are overtaking and a return arrow appears on the pavement. What is it warning you of?",
                   "options": [
                     "A mandatory U-turn",
                     "The end of the speed limit",
@@ -6449,6 +9149,14 @@
                 "en": "The yellow grid at a junction reminds you not to enter the intersection, even if the light allows it or you have priority, if you are likely to be left stopped and block the cross traffic."
               },
               "src": "RGC art. 59.1 y RGC Anexo I, ap. 5.2 (marcas viales), 4.7"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Un **damero de cuadros rojos y blancos** marca el comienzo de una zona de frenado de emergencia. Prohíbe parar, estacionar o usar esa superficie para otra cosa.",
+                "en": "A **red-and-white checkerboard** marks the start of an emergency braking area. It forbids stopping, parking or using that surface for anything else."
+              },
+              "src": "RGC Anexo I, ap. 5.2 (marcas viales), 4.7"
             },
             {
               "t": "check",
@@ -6528,6 +9236,50 @@
                   }
                 ],
                 "src": "RGC art. 59.1 y RGC Anexo I, ap. 5.2 (marcas viales), 4.7"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-mark-q",
+                "answer": 2,
+                "es": {
+                  "q": "En una bajada larga ves un damero de cuadros rojos y blancos pintado a la entrada de una zona de escape. ¿Puedes parar allí a descansar?",
+                  "options": [
+                    "Sí, un momento, sin bajar del coche",
+                    "Sí, con las luces de emergencia",
+                    "No: está prohibido parar, estacionar o usarla con otro fin"
+                  ],
+                  "why": "El damero rojo y blanco marca el acceso a una zona de frenado de emergencia y prohíbe la parada, el estacionamiento o el uso de esa superficie con otros fines."
+                },
+                "exam": {
+                  "q": "On a long downhill you see a checkerboard of red and white squares painted at the entrance of an escape zone. Can you stop there to rest?",
+                  "options": [
+                    "Yes, a moment, without getting out of the car.",
+                    "Yes, with the emergency lights.",
+                    "No: it is prohibited to stop, to park or to use it with another purpose."
+                  ]
+                },
+                "en": {
+                  "q": "On a long downhill you see a red-and-white checkerboard painted at the entrance to an escape area. May you stop there for a rest?",
+                  "options": [
+                    "Yes, briefly, without getting out",
+                    "Yes, with your hazard lights on",
+                    "No: stopping, parking or any other use is forbidden"
+                  ],
+                  "why": "The red-and-white checkerboard marks the entrance to an emergency braking area and forbids stopping, parking or any other use of that surface."
+                },
+                "terms": [
+                  {
+                    "es": "zona de frenado de emergencia",
+                    "en": "emergency braking zone"
+                  },
+                  {
+                    "es": "lecho de frenado",
+                    "en": "arrester bed"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.2 (marcas viales), 4.7"
               }
             }
           ]
@@ -6680,7 +9432,8 @@
       ],
       "src": [
         "Reglamento General de Circulación (RD 1428/2003), arts. 40.1, 59.1, 84.1, 91.2.a, 147.1 y 147.2",
-        "RGC Anexo I, apartado 5.2 (Catálogo de marcas viales), apartados 2, 4.1, 4.2, 4.3, 4.4 y 4.7, en la redacción del RD 465/2025"
+        "RGC Anexo I, apartado 5.2 (Catálogo de marcas viales), apartados 2, 4.1, 4.2, 4.3, 4.4 y 4.7, en la redacción del RD 465/2025",
+        "RGC Anexo I, apartado 5.2 (marcas viales), 4.4, 4.7 y 5.1"
       ]
     }
   ]

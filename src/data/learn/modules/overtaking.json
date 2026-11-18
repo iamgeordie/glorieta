@@ -141,7 +141,7 @@
                 "exam": {
                   "q": "You circulate by a city street with two lanes for your direction, separated by lines. The car of the left lane goes slowly. Can you pass it by the right?",
                   "options": [
-                    "Yes, inside of town, if before you check that there is no danger.",
+                    "Yes, inside of town, if before you verify that nobody is in danger.",
                     "No: always one must overtake by the left.",
                     "Yes, on any road if the other car goes slow."
                   ]
@@ -166,6 +166,54 @@
                   }
                 ],
                 "src": "RGC art. 82.3"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c1f",
+                "answer": 2,
+                "es": {
+                  "q": "El coche de delante indica que gira a la izquierda. A su derecha solo hay sitio si te metes en el arcén. ¿Puedes adelantarlo por la derecha usando el arcén?",
+                  "options": [
+                    "Sí, porque indica que gira a la izquierda",
+                    "Sí, si lo haces despacio y con el intermitente",
+                    "No: un turismo circula por la calzada, no por el arcén"
+                  ],
+                  "why": "Adelantar por la derecha a quien gira a la izquierda exige espacio suficiente. El conductor de un automóvil circula por la calzada y no por el arcén, salvo por emergencia."
+                },
+                "exam": {
+                  "q": "The car in front indicates that it turns to the left. To its right there is only room if you get into the hard shoulder. Can you overtake it by the right using the hard shoulder?",
+                  "options": [
+                    "Yes, because it indicates that it turns to the left.",
+                    "Yes, if you do it slowly and with the indicator.",
+                    "No: a passenger car circulates by the carriageway, not by the hard shoulder."
+                  ]
+                },
+                "en": {
+                  "q": "The car ahead signals a left turn. The only room on its right is on the shoulder. May you pass it on the right using the shoulder?",
+                  "options": [
+                    "Yes, because it is signaling a left turn",
+                    "Yes, if you do it slowly and with your turn signal on",
+                    "No: a car drives on the roadway, not on the shoulder"
+                  ],
+                  "why": "Passing on the right a driver who is turning left needs enough room. The driver of an automobile uses the roadway, not the shoulder, except in an emergency."
+                },
+                "terms": [
+                  {
+                    "es": "arcén",
+                    "en": "hard shoulder"
+                  },
+                  {
+                    "es": "calzada",
+                    "en": "carriageway"
+                  },
+                  {
+                    "es": "adelantar por la derecha",
+                    "en": "overtake on the right"
+                  }
+                ],
+                "src": "RGC arts. 82.2 y 30.1"
               }
             }
           ]
@@ -545,7 +593,7 @@
         "overtaking-07"
       ],
       "src": [
-        "Reglamento General de Circulación (RD 1428/2003), arts. 82, 84, 85 y 109"
+        "Reglamento General de Circulación (RD 1428/2003), arts. 30.1, 82, 84, 85 y 109"
       ]
     },
     {
@@ -554,7 +602,7 @@
         "es": "Ser adelantado y circular con varios carriles",
         "en": "Being overtaken and driving on several lanes"
       },
-      "minutes": 6,
+      "minutes": 7,
       "goals": [
         {
           "es": "Saber qué hacer cuando otro conductor te adelanta.",
@@ -804,6 +852,88 @@
         },
         {
           "title": {
+            "es": "En el arcén: en paralelo, poco tiempo",
+            "en": "On the shoulder: side by side only briefly"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Algunos vehículos lentos deben ir por el **arcén**. Entre ellos también hay adelantamientos, con un límite propio.",
+                "en": "Some slow vehicles must use the **shoulder**. They also overtake each other there, with a limit of their own."
+              }
+            },
+            {
+              "t": "rule",
+              "src": "RGC art. 36.5",
+              "text": {
+                "es": "Los vehículos de tracción animal, los vehículos especiales de hasta 3.500 kg, los ciclos, los ciclomotores, los vehículos para personas de movilidad reducida y los que acompañan a ciclistas **no pueden adelantar** a otro si van en paralelo más de **15 segundos** o más de **200 metros**. Las **bicicletas** quedan fuera de esta regla.",
+                "en": "Animal-drawn vehicles, special vehicles up to 3,500 kg, cycles, mopeds, vehicles for people with reduced mobility and vehicles following cyclists **may not overtake** another if they run side by side for more than **15 seconds** or over more than **200 meters**. **Bicycles** are left out of this rule."
+              }
+            },
+            {
+              "t": "us",
+              "text": {
+                "es": "200 metros son unos 656 pies.",
+                "en": "200 meters is about 656 feet."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c2g",
+                "answer": 1,
+                "es": {
+                  "q": "Vas en ciclomotor por el arcén y alcanzas a un tractor agrícola pequeño que también va por el arcén. ¿Puedes adelantarlo?",
+                  "options": [
+                    "No: en el arcén nunca se adelanta",
+                    "Sí, si la marcha en paralelo no pasa de 15 segundos ni de 200 metros",
+                    "Sí, sin límite, porque los dos van por el arcén"
+                  ],
+                  "why": "Quien va obligado por el arcén solo puede adelantar a otro si la marcha en paralelo no dura más de 15 segundos ni recorre más de 200 metros."
+                },
+                "exam": {
+                  "q": "You go on moped by the hard shoulder and you reach a small agricultural tractor that also goes by the hard shoulder. Can you overtake it?",
+                  "options": [
+                    "No: on the hard shoulder one never overtakes.",
+                    "Yes, if the march in parallel does not pass 15 seconds nor 200 metres.",
+                    "Yes, without limit, because both go by the hard shoulder."
+                  ]
+                },
+                "en": {
+                  "q": "You ride a moped on the shoulder and catch up with a small farm tractor that is also on the shoulder. May you overtake it?",
+                  "options": [
+                    "No: you never overtake on the shoulder",
+                    "Yes, if you are side by side for no more than 15 seconds and 200 meters",
+                    "Yes, with no limit, since both of you are on the shoulder"
+                  ],
+                  "why": "Vehicles that must use the shoulder may overtake another only if they run side by side for no more than 15 seconds and no more than 200 meters."
+                },
+                "terms": [
+                  {
+                    "es": "ciclomotor",
+                    "en": "moped"
+                  },
+                  {
+                    "es": "arcén",
+                    "en": "hard shoulder"
+                  },
+                  {
+                    "es": "en paralelo",
+                    "en": "in parallel, side by side"
+                  },
+                  {
+                    "es": "tractor agrícola",
+                    "en": "agricultural tractor"
+                  }
+                ],
+                "src": "RGC art. 36.5"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
             "es": "Varios carriles por sentido",
             "en": "Several lanes per direction"
           },
@@ -902,7 +1032,7 @@
                   "why": "Quien va a hacer un nuevo adelantamiento puede permanecer en el carril del anterior, si no molesta indebidamente a los que le siguen más veloces."
                 },
                 "exam": {
-                  "q": "You have just overtaken a lorry on a road with two lanes for your direction and you see another lorry further ahead. Do you have to return to the right lane?",
+                  "q": "You have just overtaken a lorry. Your direction has two lanes and you see another lorry further ahead. Is it obligatory to go back to the lane of the right?",
                   "options": [
                     "Yes, always, before overtaking again.",
                     "No, if you do not bother those who come behind faster.",
@@ -910,7 +1040,7 @@
                   ]
                 },
                 "en": {
-                  "q": "You have just overtaken a truck on a road with two lanes for your direction and see another truck ahead. Must you move back to the right lane?",
+                  "q": "You have just passed a truck. Your direction has two lanes and another truck is further on. Must you move back to the right lane first?",
                   "options": [
                     "Yes, always, before overtaking again",
                     "No, if you do not hold up faster drivers behind you",
@@ -998,6 +1128,54 @@
                 ],
                 "src": "RGC art. 83.2"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c2h",
+                "answer": 0,
+                "es": {
+                  "q": "Hay un atasco: todos los carriles de tu sentido están llenos y cada coche va al ritmo del de delante. ¿Para qué puedes cambiarte de carril?",
+                  "options": [
+                    "Solo para preparar un giro, una salida o tomar una dirección concreta",
+                    "Para ponerte en el carril que avance más deprisa",
+                    "Para adelantar, si señalizas con tiempo"
+                  ],
+                  "why": "Con la circulación tan densa que los vehículos ocupan todo el ancho y siguen al de delante, no se cambia de carril para adelantar. Solo para preparar un giro, salir de la vía o tomar una dirección determinada."
+                },
+                "exam": {
+                  "q": "There is a traffic jam: all the lanes of your direction are full and each car goes at the rhythm of the one in front. In order to what can you change lane?",
+                  "options": [
+                    "Only in order to prepare a turn, an exit or to take a determined direction.",
+                    "In order to put yourself in the lane that advances more quickly.",
+                    "In order to overtake, if you signal with time."
+                  ]
+                },
+                "en": {
+                  "q": "Traffic is jammed: every lane your way is full and each car moves at the pace of the one ahead. What may you change lanes for?",
+                  "options": [
+                    "Only to prepare a turn, an exit or a particular direction",
+                    "To get into whichever lane is moving faster",
+                    "To overtake, if you signal early"
+                  ],
+                  "why": "When traffic is so dense that vehicles fill the whole width and follow the one ahead, you do not change lanes to overtake. You change only to prepare a turn, leave the road or take a particular direction."
+                },
+                "terms": [
+                  {
+                    "es": "circulación densa",
+                    "en": "dense traffic"
+                  },
+                  {
+                    "es": "cambiar de carril",
+                    "en": "change lane"
+                  },
+                  {
+                    "es": "tomar una determinada dirección",
+                    "en": "take a determined direction"
+                  }
+                ],
+                "src": "RGC art. 83.2"
+              }
             }
           ]
         }
@@ -1029,7 +1207,7 @@
         "overtaking-06"
       ],
       "src": [
-        "Reglamento General de Circulación (RD 1428/2003), arts. 31.1, 33, 83 y 86",
+        "Reglamento General de Circulación (RD 1428/2003), arts. 31.1, 33, 36.5, 83 y 86",
         "Ley de Tráfico y Seguridad Vial (RDL 6/2015), art. 76.c"
       ]
     },
@@ -1180,6 +1358,110 @@
                 ],
                 "src": "RGC art. 87.1.a"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c3h",
+                "answer": 0,
+                "es": {
+                  "q": "Subes un cambio de rasante sin visibilidad. La vía tiene dos carriles en tu sentido, separados del sentido contrario por una mediana. ¿Puedes adelantar por tu carril izquierdo?",
+                  "options": [
+                    "Sí, porque no invades el sentido contrario",
+                    "No, nunca se adelanta en un cambio de rasante",
+                    "Solo si adelantas a una motocicleta"
+                  ],
+                  "why": "En curvas y cambios de rasante de visibilidad reducida se prohíbe adelantar, salvo que los dos sentidos estén claramente delimitados y no invadas la zona del sentido contrario."
+                },
+                "exam": {
+                  "q": "You climb a change of gradient without visibility. The road has two lanes in your direction, separated from the opposite direction by a median. Can you overtake by your left lane?",
+                  "options": [
+                    "Yes, because you do not invade the opposite direction.",
+                    "No, one never overtakes in a change of gradient.",
+                    "Only if you overtake a motorcycle."
+                  ]
+                },
+                "en": {
+                  "q": "You are climbing a blind hill crest. The road has two lanes your way, divided from the other direction by a median. May you overtake using your left lane?",
+                  "options": [
+                    "Yes, because you do not enter the opposite side",
+                    "No, you never overtake on a hill crest",
+                    "Only if you are passing a motorcycle"
+                  ],
+                  "why": "Overtaking on curves and crests with reduced visibility is forbidden, unless the two directions are clearly separated and you do not enter the area for oncoming traffic."
+                },
+                "terms": [
+                  {
+                    "es": "cambio de rasante",
+                    "en": "change of gradient, hill crest"
+                  },
+                  {
+                    "es": "visibilidad reducida",
+                    "en": "reduced visibility"
+                  },
+                  {
+                    "es": "sentido contrario",
+                    "en": "opposite direction"
+                  },
+                  {
+                    "es": "mediana",
+                    "en": "median"
+                  }
+                ],
+                "src": "RGC art. 87.1.a"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c3i",
+                "answer": 1,
+                "es": {
+                  "q": "En una curva cerrada sin visibilidad, la línea del centro es discontinua. La carretera tiene un carril por sentido. ¿Puedes adelantar a una furgoneta lenta?",
+                  "options": [
+                    "Sí, porque la línea es discontinua",
+                    "No: sin visibilidad suficiente está prohibido, aunque la línea sea discontinua",
+                    "Sí, si tocas el claxon antes de la curva"
+                  ],
+                  "why": "La prohibición de adelantar en curvas de visibilidad reducida rige aunque no haya línea continua. Aquí tendrías que invadir el sentido contrario sin ver si viene alguien."
+                },
+                "exam": {
+                  "q": "In a closed curve without visibility, the line of the centre is discontinuous. The road has one lane per direction. Can you overtake a slow van?",
+                  "options": [
+                    "Yes, because the line is discontinuous.",
+                    "No: without sufficient visibility it is prohibited, although the line is discontinuous.",
+                    "Yes, if you sound the horn before the curve."
+                  ]
+                },
+                "en": {
+                  "q": "On a tight blind bend the center line is dashed. The road has one lane each way. May you overtake a slow van?",
+                  "options": [
+                    "Yes, because the line is dashed",
+                    "No: without enough visibility it is forbidden, even with a dashed line",
+                    "Yes, if you sound the horn before the bend"
+                  ],
+                  "why": "The ban on overtaking on curves with reduced visibility applies even without a solid line. Here you would enter the opposite lane without seeing whether anyone is coming."
+                },
+                "terms": [
+                  {
+                    "es": "curva",
+                    "en": "bend"
+                  },
+                  {
+                    "es": "línea discontinua",
+                    "en": "broken line"
+                  },
+                  {
+                    "es": "visibilidad",
+                    "en": "visibility"
+                  },
+                  {
+                    "es": "furgoneta",
+                    "en": "van"
+                  }
+                ],
+                "src": "RGC art. 87.1.a"
+              }
             }
           ]
         },
@@ -1318,6 +1600,106 @@
                   }
                 ],
                 "src": "RGC art. 87.1.d"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c3j",
+                "answer": 2,
+                "es": {
+                  "q": "Te acercas a un paso a nivel detrás de un turismo que va despacio. El carril contrario está libre. ¿Puedes adelantarlo?",
+                  "options": [
+                    "Sí, si terminas antes de llegar a las vías",
+                    "Sí, si el paso a nivel tiene barreras",
+                    "No: está prohibido en los pasos a nivel y en sus proximidades"
+                  ],
+                  "why": "Se prohíbe adelantar en los pasos a nivel y en sus proximidades. Lo mismo vale para los pasos para peatones señalizados y las intersecciones con vías para ciclistas."
+                },
+                "exam": {
+                  "q": "You approach a level crossing behind a passenger car that goes slowly. The opposite lane is free. Can you overtake it?",
+                  "options": [
+                    "Yes, if you finish before arriving at the tracks.",
+                    "Yes, if the level crossing has barriers.",
+                    "No: it is prohibited at the level crossings and in their proximities."
+                  ]
+                },
+                "en": {
+                  "q": "You approach a level crossing behind a slow car. The opposite lane is clear. May you overtake it?",
+                  "options": [
+                    "Yes, if you finish before reaching the tracks",
+                    "Yes, if the level crossing has barriers",
+                    "No: it is forbidden at level crossings and near them"
+                  ],
+                  "why": "Overtaking is forbidden at level crossings and near them. The same goes for marked pedestrian crossings and junctions with cycle paths."
+                },
+                "terms": [
+                  {
+                    "es": "paso a nivel",
+                    "en": "level crossing"
+                  },
+                  {
+                    "es": "proximidades",
+                    "en": "vicinity"
+                  },
+                  {
+                    "es": "turismo",
+                    "en": "passenger car"
+                  }
+                ],
+                "src": "RGC art. 87.1.b"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c3k",
+                "answer": 0,
+                "es": {
+                  "q": "Tu carretera tiene prioridad en la próxima intersección, y una señal lo indica expresamente. Delante va una furgoneta lenta y el sentido contrario está libre. ¿Puedes adelantar cerca de la intersección?",
+                  "options": [
+                    "Sí: es una de las excepciones a la prohibición",
+                    "No: cerca de una intersección nunca se adelanta",
+                    "Solo si la intersección tiene semáforo"
+                  ],
+                  "why": "Adelantar en las intersecciones y cerca de ellas está prohibido, salvo excepciones. Una es que tu calzada tenga prioridad en la intersección y haya señal expresa que lo indique."
+                },
+                "exam": {
+                  "q": "Your road has priority at the next intersection, and a sign indicates it expressly. In front goes a slow van and the opposite direction is free. Can you overtake near the intersection?",
+                  "options": [
+                    "Yes: this case is an exception to the prohibition.",
+                    "No: near an intersection one never overtakes.",
+                    "Only if the intersection has a traffic light."
+                  ]
+                },
+                "en": {
+                  "q": "Your road has priority at the next junction, and a sign says so expressly. A slow van is ahead and the opposite direction is clear. May you overtake near the junction?",
+                  "options": [
+                    "Yes: this case is an exception to the ban",
+                    "No: you never overtake near a junction",
+                    "Only if the junction has traffic lights"
+                  ],
+                  "why": "Overtaking at junctions and near them is forbidden, with exceptions. One is when your roadway has priority at the junction and a sign expressly says so."
+                },
+                "terms": [
+                  {
+                    "es": "intersección",
+                    "en": "intersection"
+                  },
+                  {
+                    "es": "prioridad",
+                    "en": "priority"
+                  },
+                  {
+                    "es": "señal expresa",
+                    "en": "express sign"
+                  },
+                  {
+                    "es": "furgoneta",
+                    "en": "van"
+                  }
+                ],
+                "src": "RGC art. 87.1.c"
               }
             }
           ]
@@ -1542,9 +1924,9 @@
                   "why": "La R-306 prohíbe adelantar a vehículos a motor solo a los camiones con MMA superior a 3.500 kg. Un camión más ligero, un turismo o un autobús pueden adelantar, si el resto de normas lo permite."
                 },
                 "exam": {
-                  "q": "You drive a lorry of 3,000 kg of maximum authorised mass and you pass next to this sign. Can you overtake other vehicles?",
+                  "q": "You drive a lorry whose maximum authorised mass is 3,000 kg and you pass next to this sign. Can you overtake other vehicles?",
                   "options": [
-                    "Yes: the sign is only applied to lorries of more than 3,500 kg.",
+                    "Yes: the sign is only applied to lorries whose mass exceeds 3,500 kg.",
                     "No: it prohibits overtaking to all the lorries.",
                     "No: it prohibits overtaking to all the vehicles."
                   ]
@@ -1569,6 +1951,108 @@
                   }
                 ],
                 "src": "RGC Anexo I, ap. 5.1, 3.5 (R-306)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c3l",
+                "answer": 1,
+                "es": {
+                  "q": "Ves esta señal en una vía con dos carriles en tu sentido. ¿Puedes adelantar a un camión por el carril izquierdo de tu sentido?",
+                  "options": [
+                    "No: la señal prohíbe cualquier adelantamiento",
+                    "Sí, porque no invades la zona del sentido contrario",
+                    "Solo si adelantas a un vehículo de dos ruedas"
+                  ],
+                  "why": "Esta señal prohíbe adelantar a vehículos a motor cuando la maniobra obliga a invadir la zona del sentido contrario. Con otro carril en tu sentido, puedes adelantar sin invadirla."
+                },
+                "exam": {
+                  "q": "You see this sign where your direction has two lanes. Can you overtake a lorry by the left lane of your direction?",
+                  "options": [
+                    "No: the sign prohibits any overtaking.",
+                    "Yes, because you do not invade the zone of the opposite direction.",
+                    "Only if you overtake a vehicle of two wheels."
+                  ]
+                },
+                "en": {
+                  "q": "You see this sign where your direction has two lanes. May you overtake a truck using the left lane of your direction?",
+                  "options": [
+                    "No: the sign forbids all overtaking",
+                    "Yes, because you do not enter the area for oncoming traffic",
+                    "Only if you are passing a two-wheeler"
+                  ],
+                  "why": "This sign forbids overtaking motor vehicles when the maneuver means entering the area for oncoming traffic. With another lane your way, you can overtake without entering it."
+                },
+                "terms": [
+                  {
+                    "es": "adelantamiento prohibido",
+                    "en": "overtaking prohibited"
+                  },
+                  {
+                    "es": "zona reservada al sentido contrario",
+                    "en": "zone reserved for the opposite direction"
+                  },
+                  {
+                    "es": "camión",
+                    "en": "lorry"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.5 (R-305)",
+                "sign": "r-305"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c3m",
+                "answer": 2,
+                "es": {
+                  "q": "Esta señal está en el mismo poste que una señal de curva peligrosa. Pasada la curva no hay ninguna otra señal. ¿Puedes ya adelantar invadiendo el sentido contrario?",
+                  "options": [
+                    "Sí, la prohibición termina con la curva",
+                    "Sí, a los 100 metros de la señal",
+                    "No: sigue hasta la señal de fin de adelantamiento prohibido o de fin de prohibiciones"
+                  ],
+                  "why": "Esta prohibición dura hasta la señal «Fin de prohibición de adelantamiento» o «Fin de prohibiciones». Es la señal de velocidad máxima la que acaba con el peligro cuando comparte poste con él."
+                },
+                "exam": {
+                  "q": "This sign is on the same post as a sign of dangerous curve. Passed the curve there is no other sign. Can you already overtake invading the opposite direction?",
+                  "options": [
+                    "Yes, the prohibition ends with the curve.",
+                    "Yes, at 100 metres from the sign.",
+                    "No: it continues until the sign of end of overtaking prohibited or of end of prohibitions."
+                  ]
+                },
+                "en": {
+                  "q": "This sign shares a post with a dangerous-curve sign. After the curve there is no other sign. May you now overtake by entering the opposite side?",
+                  "options": [
+                    "Yes, the ban ends with the curve",
+                    "Yes, 100 meters after the sign",
+                    "No: it lasts until the end-of-no-overtaking or end-of-prohibitions sign"
+                  ],
+                  "why": "This ban lasts until the “end of no overtaking” or “end of prohibitions” sign. It is the maximum speed sign that ends with the danger when it shares a post with it."
+                },
+                "terms": [
+                  {
+                    "es": "fin de prohibición de adelantamiento",
+                    "en": "end of overtaking prohibition"
+                  },
+                  {
+                    "es": "fin de prohibiciones",
+                    "en": "end of prohibitions"
+                  },
+                  {
+                    "es": "poste",
+                    "en": "post"
+                  },
+                  {
+                    "es": "curva peligrosa",
+                    "en": "dangerous curve"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.5 (R-305) y R-301",
+                "sign": "r-305"
               }
             }
           ]
@@ -1626,7 +2110,7 @@
                 "exam": {
                   "q": "A broken-down car occupies part of your lane in a stretch with continuous line. The road from the front is free. Can you pass it?",
                   "options": [
-                    "Yes, if you check that there is no danger, although you occupy the contrary lane.",
+                    "Yes, if you verify beforehand the absence of danger, although you occupy the contrary lane.",
                     "No: the continuous line can never be crossed.",
                     "Yes, without checking anything, because it is stopped."
                   ]
@@ -1837,7 +2321,7 @@
                   "why": "Si la calzada tiene más de un carril por sentido, el cambio completo de carril es obligatorio al adelantar a un ciclista."
                 },
                 "exam": {
-                  "q": "You overtake a cyclist on a road with two lanes for your direction. What must you do?",
+                  "q": "You overtake a cyclist where your direction of travel has two lanes. What must you do?",
                   "options": [
                     "To pass by your lane leaving 1,5 m.",
                     "To change completely to the other lane.",
@@ -1845,11 +2329,11 @@
                   ]
                 },
                 "en": {
-                  "q": "You overtake a cyclist on a road with two lanes for your direction. What must you do?",
+                  "q": "You are passing a cyclist where your direction has two lanes. What must you do?",
                   "options": [
                     "Pass in your lane leaving 1.5 m",
                     "Change completely into the other lane",
-                    "Pass on the shoulder so as not to enter the other lane"
+                    "Pass along the shoulder to avoid using the other lane"
                   ],
                   "why": "If the road has more than one lane per direction, a complete lane change is mandatory when overtaking a cyclist."
                 },
@@ -2834,7 +3318,7 @@
                   ]
                 },
                 "en": {
-                  "q": "You want to make a U-turn on a dual carriageway. What does the rule say?",
+                  "q": "You would like to turn around (U-turn) on a dual carriageway. What does the rule say?",
                   "options": [
                     "It is forbidden, except at places made for it",
                     "You may anywhere if nobody is coming",
@@ -3135,6 +3619,58 @@
                 ],
                 "src": "RGC art. 80.2"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c6j",
+                "answer": 0,
+                "es": {
+                  "q": "En una autopista te pasas la salida que querías tomar. El arcén está libre. ¿Qué haces?",
+                  "options": [
+                    "Sigues hasta la próxima salida",
+                    "Vuelves marcha atrás por el arcén, despacio y con las luces de emergencia",
+                    "Paras en el arcén y retrocedes cuando no venga nadie"
+                  ],
+                  "why": "En autopistas y autovías está prohibido circular marcha atrás. Si te pasas una salida, sigue hasta la siguiente."
+                },
+                "exam": {
+                  "q": "On a motorway you pass the exit that you wanted to take. The hard shoulder is free. What do you do?",
+                  "options": [
+                    "You continue until the next exit.",
+                    "You go back in reverse by the hard shoulder, slowly and with the emergency lights.",
+                    "You stop on the hard shoulder and go back when nobody comes."
+                  ]
+                },
+                "en": {
+                  "q": "On a motorway you miss the exit you wanted. The shoulder is clear. What do you do?",
+                  "options": [
+                    "Carry on to the next exit",
+                    "Back up along the shoulder, slowly and with the hazard lights on",
+                    "Stop on the shoulder and back up when nobody is coming"
+                  ],
+                  "why": "Reversing is forbidden on motorways and dual carriageways. If you miss an exit, carry on to the next one."
+                },
+                "terms": [
+                  {
+                    "es": "marcha atrás",
+                    "en": "reverse"
+                  },
+                  {
+                    "es": "autopista",
+                    "en": "motorway"
+                  },
+                  {
+                    "es": "salida",
+                    "en": "exit"
+                  },
+                  {
+                    "es": "arcén",
+                    "en": "hard shoulder"
+                  }
+                ],
+                "src": "RGC art. 80.3"
+              }
             }
           ]
         },
@@ -3198,6 +3734,54 @@
                   }
                 ],
                 "src": "RGC art. 81.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c6k",
+                "answer": 2,
+                "es": {
+                  "q": "Sales marcha atrás de un garaje y oyes el claxon de un coche que se acerca. ¿Qué haces?",
+                  "options": [
+                    "Sigues, porque ya has empezado la maniobra",
+                    "Aceleras para terminar cuanto antes",
+                    "Detienes el vehículo enseguida y, si hace falta, desistes de la maniobra"
+                  ],
+                  "why": "Al ir marcha atrás, debes detenerte con gran rapidez si oyes avisos o ves a alguien cerca, y desistir de la maniobra si es necesario."
+                },
+                "exam": {
+                  "q": "You go out in reverse from a garage and hear the horn of a car that approaches. What do you do?",
+                  "options": [
+                    "You continue, because you have already started the manoeuvre.",
+                    "You accelerate in order to finish as soon as possible.",
+                    "You stop the vehicle at once and, if necessary, you desist from the manoeuvre."
+                  ]
+                },
+                "en": {
+                  "q": "You are reversing out of a garage and hear the horn of an approaching car. What do you do?",
+                  "options": [
+                    "Carry on, since you have already started",
+                    "Speed up to finish as soon as possible",
+                    "Stop at once and, if needed, give up the maneuver"
+                  ],
+                  "why": "When reversing, you must stop very quickly if you hear warnings or see someone nearby, and give up the maneuver if needed."
+                },
+                "terms": [
+                  {
+                    "es": "claxon",
+                    "en": "horn"
+                  },
+                  {
+                    "es": "desistir de la maniobra",
+                    "en": "desist from the manoeuvre"
+                  },
+                  {
+                    "es": "marcha atrás",
+                    "en": "reverse"
+                  }
+                ],
+                "src": "RGC art. 81.3"
               }
             }
           ]

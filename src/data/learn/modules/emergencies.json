@@ -212,6 +212,54 @@
                 ],
                 "src": "DGT guidance (DGT, unidad didáctica «Saber actuar en caso de accidente»)"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "emergencies-c1i",
+                "answer": 1,
+                "es": {
+                  "q": "¿Qué significan las tres letras de la regla PAS?",
+                  "options": [
+                    "Parar, Arrancar, Señalizar",
+                    "Proteger, Avisar, Socorrer",
+                    "Prevenir, Atender, Salir"
+                  ],
+                  "why": "PAS es Proteger, Avisar y Socorrer, en ese orden: primero proteges, luego llamas al 112 y después ayudas a los heridos."
+                },
+                "en": {
+                  "q": "What do the three letters of the PAS rule stand for?",
+                  "options": [
+                    "Stop, Start, Signal",
+                    "Protect, Alert, Help",
+                    "Prevent, Attend, Leave"
+                  ],
+                  "why": "PAS stands for Proteger, Avisar, Socorrer (protect, alert, help), in that order: first protect, then call 112, then help the injured."
+                },
+                "exam": {
+                  "q": "What do the three letters of the PAS rule mean?",
+                  "options": [
+                    "Stop, Start, Signal.",
+                    "Protect, Warn, Succour.",
+                    "Prevent, Attend, Leave."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "proteger",
+                    "en": "protect"
+                  },
+                  {
+                    "es": "avisar",
+                    "en": "warn (alert)"
+                  },
+                  {
+                    "es": "socorrer",
+                    "en": "succour (help)"
+                  }
+                ],
+                "src": "DGT guidance (sede.dgt.gob.es, Manual IX «Primeros auxilios», 2026)"
+              }
             }
           ]
         },
@@ -395,7 +443,7 @@
                 "exam": {
                   "q": "You arrive at an accident on a road and you are going to stop. How must you stop your vehicle?",
                   "options": [
-                    "In a way that it does not create a new danger for the circulation.",
+                    "Without creating a new danger for the circulation.",
                     "As near as possible to the wounded, although it hinders.",
                     "Crossed in the lane, in order that the others brake."
                   ]
@@ -404,7 +452,7 @@
                   "q": "You come upon a collision on a road and are about to stop. How must you stop your vehicle?",
                   "options": [
                     "In a way that does not create a new danger for traffic",
-                    "As close as possible to the injured, even if it blocks traffic",
+                    "Right next to the injured, even if it blocks traffic",
                     "Sideways across the lane, so everyone else brakes"
                   ],
                   "why": "The Regulation requires you to stop without creating a new danger. A second crash makes things worse."
@@ -460,6 +508,62 @@
                   }
                 ],
                 "src": "RGC art. 129.3"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Esfuérzate por **restablecer o mantener la seguridad** de la circulación. Si parece que alguien ha muerto o está grave, o ya se ha avisado a la autoridad, **no cambies el estado de las cosas** ni las huellas o pruebas. Solo se cambia si lo exige la seguridad de los heridos o de la circulación.",
+                "en": "Make an effort to **restore or keep traffic safe**. If someone appears dead or seriously hurt, or the authorities have been alerted, **do not change the scene**, the marks or other evidence. Change them only if the safety of the injured or of traffic requires it."
+              },
+              "src": "RGC art. 129.2.c"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "emergencies-c1h",
+                "answer": 2,
+                "es": {
+                  "q": "Has tenido un accidente con un herido grave y ya has avisado a la autoridad. Tu coche no pone en peligro a nadie. ¿Qué haces con él y con los restos del choque?",
+                  "options": [
+                    "Lo apartas y barres los cristales para dejar la vía como estaba",
+                    "Te lo llevas para que no estorbe más tarde",
+                    "Lo dejas como está, para no alterar las huellas ni las pruebas"
+                  ],
+                  "why": "Con un herido grave, o con la autoridad ya avisada, evita modificar el estado de las cosas y las pruebas. Solo se cambia si lo exige la seguridad de los heridos o de la circulación."
+                },
+                "en": {
+                  "q": "You have had a crash with a seriously injured person and have already alerted the authorities. Your car endangers no one. What do you do with it and with the debris?",
+                  "options": [
+                    "Move it and sweep up the glass to leave the road as it was",
+                    "Drive it away so it will not be in the way later",
+                    "Leave it as it is, so as not to alter the marks or the evidence"
+                  ],
+                  "why": "With a seriously injured person, or once the authorities are alerted, avoid changing the scene and the evidence. Change it only if the safety of the injured or of traffic requires it."
+                },
+                "exam": {
+                  "q": "You have had an accident with a seriously injured person and you have already warned the authority. Your car does not put anyone in danger. What do you do with it and with the remains of the crash?",
+                  "options": [
+                    "You move it aside and you sweep the glass in order to leave the road as it was.",
+                    "You take it away so that it does not obstruct later.",
+                    "You leave it as it is, in order not to alter the traces or the evidence."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "huellas",
+                    "en": "traces"
+                  },
+                  {
+                    "es": "pruebas",
+                    "en": "evidence"
+                  },
+                  {
+                    "es": "estado de las cosas",
+                    "en": "state of things"
+                  }
+                ],
+                "src": "RGC art. 129.2.c"
               }
             }
           ]
@@ -581,7 +685,9 @@
         "Ley de Tráfico y Seguridad Vial (RDL 6/2015), art. 51.1",
         "Código Penal, art. 195",
         "DGT guidance: «Qué hacer ante un accidente de tráfico» (dgt.es, actualizada el 30-11-2022)",
-        "DGT guidance (DGT, unidad didáctica «Saber actuar en caso de accidente»)"
+        "DGT guidance (DGT, unidad didáctica «Saber actuar en caso de accidente»)",
+        "Reglamento General de Circulación (RD 1428/2003), art. 129.2.c",
+        "DGT guidance (sede.dgt.gob.es, Manual IX «Primeros auxilios», 2026)"
       ]
     },
     {
@@ -1114,7 +1220,7 @@
         "es": "Primeros auxilios mientras llega la ayuda",
         "en": "First aid while help is on the way"
       },
-      "minutes": 8,
+      "minutes": 7,
       "goals": [
         {
           "es": "Saber cómo valorar a un herido: si responde y si respira.",
@@ -1318,6 +1424,163 @@
                 ],
                 "src": "DGT guidance (DGT, Manual IX «Primeros auxilios», 2026)"
               }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Guía de la DGT (Manual IX): si está inconsciente y **no respira**, o respira de forma anormal, está en **parada cardiorrespiratoria**. Tras avisar al 112, hay que empezar enseguida las **compresiones torácicas**. El operador te guía.",
+                "en": "DGT guidance (Manual IX): if the person is unconscious and **not breathing**, or breathing abnormally, they are in **cardiac arrest**. After calling 112, start **chest compressions** at once. The operator guides you."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "La reanimación se mantiene hasta que la persona **empieza a respirar**, un médico te dice que pares o el cansancio ya no te deja seguir.",
+                "en": "Resuscitation goes on until the person **starts breathing**, a doctor tells you to stop, or exhaustion stops you."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Si está inconsciente y **vomita**, o tiene signos de asfixia, se le coloca de lado, en **posición lateral de seguridad**, también llamada posición de defensa. Así no se ahoga. Muévelo con mucho cuidado, con cabeza, cuello y tronco alineados.",
+                "en": "If the person is unconscious and **vomiting**, or shows signs of choking, they are turned onto their side, into the **recovery position** (posición lateral de seguridad). That way they do not choke. Move them very carefully, with head, neck and trunk in line."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "emergencies-c4j",
+                "answer": 0,
+                "es": {
+                  "q": "Un herido está inconsciente, respira y empieza a vomitar. ¿Cómo se le coloca?",
+                  "options": [
+                    "De lado, en posición lateral de seguridad, para que no se ahogue",
+                    "Sentado, con la cabeza echada hacia atrás",
+                    "Tumbado de espaldas, con las piernas en alto"
+                  ],
+                  "why": "Con un herido inconsciente que vomita o tiene signos de asfixia, la posición lateral de seguridad evita que se ahogue. Se mueve con cabeza, cuello y tronco alineados."
+                },
+                "en": {
+                  "q": "An injured person is unconscious, breathing and starts to vomit. How should they be placed?",
+                  "options": [
+                    "On their side, in the recovery position, so they do not choke",
+                    "Sitting up, with the head tipped back",
+                    "Face up, with the legs raised"
+                  ],
+                  "why": "With an unconscious person who vomits or shows signs of choking, the recovery position stops them choking. They are moved with head, neck and trunk in line."
+                },
+                "exam": {
+                  "q": "An injured person is unconscious, breathes and begins to vomit. How is he placed?",
+                  "options": [
+                    "On his side, in lateral safety position, so that he does not suffocate.",
+                    "Seated, with the head thrown backwards.",
+                    "Face up, with the legs raised."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "posición lateral de seguridad",
+                    "en": "lateral safety position (recovery position)"
+                  },
+                  {
+                    "es": "inconsciente",
+                    "en": "unconscious"
+                  },
+                  {
+                    "es": "asfixia",
+                    "en": "asphyxia (choking)"
+                  }
+                ],
+                "src": "DGT guidance (sede.dgt.gob.es, Manual IX «Primeros auxilios», 2026)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "emergencies-c4k",
+                "answer": 2,
+                "es": {
+                  "q": "Un herido está inconsciente y no respira. Ya has llamado al 112. ¿Qué se hace?",
+                  "options": [
+                    "Esperar sin tocarlo a que llegue la ambulancia",
+                    "Darle agua para que reaccione",
+                    "Empezar las compresiones torácicas, siguiendo al operador del 112"
+                  ],
+                  "why": "Si no respira o respira de forma anormal, está en parada cardiorrespiratoria. Tras avisar al 112, se empieza de inmediato la reanimación con compresiones torácicas."
+                },
+                "en": {
+                  "q": "An injured person is unconscious and not breathing. You have already called 112. What should be done?",
+                  "options": [
+                    "Wait without touching them until the ambulance arrives",
+                    "Give them water so they come round",
+                    "Start chest compressions, following the 112 operator"
+                  ],
+                  "why": "If they are not breathing, or breathing abnormally, they are in cardiac arrest. After calling 112, start resuscitation with chest compressions at once."
+                },
+                "exam": {
+                  "q": "An injured person is unconscious and does not breathe. You have already called 112. What is done?",
+                  "options": [
+                    "To wait without touching him until the ambulance arrives.",
+                    "To give him water so that he reacts.",
+                    "To begin the thoracic compressions, following the operator of 112."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "parada cardiorrespiratoria",
+                    "en": "cardiorespiratory arrest"
+                  },
+                  {
+                    "es": "compresiones torácicas",
+                    "en": "thoracic compressions"
+                  },
+                  {
+                    "es": "reanimación",
+                    "en": "resuscitation"
+                  }
+                ],
+                "src": "DGT guidance (sede.dgt.gob.es, Manual IX «Primeros auxilios», 2026)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "emergencies-c4l",
+                "answer": 1,
+                "es": {
+                  "q": "Estás haciendo la reanimación a un herido que no respiraba. ¿Cuándo puedes parar?",
+                  "options": [
+                    "A los dos minutos, pase lo que pase",
+                    "Cuando empieza a respirar, o si un médico te dice que pares",
+                    "En cuanto llega otro conductor a mirar"
+                  ],
+                  "why": "La reanimación se para si la persona empieza a respirar, si un médico lo indica o si el cansancio de quien reanima es extremo."
+                },
+                "en": {
+                  "q": "You are giving resuscitation to an injured person who was not breathing. When may you stop?",
+                  "options": [
+                    "After two minutes, whatever happens",
+                    "When they start breathing, or if a doctor tells you to stop",
+                    "As soon as another driver comes to look"
+                  ],
+                  "why": "Resuscitation stops if the person starts breathing, if a doctor says so, or if the rescuer is utterly exhausted."
+                },
+                "exam": {
+                  "q": "You are carrying out the resuscitation on an injured person who did not breathe. When can you stop?",
+                  "options": [
+                    "At two minutes, whatever happens.",
+                    "When he begins to breathe, or if a doctor tells you to stop.",
+                    "As soon as another driver arrives to look."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "reanimación cardiopulmonar",
+                    "en": "cardiopulmonary resuscitation"
+                  }
+                ],
+                "src": "DGT guidance (sede.dgt.gob.es, Manual IX «Primeros auxilios», 2026)"
+              }
             }
           ]
         },
@@ -1442,6 +1705,83 @@
                   }
                 ],
                 "src": "DGT guidance (DGT, Manual IX «Primeros auxilios», 2026)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Quemaduras",
+            "en": "Burns"
+          },
+          "blocks": [
+            {
+              "t": "tip",
+              "text": {
+                "es": "Guía de la DGT (Manual IX): si la ropa arde, apaga las llamas cubriéndola con una manta o una prenda gruesa. No le eches agua ni el extintor directamente sobre la piel.",
+                "en": "DGT guidance (Manual IX): if clothing is on fire, put out the flames by covering it with a blanket or a thick garment. Do not aim water or the extinguisher straight at the skin."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "**Enfría** la quemadura con agua fría cuanto antes. No toques la zona, no revientes las ampollas ni quites la ropa pegada a la piel.",
+                "en": "**Cool** the burn with cold water as soon as possible. Do not touch the area, do not burst blisters, and do not pull off clothing stuck to the skin."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Cúbrela con **apósitos estériles húmedos** o, si no tienes, con una toalla o una sábana limpias. No pongas pomadas ni ungüentos.",
+                "en": "Cover it with **sterile, damp dressings** or, if you have none, a clean towel or sheet. Do not apply creams or ointments."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "emergencies-c4m",
+                "answer": 1,
+                "es": {
+                  "q": "Un herido tiene una quemadura en el brazo tras el incendio de su coche. ¿Qué se hace?",
+                  "options": [
+                    "Ponerle una pomada y quitarle la ropa pegada",
+                    "Enfriarla con agua fría y cubrirla con un apósito estéril húmedo",
+                    "Reventar las ampollas para que se seque antes"
+                  ],
+                  "why": "Ante una quemadura se enfría con agua fría y se cubre con apósitos estériles húmedos. No se ponen pomadas, no se revientan ampollas ni se quita la ropa pegada."
+                },
+                "en": {
+                  "q": "An injured person has a burn on the arm after their car caught fire. What should be done?",
+                  "options": [
+                    "Put on some cream and remove the clothing stuck to it",
+                    "Cool it with cold water and cover it with a sterile, damp dressing",
+                    "Burst the blisters so it dries sooner"
+                  ],
+                  "why": "A burn is cooled with cold water and covered with sterile, damp dressings. No creams, no bursting blisters, and no pulling off stuck clothing."
+                },
+                "exam": {
+                  "q": "An injured person has a burn on the arm after the fire of his car. What is done?",
+                  "options": [
+                    "To put an ointment on him and to remove the stuck clothes.",
+                    "To cool it with cold water and to cover it with a wet sterile dressing.",
+                    "To burst the blisters so that it dries sooner."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "quemadura",
+                    "en": "burn"
+                  },
+                  {
+                    "es": "apósito estéril",
+                    "en": "sterile dressing"
+                  },
+                  {
+                    "es": "ampolla",
+                    "en": "blister"
+                  }
+                ],
+                "src": "DGT guidance (sede.dgt.gob.es, Manual IX «Primeros auxilios», 2026)"
               }
             }
           ]
@@ -1911,7 +2251,8 @@
       "src": [
         "DGT guidance: «Qué hacer ante un accidente de tráfico» (dgt.es, actualizada el 30-11-2022)",
         "DGT guidance: Manual IX «Primeros auxilios» (DGT, 2026)",
-        "DGT guidance: unidad didáctica «Saber actuar en caso de accidente» (dgt.es, educación vial)"
+        "DGT guidance: unidad didáctica «Saber actuar en caso de accidente» (dgt.es, educación vial)",
+        "DGT guidance (sede.dgt.gob.es, Manual IX «Primeros auxilios», 2026)"
       ]
     },
     {
@@ -2187,6 +2528,54 @@
                   }
                 ],
                 "src": "RGV anexo XI, V-16, apdo. 2"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "emergencies-c3j",
+                "answer": 2,
+                "es": {
+                  "q": "Tu coche se avería, pero consigues dejarlo en el aparcamiento de un área de servicio, fuera de la vía. ¿Debes encender la baliza V-16?",
+                  "options": [
+                    "Sí, siempre que el coche esté averiado",
+                    "Sí, y además poner los triángulos",
+                    "No: la V-16 avisa de un vehículo inmovilizado en la vía o de una carga caída en la calzada"
+                  ],
+                  "why": "La V-16 indica que el vehículo está inmovilizado en la calzada o que su carga ha caído en ella. Se exige cuando el vehículo queda en la vía, por ejemplo en el arcén. Fuera de la vía no estorba y no hace falta."
+                },
+                "en": {
+                  "q": "Your car breaks down, but you manage to leave it in a service-area car park, off the road. Must you switch on the V-16 beacon?",
+                  "options": [
+                    "Yes, whenever the car has broken down",
+                    "Yes, and also set out the triangles",
+                    "No: the V-16 warns of a vehicle immobilized on the road or of a load fallen on the carriageway"
+                  ],
+                  "why": "The V-16 signals that a vehicle is immobilized on the carriageway or that its load has fallen onto it. It is required when the vehicle stays on the road, for example on the hard shoulder. Off the road it obstructs no one and is not needed."
+                },
+                "exam": {
+                  "q": "Your car breaks down, but you manage to leave it in the car park of a service area, outside the road. Must you switch on the V-16 beacon?",
+                  "options": [
+                    "Yes, provided that the car is broken down.",
+                    "Yes, and also to place the triangles.",
+                    "No: the V-16 warns of a vehicle immobilised on the road or of a load fallen on the carriageway."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "área de servicio",
+                    "en": "service area"
+                  },
+                  {
+                    "es": "inmovilizado",
+                    "en": "immobilised"
+                  },
+                  {
+                    "es": "calzada",
+                    "en": "carriageway"
+                  }
+                ],
+                "src": "RGV anexo XI, V-16, apdo. 1; RGC art. 130.4"
               }
             }
           ]
@@ -2484,7 +2873,7 @@
                   "why": "Los ocupantes salen por el lado contrario al flujo de tráfico, sin transitar ni permanecer en los carriles ni en los arcenes, y esperan fuera de la plataforma."
                 },
                 "exam": {
-                  "q": "Your car is immobilised on the hard shoulder of a dual carriageway and there is a safe place outside the road. How do you leave?",
+                  "q": "Your car remains immobilised in the hard shoulder of a dual carriageway and there is a safe place outside the road. How do you leave?",
                   "options": [
                     "By the door of the driver and you wait next to the car.",
                     "By the side contrary to the traffic, towards that safe place.",
@@ -2492,7 +2881,7 @@
                   ]
                 },
                 "en": {
-                  "q": "Your car is immobilized on the shoulder of a dual carriageway and there is a safe place off the road. How do you get out?",
+                  "q": "Your car cannot move and is on the shoulder of a dual carriageway. There is a safe place off the road. How do you get out?",
                   "options": [
                     "By the driver's door, and wait next to the car",
                     "On the side away from traffic, toward that safe place",
