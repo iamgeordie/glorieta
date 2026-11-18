@@ -163,6 +163,61 @@
                 ],
                 "src": "LSV Anexo I, definiciones 80 a 82"
               }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "La definición de **detención** no fija minutos: la marca su causa. Dura lo que dure la emergencia, el atasco o la norma que te obliga, como un semáforo en rojo.",
+                "en": "The definition of a **halt** sets no minutes: its cause defines it. It lasts as long as the emergency, the jam or the rule that makes you stop, such as a red light."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c1x",
+                "answer": 1,
+                "es": {
+                  "q": "Una avería te obliga a inmovilizar el coche en la calzada. ¿Cuánto puede durar esa detención?",
+                  "options": [
+                    "Menos de dos minutos, igual que una parada",
+                    "Lo que dure la causa que la obliga: la ley no fija un máximo",
+                    "Hasta que llegue la grúa, con un máximo de una hora"
+                  ],
+                  "why": "La detención es la inmovilización por emergencia, por necesidades de la circulación o para cumplir una norma. Su definición no fija un tiempo: dura lo que dura su causa. El límite de dos minutos es de la parada."
+                },
+                "exam": {
+                  "q": "A breakdown obliges you to immobilise the car on the carriageway. How long can that detention last?",
+                  "options": [
+                    "Less than two minutes, the same as a stop.",
+                    "What the cause that obliges it lasts: the law does not fix a maximum.",
+                    "Until the tow truck arrives, with a maximum of one hour."
+                  ]
+                },
+                "en": {
+                  "q": "A breakdown forces you to immobilize your car on the roadway. How long may that halt last?",
+                  "options": [
+                    "Under two minutes, like a stop",
+                    "As long as its cause lasts: the law sets no maximum",
+                    "Until the tow truck arrives, for an hour at most"
+                  ],
+                  "why": "A halt is an immobilization for an emergency, the needs of traffic, or to obey a rule. Its definition sets no time: it lasts as long as its cause. The two-minute limit belongs to a stop."
+                },
+                "terms": [
+                  {
+                    "es": "detención",
+                    "en": "detention (halt)"
+                  },
+                  {
+                    "es": "inmovilizar",
+                    "en": "immobilise"
+                  },
+                  {
+                    "es": "parada",
+                    "en": "stop"
+                  }
+                ],
+                "src": "LSV Anexo I, definiciones 80 y 81"
+              }
             }
           ]
         },
@@ -1070,6 +1125,62 @@
                   }
                 ],
                 "src": "RGC art. 114.1"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Como norma general, se entra y se sale del vehículo por el **lado más próximo al borde de la vía**, y solo cuando está parado.",
+                "en": "As a general rule, you get in and out of the vehicle on the **side nearest the edge of the road**, and only when it is stopped."
+              },
+              "src": "RGC art. 114.2"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c2x",
+                "answer": 0,
+                "es": {
+                  "q": "Paras junto a la acera derecha para dejar a tus pasajeros. ¿Por qué lado deben bajar los que van detrás?",
+                  "options": [
+                    "Por el lado más próximo al borde de la vía, el de la acera",
+                    "Por el lado de la puerta que tengan más cerca",
+                    "Por la izquierda, para no golpear la acera con la puerta"
+                  ],
+                  "why": "Como norma general se entra y se sale por el lado más próximo al borde de la vía, y solo con el vehículo parado."
+                },
+                "exam": {
+                  "q": "You stop next to the right pavement in order to leave your passengers. By which side must those who go behind get out?",
+                  "options": [
+                    "By the side most near to the border of the road, that of the pavement.",
+                    "By the side of the door that they have closest.",
+                    "By the left, in order not to hit the pavement with the door."
+                  ]
+                },
+                "en": {
+                  "q": "You stop by the right-hand curb to let your passengers out. Which side should the rear passengers use to get out?",
+                  "options": [
+                    "The side by the curb, at the margin of the roadway",
+                    "Whichever door is closest to them",
+                    "The left, so the door does not hit the curb"
+                  ],
+                  "why": "As a general rule you get in and out on the side nearest the edge of the road, and only once the vehicle is stopped."
+                },
+                "terms": [
+                  {
+                    "es": "borde de la vía",
+                    "en": "edge of the road"
+                  },
+                  {
+                    "es": "apearse",
+                    "en": "get out of the vehicle"
+                  },
+                  {
+                    "es": "acera",
+                    "en": "pavement"
+                  }
+                ],
+                "src": "RGC art. 114.2"
               }
             }
           ]
@@ -1987,6 +2098,69 @@
                   }
                 ],
                 "src": "RGC art. 94.1.g"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si tras una avería tu vehículo necesita auxilio, deja los carriles cuanto antes y ve a la primera salida por el **arcén derecho**. Si no es posible, detente en el arcén derecho o en el **lugar donde causes menor obstáculo** a la circulación.",
+                "en": "If after a breakdown your vehicle needs assistance, leave the lanes as soon as possible and head for the first exit along the **right shoulder**. If that is not possible, stop on the right shoulder or in the **place where you cause the least obstruction** to traffic."
+              },
+              "src": "RGC art. 130.2"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Lo normal es el arcén derecho. Si la avería te deja en el carril izquierdo y no puedes cruzar a la derecha, la norma pide el sitio que menos estorbe: puede ser el borde izquierdo, junto a la mediana. Es una detención de emergencia, no un sitio para parar ni para circular. Al bajar, sal por el lado contrario al tráfico (RGC art. 130.3).",
+                "en": "The usual place is the right shoulder. If the breakdown leaves you in the left lane and you cannot cross to the right, the rule asks for the spot that gets in the way least: it can be the left edge, by the median. It is an emergency halt, not a place to stop or to drive. When you get out, use the side away from traffic (RGC art. 130.3)."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c3x",
+                "answer": 2,
+                "es": {
+                  "q": "En una autovía, tu coche se avería en el carril izquierdo y no puedes llegar al arcén derecho. ¿Qué pide la norma?",
+                  "options": [
+                    "Quedarte en el carril izquierdo hasta que llegue la grúa",
+                    "Circular por el arcén izquierdo hasta la siguiente salida",
+                    "Detenerte donde causes menor obstáculo, aunque sea junto a la mediana"
+                  ],
+                  "why": "Si no puedes ir por el arcén derecho hacia una salida, debes detenerte en el arcén derecho o en el lugar donde causes menor obstáculo a la circulación. Excepcionalmente puede ser junto a la mediana."
+                },
+                "exam": {
+                  "q": "On a dual carriageway, your car breaks down in the left lane and you cannot reach the right hard shoulder. What does the norm ask?",
+                  "options": [
+                    "To stay in the left lane until the tow truck arrives.",
+                    "To circulate by the left hard shoulder until the next exit.",
+                    "To stop where you cause less obstacle, even if it is next to the central reservation."
+                  ]
+                },
+                "en": {
+                  "q": "On an autovía your car breaks down in the left lane and you cannot reach the right shoulder. What does the rule ask?",
+                  "options": [
+                    "Stay in the left lane until the tow truck arrives",
+                    "Drive along the left shoulder to the next exit",
+                    "Stop where you cause the least obstruction, even if that is by the median"
+                  ],
+                  "why": "If you cannot use the right shoulder to reach an exit, you must stop on the right shoulder or where you cause the least obstruction to traffic. Exceptionally, that can be next to the median."
+                },
+                "terms": [
+                  {
+                    "es": "mediana",
+                    "en": "central reservation"
+                  },
+                  {
+                    "es": "menor obstáculo",
+                    "en": "least obstacle"
+                  },
+                  {
+                    "es": "arcén derecho",
+                    "en": "right hard shoulder"
+                  }
+                ],
+                "src": "RGC art. 130.2"
               }
             }
           ]
@@ -3214,6 +3388,61 @@
                   }
                 ],
                 "src": "RGC art. 110.2.a"
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Consejo recogido en la revista de la DGT («Coches de apoyo para proteger a los ciclistas»): el ruido de la bocina puede **sobresaltar** a un ciclista y provocar un accidente. Si de verdad tienes que avisarle, hazlo con tiempo y a cierta distancia, nunca pegado a él.",
+                "en": "Advice carried in the DGT magazine (“Coches de apoyo para proteger a los ciclistas”): the noise of a horn can **startle** a cyclist and cause a crash. If you really must warn one, do it early and from some distance, never right beside them."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c6x",
+                "answer": 1,
+                "es": {
+                  "q": "Tienes que avisar con la bocina a un ciclista que circula delante de ti. ¿Cómo lo haces?",
+                  "options": [
+                    "Con un toque largo cuando ya estás a su altura",
+                    "Con tiempo y a cierta distancia, para no sobresaltarlo",
+                    "No lo haces nunca: con ciclistas la bocina está prohibida"
+                  ],
+                  "why": "La bocina puede usarse para evitar un accidente, pero su ruido puede asustar al ciclista y hacerle caer. Si hace falta, avisa con antelación y desde lejos."
+                },
+                "exam": {
+                  "q": "You have to warn with the horn a cyclist who circulates in front of you. How do you do it?",
+                  "options": [
+                    "With a long touch when you are already at his height.",
+                    "With time and at some distance, in order not to startle him.",
+                    "You never do it: with cyclists the horn is prohibited."
+                  ]
+                },
+                "en": {
+                  "q": "You need to warn a cyclist ahead of you with the horn. How do you do it?",
+                  "options": [
+                    "With a long blast once you are level with them",
+                    "Early and from some distance, so you do not startle them",
+                    "Never: the horn is banned around cyclists"
+                  ],
+                  "why": "The horn may be used to avoid a crash, but its noise can frighten a cyclist into falling. If you must, warn early and from far back."
+                },
+                "terms": [
+                  {
+                    "es": "señal acústica",
+                    "en": "acoustic signal"
+                  },
+                  {
+                    "es": "bocina",
+                    "en": "horn"
+                  },
+                  {
+                    "es": "sobresaltar",
+                    "en": "startle"
+                  }
+                ],
+                "src": "RGC art. 110.1; DGT guidance (revista DGT, «Coches de apoyo para proteger a los ciclistas»)"
               }
             }
           ]

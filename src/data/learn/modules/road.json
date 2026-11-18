@@ -977,6 +977,94 @@
               }
             },
             {
+              "t": "check",
+              "q": {
+                "id": "road-t1x",
+                "answer": 1,
+                "es": {
+                  "q": "Un carro tirado por un caballo quiere usar una autopista para un tramo corto. ¿Puede?",
+                  "options": [
+                    "Sí, si circula por el arcén y de día",
+                    "No: los vehículos de tracción animal no pueden circular por autopistas ni autovías",
+                    "Sí, si lleva luces y no baja de la velocidad mínima"
+                  ],
+                  "why": "Está prohibido circular por autopistas y autovías con vehículos de tracción animal. La prohibición no tiene excepciones de horario ni de arcén."
+                },
+                "exam": {
+                  "q": "A cart pulled by a horse wants to use a motorway for a short section. Can it?",
+                  "options": [
+                    "Yes, if it circulates by the hard shoulder and by day.",
+                    "No: the vehicles of animal traction cannot circulate by motorways or dual carriageways.",
+                    "Yes, if it carries lights and does not go below the minimum speed."
+                  ]
+                },
+                "en": {
+                  "q": "A horse-drawn cart wants to use an autopista for a short stretch. May it?",
+                  "options": [
+                    "Yes, if it keeps to the shoulder in daylight",
+                    "No: animal-drawn vehicles may not use autopistas or autovías",
+                    "Yes, if it has lights and does not drop below the minimum speed"
+                  ],
+                  "why": "Animal-drawn vehicles are banned from autopistas and autovías. The ban has no exception for daylight or for the shoulder."
+                },
+                "terms": [
+                  {
+                    "es": "vehículo de tracción animal",
+                    "en": "animal-drawn vehicle"
+                  },
+                  {
+                    "es": "autopista",
+                    "en": "motorway"
+                  }
+                ],
+                "src": "RGC art. 38.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-t1y",
+                "answer": 2,
+                "es": {
+                  "q": "¿Cuál de estos vehículos tiene prohibido circular por una autopista?",
+                  "options": [
+                    "Una motocicleta de 125 cc",
+                    "Un camión de 12.000 kg de MMA",
+                    "Un ciclomotor"
+                  ],
+                  "why": "Los ciclomotores no pueden circular por autopistas ni autovías. Motocicletas y camiones sí pueden, con sus límites de velocidad."
+                },
+                "exam": {
+                  "q": "Which of these vehicles has it prohibited to circulate by a motorway?",
+                  "options": [
+                    "A motorcycle of 125 cc.",
+                    "A lorry of 12.000 kg of MAM.",
+                    "A moped."
+                  ]
+                },
+                "en": {
+                  "q": "Which of these vehicles is banned from an autopista?",
+                  "options": [
+                    "A 125 cc motorcycle",
+                    "A truck with a 12,000 kg MAM",
+                    "A moped"
+                  ],
+                  "why": "Mopeds may not use autopistas or autovías. Motorcycles and trucks may, with their own speed limits."
+                },
+                "terms": [
+                  {
+                    "es": "ciclomotor",
+                    "en": "moped"
+                  },
+                  {
+                    "es": "MMA (masa máxima autorizada)",
+                    "en": "MAM (maximum authorised mass)"
+                  }
+                ],
+                "src": "RGC art. 38.1"
+              }
+            },
+            {
               "t": "rule",
               "text": {
                 "es": "Está prohibido circular con **vehículos de movilidad personal** (VMP) por autopistas, autovías y travesías. También está prohibido por vías interurbanas y túneles urbanos. Solo en estas dos hay excepciones, si ninguna señal lo prohíbe: vías ciclistas, carriles bici, carriles bici protegidos, pistas bici, sendas ciclables y vías cerradas a los vehículos de motor.",
@@ -1932,6 +2020,133 @@
               }
             }
           ]
+        },
+        {
+          "title": {
+            "es": "Nada a la vía",
+            "en": "Nothing onto the road"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Está prohibido **arrojar**, depositar o abandonar en la vía objetos o materias que puedan entorpecer la circulación, la parada o el estacionamiento, hacerlos peligrosos o **deteriorar** la vía o sus instalaciones.",
+                "en": "It is forbidden to **throw**, leave or abandon on the road objects or materials that could hinder traffic, stopping or parking, make them dangerous, or **damage** the road or its fixtures."
+              },
+              "src": "RGC art. 4.2 (LSV art. 10)"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "También está prohibido arrojar a la vía o a sus alrededores cualquier objeto que pueda provocar un **incendio** o poner en peligro la seguridad vial. Es una infracción **grave**.",
+                "en": "It is also forbidden to throw onto the road or near it any object that could start a **fire** or endanger road safety. It is a **serious** offense."
+              },
+              "src": "RGC art. 6"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Piensa en una colilla, una botella o una bolsa de basura. No hace falta que dañe el firme: basta con que pueda estorbar, crear un peligro o estropear la vía o sus instalaciones.",
+                "en": "Think of a cigarette butt, a bottle or a bag of trash. It does not have to damage the surface: it is enough that it could get in the way, create a danger, or harm the road or its fixtures."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-p6a",
+                "answer": 1,
+                "es": {
+                  "q": "¿Qué objetos prohíbe la norma arrojar a la vía?",
+                  "options": [
+                    "Solo los que puedan romper el firme",
+                    "Los que puedan estorbar la circulación, hacerla peligrosa o deteriorar la vía o sus instalaciones",
+                    "Solo los objetos grandes, como cajas o muebles"
+                  ],
+                  "why": "Se prohíbe arrojar a la vía objetos que puedan entorpecer la circulación, la parada o el estacionamiento, hacerlos peligrosos o deteriorar la vía o sus instalaciones."
+                },
+                "exam": {
+                  "q": "Which objects does the norm prohibit to throw to the road?",
+                  "options": [
+                    "Only those that can break the pavement.",
+                    "Those that can hinder the circulation, make it dangerous or deteriorate the road or its installations.",
+                    "Only the big objects, like boxes or furniture."
+                  ]
+                },
+                "en": {
+                  "q": "Which objects does the rule forbid you to throw onto the road?",
+                  "options": [
+                    "Only those that could break the surface",
+                    "Those that could hinder traffic, make it dangerous, or damage the road or its fixtures",
+                    "Only large objects, such as boxes or furniture"
+                  ],
+                  "why": "It is forbidden to throw onto the road objects that could hinder traffic, stopping or parking, make them dangerous, or damage the road or its fixtures."
+                },
+                "terms": [
+                  {
+                    "es": "arrojar",
+                    "en": "throw"
+                  },
+                  {
+                    "es": "instalaciones de la vía",
+                    "en": "road installations"
+                  },
+                  {
+                    "es": "entorpecer",
+                    "en": "hinder"
+                  }
+                ],
+                "src": "RGC art. 4.2"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-p6b",
+                "answer": 0,
+                "es": {
+                  "q": "Circulas junto a un monte y un pasajero quiere tirar una colilla por la ventanilla. ¿Qué dice la norma?",
+                  "options": [
+                    "Está prohibido: puede provocar un incendio",
+                    "Está permitido si la colilla está apagada del todo",
+                    "Solo está prohibido en verano"
+                  ],
+                  "why": "Se prohíbe arrojar a la vía o a sus alrededores cualquier objeto que pueda provocar un incendio. Es una infracción grave."
+                },
+                "exam": {
+                  "q": "You circulate next to a forest and a passenger wants to throw a cigarette end through the window. What does the norm say?",
+                  "options": [
+                    "It is prohibited: it can provoke a fire.",
+                    "It is allowed if the cigarette end is completely extinguished.",
+                    "It is only prohibited in summer."
+                  ]
+                },
+                "en": {
+                  "q": "You are driving next to woodland and a passenger wants to throw a cigarette butt out of the window. What does the rule say?",
+                  "options": [
+                    "It is forbidden: it could start a fire",
+                    "It is allowed if the butt is completely out",
+                    "It is forbidden only in summer"
+                  ],
+                  "why": "Throwing onto the road or near it any object that could start a fire is forbidden. It is a serious offense."
+                },
+                "terms": [
+                  {
+                    "es": "colilla",
+                    "en": "cigarette end"
+                  },
+                  {
+                    "es": "incendio",
+                    "en": "fire"
+                  },
+                  {
+                    "es": "infracción grave",
+                    "en": "serious infringement"
+                  }
+                ],
+                "src": "RGC art. 6"
+              }
+            }
+          ]
         }
       ],
       "recap": [
@@ -1954,6 +2169,10 @@
         {
           "es": "En una zona con **plataforma única**, el peatón tiene prioridad en cualquier punto de la calzada.",
           "en": "In a zone with a **single platform**, the pedestrian has right of way at any point of the roadway."
+        },
+        {
+          "es": "No arrojes nada a la vía que pueda estorbar, crear peligro, dañarla o provocar un **incendio**.",
+          "en": "Do not throw anything onto the road that could get in the way, create danger, damage it or start a **fire**."
         }
       ],
       "src": [

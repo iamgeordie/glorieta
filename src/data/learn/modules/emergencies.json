@@ -1691,6 +1691,76 @@
         },
         {
           "title": {
+            "es": "El latigazo cervical",
+            "en": "Whiplash"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Guía de la DGT (revista, «Latigazo cervical, ¿qué es?»): en tráfico, el **latigazo cervical** se produce por un frenazo, un choque en cadena o un **alcance**, cuando te golpean por detrás. El cuello se dobla y se estira de golpe.",
+                "en": "DGT guidance (magazine, “Latigazo cervical, ¿qué es?”): in traffic, **whiplash** comes from hard braking, a chain collision or a **rear-end collision**, when you are hit from behind. The neck bends and stretches in one violent movement."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Sus lesiones van desde el **dolor y la rigidez del cuello** y las **contracturas** musculares hasta, en los casos graves, problemas neurológicos. El reposacabezas bien colocado es la mejor protección.",
+                "en": "Its injuries range from **neck pain and stiffness** and muscle **spasms** to, in serious cases, neurological problems. A well-adjusted head restraint is the best protection."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "emergencies-c4y",
+                "answer": 1,
+                "es": {
+                  "q": "Te golpean por detrás en un atasco. ¿Qué molestias son propias del latigazo cervical?",
+                  "options": [
+                    "Fractura de las piernas y dolor en el abdomen",
+                    "Dolor y rigidez en el cuello y contracturas musculares",
+                    "Quemaduras en el pecho por el cinturón"
+                  ],
+                  "why": "El latigazo cervical aparece sobre todo en los alcances. Causa dolor y rigidez en el cuello y contracturas; en los casos graves, problemas neurológicos."
+                },
+                "exam": {
+                  "q": "They hit you from behind in a traffic jam. Which discomforts are typical of the whiplash?",
+                  "options": [
+                    "Fracture of the legs and pain in the abdomen.",
+                    "Pain and stiffness in the neck and muscular contractures.",
+                    "Burns in the chest because of the seat belt."
+                  ]
+                },
+                "en": {
+                  "q": "You are hit from behind in a traffic jam. Which complaints are typical of whiplash?",
+                  "options": [
+                    "Broken legs and abdominal pain",
+                    "Neck pain and stiffness and muscle spasms",
+                    "Chest burns from the seat belt"
+                  ],
+                  "why": "Whiplash comes mostly from rear-end collisions. It causes neck pain and stiffness and muscle spasms; in serious cases, neurological problems."
+                },
+                "terms": [
+                  {
+                    "es": "latigazo cervical",
+                    "en": "whiplash"
+                  },
+                  {
+                    "es": "alcance",
+                    "en": "rear-end collision"
+                  },
+                  {
+                    "es": "contractura",
+                    "en": "contracture"
+                  }
+                ],
+                "src": "DGT guidance (revista DGT, «Latigazo cervical, ¿qué es?»)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
             "es": "El traslado, en ambulancia",
             "en": "The transfer, by ambulance"
           },
@@ -1752,6 +1822,61 @@
                   {
                     "es": "ambulancia",
                     "en": "ambulance"
+                  }
+                ],
+                "src": "DGT guidance (DGT, Manual IX «Primeros auxilios», 2026)"
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Guía de la DGT (Manual IX «Primeros auxilios»): el traslado en un coche particular es una **excepción**. Puede estar justificado si no has podido pedir ayuda sanitaria por ningún medio, o si el herido **empeora** y la ayuda tarda mucho. Aun entonces, se mueve con la cabeza, el cuello y el tronco alineados.",
+                "en": "DGT guidance (Manual IX “Primeros auxilios”): moving someone in a private car is an **exception**. It can be justified if you could not call for medical help by any means, or if the injured person is **getting worse** and help is badly delayed. Even then, they are moved with head, neck and trunk in line."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "emergencies-c4x",
+                "answer": 0,
+                "es": {
+                  "q": "¿En qué caso puede estar justificado llevar a un herido grave en un coche particular?",
+                  "options": [
+                    "Si no se puede pedir ayuda por ningún medio, o si empeora y la ayuda tarda mucho",
+                    "Siempre que el herido pueda ir sentado con el cinturón",
+                    "En ningún caso, aunque estés aislado y sin forma de avisar"
+                  ],
+                  "why": "Lo normal es que traslade al herido personal especializado. La DGT admite el coche particular solo en casos excepcionales: sin forma de pedir ayuda, o con el herido empeorando y la ayuda muy retrasada."
+                },
+                "exam": {
+                  "q": "In which case can it be justified to carry a seriously injured person in a private car?",
+                  "options": [
+                    "If it is not possible to ask for help by any means, or if he worsens and the help is very delayed.",
+                    "Provided that the injured person can go seated with the seat belt.",
+                    "In no case, even if you are isolated and without a way to warn."
+                  ]
+                },
+                "en": {
+                  "q": "When can it be justified to take a seriously injured person in a private car?",
+                  "options": [
+                    "If help cannot be called by any means, or if they get worse and help is badly delayed",
+                    "Whenever they can sit up with a seat belt on",
+                    "Never, even if you are cut off with no way to call"
+                  ],
+                  "why": "Normally specialized staff move the injured. The DGT accepts a private car only in exceptional cases: no way to call for help, or the person getting worse while help is badly delayed."
+                },
+                "terms": [
+                  {
+                    "es": "vehículo particular",
+                    "en": "private vehicle"
+                  },
+                  {
+                    "es": "traslado",
+                    "en": "transfer"
+                  },
+                  {
+                    "es": "ayuda sanitaria",
+                    "en": "medical help"
                   }
                 ],
                 "src": "DGT guidance (DGT, Manual IX «Primeros auxilios», 2026)"

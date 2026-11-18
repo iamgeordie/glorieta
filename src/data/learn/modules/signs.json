@@ -2226,6 +2226,117 @@
                 ],
                 "src": "RGC arts. 46.1.b y 110.1"
               }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Tres señales de peligro avisan de peatones. **Paso para peatones** (P-20a): uno o varios pasos para peatones cerca. **Peatones** (P-20b): un lugar o tramo con mucho tránsito de peatones. **Personas con dificultades motrices** (P-21b): un lugar al que acuden personas con dificultades motrices o sensoriales.",
+                "en": "Three warning signs are about pedestrians. **Paso para peatones** (P-20a): one or more pedestrian crossings ahead. **Peatones** (P-20b): a place or stretch with heavy pedestrian traffic. **Personas con dificultades motrices** (P-21b): a place used by people with mobility or sensory difficulties."
+              },
+              "src": "RGC Anexo I, ap. 5.1, 3.1 (P-20a, P-20b y P-21b)"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Son señales de peligro, no de prohibición ni de obligación: no te mandan parar. Te piden moderar la velocidad, mirar más y estar listo para detenerte.",
+                "en": "They are warning signs, not bans or orders: they do not tell you to stop. They ask you to slow down, look harder and be ready to stop."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-road-x",
+                "answer": 2,
+                "es": {
+                  "q": "Ves la señal de peligro «Peatones». ¿De qué te avisa?",
+                  "options": [
+                    "De que te acercas a una calle solo para peatones",
+                    "De que hay un paso para peatones justo después",
+                    "De un lugar o tramo con mucho tránsito de peatones"
+                  ],
+                  "why": "La señal «Peatones» avisa de un lugar o tramo con elevado tránsito de peatones. La de «Paso para peatones» es la que avisa de un paso."
+                },
+                "exam": {
+                  "q": "You see the danger sign «Pedestrians». Of what does it warn you?",
+                  "options": [
+                    "That you approach a street only for pedestrians.",
+                    "That there is a pedestrian crossing just after.",
+                    "Of a place or section with a lot of transit of pedestrians."
+                  ]
+                },
+                "en": {
+                  "q": "You see the “Peatones” (pedestrians) warning sign. What does it warn you about?",
+                  "options": [
+                    "That you are nearing a street for pedestrians only",
+                    "That a pedestrian crossing comes right after it",
+                    "A place or stretch with heavy pedestrian traffic"
+                  ],
+                  "why": "The “Peatones” sign warns of a place or stretch with heavy pedestrian traffic. It is the “Paso para peatones” sign that warns of a crossing."
+                },
+                "terms": [
+                  {
+                    "es": "señal de peligro",
+                    "en": "danger sign"
+                  },
+                  {
+                    "es": "tránsito de peatones",
+                    "en": "transit of pedestrians"
+                  },
+                  {
+                    "es": "tramo",
+                    "en": "section"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.1 (P-20a y P-20b)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-road-y",
+                "answer": 0,
+                "es": {
+                  "q": "Ves la señal de peligro «Personas con dificultades motrices». ¿Qué debes hacer?",
+                  "options": [
+                    "Extremar la precaución: cerca acuden personas que pueden moverse o reaccionar despacio",
+                    "Detenerte siempre ante la señal y ceder el paso",
+                    "Nada especial: prohíbe el paso de peatones por la calzada"
+                  ],
+                  "why": "Es una señal de peligro: avisa de un lugar frecuentado por personas con dificultades motrices o sensoriales. No obliga a parar, pero sí a moderar la velocidad y a estar atento."
+                },
+                "exam": {
+                  "q": "You see the danger sign «Persons with motor difficulties». What must you do?",
+                  "options": [
+                    "To take extreme precaution: nearby there come persons who can move or react slowly.",
+                    "To stop always before the sign and yield way.",
+                    "Nothing special: it prohibits the passage of pedestrians by the carriageway."
+                  ]
+                },
+                "en": {
+                  "q": "You see the “Personas con dificultades motrices” warning sign. What should you do?",
+                  "options": [
+                    "Take extra care: people who may move or react slowly come here",
+                    "Always stop at the sign and give way",
+                    "Nothing special: it bans pedestrians from the roadway"
+                  ],
+                  "why": "It is a warning sign: it marks a place used by people with mobility or sensory difficulties. It does not make you stop, but you must slow down and pay attention."
+                },
+                "terms": [
+                  {
+                    "es": "dificultades motrices",
+                    "en": "motor difficulties"
+                  },
+                  {
+                    "es": "dificultades sensoriales",
+                    "en": "sensory difficulties"
+                  },
+                  {
+                    "es": "extremar la precaución",
+                    "en": "take extreme precaution"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.1 (P-21b)"
+              }
             }
           ]
         },
@@ -5433,6 +5544,69 @@
                   }
                 ],
                 "src": "RGC Anexo I, ap. 5.1, 3.17 (S-820)"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Las señales y los **pictogramas** del Catálogo pueden ir dentro de un cartel con texto que precisa su alcance, por ejemplo a qué tipos de vehículos o de personas afecta.",
+                "en": "The Catalogue’s signs and **pictograms** can sit inside a panel with text that sets their scope, for example which types of vehicle or people they apply to."
+              },
+              "src": "RGC Anexo I, ap. 5.1, Tomo I, 2.2"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "El Catálogo incluye un pictograma **«Vehículo eléctrico»**: el perfil de un coche, en verde, con un enchufe. Junto a una señal indica que lo señalizado se refiere a los vehículos eléctricos, como una plaza de recarga.",
+                "en": "The Catalogue includes a **“Vehículo eléctrico”** (electric vehicle) pictogram: the outline of a car, in green, with a plug. Next to a sign it shows that what is signed refers to electric vehicles, such as a charging bay."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-ind-x",
+                "answer": 0,
+                "es": {
+                  "q": "Bajo una señal de estacionamiento hay un cartel con el pictograma de un coche verde con un enchufe. ¿A quién se refiere la señal?",
+                  "options": [
+                    "A los vehículos eléctricos",
+                    "A los vehículos de alquiler",
+                    "A los vehículos con remolque"
+                  ],
+                  "why": "El pictograma «Vehículo eléctrico» del Catálogo indica que la señalización se refiere a los vehículos eléctricos."
+                },
+                "exam": {
+                  "q": "Below a parking sign there is a panel with the pictogram of a green car with a plug. To whom does the sign refer?",
+                  "options": [
+                    "To the electric vehicles.",
+                    "To the rental vehicles.",
+                    "To the vehicles with trailer."
+                  ]
+                },
+                "en": {
+                  "q": "Below a parking sign there is a panel with the pictogram of a green car with a plug. Who does the sign refer to?",
+                  "options": [
+                    "Electric vehicles",
+                    "Rental vehicles",
+                    "Vehicles with a trailer"
+                  ],
+                  "why": "The Catalogue’s “Vehículo eléctrico” pictogram shows that the signs refer to electric vehicles."
+                },
+                "terms": [
+                  {
+                    "es": "pictograma",
+                    "en": "pictogram"
+                  },
+                  {
+                    "es": "vehículo eléctrico",
+                    "en": "electric vehicle"
+                  },
+                  {
+                    "es": "panel complementario",
+                    "en": "complementary panel"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, Tomo I, 2.2 y 4 (pictogramas)"
               }
             }
           ]

@@ -2089,6 +2089,54 @@
                 ],
                 "src": "Física del frenado (convención didáctica), no un artículo"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "speed-adapt-cx",
+                "answer": 2,
+                "es": {
+                  "q": "¿De cuál de estos elementos depende la distancia que necesitas para detenerte?",
+                  "options": [
+                    "Del estado del pedal de embrague",
+                    "Del estado del freno de mano",
+                    "Del estado de los neumáticos"
+                  ],
+                  "why": "La frenada depende de la adherencia y de los frenos de servicio. Unos neumáticos gastados agarran peor y alargan la distancia de detención."
+                },
+                "exam": {
+                  "q": "On which of these elements does the distance that you need in order to stop depend?",
+                  "options": [
+                    "On the state of the clutch pedal.",
+                    "On the state of the hand brake.",
+                    "On the state of the tyres."
+                  ]
+                },
+                "en": {
+                  "q": "Which of these does the distance you need to stop depend on?",
+                  "options": [
+                    "The condition of the clutch pedal",
+                    "The condition of the handbrake",
+                    "The condition of the tires"
+                  ],
+                  "why": "Braking depends on grip and on the service brakes. Worn tires grip less and make the stopping distance longer."
+                },
+                "terms": [
+                  {
+                    "es": "distancia de detención",
+                    "en": "stopping distance"
+                  },
+                  {
+                    "es": "neumáticos",
+                    "en": "tyres"
+                  },
+                  {
+                    "es": "adherencia",
+                    "en": "grip"
+                  }
+                ],
+                "src": "RGC art. 54.1 (adherencia y frenado)"
+              }
             }
           ]
         },
@@ -3022,6 +3070,69 @@
                 ],
                 "src": "RGC arts. 47 y 52.1.a",
                 "sign": "r-301-70"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Las velocidades máximas y mínimas se fijan para los conductores, los vehículos y las vías **en función de sus propias características**.",
+                "en": "Maximum and minimum speeds are set for drivers, vehicles and roads **according to their own characteristics**."
+              },
+              "src": "LSV art. 21.2"
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Guía de la DGT: los límites **no son arbitrarios**. Se establecen según las características de la vía, como su trazado y su tráfico.",
+                "en": "DGT guidance: limits are **not arbitrary**. They are set according to the road’s characteristics, such as its layout and its traffic."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "speed-signs-cx",
+                "answer": 1,
+                "es": {
+                  "q": "¿En qué se basan los límites de velocidad de una vía?",
+                  "options": [
+                    "Sobre todo en criterios económicos, como ahorrar combustible",
+                    "En las características de la vía, como su trazado, y en las de vehículos y conductores",
+                    "Solo en el número de curvas que tiene"
+                  ],
+                  "why": "La ley fija las velocidades máximas y mínimas según las características de conductores, vehículos y vías. La DGT recuerda que no son arbitrarias."
+                },
+                "exam": {
+                  "q": "On what are the speed limits of a road based?",
+                  "options": [
+                    "Above all on economic criteria, like saving fuel.",
+                    "On the characteristics of the road, like its layout, and on those of vehicles and drivers.",
+                    "Only on the number of curves that it has."
+                  ]
+                },
+                "en": {
+                  "q": "What are a road’s speed limits based on?",
+                  "options": [
+                    "Mainly economic criteria, such as saving fuel",
+                    "The road’s characteristics, such as its layout, and those of vehicles and drivers",
+                    "Only the number of bends it has"
+                  ],
+                  "why": "The law sets maximum and minimum speeds according to the characteristics of drivers, vehicles and roads. The DGT points out that they are not arbitrary."
+                },
+                "terms": [
+                  {
+                    "es": "límite de velocidad",
+                    "en": "speed limit"
+                  },
+                  {
+                    "es": "trazado",
+                    "en": "layout"
+                  },
+                  {
+                    "es": "características de la vía",
+                    "en": "characteristics of the road"
+                  }
+                ],
+                "src": "LSV art. 21.2; DGT guidance (nota de prensa, julio 2020)"
               }
             }
           ]

@@ -407,6 +407,54 @@
                 ],
                 "src": "LSV art. 10.3"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c1f",
+                "answer": 1,
+                "es": {
+                  "q": "Conduces el coche de una amiga, que es la titular. La matrícula trasera va tapada de barro. ¿Quién debe comprobar que se puede leer?",
+                  "options": [
+                    "Solo la titular del vehículo",
+                    "Tú, porque eres quien conduce",
+                    "Todos los ocupantes por igual"
+                  ],
+                  "why": "La ley obliga al conductor a verificar que las placas de matrícula no tienen nada que impida o dificulte su lectura. Da igual que el coche no sea suyo."
+                },
+                "en": {
+                  "q": "You are driving a friend’s car; she is the registered owner. The rear plate is covered in mud. Who must make sure it can be read?",
+                  "options": [
+                    "Only the owner of the vehicle",
+                    "You, because you are the one driving",
+                    "All the occupants equally"
+                  ],
+                  "why": "The law makes the driver check that the license plates have nothing that prevents or hinders reading them. It does not matter that the car is not theirs."
+                },
+                "exam": {
+                  "q": "You drive the car of a friend, who is the owner. The rear registration plate goes covered with mud. Who must check that it can be read?",
+                  "options": [
+                    "Only the owner of the vehicle.",
+                    "You, because you are the one who drives.",
+                    "All the occupants equally."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "placa de matrícula",
+                    "en": "registration plate"
+                  },
+                  {
+                    "es": "titular",
+                    "en": "owner"
+                  },
+                  {
+                    "es": "conductor",
+                    "en": "driver"
+                  }
+                ],
+                "src": "LSV art. 10.2"
+              }
             }
           ]
         }
@@ -1877,6 +1925,236 @@
               }
             }
           ]
+        },
+        {
+          "title": {
+            "es": "Para qué sirven las luces",
+            "en": "What lights are for"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "La luz de **carretera** alumbra una distancia larga de la vía por delante. La de **cruce** alumbra la vía por delante sin deslumbrar ni molestar a los demás.",
+                "en": "The **high beam** lights a long stretch of road ahead. The **low beam** lights the road ahead without dazzling or bothering others."
+              },
+              "src": "LSV Anexo I, 40 y 41"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Las luces de **posición**, delante y detrás, indican la **presencia y la anchura** del vehículo. La luz de frenado avisa a quien va detrás de que frenas.",
+                "en": "**Position lights**, front and rear, show the **presence and width** of the vehicle. The brake light tells those behind that you are braking."
+              },
+              "src": "LSV Anexo I, 42, 43 y 47"
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "La DGT lo resume en un lema: las luces sirven para **ver y ser vistos**. Unas alumbran el camino; otras hacen que los demás te vean. (DGT guidance)",
+                "en": "The DGT sums it up in a slogan: lights are there **to see and to be seen**. Some light up the road; others make you visible to everyone else. (DGT guidance)"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Adapta la velocidad para poder **detenerte dentro de tu campo de visión**. Si una avería te deja con luces más débiles, baja la velocidad hasta poder parar **dentro de la zona iluminada**.",
+                "en": "Adapt your speed so you can **stop within your field of vision**. If a fault leaves you with weaker lights, slow down until you can stop **within the lit area**."
+              },
+              "src": "RGC art. 45 y art. 107"
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Los faros pierden eficacia con el tiempo. La DGT aconseja limpiarlos con un producto específico o en el taller y revisar su **reglaje** al menos una vez al año, para que alumbren donde deben sin deslumbrar. Cambia las bombillas por parejas. (DGT guidance)",
+                "en": "Headlamps lose effectiveness over time. The DGT advises cleaning them with a dedicated product or at a workshop and having their **aim** checked at least once a year, so they light where they should without dazzling. Replace bulbs in pairs. (DGT guidance)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c3h",
+                "answer": 1,
+                "es": {
+                  "q": "Según la definición legal, ¿para qué sirven las luces de posición?",
+                  "options": [
+                    "Para alumbrar la vía a poca distancia",
+                    "Para indicar la presencia y la anchura del vehículo",
+                    "Para avisar de que vas a girar"
+                  ],
+                  "why": "Las luces de posición sirven para que te vean: indican la presencia y la anchura del vehículo. Para ver la vía están la luz de cruce y la de carretera."
+                },
+                "en": {
+                  "q": "According to the legal definition, what are position lights for?",
+                  "options": [
+                    "To light the road a short distance ahead",
+                    "To show the presence and width of the vehicle",
+                    "To warn that you are about to turn"
+                  ],
+                  "why": "Position lights are for being seen: they show the presence and width of the vehicle. For seeing the road you have the low and high beams."
+                },
+                "exam": {
+                  "q": "According to the legal definition, what do the position lights serve for?",
+                  "options": [
+                    "To illuminate the road at a short distance.",
+                    "To indicate the presence and the width of the vehicle.",
+                    "To warn that you are going to turn."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "luz de posición",
+                    "en": "position light"
+                  },
+                  {
+                    "es": "anchura",
+                    "en": "width"
+                  }
+                ],
+                "src": "LSV Anexo I, 42 y 43"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c3i",
+                "answer": 2,
+                "es": {
+                  "q": "¿Cuál de estas luces sirve para ver la vía, y no solo para que te vean?",
+                  "options": [
+                    "La luz de posición trasera",
+                    "La luz de frenado",
+                    "La luz de cruce"
+                  ],
+                  "why": "La luz de cruce alumbra la vía por delante sin deslumbrar. Así cumple las dos funciones: ver y ser visto. La de posición y la de frenado solo sirven para que te vean."
+                },
+                "en": {
+                  "q": "Which of these lights lets you see the road, and not only be seen?",
+                  "options": [
+                    "The rear position light",
+                    "The brake light",
+                    "The low beam"
+                  ],
+                  "why": "The low beam lights the road ahead without dazzling. It does both jobs: seeing and being seen. The position light and the brake light only make you visible."
+                },
+                "exam": {
+                  "q": "Which of these lights serves to see the road, and not only so that they see you?",
+                  "options": [
+                    "The rear position light.",
+                    "The braking light.",
+                    "The dipped beam light."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "luz de cruce",
+                    "en": "dipped beam / low beam"
+                  },
+                  {
+                    "es": "ver y ser visto",
+                    "en": "see and be seen"
+                  }
+                ],
+                "src": "LSV Anexo I, 41, 43 y 47"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c3j",
+                "answer": 0,
+                "es": {
+                  "q": "Según la DGT, ¿por qué conviene limpiar los faros y revisar su reglaje?",
+                  "options": [
+                    "Para que alumbren donde deben y no deslumbren a otros",
+                    "Porque así gastan menos batería",
+                    "Porque la ITV exige faros nuevos cada año"
+                  ],
+                  "why": "Unos faros sucios o desgastados alumbran peor, y unos faros mal reglados deslumbran. La DGT aconseja limpiarlos y revisar el reglaje al menos una vez al año."
+                },
+                "en": {
+                  "q": "According to the DGT, why should you clean your headlamps and have their aim checked?",
+                  "options": [
+                    "So they light where they should and do not dazzle others",
+                    "Because it makes them use less battery",
+                    "Because the ITV requires new headlamps every year"
+                  ],
+                  "why": "Dirty or worn headlamps light less, and badly aimed ones dazzle. The DGT advises cleaning them and having the aim checked at least once a year."
+                },
+                "exam": {
+                  "q": "According to the DGT, why is it advisable to clean the headlamps and check their adjustment?",
+                  "options": [
+                    "So that they illuminate where they must and do not dazzle others.",
+                    "Because thus they consume less battery.",
+                    "Because the ITV demands new headlamps every year."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "faro",
+                    "en": "headlamp"
+                  },
+                  {
+                    "es": "reglaje",
+                    "en": "aim / adjustment"
+                  },
+                  {
+                    "es": "deslumbrar",
+                    "en": "to dazzle"
+                  }
+                ],
+                "src": "DGT guidance"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c3k",
+                "answer": 1,
+                "es": {
+                  "q": "Circulas de noche y una avería que no puedes reparar deja tu alumbrado más débil. ¿A qué velocidad puedes seguir?",
+                  "options": [
+                    "A la normal, si llevas puesta la luz de emergencia",
+                    "A una que te permita parar dentro de la zona iluminada",
+                    "A cualquiera, si la vía tiene iluminación"
+                  ],
+                  "why": "Si tienes que circular con un alumbrado de menor intensidad, reduce la velocidad hasta poder detener el vehículo dentro de la zona que iluminas."
+                },
+                "en": {
+                  "q": "You are driving at night and a fault you cannot fix leaves your lights weaker. What speed may you continue at?",
+                  "options": [
+                    "Your normal speed, if your hazard lights are on",
+                    "One that lets you stop within the lit area",
+                    "Any speed, if the road has street lighting"
+                  ],
+                  "why": "If you must drive with weaker lights, slow down until you can stop the vehicle within the area your lights reach."
+                },
+                "exam": {
+                  "q": "You circulate at night and a breakdown that you cannot repair leaves your lighting weaker. At what speed can you continue?",
+                  "options": [
+                    "At the normal one, if you carry the emergency light on.",
+                    "At one that allows you to stop within the illuminated zone.",
+                    "At any, if the road has illumination."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "alumbrado",
+                    "en": "lighting"
+                  },
+                  {
+                    "es": "zona iluminada",
+                    "en": "illuminated zone"
+                  },
+                  {
+                    "es": "avería",
+                    "en": "breakdown"
+                  }
+                ],
+                "src": "RGC art. 107"
+              }
+            }
+          ]
         }
       ],
       "recap": [
@@ -1910,7 +2188,9 @@
         "Reglamento General de Circulación (RD 1428/2003), arts. 98 a 103 y 106",
         "Ley de Tráfico y Seguridad Vial (RDL 6/2015), art. 76.e",
         "Reglamento General de Vehículos (RD 2822/1998), Anexo X",
-        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), Anexo I"
+        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), Anexo I",
+        "Reglamento General de Circulación (RD 1428/2003), arts. 45 y 107",
+        "DGT guidance: revista.dgt.es («Luces: sin sombra de duda», «Cómo evitar los deslumbramientos al volante»)"
       ]
     },
     {
@@ -2082,6 +2362,54 @@
                 "en": "If an unrepairable lighting failure forces you to drive with a **weaker** light, slow down to a speed at which you can stop within the lit area."
               },
               "src": "RGC art. 107"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c4g",
+                "answer": 2,
+                "es": {
+                  "q": "De noche, tu coche queda inmovilizado en el arcén de una carretera. ¿Qué luces deben quedar encendidas como mínimo?",
+                  "options": [
+                    "Las de cruce, para que te vean de lejos",
+                    "Ninguna, si has colocado la baliza V-16",
+                    "Las de posición, y las de gálibo si las tiene"
+                  ],
+                  "why": "Un vehículo inmovilizado en la calzada o el arcén entre la puesta y la salida del sol debe tener encendidas las luces de posición y, en su caso, las de gálibo. Fuera de poblado añade la luz de emergencia y la V-16."
+                },
+                "en": {
+                  "q": "At night your car ends up immobilized on the shoulder of a highway. Which lights must stay on, at the very least?",
+                  "options": [
+                    "The low beams, so you can be seen from far away",
+                    "None, if you have placed the V-16 beacon",
+                    "The position lights, and the clearance lights if it has them"
+                  ],
+                  "why": "A vehicle immobilized on the roadway or shoulder between sunset and sunrise must have its position lights on and, where fitted, its clearance lights. Outside towns, add the hazard lights and the V-16."
+                },
+                "exam": {
+                  "q": "At night, your car remains immobilised on the hard shoulder of a road. What lights must remain switched on as a minimum?",
+                  "options": [
+                    "The dipped beam ones, so that they see you from far.",
+                    "None, if you have placed the V-16 beacon.",
+                    "The position ones, and the clearance ones if it has them."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "inmovilizado",
+                    "en": "immobilised"
+                  },
+                  {
+                    "es": "arcén",
+                    "en": "hard shoulder"
+                  },
+                  {
+                    "es": "luces de posición",
+                    "en": "position lights"
+                  }
+                ],
+                "src": "RGC art. 105.1"
+              }
             }
           ]
         },
@@ -2636,6 +2964,54 @@
                   }
                 ],
                 "src": "RGV Anexo XII, apartado 2"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c5i",
+                "answer": 2,
+                "es": {
+                  "q": "Tu turismo lleva una rueda de repuesto completa. ¿Qué herramientas debe llevar con ella?",
+                  "options": [
+                    "Un juego completo para pequeñas reparaciones del motor",
+                    "Ninguna: basta con llevar la rueda",
+                    "Las necesarias para cambiar la rueda"
+                  ],
+                  "why": "La dotación de un turismo incluye la rueda de repuesto, completa o de uso temporal, con las herramientas necesarias para cambiarla. Otra opción es un sistema alternativo que permita seguir circulando."
+                },
+                "en": {
+                  "q": "Your car carries a full-size spare wheel. Which tools must it carry with it?",
+                  "options": [
+                    "A full kit for small engine repairs",
+                    "None: carrying the wheel is enough",
+                    "The ones needed to change the wheel"
+                  ],
+                  "why": "A car’s required kit includes the spare wheel, full-size or temporary, with the tools needed to change it. The other option is an alternative system that lets you keep driving."
+                },
+                "exam": {
+                  "q": "Your passenger car carries a complete spare wheel. What tools must it carry with it?",
+                  "options": [
+                    "A complete set for small repairs of the engine.",
+                    "None: it is enough to carry the wheel.",
+                    "The necessary ones to change the wheel."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "rueda de repuesto",
+                    "en": "spare wheel"
+                  },
+                  {
+                    "es": "herramientas",
+                    "en": "tools"
+                  },
+                  {
+                    "es": "dotación",
+                    "en": "required equipment"
+                  }
+                ],
+                "src": "RGV Anexo XII, apartado 1"
               }
             }
           ]
@@ -4315,6 +4691,54 @@
                 ],
                 "src": "RGC art. 7.2"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c8f",
+                "answer": 1,
+                "es": {
+                  "q": "Un agente comprueba que tu furgoneta echa humos por encima de los niveles permitidos. ¿Qué puede hacer?",
+                  "options": [
+                    "Solo denunciarte; no puede impedir que sigas",
+                    "Inmovilizar el vehículo",
+                    "Nada, si la furgoneta tiene la ITV en vigor"
+                  ],
+                  "why": "Si un vehículo supera los niveles de gases, humos o ruido permitidos, los agentes pueden inmovilizarlo. Además, los conductores deben colaborar en las pruebas de detección."
+                },
+                "en": {
+                  "q": "An officer finds that your van gives off more smoke than the permitted levels. What can the officer do?",
+                  "options": [
+                    "Only report you; they cannot stop you from going on",
+                    "Immobilize the vehicle",
+                    "Nothing, if the van has a valid ITV"
+                  ],
+                  "why": "If a vehicle exceeds the permitted levels of gases, smoke or noise, officers can immobilize it. Drivers must also cooperate with the detection tests."
+                },
+                "exam": {
+                  "q": "An agent checks that your van emits smoke over the permitted levels. What can he do?",
+                  "options": [
+                    "Only report you; he cannot prevent that you continue.",
+                    "Immobilise the vehicle.",
+                    "Nothing, if the van has the ITV in force."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "inmovilizar",
+                    "en": "to immobilise"
+                  },
+                  {
+                    "es": "humos",
+                    "en": "smoke"
+                  },
+                  {
+                    "es": "agente",
+                    "en": "agent / officer"
+                  }
+                ],
+                "src": "RGC art. 7.2"
+              }
             }
           ]
         }
@@ -5053,6 +5477,62 @@
                 ],
                 "src": "RGV Anexo II, E.2.a"
               }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "El **distintivo de uso compartido** (V-26) es circular y de fondo azul. Identifica que el vehículo está clasificado en el Registro de Vehículos como **vehículo de uso compartido**. Si el vehículo tiene parabrisas, va preferentemente en su **ángulo superior izquierdo**, por dentro.",
+                "en": "The **shared-use badge** (V-26) is round with a blue background. It shows that the vehicle is classified in the Vehicle Register as a **shared-use vehicle**. If the vehicle has a windshield, it goes preferably in its **upper left corner**, on the inside."
+              },
+              "src": "RGV Anexo XI, V-26.1, V-26.3 y V-26.4"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c6k",
+                "answer": 2,
+                "es": {
+                  "q": "Un coche lleva en el parabrisas el distintivo redondo y azul de uso compartido. ¿Qué identifica?",
+                  "options": [
+                    "Que puede circular por el carril bus",
+                    "Que es un vehículo de alquiler con conductor",
+                    "Que el Registro de Vehículos lo clasifica como vehículo de uso compartido"
+                  ],
+                  "why": "El distintivo de uso compartido (V-26) identifica la clasificación del vehículo en el Registro de Vehículos como vehículo de uso compartido. No da permiso para usar el carril bus."
+                },
+                "en": {
+                  "q": "A car has the round blue shared-use badge on its windshield. What does it identify?",
+                  "options": [
+                    "That it may use the bus lane",
+                    "That it is a rental vehicle with a driver",
+                    "That the Vehicle Register classifies it as a shared-use vehicle"
+                  ],
+                  "why": "The shared-use badge (V-26) identifies the vehicle’s classification in the Vehicle Register as a shared-use vehicle. It does not allow you to use the bus lane."
+                },
+                "exam": {
+                  "q": "A car carries on the windscreen the round and blue badge of shared use. What does it identify?",
+                  "options": [
+                    "That it can circulate by the bus lane.",
+                    "That it is a vehicle of hire with driver.",
+                    "That the Register of Vehicles classifies it as a vehicle of shared use."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "distintivo",
+                    "en": "badge"
+                  },
+                  {
+                    "es": "vehículo de uso compartido",
+                    "en": "shared-use vehicle"
+                  },
+                  {
+                    "es": "Registro de Vehículos",
+                    "en": "Vehicle Register"
+                  }
+                ],
+                "src": "RGV Anexo XI, V-26.1"
+              }
             }
           ]
         },
@@ -5242,6 +5722,57 @@
                 ],
                 "src": "DGT guidance"
               }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Según la DGT, conducir de forma eficiente reduce el consumo en torno a un **15 %**, y las emisiones de CO2 en una proporción parecida. (DGT guidance)",
+                "en": "According to the DGT, efficient driving cuts fuel use by about **15%**, and CO2 emissions by a similar share. (DGT guidance)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c6l",
+                "answer": 1,
+                "es": {
+                  "q": "Según la DGT, ¿qué consigue la conducción eficiente, además de gastar menos combustible?",
+                  "options": [
+                    "Nada más: las emisiones no cambian",
+                    "Reducir también las emisiones contaminantes",
+                    "Más emisiones, porque se usan marchas largas"
+                  ],
+                  "why": "La DGT calcula que la conducción eficiente reduce el consumo en torno a un 15 % y las emisiones de CO2 en una proporción parecida. Menos combustible quemado es menos contaminación."
+                },
+                "en": {
+                  "q": "According to the DGT, what does efficient driving achieve besides using less fuel?",
+                  "options": [
+                    "Nothing else: emissions stay the same",
+                    "It also cuts polluting emissions",
+                    "More emissions, because you use high gears"
+                  ],
+                  "why": "The DGT estimates that efficient driving cuts fuel use by about 15% and CO2 emissions by a similar share. Less fuel burned means less pollution."
+                },
+                "exam": {
+                  "q": "According to the DGT, what does efficient driving achieve, besides spending less fuel?",
+                  "options": [
+                    "Nothing more: the emissions do not change.",
+                    "To reduce also the polluting emissions.",
+                    "More emissions, because long gears are used."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "conducción eficiente",
+                    "en": "efficient driving"
+                  },
+                  {
+                    "es": "emisiones contaminantes",
+                    "en": "polluting emissions"
+                  }
+                ],
+                "src": "DGT guidance"
+              }
             }
           ]
         }
@@ -5282,7 +5813,861 @@
         "Reglamento General de Circulación, Anexo I, ap. 5.1 (señal R-120, Catálogo de señales)",
         "Guía DGT (revista.dgt.es, «Coche siempre a punto») y guía IDAE (idae.es, «10 reglas de oro de la conducción eficiente»)",
         "Reglamento General de Vehículos (RD 2822/1998), Anexo II (E) y Anexo VIII",
-        "DGT guidance: revista.dgt.es (puesta a punto, neumáticos, conducción eficiente) y dgt.es (conducción eficiente)"
+        "DGT guidance: revista.dgt.es (puesta a punto, neumáticos, conducción eficiente) y dgt.es (conducción eficiente)",
+        "Reglamento General de Vehículos (RD 2822/1998), Anexo XI, V-26"
+      ]
+    },
+    {
+      "id": "mechanics",
+      "title": {
+        "es": "Frenos, suspensión y cuidado del vehículo",
+        "en": "Brakes, suspension and vehicle care"
+      },
+      "minutes": 9,
+      "goals": [
+        {
+          "es": "Saber por qué el mantenimiento reduce el riesgo de accidente.",
+          "en": "Know why maintenance lowers the risk of a crash."
+        },
+        {
+          "es": "Entender para qué sirven la suspensión y el ABS, y de qué depende la frenada.",
+          "en": "Understand what the suspension and ABS are for, and what braking distance depends on."
+        },
+        {
+          "es": "Saber qué hacer si fallan los frenos y cómo frenar con el motor.",
+          "en": "Know what to do if the brakes fail and how to brake with the engine."
+        },
+        {
+          "es": "Repostar como manda la norma y sentarte bien al volante.",
+          "en": "Refuel as the rules require and sit correctly at the wheel."
+        }
+      ],
+      "terms": [
+        {
+          "es": "amortiguador",
+          "en": "shock absorber"
+        },
+        {
+          "es": "suspensión",
+          "en": "suspension"
+        },
+        {
+          "es": "ABS (antibloqueo de frenos)",
+          "en": "ABS (anti-lock brakes)"
+        },
+        {
+          "es": "distancia de frenado",
+          "en": "braking distance"
+        },
+        {
+          "es": "líquido de frenos",
+          "en": "brake fluid"
+        },
+        {
+          "es": "freno motor",
+          "en": "engine braking"
+        },
+        {
+          "es": "repostar",
+          "en": "to refuel"
+        },
+        {
+          "es": "gas refrigerante",
+          "en": "refrigerant gas"
+        }
+      ],
+      "pretest": {
+        "id": "equipment-pre-mech",
+        "answer": 0,
+        "es": {
+          "q": "¿Qué hace el ABS cuando frenas de golpe?",
+          "options": [
+            "Evita que las ruedas se bloqueen y te deja seguir dirigiendo",
+            "Frena solo las ruedas de delante",
+            "Apaga el motor para que el coche pare antes"
+          ],
+          "why": "El ABS evita que las ruedas se bloqueen en una frenada brusca. Así mantienes el control de la dirección."
+        },
+        "en": {
+          "q": "What does ABS do when you brake suddenly?",
+          "options": [
+            "It stops the wheels from locking and lets you keep steering",
+            "It brakes only the front wheels",
+            "It switches the engine off so the car stops sooner"
+          ],
+          "why": "ABS keeps the wheels from locking under sudden braking. That way you keep control of the steering."
+        },
+        "src": "DGT guidance"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Revisar el vehículo evita averías y accidentes",
+            "en": "Checking the vehicle prevents breakdowns and crashes"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "El **titular** del vehículo debe mantenerlo en las condiciones que exige la norma y someterlo a los reconocimientos e inspecciones que correspondan.",
+                "en": "The vehicle’s **owner** must keep it in the condition the rules require and take it to the checks and inspections that apply."
+              },
+              "src": "LSV art. 10.3"
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "La DGT aconseja revisar el coche antes de un viaje largo: así te ahorras averías e incluso **accidentes**. También recomienda una puesta a punto en el taller cada año, sobre todo en coches antiguos. (DGT guidance)",
+                "en": "The DGT advises checking the car before a long trip: it spares you breakdowns and even **crashes**. It also recommends a yearly service at a workshop, above all for older cars. (DGT guidance)"
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "El aire acondicionado enfría gracias a su **gas refrigerante**. Según la DGT, puede haber fugas que hacen que el gas se pierda poco a poco, así que conviene revisar su carga de vez en cuando. (DGT guidance)",
+                "en": "The air conditioning cools thanks to its **refrigerant gas**. According to the DGT, leaks can make the gas run out little by little, so have its charge checked from time to time. (DGT guidance)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c9a",
+                "answer": 1,
+                "es": {
+                  "q": "Revisas tu coche con frecuencia y lo llevas al taller cuando toca. ¿Cambia eso tu riesgo de tener un accidente?",
+                  "options": [
+                    "No: el riesgo depende solo de cómo se conduce",
+                    "Sí: el mantenimiento a tiempo ayuda a evitar averías y accidentes",
+                    "Solo si el coche tiene más de diez años"
+                  ],
+                  "why": "El titular debe mantener el vehículo en buenas condiciones. La DGT recuerda que revisarlo a tiempo ahorra averías e incluso accidentes."
+                },
+                "en": {
+                  "q": "You check your car often and take it to the workshop when it is due. Does that change your risk of a crash?",
+                  "options": [
+                    "No: the risk depends only on how it is driven",
+                    "Yes: timely maintenance helps prevent breakdowns and crashes",
+                    "Only if the car is more than ten years old"
+                  ],
+                  "why": "The owner must keep the vehicle in good condition. The DGT points out that checking it in time spares breakdowns and even crashes."
+                },
+                "exam": {
+                  "q": "You check your car with frequency and take it to the workshop when it is due. Does that change your risk of having an accident?",
+                  "options": [
+                    "No: the risk depends only on how one drives.",
+                    "Yes: the maintenance in time helps to avoid breakdowns and accidents.",
+                    "Only if the car has more than ten years."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "titular",
+                    "en": "owner"
+                  },
+                  {
+                    "es": "mantenimiento",
+                    "en": "maintenance"
+                  },
+                  {
+                    "es": "mal estado",
+                    "en": "bad state / poor condition"
+                  }
+                ],
+                "src": "LSV art. 10.3; DGT guidance"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c9b",
+                "answer": 0,
+                "es": {
+                  "q": "Hace mucho calor. Pones el aire acondicionado a 22 grados, pero por las rejillas sale aire caliente. ¿Qué conviene revisar?",
+                  "options": [
+                    "La carga del gas refrigerante, por si hay una fuga",
+                    "El nivel del aceite del motor",
+                    "La presión de los neumáticos"
+                  ],
+                  "why": "El sistema necesita su gas refrigerante para enfriar. Si hay una fuga, el gas se va perdiendo y el aire deja de salir frío. La DGT aconseja revisar esa carga."
+                },
+                "en": {
+                  "q": "It is very hot. You set the air conditioning to 22 degrees, but hot air comes out of the vents. What should you have checked?",
+                  "options": [
+                    "The refrigerant gas charge, in case there is a leak",
+                    "The engine oil level",
+                    "The tire pressure"
+                  ],
+                  "why": "The system needs its refrigerant gas to cool. If there is a leak, the gas runs out and the air stops coming out cold. The DGT advises checking that charge."
+                },
+                "exam": {
+                  "q": "It is very hot. You put the air conditioning at 22 degrees, but by the grilles hot air comes out. What is it advisable to check?",
+                  "options": [
+                    "The charge of the refrigerant gas, in case there is a leak.",
+                    "The level of the engine oil.",
+                    "The pressure of the tyres."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "aire acondicionado",
+                    "en": "air conditioning"
+                  },
+                  {
+                    "es": "gas refrigerante",
+                    "en": "refrigerant gas"
+                  },
+                  {
+                    "es": "fuga",
+                    "en": "leak"
+                  }
+                ],
+                "src": "DGT guidance"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Suspensión y amortiguadores",
+            "en": "Suspension and shock absorbers"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "La **suspensión** está entre las ruedas y la carrocería. Los **amortiguadores** forman parte de ella.",
+                "en": "The **suspension** sits between the wheels and the body. The **shock absorbers** are part of it."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Según la DGT, la suspensión mantiene las **ruedas en contacto con el suelo**. Unos amortiguadores gastados restan **estabilidad**, alargan la distancia de frenado, dan problemas de control en las curvas y desgastan los neumáticos de forma irregular. (DGT guidance)",
+                "en": "According to the DGT, the suspension keeps the **wheels in contact with the ground**. Worn shock absorbers reduce **stability**, lengthen braking distance, cause control problems in curves and wear the tires unevenly. (DGT guidance)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c9c",
+                "answer": 2,
+                "es": {
+                  "q": "Tu coche rebota mucho en los baches y se inclina demasiado en las curvas. ¿Qué trabajo de la suspensión está fallando?",
+                  "options": [
+                    "Llevar la fuerza del motor a las ruedas motrices",
+                    "Sujetar el coche cuando está aparcado",
+                    "Mantener las ruedas pegadas al suelo y el coche estable"
+                  ],
+                  "why": "La suspensión mantiene las ruedas en contacto con el suelo. Si los amortiguadores fallan, el coche pierde estabilidad y control, sobre todo en curvas y al frenar."
+                },
+                "en": {
+                  "q": "Your car bounces a lot over bumps and leans too far in curves. Which job of the suspension is failing?",
+                  "options": [
+                    "Carrying the engine’s power to the driven wheels",
+                    "Holding the car still when it is parked",
+                    "Keeping the wheels pressed to the ground and the car stable"
+                  ],
+                  "why": "The suspension keeps the wheels in contact with the ground. If the shock absorbers fail, the car loses stability and control, above all in curves and when braking."
+                },
+                "exam": {
+                  "q": "Your car bounces a lot in the potholes and leans too much in the bends. What work of the suspension is failing?",
+                  "options": [
+                    "To carry the force of the engine to the drive wheels.",
+                    "To hold the car when it is parked.",
+                    "To keep the wheels stuck to the ground and the car stable."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "suspensión",
+                    "en": "suspension"
+                  },
+                  {
+                    "es": "amortiguador",
+                    "en": "shock absorber"
+                  },
+                  {
+                    "es": "estabilidad",
+                    "en": "stability"
+                  }
+                ],
+                "src": "DGT guidance"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "El ABS y la distancia de frenado",
+            "en": "ABS and braking distance"
+          },
+          "blocks": [
+            {
+              "t": "tip",
+              "text": {
+                "es": "El **ABS** (sistema antibloqueo de frenos) evita que las ruedas se **bloqueen** en una frenada brusca. Así puedes seguir dirigiendo el coche. Es obligatorio en los vehículos nuevos vendidos en Europa desde 2003. (DGT guidance)",
+                "en": "**ABS** (anti-lock braking system) keeps the wheels from **locking** under sudden braking. That way you can keep steering the car. It has been required on new vehicles sold in Europe since 2003. (DGT guidance)"
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Con ABS, en una emergencia pisa el freno **fuerte y rápido** y mantenlo pisado hasta parar. Si hace falta, esquiva el obstáculo con el volante sin soltar el pedal. (DGT guidance)",
+                "en": "With ABS, in an emergency press the brake **hard and fast** and keep it pressed until you stop. If needed, steer around the obstacle without letting go of the pedal. (DGT guidance)"
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "La distancia de frenado depende sobre todo de la **velocidad**. También del **peso y la carga**, del estado de los **neumáticos** y los **amortiguadores**, y del firme. (DGT guidance)",
+                "en": "Braking distance depends above all on **speed**. It also depends on **weight and load**, on the condition of the **tires** and **shock absorbers**, and on the road surface. (DGT guidance)"
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Una **presión de inflado baja** resta agarre, recalienta el neumático, lo daña por dentro, acorta su vida y alarga la frenada. Mírala con los neumáticos en frío. (DGT guidance)",
+                "en": "**Low tire pressure** reduces grip, overheats the tire, damages it inside, shortens its life and lengthens braking. Check it with the tires cold. (DGT guidance)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c9d",
+                "answer": 1,
+                "es": {
+                  "q": "¿Qué hace el ABS en una frenada brusca?",
+                  "options": [
+                    "Reparte la fuerza del motor entre las cuatro ruedas",
+                    "Evita que las ruedas se bloqueen, para que puedas seguir dirigiendo",
+                    "Reduce la fuerza que necesitas para pisar el pedal"
+                  ],
+                  "why": "El ABS evita que las ruedas se bloqueen al frenar de golpe. Con las ruedas girando, el coche sigue obedeciendo al volante."
+                },
+                "en": {
+                  "q": "What does ABS do under sudden braking?",
+                  "options": [
+                    "It spreads the engine’s power across all four wheels",
+                    "It keeps the wheels from locking, so you can keep steering",
+                    "It reduces the force you need to press the pedal"
+                  ],
+                  "why": "ABS keeps the wheels from locking when you brake suddenly. With the wheels still turning, the car keeps responding to the steering wheel."
+                },
+                "exam": {
+                  "q": "What does the ABS do in a sudden braking?",
+                  "options": [
+                    "It distributes the force of the engine between the four wheels.",
+                    "It prevents that the wheels lock, so that you can continue steering.",
+                    "It reduces the force that you need to press the pedal."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "ABS (sistema antibloqueo de frenos)",
+                    "en": "ABS (anti-lock braking system)"
+                  },
+                  {
+                    "es": "bloqueo de las ruedas",
+                    "en": "wheel locking"
+                  },
+                  {
+                    "es": "frenada brusca",
+                    "en": "sudden braking"
+                  }
+                ],
+                "src": "DGT guidance"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c9e",
+                "answer": 0,
+                "es": {
+                  "q": "Sales de viaje con el maletero lleno y cuatro pasajeros. Comparada con el coche vacío, ¿cómo es tu distancia de frenado?",
+                  "options": [
+                    "Mayor: con más peso necesitas más metros para parar",
+                    "Igual: solo depende de la velocidad",
+                    "Menor: el peso da más agarre a las ruedas"
+                  ],
+                  "why": "El peso y la carga alargan la distancia de frenado. Con el coche cargado, o con un pasajero en la moto, deja más distancia de seguridad."
+                },
+                "en": {
+                  "q": "You set off on a trip with a full trunk and four passengers. Compared with the empty car, what is your braking distance like?",
+                  "options": [
+                    "Longer: with more weight you need more meters to stop",
+                    "The same: it depends only on speed",
+                    "Shorter: the weight gives the wheels more grip"
+                  ],
+                  "why": "Weight and load lengthen braking distance. With a loaded car, or a passenger on a motorcycle, leave a bigger safety gap."
+                },
+                "exam": {
+                  "q": "You go on a trip with the boot full and four passengers. Compared with the empty car, how is your braking distance?",
+                  "options": [
+                    "Greater: with more weight you need more metres to stop.",
+                    "Equal: it only depends on the speed.",
+                    "Smaller: the weight gives more grip to the wheels."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "distancia de frenado",
+                    "en": "braking distance"
+                  },
+                  {
+                    "es": "carga",
+                    "en": "load"
+                  },
+                  {
+                    "es": "distancia de seguridad",
+                    "en": "safety distance"
+                  }
+                ],
+                "src": "DGT guidance"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c9f",
+                "answer": 2,
+                "es": {
+                  "q": "Según la DGT, ¿qué provoca circular con una presión de inflado más baja de la recomendada?",
+                  "options": [
+                    "Más agarre en las curvas y una frenada más corta",
+                    "Solo un desgaste más rápido en el centro del dibujo",
+                    "Recalentamiento y daños internos en el neumático, y una frenada más larga"
+                  ],
+                  "why": "Con poca presión, el neumático se recalienta, se daña por dentro y tiene menos agarre, y la frenada se alarga. La presión correcta da más seguridad y reduce el consumo."
+                },
+                "en": {
+                  "q": "According to the DGT, what happens if you drive with tire pressure below the recommended level?",
+                  "options": [
+                    "More grip in curves and a shorter stop",
+                    "Only faster wear in the center of the tread",
+                    "Overheating and internal damage to the tire, and a longer stop"
+                  ],
+                  "why": "With low pressure the tire overheats, gets damaged inside and has less grip, and braking takes longer. The right pressure is safer and cuts fuel use."
+                },
+                "exam": {
+                  "q": "According to the DGT, what does circulating with an inflation pressure lower than the recommended one provoke?",
+                  "options": [
+                    "More grip in the bends and a shorter braking.",
+                    "Only a faster wear in the centre of the pattern.",
+                    "Overheating and internal damage in the tyre, and a longer braking."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "presión de inflado",
+                    "en": "inflation pressure"
+                  },
+                  {
+                    "es": "recalentamiento",
+                    "en": "overheating"
+                  },
+                  {
+                    "es": "agarre",
+                    "en": "grip"
+                  }
+                ],
+                "src": "DGT guidance"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Si fallan los frenos",
+            "en": "If the brakes fail"
+          },
+          "blocks": [
+            {
+              "t": "tip",
+              "text": {
+                "es": "Los frenos de casi todos los coches son hidráulicos: el **líquido de frenos** lleva la fuerza del pedal a las ruedas. Si el nivel baja mucho o entra aire, el pedal queda **blando**. La DGT aconseja mirar el nivel cada dos o tres meses. (DGT guidance)",
+                "en": "Almost every car has hydraulic brakes: the **brake fluid** carries the pedal’s force to the wheels. If the level drops a lot or air gets in, the pedal goes **soft**. The DGT advises checking the level every two or three months. (DGT guidance)"
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Si los frenos fallan mientras circulas, la DGT aconseja estos pasos:",
+                "en": "If the brakes fail while you are driving, the DGT advises these steps:"
+              }
+            },
+            {
+              "t": "list",
+              "ordered": true,
+              "items": [
+                {
+                  "es": "Mantén la calma. Avisa a los demás con la **luz de emergencia** y, si hace falta, con el claxon.",
+                  "en": "Stay calm. Warn others with the **hazard lights** and, if needed, the horn."
+                },
+                {
+                  "es": "No apagues el motor: sin él, la dirección asistida deja de ayudar y cuesta mucho girar.",
+                  "en": "Do not switch off the engine: without it the power steering stops helping and steering gets very hard."
+                },
+                {
+                  "es": "Si el pedal no responde, **bómbealo** varias veces por si recupera presión.",
+                  "en": "If the pedal does not respond, **pump** it several times in case it regains pressure."
+                },
+                {
+                  "es": "**Reduce de marcha** para frenar con el motor.",
+                  "en": "**Shift down** to brake with the engine."
+                },
+                {
+                  "es": "Usa el freno de mano **poco a poco**, sin tirones, si es mecánico.",
+                  "en": "Use the handbrake **gradually**, without jerks, if it is mechanical."
+                }
+              ]
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c9g",
+                "answer": 2,
+                "es": {
+                  "q": "Circulas y, de repente, el pedal de freno no responde. ¿Qué haces para perder velocidad?",
+                  "options": [
+                    "Apagar el motor para que el coche pierda fuerza",
+                    "Tirar del freno de mano de golpe",
+                    "Bombear el pedal y reducir de marcha para frenar con el motor"
+                  ],
+                  "why": "Mantén el motor encendido para conservar la dirección asistida. Bombea el pedal, reduce de marcha para usar el freno motor y usa el freno de mano poco a poco, nunca de golpe."
+                },
+                "en": {
+                  "q": "You are driving and the brake pedal suddenly stops responding. What do you do to lose speed?",
+                  "options": [
+                    "Switch off the engine so the car loses power",
+                    "Pull the handbrake hard all at once",
+                    "Pump the pedal and shift down to brake with the engine"
+                  ],
+                  "why": "Keep the engine running so the power steering still works. Pump the pedal, shift down to use engine braking, and apply the handbrake gradually, never all at once."
+                },
+                "exam": {
+                  "q": "You circulate and, suddenly, the brake pedal does not respond. What do you do to lose speed?",
+                  "options": [
+                    "To switch off the engine so that the car loses force.",
+                    "To pull the handbrake suddenly.",
+                    "To pump the pedal and reduce gear in order to brake with the engine."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "freno motor",
+                    "en": "engine brake"
+                  },
+                  {
+                    "es": "reducir de marcha",
+                    "en": "to shift down"
+                  },
+                  {
+                    "es": "freno de mano",
+                    "en": "handbrake"
+                  }
+                ],
+                "src": "DGT guidance"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c9h",
+                "answer": 0,
+                "es": {
+                  "q": "¿La pérdida total de cuál de estos líquidos te puede dejar sin poder parar el coche?",
+                  "options": [
+                    "La del líquido de frenos",
+                    "La del líquido del limpiaparabrisas",
+                    "La del gas del aire acondicionado"
+                  ],
+                  "why": "El líquido de frenos transmite la fuerza del pedal a las ruedas. Si se pierde, el pedal queda blando o no responde y el coche no frena."
+                },
+                "en": {
+                  "q": "Losing all of which of these fluids could leave you unable to stop the car?",
+                  "options": [
+                    "The brake fluid",
+                    "The windshield washer fluid",
+                    "The air-conditioning gas"
+                  ],
+                  "why": "Brake fluid carries the pedal’s force to the wheels. If it is lost, the pedal goes soft or stops working and the car does not brake."
+                },
+                "exam": {
+                  "q": "The total loss of which of these liquids can leave you without being able to stop the car?",
+                  "options": [
+                    "That of the brake fluid.",
+                    "That of the windscreen washer fluid.",
+                    "That of the gas of the air conditioning."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "líquido de frenos",
+                    "en": "brake fluid"
+                  },
+                  {
+                    "es": "pedal blando",
+                    "en": "soft pedal"
+                  }
+                ],
+                "src": "DGT guidance"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Frenar con el motor",
+            "en": "Braking with the engine"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Puedes reducir la velocidad con el **freno de servicio** (el pedal) y también con el **freno motor**. El freno de mano sirve para dejar el coche inmóvil.",
+                "en": "You can slow down with the **service brake** (the pedal) and also with **engine braking**. The handbrake is for keeping the car still."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "**Freno motor**: levantas el pie del acelerador con una **marcha puesta** y el motor retiene el coche. Mientras tanto, el consumo es nulo. (DGT guidance)",
+                "en": "**Engine braking**: you lift your foot off the accelerator with a **gear engaged**, and the engine holds the car back. Meanwhile, fuel use is zero. (DGT guidance)"
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Nunca bajes una pendiente en **punto muerto**: pierdes control y tienes que abusar del freno, que puede recalentarse y frenar peor. (DGT guidance)",
+                "en": "Never go down a slope in **neutral**: you lose control and have to overuse the brakes, which can overheat and work less well. (DGT guidance)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c9i",
+                "answer": 1,
+                "es": {
+                  "q": "Bajas un puerto de montaña largo. Según la DGT, ¿cómo evitas que los frenos se recalienten?",
+                  "options": [
+                    "Bajando en punto muerto para que el coche ruede suelto",
+                    "Con una marcha puesta, dejando que el motor retenga el coche",
+                    "Pisando el freno de forma continua durante toda la bajada"
+                  ],
+                  "why": "Con una marcha puesta, el freno motor retiene el coche y no tienes que abusar del pedal. En punto muerto pierdes control y los frenos pueden recalentarse."
+                },
+                "en": {
+                  "q": "You are going down a long mountain pass. According to the DGT, how do you keep the brakes from overheating?",
+                  "options": [
+                    "Coasting in neutral so the car rolls freely",
+                    "With a gear engaged, letting the engine hold the car back",
+                    "Pressing the brake continuously all the way down"
+                  ],
+                  "why": "With a gear engaged, engine braking holds the car back and you do not overuse the pedal. In neutral you lose control and the brakes can overheat."
+                },
+                "exam": {
+                  "q": "You descend a long mountain pass. According to the DGT, how do you avoid that the brakes overheat?",
+                  "options": [
+                    "Descending in neutral so that the car rolls loose.",
+                    "With a gear engaged, letting the engine hold back the car.",
+                    "Pressing the brake continuously during all the descent."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "freno motor",
+                    "en": "engine brake"
+                  },
+                  {
+                    "es": "punto muerto",
+                    "en": "neutral"
+                  },
+                  {
+                    "es": "pendiente",
+                    "en": "slope"
+                  }
+                ],
+                "src": "DGT guidance"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Al repostar",
+            "en": "When refueling"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Para cargar combustible, el vehículo debe tener el **motor parado**, aunque el conductor no deje su puesto.",
+                "en": "To take on fuel, the vehicle must have its **engine off**, even if the driver stays in the seat."
+              },
+              "src": "RGC art. 115.1 y 115.3"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "La gasolinera no puede servir combustible si no están apagados el motor, las **luces**, los sistemas eléctricos como la radio y los **teléfonos móviles**. Si no hay empleados, quien carga el combustible cumple lo mismo.",
+                "en": "The station may not supply fuel unless the engine, the **lights**, electrical systems such as the radio, and **mobile phones** are off. With no staff present, whoever fills up must do the same."
+              },
+              "src": "RGC art. 115.3 y 115.4"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c9j",
+                "answer": 0,
+                "es": {
+                  "q": "Vas a llenar el depósito de tu moto en una gasolinera. ¿Qué haces con las luces?",
+                  "options": [
+                    "Las apagas, igual que el motor y el móvil",
+                    "Dejas la de cruce, para que te vean al salir",
+                    "Dejas solo la de posición"
+                  ],
+                  "why": "Para repostar deben estar apagados el motor, las luces, la radio y otros sistemas eléctricos, y los teléfonos móviles. Vale para cualquier vehículo, también motos."
+                },
+                "en": {
+                  "q": "You are about to fill your motorcycle’s tank at a gas station. What do you do with the lights?",
+                  "options": [
+                    "Switch them off, like the engine and your phone",
+                    "Leave the low beam on, so you are seen when you pull out",
+                    "Leave only the position light on"
+                  ],
+                  "why": "To refuel, the engine, the lights, the radio and other electrical systems, and mobile phones must be off. It applies to every vehicle, motorcycles included."
+                },
+                "exam": {
+                  "q": "You are going to fill the tank of your motorcycle in a petrol station. What do you do with the lights?",
+                  "options": [
+                    "You switch them off, the same as the engine and the mobile.",
+                    "You leave the dipped beam one, so that they see you on leaving.",
+                    "You leave only the position one."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "repostar",
+                    "en": "to refuel"
+                  },
+                  {
+                    "es": "cargar combustible",
+                    "en": "to load fuel"
+                  },
+                  {
+                    "es": "surtidor",
+                    "en": "fuel pump"
+                  }
+                ],
+                "src": "RGC art. 115.3 y 115.4"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Bien sentado al volante",
+            "en": "Sitting correctly at the wheel"
+          },
+          "blocks": [
+            {
+              "t": "tip",
+              "text": {
+                "es": "Según la DGT, apoya la espalda y los hombros en un respaldo casi vertical. Los brazos llegan al volante **medio flexionados** y relajados: con los brazos estirados, las muñecas deben apoyarse en la parte de arriba del volante. (DGT guidance)",
+                "en": "According to the DGT, rest your back and shoulders against a nearly upright backrest. Your arms reach the wheel **half-bent** and relaxed: with your arms stretched out, your wrists should rest on the top of the wheel. (DGT guidance)"
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Con el embrague pisado a fondo, la pierna izquierda sigue **algo flexionada**. Haz todos los ajustes con el coche parado. (DGT guidance)",
+                "en": "With the clutch pressed all the way down, your left leg stays **slightly bent**. Make every adjustment with the car stopped. (DGT guidance)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c9k",
+                "answer": 2,
+                "es": {
+                  "q": "Ajustas el asiento antes de salir. Con la espalda apoyada, ¿cómo deben llegar tus brazos al volante?",
+                  "options": [
+                    "Estirados del todo, para alejarte del airbag",
+                    "Muy doblados, con el pecho cerca del volante",
+                    "Un poco flexionados y relajados"
+                  ],
+                  "why": "La DGT aconseja llegar al volante con los brazos medio flexionados y relajados. Con los brazos estirados, las muñecas apoyan en la parte de arriba del volante."
+                },
+                "en": {
+                  "q": "You adjust the seat before setting off. With your back against the seat, how should your arms reach the wheel?",
+                  "options": [
+                    "Fully stretched, to keep away from the airbag",
+                    "Sharply bent, with your chest close to the wheel",
+                    "Slightly bent and relaxed"
+                  ],
+                  "why": "The DGT advises reaching the wheel with your arms half-bent and relaxed. With your arms stretched out, your wrists rest on the top of the wheel."
+                },
+                "exam": {
+                  "q": "You adjust the seat before leaving. With the back supported, how must your arms reach the steering wheel?",
+                  "options": [
+                    "Completely stretched, to move away from the airbag.",
+                    "Very bent, with the chest near the steering wheel.",
+                    "A little flexed and relaxed."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "volante",
+                    "en": "steering wheel"
+                  },
+                  {
+                    "es": "respaldo",
+                    "en": "backrest"
+                  },
+                  {
+                    "es": "flexionado",
+                    "en": "flexed / bent"
+                  }
+                ],
+                "src": "DGT guidance"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "El titular debe **mantener** el vehículo; revisarlo a tiempo evita averías y accidentes (DGT).",
+          "en": "The owner must **maintain** the vehicle; checking it in time prevents breakdowns and crashes (DGT)."
+        },
+        {
+          "es": "Suspensión: **ruedas en contacto con el suelo**. ABS: las ruedas **no se bloquean**.",
+          "en": "Suspension: **wheels in contact with the ground**. ABS: the wheels **do not lock**."
+        },
+        {
+          "es": "Más **peso**, neumáticos poco inflados o amortiguadores gastados: **frenada más larga**.",
+          "en": "More **weight**, underinflated tires or worn shock absorbers: **longer braking**."
+        },
+        {
+          "es": "Si fallan los frenos: emergencia, bombear, **reducir de marcha**, freno de mano poco a poco.",
+          "en": "If the brakes fail: hazard lights, pump, **shift down**, handbrake gradually."
+        },
+        {
+          "es": "Al repostar: **motor, luces, radio y móvil apagados**.",
+          "en": "When refueling: **engine, lights, radio and phone off**."
+        },
+        {
+          "es": "Al volante: brazos **medio flexionados**.",
+          "en": "At the wheel: arms **half-bent**."
+        }
+      ],
+      "covers": [],
+      "src": [
+        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), art. 10.3",
+        "Reglamento General de Circulación (RD 1428/2003), art. 115",
+        "DGT guidance: revista.dgt.es («La importancia del ABS», «Frenos, un elemento clave para la seguridad», «Lo que cuesta frenar por tipo de vehículo», «Las reglas de oro del mantenimiento del neumático», «Puntos a revisar de su coche», «Verano: 8 puntos para revisar en nuestro coche», «La revisión invernal imprescindible para no quedarse tirado», «Lo que debes saber sobre el aire acondicionado», «Conductor, un puesto a medida», test de diciembre de 2019)",
+        "DGT guidance: dgt.es («Conducción eficiente», «Cómo ahorrar combustible conduciendo», «En coche»)"
       ]
     }
   ]

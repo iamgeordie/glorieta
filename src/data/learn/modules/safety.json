@@ -129,6 +129,13 @@
               }
             },
             {
+              "t": "p",
+              "text": {
+                "es": "Según la DGT, el cinturón **reduce a la mitad** el riesgo de muerte o de heridas graves. Protege al conductor y a los pasajeros, en los asientos de delante y en los de detrás.",
+                "en": "According to the DGT, the seat belt **halves** the risk of death or serious injury. It protects the driver and the passengers, in the front seats and in the back."
+              }
+            },
+            {
               "t": "check",
               "q": {
                 "id": "safety-c1a",
@@ -222,6 +229,54 @@
                   }
                 ],
                 "src": "RGC art. 117.1 y 117.2"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c1q",
+                "answer": 0,
+                "es": {
+                  "q": "Según la DGT, ¿en qué asientos reduce el cinturón el riesgo de morir en un accidente?",
+                  "options": [
+                    "En todos, delante y detrás",
+                    "Solo en los delanteros",
+                    "Solo en el del conductor"
+                  ],
+                  "why": "La DGT indica que el cinturón reduce a la mitad el riesgo de muerte o de heridas graves, para el conductor y para los pasajeros de delante y de detrás. Sin él, ese riesgo se dispara en cualquier asiento."
+                },
+                "exam": {
+                  "q": "According to the DGT, in which seats does the seat belt reduce the risk of dying in an accident?",
+                  "options": [
+                    "In all, in front and behind.",
+                    "Only in the front ones.",
+                    "Only in that of the driver."
+                  ]
+                },
+                "en": {
+                  "q": "According to the DGT, in which seats does the seat belt cut the risk of dying in a crash?",
+                  "options": [
+                    "In every seat, front and back",
+                    "Only in the front seats",
+                    "Only in the driver's seat"
+                  ],
+                  "why": "The DGT says the belt halves the risk of death or serious injury, for the driver and for passengers in front and behind. Without it, that risk soars in any seat."
+                },
+                "terms": [
+                  {
+                    "es": "asiento trasero",
+                    "en": "rear seat"
+                  },
+                  {
+                    "es": "heridas graves",
+                    "en": "serious injuries"
+                  },
+                  {
+                    "es": "riesgo de muerte",
+                    "en": "risk of death"
+                  }
+                ],
+                "src": "DGT guidance (Conducir sin cinturón de seguridad, 2024)"
               }
             }
           ]
@@ -408,6 +463,20 @@
               }
             },
             {
+              "t": "p",
+              "text": {
+                "es": "Un **alcance** es una colisión trasera: un vehículo golpea por detrás a otro que está parado o que va más despacio. Según un temario de la DGT, es un accidente muy frecuente y causa **más del 40 %** de las lesiones de tráfico.",
+                "en": "An **alcance** is a rear-end collision: one vehicle hits another from behind, while it is stopped or going more slowly. According to a DGT syllabus, it is a very common crash and causes **more than 40%** of traffic injuries."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "En un alcance, el asiento empuja el tronco hacia delante y la cabeza se queda atrás. El cuello se dobla hacia atrás y luego hacia delante: es el **latigazo cervical**, que produce un **esguince cervical** (una lesión del cuello). Por eso importa el reposacabezas bien ajustado.",
+                "en": "In a rear-end collision, the seat pushes the body forward while the head stays behind. The neck bends back and then forward: that is **whiplash**, which causes a **neck sprain**. That is why a well-adjusted head restraint matters."
+              }
+            },
+            {
               "t": "check",
               "q": {
                 "id": "safety-c1h",
@@ -497,6 +566,102 @@
                   }
                 ],
                 "src": "DGT guidance"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c1r",
+                "answer": 2,
+                "es": {
+                  "q": "¿Qué es un alcance?",
+                  "options": [
+                    "Un choque frontal entre dos vehículos que circulan en sentidos contrarios",
+                    "Un choque contra un árbol o un poste junto a la calzada",
+                    "Un choque en el que un vehículo golpea por detrás a otro"
+                  ],
+                  "why": "Un alcance es una colisión trasera: un vehículo golpea por detrás a otro, parado o más lento. Es muy frecuente y suele causar el latigazo cervical."
+                },
+                "exam": {
+                  "q": "What is a rear-end collision?",
+                  "options": [
+                    "A frontal crash between two vehicles that circulate in opposite directions.",
+                    "A crash against a tree or a post next to the carriageway.",
+                    "A crash in which a vehicle strikes another from behind."
+                  ]
+                },
+                "en": {
+                  "q": "What is an alcance?",
+                  "options": [
+                    "A head-on crash between two vehicles going in opposite directions",
+                    "A crash into a tree or a post beside the roadway",
+                    "A crash in which one vehicle hits another from behind"
+                  ],
+                  "why": "An alcance is a rear-end collision: one vehicle hits another from behind, while it is stopped or slower. It is very common and often causes whiplash."
+                },
+                "terms": [
+                  {
+                    "es": "alcance",
+                    "en": "rear-end collision"
+                  },
+                  {
+                    "es": "colisión trasera",
+                    "en": "rear-end collision"
+                  },
+                  {
+                    "es": "choque frontal",
+                    "en": "head-on collision"
+                  }
+                ],
+                "src": "DGT guidance (temario ESTT OEP 2021, tema 7: biomecánica del accidente, rev. 2022)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c1s",
+                "answer": 1,
+                "es": {
+                  "q": "Un coche te golpea por detrás mientras esperas en un semáforo. ¿Qué parte del cuerpo daña sobre todo el latigazo cervical?",
+                  "options": [
+                    "Las piernas",
+                    "El cuello",
+                    "Las costillas"
+                  ],
+                  "why": "El latigazo cervical es el movimiento brusco del cuello hacia atrás y hacia delante tras un golpe por detrás. Produce un esguince cervical. El reposacabezas bien ajustado lo evita."
+                },
+                "exam": {
+                  "q": "A car strikes you from behind while you wait at a traffic light. Which part of the body does the whiplash mainly damage?",
+                  "options": [
+                    "The legs.",
+                    "The neck.",
+                    "The ribs."
+                  ]
+                },
+                "en": {
+                  "q": "A car hits you from behind while you wait at a traffic light. Which part of the body does whiplash mainly injure?",
+                  "options": [
+                    "The legs",
+                    "The neck",
+                    "The ribs"
+                  ],
+                  "why": "Whiplash is the sudden snap of the neck back and forth after a hit from behind. It causes a neck sprain. A well-adjusted head restraint prevents it."
+                },
+                "terms": [
+                  {
+                    "es": "latigazo cervical",
+                    "en": "whiplash"
+                  },
+                  {
+                    "es": "esguince cervical",
+                    "en": "neck sprain"
+                  },
+                  {
+                    "es": "reposacabezas",
+                    "en": "head restraint"
+                  }
+                ],
+                "src": "DGT guidance (temario ESTT OEP 2021, tema 7: biomecánica del accidente, rev. 2022)"
               }
             }
           ]
@@ -1887,6 +2052,13 @@
               }
             },
             {
+              "t": "p",
+              "text": {
+                "es": "El sueño también te quita atención. La DGT indica que los **entornos monótonos** y con poco tráfico favorecen la somnolencia. En 2023 describió el siniestro típico con somnolencia: una **salida de vía en autopista**, de madrugada, sin huellas de frenada.",
+                "en": "Sleepiness also takes your attention. The DGT says **monotonous surroundings** with little traffic encourage drowsiness. In 2023 it described the typical drowsiness crash: a **run-off-road crash on a motorway**, in the small hours, with no braking marks."
+              }
+            },
+            {
               "t": "check",
               "q": {
                 "id": "safety-c2g",
@@ -2016,6 +2188,58 @@
                   }
                 ],
                 "src": "DGT guidance; RGC art. 18.2.b"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c2l",
+                "answer": 0,
+                "es": {
+                  "q": "Según la DGT, ¿dónde es más típico un accidente por somnolencia?",
+                  "options": [
+                    "En autopista, en un entorno monótono",
+                    "En una calle de ciudad con mucho tráfico",
+                    "En una carretera de montaña con muchas curvas"
+                  ],
+                  "why": "La DGT señala que los entornos monótonos y con poco tráfico favorecen la somnolencia. El siniestro típico con sueño es una salida de vía en autopista, de madrugada."
+                },
+                "exam": {
+                  "q": "According to the DGT, where is an accident by drowsiness more typical?",
+                  "options": [
+                    "On motorway, in a monotonous environment.",
+                    "In a street of city with much traffic.",
+                    "On a mountain road with many bends."
+                  ]
+                },
+                "en": {
+                  "q": "According to the DGT, where is a drowsiness crash most typical?",
+                  "options": [
+                    "On a motorway, in monotonous surroundings",
+                    "On a busy city street",
+                    "On a mountain road with many bends"
+                  ],
+                  "why": "The DGT says monotonous surroundings with little traffic encourage drowsiness. The typical sleep-related crash is a run-off-road crash on a motorway, in the small hours."
+                },
+                "terms": [
+                  {
+                    "es": "somnolencia",
+                    "en": "drowsiness"
+                  },
+                  {
+                    "es": "autopista",
+                    "en": "motorway"
+                  },
+                  {
+                    "es": "salida de vía",
+                    "en": "run-off-road crash"
+                  },
+                  {
+                    "es": "monótono",
+                    "en": "monotonous"
+                  }
+                ],
+                "src": "DGT guidance (Conducir con sueño o cansancio, 2026; nota de prensa Jornada de somnolencia y conducción, 2023)"
               }
             }
           ]
@@ -3238,6 +3462,13 @@
               }
             },
             {
+              "t": "p",
+              "text": {
+                "es": "La **carrocería** también protege. La DGT explica que la parte trasera del coche es una **zona de deformación programada**: se deforma en el choque. Así absorbe parte de la energía del golpe. El **habitáculo**, donde van las personas, es la zona más protegida.",
+                "en": "The **bodywork** protects too. The DGT explains that the rear of the car is a **crumple zone**: it deforms in a crash. That way it absorbs part of the energy of the impact. The **passenger compartment**, where people sit, is the best-protected zone."
+              }
+            },
+            {
               "t": "check",
               "q": {
                 "id": "safety-c4a",
@@ -3320,6 +3551,102 @@
                   {
                     "es": "neumáticos",
                     "en": "tyres (tires)"
+                  }
+                ],
+                "src": "DGT guidance"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c4k",
+                "answer": 0,
+                "es": {
+                  "q": "En un choque, ¿qué hace la carrocería de un coche como elemento de seguridad pasiva?",
+                  "options": [
+                    "Se deforma para absorber parte de la energía del golpe",
+                    "Reduce el consumo gracias a su forma",
+                    "Hace que las ruedas agarren mejor en las curvas"
+                  ],
+                  "why": "Como seguridad pasiva, la carrocería tiene zonas de deformación programada que absorben la energía del choque. El habitáculo protege a los ocupantes."
+                },
+                "exam": {
+                  "q": "In a crash, what does the bodywork of a car do as element of passive safety?",
+                  "options": [
+                    "It deforms in order to absorb part of the energy of the blow.",
+                    "It reduces the consumption thanks to its shape.",
+                    "It makes the wheels grip better in the bends."
+                  ]
+                },
+                "en": {
+                  "q": "In a crash, what does a car's bodywork do as a passive safety feature?",
+                  "options": [
+                    "It crumples to soak up part of the impact energy",
+                    "It cuts fuel use thanks to its shape",
+                    "It helps the tires grip better in bends"
+                  ],
+                  "why": "As passive safety, the bodywork has crumple zones that absorb the energy of the crash. The passenger compartment protects the occupants."
+                },
+                "terms": [
+                  {
+                    "es": "carrocería",
+                    "en": "bodywork"
+                  },
+                  {
+                    "es": "zona de deformación programada",
+                    "en": "crumple zone"
+                  },
+                  {
+                    "es": "habitáculo",
+                    "en": "passenger compartment"
+                  },
+                  {
+                    "es": "seguridad pasiva",
+                    "en": "passive safety"
+                  }
+                ],
+                "src": "DGT guidance (Cómo transportar mascotas con seguridad, 2023); DGT guidance (temario ESTT OEP 2021, tema 7: biomecánica del accidente, rev. 2022)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c4l",
+                "answer": 1,
+                "es": {
+                  "q": "¿Tiene sentido elegir un coche con buenos sistemas de seguridad activa y pasiva?",
+                  "options": [
+                    "No: solo el conductor puede evitar un accidente",
+                    "Sí: ayudan a evitar el choque y, si ocurre, a reducir el daño",
+                    "No: lo único que cuenta es el estado de la carretera"
+                  ],
+                  "why": "La seguridad activa ayuda a evitar el accidente y la pasiva reduce el daño cuando ocurre. El conductor sigue siendo clave, pero el vehículo también cuenta."
+                },
+                "exam": {
+                  "q": "Does it have sense to choose a car with good systems of active and passive safety?",
+                  "options": [
+                    "No, only the driver can avoid an accident.",
+                    "Yes, they help to avoid the crash and, if it occurs, to reduce the damage.",
+                    "No, the only thing that counts is the state of the road."
+                  ]
+                },
+                "en": {
+                  "q": "Does it make sense to choose a car with good active and passive safety systems?",
+                  "options": [
+                    "No: only the driver can prevent a crash",
+                    "Yes: they help avoid the crash and, if it happens, reduce the harm",
+                    "No: all that counts is the state of the road"
+                  ],
+                  "why": "Active safety helps avoid the crash and passive safety reduces the harm when it happens. The driver is still key, but the vehicle counts too."
+                },
+                "terms": [
+                  {
+                    "es": "seguridad activa",
+                    "en": "active safety"
+                  },
+                  {
+                    "es": "seguridad pasiva",
+                    "en": "passive safety"
                   }
                 ],
                 "src": "DGT guidance"
@@ -3882,6 +4209,512 @@
         "Reglamento General de Circulación (RD 1428/2003), arts. 3, 17 y 46",
         "Ley de Tráfico (RDL 6/2015), art. 13",
         "DGT (dgt.es): ayudas avanzadas a la conducción (ADAS), clasificación de seguridad de los vehículos y vehículos de conducción asistida"
+      ]
+    },
+    {
+      "id": "grip-braking-bends",
+      "title": {
+        "es": "Frenada, adherencia y curvas",
+        "en": "Braking, grip and bends"
+      },
+      "minutes": 6,
+      "goals": [
+        {
+          "es": "Saber qué alarga la distancia de frenado: la velocidad, la carga y el estado del vehículo.",
+          "en": "Know what makes braking distance longer: speed, load and the state of the vehicle."
+        },
+        {
+          "es": "Ajustar la velocidad antes de entrar en una curva.",
+          "en": "Set your speed before you enter a bend."
+        },
+        {
+          "es": "Reaccionar ante un subviraje o un sobreviraje.",
+          "en": "React to understeer or oversteer."
+        }
+      ],
+      "terms": [
+        {
+          "es": "distancia de frenado",
+          "en": "braking distance"
+        },
+        {
+          "es": "carga",
+          "en": "load"
+        },
+        {
+          "es": "masa",
+          "en": "mass (weight)"
+        },
+        {
+          "es": "amortiguadores",
+          "en": "shock absorbers"
+        },
+        {
+          "es": "adherencia",
+          "en": "grip"
+        },
+        {
+          "es": "subviraje",
+          "en": "understeer"
+        },
+        {
+          "es": "sobreviraje",
+          "en": "oversteer"
+        },
+        {
+          "es": "salida de vía",
+          "en": "run-off-road crash"
+        }
+      ],
+      "pretest": {
+        "id": "safety-pre-5",
+        "answer": 0,
+        "es": {
+          "q": "Una furgoneta cargada y la misma furgoneta vacía frenan a la misma velocidad. ¿Cuál necesita más metros para parar?",
+          "options": [
+            "La cargada",
+            "La vacía",
+            "Las dos igual"
+          ],
+          "why": "La carga aumenta la masa que hay que detener. Según la DGT, la masa, la carga y su colocación afectan a la distancia de frenado."
+        },
+        "exam": {
+          "q": "A loaded van and the same van empty brake at the same speed. Which needs more metres in order to stop?",
+          "options": [
+            "The loaded one.",
+            "The empty one.",
+            "The two the same."
+          ]
+        },
+        "en": {
+          "q": "A loaded van and the same van empty brake from the same speed. Which needs more meters to stop?",
+          "options": [
+            "The loaded one",
+            "The empty one",
+            "Both the same"
+          ],
+          "why": "The load adds mass to be stopped. According to the DGT, mass, load and how it is placed affect braking distance."
+        },
+        "terms": [
+          {
+            "es": "cargada",
+            "en": "loaded"
+          },
+          {
+            "es": "distancia de frenado",
+            "en": "braking distance"
+          }
+        ],
+        "src": "DGT guidance (Conducir con exceso de velocidad, 2022)"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Qué alarga la frenada",
+            "en": "What makes braking longer"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Adapta tu velocidad a tus condiciones, a la vía, al **vehículo y su carga**, al tiempo y al tráfico. Así podrás detenerte dentro de tu campo de visión y ante cualquier obstáculo.",
+                "en": "Adapt your speed to your own condition, the road, **the vehicle and its load**, the weather and the traffic. That way you can stop within your field of vision and for any obstacle."
+              },
+              "src": "RGC art. 45"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "La DGT explica que la distancia de frenado depende sobre todo de la **velocidad**. También influyen:",
+                "en": "The DGT explains that braking distance depends above all on **speed**. These also play a part:"
+              }
+            },
+            {
+              "t": "list",
+              "items": [
+                {
+                  "es": "La **masa** del vehículo, la **carga** que llevas y cómo está colocada.",
+                  "en": "The vehicle's **mass**, the **load** you carry and how it is placed."
+                },
+                {
+                  "es": "El estado de los **frenos**, los **neumáticos** y los **amortiguadores**.",
+                  "en": "The state of the **brakes**, the **tires** and the **shock absorbers**."
+                }
+              ]
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Con el coche lleno, con carga o con un pasajero en la moto, frena antes y deja más distancia con el de delante.",
+                "en": "With a full car, a load, or a passenger on the motorcycle, brake earlier and leave more room to the vehicle ahead."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c5a",
+                "answer": 2,
+                "es": {
+                  "q": "Circulas con la furgoneta muy cargada. A la misma velocidad, ¿cómo es su distancia de frenado comparada con la de la furgoneta vacía?",
+                  "options": [
+                    "Igual: el peso no influye en la frenada",
+                    "Menor: el peso aprieta las ruedas contra el suelo",
+                    "Mayor: hay más masa que detener"
+                  ],
+                  "why": "Según la DGT, la masa del vehículo y la carga que lleva alargan la distancia de frenado. Con carga, frena antes y deja más distancia."
+                },
+                "exam": {
+                  "q": "You circulate with the van very loaded. At the same speed, how is its braking distance compared with that of the empty van?",
+                  "options": [
+                    "The same, the weight does not influence the braking.",
+                    "Smaller, the weight presses the wheels against the ground.",
+                    "Greater, there is more mass to stop."
+                  ]
+                },
+                "en": {
+                  "q": "You are driving a heavily loaded van. At the same speed, how does its braking distance compare with the empty van?",
+                  "options": [
+                    "The same: weight does not affect braking",
+                    "Shorter: the weight presses the wheels onto the road",
+                    "Longer: there is more mass to stop"
+                  ],
+                  "why": "According to the DGT, the vehicle's mass and the load it carries make braking distance longer. With a load, brake earlier and leave more room."
+                },
+                "terms": [
+                  {
+                    "es": "carga",
+                    "en": "load"
+                  },
+                  {
+                    "es": "distancia de frenado",
+                    "en": "braking distance"
+                  },
+                  {
+                    "es": "furgoneta",
+                    "en": "van"
+                  }
+                ],
+                "src": "DGT guidance (Conducir con exceso de velocidad, 2022); RGC art. 45"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c5b",
+                "answer": 2,
+                "es": {
+                  "q": "Vas a llevar a un amigo de pasajero en tu moto. ¿Qué cambia en la frenada?",
+                  "options": [
+                    "Nada, si la moto es potente",
+                    "Que puedes frenar más tarde, porque la moto pesa más",
+                    "Que necesitas más metros para frenar"
+                  ],
+                  "why": "El pasajero suma masa. Según la DGT, más masa y más carga alargan la distancia de frenado: frena antes y deja más distancia."
+                },
+                "exam": {
+                  "q": "You are going to take a friend as passenger on your motorcycle. What changes in the braking?",
+                  "options": [
+                    "Nothing, if the motorcycle is powerful.",
+                    "That you can brake later, because the motorcycle weighs more.",
+                    "That you need more metres in order to brake."
+                  ]
+                },
+                "en": {
+                  "q": "You are going to carry a friend as a passenger on your motorcycle. What changes when you brake?",
+                  "options": [
+                    "Nothing, if the motorcycle is powerful",
+                    "You can brake later, because the bike is heavier",
+                    "You need more meters to stop"
+                  ],
+                  "why": "The passenger adds mass. According to the DGT, more mass and more load make braking distance longer: brake earlier and leave more room."
+                },
+                "terms": [
+                  {
+                    "es": "pasajero",
+                    "en": "passenger"
+                  },
+                  {
+                    "es": "motocicleta",
+                    "en": "motorcycle"
+                  },
+                  {
+                    "es": "frenada",
+                    "en": "braking"
+                  }
+                ],
+                "src": "DGT guidance (Conducir con exceso de velocidad, 2022)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c5c",
+                "answer": 1,
+                "es": {
+                  "q": "Además de la velocidad, ¿qué influye en los metros que necesitas para frenar?",
+                  "options": [
+                    "La potencia del motor",
+                    "El estado de los neumáticos, los frenos y los amortiguadores",
+                    "El tamaño del maletero"
+                  ],
+                  "why": "La DGT indica que la distancia de frenado depende del estado de los frenos, los neumáticos y los amortiguadores, además de la velocidad y la carga."
+                },
+                "exam": {
+                  "q": "Apart from the speed, what influences the metres that you need in order to brake?",
+                  "options": [
+                    "The power of the engine.",
+                    "The state of the tyres, the brakes and the shock absorbers.",
+                    "The size of the boot."
+                  ]
+                },
+                "en": {
+                  "q": "Besides speed, what affects how many meters you need to stop?",
+                  "options": [
+                    "The engine's power",
+                    "The state of the tires, brakes and shock absorbers",
+                    "The size of the trunk"
+                  ],
+                  "why": "The DGT says braking distance depends on the state of the brakes, tires and shock absorbers, as well as on speed and load."
+                },
+                "terms": [
+                  {
+                    "es": "neumáticos",
+                    "en": "tyres (tires)"
+                  },
+                  {
+                    "es": "amortiguadores",
+                    "en": "shock absorbers"
+                  },
+                  {
+                    "es": "frenos",
+                    "en": "brakes"
+                  }
+                ],
+                "src": "DGT guidance (Conducir con exceso de velocidad, 2022)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "La velocidad en las curvas",
+            "en": "Speed in bends"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "En una curva actúan fuerzas que pueden sacar el vehículo de la vía. La DGT indica que, con **velocidad excesiva** en las curvas, el vehículo se vuelve inestable y puede perder la trayectoria. En esos casos el riesgo de **salida de vía** puede **multiplicarse por tres**.",
+                "en": "In a bend, forces act that can push the vehicle off the road. The DGT says that with **excessive speed** in bends the vehicle becomes unstable and can lose its line. In those cases the risk of a **run-off-road crash** can **triple**."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "El riesgo crece todavía más con el **suelo mojado** o con los **neumáticos en mal estado**.",
+                "en": "The risk grows even more on a **wet surface** or with **tires in poor condition**."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "La DGT aconseja ajustar la velocidad **antes** de entrar en la curva y acelerar de forma progresiva al salir. Si tienes que frenar dentro, es fácil salirse.",
+                "en": "The DGT advises setting your speed **before** you enter the bend and accelerating smoothly on the way out. If you have to brake inside it, it is easy to run off."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c5d",
+                "answer": 1,
+                "es": {
+                  "q": "¿Cuándo debes reducir la velocidad para tomar una curva?",
+                  "options": [
+                    "Dentro de la curva, frenando con fuerza",
+                    "Antes de entrar en la curva",
+                    "A la salida de la curva"
+                  ],
+                  "why": "La DGT aconseja ajustar la velocidad antes de la curva. Frenar fuerte dentro puede hacerte perder la trayectoria; a la salida, acelera de forma progresiva."
+                },
+                "exam": {
+                  "q": "When must you reduce the speed in order to take a bend?",
+                  "options": [
+                    "Inside the bend, braking with force.",
+                    "Before entering the bend.",
+                    "At the exit of the bend."
+                  ]
+                },
+                "en": {
+                  "q": "When should you slow down to take a bend?",
+                  "options": [
+                    "Inside the bend, braking hard",
+                    "Before entering the bend",
+                    "On the way out of the bend"
+                  ],
+                  "why": "The DGT advises setting your speed before the bend. Braking hard inside it can make you lose your line; on the way out, accelerate smoothly."
+                },
+                "terms": [
+                  {
+                    "es": "curva",
+                    "en": "bend (curve)"
+                  },
+                  {
+                    "es": "trayectoria",
+                    "en": "path (line)"
+                  }
+                ],
+                "src": "DGT guidance (Cómo reaccionar a subvirajes, sobrevirajes y frenadas de emergencia, 2026); DGT guidance (Conducir con exceso de velocidad, 2022)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Si el coche no gira lo suficiente",
+            "en": "When the car will not turn enough"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Hay **subviraje** cuando el coche gira menos de lo necesario y se va hacia el **exterior de la curva**. Según la DGT, pasa porque se pide a los neumáticos delanteros más agarre del que pueden dar. Suele empezar al entrar demasiado rápido.",
+                "en": "**Understeer** is when the car turns less than it should and heads for the **outside of the bend**. According to the DGT, it happens because the front tires are asked for more grip than they can give. It usually starts by entering too fast."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Qué hacer, según la DGT: **levanta suavemente el pie del acelerador**. Si tienes que frenar, nunca lo hagas de golpe. No gires más el volante: eso aumenta el deslizamiento. Reduce un poco el giro, sin movimientos bruscos.",
+                "en": "What to do, according to the DGT: **ease off the accelerator gently**. If you must brake, never do it sharply. Do not turn the wheel further: that only makes the slide worse. Unwind the steering a little, with no sudden moves."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "En el **sobreviraje**, la parte trasera derrapa. La DGT aconseja mirar hacia donde quieres ir, girar el volante **hacia el mismo lado** al que derrapa la parte trasera y levantar suavemente el pie del acelerador.",
+                "en": "In **oversteer**, the rear slides out. The DGT advises looking where you want to go, steering **toward the same side** the rear is sliding to, and easing off the accelerator gently."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c5e",
+                "answer": 2,
+                "es": {
+                  "q": "En plena curva notas que el coche gira menos de lo que pides y se va hacia fuera. ¿Qué haces primero?",
+                  "options": [
+                    "Girar más el volante",
+                    "Pisar el freno a fondo",
+                    "Levantar suavemente el pie del acelerador"
+                  ],
+                  "why": "Es un subviraje: las ruedas delanteras han perdido agarre. La DGT aconseja levantar suavemente el pie del acelerador, no frenar de golpe y no girar más el volante."
+                },
+                "exam": {
+                  "q": "In full bend you notice that the car turns less than what you ask and goes towards outside. What do you do first?",
+                  "options": [
+                    "To turn the steering wheel more.",
+                    "To press the brake fully.",
+                    "To lift the foot gently from the accelerator."
+                  ]
+                },
+                "en": {
+                  "q": "Halfway through a bend you notice the car turns less than you ask and drifts outward. What do you do first?",
+                  "options": [
+                    "Turn the wheel further",
+                    "Brake as hard as you can",
+                    "Ease off the accelerator gently"
+                  ],
+                  "why": "This is understeer: the front wheels have lost grip. The DGT advises easing off the accelerator gently, not braking sharply, and not turning the wheel further."
+                },
+                "terms": [
+                  {
+                    "es": "subviraje",
+                    "en": "understeer"
+                  },
+                  {
+                    "es": "acelerador",
+                    "en": "accelerator"
+                  },
+                  {
+                    "es": "adherencia",
+                    "en": "grip"
+                  }
+                ],
+                "src": "DGT guidance (Cómo reaccionar a subvirajes, sobrevirajes y frenadas de emergencia, 2026)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c5f",
+                "answer": 0,
+                "es": {
+                  "q": "En una curva, la parte trasera de tu coche empieza a derrapar. ¿Hacia dónde giras el volante, según la DGT?",
+                  "options": [
+                    "Hacia el mismo lado al que derrapa la parte trasera",
+                    "Con fuerza hacia el lado contrario",
+                    "No lo mueves y frenas a fondo"
+                  ],
+                  "why": "Es un sobreviraje. La DGT aconseja mirar hacia donde quieres ir, girar el volante hacia el mismo lado del derrape y levantar suavemente el pie del acelerador."
+                },
+                "exam": {
+                  "q": "In a bend, the rear part of your car begins to skid. Towards where do you turn the steering wheel, according to the DGT?",
+                  "options": [
+                    "Towards the same side to which the rear part skids.",
+                    "With force towards the opposite side.",
+                    "You do not move it and you brake fully."
+                  ]
+                },
+                "en": {
+                  "q": "In a bend, the rear of your car starts to slide. Which way do you steer, according to the DGT?",
+                  "options": [
+                    "Toward the same side the rear is sliding to",
+                    "Hard toward the opposite side",
+                    "You hold it still and brake hard"
+                  ],
+                  "why": "This is oversteer. The DGT advises looking where you want to go, steering toward the side of the slide, and easing off the accelerator gently."
+                },
+                "terms": [
+                  {
+                    "es": "sobreviraje",
+                    "en": "oversteer"
+                  },
+                  {
+                    "es": "derrapar",
+                    "en": "to skid"
+                  },
+                  {
+                    "es": "volante",
+                    "en": "steering wheel"
+                  }
+                ],
+                "src": "DGT guidance (Cómo reaccionar a subvirajes, sobrevirajes y frenadas de emergencia, 2026)"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "La distancia de frenado crece con la **velocidad**, la **masa** y la **carga**.",
+          "en": "Braking distance grows with **speed**, **mass** and **load**."
+        },
+        {
+          "es": "Frenos, neumáticos y amortiguadores en buen estado: frenas en menos metros.",
+          "en": "Brakes, tires and shock absorbers in good condition: you stop in fewer meters."
+        },
+        {
+          "es": "Ajusta la velocidad **antes** de la curva.",
+          "en": "Set your speed **before** the bend."
+        },
+        {
+          "es": "Subviraje: **levanta suavemente el pie** del acelerador y no frenes de golpe.",
+          "en": "Understeer: **ease off** the accelerator gently and do not brake sharply."
+        }
+      ],
+      "src": [
+        "Reglamento General de Circulación (RD 1428/2003), art. 45",
+        "DGT guidance (dgt.es): Conducir con exceso de velocidad (2022); Cómo reaccionar a subvirajes, sobrevirajes y frenadas de emergencia (2026)"
       ]
     }
   ]

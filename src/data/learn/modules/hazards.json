@@ -1214,6 +1214,13 @@
               }
             },
             {
+              "t": "p",
+              "text": {
+                "es": "La **niebla** también resta adherencia, aunque no llueva. La DGT avisa de que la niebla **moja el asfalto**: la frenada se alarga y el coche puede responder peor en las curvas.",
+                "en": "**Fog** also reduces grip, even with no rain. The DGT warns that fog **wets the asphalt**: braking takes longer and the car may respond less well in bends."
+              }
+            },
+            {
               "t": "check",
               "q": {
                 "id": "hazards-c3f",
@@ -1303,6 +1310,54 @@
                   }
                 ],
                 "src": "DGT guidance"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c3m",
+                "answer": 2,
+                "es": {
+                  "q": "Circulas con niebla, pero no llueve. ¿Puede haber menos adherencia?",
+                  "options": [
+                    "No: la niebla solo quita visibilidad",
+                    "Solo si además hiela",
+                    "Sí: la niebla moja el asfalto y la frenada se alarga"
+                  ],
+                  "why": "La DGT avisa de que la niebla moja el asfalto: la frenada se alarga y el coche responde peor en las curvas. Reduce la velocidad y aumenta la distancia."
+                },
+                "exam": {
+                  "q": "You circulate with fog, but it does not rain. Can there be less grip?",
+                  "options": [
+                    "No, the fog only takes away visibility.",
+                    "Only if in addition it freezes.",
+                    "Yes, the fog wets the asphalt and the braking lengthens."
+                  ]
+                },
+                "en": {
+                  "q": "You are driving in fog, but it is not raining. Can there be less grip?",
+                  "options": [
+                    "No: fog just cuts visibility",
+                    "Only if it is freezing as well",
+                    "Yes: fog wets the asphalt and braking takes longer"
+                  ],
+                  "why": "The DGT warns that fog wets the asphalt: braking takes longer and the car responds less well in bends. Slow down and increase your distance."
+                },
+                "terms": [
+                  {
+                    "es": "niebla",
+                    "en": "fog"
+                  },
+                  {
+                    "es": "adherencia",
+                    "en": "grip"
+                  },
+                  {
+                    "es": "asfalto mojado",
+                    "en": "wet asphalt"
+                  }
+                ],
+                "src": "DGT guidance (Niebla: visibilidad bajo mínimos, 2021)"
               }
             }
           ]
@@ -2107,6 +2162,13 @@
               }
             },
             {
+              "t": "p",
+              "text": {
+                "es": "Prevé también los errores de los peatones. En una encuesta presentada por la DGT en 2026, un **38 %** de los peatones reconoce cruzar en rojo a veces o con frecuencia, y un **44 %** cruzar fuera del paso de peatones. Muchos usan el móvil mientras cruzan.",
+                "en": "Expect pedestrians' mistakes too. In a survey the DGT presented in 2026, **38%** of pedestrians admit crossing on red sometimes or often, and **44%** admit crossing away from the crosswalk. Many use their phone while crossing."
+              }
+            },
+            {
               "t": "check",
               "q": {
                 "id": "hazards-c4d",
@@ -2197,6 +2259,54 @@
                 ],
                 "src": "RGC art. 122.2.a"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c4l",
+                "answer": 2,
+                "es": {
+                  "q": "¿Cuál de estas conductas de los peatones es un riesgo frecuente que debes prever?",
+                  "options": [
+                    "Cruzar por el paso cuando su semáforo está en verde",
+                    "Caminar por la izquierda en una carretera sin arcén",
+                    "Cruzar en rojo o fuera del paso de peatones"
+                  ],
+                  "why": "Según una encuesta presentada por la DGT, el 38 % de los peatones cruza en rojo alguna vez y el 44 % cruza fuera del paso. Caminar por la izquierda en carretera es lo correcto."
+                },
+                "exam": {
+                  "q": "Which of these behaviours of the pedestrians is a frequent risk that you must foresee?",
+                  "options": [
+                    "To cross by the crossing when their traffic light is in green.",
+                    "To walk by the left on a road without hard shoulder.",
+                    "To cross in red or outside the pedestrian crossing."
+                  ]
+                },
+                "en": {
+                  "q": "Which of these pedestrian behaviors is a common risk you should expect?",
+                  "options": [
+                    "Crossing at the crosswalk when their light is green",
+                    "Walking on the left on a road with no shoulder",
+                    "Crossing on red or away from the crosswalk"
+                  ],
+                  "why": "According to a survey the DGT presented, 38% of pedestrians sometimes cross on red and 44% cross away from the crosswalk. Walking on the left on a road is correct."
+                },
+                "terms": [
+                  {
+                    "es": "conducta de riesgo",
+                    "en": "risk behaviour"
+                  },
+                  {
+                    "es": "cruzar en rojo",
+                    "en": "to cross on red"
+                  },
+                  {
+                    "es": "arcén",
+                    "en": "hard shoulder"
+                  }
+                ],
+                "src": "DGT guidance (nota de prensa: el móvil y la impaciencia, factores de riesgo en los cruces, 2026)"
+              }
             }
           ]
         },
@@ -2235,6 +2345,20 @@
               "text": {
                 "es": "En un paso de peatones, la DGT aconseja **no animar con gestos a cruzar** al peatón: otro vehículo o una moto que venga detrás puede no detenerse.",
                 "en": "At a pedestrian crossing, the DGT advises **not waving the pedestrian across**: another vehicle or a motorcycle coming behind may not stop."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "La DGT explica que, con la edad, los **reflejos, la vista, el oído y la atención** responden peor, y hace falta más tiempo ante un imprevisto. En 2024, el **65 %** de los peatones muertos en vías urbanas tenía más de 65 años.",
+                "en": "The DGT explains that with age, **reflexes, sight, hearing and attention** respond less well, and more time is needed for anything unexpected. In 2024, **65%** of pedestrians killed on urban roads were over 65."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Una persona mayor puede verse obligada a **cruzar por donde no debe**, por ejemplo porque no puede estar mucho tiempo de pie. También puede quedarse en mitad de la calzada si el semáforo no le da tiempo para cruzar.",
+                "en": "An older person may end up **crossing where they should not**, for example because they cannot stand for long. They may also be left in the middle of the road if the light does not give them time to cross."
               }
             },
             {
@@ -2323,6 +2447,102 @@
                   }
                 ],
                 "src": "DGT guidance"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c4j",
+                "answer": 2,
+                "es": {
+                  "q": "¿Pueden las personas mayores tener dificultades como peatones?",
+                  "options": [
+                    "No: con los años se vuelven más prudentes",
+                    "Solo cuando la calle tiene muchos carriles",
+                    "Sí: con la edad ven, oyen y reaccionan peor"
+                  ],
+                  "why": "La DGT señala que con la edad los reflejos, la vista, el oído y la atención responden peor. En 2024, el 65 % de los peatones muertos en ciudad tenía más de 65 años."
+                },
+                "exam": {
+                  "q": "Can the elderly people have difficulties as pedestrians?",
+                  "options": [
+                    "No, with the years they become more prudent.",
+                    "Only when the street has many lanes.",
+                    "Yes, with the age they see, hear and react worse."
+                  ]
+                },
+                "en": {
+                  "q": "Can older people have difficulties as pedestrians?",
+                  "options": [
+                    "No: with age people become more cautious",
+                    "Only when the street has many lanes",
+                    "Yes: with age people see, hear and react less well"
+                  ],
+                  "why": "The DGT says that with age, reflexes, sight, hearing and attention respond less well. In 2024, 65% of pedestrians killed in towns were over 65."
+                },
+                "terms": [
+                  {
+                    "es": "personas mayores",
+                    "en": "older people (the elderly)"
+                  },
+                  {
+                    "es": "peatón",
+                    "en": "pedestrian"
+                  },
+                  {
+                    "es": "reflejos",
+                    "en": "reflexes"
+                  }
+                ],
+                "src": "DGT guidance (Consejos para personas mayores, 2022); DGT guidance (nota de prensa: el móvil y la impaciencia, factores de riesgo en los cruces, 2026)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c4k",
+                "answer": 0,
+                "es": {
+                  "q": "Circulas por una calle de la ciudad. Una persona mayor está en la acera, lejos del paso de peatones, mirando a la calzada. ¿Qué debes prever?",
+                  "options": [
+                    "Que puede cruzar por ahí, fuera del paso",
+                    "Que siempre irá hasta el paso más cercano",
+                    "Que solo cruzará si un agente se lo indica"
+                  ],
+                  "why": "La DGT explica que una persona mayor puede verse obligada a cruzar por donde no debe. Modera la velocidad y prepárate para detenerte."
+                },
+                "exam": {
+                  "q": "You circulate along a street of the city. An elderly person is on the pavement, far from the pedestrian crossing, looking at the carriageway. What must you foresee?",
+                  "options": [
+                    "That they can cross there, outside the crossing.",
+                    "That they will always go up to the nearest crossing.",
+                    "That they will only cross if an agent indicates it to them."
+                  ]
+                },
+                "en": {
+                  "q": "You are driving down a city street. An older person is on the sidewalk, far from the crosswalk, looking at the road. What should you expect?",
+                  "options": [
+                    "That they may cross right there, away from the crosswalk",
+                    "That they will always walk to the nearest crosswalk",
+                    "That they will only cross if an officer tells them to"
+                  ],
+                  "why": "The DGT explains that an older person may end up crossing where they should not. Slow down and be ready to stop."
+                },
+                "terms": [
+                  {
+                    "es": "paso de peatones",
+                    "en": "pedestrian crossing (crosswalk)"
+                  },
+                  {
+                    "es": "acera",
+                    "en": "pavement (sidewalk)"
+                  },
+                  {
+                    "es": "prever",
+                    "en": "to foresee"
+                  }
+                ],
+                "src": "DGT guidance (Atropellos en pasos de peatones, 2025); RGC art. 46.1.a"
               }
             }
           ]
@@ -3223,7 +3443,7 @@
         "es": "Factores de riesgo y su coste",
         "en": "Risk factors and what crashes cost"
       },
-      "minutes": 6,
+      "minutes": 8,
       "goals": [
         {
           "es": "Distinguir los tres grupos de factores de riesgo: la persona, el vehículo, y la vía y su entorno.",
@@ -3236,6 +3456,10 @@
         {
           "es": "Relacionar la velocidad con la gravedad de un atropello.",
           "en": "Link speed to how serious it is to hit a pedestrian."
+        },
+        {
+          "es": "Explicar quién paga un accidente: la familia, la sociedad y el medio ambiente.",
+          "en": "Explain who pays for a crash: the family, society and the environment."
         }
       ],
       "terms": [
@@ -3417,6 +3641,127 @@
                   }
                 ],
                 "src": "DGT guidance"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "No es mala suerte",
+            "en": "Not bad luck"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Mucha gente cree que los accidentes son cuestión de **azar** o de mala suerte. Un temario de la DGT recoge lo contrario, con datos de la OMS y el Banco Mundial: las lesiones de tráfico son **en gran medida evitables**.",
+                "en": "Many people think crashes are a matter of **chance** or bad luck. A DGT syllabus says the opposite, citing the WHO and the World Bank: traffic injuries are **largely avoidable**."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Un accidente suele llegar cuando falla algo de los tres grupos: un conductor cansado o bebido, un neumático gastado, una vía con hielo. Cumplir las normas, revisar el vehículo y adaptarte a la vía reduce el riesgo.",
+                "en": "A crash usually comes when something in the three groups fails: a tired or drunk driver, a worn tire, an icy road. Following the rules, checking your vehicle and adapting to the road reduces the risk."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "La DGT resume la **conducción preventiva** así: anticiparte a los imprevistos, observar bien y dejar una buena distancia de seguridad.",
+                "en": "The DGT sums up **preventive driving** like this: anticipating the unexpected, observing well, and leaving a good safety distance."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c6f",
+                "answer": 1,
+                "es": {
+                  "q": "Un amigo dice que los accidentes de tráfico son cuestión de mala suerte. ¿Tiene razón?",
+                  "options": [
+                    "Sí: nadie puede prever un accidente",
+                    "No: en gran medida se pueden evitar",
+                    "Solo en parte: los evitan los coches modernos, no el conductor"
+                  ],
+                  "why": "Un temario de la DGT recoge que las lesiones de tráfico son en gran medida evitables. Cumplir las normas y conducir de forma preventiva las previene."
+                },
+                "exam": {
+                  "q": "A friend says that the traffic accidents are a question of bad luck. Is he right?",
+                  "options": [
+                    "Yes, nobody can foresee an accident.",
+                    "No, to a great extent they can be avoided.",
+                    "Only in part, the modern cars avoid them, not the driver."
+                  ]
+                },
+                "en": {
+                  "q": "A friend says road crashes are a matter of bad luck. Is he right?",
+                  "options": [
+                    "Yes: nobody can foresee a crash",
+                    "No: they can largely be avoided",
+                    "Only partly: modern cars prevent them, not the driver"
+                  ],
+                  "why": "A DGT syllabus states that traffic injuries are largely avoidable. Following the rules and driving preventively prevents them."
+                },
+                "terms": [
+                  {
+                    "es": "azar",
+                    "en": "chance"
+                  },
+                  {
+                    "es": "evitable",
+                    "en": "avoidable"
+                  },
+                  {
+                    "es": "conducción preventiva",
+                    "en": "preventive driving"
+                  }
+                ],
+                "src": "DGT guidance (temario ESTT OEP 2021, tema 6: las consecuencias del accidente, rev. 2022); DGT guidance (Conducción preventiva, 2022)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c6g",
+                "answer": 2,
+                "es": {
+                  "q": "Para circular con seguridad, ¿qué debe estar en buen estado?",
+                  "options": [
+                    "Solo el conductor: el coche da igual si se conduce bien",
+                    "Solo el vehículo: un buen coche compensa al conductor",
+                    "El conductor y el vehículo, adaptándose además al estado de la vía"
+                  ],
+                  "why": "Los factores de riesgo son tres: la persona, el vehículo y la vía. Si falla el conductor o el vehículo, el riesgo crece; ante una mala vía, adapta tu conducción."
+                },
+                "exam": {
+                  "q": "In order to circulate with safety, what must be in good state?",
+                  "options": [
+                    "Only the driver, the car does not matter if one drives well.",
+                    "Only the vehicle, a good car compensates the driver.",
+                    "The driver and the vehicle, adapting in addition to the state of the road."
+                  ]
+                },
+                "en": {
+                  "q": "To drive safely, what needs to be in good condition?",
+                  "options": [
+                    "Only the driver: the car does not matter if you drive well",
+                    "Only the vehicle: a good car makes up for the driver",
+                    "The driver and the vehicle, while also adapting to the road"
+                  ],
+                  "why": "There are three risk factors: the person, the vehicle and the road. If the driver or the vehicle fails, the risk rises; on a bad road, adapt your driving."
+                },
+                "terms": [
+                  {
+                    "es": "factor de riesgo",
+                    "en": "risk factor"
+                  },
+                  {
+                    "es": "estado del vehículo",
+                    "en": "condition of the vehicle"
+                  }
+                ],
+                "src": "DGT guidance; RGC art. 45"
               }
             }
           ]
@@ -3611,6 +3956,37 @@
               }
             },
             {
+              "t": "p",
+              "text": {
+                "es": "La DGT actualizó el cálculo con datos de 2024: un fallecido supone un coste de **2.071.009 euros**. Incluye costes directos e indirectos, como los **gastos médicos y administrativos**.",
+                "en": "The DGT updated the figure with 2024 data: one death costs **2,071,009 euros**. That includes direct and indirect costs, such as **medical and administrative expenses**."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Un temario de la DGT agrupa los costes de un accidente así:",
+                "en": "A DGT syllabus groups the costs of a crash like this:"
+              }
+            },
+            {
+              "t": "list",
+              "items": [
+                {
+                  "es": "**Administrativos**: el trabajo de policías, jueces, abogados y aseguradoras (informes, juicios).",
+                  "en": "**Administrative**: the work of police, judges, lawyers and insurers (reports, trials)."
+                },
+                {
+                  "es": "**Materiales**: reparar o sustituir vehículos, barreras, alumbrado y mobiliario urbano.",
+                  "en": "**Material**: repairing or replacing vehicles, barriers, lighting and street furniture."
+                },
+                {
+                  "es": "**De las víctimas**: la atención médica y la producción que se pierde por la baja o la muerte.",
+                  "en": "**Victim costs**: medical care and the output lost through sick leave or death."
+                }
+              ]
+            },
+            {
               "t": "check",
               "q": {
                 "id": "hazards-c6e",
@@ -3653,6 +4029,219 @@
                 ],
                 "src": "DGT guidance"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c6h",
+                "answer": 1,
+                "es": {
+                  "q": "¿Qué costes genera un accidente de tráfico?",
+                  "options": [
+                    "Solo los gastos del hospital",
+                    "Médicos, administrativos y materiales",
+                    "Solo la reparación de los vehículos"
+                  ],
+                  "why": "Un temario de la DGT distingue costes administrativos (policía, juicios, seguros), materiales (vehículos, vía) y de las víctimas (atención médica, producción perdida)."
+                },
+                "exam": {
+                  "q": "What costs does a traffic accident generate?",
+                  "options": [
+                    "Only the expenses of the hospital.",
+                    "Medical, administrative and material ones.",
+                    "Only the repair of the vehicles."
+                  ]
+                },
+                "en": {
+                  "q": "What costs does a road crash create?",
+                  "options": [
+                    "Only the hospital bills",
+                    "Medical, administrative and material ones",
+                    "Only repairing the vehicles"
+                  ],
+                  "why": "A DGT syllabus separates administrative costs (police, trials, insurance), material costs (vehicles, the road) and victim costs (medical care, lost output)."
+                },
+                "terms": [
+                  {
+                    "es": "costes administrativos",
+                    "en": "administrative costs"
+                  },
+                  {
+                    "es": "daños materiales",
+                    "en": "material damage"
+                  },
+                  {
+                    "es": "costes sanitarios",
+                    "en": "health costs"
+                  }
+                ],
+                "src": "DGT guidance (temario ESTT OEP 2021, tema 6: las consecuencias del accidente, rev. 2022); DGT guidance (Las principales cifras de la siniestralidad vial 2024, epígrafe de costes actualizado, 2026)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Quién sufre las consecuencias",
+            "en": "Who bears the consequences"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Un accidente no termina en la víctima. Un temario de la DGT recuerda que cada persona muerta o herida tiene **familiares y amigos** muy afectados. Las familias pierden ingresos y a menudo dedican su tiempo a cuidar del herido.",
+                "en": "A crash does not end with the victim. A DGT syllabus points out that every person killed or injured has **family and friends** deeply affected. Families lose income and often spend their time caring for the injured person."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "También lo paga **toda la sociedad**. Quien muere o queda de baja deja de aportar riqueza al país. La DGT calcula que los costes de las víctimas de 2024 suman al menos **8.700 millones de euros**: como mínimo el **0,55 %** del PIB, y es razonable asumir el **0,89 %**.",
+                "en": "**All of society** pays as well. Someone who dies or cannot work stops adding wealth to the country. The DGT calculates that the costs of 2024's victims add up to at least **8.7 billion euros**: at least **0.55%** of GDP, and **0.89%** is a reasonable estimate."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Y puede dañar el **medio ambiente**. La DGT avisa de que un accidente con **mercancías peligrosas** supone riesgos para la población, los bienes y el medio ambiente.",
+                "en": "It can also harm the **environment**. The DGT warns that a crash involving **dangerous goods** puts people, property and the environment at risk."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c6i",
+                "answer": 2,
+                "es": {
+                  "q": "Un accidente deja a una persona con una discapacidad para siempre. ¿Quién sufre las consecuencias?",
+                  "options": [
+                    "Solo la persona herida",
+                    "La persona herida y su compañía de seguros",
+                    "La persona, su familia y amigos, y la sociedad"
+                  ],
+                  "why": "Un temario de la DGT recuerda que cada víctima tiene familiares y amigos muy afectados, y que la sociedad pierde la riqueza que esa persona aportaba."
+                },
+                "exam": {
+                  "q": "An accident leaves a person with a disability for ever. Who suffers the consequences?",
+                  "options": [
+                    "Only the injured person.",
+                    "The injured person and their insurance company.",
+                    "The person, their family and friends, and the society."
+                  ]
+                },
+                "en": {
+                  "q": "A crash leaves a person permanently disabled. Who suffers the consequences?",
+                  "options": [
+                    "Only the injured person",
+                    "The injured person and their insurer",
+                    "The person, their family and friends, and society"
+                  ],
+                  "why": "A DGT syllabus points out that every victim has family and friends deeply affected, and that society loses the wealth that person produced."
+                },
+                "terms": [
+                  {
+                    "es": "víctima",
+                    "en": "victim"
+                  },
+                  {
+                    "es": "discapacidad",
+                    "en": "disability"
+                  },
+                  {
+                    "es": "sociedad",
+                    "en": "society"
+                  }
+                ],
+                "src": "DGT guidance (temario ESTT OEP 2021, tema 6: las consecuencias del accidente, rev. 2022)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c6j",
+                "answer": 0,
+                "es": {
+                  "q": "¿Quién paga, al final, el coste de los accidentes de tráfico?",
+                  "options": [
+                    "Toda la sociedad: equivale a una parte del PIB del país",
+                    "Solo las compañías de seguros",
+                    "Solo los conductores que causan el accidente"
+                  ],
+                  "why": "La DGT estima que los costes de las víctimas de 2024 suponen al menos el 0,55 % del PIB. Es una carga para la economía de todo el país, no solo para los implicados."
+                },
+                "exam": {
+                  "q": "Who pays, in the end, the cost of the traffic accidents?",
+                  "options": [
+                    "All the society, it is equivalent to a part of the GDP of the country.",
+                    "Only the insurance companies.",
+                    "Only the drivers who cause the accident."
+                  ]
+                },
+                "en": {
+                  "q": "In the end, who pays the cost of road crashes?",
+                  "options": [
+                    "All of society: it equals a share of the country's GDP",
+                    "Only the insurance companies",
+                    "Only the drivers who cause the crash"
+                  ],
+                  "why": "The DGT estimates the costs of 2024's victims at no less than 0.55% of GDP. It is a burden on the whole country's economy, not only on those involved."
+                },
+                "terms": [
+                  {
+                    "es": "coste",
+                    "en": "cost"
+                  },
+                  {
+                    "es": "PIB",
+                    "en": "GDP (gross domestic product)"
+                  }
+                ],
+                "src": "DGT guidance (Las principales cifras de la siniestralidad vial 2024, epígrafe de costes actualizado, 2026)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c6k",
+                "answer": 1,
+                "es": {
+                  "q": "¿Puede un accidente de tráfico dañar el medio ambiente?",
+                  "options": [
+                    "No: solo causa daños a personas y vehículos",
+                    "Sí: por ejemplo, un accidente con mercancías peligrosas",
+                    "Solo si ocurre dentro de una ciudad"
+                  ],
+                  "why": "La DGT avisa de que un accidente durante el transporte de mercancías peligrosas supone riesgos para la población, los bienes y el medio ambiente."
+                },
+                "exam": {
+                  "q": "Can a traffic accident damage the environment?",
+                  "options": [
+                    "No, it only causes damage to persons and vehicles.",
+                    "Yes, for example, an accident with dangerous goods.",
+                    "Only if it occurs inside a town."
+                  ]
+                },
+                "en": {
+                  "q": "Can a road crash harm the environment?",
+                  "options": [
+                    "No: it only damages people and vehicles",
+                    "Yes: for example, a crash involving dangerous goods",
+                    "Only if it happens inside a town"
+                  ],
+                  "why": "The DGT warns that a crash while dangerous goods are being carried puts people, property and the environment at risk."
+                },
+                "terms": [
+                  {
+                    "es": "medio ambiente",
+                    "en": "environment"
+                  },
+                  {
+                    "es": "mercancías peligrosas",
+                    "en": "dangerous goods"
+                  }
+                ],
+                "src": "DGT guidance (Con cuidado: mercancías peligrosas, 2024)"
+              }
             }
           ]
         }
@@ -3673,11 +4262,787 @@
         {
           "es": "A más velocidad, **más grave** el atropello.",
           "en": "The higher the speed, the **worse** the injuries to a pedestrian."
+        },
+        {
+          "es": "Los accidentes son **en gran medida evitables**: no son mala suerte.",
+          "en": "Crashes are **largely avoidable**: they are not bad luck."
+        },
+        {
+          "es": "Cuestan a **toda la sociedad**: costes médicos, administrativos y materiales.",
+          "en": "They cost **all of society**: medical, administrative and material costs."
         }
       ],
       "src": [
         "Reglamento General de Circulación (RD 1428/2003), art. 45",
-        "DGT guidance (dgt.es): salidas de vía (2026); 10 errores de novel (2025); percepción del riesgo; valor monetario de prevenir un fallecimiento (2024)"
+        "DGT guidance (dgt.es): salidas de vía (2026); 10 errores de novel (2025); percepción del riesgo; valor monetario de prevenir un fallecimiento (2024)",
+        "DGT guidance (dgt.es): temario ESTT OEP 2021, temas 6 y 7 (rev. 2022); Las principales cifras de la siniestralidad vial 2024, costes (2026); Con cuidado: mercancías peligrosas (2024); Conducción preventiva (2022)"
+      ]
+    },
+    {
+      "id": "crash-figures",
+      "title": {
+        "es": "Las cifras: dónde, quién y cuándo",
+        "en": "The figures: where, who and when"
+      },
+      "minutes": 7,
+      "goals": [
+        {
+          "es": "Saber en qué vías hay más muertos y por qué.",
+          "en": "Know which roads have the most deaths, and why."
+        },
+        {
+          "es": "Reconocer los grupos con más riesgo: jóvenes, mayores, motoristas y ciclistas.",
+          "en": "Recognize the groups most at risk: young people, older people, motorcyclists and cyclists."
+        },
+        {
+          "es": "Conocer los datos clave de las furgonetas.",
+          "en": "Know the key facts about vans."
+        }
+      ],
+      "terms": [
+        {
+          "es": "siniestralidad",
+          "en": "crash rate (road casualties)"
+        },
+        {
+          "es": "vía interurbana",
+          "en": "interurban road"
+        },
+        {
+          "es": "carretera convencional",
+          "en": "conventional road"
+        },
+        {
+          "es": "fallecido",
+          "en": "person killed"
+        },
+        {
+          "es": "herido hospitalizado",
+          "en": "person injured and hospitalized"
+        },
+        {
+          "es": "parque de vehículos",
+          "en": "vehicle fleet"
+        },
+        {
+          "es": "furgoneta",
+          "en": "van"
+        },
+        {
+          "es": "día laborable",
+          "en": "working day (weekday)"
+        }
+      ],
+      "pretest": {
+        "id": "hazards-pre-7",
+        "answer": 0,
+        "es": {
+          "q": "¿Dónde murieron más personas por accidentes de tráfico en España en 2024?",
+          "options": [
+            "En vías interurbanas",
+            "En vías urbanas",
+            "Igual en las dos"
+          ],
+          "why": "Según la DGT, en 2024 las vías interurbanas tuvieron el 35 % de los siniestros pero el 72 % de los fallecidos."
+        },
+        "exam": {
+          "q": "Where did more persons die by traffic accidents in Spain in 2024?",
+          "options": [
+            "On interurban roads.",
+            "On urban roads.",
+            "The same in the two."
+          ]
+        },
+        "en": {
+          "q": "Where did more people die in road crashes in Spain in 2024?",
+          "options": [
+            "On interurban roads",
+            "On urban roads",
+            "The same on both"
+          ],
+          "why": "According to the DGT, in 2024 interurban roads had 35% of crashes but 72% of deaths."
+        },
+        "terms": [
+          {
+            "es": "vía interurbana",
+            "en": "interurban road"
+          },
+          {
+            "es": "vía urbana",
+            "en": "urban road"
+          }
+        ],
+        "src": "DGT guidance (Las principales cifras de la siniestralidad vial, España 2024)"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Dónde: fuera de poblado, y sobre todo en carreteras convencionales",
+            "en": "Where: outside towns, and above all on conventional roads"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Según la DGT, en 2024 murieron **1.785 personas** en siniestros de tráfico. Las vías urbanas concentraron el **65 %** de los siniestros, pero solo el **28 %** de los fallecidos. Las interurbanas tuvieron el **35 %** de los siniestros y el **72 %** de los fallecidos: hay menos accidentes, pero mucho más graves.",
+                "en": "According to the DGT, **1,785 people** died in road crashes in 2024. Urban roads had **65%** of crashes but only **28%** of deaths. Interurban roads had **35%** of crashes and **72%** of deaths: fewer crashes, but far more serious."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Dentro de las vías interurbanas, las **carreteras convencionales** registraron **933** fallecidos (el 72 %). Las autopistas y autovías, **358** (el 28 %).",
+                "en": "Among interurban roads, **conventional roads** recorded **933** deaths (72%). Motorways and dual carriageways, **358** (28%)."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "En una carretera convencional circulas con tráfico en sentido contrario. Mantente en tu carril y adelanta solo con visibilidad y espacio de sobra.",
+                "en": "On a conventional road you share the road with oncoming traffic. Keep to your lane and overtake only with plenty of visibility and room."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c7a",
+                "answer": 1,
+                "es": {
+                  "q": "Según los datos de la DGT de 2024, ¿en qué tipo de vía interurbana murieron más personas?",
+                  "options": [
+                    "En autopistas y autovías",
+                    "En carreteras convencionales",
+                    "En vías de servicio"
+                  ],
+                  "why": "En 2024, las carreteras convencionales registraron 933 fallecidos, el 72 % de los muertos en vías interurbanas. Autopistas y autovías, 358."
+                },
+                "exam": {
+                  "q": "According to the data of the DGT of 2024, on which type of interurban road did more persons die?",
+                  "options": [
+                    "On motorways and dual carriageways.",
+                    "On conventional roads.",
+                    "On service roads."
+                  ]
+                },
+                "en": {
+                  "q": "According to the DGT's 2024 figures, on which kind of interurban road did the most people die?",
+                  "options": [
+                    "Motorways and dual carriageways",
+                    "Conventional roads",
+                    "Service roads"
+                  ],
+                  "why": "In 2024 conventional roads recorded 933 deaths, 72% of those killed on interurban roads. Motorways and dual carriageways, 358."
+                },
+                "terms": [
+                  {
+                    "es": "carretera convencional",
+                    "en": "conventional road"
+                  },
+                  {
+                    "es": "autovía",
+                    "en": "dual carriageway"
+                  },
+                  {
+                    "es": "vía de servicio",
+                    "en": "service road"
+                  }
+                ],
+                "src": "DGT guidance (Las principales cifras de la siniestralidad vial, España 2024)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c7b",
+                "answer": 0,
+                "es": {
+                  "q": "En ciudad hay muchos más siniestros que fuera de poblado. Entonces, ¿por qué mueren más personas en las vías interurbanas?",
+                  "options": [
+                    "Porque allí hay menos accidentes, pero mucho más graves",
+                    "Porque en ciudad casi nadie resulta herido",
+                    "Porque en ciudad no circulan peatones ni motos"
+                  ],
+                  "why": "Según la DGT, en 2024 las vías interurbanas tuvieron el 35 % de los siniestros y el 72 % de los fallecidos: los accidentes son menos, pero de mucha mayor gravedad."
+                },
+                "exam": {
+                  "q": "In the city there are many more accidents than outside town. Then, why do more persons die on the interurban roads?",
+                  "options": [
+                    "Because there, there are fewer accidents, but much more serious.",
+                    "Because in the city almost nobody is injured.",
+                    "Because in the city neither pedestrians nor motorcycles circulate."
+                  ]
+                },
+                "en": {
+                  "q": "Towns have many more crashes than the open road. So why do more people die on interurban roads?",
+                  "options": [
+                    "Because crashes there are fewer but far more serious",
+                    "Because almost nobody gets hurt in towns",
+                    "Because no pedestrians or motorcycles use town streets"
+                  ],
+                  "why": "According to the DGT, in 2024 interurban roads had 35% of crashes and 72% of deaths: fewer crashes, but much more serious ones."
+                },
+                "terms": [
+                  {
+                    "es": "fuera de poblado",
+                    "en": "outside built-up areas"
+                  },
+                  {
+                    "es": "gravedad",
+                    "en": "severity"
+                  }
+                ],
+                "src": "DGT guidance (Las principales cifras de la siniestralidad vial, España 2024)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Los jóvenes",
+            "en": "Young people"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "El permiso **AM** (ciclomotores) se puede obtener a los **15 años**. Según la DGT, a partir de esa edad crecen los fallecidos en motocicleta. Y el grupo de **15 a 17 años** tiene la tasa más alta de conductores implicados en siniestros con víctimas: **45** por cada mil conductores.",
+                "en": "The **AM** licence (mopeds) can be obtained at **15**. According to the DGT, deaths on motorcycles rise from that age. And the **15 to 17** age group has the highest rate of drivers involved in crashes with casualties: **45** per thousand drivers."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "En 2024 murieron **193** jóvenes de 15 a 24 años, el 11 % del total. El **44 %** murió de noche (34 % en el resto de edades) y el **48 %** en fin de semana.",
+                "en": "In 2024, **193** young people aged 15 to 24 died, 11% of the total. **44%** died at night (34% for other ages) and **48%** at weekends."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Un temario de la DGT recoge datos de la OMS: los accidentes de tráfico son la **octava causa de muerte en el mundo** y la **primera** para los jóvenes de 15 a 29 años. Además, cada año dejan entre **20 y 50 millones** de heridos.",
+                "en": "A DGT syllabus quotes WHO figures: road crashes are the **eighth cause of death worldwide** and the **first** for young people aged 15 to 29. They also leave between **20 and 50 million** injured each year."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c7c",
+                "answer": 0,
+                "es": {
+                  "q": "Según los datos de la DGT de 2024, ¿qué grupo de conductores tiene la tasa más alta de implicación en siniestros con víctimas?",
+                  "options": [
+                    "El de 15 a 17 años",
+                    "El de 45 a 54 años",
+                    "El de 65 años o más"
+                  ],
+                  "why": "El grupo de 15 a 17 años registra 45 conductores implicados por cada mil. A los 15 años ya se puede obtener el permiso AM, y desde esa edad crecen los fallecidos en moto."
+                },
+                "exam": {
+                  "q": "According to the data of the DGT of 2024, which group of drivers has the highest rate of involvement in accidents with victims?",
+                  "options": [
+                    "That of 15 to 17 years.",
+                    "That of 45 to 54 years.",
+                    "That of 65 years or more."
+                  ]
+                },
+                "en": {
+                  "q": "According to the DGT's 2024 figures, which group of drivers has the highest rate of involvement in crashes with casualties?",
+                  "options": [
+                    "Ages 15 to 17",
+                    "Ages 45 to 54",
+                    "Ages 65 and over"
+                  ],
+                  "why": "The 15-to-17 group records 45 drivers involved per thousand. The AM licence can be obtained at 15, and motorcycle deaths rise from that age."
+                },
+                "terms": [
+                  {
+                    "es": "permiso AM",
+                    "en": "AM licence (mopeds)"
+                  },
+                  {
+                    "es": "ciclomotor",
+                    "en": "moped"
+                  },
+                  {
+                    "es": "siniestro con víctimas",
+                    "en": "crash with casualties"
+                  }
+                ],
+                "src": "DGT guidance (Las principales cifras de la siniestralidad vial, España 2024); RGCond art. 4.2"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c7d",
+                "answer": 2,
+                "es": {
+                  "q": "Para los jóvenes de 15 a 29 años, ¿qué lugar ocupan los accidentes de tráfico entre las causas de muerte en el mundo?",
+                  "options": [
+                    "El décimo",
+                    "No están entre las diez primeras",
+                    "El primero"
+                  ],
+                  "why": "Según datos de la OMS que recoge un temario de la DGT, el tráfico es la octava causa de muerte en el mundo y la primera para los jóvenes de 15 a 29 años."
+                },
+                "exam": {
+                  "q": "For the young people of 15 to 29 years, what place do the traffic accidents occupy among the causes of death in the world?",
+                  "options": [
+                    "The tenth.",
+                    "They are not among the first ten.",
+                    "The first."
+                  ]
+                },
+                "en": {
+                  "q": "For young people aged 15 to 29, where do road crashes rank among causes of death worldwide?",
+                  "options": [
+                    "Tenth",
+                    "Not in the top ten",
+                    "First"
+                  ],
+                  "why": "According to WHO figures quoted in a DGT syllabus, traffic is the eighth cause of death worldwide and the first for young people aged 15 to 29."
+                },
+                "terms": [
+                  {
+                    "es": "causa de muerte",
+                    "en": "cause of death"
+                  },
+                  {
+                    "es": "jóvenes",
+                    "en": "young people"
+                  }
+                ],
+                "src": "DGT guidance (temario ESTT OEP 2021, tema 3: magnitud del problema, rev. 2022)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c7e",
+                "answer": 1,
+                "es": {
+                  "q": "Además de muertes, ¿causan los accidentes de tráfico muchas lesiones?",
+                  "options": [
+                    "No: casi todos acaban sin heridos o con muertos",
+                    "Sí: son también una de las grandes causas de lesiones",
+                    "Solo en los países con pocas carreteras"
+                  ],
+                  "why": "En España hubo en 2024 9.561 heridos hospitalizados y 125.084 heridos no hospitalizados. En el mundo, cada año, entre 20 y 50 millones de heridos."
+                },
+                "exam": {
+                  "q": "Apart from deaths, do the traffic accidents cause many injuries?",
+                  "options": [
+                    "No, almost all end without injured or with deaths.",
+                    "Yes, they are also one of the great causes of injuries.",
+                    "Only in the countries with few roads."
+                  ]
+                },
+                "en": {
+                  "q": "Besides deaths, do road crashes cause many injuries?",
+                  "options": [
+                    "No: nearly all end with no injuries or with deaths",
+                    "Yes: they are also a major cause of injuries",
+                    "Only in countries with few roads"
+                  ],
+                  "why": "In Spain in 2024 there were 9,561 people hospitalized and 125,084 injured but not hospitalized. Worldwide, between 20 and 50 million are injured each year."
+                },
+                "terms": [
+                  {
+                    "es": "lesiones",
+                    "en": "injuries"
+                  },
+                  {
+                    "es": "herido",
+                    "en": "injured person"
+                  }
+                ],
+                "src": "DGT guidance (Las principales cifras de la siniestralidad vial, España 2024); DGT guidance (temario ESTT OEP 2021, tema 3: magnitud del problema, rev. 2022)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Los conductores mayores",
+            "en": "Older drivers"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "La DGT explica que, con la edad, los **reflejos, la vista, el oído y la atención** responden peor. Se necesita más tiempo ante cualquier imprevisto, e **incorporarse a una vía** exige más comprobaciones.",
+                "en": "The DGT explains that with age, **reflexes, sight, hearing and attention** respond less well. More time is needed for anything unexpected, and **joining a road** takes more checks."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "En 2024, las personas de más de 64 años fueron el **27 %** de los fallecidos (486). La mitad iban conduciendo y un 34 % eran peatones.",
+                "en": "In 2024, people over 64 were **27%** of those killed (486). Half were driving and 34% were pedestrians."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "La DGT aconseja a los conductores mayores controlar la velocidad y aumentar la distancia de seguridad. Si ves que un conductor mayor necesita más tiempo para una maniobra, ten paciencia.",
+                "en": "The DGT advises older drivers to keep their speed in check and increase their following distance. If you see an older driver needs more time for a maneuver, be patient."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c7f",
+                "answer": 1,
+                "es": {
+                  "q": "Con la edad, ¿qué suele pasar con las capacidades que se usan al conducir?",
+                  "options": [
+                    "Mejoran con la experiencia",
+                    "Se deterioran: los reflejos, la vista y el oído responden peor",
+                    "No cambian si la persona conduce a diario"
+                  ],
+                  "why": "La DGT explica que con la edad los reflejos, la vista, el oído y la atención responden peor, y se necesita más tiempo ante un imprevisto."
+                },
+                "exam": {
+                  "q": "With the age, what usually happens with the capacities that are used when driving?",
+                  "options": [
+                    "They improve with the experience.",
+                    "They deteriorate, the reflexes, the sight and the hearing respond worse.",
+                    "They do not change if the person drives daily."
+                  ]
+                },
+                "en": {
+                  "q": "With age, what usually happens to the abilities used for driving?",
+                  "options": [
+                    "They improve with experience",
+                    "They decline: reflexes, sight and hearing respond less well",
+                    "They do not change if the person drives every day"
+                  ],
+                  "why": "The DGT explains that with age, reflexes, sight, hearing and attention respond less well, and more time is needed for anything unexpected."
+                },
+                "terms": [
+                  {
+                    "es": "deterioro",
+                    "en": "deterioration"
+                  },
+                  {
+                    "es": "reflejos",
+                    "en": "reflexes"
+                  },
+                  {
+                    "es": "capacidades",
+                    "en": "abilities"
+                  }
+                ],
+                "src": "DGT guidance (Consejos para personas mayores, 2022)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c7g",
+                "answer": 2,
+                "es": {
+                  "q": "Según la DGT, ¿qué maniobra exige a un conductor mayor más comprobaciones?",
+                  "options": [
+                    "Encender las luces de cruce",
+                    "Poner el freno de mano al aparcar",
+                    "Incorporarse a una vía"
+                  ],
+                  "why": "La DGT indica que, con la edad, incorporarse a una vía exige más comprobaciones."
+                },
+                "exam": {
+                  "q": "According to the DGT, which manoeuvre requires more checks from an elderly driver?",
+                  "options": [
+                    "To switch on the dipped-beam lights.",
+                    "To put the handbrake when parking.",
+                    "To enter a road."
+                  ]
+                },
+                "en": {
+                  "q": "According to the DGT, which maneuver takes more checks for an older driver?",
+                  "options": [
+                    "Switching on the dipped headlights",
+                    "Setting the handbrake when parking",
+                    "Joining a road"
+                  ],
+                  "why": "The DGT says that with age, joining a road takes more checks."
+                },
+                "terms": [
+                  {
+                    "es": "incorporarse",
+                    "en": "to enter traffic (join a road)"
+                  },
+                  {
+                    "es": "conductor mayor",
+                    "en": "older driver"
+                  }
+                ],
+                "src": "DGT guidance (Consejos para personas mayores, 2022)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Motos y bicicletas",
+            "en": "Motorcycles and bicycles"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Cada vez hay **más motos**. Según la DGT, pasaron del **9 %** del parque de vehículos en 2015 al **12 %** en 2024. En 2024 murieron **441** motoristas, el 25 % del total.",
+                "en": "There are **more and more motorcycles**. According to the DGT, they went from **9%** of the vehicle fleet in 2015 to **12%** in 2024. In 2024, **441** motorcyclists died, 25% of the total."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Con el buen tiempo salen más ciclistas. En el informe de la DGT sobre ciclistas (2024), **julio** fue en 2022 el mes con más ciclistas fallecidos: **16**, el 20 % del año. Los heridos hospitalizados fueron más en mayo y agosto.",
+                "en": "Good weather brings out more cyclists. In the DGT's report on cyclists (2024), **July** was the month with the most cyclists killed in 2022: **16**, 20% of the year. Hospitalized injuries peaked in May and August."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Motos y bicicletas son vulnerables. Deja más distancia, mira dos veces antes de girar y espera más ciclistas en verano y en fin de semana.",
+                "en": "Motorcycles and bicycles are vulnerable. Leave more room, look twice before turning, and expect more cyclists in summer and at weekends."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c7h",
+                "answer": 0,
+                "es": {
+                  "q": "¿Cómo ha cambiado el número de motos en España en los últimos años?",
+                  "options": [
+                    "Ha crecido: pasaron del 9 % al 12 % del parque de vehículos",
+                    "Ha bajado, porque son incómodas",
+                    "Se mantiene igual desde hace veinte años"
+                  ],
+                  "why": "Según la DGT, las motocicletas pasaron del 9 % del parque de vehículos en 2015 al 12 % en 2024. Cada vez hay más: prevé su presencia."
+                },
+                "exam": {
+                  "q": "How has the number of motorcycles in Spain changed in the last years?",
+                  "options": [
+                    "It has grown, they went from 9 % to 12 % of the vehicle fleet.",
+                    "It has decreased, because they are uncomfortable.",
+                    "It stays the same since twenty years ago."
+                  ]
+                },
+                "en": {
+                  "q": "How has the number of motorcycles in Spain changed in recent years?",
+                  "options": [
+                    "It has grown: from 9% to 12% of the vehicle fleet",
+                    "It has fallen, because they are uncomfortable",
+                    "It has stayed the same for twenty years"
+                  ],
+                  "why": "According to the DGT, motorcycles went from 9% of the vehicle fleet in 2015 to 12% in 2024. There are more and more: expect them."
+                },
+                "terms": [
+                  {
+                    "es": "parque de vehículos",
+                    "en": "vehicle fleet"
+                  },
+                  {
+                    "es": "motocicleta",
+                    "en": "motorcycle"
+                  }
+                ],
+                "src": "DGT guidance (Las principales cifras de la siniestralidad vial, España 2024)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c7i",
+                "answer": 1,
+                "es": {
+                  "q": "Según el informe de la DGT sobre ciclistas, ¿qué mes tuvo más ciclistas fallecidos en 2022?",
+                  "options": [
+                    "Enero",
+                    "Julio",
+                    "Noviembre"
+                  ],
+                  "why": "Julio fue el mes con más ciclistas fallecidos en 2022 (16, el 20 %). Con el buen tiempo hay más ciclistas en la vía."
+                },
+                "exam": {
+                  "q": "According to the report of the DGT on cyclists, which month had more dead cyclists in 2022?",
+                  "options": [
+                    "January.",
+                    "July.",
+                    "November."
+                  ]
+                },
+                "en": {
+                  "q": "According to the DGT's report on cyclists, which month had the most cyclists killed in 2022?",
+                  "options": [
+                    "January",
+                    "July",
+                    "November"
+                  ],
+                  "why": "July was the month with the most cyclists killed in 2022 (16, or 20%). Good weather puts more cyclists on the road."
+                },
+                "terms": [
+                  {
+                    "es": "ciclista",
+                    "en": "cyclist"
+                  },
+                  {
+                    "es": "fallecido",
+                    "en": "person killed"
+                  }
+                ],
+                "src": "DGT guidance (Informe de siniestralidad en ciclistas, 2024)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Las furgonetas",
+            "en": "Vans"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "La DGT publicó en 2025 un informe sobre las furgonetas, con datos de 2023. La mayoría de sus siniestros ocurren en **días laborables**, y el **viernes** es el día con más. Se concentran en las horas de **mayor actividad laboral**.",
+                "en": "In 2025 the DGT published a report on vans, with 2023 data. Most of their crashes happen on **working days**, and **Friday** is the worst day. They cluster in the **busiest working hours**."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "En **vías urbanas**, la infracción más frecuente fue **no respetar la prioridad** (14 % de los siniestros), seguida de **no mantener la distancia de seguridad** (8 %) y no respetar el paso de peatones (5 %). En vías interurbanas, la primera fue no mantener la distancia (14 %).",
+                "en": "On **urban roads**, the most frequent offense was **not respecting priority** (14% of crashes), followed by **not keeping a safe distance** (8%) and not respecting the pedestrian crossing (5%). On interurban roads, the first was not keeping a safe distance (14%)."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c7j",
+                "answer": 2,
+                "es": {
+                  "q": "En ciudad, ¿qué infracciones aparecen más en los siniestros con víctimas de furgonetas?",
+                  "options": [
+                    "El exceso de velocidad y circular en sentido contrario",
+                    "Abrir las puertas sin precaución y estacionar en doble fila",
+                    "No respetar la prioridad y no mantener la distancia de seguridad"
+                  ],
+                  "why": "Según la DGT, en vías urbanas la infracción más frecuente de los conductores de furgonetas fue no respetar la prioridad (14 %), seguida de no mantener la distancia de seguridad (8 %)."
+                },
+                "exam": {
+                  "q": "In the city, which infractions appear more in the accidents with victims of vans?",
+                  "options": [
+                    "The excess of speed and circulating in the opposite direction.",
+                    "To open the doors without precaution and to park in double row.",
+                    "Not to respect the priority and not to keep the safety distance."
+                  ]
+                },
+                "en": {
+                  "q": "In towns, which offenses show up most in van crashes with casualties?",
+                  "options": [
+                    "Speeding and driving the wrong way",
+                    "Opening doors carelessly and double parking",
+                    "Not respecting priority and not keeping a safe distance"
+                  ],
+                  "why": "According to the DGT, on urban roads the most frequent offense by van drivers was not respecting priority (14%), followed by not keeping a safe distance (8%)."
+                },
+                "terms": [
+                  {
+                    "es": "infracción",
+                    "en": "offence (infraction)"
+                  },
+                  {
+                    "es": "prioridad",
+                    "en": "priority (right of way)"
+                  },
+                  {
+                    "es": "distancia de seguridad",
+                    "en": "safety distance"
+                  }
+                ],
+                "src": "DGT guidance (Siniestralidad de las furgonetas en España, 2025)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c7k",
+                "answer": 0,
+                "es": {
+                  "q": "Según la DGT, ¿cuándo se concentran los siniestros con furgonetas?",
+                  "options": [
+                    "En días laborables, en horas de trabajo",
+                    "Los domingos de madrugada",
+                    "En los días festivos de verano"
+                  ],
+                  "why": "El informe de la DGT sobre furgonetas muestra que la mayoría de sus siniestros ocurren en días laborables, con el viernes como peor día, y en las horas de más actividad laboral."
+                },
+                "exam": {
+                  "q": "According to the DGT, when are the accidents with vans concentrated?",
+                  "options": [
+                    "On working days, in hours of work.",
+                    "On Sundays in the early morning.",
+                    "On the holidays of summer."
+                  ]
+                },
+                "en": {
+                  "q": "According to the DGT, when do van crashes cluster?",
+                  "options": [
+                    "On working days, during working hours",
+                    "On Sunday nights in the small hours",
+                    "On summer public holidays"
+                  ],
+                  "why": "The DGT's van report shows most of their crashes happen on working days, with Friday the worst day, during the busiest working hours."
+                },
+                "terms": [
+                  {
+                    "es": "día laborable",
+                    "en": "working day"
+                  },
+                  {
+                    "es": "furgoneta",
+                    "en": "van"
+                  }
+                ],
+                "src": "DGT guidance (Siniestralidad de las furgonetas en España, 2025)"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "Fuera de poblado hay menos accidentes, pero más graves: el **72 %** de los muertos de 2024.",
+          "en": "Outside towns there are fewer crashes but worse ones: **72%** of 2024's deaths."
+        },
+        {
+          "es": "Las **carreteras convencionales** suman más muertos que autopistas y autovías.",
+          "en": "**Conventional roads** account for more deaths than motorways and dual carriageways."
+        },
+        {
+          "es": "Los jóvenes de **15 a 17** tienen la tasa más alta de implicación; en el mundo, el tráfico es la **primera** causa de muerte de 15 a 29 años.",
+          "en": "Drivers aged **15 to 17** have the highest involvement rate; worldwide, traffic is the **first** cause of death at ages 15 to 29."
+        },
+        {
+          "es": "Con la edad, reflejos, vista y oído **empeoran**.",
+          "en": "With age, reflexes, sight and hearing **decline**."
+        },
+        {
+          "es": "Cada vez hay **más motos**; julio es el peor mes para los ciclistas.",
+          "en": "There are **more motorcycles** every year; July is the worst month for cyclists."
+        },
+        {
+          "es": "Furgonetas: días laborables; en ciudad, **prioridad** y **distancia**.",
+          "en": "Vans: working days; in towns, **priority** and **distance**."
+        }
+      ],
+      "src": [
+        "Reglamento General de Conductores (RD 818/2009), art. 4.2",
+        "DGT guidance (dgt.es): Las principales cifras de la siniestralidad vial, España 2024; Siniestralidad de las furgonetas en España (2025); Informe de siniestralidad en ciclistas (2024); Consejos para personas mayores (2022); temario ESTT OEP 2021, tema 3 (rev. 2022)"
       ]
     }
   ]

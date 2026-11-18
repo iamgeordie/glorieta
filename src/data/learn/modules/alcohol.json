@@ -376,6 +376,69 @@
                 ],
                 "src": "RGC art. 20 (párrafo 3)"
               }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Para este límite, la antigüedad de una **licencia** de conducción solo cuenta cuando conduces vehículos para los que esa licencia basta.",
+                "en": "For this limit, the age of a driving **licencia** (license) counts only when you drive vehicles for which that licencia is enough."
+              },
+              "src": "RGC art. 20 (párrafo 4)"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "La norma cuenta los dos años desde que obtuviste el permiso que te habilita para conducir, y solo recorta la antigüedad de las licencias. Por eso la lectura habitual es que un permiso anterior, como el **AM** o el **A2**, ya cuenta: si lo tienes desde hace más de dos años, al sacar el B no vuelves al límite bajo.",
+                "en": "The rule counts the two years from when you got the permit that lets you drive, and limits only the age of licencias. So the usual reading is that an earlier permit, such as **AM** or **A2**, already counts: if you have had it for more than two years, getting the B does not put you back on the low limit."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c1x",
+                "answer": 2,
+                "es": {
+                  "q": "Tienes el permiso A1 desde hace 18 meses y esta semana obtienes el permiso B. ¿Qué tasa máxima tienes al conducir tu turismo?",
+                  "options": [
+                    "0,25 mg/l en aire espirado, como cualquier conductor",
+                    "0,15 mg/l durante los dos años siguientes al permiso B",
+                    "0,15 mg/l durante unos seis meses más, hasta que el A1 cumpla dos años"
+                  ],
+                  "why": "El límite bajo dura los dos años siguientes a obtener el permiso. Tu antigüedad empieza con el A1, así que te quedan seis meses con 0,15 mg/l."
+                },
+                "exam": {
+                  "q": "You hold the permit A1 since 18 months ago and this week you obtain the permit B. What maximum rate do you have when driving your passenger car?",
+                  "options": [
+                    "0,25 mg/l in exhaled air, like any driver.",
+                    "0,15 mg/l during the two years following the permit B.",
+                    "0,15 mg/l during some six months more, until the A1 turns two years."
+                  ]
+                },
+                "en": {
+                  "q": "You have held an A1 permit for 18 months and this week you get your B permit. What is your limit when you drive your car?",
+                  "options": [
+                    "0.25 mg/L in exhaled air, like any driver",
+                    "0.15 mg/L for the two years after the B permit",
+                    "0.15 mg/L for about six more months, until the A1 is two years old"
+                  ],
+                  "why": "The low limit lasts for the two years after you get your permit. Your seniority starts with the A1, so you have six months left at 0.15 mg/L."
+                },
+                "terms": [
+                  {
+                    "es": "antigüedad del permiso",
+                    "en": "seniority of the permit"
+                  },
+                  {
+                    "es": "conductor novel",
+                    "en": "novice driver"
+                  },
+                  {
+                    "es": "aire espirado",
+                    "en": "exhaled air"
+                  }
+                ],
+                "src": "RGC art. 20 (párrafos 3 y 4)"
+              }
             }
           ]
         },
@@ -2577,6 +2640,13 @@
               }
             },
             {
+              "t": "tip",
+              "text": {
+                "es": "Guía de la DGT (folleto «Medicamentos y conducción»): un mismo medicamento no afecta igual siempre ni a todos. Presta especial atención al **empezar** un tratamiento o cambiar la dosis, al tomar varios a la vez, si estás **cansado** y si eres una persona **mayor**.",
+                "en": "DGT guidance (leaflet “Medicamentos y conducción”): the same medicine does not always affect everyone the same way. Take special care when you **start** a treatment or change the dose, when you take several at once, when you are **tired**, and if you are **older**."
+              }
+            },
+            {
               "t": "check",
               "q": {
                 "id": "alcohol-c4d",
@@ -2614,6 +2684,54 @@
                   }
                 ],
                 "src": "DGT guidance on alcohol (dgt.es, Consumo de alcohol)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c4x",
+                "answer": 1,
+                "es": {
+                  "q": "Dos conductores toman el mismo medicamento a la misma dosis. ¿Les afecta igual al volante?",
+                  "options": [
+                    "Sí: un medicamento produce siempre los mismos efectos",
+                    "No necesariamente: el cansancio o la edad, por ejemplo, pueden cambiar sus efectos",
+                    "Solo cambia si uno de los dos lo compró sin receta"
+                  ],
+                  "why": "Los efectos de un medicamento varían de una persona a otra. La DGT pide más atención si estás cansado, si eres mayor, al empezar el tratamiento o al cambiar la dosis."
+                },
+                "exam": {
+                  "q": "Two drivers take the same medicine at the same dose. Does it affect them equally at the wheel?",
+                  "options": [
+                    "Yes: a medicine always produces the same effects.",
+                    "Not necessarily: the tiredness or the age, for example, can change its effects.",
+                    "It only changes if one of the two bought it without prescription."
+                  ]
+                },
+                "en": {
+                  "q": "Two drivers take the same medicine at the same dose. Does it affect them the same way at the wheel?",
+                  "options": [
+                    "Yes: a medicine always has the same effects",
+                    "Not necessarily: tiredness or age, for example, can change its effects",
+                    "It differs only if one of them bought it without a prescription"
+                  ],
+                  "why": "A medicine’s effects vary from person to person. The DGT asks for extra care when you are tired, if you are older, at the start of a treatment, or when the dose changes."
+                },
+                "terms": [
+                  {
+                    "es": "efectos secundarios",
+                    "en": "side effects"
+                  },
+                  {
+                    "es": "tratamiento farmacológico",
+                    "en": "pharmacological treatment"
+                  },
+                  {
+                    "es": "dosis",
+                    "en": "dose"
+                  }
+                ],
+                "src": "DGT guidance (folleto «Medicamentos y conducción»)"
               }
             }
           ]
@@ -3093,6 +3211,13 @@
               ]
             },
             {
+              "t": "tip",
+              "text": {
+                "es": "Guía de la DGT: la **monotonía** del entorno o de la tarea también aumenta la fatiga. Según el Observatorio de la DGT, el siniestro típico con somnolencia es una **salida de vía en autopista, de madrugada**, sin pasajeros y con buena visibilidad.",
+                "en": "DGT guidance: **monotony** in the surroundings or the task also increases fatigue. According to the DGT’s Observatory, the typical crash involving drowsiness is **running off a motorway in the early hours**, with no passengers and good visibility."
+              }
+            },
+            {
               "t": "check",
               "q": {
                 "id": "alcohol-c5f",
@@ -3178,6 +3303,54 @@
                   }
                 ],
                 "src": "DGT guidance (dgt.es, Conducir con fatiga, 30-11-2022)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c5x",
+                "answer": 2,
+                "es": {
+                  "q": "Según la DGT, ¿cómo suele ser el siniestro típico en el que interviene la somnolencia?",
+                  "options": [
+                    "Un choque en un cruce de ciudad en hora punta",
+                    "Un alcance en un atasco a media tarde",
+                    "Una salida de vía en autopista, de madrugada"
+                  ],
+                  "why": "La DGT describe el siniestro tipo con somnolencia como una salida de vía en autopista, de madrugada. La monotonía de esas vías favorece la fatiga."
+                },
+                "exam": {
+                  "q": "According to the DGT, how is the typical accident in which drowsiness intervenes?",
+                  "options": [
+                    "A crash in a crossroads of city at rush hour.",
+                    "A rear-end collision in a traffic jam in mid afternoon.",
+                    "A run-off of the road on a motorway, at dawn."
+                  ]
+                },
+                "en": {
+                  "q": "According to the DGT, what is the typical crash involving drowsiness like?",
+                  "options": [
+                    "A collision at a city junction at rush hour",
+                    "A rear-end collision in a mid-afternoon jam",
+                    "Running off a motorway in the early hours"
+                  ],
+                  "why": "The DGT describes the typical drowsiness crash as running off a motorway in the early hours. The monotony of those roads encourages fatigue."
+                },
+                "terms": [
+                  {
+                    "es": "somnolencia",
+                    "en": "drowsiness"
+                  },
+                  {
+                    "es": "salida de vía",
+                    "en": "run-off of the road"
+                  },
+                  {
+                    "es": "monotonía",
+                    "en": "monotony"
+                  }
+                ],
+                "src": "DGT guidance (nota de prensa «La somnolencia estuvo presente en el 7% de los siniestros mortales de tráfico»; página «Conducir con fatiga»)"
               }
             }
           ]
