@@ -15,7 +15,7 @@
         "es": "Tipos de vía",
         "en": "Types of road"
       },
-      "minutes": 9,
+      "minutes": 10,
       "goals": [
         {
           "es": "Distinguir una vía urbana, una carretera y una travesía.",
@@ -242,6 +242,15 @@
               "src": "RGC Anexo I, ap. 5.1 (S-1, S-1a, S-2, S-2a)"
             },
             {
+              "t": "signs",
+              "ids": [
+                "s-1",
+                "s-1a",
+                "s-2",
+                "s-2a"
+              ]
+            },
+            {
               "t": "p",
               "text": {
                 "es": "En la práctica: ni bicicletas ni ciclomotores en ninguna de las dos. La única excepción es el arcén de una autovía, donde pueden ir ciclistas mayores de 14 años si ninguna señal lo prohíbe. Por qué la diferencia: la autopista es solo para automóviles por su propia definición; en la autovía la prohibición viene de las normas de circulación (RGC art. 38.1).",
@@ -315,6 +324,13 @@
                 "en": "The sign \"Vía reservada para automóviles\" marks where this road begins. The sign \"Fin de vía reservada para automóviles\" marks the end."
               },
               "src": "RGC Anexo I, ap. 5.1 (S-3, S-4)"
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "s-3",
+                "s-4"
+              ]
             },
             {
               "t": "rule",
@@ -440,6 +456,85 @@
                   }
                 ],
                 "src": "LSV anexo I, puntos 66, 67 y 69"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "La **Ley de Carreteras** (Ley 37/2015) ordena la Red de Carreteras del Estado. Clasifica las carreteras en cuatro clases: autopistas, autovías, **carreteras multicarril** y carreteras convencionales.",
+                "en": "The **Roads Law** (Ley 37/2015) governs the State Road Network. It sorts roads into four classes: autopistas, autovías, **multi-lane roads** (carreteras multicarril) and conventional roads."
+              },
+              "src": "Ley 37/2015, de Carreteras, arts. 1.1 y 2.3"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Una **carretera multicarril** no es autopista ni autovía, pero tiene **al menos dos carriles para cada sentido**, separados o delimitados. Puede tener accesos o cruces a nivel. Al contar sus carriles no entran los adicionales, los de espera, los de trenzado ni los de cambio de velocidad.",
+                "en": "A **multi-lane road** is neither an autopista nor an autovía, but it has **at least two lanes for each direction**, separated or marked off. It may have same-level accesses or crossings. When you count its lanes, extra lanes, waiting lanes, weaving lanes and speed-change lanes are left out."
+              },
+              "src": "Ley 37/2015, de Carreteras, art. 2.3.c"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Para la Ley de Carreteras, una carretera convencional es la que no es autopista, ni autovía, ni multicarril.",
+                "en": "For the Roads Law, a conventional road is one that is not an autopista, an autovía or a multi-lane road."
+              },
+              "src": "Ley 37/2015, de Carreteras, art. 2.3.d"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "La Ley de Tráfico no usa la clase multicarril. En su anexo, la convencional es la que no es autopista, autovía ni vía para automóviles.",
+                "en": "The Traffic Law does not use the multi-lane class. In its annex, a conventional road is one that is not an autopista, an autovía or a road for automobiles."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-t1m",
+                "answer": 1,
+                "es": {
+                  "q": "Una carretera no es autopista ni autovía. Tiene dos carriles por sentido, separados entre sí, y algún cruce a nivel. Según la Ley de Carreteras, ¿qué clase de carretera es?",
+                  "options": [
+                    "Una carretera convencional",
+                    "Una carretera multicarril",
+                    "Una vía para automóviles"
+                  ],
+                  "why": "La Ley de Carreteras llama multicarril a la carretera que, sin ser autopista ni autovía, tiene al menos dos carriles por sentido, separados o delimitados. Puede tener cruces a nivel."
+                },
+                "exam": {
+                  "q": "A road is not a motorway nor a dual carriageway. It has two lanes per direction, separated between them, and some crossing at level. According to the Roads Law, which class of road is it?",
+                  "options": [
+                    "A conventional road.",
+                    "A multi-lane road.",
+                    "A road for automobiles."
+                  ]
+                },
+                "en": {
+                  "q": "A road is neither an autopista nor an autovía. It has two lanes in each direction, separated from each other, and some same-level crossings. Under the Roads Law, what class of road is it?",
+                  "options": [
+                    "A conventional road",
+                    "A multi-lane road",
+                    "A road for automobiles"
+                  ],
+                  "why": "The Roads Law calls a road multi-lane when, without being an autopista or an autovía, it has at least two lanes per direction, separated or marked off. It may have same-level crossings."
+                },
+                "terms": [
+                  {
+                    "es": "carretera multicarril",
+                    "en": "multi-lane road"
+                  },
+                  {
+                    "es": "Ley de Carreteras",
+                    "en": "Roads Law"
+                  },
+                  {
+                    "es": "cruce a nivel",
+                    "en": "crossing at level"
+                  }
+                ],
+                "src": "Ley 37/2015, de Carreteras, art. 2.3.c y d"
               }
             }
           ]
@@ -824,6 +919,61 @@
                   }
                 ],
                 "src": "RGC art. 38.1"
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "La prohibición vale para **toda** autopista y autovía, también en el tramo que pasa por dentro de un poblado. Ese tramo sigue siendo autovía: tiene incluso su propio límite genérico de 80 km/h (RGC art. 50.6).",
+                "en": "The ban covers **every** autopista and autovía, including a stretch that runs through a town. That stretch is still an autovía: it even has its own generic limit of 80 km/h (RGC art. 50.6)."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-t1n",
+                "answer": 0,
+                "es": {
+                  "q": "Conduces un ciclomotor. Una autovía atraviesa tu ciudad y quieres usar el tramo urbano para cruzarla. ¿Puedes?",
+                  "options": [
+                    "No: los ciclomotores no pueden circular por autovías",
+                    "Sí, solo en el tramo que pasa por dentro del poblado",
+                    "Sí, si vas por el arcén a menos de 45 km/h"
+                  ],
+                  "why": "Está prohibido circular con ciclomotores por autopistas y autovías. La norma no exceptúa los tramos dentro de poblado: allí la vía sigue siendo autovía."
+                },
+                "exam": {
+                  "q": "You drive a moped. A dual carriageway crosses your city and you want to use the urban section in order to cross it. Can you?",
+                  "options": [
+                    "No: mopeds cannot circulate by dual carriageways.",
+                    "Yes, only in the section that passes inside the town.",
+                    "Yes, if you go by the hard shoulder at less than 45 km/h."
+                  ]
+                },
+                "en": {
+                  "q": "You ride a moped. An autovía runs through your city and you want to use its urban stretch to get across. May you?",
+                  "options": [
+                    "No: mopeds may not use autovías",
+                    "Yes, but only on the stretch inside the town",
+                    "Yes, if you ride on the shoulder below 45 km/h"
+                  ],
+                  "why": "Mopeds are banned from autopistas and autovías. The rule makes no exception for stretches inside a town: there the road is still an autovía."
+                },
+                "terms": [
+                  {
+                    "es": "ciclomotor",
+                    "en": "moped"
+                  },
+                  {
+                    "es": "autovía",
+                    "en": "dual carriageway"
+                  },
+                  {
+                    "es": "dentro de poblado",
+                    "en": "inside a built-up area"
+                  }
+                ],
+                "src": "RGC arts. 38.1 y 50.6"
               }
             },
             {
@@ -1269,6 +1419,7 @@
       "src": [
         "Ley de Tráfico y Seguridad Vial (RDL 6/2015), anexo I, puntos 12, 13 y 65 a 79; arts. 20, 31, 32, 40, 49 y 50",
         "Reglamento General de Circulación (RD 1428/2003), arts. 38, 48, 49, 50.6 y 77 (arts. 38 y 48 con la redacción vigente desde 2026-10-01)",
+        "Ley 37/2015, de 29 de septiembre, de Carreteras, arts. 1.1 y 2.3",
         "RGC Anexo I, ap. 5.1 (catálogo de señales S-1, S-1a, S-2, S-2a, S-3 y S-4)"
       ]
     },
@@ -1674,28 +1825,28 @@
                 "id": "road-p2c",
                 "answer": 0,
                 "es": {
-                  "q": "En una vía de doble sentido hay una isleta en medio de la calzada. ¿Por qué lado la pasas?",
+                  "q": "Circulas por una carretera de doble sentido y en el centro de la calzada aparece un refugio para peatones. ¿Cómo lo rodeas?",
                   "options": [
-                    "Por su derecha, según tu sentido de marcha",
-                    "Por su izquierda, para dejar libre el arcén",
-                    "Por el lado que tenga más espacio"
+                    "Dejándolo a tu izquierda, es decir, pasando por su derecha",
+                    "Dejándolo a tu derecha, para no pisar el arcén",
+                    "Por el lado que esté más despejado"
                   ],
                   "why": "Cuando hay refugios, isletas o dispositivos de guía se circula por la parte de la calzada que queda a su derecha. Solo en una vía de un sentido, o dentro de la parte de un solo sentido, puedes elegir lado."
                 },
                 "exam": {
-                  "q": "In a road of double direction there is a refuge island in the middle of the carriageway. By which side do you pass it?",
+                  "q": "You circulate by a road of double direction and in the centre of the carriageway a refuge for pedestrians appears. How do you go around it?",
                   "options": [
-                    "By its right, according to your direction of march.",
-                    "By its left, in order to leave free the hard shoulder.",
-                    "By the side which has more space."
+                    "Leaving it to your left, that is to say, passing by its right.",
+                    "Leaving it to your right, in order not to step on the hard shoulder.",
+                    "By the side that is more clear."
                   ]
                 },
                 "en": {
-                  "q": "On a two-way road there is a traffic island in the middle of the roadway. Which side do you pass it on?",
+                  "q": "You are on a two-way road and a pedestrian refuge appears in the middle of the roadway. How do you get round it?",
                   "options": [
-                    "On its right, in your direction of travel",
-                    "On its left, to keep the shoulder clear",
-                    "On whichever side has more room"
+                    "Keeping it on your left, that is, passing on its right",
+                    "Keeping it on your right, so as not to use the shoulder",
+                    "On whichever side is clearer"
                   ],
                   "why": "When there are refuges, islands or guide devices you drive on the part of the roadway to their right. Only on a one-way road, or inside the one-way part of a road, may you choose a side."
                 },
@@ -2150,6 +2301,54 @@
                 ],
                 "src": "RGC art. 31.2"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-w3g",
+                "answer": 2,
+                "es": {
+                  "q": "Remolcas una caravana ligera con tu turismo; entre los dos miden 6 metros. En una autovía de tres carriles por sentido, ¿por cuáles puedes circular?",
+                  "options": [
+                    "Únicamente por el derecho, al ir con remolque",
+                    "Por el derecho y el central, nunca por el izquierdo",
+                    "Por el derecho normalmente, y por los otros cuando la circulación lo aconseje"
+                  ],
+                  "why": "El límite del carril derecho y el contiguo es para conjuntos de más de 7 metros y para camiones o furgones de más de 3.500 kg. Con 6 metros sigues la regla general: el de la derecha, y los demás si la circulación lo aconseja y no entorpeces a nadie."
+                },
+                "exam": {
+                  "q": "You tow a light caravan with your passenger car; between the two they measure 6 metres. On a dual carriageway of three lanes per direction, by which ones can you circulate?",
+                  "options": [
+                    "Only by the right one, on going with trailer.",
+                    "By the right one and the central one, never by the left one.",
+                    "By the right one normally, and by the others when the circulation advises it."
+                  ]
+                },
+                "en": {
+                  "q": "You tow a light caravan with your car; together they are 6 meters long. On an autovía with three lanes each way, which lanes may you use?",
+                  "options": [
+                    "Only the right one, since you are towing",
+                    "The right and the middle one, never the left",
+                    "Normally the right one, and the others when traffic makes it advisable"
+                  ],
+                  "why": "The right-and-next-lane limit is for combinations over 7 meters and for trucks or vans over 3,500 kg. At 6 meters you follow the general rule: the right-hand lane, and the others when traffic makes it advisable and you hold nobody up."
+                },
+                "terms": [
+                  {
+                    "es": "conjunto de vehículos",
+                    "en": "set of vehicles (combination)"
+                  },
+                  {
+                    "es": "remolque ligero",
+                    "en": "light trailer"
+                  },
+                  {
+                    "es": "carril contiguo",
+                    "en": "adjacent lane"
+                  }
+                ],
+                "src": "RGC art. 31.1 y 31.2"
+              }
             }
           ]
         },
@@ -2170,10 +2369,110 @@
             {
               "t": "rule",
               "text": {
+                "es": "Esa libertad exige carriles **delimitados por marcas longitudinales**. Si la calzada no tiene marcas de carril, vale la norma general: por la derecha y lo más cerca posible del borde.",
+                "en": "That freedom needs lanes **marked off by longitudinal lines**. If the roadway has no lane markings, the general rule applies: keep right, as close as possible to the edge."
+              },
+              "src": "RGC arts. 29.1 y 33"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-w3h",
+                "answer": 1,
+                "es": {
+                  "q": "Entras en una calle ancha de sentido único, en poblado, sin líneas que marquen carriles. ¿Qué posición llevas?",
+                  "options": [
+                    "La que mejor te venga para tu destino",
+                    "Pegado a la derecha, junto al borde",
+                    "En el centro, lejos de los coches aparcados"
+                  ],
+                  "why": "Elegir el carril que más conviene a tu destino solo vale con al menos dos carriles delimitados por marcas longitudinales. Sin marcas se aplica la norma general: por la derecha y cerca del borde."
+                },
+                "exam": {
+                  "q": "You enter a wide one-way street, in town, without lines that mark lanes. What position do you take?",
+                  "options": [
+                    "The one that suits you best for your destination.",
+                    "Stuck to the right, next to the edge.",
+                    "In the centre, far from the parked cars."
+                  ]
+                },
+                "en": {
+                  "q": "In town you turn into a wide one-way street with no lines marking lanes. What position do you take?",
+                  "options": [
+                    "Whatever suits your destination best",
+                    "Keeping right, close to the edge",
+                    "In the middle, away from parked cars"
+                  ],
+                  "why": "You may pick the lane that fits where you are going only when there are at least two lanes marked by longitudinal lines. With no markings, the general rule applies: keep right, near the edge."
+                },
+                "terms": [
+                  {
+                    "es": "sentido único",
+                    "en": "one-way"
+                  },
+                  {
+                    "es": "marcas longitudinales",
+                    "en": "longitudinal markings"
+                  },
+                  {
+                    "es": "borde de la calzada",
+                    "en": "edge of the carriageway"
+                  }
+                ],
+                "src": "RGC arts. 29.1 y 33"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
                 "es": "Para contar los carriles de estas reglas no se cuentan los reservados a determinados vehículos o a ciertas maniobras.",
                 "en": "When you count lanes for these rules, lanes reserved for certain vehicles or maneuvers are not counted."
               },
               "src": "RGC art. 34"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-w3i",
+                "answer": 0,
+                "es": {
+                  "q": "En tu sentido hay un carril bus a la derecha y, a su lado, dos carriles marcados para todo el tráfico. Al contar los carriles de esa calzada, ¿cuántos se cuentan?",
+                  "options": [
+                    "Dos, porque el carril bus queda fuera de la cuenta",
+                    "Tres, porque se suman todos los carriles pintados",
+                    "Uno, porque solo cuenta el carril derecho de uso general"
+                  ],
+                  "why": "Para contar carriles no se tienen en cuenta los reservados a determinados vehículos o a ciertas maniobras, como el carril bus."
+                },
+                "exam": {
+                  "q": "In your direction there is a bus lane on the right and, at its side, two lanes marked for all the traffic. On counting the lanes of that carriageway, how many are counted?",
+                  "options": [
+                    "Two, because the bus lane remains outside the count.",
+                    "Three, because all the painted lanes are added.",
+                    "One, because only the right lane of general use counts."
+                  ]
+                },
+                "en": {
+                  "q": "In your direction there is a bus lane on the right and, next to it, two marked lanes for all traffic. When the lanes of that carriageway are counted, how many count?",
+                  "options": [
+                    "Two, because the bus lane is left out of the count",
+                    "Three, because every painted lane is added up",
+                    "One, because only the right-hand general lane counts"
+                  ],
+                  "why": "When lanes are counted, those reserved for certain vehicles or certain maneuvers, such as a bus lane, are left out."
+                },
+                "terms": [
+                  {
+                    "es": "cómputo de carriles",
+                    "en": "calculation of lanes"
+                  },
+                  {
+                    "es": "carril reservado",
+                    "en": "reserved lane"
+                  }
+                ],
+                "src": "RGC arts. 33 y 34"
+              }
             },
             {
               "t": "check",
@@ -2429,6 +2728,10 @@
         {
           "es": "En una retención en autopista o autovía se forma el **carril de emergencia**: en el centro con dos carriles, entre el izquierdo y el contiguo con tres o más.",
           "en": "In a jam on an autopista or autovía the **emergency lane** forms: in the middle with two lanes, between the left lane and the next with three or more."
+        },
+        {
+          "es": "Sin marcas de carril, en poblado también vas **por la derecha**, cerca del borde.",
+          "en": "With no lane markings, in a town you also keep **to the right**, near the edge."
         }
       ],
       "src": [
@@ -2442,7 +2745,7 @@
         "es": "Carriles especiales",
         "en": "Special lanes"
       },
-      "minutes": 9,
+      "minutes": 10,
       "goals": [
         {
           "es": "Saber que en los carriles reservados mandan las señales, y que no se puede parar en el del transporte público.",
@@ -2607,6 +2910,182 @@
                 ],
                 "src": "RGC art. 94.1.h"
               }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Donde hay carriles de aceleración o deceleración, o carriles reservados a ciertos vehículos, avanzar más rápido por ellos que por los carriles normales (o al revés) **no se considera adelantamiento**.",
+                "en": "Where there are acceleration or deceleration lanes, or lanes reserved for certain vehicles, moving faster in them than in the normal lanes (or the other way round) **is not considered overtaking**."
+              },
+              "src": "RGC art. 83.3"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-s4k",
+                "answer": 0,
+                "es": {
+                  "q": "Un autobús circula por el carril bus más deprisa que los turismos de los carriles de al lado. ¿Eso es un adelantamiento?",
+                  "options": [
+                    "No: avanzar más rápido por un carril reservado no es adelantar",
+                    "Sí, y por eso debe señalizarlo con el intermitente",
+                    "Sí, pero está permitido porque es un autobús"
+                  ],
+                  "why": "En los tramos con carriles reservados a ciertos vehículos, que se avance más rápido por ellos que por los normales no se considera adelantamiento."
+                },
+                "exam": {
+                  "q": "A bus circulates by the bus lane faster than the passenger cars of the lanes at the side. Is that an overtaking?",
+                  "options": [
+                    "No: to advance faster by a reserved lane is not to overtake.",
+                    "Yes, and for that reason it must signal it with the indicator.",
+                    "Yes, but it is allowed because it is a bus."
+                  ]
+                },
+                "en": {
+                  "q": "A bus in the bus lane moves faster than the cars in the lanes beside it. Is that overtaking?",
+                  "options": [
+                    "No: moving faster in a reserved lane is not overtaking",
+                    "Yes, so it must signal with its turn signal",
+                    "Yes, but it is allowed because it is a bus"
+                  ],
+                  "why": "On stretches with lanes reserved for certain vehicles, moving faster in them than in the normal lanes is not considered overtaking."
+                },
+                "terms": [
+                  {
+                    "es": "adelantamiento",
+                    "en": "overtaking"
+                  },
+                  {
+                    "es": "carril bus",
+                    "en": "bus lane"
+                  }
+                ],
+                "src": "RGC art. 83.3"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Cómo se marcan los carriles especiales",
+            "en": "How special lanes are marked"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "La inscripción **BUS** pintada en un carril o en una zona de la vía indica que está reservado, de forma temporal o permanente, para la circulación, el estacionamiento o la parada de los autobuses. **TAXI** hace lo mismo para los taxis.",
+                "en": "The word **BUS** painted in a lane or an area of the road shows that it is reserved, for a time or permanently, for buses to drive, park or stop. **TAXI** does the same for taxis."
+              },
+              "src": "RGC Anexo I, ap. 5.2 (marcas viales M-6.1 y M-6.2)"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-s4i",
+                "answer": 2,
+                "es": {
+                  "q": "Ves la palabra «BUS» pintada en el suelo de un carril. ¿Qué indica?",
+                  "options": [
+                    "Que los autobuses deben dejarlo libre a los turismos",
+                    "Que lo puede usar cualquier vehículo con pasajeros",
+                    "Que el carril está reservado a los autobuses"
+                  ],
+                  "why": "La inscripción BUS indica un carril o una zona reservados a los autobuses. Si pone TAXI, está reservado a los taxis."
+                },
+                "exam": {
+                  "q": "You see the word «BUS» painted on the ground of a lane. What does it indicate?",
+                  "options": [
+                    "That the buses must leave it free for the passenger cars.",
+                    "That any vehicle with passengers can use it.",
+                    "That the lane is reserved for the buses."
+                  ]
+                },
+                "en": {
+                  "q": "You see the word “BUS” painted on the surface of a lane. What does it mean?",
+                  "options": [
+                    "That buses must keep it clear for cars",
+                    "That any vehicle carrying passengers may use it",
+                    "That the lane is reserved for buses"
+                  ],
+                  "why": "The word BUS marks a lane or area reserved for buses. If it says TAXI, it is reserved for taxis."
+                },
+                "terms": [
+                  {
+                    "es": "inscripción",
+                    "en": "inscription"
+                  },
+                  {
+                    "es": "carril reservado",
+                    "en": "reserved lane"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.2 (marcas viales M-6.1 y M-6.2)"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Las líneas que separan los carriles especiales son **más anchas**: de 0,30 o 0,40 metros, frente a los 0,10 o 0,15 metros de una línea normal. Separan carriles de cambio de velocidad, carriles de trenzado, carriles reservados a ciertos vehículos (autobuses, taxis) o carriles adicionales para vehículos lentos.",
+                "en": "The lines that separate special lanes are **wider**: 0.30 or 0.40 meters, against 0.10 or 0.15 meters for a normal line. They separate speed-change lanes, weaving lanes, lanes reserved for certain vehicles (buses, taxis) or extra lanes for slow vehicles."
+              },
+              "src": "RGC Anexo I, ap. 5.2 (marcas viales M-1.1 a M-1.3, M-1.6, M-1.7 y M-2.4)"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si esa línea ancha es **discontinua**, los demás vehículos pueden usar el carril reservado para las maniobras permitidas. Si es **continua**, en ese tramo no se permite cambiar de carril.",
+                "en": "If that wide line is **dashed**, other vehicles may use the reserved lane for the maneuvers that are allowed. If it is **continuous**, changing lanes is not allowed on that stretch."
+              },
+              "src": "RGC Anexo I, ap. 5.2 (marcas viales M-1.6, M-1.7 y M-2.4)"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-s4j",
+                "answer": 1,
+                "es": {
+                  "q": "La línea que separa tu carril del de al lado es mucho más ancha de lo normal. ¿Qué indica?",
+                  "options": [
+                    "Que el carril de al lado es reversible",
+                    "Que el carril de al lado es un carril especial",
+                    "Que se acerca el borde de la calzada"
+                  ],
+                  "why": "Las marcas longitudinales anchas separan carriles especiales: de cambio de velocidad, de trenzado, reservados a ciertos vehículos o adicionales para lentos. El carril reversible se marca con líneas dobles discontinuas."
+                },
+                "exam": {
+                  "q": "The line that separates your lane from the one at the side is much wider than normal. What does it indicate?",
+                  "options": [
+                    "That the lane at the side is reversible.",
+                    "That the lane at the side is a special lane.",
+                    "That the edge of the carriageway approaches."
+                  ]
+                },
+                "en": {
+                  "q": "The line between your lane and the next one is much wider than usual. What does it show?",
+                  "options": [
+                    "That the next lane is reversible",
+                    "That the next lane is a special lane",
+                    "That the edge of the roadway is coming up"
+                  ],
+                  "why": "Wide longitudinal lines separate special lanes: speed-change, weaving, reserved for certain vehicles, or extra lanes for slow traffic. A reversible lane is marked with double dashed lines."
+                },
+                "terms": [
+                  {
+                    "es": "marca longitudinal",
+                    "en": "longitudinal marking"
+                  },
+                  {
+                    "es": "carril especializado",
+                    "en": "special lane"
+                  },
+                  {
+                    "es": "carril de cambio de velocidad",
+                    "en": "speed-change lane"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.2 (marcas viales M-1.4, M-1.6, M-1.7 y M-2.4)"
+              }
             }
           ]
         },
@@ -2693,6 +3172,54 @@
                   {
                     "es": "ocupantes",
                     "en": "occupants"
+                  }
+                ],
+                "src": "RGC art. 35.2.a"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-s4l",
+                "answer": 2,
+                "es": {
+                  "q": "¿Cuál de estos vehículos puede circular por un carril VAO, si lleva los ocupantes que exige el tramo?",
+                  "options": [
+                    "Un ciclomotor",
+                    "Un turismo con remolque",
+                    "Una motocicleta"
+                  ],
+                  "why": "El carril VAO está limitado a motocicletas, turismos y vehículos mixtos adaptables. Está prohibido a los ciclomotores y a los turismos con remolque, entre otros."
+                },
+                "exam": {
+                  "q": "Which of these vehicles can circulate by a HOV lane, if it carries the occupants that the section requires?",
+                  "options": [
+                    "A moped.",
+                    "A passenger car with a trailer.",
+                    "A motorcycle."
+                  ]
+                },
+                "en": {
+                  "q": "Which of these vehicles may use a VAO (high-occupancy) lane, if it carries the occupants the stretch requires?",
+                  "options": [
+                    "A moped",
+                    "A car towing a trailer",
+                    "A motorcycle"
+                  ],
+                  "why": "The VAO lane is limited to motorcycles, cars and adaptable mixed-use vehicles. It is closed to mopeds and to cars with a trailer, among others."
+                },
+                "terms": [
+                  {
+                    "es": "carril VAO (vehículos con alta ocupación)",
+                    "en": "HOV lane (high-occupancy vehicles)"
+                  },
+                  {
+                    "es": "vehículo mixto adaptable",
+                    "en": "adaptable mixed-use vehicle"
+                  },
+                  {
+                    "es": "motocicleta",
+                    "en": "motorcycle"
                   }
                 ],
                 "src": "RGC art. 35.2.a"
@@ -2859,6 +3386,54 @@
                   }
                 ],
                 "src": "RGC art. 40.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-s4m",
+                "answer": 1,
+                "es": {
+                  "q": "Sobre tu carril se enciende una luz roja en forma de aspa. Sobre el carril de al lado hay una flecha verde que apunta hacia abajo. ¿Qué haces?",
+                  "options": [
+                    "Sigues por tu carril: el aspa es solo un aviso",
+                    "Dejas tu carril cuanto antes y pasas con seguridad al de la flecha verde",
+                    "Te detienes en tu carril hasta que el aspa se apague"
+                  ],
+                  "why": "El aspa roja prohíbe ocupar ese carril: quien circula por él debe abandonarlo en el tiempo más breve posible. La flecha verde hacia abajo permite circular por su carril."
+                },
+                "exam": {
+                  "q": "Over your lane a red light in form of a cross switches on. Over the lane at the side there is a green arrow that points downwards. What do you do?",
+                  "options": [
+                    "You continue by your lane: the cross is only a warning.",
+                    "You leave your lane as soon as possible and you pass with safety to that of the green arrow.",
+                    "You stop in your lane until the cross switches off."
+                  ]
+                },
+                "en": {
+                  "q": "A red X lights up over your lane. Over the next lane there is a green arrow pointing down. What do you do?",
+                  "options": [
+                    "Stay in your lane: the X is only a warning",
+                    "Leave your lane as soon as possible and move safely into the green-arrow lane",
+                    "Stop in your lane until the X goes out"
+                  ],
+                  "why": "A red X forbids occupying that lane: anyone in it must leave it as soon as possible. A green arrow pointing down allows you to drive in its lane."
+                },
+                "terms": [
+                  {
+                    "es": "semáforo de carril",
+                    "en": "lane traffic light"
+                  },
+                  {
+                    "es": "aspa",
+                    "en": "cross (X)"
+                  },
+                  {
+                    "es": "flecha verde",
+                    "en": "green arrow"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 4.3"
               }
             }
           ]
@@ -3283,7 +3858,8 @@
         }
       ],
       "src": [
-        "Reglamento General de Circulación (RD 1428/2003), arts. 35, 40.1, 41.1, 42.1 y 94.1, y anexo I, apartado 4.3 (semáforos de carril) (redacción vigente desde 2026-10-01 en el art. 35)",
+        "Reglamento General de Circulación (RD 1428/2003), arts. 35, 40.1, 41.1, 42.1, 83.3 y 94.1, y anexo I, apartado 4.3 (semáforos de carril) (redacción vigente desde 2026-10-01 en el art. 35)",
+        "RGC Anexo I, ap. 5.2 (marcas viales M-1.1 a M-1.7, M-2.4, M-6.1 y M-6.2)",
         "Ley de Tráfico y Seguridad Vial (RDL 6/2015), anexo I, punto 81"
       ]
     },
@@ -3514,6 +4090,110 @@
                 ],
                 "src": "RGC art. 36.1"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-h5e",
+                "answer": 0,
+                "es": {
+                  "q": "El arcén derecho es transitable y suficiente, y no hay vía especial. ¿Cuál de estos vehículos debe circular por él?",
+                  "options": [
+                    "Un vehículo especial de 3.000 kg de MMA",
+                    "Un camión de 3.000 kg de MMA",
+                    "Un turismo que circula despacio en un atasco"
+                  ],
+                  "why": "Deben usar el arcén derecho, si es transitable y suficiente, los vehículos especiales de hasta 3.500 kg de MMA, además de ciclos, ciclomotores, vehículos de tracción animal, vehículos para personas de movilidad reducida y vehículos en seguimiento de ciclistas. Un camión o un turismo van por la calzada."
+                },
+                "exam": {
+                  "q": "The right hard shoulder is passable and sufficient, and there is no special road. Which of these vehicles must circulate by it?",
+                  "options": [
+                    "A special vehicle of 3,000 kg of MAM.",
+                    "A truck of 3,000 kg of MAM.",
+                    "A passenger car that circulates slowly in a traffic jam."
+                  ]
+                },
+                "en": {
+                  "q": "The right-hand shoulder is passable and wide enough, and there is no special road. Which of these vehicles must use it?",
+                  "options": [
+                    "A special vehicle with an MMA of 3,000 kg",
+                    "A truck with an MMA of 3,000 kg",
+                    "A car crawling in a traffic jam"
+                  ],
+                  "why": "Special vehicles up to 3,500 kg MMA must use the right-hand shoulder when it is passable and wide enough, as must cycles, mopeds, animal-drawn vehicles, vehicles for people with reduced mobility and vehicles following cyclists. A truck or a car stays on the roadway."
+                },
+                "terms": [
+                  {
+                    "es": "vehículo especial",
+                    "en": "special vehicle"
+                  },
+                  {
+                    "es": "MMA (masa máxima autorizada)",
+                    "en": "MAM (maximum authorised mass)"
+                  },
+                  {
+                    "es": "arcén transitable y suficiente",
+                    "en": "passable and sufficient hard shoulder"
+                  }
+                ],
+                "src": "RGC arts. 30.1, 31.1 y 36.1"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si por una emergencia tienes que circular por una autopista o autovía a **velocidad anormalmente reducida**, debes abandonarla por la **primera salida**.",
+                "en": "If an emergency forces you to drive on an autopista or autovía at an **abnormally low speed**, you must leave it at the **first exit**."
+              },
+              "src": "RGC art. 38.2"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-h5f",
+                "answer": 2,
+                "es": {
+                  "q": "Tu turismo tiene una avería en una autovía. Solo puede ir a una velocidad anormalmente reducida y entorpece gravemente la circulación. ¿Qué haces?",
+                  "options": [
+                    "Sigues por el carril derecho, con las luces de emergencia, hasta tu salida",
+                    "Usas el arcén hasta llegar a la salida que pensabas tomar",
+                    "Vas por el arcén derecho, si es transitable, y sales por la primera salida"
+                  ],
+                  "why": "Un vehículo de hasta 3.500 kg que por una emergencia va a velocidad anormalmente reducida, perturbando gravemente la circulación, va por el arcén derecho si es transitable y suficiente. En autopista o autovía, además, debe abandonarla por la primera salida."
+                },
+                "exam": {
+                  "q": "Your passenger car has a breakdown on a dual carriageway. It can only go at an abnormally reduced speed and it seriously disturbs the circulation. What do you do?",
+                  "options": [
+                    "You continue by the right lane, with the hazard warning lights, until your exit.",
+                    "You use the hard shoulder until arriving at the exit that you intended to take.",
+                    "You go by the right hard shoulder, if it is passable, and you exit by the first exit."
+                  ]
+                },
+                "en": {
+                  "q": "Your car breaks down on an autovía. It can only go at an abnormally low speed and seriously disrupts traffic. What do you do?",
+                  "options": [
+                    "Stay in the right-hand lane with hazard lights on until your exit",
+                    "Use the shoulder until you reach the exit you planned to take",
+                    "Use the right-hand shoulder, if passable, and leave at the first exit"
+                  ],
+                  "why": "A vehicle up to 3,500 kg that an emergency forces to an abnormally low speed, seriously disrupting traffic, uses the right-hand shoulder if it is passable and wide enough. On an autopista or autovía it must also leave at the first exit."
+                },
+                "terms": [
+                  {
+                    "es": "velocidad anormalmente reducida",
+                    "en": "abnormally reduced speed"
+                  },
+                  {
+                    "es": "avería",
+                    "en": "breakdown"
+                  },
+                  {
+                    "es": "primera salida",
+                    "en": "first exit"
+                  }
+                ],
+                "src": "RGC arts. 36.1 y 38.2"
+              }
             }
           ]
         },
@@ -3693,10 +4373,14 @@
         {
           "es": "Las motos pueden usar el arcén en tramos habilitados, solo con el tráfico **detenido**, a **30 km/h** como máximo y en fila de a uno.",
           "en": "Motorcycles may use the shoulder on opened stretches, only with traffic **stopped**, at **30 km/h** at most and in single file."
+        },
+        {
+          "es": "Si una emergencia te obliga a ir muy despacio por autopista o autovía, usa el arcén y **sal por la primera salida**.",
+          "en": "If an emergency forces you to crawl on an autopista or autovía, use the shoulder and **leave at the first exit**."
         }
       ],
       "src": [
-        "Reglamento General de Circulación (RD 1428/2003), arts. 30.1, 31.1, 36 y 38.1 (redacción vigente desde 2026-10-01 en los arts. 31, 36 y 38)",
+        "Reglamento General de Circulación (RD 1428/2003), arts. 30.1, 31.1, 36 y 38 (redacción vigente desde 2026-10-01 en los arts. 31, 36 y 38)",
         "Ley de Tráfico y Seguridad Vial (RDL 6/2015), art. 16.1 y anexo I, punto 61"
       ]
     }

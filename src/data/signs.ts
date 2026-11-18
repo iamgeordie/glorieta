@@ -1,7 +1,7 @@
 import raw from './signs.json';
 import { bi, type Bi } from '../i18n';
 
-export type SignGroup = 'priority' | 'entry' | 'restriction' | 'speed' | 'prohibition' | 'mandatory' | 'end' | 'warning';
+export type SignGroup = 'priority' | 'entry' | 'restriction' | 'speed' | 'prohibition' | 'mandatory' | 'end' | 'warning' | 'indication';
 
 export type Sign = {
   /** Also the file name inside public/signs, without the extension. */
@@ -39,9 +39,10 @@ export const groupTitles: Record<SignGroup, Bi> = {
   mandatory: bi('Obligación', 'Mandatory'),
   end: bi('Fin de prohibición', 'End of restriction'),
   warning: bi('Peligro', 'Warnings'),
+  indication: bi('Indicación', 'Information'),
 };
 
-export const groupOrder: SignGroup[] = ['priority', 'entry', 'restriction', 'speed', 'prohibition', 'mandatory', 'end', 'warning'];
+export const groupOrder: SignGroup[] = ['priority', 'entry', 'restriction', 'speed', 'prohibition', 'mandatory', 'end', 'warning', 'indication'];
 
 export const signs: Sign[] = (raw as RawSign[]).map((s) => ({
   id: s.id,

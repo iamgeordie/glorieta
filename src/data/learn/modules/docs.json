@@ -619,6 +619,66 @@
                 ],
                 "src": "RGCond arts. 4.2 and 5.7"
               }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Para la ley, una moto con **sidecar** sigue siendo una motocicleta: un automóvil de tres ruedas asimétricas, de más de 50 cm³ o más de 45 km/h.",
+                "en": "For the law, a motorcycle with a **sidecar** is still a motorcycle: an automobile on three asymmetric wheels, over 50 cc or over 45 km/h."
+              },
+              "src": "LSV Anexo I, 14.b"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "El permiso **A1** autoriza motocicletas de hasta **125 cm³**, **11 kW** y 0,1 kW/kg, y triciclos de motor de hasta 15 kW. Para motos más potentes necesitas el **A2** (hasta 35 kW) o el A.",
+                "en": "The **A1** license covers motorcycles up to **125 cc**, **11 kW** and 0.1 kW/kg, and motor tricycles up to 15 kW. For more powerful motorcycles you need **A2** (up to 35 kW) or A."
+              },
+              "src": "RGCond art. 4.2"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-classes-7",
+                "answer": 1,
+                "es": {
+                  "q": "¿Autoriza el permiso A1 a conducir una motocicleta con sidecar?",
+                  "options": [
+                    "No: el sidecar exige siempre el permiso A",
+                    "Sí, si no pasa de 125 cm³ y 11 kW",
+                    "Solo si además tienes el permiso B"
+                  ],
+                  "why": "Una moto con sidecar es una motocicleta, y el A1 autoriza motocicletas de hasta 125 cm³ y 11 kW de potencia."
+                },
+                "en": {
+                  "q": "Does the A1 license let you ride a motorcycle with a sidecar?",
+                  "options": [
+                    "No: a sidecar always needs class A",
+                    "Yes, if it does not exceed 125 cc and 11 kW",
+                    "Only if you also hold class B"
+                  ],
+                  "why": "A motorcycle with a sidecar is a motorcycle, and A1 covers motorcycles of up to 125 cc and 11 kW."
+                },
+                "exam": {
+                  "q": "Does the driving licence of class A1 authorise to drive a motorcycle with sidecar?",
+                  "options": [
+                    "No; the sidecar always requires the licence A.",
+                    "Yes, if it does not exceed 125 cubic centimetres and 11 kilowatts.",
+                    "Only if you also have the licence B."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "sidecar",
+                    "en": "sidecar"
+                  },
+                  {
+                    "es": "cilindrada",
+                    "en": "cylinder capacity"
+                  }
+                ],
+                "src": "RGCond art. 4.2; LSV Anexo I, 14.b"
+              }
             }
           ]
         },
@@ -730,7 +790,8 @@
       "src": [
         "Reglamento General de Conductores (RD 818/2009), arts. 1.1, 3.2, 4.1, 4.2, 5.5 y 5.7",
         "Ley de Tráfico y Seguridad Vial (RDL 6/2015), art. 59",
-        "Reglamento General de Vehículos (RD 2822/1998), art. 26.1"
+        "Reglamento General de Vehículos (RD 2822/1998), art. 26.1",
+        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), Anexo I"
       ]
     },
     {
@@ -739,7 +800,7 @@
         "es": "El permiso por puntos",
         "en": "The points license"
       },
-      "minutes": 9,
+      "minutes": 11,
       "goals": [
         {
           "es": "Decir con cuántos puntos empieza cada conductor.",
@@ -1114,6 +1175,180 @@
                   }
                 ],
                 "src": "RGV Anexo XI, V-13 (apartado 1)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "La placa «L» de conductor novel",
+            "en": "The “L” novice-driver plate"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Lleva la señal **V-13** («L») el vehículo de quien obtiene **por primera vez** un permiso, durante **un año**. Si antes tuviste otro permiso, nacional o extranjero, durante al menos un año, no eres «primera vez».",
+                "en": "The **V-13** (“L”) plate goes on the vehicle of someone who gets a permit **for the first time**, for **one year**. If you held another permit, Spanish or foreign, for at least a year before, it is not a “first time”."
+              },
+              "src": "RGV Anexo XI, V-13.2"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "El año **se suspende** mientras el permiso ha perdido la vigencia, está intervenido o te han privado del derecho a conducir. Después, la cuenta sigue donde se quedó hasta completar el año.",
+                "en": "The year **is paused** while the permit has lost its validity, is seized, or you are banned from driving. Afterwards, the count resumes where it stopped until the year is complete."
+              },
+              "src": "RGV Anexo XI, V-13.2"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "La «L» va en la parte **posterior izquierda**, en sitio visible, y es movible. En motos, vehículos de tres ruedas y para personas de movilidad reducida basta con un sitio visible de la parte de atrás.",
+                "en": "The “L” goes on the **rear left**, where it can be seen, and is removable. On motorcycles, three-wheelers and vehicles for people with reduced mobility, any visible spot at the rear is enough."
+              },
+              "src": "RGV Anexo XI, V-13.3"
+            },
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Vehículo",
+                  "en": "Vehicle"
+                },
+                {
+                  "es": "Ancho de la placa",
+                  "en": "Plate width"
+                },
+                {
+                  "es": "Alto de la placa",
+                  "en": "Plate height"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "Turismos y demás vehículos",
+                    "en": "Cars and other vehicles"
+                  },
+                  {
+                    "es": "15 cm",
+                    "en": "15 cm"
+                  },
+                  {
+                    "es": "19,5 cm",
+                    "en": "19.5 cm"
+                  }
+                ],
+                [
+                  {
+                    "es": "Motos, tres ruedas, cuadriciclos y movilidad reducida",
+                    "en": "Motorcycles, three-wheelers, quadricycles and reduced mobility"
+                  },
+                  {
+                    "es": "10 cm",
+                    "en": "10 cm"
+                  },
+                  {
+                    "es": "13 cm",
+                    "en": "13 cm"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "La placa es **verde** con la letra **L** en blanco. Las medidas vienen en milímetros en la norma (150 × 195 y 100 × 130).",
+                "en": "The plate is **green** with a white letter **L**. The rule gives the sizes in millimeters (150 × 195 and 100 × 130)."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-points-10",
+                "answer": 0,
+                "es": {
+                  "q": "Acabas de sacar el permiso y vas a poner la «L» en tu turismo. ¿Qué tamaño tiene que tener?",
+                  "options": [
+                    "150 mm de ancho por 195 mm de alto",
+                    "100 mm de ancho por 130 mm de alto",
+                    "200 mm de ancho por 300 mm de alto"
+                  ],
+                  "why": "En turismos y demás vehículos la placa mide 150 mm de ancho y 195 mm de alto. La de 100 × 130 mm es para motos, tres ruedas, cuadriciclos y vehículos para personas de movilidad reducida."
+                },
+                "en": {
+                  "q": "You have just passed your test and are putting the “L” on your car. What size must it be?",
+                  "options": [
+                    "150 mm wide by 195 mm high",
+                    "100 mm wide by 130 mm high",
+                    "200 mm wide by 300 mm high"
+                  ],
+                  "why": "On cars and other vehicles the plate is 150 mm wide and 195 mm high. The 100 × 130 mm size is for motorcycles, three-wheelers, quadricycles and vehicles for people with reduced mobility."
+                },
+                "exam": {
+                  "q": "You have just obtained the licence and you are going to put the \"L\" on your passenger car. What size does it have to have?",
+                  "options": [
+                    "150 mm wide by 195 mm high.",
+                    "100 mm wide by 130 mm high.",
+                    "200 mm wide by 300 mm high."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "conductor novel",
+                    "en": "novice driver"
+                  },
+                  {
+                    "es": "placa «L»",
+                    "en": "“L” plate"
+                  }
+                ],
+                "src": "RGV Anexo XI, V-13.4"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-points-11",
+                "answer": 2,
+                "es": {
+                  "q": "Eres conductor novel. A los ocho meses tu permiso pierde la vigencia por perder todos los puntos. Cuando vuelves a conducir, ¿qué pasa con la «L»?",
+                  "options": [
+                    "Ya no la llevas: el año desde el primer permiso ha pasado",
+                    "Ya no la llevas, porque ahora tienes experiencia",
+                    "La llevas hasta completar el año: el tiempo sin vigencia no cuenta"
+                  ],
+                  "why": "El plazo de un año se suspende mientras el permiso ha perdido la vigencia. Después sigue contando desde donde se quedó hasta completar el año."
+                },
+                "en": {
+                  "q": "You are a novice driver. Eight months in, your permit loses its validity because you lost all your points. When you drive again, what about the “L”?",
+                  "options": [
+                    "You no longer carry it: a year since the first permit has passed",
+                    "You no longer carry it, because you now have experience",
+                    "You carry it until the year is complete: the time without validity does not count"
+                  ],
+                  "why": "The one-year period is paused while the permit has lost its validity. Then it resumes where it stopped until the year is complete."
+                },
+                "exam": {
+                  "q": "You are a novice driver. At eight months your driving licence loses its validity due to the loss of all the points. When you drive again, what happens with the \"L\"?",
+                  "options": [
+                    "You no longer carry it; the year since the first licence has passed.",
+                    "You no longer carry it, because now you have experience.",
+                    "You carry it until completing the year; the time without validity does not count."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "pérdida de vigencia",
+                    "en": "loss of validity"
+                  },
+                  {
+                    "es": "cómputo del plazo",
+                    "en": "counting of the period"
+                  }
+                ],
+                "src": "RGV Anexo XI, V-13.2"
               }
             }
           ]
@@ -1540,6 +1775,10 @@
         {
           "es": "Sin puntos: pierdes el permiso, esperas **6 meses** (**12** si reincides), y haces curso y pruebas.",
           "en": "With no points: you lose the permit, wait **6 months** (**12** if it happens again), and take a course and tests."
+        },
+        {
+          "es": "La **«L»** va un año detrás a la izquierda; el año se suspende si pierdes la vigencia.",
+          "en": "The **“L”** goes at the rear left for one year; the year pauses if your permit loses validity."
         }
       ],
       "covers": [
@@ -1549,7 +1788,8 @@
       "src": [
         "Ley de Tráfico y Seguridad Vial (RDL 6/2015), arts. 63 a 65, 71 y 94",
         "Reglamento General de Circulación (RD 1428/2003), art. 20",
-        "Reglamento General de Vehículos (RD 2822/1998), Anexo XI (V-5, V-13 y V-14)"
+        "Reglamento General de Vehículos (RD 2822/1998), Anexo XI (V-5, V-13 y V-14)",
+        "Reglamento General de Vehículos (RD 2822/1998), Anexo XI, V-13"
       ]
     },
     {
@@ -3245,6 +3485,624 @@
       ]
     },
     {
+      "id": "duties",
+      "title": {
+        "es": "Obligaciones, responsables y delitos",
+        "en": "Duties, liability and crimes"
+      },
+      "minutes": 7,
+      "goals": [
+        {
+          "es": "Saber qué cambios comunicas a Tráfico y en qué plazo.",
+          "en": "Know which changes you report to Tráfico, and how fast."
+        },
+        {
+          "es": "Saber quién responde de una infracción.",
+          "en": "Know who is liable for an offense."
+        },
+        {
+          "es": "Reconocer las conductas de tráfico que son delito.",
+          "en": "Recognize the traffic behavior that is a crime."
+        }
+      ],
+      "terms": [
+        {
+          "es": "Jefatura Provincial de Tráfico",
+          "en": "provincial traffic office"
+        },
+        {
+          "es": "domicilio",
+          "en": "home address"
+        },
+        {
+          "es": "autor",
+          "en": "perpetrator"
+        },
+        {
+          "es": "responder solidariamente",
+          "en": "to be jointly liable"
+        },
+        {
+          "es": "tutor",
+          "en": "legal guardian"
+        },
+        {
+          "es": "delito",
+          "en": "crime (criminal offense)"
+        },
+        {
+          "es": "Código Penal",
+          "en": "Criminal Code"
+        },
+        {
+          "es": "temeridad manifiesta",
+          "en": "manifest recklessness"
+        }
+      ],
+      "pretest": {
+        "id": "docs-pre-duties",
+        "answer": 0,
+        "es": {
+          "q": "Te mudas de casa. ¿En qué plazo debes comunicar el nuevo domicilio a Tráfico?",
+          "options": [
+            "15 días",
+            "Tres meses",
+            "Cuando renueves el permiso"
+          ],
+          "why": "Cualquier cambio de los datos del permiso y del domicilio se comunica a la Jefatura Provincial de Tráfico en 15 días."
+        },
+        "en": {
+          "q": "You move house. Within what time must you report the new address to Tráfico?",
+          "options": [
+            "15 days",
+            "Three months",
+            "When you renew your permit"
+          ],
+          "why": "Any change to the data on the permit, and of address, is reported to the provincial traffic office within 15 days."
+        },
+        "exam": {
+          "q": "You change your address. In which period must you communicate the new address to Traffic?",
+          "options": [
+            "15 days.",
+            "Three months.",
+            "When you renew the licence."
+          ]
+        },
+        "terms": [
+          {
+            "es": "domicilio",
+            "en": "address"
+          }
+        ],
+        "src": "RGCond art. 10"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Cambios que comunicas a Tráfico",
+            "en": "Changes you report to Tráfico"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Cualquier cambio de los **datos del permiso**, y el cambio de **domicilio**, lo comunicas a la Jefatura Provincial de Tráfico en **15 días** desde que se produce.",
+                "en": "Any change to the **data on your permit**, and any change of **address**, you report to the provincial traffic office within **15 days** of it happening."
+              },
+              "src": "RGCond art. 10"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Conduces siempre con las **adaptaciones, restricciones** y otras limitaciones que figuren codificadas en tu permiso.",
+                "en": "You always drive within the **adaptations, restrictions** and other limits coded on your permit."
+              },
+              "src": "RGCond art. 3.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si Tráfico sabe que ha desaparecido un requisito para tener el permiso, como las **aptitudes psicofísicas**, inicia un procedimiento de pérdida de vigencia. Tú puedes demostrar que sigues apto pasando las pruebas que correspondan.",
+                "en": "If Tráfico learns that a requirement for holding the permit has gone, such as **physical and mental fitness**, it starts a procedure to end its validity. You may prove you are still fit by passing the tests that apply."
+              },
+              "src": "RGCond art. 36.1 y 36.3"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Por eso, si un accidente o una enfermedad cambia lo que puedes hacer al volante, pasa una nueva revisión médica: puede que necesites adaptaciones en el coche y en el permiso.",
+                "en": "So if a crash or an illness changes what you can do at the wheel, get a new medical check: you may need adaptations to the car and to the permit."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-duties-1",
+                "answer": 1,
+                "es": {
+                  "q": "Cambia uno de los datos de tu permiso de conducción. ¿Qué debes hacer?",
+                  "options": [
+                    "Nada hasta que toque renovarlo",
+                    "Comunicarlo a la Jefatura Provincial de Tráfico en 15 días",
+                    "Comunicarlo en el plazo de un año"
+                  ],
+                  "why": "Cualquier variación de los datos del permiso, y el cambio de domicilio, se comunica a la Jefatura Provincial de Tráfico en 15 días desde que se produce."
+                },
+                "en": {
+                  "q": "One of the details on your driving permit changes. What must you do?",
+                  "options": [
+                    "Nothing until it is time to renew it",
+                    "Report it to the provincial traffic office within 15 days",
+                    "Report it within one year"
+                  ],
+                  "why": "Any change to the data on the permit, and any change of address, is reported to the provincial traffic office within 15 days of it happening."
+                },
+                "exam": {
+                  "q": "If any of the data that appear on the driving licence changes, what must you do?",
+                  "options": [
+                    "Nothing until its renewal corresponds.",
+                    "To communicate it to the Provincial Traffic Headquarters within 15 days.",
+                    "To communicate it within the period of one year."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "variación de datos",
+                    "en": "change of data"
+                  },
+                  {
+                    "es": "Jefatura Provincial de Tráfico",
+                    "en": "Provincial Traffic Headquarters"
+                  }
+                ],
+                "src": "RGCond art. 10"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-duties-2",
+                "answer": 2,
+                "es": {
+                  "q": "Tu permiso lleva un código de adaptación del vehículo. ¿Qué coche puedes conducir?",
+                  "options": [
+                    "Cualquiera de tu clase de permiso",
+                    "Cualquiera, si vas acompañado",
+                    "Solo uno que cumpla la adaptación que consta en el permiso"
+                  ],
+                  "why": "El titular debe conducir respetando las adaptaciones, restricciones y limitaciones que figuran codificadas en su permiso."
+                },
+                "en": {
+                  "q": "Your permit carries a vehicle-adaptation code. Which car may you drive?",
+                  "options": [
+                    "Any car of your permit class",
+                    "Any car, if someone goes with you",
+                    "Only one that meets the adaptation on the permit"
+                  ],
+                  "why": "The holder must drive within the adaptations, restrictions and limits coded on the permit."
+                },
+                "exam": {
+                  "q": "Your driving licence carries a code of adaptation of the vehicle. Which car can you drive?",
+                  "options": [
+                    "Any of your class of licence.",
+                    "Any, if you go accompanied.",
+                    "Only one that complies with the adaptation that appears in the licence."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "adaptaciones",
+                    "en": "adaptations"
+                  },
+                  {
+                    "es": "restricciones",
+                    "en": "restrictions"
+                  }
+                ],
+                "src": "RGCond art. 3.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Quién responde de una infracción",
+            "en": "Who is liable for an offense"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Como norma general, responde de la infracción su **autor**: quien comete el hecho.",
+                "en": "As a general rule, the **perpetrator** is liable: the person who commits the act."
+              },
+              "src": "LSV art. 82"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si el autor es **menor de 18 años**, sus padres, tutores, acogedores o guardadores responden **solidariamente** con él de la multa, en ese orden.",
+                "en": "If the perpetrator is **under 18**, the parents, guardians, foster carers or custodians are **jointly liable** with them for the fine, in that order."
+              },
+              "src": "LSV art. 82.b"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "En los vehículos que exigen casco, el **conductor** responde si el **pasajero** no lo lleva, y si lleva un pasajero sin la edad mínima. También responde si un niño va sin sistema de retención infantil, salvo una excepción para conductores profesionales.",
+                "en": "On vehicles that require a helmet, the **driver** is liable if the **passenger** does not wear one, and for carrying a passenger under the minimum age. The driver is also liable if a child travels without a child restraint, with one exception for professional drivers."
+              },
+              "src": "LSV art. 82.a"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "El **titular** responde siempre de las infracciones sobre la documentación del vehículo, las inspecciones periódicas (ITV) y su estado de conservación, cuando afectan a la seguridad.",
+                "en": "The **registered owner** is always liable for offenses about the vehicle’s documents, its periodic inspections (ITV) and its upkeep, when they affect safety."
+              },
+              "src": "LSV art. 82.f"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-duties-3",
+                "answer": 1,
+                "es": {
+                  "q": "Llevas a un amigo de pasajero en tu motocicleta y se niega a ponerse el casco. Un agente os para. ¿A quién se denuncia?",
+                  "options": [
+                    "Solo a tu amigo, porque la decisión fue suya",
+                    "A ti, como conductor",
+                    "Al titular de la moto, aunque no esté presente"
+                  ],
+                  "why": "En los vehículos en que se exige casco a conductor y pasajero, el conductor responde de que el pasajero no lo use."
+                },
+                "en": {
+                  "q": "You are carrying a friend as a passenger on your motorcycle and he refuses to put the helmet on. An officer stops you. Who is reported?",
+                  "options": [
+                    "Only your friend, since it was his decision",
+                    "You, as the rider",
+                    "The registered owner, even if not present"
+                  ],
+                  "why": "On vehicles where driver and passenger must wear a helmet, the driver is liable if the passenger does not use one."
+                },
+                "exam": {
+                  "q": "You carry a friend as passenger on your motorcycle and he refuses to put on the helmet. An agent stops you. Who is reported?",
+                  "options": [
+                    "Only your friend, because the decision was his.",
+                    "You, as driver.",
+                    "The owner of the motorcycle, although he is not present."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "casco de protección",
+                    "en": "protective helmet"
+                  },
+                  {
+                    "es": "responsable",
+                    "en": "liable, responsible"
+                  }
+                ],
+                "src": "LSV art. 82.a"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-duties-4",
+                "answer": 2,
+                "es": {
+                  "q": "Una chica de 16 años comete una infracción con su ciclomotor. ¿Quién responde de la multa?",
+                  "options": [
+                    "Sus padres, en lugar de ella",
+                    "Nadie, porque es menor de edad",
+                    "Ella, y sus padres o tutores solidariamente con ella"
+                  ],
+                  "why": "Responde el autor. Si es menor de 18, sus padres, tutores, acogedores o guardadores responden solidariamente con él de la multa."
+                },
+                "en": {
+                  "q": "A 16-year-old girl commits an offence on her moped. Who answers for the fine?",
+                  "options": [
+                    "Her parents, instead of her",
+                    "Nobody, because she is a minor",
+                    "She does, and her parents or guardians jointly with her"
+                  ],
+                  "why": "The perpetrator is liable. If under 18, the parents, guardians, foster carers or custodians are jointly liable with them for the fine."
+                },
+                "exam": {
+                  "q": "A girl of 16 years commits an offence with her moped. Who answers for the fine?",
+                  "options": [
+                    "Her parents, in place of her.",
+                    "Nobody, because she is a minor.",
+                    "She, and her parents or guardians jointly with her."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "autor de la infracción",
+                    "en": "perpetrator of the offence"
+                  },
+                  {
+                    "es": "solidariamente",
+                    "en": "jointly"
+                  }
+                ],
+                "src": "LSV art. 82 y 82.b"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Cuando la infracción es un delito",
+            "en": "When the offense is a crime"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Casi todas las infracciones son administrativas: multa y, a veces, puntos. Algunas conductas son **delitos** del Código Penal y pueden llevar a la cárcel y a perder el derecho a conducir.",
+                "en": "Most offenses are administrative: a fine and sometimes points. Some acts are **crimes** under the Criminal Code and can lead to prison and to losing the right to drive."
+              }
+            },
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Conducta",
+                  "en": "Act"
+                },
+                {
+                  "es": "Artículo",
+                  "en": "Article"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "Superar el límite en **más de 60 km/h** en vía urbana o **más de 80 km/h** en interurbana",
+                    "en": "Exceeding the limit by **more than 60 km/h** on an urban road or **more than 80 km/h** on an open road"
+                  },
+                  {
+                    "es": "CP art. 379.1",
+                    "en": "CP art. 379.1"
+                  }
+                ],
+                [
+                  {
+                    "es": "Conducir bajo la influencia de alcohol o drogas; siempre, con más de **0,60 mg/l** en aire o 1,2 g/l en sangre",
+                    "en": "Driving under the influence of alcohol or drugs; always, above **0.60 mg/l** in breath or 1.2 g/l in blood"
+                  },
+                  {
+                    "es": "CP art. 379.2",
+                    "en": "CP art. 379.2"
+                  }
+                ],
+                [
+                  {
+                    "es": "Conducir con temeridad manifiesta y poner en peligro concreto a las personas",
+                    "en": "Driving with manifest recklessness and putting people in real danger"
+                  },
+                  {
+                    "es": "CP art. 380",
+                    "en": "CP art. 380"
+                  }
+                ],
+                [
+                  {
+                    "es": "Negarse a las pruebas de alcohol o drogas que pide un agente",
+                    "en": "Refusing the alcohol or drug tests an officer requires"
+                  },
+                  {
+                    "es": "CP art. 383",
+                    "en": "CP art. 383"
+                  }
+                ],
+                [
+                  {
+                    "es": "Conducir sin haber obtenido nunca el permiso, tras perder todos los puntos o privado del permiso por un juez",
+                    "en": "Driving without ever having a permit, after losing all points, or when a judge has taken the permit"
+                  },
+                  {
+                    "es": "CP art. 384",
+                    "en": "CP art. 384"
+                  }
+                ],
+                [
+                  {
+                    "es": "Abandonar el lugar de un accidente que has causado con muertos o heridos graves",
+                    "en": "Leaving the scene of a crash you caused with deaths or serious injuries"
+                  },
+                  {
+                    "es": "CP art. 382 bis",
+                    "en": "CP art. 382 bis"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Las tasas de alcohol y el resto del tema están en el módulo «Alcohol, drogas, medicamentos y fatiga».",
+                "en": "Alcohol limits and the rest of that topic are in the “Alcohol, drugs, medicines and fatigue” module."
+              }
+            },
+            {
+              "t": "example",
+              "situation": {
+                "es": "Una vía urbana está limitada a 50 km/h y un conductor circula a 140 km/h.",
+                "en": "An urban road has a 50 km/h limit and a driver goes at 140 km/h."
+              },
+              "action": {
+                "es": "Es un delito contra la seguridad vial.",
+                "en": "It is a crime against road safety."
+              },
+              "why": {
+                "es": "Supera el límite en 90 km/h, más de los 60 km/h que marca el Código Penal para las vías urbanas.",
+                "en": "It exceeds the limit by 90 km/h, more than the 60 km/h the Criminal Code sets for urban roads."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-duties-5",
+                "answer": 0,
+                "es": {
+                  "q": "Conducir con una tasa de alcohol en aire espirado superior a 0,60 mg/l, ¿qué es?",
+                  "options": [
+                    "Un delito castigado en el Código Penal",
+                    "Una infracción administrativa, solo con multa",
+                    "Una infracción leve si no hay accidente"
+                  ],
+                  "why": "El Código Penal castiga en todo caso a quien conduce con más de 0,60 mg/l en aire espirado o más de 1,2 g/l en sangre."
+                },
+                "en": {
+                  "q": "Driving with a breath alcohol level over 0.60 mg/l: what is it?",
+                  "options": [
+                    "A crime punished under the Criminal Code",
+                    "An administrative offense, with only a fine",
+                    "A minor offense if there is no crash"
+                  ],
+                  "why": "The Criminal Code always punishes driving with more than 0.60 mg/l in exhaled air or more than 1.2 g/l in blood."
+                },
+                "exam": {
+                  "q": "Driving with an alcohol rate in exhaled air higher than 0.60 mg/l, what is it?",
+                  "options": [
+                    "A crime punished in the Penal Code.",
+                    "An administrative offence, only with fine.",
+                    "A minor offence if there is no accident."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "delito contra la seguridad vial",
+                    "en": "crime against road safety"
+                  },
+                  {
+                    "es": "aire espirado",
+                    "en": "exhaled air"
+                  }
+                ],
+                "src": "Código Penal art. 379.2"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-duties-6",
+                "answer": 1,
+                "es": {
+                  "q": "Una persona que nunca ha obtenido el permiso de conducción conduce un coche por la vía pública. ¿Qué comete?",
+                  "options": [
+                    "Una infracción leve",
+                    "Un delito castigado en el Código Penal",
+                    "Nada, si va con alguien que tiene permiso"
+                  ],
+                  "why": "Conducir un vehículo de motor sin haber obtenido nunca permiso o licencia es un delito, igual que conducir tras perder todos los puntos."
+                },
+                "en": {
+                  "q": "Someone who has never obtained a driving permit drives a car on a public road. What do they commit?",
+                  "options": [
+                    "A minor offense",
+                    "A crime punished under the Criminal Code",
+                    "Nothing, if a licensed driver is with them"
+                  ],
+                  "why": "Driving a motor vehicle without ever having obtained a permit or license is a crime, as is driving after losing all points."
+                },
+                "exam": {
+                  "q": "A person who has never obtained the driving licence drives a car on the public road. What does he commit?",
+                  "options": [
+                    "A minor offence.",
+                    "A crime punished in the Penal Code.",
+                    "Nothing, if he goes with someone who has a licence."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "Código Penal",
+                    "en": "Penal Code"
+                  },
+                  {
+                    "es": "pérdida de vigencia",
+                    "en": "loss of validity"
+                  }
+                ],
+                "src": "Código Penal art. 384"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-duties-7",
+                "answer": 2,
+                "es": {
+                  "q": "En una autovía limitada a 120 km/h, ¿a partir de qué exceso de velocidad se comete un delito?",
+                  "options": [
+                    "Más de 30 km/h por encima",
+                    "Más de 60 km/h por encima",
+                    "Más de 80 km/h por encima"
+                  ],
+                  "why": "Fuera de poblado, el Código Penal castiga superar en más de 80 km/h la velocidad permitida. En vía urbana, en más de 60 km/h."
+                },
+                "en": {
+                  "q": "On an autovía limited to 120 km/h, from what excess speed is it a crime?",
+                  "options": [
+                    "More than 30 km/h over",
+                    "More than 60 km/h over",
+                    "More than 80 km/h over"
+                  ],
+                  "why": "On open roads, the Criminal Code punishes exceeding the permitted speed by more than 80 km/h. On urban roads, by more than 60 km/h."
+                },
+                "exam": {
+                  "q": "On a dual carriageway limited to 120 km/h, from which excess of speed is a crime committed?",
+                  "options": [
+                    "More than 30 km/h above.",
+                    "More than 60 km/h above.",
+                    "More than 80 km/h above."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "vía interurbana",
+                    "en": "interurban road"
+                  },
+                  {
+                    "es": "exceso de velocidad",
+                    "en": "excess speed"
+                  }
+                ],
+                "src": "Código Penal art. 379.1"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "Cambio de datos del permiso o de **domicilio**: a Tráfico en **15 días**.",
+          "en": "Change of permit data or **address**: tell Tráfico within **15 days**."
+        },
+        {
+          "es": "Responde el **autor**; si es menor, también sus **padres o tutores**.",
+          "en": "The **perpetrator** is liable; for a minor, the **parents or guardians** too."
+        },
+        {
+          "es": "El **conductor** responde del pasajero sin casco.",
+          "en": "The **driver** is liable for a passenger without a helmet."
+        },
+        {
+          "es": "Delito: +60 km/h en ciudad, +80 km/h fuera, más de **0,60 mg/l**, negarse a la prueba o conducir sin permiso.",
+          "en": "Crime: +60 km/h in town, +80 km/h outside, over **0.60 mg/l**, refusing the test, or driving with no permit."
+        }
+      ],
+      "covers": [],
+      "src": [
+        "Reglamento General de Conductores (RD 818/2009), arts. 3, 10 y 36",
+        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), art. 82",
+        "Código Penal (LO 10/1995), arts. 379, 380, 382 bis, 383 y 384"
+      ]
+    },
+    {
       "id": "exam",
       "title": {
         "es": "El camino al permiso B: las pruebas",
@@ -3960,6 +4818,501 @@
       ],
       "src": [
         "Reglamento General de Conductores (RD 818/2009), arts. 41, 43, 49, 51, 53, 55 y 58, y anexos V y VI"
+      ]
+    },
+    {
+      "id": "vehicles",
+      "title": {
+        "es": "Los vehículos según la ley",
+        "en": "Vehicles as the law defines them"
+      },
+      "minutes": 5,
+      "goals": [
+        {
+          "es": "Distinguir vehículo de motor, automóvil, ciclomotor y motocicleta.",
+          "en": "Tell apart motor vehicle, automobile, moped and motorcycle."
+        },
+        {
+          "es": "Reconocer el vehículo mixto adaptable y el remolque ligero.",
+          "en": "Recognize the adaptable mixed-use vehicle and the light trailer."
+        }
+      ],
+      "terms": [
+        {
+          "es": "vehículo de motor",
+          "en": "motor vehicle"
+        },
+        {
+          "es": "automóvil",
+          "en": "automobile"
+        },
+        {
+          "es": "ciclomotor",
+          "en": "moped"
+        },
+        {
+          "es": "motocicleta",
+          "en": "motorcycle"
+        },
+        {
+          "es": "cuadriciclo ligero",
+          "en": "light quadricycle"
+        },
+        {
+          "es": "vehículo mixto adaptable",
+          "en": "adaptable mixed-use vehicle"
+        },
+        {
+          "es": "velocidad máxima por construcción",
+          "en": "maximum design speed"
+        }
+      ],
+      "pretest": {
+        "id": "docs-pre-vehicles",
+        "answer": 1,
+        "es": {
+          "q": "Un amigo dice que su moto no es un «automóvil» porque solo tiene dos ruedas. ¿Tiene razón según la ley de tráfico?",
+          "options": [
+            "Sí: solo son automóviles los de cuatro ruedas",
+            "No: la ley incluye la motocicleta entre los automóviles",
+            "Depende de si lleva sidecar"
+          ],
+          "why": "El Anexo I de la ley de tráfico dice que tienen la condición de motocicleta ciertos automóviles de dos o tres ruedas."
+        },
+        "en": {
+          "q": "A friend says his motorcycle is not an “automobile” because it has only two wheels. Is he right under the traffic law?",
+          "options": [
+            "Yes: only four-wheeled vehicles are automobiles",
+            "No: the law counts the motorcycle as an automobile",
+            "It depends on whether it has a sidecar"
+          ],
+          "why": "Annex I of the traffic law says that certain two- and three-wheeled automobiles count as motorcycles."
+        },
+        "exam": {
+          "q": "A friend says that his motorcycle is not an \"automobile\" because it only has two wheels. Is he right according to the traffic law?",
+          "options": [
+            "Yes: only those of four wheels are automobiles.",
+            "No: the law includes the motorcycle among the automobiles.",
+            "It depends on whether it carries sidecar."
+          ]
+        },
+        "terms": [
+          {
+            "es": "automóvil",
+            "en": "automobile"
+          }
+        ],
+        "src": "LSV Anexo I, 13 y 14"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Vehículo, vehículo de motor y automóvil",
+            "en": "Vehicle, motor vehicle and automobile"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "El examen usa las palabras de la ley con su sentido exacto. Tres de ellas se parecen mucho:",
+                "en": "The exam uses the law’s words with their exact meaning. Three of them look very alike:"
+              }
+            },
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Término",
+                  "en": "Term"
+                },
+                {
+                  "es": "Qué es",
+                  "en": "What it is"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "**Vehículo**",
+                    "en": "**Vehicle** (vehículo)"
+                  },
+                  {
+                    "es": "Cualquier aparato apto para circular por las vías",
+                    "en": "Any device fit to travel on the roads"
+                  }
+                ],
+                [
+                  {
+                    "es": "**Vehículo de motor**",
+                    "en": "**Motor vehicle** (vehículo de motor)"
+                  },
+                  {
+                    "es": "El que tiene motor para moverse. **No** lo son los ciclomotores, los tranvías ni los vehículos para personas de movilidad reducida",
+                    "en": "One with an engine to move it. Mopeds, trams and vehicles for people with reduced mobility are **not**"
+                  }
+                ],
+                [
+                  {
+                    "es": "**Automóvil**",
+                    "en": "**Automobile** (automóvil)"
+                  },
+                  {
+                    "es": "Vehículo de motor que sirve normalmente para llevar personas o cosas, o para arrastrar otros vehículos. No lo son los vehículos especiales",
+                    "en": "A motor vehicle normally used to carry people or goods, or to tow other vehicles. Special vehicles are not"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Esas definiciones son las del Anexo I de la ley de tráfico.",
+                "en": "These definitions are those of Annex I of the traffic law."
+              },
+              "src": "LSV Anexo I, 6, 12 y 13"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-veh-1",
+                "answer": 2,
+                "es": {
+                  "q": "Según la ley, ¿es un ciclomotor un «vehículo de motor»?",
+                  "options": [
+                    "Sí, porque tiene motor",
+                    "Solo si su motor es de gasolina",
+                    "No: la ley excluye a los ciclomotores de esa definición"
+                  ],
+                  "why": "La ley define el vehículo de motor como el provisto de motor para su propulsión, pero excluye expresamente a los ciclomotores, los tranvías y los vehículos para personas de movilidad reducida."
+                },
+                "en": {
+                  "q": "According to the law, is a moped a “motor vehicle”?",
+                  "options": [
+                    "Yes, because it has an engine",
+                    "Only if it has a gasoline engine",
+                    "No: the law leaves mopeds out of that definition"
+                  ],
+                  "why": "The law defines a motor vehicle as one with an engine for propulsion, but expressly leaves out mopeds, trams and vehicles for people with reduced mobility."
+                },
+                "exam": {
+                  "q": "According to the law, is a moped a \"motor vehicle\"?",
+                  "options": [
+                    "Yes, because it has an engine.",
+                    "Only if its engine is of petrol.",
+                    "No; the law excludes mopeds from that definition."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "vehículo de motor",
+                    "en": "motor vehicle"
+                  },
+                  {
+                    "es": "ciclomotor",
+                    "en": "moped"
+                  }
+                ],
+                "src": "LSV Anexo I, 12"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "¿Ciclomotor o motocicleta?",
+            "en": "Moped or motorcycle?"
+          },
+          "blocks": [
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Vehículo",
+                  "en": "Vehicle"
+                },
+                {
+                  "es": "Definición",
+                  "en": "Definition"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "**Ciclomotor** de dos ruedas",
+                    "en": "Two-wheeled **moped**"
+                  },
+                  {
+                    "es": "Velocidad máxima por construcción de **45 km/h** o menos, y motor de **50 cm³** o menos (combustión) o 4 kW o menos (eléctrico)",
+                    "en": "Top design speed of **45 km/h** or less, and an engine of **50 cc** or less (combustion) or 4 kW or less (electric)"
+                  }
+                ],
+                [
+                  {
+                    "es": "Ciclomotor de cuatro ruedas (cuadriciclo ligero)",
+                    "en": "Four-wheeled moped (light quadricycle)"
+                  },
+                  {
+                    "es": "Masa en vacío de 350 kg o menos, sin baterías, y hasta 45 km/h",
+                    "en": "Unladen mass of 350 kg or less, without batteries, and up to 45 km/h"
+                  }
+                ],
+                [
+                  {
+                    "es": "**Motocicleta**",
+                    "en": "**Motorcycle**"
+                  },
+                  {
+                    "es": "Automóvil de dos ruedas con motor de **más de 50 cm³** (combustión) y/o velocidad máxima de **más de 45 km/h**",
+                    "en": "A two-wheeled automobile with an engine **over 50 cc** (combustion) and/or a top speed **over 45 km/h**"
+                  }
+                ],
+                [
+                  {
+                    "es": "Motocicleta con sidecar",
+                    "en": "Motorcycle with sidecar"
+                  },
+                  {
+                    "es": "La misma, con tres ruedas asimétricas",
+                    "en": "The same, on three asymmetric wheels"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Basta con superar uno de los dos límites, la cilindrada o la velocidad, para que el vehículo de dos ruedas sea una motocicleta.",
+                "en": "Exceeding just one of the two limits, engine size or speed, is enough for a two-wheeler to be a motorcycle."
+              },
+              "src": "LSV Anexo I, 9 y 14"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-veh-2",
+                "answer": 1,
+                "es": {
+                  "q": "Compras un vehículo de dos ruedas cuya ficha técnica indica una velocidad máxima de 70 km/h. ¿Cómo lo clasifica la ley?",
+                  "options": [
+                    "Como ciclomotor",
+                    "Como motocicleta",
+                    "Como vehículo de movilidad personal"
+                  ],
+                  "why": "Un automóvil de dos ruedas con motor de más de 50 cm³ y/o velocidad máxima por construcción superior a 45 km/h es una motocicleta."
+                },
+                "en": {
+                  "q": "You buy a two-wheeler whose technical data sheet gives a top speed of 70 km/h. How does the law class it?",
+                  "options": [
+                    "As a moped",
+                    "As a motorcycle",
+                    "As a personal mobility vehicle"
+                  ],
+                  "why": "A two-wheeled automobile with an engine over 50 cc and/or a top design speed over 45 km/h is a motorcycle."
+                },
+                "exam": {
+                  "q": "You buy a vehicle of two wheels whose technical card indicates a maximum speed of 70 km/h. How does the law classify it?",
+                  "options": [
+                    "As a moped.",
+                    "As a motorcycle.",
+                    "As a personal mobility vehicle."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "motocicleta",
+                    "en": "motorcycle"
+                  },
+                  {
+                    "es": "por construcción",
+                    "en": "by construction (by design)"
+                  }
+                ],
+                "src": "LSV Anexo I, 14.a"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-veh-3",
+                "answer": 0,
+                "es": {
+                  "q": "Un ciclomotor de dos ruedas con motor de combustión, ¿qué cilindrada máxima puede tener?",
+                  "options": [
+                    "50 cm³",
+                    "125 cm³",
+                    "75 cm³"
+                  ],
+                  "why": "El ciclomotor de dos ruedas no supera los 45 km/h por construcción y su motor de combustión es de 50 cm³ o menos."
+                },
+                "en": {
+                  "q": "What is the largest engine a two-wheeled moped with a combustion engine may have?",
+                  "options": [
+                    "50 cc",
+                    "125 cc",
+                    "75 cc"
+                  ],
+                  "why": "A two-wheeled moped does not exceed 45 km/h by design, and its combustion engine is 50 cc or less."
+                },
+                "exam": {
+                  "q": "A two-wheeled moped with internal combustion engine, which maximum cylinder capacity can it have?",
+                  "options": [
+                    "50 cubic centimetres.",
+                    "125 cubic centimetres.",
+                    "75 cubic centimetres."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "cilindrada",
+                    "en": "cylinder capacity"
+                  },
+                  {
+                    "es": "motor de combustión interna",
+                    "en": "internal combustion engine"
+                  }
+                ],
+                "src": "LSV Anexo I, 9.a"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Turismos, mixtos y remolques",
+            "en": "Cars, mixed-use vehicles and trailers"
+          },
+          "blocks": [
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Término",
+                  "en": "Term"
+                },
+                {
+                  "es": "Qué es",
+                  "en": "What it is"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "**Turismo**",
+                    "en": "**Passenger car** (turismo)"
+                  },
+                  {
+                    "es": "Automóvil para personas, de al menos cuatro ruedas y hasta ocho plazas además del conductor",
+                    "en": "An automobile for people, with at least four wheels and up to eight seats besides the driver"
+                  }
+                ],
+                [
+                  {
+                    "es": "**Camión**",
+                    "en": "**Truck** (camión)"
+                  },
+                  {
+                    "es": "Automóvil de cuatro o más ruedas para mercancías, con la cabina separada de la carrocería y hasta nueve plazas con el conductor",
+                    "en": "An automobile with four or more wheels for goods, with the cab separate from the body and up to nine seats including the driver"
+                  }
+                ],
+                [
+                  {
+                    "es": "**Vehículo mixto adaptable**",
+                    "en": "**Adaptable mixed-use vehicle**"
+                  },
+                  {
+                    "es": "Automóvil para mercancías y personas, hasta **nueve** con el conductor, en el que se puede cambiar carga por personas **añadiendo asientos**",
+                    "en": "An automobile for goods and people, up to **nine** including the driver, where load can be swapped for people by **adding seats**"
+                  }
+                ],
+                [
+                  {
+                    "es": "**Remolque ligero**",
+                    "en": "**Light trailer**"
+                  },
+                  {
+                    "es": "Remolque de **750 kg** de MMA o menos",
+                    "en": "A trailer with an MMA of **750 kg** or less"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Las definiciones de turismo, camión, vehículo mixto adaptable y remolque ligero son las del Anexo I de la ley de tráfico.",
+                "en": "The definitions of passenger car, truck, adaptable mixed-use vehicle and light trailer are those of Annex I of the traffic law."
+              },
+              "src": "LSV Anexo I, 15, 18, 19 y 21"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-veh-4",
+                "answer": 2,
+                "es": {
+                  "q": "Según la ley, ¿qué es un vehículo mixto adaptable?",
+                  "options": [
+                    "Un turismo que arrastra un remolque ligero",
+                    "Un vehículo con motor eléctrico y de gasolina",
+                    "Un automóvil para mercancías y personas, hasta nueve con el conductor, que admite más asientos"
+                  ],
+                  "why": "Es un automóvil para transportar mercancías y personas, hasta nueve incluido el conductor, en el que la carga se puede sustituir por personas añadiendo asientos."
+                },
+                "en": {
+                  "q": "According to the law, what is an adaptable mixed-use vehicle?",
+                  "options": [
+                    "A car towing a light trailer",
+                    "A vehicle with an electric and a gasoline engine",
+                    "An automobile for goods and people, up to nine with the driver, that takes extra seats"
+                  ],
+                  "why": "It is an automobile for carrying goods and people, up to nine including the driver, where the load can be replaced by people by adding seats."
+                },
+                "exam": {
+                  "q": "According to the law, what is an adaptable mixed vehicle?",
+                  "options": [
+                    "A passenger car that tows a light trailer.",
+                    "A vehicle with electric and petrol engine.",
+                    "An automobile for goods and persons, up to nine including the driver, that admits more seats."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "vehículo mixto adaptable",
+                    "en": "adaptable mixed vehicle"
+                  },
+                  {
+                    "es": "plazas",
+                    "en": "seats"
+                  }
+                ],
+                "src": "LSV Anexo I, 19"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "El **ciclomotor** no es un «vehículo de motor» para la ley.",
+          "en": "For the law, a **moped** is not a “motor vehicle”."
+        },
+        {
+          "es": "La **motocicleta** es un automóvil: más de 50 cm³ y/o más de 45 km/h.",
+          "en": "A **motorcycle** is an automobile: over 50 cc and/or over 45 km/h."
+        },
+        {
+          "es": "Ciclomotor de dos ruedas: hasta **45 km/h** y **50 cm³**.",
+          "en": "Two-wheeled moped: up to **45 km/h** and **50 cc**."
+        },
+        {
+          "es": "Mixto adaptable: hasta **nueve** personas con el conductor; remolque ligero: hasta **750 kg**.",
+          "en": "Adaptable mixed-use: up to **nine** people with the driver; light trailer: up to **750 kg**."
+        }
+      ],
+      "covers": [],
+      "src": [
+        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), Anexo I"
       ]
     }
   ]

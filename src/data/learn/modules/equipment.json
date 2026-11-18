@@ -276,6 +276,66 @@
                 ],
                 "src": "RD 1507/2008 art. 14.2"
               }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "El seguro obligatorio **no cubre** las lesiones ni la muerte del conductor del vehículo que causa el accidente.",
+                "en": "Compulsory insurance **does not cover** injury to, or the death of, the driver of the vehicle that causes the crash."
+              },
+              "src": "RDL 8/2004 art. 5.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Tampoco cubre los daños en el propio vehículo asegurado ni en las cosas que lleva.",
+                "en": "Nor does it cover damage to the insured vehicle itself or to the things it carries."
+              },
+              "src": "RDL 8/2004 art. 5.2"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c1e",
+                "answer": 1,
+                "es": {
+                  "q": "Provocas un accidente con tu coche y te lesionas. ¿Cubre el seguro obligatorio tus propias lesiones?",
+                  "options": [
+                    "Sí, cubre a todas las personas del accidente",
+                    "No: no cubre las lesiones del conductor que causa el accidente",
+                    "Solo si el accidente ocurre en poblado"
+                  ],
+                  "why": "El seguro obligatorio cubre los daños que causas a otros, pero no las lesiones del conductor del vehículo causante ni los daños en ese vehículo."
+                },
+                "en": {
+                  "q": "You cause a crash with your car and you are injured. Does the compulsory insurance cover your own injuries?",
+                  "options": [
+                    "Yes, it covers everyone in the crash",
+                    "No: it does not cover injuries to the driver who causes the crash",
+                    "Only if the crash happens in a town"
+                  ],
+                  "why": "Compulsory insurance covers the harm you cause to others, but not injury to the driver of the vehicle that caused the crash or damage to that vehicle."
+                },
+                "exam": {
+                  "q": "You provoke an accident with your car and you are injured. Does the compulsory insurance cover your own injuries?",
+                  "options": [
+                    "Yes, it covers all the persons of the accident.",
+                    "No; it does not cover the injuries of the driver who provokes the accident.",
+                    "Only if the accident occurs in a town."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "seguro obligatorio",
+                    "en": "compulsory insurance"
+                  },
+                  {
+                    "es": "conductor causante",
+                    "en": "driver at fault"
+                  }
+                ],
+                "src": "RDL 8/2004 art. 5.1"
+              }
             }
           ]
         },
@@ -371,13 +431,17 @@
         {
           "es": "El **titular** mantiene el vehículo y la **matrícula** debe leerse.",
           "en": "The **owner** keeps the vehicle in order and the **plate** must be readable."
+        },
+        {
+          "es": "El seguro obligatorio **no cubre** al conductor que causa el accidente.",
+          "en": "Compulsory insurance **does not cover** the driver who causes the crash."
         }
       ],
       "covers": [],
       "src": [
         "Ley de Tráfico y Seguridad Vial (RDL 6/2015), arts. 10 y 59",
         "Reglamento General de Vehículos (RD 2822/1998), arts. 1 y 3",
-        "Texto refundido de la Ley sobre responsabilidad civil y seguro en la circulación de vehículos a motor (RDL 8/2004), art. 2",
+        "Texto refundido de la Ley sobre responsabilidad civil y seguro en la circulación de vehículos a motor (RDL 8/2004), arts. 2 y 5",
         "Reglamento del seguro obligatorio (RD 1507/2008), art. 14"
       ]
     },
@@ -608,6 +672,50 @@
                   {
                     "es": "bienal",
                     "en": "every two years"
+                  }
+                ],
+                "src": "RD 920/2017 art. 6.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c2f",
+                "answer": 2,
+                "es": {
+                  "q": "Para saber cuándo toca la primera ITV, ¿desde qué fecha cuenta la antigüedad del vehículo?",
+                  "options": [
+                    "Desde la fecha de compra",
+                    "Desde la fecha de fabricación",
+                    "Desde su primera matriculación"
+                  ],
+                  "why": "La antigüedad se cuenta desde la fecha de primera matriculación o puesta en servicio que consta en el Registro de Vehículos."
+                },
+                "en": {
+                  "q": "To know when the first ITV is due, from what date is the vehicle’s age counted?",
+                  "options": [
+                    "From the date you bought it",
+                    "From the date it was made",
+                    "From its first registration"
+                  ],
+                  "why": "Age counts from the date of first registration or entry into service recorded in the Vehicle Register."
+                },
+                "exam": {
+                  "q": "In order to know when the first ITV corresponds, from which date is the age of the vehicle counted?",
+                  "options": [
+                    "From the date of purchase.",
+                    "From the date of manufacture.",
+                    "From its first registration."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "primera matriculación",
+                    "en": "first registration"
+                  },
+                  {
+                    "es": "antigüedad",
+                    "en": "age (of the vehicle)"
                   }
                 ],
                 "src": "RD 920/2017 art. 6.1"
@@ -1021,7 +1129,7 @@
         "es": "Luces: cuándo y cuáles",
         "en": "Lights: when and which"
       },
-      "minutes": 8,
+      "minutes": 10,
       "goals": [
         {
           "es": "Saber cuándo debes llevar luces encendidas.",
@@ -1034,6 +1142,10 @@
         {
           "es": "Evitar el deslumbramiento y usar las luces antiniebla solo cuando toca.",
           "en": "Avoid dazzling others and use fog lights only when allowed."
+        },
+        {
+          "es": "Saber qué luces lleva un turismo y una moto.",
+          "en": "Know which lights a car and a motorcycle have."
         }
       ],
       "terms": [
@@ -1105,6 +1217,12 @@
               "src": "RGC art. 98.1"
             },
             {
+              "t": "signs",
+              "ids": [
+                "s-5"
+              ]
+            },
+            {
               "t": "rule",
               "text": {
                 "es": "El alumbrado también es obligatorio cuando el tiempo o el ambiente **reducen de forma notable la visibilidad**: niebla, lluvia intensa, nieve, humo o polvo.",
@@ -1165,6 +1283,81 @@
                   }
                 ],
                 "src": "RGC art. 98.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Túneles y pasos inferiores",
+            "en": "Tunnels and underpasses"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "En un túnel o un **paso inferior** llevas luces a cualquier hora, también de día. Cuáles depende de la iluminación.",
+                "en": "In a tunnel or an **underpass** you have lights on at any hour, also by day. Which ones depends on the lighting."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "En túneles, pasos inferiores y tramos con la señal «Túnel» **suficientemente iluminados**, llevas encendidas, a cualquier hora, la luz de posición y la luz de **cruce**.",
+                "en": "In tunnels, underpasses and stretches with the “Tunnel” sign that are **well lit**, you have the position lights and the **low beam** on, at any hour."
+              },
+              "src": "RGC art. 101.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si el túnel está **mal iluminado**, llevas la luz de cruce cuando no tienes luz de carretera, cuando vas a 40 km/h o menos sin usar la de carretera, o cuando podrías deslumbrar.",
+                "en": "If the tunnel is **poorly lit**, you use the low beam when you have no high beam, when you go at 40 km/h or less without using the high beam, or when you could dazzle someone."
+              },
+              "src": "RGC art. 101.2"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c3e",
+                "answer": 1,
+                "es": {
+                  "q": "Es de día y entras en un paso inferior bien iluminado. ¿Qué luces llevas encendidas?",
+                  "options": [
+                    "Ninguna, porque ya hay luz suficiente",
+                    "La luz de posición y la luz de cruce",
+                    "Solo la luz de posición"
+                  ],
+                  "why": "En túneles y pasos inferiores suficientemente iluminados llevas, a cualquier hora, la luz de posición y la de cruce."
+                },
+                "en": {
+                  "q": "It is daytime and you enter a well-lit underpass. Which lights do you have on?",
+                  "options": [
+                    "None, because there is already enough light",
+                    "The position lights and the low beam",
+                    "Only the position lights"
+                  ],
+                  "why": "In well-lit tunnels and underpasses you have the position lights and the low beam on, at any hour."
+                },
+                "exam": {
+                  "q": "It is daytime and you enter a sufficiently illuminated underpass. Which lights do you carry switched on?",
+                  "options": [
+                    "None, because there is already sufficient light.",
+                    "The position light and the dipped beam.",
+                    "Only the position light."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "paso inferior",
+                    "en": "underpass"
+                  },
+                  {
+                    "es": "luz de cruce",
+                    "en": "dipped beam (low beam)"
+                  }
+                ],
+                "src": "RGC art. 101.1"
               }
             }
           ]
@@ -1435,28 +1628,28 @@
                 "id": "equipment-c3d",
                 "answer": 0,
                 "es": {
-                  "q": "¿Cuándo debes llevar encendida la luz antiniebla trasera?",
+                  "q": "Llueve de forma moderada por la noche y un conductor enciende el antiniebla trasero. ¿Es correcto?",
                   "options": [
-                    "Solo con niebla espesa, lluvia muy intensa, fuerte nevada o nubes densas de polvo o humo",
-                    "Siempre que llueva un poco de noche",
-                    "Siempre que circules por una calle iluminada"
+                    "No: solo se usa con niebla espesa, lluvia muy intensa, fuerte nevada o nubes densas de polvo o humo",
+                    "Sí: se puede usar siempre que llueva de noche",
+                    "Sí: se puede usar siempre que haya poca luz"
                   ],
                   "why": "La antiniebla trasera solo debe llevarse encendida cuando las condiciones son especialmente desfavorables: niebla espesa, lluvia muy intensa, fuerte nevada o nubes densas de polvo o humo."
                 },
                 "exam": {
-                  "q": "When must you carry switched on the rear fog light?",
+                  "q": "It rains in a moderate way at night and a driver switches on the rear fog light. Is it correct?",
                   "options": [
-                    "Only with thick fog, very intense rain, strong snowfall or dense clouds of dust or smoke.",
-                    "Whenever it rains a little at night.",
-                    "Whenever you circulate by an illuminated street."
+                    "No: it is only used with thick fog, very intense rain, strong snowfall or dense clouds of dust or smoke.",
+                    "Yes: it can be used whenever it rains at night.",
+                    "Yes: it can be used whenever there is little light."
                   ]
                 },
                 "en": {
-                  "q": "When should the rear fog light be on?",
+                  "q": "It is raining moderately at night and a driver switches on the rear fog light. Is that correct?",
                   "options": [
-                    "Only in dense fog, very heavy rain, heavy snow or thick clouds of dust or smoke",
-                    "Whenever it rains a little at night",
-                    "Whenever you drive on a lit street"
+                    "No: it is only for dense fog, very heavy rain, heavy snow or thick clouds of dust or smoke",
+                    "Yes: it may be used whenever it rains at night",
+                    "Yes: it may be used whenever light is poor"
                   ],
                   "why": "The rear fog light should be on only in especially bad conditions: dense fog, very heavy rain, heavy snow or thick clouds of dust or smoke."
                 },
@@ -1467,6 +1660,220 @@
                   }
                 ],
                 "src": "RGC art. 106.2"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Las luces que lleva cada vehículo",
+            "en": "The lights each vehicle has"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "El reglamento de vehículos fija qué luces debe montar cada tipo de vehículo. Algunas son obligatorias y otras opcionales.",
+                "en": "The vehicle regulation sets which lights each type of vehicle must have. Some are compulsory and others optional."
+              }
+            },
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Luz",
+                  "en": "Light"
+                },
+                {
+                  "es": "Turismo",
+                  "en": "Car"
+                },
+                {
+                  "es": "Motocicleta",
+                  "en": "Motorcycle"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "Cruce",
+                    "en": "Low beam"
+                  },
+                  {
+                    "es": "2, obligatorias",
+                    "en": "2, compulsory"
+                  },
+                  {
+                    "es": "1 o 2, obligatoria",
+                    "en": "1 or 2, compulsory"
+                  }
+                ],
+                [
+                  {
+                    "es": "Carretera (largas)",
+                    "en": "High beam"
+                  },
+                  {
+                    "es": "Número par, obligatorias",
+                    "en": "An even number, compulsory"
+                  },
+                  {
+                    "es": "1 o 2, obligatoria",
+                    "en": "1 or 2, compulsory"
+                  }
+                ],
+                [
+                  {
+                    "es": "Frenado",
+                    "en": "Brake"
+                  },
+                  {
+                    "es": "2 detrás, en los bordes, obligatorias",
+                    "en": "2 at the rear, at the edges, compulsory"
+                  },
+                  {
+                    "es": "1 o 2, obligatoria",
+                    "en": "1 or 2, compulsory"
+                  }
+                ],
+                [
+                  {
+                    "es": "Antiniebla delantera",
+                    "en": "Front fog light"
+                  },
+                  {
+                    "es": "Opcional",
+                    "en": "Optional"
+                  },
+                  {
+                    "es": "Opcional",
+                    "en": "Optional"
+                  }
+                ],
+                [
+                  {
+                    "es": "Antiniebla trasera",
+                    "en": "Rear fog light"
+                  },
+                  {
+                    "es": "1 o 2, obligatoria",
+                    "en": "1 or 2, compulsory"
+                  },
+                  {
+                    "es": "Opcional",
+                    "en": "Optional"
+                  }
+                ],
+                [
+                  {
+                    "es": "Placa de matrícula trasera",
+                    "en": "Rear license plate"
+                  },
+                  {
+                    "es": "Obligatoria",
+                    "en": "Compulsory"
+                  },
+                  {
+                    "es": "Obligatoria",
+                    "en": "Compulsory"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "La **luz de frenado** avisa a quien va detrás de que el conductor está usando el freno de servicio.",
+                "en": "The **brake light** tells those behind that the driver is using the service brake."
+              },
+              "src": "LSV Anexo I, 47"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c3f",
+                "answer": 1,
+                "es": {
+                  "q": "Tu motocicleta, sin sidecar, tiene un solo faro de cruce delante. ¿Cumple la norma?",
+                  "options": [
+                    "No: necesita dos, uno a cada lado del manillar",
+                    "Sí: puede llevar uno o dos delante",
+                    "No: además necesita otro detrás"
+                  ],
+                  "why": "El reglamento de vehículos exige a las motocicletas una o dos luces de cruce delante. La luz de carretera también es obligatoria."
+                },
+                "en": {
+                  "q": "Your motorcycle, without a sidecar, has a single low-beam headlight at the front. Does it comply?",
+                  "options": [
+                    "No: it needs two, one on each side of the handlebar",
+                    "Yes: it may have one or two at the front",
+                    "No: it also needs another at the rear"
+                  ],
+                  "why": "The vehicle regulation requires motorcycles to have one or two low beams at the front. The high beam is compulsory too."
+                },
+                "exam": {
+                  "q": "Your motorcycle, without sidecar, has a single dipped-beam headlamp in front. Does it comply with the norm?",
+                  "options": [
+                    "No: it needs two, one at each side of the handlebar.",
+                    "Yes: it can carry one or two in front.",
+                    "No: besides, it needs another one behind."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "luz de cruce",
+                    "en": "dipped beam (low beam)"
+                  },
+                  {
+                    "es": "sidecar",
+                    "en": "sidecar"
+                  }
+                ],
+                "src": "RGV Anexo X, ap. 2"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c3g",
+                "answer": 2,
+                "es": {
+                  "q": "En un turismo, ¿cuál de estas luces es opcional?",
+                  "options": [
+                    "La luz antiniebla trasera",
+                    "La luz de la placa de matrícula trasera",
+                    "La luz antiniebla delantera"
+                  ],
+                  "why": "En un turismo la antiniebla delantera es opcional. La antiniebla trasera y la luz de la placa trasera son obligatorias."
+                },
+                "en": {
+                  "q": "In a car, which of these lights is optional?",
+                  "options": [
+                    "The rear fog light",
+                    "The rear license plate light",
+                    "The front fog light"
+                  ],
+                  "why": "On a car the front fog light is optional. The rear fog light and the rear plate light are compulsory."
+                },
+                "exam": {
+                  "q": "In a passenger car, which of these lights is optional?",
+                  "options": [
+                    "The rear fog light.",
+                    "The light of the rear number plate.",
+                    "The front fog light."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "luz antiniebla",
+                    "en": "fog light"
+                  },
+                  {
+                    "es": "turismo",
+                    "en": "passenger car"
+                  }
+                ],
+                "src": "RGV Anexo X, ap. 2"
               }
             }
           ]
@@ -1492,12 +1899,18 @@
         {
           "es": "**Antiniebla trasera** solo con condiciones especialmente malas.",
           "en": "**Rear fog light** only in especially bad conditions."
+        },
+        {
+          "es": "En un túnel **bien iluminado**: posición y cruce. En el turismo, la antiniebla delantera es **opcional**.",
+          "en": "In a **well-lit** tunnel: position lights and low beam. On a car, the front fog light is **optional**."
         }
       ],
       "covers": [],
       "src": [
         "Reglamento General de Circulación (RD 1428/2003), arts. 98 a 103 y 106",
-        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), art. 76.e"
+        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), art. 76.e",
+        "Reglamento General de Vehículos (RD 2822/1998), Anexo X",
+        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), Anexo I"
       ]
     },
     {
@@ -1506,7 +1919,7 @@
         "es": "Más luces: de día, parado y de emergencia",
         "en": "More lights: by day, stopped and hazard lights"
       },
-      "minutes": 7,
+      "minutes": 8,
       "goals": [
         {
           "es": "Saber quién lleva la luz de cruce de día.",
@@ -1519,6 +1932,10 @@
         {
           "es": "Avisar de tus maniobras con las luces y apagarlas a tiempo.",
           "en": "Warn of your maneuvers with your lights and cancel them in time."
+        },
+        {
+          "es": "Saber qué indica la luz amarilla V-2.",
+          "en": "Know what the V-2 amber light means."
         }
       ],
       "terms": [
@@ -1595,6 +2012,12 @@
                 "es": "Un turismo normal no está en esa lista, salvo en esos carriles. Pero un turismo también lleva luces de día en un túnel o cuando la visibilidad baja de forma notable. En algunos tramos es obligatoria la luz de cruce. La señal S-24 marca el **final** de un tramo así y recuerda que puedes apagarla, salvo que la visibilidad, el horario o la iluminación de la vía te obliguen a llevarla.",
                 "en": "An ordinary car is not on that list, except in those lanes. But a car also uses lights by day in a tunnel or when visibility drops noticeably. On some stretches the low beam is compulsory. Sign S-24 marks the **end** of such a stretch and reminds you that you may switch it off, unless visibility, the time of day or the lighting of the road require it."
               }
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "s-24"
+              ]
             },
             {
               "t": "check",
@@ -1819,6 +2242,133 @@
               }
             }
           ]
+        },
+        {
+          "title": {
+            "es": "La luz amarilla de los vehículos que trabajan (V-2)",
+            "en": "The amber light of working vehicles (V-2)"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "La señal **V-2** es una luz de color amarillo auto. Indica un vehículo que hace un servicio, una actividad o una obra en la vía: parado, estacionado o circulando a **40 km/h** como máximo.",
+                "en": "The **V-2** signal is an amber light. It marks a vehicle doing a service, activity or work on the road: stopped, parked or moving at no more than **40 km/h**."
+              },
+              "src": "RGV Anexo XI, V-2.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si la V-2 se **avería**, el vehículo usa la luz de cruce junto con la señal de emergencia.",
+                "en": "If the V-2 **fails**, the vehicle uses the low beam together with the hazard lights."
+              },
+              "src": "RGV Anexo XI, V-2.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Está prohibido montar y usar la V-2 en vehículos que no son un obstáculo en la vía.",
+                "en": "Fitting and using the V-2 on vehicles that are not an obstacle on the road is forbidden."
+              },
+              "src": "RGV Anexo XI, V-2.5"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "No la confundas con la luz azul de los vehículos prioritarios: la V-2 avisa de un obstáculo, no pide paso. Las prioridades están en el módulo «Prioridad, intersecciones y semáforos».",
+                "en": "Do not confuse it with the blue light of priority vehicles: the V-2 warns of an obstacle, it does not claim right of way. Priority is in the “Right of way, junctions and traffic lights” module."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c4e",
+                "answer": 2,
+                "es": {
+                  "q": "Delante de ti, en la carretera, va muy despacio un vehículo de conservación con una luz amarilla auto encendida en el techo. ¿Qué te dice esa luz?",
+                  "options": [
+                    "Que es un vehículo prioritario y debes apartarte",
+                    "Que lleva una carga peligrosa",
+                    "Que trabaja en la vía, parado o a 40 km/h como máximo"
+                  ],
+                  "why": "La señal V-2, una luz amarilla auto, marca un vehículo que hace un servicio u obra en la vía, parado, estacionado o a no más de 40 km/h."
+                },
+                "en": {
+                  "q": "Ahead of you on the road, a road-maintenance vehicle is moving very slowly with an amber light on its roof. What is that light telling you?",
+                  "options": [
+                    "That it is a priority vehicle and you must pull over",
+                    "That it carries a dangerous load",
+                    "That it is working on the road, stopped or at 40 km/h at most"
+                  ],
+                  "why": "The V-2 signal, an amber light, marks a vehicle doing a service or work on the road, stopped, parked or at no more than 40 km/h."
+                },
+                "exam": {
+                  "q": "In front of you, on the road, a maintenance vehicle goes very slowly with a light of auto yellow colour switched on in the roof. What does that light tell you?",
+                  "options": [
+                    "That it is a priority vehicle and you must move aside.",
+                    "That it carries a dangerous load.",
+                    "That it works on the road, stopped or at 40 km/h as maximum."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "amarillo auto",
+                    "en": "amber"
+                  },
+                  {
+                    "es": "vehículo-obstáculo",
+                    "en": "vehicle that is an obstacle"
+                  }
+                ],
+                "src": "RGV Anexo XI, V-2.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c4f",
+                "answer": 0,
+                "es": {
+                  "q": "La luz amarilla auto que marca un vehículo de servicio en la vía se ha averiado. ¿Qué luces debe llevar?",
+                  "options": [
+                    "La luz de cruce y la señal de emergencia",
+                    "Solo las luces de posición",
+                    "La luz antiniebla trasera"
+                  ],
+                  "why": "Si la señal V-2 se avería, el vehículo debe usar la luz de cruce junto con las luces indicadoras de dirección en señal de emergencia."
+                },
+                "en": {
+                  "q": "The amber light that marks a service vehicle on the road has failed. Which lights must it use?",
+                  "options": [
+                    "The low beam and the hazard lights",
+                    "Only the position lights",
+                    "The rear fog light"
+                  ],
+                  "why": "If the V-2 signal fails, the vehicle must use the low beam together with the direction indicators as hazard lights."
+                },
+                "exam": {
+                  "q": "The auto yellow light that signals a service vehicle on the road has broken down. Which lights must it carry?",
+                  "options": [
+                    "The dipped beam and the emergency signal.",
+                    "Only the position lights.",
+                    "The rear fog light."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "avería",
+                    "en": "breakdown, failure"
+                  },
+                  {
+                    "es": "señal de emergencia",
+                    "en": "hazard lights"
+                  }
+                ],
+                "src": "RGV Anexo XI, V-2.1"
+              }
+            }
+          ]
         }
       ],
       "recap": [
@@ -1841,6 +2391,10 @@
         {
           "es": "El aviso lateral **acaba** cuando ya has tomado tu nueva trayectoria.",
           "en": "The lateral signal **ends** once you are on your new path."
+        },
+        {
+          "es": "La **V-2** amarilla marca un vehículo que trabaja en la vía, parado o a **40 km/h** como máximo.",
+          "en": "The amber **V-2** marks a vehicle working on the road, stopped or at **40 km/h** at most."
         }
       ],
       "covers": [
@@ -1848,7 +2402,8 @@
       ],
       "src": [
         "Reglamento General de Circulación (RD 1428/2003), arts. 49.3, 104, 105, 107, 109 y 130.4",
-        "Reglamento General de Circulación, Anexo I, ap. 5.1 (señal S-24, Catálogo de señales)"
+        "Reglamento General de Circulación, Anexo I, ap. 5.1 (señal S-24, Catálogo de señales)",
+        "Reglamento General de Vehículos (RD 2822/1998), Anexo XI, V-2"
       ]
     },
     {
@@ -1975,6 +2530,113 @@
                 "en": "**Motorcycles** must carry a high-visibility vest."
               },
               "src": "RGV Anexo XII, apartado 3"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los **autobuses**, los vehículos mixtos y de mercancías de más de **3.500 kg** y los **conjuntos de vehículos** llevan el V-16 y el chaleco, y además un **extintor** homologado y en condiciones de uso.",
+                "en": "**Buses**, mixed-use and goods vehicles over **3,500 kg**, and **vehicle combinations** carry the V-16 and the vest, plus an approved **fire extinguisher** in working order."
+              },
+              "src": "RGV Anexo XII, apartado 2"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Un turismo particular **sin remolque** no tiene que llevar extintor. Si arrastra un remolque, forma un conjunto de vehículos y sí debe llevarlo.",
+                "en": "A private car **without a trailer** does not have to carry an extinguisher. If it tows a trailer, it forms a vehicle combination and must carry one."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c5g",
+                "answer": 2,
+                "es": {
+                  "q": "Conduces un turismo particular sin remolque. ¿Es obligatorio llevar un extintor?",
+                  "options": [
+                    "Sí, todos los turismos deben llevarlo",
+                    "Solo si circulas por autopista",
+                    "No: el extintor no forma parte de la dotación de un turismo sin remolque"
+                  ],
+                  "why": "El extintor es obligatorio en autobuses, vehículos mixtos y de mercancías de más de 3.500 kg y conjuntos de vehículos. Un turismo solo no lo necesita."
+                },
+                "en": {
+                  "q": "You drive a private car with no trailer. Is it compulsory to carry a fire extinguisher?",
+                  "options": [
+                    "Yes, every car must carry one",
+                    "Only if you drive on a motorway",
+                    "No: an extinguisher is not part of the kit of a car without a trailer"
+                  ],
+                  "why": "An extinguisher is compulsory in buses, mixed-use and goods vehicles over 3,500 kg and vehicle combinations. A car on its own does not need one."
+                },
+                "exam": {
+                  "q": "You drive a private passenger car without trailer. Is it compulsory to carry a fire extinguisher?",
+                  "options": [
+                    "Yes, all passenger cars must carry it.",
+                    "Only if you circulate by motorway.",
+                    "No; the extinguisher does not form part of the equipment of a passenger car without trailer."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "extintor",
+                    "en": "fire extinguisher"
+                  },
+                  {
+                    "es": "conjunto de vehículos",
+                    "en": "vehicle combination"
+                  }
+                ],
+                "src": "RGV Anexo XII, apartados 1 y 2"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c5h",
+                "answer": 1,
+                "es": {
+                  "q": "Conduces un camión de 12.000 kg de masa máxima autorizada. Además de la señal V-16, ¿qué debe llevar a bordo?",
+                  "options": [
+                    "Nada más: chaleco y extintor solo se exigen en turismos",
+                    "Un chaleco de alta visibilidad y un extintor homologado",
+                    "Solo un extintor, y únicamente con mercancías peligrosas"
+                  ],
+                  "why": "Los vehículos de mercancías de más de 3.500 kg llevan el V-16 y el chaleco de alta visibilidad, y además un extintor homologado."
+                },
+                "en": {
+                  "q": "You drive a truck with a maximum authorized mass of 12,000 kg. Besides the V-16 beacon, what must it carry on board?",
+                  "options": [
+                    "Nothing else: the vest and extinguisher are only required in cars",
+                    "A high-visibility vest and an approved fire extinguisher",
+                    "Only an extinguisher, and only with dangerous goods"
+                  ],
+                  "why": "Goods vehicles over 3,500 kg carry the V-16 and the high-visibility vest, and also an approved fire extinguisher."
+                },
+                "exam": {
+                  "q": "You drive a lorry of 12,000 kg of maximum authorised mass. Besides the V-16 signal, what must it carry on board?",
+                  "options": [
+                    "Nothing more: vest and extinguisher are only required in passenger cars.",
+                    "A high-visibility vest and an approved extinguisher.",
+                    "Only an extinguisher, and only with dangerous goods."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "camión",
+                    "en": "lorry, truck"
+                  },
+                  {
+                    "es": "masa máxima autorizada (MMA)",
+                    "en": "maximum authorised mass (MAM)"
+                  },
+                  {
+                    "es": "chaleco reflectante",
+                    "en": "reflective vest"
+                  }
+                ],
+                "src": "RGV Anexo XII, apartado 2"
+              }
             }
           ]
         },
@@ -2316,6 +2978,10 @@
         {
           "es": "Si sobresale por detrás: **V-20** (y luz roja de noche); en turismo, hasta el 10 %.",
           "en": "If it sticks out at the rear: **V-20** (and a red light at night); on a car, up to 10 %."
+        },
+        {
+          "es": "Autobuses, vehículos de más de 3.500 kg y conjuntos llevan además un **extintor**.",
+          "en": "Buses, vehicles over 3,500 kg and combinations also carry a **fire extinguisher**."
         }
       ],
       "covers": [
@@ -2329,12 +2995,1361 @@
       ]
     },
     {
+      "id": "load-and-size",
+      "title": {
+        "es": "Carga, dimensiones y remolques",
+        "en": "Load, size and towing"
+      },
+      "minutes": 8,
+      "goals": [
+        {
+          "es": "Saber cuánto puede sobresalir la carga según el vehículo.",
+          "en": "Know how far a load may stick out, by type of vehicle."
+        },
+        {
+          "es": "Conocer la masa máxima autorizada y la altura máxima.",
+          "en": "Know the maximum authorized mass and the maximum height."
+        },
+        {
+          "es": "Saber qué hacer si la carga cae y cómo descargar en la vía.",
+          "en": "Know what to do if the load falls and how to unload on the road."
+        },
+        {
+          "es": "Saber quién puede arrastrar un remolque y qué papeles lleva.",
+          "en": "Know who may tow a trailer and which papers it carries."
+        }
+      ],
+      "terms": [
+        {
+          "es": "carga indivisible",
+          "en": "indivisible load"
+        },
+        {
+          "es": "sobresalir",
+          "en": "to protrude, stick out"
+        },
+        {
+          "es": "proyección en planta",
+          "en": "outline seen from above"
+        },
+        {
+          "es": "masa máxima autorizada (MMA)",
+          "en": "maximum authorised mass (MAM)"
+        },
+        {
+          "es": "gálibo",
+          "en": "vehicle outline (width and height)"
+        },
+        {
+          "es": "carga y descarga",
+          "en": "loading and unloading"
+        },
+        {
+          "es": "remolque ligero",
+          "en": "light trailer"
+        },
+        {
+          "es": "masa en vacío",
+          "en": "unladen mass"
+        }
+      ],
+      "pretest": {
+        "id": "equipment-pre-load",
+        "answer": 1,
+        "es": {
+          "q": "Llevas en tu turismo unos listones que asoman por la ventanilla lateral. ¿Está permitido?",
+          "options": [
+            "Sí, si asoman menos de 50 cm",
+            "No: en un turismo la carga solo puede sobresalir por detrás",
+            "Sí, de día y con buena visibilidad"
+          ],
+          "why": "En los vehículos que no son de mercancías, la carga solo puede sobresalir por la parte posterior, y con límites."
+        },
+        "en": {
+          "q": "You carry some wooden slats in your car that stick out of the side window. Is that allowed?",
+          "options": [
+            "Yes, if they stick out less than 50 cm",
+            "No: in a car the load may only stick out at the rear",
+            "Yes, by day and with good visibility"
+          ],
+          "why": "In vehicles that are not goods vehicles, the load may only stick out at the rear, and within limits."
+        },
+        "exam": {
+          "q": "You carry in your passenger car some slats that protrude through the side window. Is it permitted?",
+          "options": [
+            "Yes, if they protrude less than 50 cm.",
+            "No; in a passenger car the load can only protrude by the rear part.",
+            "Yes, by day and with good visibility."
+          ]
+        },
+        "terms": [
+          {
+            "es": "sobresalir",
+            "en": "to protrude"
+          }
+        ],
+        "src": "RGC art. 15.1 y 15.3"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Turismos: la carga solo sale por detrás",
+            "en": "Cars: the load only sticks out at the rear"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "La carga **no puede sobresalir** de la proyección en planta del vehículo (su contorno visto desde arriba), salvo en los casos que fija el reglamento.",
+                "en": "The load **may not stick out** beyond the vehicle’s outline seen from above, except in the cases the regulation sets."
+              },
+              "src": "RGC art. 15.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "En los vehículos que no son exclusivamente de mercancías, como un turismo, la carga puede sobresalir **solo por detrás**: hasta un 10 % de su longitud, o un 15 % si es indivisible.",
+                "en": "In vehicles that are not exclusively for goods, such as a car, the load may stick out **only at the rear**: up to 10% of its length, or 15% if indivisible."
+              },
+              "src": "RGC art. 15.3"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Por eso no puedes llevar objetos que asomen por las ventanillas: sobresaldrían por los lados. Tampoco por delante.",
+                "en": "That is why you may not carry objects poking out of the windows: they would stick out at the sides. Nor at the front."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c7a",
+                "answer": 2,
+                "es": {
+                  "q": "Llevas en tu turismo unos tubos largos que asoman por la ventanilla del copiloto. ¿Está permitido?",
+                  "options": [
+                    "Sí, si no pasan de 50 centímetros",
+                    "Sí, si los señalizas con el panel de carga saliente",
+                    "No: en un turismo la carga solo puede sobresalir por detrás"
+                  ],
+                  "why": "La carga no puede salir del contorno del vehículo visto desde arriba. En un turismo solo se permite que sobresalga por detrás, hasta un 10 % o un 15 % de su longitud."
+                },
+                "en": {
+                  "q": "You carry some long pipes in your car that stick out of the passenger window. Is that allowed?",
+                  "options": [
+                    "Yes, if they stick out no more than 50 centimeters",
+                    "Yes, if you mark them with the overhanging-load panel",
+                    "No: in a car the load may only stick out at the rear"
+                  ],
+                  "why": "The load may not go beyond the vehicle’s outline seen from above. In a car it may only stick out at the rear, up to 10% or 15% of its length."
+                },
+                "exam": {
+                  "q": "You carry in your passenger car some long tubes that protrude through the window of the passenger. Is it permitted?",
+                  "options": [
+                    "Yes, if they do not exceed 50 centimetres.",
+                    "Yes, if you signal them with the panel for protruding loads.",
+                    "No; in a passenger car the load can only protrude by the rear part."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "proyección en planta",
+                    "en": "plan projection (outline seen from above)"
+                  },
+                  {
+                    "es": "turismo",
+                    "en": "passenger car"
+                  }
+                ],
+                "src": "RGC art. 15.1 y 15.3"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Mercancías: cargas largas e indivisibles",
+            "en": "Goods vehicles: long, indivisible loads"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "En los vehículos **solo de mercancías**, una carga de longitud indivisible (vigas, postes, tubos) puede sobresalir: si el vehículo mide **más de 5 metros**, 2 metros por delante y **3 metros** por detrás; si mide 5 metros o menos, un tercio de su longitud por cada extremo.",
+                "en": "In vehicles used **only for goods**, a load of indivisible length (beams, posts, pipes) may stick out: if the vehicle is **over 5 meters** long, 2 meters at the front and **3 meters** at the rear; if it is 5 meters or less, a third of its length at each end."
+              },
+              "src": "RGC art. 15.2.a"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si la carga indivisible es más ancha que el vehículo, puede sobresalir hasta **0,40 metros** por cada lado, siempre que el ancho total no pase de 2,55 metros.",
+                "en": "If the indivisible load is wider than the vehicle, it may stick out up to **0.40 meters** on each side, as long as the total width does not exceed 2.55 meters."
+              },
+              "src": "RGC art. 15.2.b"
+            },
+            {
+              "t": "example",
+              "situation": {
+                "es": "Una furgoneta de mercancías de 4,5 metros lleva tubos de una sola pieza.",
+                "en": "A 4.5-meter goods van carries one-piece pipes."
+              },
+              "action": {
+                "es": "Pueden sobresalir hasta 1,5 metros por delante y 1,5 por detrás.",
+                "en": "They may stick out up to 1.5 meters at the front and 1.5 at the rear."
+              },
+              "why": {
+                "es": "Con 5 metros o menos, el límite es un tercio de la longitud por cada extremo: 4,5 entre 3 es 1,5.",
+                "en": "At 5 meters or less, the limit is a third of the length at each end: 4.5 divided by 3 is 1.5."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c7b",
+                "answer": 0,
+                "es": {
+                  "q": "Un camión de mercancías de 8 metros de longitud lleva vigas de una sola pieza. ¿Cuánto pueden sobresalir como máximo?",
+                  "options": [
+                    "2 metros por delante y 3 metros por detrás",
+                    "1 metro por delante y 2 metros por detrás",
+                    "Un tercio de su longitud por cada extremo"
+                  ],
+                  "why": "En vehículos de mercancías de más de 5 metros, una carga de longitud indivisible puede sobresalir 2 metros por delante y 3 por detrás. El tercio vale para los de 5 metros o menos."
+                },
+                "en": {
+                  "q": "An 8-meter goods truck carries one-piece beams. How far may they stick out at most?",
+                  "options": [
+                    "2 meters at the front and 3 meters at the rear",
+                    "1 meter at the front and 2 meters at the rear",
+                    "A third of its length at each end"
+                  ],
+                  "why": "In goods vehicles over 5 meters long, a load of indivisible length may stick out 2 meters at the front and 3 at the rear. The one-third rule is for vehicles of 5 meters or less."
+                },
+                "exam": {
+                  "q": "A lorry for goods of 8 metres of length carries beams of a single piece. How much can they protrude as maximum?",
+                  "options": [
+                    "2 metres by the front and 3 metres by the rear.",
+                    "1 metre by the front and 2 metres by the rear.",
+                    "One third of its length by each end."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "carga indivisible",
+                    "en": "indivisible load"
+                  },
+                  {
+                    "es": "vehículo destinado al transporte de mercancías",
+                    "en": "vehicle intended for the transport of goods"
+                  }
+                ],
+                "src": "RGC art. 15.2.a"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Vehículos estrechos y carga que sale por los lados",
+            "en": "Narrow vehicles and loads out to the side"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "En vehículos de **menos de un metro** de ancho, como una moto, la carga no puede sobresalir por los lados más de **0,50 metros** a cada lado de su eje longitudinal. No puede sobresalir por delante, ni más de 0,25 metros por detrás.",
+                "en": "On vehicles **less than one meter** wide, such as a motorcycle, the load may not stick out sideways more than **0.50 meters** on each side of its center line. It may not stick out at the front, nor more than 0.25 meters at the rear."
+              },
+              "src": "RGC art. 15.4"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si la carga sale por un lado y su extremo queda a **más de 0,40 metros** del borde de la luz de posición, se señaliza en cada extremo lateral de noche o con poca visibilidad: hacia delante, luz blanca y reflectante blanco; hacia atrás, luz roja y reflectante rojo.",
+                "en": "If the load sticks out sideways and its end is **more than 0.40 meters** beyond the edge of the position light, each side end is marked at night or in poor visibility: to the front, a white light and a white reflector; to the rear, a red light and a red reflector."
+              },
+              "src": "RGC art. 15.7"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c7c",
+                "answer": 1,
+                "es": {
+                  "q": "Llevas en una motocicleta, de menos de un metro de ancho, una carga indivisible que sale por los lados. ¿Cuánto puede sobresalir?",
+                  "options": [
+                    "Nada: en una moto la carga nunca puede sobresalir",
+                    "Hasta 0,50 metros a cada lado de su eje longitudinal",
+                    "Hasta 0,40 metros desde el borde del manillar"
+                  ],
+                  "why": "En vehículos de menos de un metro de anchura, la carga no puede sobresalir lateralmente más de 0,50 metros a cada lado de su eje longitudinal."
+                },
+                "en": {
+                  "q": "On a motorcycle less than one meter wide you carry an indivisible load that sticks out at the sides. How far may it stick out?",
+                  "options": [
+                    "Not at all: on a motorcycle the load may never stick out",
+                    "Up to 0.50 meters on each side of its center line",
+                    "Up to 0.40 meters from the end of the handlebar"
+                  ],
+                  "why": "On vehicles less than one meter wide, the load may not stick out sideways more than 0.50 meters on each side of the center line."
+                },
+                "exam": {
+                  "q": "You carry on a motorcycle, of less than one metre of width, an indivisible load that projects by the sides. How much can it protrude?",
+                  "options": [
+                    "Nothing; on a motorcycle the load can never protrude.",
+                    "Up to 0.50 metres to each side of its longitudinal axis.",
+                    "Up to 0.40 metres from the edge of the handlebar."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "eje longitudinal",
+                    "en": "longitudinal axis (center line)"
+                  },
+                  {
+                    "es": "lateralmente",
+                    "en": "laterally, sideways"
+                  }
+                ],
+                "src": "RGC art. 15.4"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c7d",
+                "answer": 2,
+                "es": {
+                  "q": "De noche, la carga de una furgoneta sale por un lado más de 0,40 metros del borde de sus luces de posición. ¿Debe señalizarse?",
+                  "options": [
+                    "No, si la carga va bien sujeta",
+                    "Sí, con un solo panel rojo y blanco en el centro de la carga",
+                    "Sí, en su extremo lateral: luz y reflectante blancos delante, rojos detrás"
+                  ],
+                  "why": "De noche o con poca visibilidad, cada extremo lateral de esa carga lleva hacia delante una luz blanca y un reflectante blanco, y hacia atrás una luz roja y un reflectante rojo."
+                },
+                "en": {
+                  "q": "At night, a van’s load sticks out sideways more than 0.40 meters beyond the edge of its position lights. Must it be marked?",
+                  "options": [
+                    "No, if the load is well secured",
+                    "Yes, with a single red-and-white panel in the middle of the load",
+                    "Yes, at its side end: white light and reflector to the front, red to the rear"
+                  ],
+                  "why": "At night or in poor visibility, each side end of such a load carries a white light and a white reflector to the front, and a red light and a red reflector to the rear."
+                },
+                "exam": {
+                  "q": "At night, the load of a van projects laterally more than 0.40 metres from the edge of its position lights. Must it be signalled?",
+                  "options": [
+                    "No, if the load goes well secured.",
+                    "Yes, with a single red and white panel in the centre of the load.",
+                    "Yes, in its lateral end: white light and reflector in front, red ones behind."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "luz de posición",
+                    "en": "position light"
+                  },
+                  {
+                    "es": "dispositivo reflectante",
+                    "en": "reflective device"
+                  }
+                ],
+                "src": "RGC art. 15.7"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "El peso: masa máxima autorizada y plazas",
+            "en": "Weight: maximum authorized mass and seats"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "La **masa máxima autorizada (MMA)** es la masa máxima con la que un vehículo cargado puede circular por las vías públicas.",
+                "en": "The **maximum authorized mass (MMA)** is the most a loaded vehicle may weigh to be driven on public roads."
+              },
+              "src": "LSV Anexo I, 37"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "No puedes llevar más personas que plazas autorizadas, y en ningún caso pueden pasar de la **MMA** los viajeros y el equipaje juntos.",
+                "en": "You may not carry more people than authorized seats, and passengers and luggage together may never exceed the **MMA**."
+              },
+              "src": "RGC art. 9.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "No pueden circular vehículos cuyos neumáticos soporten más carga de la que permiten sus normas de seguridad, según sus índices de carga y velocidad.",
+                "en": "Vehicles whose tires carry more load than their safety rules allow, by their load and speed ratings, may not be driven."
+              },
+              "src": "RGV Anexo IX, 2.1.3"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c7e",
+                "answer": 0,
+                "es": {
+                  "q": "Con todos los pasajeros y el equipaje, tu turismo pasa de su masa máxima autorizada (MMA). ¿Puedes circular así?",
+                  "options": [
+                    "No: viajeros y equipaje no pueden superar la MMA",
+                    "Sí, si no superas los 90 km/h",
+                    "Sí, si llevas los neumáticos más inflados"
+                  ],
+                  "why": "La MMA es la masa máxima para circular cargado, y la norma prohíbe que viajeros y equipaje la sobrepasen."
+                },
+                "en": {
+                  "q": "With all the passengers and luggage, your car is over its maximum authorized mass (MMA). May you drive like this?",
+                  "options": [
+                    "No: passengers and luggage may not exceed the MMA",
+                    "Yes, if you stay under 90 km/h",
+                    "Yes, if you inflate the tires more"
+                  ],
+                  "why": "The MMA is the maximum mass for driving loaded, and the rule forbids passengers and luggage to exceed it."
+                },
+                "exam": {
+                  "q": "With all the passengers and the luggage, your passenger car exceeds its maximum authorised mass (MAM). Can you circulate like this?",
+                  "options": [
+                    "No; travellers and luggage cannot exceed the MAM.",
+                    "Yes, if you do not exceed 90 km/h.",
+                    "Yes, if you carry the tyres more inflated."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "masa máxima autorizada (MMA)",
+                    "en": "maximum authorised mass (MAM)"
+                  },
+                  {
+                    "es": "plazas",
+                    "en": "seats"
+                  }
+                ],
+                "src": "RGC art. 9.1; LSV Anexo I, 37"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c7f",
+                "answer": 1,
+                "es": {
+                  "q": "¿Qué dice la norma de un vehículo cuyos neumáticos soportan más carga de la que permiten sus índices de carga y velocidad?",
+                  "options": [
+                    "Que puede circular si va despacio",
+                    "Que no puede circular así",
+                    "Que basta con avisar con la señal de emergencia"
+                  ],
+                  "why": "El reglamento prohíbe circular a los vehículos cuyos neumáticos soporten cargas superiores a las de sus normas de seguridad."
+                },
+                "en": {
+                  "q": "What does the rule say about a vehicle whose tires carry more load than their load and speed ratings allow?",
+                  "options": [
+                    "That it may be driven if it goes slowly",
+                    "That it may not be driven like that",
+                    "That it is enough to warn with the hazard lights"
+                  ],
+                  "why": "The regulation forbids driving vehicles whose tires carry more load than their safety rules allow."
+                },
+                "exam": {
+                  "q": "What does the norm say about a vehicle whose tyres support more load than their load and speed indices permit?",
+                  "options": [
+                    "That it can circulate if it goes slowly.",
+                    "That it cannot circulate like this.",
+                    "That it is sufficient to warn with the emergency signal."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "índice de carga",
+                    "en": "load index"
+                  },
+                  {
+                    "es": "neumático",
+                    "en": "tyre"
+                  }
+                ],
+                "src": "RGV Anexo IX, 2.1.3"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Altura y anchura máximas",
+            "en": "Maximum height and width"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Ningún vehículo ni su carga puede exceder la longitud, anchura y altura que fijan las normas de vehículos o la vía por la que circula.",
+                "en": "No vehicle or its load may exceed the length, width and height set by the vehicle rules or by the road it is on."
+              },
+              "src": "RGC art. 13.1"
+            },
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Dimensión, incluida la carga",
+                  "en": "Dimension, load included"
+                },
+                {
+                  "es": "Máximo",
+                  "en": "Maximum"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "Altura, norma general",
+                    "en": "Height, general rule"
+                  },
+                  {
+                    "es": "**4,00 m**",
+                    "en": "**4.00 m**"
+                  }
+                ],
+                [
+                  {
+                    "es": "Altura de un autobús urbano (clase I)",
+                    "en": "Height of a city bus (class I)"
+                  },
+                  {
+                    "es": "4,20 m",
+                    "en": "4.20 m"
+                  }
+                ],
+                [
+                  {
+                    "es": "Altura de portavehículos, grúas y portacontenedores",
+                    "en": "Height of car transporters, tow trucks and container carriers"
+                  },
+                  {
+                    "es": "4,50 m",
+                    "en": "4.50 m"
+                  }
+                ],
+                [
+                  {
+                    "es": "Anchura, norma general",
+                    "en": "Width, general rule"
+                  },
+                  {
+                    "es": "2,55 m",
+                    "en": "2.55 m"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "La tabla viene del reglamento de vehículos (Anexo IX, ap. 3.1). Una baca muy cargada también cuenta en la altura.",
+                "en": "The table comes from the vehicle regulation (Annex IX, section 3.1). A heavily loaded roof rack also counts toward the height."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c7g",
+                "answer": 2,
+                "es": {
+                  "q": "Llevas una bicicleta en el techo de tu turismo. Como norma general, ¿qué altura total no puede superar el turismo con su carga?",
+                  "options": [
+                    "3,50 metros",
+                    "4,50 metros",
+                    "4 metros"
+                  ],
+                  "why": "La altura máxima general de los vehículos, incluida la carga, es de 4 metros. Solo algunos vehículos especializados llegan a 4,20 o 4,50 metros."
+                },
+                "en": {
+                  "q": "You carry a bike on the roof of your car. As a general rule, what total height must the car and its load not exceed?",
+                  "options": [
+                    "3.50 meters",
+                    "4.50 meters",
+                    "4 meters"
+                  ],
+                  "why": "The general maximum height of vehicles, load included, is 4 meters. Only some specialized vehicles may reach 4.20 or 4.50 meters."
+                },
+                "exam": {
+                  "q": "You carry a bicycle on the roof of your passenger car. As a general rule, what total height can the passenger car with its load not exceed?",
+                  "options": [
+                    "3.50 metres.",
+                    "4.50 metres.",
+                    "4 metres."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "altura máxima",
+                    "en": "maximum height"
+                  },
+                  {
+                    "es": "incluida la carga",
+                    "en": "including the load"
+                  }
+                ],
+                "src": "RGV Anexo IX, 3.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Si cae la carga, y cómo descargar en la vía",
+            "en": "If the load falls, and how to unload on the road"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Quien crea un **obstáculo o peligro** en la vía debe hacerlo desaparecer **lo antes posible**. Mientras tanto, toma las medidas para que los demás lo vean y no se dificulte la circulación.",
+                "en": "Whoever creates an **obstacle or danger** on the road must remove it **as soon as possible**. Meanwhile, they take measures so others can see it and traffic is not hindered."
+              },
+              "src": "RGC art. 5.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "El causante lo **señaliza** de forma eficaz, de día y de noche. El V-16 sirve también para avisar de que la carga ha caído a la calzada.",
+                "en": "The person who caused it **marks** it effectively, by day and night. The V-16 also serves to warn that a load has fallen onto the carriageway."
+              },
+              "src": "RGC art. 5.3; RGV Anexo XI, V-16.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "La carga y descarga se hace **fuera de la vía**. Si no hay otra opción, se hace por el lado más cercano al borde de la calzada, con medios para acabar rápido y sin ruidos ni molestias innecesarias. No puedes dejar la mercancía en la calzada, el arcén ni las zonas peatonales.",
+                "en": "Loading and unloading is done **off the road**. If there is no other option, do it from the side closest to the edge of the carriageway, with means to finish quickly and without needless noise or nuisance. You may not leave the goods on the carriageway, the shoulder or pedestrian areas."
+              },
+              "src": "RGC art. 16"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c7h",
+                "answer": 1,
+                "es": {
+                  "q": "En la autovía se te cae del remolque una caja grande que queda en el carril. ¿Qué te corresponde hacer?",
+                  "options": [
+                    "Seguir y avisar a la policía al llegar a destino",
+                    "Señalizar el obstáculo y quitarlo cuanto antes",
+                    "Esperar en el coche, sin señalizar, a que venga la grúa"
+                  ],
+                  "why": "Quien crea un obstáculo debe hacerlo desaparecer lo antes posible y, mientras tanto, señalizarlo para que los demás lo adviertan."
+                },
+                "en": {
+                  "q": "On the autovía a large box falls off your trailer and lands in the lane. What is your duty?",
+                  "options": [
+                    "Carry on and tell the police when you reach your destination",
+                    "Mark the obstacle and clear it without delay",
+                    "Wait in the car, without marking it, for the tow truck"
+                  ],
+                  "why": "Whoever creates an obstacle must clear it without delay and, until then, mark it so others notice it."
+                },
+                "exam": {
+                  "q": "On the dual carriageway a big box falls from your trailer and remains in the lane. What corresponds to you to do?",
+                  "options": [
+                    "To continue and to notify the police on arriving at destination.",
+                    "To signal the obstacle and to remove it as soon as you can.",
+                    "To wait in the car, without signalling, for the tow truck to come."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "obstáculo",
+                    "en": "obstacle"
+                  },
+                  {
+                    "es": "señalizar",
+                    "en": "to signal, mark"
+                  }
+                ],
+                "src": "RGC art. 5.1 y 5.3"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c7i",
+                "answer": 0,
+                "es": {
+                  "q": "Llevas una furgoneta de reparto y no puedes descargar fuera de la vía. ¿Por dónde y cómo sacas la mercancía?",
+                  "options": [
+                    "Por el lado que da al borde de la calzada, deprisa y sin ruido innecesario",
+                    "Por cualquier lado, dejándola un rato en el arcén",
+                    "Por el lado del tráfico, para no estorbar en la acera"
+                  ],
+                  "why": "Cuando es inexcusable descargar en la vía, se hace por el lado más próximo al borde, con rapidez y evitando ruidos y molestias. No se deja mercancía en la calzada, el arcén ni las zonas peatonales."
+                },
+                "en": {
+                  "q": "You drive a delivery van and cannot unload off the road. Which side do you unload from, and how?",
+                  "options": [
+                    "The side facing the kerb or verge, quickly and without needless noise",
+                    "Any side, leaving the goods on the shoulder for a while",
+                    "The traffic side, so as not to block the pavement"
+                  ],
+                  "why": "When unloading on the road cannot be avoided, it is done from the side nearest the edge, quickly and avoiding noise and nuisance. Goods are not left on the carriageway, the shoulder or pedestrian areas."
+                },
+                "exam": {
+                  "q": "You take a delivery van and you cannot unload outside the road. By where and how do you take out the goods?",
+                  "options": [
+                    "By the side that faces the edge of the carriageway, quickly and without unnecessary noise.",
+                    "By any side, leaving it a while on the hard shoulder.",
+                    "By the side of the traffic, in order not to obstruct on the pavement."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "carga y descarga",
+                    "en": "loading and unloading"
+                  },
+                  {
+                    "es": "borde de la calzada",
+                    "en": "edge of the carriageway"
+                  }
+                ],
+                "src": "RGC art. 16"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Remolques: motos, ciclomotores y remolques ligeros",
+            "en": "Trailers: motorcycles, mopeds and light trailers"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Las motocicletas, los vehículos de tres ruedas y los ciclomotores pueden arrastrar un remolque o semirremolque que no supere el **50 %** de la masa en vacío del vehículo que tira. Solo **de día**, sin baja visibilidad, con la velocidad genérica reducida un 10 % y sin llevar personas en el remolque.",
+                "en": "Motorcycles, three-wheelers and mopeds may tow a trailer or semi-trailer of no more than **50%** of the towing vehicle’s unladen mass. Only **by day**, without poor visibility, with the general speed cut by 10% and with no people in the trailer."
+              },
+              "src": "RGC art. 12.3"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Un **remolque ligero** es el que tiene una MMA de **750 kg** o menos.",
+                "en": "A **light trailer** is one with an MMA of **750 kg** or less."
+              },
+              "src": "LSV Anexo I, 21"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los remolques de más de 750 kg se matriculan y llevan su propia placa. Con un remolque ligero llevas la **tarjeta ITV del remolque**, y en la del coche debe constar un enganche compatible.",
+                "en": "Trailers over 750 kg are registered and carry their own plate. With a light trailer you carry the **trailer’s ITV card**, and the car’s card must show a compatible hitch."
+              },
+              "src": "RGV arts. 25.1 y 26.1.c"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c7j",
+                "answer": 1,
+                "es": {
+                  "q": "Quieres enganchar un remolque a tu ciclomotor de tres ruedas para un trayecto que acabará de noche. ¿Te lo permite la ley?",
+                  "options": [
+                    "Sí, siempre que el remolque lleve sus propias luces",
+                    "No: solo de día, sin baja visibilidad y con un remolque de hasta el 50 % de su masa en vacío",
+                    "Sí, a cualquier hora y con cualquier remolque"
+                  ],
+                  "why": "Motos, vehículos de tres ruedas y ciclomotores pueden arrastrar un remolque de hasta el 50 % de su masa en vacío, solo de día y sin condiciones de baja visibilidad."
+                },
+                "en": {
+                  "q": "You want to hitch a trailer to your three-wheeled moped for a trip that will end after dark. Does the law allow it?",
+                  "options": [
+                    "Yes, as long as the trailer has its own lights",
+                    "No: only by day, without poor visibility and with a trailer of up to 50% of its unladen mass",
+                    "Yes, at any time and with any trailer"
+                  ],
+                  "why": "Motorcycles, three-wheelers and mopeds may tow a trailer of up to 50% of their unladen mass, only by day and without poor visibility."
+                },
+                "exam": {
+                  "q": "You want to hitch a trailer to your moped of three wheels for a journey that will finish at night. Does the law permit it to you?",
+                  "options": [
+                    "Yes, provided that the trailer carries its own lights.",
+                    "No: only by day, without low visibility and with a trailer of up to 50% of its unladen mass.",
+                    "Yes, at any hour and with any trailer."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "semirremolque",
+                    "en": "semi-trailer"
+                  },
+                  {
+                    "es": "masa en vacío",
+                    "en": "unladen mass"
+                  }
+                ],
+                "src": "RGC art. 12.3"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c7k",
+                "answer": 0,
+                "es": {
+                  "q": "Tu turismo arrastra un remolque ligero de 600 kg de MMA. ¿Qué documento del remolque debes llevar?",
+                  "options": [
+                    "Su tarjeta de inspección técnica (tarjeta ITV)",
+                    "Ninguno: los remolques ligeros no tienen documentos",
+                    "Su propio permiso de circulación y su placa de matrícula"
+                  ],
+                  "why": "Un remolque de 750 kg o menos no se matricula, pero sí tiene tarjeta ITV, y el conductor debe llevarla junto con la documentación del coche."
+                },
+                "en": {
+                  "q": "Your car tows a light trailer with a 600 kg MMA. Which of the trailer’s documents must you carry?",
+                  "options": [
+                    "Its inspection card (ITV card)",
+                    "None: light trailers have no documents",
+                    "Its own registration document and plate"
+                  ],
+                  "why": "A trailer of 750 kg or less is not registered, but it does have an ITV card, and the driver must carry it with the car’s documents."
+                },
+                "exam": {
+                  "q": "Your passenger car tows a light trailer of 600 kg of MAM. Which document of the trailer must you carry?",
+                  "options": [
+                    "Its technical inspection card (ITV card).",
+                    "None; light trailers do not have documents.",
+                    "Its own circulation permit and its number plate."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "remolque ligero",
+                    "en": "light trailer"
+                  },
+                  {
+                    "es": "tarjeta de inspección técnica",
+                    "en": "technical inspection card"
+                  }
+                ],
+                "src": "RGV art. 26.1.c; LSV Anexo I, 21"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "En un turismo la carga sale **solo por detrás**: 10 %, o 15 % si es indivisible.",
+          "en": "In a car the load sticks out **only at the rear**: 10%, or 15% if indivisible."
+        },
+        {
+          "es": "Mercancías de más de 5 m: carga larga indivisible hasta **2 m delante y 3 m detrás**.",
+          "en": "Goods vehicles over 5 m: long indivisible loads up to **2 m in front and 3 m behind**."
+        },
+        {
+          "es": "Carga lateral a más de **0,40 m** de la luz de posición: luz y reflectante en cada extremo, de noche.",
+          "en": "Side load more than **0.40 m** beyond the position light: a light and reflector at each end, at night."
+        },
+        {
+          "es": "Altura máxima general: **4 m**, carga incluida. Nunca superes la **MMA**.",
+          "en": "General maximum height: **4 m**, load included. Never exceed the **MMA**."
+        },
+        {
+          "es": "Carga caída: **señalízala y retírala** lo antes posible.",
+          "en": "Fallen load: **mark it and remove it** as soon as possible."
+        },
+        {
+          "es": "Motos y ciclomotores remolcan solo **de día**, hasta el 50 % de su masa en vacío.",
+          "en": "Motorcycles and mopeds tow only **by day**, up to 50% of their unladen mass."
+        }
+      ],
+      "covers": [],
+      "src": [
+        "Reglamento General de Circulación (RD 1428/2003), arts. 5, 9, 12, 13, 15 y 16",
+        "Reglamento General de Vehículos (RD 2822/1998), arts. 25 y 26; Anexo IX; Anexo XI, V-16",
+        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), Anexo I"
+      ]
+    },
+    {
+      "id": "mirrors-noise",
+      "title": {
+        "es": "Retrovisores, ruido y humos",
+        "en": "Mirrors, noise and fumes"
+      },
+      "minutes": 5,
+      "goals": [
+        {
+          "es": "Saber cuántos retrovisores lleva un coche, una moto y un ciclomotor.",
+          "en": "Know how many mirrors a car, a motorcycle and a moped have."
+        },
+        {
+          "es": "Saber que el escape libre está prohibido.",
+          "en": "Know that driving with a free exhaust is forbidden."
+        }
+      ],
+      "terms": [
+        {
+          "es": "retrovisor interior",
+          "en": "interior rear-view mirror"
+        },
+        {
+          "es": "retrovisor exterior",
+          "en": "exterior (side) mirror"
+        },
+        {
+          "es": "luneta trasera",
+          "en": "rear window"
+        },
+        {
+          "es": "escape libre",
+          "en": "free exhaust (no silencer)"
+        },
+        {
+          "es": "silenciador",
+          "en": "silencer, muffler"
+        },
+        {
+          "es": "inmovilizar",
+          "en": "to immobilize"
+        }
+      ],
+      "pretest": {
+        "id": "equipment-pre-mirrors",
+        "answer": 2,
+        "es": {
+          "q": "¿Cuántos retrovisores exteriores debe llevar como mínimo una motocicleta que supera los 100 km/h?",
+          "options": [
+            "Ninguno",
+            "Uno, el izquierdo",
+            "Dos, uno a cada lado"
+          ],
+          "why": "Las motocicletas de velocidad máxima superior a 100 km/h llevan obligatoriamente retrovisor izquierdo y derecho."
+        },
+        "en": {
+          "q": "How many exterior mirrors must a motorcycle that can exceed 100 km/h have, at least?",
+          "options": [
+            "None",
+            "One, on the left",
+            "Two, one on each side"
+          ],
+          "why": "Motorcycles with a top speed over 100 km/h must have both a left and a right mirror."
+        },
+        "exam": {
+          "q": "How many exterior rear-view mirrors must a motorcycle that exceeds 100 km/h carry as minimum?",
+          "options": [
+            "None.",
+            "One, the left one.",
+            "Two, one on each side."
+          ]
+        },
+        "terms": [
+          {
+            "es": "retrovisor",
+            "en": "rear-view mirror"
+          }
+        ],
+        "src": "RGV Anexo III, ap. 3"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Los retrovisores de un turismo",
+            "en": "A car’s mirrors"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Un turismo lleva obligatoriamente un **retrovisor interior** y un **retrovisor exterior izquierdo**. El exterior derecho es opcional.",
+                "en": "A car must have an **interior mirror** and a **left exterior mirror**. The right exterior mirror is optional."
+              },
+              "src": "RGV Anexo III, ap. 2"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si el retrovisor interior **no deja ver** la carretera por detrás, deja de ser obligatorio y hay que llevar un segundo retrovisor exterior, en el lado **derecho**.",
+                "en": "If the interior mirror **does not show** the road behind, it stops being compulsory and a second exterior mirror is needed, on the **right**."
+              },
+              "src": "RGV Anexo III, ap. 2, nota (1)"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Solo puedes llevar láminas adhesivas o cortinillas en las ventanillas traseras si el vehículo tiene **dos retrovisores exteriores**.",
+                "en": "You may only have adhesive films or sun shades on the rear windows if the vehicle has **two exterior mirrors**."
+              },
+              "src": "RGC art. 19.1"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c8a",
+                "answer": 1,
+                "es": {
+                  "q": "El equipaje de tu turismo tapa la luneta trasera y el retrovisor interior no deja ver nada. ¿Qué retrovisores necesitas?",
+                  "options": [
+                    "Basta con el exterior izquierdo",
+                    "Dos exteriores, uno a cada lado",
+                    "Solo el interior, bien orientado"
+                  ],
+                  "why": "Si el retrovisor interior no permite ver la carretera por detrás, hace falta un segundo retrovisor exterior en el lado derecho, además del izquierdo."
+                },
+                "en": {
+                  "q": "The luggage in your car covers the rear window and the interior mirror shows nothing. Which mirrors do you need?",
+                  "options": [
+                    "The left exterior mirror is enough",
+                    "Two exterior mirrors, one on each side",
+                    "Only the interior one, well adjusted"
+                  ],
+                  "why": "If the interior mirror does not show the road behind, a second exterior mirror is needed on the right, as well as the left one."
+                },
+                "exam": {
+                  "q": "The luggage of your passenger car covers the rear window and the interior rear-view mirror does not let see anything. Which rear-view mirrors do you need?",
+                  "options": [
+                    "The left exterior one is sufficient.",
+                    "Two exterior ones, one on each side.",
+                    "Only the interior one, well oriented."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "luneta trasera",
+                    "en": "rear window"
+                  },
+                  {
+                    "es": "retrovisor exterior",
+                    "en": "exterior rear-view mirror"
+                  }
+                ],
+                "src": "RGV Anexo III, ap. 2"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Retrovisores en dos ruedas",
+            "en": "Mirrors on two wheels"
+          },
+          "blocks": [
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Vehículo",
+                  "en": "Vehicle"
+                },
+                {
+                  "es": "Izquierdo",
+                  "en": "Left"
+                },
+                {
+                  "es": "Derecho",
+                  "en": "Right"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "Ciclomotor de dos ruedas",
+                    "en": "Two-wheeled moped"
+                  },
+                  {
+                    "es": "Obligatorio",
+                    "en": "Compulsory"
+                  },
+                  {
+                    "es": "Opcional",
+                    "en": "Optional"
+                  }
+                ],
+                [
+                  {
+                    "es": "Motocicleta de hasta 100 km/h",
+                    "en": "Motorcycle up to 100 km/h"
+                  },
+                  {
+                    "es": "Obligatorio",
+                    "en": "Compulsory"
+                  },
+                  {
+                    "es": "Opcional",
+                    "en": "Optional"
+                  }
+                ],
+                [
+                  {
+                    "es": "Motocicleta de más de 100 km/h",
+                    "en": "Motorcycle over 100 km/h"
+                  },
+                  {
+                    "es": "Obligatorio",
+                    "en": "Compulsory"
+                  },
+                  {
+                    "es": "**Obligatorio**",
+                    "en": "**Compulsory**"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "La velocidad que cuenta es la **velocidad máxima** de la moto, la que puede alcanzar por construcción.",
+                "en": "The speed that counts is the motorcycle’s **top speed**, the one it can reach by design."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c8b",
+                "answer": 2,
+                "es": {
+                  "q": "Una motocicleta tiene una velocidad máxima por construcción de 90 km/h. ¿Qué retrovisores le exige la norma?",
+                  "options": [
+                    "Izquierdo y derecho, obligatoriamente",
+                    "Solo el derecho",
+                    "El izquierdo; el derecho es opcional"
+                  ],
+                  "why": "Las motocicletas con velocidad máxima de más de 100 km/h llevan retrovisor izquierdo y derecho. Hasta 100 km/h, el derecho es opcional."
+                },
+                "en": {
+                  "q": "A motorcycle has a maximum design speed of 90 km/h. Which mirrors does the rule require?",
+                  "options": [
+                    "Left and right, both compulsory",
+                    "Only the right one",
+                    "The left one; the right one is optional"
+                  ],
+                  "why": "Motorcycles with a top speed over 100 km/h have both a left and a right mirror. Up to 100 km/h, the right one is optional."
+                },
+                "exam": {
+                  "q": "A motorcycle has a maximum speed by construction of 90 km/h. Which rear-view mirrors does the norm require of it?",
+                  "options": [
+                    "Left and right, obligatorily.",
+                    "Only the right one.",
+                    "The left one; the right one is optional."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "velocidad máxima por construcción",
+                    "en": "maximum design speed"
+                  },
+                  {
+                    "es": "retrovisor",
+                    "en": "rear-view mirror"
+                  }
+                ],
+                "src": "RGV Anexo III, ap. 3"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c8c",
+                "answer": 0,
+                "es": {
+                  "q": "¿Qué retrovisores debe llevar como mínimo un ciclomotor de dos ruedas?",
+                  "options": [
+                    "Uno, en el lado izquierdo",
+                    "Dos, uno a cada lado",
+                    "Ninguno: no son obligatorios"
+                  ],
+                  "why": "Un ciclomotor de dos ruedas lleva obligatoriamente el retrovisor izquierdo; el derecho es opcional."
+                },
+                "en": {
+                  "q": "Which mirrors must a two-wheeled moped have, at least?",
+                  "options": [
+                    "One, on the left side",
+                    "Two, one on each side",
+                    "None: they are not compulsory"
+                  ],
+                  "why": "A two-wheeled moped must have the left mirror; the right one is optional."
+                },
+                "exam": {
+                  "q": "Which rear-view mirrors must a two-wheeled moped carry as minimum?",
+                  "options": [
+                    "One, on the left side.",
+                    "Two, one on each side.",
+                    "None; they are not compulsory."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "ciclomotor",
+                    "en": "moped"
+                  },
+                  {
+                    "es": "optativo",
+                    "en": "optional"
+                  }
+                ],
+                "src": "RGV Anexo III, ap. 3"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Ruido y humos: el escape",
+            "en": "Noise and fumes: the exhaust"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "En vías urbanas e interurbanas está prohibido circular con vehículos a motor y **ciclomotores** con el llamado **escape libre**, sin silenciador.",
+                "en": "On urban and open roads it is forbidden to drive motor vehicles and **mopeds** with a so-called **free exhaust**, with no silencer."
+              },
+              "src": "RGC art. 7.2"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "También está prohibido si los gases salen por un silenciador incompleto, inadecuado o **deteriorado**, o si el vehículo echa humos que dificultan la visibilidad o son nocivos.",
+                "en": "It is also forbidden if the gases pass through an incomplete, unsuitable or **damaged** silencer, or if the vehicle gives off smoke that hinders visibility or is harmful."
+              },
+              "src": "RGC art. 7.2"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si un vehículo supera los niveles permitidos de gases, humos o ruido, los agentes pueden **inmovilizarlo**. Los conductores deben colaborar en las pruebas de detección.",
+                "en": "If a vehicle exceeds the permitted levels of gases, smoke or noise, officers may **immobilize** it. Drivers must cooperate with the detection tests."
+              },
+              "src": "RGC art. 7.1 y 7.2"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c8d",
+                "answer": 1,
+                "es": {
+                  "q": "¿A quién se prohíbe circular con el llamado escape libre?",
+                  "options": [
+                    "Solo a las motocicletas, y solo en poblado",
+                    "A los vehículos a motor y a los ciclomotores, en cualquier vía",
+                    "A todos los vehículos, pero solo de noche"
+                  ],
+                  "why": "El escape libre está prohibido a los vehículos a motor y a los ciclomotores, tanto en vías urbanas como interurbanas."
+                },
+                "en": {
+                  "q": "Who is forbidden to drive with a so-called free exhaust?",
+                  "options": [
+                    "Only motorcycles, and only in towns",
+                    "Motor vehicles and mopeds, on any road",
+                    "All vehicles, but only at night"
+                  ],
+                  "why": "A free exhaust is forbidden for motor vehicles and mopeds, on both urban and open roads."
+                },
+                "exam": {
+                  "q": "Circulating with the so-called free exhaust is prohibited to whom?",
+                  "options": [
+                    "Only to motorcycles, and only in town.",
+                    "To motor vehicles and to mopeds, on any road.",
+                    "To all vehicles, but only at night."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "escape libre",
+                    "en": "free exhaust"
+                  },
+                  {
+                    "es": "ciclomotor",
+                    "en": "moped"
+                  }
+                ],
+                "src": "RGC art. 7.2"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c8e",
+                "answer": 0,
+                "es": {
+                  "q": "El silenciador de tu moto está roto y el ruido es muy fuerte. ¿Puedes circular así?",
+                  "options": [
+                    "No: está prohibido circular con el silenciador deteriorado",
+                    "Sí, si no superas 50 km/h",
+                    "Sí, fuera de poblado"
+                  ],
+                  "why": "Está prohibido circular cuando los gases salen por un silenciador deteriorado. Además, si se superan los niveles de ruido, los agentes pueden inmovilizar el vehículo."
+                },
+                "en": {
+                  "q": "Your motorcycle’s silencer is broken and the noise is very loud. May you ride like this?",
+                  "options": [
+                    "No: driving with a damaged silencer is forbidden",
+                    "Yes, if you stay under 50 km/h",
+                    "Yes, outside towns"
+                  ],
+                  "why": "Driving with gases passing through a damaged silencer is forbidden. And if noise levels are exceeded, officers may immobilize the vehicle."
+                },
+                "exam": {
+                  "q": "The silencer of your motorcycle is broken and the noise is very strong. Can you circulate like this?",
+                  "options": [
+                    "No; it is prohibited to circulate with the silencer deteriorated.",
+                    "Yes, if you do not exceed 50 km/h.",
+                    "Yes, outside the town."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "silenciador",
+                    "en": "silencer"
+                  },
+                  {
+                    "es": "deteriorado",
+                    "en": "damaged, in poor condition"
+                  }
+                ],
+                "src": "RGC art. 7.2"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "Turismo: retrovisor **interior** y **exterior izquierdo**; si el interior no ve, también el **derecho**.",
+          "en": "Car: **interior** and **left exterior** mirror; if the interior cannot see, the **right** one too."
+        },
+        {
+          "es": "Moto de más de **100 km/h**: dos retrovisores. Ciclomotor: el izquierdo.",
+          "en": "Motorcycle over **100 km/h**: two mirrors. Moped: the left one."
+        },
+        {
+          "es": "Prohibido el **escape libre** y el silenciador deteriorado, en cualquier vía.",
+          "en": "**Free exhaust** and a damaged silencer are forbidden, on any road."
+        },
+        {
+          "es": "Si superas los límites de ruido o humos, pueden **inmovilizar** el vehículo.",
+          "en": "If you exceed noise or smoke limits, the vehicle can be **immobilized**."
+        }
+      ],
+      "covers": [],
+      "src": [
+        "Reglamento General de Vehículos (RD 2822/1998), Anexo III",
+        "Reglamento General de Circulación (RD 1428/2003), arts. 7 y 19"
+      ]
+    },
+    {
       "id": "upkeep",
       "title": {
         "es": "Neumáticos, zonas de bajas emisiones y conducción eficiente",
         "en": "Tires, low-emission zones and efficient driving"
       },
-      "minutes": 7,
+      "minutes": 10,
       "goals": [
         {
           "es": "Saber la profundidad mínima del dibujo y reconocer un neumático gastado.",
@@ -2347,6 +4362,10 @@
         {
           "es": "Conocer unos consejos de conducción eficiente (no son ley).",
           "en": "Know a few efficient-driving tips (they are not law)."
+        },
+        {
+          "es": "Reconocer señales de desgaste y saber para qué sirve cada freno.",
+          "en": "Recognize signs of wear and know what each brake is for."
         }
       ],
       "terms": [
@@ -2516,6 +4535,338 @@
         },
         {
           "title": {
+            "es": "Señales de desgaste (consejos de la DGT)",
+            "en": "Signs of wear (DGT tips)"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Lo que sigue son consejos de la revista de la DGT, no artículos de una ley. Te ayudan a detectar una avería antes de que sea un peligro.",
+                "en": "What follows is advice from the DGT’s magazine, not articles of a law. It helps you spot a fault before it becomes a danger."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "**Amortiguadores**: revísalos si el coche se **hunde por delante** al frenar, derrapa en las curvas, nota mucho el viento lateral o gasta los neumáticos de forma irregular. Se deterioran poco a poco y no siempre se nota. (DGT guidance)",
+                "en": "**Shock absorbers**: have them checked if the car **dips at the front** when braking, skids in curves, feels side wind strongly or wears its tires unevenly. They wear out gradually and you do not always notice. (DGT guidance)"
+              }
+            },
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Desgaste del neumático",
+                  "en": "Tire wear"
+                },
+                {
+                  "es": "Causa probable (DGT)",
+                  "en": "Likely cause (DGT)"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "En un solo lado",
+                    "en": "On one side only"
+                  },
+                  {
+                    "es": "Alineación incorrecta",
+                    "en": "Wrong alignment"
+                  }
+                ],
+                [
+                  {
+                    "es": "En los dos bordes",
+                    "en": "On both edges"
+                  },
+                  {
+                    "es": "Presión de inflado baja",
+                    "en": "Low inflation pressure"
+                  }
+                ],
+                [
+                  {
+                    "es": "En el centro",
+                    "en": "In the center"
+                  },
+                  {
+                    "es": "Exceso de presión",
+                    "en": "Too much pressure"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "**Frenos**: ruidos o chirridos al frenar, o una frenada más larga, son motivo de revisión. (DGT guidance)",
+                "en": "**Brakes**: noises or squeals when braking, or a longer stop, are a reason to have them checked. (DGT guidance)"
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "**Aceite**: mira el nivel con la **varilla**, con el motor frío y el coche en llano. No debe estar por debajo de la marca de mínimo ni llegar al máximo al rellenar. (DGT guidance)",
+                "en": "**Oil**: check the level with the **dipstick**, with the engine cold and the car on level ground. It must not be below the minimum mark, nor reach the maximum when you top up. (DGT guidance)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c6d",
+                "answer": 0,
+                "es": {
+                  "q": "Al frenar con fuerza, la parte delantera de tu coche se hunde más de lo normal. Según la DGT, ¿qué conviene revisar?",
+                  "options": [
+                    "Los amortiguadores",
+                    "La batería",
+                    "El filtro del aire"
+                  ],
+                  "why": "La DGT señala que un coche que se hunde por delante al frenar puede tener los amortiguadores en mal estado."
+                },
+                "en": {
+                  "q": "When you brake hard, the front of your car dips more than usual. According to the DGT, what should you have checked?",
+                  "options": [
+                    "The shock absorbers",
+                    "The battery",
+                    "The air filter"
+                  ],
+                  "why": "The DGT points out that a car that dips at the front when braking may have worn shock absorbers."
+                },
+                "exam": {
+                  "q": "When braking strongly, the front part of your car sinks more than normal. According to the DGT, what is it advisable to check?",
+                  "options": [
+                    "The shock absorbers.",
+                    "The battery.",
+                    "The air filter."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "amortiguador",
+                    "en": "shock absorber"
+                  },
+                  {
+                    "es": "suspensión",
+                    "en": "suspension"
+                  }
+                ],
+                "src": "DGT guidance"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c6e",
+                "answer": 1,
+                "es": {
+                  "q": "Un neumático está más gastado en los dos bordes que en el centro. Según la DGT, ¿qué suele indicar?",
+                  "options": [
+                    "Exceso de presión de inflado",
+                    "Presión de inflado baja",
+                    "Que la alineación es incorrecta"
+                  ],
+                  "why": "Según la DGT, el desgaste en los dos bordes indica presión baja; en el centro, exceso de presión; y en un solo lado, mala alineación."
+                },
+                "en": {
+                  "q": "A tire is more worn on both edges than in the center. According to the DGT, what does that usually mean?",
+                  "options": [
+                    "Too much inflation pressure",
+                    "Low inflation pressure",
+                    "Wrong alignment"
+                  ],
+                  "why": "According to the DGT, wear on both edges points to low pressure; in the center, to too much pressure; and on one side only, to bad alignment."
+                },
+                "exam": {
+                  "q": "A tyre is more worn in the two edges than in the centre. According to the DGT, what does it usually indicate?",
+                  "options": [
+                    "Excess of inflation pressure.",
+                    "Low inflation pressure.",
+                    "That the alignment is incorrect."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "presión de inflado",
+                    "en": "inflation pressure"
+                  },
+                  {
+                    "es": "desgaste irregular",
+                    "en": "uneven wear"
+                  }
+                ],
+                "src": "DGT guidance"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c6f",
+                "answer": 2,
+                "es": {
+                  "q": "¿Para qué sirve la varilla del aceite del motor?",
+                  "options": [
+                    "Para medir la temperatura del motor",
+                    "Para saber cuándo cambiar el filtro",
+                    "Para comprobar el nivel de aceite"
+                  ],
+                  "why": "Con la varilla compruebas el nivel de aceite, con el motor frío y en llano. Debe quedar entre el mínimo y el máximo."
+                },
+                "en": {
+                  "q": "What is the engine oil dipstick for?",
+                  "options": [
+                    "To measure the engine temperature",
+                    "To know when to change the filter",
+                    "To check the oil level"
+                  ],
+                  "why": "With the dipstick you check the oil level, with the engine cold and on level ground. It must sit between the minimum and the maximum."
+                },
+                "exam": {
+                  "q": "What does the engine oil dipstick serve for?",
+                  "options": [
+                    "To measure the temperature of the engine.",
+                    "To know when to change the filter.",
+                    "To check the oil level."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "varilla del aceite",
+                    "en": "oil dipstick"
+                  },
+                  {
+                    "es": "nivel",
+                    "en": "level"
+                  }
+                ],
+                "src": "DGT guidance"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Los frenos y sus tres funciones",
+            "en": "Brakes and their three functions"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "El sistema de frenos hace tres trabajos distintos. El reglamento de vehículos los define así:",
+                "en": "The braking system does three different jobs. The vehicle regulation defines them like this:"
+              }
+            },
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Función",
+                  "en": "Function"
+                },
+                {
+                  "es": "Para qué sirve",
+                  "en": "What it is for"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "Frenado de servicio (el pedal)",
+                    "en": "Service brake (the pedal)"
+                  },
+                  {
+                    "es": "Controlar el movimiento y detener el vehículo de forma segura, rápida y eficaz",
+                    "en": "Controlling the movement and stopping the vehicle safely, quickly and effectively"
+                  }
+                ],
+                [
+                  {
+                    "es": "Frenado de socorro",
+                    "en": "Emergency brake"
+                  },
+                  {
+                    "es": "Detener el vehículo en una distancia razonable si falla el freno de servicio",
+                    "en": "Stopping the vehicle in a reasonable distance if the service brake fails"
+                  }
+                ],
+                [
+                  {
+                    "es": "Frenado de estacionamiento (freno de mano)",
+                    "en": "Parking brake (handbrake)"
+                  },
+                  {
+                    "es": "Mantener el vehículo **inmóvil** en una cuesta, incluso sin el conductor",
+                    "en": "Keeping the vehicle **still** on a slope, even with no driver"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "El **frenado de estacionamiento** debe mantener el vehículo inmóvil en una pendiente, hacia arriba o hacia abajo, incluso sin el conductor, mediante un dispositivo puramente mecánico.",
+                "en": "The **parking brake** must hold the vehicle still on a slope, up or down, even with no driver, by means of a purely mechanical device."
+              },
+              "src": "RGV Anexo VIII, 1.2.3"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Para reducir la velocidad usas el freno de servicio y el freno motor; el freno de mano es para dejar el vehículo inmovilizado.",
+                "en": "To slow down you use the service brake and engine braking; the handbrake is for leaving the vehicle immobilized."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c6g",
+                "answer": 1,
+                "es": {
+                  "q": "¿Cuál es la función del freno de estacionamiento (freno de mano)?",
+                  "options": [
+                    "Reducir la velocidad en las bajadas largas",
+                    "Mantener el vehículo inmóvil, incluso sin conductor",
+                    "Sustituir al pedal de freno en ciudad"
+                  ],
+                  "why": "El frenado de estacionamiento mantiene el vehículo inmóvil en una pendiente, incluso en ausencia del conductor. Para frenar en marcha se usa el freno de servicio."
+                },
+                "en": {
+                  "q": "What is the parking brake (handbrake) for?",
+                  "options": [
+                    "Slowing down on long descents",
+                    "Keeping the vehicle still, even with no driver",
+                    "Replacing the brake pedal in town"
+                  ],
+                  "why": "The parking brake holds the vehicle still on a slope, even with no driver. To brake while moving you use the service brake."
+                },
+                "exam": {
+                  "q": "What is the function of the parking brake (hand brake)?",
+                  "options": [
+                    "To reduce the speed in the long descents.",
+                    "To keep the vehicle immobile, even without driver.",
+                    "To substitute the brake pedal in town."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "freno de estacionamiento",
+                    "en": "parking brake"
+                  },
+                  {
+                    "es": "freno de servicio",
+                    "en": "service brake"
+                  }
+                ],
+                "src": "RGV Anexo VIII, 1.2"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
             "es": "Zonas de bajas emisiones",
             "en": "Low-emission zones"
           },
@@ -2658,6 +5009,50 @@
                 "src": "Ley 7/2021 art. 14.3; RGC art. 157 (añadido por el RD 518/2026)",
                 "sign": "r-120"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c6j",
+                "answer": 0,
+                "es": {
+                  "q": "Tu híbrido enchufable recorre 45 km solo con la batería. ¿Qué distintivo ambiental le corresponde?",
+                  "options": [
+                    "0 emisiones",
+                    "ECO",
+                    "C"
+                  ],
+                  "why": "Los eléctricos de batería, los de autonomía extendida, los de hidrógeno o pila de combustible y los híbridos enchufables con al menos 40 km de autonomía son «0 emisiones»."
+                },
+                "en": {
+                  "q": "Your plug-in hybrid can cover 45 km on the battery alone. Which environmental label does it get?",
+                  "options": [
+                    "Zero emissions",
+                    "ECO",
+                    "C"
+                  ],
+                  "why": "Battery electric, extended-range electric, hydrogen or fuel-cell vehicles and plug-in hybrids with at least 40 km of range are “zero emissions”."
+                },
+                "exam": {
+                  "q": "Your plug-in hybrid travels 45 km only with the battery. Which environmental badge corresponds to it?",
+                  "options": [
+                    "0 emissions.",
+                    "ECO.",
+                    "C."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "distintivo ambiental",
+                    "en": "environmental label"
+                  },
+                  {
+                    "es": "híbrido enchufable",
+                    "en": "plug-in hybrid"
+                  }
+                ],
+                "src": "RGV Anexo II, E.2.a"
+              }
             }
           ]
         },
@@ -2707,6 +5102,20 @@
               }
             },
             {
+              "t": "tip",
+              "text": {
+                "es": "**Primera marcha**: úsala solo para arrancar y pasa a segunda tras dos segundos o 5 a 6 metros. (DGT guidance)",
+                "en": "**First gear**: use it only to pull away, and change to second after two seconds or 5 to 6 meters. (DGT guidance)"
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "**Neumáticos poco inflados**: ofrecen más resistencia a la rodadura y el coche gasta más. **Ventanillas abiertas**: más resistencia al avance; la DGT calcula un consumo extra del 5 %. (DGT guidance)",
+                "en": "**Underinflated tires** roll with more resistance and the car uses more fuel. **Open windows** add drag; the DGT puts the extra consumption at 5%. (DGT guidance)"
+              }
+            },
+            {
               "t": "check",
               "q": {
                 "id": "equipment-c6c",
@@ -2745,6 +5154,94 @@
                 ],
                 "src": "IDAE guidance (not a legal rule)"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c6h",
+                "answer": 0,
+                "es": {
+                  "q": "Según la DGT, ¿qué pasa con el consumo si circulas con los neumáticos poco inflados?",
+                  "options": [
+                    "Sube, porque aumenta la resistencia a la rodadura",
+                    "Baja, porque el neumático agarra más",
+                    "No cambia: solo afecta al desgaste"
+                  ],
+                  "why": "La DGT explica que la falta de presión hace que el vehículo ofrezca más resistencia a la rodadura, y eso aumenta el consumo."
+                },
+                "en": {
+                  "q": "According to the DGT, what happens to fuel use if you drive with underinflated tires?",
+                  "options": [
+                    "It goes up, because rolling resistance increases",
+                    "It goes down, because the tire grips more",
+                    "It does not change: it only affects wear"
+                  ],
+                  "why": "The DGT explains that low pressure makes the vehicle offer more rolling resistance, and that raises consumption."
+                },
+                "exam": {
+                  "q": "According to the DGT, what happens with the consumption if you circulate with the tyres with little pressure?",
+                  "options": [
+                    "It rises, because the rolling resistance increases.",
+                    "It goes down, because the tyre grips more.",
+                    "It does not change; it only affects the wear."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "resistencia a la rodadura",
+                    "en": "rolling resistance"
+                  },
+                  {
+                    "es": "consumo",
+                    "en": "fuel consumption"
+                  }
+                ],
+                "src": "DGT guidance"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c6i",
+                "answer": 1,
+                "es": {
+                  "q": "Según la DGT, en una conducción eficiente, ¿para qué usas la primera marcha?",
+                  "options": [
+                    "Para circular despacio por ciudad",
+                    "Solo para arrancar; pasas pronto a segunda",
+                    "Para bajar pendientes pronunciadas"
+                  ],
+                  "why": "La DGT aconseja usar la primera solo para iniciar la marcha y cambiar a segunda lo antes posible, tras dos segundos o 5 a 6 metros."
+                },
+                "en": {
+                  "q": "According to the DGT, in efficient driving, what do you use first gear for?",
+                  "options": [
+                    "For driving slowly in town",
+                    "Only for pulling away; you soon change to second",
+                    "For going down steep hills"
+                  ],
+                  "why": "The DGT advises using first only to start moving and changing to second as soon as possible, after two seconds or 5 to 6 meters."
+                },
+                "exam": {
+                  "q": "According to the DGT, in an efficient driving, what do you use the first gear for?",
+                  "options": [
+                    "To circulate slowly through town.",
+                    "Only to start; you change soon to second.",
+                    "To go down pronounced slopes."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "primera marcha",
+                    "en": "first gear"
+                  },
+                  {
+                    "es": "conducción eficiente",
+                    "en": "efficient driving"
+                  }
+                ],
+                "src": "DGT guidance"
+              }
             }
           ]
         }
@@ -2769,6 +5266,10 @@
         {
           "es": "Conducción eficiente: consejo, no ley; la **seguridad** va primero.",
           "en": "Efficient driving: advice, not law; **safety** comes first."
+        },
+        {
+          "es": "El freno de **estacionamiento** inmoviliza; hundirse al frenar apunta a los amortiguadores (DGT).",
+          "en": "The **parking** brake holds the car still; dipping when braking points to the shock absorbers (DGT)."
         }
       ],
       "covers": [
@@ -2779,7 +5280,9 @@
         "Ley 7/2021 de cambio climático, art. 14.3",
         "Reglamento General de Circulación (RD 1428/2003), art. 157 (añadido por el RD 518/2026, en vigor desde el 1 de octubre de 2026)",
         "Reglamento General de Circulación, Anexo I, ap. 5.1 (señal R-120, Catálogo de señales)",
-        "Guía DGT (revista.dgt.es, «Coche siempre a punto») y guía IDAE (idae.es, «10 reglas de oro de la conducción eficiente»)"
+        "Guía DGT (revista.dgt.es, «Coche siempre a punto») y guía IDAE (idae.es, «10 reglas de oro de la conducción eficiente»)",
+        "Reglamento General de Vehículos (RD 2822/1998), Anexo II (E) y Anexo VIII",
+        "DGT guidance: revista.dgt.es (puesta a punto, neumáticos, conducción eficiente) y dgt.es (conducción eficiente)"
       ]
     }
   ]

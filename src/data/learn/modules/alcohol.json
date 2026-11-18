@@ -5,8 +5,8 @@
     "en": "Alcohol, drugs, medicines and fatigue"
   },
   "blurb": {
-    "es": "Las tasas de alcohol, los controles, las drogas, los medicamentos y cómo evitar conducir con sueño.",
-    "en": "Alcohol limits, tests, drugs, medicines and how to avoid driving sleepy."
+    "es": "Las tasas de alcohol, los controles, cómo te afectan el alcohol y las drogas, los medicamentos, el sueño, el estrés, el calor y el tabaco.",
+    "en": "Alcohol limits, tests, how alcohol and drugs affect you, medicines, sleep, stress, heat and smoking."
   },
   "lessons": [
     {
@@ -102,6 +102,54 @@
               "text": {
                 "es": "En un control lo normal es soplar en un **etilómetro**, un aparato autorizado que mide el aire espirado. La ley da el límite en las dos unidades.",
                 "en": "At a checkpoint you normally blow into a **breathalyzer**, an authorized device that measures exhaled air. The law gives the limit in both units."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c1f",
+                "answer": 2,
+                "es": {
+                  "q": "En un control de alcoholemia, ¿cómo se hace normalmente la prueba?",
+                  "options": [
+                    "Con un análisis de sangre en el mismo control",
+                    "Con una prueba de saliva",
+                    "Midiendo el aire espirado con un etilómetro"
+                  ],
+                  "why": "La prueba de alcohol consiste normalmente en medir el aire espirado con un etilómetro autorizado. La prueba de saliva sirve para detectar drogas."
+                },
+                "en": {
+                  "q": "At an alcohol checkpoint, how is the test normally done?",
+                  "options": [
+                    "With a blood test at the checkpoint",
+                    "With a saliva test",
+                    "By measuring exhaled air with a breathalyzer"
+                  ],
+                  "why": "The alcohol test normally measures exhaled air with an authorized breathalyzer. The saliva test is for detecting drugs."
+                },
+                "exam": {
+                  "q": "In an alcohol control, how is the test normally carried out?",
+                  "options": [
+                    "With an analysis of blood in the same control.",
+                    "With a test of saliva.",
+                    "Measuring the exhaled air with a breathalyser."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "etilómetro",
+                    "en": "breathalyser"
+                  },
+                  {
+                    "es": "aire espirado",
+                    "en": "exhaled air"
+                  },
+                  {
+                    "es": "control de alcoholemia",
+                    "en": "alcohol control (checkpoint)"
+                  }
+                ],
+                "src": "RGC art. 22.1; LSV art. 14.3"
               }
             }
           ]
@@ -827,6 +875,106 @@
                 ],
                 "src": "RGC art. 25.1"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c2g",
+                "answer": 0,
+                "es": {
+                  "q": "Un agente te pide que hagas la prueba de drogas y te niegas. ¿Qué es esa negativa?",
+                  "options": [
+                    "Un delito, castigado con prisión de seis meses a un año",
+                    "Una infracción leve, sin pérdida de puntos",
+                    "Nada, porque la prueba es voluntaria"
+                  ],
+                  "why": "Negarse a las pruebas de alcohol o de drogas cuando lo pide un agente es un delito: prisión de seis meses a un año y pérdida del derecho a conducir de más de uno a cuatro años."
+                },
+                "en": {
+                  "q": "An officer asks you to take a drug test and you refuse. What is that refusal?",
+                  "options": [
+                    "A crime, punished with six months to a year in prison",
+                    "A minor offense, with no points lost",
+                    "Nothing, because the test is voluntary"
+                  ],
+                  "why": "Refusing the alcohol or drug tests when an officer asks is a crime: six months to a year in prison and loss of the right to drive for more than one and up to four years."
+                },
+                "exam": {
+                  "q": "An agent asks you to do the test of drugs and you refuse. What is that refusal?",
+                  "options": [
+                    "A crime, punished with prison of six months to one year.",
+                    "A minor infraction, without loss of points.",
+                    "Nothing, because the test is voluntary."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "delito",
+                    "en": "criminal offence"
+                  },
+                  {
+                    "es": "negarse a la prueba",
+                    "en": "refuse the test"
+                  },
+                  {
+                    "es": "Código Penal",
+                    "en": "Penal Code"
+                  }
+                ],
+                "src": "Código Penal art. 383"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "La inmovilización se levanta **en cuanto desaparece la causa** que la motivó, salvo que un juez ordene otra cosa. También se levanta si otro conductor habilitado, que tú llames y que dé garantías a los agentes, se hace cargo del vehículo.",
+                "en": "The immobilization is lifted **as soon as the cause disappears**, unless a judge orders otherwise. It is also lifted if another qualified driver, whom you call and who satisfies the officers, takes charge of the vehicle."
+              },
+              "src": "RGC art. 25.3; LSV art. 104.2"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c2f",
+                "answer": 1,
+                "es": {
+                  "q": "Te inmovilizan el turismo en un control por superar la tasa de alcohol. Tu acompañante tiene permiso y no ha bebido. ¿Puede llevarse él el coche?",
+                  "options": [
+                    "No: la inmovilización dura siempre 24 horas",
+                    "Sí: puede levantarse si otro conductor habilitado se hace cargo",
+                    "No: el coche debe ir siempre al depósito municipal"
+                  ],
+                  "why": "La inmovilización se deja sin efecto en cuanto desaparece la causa que la motivó, o cuando otro conductor habilitado puede llevar el vehículo."
+                },
+                "en": {
+                  "q": "Officers immobilise your car at a checkpoint because you are over the alcohol limit. Your passenger holds a licence and has not been drinking. Can the passenger drive the car away?",
+                  "options": [
+                    "No: the immobilisation always lasts 24 hours",
+                    "Yes: it can be lifted if another qualified driver takes over",
+                    "No: the car must always go to the municipal pound"
+                  ],
+                  "why": "The immobilization ends as soon as the cause behind it disappears, or when another qualified driver can drive the vehicle."
+                },
+                "exam": {
+                  "q": "They immobilise you the passenger car in a control for exceeding the alcohol rate. Your companion has licence and has not drunk. Can he take the car?",
+                  "options": [
+                    "No: the immobilisation always lasts 24 hours.",
+                    "Yes: it can be lifted if another qualified driver takes charge.",
+                    "No: the car must always go to the municipal depot."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "inmovilización",
+                    "en": "immobilisation"
+                  },
+                  {
+                    "es": "dar positivo",
+                    "en": "give positive"
+                  }
+                ],
+                "src": "RGC art. 25.3; LSV art. 104.2"
+              }
             }
           ]
         },
@@ -866,28 +1014,28 @@
                 "id": "alcohol-c2d",
                 "answer": 0,
                 "es": {
-                  "q": "Un conductor de turismo sopla 0,45 mg/l, pero circula haciendo eses y habla con dificultad. ¿Puede ser delito?",
+                  "q": "En un control, un conductor da 0,45 mg/l en aire espirado. Los agentes ven además que no mantiene la trayectoria y apenas puede hablar. ¿Qué es cierto?",
                   "options": [
-                    "Sí: conducir bajo la influencia del alcohol puede ser delito aunque no llegue a 0,60 mg/l",
-                    "No: solo es delito por encima de 0,60 mg/l",
-                    "No: por debajo de 0,60 mg/l solo se sanciona a los noveles"
+                    "Puede responder penalmente, aunque no haya llegado a 0,60 mg/l",
+                    "Solo tendrá una sanción administrativa, porque no pasa de 0,60 mg/l",
+                    "No pasa nada, porque solo los noveles tienen un límite más bajo"
                   ],
                   "why": "El delito no depende solo de la cifra. Conducir bajo la influencia del alcohol puede serlo con una tasa menor, y por encima de 0,60 mg/l siempre lo es."
                 },
                 "exam": {
-                  "q": "A driver of passenger car blows 0,45 mg/l, but circulates making esses and speaks with difficulty. Can it be a crime?",
+                  "q": "In a control, a driver gives 0,45 mg/l in exhaled air. The agents see besides that he does not maintain the trajectory and hardly can speak. What is true?",
                   "options": [
-                    "Yes: to drive under the influence of the alcohol can be a crime although it does not reach 0,60 mg/l.",
-                    "No: it is only a crime above 0,60 mg/l.",
-                    "No: below 0,60 mg/l only the novices are sanctioned."
+                    "He can answer penally, although he has not reached 0,60 mg/l.",
+                    "He will only have an administrative sanction, because he does not pass 0,60 mg/l.",
+                    "Nothing happens, because only the novices have a lower limit."
                   ]
                 },
                 "en": {
-                  "q": "A car driver blows 0.45 mg/L, but is weaving and speaks with difficulty. Can it be a crime?",
+                  "q": "At a checkpoint a driver blows 0.45 mg/L in exhaled air. Officers also see that the driver cannot hold a straight line and can barely speak. Which is true?",
                   "options": [
-                    "Yes: driving under the influence of alcohol can be a crime even below 0.60 mg/L",
-                    "No: it is a crime only over 0.60 mg/L",
-                    "No: below 0.60 mg/L only novice drivers are penalized"
+                    "The driver can face criminal charges, even though the level is under 0.60 mg/L",
+                    "Only an administrative fine is possible, since the level is not over 0.60 mg/L",
+                    "Nothing happens, because only novices have a lower limit"
                   ],
                   "why": "The crime does not depend on the number alone. Driving under the influence can be one at a lower level, and above 0.60 mg/L it always is."
                 },
@@ -1035,7 +1183,8 @@
       "src": [
         "Reglamento General de Circulación (RD 1428/2003), arts. 21, 23, 25 y 26.2",
         "Ley de Tráfico y Seguridad Vial (RDL 6/2015), arts. 14.2, 14.5, 77.c, 80 y anexo II",
-        "Código Penal, arts. 379 y 383"
+        "Código Penal, arts. 379 y 383",
+        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), art. 104"
       ]
     },
     {
@@ -1247,6 +1396,50 @@
                 ],
                 "src": "LSV art. 14.2"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c3d",
+                "answer": 2,
+                "es": {
+                  "q": "Circulas con un patinete eléctrico, que es un vehículo de movilidad personal. Un agente te pide una prueba de drogas. ¿Debes hacerla?",
+                  "options": [
+                    "No: solo están obligados los conductores de vehículos a motor",
+                    "Solo si has tenido un accidente",
+                    "Sí: estás obligado, como el conductor de cualquier vehículo"
+                  ],
+                  "why": "La ley obliga al conductor de un vehículo a someterse a las pruebas de alcohol y drogas. El vehículo de movilidad personal es un vehículo, así que la obligación también es tuya."
+                },
+                "en": {
+                  "q": "You are riding an e-scooter, which is a personal mobility vehicle. An officer asks you for a drug test. Must you take it?",
+                  "options": [
+                    "No: only drivers of motor vehicles must",
+                    "Only if you have had an accident",
+                    "Yes: you must, like the driver of any vehicle"
+                  ],
+                  "why": "The law obliges the driver of a vehicle to take the alcohol and drug tests. A personal mobility vehicle is a vehicle, so the duty is yours too."
+                },
+                "exam": {
+                  "q": "You circulate with an electric scooter, which is a personal mobility vehicle. An agent asks you for a test of drugs. Must you do it?",
+                  "options": [
+                    "No: only the drivers of motor vehicles are obliged.",
+                    "Only if you have had an accident.",
+                    "Yes: you are obliged, like the driver of any vehicle."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "vehículo de movilidad personal (VMP)",
+                    "en": "personal mobility vehicle"
+                  },
+                  {
+                    "es": "patinete eléctrico",
+                    "en": "electric scooter"
+                  }
+                ],
+                "src": "LSV art. 14.2; RGV anexo II (vehículo de movilidad personal)"
+              }
             }
           ]
         },
@@ -1347,7 +1540,741 @@
         "Ley de Tráfico y Seguridad Vial (RDL 6/2015), arts. 14, 77.c, 80.2.a y anexo II",
         "Reglamento General de Circulación (RD 1428/2003), art. 27.1",
         "Código Penal, art. 379.2",
-        "DGT guidance on alcohol (dgt.es, Consumo de alcohol)"
+        "DGT guidance on alcohol (dgt.es, Consumo de alcohol)",
+        "Reglamento General de Vehículos (RD 2822/1998), anexo II"
+      ]
+    },
+    {
+      "id": "effects",
+      "title": {
+        "es": "Cómo te afectan el alcohol y las drogas",
+        "en": "How alcohol and drugs affect you"
+      },
+      "minutes": 8,
+      "goals": [
+        {
+          "es": "Explicar por qué el alcohol alarga el tiempo de reacción y la distancia de detención.",
+          "en": "Explain why alcohol lengthens reaction time and stopping distance."
+        },
+        {
+          "es": "Saber que no hay una cantidad de alcohol segura para conducir.",
+          "en": "Know that there is no safe amount of alcohol for driving."
+        },
+        {
+          "es": "Saber por qué la misma bebida no da la misma tasa a todos.",
+          "en": "Know why the same drink does not give everyone the same level."
+        },
+        {
+          "es": "Reconocer los efectos principales de las drogas al volante.",
+          "en": "Recognize the main effects of drugs at the wheel."
+        }
+      ],
+      "terms": [
+        {
+          "es": "tiempo de reacción",
+          "en": "reaction time"
+        },
+        {
+          "es": "distancia de detención",
+          "en": "stopping distance"
+        },
+        {
+          "es": "toma de decisiones",
+          "en": "decision making"
+        },
+        {
+          "es": "visión en túnel",
+          "en": "tunnel vision"
+        },
+        {
+          "es": "bebida destilada",
+          "en": "distilled drink (spirits)"
+        },
+        {
+          "es": "ilusiones ópticas",
+          "en": "optical illusions"
+        },
+        {
+          "es": "efecto rebote",
+          "en": "rebound effect"
+        }
+      ],
+      "pretest": {
+        "id": "alcohol-pre-6",
+        "answer": 1,
+        "es": {
+          "q": "Has bebido una cerveza y estás por debajo del límite legal. ¿Conduces igual que sin beber?",
+          "options": [
+            "Sí: por debajo del límite no hay ningún efecto",
+            "No: incluso por debajo del límite aumenta el riesgo",
+            "Sí, si tomas un café antes de salir"
+          ],
+          "why": "La DGT explica que el riesgo aumenta incluso por debajo del límite. La única tasa segura es 0,0."
+        },
+        "en": {
+          "q": "You had one beer and are under the legal limit. Do you drive as well as without drinking?",
+          "options": [
+            "Yes: under the limit there is no effect",
+            "No: even under the limit the risk goes up",
+            "Yes, if you have a coffee before you leave"
+          ],
+          "why": "The DGT explains that risk goes up even below the limit. The only safe level is 0.0."
+        },
+        "exam": {
+          "q": "You have drunk one beer and you are below the legal limit. Do you drive the same as without drinking?",
+          "options": [
+            "Yes: below the limit there is not any effect.",
+            "No: even below the limit the risk increases.",
+            "Yes, if you take a coffee before leaving."
+          ]
+        },
+        "terms": [],
+        "src": "DGT guidance (dgt.es, Consumo de alcohol, actualizada el 20-03-2025)"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Reaccionas más tarde",
+            "en": "You react later"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Según la DGT, el alcohol **aumenta el tiempo de reacción**. Tardas más en ver el peligro, en decidir qué hacer y en hacerlo.",
+                "en": "According to the DGT, alcohol **increases reaction time**. You take longer to see a danger, to decide what to do and to do it."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Mientras reaccionas, el coche sigue avanzando. Si reaccionas más tarde, recorres más metros antes de frenar. Por eso la **distancia de detención** total es mayor.",
+                "en": "While you react, the car keeps moving. If you react later, you cover more meters before you brake. That is why the total **stopping distance** is longer."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c6a",
+                "answer": 2,
+                "es": {
+                  "q": "¿Qué le pasa a la distancia de detención de un conductor que ha bebido alcohol?",
+                  "options": [
+                    "Disminuye, porque está más alerta",
+                    "No cambia: solo depende de los frenos",
+                    "Aumenta, porque tarda más en reaccionar"
+                  ],
+                  "why": "El alcohol aumenta el tiempo de reacción. Durante ese tiempo el vehículo sigue avanzando, así que la distancia total hasta detenerse es mayor."
+                },
+                "en": {
+                  "q": "What happens to the stopping distance of a driver who has been drinking?",
+                  "options": [
+                    "It gets shorter, because the driver is more alert",
+                    "It does not change: it depends only on the brakes",
+                    "It gets longer, because the driver takes longer to react"
+                  ],
+                  "why": "Alcohol increases reaction time. During that time the vehicle keeps moving, so the total distance to stop is longer."
+                },
+                "exam": {
+                  "q": "What happens to the stopping distance of a driver who has drunk alcohol?",
+                  "options": [
+                    "It decreases, because he is more alert.",
+                    "It does not change: it only depends on the brakes.",
+                    "It increases, because he takes longer to react."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "distancia de detención",
+                    "en": "stopping distance"
+                  },
+                  {
+                    "es": "tiempo de reacción",
+                    "en": "reaction time"
+                  }
+                ],
+                "src": "DGT guidance (dgt.es, Consumo de alcohol, actualizada el 20-03-2025)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Decides peor y arriesgas más",
+            "en": "You decide worse and take more risks"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "La DGT explica que el alcohol altera todas las fases de la **toma de decisiones**: recibes peor la información, razonas peor y te mueves con menos coordinación.",
+                "en": "The DGT explains that alcohol disrupts every stage of **decision making**: you take in information less well, reason less well and move with less coordination."
+              }
+            },
+            {
+              "t": "list",
+              "items": [
+                {
+                  "es": "Miras menos a tu alrededor, ves peor las luces y las señales y te deslumbras más.",
+                  "en": "You look around less, see lights and signs less well and get dazzled more."
+                },
+                {
+                  "es": "Te cuesta calcular distancias y velocidades.",
+                  "en": "Judging distances and speeds gets harder."
+                },
+                {
+                  "es": "Tu atención se estrecha y puede aparecer la **visión en túnel**.",
+                  "en": "Your attention narrows and **tunnel vision** can appear."
+                },
+                {
+                  "es": "Te sientes más seguro de lo que estás y aceptas más riesgo.",
+                  "en": "You feel safer than you are and accept more risk."
+                },
+                {
+                  "es": "Puedes volverte impulsivo, agresivo y descortés con los demás.",
+                  "en": "You can become impulsive, aggressive and rude to others."
+                }
+              ]
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c6b",
+                "answer": 0,
+                "es": {
+                  "q": "Un conductor ha bebido y dice que se siente más seguro que nunca. ¿Qué explica la DGT?",
+                  "options": [
+                    "El alcohol da una falsa seguridad y hace aceptar más riesgo",
+                    "El alcohol mejora los reflejos si la dosis es baja",
+                    "El alcohol solo afecta a la vista, no a las decisiones"
+                  ],
+                  "why": "El alcohol hace que infravalores sus efectos y te sientas falsamente seguro. Por eso aceptas más riesgo y decides peor."
+                },
+                "en": {
+                  "q": "A driver has been drinking and says he feels more confident than ever. What does the DGT explain?",
+                  "options": [
+                    "Alcohol gives false confidence and makes you accept more risk",
+                    "Alcohol improves reflexes if the dose is low",
+                    "Alcohol affects only eyesight, not decisions"
+                  ],
+                  "why": "Alcohol makes you underestimate its effects and feel falsely safe. So you accept more risk and decide worse."
+                },
+                "exam": {
+                  "q": "A driver has drunk and says that he feels more safe than ever. What does the DGT explain?",
+                  "options": [
+                    "The alcohol gives a false security and makes accept more risk.",
+                    "The alcohol improves the reflexes if the dose is low.",
+                    "The alcohol only affects the sight, not the decisions."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "falsa seguridad",
+                    "en": "false security"
+                  },
+                  {
+                    "es": "toma de decisiones",
+                    "en": "decision making"
+                  }
+                ],
+                "src": "DGT guidance (dgt.es, Consumo de alcohol, actualizada el 20-03-2025)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c6c",
+                "answer": 1,
+                "es": {
+                  "q": "Según la DGT, ¿qué cambio de conducta puede producir el alcohol en un conductor?",
+                  "options": [
+                    "Más prudencia y más cortesía",
+                    "Conductas impulsivas y agresivas",
+                    "Una conducción más lenta y respetuosa"
+                  ],
+                  "why": "La DGT señala que el alcohol reduce la prudencia y puede aumentar las conductas impulsivas, agresivas y descorteses."
+                },
+                "en": {
+                  "q": "According to the DGT, what change in behavior can alcohol cause in a driver?",
+                  "options": [
+                    "More caution and more courtesy",
+                    "Impulsive and aggressive behavior",
+                    "Slower, more respectful driving"
+                  ],
+                  "why": "The DGT notes that alcohol reduces caution and can increase impulsive, aggressive and rude behavior."
+                },
+                "exam": {
+                  "q": "According to the DGT, what change of behaviour can alcohol produce in a driver?",
+                  "options": [
+                    "More prudence and more courtesy.",
+                    "Impulsive and aggressive behaviours.",
+                    "A slower and more respectful driving."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "conducta agresiva",
+                    "en": "aggressive behaviour"
+                  },
+                  {
+                    "es": "prudencia",
+                    "en": "prudence"
+                  }
+                ],
+                "src": "DGT guidance (dgt.es, Consumo de alcohol, actualizada el 20-03-2025)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "No hay una cantidad segura",
+            "en": "There is no safe amount"
+          },
+          "blocks": [
+            {
+              "t": "tip",
+              "text": {
+                "es": "Guía de la DGT: las alteraciones empiezan antes del límite legal. Con **0,15 a 0,20 g/L** en sangre ya hay más riesgo de accidente que sin alcohol. Con 0,5 g/L el riesgo se duplica.",
+                "en": "DGT guidance: impairment starts before the legal limit. At **0.15 to 0.20 g/L** in blood the crash risk is already higher than with no alcohol. At 0.5 g/L the risk doubles."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "La única tasa segura es **0,0**. Respetar el límite evita la sanción, no el riesgo. Si vas a conducir, no bebas.",
+                "en": "The only safe level is **0.0**. Staying under the limit avoids the penalty, not the risk. If you are going to drive, do not drink."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c6d",
+                "answer": 2,
+                "es": {
+                  "q": "Un conductor tiene 0,10 mg/L en aire espirado, por debajo de su límite. ¿Qué es cierto?",
+                  "options": [
+                    "No tiene ningún riesgo añadido",
+                    "Conduce mejor, porque está más relajado",
+                    "Su capacidad para conducir ya puede estar alterada"
+                  ],
+                  "why": "La DGT explica que el riesgo aumenta incluso por debajo del límite legal. Cualquier cantidad de alcohol puede alterar la conducción."
+                },
+                "en": {
+                  "q": "A driver has 0.10 mg/L in exhaled air, under his limit. What is true?",
+                  "options": [
+                    "He has no extra risk",
+                    "He drives better, because he is more relaxed",
+                    "His ability to drive may already be impaired"
+                  ],
+                  "why": "The DGT explains that risk rises even below the legal limit. Any amount of alcohol can impair driving."
+                },
+                "exam": {
+                  "q": "A driver has 0.10 mg/L in exhaled air, below his limit. What is true?",
+                  "options": [
+                    "He does not have any added risk.",
+                    "He drives better, because he is more relaxed.",
+                    "His capacity for driving can already be altered."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "tasa de alcohol",
+                    "en": "alcohol level (rate)"
+                  },
+                  {
+                    "es": "por debajo del límite",
+                    "en": "below the limit"
+                  }
+                ],
+                "src": "DGT guidance (dgt.es, Consumo de alcohol, actualizada el 20-03-2025)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "No afecta igual a todos",
+            "en": "It does not affect everyone the same"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Con la misma bebida, dos personas pueden tener tasas distintas. La DGT cita estos factores:",
+                "en": "With the same drink, two people can reach different levels. The DGT lists these factors:"
+              }
+            },
+            {
+              "t": "list",
+              "items": [
+                {
+                  "es": "**Peso**: una persona delgada puede alcanzar más tasa que una corpulenta.",
+                  "en": "**Weight**: a slim person can reach a higher level than a heavier one."
+                },
+                {
+                  "es": "**Sexo**: las mujeres pueden alcanzar tasas más altas con la misma bebida.",
+                  "en": "**Sex**: women can reach higher levels with the same drink."
+                },
+                {
+                  "es": "**Edad**: los menores de 18 y los mayores de 65 son más sensibles.",
+                  "en": "**Age**: people under 18 and over 65 are more sensitive."
+                },
+                {
+                  "es": "**Comida**: con el estómago vacío, el alcohol pasa antes a la sangre.",
+                  "en": "**Food**: on an empty stomach, alcohol reaches the blood sooner."
+                },
+                {
+                  "es": "**Tipo de bebida**: las destiladas se absorben antes que la cerveza o el vino. Mezclar con gaseosa o beber caliente también acelera la absorción.",
+                  "en": "**Type of drink**: spirits are absorbed sooner than beer or wine. Mixing with soda or drinking it hot also speeds absorption."
+                },
+                {
+                  "es": "**Rapidez**: cuanto más deprisa bebes, más alcohol absorbes.",
+                  "en": "**Speed**: the faster you drink, the more alcohol you absorb."
+                }
+              ]
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c6e",
+                "answer": 0,
+                "es": {
+                  "q": "Dos amigos beben lo mismo. Uno pesa 60 kg y el otro 95 kg. ¿Quién tendrá más alcohol en sangre?",
+                  "options": [
+                    "El de 60 kg",
+                    "El de 95 kg",
+                    "Los dos igual, porque han bebido lo mismo"
+                  ],
+                  "why": "La tasa no depende solo de lo que bebes: también del peso, el sexo, la edad y la comida. Con la misma bebida, la persona más delgada alcanza una tasa mayor."
+                },
+                "en": {
+                  "q": "Two friends drink the same amount. One weighs 60 kg and the other 95 kg. Who will have more alcohol in the blood?",
+                  "options": [
+                    "The one who weighs 60 kg",
+                    "The one who weighs 95 kg",
+                    "Both the same, because they drank the same"
+                  ],
+                  "why": "The level depends not only on what you drink but also on weight, sex, age and food. With the same drink, the slimmer person reaches a higher level."
+                },
+                "exam": {
+                  "q": "Two friends drink the same. One weighs 60 kg and the other 95 kg. Who will have more alcohol in blood?",
+                  "options": [
+                    "The one of 60 kg.",
+                    "The one of 95 kg.",
+                    "Both the same, because they have drunk the same."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "tasa de alcoholemia",
+                    "en": "blood alcohol level"
+                  },
+                  {
+                    "es": "peso",
+                    "en": "weight"
+                  }
+                ],
+                "src": "DGT guidance (dgt.es, Consumo de alcohol, actualizada el 20-03-2025)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c6f",
+                "answer": 1,
+                "es": {
+                  "q": "Con la misma cantidad de alcohol, ¿qué bebida pasa antes a la sangre?",
+                  "options": [
+                    "La cerveza",
+                    "Una bebida destilada, como el whisky o la ginebra",
+                    "El vino"
+                  ],
+                  "why": "Según la DGT, las bebidas destiladas se absorben antes. La cerveza y el vino, que son fermentadas, se absorben más despacio."
+                },
+                "en": {
+                  "q": "With the same amount of alcohol, which drink reaches the blood first?",
+                  "options": [
+                    "Beer",
+                    "A spirit, such as whisky or gin",
+                    "Wine"
+                  ],
+                  "why": "According to the DGT, spirits are absorbed sooner. Beer and wine, which are fermented, are absorbed more slowly."
+                },
+                "exam": {
+                  "q": "With the same quantity of alcohol, which drink passes before to the blood?",
+                  "options": [
+                    "The beer.",
+                    "A distilled drink, like whisky or gin.",
+                    "The wine."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "bebida destilada",
+                    "en": "distilled drink"
+                  },
+                  {
+                    "es": "absorción",
+                    "en": "absorption"
+                  }
+                ],
+                "src": "DGT guidance (dgt.es, Consumo de alcohol, actualizada el 20-03-2025)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Las drogas al volante",
+            "en": "Drugs at the wheel"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Las drogas ilegales más consumidas en España son el cannabis, la cocaína, el éxtasis y las anfetaminas. Según la DGT, todas alteran gravemente tu capacidad para conducir.",
+                "en": "The most used illegal drugs in Spain are cannabis, cocaine, ecstasy and amphetamines. According to the DGT, all of them seriously impair your ability to drive."
+              }
+            },
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Droga",
+                  "en": "Drug"
+                },
+                {
+                  "es": "Efectos al volante que describe la DGT",
+                  "en": "Effects at the wheel the DGT describes"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "Cannabis",
+                    "en": "Cannabis"
+                  },
+                  {
+                    "es": "Percepción muy alterada, sobre todo del espacio y del tiempo. Reacciones lentas, somnolencia y falsa seguridad.",
+                    "en": "Badly altered perception, above all of space and time. Slow reactions, drowsiness and false confidence."
+                  }
+                ],
+                [
+                  {
+                    "es": "Cocaína",
+                    "en": "Cocaine"
+                  },
+                  {
+                    "es": "Menos concentración y menos percepción del riesgo. Impulsividad y agresividad. Algunos efectos siguen cuando ya no la notas.",
+                    "en": "Less concentration and less sense of risk. Impulsiveness and aggression. Some effects last after you stop feeling it."
+                  }
+                ],
+                [
+                  {
+                    "es": "Éxtasis",
+                    "en": "Ecstasy"
+                  },
+                  {
+                    "es": "Ilusiones ópticas, como destellos o movimientos que no existen. Más deslumbramientos y graves fallos de atención.",
+                    "en": "Optical illusions, such as flashes or movements that are not there. More glare and serious lapses of attention."
+                  }
+                ],
+                [
+                  {
+                    "es": "Anfetaminas",
+                    "en": "Amphetamines"
+                  },
+                  {
+                    "es": "Ocultan la fatiga y el sueño. Horas después puede llegar un sueño irresistible.",
+                    "en": "They hide fatigue and sleepiness. Hours later an irresistible sleepiness can come."
+                  }
+                ],
+                [
+                  {
+                    "es": "LSD",
+                    "en": "LSD"
+                  },
+                  {
+                    "es": "Distorsiones fuertes e incluso alucinaciones. Las alteraciones pueden durar hasta 10 a 12 horas.",
+                    "en": "Strong distortions and even hallucinations. The effects can last up to 10 to 12 hours."
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Guía de la DGT: con algunas sustancias, **pequeñas dosis** pueden producir grandes efectos. Las drogas estimulantes no te hacen conducir mejor: ocultan el cansancio y luego llega el **efecto rebote**.",
+                "en": "DGT guidance: with some substances, **small doses** can have large effects. Stimulant drugs do not make you drive better: they hide tiredness, and then the **rebound effect** comes."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c6g",
+                "answer": 1,
+                "es": {
+                  "q": "¿Qué efecto típico del éxtasis en un conductor describe la DGT?",
+                  "options": [
+                    "Más concentración durante horas",
+                    "Ilusiones ópticas, como destellos o movimientos que no existen",
+                    "Ningún efecto si la dosis es pequeña"
+                  ],
+                  "why": "La DGT explica que el éxtasis produce ilusiones ópticas y graves problemas de atención. Pueden llevarte a hacer maniobras bruscas y peligrosas."
+                },
+                "en": {
+                  "q": "What typical effect of ecstasy on a driver does the DGT describe?",
+                  "options": [
+                    "Better concentration for hours",
+                    "Optical illusions, such as flashes or movements that are not there",
+                    "No effect if the dose is small"
+                  ],
+                  "why": "The DGT explains that ecstasy causes optical illusions and serious attention problems. They can lead you into sudden, dangerous maneuvers."
+                },
+                "exam": {
+                  "q": "What typical effect of ecstasy in a driver does the DGT describe?",
+                  "options": [
+                    "More concentration during hours.",
+                    "Optical illusions, like flashes or movements that do not exist.",
+                    "No effect if the dose is small."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "éxtasis",
+                    "en": "ecstasy"
+                  },
+                  {
+                    "es": "ilusiones ópticas",
+                    "en": "optical illusions"
+                  }
+                ],
+                "src": "DGT guidance (dgt.es, Consumo de drogas y medicación, 30-11-2022; DGT, «Las drogas y los medicamentos»)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c6h",
+                "answer": 0,
+                "es": {
+                  "q": "Un conductor toma cocaína para no dormirse en un viaje largo. ¿Qué es cierto?",
+                  "options": [
+                    "Es un error peligroso: al pasar el efecto, el sueño puede llegar de golpe",
+                    "Es una buena solución si el viaje es de noche",
+                    "No afecta a la conducción, porque es un estimulante"
+                  ],
+                  "why": "La DGT advierte que tomar cocaína para mantenerse despierto es un error muy peligroso. Además, reduce la concentración y la percepción del riesgo."
+                },
+                "en": {
+                  "q": "A driver takes cocaine to stay awake on a long trip. What is true?",
+                  "options": [
+                    "It is a dangerous mistake: when it wears off, sleep can hit suddenly",
+                    "It is a good solution if the trip is at night",
+                    "It does not affect driving, because it is a stimulant"
+                  ],
+                  "why": "The DGT warns that taking cocaine to stay awake is a very dangerous mistake. It also reduces concentration and the sense of risk."
+                },
+                "exam": {
+                  "q": "A driver takes cocaine in order not to fall asleep on a long journey. What is true?",
+                  "options": [
+                    "It is a dangerous error: when the effect passes, the sleep can arrive suddenly.",
+                    "It is a good solution if the journey is at night.",
+                    "It does not affect the driving, because it is a stimulant."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "cocaína",
+                    "en": "cocaine"
+                  },
+                  {
+                    "es": "efecto rebote",
+                    "en": "rebound effect"
+                  },
+                  {
+                    "es": "percepción del riesgo",
+                    "en": "risk perception"
+                  }
+                ],
+                "src": "DGT guidance (dgt.es, Consumo de drogas y medicación, 30-11-2022; DGT, «Las drogas y los medicamentos»)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c6i",
+                "answer": 2,
+                "es": {
+                  "q": "Una persona toma LSD a las 8 de la mañana. Según la DGT, ¿podría notar todavía alteraciones a las 7 de la tarde?",
+                  "options": [
+                    "No: el efecto se pasa en media hora",
+                    "No: dura como mucho una o dos horas",
+                    "Sí: las alteraciones pueden prolongarse entre 10 y 12 horas"
+                  ],
+                  "why": "La DGT indica que los efectos del LSD empiezan entre 45 y 60 minutos después de tomarlo y que las alteraciones pueden durar hasta 10 a 12 horas."
+                },
+                "en": {
+                  "q": "Someone takes LSD at 8 in the morning. According to the DGT, could they still notice effects at 7 in the evening?",
+                  "options": [
+                    "No: the effect wears off in half an hour",
+                    "No: it lasts one or two hours at most",
+                    "Yes: the effects can go on for 10 to 12 hours"
+                  ],
+                  "why": "The DGT says LSD starts to act 45 to 60 minutes after it is taken, and its effects can go on for 10 to 12 hours."
+                },
+                "exam": {
+                  "q": "A person takes LSD at 8 in the morning. According to the DGT, could he still notice alterations at 7 in the evening?",
+                  "options": [
+                    "No: the effect passes in half an hour.",
+                    "No: it lasts at most one or two hours.",
+                    "Yes: the alterations can be prolonged between 10 and 12 hours."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "alucinaciones",
+                    "en": "hallucinations"
+                  },
+                  {
+                    "es": "alteraciones",
+                    "en": "alterations"
+                  }
+                ],
+                "src": "DGT guidance (dgt.es, Consumo de drogas y medicación, 30-11-2022; DGT, «Las drogas y los medicamentos»)"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "El alcohol **aumenta el tiempo de reacción**, y con él la distancia de detención.",
+          "en": "Alcohol **increases reaction time**, and with it the stopping distance."
+        },
+        {
+          "es": "Altera la toma de decisiones: falsa seguridad, más riesgo, más agresividad.",
+          "en": "It disrupts decision making: false confidence, more risk, more aggression."
+        },
+        {
+          "es": "Hay riesgo incluso por debajo del límite: la única tasa segura es **0,0**.",
+          "en": "There is risk even under the limit: the only safe level is **0.0**."
+        },
+        {
+          "es": "Peso, sexo, edad, comida y tipo de bebida cambian la tasa. Las destiladas se absorben antes.",
+          "en": "Weight, sex, age, food and type of drink change the level. Spirits are absorbed sooner."
+        },
+        {
+          "es": "Las drogas alteran percepción, atención y reacciones. El LSD puede durar hasta 10 a 12 horas.",
+          "en": "Drugs disrupt perception, attention and reactions. LSD can last up to 10 to 12 hours."
+        }
+      ],
+      "covers": [],
+      "src": [
+        "DGT guidance on alcohol (dgt.es, Consumo de alcohol, actualizada el 20-03-2025)",
+        "DGT guidance on drugs (dgt.es, Consumo de drogas y medicación, actualizada el 30-11-2022)",
+        "DGT, «Las drogas y los medicamentos» (material de educación vial, dgt.es)"
       ]
     },
     {
@@ -1356,7 +2283,7 @@
         "es": "Medicamentos y enfermedad",
         "en": "Medicines and illness"
       },
-      "minutes": 5,
+      "minutes": 6,
       "goals": [
         {
           "es": "Saber cuándo un medicamento te prohíbe conducir.",
@@ -1399,6 +2326,10 @@
         {
           "es": "profesional sanitario",
           "en": "health professional"
+        },
+        {
+          "es": "catarro",
+          "en": "cold"
         }
       ],
       "pretest": {
@@ -1686,6 +2617,135 @@
               }
             }
           ]
+        },
+        {
+          "title": {
+            "es": "Catarros, gripe y alergias",
+            "en": "Colds, flu and allergies"
+          },
+          "blocks": [
+            {
+              "t": "tip",
+              "text": {
+                "es": "Guía de la DGT: los síntomas de un catarro o una alergia, como estornudos, lagrimeo o dificultad para respirar, ya dificultan conducir. Una serie de estornudos puede quitarte la atención de la carretera durante **15 segundos**.",
+                "en": "DGT guidance: the symptoms of a cold or an allergy, such as sneezing, watery eyes or trouble breathing, already make driving harder. A fit of sneezing can take your attention off the road for **15 seconds**."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Algunos antigripales y antialérgicos dan sueño, como ciertos antihistamínicos y los jarabes con codeína. Otros antihistamínicos no afectan a la conducción. Dile a tu médico que conduces y **no te automediques**.",
+                "en": "Some cold and allergy medicines make you sleepy, such as certain antihistamines and cough syrups with codeine. Other antihistamines do not affect driving. Tell your doctor that you drive and **do not self-medicate**."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Para los alérgicos al polen, la DGT recoge este consejo: viaja con las ventanillas cerradas y, si usas el aire acondicionado, que el coche tenga un **filtro de pólenes**.",
+                "en": "For people allergic to pollen, the DGT passes on this advice: travel with the windows closed and, if you use the air conditioning, make sure the car has a **pollen filter**."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c4e",
+                "answer": 0,
+                "es": {
+                  "q": "Tienes un catarro fuerte, con estornudos y lagrimeo, y debes conducir. ¿Qué es cierto?",
+                  "options": [
+                    "Los síntomas pueden quitarte atención: no conduzcas o hazlo con gran precaución",
+                    "Un catarro no afecta a la conducción",
+                    "Basta con tomar cualquier antigripal antes de salir"
+                  ],
+                  "why": "La DGT explica que los síntomas del catarro y la gripe dificultan conducir, y que algunos antigripales dan sueño. Lo prudente es no conducir o hacerlo con gran precaución."
+                },
+                "en": {
+                  "q": "You have a bad cold, with sneezing and watery eyes, and you have to drive. What is true?",
+                  "options": [
+                    "The symptoms can take your attention: do not drive, or drive with great care",
+                    "A cold does not affect driving",
+                    "Taking any cold medicine before you leave is enough"
+                  ],
+                  "why": "The DGT explains that cold and flu symptoms make driving harder, and that some cold medicines cause drowsiness. The careful choice is not to drive, or to drive with great care."
+                },
+                "exam": {
+                  "q": "You have a strong cold, with sneezes and watering of the eyes, and you must drive. What is true?",
+                  "options": [
+                    "The symptoms can take attention from you: do not drive or do it with great precaution.",
+                    "A cold does not affect the driving.",
+                    "It is enough to take any anti-flu medicine before leaving."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "catarro",
+                    "en": "cold"
+                  },
+                  {
+                    "es": "gripe",
+                    "en": "flu"
+                  },
+                  {
+                    "es": "estornudo",
+                    "en": "sneeze"
+                  },
+                  {
+                    "es": "antigripal",
+                    "en": "cold and flu medicine"
+                  }
+                ],
+                "src": "DGT guidance (revista.dgt.es, alergias y conducción, 2017 y 2019; «Anticatarrales y conducción», 2015)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c4f",
+                "answer": 2,
+                "es": {
+                  "q": "Tienes alergia al polen y vas a conducir en primavera. ¿Qué recomienda la DGT?",
+                  "options": [
+                    "Llevar las ventanillas bajadas para que corra el aire",
+                    "Tomar cualquier antihistamínico sin consultar",
+                    "Ventanillas cerradas y, si usas el aire acondicionado, filtro de pólenes"
+                  ],
+                  "why": "Para los alérgicos, la DGT aconseja ventanillas cerradas y filtro de pólenes si se usa el aire acondicionado. Y no automedicarse: algunos antihistamínicos dan sueño."
+                },
+                "en": {
+                  "q": "You are allergic to pollen and are going to drive in spring. What does the DGT recommend?",
+                  "options": [
+                    "Drive with the windows down so the air flows",
+                    "Take any antihistamine without asking",
+                    "Windows closed and, if you use the air conditioning, a pollen filter"
+                  ],
+                  "why": "For allergy sufferers, the DGT advises closed windows and a pollen filter if you use the air conditioning. And no self-medication: some antihistamines cause drowsiness."
+                },
+                "exam": {
+                  "q": "You have allergy to pollen and you are going to drive in spring. What does the DGT recommend?",
+                  "options": [
+                    "To carry the windows lowered so that the air runs.",
+                    "To take any antihistamine without consulting.",
+                    "Windows closed and, if you use the air conditioning, pollen filter."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "alergia",
+                    "en": "allergy"
+                  },
+                  {
+                    "es": "filtro de pólenes",
+                    "en": "pollen filter"
+                  },
+                  {
+                    "es": "antihistamínico",
+                    "en": "antihistamine"
+                  }
+                ],
+                "src": "DGT guidance (revista.dgt.es, alergias y conducción, 2017 y 2019; «Anticatarrales y conducción», 2015)"
+              }
+            }
+          ]
         }
       ],
       "recap": [
@@ -1704,6 +2764,10 @@
         {
           "es": "No mezcles alcohol con medicamentos.",
           "en": "Do not mix alcohol with medicines."
+        },
+        {
+          "es": "Un catarro o una alergia ya pueden quitarte atención. No te automediques.",
+          "en": "A cold or an allergy can already take your attention. Do not self-medicate."
         }
       ],
       "covers": [
@@ -1713,7 +2777,8 @@
         "Reglamento General de Circulación (RD 1428/2003), art. 27.1",
         "Ley de Tráfico y Seguridad Vial (RDL 6/2015), arts. 10 y 14.1",
         "DGT guidance on medicines and driving (revista.dgt.es, Salud vial)",
-        "DGT guidance on alcohol (dgt.es, Consumo de alcohol)"
+        "DGT guidance on alcohol (dgt.es, Consumo de alcohol)",
+        "DGT guidance (revista.dgt.es, alergias y conducción, 2017 y 2019; «Anticatarrales y conducción», 2015)"
       ]
     },
     {
@@ -1722,7 +2787,7 @@
         "es": "Fatiga y sueño",
         "en": "Fatigue and sleep"
       },
-      "minutes": 6,
+      "minutes": 8,
       "goals": [
         {
           "es": "Saber qué obligación legal de atención tienes al conducir.",
@@ -1735,6 +2800,10 @@
         {
           "es": "Reconocer las señales de sueño y saber qué hacer.",
           "en": "Recognize the signs of sleepiness and know what to do."
+        },
+        {
+          "es": "Saber qué hace la fatiga y qué la adelanta.",
+          "en": "Know what fatigue does and what brings it on sooner."
         }
       ],
       "terms": [
@@ -1813,6 +2882,302 @@
               "text": {
                 "es": "Con sueño, la DGT señala reacciones más lentas, menos concentración y más errores. Un microsueño dura apenas unos segundos y a menudo pasa inadvertido.",
                 "en": "With sleepiness, the DGT points to slower reactions, less concentration and more errors. A microsleep lasts only a few seconds and often goes unnoticed."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c5i",
+                "answer": 0,
+                "es": {
+                  "q": "¿Qué es un microsueño?",
+                  "options": [
+                    "Unos segundos en los que te duermes sin darte cuenta",
+                    "Una siesta de 20 minutos en un área de descanso",
+                    "Un sueño ligero que no afecta a la conducción"
+                  ],
+                  "why": "Un microsueño dura apenas unos segundos: te quedas ligeramente dormido y ajeno al tráfico. Suele pasar inadvertido hasta que ya ha terminado."
+                },
+                "en": {
+                  "q": "What is a microsleep?",
+                  "options": [
+                    "A few seconds in which you fall asleep without noticing",
+                    "A 20-minute nap at a rest area",
+                    "A light sleep that does not affect driving"
+                  ],
+                  "why": "A microsleep lasts just a few seconds: you fall lightly asleep and lose track of traffic. It usually goes unnoticed until it is over."
+                },
+                "exam": {
+                  "q": "What is a microsleep?",
+                  "options": [
+                    "Some seconds in which you fall asleep without realising.",
+                    "A nap of 20 minutes in a rest area.",
+                    "A light sleep that does not affect the driving."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "microsueño",
+                    "en": "microsleep"
+                  }
+                ],
+                "src": "DGT guidance (dgt.es, Conducir con sueño o cansancio, 09-07-2026)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Qué te hace la fatiga",
+            "en": "What fatigue does to you"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "La fatiga aparece sobre todo cuando conduces demasiado tiempo sin descansar. Según la DGT, cambia tu forma de conducir:",
+                "en": "Fatigue comes above all when you drive too long without a rest. According to the DGT, it changes how you drive:"
+              }
+            },
+            {
+              "t": "list",
+              "items": [
+                {
+                  "es": "Tu **tiempo de reacción** aumenta: el coche recorre más metros antes de que frenes.",
+                  "en": "Your **reaction time** goes up: the car covers more meters before you brake."
+                },
+                {
+                  "es": "Te distraes con más facilidad y más veces.",
+                  "en": "You get distracted more easily and more often."
+                },
+                {
+                  "es": "Tus movimientos son más lentos y menos precisos.",
+                  "en": "Your movements are slower and less precise."
+                },
+                {
+                  "es": "Oyes peor los sonidos del tráfico y de tu vehículo.",
+                  "en": "You hear traffic and vehicle sounds less well."
+                },
+                {
+                  "es": "Conduces de forma más automática y pasiva, y arriesgas más.",
+                  "en": "You drive more automatically and passively, and take more risks."
+                }
+              ]
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c5d",
+                "answer": 1,
+                "es": {
+                  "q": "Llevas muchas horas al volante y estás cansado. ¿Qué le pasa a tu distancia de reacción?",
+                  "options": [
+                    "Disminuye, porque conoces bien la carretera",
+                    "Aumenta, porque tardas más en reaccionar",
+                    "No cambia: solo depende de la velocidad"
+                  ],
+                  "why": "La fatiga aumenta el tiempo de reacción. Mientras tardas en reaccionar, el vehículo sigue avanzando, así que la distancia de reacción es mayor."
+                },
+                "en": {
+                  "q": "You have been at the wheel for many hours and are tired. What happens to your reaction distance?",
+                  "options": [
+                    "It gets shorter, because you know the road well",
+                    "It gets longer, because you take longer to react",
+                    "It does not change: it depends only on speed"
+                  ],
+                  "why": "Fatigue increases reaction time. While you take longer to react, the vehicle keeps moving, so the reaction distance is longer."
+                },
+                "exam": {
+                  "q": "You carry many hours at the wheel and you are tired. What happens to your reaction distance?",
+                  "options": [
+                    "It decreases, because you know the road well.",
+                    "It increases, because you take longer to react.",
+                    "It does not change: it only depends on the speed."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "distancia de reacción",
+                    "en": "reaction distance"
+                  },
+                  {
+                    "es": "fatiga",
+                    "en": "fatigue"
+                  }
+                ],
+                "src": "DGT guidance (dgt.es, Conducir con fatiga, 30-11-2022)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c5e",
+                "answer": 0,
+                "es": {
+                  "q": "Según la DGT, ¿cómo suele conducir una persona fatigada?",
+                  "options": [
+                    "De forma más automática y pasiva, y se distrae más",
+                    "Con más atención, para compensar el cansancio",
+                    "Igual que descansada, si conoce el trayecto"
+                  ],
+                  "why": "La DGT explica que la fatiga reduce la atención: se conduce de forma automática y pasiva, con más distracciones y peor percepción."
+                },
+                "en": {
+                  "q": "According to the DGT, how does a tired person usually drive?",
+                  "options": [
+                    "More automatically and passively, and gets distracted more",
+                    "With more attention, to make up for the tiredness",
+                    "The same as when rested, if the route is familiar"
+                  ],
+                  "why": "The DGT explains that fatigue lowers attention: you drive automatically and passively, with more distractions and poorer perception."
+                },
+                "exam": {
+                  "q": "According to the DGT, how does a fatigued person usually drive?",
+                  "options": [
+                    "In a more automatic and passive way, and he gets distracted more.",
+                    "With more attention, in order to compensate the tiredness.",
+                    "The same as rested, if he knows the route."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "conducción pasiva",
+                    "en": "passive driving"
+                  },
+                  {
+                    "es": "distracción",
+                    "en": "distraction"
+                  }
+                ],
+                "src": "DGT guidance (dgt.es, Conducir con fatiga, 30-11-2022)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Qué hace que llegue antes",
+            "en": "What brings it on sooner"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Según la DGT, la fatiga llega antes y es más fuerte con estos factores:",
+                "en": "According to the DGT, fatigue comes sooner and harder with these factors:"
+              }
+            },
+            {
+              "t": "list",
+              "items": [
+                {
+                  "es": "Muchas horas sin pausas, o mucho tiempo con prisa y a **velocidad elevada**.",
+                  "en": "Many hours without breaks, or a long time in a hurry at **high speed**."
+                },
+                {
+                  "es": "Niebla, lluvia o nieve, y la luz del amanecer y del atardecer.",
+                  "en": "Fog, rain or snow, and the light at dawn and dusk."
+                },
+                {
+                  "es": "Tráfico denso con muchas paradas, o carreteras que no conoces.",
+                  "en": "Heavy stop-and-go traffic, or roads you do not know."
+                },
+                {
+                  "es": "Calor o mala ventilación en el habitáculo, ruido y vibraciones.",
+                  "en": "Heat or poor ventilation in the cabin, noise and vibration."
+                },
+                {
+                  "es": "Comidas copiosas, alcohol, un catarro, el estrés o la falta de experiencia al volante.",
+                  "en": "Heavy meals, alcohol, a cold, stress or a lack of experience at the wheel."
+                }
+              ]
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c5f",
+                "answer": 2,
+                "es": {
+                  "q": "Conduces con niebla durante un trayecto largo. ¿Qué efecto tiene en tu cansancio?",
+                  "options": [
+                    "Ninguno: la niebla solo afecta a la visibilidad",
+                    "Lo reduce, porque vas más despacio",
+                    "Hace que la fatiga aparezca antes"
+                  ],
+                  "why": "La DGT incluye la niebla, la lluvia y la nieve entre los factores que adelantan la fatiga. Conducir así exige más atención."
+                },
+                "en": {
+                  "q": "You drive in fog on a long trip. What effect does it have on your tiredness?",
+                  "options": [
+                    "None: fog only affects visibility",
+                    "It reduces it, because you go slower",
+                    "It makes fatigue set in sooner"
+                  ],
+                  "why": "The DGT lists fog, rain and snow among the factors that bring fatigue on sooner. Driving in them demands more attention."
+                },
+                "exam": {
+                  "q": "You drive with fog during a long route. What effect does it have on your tiredness?",
+                  "options": [
+                    "None: the fog only affects the visibility.",
+                    "It reduces it, because you go more slowly.",
+                    "It makes the fatigue appear before."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "niebla",
+                    "en": "fog"
+                  },
+                  {
+                    "es": "cansancio",
+                    "en": "tiredness"
+                  }
+                ],
+                "src": "DGT guidance (dgt.es, Conducir con fatiga, 30-11-2022)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c5g",
+                "answer": 1,
+                "es": {
+                  "q": "¿Cuál de estos hábitos hace que la fatiga aparezca antes?",
+                  "options": [
+                    "Parar cada dos horas",
+                    "Circular mucho tiempo a velocidad elevada",
+                    "Beber agua durante el viaje"
+                  ],
+                  "why": "La DGT señala que conducir con prisa y a velocidad elevada durante mucho tiempo favorece la fatiga. Las pausas regulares la previenen."
+                },
+                "en": {
+                  "q": "Which of these habits makes fatigue set in sooner?",
+                  "options": [
+                    "Stopping every two hours",
+                    "Driving at high speed for a long time",
+                    "Drinking water during the trip"
+                  ],
+                  "why": "The DGT notes that driving in a hurry at high speed for a long time brings on fatigue. Regular breaks prevent it."
+                },
+                "exam": {
+                  "q": "Which of these habits makes the fatigue appear before?",
+                  "options": [
+                    "To stop every two hours.",
+                    "To circulate a long time at high speed.",
+                    "To drink water during the journey."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "velocidad elevada",
+                    "en": "high speed"
+                  },
+                  {
+                    "es": "pausa",
+                    "en": "break"
+                  }
+                ],
+                "src": "DGT guidance (dgt.es, Conducir con fatiga, 30-11-2022)"
               }
             }
           ]
@@ -1988,6 +3353,13 @@
               "src": "LSV art. 77.i"
             },
             {
+              "t": "tip",
+              "text": {
+                "es": "Guía de la DGT: dormir poco o mal, aunque sea una sola noche, da somnolencia al día siguiente. **Cambiar tu horario de sueño**, como en el trabajo a turnos, también. Dormir de día suele descansar menos.",
+                "en": "DGT guidance: sleeping too little or badly, even for one night, makes you drowsy the next day. **Changing your sleep schedule**, as in shift work, does too. Daytime sleep is usually less restful."
+              }
+            },
+            {
               "t": "check",
               "q": {
                 "id": "alcohol-c5c",
@@ -2030,6 +3402,50 @@
                 ],
                 "src": "DGT guidance on sleepiness (dgt.es)"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c5h",
+                "answer": 2,
+                "es": {
+                  "q": "Esta semana has cambiado de turno y duermes de día. Mañana tienes un viaje. ¿Qué es cierto?",
+                  "options": [
+                    "Dormir de día descansa igual que de noche",
+                    "El cambio de horario no influye si tomas café",
+                    "Alterar el horario de sueño puede darte somnolencia al volante"
+                  ],
+                  "why": "La DGT explica que cambiar el horario de sueño puede producir somnolencia, y que dormir de día suele descansar menos. El café puede tener efecto rebote."
+                },
+                "en": {
+                  "q": "This week you changed shifts and sleep during the day. Tomorrow you have a trip. What is true?",
+                  "options": [
+                    "Daytime sleep is as restful as night sleep",
+                    "The change of schedule does not matter if you drink coffee",
+                    "Changing your sleep schedule can make you drowsy at the wheel"
+                  ],
+                  "why": "The DGT explains that changing your sleep schedule can cause drowsiness, and that daytime sleep is usually less restful. Coffee can have a rebound effect."
+                },
+                "exam": {
+                  "q": "This week you have changed shift and you sleep by day. Tomorrow you have a journey. What is true?",
+                  "options": [
+                    "To sleep by day rests the same as by night.",
+                    "The change of schedule does not influence if you take coffee.",
+                    "To alter the sleep schedule can give you drowsiness at the wheel."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "horario de sueño",
+                    "en": "sleep schedule"
+                  },
+                  {
+                    "es": "somnolencia",
+                    "en": "drowsiness"
+                  }
+                ],
+                "src": "DGT guidance (dgt.es, Conducir con sueño o cansancio, 09-07-2026)"
+              }
             }
           ]
         }
@@ -2038,6 +3454,14 @@
         {
           "es": "La ley exige **atención permanente**. Los consejos sobre fatiga son guía de la DGT.",
           "en": "The law requires **constant attention**. The fatigue advice is DGT guidance."
+        },
+        {
+          "es": "La fatiga **aumenta el tiempo de reacción** y te vuelve automático y distraído.",
+          "en": "Fatigue **increases reaction time** and makes you automatic and distracted."
+        },
+        {
+          "es": "Velocidad alta sostenida, mal tiempo, calor y falta de experiencia la adelantan.",
+          "en": "Sustained high speed, bad weather, heat and inexperience bring it on sooner."
         },
         {
           "es": "Para cada **2 horas** o **200 km**, al menos **20 o 30 minutos**.",
@@ -2058,7 +3482,437 @@
       "src": [
         "Reglamento General de Circulación (RD 1428/2003), art. 18.1",
         "Ley de Tráfico y Seguridad Vial (RDL 6/2015), art. 77.i",
-        "DGT guidance on sleepiness and fatigue (dgt.es, Evita conductas de riesgo)"
+        "DGT guidance on sleepiness and fatigue (dgt.es, Evita conductas de riesgo)",
+        "DGT guidance (dgt.es, Conducir con fatiga, 30-11-2022)",
+        "DGT guidance (dgt.es, Conducir con sueño o cansancio, 09-07-2026)"
+      ]
+    },
+    {
+      "id": "stress-heat-smoking",
+      "title": {
+        "es": "Estrés, calor y tabaco",
+        "en": "Stress, heat and smoking"
+      },
+      "minutes": 6,
+      "goals": [
+        {
+          "es": "Saber qué aconseja la DGT si estás estresado.",
+          "en": "Know what the DGT advises if you are stressed."
+        },
+        {
+          "es": "Explicar cómo el calor del habitáculo afecta a la conducción.",
+          "en": "Explain how heat in the cabin affects driving."
+        },
+        {
+          "es": "Saber por qué fumar al volante es un riesgo.",
+          "en": "Know why smoking at the wheel is a risk."
+        }
+      ],
+      "terms": [
+        {
+          "es": "estrés",
+          "en": "stress"
+        },
+        {
+          "es": "imprudente",
+          "en": "reckless"
+        },
+        {
+          "es": "habitáculo",
+          "en": "passenger compartment (cabin)"
+        },
+        {
+          "es": "ventilación",
+          "en": "ventilation"
+        },
+        {
+          "es": "fumar",
+          "en": "to smoke"
+        },
+        {
+          "es": "monóxido de carbono",
+          "en": "carbon monoxide"
+        },
+        {
+          "es": "atención permanente",
+          "en": "constant attention"
+        }
+      ],
+      "pretest": {
+        "id": "alcohol-pre-7",
+        "answer": 0,
+        "es": {
+          "q": "¿Está prohibido fumar mientras conduces un turismo en España?",
+          "options": [
+            "No, pero te pueden sancionar si te distrae",
+            "Sí, siempre",
+            "Solo en autopista"
+          ],
+          "why": "No hay una prohibición general de fumar en el coche. Pero la ley exige atención permanente, y los agentes pueden sancionar una distracción."
+        },
+        "en": {
+          "q": "Is it forbidden to smoke while driving a car in Spain?",
+          "options": [
+            "No, but you can be fined if it distracts you",
+            "Yes, always",
+            "Only on a motorway"
+          ],
+          "why": "There is no general ban on smoking in the car. But the law requires constant attention, and officers can penalize a distraction."
+        },
+        "exam": {
+          "q": "Is it prohibited to smoke while you drive a passenger car in Spain?",
+          "options": [
+            "No, but they can sanction you if it distracts you.",
+            "Yes, always.",
+            "Only on motorway."
+          ]
+        },
+        "terms": [],
+        "src": "RGC art. 18.1; DGT guidance (revista.dgt.es, «Un cigarrillo, dos peligros», 11-09-2018)"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "El estrés",
+            "en": "Stress"
+          },
+          "blocks": [
+            {
+              "t": "tip",
+              "text": {
+                "es": "Guía de la DGT: con estrés conduces de forma más impaciente e impulsiva, y tiendes a correr más. Puedes ser más **imprudente** y respetar menos las normas.",
+                "en": "DGT guidance: under stress you drive more impatiently and impulsively, and tend to speed. You can become more **reckless** and respect the rules less."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Si el estrés dura mucho, puede causar problemas graves de salud: del corazón, del estómago, del sueño y de concentración. Todos ellos afectan también a la conducción.",
+                "en": "If stress lasts a long time, it can cause serious health problems: heart, stomach, sleep and concentration problems. All of them affect driving too."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "La DGT aconseja **evitar conducir** con estrés en la medida de lo posible y buscar ayuda profesional. Si tienes que conducir, sal con tiempo y extrema la precaución.",
+                "en": "The DGT advises you to **avoid driving** under stress as far as you can and to seek professional help. If you must drive, leave with time to spare and take extreme care."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c7a",
+                "answer": 1,
+                "es": {
+                  "q": "Has tenido un día muy tenso y estás muy estresado. ¿Qué aconseja la DGT?",
+                  "options": [
+                    "Conducir más rápido para llegar antes a casa",
+                    "Evitar conducir si es posible y, si no, extremar la precaución",
+                    "Poner la música muy alta para distraerte"
+                  ],
+                  "why": "Según la DGT, el estrés hace la conducción más impulsiva e imprudente. Lo aconsejable es evitar conducir y, si es imprescindible, hacerlo con extrema precaución."
+                },
+                "en": {
+                  "q": "You have had a very tense day and are very stressed. What does the DGT advise?",
+                  "options": [
+                    "Drive faster to get home sooner",
+                    "Avoid driving if possible and, if not, take extreme care",
+                    "Turn the music up loud to take your mind off it"
+                  ],
+                  "why": "According to the DGT, stress makes driving more impulsive and reckless. The advice is to avoid driving and, if you must, to drive with extreme care."
+                },
+                "exam": {
+                  "q": "You have had a very tense day and you are very stressed. What does the DGT advise?",
+                  "options": [
+                    "To drive faster in order to arrive home before.",
+                    "To avoid driving if it is possible and, if not, to take extreme precaution.",
+                    "To put the music very loud in order to distract you."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "estresado",
+                    "en": "stressed"
+                  },
+                  {
+                    "es": "precaución",
+                    "en": "precaution"
+                  }
+                ],
+                "src": "DGT guidance (dgt.es, Conducir con estrés, 30-11-2022)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c7b",
+                "answer": 2,
+                "es": {
+                  "q": "Según la DGT, ¿cómo suele conducir una persona bajo los efectos del estrés?",
+                  "options": [
+                    "Con más calma y paciencia",
+                    "Más despacio y más atenta",
+                    "De forma más imprudente e impulsiva"
+                  ],
+                  "why": "La DGT explica que el estrés vuelve al conductor más impaciente, impulsivo e imprudente, y que respeta menos las normas."
+                },
+                "en": {
+                  "q": "According to the DGT, how does a person under stress tend to drive?",
+                  "options": [
+                    "More calmly and patiently",
+                    "More slowly and attentively",
+                    "More recklessly and impulsively"
+                  ],
+                  "why": "The DGT explains that stress makes a driver more impatient, impulsive and reckless, and less respectful of the rules."
+                },
+                "exam": {
+                  "q": "According to the DGT, how does a person under the effects of stress usually drive?",
+                  "options": [
+                    "With more calm and patience.",
+                    "More slowly and more attentive.",
+                    "In a more reckless and impulsive way."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "imprudente",
+                    "en": "reckless"
+                  },
+                  {
+                    "es": "impulsivo",
+                    "en": "impulsive"
+                  }
+                ],
+                "src": "DGT guidance (dgt.es, Conducir con estrés, 30-11-2022)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Calor en el habitáculo",
+            "en": "Heat in the cabin"
+          },
+          "blocks": [
+            {
+              "t": "tip",
+              "text": {
+                "es": "Guía de la DGT: el calor excesivo **aumenta la fatiga** y reduce los reflejos. Respondes más despacio y cometes más errores. También puede aumentar la agresividad y el nerviosismo.",
+                "en": "DGT guidance: too much heat **increases fatigue** and dulls your reflexes. You respond more slowly and make more mistakes. It can also make you more aggressive and tense."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "La mala ventilación y la temperatura alta en el habitáculo están entre los factores que adelantan la fatiga. El RACE, citado por la DGT, sitúa la temperatura ideal entre **21 y 23 grados**.",
+                "en": "Poor ventilation and high cabin temperature are among the factors that bring fatigue on sooner. RACE, quoted by the DGT, puts the ideal temperature at **21 to 23 degrees**."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Con calor: ventila el coche antes de salir, bebe agua a menudo sin esperar a tener sed, evita las horas centrales del día y para cada 2 horas o 200 km.",
+                "en": "In the heat: air out the car before you set off, drink water often without waiting to feel thirsty, avoid the middle of the day and stop every 2 hours or 200 km."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c7c",
+                "answer": 0,
+                "es": {
+                  "q": "En verano, el habitáculo de tu coche está a 35 grados. ¿Cómo afecta a tu conducción?",
+                  "options": [
+                    "Aumenta la fatiga y reaccionas más despacio",
+                    "No afecta si llevas las ventanillas bajadas",
+                    "Mejora tus reflejos porque estás más despierto"
+                  ],
+                  "why": "La DGT explica que el calor excesivo aumenta la fatiga y reduce los reflejos: tardas más en reaccionar y cometes más errores."
+                },
+                "en": {
+                  "q": "In summer your car’s cabin is at 35 degrees. How does it affect your driving?",
+                  "options": [
+                    "It increases fatigue and you react more slowly",
+                    "It has no effect if the windows are down",
+                    "It sharpens your reflexes because you are more awake"
+                  ],
+                  "why": "The DGT explains that too much heat increases fatigue and dulls your reflexes: you take longer to react and make more mistakes."
+                },
+                "exam": {
+                  "q": "In summer, the passenger compartment of your car is at 35 degrees. How does it affect your driving?",
+                  "options": [
+                    "It increases the fatigue and you react more slowly.",
+                    "It does not affect if you carry the windows lowered.",
+                    "It improves your reflexes because you are more awake."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "habitáculo",
+                    "en": "passenger compartment"
+                  },
+                  {
+                    "es": "calor",
+                    "en": "heat"
+                  },
+                  {
+                    "es": "reflejos",
+                    "en": "reflexes"
+                  }
+                ],
+                "src": "DGT guidance (revista.dgt.es, «Preparados para el calor», 2022, y «Conducir con altas temperaturas», 2019)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c7d",
+                "answer": 1,
+                "es": {
+                  "q": "¿Qué condición del habitáculo favorece que aparezca la fatiga?",
+                  "options": [
+                    "Una temperatura de 22 grados",
+                    "Mala ventilación o temperatura elevada",
+                    "Un asiento bien regulado"
+                  ],
+                  "why": "La DGT incluye la mala ventilación y la temperatura alta del habitáculo entre los factores que adelantan la fatiga."
+                },
+                "en": {
+                  "q": "Which cabin condition encourages fatigue to set in?",
+                  "options": [
+                    "A temperature of 22 degrees",
+                    "Poor ventilation or a high temperature",
+                    "A well-adjusted seat"
+                  ],
+                  "why": "The DGT lists poor ventilation and high cabin temperature among the factors that bring fatigue on sooner."
+                },
+                "exam": {
+                  "q": "What condition of the passenger compartment favours the appearance of fatigue?",
+                  "options": [
+                    "A temperature of 22 degrees.",
+                    "Poor ventilation or high temperature.",
+                    "A well adjusted seat."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "ventilación",
+                    "en": "ventilation"
+                  },
+                  {
+                    "es": "temperatura elevada",
+                    "en": "high temperature"
+                  }
+                ],
+                "src": "DGT guidance (dgt.es, Conducir con fatiga, 30-11-2022)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Fumar al volante",
+            "en": "Smoking at the wheel"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "El conductor está obligado a mantener la **atención permanente** a la conducción, su libertad de movimientos y el campo de visión necesario.",
+                "en": "The driver must keep **constant attention** on driving, freedom of movement and the necessary field of vision."
+              },
+              "src": "RGC art. 18.1"
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Guía de la DGT: fumar en el coche no está prohibido, pero distrae. Encender un cigarrillo lleva **4,1 segundos**: a 100 km/h son 113 metros sin atención plena. Mientras fumas, conduces con una sola mano.",
+                "en": "DGT guidance: smoking in the car is not banned, but it distracts you. Lighting a cigarette takes **4.1 seconds**: at 100 km/h that is 113 meters without full attention. While you smoke, you drive with one hand."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "El humo llena el habitáculo de monóxido de carbono. Produce cansancio, somnolencia y dolor de cabeza, reduce tus reflejos e irrita los ojos.",
+                "en": "The smoke fills the cabin with carbon monoxide. It causes tiredness, drowsiness and headaches, dulls your reflexes and irritates your eyes."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c7e",
+                "answer": 2,
+                "es": {
+                  "q": "¿Qué efecto puede tener fumar mientras conduces?",
+                  "options": [
+                    "Ninguno, si llevas la ventanilla abierta",
+                    "Mejora la concentración en viajes largos",
+                    "Disminuye tu atención y tu capacidad de reacción"
+                  ],
+                  "why": "Fumar provoca distracciones: buscar, encender y apagar el cigarrillo. Además, el humo reduce los reflejos y produce fatiga ocular."
+                },
+                "en": {
+                  "q": "What effect can smoking while you drive have?",
+                  "options": [
+                    "None, if the window is open",
+                    "It improves concentration on long trips",
+                    "It reduces your attention and your ability to react"
+                  ],
+                  "why": "Smoking causes distractions: finding, lighting and putting out the cigarette. The smoke also dulls your reflexes and tires your eyes."
+                },
+                "exam": {
+                  "q": "What effect can smoking while you drive have?",
+                  "options": [
+                    "None, if you carry the window open.",
+                    "It improves the concentration on long journeys.",
+                    "It decreases your attention and your capacity of reaction."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "fumar",
+                    "en": "to smoke"
+                  },
+                  {
+                    "es": "capacidad de reacción",
+                    "en": "capacity of reaction"
+                  },
+                  {
+                    "es": "distracción",
+                    "en": "distraction"
+                  }
+                ],
+                "src": "DGT guidance (revista.dgt.es, «Un cigarrillo, dos peligros», 11-09-2018)"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "Con estrés, **evita conducir** si puedes; si no, extrema la precaución.",
+          "en": "Under stress, **avoid driving** if you can; if not, take extreme care."
+        },
+        {
+          "es": "El estrés te vuelve impulsivo e imprudente.",
+          "en": "Stress makes you impulsive and reckless."
+        },
+        {
+          "es": "El calor y la mala ventilación **adelantan la fatiga** y alargan tu reacción.",
+          "en": "Heat and poor ventilation **bring fatigue on sooner** and slow your reactions."
+        },
+        {
+          "es": "Fumar distrae y el humo reduce tus reflejos. La ley exige **atención permanente**.",
+          "en": "Smoking distracts you and the smoke dulls your reflexes. The law requires **constant attention**."
+        }
+      ],
+      "covers": [],
+      "src": [
+        "Reglamento General de Circulación (RD 1428/2003), art. 18.1",
+        "DGT guidance on stress (dgt.es, Conducir con estrés, actualizada el 30-11-2022)",
+        "DGT guidance on fatigue (dgt.es, Conducir con fatiga, actualizada el 30-11-2022)",
+        "DGT guidance on heat (revista.dgt.es, «Preparados para el calor», 2022; «Conducir con altas temperaturas», 2019)",
+        "DGT guidance on smoking (revista.dgt.es, «Un cigarrillo, dos peligros», 11-09-2018)"
       ]
     }
   ]

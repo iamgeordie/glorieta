@@ -126,6 +126,12 @@
               "src": "RGC Anexo I, ap. 5.1 (S-500 y S-510)"
             },
             {
+              "t": "signs",
+              "ids": [
+                "s-500"
+              ]
+            },
+            {
               "t": "check",
               "q": {
                 "id": "speed-towns-c1",
@@ -384,6 +390,13 @@
               "src": "RGC Anexo I, ap. 5.1 (S-47 y S-28)"
             },
             {
+              "t": "signs",
+              "ids": [
+                "s-47",
+                "s-28"
+              ]
+            },
+            {
               "t": "check",
               "q": {
                 "id": "speed-towns-c3",
@@ -550,7 +563,7 @@
         "es": "Límites fuera de poblado",
         "en": "Limits outside towns"
       },
-      "minutes": 8,
+      "minutes": 9,
       "goals": [
         {
           "es": "Leer la tabla de límites de autopistas, autovías y carreteras convencionales.",
@@ -563,6 +576,10 @@
         {
           "es": "Calcular la velocidad mínima y saber por qué no puedes pasarte del límite al adelantar.",
           "en": "Work out the minimum speed, and know why you may not exceed the limit to overtake."
+        },
+        {
+          "es": "Aplicar la tabla a casos que confunden: sidecar, remolque, vehículo mixto y carreteras de tres carriles.",
+          "en": "Apply the table to cases that trip people up: sidecars, trailers, mixed-use vehicles and three-lane roads."
         }
       ],
       "terms": [
@@ -807,6 +824,225 @@
                 ],
                 "src": "RGC art. 48.1.a"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "speed-outside-c9",
+                "answer": 2,
+                "es": {
+                  "q": "Conduces un vehículo mixto adaptable por una autovía, sin señales de velocidad. ¿Cuál es tu máximo?",
+                  "options": [
+                    "120 km/h, como un turismo",
+                    "90 km/h, como una furgoneta",
+                    "100 km/h"
+                  ],
+                  "why": "El vehículo mixto adaptable va en la columna de autobuses y derivados de turismo: 100 km/h en autopista y autovía, 90 km/h en carretera convencional."
+                },
+                "exam": {
+                  "q": "You circulate with an adaptable mixed-use vehicle by a dual carriageway, without speed signs. Which is your maximum?",
+                  "options": [
+                    "120 km/h, as a passenger car.",
+                    "90 km/h, as a van.",
+                    "100 km/h."
+                  ]
+                },
+                "en": {
+                  "q": "You drive an adaptable mixed-use vehicle on a dual carriageway with no speed signs. What is your maximum?",
+                  "options": [
+                    "120 km/h, like a car",
+                    "90 km/h, like a van",
+                    "100 km/h"
+                  ],
+                  "why": "An adaptable mixed-use vehicle is in the column with buses and car-derived vehicles: 100 km/h on motorways and dual carriageways, 90 km/h on conventional roads."
+                },
+                "terms": [
+                  {
+                    "es": "vehículo mixto adaptable",
+                    "en": "adaptable mixed-use vehicle"
+                  },
+                  {
+                    "es": "autovía",
+                    "en": "dual carriageway"
+                  }
+                ],
+                "src": "RGC art. 48.1.a"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Casos que confunden",
+            "en": "Cases that trip people up"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Para usar la tabla, primero sitúa tu vehículo en una columna. Después mira el tipo de vía. Nada más cambia el límite: ni el arcén ni el número de carriles.",
+                "en": "To use the table, first put your vehicle in a column. Then look at the type of road. Nothing else changes the limit: not the shoulder, not the number of lanes."
+              }
+            },
+            {
+              "t": "rule",
+              "src": "LSV Anexo I, 14 y 19",
+              "text": {
+                "es": "La ley llama **motocicleta** también a la moto con **sidecar** (tres ruedas asimétricas). Un **vehículo mixto adaptable** lleva mercancías y personas, hasta nueve con el conductor, y puede cambiar carga por asientos.",
+                "en": "The law also counts a motorcycle with a **sidecar** (three asymmetric wheels) as a **motorcycle**. An **adaptable mixed-use vehicle** carries goods and people, up to nine with the driver, and can swap cargo space for seats."
+              }
+            },
+            {
+              "t": "rule",
+              "src": "RGC art. 48.1.a",
+              "text": {
+                "es": "Un **automóvil con remolque** va en la segunda columna: 90 km/h en autopista y autovía y 80 km/h en carretera convencional. El arcén no cambia ese límite.",
+                "en": "A **motor vehicle towing a trailer** is in the second column: 90 km/h on motorways and dual carriageways and 80 km/h on conventional roads. The shoulder does not change that limit."
+              }
+            },
+            {
+              "t": "rule",
+              "src": "RGC art. 48.1.a.1.º",
+              "text": {
+                "es": "Una carretera convencional con dos carriles en un sentido y uno en el otro sigue siendo convencional. Los **100 km/h** solo son posibles con **separación física** de los sentidos y si el titular de la vía los fija.",
+                "en": "A conventional road with two lanes one way and one the other is still a conventional road. **100 km/h** is possible only with **physical separation** of the directions, and only if the road owner sets it."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "speed-outside-c10",
+                "answer": 0,
+                "es": {
+                  "q": "Llevas enganchado a tu turismo un remolque ligero con las bicis y la tienda de campaña. La carretera convencional tiene un arcén muy ancho y no hay señales de velocidad. ¿A cuánto puedes ir como máximo?",
+                  "options": [
+                    "80 km/h",
+                    "90 km/h, como un turismo sin remolque",
+                    "100 km/h, por tener un arcén tan ancho"
+                  ],
+                  "why": "Los automóviles con remolque van a 80 km/h en carretera convencional. La anchura del arcén no cambia el límite."
+                },
+                "exam": {
+                  "q": "You carry hitched to your passenger car a light trailer with the bicycles and the tent. The conventional road has a very wide hard shoulder and there are no speed signs. At how much can you go as maximum?",
+                  "options": [
+                    "80 km/h.",
+                    "90 km/h, as a passenger car without trailer.",
+                    "100 km/h, for having such a wide hard shoulder."
+                  ]
+                },
+                "en": {
+                  "q": "Your car is towing a light trailer with the bikes and the tent. The conventional road has a very wide shoulder and there are no speed signs. What is your top speed?",
+                  "options": [
+                    "80 km/h",
+                    "90 km/h, like a car without a trailer",
+                    "100 km/h, thanks to the wide shoulder"
+                  ],
+                  "why": "A vehicle towing a trailer has a limit of 80 km/h on a conventional road. The width of the shoulder does not change it."
+                },
+                "terms": [
+                  {
+                    "es": "remolque ligero",
+                    "en": "light trailer"
+                  },
+                  {
+                    "es": "arcén",
+                    "en": "hard shoulder"
+                  },
+                  {
+                    "es": "turismo",
+                    "en": "passenger car"
+                  }
+                ],
+                "src": "RGC art. 48.1.a"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "speed-outside-c11",
+                "answer": 1,
+                "es": {
+                  "q": "Conduces una motocicleta con sidecar por una autopista, sin señales de velocidad. ¿Cuál es tu máximo?",
+                  "options": [
+                    "90 km/h, porque lleva sidecar",
+                    "120 km/h",
+                    "70 km/h, como un vehículo de tres ruedas"
+                  ],
+                  "why": "La moto con sidecar es una motocicleta para la ley. Tiene el límite de las motocicletas: 120 km/h en autopista y autovía."
+                },
+                "exam": {
+                  "q": "You drive a motorcycle with sidecar by a motorway, without speed signs. Which is your maximum?",
+                  "options": [
+                    "90 km/h, because it carries sidecar.",
+                    "120 km/h.",
+                    "70 km/h, as a vehicle of three wheels."
+                  ]
+                },
+                "en": {
+                  "q": "You ride a motorcycle with a sidecar on a motorway with no speed signs. What is your maximum?",
+                  "options": [
+                    "90 km/h, because of the sidecar",
+                    "120 km/h",
+                    "70 km/h, like a three-wheeler"
+                  ],
+                  "why": "For the law, a motorcycle with a sidecar is a motorcycle. It takes the motorcycle limit: 120 km/h on motorways and dual carriageways."
+                },
+                "terms": [
+                  {
+                    "es": "motocicleta con sidecar",
+                    "en": "motorcycle with sidecar"
+                  },
+                  {
+                    "es": "autopista",
+                    "en": "motorway"
+                  }
+                ],
+                "src": "RGC art. 48.1.a; LSV Anexo I, 14.b"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "speed-outside-c12",
+                "answer": 2,
+                "es": {
+                  "q": "Vas en turismo por una carretera de tres carriles: dos en tu sentido y uno en el contrario, separados solo por marcas viales. No hay señales de velocidad. ¿Cuál es tu máximo?",
+                  "options": [
+                    "100 km/h en tu sentido, porque tienes dos carriles",
+                    "120 km/h, como en una autovía",
+                    "90 km/h en los dos sentidos"
+                  ],
+                  "why": "Sigue siendo una carretera convencional: 90 km/h. Los 100 km/h exigen separación física de los sentidos y que los fije el titular de la vía."
+                },
+                "exam": {
+                  "q": "You go in passenger car by a road of three lanes: two in your direction and one in the contrary, separated only by road markings. There are no speed signs. Which is your maximum?",
+                  "options": [
+                    "100 km/h in your direction, because you have two lanes.",
+                    "120 km/h, as in a dual carriageway.",
+                    "90 km/h in the two directions."
+                  ]
+                },
+                "en": {
+                  "q": "You drive a car on a three-lane road: two lanes your way and one the other way, divided only by painted lines. There are no speed signs. What is your maximum?",
+                  "options": [
+                    "100 km/h your way, because you have two lanes",
+                    "120 km/h, like a dual carriageway",
+                    "90 km/h in both directions"
+                  ],
+                  "why": "It is still a conventional road: 90 km/h. 100 km/h needs physical separation between the directions, set by the road owner."
+                },
+                "terms": [
+                  {
+                    "es": "separación física",
+                    "en": "physical separation (barrier)"
+                  },
+                  {
+                    "es": "marcas viales",
+                    "en": "road markings"
+                  }
+                ],
+                "src": "RGC art. 48.1.a y 48.1.a.1.º"
+              }
             }
           ]
         },
@@ -943,6 +1179,50 @@
                   }
                 ],
                 "src": "RGC art. 48.1.a y 48.1.b"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "speed-outside-c13",
+                "answer": 0,
+                "es": {
+                  "q": "Conduces un pick-up por un camino sin pavimentar fuera de poblado. No hay ninguna señal. ¿Cuál es tu máximo?",
+                  "options": [
+                    "30 km/h",
+                    "90 km/h, como en carretera convencional",
+                    "45 km/h"
+                  ],
+                  "why": "En las vías sin pavimentar el límite máximo es de 30 km/h, para cualquier vehículo y aunque no haya señal."
+                },
+                "exam": {
+                  "q": "You drive a pick-up by an unpaved road outside town. There is no sign. Which is your maximum?",
+                  "options": [
+                    "30 km/h.",
+                    "90 km/h, as in conventional road.",
+                    "45 km/h."
+                  ]
+                },
+                "en": {
+                  "q": "You drive a pickup on an unpaved road outside a town. There are no signs. What is your maximum?",
+                  "options": [
+                    "30 km/h",
+                    "90 km/h, as on a conventional road",
+                    "45 km/h"
+                  ],
+                  "why": "On unpaved roads the maximum is 30 km/h, for any vehicle, even with no sign."
+                },
+                "terms": [
+                  {
+                    "es": "vía sin pavimentar",
+                    "en": "unpaved road"
+                  },
+                  {
+                    "es": "pick-up",
+                    "en": "pickup truck"
+                  }
+                ],
+                "src": "RGC art. 48.1.f"
               }
             }
           ]
@@ -1558,7 +1838,7 @@
         "es": "Adaptar la velocidad",
         "en": "Adapting your speed"
       },
-      "minutes": 8,
+      "minutes": 9,
       "goals": [
         {
           "es": "Explicar por qué el límite es un máximo y no un objetivo.",
@@ -1808,6 +2088,229 @@
                   }
                 ],
                 "src": "Física del frenado (convención didáctica), no un artículo"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Por qué la velocidad aumenta el riesgo",
+            "en": "Why speed raises the risk"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "La DGT explica varios efectos de la velocidad. No son artículos de la ley, pero el examen los pregunta.",
+                "en": "The DGT explains several effects of speed. They are not articles of law, but the exam asks about them."
+              }
+            },
+            {
+              "t": "list",
+              "items": [
+                {
+                  "es": "**Ves menos.** Cuanto más rápido vas, más estrecho es tu campo visual útil (el «efecto túnel»). Ves peor lo que está a los lados, como las señales y los peatones.",
+                  "en": "**You see less.** The faster you go, the narrower your useful field of vision (the “tunnel effect”). You see less well what is at the sides, such as signs and pedestrians."
+                },
+                {
+                  "es": "**Anticipas menos.** Tienes menos tiempo para decidir y para corregir un error. Durante el tiempo de reacción recorres más metros.",
+                  "en": "**You anticipate less.** You have less time to decide and to correct a mistake. You cover more meters during your reaction time."
+                },
+                {
+                  "es": "**Controlas peor el coche.** En las curvas el vehículo puede perder la trayectoria, y es más fácil derrapar.",
+                  "en": "**You control the car less well.** On curves the vehicle can lose its line, and skidding is more likely."
+                },
+                {
+                  "es": "**Los golpes son más graves.** Con velocidad excesiva es mucho más probable morir o quedar con lesiones graves. A partir de **50 km/h** es más probable que un peatón atropellado muera a que sobreviva.",
+                  "en": "**Crashes are worse.** At excessive speed, death or serious lasting injury is far more likely. From **50 km/h** up, a pedestrian who is hit is more likely to die than to survive."
+                },
+                {
+                  "es": "**Te cansas antes.** Conducir mucho tiempo a velocidad alta acelera la fatiga y favorece las distracciones.",
+                  "en": "**You tire sooner.** Driving fast for a long time brings on fatigue sooner and makes distraction more likely."
+                }
+              ]
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Guía de la DGT, no un artículo: la velocidad inadecuada es un factor de riesgo por sí sola, aunque no superes el límite.",
+                "en": "DGT guidance, not an article: an unsuitable speed is a risk factor in itself, even below the limit."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "speed-adapt-c6",
+                "answer": 1,
+                "es": {
+                  "q": "¿Qué le pasa a tu visión cuando conduces a más velocidad?",
+                  "options": [
+                    "Ves mejor lo que hay a los lados de la vía",
+                    "Se estrecha tu campo visual útil y percibes peor las señales del borde",
+                    "No cambia nada si tienes buena vista"
+                  ],
+                  "why": "Con más velocidad el campo visual útil se estrecha («efecto túnel»). Percibes peor lo que está a los lados, como las señales y los peatones."
+                },
+                "exam": {
+                  "q": "What happens to your vision when you drive at more speed?",
+                  "options": [
+                    "You see better what there is at the sides of the road.",
+                    "Your useful visual field narrows and you perceive worse the signs of the edge.",
+                    "Nothing changes if you have good sight."
+                  ]
+                },
+                "en": {
+                  "q": "What happens to your vision when you drive faster?",
+                  "options": [
+                    "You see the sides of the road better",
+                    "Your useful field of vision narrows and you notice roadside signs less well",
+                    "Nothing changes if your eyesight is good"
+                  ],
+                  "why": "At higher speed your useful field of vision narrows (the “tunnel effect”). You notice less of what is at the sides, such as signs and pedestrians."
+                },
+                "terms": [
+                  {
+                    "es": "campo visual",
+                    "en": "visual field"
+                  },
+                  {
+                    "es": "efecto túnel",
+                    "en": "tunnel effect"
+                  }
+                ],
+                "src": "DGT guidance (dgt.es, «Conducir con exceso de velocidad»)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "speed-adapt-c7",
+                "answer": 2,
+                "es": {
+                  "q": "¿Qué relación hay entre la velocidad y las lesiones en un accidente?",
+                  "options": [
+                    "Ninguna: depende solo del cinturón",
+                    "Solo importa en los atropellos",
+                    "A más velocidad, más graves suelen ser las lesiones"
+                  ],
+                  "why": "Con velocidad excesiva es mucho más probable morir o sufrir lesiones graves. También para los ocupantes, no solo para los peatones."
+                },
+                "exam": {
+                  "q": "What relation is there between the speed and the injuries in an accident?",
+                  "options": [
+                    "None: it depends only on the seat belt.",
+                    "It only matters in the run-overs.",
+                    "At more speed, more serious the injuries usually are."
+                  ]
+                },
+                "en": {
+                  "q": "How is speed related to injuries in a crash?",
+                  "options": [
+                    "It is not: only the seat belt matters",
+                    "It matters only when a pedestrian is hit",
+                    "The higher the speed, the more serious the injuries tend to be"
+                  ],
+                  "why": "At excessive speed, death or serious injury is much more likely. That holds for the people in the vehicle too, not only for pedestrians."
+                },
+                "terms": [
+                  {
+                    "es": "lesiones",
+                    "en": "injuries"
+                  },
+                  {
+                    "es": "atropello",
+                    "en": "run-over (pedestrian hit by a vehicle)"
+                  }
+                ],
+                "src": "DGT guidance (dgt.es, «Conducir con exceso de velocidad»)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "speed-adapt-c8",
+                "answer": 0,
+                "es": {
+                  "q": "¿Qué efecto tiene conducir durante mucho tiempo a una velocidad elevada?",
+                  "options": [
+                    "Acelera la aparición de la fatiga",
+                    "Ninguno, si la vía es buena",
+                    "Mejora la atención, porque vas más concentrado"
+                  ],
+                  "why": "Conducir mucho tiempo deprisa exige más esfuerzo y adelanta la fatiga. También reduce tu capacidad de anticipación."
+                },
+                "exam": {
+                  "q": "What effect does it have to drive during a long time at a high speed?",
+                  "options": [
+                    "It accelerates the appearance of the fatigue.",
+                    "None, if the road is good.",
+                    "It improves the attention, because you go more concentrated."
+                  ]
+                },
+                "en": {
+                  "q": "What does driving fast for a long time do?",
+                  "options": [
+                    "It brings on fatigue sooner",
+                    "Nothing, if the road is good",
+                    "It improves your attention, because you concentrate more"
+                  ],
+                  "why": "Driving fast for a long time takes more effort and brings fatigue sooner. It also cuts your ability to anticipate."
+                },
+                "terms": [
+                  {
+                    "es": "fatiga",
+                    "en": "fatigue"
+                  },
+                  {
+                    "es": "capacidad de anticipación",
+                    "en": "ability to anticipate"
+                  }
+                ],
+                "src": "DGT guidance (dgt.es, «Conducir con exceso de velocidad»)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "speed-adapt-c9",
+                "answer": 1,
+                "es": {
+                  "q": "Cuando aumenta la velocidad, ¿qué pasa con el control del vehículo?",
+                  "options": [
+                    "Es más fácil, porque el coche va más estable",
+                    "Es más difícil, sobre todo en las curvas",
+                    "No cambia: solo dependen de los neumáticos"
+                  ],
+                  "why": "A más velocidad el vehículo es más inestable: en una curva puede perder la trayectoria y es más fácil derrapar."
+                },
+                "exam": {
+                  "q": "When the speed increases, what happens with the control of the vehicle?",
+                  "options": [
+                    "It is easier, because the car goes more stable.",
+                    "It is more difficult, above all in the bends.",
+                    "It does not change: it only depends on the tyres."
+                  ]
+                },
+                "en": {
+                  "q": "As speed goes up, what happens to your control of the vehicle?",
+                  "options": [
+                    "It gets easier, because the car is steadier",
+                    "It gets harder, especially on curves",
+                    "Nothing: it depends only on the tires"
+                  ],
+                  "why": "At higher speed the vehicle is less stable: on a curve it can lose its line, and skidding is more likely."
+                },
+                "terms": [
+                  {
+                    "es": "curva",
+                    "en": "bend (curve)"
+                  },
+                  {
+                    "es": "derrapar",
+                    "en": "to skid"
+                  }
+                ],
+                "src": "DGT guidance (dgt.es, «Conducir con exceso de velocidad»)"
               }
             }
           ]
@@ -2080,8 +2583,8 @@
           "en": "The limit is a **maximum**. You must be able to **stop** within what you can see."
         },
         {
-          "es": "La **distancia de detención** es lo que recorres durante la reacción más lo que recorres frenando.",
-          "en": "The **stopping distance** is what you cover while reacting plus what you cover while braking."
+          "es": "La **distancia de detención** es lo que recorres durante la reacción más lo que recorres frenando. Con más velocidad, además, **ves menos** a los lados y los golpes son **más graves**.",
+          "en": "The **stopping distance** is what you cover while reacting plus what you cover while braking. At higher speed you also **see less** at the sides, and crashes are **more serious**."
         },
         {
           "es": "Al doblar la velocidad, la frenada es unas **cuatro veces** más larga.",
@@ -2104,7 +2607,8 @@
         "speed-05"
       ],
       "src": [
-        "Reglamento General de Circulación (RD 1428/2003), arts. 45, 46.1, 53.1 y 54.1"
+        "Reglamento General de Circulación (RD 1428/2003), arts. 45, 46.1, 53.1 y 54.1",
+        "DGT, «Conducir con exceso de velocidad» (dgt.es), consultada el 18-11-2026"
       ]
     },
     {
@@ -2535,6 +3039,12 @@
                 "en": "Sign S-7, “Velocidad máxima aconsejada”, recommends a speed that is advised not to exceed even if weather, road and traffic conditions are favorable. Placed under a danger sign, it applies to the stretch where the danger lasts."
               },
               "src": "RGC Anexo I, ap. 5.1 (S-7)"
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "s-7"
+              ]
             },
             {
               "t": "rule",

@@ -737,28 +737,28 @@
                 "id": "hazards-c2b",
                 "answer": 1,
                 "es": {
-                  "q": "Estás muy enfadado y llevas prisa. ¿Qué dice el reglamento que debes tener en cuenta al elegir tu velocidad?",
+                  "q": "Acabas de discutir y vas nervioso. Al decidir a qué velocidad vas, ¿cuenta tu estado de ánimo?",
                   "options": [
-                    "Solo el límite de velocidad de la señal",
-                    "Tus propias condiciones físicas y psíquicas, además de la vía y el tiempo",
-                    "Solo el estado de la vía y del vehículo"
+                    "No: basta con no pasar del límite señalizado",
+                    "Sí: debes tener en cuenta tus propias condiciones físicas y psíquicas",
+                    "No: solo importan la vía, el tiempo y el vehículo"
                   ],
                   "why": "Además de respetar los límites, debes tener en cuenta tus condiciones físicas y psíquicas, la vía, el vehículo, el tiempo y el tráfico."
                 },
                 "exam": {
-                  "q": "You are very angry and you carry hurry. What does the regulation say that you must take into account when choosing your speed?",
+                  "q": "You have just argued and you go nervous. On deciding at which speed you go, does your state of mind count?",
                   "options": [
-                    "Only the speed limit of the sign.",
-                    "Your own physical and psychic conditions, besides the road and the weather.",
-                    "Only the state of the road and of the vehicle."
+                    "No: it is enough not to exceed the signalled limit.",
+                    "Yes: you must take into account your own physical and psychic conditions.",
+                    "No: only the road, the weather and the vehicle matter."
                   ]
                 },
                 "en": {
-                  "q": "You are very angry and in a hurry. What does the regulation say you must take into account when choosing your speed?",
+                  "q": "You have just had an argument and feel tense. When deciding how fast to go, does your state of mind count?",
                   "options": [
-                    "Only the speed limit on the sign",
-                    "Your own physical and mental condition, besides the road and the weather",
-                    "Only the state of the road and the vehicle"
+                    "No: staying under the posted limit is enough",
+                    "Yes: you must take your own physical and mental condition into account",
+                    "No: only the road, the weather and the vehicle matter"
                   ],
                   "why": "Besides respecting the limits, you must take into account your physical and mental condition, the road, the vehicle, the weather and the traffic."
                 },
@@ -877,7 +877,7 @@
         "es": "Lluvia, niebla y poca visibilidad",
         "en": "Rain, fog and poor visibility"
       },
-      "minutes": 6,
+      "minutes": 9,
       "goals": [
         {
           "es": "Adaptar la velocidad a la lluvia, la niebla, la nieve y el deslumbramiento.",
@@ -890,6 +890,10 @@
         {
           "es": "Saber qué hacer si un coche te deslumbra.",
           "en": "Know what to do if another car dazzles you."
+        },
+        {
+          "es": "Saber qué hacer con aquaplaning, nieve, hielo y viento.",
+          "en": "Know what to do with aquaplaning, snow, ice and wind."
         }
       ],
       "terms": [
@@ -1069,6 +1073,495 @@
                 "es": "La luz antiniebla delantera solo se usa en esos casos. También sirve en tramos estrechos con muchas curvas, señalizados como tales, con calzada de 6,50 metros o menos.",
                 "en": "The front fog light is used only in those cases. It is also allowed on narrow stretches with many bends, signed as such, with a roadway of 6.50 meters or less."
               }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Con niebla, la DGT propone la **regla de las 3V**: visibilidad, velocidad y vehículo delantero, en las mismas cifras. Con 50 metros de visibilidad, circula a 50 km/h y deja 50 metros al vehículo de delante. Para que no se empañen los cristales, dirige la calefacción hacia ellos.",
+                "en": "In fog, the DGT suggests the **3V rule** (visibility, speed, vehicle ahead) in the same figures. With 50 meters of visibility, drive at 50 km/h and leave 50 meters to the vehicle ahead. To keep the windows from misting up, aim the heating at them."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c3d",
+                "answer": 1,
+                "es": {
+                  "q": "Circulas por una carretera interurbana y empieza a nevar. ¿Qué luz puedes encender, además de la de cruce?",
+                  "options": [
+                    "Solo la antiniebla trasera",
+                    "La antiniebla delantera",
+                    "Ninguna: de día no se usan luces"
+                  ],
+                  "why": "Con nevada, es obligatorio el alumbrado y puedes usar la antiniebla delantera, sola o con la de cruce. La trasera es solo para condiciones especialmente malas, como una fuerte nevada."
+                },
+                "exam": {
+                  "q": "You circulate by an interurban road and it begins to snow. Which light can you switch on, besides the dipped beam?",
+                  "options": [
+                    "Only the rear fog light.",
+                    "The front fog light.",
+                    "None, during the day lights are not used."
+                  ]
+                },
+                "en": {
+                  "q": "You are on an intercity road and it starts to snow. Which light may you turn on, besides the low beam?",
+                  "options": [
+                    "Only the rear fog light",
+                    "The front fog light",
+                    "None: lights are not used by day"
+                  ],
+                  "why": "In snowfall, lights are required and you may use the front fog light, alone or with the low beam. The rear one is only for especially bad conditions, such as heavy snow."
+                },
+                "terms": [
+                  {
+                    "es": "luz antiniebla delantera",
+                    "en": "front fog light"
+                  },
+                  {
+                    "es": "nevada",
+                    "en": "snowfall"
+                  },
+                  {
+                    "es": "luz de cruce",
+                    "en": "dipped (low) beam"
+                  }
+                ],
+                "src": "RGC art. 106.1 y 106.2"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c3e",
+                "answer": 0,
+                "es": {
+                  "q": "Conduces con niebla y los cristales empiezan a empañarse. ¿Qué haces?",
+                  "options": [
+                    "Dirigir la calefacción hacia los cristales",
+                    "Abrir todas las ventanillas del todo",
+                    "Limpiarlos con la mano mientras conduces"
+                  ],
+                  "why": "La DGT aconseja orientar la calefacción hacia los cristales para quitar el vaho. Limpiar con la mano en marcha te quita atención."
+                },
+                "exam": {
+                  "q": "You drive with fog and the windows begin to mist up. What do you do?",
+                  "options": [
+                    "To direct the heating towards the windows.",
+                    "To open all the windows completely.",
+                    "To clean them with the hand while you drive."
+                  ]
+                },
+                "en": {
+                  "q": "You are driving in fog and the windows start to mist up. What do you do?",
+                  "options": [
+                    "Aim the heating at the windows",
+                    "Open all the windows fully",
+                    "Wipe them by hand while you drive"
+                  ],
+                  "why": "The DGT advises aiming the heating at the windows to clear the mist. Wiping by hand on the move takes your attention away."
+                },
+                "terms": [
+                  {
+                    "es": "empañarse",
+                    "en": "to mist up"
+                  },
+                  {
+                    "es": "vaho",
+                    "en": "condensation (mist)"
+                  },
+                  {
+                    "es": "calefacción",
+                    "en": "heating"
+                  }
+                ],
+                "src": "DGT guidance"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Lluvia: menos agarre y aquaplaning",
+            "en": "Rain: less grip and aquaplaning"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Con el asfalto mojado, los neumáticos **agarran menos**: la frenada se alarga y el coche es menos estable. Según estudios que cita la DGT, frenar desde 90 km/h en mojado necesita 32 metros más que en seco.",
+                "en": "On wet asphalt, tires **grip less**: braking takes longer and the car is less stable. According to studies the DGT cites, braking from 90 km/h on a wet road takes 32 meters more than on a dry one."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "El **aquaplaning** ocurre cuando el neumático no puede expulsar el agua de la calzada: la rueda flota sobre una capa de agua y puedes perder el control. Lo favorecen la velocidad inadecuada, el poco dibujo, la presión baja y los charcos.",
+                "en": "**Aquaplaning** happens when the tire cannot clear the water from the road: the wheel floats on a layer of water and you can lose control. Inadequate speed, worn tread, low pressure and puddles all make it more likely."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Si notas aquaplaning, la DGT aconseja: **sujeta el volante con firmeza**, **no frenes a fondo** y corrige la trayectoria con suavidad cuando las ruedas vuelvan a agarrar. Para evitarlo, reduce la velocidad y aumenta la distancia de seguridad.",
+                "en": "If you feel aquaplaning, the DGT advises: **hold the wheel firmly**, **do not brake hard**, and correct your path gently once the wheels grip again. To prevent it, slow down and increase your following distance."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "En moto, la DGT avisa de que las **pinturas de la calzada** pueden ser muy resbaladizas, sobre todo mojadas. También hay que vigilar el aceite, la gravilla y la arena.",
+                "en": "On a motorcycle, the DGT warns that **road paint** can be very slippery, above all when wet. Watch for oil, gravel and sand too."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c3f",
+                "answer": 2,
+                "es": {
+                  "q": "Llueve mucho y notas que la dirección se queda suelta: el coche hace aquaplaning. ¿Qué haces?",
+                  "options": [
+                    "Frenar a fondo para parar cuanto antes",
+                    "Girar el volante con fuerza hacia el arcén",
+                    "Sujetar el volante con firmeza y no frenar a fondo"
+                  ],
+                  "why": "En aquaplaning las ruedas flotan sobre el agua. Frenar a fondo o dar volantazos puede hacerte perder el control. Sujeta el volante y corrige con suavidad cuando vuelvan a agarrar."
+                },
+                "exam": {
+                  "q": "It rains a lot and you notice that the steering goes loose: the car does aquaplaning. What do you do?",
+                  "options": [
+                    "To brake fully in order to stop as soon as possible.",
+                    "To turn the steering wheel with force towards the hard shoulder.",
+                    "To hold the steering wheel firmly and not to brake fully."
+                  ]
+                },
+                "en": {
+                  "q": "It is pouring and the steering suddenly feels light: the car is aquaplaning. What do you do?",
+                  "options": [
+                    "Brake hard to stop as soon as possible",
+                    "Steer sharply toward the shoulder",
+                    "Hold the wheel firmly and do not brake hard"
+                  ],
+                  "why": "When aquaplaning, the wheels float on the water. Braking hard or jerking the wheel can make you lose control. Hold the wheel and correct gently once they grip again."
+                },
+                "terms": [
+                  {
+                    "es": "aquaplaning (hidroplaneo)",
+                    "en": "aquaplaning"
+                  },
+                  {
+                    "es": "adherencia",
+                    "en": "grip (adhesion)"
+                  },
+                  {
+                    "es": "dibujo del neumático",
+                    "en": "tyre tread"
+                  }
+                ],
+                "src": "DGT guidance"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c3g",
+                "answer": 1,
+                "es": {
+                  "q": "Vas en moto bajo la lluvia y tienes que frenar justo encima de un paso de peatones pintado. ¿Qué riesgo hay?",
+                  "options": [
+                    "Ninguno: la pintura agarra más que el asfalto",
+                    "Que la pintura mojada puede hacer patinar la rueda",
+                    "Que la frenada será más corta que en seco"
+                  ],
+                  "why": "Con lluvia, la pintura de las marcas viales resbala mucho. Evita frenar o inclinar la moto sobre ellas y aumenta la distancia."
+                },
+                "exam": {
+                  "q": "You go on motorcycle under the rain and you have to brake just on top of a painted pedestrian crossing. What risk is there?",
+                  "options": [
+                    "None: the paint grips more than the asphalt.",
+                    "That the wet paint can make the wheel skid.",
+                    "That the braking will be shorter than on dry."
+                  ]
+                },
+                "en": {
+                  "q": "You are riding in the rain and must brake right on a painted zebra crossing. What is the risk?",
+                  "options": [
+                    "None: paint grips better than asphalt",
+                    "The wet paint can make the wheel slide",
+                    "You will stop in a shorter distance than in the dry"
+                  ],
+                  "why": "In rain, the paint of road markings is very slippery. Avoid braking or leaning over it, and leave more distance."
+                },
+                "terms": [
+                  {
+                    "es": "marcas viales",
+                    "en": "road markings"
+                  },
+                  {
+                    "es": "resbaladizo",
+                    "en": "slippery"
+                  }
+                ],
+                "src": "DGT guidance"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Nieve y hielo",
+            "en": "Snow and ice"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Con nieve o hielo, la DGT aconseja **suavidad máxima** con el volante, el acelerador y el freno, y más distancia con el vehículo de delante.",
+                "en": "On snow or ice, the DGT advises **maximum smoothness** with the steering, accelerator and brake, and more distance to the vehicle ahead."
+              }
+            },
+            {
+              "t": "list",
+              "items": [
+                {
+                  "es": "Si la nieve forma una capa de varios centímetros, **no te salgas de las rodadas** que han dejado otros vehículos.",
+                  "en": "If the snow forms a layer of several centimeters, **stay in the tracks** left by other vehicles."
+                },
+                {
+                  "es": "En suelo deslizante, usa **una marcha más larga** de lo normal, en llano o subiendo: las ruedas patinan menos. Para arrancar, acelera con mucha suavidad.",
+                  "en": "On a slippery surface, use **one gear higher** than usual, on the flat or uphill: the wheels spin less. When moving off, press the accelerator very gently."
+                },
+                {
+                  "es": "En bajada, al revés: marchas cortas para retener con el motor, y el pedal de freno solo lo imprescindible.",
+                  "en": "Downhill it is the other way round: low gears to hold the car back with the engine, and the brake pedal only as needed."
+                },
+                {
+                  "es": "El **hielo** aparece en placas cuando baja la temperatura, y se queda en las zonas de sombra.",
+                  "en": "**Ice** forms in patches when the temperature drops, and lingers in shady spots."
+                }
+              ]
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Sobre una placa de hielo, según la DGT: **levanta el pie del acelerador**, no frenes hasta recuperar el agarre y mantén las ruedas rectas.",
+                "en": "On a patch of ice, according to the DGT: **lift your foot off the accelerator**, do not brake until you have grip again, and keep the wheels straight."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Si viajas a menudo por zonas de nieve, la DGT aconseja llevar en el coche linterna, manta, botas, guantes, algo de comida y bebida, y cadenas si no llevas neumáticos de invierno.",
+                "en": "If you often travel through snowy areas, the DGT advises carrying a flashlight, a blanket, boots, gloves, some food and drink, and chains if you do not have winter tires."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c3h",
+                "answer": 0,
+                "es": {
+                  "q": "Te has detenido en una carretera nevada y, al intentar salir, las ruedas giran en vacío. ¿Qué te ayuda?",
+                  "options": [
+                    "Arrancar con una marcha más larga de lo habitual y acelerar con suavidad",
+                    "Arrancar en primera y pisar el acelerador a fondo",
+                    "Soltar el embrague de golpe para ganar impulso"
+                  ],
+                  "why": "En suelo deslizante, una marcha más larga y un acelerador suave hacen que las ruedas patinen menos."
+                },
+                "exam": {
+                  "q": "You have stopped on a snowy road and, on trying to leave, the wheels turn in vain. What helps you?",
+                  "options": [
+                    "To start with a gear longer than usual and to accelerate with smoothness.",
+                    "To start in first and to press the accelerator fully.",
+                    "To release the clutch suddenly in order to gain impulse."
+                  ]
+                },
+                "en": {
+                  "q": "You have stopped on a road covered in snow and, when you try to pull away, the wheels spin. What helps?",
+                  "options": [
+                    "Moving off in a higher gear than usual and accelerating softly",
+                    "Moving off in first with the accelerator to the floor",
+                    "Letting the clutch out sharply to gain momentum"
+                  ],
+                  "why": "On a slippery surface, a higher gear and a gentle accelerator make the wheels spin less."
+                },
+                "terms": [
+                  {
+                    "es": "marcha",
+                    "en": "gear"
+                  },
+                  {
+                    "es": "patinar",
+                    "en": "to spin (wheels)"
+                  },
+                  {
+                    "es": "arrancar",
+                    "en": "to move off (start)"
+                  }
+                ],
+                "src": "DGT guidance"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c3i",
+                "answer": 2,
+                "es": {
+                  "q": "Hay una capa de nieve de varios centímetros en la calzada. ¿Por dónde conviene circular?",
+                  "options": [
+                    "Por el centro de la calzada, donde hay más nieve",
+                    "Por el arcén, para no estorbar",
+                    "Por las rodadas que han dejado otros vehículos"
+                  ],
+                  "why": "Con una capa de nieve, la DGT aconseja no salirse de las rodadas de otros vehículos, y moverse con suavidad, sin volantazos."
+                },
+                "exam": {
+                  "q": "There is a layer of snow of several centimetres on the carriageway. By where is it advisable to circulate?",
+                  "options": [
+                    "By the centre of the carriageway, where there is more snow.",
+                    "By the hard shoulder, in order not to hinder.",
+                    "By the tracks that other vehicles have left."
+                  ]
+                },
+                "en": {
+                  "q": "There is a layer of snow several centimeters deep on the roadway. Where is it best to drive?",
+                  "options": [
+                    "In the middle of the roadway, where the snow is deepest",
+                    "On the shoulder, to stay out of the way",
+                    "In the tracks left by other vehicles"
+                  ],
+                  "why": "With a layer of snow, the DGT advises staying in the tracks of other vehicles and moving smoothly, with no sudden steering."
+                },
+                "terms": [
+                  {
+                    "es": "rodadas",
+                    "en": "tracks (ruts)"
+                  },
+                  {
+                    "es": "calzada",
+                    "en": "carriageway (roadway)"
+                  }
+                ],
+                "src": "DGT guidance"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c3j",
+                "answer": 1,
+                "es": {
+                  "q": "De repente, el coche pisa una placa de hielo. ¿Qué haces?",
+                  "options": [
+                    "Frenar fuerte para parar antes",
+                    "Levantar el pie del acelerador, no frenar y mantener las ruedas rectas",
+                    "Girar el volante a un lado y a otro para recuperar el agarre"
+                  ],
+                  "why": "Sobre el hielo no hay agarre: frenar o girar bruscamente te hace patinar. Levanta el pie, mantén las ruedas rectas y frena solo cuando vuelvas a tener agarre."
+                },
+                "exam": {
+                  "q": "Suddenly, the car steps on a patch of ice. What do you do?",
+                  "options": [
+                    "To brake hard in order to stop before.",
+                    "To lift the foot from the accelerator, not to brake and to keep the wheels straight.",
+                    "To turn the steering wheel to one side and to another in order to recover the grip."
+                  ]
+                },
+                "en": {
+                  "q": "Suddenly the car hits a patch of ice. What do you do?",
+                  "options": [
+                    "Brake hard to stop sooner",
+                    "Lift off the accelerator, do not brake, and keep the wheels straight",
+                    "Steer from side to side to get grip back"
+                  ],
+                  "why": "There is no grip on ice: braking or steering sharply makes you skid. Lift off, keep the wheels straight, and brake only once you have grip again."
+                },
+                "terms": [
+                  {
+                    "es": "placa de hielo",
+                    "en": "patch of ice"
+                  },
+                  {
+                    "es": "acelerador",
+                    "en": "accelerator"
+                  }
+                ],
+                "src": "DGT guidance"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Viento",
+            "en": "Wind"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Según la DGT, el viento lateral puede desviar tu vehículo de golpe. Pasa sobre todo **al salir de un túnel** o de una trinchera, y al adelantar o cruzarte con vehículos pesados: primero te tapan del viento y luego te llega de golpe.",
+                "en": "According to the DGT, a side wind can push your vehicle off line all at once. It happens above all **when you leave a tunnel** or a cutting, and when you pass or meet heavy vehicles: first they shield you from the wind, then it hits you at once."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Qué hacer, según la DGT: observa la vegetación, las mangas de viento o el polvo para saber de dónde sopla; **reduce la velocidad**, usa una marcha más corta, sujeta el volante con firmeza y evita los movimientos bruscos.",
+                "en": "What to do, according to the DGT: watch trees, windsocks or dust to tell where it is blowing from; **slow down**, use a lower gear, hold the wheel firmly and avoid sudden moves."
+              }
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "p-29"
+              ]
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c3k",
+                "answer": 1,
+                "es": {
+                  "q": "Hace mucho viento lateral y vas a adelantar a un camión. ¿Qué debes esperar?",
+                  "options": [
+                    "Que el camión te proteja durante todo el adelantamiento",
+                    "Un golpe de viento al dejar atrás el camión",
+                    "Que el viento te empuje siempre hacia la derecha"
+                  ],
+                  "why": "Mientras pasas junto al camión, te tapa del viento. Al dejarlo atrás, el viento te llega de golpe. Reduce la velocidad y sujeta el volante con firmeza."
+                },
+                "exam": {
+                  "q": "There is a lot of side wind and you are going to overtake a lorry. What must you expect?",
+                  "options": [
+                    "That the lorry protects you during all the overtaking.",
+                    "A gust of wind when leaving the lorry behind.",
+                    "That the wind pushes you always towards the right."
+                  ]
+                },
+                "en": {
+                  "q": "There is a strong side wind and you are about to overtake a truck. What should you expect?",
+                  "options": [
+                    "That the truck shields you for the whole maneuver",
+                    "A gust of wind as you leave the truck behind",
+                    "That the wind always pushes you to the right"
+                  ],
+                  "why": "While you are beside the truck, it shields you from the wind. As you clear it, the wind hits you at once. Slow down and hold the wheel firmly."
+                },
+                "terms": [
+                  {
+                    "es": "viento lateral",
+                    "en": "side wind (crosswind)"
+                  },
+                  {
+                    "es": "ráfaga",
+                    "en": "gust"
+                  }
+                ],
+                "src": "DGT guidance"
+              }
             }
           ]
         },
@@ -1133,6 +1626,61 @@
                 ],
                 "src": "RGC art. 102.3"
               }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "De noche, la DGT aconseja reducir la velocidad hasta un 20 % por debajo de la permitida: con la luz de cruce, la zona iluminada puede ser más corta que tu distancia de parada. Si te deslumbran, toma como guía la línea del borde derecho.",
+                "en": "At night, the DGT advises driving up to 20% below the limit: with low beams, the lit area can be shorter than your stopping distance. If you are dazzled, use the right-hand edge line as your guide."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c3l",
+                "answer": 0,
+                "es": {
+                  "q": "Circulas de noche por una carretera sin iluminar con la luz de carretera. Delante, por el arcén, caminan dos personas. ¿Qué haces con las luces?",
+                  "options": [
+                    "Pasas a la de cruce para no deslumbrarlas",
+                    "Mantienes la larga: solo se cambia por los coches de frente",
+                    "Mantienes la larga para verlas mejor al pasar"
+                  ],
+                  "why": "La luz larga se cambia por la de cruce en cuanto puedas deslumbrar a otros usuarios de la vía, también a los peatones."
+                },
+                "exam": {
+                  "q": "You circulate at night by a road without lighting with the main beam. In front, by the hard shoulder, two people walk. What do you do with the lights?",
+                  "options": [
+                    "You change to the dipped beam in order not to dazzle them.",
+                    "You keep the main beam: it is only changed for the cars from the front.",
+                    "You keep the main beam in order to see them better on passing."
+                  ]
+                },
+                "en": {
+                  "q": "You are driving at night on an unlit road with high beams. Ahead, two people are walking on the shoulder. What do you do with your lights?",
+                  "options": [
+                    "Switch to low beams so they are not dazzled",
+                    "Keep high beams: you only dip for oncoming cars",
+                    "Keep high beams to see them better as you pass"
+                  ],
+                  "why": "Switch from high to low beam as soon as you could dazzle other road users, pedestrians included."
+                },
+                "terms": [
+                  {
+                    "es": "luz de carretera (largo alcance)",
+                    "en": "main (high) beam"
+                  },
+                  {
+                    "es": "deslumbrar",
+                    "en": "to dazzle"
+                  },
+                  {
+                    "es": "arcén",
+                    "en": "hard shoulder"
+                  }
+                ],
+                "src": "RGC art. 102.1"
+              }
             }
           ]
         }
@@ -1157,10 +1705,15 @@
         {
           "es": "Si te deslumbran, **reduce** lo necesario, incluso hasta parar.",
           "en": "If you are dazzled, **slow down** as much as needed, even to a stop."
+        },
+        {
+          "es": "Aquaplaning o hielo: **no frenes a fondo**, sujeta el volante y corrige con suavidad.",
+          "en": "Aquaplaning or ice: **do not brake hard**, hold the wheel and correct gently."
         }
       ],
       "src": [
-        "Reglamento General de Circulación (RD 1428/2003), arts. 45, 46.1.g y k, 102 y 106"
+        "Reglamento General de Circulación (RD 1428/2003), arts. 45, 46.1.g y k, 102 y 106",
+        "DGT guidance (dgt.es): circular bajo la lluvia; hielo y nieve; recomendaciones de tráfico (niebla, noche); en coche (viento); en moto"
       ]
     },
     {
@@ -1169,7 +1722,7 @@
         "es": "Peatones y niños",
         "en": "Pedestrians and children"
       },
-      "minutes": 6,
+      "minutes": 8,
       "goals": [
         {
           "es": "Saber dónde debes moderar la velocidad por si hay peatones o niños.",
@@ -1182,6 +1735,10 @@
         {
           "es": "Actuar ante un autobús parado y ante peatones que no te ven.",
           "en": "Act around a stopped bus and around pedestrians who cannot see you."
+        },
+        {
+          "es": "Saber por dónde caminan los peatones y cuándo cedes el paso a los animales.",
+          "en": "Know where pedestrians walk and when you give way to animals."
         }
       ],
       "terms": [
@@ -1519,6 +2076,386 @@
               }
             }
           ]
+        },
+        {
+          "title": {
+            "es": "Por dónde caminan los peatones",
+            "en": "Where pedestrians walk"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Las **aceras** son para los peatones. Si no hay zona peatonal transitable, el peatón puede ir por el **arcén** o, si no hay arcén transitable, por la **calzada**, con precaución. Los conductores, a su vez, adaptan su **velocidad y distancia** para no ponerlos en peligro.",
+                "en": "**Sidewalks** are for pedestrians. If there is no usable pedestrian area, a pedestrian may walk on the **shoulder** or, if there is no usable shoulder, on the **roadway**, with care. Drivers in turn adjust their **speed and distance** so as not to endanger them."
+              },
+              "src": "RGC art. 152.1 y 152.2"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Fuera de zona peatonal, el peatón va por el **arcén izquierdo** según su sentido de marcha, o por la calzada si no hay arcén. Puede ir por la derecha si hay razones de seguridad. Siempre van por la **derecha** quien empuja una bicicleta, un ciclomotor o un VMP, y los grupos dirigidos por una persona.",
+                "en": "Away from a pedestrian area, pedestrians use the **left shoulder** for their direction of travel, or the roadway if there is no shoulder. They may keep right when safety calls for it. People pushing a bicycle, moped or e-scooter, and groups led by a person, always keep **right**."
+              },
+              "src": "RGC art. 122.1 y 122.2"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Así, en una carretera sin arcén, puedes encontrar un peatón andando por tu lado de la calzada, de frente a ti. Los peatones no pueden circular por **autopistas ni autovías**, salvo casos de emergencia (art. 125).",
+                "en": "So on a road with no shoulder, you may find a pedestrian walking on your side of the roadway, facing you. Pedestrians may not walk on **motorways or dual carriageways**, except in emergencies (art. 125)."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c4d",
+                "answer": 1,
+                "es": {
+                  "q": "Fuera de poblado no hay zona peatonal. ¿Por dónde debe caminar, como norma general, un peatón?",
+                  "options": [
+                    "Por el arcén derecho, en su sentido de marcha",
+                    "Por el arcén izquierdo o, si no hay, por la calzada",
+                    "Nunca por la calzada: debe esperar a que llegue una acera"
+                  ],
+                  "why": "Sin zona peatonal, el peatón va por el arcén izquierdo según su marcha, o por la calzada si no hay arcén practicable, lo más lejos posible de los vehículos."
+                },
+                "exam": {
+                  "q": "Outside town there is no pedestrian zone. By where must a pedestrian walk, as a general rule?",
+                  "options": [
+                    "By the right hard shoulder, in his direction of travel.",
+                    "By the left hard shoulder or, if there is none, by the carriageway.",
+                    "Never by the carriageway, he must wait until a pavement arrives."
+                  ]
+                },
+                "en": {
+                  "q": "Outside a town there is no pedestrian area. Where should a pedestrian walk, as a general rule?",
+                  "options": [
+                    "On the right shoulder, in their direction of travel",
+                    "On the left shoulder or, if there is none, on the roadway",
+                    "Never on the roadway: they must wait for a sidewalk"
+                  ],
+                  "why": "With no pedestrian area, pedestrians use the left shoulder for their direction, or the roadway if there is no usable shoulder, as far from traffic as possible."
+                },
+                "terms": [
+                  {
+                    "es": "zona peatonal",
+                    "en": "pedestrian zone"
+                  },
+                  {
+                    "es": "arcén practicable",
+                    "en": "passable hard shoulder"
+                  },
+                  {
+                    "es": "fuera de poblado",
+                    "en": "outside a built-up area"
+                  }
+                ],
+                "src": "RGC art. 122.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c4e",
+                "answer": 2,
+                "es": {
+                  "q": "Un peatón empuja su bicicleta por una carretera sin acera. ¿Por qué lado debe ir?",
+                  "options": [
+                    "Por la izquierda, como los demás peatones",
+                    "Por el centro de la calzada",
+                    "Por la derecha"
+                  ],
+                  "why": "Quien empuja o arrastra un ciclo, un ciclomotor de dos ruedas o un VMP debe ir siempre por la derecha."
+                },
+                "exam": {
+                  "q": "A pedestrian pushes his bicycle by a road without pavement. By which side must he go?",
+                  "options": [
+                    "By the left, like the other pedestrians.",
+                    "By the centre of the carriageway.",
+                    "By the right."
+                  ]
+                },
+                "en": {
+                  "q": "A pedestrian is pushing a bicycle along a road with no sidewalk. Which side should they use?",
+                  "options": [
+                    "The left, like other pedestrians",
+                    "The middle of the roadway",
+                    "The right"
+                  ],
+                  "why": "Anyone pushing or pulling a cycle, a two-wheeled moped or a personal mobility vehicle must always keep right."
+                },
+                "terms": [
+                  {
+                    "es": "empujar",
+                    "en": "to push"
+                  },
+                  {
+                    "es": "ciclo",
+                    "en": "cycle"
+                  }
+                ],
+                "src": "RGC art. 122.2.a"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Mayores, niños y peatones distraídos",
+            "en": "Older people, children and distracted pedestrians"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "La DGT señala riesgos que debes prever como conductor:",
+                "en": "The DGT points out risks you should foresee as a driver:"
+              }
+            },
+            {
+              "t": "list",
+              "items": [
+                {
+                  "es": "**Personas mayores** o con discapacidad: se mueven más despacio, necesitan **más tiempo para cruzar** y pueden calcular mal la velocidad de los vehículos. Ten paciencia.",
+                  "en": "**Older people** and people with disabilities: they move more slowly, need **more time to cross**, and may misjudge how fast vehicles are coming. Be patient."
+                },
+                {
+                  "es": "**Niños**: no son plenamente conscientes de los peligros y pueden cruzar sin mirar. Si un niño corre cerca de la calzada, otros pueden seguirle.",
+                  "en": "**Children**: they are not fully aware of the dangers and may cross without looking. If a child runs near the road, others may follow."
+                },
+                {
+                  "es": "**Adultos con prisa o con el móvil**: cruzan entre coches aparcados o contenedores sin ver tu vehículo.",
+                  "en": "**Adults in a hurry or on their phone**: they cross between parked cars or bins without seeing your vehicle."
+                }
+              ]
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "En un paso de peatones, la DGT aconseja **no animar con gestos a cruzar** al peatón: otro vehículo o una moto que venga detrás puede no detenerse.",
+                "en": "At a pedestrian crossing, the DGT advises **not waving the pedestrian across**: another vehicle or a motorcycle coming behind may not stop."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c4f",
+                "answer": 0,
+                "es": {
+                  "q": "¿Qué debes tener en cuenta con las personas mayores que cruzan la calle?",
+                  "options": [
+                    "Que necesitan más tiempo y pueden calcular mal tu velocidad",
+                    "Que siempre ven y oyen bien a los vehículos",
+                    "Que tienen prisa y cruzan corriendo"
+                  ],
+                  "why": "Las personas mayores se mueven más despacio y pueden subestimar la velocidad de los vehículos. Modera la velocidad y dales tiempo."
+                },
+                "exam": {
+                  "q": "What must you take into account with the elderly people that cross the street?",
+                  "options": [
+                    "That they need more time and can calculate badly your speed.",
+                    "That they always see and hear well the vehicles.",
+                    "That they are in a hurry and cross running."
+                  ]
+                },
+                "en": {
+                  "q": "What should you keep in mind about older people crossing the street?",
+                  "options": [
+                    "They need more time and may misjudge your speed",
+                    "They always see and hear vehicles well",
+                    "They are in a hurry and cross at a run"
+                  ],
+                  "why": "Older people move more slowly and may underestimate how fast vehicles are going. Moderate your speed and give them time."
+                },
+                "terms": [
+                  {
+                    "es": "personas mayores",
+                    "en": "older (elderly) people"
+                  },
+                  {
+                    "es": "cruzar la calzada",
+                    "en": "to cross the carriageway"
+                  }
+                ],
+                "src": "DGT guidance; RGC art. 46.1.a"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c4g",
+                "answer": 1,
+                "es": {
+                  "q": "Te detienes ante un paso de peatones en una calle de dos carriles por sentido. Un peatón espera. ¿Le haces un gesto para que cruce?",
+                  "options": [
+                    "Sí, así cruza más rápido",
+                    "No: otro vehículo en el carril de al lado puede no detenerse",
+                    "Sí, y además tocas el claxon para avisar a los demás"
+                  ],
+                  "why": "Si animas al peatón a cruzar, puede confiarse y no ver un vehículo que no se ha detenido. Para, espera y deja que él decida cuándo es seguro."
+                },
+                "exam": {
+                  "q": "You stop in front of a pedestrian crossing in a street with two lanes by direction. A pedestrian waits. Do you make him a sign so that he crosses?",
+                  "options": [
+                    "Yes, like this he crosses faster.",
+                    "No, another vehicle in the lane next to it can not stop.",
+                    "Yes, and besides you sound the horn in order to warn the others."
+                  ]
+                },
+                "en": {
+                  "q": "You stop at a pedestrian crossing on a street with two lanes each way. A pedestrian is waiting. Do you wave them across?",
+                  "options": [
+                    "Yes, so they cross faster",
+                    "No: another vehicle in the next lane may not stop",
+                    "Yes, and you also honk to warn others"
+                  ],
+                  "why": "If you wave the pedestrian across, they may trust it and miss a vehicle that has not stopped. Stop, wait, and let them decide when it is safe."
+                },
+                "terms": [
+                  {
+                    "es": "paso para peatones",
+                    "en": "pedestrian crossing"
+                  },
+                  {
+                    "es": "carril",
+                    "en": "lane"
+                  }
+                ],
+                "src": "DGT guidance"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Animales en la vía",
+            "en": "Animals on the road"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Como norma, los conductores tienen **prioridad** sobre los animales. Hay tres excepciones: en las **cañadas** señalizadas; cuando **giras** para entrar en otra vía y hay animales cruzándola; y cuando cruzas un **arcén** por el que circulan animales sin cañada.",
+                "en": "As a rule, drivers have **priority** over animals. There are three exceptions: on signed **livestock routes** (cañadas); when you **turn** into another road and animals are crossing it; and when you cross a **shoulder** that animals are using where there is no livestock route."
+              },
+              "src": "RGC art. 66.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Modera la velocidad y, si hace falta, detente cuando haya **animales** en la vía o sea razonable prever que van a entrar en ella.",
+                "en": "Moderate your speed, and stop if necessary, when there are **animals** on the road or you can reasonably expect them to enter it."
+              },
+              "src": "RGC art. 46.1.c"
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "p-23",
+                "p-24"
+              ]
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Los animales son imprevisibles. Si un rebaño ocupa la carretera, la DGT aconseja **detenerte**, no tocar el claxon ni acelerar (los asustas) y esperar a que se aparten.",
+                "en": "Animals are unpredictable. If a herd blocks the road, the DGT advises **stopping**, not honking or revving (it scares them), and waiting for them to move aside."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c4h",
+                "answer": 2,
+                "es": {
+                  "q": "Vas a girar a la derecha para entrar en otra vía y unas vacas la están cruzando, aunque no hay paso para animales. ¿Quién pasa primero?",
+                  "options": [
+                    "Tú, porque los vehículos tienen prioridad sobre los animales",
+                    "Quien llegue antes",
+                    "Las vacas: debes cederles el paso"
+                  ],
+                  "why": "Los conductores tienen prioridad sobre los animales, salvo excepciones. Una es esta: si giras para entrar en otra vía y hay animales cruzándola, les cedes el paso."
+                },
+                "exam": {
+                  "q": "You are going to turn right in order to enter another road and some cows are crossing it, although there is no crossing for animals. Who passes first?",
+                  "options": [
+                    "You, because the vehicles have priority over the animals.",
+                    "Whoever arrives before.",
+                    "The cows, you must give way to them."
+                  ]
+                },
+                "en": {
+                  "q": "You are turning right into another road and some cows are crossing it, though there is no animal crossing. Who goes first?",
+                  "options": [
+                    "You, because vehicles have priority over animals",
+                    "Whoever gets there first",
+                    "The cows: you must let them pass"
+                  ],
+                  "why": "Drivers have priority over animals, with exceptions. This is one: if you turn into another road and animals are crossing it, you give way to them."
+                },
+                "terms": [
+                  {
+                    "es": "prioridad de paso",
+                    "en": "right of way (priority)"
+                  },
+                  {
+                    "es": "ceder el paso",
+                    "en": "to give way"
+                  },
+                  {
+                    "es": "cañada",
+                    "en": "livestock route"
+                  }
+                ],
+                "src": "RGC art. 66.1.b"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c4i",
+                "answer": 0,
+                "es": {
+                  "q": "Un rebaño de ovejas ocupa la carretera delante de ti. ¿Qué es lo más seguro?",
+                  "options": [
+                    "Detenerte, no tocar el claxon y esperar a que se aparten",
+                    "Tocar el claxon para que se aparten",
+                    "Avanzar despacio entre ellas para abrir paso"
+                  ],
+                  "why": "Con animales en la vía, modera la velocidad y detente si hace falta. Los ruidos los asustan y pueden reaccionar de forma imprevista."
+                },
+                "exam": {
+                  "q": "A flock of sheep occupies the road in front of you. What is the safest thing?",
+                  "options": [
+                    "To stop yourself, not to sound the horn and to wait until they move aside.",
+                    "To sound the horn so that they move aside.",
+                    "To advance slowly between them in order to open the way."
+                  ]
+                },
+                "en": {
+                  "q": "A flock of sheep is filling the road ahead of you. What is safest?",
+                  "options": [
+                    "Stop, do not honk, and wait for them to move aside",
+                    "Honk so they move out of the way",
+                    "Edge forward slowly through them to clear a path"
+                  ],
+                  "why": "With animals on the road, moderate your speed and stop if needed. Noise frightens them and they may react unpredictably."
+                },
+                "terms": [
+                  {
+                    "es": "rebaño",
+                    "en": "herd (flock)"
+                  },
+                  {
+                    "es": "animales domésticos",
+                    "en": "domestic animals"
+                  }
+                ],
+                "src": "RGC art. 46.1.c; DGT guidance"
+              }
+            }
+          ]
         }
       ],
       "recap": [
@@ -1537,10 +2474,20 @@
         {
           "es": "De noche, el peatón debe llevar algo **luminoso o reflectante** visible a **150 m**, pero no todos lo llevan.",
           "en": "At night, pedestrians must wear something **light or reflective** visible from **150 m**, but not all do."
+        },
+        {
+          "es": "Fuera de poblado, el peatón va por el **arcén izquierdo**; quien empuja una bici, por la derecha.",
+          "en": "Outside towns, pedestrians use the **left shoulder**; someone pushing a bike keeps right."
+        },
+        {
+          "es": "Si giras y hay **animales cruzando**, les cedes el paso.",
+          "en": "If you turn and **animals are crossing**, you give way to them."
         }
       ],
       "src": [
-        "Reglamento General de Circulación (RD 1428/2003), arts. 45, 46.1, 65.1, 121.1, 123.1 y 124.2"
+        "Reglamento General de Circulación (RD 1428/2003), arts. 45, 46.1, 65.1, 121.1, 123.1 y 124.2",
+        "Reglamento General de Circulación (RD 1428/2003), arts. 46.1.c, 66, 122, 125 y 152",
+        "DGT guidance (dgt.es): percepción del riesgo; consejos para personas mayores"
       ]
     },
     {
@@ -1549,7 +2496,7 @@
         "es": "Ciclistas, motoristas y patinetes",
         "en": "Cyclists, motorcyclists and e-scooters"
       },
-      "minutes": 8,
+      "minutes": 9,
       "goals": [
         {
           "es": "Reducir la velocidad al acercarte a ciclistas y dejarles espacio.",
@@ -1938,6 +2885,227 @@
         },
         {
           "title": {
+            "es": "Protección del motorista y del ciclista",
+            "en": "Protecting riders and cyclists"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Según la DGT, las lesiones en la cabeza son la principal causa de muerte entre los accidentados de dos ruedas: el **80 %** de los fallecidos en moto lo son por golpes en la cabeza. El motorista no tiene carrocería: el golpe lo recibe su cuerpo.",
+                "en": "According to the DGT, head injuries are the main cause of death among people hurt in two-wheeler crashes: **80%** of motorcyclists killed die from blows to the head. A rider has no bodywork: their body takes the impact."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "El casco, según la DGT: cámbialo tras un golpe, un accidente o una **caída desde más de 1,5 metros**, aunque no veas daños. Con el tiempo pierde propiedades: los de policarbonato caducan a los dos años de su fabricación. No lo pintes ni le pegues adhesivos, y no compres uno de segunda mano.",
+                "en": "The helmet, according to the DGT: replace it after a blow, a crash or a **drop from more than 1.5 meters** (5 ft), even if you see no damage. It loses its properties over time: polycarbonate helmets expire two years after they are made. Do not paint it or put stickers on it, and do not buy one second-hand."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "La ropa también protege: chaqueta y pantalones largos y resistentes a la abrasión, botas y guantes. Te protegen del frío, la lluvia y el sol, y de las rozaduras en una caída. Los colores claros te hacen más visible.",
+                "en": "Clothing protects too: long, abrasion-resistant jacket and trousers, boots and gloves. They protect you from cold, rain and sun, and from scrapes in a fall. Light colors make you easier to see."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los conductores de **motocicletas** y otros vehículos deben ponerse el **chaleco reflectante** de alta visibilidad cuando salgan del vehículo y ocupen la calzada o el arcén de una vía interurbana.",
+                "en": "**Motorcyclists** and other drivers must put on the high-visibility **reflective vest** when they get off the vehicle and stand on the roadway or shoulder of an intercity road."
+              },
+              "src": "RGC art. 118.4"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los ciclistas que circulen por vías interurbanas entre el ocaso y la salida del sol, o con poca visibilidad, deben llevar al menos un **elemento luminoso o reflectante** visible a 150 metros.",
+                "en": "Cyclists on intercity roads between sunset and sunrise, or in poor visibility, must wear at least one **light or reflective item** visible from 150 meters."
+              },
+              "src": "RGC art. 118.2"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c5g",
+                "answer": 1,
+                "es": {
+                  "q": "Tu casco se cae al suelo desde la moto, a más de metro y medio, y por fuera parece intacto. ¿Qué haces?",
+                  "options": [
+                    "Seguir usándolo: no se ve ningún daño",
+                    "Cambiarlo: puede estar dañado por dentro",
+                    "Pintarlo para tapar los arañazos"
+                  ],
+                  "why": "Un casco que ha recibido un golpe o se ha caído desde más de 1,5 metros puede tener daños que no se ven. La DGT aconseja cambiarlo."
+                },
+                "exam": {
+                  "q": "Your helmet falls to the ground from the motorcycle, from more than a metre and a half, and on the outside it seems intact. What do you do?",
+                  "options": [
+                    "To continue using it, no damage is seen.",
+                    "To change it, it can be damaged inside.",
+                    "To paint it in order to cover the scratches."
+                  ]
+                },
+                "en": {
+                  "q": "Your helmet falls from the motorcycle to the ground, from more than a meter and a half, and looks intact outside. What do you do?",
+                  "options": [
+                    "Keep using it: there is no visible damage",
+                    "Replace it: it may be damaged inside",
+                    "Paint it to cover the scratches"
+                  ],
+                  "why": "A helmet that has taken a blow or fallen from more than 1.5 meters may have damage you cannot see. The DGT advises replacing it."
+                },
+                "terms": [
+                  {
+                    "es": "casco de protección",
+                    "en": "protective helmet"
+                  },
+                  {
+                    "es": "golpe",
+                    "en": "blow (impact)"
+                  }
+                ],
+                "src": "DGT guidance"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c5h",
+                "answer": 0,
+                "es": {
+                  "q": "¿Puedes conducir una motocicleta con sandalias?",
+                  "options": [
+                    "No: debes llevar calzado cerrado que cubra todo el pie",
+                    "Sí, en ciudad",
+                    "Sí, si llevas guantes"
+                  ],
+                  "why": "En motos y ciclomotores es obligatorio el calzado cerrado que cubra todo el pie, en todo tipo de vías. En vías interurbanas, además, guantes."
+                },
+                "exam": {
+                  "q": "Can you drive a motorcycle with sandals?",
+                  "options": [
+                    "No, you must take closed footwear that covers all the foot.",
+                    "Yes, in city.",
+                    "Yes, if you take gloves."
+                  ]
+                },
+                "en": {
+                  "q": "May you ride a motorcycle in sandals?",
+                  "options": [
+                    "No: you must wear closed footwear covering the whole foot",
+                    "Yes, in town",
+                    "Yes, if you wear gloves"
+                  ],
+                  "why": "On motorcycles and mopeds, closed footwear covering the whole foot is required on every kind of road. On intercity roads, gloves as well."
+                },
+                "terms": [
+                  {
+                    "es": "calzado cerrado",
+                    "en": "closed footwear"
+                  },
+                  {
+                    "es": "guantes de protección",
+                    "en": "protective gloves"
+                  }
+                ],
+                "src": "RGC art. 118.1.b y 118.1.c"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c5i",
+                "answer": 2,
+                "es": {
+                  "q": "Tu moto se avería en una carretera interurbana y te bajas al arcén. ¿Qué debes ponerte?",
+                  "options": [
+                    "Nada: el casco ya te hace visible",
+                    "Solo los guantes",
+                    "El chaleco reflectante de alta visibilidad"
+                  ],
+                  "why": "Los conductores de motocicletas deben usar el chaleco reflectante cuando salen del vehículo y ocupan la calzada o el arcén de una vía interurbana."
+                },
+                "exam": {
+                  "q": "Your motorcycle breaks down on an interurban road and you get off to the hard shoulder. What must you put on?",
+                  "options": [
+                    "Nothing, the helmet already makes you visible.",
+                    "Only the gloves.",
+                    "The high visibility reflective vest."
+                  ]
+                },
+                "en": {
+                  "q": "Your motorcycle breaks down on an intercity road and you get off onto the shoulder. What must you put on?",
+                  "options": [
+                    "Nothing: the helmet already makes you visible",
+                    "Only the gloves",
+                    "The high-visibility reflective vest"
+                  ],
+                  "why": "Motorcyclists must wear the reflective vest when they get off the vehicle and stand on the roadway or shoulder of an intercity road."
+                },
+                "terms": [
+                  {
+                    "es": "chaleco reflectante de alta visibilidad",
+                    "en": "high-visibility reflective vest"
+                  },
+                  {
+                    "es": "avería",
+                    "en": "breakdown"
+                  }
+                ],
+                "src": "RGC art. 118.4"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c5j",
+                "answer": 1,
+                "es": {
+                  "q": "De noche, un ciclista circula por una carretera interurbana. ¿Qué debe llevar puesto, como mínimo?",
+                  "options": [
+                    "Ropa de color oscuro",
+                    "Un elemento luminoso o reflectante visible a 150 metros",
+                    "Nada, si la bicicleta tiene timbre"
+                  ],
+                  "why": "Entre el ocaso y la salida del sol, o con poca visibilidad, el ciclista en vía interurbana lleva al menos un elemento luminoso o reflectante visible a 150 metros."
+                },
+                "exam": {
+                  "q": "At night, a cyclist circulates by an interurban road. What must he take put on, as a minimum?",
+                  "options": [
+                    "Clothes of dark colour.",
+                    "A luminous or reflective element visible at 150 metres.",
+                    "Nothing, if the bicycle has a bell."
+                  ]
+                },
+                "en": {
+                  "q": "At night, a cyclist rides on an intercity road. What must they wear, at minimum?",
+                  "options": [
+                    "Dark clothing",
+                    "A light or reflective item visible from 150 meters",
+                    "Nothing, if the bicycle has a bell"
+                  ],
+                  "why": "Between sunset and sunrise, or in poor visibility, a cyclist on an intercity road wears at least one light or reflective item visible from 150 meters."
+                },
+                "terms": [
+                  {
+                    "es": "elemento reflectante",
+                    "en": "reflective element"
+                  },
+                  {
+                    "es": "entre el ocaso y la salida del sol",
+                    "en": "between sunset and sunrise"
+                  }
+                ],
+                "src": "RGC art. 118.2"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
             "es": "Patinetes eléctricos (VMP)",
             "en": "E-scooters (VMP)"
           },
@@ -2035,12 +3203,481 @@
         {
           "es": "Los VMP: **mayores de 15**, con casco, y **nunca** por autopistas ni autovías.",
           "en": "VMPs: riders **15 or older**, with a helmet, and **never** on motorways or dual carriageways."
+        },
+        {
+          "es": "En moto: casco abrochado y calzado cerrado en **todas las vías**; guantes en interurbanas. Cambia el casco tras un golpe.",
+          "en": "On a motorcycle: helmet fastened and closed footwear on **every road**; gloves on intercity roads. Replace the helmet after a blow."
         }
       ],
       "src": [
         "Reglamento General de Circulación (RD 1428/2003), arts. 36.2, 38.4, 46.1, 64.2, 104, 118, 152.1, 153 y 155",
         "Ley de Tráfico (RDL 6/2015), Anexo I y art. 25.5",
-        "Reglamento General de Vehículos (RD 2822/1998), anexo II, definiciones"
+        "Reglamento General de Vehículos (RD 2822/1998), anexo II, definiciones",
+        "Reglamento General de Circulación (RD 1428/2003), art. 118",
+        "DGT guidance (dgt.es): en moto"
+      ]
+    },
+    {
+      "id": "risk-factors",
+      "title": {
+        "es": "Factores de riesgo y su coste",
+        "en": "Risk factors and what crashes cost"
+      },
+      "minutes": 6,
+      "goals": [
+        {
+          "es": "Distinguir los tres grupos de factores de riesgo: la persona, el vehículo, y la vía y su entorno.",
+          "en": "Tell apart the three groups of risk factors: the person, the vehicle, and the road and its surroundings."
+        },
+        {
+          "es": "Saber por qué la inexperiencia es un riesgo y cómo compensarla.",
+          "en": "Know why inexperience is a risk and how to make up for it."
+        },
+        {
+          "es": "Relacionar la velocidad con la gravedad de un atropello.",
+          "en": "Link speed to how serious it is to hit a pedestrian."
+        }
+      ],
+      "terms": [
+        {
+          "es": "factor de riesgo",
+          "en": "risk factor"
+        },
+        {
+          "es": "factor humano",
+          "en": "human factor"
+        },
+        {
+          "es": "la vía y el entorno",
+          "en": "the road and its surroundings"
+        },
+        {
+          "es": "conductor novel",
+          "en": "novice driver"
+        },
+        {
+          "es": "inexperiencia",
+          "en": "inexperience"
+        },
+        {
+          "es": "atropello",
+          "en": "hitting a pedestrian (run-over)"
+        },
+        {
+          "es": "siniestro de tráfico",
+          "en": "road crash"
+        }
+      ],
+      "pretest": {
+        "id": "hazards-pre-6",
+        "answer": 0,
+        "es": {
+          "q": "Según la DGT, en las salidas de vía con muertos, ¿qué factor predomina?",
+          "options": [
+            "El humano: distracción, velocidad, alcohol, cansancio",
+            "El vehículo: averías y neumáticos",
+            "La vía: baches y obras"
+          ],
+          "why": "Los expertos de la DGT señalan el factor humano como el predominante. El estado del vehículo rara vez es determinante."
+        },
+        "exam": {
+          "q": "According to the DGT, in the road departures with deaths, which factor predominates?",
+          "options": [
+            "The human one, distraction, speed, alcohol, tiredness.",
+            "The vehicle, breakdowns and tyres.",
+            "The road, potholes and works."
+          ]
+        },
+        "en": {
+          "q": "According to the DGT, in fatal run-off-road crashes, which factor dominates?",
+          "options": [
+            "The human one: distraction, speed, alcohol, tiredness",
+            "The vehicle: breakdowns and tires",
+            "The road: potholes and roadworks"
+          ],
+          "why": "DGT experts name the human factor as the dominant one. The state of the vehicle is rarely decisive."
+        },
+        "src": "DGT guidance"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Tres grupos de factores",
+            "en": "Three groups of factors"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Un **factor de riesgo** es una circunstancia que hace más probable un accidente. Se agrupan en tres: la **persona** (el factor humano), el **vehículo**, y la **vía y su entorno** (el trazado, el firme, la luz y el tiempo).",
+                "en": "A **risk factor** is a circumstance that makes a crash more likely. They fall into three groups: the **person** (the human factor), the **vehicle**, and the **road and its surroundings** (layout, surface, light and weather)."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Un estudio de la DGT de 2026 sobre las salidas de vía lo muestra. El **factor humano** es el predominante: las causas más citadas en los casos mortales son la distracción, la velocidad inadecuada, el alcohol y el cansancio. El estado del vehículo rara vez es determinante. La vía y el entorno (falta de luz, mal tiempo, curvas) influyen mucho en la gravedad.",
+                "en": "A 2026 DGT study of run-off-road crashes shows this. The **human factor** dominates: the causes cited most often in fatal cases are distraction, inadequate speed, alcohol and tiredness. The state of the vehicle is rarely decisive. The road and its surroundings (poor lighting, bad weather, bends) weigh heavily on how serious the crash is."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Los factores que dependen de ti son los que más puedes cambiar: tu atención, tu velocidad, tu descanso. Ante una vía peligrosa, la respuesta también es tuya: menos velocidad y más distancia.",
+                "en": "The factors that depend on you are the ones you can change most: your attention, your speed, your rest. Faced with a dangerous road, the answer is yours too: less speed and more distance."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c6a",
+                "answer": 2,
+                "es": {
+                  "q": "Según los expertos de la DGT, ¿qué factor está detrás de la mayoría de los accidentes graves por salida de vía?",
+                  "options": [
+                    "El vehículo",
+                    "El estado de la carretera",
+                    "El humano"
+                  ],
+                  "why": "La DGT señala el factor humano como el predominante: distracción, velocidad inadecuada, alcohol y cansancio. El vehículo rara vez es determinante."
+                },
+                "exam": {
+                  "q": "According to the experts of the DGT, which factor is behind the majority of the serious accidents by road departure?",
+                  "options": [
+                    "The vehicle.",
+                    "The state of the road.",
+                    "The human one."
+                  ]
+                },
+                "en": {
+                  "q": "According to DGT experts, which factor lies behind most serious run-off-road crashes?",
+                  "options": [
+                    "The vehicle",
+                    "The state of the road",
+                    "The human factor"
+                  ],
+                  "why": "The DGT names the human factor as the dominant one: distraction, inadequate speed, alcohol and tiredness. The vehicle is rarely decisive."
+                },
+                "terms": [
+                  {
+                    "es": "factor humano",
+                    "en": "human factor"
+                  },
+                  {
+                    "es": "salida de vía",
+                    "en": "run-off-road crash (road departure)"
+                  }
+                ],
+                "src": "DGT guidance"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c6b",
+                "answer": 0,
+                "es": {
+                  "q": "El hielo, la nieve, la calzada mojada y las obras, ¿en qué grupo de factores de riesgo están?",
+                  "options": [
+                    "En el de la vía y el entorno",
+                    "En el del vehículo",
+                    "En el humano"
+                  ],
+                  "why": "Son condiciones de la vía y de su entorno. Tú no las controlas, pero sí tu respuesta: menos velocidad y más distancia."
+                },
+                "exam": {
+                  "q": "The ice, the snow, the wet carriageway and the works, in which group of risk factors are they?",
+                  "options": [
+                    "In that of the road and the environment.",
+                    "In that of the vehicle.",
+                    "In the human one."
+                  ]
+                },
+                "en": {
+                  "q": "Ice, snow, a wet roadway and roadworks: which group of risk factors do they belong to?",
+                  "options": [
+                    "The road and its surroundings",
+                    "The vehicle",
+                    "The human factor"
+                  ],
+                  "why": "They are conditions of the road and its surroundings. You do not control them, but you do control your response: less speed and more distance."
+                },
+                "terms": [
+                  {
+                    "es": "factor de riesgo",
+                    "en": "risk factor"
+                  },
+                  {
+                    "es": "vía y entorno",
+                    "en": "road and environment"
+                  },
+                  {
+                    "es": "obras",
+                    "en": "roadworks"
+                  }
+                ],
+                "src": "DGT guidance"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "La inexperiencia",
+            "en": "Inexperience"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Según la DGT, los conductores con experiencia **perciben los riesgos antes** y con más precisión que los noveles. Por eso la percepción del riesgo se entrena.",
+                "en": "According to the DGT, experienced drivers **spot risks sooner** and more accurately than novices. That is why risk perception has to be trained."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Errores típicos del conductor novel que señala la DGT:",
+                "en": "Typical novice mistakes the DGT points out:"
+              }
+            },
+            {
+              "t": "list",
+              "items": [
+                {
+                  "es": "**Falta de anticipación**: mirar solo cerca, sin prever lo que pasa dos coches más adelante.",
+                  "en": "**Not anticipating**: looking only close ahead, without foreseeing what happens two cars in front."
+                },
+                {
+                  "es": "**Exceso de confianza**, sobre todo tras los primeros meses sin incidentes.",
+                  "en": "**Overconfidence**, above all after the first few months with no incidents."
+                },
+                {
+                  "es": "**Velocidad inadecuada** a las circunstancias.",
+                  "en": "**Speed unsuited** to the conditions."
+                },
+                {
+                  "es": "Ir **demasiado cerca** del vehículo de delante.",
+                  "en": "Following **too closely**."
+                },
+                {
+                  "es": "**Distracciones**, sobre todo el móvil.",
+                  "en": "**Distractions**, above all the phone."
+                }
+              ]
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Compensa la falta de experiencia con margen: más distancia, menos velocidad y más tiempo para decidir.",
+                "en": "Make up for a lack of experience with margin: more distance, less speed and more time to decide."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c6c",
+                "answer": 1,
+                "es": {
+                  "q": "Lucía tiene el permiso desde hace dos meses. ¿Por qué tiene más riesgo de accidente que un conductor con años de práctica?",
+                  "options": [
+                    "No lo tiene: aprobar el examen demuestra que ya sabe conducir",
+                    "Porque detecta los peligros más tarde y comete errores propios del novel",
+                    "Solo porque suele conducir de noche"
+                  ],
+                  "why": "La DGT indica que los conductores con experiencia perciben los riesgos antes que los noveles. La falta de anticipación, el exceso de confianza y la velocidad inadecuada son errores típicos del novel."
+                },
+                "exam": {
+                  "q": "Lucía has had the licence for two months. Why does she have more risk of accident than a driver with years of practice?",
+                  "options": [
+                    "She does not have it: passing the exam shows that she already knows how to drive.",
+                    "Because she detects the dangers later and commits errors typical of the novice.",
+                    "Only because she usually drives at night."
+                  ]
+                },
+                "en": {
+                  "q": "Lucía got her licence two months ago. Why is she at greater risk of a crash than a driver with years of practice?",
+                  "options": [
+                    "She is not: passing the test proves she can drive",
+                    "She spots hazards later and makes mistakes typical of novices",
+                    "Only because she tends to drive at night"
+                  ],
+                  "why": "The DGT says experienced drivers spot risks sooner than novices. Not anticipating, overconfidence and unsuitable speed are typical novice mistakes."
+                },
+                "terms": [
+                  {
+                    "es": "conductor novel",
+                    "en": "novice driver"
+                  },
+                  {
+                    "es": "inexperiencia",
+                    "en": "inexperience"
+                  },
+                  {
+                    "es": "percepción del riesgo",
+                    "en": "risk perception"
+                  }
+                ],
+                "src": "DGT guidance"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Velocidad y gravedad",
+            "en": "Speed and severity"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Adapta tu velocidad a las circunstancias para poder detenerte **dentro de tu campo de visión** y ante cualquier obstáculo.",
+                "en": "Adapt your speed to the circumstances so you can stop **within your field of vision** and for any obstacle."
+              },
+              "src": "RGC art. 45"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "La velocidad decide también **cuánto daño** hay. Según la DGT, si atropellas a un peatón a **30 km/h**, la probabilidad de que muera es de **1 entre 20**; a velocidades más altas, el riesgo de muerte crece mucho. Fuera de poblado las velocidades son más altas: el mismo atropello es allí más grave.",
+                "en": "Speed also decides **how much harm** is done. According to the DGT, if you hit a pedestrian at **30 km/h** (19 mph), the chance they die is **1 in 20**; at higher speeds the risk of death rises steeply. Speeds are higher outside towns, so the same crash is more serious there."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c6d",
+                "answer": 0,
+                "es": {
+                  "q": "¿Qué relación hay entre la velocidad y las lesiones de un atropello?",
+                  "options": [
+                    "A más velocidad, lesiones más graves y más riesgo de muerte",
+                    "Ninguna: lo que cuenta es el tamaño del coche",
+                    "A más velocidad, el peatón tiene más tiempo de apartarse"
+                  ],
+                  "why": "La velocidad aumenta la gravedad. Según la DGT, a 30 km/h muere 1 de cada 20 peatones atropellados; a más velocidad, muchos más."
+                },
+                "exam": {
+                  "q": "What relation is there between the speed and the injuries of a run-over?",
+                  "options": [
+                    "At more speed, more serious injuries and more risk of death.",
+                    "None, what counts is the size of the car.",
+                    "At more speed, the pedestrian has more time to move aside."
+                  ]
+                },
+                "en": {
+                  "q": "How does speed relate to the injuries when a pedestrian is hit?",
+                  "options": [
+                    "The higher the speed, the worse the injuries and the risk of death",
+                    "It does not: what counts is the size of the car",
+                    "The higher the speed, the more time the pedestrian has to step aside"
+                  ],
+                  "why": "Speed raises severity. According to the DGT, at 30 km/h 1 in 20 pedestrians hit is killed; at higher speeds, many more."
+                },
+                "terms": [
+                  {
+                    "es": "atropello",
+                    "en": "run-over (hitting a pedestrian)"
+                  },
+                  {
+                    "es": "lesiones",
+                    "en": "injuries"
+                  }
+                ],
+                "src": "DGT guidance; RGC art. 45"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Lo que cuesta un accidente",
+            "en": "What a crash costs"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Los accidentes de tráfico tienen un coste humano y también **económico**. Un estudio presentado por la DGT en 2024 estima en **2 millones de euros** el valor de evitar una muerte en un siniestro de tráfico. Esa cifra suma el valor de una vida, las pérdidas de producción por la muerte prematura y los **costes médicos y de los servicios de emergencia**.",
+                "en": "Road crashes carry a human cost and an **economic** one. A study the DGT presented in 2024 puts the value of preventing one road death at **2 million euros**. That figure adds the value of a life, the lost production from the early death, and the **medical and emergency-service costs**."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "El mismo estudio valora en 385.480 euros evitar una lesión grave.",
+                "en": "The same study values preventing one serious injury at 385,480 euros."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c6e",
+                "answer": 2,
+                "es": {
+                  "q": "¿Tienen los accidentes de tráfico un gran impacto económico?",
+                  "options": [
+                    "No, solo tienen un coste humano",
+                    "No: el coste sanitario es mínimo",
+                    "Sí: incluyen costes médicos, de emergencias y pérdidas de producción"
+                  ],
+                  "why": "Un estudio presentado por la DGT valora en 2 millones de euros evitar una muerte en un siniestro, sumando costes médicos y de emergencias y pérdidas de producción."
+                },
+                "exam": {
+                  "q": "Do the traffic accidents have a great economic impact?",
+                  "options": [
+                    "No, they only have a human cost.",
+                    "No, the health cost is minimal.",
+                    "Yes, they include medical costs, of emergencies and losses of production."
+                  ]
+                },
+                "en": {
+                  "q": "Do road crashes have a large economic impact?",
+                  "options": [
+                    "No, they only have a human cost",
+                    "No: the health-care cost is minimal",
+                    "Yes: they include medical and emergency costs and lost production"
+                  ],
+                  "why": "A study the DGT presented values preventing one road death at 2 million euros, adding medical and emergency costs and lost production."
+                },
+                "terms": [
+                  {
+                    "es": "siniestro de tráfico",
+                    "en": "road crash (traffic accident)"
+                  },
+                  {
+                    "es": "coste sanitario",
+                    "en": "health-care cost"
+                  }
+                ],
+                "src": "DGT guidance"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "Tres grupos de factores de riesgo: **la persona**, **el vehículo**, y **la vía y su entorno**.",
+          "en": "Three groups of risk factors: **the person**, **the vehicle**, and **the road and its surroundings**."
+        },
+        {
+          "es": "El **factor humano** predomina: distracción, velocidad, alcohol y cansancio.",
+          "en": "The **human factor** dominates: distraction, speed, alcohol and tiredness."
+        },
+        {
+          "es": "El novel percibe los riesgos **más tarde**: compénsalo con distancia y menos velocidad.",
+          "en": "Novices spot risks **later**: make up for it with distance and lower speed."
+        },
+        {
+          "es": "A más velocidad, **más grave** el atropello.",
+          "en": "The higher the speed, the **worse** the injuries to a pedestrian."
+        }
+      ],
+      "src": [
+        "Reglamento General de Circulación (RD 1428/2003), art. 45",
+        "DGT guidance (dgt.es): salidas de vía (2026); 10 errores de novel (2025); percepción del riesgo; valor monetario de prevenir un fallecimiento (2024)"
       ]
     }
   ]

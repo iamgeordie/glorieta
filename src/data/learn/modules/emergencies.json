@@ -5,8 +5,8 @@
     "en": "Collisions and first aid"
   },
   "blurb": {
-    "es": "Qué hacer si ves o sufres un accidente: protege, avisa, socorre, y cómo señalizar y esperar con seguridad si tu coche se queda parado.",
-    "en": "What to do if you see or have a collision: protect, alert, help, and how to signal and wait safely if your car stops on the road."
+    "es": "Qué hacer si ves o sufres un accidente: protege, avisa, socorre, primeros auxilios básicos, y cómo señalizar y esperar con seguridad si tu coche se queda parado.",
+    "en": "What to do if you see or have a collision: protect, alert, help, basic first aid, and how to signal and wait safely if your car stops on the road."
   },
   "lessons": [
     {
@@ -15,7 +15,7 @@
         "es": "PAS y el deber de auxiliar",
         "en": "PAS and the duty to help"
       },
-      "minutes": 6,
+      "minutes": 7,
       "goals": [
         {
           "es": "Decir qué significa PAS y en qué orden se hace.",
@@ -161,6 +161,57 @@
                 ],
                 "src": "DGT guidance (PAS); RGC art. 129.2.a"
               }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Guía de la DGT: al proteger, empieza por **ti**: ponte el chaleco y colócate en un sitio seguro. Después protege el lugar, para que nadie más choque. Luego protege a las víctimas, por ejemplo quitando el contacto del coche accidentado.",
+                "en": "DGT guidance: when you protect, start with **yourself**: put on the vest and stand somewhere safe. Then protect the scene, so nobody else crashes. Then protect the victims, for example by switching off the ignition of the crashed car."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "emergencies-c1e",
+                "answer": 0,
+                "es": {
+                  "q": "Llegas a un accidente y vas a aplicar el primer paso de la regla PAS. ¿A quién proteges primero?",
+                  "options": [
+                    "A ti mismo",
+                    "A las víctimas",
+                    "A los vehículos dañados"
+                  ],
+                  "why": "Si no estás seguro, no puedes ayudar a nadie. Primero te proteges tú, después proteges el lugar del accidente y luego a las víctimas."
+                },
+                "en": {
+                  "q": "You reach a collision and are about to apply the first step of the PAS rule. Whom do you protect first?",
+                  "options": [
+                    "Yourself",
+                    "The victims",
+                    "The damaged vehicles"
+                  ],
+                  "why": "If you are not safe, you cannot help anyone. First you protect yourself, then the scene of the collision, then the victims."
+                },
+                "exam": {
+                  "q": "You arrive at an accident and you are going to apply the first step of the PAS rule. Whom do you protect first?",
+                  "options": [
+                    "Yourself.",
+                    "The victims.",
+                    "The damaged vehicles."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "proteger",
+                    "en": "protect"
+                  },
+                  {
+                    "es": "víctima",
+                    "en": "victim"
+                  }
+                ],
+                "src": "DGT guidance (DGT, unidad didáctica «Saber actuar en caso de accidente»)"
+              }
             }
           ]
         },
@@ -238,6 +289,54 @@
                   }
                 ],
                 "src": "RGC art. 129.1; Código Penal art. 195.2"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "emergencies-c1g",
+                "answer": 1,
+                "es": {
+                  "q": "No estás implicado en un accidente. Ves a un herido grave sin ayuda y podrías auxiliarle sin riesgo. Si sigues sin hacer nada, ¿qué cometes?",
+                  "options": [
+                    "Nada, porque tú no causaste el accidente",
+                    "Un delito de omisión del deber de socorro",
+                    "Solo una infracción leve de tráfico"
+                  ],
+                  "why": "El Código Penal castiga a quien no socorre a una persona desamparada en peligro grave, si puede hacerlo sin riesgo. Se aplica aunque no estés implicado."
+                },
+                "en": {
+                  "q": "You are not involved in a collision. You see a seriously injured person with no help, and you could help without risk. If you drive on and do nothing, what do you commit?",
+                  "options": [
+                    "Nothing, because you did not cause the collision",
+                    "The crime of failing to help",
+                    "Only a minor traffic offense"
+                  ],
+                  "why": "The Penal Code punishes anyone who fails to help a helpless person in serious danger when they could do so without risk. It applies even if you are not involved."
+                },
+                "exam": {
+                  "q": "You are not involved in an accident. You see a seriously injured person without help and you could assist him without risk. If you continue without doing anything, what do you commit?",
+                  "options": [
+                    "Nothing, because you did not cause the accident.",
+                    "A crime of omission of the duty of assistance.",
+                    "Only a minor traffic infraction."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "omisión del deber de socorro",
+                    "en": "failure to help (omission of the duty of assistance)"
+                  },
+                  {
+                    "es": "desamparado",
+                    "en": "helpless"
+                  },
+                  {
+                    "es": "implicado",
+                    "en": "involved"
+                  }
+                ],
+                "src": "Código Penal art. 195.1"
               }
             }
           ]
@@ -317,6 +416,50 @@
                   }
                 ],
                 "src": "RGC art. 129.2.a"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "emergencies-c1f",
+                "answer": 2,
+                "es": {
+                  "q": "Pasas junto a un accidente. Los agentes ya están allí y es evidente que tu ayuda no hace falta. ¿Debes detenerte?",
+                  "options": [
+                    "Sí, siempre debes parar",
+                    "Sí, para dar tus datos como testigo",
+                    "No: puedes seguir la marcha con precaución"
+                  ],
+                  "why": "Quien ve un accidente sin estar implicado debe colaborar, salvo que claramente no haga falta su ayuda o que ya estén allí la autoridad o sus agentes."
+                },
+                "en": {
+                  "q": "You drive past a collision. Officers are already there and your help is clearly not needed. Must you stop?",
+                  "options": [
+                    "Yes, you must always stop",
+                    "Yes, to give your details as a witness",
+                    "No: you can carry on with care"
+                  ],
+                  "why": "Someone who sees a collision without being involved must help, unless their help is clearly not needed or the authorities are already there."
+                },
+                "exam": {
+                  "q": "You pass next to an accident. The agents are already there and it is evident that your help is not needed. Must you stop?",
+                  "options": [
+                    "Yes, you must always stop.",
+                    "Yes, in order to give your data as a witness.",
+                    "No: you can continue the march with precaution."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "agentes de la autoridad",
+                    "en": "agents of the authority (officers)"
+                  },
+                  {
+                    "es": "testigo",
+                    "en": "witness"
+                  }
+                ],
+                "src": "RGC art. 129.3"
               }
             }
           ]
@@ -437,7 +580,8 @@
         "Reglamento General de Circulación (RD 1428/2003), art. 129",
         "Ley de Tráfico y Seguridad Vial (RDL 6/2015), art. 51.1",
         "Código Penal, art. 195",
-        "DGT guidance: «Qué hacer ante un accidente de tráfico» (dgt.es, actualizada el 30-11-2022)"
+        "DGT guidance: «Qué hacer ante un accidente de tráfico» (dgt.es, actualizada el 30-11-2022)",
+        "DGT guidance (DGT, unidad didáctica «Saber actuar en caso de accidente»)"
       ]
     },
     {
@@ -446,7 +590,7 @@
         "es": "Llamar al 112 y ayudar sin empeorar",
         "en": "Calling 112 and helping without making it worse"
       },
-      "minutes": 6,
+      "minutes": 7,
       "goals": [
         {
           "es": "Saber que el número de emergencias es el 112 y qué datos dar.",
@@ -459,6 +603,10 @@
         {
           "es": "Conocer tres cosas que no se hacen: mover al herido, quitar el casco, dar de beber o comer.",
           "en": "Know three things you do not do: move the injured, remove the helmet, give food or drink."
+        },
+        {
+          "es": "Saber qué hace el eCall.",
+          "en": "Know what eCall does."
         }
       ],
       "terms": [
@@ -540,6 +688,79 @@
               "text": {
                 "es": "También existen el 062 (Guardia Civil), el 091 (Policía Nacional) y el 092 (Policía Local). Ante un accidente, empieza por el 112.",
                 "en": "There are also 062 (Guardia Civil), 091 (Policía Nacional) and 092 (Policía Local). For a collision, start with 112."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "eCall: el coche llama solo",
+            "en": "eCall: the car calls by itself"
+          },
+          "blocks": [
+            {
+              "t": "tip",
+              "text": {
+                "es": "Guía de la DGT: el **eCall** es una llamada de emergencia automática al **112**. Se activa sola cuando saltan los airbags, o a mano con el botón SOS.",
+                "en": "DGT guidance: **eCall** is an automatic emergency call to **112**. It starts by itself when the airbags go off, or by hand with the SOS button."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "La llamada tiene máxima prioridad. Envía el lugar exacto, la matrícula, el modelo y el tipo de combustible, para que los servicios de rescate sepan qué medios llevar.",
+                "en": "The call has top priority. It sends the exact location, the plate, the model and the fuel type, so rescue services know what equipment to bring."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Lo llevan obligatoriamente los turismos y furgonetas de nueva homologación desde el **31 de marzo de 2018**. Si tu coche no lo tiene, llama tú al 112.",
+                "en": "Cars and vans of new type approval must have it since **31 March 2018**. If your car does not have it, call 112 yourself."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "emergencies-c2d",
+                "answer": 1,
+                "es": {
+                  "q": "Tu coche tiene eCall y sufres un choque en el que saltan los airbags. ¿Qué hace el sistema?",
+                  "options": [
+                    "Bloquea las puertas hasta que llega la policía",
+                    "Llama al 112 y envía el lugar exacto del accidente",
+                    "Avisa solo a tu compañía de seguros"
+                  ],
+                  "why": "El eCall llama automáticamente al 112 cuando saltan los airbags y envía la ubicación y los datos del vehículo, para que la ayuda llegue antes y con los medios adecuados."
+                },
+                "en": {
+                  "q": "Your car has eCall and you have a crash in which the airbags go off. What does the system do?",
+                  "options": [
+                    "It locks the doors until the police arrive",
+                    "It calls 112 and sends the exact location of the crash",
+                    "It alerts only your insurance company"
+                  ],
+                  "why": "eCall automatically calls 112 when the airbags go off and sends the location and the vehicle details, so help arrives sooner and with the right equipment."
+                },
+                "exam": {
+                  "q": "Your car has eCall and you suffer a crash in which the airbags go off. What does the system do?",
+                  "options": [
+                    "It locks the doors until the police arrive.",
+                    "It calls 112 and sends the exact place of the accident.",
+                    "It only warns your insurance company."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "eCall (llamada de emergencia)",
+                    "en": "eCall (emergency call)"
+                  },
+                  {
+                    "es": "homologación",
+                    "en": "type approval"
+                  }
+                ],
+                "src": "DGT guidance (revista.dgt.es, «El eCall ya es obligatorio», 04-04-2018)"
               }
             }
           ]
@@ -801,6 +1022,54 @@
                 ],
                 "src": "DGT guidance"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "emergencies-c2e",
+                "answer": 2,
+                "es": {
+                  "q": "Un motorista herido está tumbado en la carretera, consciente y con el casco puesto. No sabes primeros auxilios. ¿Qué haces con el casco?",
+                  "options": [
+                    "Se lo quitas para que respire mejor",
+                    "Le aflojas el casco y se lo sacas despacio",
+                    "No se lo quitas; proteges la zona y llamas al 112"
+                  ],
+                  "why": "La DGT indica que no se quita el casco a un motorista herido. Retirarlo sin la técnica adecuada puede agravar una lesión del cuello."
+                },
+                "en": {
+                  "q": "An injured motorcyclist is lying on the road, conscious and still wearing the helmet. You do not know first aid. What do you do with the helmet?",
+                  "options": [
+                    "Take it off so he can breathe better",
+                    "Loosen it and slide it off slowly",
+                    "Leave it on; protect the scene and call 112"
+                  ],
+                  "why": "The DGT says not to remove an injured motorcyclist’s helmet. Taking it off without the right technique can worsen a neck injury."
+                },
+                "exam": {
+                  "q": "An injured motorcyclist is lying on the road, conscious and with the helmet put on. You do not know first aid. What do you do with the helmet?",
+                  "options": [
+                    "You remove it from him so that he breathes better.",
+                    "You loosen the helmet and you take it off slowly.",
+                    "You do not remove it; you protect the zone and you call 112."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "casco",
+                    "en": "helmet"
+                  },
+                  {
+                    "es": "motorista",
+                    "en": "motorcyclist"
+                  },
+                  {
+                    "es": "primeros auxilios",
+                    "en": "first aid"
+                  }
+                ],
+                "src": "DGT guidance (dgt.es, «Qué hacer ante un accidente de tráfico», 30-11-2022)"
+              }
             }
           ]
         }
@@ -821,6 +1090,10 @@
         {
           "es": "No muevas al herido, no le quites el casco y no le des comida ni bebida.",
           "en": "Do not move the injured, do not remove the helmet and do not give food or drink."
+        },
+        {
+          "es": "El **eCall** llama solo al 112 si saltan los airbags.",
+          "en": "**eCall** calls 112 by itself if the airbags go off."
         }
       ],
       "covers": [
@@ -831,7 +1104,689 @@
         "DGT guidance: «Qué hacer ante un accidente de tráfico» (dgt.es, actualizada el 30-11-2022)",
         "DGT guidance: «En caso de emergencia» (dgt.es)",
         "DGT guidance: «Vacaciones en coche» (revista.dgt.es, 10-06-2022)",
-        "Ministerio de Sanidad: «Módulo 6. Comportamiento ante el accidente de tráfico» (sanidad.gob.es/ciudadanos/accidentes)"
+        "Ministerio de Sanidad: «Módulo 6. Comportamiento ante el accidente de tráfico» (sanidad.gob.es/ciudadanos/accidentes)",
+        "DGT guidance (revista.dgt.es, «El eCall ya es obligatorio», 04-04-2018)"
+      ]
+    },
+    {
+      "id": "first-aid-basics",
+      "title": {
+        "es": "Primeros auxilios mientras llega la ayuda",
+        "en": "First aid while help is on the way"
+      },
+      "minutes": 8,
+      "goals": [
+        {
+          "es": "Saber cómo valorar a un herido: si responde y si respira.",
+          "en": "Know how to check an injured person: whether they respond and breathe."
+        },
+        {
+          "es": "Saber qué hacer con una herida que sangra y qué no hacer con la sangre por la nariz.",
+          "en": "Know what to do with a bleeding wound and what not to do with a nosebleed."
+        },
+        {
+          "es": "Saber cómo se mueve a un herido si no hay otro remedio, y quién lo traslada.",
+          "en": "Know how an injured person is moved if there is no other choice, and who takes them to hospital."
+        }
+      ],
+      "terms": [
+        {
+          "es": "herido",
+          "en": "injured person"
+        },
+        {
+          "es": "consciente",
+          "en": "conscious"
+        },
+        {
+          "es": "vía aérea",
+          "en": "airway"
+        },
+        {
+          "es": "hemorragia",
+          "en": "haemorrhage (bleeding)"
+        },
+        {
+          "es": "eje cabeza-cuello-tronco",
+          "en": "head-neck-trunk axis"
+        },
+        {
+          "es": "médula espinal",
+          "en": "spinal cord"
+        },
+        {
+          "es": "abrigar",
+          "en": "keep warm"
+        },
+        {
+          "es": "traslado",
+          "en": "transfer"
+        }
+      ],
+      "pretest": {
+        "id": "emergencies-pre-4",
+        "answer": 2,
+        "es": {
+          "q": "Un herido debe salir de un coche que empieza a arder. ¿Cómo se le mueve?",
+          "options": [
+            "Tirando de un brazo, deprisa",
+            "Sentándolo primero en el asiento",
+            "En bloque, sin girar ni doblar la cabeza ni el cuello"
+          ],
+          "why": "Si moverlo es imprescindible, se mueve en bloque, con la cabeza, el cuello y el tronco alineados, para proteger la médula espinal."
+        },
+        "en": {
+          "q": "An injured person has to get out of a car that is catching fire. How are they moved?",
+          "options": [
+            "By pulling an arm, fast",
+            "By sitting them up in the seat first",
+            "As one block, without turning or bending the head or neck"
+          ],
+          "why": "If moving them is unavoidable, move them as one block, with head, neck and trunk in line, to protect the spinal cord."
+        },
+        "exam": {
+          "q": "An injured person must leave a car that starts to burn. How is he moved?",
+          "options": [
+            "Pulling from one arm, quickly.",
+            "Sitting him first on the seat.",
+            "In block, without turning or bending the head or the neck."
+          ]
+        },
+        "terms": [],
+        "src": "DGT guidance (DGT, Manual IX «Primeros auxilios», 2026)"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Mira cómo está",
+            "en": "Check how they are"
+          },
+          "blocks": [
+            {
+              "t": "tip",
+              "text": {
+                "es": "Guía de la DGT: valora a cada herido antes de actuar. Pregúntale cómo se encuentra. Si responde, abre los ojos o se mueve, está **consciente**.",
+                "en": "DGT guidance: check each injured person before you act. Ask how they feel. If they answer, open their eyes or move, they are **conscious**."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Si no responde, lo primero es que el aire pueda pasar: hay que abrir la **vía aérea**, porque la lengua puede caer hacia atrás y taparla. Después se comprueba si respira. El operador del 112 te guía.",
+                "en": "If they do not respond, the first thing is to let air through: the **airway** must be opened, because the tongue can fall back and block it. Then you check whether they breathe. The 112 operator guides you."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Atiende primero a quien está inconsciente, respira con mucha dificultad o sangra mucho.",
+                "en": "Attend first to anyone who is unconscious, struggling to breathe or bleeding heavily."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "emergencies-c4a",
+                "answer": 0,
+                "es": {
+                  "q": "¿Para qué sirve comprobar si un herido está consciente y si respira?",
+                  "options": [
+                    "Para valorar la gravedad de su estado",
+                    "Para decidir si le das agua",
+                    "Para saber si puedes quitarle el casco"
+                  ],
+                  "why": "Saber si responde y si respira indica la gravedad y lo que es más urgente. El 112 también necesita esa información."
+                },
+                "en": {
+                  "q": "Why check whether an injured person is conscious and breathing?",
+                  "options": [
+                    "To judge how serious their condition is",
+                    "To decide whether to give them water",
+                    "To know whether you can take off their helmet"
+                  ],
+                  "why": "Knowing whether they respond and breathe shows how serious it is and what is most urgent. 112 needs that information too."
+                },
+                "exam": {
+                  "q": "What is it useful for to check if an injured person is conscious and if he breathes?",
+                  "options": [
+                    "In order to assess the gravity of his state.",
+                    "In order to decide if you give him water.",
+                    "In order to know if you can remove his helmet."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "consciente",
+                    "en": "conscious"
+                  },
+                  {
+                    "es": "respirar",
+                    "en": "breathe"
+                  },
+                  {
+                    "es": "gravedad",
+                    "en": "gravity (severity)"
+                  }
+                ],
+                "src": "DGT guidance (DGT, Manual IX «Primeros auxilios», 2026)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "emergencies-c4b",
+                "answer": 1,
+                "es": {
+                  "q": "Un herido está inconsciente y no respira bien. Antes de hacerle la respiración boca a boca, ¿qué hay que hacer?",
+                  "options": [
+                    "Taparle la nariz con un pañuelo",
+                    "Abrir y despejar la vía aérea",
+                    "Sentarle en el asiento"
+                  ],
+                  "why": "En un herido inconsciente, lo primero es que la vía aérea esté libre: la lengua puede caer hacia atrás y tapar el paso del aire."
+                },
+                "en": {
+                  "q": "An injured person is unconscious and not breathing well. Before mouth-to-mouth, what must be done?",
+                  "options": [
+                    "Cover their nose with a handkerchief",
+                    "Open and clear the airway",
+                    "Sit them up in the seat"
+                  ],
+                  "why": "With an unconscious person, the first thing is a clear airway: the tongue can fall back and block the air."
+                },
+                "exam": {
+                  "q": "An injured person is unconscious and does not breathe well. Before doing the mouth-to-mouth respiration on him, what must be done?",
+                  "options": [
+                    "To cover his nose with a handkerchief.",
+                    "To open and clear the airway.",
+                    "To sit him on the seat."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "vía aérea",
+                    "en": "airway"
+                  },
+                  {
+                    "es": "respiración boca a boca",
+                    "en": "mouth-to-mouth respiration"
+                  },
+                  {
+                    "es": "inconsciente",
+                    "en": "unconscious"
+                  }
+                ],
+                "src": "DGT guidance (DGT, Manual IX «Primeros auxilios», 2026)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Sangre: qué hacer y qué no",
+            "en": "Bleeding: what to do and what not"
+          },
+          "blocks": [
+            {
+              "t": "tip",
+              "text": {
+                "es": "Guía de la DGT: si una herida sangra, **presiona** directamente sobre ella con un pañuelo de tela o una compresa limpios. No uses algodón ni pañuelos de papel.",
+                "en": "DGT guidance: if a wound is bleeding, **press** directly on it with a clean cloth handkerchief or dressing. Do not use cotton wool or paper tissues."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "El torniquete no es la regla general. Se reserva para hemorragias que ponen en peligro la vida y que la presión no controla. No pongas pomadas ni cremas en las heridas.",
+                "en": "A tourniquet is not the general rule. It is kept for life-threatening bleeding that pressure does not control. Do not put ointments or creams on wounds."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Si sale sangre por la **nariz** o por los oídos tras un golpe, **no la tapones**: puede ser señal de una fractura del cráneo. Mira si respira y está consciente, y avisa al 112.",
+                "en": "If blood comes from the **nose** or ears after a blow, **do not plug it**: it can be a sign of a skull fracture. Check that they breathe and are conscious, and call 112."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "emergencies-c4c",
+                "answer": 2,
+                "es": {
+                  "q": "Un herido tiene una herida en el brazo que sangra mucho. ¿Qué es lo primero que haces?",
+                  "options": [
+                    "Atarle una cuerda muy fuerte alrededor del brazo",
+                    "Lavarla con agua y dejarla al aire",
+                    "Presionar directamente sobre la herida con un pañuelo limpio"
+                  ],
+                  "why": "Ante una hemorragia externa, lo primero es la presión directa sobre la herida. El torniquete se reserva para hemorragias graves que la presión no controla."
+                },
+                "en": {
+                  "q": "An injured person has an arm wound that is bleeding heavily. What do you do first?",
+                  "options": [
+                    "Tie a cord very tight around the arm",
+                    "Wash it with water and leave it open to the air",
+                    "Press directly on the wound with a clean cloth"
+                  ],
+                  "why": "For external bleeding, the first step is direct pressure on the wound. A tourniquet is kept for severe bleeding that pressure does not control."
+                },
+                "exam": {
+                  "q": "An injured person has a wound in the arm that bleeds a lot. What is the first thing that you do?",
+                  "options": [
+                    "To tie a cord very tight around his arm.",
+                    "To wash it with water and to leave it in the air.",
+                    "To press directly on the wound with a clean handkerchief."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "hemorragia",
+                    "en": "haemorrhage"
+                  },
+                  {
+                    "es": "presión directa",
+                    "en": "direct pressure"
+                  },
+                  {
+                    "es": "torniquete",
+                    "en": "tourniquet"
+                  }
+                ],
+                "src": "DGT guidance (DGT, Manual IX «Primeros auxilios», 2026)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "emergencies-c4d",
+                "answer": 0,
+                "es": {
+                  "q": "Tras una caída, un motorista sangra por la nariz. ¿Qué haces?",
+                  "options": [
+                    "No taponar la sangre y avisar al 112",
+                    "Taponarle la nariz con algodón",
+                    "Pedirle que se suene la nariz con fuerza"
+                  ],
+                  "why": "La sangre por la nariz o por los oídos tras un golpe puede indicar una fractura del cráneo. No se tapona: comprueba que respira y está consciente, y llama al 112."
+                },
+                "en": {
+                  "q": "After a fall, a motorcyclist is bleeding from the nose. What do you do?",
+                  "options": [
+                    "Do not plug it, and call 112",
+                    "Plug the nose with cotton wool",
+                    "Ask him to blow his nose hard"
+                  ],
+                  "why": "Blood from the nose or ears after a blow can mean a skull fracture. Do not plug it: check that he breathes and is conscious, and call 112."
+                },
+                "exam": {
+                  "q": "After a fall, a motorcyclist bleeds from the nose. What do you do?",
+                  "options": [
+                    "Not to plug the blood and to notify 112.",
+                    "To plug his nose with cotton.",
+                    "To ask him to blow his nose with force."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "hemorragia nasal",
+                    "en": "nosebleed"
+                  },
+                  {
+                    "es": "taponar",
+                    "en": "plug"
+                  },
+                  {
+                    "es": "motorista",
+                    "en": "motorcyclist"
+                  }
+                ],
+                "src": "DGT guidance (DGT, Manual IX «Primeros auxilios», 2026)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Si hay que moverlo: en bloque",
+            "en": "If you must move them: as one block"
+          },
+          "blocks": [
+            {
+              "t": "tip",
+              "text": {
+                "es": "Guía de la DGT: no muevas a un herido salvo peligro inminente, como un incendio o una explosión. En un choque, el cuello puede estar dañado, y con él la **médula espinal**.",
+                "en": "DGT guidance: do not move an injured person unless there is imminent danger, such as fire or an explosion. In a crash the neck may be hurt, and with it the **spinal cord**."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Si no hay más remedio, muévelo **en bloque**, con el eje cabeza-cuello-tronco recto: sin girar ni doblar la cabeza ni el cuello. Hacen falta al menos tres personas.",
+                "en": "If there is no other choice, move them **as one block**, keeping the head-neck-trunk axis straight: without turning or bending the head or neck. It takes at least three people."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "emergencies-c4e",
+                "answer": 1,
+                "es": {
+                  "q": "Hay que sacar a un herido de un coche porque hay riesgo de incendio. ¿Cómo debe moverse?",
+                  "options": [
+                    "Tirando de los brazos para sacarlo rápido",
+                    "Con la cabeza, el cuello y el tronco en línea recta, en bloque",
+                    "Sentándolo primero para que respire mejor"
+                  ],
+                  "why": "Si moverlo es imprescindible, se hace en bloque, sin girar ni doblar el cuello. Así se protegen la columna y la médula espinal."
+                },
+                "en": {
+                  "q": "An injured person must be taken out of a car because of a fire risk. How should they be moved?",
+                  "options": [
+                    "By the arms, to get them out fast",
+                    "As one block, with head, neck and trunk in a straight line",
+                    "Sitting them up first so they breathe better"
+                  ],
+                  "why": "If moving them is unavoidable, do it as one block, without turning or bending the neck. That protects the spine and the spinal cord."
+                },
+                "exam": {
+                  "q": "An injured person must be taken out of a car because there is risk of fire. How must he be moved?",
+                  "options": [
+                    "Pulling from the arms in order to take him out quickly.",
+                    "With the head, the neck and the trunk in a straight line, in block.",
+                    "Sitting him first so that he breathes better."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "eje cabeza-cuello-tronco",
+                    "en": "head-neck-trunk axis"
+                  },
+                  {
+                    "es": "en bloque",
+                    "en": "in block"
+                  },
+                  {
+                    "es": "columna vertebral",
+                    "en": "spine"
+                  }
+                ],
+                "src": "DGT guidance (DGT, Manual IX «Primeros auxilios», 2026)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "emergencies-c4f",
+                "answer": 2,
+                "es": {
+                  "q": "Atiendes a un herido de un accidente de tráfico mientras llega la ayuda. ¿Qué parte del cuerpo debes proteger sobre todo?",
+                  "options": [
+                    "Las manos",
+                    "Las piernas",
+                    "El cuello, para evitar lesiones de la médula espinal"
+                  ],
+                  "why": "En los accidentes de tráfico hay mucho riesgo de lesión en el cuello. Protegerlo evita dañar la médula espinal."
+                },
+                "en": {
+                  "q": "You are caring for someone hurt in a traffic collision while help is coming. Which part of the body must you protect most?",
+                  "options": [
+                    "The hands",
+                    "The legs",
+                    "The neck, to avoid spinal cord injuries"
+                  ],
+                  "why": "Traffic collisions carry a high risk of neck injury. Protecting the neck avoids damage to the spinal cord."
+                },
+                "exam": {
+                  "q": "You attend an injured person of a traffic accident while the help arrives. What part of the body must you protect above all?",
+                  "options": [
+                    "The hands.",
+                    "The legs.",
+                    "The neck, in order to avoid injuries of the spinal cord."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "cuello",
+                    "en": "neck"
+                  },
+                  {
+                    "es": "médula espinal",
+                    "en": "spinal cord"
+                  },
+                  {
+                    "es": "lesión",
+                    "en": "injury"
+                  }
+                ],
+                "src": "DGT guidance (DGT, Manual IX «Primeros auxilios», 2026)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Abrígalo y quédate a su lado",
+            "en": "Keep them warm and stay with them"
+          },
+          "blocks": [
+            {
+              "t": "tip",
+              "text": {
+                "es": "Guía de la DGT: tapa a los heridos con una manta para que **no pierdan calor**, y protégelos del frío o del calor. Afloja la ropa que les apriete.",
+                "en": "DGT guidance: cover the injured with a blanket so they **do not lose heat**, and shield them from cold or heat. Loosen any tight clothing."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "No les des de comer ni de beber, ni siquiera agua. Tampoco ningún **medicamento**: ni pastillas, ni tranquilizantes, ni pomadas.",
+                "en": "Give them nothing to eat or drink, not even water. And no **medicine** at all: no pills, no tranquilizers, no ointments."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Quédate a su lado y tranquilízalos: diles que la ayuda está en camino. Que no se levanten ni caminen.",
+                "en": "Stay by their side and calm them: tell them help is on the way. Do not let them get up or walk."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "emergencies-c4g",
+                "answer": 0,
+                "es": {
+                  "q": "Esperas a la ambulancia junto a un herido tumbado en el arcén. Hace frío. ¿Qué haces?",
+                  "options": [
+                    "Lo tapas con una manta para que no pierda calor",
+                    "Lo llevas caminando hasta tu coche",
+                    "Le das una bebida caliente"
+                  ],
+                  "why": "Hay que evitar que el herido pierda calor, sin moverlo y sin darle de beber. Tápalo y quédate a su lado."
+                },
+                "en": {
+                  "q": "You are waiting for the ambulance next to an injured person lying on the shoulder. It is cold. What do you do?",
+                  "options": [
+                    "Cover them with a blanket so they do not lose heat",
+                    "Walk them to your car",
+                    "Give them a hot drink"
+                  ],
+                  "why": "Keep the injured person from losing heat, without moving them or giving them anything to drink. Cover them and stay with them."
+                },
+                "exam": {
+                  "q": "You wait for the ambulance next to an injured person lying on the hard shoulder. It is cold. What do you do?",
+                  "options": [
+                    "You cover him with a blanket so that he does not lose heat.",
+                    "You take him walking to your car.",
+                    "You give him a hot drink."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "manta",
+                    "en": "blanket"
+                  },
+                  {
+                    "es": "pérdida de calor",
+                    "en": "heat loss"
+                  },
+                  {
+                    "es": "arcén",
+                    "en": "hard shoulder"
+                  }
+                ],
+                "src": "DGT guidance (DGT, unidad didáctica «Saber actuar en caso de accidente»)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "emergencies-c4h",
+                "answer": 1,
+                "es": {
+                  "q": "Un herido está muy nervioso y te pide una pastilla para calmarse. ¿Qué haces?",
+                  "options": [
+                    "Le das uno de tus calmantes",
+                    "No le das ningún medicamento; te quedas con él y lo tranquilizas",
+                    "Le das una bebida con azúcar"
+                  ],
+                  "why": "No se da ningún medicamento, comida ni bebida a un herido: puede empeorar su estado. Acompáñale y dile que la ayuda llega pronto."
+                },
+                "en": {
+                  "q": "An injured person is very upset and asks you for a pill to calm down. What do you do?",
+                  "options": [
+                    "Give him one of your sedatives",
+                    "Give him no medicine; stay with him and calm him",
+                    "Give him a sugary drink"
+                  ],
+                  "why": "Never give an injured person medicine, food or drink: it can make their condition worse. Stay with them and tell them help is coming soon."
+                },
+                "exam": {
+                  "q": "An injured person is very nervous and asks you for a pill to calm down. What do you do?",
+                  "options": [
+                    "You give him one of your tranquillisers.",
+                    "You do not give him any medicine; you stay with him and you calm him.",
+                    "You give him a drink with sugar."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "tranquilizante",
+                    "en": "tranquilliser"
+                  },
+                  {
+                    "es": "medicamento",
+                    "en": "medicine"
+                  },
+                  {
+                    "es": "acompañar",
+                    "en": "accompany"
+                  }
+                ],
+                "src": "DGT guidance (DGT, unidad didáctica «Saber actuar en caso de accidente»)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "El traslado, en ambulancia",
+            "en": "The transfer, by ambulance"
+          },
+          "blocks": [
+            {
+              "t": "tip",
+              "text": {
+                "es": "Guía de la DGT: no lleves heridos al hospital en un coche particular. Un traslado mal hecho puede agravar las lesiones e incluso causar la muerte.",
+                "en": "DGT guidance: do not take injured people to hospital in a private car. A badly done transfer can make injuries worse and even cause death."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "El traslado lo hace **personal especializado**, con medios para atender al herido por el camino. El objetivo no es solo llegar rápido: primero hay que estabilizarlo.",
+                "en": "The transfer is done by **specialized staff**, with the means to care for the injured person on the way. The goal is not just to arrive fast: first they must be stabilized."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "emergencies-c4i",
+                "answer": 2,
+                "es": {
+                  "q": "Un herido grave está consciente y el hospital está cerca. ¿Lo llevas en tu coche?",
+                  "options": [
+                    "Sí, así llega antes que la ambulancia",
+                    "Sí, si va sentado y con el cinturón",
+                    "No: lo traslada personal especializado con los medios adecuados"
+                  ],
+                  "why": "Trasladar heridos en vehículos particulares puede agravar su estado. Lo hace personal especializado, que lo estabiliza y lo atiende por el camino."
+                },
+                "en": {
+                  "q": "A seriously injured person is conscious and the hospital is nearby. Do you take them in your car?",
+                  "options": [
+                    "Yes, that way they get there before the ambulance",
+                    "Yes, if they sit up with the seat belt on",
+                    "No: specialized staff transfer them with the right equipment"
+                  ],
+                  "why": "Moving injured people in private vehicles can make them worse. Specialized staff do it, stabilizing them and caring for them on the way."
+                },
+                "exam": {
+                  "q": "A seriously injured person is conscious and the hospital is near. Do you take him in your car?",
+                  "options": [
+                    "Yes, that way he arrives before the ambulance.",
+                    "Yes, if he goes seated and with the seat belt.",
+                    "No: specialised personnel transfer him with the appropriate means."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "traslado",
+                    "en": "transfer"
+                  },
+                  {
+                    "es": "personal especializado",
+                    "en": "specialised personnel"
+                  },
+                  {
+                    "es": "ambulancia",
+                    "en": "ambulance"
+                  }
+                ],
+                "src": "DGT guidance (DGT, Manual IX «Primeros auxilios», 2026)"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "Valora: ¿responde?, ¿respira? Si está inconsciente, primero la **vía aérea**.",
+          "en": "Check: do they respond? do they breathe? If unconscious, the **airway** comes first."
+        },
+        {
+          "es": "Herida que sangra: **presión directa**. Sangre por la nariz u oídos: **no la tapones**.",
+          "en": "Bleeding wound: **direct pressure**. Blood from the nose or ears: **do not plug it**."
+        },
+        {
+          "es": "No lo muevas. Si no hay más remedio, en bloque, con el eje **cabeza-cuello-tronco** recto.",
+          "en": "Do not move them. If you must, as one block, with the **head-neck-trunk** axis straight."
+        },
+        {
+          "es": "Abrígalo y quédate a su lado. Nada de comida, bebida ni medicamentos.",
+          "en": "Keep them warm and stay with them. No food, drink or medicine."
+        },
+        {
+          "es": "El traslado lo hace **personal especializado**, no tu coche.",
+          "en": "The transfer is for **specialized staff**, not your car."
+        }
+      ],
+      "covers": [],
+      "src": [
+        "DGT guidance: «Qué hacer ante un accidente de tráfico» (dgt.es, actualizada el 30-11-2022)",
+        "DGT guidance: Manual IX «Primeros auxilios» (DGT, 2026)",
+        "DGT guidance: unidad didáctica «Saber actuar en caso de accidente» (dgt.es, educación vial)"
       ]
     },
     {
@@ -840,7 +1795,7 @@
         "es": "Avería o accidente en la vía: señales y lugar seguro",
         "en": "Breakdown or collision on the road: signals and a safe place"
       },
-      "minutes": 7,
+      "minutes": 9,
       "goals": [
         {
           "es": "Saber qué hacer si tu coche aún puede circular y qué hacer si queda inmovilizado.",
@@ -883,6 +1838,10 @@
         {
           "es": "parte de accidente",
           "en": "accident report form"
+        },
+        {
+          "es": "incendio",
+          "en": "fire"
         }
       ],
       "pretest": {
@@ -1103,6 +2062,149 @@
                   }
                 ],
                 "src": "RGV anexo XI, V-16, apdo. 2"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Carga caída en la calzada",
+            "en": "Load fallen on the carriageway"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si creas un obstáculo o un peligro en la vía, como una carga caída, debes hacerlo desaparecer **lo antes posible**. Mientras tanto, señalízalo para que los demás lo vean y no dificultes la circulación.",
+                "en": "If you create an obstacle or danger on the road, such as a fallen load, you must remove it **as soon as possible**. Meanwhile, mark it so others can see it, and do not hinder traffic."
+              },
+              "src": "LSV art. 12.3; RGC art. 130.1"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "La señal V-16 sirve también para avisar de que tu carga ha caído sobre la calzada.",
+                "en": "The V-16 beacon is also used to warn that your load has fallen onto the carriageway."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "emergencies-c3h",
+                "answer": 0,
+                "es": {
+                  "q": "Parte de tu carga cae a la calzada y obstaculiza el tráfico. ¿Qué haces?",
+                  "options": [
+                    "Avisas de su presencia con la señal V-16 y la quitas cuanto antes",
+                    "La dejas allí y avisas al día siguiente",
+                    "Sigues tu camino: la retira el servicio de carreteras"
+                  ],
+                  "why": "Quien crea un obstáculo en la vía debe señalizarlo para que los demás lo adviertan y retirarlo lo antes posible."
+                },
+                "en": {
+                  "q": "Part of your load falls onto the carriageway and blocks traffic. What do you do?",
+                  "options": [
+                    "Warn others with the V-16 beacon and clear it as soon as you can",
+                    "Leave it there and report it the next day",
+                    "Drive on: the road service clears it"
+                  ],
+                  "why": "Anyone who creates an obstacle on the road must mark it so others notice it, and remove it as soon as possible."
+                },
+                "exam": {
+                  "q": "Part of your load falls to the carriageway and obstructs the traffic. What do you do?",
+                  "options": [
+                    "You warn of its presence with the V-16 signal and you remove it as soon as possible.",
+                    "You leave it there and you notify the next day.",
+                    "You continue your way: the road service removes it."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "carga",
+                    "en": "load"
+                  },
+                  {
+                    "es": "obstáculo",
+                    "en": "obstacle"
+                  },
+                  {
+                    "es": "calzada",
+                    "en": "carriageway"
+                  }
+                ],
+                "src": "LSV art. 12.3; RGC art. 130.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Incendio en un túnel",
+            "en": "Fire in a tunnel"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "En caso de **incendio** en un túnel, acerca el vehículo a la derecha todo lo posible, para no cerrar el paso a los vehículos de emergencia. Apaga el motor y deja la **llave puesta** y las puertas abiertas.",
+                "en": "If there is a **fire** in a tunnel, move the vehicle as far right as you can, so you do not block emergency vehicles. Switch off the engine and leave the **key in** and the doors open."
+              },
+              "src": "RGC art. 97.3 (párrafo sobre el incendio)"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Todos los ocupantes salen del vehículo y van rápido al refugio o a la salida más cercana, en sentido contrario al fuego. No se camina por la calzada si hay zonas sin tráfico.",
+                "en": "All occupants leave the vehicle and go quickly to the nearest shelter or exit, away from the fire. Do not walk on the carriageway if there are areas closed to traffic."
+              },
+              "src": "RGC art. 97.3 (párrafo sobre el incendio)"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "emergencies-c3i",
+                "answer": 1,
+                "es": {
+                  "q": "Hay un incendio dentro del túnel por el que circulas y debes abandonar el coche. ¿Qué haces con él?",
+                  "options": [
+                    "Lo cierras con llave para que nadie lo mueva",
+                    "Lo arrimas a la derecha, apagas el motor y dejas la llave puesta",
+                    "Lo dejas en el centro del carril con el motor encendido"
+                  ],
+                  "why": "En caso de incendio en un túnel, acerca el vehículo a la derecha, apaga el motor y deja la llave puesta y las puertas abiertas. Luego ve al refugio o la salida más cercana, lejos del fuego."
+                },
+                "en": {
+                  "q": "There is a fire inside the tunnel you are driving through and you have to leave the car. What do you do with it?",
+                  "options": [
+                    "Lock it so nobody can move it",
+                    "Pull to the right, switch off the engine and leave the key in",
+                    "Leave it in the middle of the lane with the engine running"
+                  ],
+                  "why": "If there is a fire in a tunnel, move the vehicle to the right, switch off the engine and leave the key in and the doors open. Then go to the nearest shelter or exit, away from the fire."
+                },
+                "exam": {
+                  "q": "There is a fire inside the tunnel by which you circulate and you must abandon the car. What do you do with it?",
+                  "options": [
+                    "You lock it with the key so that nobody moves it.",
+                    "You bring it close to the right, you switch off the engine and you leave the key put.",
+                    "You leave it in the centre of the lane with the engine running."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "incendio",
+                    "en": "fire"
+                  },
+                  {
+                    "es": "túnel",
+                    "en": "tunnel"
+                  },
+                  {
+                    "es": "refugio",
+                    "en": "shelter"
+                  }
+                ],
+                "src": "RGC art. 97.3"
               }
             }
           ]
@@ -1408,6 +2510,10 @@
         {
           "es": "Si no puedes salir con seguridad, quédate **dentro con el cinturón abrochado**. El **parte** se rellena fuera de la vía.",
           "en": "If you cannot get out safely, stay **inside with your seat belt fastened**. Fill in the **report** off the road."
+        },
+        {
+          "es": "Carga caída: **señalízala** y retírala cuanto antes. Incendio en un túnel: a la derecha, **llave puesta**, y sal hacia el refugio.",
+          "en": "Fallen load: **mark it** and clear it as soon as you can. Fire in a tunnel: pull right, **key in**, and head for the shelter."
         }
       ],
       "covers": [],
@@ -1415,7 +2521,9 @@
         "Reglamento General de Circulación (RD 1428/2003), arts. 109.2.c, 118.4 y 130",
         "Reglamento General de Vehículos (RD 2822/1998), anexo XI (V-16) y anexo XII",
         "RD 159/2021 (servicios de auxilio en vías públicas), disposición transitoria primera",
-        "DGT guidance: «En caso de emergencia» (dgt.es)"
+        "DGT guidance: «En caso de emergencia» (dgt.es)",
+        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), art. 12.3",
+        "Reglamento General de Circulación (RD 1428/2003), art. 97.3"
       ]
     }
   ]

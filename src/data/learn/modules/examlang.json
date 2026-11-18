@@ -372,7 +372,7 @@
                 "id": "examlang-parada",
                 "answer": 2,
                 "es": {
-                  "q": "La inmovilización de un vehículo durante un tiempo inferior a dos minutos, sin que el conductor pueda abandonarlo, se llama:",
+                  "q": "Inmovilizas el coche un minuto junto a la acera para que baje un pasajero, sin salir tú del vehículo. En el lenguaje del examen, ¿cómo se llama eso?",
                   "options": [
                     "Detención",
                     "Estacionamiento",
@@ -381,7 +381,7 @@
                   "why": "Eso es la parada. La detención es por emergencia, necesidades de la circulación o una norma. El estacionamiento es todo lo demás."
                 },
                 "exam": {
-                  "q": "The immobilisation of a vehicle during a time inferior to two minutes, without the driver being able to abandon it, is called:",
+                  "q": "You immobilise the car one minute next to the pavement so that a passenger gets out, without you leaving the vehicle. In the language of the exam, how is that called?",
                   "options": [
                     "Detention.",
                     "Parking.",
@@ -389,7 +389,7 @@
                   ]
                 },
                 "en": {
-                  "q": "The immobilization of a vehicle during a time lower than two minutes, without the driver being able to abandon it, is called:",
+                  "q": "You hold the car still for a minute by the kerb so a passenger can get out, and you do not leave the vehicle. In exam language, what is that called?",
                   "options": [
                     "Halt (detención)",
                     "Parking (estacionamiento)",
@@ -820,6 +820,4326 @@
       ]
     },
     {
+      "id": "road-words",
+      "title": {
+        "es": "La vía, palabra por palabra",
+        "en": "The road, word by word"
+      },
+      "minutes": 7,
+      "goals": [
+        {
+          "es": "Reconocer en el inglés del examen las partes de la vía: carriageway, hard shoulder, lane, central reservation.",
+          "en": "Recognize the exam’s English names for the parts of a road: carriageway, hard shoulder, lane, central reservation."
+        },
+        {
+          "es": "Nombrar los puntos de la vía con reglas propias: intersección, paso a nivel, cambio de rasante.",
+          "en": "Name the road features that carry their own rules: intersection, level crossing, change of gradient."
+        },
+        {
+          "es": "Distinguir los tipos de vía: autopista, autovía, vía para automóviles, carretera convencional, vía urbana e interurbana.",
+          "en": "Tell apart the road types: autopista, autovía, vía para automóviles, carretera convencional, urban and interurban road."
+        }
+      ],
+      "terms": [
+        {
+          "es": "calzada",
+          "en": "carriageway (exam) / roadway"
+        },
+        {
+          "es": "arcén",
+          "en": "hard shoulder (exam) / shoulder"
+        },
+        {
+          "es": "carril",
+          "en": "lane"
+        },
+        {
+          "es": "mediana",
+          "en": "central reservation (exam) / median"
+        },
+        {
+          "es": "paso a nivel",
+          "en": "level crossing (exam) / railroad crossing"
+        },
+        {
+          "es": "cambio de rasante",
+          "en": "change of gradient (exam) / hill crest"
+        },
+        {
+          "es": "vía interurbana",
+          "en": "interurban road (exam) / road outside town"
+        },
+        {
+          "es": "poblado",
+          "en": "town, built-up area (exam) / in town"
+        }
+      ],
+      "pretest": {
+        "id": "examlang-pre-road",
+        "answer": 2,
+        "es": {
+          "q": "En el inglés del examen, «hard shoulder» es:",
+          "options": [
+            "La mediana",
+            "El carril de la derecha",
+            "El arcén"
+          ],
+          "why": "«Hard shoulder» es el arcén: la franja afirmada junto a la calzada. La mediana es «central reservation»."
+        },
+        "en": {
+          "q": "In the exam’s English, “hard shoulder” is:",
+          "options": [
+            "The median (mediana)",
+            "The right-hand lane",
+            "The shoulder (arcén)"
+          ],
+          "why": "“Hard shoulder” is the arcén: the paved strip beside the roadway. The median is the “central reservation”."
+        },
+        "src": "LSV Anexo I, 61"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Las partes de una carretera",
+            "en": "The parts of a road"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "El examen en inglés traduce la ley palabra por palabra y usa el inglés británico. Estas son las partes de la vía tal como aparecen en sus preguntas.",
+                "en": "The English exam translates the law word for word and uses British English. These are the parts of a road as its questions name them."
+              }
+            },
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Español",
+                  "en": "Spanish"
+                },
+                {
+                  "es": "Inglés del examen",
+                  "en": "Exam English"
+                },
+                {
+                  "es": "Inglés de EE. UU.",
+                  "en": "Plain American"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "calzada",
+                    "en": "“calzada”"
+                  },
+                  {
+                    "es": "«carriageway»",
+                    "en": "carriageway"
+                  },
+                  {
+                    "es": "«roadway (the lanes)»",
+                    "en": "roadway (the lanes)"
+                  }
+                ],
+                [
+                  {
+                    "es": "arcén",
+                    "en": "“arcén”"
+                  },
+                  {
+                    "es": "«hard shoulder, shoulder»",
+                    "en": "hard shoulder, shoulder"
+                  },
+                  {
+                    "es": "«shoulder»",
+                    "en": "shoulder"
+                  }
+                ],
+                [
+                  {
+                    "es": "plataforma",
+                    "en": "“plataforma”"
+                  },
+                  {
+                    "es": "«platform»",
+                    "en": "platform"
+                  },
+                  {
+                    "es": "«roadway plus shoulders»",
+                    "en": "roadway plus shoulders"
+                  }
+                ],
+                [
+                  {
+                    "es": "carril",
+                    "en": "“carril”"
+                  },
+                  {
+                    "es": "«lane»",
+                    "en": "lane"
+                  },
+                  {
+                    "es": "«lane»",
+                    "en": "lane"
+                  }
+                ],
+                [
+                  {
+                    "es": "acera",
+                    "en": "“acera”"
+                  },
+                  {
+                    "es": "«pavement, sidewalk»",
+                    "en": "pavement, sidewalk"
+                  },
+                  {
+                    "es": "«sidewalk»",
+                    "en": "sidewalk"
+                  }
+                ],
+                [
+                  {
+                    "es": "bordillo",
+                    "en": "“bordillo”"
+                  },
+                  {
+                    "es": "«kerb»",
+                    "en": "kerb"
+                  },
+                  {
+                    "es": "«curb»",
+                    "en": "curb"
+                  }
+                ],
+                [
+                  {
+                    "es": "mediana",
+                    "en": "“mediana”"
+                  },
+                  {
+                    "es": "«central reservation, median»",
+                    "en": "central reservation, median"
+                  },
+                  {
+                    "es": "«median»",
+                    "en": "median"
+                  }
+                ],
+                [
+                  {
+                    "es": "eje de la calzada",
+                    "en": "“eje de la calzada”"
+                  },
+                  {
+                    "es": "«axis of the carriageway»",
+                    "en": "axis of the carriageway"
+                  },
+                  {
+                    "es": "«center line»",
+                    "en": "center line"
+                  }
+                ],
+                [
+                  {
+                    "es": "refugio, isleta",
+                    "en": "“refugio, isleta”"
+                  },
+                  {
+                    "es": "«refuge, traffic island»",
+                    "en": "refuge, traffic island"
+                  },
+                  {
+                    "es": "«pedestrian island»",
+                    "en": "pedestrian island"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "**Carril**: banda longitudinal en que puede estar subdividida la calzada, con anchura suficiente para una fila de automóviles que no sean motocicletas.",
+                "en": "**Carril**: a lengthwise strip the calzada may be divided into, wide enough for one line of automobiles that are not motorcycles."
+              },
+              "src": "LSV Anexo I, 56"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "examlang-carril",
+                "answer": 0,
+                "es": {
+                  "q": "La banda longitudinal en que puede estar subdividida la calzada, con anchura suficiente para la circulación de una fila de automóviles que no sean motocicletas, es:",
+                  "options": [
+                    "Un carril",
+                    "Un arcén",
+                    "Una plataforma"
+                  ],
+                  "why": "Es la definición de carril. El arcén queda fuera de la calzada y la plataforma es la calzada más los arcenes."
+                },
+                "exam": {
+                  "q": "The longitudinal band in which the carriageway can be subdivided, with sufficient width for the circulation of a row of automobiles that are not motorcycles, is:",
+                  "options": [
+                    "A lane.",
+                    "A hard shoulder.",
+                    "A platform."
+                  ]
+                },
+                "en": {
+                  "q": "The lengthwise strip the roadway may be divided into, wide enough for one line of automobiles that are not motorcycles, is:",
+                  "options": [
+                    "A lane (carril)",
+                    "A shoulder (arcén)",
+                    "A platform (plataforma)"
+                  ],
+                  "why": "That is the definition of a carril. The arcén lies outside the calzada, and the plataforma is the calzada plus the arcenes."
+                },
+                "terms": [
+                  {
+                    "es": "carril",
+                    "en": "lane"
+                  },
+                  {
+                    "es": "calzada",
+                    "en": "carriageway (exam) / roadway"
+                  },
+                  {
+                    "es": "banda longitudinal",
+                    "en": "longitudinal band, lengthwise strip"
+                  }
+                ],
+                "src": "LSV Anexo I, 54, 56 y 61"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Puntos de la vía con nombre propio",
+            "en": "Road features with their own names"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Muchas normas dependen del lugar: no se adelanta en un cambio de rasante ni se para en un paso a nivel. El examen los nombra así:",
+                "en": "Many rules depend on the place: you do not overtake on a hill crest or stop on a railroad crossing. The exam names them like this:"
+              }
+            },
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Español",
+                  "en": "Spanish"
+                },
+                {
+                  "es": "Inglés del examen",
+                  "en": "Exam English"
+                },
+                {
+                  "es": "Inglés de EE. UU.",
+                  "en": "Plain American"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "intersección",
+                    "en": "“intersección”"
+                  },
+                  {
+                    "es": "«intersection, junction»",
+                    "en": "intersection, junction"
+                  },
+                  {
+                    "es": "«intersection»",
+                    "en": "intersection"
+                  }
+                ],
+                [
+                  {
+                    "es": "glorieta",
+                    "en": "“glorieta”"
+                  },
+                  {
+                    "es": "«roundabout»",
+                    "en": "roundabout"
+                  },
+                  {
+                    "es": "«traffic circle»",
+                    "en": "traffic circle"
+                  }
+                ],
+                [
+                  {
+                    "es": "paso a nivel",
+                    "en": "“paso a nivel”"
+                  },
+                  {
+                    "es": "«level crossing»",
+                    "en": "level crossing"
+                  },
+                  {
+                    "es": "«railroad crossing»",
+                    "en": "railroad crossing"
+                  }
+                ],
+                [
+                  {
+                    "es": "paso para peatones",
+                    "en": "“paso para peatones”"
+                  },
+                  {
+                    "es": "«pedestrian crossing»",
+                    "en": "pedestrian crossing"
+                  },
+                  {
+                    "es": "«crosswalk»",
+                    "en": "crosswalk"
+                  }
+                ],
+                [
+                  {
+                    "es": "cambio de rasante",
+                    "en": "“cambio de rasante”"
+                  },
+                  {
+                    "es": "«change of gradient»",
+                    "en": "change of gradient"
+                  },
+                  {
+                    "es": "«hill crest»",
+                    "en": "hill crest"
+                  }
+                ],
+                [
+                  {
+                    "es": "túnel",
+                    "en": "“túnel”"
+                  },
+                  {
+                    "es": "«tunnel»",
+                    "en": "tunnel"
+                  },
+                  {
+                    "es": "«tunnel»",
+                    "en": "tunnel"
+                  }
+                ],
+                [
+                  {
+                    "es": "peaje",
+                    "en": "“peaje”"
+                  },
+                  {
+                    "es": "«toll»",
+                    "en": "toll"
+                  },
+                  {
+                    "es": "«toll»",
+                    "en": "toll"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "**Intersección**: nudo de la red viaria en el que todos los cruces de trayectorias se realizan a nivel. **Paso a nivel**: cruce a la misma altura entre una vía y una línea de ferrocarril con plataforma independiente.",
+                "en": "**Intersección**: a node of the road network where all the crossing paths meet at the same level. **Paso a nivel**: a crossing at the same height between a road and a railway line on its own track bed."
+              },
+              "src": "LSV Anexo I, 62 y 64"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "examlang-paso-nivel",
+                "answer": 1,
+                "es": {
+                  "q": "El cruce a la misma altura entre una vía y una línea de ferrocarril con plataforma independiente se denomina:",
+                  "options": [
+                    "Intersección",
+                    "Paso a nivel",
+                    "Cambio de rasante"
+                  ],
+                  "why": "Es un paso a nivel. Una intersección cruza vías entre sí, y un cambio de rasante es el punto alto de una cuesta."
+                },
+                "exam": {
+                  "q": "The crossing at the same height between a road and a railway line with independent platform is denominated:",
+                  "options": [
+                    "Intersection.",
+                    "Level crossing.",
+                    "Change of gradient."
+                  ]
+                },
+                "en": {
+                  "q": "A crossing at the same height between a road and a railway line on its own track bed is called:",
+                  "options": [
+                    "An intersection (intersección)",
+                    "A level crossing (paso a nivel)",
+                    "A change of gradient (cambio de rasante)"
+                  ],
+                  "why": "It is a paso a nivel, a railroad crossing. An intersection joins roads with each other, and a cambio de rasante is the top of a slope."
+                },
+                "terms": [
+                  {
+                    "es": "paso a nivel",
+                    "en": "level crossing (exam) / railroad crossing"
+                  },
+                  {
+                    "es": "intersección",
+                    "en": "intersection, junction"
+                  },
+                  {
+                    "es": "cambio de rasante",
+                    "en": "change of gradient (exam) / hill crest"
+                  }
+                ],
+                "src": "LSV Anexo I, 62 y 64"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Carriles con uso especial",
+            "en": "Lanes with a special use"
+          },
+          "blocks": [
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Español",
+                  "en": "Spanish"
+                },
+                {
+                  "es": "Inglés del examen",
+                  "en": "Exam English"
+                },
+                {
+                  "es": "Inglés de EE. UU.",
+                  "en": "Plain American"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "carril de aceleración",
+                    "en": "“carril de aceleración”"
+                  },
+                  {
+                    "es": "«acceleration lane»",
+                    "en": "acceleration lane"
+                  },
+                  {
+                    "es": "«on-ramp lane»",
+                    "en": "on-ramp lane"
+                  }
+                ],
+                [
+                  {
+                    "es": "carril de deceleración",
+                    "en": "“carril de deceleración”"
+                  },
+                  {
+                    "es": "«deceleration lane»",
+                    "en": "deceleration lane"
+                  },
+                  {
+                    "es": "«off-ramp lane»",
+                    "en": "off-ramp lane"
+                  }
+                ],
+                [
+                  {
+                    "es": "carril reversible",
+                    "en": "“carril reversible”"
+                  },
+                  {
+                    "es": "«reversible lane»",
+                    "en": "reversible lane"
+                  },
+                  {
+                    "es": "«lane that switches direction»",
+                    "en": "lane that switches direction"
+                  }
+                ],
+                [
+                  {
+                    "es": "carril bus",
+                    "en": "“carril bus”"
+                  },
+                  {
+                    "es": "«bus lane»",
+                    "en": "bus lane"
+                  },
+                  {
+                    "es": "«bus lane»",
+                    "en": "bus lane"
+                  }
+                ],
+                [
+                  {
+                    "es": "carril VAO",
+                    "en": "“carril VAO”"
+                  },
+                  {
+                    "es": "«high-occupancy vehicle lane»",
+                    "en": "high-occupancy vehicle lane"
+                  },
+                  {
+                    "es": "«carpool (HOV) lane»",
+                    "en": "carpool (HOV) lane"
+                  }
+                ],
+                [
+                  {
+                    "es": "carril-bici",
+                    "en": "“carril-bici”"
+                  },
+                  {
+                    "es": "«cycle lane»",
+                    "en": "cycle lane"
+                  },
+                  {
+                    "es": "«bike lane»",
+                    "en": "bike lane"
+                  }
+                ],
+                [
+                  {
+                    "es": "acera-bici",
+                    "en": "“acera-bici”"
+                  },
+                  {
+                    "es": "«cycle pavement»",
+                    "en": "cycle pavement"
+                  },
+                  {
+                    "es": "«bike lane on the sidewalk»",
+                    "en": "bike lane on the sidewalk"
+                  }
+                ],
+                [
+                  {
+                    "es": "senda ciclable",
+                    "en": "“senda ciclable”"
+                  },
+                  {
+                    "es": "«cycleable path»",
+                    "en": "cycleable path"
+                  },
+                  {
+                    "es": "«walking and bike path»",
+                    "en": "walking and bike path"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "**Carril-bici**: vía ciclista que discurre adosada a la calzada. **Acera-bici**: vía ciclista señalizada sobre la acera. **Senda ciclable**: vía para peatones y ciclos, segregada del tráfico motorizado, por parques, jardines o bosques.",
+                "en": "**Carril-bici**: a cycle way running alongside the calzada. **Acera-bici**: a cycle way marked on the sidewalk. **Senda ciclable**: a path for pedestrians and cycles, away from motor traffic, through parks, gardens or woods."
+              },
+              "src": "LSV Anexo I, 75, 77 y 79"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "examlang-carril-bici",
+                "answer": 2,
+                "es": {
+                  "q": "La vía ciclista señalizada sobre la acera es:",
+                  "options": [
+                    "Un carril-bici",
+                    "Una senda ciclable",
+                    "Una acera-bici"
+                  ],
+                  "why": "Sobre la acera es una acera-bici. El carril-bici va adosado a la calzada, y la senda ciclable va separada del tráfico, por parques o bosques."
+                },
+                "exam": {
+                  "q": "The cycle way signposted over the pavement is:",
+                  "options": [
+                    "A bike lane.",
+                    "A cycleable path.",
+                    "A bike pavement."
+                  ]
+                },
+                "en": {
+                  "q": "A cycle way marked on the sidewalk is:",
+                  "options": [
+                    "A bike lane (carril-bici)",
+                    "A cycle path (senda ciclable)",
+                    "A sidewalk bike lane (acera-bici)"
+                  ],
+                  "why": "On the sidewalk it is an acera-bici. The carril-bici runs beside the roadway, and the senda ciclable is away from traffic, through parks or woods."
+                },
+                "terms": [
+                  {
+                    "es": "acera-bici",
+                    "en": "bike pavement (exam) / sidewalk bike lane"
+                  },
+                  {
+                    "es": "carril-bici",
+                    "en": "bike lane"
+                  },
+                  {
+                    "es": "senda ciclable",
+                    "en": "cycleable path"
+                  }
+                ],
+                "src": "LSV Anexo I, 75, 77 y 79"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Tipos de vía",
+            "en": "Types of road"
+          },
+          "blocks": [
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Español",
+                  "en": "Spanish"
+                },
+                {
+                  "es": "Inglés del examen",
+                  "en": "Exam English"
+                },
+                {
+                  "es": "Inglés de EE. UU.",
+                  "en": "Plain American"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "autopista",
+                    "en": "“autopista”"
+                  },
+                  {
+                    "es": "«motorway»",
+                    "en": "motorway"
+                  },
+                  {
+                    "es": "«freeway, no property access»",
+                    "en": "freeway, no property access"
+                  }
+                ],
+                [
+                  {
+                    "es": "autovía",
+                    "en": "“autovía”"
+                  },
+                  {
+                    "es": "«dual carriageway, highway»",
+                    "en": "dual carriageway, highway"
+                  },
+                  {
+                    "es": "«divided highway»",
+                    "en": "divided highway"
+                  }
+                ],
+                [
+                  {
+                    "es": "vía para automóviles",
+                    "en": "“vía para automóviles”"
+                  },
+                  {
+                    "es": "«road for automobiles»",
+                    "en": "road for automobiles"
+                  },
+                  {
+                    "es": "«car-only road»",
+                    "en": "car-only road"
+                  }
+                ],
+                [
+                  {
+                    "es": "carretera convencional",
+                    "en": "“carretera convencional”"
+                  },
+                  {
+                    "es": "«conventional road»",
+                    "en": "conventional road"
+                  },
+                  {
+                    "es": "«ordinary highway»",
+                    "en": "ordinary highway"
+                  }
+                ],
+                [
+                  {
+                    "es": "vía urbana",
+                    "en": "“vía urbana”"
+                  },
+                  {
+                    "es": "«urban road»",
+                    "en": "urban road"
+                  },
+                  {
+                    "es": "«city street»",
+                    "en": "city street"
+                  }
+                ],
+                [
+                  {
+                    "es": "vía interurbana",
+                    "en": "“vía interurbana”"
+                  },
+                  {
+                    "es": "«interurban road»",
+                    "en": "interurban road"
+                  },
+                  {
+                    "es": "«road outside town»",
+                    "en": "road outside town"
+                  }
+                ],
+                [
+                  {
+                    "es": "poblado",
+                    "en": "“poblado”"
+                  },
+                  {
+                    "es": "«town, built-up area»",
+                    "en": "town, built-up area"
+                  },
+                  {
+                    "es": "«in town»",
+                    "en": "in town"
+                  }
+                ],
+                [
+                  {
+                    "es": "fuera de poblado",
+                    "en": "“fuera de poblado”"
+                  },
+                  {
+                    "es": "«outside built-up areas»",
+                    "en": "outside built-up areas"
+                  },
+                  {
+                    "es": "«out of town»",
+                    "en": "out of town"
+                  }
+                ],
+                [
+                  {
+                    "es": "travesía",
+                    "en": "“travesía”"
+                  },
+                  {
+                    "es": "«through road, crossing»",
+                    "en": "through road, crossing"
+                  },
+                  {
+                    "es": "«highway through a town»",
+                    "en": "highway through a town"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "**Vía interurbana**: vía pública situada fuera de poblado. **Vía urbana**: vía pública situada dentro de poblado, excepto las travesías.",
+                "en": "**Vía interurbana**: a public road outside a poblado. **Vía urbana**: a public road inside a poblado, except the travesías."
+              },
+              "src": "LSV Anexo I, 72 y 73"
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Algunas traducciones dicen «highway» tanto para autopista como para autovía. Si una opción nombra dos «highways» seguidas, piensa en «autopistas y autovías».",
+                "en": "Some translations say “highway” for both autopista and autovía. If an option names two “highways” in a row, think “autopistas y autovías”."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "examlang-via-urbana",
+                "answer": 1,
+                "es": {
+                  "q": "Una vía pública situada dentro de poblado, que no es una travesía, es:",
+                  "options": [
+                    "Una vía interurbana",
+                    "Una vía urbana",
+                    "Una carretera convencional"
+                  ],
+                  "why": "Dentro de poblado es vía urbana, salvo las travesías. La vía interurbana está fuera de poblado, y la carretera convencional es un tipo de carretera."
+                },
+                "exam": {
+                  "q": "A public road situated inside of town, which is not a through road, is:",
+                  "options": [
+                    "An interurban road.",
+                    "An urban road.",
+                    "A conventional road."
+                  ]
+                },
+                "en": {
+                  "q": "A public road inside a town that is not a travesía is:",
+                  "options": [
+                    "An interurban road (vía interurbana)",
+                    "An urban road (vía urbana)",
+                    "A conventional road (carretera convencional)"
+                  ],
+                  "why": "Inside a poblado it is a vía urbana, except the travesías. A vía interurbana is outside a poblado, and a carretera convencional is a type of highway."
+                },
+                "terms": [
+                  {
+                    "es": "vía urbana",
+                    "en": "urban road"
+                  },
+                  {
+                    "es": "vía interurbana",
+                    "en": "interurban road"
+                  },
+                  {
+                    "es": "poblado",
+                    "en": "town, built-up area"
+                  },
+                  {
+                    "es": "travesía",
+                    "en": "through road"
+                  }
+                ],
+                "src": "LSV Anexo I, 71 a 73"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Sentidos y líneas",
+            "en": "Directions and lines"
+          },
+          "blocks": [
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Español",
+                  "en": "Spanish"
+                },
+                {
+                  "es": "Inglés del examen",
+                  "en": "Exam English"
+                },
+                {
+                  "es": "Inglés de EE. UU.",
+                  "en": "Plain American"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "sentido de circulación",
+                    "en": "“sentido de circulación”"
+                  },
+                  {
+                    "es": "«direction of circulation, of travel»",
+                    "en": "direction of circulation, of travel"
+                  },
+                  {
+                    "es": "«direction of traffic»",
+                    "en": "direction of traffic"
+                  }
+                ],
+                [
+                  {
+                    "es": "sentido contrario",
+                    "en": "“sentido contrario”"
+                  },
+                  {
+                    "es": "«opposite direction»",
+                    "en": "opposite direction"
+                  },
+                  {
+                    "es": "«oncoming»",
+                    "en": "oncoming"
+                  }
+                ],
+                [
+                  {
+                    "es": "doble sentido",
+                    "en": "“doble sentido”"
+                  },
+                  {
+                    "es": "«two-way, double direction»",
+                    "en": "two-way, double direction"
+                  },
+                  {
+                    "es": "«two-way»",
+                    "en": "two-way"
+                  }
+                ],
+                [
+                  {
+                    "es": "sentido único",
+                    "en": "“sentido único”"
+                  },
+                  {
+                    "es": "«one-way, single direction»",
+                    "en": "one-way, single direction"
+                  },
+                  {
+                    "es": "«one-way»",
+                    "en": "one-way"
+                  }
+                ],
+                [
+                  {
+                    "es": "línea continua",
+                    "en": "“línea continua”"
+                  },
+                  {
+                    "es": "«continuous line»",
+                    "en": "continuous line"
+                  },
+                  {
+                    "es": "«solid line»",
+                    "en": "solid line"
+                  }
+                ],
+                [
+                  {
+                    "es": "línea discontinua",
+                    "en": "“línea discontinua”"
+                  },
+                  {
+                    "es": "«discontinuous line, broken line»",
+                    "en": "discontinuous line, broken line"
+                  },
+                  {
+                    "es": "«dashed line»",
+                    "en": "dashed line"
+                  }
+                ],
+                [
+                  {
+                    "es": "marca vial",
+                    "en": "“marca vial”"
+                  },
+                  {
+                    "es": "«road marking»",
+                    "en": "road marking"
+                  },
+                  {
+                    "es": "«road marking»",
+                    "en": "road marking"
+                  }
+                ],
+                [
+                  {
+                    "es": "invadir",
+                    "en": "“invadir”"
+                  },
+                  {
+                    "es": "«to invade»",
+                    "en": "to invade"
+                  },
+                  {
+                    "es": "«to cross into»",
+                    "en": "to cross into"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Una marca longitudinal **continua** significa que ningún conductor debe atravesarla ni circular sobre ella, ni circular por su izquierda cuando separe los dos sentidos. Las líneas continuas de borde de calzada pueden atravesarse cuando sea necesario invadir el arcén por emergencia.",
+                "en": "A **continuous** lengthwise marking means no driver may cross it or drive on it, or drive to its left when it separates the two directions. Solid edge lines can be crossed when you must move onto the shoulder in an emergency."
+              },
+              "src": "RGC Anexo I, ap. 5.2 (marcas viales), 4.1"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "examlang-linea-continua",
+                "answer": 2,
+                "es": {
+                  "q": "Una línea longitudinal continua en el eje de la calzada, que separa los dos sentidos de circulación, indica que:",
+                  "options": [
+                    "Se puede atravesar para adelantar si no viene nadie",
+                    "Solo separa carriles del mismo sentido",
+                    "Ningún conductor debe atravesarla ni circular sobre ella"
+                  ],
+                  "why": "La línea continua no se atraviesa ni se pisa. Separando los dos sentidos, tampoco se circula por su izquierda. Solo la línea de borde de calzada se puede cruzar, para usar el arcén en una emergencia."
+                },
+                "exam": {
+                  "q": "A continuous longitudinal line in the axis of the carriageway, which separates the two directions of circulation, indicates that:",
+                  "options": [
+                    "It can be crossed in order to overtake if nobody comes.",
+                    "It only separates lanes of the same direction.",
+                    "No driver must cross it nor circulate over it."
+                  ]
+                },
+                "en": {
+                  "q": "A solid lengthwise line on the center line of the roadway, separating the two directions of traffic, means:",
+                  "options": [
+                    "You may cross it to pass if nothing is coming",
+                    "It only separates lanes going the same way",
+                    "No driver may cross it or drive on it"
+                  ],
+                  "why": "A solid line is not crossed or driven on. When it separates the two directions, you also do not drive to its left. Only a solid edge line may be crossed, to use the shoulder in an emergency."
+                },
+                "terms": [
+                  {
+                    "es": "línea continua",
+                    "en": "continuous line (exam) / solid line"
+                  },
+                  {
+                    "es": "eje de la calzada",
+                    "en": "axis of the carriageway / center line"
+                  },
+                  {
+                    "es": "sentido de circulación",
+                    "en": "direction of circulation"
+                  },
+                  {
+                    "es": "atravesar",
+                    "en": "to cross"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.2 (marcas viales), 4.1"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "Calzada = carriageway, arcén = hard shoulder, mediana = central reservation, eje = axis of the carriageway.",
+          "en": "Calzada is the carriageway, arcén the hard shoulder, mediana the central reservation, eje the axis of the carriageway."
+        },
+        {
+          "es": "Paso a nivel = level crossing; cambio de rasante = change of gradient; paso para peatones = pedestrian crossing.",
+          "en": "A paso a nivel is a level crossing; a cambio de rasante, a change of gradient; a paso para peatones, a pedestrian crossing."
+        },
+        {
+          "es": "Vía urbana: dentro de poblado, salvo las travesías. Vía interurbana: fuera de poblado.",
+          "en": "Vía urbana: inside a poblado, except travesías. Vía interurbana: outside a poblado."
+        },
+        {
+          "es": "«Highway» puede ser autopista o autovía; «town» y «built-up area» son poblado.",
+          "en": "“Highway” can mean autopista or autovía; “town” and “built-up area” both mean poblado."
+        },
+        {
+          "es": "La línea continua no se atraviesa ni se pisa; la de borde, solo para usar el arcén por emergencia.",
+          "en": "A solid line is not crossed or driven on; an edge line only to use the shoulder in an emergency."
+        }
+      ],
+      "src": [
+        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), Anexo I: puntos 54 a 79",
+        "Reglamento General de Circulación (RD 1428/2003), Anexo I, ap. 5.2 (marcas viales), 4.1"
+      ]
+    },
+    {
+      "id": "vehicle-words",
+      "title": {
+        "es": "Vehículos y personas, palabra por palabra",
+        "en": "Vehicles and people, word by word"
+      },
+      "minutes": 8,
+      "goals": [
+        {
+          "es": "Reconocer los vehículos como los nombra el examen: passenger car, moped, adaptable mixed-use vehicle, special vehicle.",
+          "en": "Recognize vehicles by the exam’s names: passenger car, moped, adaptable mixed-use vehicle, special vehicle."
+        },
+        {
+          "es": "Leer las masas: MMA (MAM), tara y masa en carga.",
+          "en": "Read the masses: MMA (MAM), tara and laden mass."
+        },
+        {
+          "es": "Saber quién es quién: conductor novel, profesional, habitual, titular, usuario vulnerable y agente.",
+          "en": "Know who is who: novice, professional and habitual driver, holder, vulnerable user and agent."
+        }
+      ],
+      "terms": [
+        {
+          "es": "turismo",
+          "en": "passenger car"
+        },
+        {
+          "es": "ciclomotor",
+          "en": "moped"
+        },
+        {
+          "es": "vehículo mixto adaptable",
+          "en": "adaptable mixed-use vehicle"
+        },
+        {
+          "es": "vehículo especial",
+          "en": "special vehicle (farm or works machine)"
+        },
+        {
+          "es": "vehículo prioritario",
+          "en": "priority vehicle (emergency vehicle)"
+        },
+        {
+          "es": "masa máxima autorizada (MMA)",
+          "en": "maximum authorised mass (MAM) / GVWR"
+        },
+        {
+          "es": "conductor novel",
+          "en": "novice driver"
+        },
+        {
+          "es": "agente de la autoridad",
+          "en": "agent (traffic officer)"
+        }
+      ],
+      "pretest": {
+        "id": "examlang-pre-vehicles",
+        "answer": 0,
+        "es": {
+          "q": "Para la ley, ¿es un ciclomotor un «vehículo de motor»?",
+          "options": [
+            "No, la ley lo excluye",
+            "Sí, porque lleva motor",
+            "Solo si es de tres ruedas"
+          ],
+          "why": "La ley define el vehículo de motor como el que lleva motor para su propulsión, pero excluye expresamente los ciclomotores, los tranvías y los vehículos para personas de movilidad reducida."
+        },
+        "en": {
+          "q": "For the law, is a moped a “vehículo de motor” (motor vehicle)?",
+          "options": [
+            "No, the law leaves it out",
+            "Yes, because it has an engine",
+            "Only if it has three wheels"
+          ],
+          "why": "The law defines a motor vehicle as one with an engine to move it, but it expressly leaves out mopeds, trams and vehicles for people with reduced mobility."
+        },
+        "src": "LSV Anexo I, 12"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Coches, motos y ciclomotores",
+            "en": "Cars, motorcycles and mopeds"
+          },
+          "blocks": [
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Español",
+                  "en": "Spanish"
+                },
+                {
+                  "es": "Inglés del examen",
+                  "en": "Exam English"
+                },
+                {
+                  "es": "Inglés de EE. UU.",
+                  "en": "Plain American"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "vehículo de motor",
+                    "en": "“vehículo de motor”"
+                  },
+                  {
+                    "es": "«motor vehicle»",
+                    "en": "motor vehicle"
+                  },
+                  {
+                    "es": "«motor vehicle»",
+                    "en": "motor vehicle"
+                  }
+                ],
+                [
+                  {
+                    "es": "automóvil",
+                    "en": "“automóvil”"
+                  },
+                  {
+                    "es": "«automobile»",
+                    "en": "automobile"
+                  },
+                  {
+                    "es": "«motor vehicle»",
+                    "en": "motor vehicle"
+                  }
+                ],
+                [
+                  {
+                    "es": "turismo",
+                    "en": "“turismo”"
+                  },
+                  {
+                    "es": "«passenger car»",
+                    "en": "passenger car"
+                  },
+                  {
+                    "es": "«car»",
+                    "en": "car"
+                  }
+                ],
+                [
+                  {
+                    "es": "motocicleta",
+                    "en": "“motocicleta”"
+                  },
+                  {
+                    "es": "«motorcycle»",
+                    "en": "motorcycle"
+                  },
+                  {
+                    "es": "«motorcycle»",
+                    "en": "motorcycle"
+                  }
+                ],
+                [
+                  {
+                    "es": "ciclomotor",
+                    "en": "“ciclomotor”"
+                  },
+                  {
+                    "es": "«moped»",
+                    "en": "moped"
+                  },
+                  {
+                    "es": "«moped»",
+                    "en": "moped"
+                  }
+                ],
+                [
+                  {
+                    "es": "ciclo, bicicleta",
+                    "en": "“ciclo, bicicleta”"
+                  },
+                  {
+                    "es": "«cycle, bicycle»",
+                    "en": "cycle, bicycle"
+                  },
+                  {
+                    "es": "«bike»",
+                    "en": "bike"
+                  }
+                ],
+                [
+                  {
+                    "es": "cuadriciclo",
+                    "en": "“cuadriciclo”"
+                  },
+                  {
+                    "es": "«quadricycle»",
+                    "en": "quadricycle"
+                  },
+                  {
+                    "es": "«small four-wheeler»",
+                    "en": "small four-wheeler"
+                  }
+                ],
+                [
+                  {
+                    "es": "tranvía",
+                    "en": "“tranvía”"
+                  },
+                  {
+                    "es": "«tram»",
+                    "en": "tram"
+                  },
+                  {
+                    "es": "«streetcar»",
+                    "en": "streetcar"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "**Ciclomotor** de dos ruedas: velocidad máxima por construcción no superior a 45 km/h y motor de hasta 50 cm³ (combustión) o hasta 4 kW (eléctrico). **Vehículo de motor**: el provisto de motor para su propulsión, excepto los ciclomotores, los tranvías y los vehículos para personas de movilidad reducida.",
+                "en": "A two-wheeled **ciclomotor**: top speed by design no more than 45 km/h and an engine up to 50 cm³ (combustion) or up to 4 kW (electric). **Vehículo de motor**: one with an engine to move it, except mopeds, trams and vehicles for people with reduced mobility."
+              },
+              "src": "LSV Anexo I, 9 y 12"
+            },
+            {
+              "t": "us",
+              "text": {
+                "es": "En EE. UU. «motor vehicle» incluye casi todo lo que tiene motor. En la ley española el ciclomotor no es «vehículo de motor», así que una norma para vehículos de motor no siempre le alcanza.",
+                "en": "In the US, “motor vehicle” covers almost anything with an engine. In Spanish law a moped is not a “vehículo de motor”, so a rule for motor vehicles does not always reach it."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "examlang-ciclomotor",
+                "answer": 1,
+                "es": {
+                  "q": "Un vehículo de dos ruedas con una velocidad máxima por construcción no superior a 45 km/h y un motor de combustión de 50 cm³ es:",
+                  "options": [
+                    "Una motocicleta",
+                    "Un ciclomotor",
+                    "Un cuadriciclo"
+                  ],
+                  "why": "Hasta 45 km/h por construcción y hasta 50 cm³ es un ciclomotor. Con más cilindrada o más velocidad sería una motocicleta."
+                },
+                "exam": {
+                  "q": "A vehicle of two wheels with a maximum speed by construction not superior to 45 km/h and a combustion engine of 50 cm³ is:",
+                  "options": [
+                    "A motorcycle.",
+                    "A moped.",
+                    "A quadricycle."
+                  ]
+                },
+                "en": {
+                  "q": "A two-wheeler built for a top speed of no more than 45 km/h, with a 50 cm³ combustion engine, is:",
+                  "options": [
+                    "A motorcycle (motocicleta)",
+                    "A moped (ciclomotor)",
+                    "A quadricycle (cuadriciclo)"
+                  ],
+                  "why": "Up to 45 km/h by design and up to 50 cm³ is a ciclomotor. With a bigger engine or a higher speed it would be a motocicleta."
+                },
+                "terms": [
+                  {
+                    "es": "ciclomotor",
+                    "en": "moped"
+                  },
+                  {
+                    "es": "velocidad máxima por construcción",
+                    "en": "maximum speed by construction (top speed by design)"
+                  },
+                  {
+                    "es": "motocicleta",
+                    "en": "motorcycle"
+                  }
+                ],
+                "src": "LSV Anexo I, 9 y 14"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Carga, pasajeros y remolques",
+            "en": "Cargo, passengers and trailers"
+          },
+          "blocks": [
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Español",
+                  "en": "Spanish"
+                },
+                {
+                  "es": "Inglés del examen",
+                  "en": "Exam English"
+                },
+                {
+                  "es": "Inglés de EE. UU.",
+                  "en": "Plain American"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "camión",
+                    "en": "“camión”"
+                  },
+                  {
+                    "es": "«truck, lorry»",
+                    "en": "truck, lorry"
+                  },
+                  {
+                    "es": "«truck»",
+                    "en": "truck"
+                  }
+                ],
+                [
+                  {
+                    "es": "furgón, furgoneta",
+                    "en": "“furgón, furgoneta”"
+                  },
+                  {
+                    "es": "«van, panel van»",
+                    "en": "van, panel van"
+                  },
+                  {
+                    "es": "«van»",
+                    "en": "van"
+                  }
+                ],
+                [
+                  {
+                    "es": "autobús, autocar",
+                    "en": "“autobús, autocar”"
+                  },
+                  {
+                    "es": "«bus, coach»",
+                    "en": "bus, coach"
+                  },
+                  {
+                    "es": "«bus»",
+                    "en": "bus"
+                  }
+                ],
+                [
+                  {
+                    "es": "vehículo mixto adaptable",
+                    "en": "“vehículo mixto adaptable”"
+                  },
+                  {
+                    "es": "«adaptable mixed-use vehicle»",
+                    "en": "adaptable mixed-use vehicle"
+                  },
+                  {
+                    "es": "«van with removable seats»",
+                    "en": "van with removable seats"
+                  }
+                ],
+                [
+                  {
+                    "es": "remolque",
+                    "en": "“remolque”"
+                  },
+                  {
+                    "es": "«trailer»",
+                    "en": "trailer"
+                  },
+                  {
+                    "es": "«trailer»",
+                    "en": "trailer"
+                  }
+                ],
+                [
+                  {
+                    "es": "remolque ligero",
+                    "en": "“remolque ligero”"
+                  },
+                  {
+                    "es": "«light trailer»",
+                    "en": "light trailer"
+                  },
+                  {
+                    "es": "«small trailer»",
+                    "en": "small trailer"
+                  }
+                ],
+                [
+                  {
+                    "es": "semirremolque",
+                    "en": "“semirremolque”"
+                  },
+                  {
+                    "es": "«semi-trailer»",
+                    "en": "semi-trailer"
+                  },
+                  {
+                    "es": "«semitrailer»",
+                    "en": "semitrailer"
+                  }
+                ],
+                [
+                  {
+                    "es": "mercancías",
+                    "en": "“mercancías”"
+                  },
+                  {
+                    "es": "«goods»",
+                    "en": "goods"
+                  },
+                  {
+                    "es": "«cargo»",
+                    "en": "cargo"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "**Vehículo mixto adaptable**: automóvil dispuesto para transportar, a la vez o no, mercancías y personas hasta un máximo de nueve incluido el conductor, en el que se puede sustituir la carga por personas añadiendo asientos.",
+                "en": "**Vehículo mixto adaptable**: an automobile set up to carry goods and people, at once or not, up to nine people including the driver, where the load can be swapped for people by adding seats."
+              },
+              "src": "LSV Anexo I, 19"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "examlang-mixto",
+                "answer": 0,
+                "es": {
+                  "q": "Un automóvil dispuesto para el transporte de mercancías y personas, hasta nueve incluido el conductor, en el que se puede sustituir la carga por personas añadiendo asientos, es:",
+                  "options": [
+                    "Un vehículo mixto adaptable",
+                    "Un turismo",
+                    "Un camión"
+                  ],
+                  "why": "Es la definición de vehículo mixto adaptable. Un turismo es solo para personas, y un camión es para mercancías con la cabina separada."
+                },
+                "exam": {
+                  "q": "An automobile disposed for the transport of goods and persons, up to nine including the driver, in which the load can be substituted by persons by means of the addition of seats, is:",
+                  "options": [
+                    "An adaptable mixed-use vehicle.",
+                    "A passenger car.",
+                    "A truck."
+                  ]
+                },
+                "en": {
+                  "q": "An automobile set up to carry goods and people, up to nine including the driver, where the load can be replaced by people by adding seats, is:",
+                  "options": [
+                    "An adaptable mixed-use vehicle (vehículo mixto adaptable)",
+                    "A passenger car (turismo)",
+                    "A truck (camión)"
+                  ],
+                  "why": "That is the definition of a vehículo mixto adaptable. A turismo is for people only, and a camión carries goods and has a separate cab."
+                },
+                "terms": [
+                  {
+                    "es": "vehículo mixto adaptable",
+                    "en": "adaptable mixed-use vehicle"
+                  },
+                  {
+                    "es": "mercancías",
+                    "en": "goods (cargo)"
+                  },
+                  {
+                    "es": "turismo",
+                    "en": "passenger car"
+                  }
+                ],
+                "src": "LSV Anexo I, 15, 18 y 19"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Las masas del vehículo",
+            "en": "A vehicle’s masses"
+          },
+          "blocks": [
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Español",
+                  "en": "Spanish"
+                },
+                {
+                  "es": "Inglés del examen",
+                  "en": "Exam English"
+                },
+                {
+                  "es": "Inglés de EE. UU.",
+                  "en": "Plain American"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "masa máxima autorizada (MMA)",
+                    "en": "“masa máxima autorizada (MMA)”"
+                  },
+                  {
+                    "es": "«maximum authorised mass (MAM)»",
+                    "en": "maximum authorised mass (MAM)"
+                  },
+                  {
+                    "es": "«gross vehicle weight rating»",
+                    "en": "gross vehicle weight rating"
+                  }
+                ],
+                [
+                  {
+                    "es": "tara",
+                    "en": "“tara”"
+                  },
+                  {
+                    "es": "«tare, unladen mass»",
+                    "en": "tare, unladen mass"
+                  },
+                  {
+                    "es": "«curb weight»",
+                    "en": "curb weight"
+                  }
+                ],
+                [
+                  {
+                    "es": "masa en carga",
+                    "en": "“masa en carga”"
+                  },
+                  {
+                    "es": "«laden mass»",
+                    "en": "laden mass"
+                  },
+                  {
+                    "es": "«actual loaded weight»",
+                    "en": "actual loaded weight"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "**Tara**: masa del vehículo con su equipo fijo, sin personal, pasajeros ni carga, con agua, combustible y accesorios. **Masa en carga**: la masa efectiva del vehículo y su carga, con personas. **MMA**: la masa máxima para utilizar el vehículo con carga en las vías públicas. **Remolque ligero**: el de MMA no superior a 750 kg.",
+                "en": "**Tara**: the vehicle’s mass with its fixed equipment, without crew, passengers or load, with water, fuel and accessories. **Masa en carga**: the actual mass of the vehicle and its load, people included. **MMA**: the maximum mass for using the loaded vehicle on public roads. **Remolque ligero**: a trailer with an MMA of no more than 750 kg."
+              },
+              "src": "LSV Anexo I, 21, 35, 36 y 37"
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "El examen escribe la MMA de muchas formas: «MAM», «M.M.A.», «maximum authorised mass» y a veces «GVW». Todas son lo mismo.",
+                "en": "The exam writes the MMA many ways: “MAM”, “M.M.A.”, “maximum authorised mass” and sometimes “GVW”. They are all the same thing."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "examlang-mma",
+                "answer": 2,
+                "es": {
+                  "q": "La masa máxima para la utilización de un vehículo con carga en circulación por las vías públicas es:",
+                  "options": [
+                    "La tara",
+                    "La masa en carga",
+                    "La masa máxima autorizada"
+                  ],
+                  "why": "Es la masa máxima autorizada (MMA). La tara es el vehículo vacío, y la masa en carga es lo que pesa en ese momento con su carga."
+                },
+                "exam": {
+                  "q": "The maximum mass for the utilisation of a vehicle with load in circulation on public roads is:",
+                  "options": [
+                    "The tare.",
+                    "The laden mass.",
+                    "The maximum authorised mass."
+                  ]
+                },
+                "en": {
+                  "q": "The maximum mass at which a loaded vehicle may be used on public roads is:",
+                  "options": [
+                    "The tare (tara)",
+                    "The laden mass (masa en carga)",
+                    "The maximum authorized mass (MMA)"
+                  ],
+                  "why": "It is the masa máxima autorizada (MMA). The tara is the empty vehicle, and the masa en carga is what it weighs right now with its load."
+                },
+                "terms": [
+                  {
+                    "es": "masa máxima autorizada (MMA)",
+                    "en": "maximum authorised mass (MAM)"
+                  },
+                  {
+                    "es": "tara",
+                    "en": "tare, unladen mass"
+                  },
+                  {
+                    "es": "masa en carga",
+                    "en": "laden mass"
+                  }
+                ],
+                "src": "LSV Anexo I, 35 a 37"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "examlang-remolque-ligero",
+                "answer": 0,
+                "es": {
+                  "q": "Un remolque ligero es aquel cuya masa máxima autorizada no excede de:",
+                  "options": [
+                    "750 kg",
+                    "1.500 kg",
+                    "3.500 kg"
+                  ],
+                  "why": "Remolque ligero es el de MMA no superior a 750 kg. Por encima de esa cifra ya no es «ligero»."
+                },
+                "exam": {
+                  "q": "A light trailer is that whose maximum authorised mass does not exceed:",
+                  "options": [
+                    "750 kg.",
+                    "1,500 kg.",
+                    "3,500 kg."
+                  ]
+                },
+                "en": {
+                  "q": "A light trailer is one whose maximum authorized mass does not exceed:",
+                  "options": [
+                    "750 kg",
+                    "1,500 kg",
+                    "3,500 kg"
+                  ],
+                  "why": "A remolque ligero has an MMA of no more than 750 kg. Above that figure it is no longer “light”."
+                },
+                "terms": [
+                  {
+                    "es": "remolque ligero",
+                    "en": "light trailer"
+                  },
+                  {
+                    "es": "no exceder de",
+                    "en": "not to exceed"
+                  }
+                ],
+                "src": "LSV Anexo I, 21"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Vehículos con reglas propias",
+            "en": "Vehicles with their own rules"
+          },
+          "blocks": [
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Español",
+                  "en": "Spanish"
+                },
+                {
+                  "es": "Inglés del examen",
+                  "en": "Exam English"
+                },
+                {
+                  "es": "Inglés de EE. UU.",
+                  "en": "Plain American"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "vehículo especial",
+                    "en": "“vehículo especial”"
+                  },
+                  {
+                    "es": "«special vehicle»",
+                    "en": "special vehicle"
+                  },
+                  {
+                    "es": "«farm or works machine»",
+                    "en": "farm or works machine"
+                  }
+                ],
+                [
+                  {
+                    "es": "vehículo de tracción animal",
+                    "en": "“vehículo de tracción animal”"
+                  },
+                  {
+                    "es": "«animal-drawn vehicle»",
+                    "en": "animal-drawn vehicle"
+                  },
+                  {
+                    "es": "«horse-drawn cart»",
+                    "en": "horse-drawn cart"
+                  }
+                ],
+                [
+                  {
+                    "es": "vehículo de movilidad personal (VMP)",
+                    "en": "“vehículo de movilidad personal (VMP)”"
+                  },
+                  {
+                    "es": "«personal mobility vehicle»",
+                    "en": "personal mobility vehicle"
+                  },
+                  {
+                    "es": "«e-scooter»",
+                    "en": "e-scooter"
+                  }
+                ],
+                [
+                  {
+                    "es": "vehículo para personas de movilidad reducida",
+                    "en": "“vehículo para personas de movilidad reducida”"
+                  },
+                  {
+                    "es": "«vehicle for persons of reduced mobility»",
+                    "en": "vehicle for persons of reduced mobility"
+                  },
+                  {
+                    "es": "«mobility scooter»",
+                    "en": "mobility scooter"
+                  }
+                ],
+                [
+                  {
+                    "es": "vehículo prioritario",
+                    "en": "“vehículo prioritario”"
+                  },
+                  {
+                    "es": "«priority vehicle, emergency vehicle»",
+                    "en": "priority vehicle, emergency vehicle"
+                  },
+                  {
+                    "es": "«emergency vehicle»",
+                    "en": "emergency vehicle"
+                  }
+                ],
+                [
+                  {
+                    "es": "vehículo de dos ruedas",
+                    "en": "“vehículo de dos ruedas”"
+                  },
+                  {
+                    "es": "«two-wheeled vehicle»",
+                    "en": "two-wheeled vehicle"
+                  },
+                  {
+                    "es": "«two-wheeler»",
+                    "en": "two-wheeler"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "**Vehículo especial**: vehículo construido para obras o servicios determinados que está exceptuado de alguna condición técnica o sobrepasa los límites de masas o dimensiones, así como la maquinaria agrícola. El tractor agrícola es un vehículo especial. Los vehículos especiales no son automóviles.",
+                "en": "**Vehículo especial**: a vehicle built for particular works or services that is exempt from some technical requirement or exceeds the mass or size limits, plus farm machinery. A farm tractor is a special vehicle. Special vehicles are not automobiles."
+              },
+              "src": "LSV Anexo I, 13, 25 y 28"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los vehículos de servicios de urgencia, públicos o privados, en servicio de tal carácter, tienen **prioridad de paso** sobre los demás vehículos y usuarios.",
+                "en": "Emergency service vehicles, public or private, on an emergency run, have **priority of passage** over all other vehicles and road users."
+              },
+              "src": "RGC art. 67.1"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "examlang-especial",
+                "answer": 1,
+                "es": {
+                  "q": "Para la ley, un tractor agrícola es:",
+                  "options": [
+                    "Un automóvil",
+                    "Un vehículo especial",
+                    "Un vehículo mixto adaptable"
+                  ],
+                  "why": "El tractor agrícola es un vehículo especial autopropulsado. La ley excluye los vehículos especiales de la definición de automóvil."
+                },
+                "exam": {
+                  "q": "For the law, an agricultural tractor is:",
+                  "options": [
+                    "An automobile.",
+                    "A special vehicle.",
+                    "An adaptable mixed-use vehicle."
+                  ]
+                },
+                "en": {
+                  "q": "Under the law, a farm tractor is:",
+                  "options": [
+                    "An automobile (automóvil)",
+                    "A special vehicle (vehículo especial)",
+                    "An adaptable mixed-use vehicle"
+                  ],
+                  "why": "A farm tractor is a self-propelled vehículo especial. The law leaves special vehicles out of the definition of automóvil."
+                },
+                "terms": [
+                  {
+                    "es": "vehículo especial",
+                    "en": "special vehicle"
+                  },
+                  {
+                    "es": "tractor agrícola",
+                    "en": "agricultural tractor"
+                  },
+                  {
+                    "es": "automóvil",
+                    "en": "automobile"
+                  }
+                ],
+                "src": "LSV Anexo I, 13, 25 y 28"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Las personas",
+            "en": "The people"
+          },
+          "blocks": [
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Español",
+                  "en": "Spanish"
+                },
+                {
+                  "es": "Inglés del examen",
+                  "en": "Exam English"
+                },
+                {
+                  "es": "Inglés de EE. UU.",
+                  "en": "Plain American"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "conductor",
+                    "en": "“conductor”"
+                  },
+                  {
+                    "es": "«driver»",
+                    "en": "driver"
+                  },
+                  {
+                    "es": "«driver»",
+                    "en": "driver"
+                  }
+                ],
+                [
+                  {
+                    "es": "conductor novel",
+                    "en": "“conductor novel”"
+                  },
+                  {
+                    "es": "«novice driver»",
+                    "en": "novice driver"
+                  },
+                  {
+                    "es": "«new driver»",
+                    "en": "new driver"
+                  }
+                ],
+                [
+                  {
+                    "es": "conductor profesional",
+                    "en": "“conductor profesional”"
+                  },
+                  {
+                    "es": "«professional driver»",
+                    "en": "professional driver"
+                  },
+                  {
+                    "es": "«commercial driver»",
+                    "en": "commercial driver"
+                  }
+                ],
+                [
+                  {
+                    "es": "conductor habitual",
+                    "en": "“conductor habitual”"
+                  },
+                  {
+                    "es": "«habitual driver»",
+                    "en": "habitual driver"
+                  },
+                  {
+                    "es": "«usual driver»",
+                    "en": "usual driver"
+                  }
+                ],
+                [
+                  {
+                    "es": "titular del vehículo",
+                    "en": "“titular del vehículo”"
+                  },
+                  {
+                    "es": "«holder, owner of the vehicle»",
+                    "en": "holder, owner of the vehicle"
+                  },
+                  {
+                    "es": "«registered owner»",
+                    "en": "registered owner"
+                  }
+                ],
+                [
+                  {
+                    "es": "usuario de la vía",
+                    "en": "“usuario de la vía”"
+                  },
+                  {
+                    "es": "«road user»",
+                    "en": "road user"
+                  },
+                  {
+                    "es": "«road user»",
+                    "en": "road user"
+                  }
+                ],
+                [
+                  {
+                    "es": "usuario vulnerable",
+                    "en": "“usuario vulnerable”"
+                  },
+                  {
+                    "es": "«vulnerable user»",
+                    "en": "vulnerable user"
+                  },
+                  {
+                    "es": "«vulnerable road user»",
+                    "en": "vulnerable road user"
+                  }
+                ],
+                [
+                  {
+                    "es": "agente de la autoridad",
+                    "en": "“agente de la autoridad”"
+                  },
+                  {
+                    "es": "«agent, officer»",
+                    "en": "agent, officer"
+                  },
+                  {
+                    "es": "«traffic cop»",
+                    "en": "traffic cop"
+                  }
+                ],
+                [
+                  {
+                    "es": "ocupante, pasajero",
+                    "en": "“ocupante, pasajero”"
+                  },
+                  {
+                    "es": "«occupant, passenger»",
+                    "en": "occupant, passenger"
+                  },
+                  {
+                    "es": "«passenger»",
+                    "en": "passenger"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "**Usuarios vulnerables**: los que, por su medio de desplazamiento o su edad, tienen mayor riesgo de sufrir lesiones en un accidente. Incluye a los peatones, los ciclistas, los conductores de vehículos de movilidad personal y los conductores y pasajeros de motocicletas y ciclomotores.",
+                "en": "**Usuarios vulnerables**: users who, because of how they travel or their age, are more likely to be hurt in a crash. They include pedestrians, cyclists, personal mobility vehicle riders, and riders and passengers of motorcycles and mopeds."
+              },
+              "src": "LSV Anexo I, 86"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "La señal de **conductor novel** (una L) la llevan los vehículos de quien obtuvo por primera vez un permiso de conducción, durante un año.",
+                "en": "The **novice driver** plate (an L) goes on the vehicle of someone who got a driver’s license for the first time, for one year."
+              },
+              "src": "RGV Anexo XI, V-13"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "examlang-vulnerable",
+                "answer": 2,
+                "es": {
+                  "q": "¿Cuál de estos conductores se considera usuario vulnerable de la vía?",
+                  "options": [
+                    "El de un camión",
+                    "El de un turismo",
+                    "El de una motocicleta"
+                  ],
+                  "why": "La ley incluye entre los usuarios vulnerables a los conductores y pasajeros de motocicletas y ciclomotores, además de peatones, ciclistas y usuarios de vehículos de movilidad personal."
+                },
+                "exam": {
+                  "q": "Which of these drivers is considered vulnerable user of the road?",
+                  "options": [
+                    "That of a truck.",
+                    "That of a passenger car.",
+                    "That of a motorcycle."
+                  ]
+                },
+                "en": {
+                  "q": "Which of these drivers counts as a vulnerable road user?",
+                  "options": [
+                    "A truck driver",
+                    "A car driver",
+                    "A motorcycle rider"
+                  ],
+                  "why": "The law counts riders and passengers of motorcycles and mopeds as vulnerable users, along with pedestrians, cyclists and personal mobility vehicle riders."
+                },
+                "terms": [
+                  {
+                    "es": "usuario vulnerable",
+                    "en": "vulnerable road user"
+                  },
+                  {
+                    "es": "motocicleta",
+                    "en": "motorcycle"
+                  }
+                ],
+                "src": "LSV Anexo I, 86"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Los papeles",
+            "en": "The paperwork"
+          },
+          "blocks": [
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Español",
+                  "en": "Spanish"
+                },
+                {
+                  "es": "Inglés del examen",
+                  "en": "Exam English"
+                },
+                {
+                  "es": "Inglés de EE. UU.",
+                  "en": "Plain American"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "permiso de conducción",
+                    "en": "“permiso de conducción”"
+                  },
+                  {
+                    "es": "«driving licence, driving permit»",
+                    "en": "driving licence, driving permit"
+                  },
+                  {
+                    "es": "«driver’s license»",
+                    "en": "driver’s license"
+                  }
+                ],
+                [
+                  {
+                    "es": "permiso por puntos",
+                    "en": "“permiso por puntos”"
+                  },
+                  {
+                    "es": "«points licence»",
+                    "en": "points licence"
+                  },
+                  {
+                    "es": "«points-based license»",
+                    "en": "points-based license"
+                  }
+                ],
+                [
+                  {
+                    "es": "permiso de circulación",
+                    "en": "“permiso de circulación”"
+                  },
+                  {
+                    "es": "«circulation permit»",
+                    "en": "circulation permit"
+                  },
+                  {
+                    "es": "«vehicle registration»",
+                    "en": "vehicle registration"
+                  }
+                ],
+                [
+                  {
+                    "es": "inspección técnica (ITV)",
+                    "en": "“inspección técnica (ITV)”"
+                  },
+                  {
+                    "es": "«technical inspection (ITV, MOT)»",
+                    "en": "technical inspection (ITV, MOT)"
+                  },
+                  {
+                    "es": "«safety inspection»",
+                    "en": "safety inspection"
+                  }
+                ],
+                [
+                  {
+                    "es": "seguro obligatorio",
+                    "en": "“seguro obligatorio”"
+                  },
+                  {
+                    "es": "«compulsory insurance»",
+                    "en": "compulsory insurance"
+                  },
+                  {
+                    "es": "«liability insurance»",
+                    "en": "liability insurance"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los vehículos matriculados o puestos en circulación deben someterse a **inspección técnica** en una estación ITV autorizada. Revisa la seguridad vial, el medio ambiente, las inscripciones y las reformas.",
+                "en": "Registered vehicles, or vehicles put on the road, must go through a **technical inspection** at an authorized ITV station. It checks road safety, the environment, the markings and any modifications."
+              },
+              "src": "RGV art. 10.1"
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Algunas traducciones llaman «MOT» a la ITV, como la revisión británica. Si lees «MOT», piensa en la ITV.",
+                "en": "Some translations call the ITV the “MOT”, like the British check. If you read “MOT”, think ITV."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "examlang-itv",
+                "answer": 1,
+                "es": {
+                  "q": "La inspección técnica de vehículos (ITV) revisa, entre otras cosas:",
+                  "options": [
+                    "Los puntos del permiso del conductor",
+                    "Las condiciones del vehículo relativas a la seguridad vial",
+                    "Si el conductor tiene el seguro pagado al día"
+                  ],
+                  "why": "La ITV inspecciona el vehículo: seguridad vial, medio ambiente, inscripciones y reformas. Los puntos son del permiso del conductor, no del vehículo."
+                },
+                "exam": {
+                  "q": "The technical inspection of vehicles (ITV) reviews, among other things:",
+                  "options": [
+                    "The points of the driving licence of the driver.",
+                    "The conditions of the vehicle relative to road safety.",
+                    "If the driver has the insurance paid up to date."
+                  ]
+                },
+                "en": {
+                  "q": "The vehicle technical inspection (ITV) checks, among other things:",
+                  "options": [
+                    "The points on the driver’s license",
+                    "The vehicle’s road-safety condition",
+                    "Whether the driver’s insurance is paid up"
+                  ],
+                  "why": "The ITV inspects the vehicle: road safety, the environment, markings and modifications. Points belong to the driver’s license, not to the vehicle."
+                },
+                "terms": [
+                  {
+                    "es": "inspección técnica de vehículos (ITV)",
+                    "en": "technical inspection (MOT)"
+                  },
+                  {
+                    "es": "permiso de conducción",
+                    "en": "driving licence"
+                  }
+                ],
+                "src": "RGV art. 10.1"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "Turismo = passenger car; ciclomotor = moped (hasta 45 km/h por construcción); motocicleta = motorcycle.",
+          "en": "Turismo = passenger car; ciclomotor = moped (up to 45 km/h by design); motocicleta = motorcycle."
+        },
+        {
+          "es": "El ciclomotor no es «vehículo de motor», y el vehículo especial no es «automóvil».",
+          "en": "A moped is not a “vehículo de motor”, and a special vehicle is not an “automóvil”."
+        },
+        {
+          "es": "MMA = MAM: la masa máxima con carga. Tara: el vehículo vacío. Remolque ligero: MMA hasta 750 kg.",
+          "en": "MMA = MAM: the maximum loaded mass. Tara: the empty vehicle. Light trailer: MMA up to 750 kg."
+        },
+        {
+          "es": "Motoristas, ciclistas, peatones y usuarios de VMP son usuarios vulnerables.",
+          "en": "Motorcyclists, cyclists, pedestrians and VMP riders are vulnerable users."
+        },
+        {
+          "es": "ITV = technical inspection (a veces «MOT»).",
+          "en": "ITV = technical inspection (sometimes “MOT”)."
+        }
+      ],
+      "src": [
+        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), Anexo I: puntos 9 a 37 y 86",
+        "Reglamento General de Circulación (RD 1428/2003), art. 67",
+        "Reglamento General de Vehículos (RD 2822/1998), art. 10 y Anexo XI (V-13)"
+      ]
+    },
+    {
+      "id": "light-words",
+      "title": {
+        "es": "Luces, señales y equipo, palabra por palabra",
+        "en": "Lights, signals and equipment, word by word"
+      },
+      "minutes": 7,
+      "goals": [
+        {
+          "es": "Reconocer cada luz por su nombre del examen: dipped beam, main beam, position light, hazard warning lights.",
+          "en": "Recognize each light by its exam name: dipped beam, main beam, position light, hazard warning lights."
+        },
+        {
+          "es": "Nombrar los tipos de señal en su orden de preferencia.",
+          "en": "Name the kinds of signal in their order of precedence."
+        },
+        {
+          "es": "Reconocer el equipo de seguridad: seat belt, child restraint system, protective helmet, reflective vest.",
+          "en": "Recognize safety equipment: seat belt, child restraint system, protective helmet, reflective vest."
+        }
+      ],
+      "terms": [
+        {
+          "es": "luz de cruce",
+          "en": "dipped beam, passing light (exam) / low beams"
+        },
+        {
+          "es": "luz de carretera",
+          "en": "main beam, long-range light (exam) / high beams"
+        },
+        {
+          "es": "luz de posición",
+          "en": "position light (exam) / parking lights"
+        },
+        {
+          "es": "señal de emergencia",
+          "en": "hazard warning lights (exam) / flashers"
+        },
+        {
+          "es": "luz indicadora de dirección",
+          "en": "direction indicator (exam) / turn signal"
+        },
+        {
+          "es": "deslumbrar",
+          "en": "to dazzle (exam) / to blind with glare"
+        },
+        {
+          "es": "balizamiento",
+          "en": "beaconing, markers"
+        },
+        {
+          "es": "freno de servicio",
+          "en": "service brake (exam) / foot brake"
+        }
+      ],
+      "pretest": {
+        "id": "examlang-pre-lights",
+        "answer": 1,
+        "es": {
+          "q": "En el inglés del examen, la «dipped beam» o «passing light» es:",
+          "options": [
+            "La luz de carretera",
+            "La luz de cruce",
+            "La luz antiniebla"
+          ],
+          "why": "«Dipped beam», «passing light» y «short-range light» son la luz de cruce, la de corto alcance. La luz de carretera es «main beam» o «long-range light»."
+        },
+        "en": {
+          "q": "In the exam’s English, the “dipped beam” or “passing light” is:",
+          "options": [
+            "The high beams (luz de carretera)",
+            "The low beams (luz de cruce)",
+            "The fog light (luz antiniebla)"
+          ],
+          "why": "“Dipped beam”, “passing light” and “short-range light” all mean the luz de cruce, the low beams. The high beams are the “main beam” or “long-range light”."
+        },
+        "src": "LSV Anexo I, 40 y 41"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Las luces de delante",
+            "en": "The lights at the front"
+          },
+          "blocks": [
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Español",
+                  "en": "Spanish"
+                },
+                {
+                  "es": "Inglés del examen",
+                  "en": "Exam English"
+                },
+                {
+                  "es": "Inglés de EE. UU.",
+                  "en": "Plain American"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "luz de cruce (de corto alcance)",
+                    "en": "“luz de cruce (de corto alcance)”"
+                  },
+                  {
+                    "es": "«dipped beam, passing light, short-range light»",
+                    "en": "dipped beam, passing light, short-range light"
+                  },
+                  {
+                    "es": "«low beams»",
+                    "en": "low beams"
+                  }
+                ],
+                [
+                  {
+                    "es": "luz de carretera (de largo alcance)",
+                    "en": "“luz de carretera (de largo alcance)”"
+                  },
+                  {
+                    "es": "«main beam, long-range light, road light»",
+                    "en": "main beam, long-range light, road light"
+                  },
+                  {
+                    "es": "«high beams»",
+                    "en": "high beams"
+                  }
+                ],
+                [
+                  {
+                    "es": "luz de posición",
+                    "en": "“luz de posición”"
+                  },
+                  {
+                    "es": "«position light, side light»",
+                    "en": "position light, side light"
+                  },
+                  {
+                    "es": "«parking lights»",
+                    "en": "parking lights"
+                  }
+                ],
+                [
+                  {
+                    "es": "luz antiniebla delantera",
+                    "en": "“luz antiniebla delantera”"
+                  },
+                  {
+                    "es": "«front fog light»",
+                    "en": "front fog light"
+                  },
+                  {
+                    "es": "«front fog lights»",
+                    "en": "front fog lights"
+                  }
+                ],
+                [
+                  {
+                    "es": "alumbrado",
+                    "en": "“alumbrado”"
+                  },
+                  {
+                    "es": "«lighting»",
+                    "en": "lighting"
+                  },
+                  {
+                    "es": "«lights»",
+                    "en": "lights"
+                  }
+                ],
+                [
+                  {
+                    "es": "deslumbrar",
+                    "en": "“deslumbrar”"
+                  },
+                  {
+                    "es": "«to dazzle»",
+                    "en": "to dazzle"
+                  },
+                  {
+                    "es": "«to blind with glare»",
+                    "en": "to blind with glare"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "**Luz de carretera** o de largo alcance: alumbra una distancia larga por delante. **Luz de cruce** o de corto alcance: alumbra la vía por delante sin deslumbrar ni molestar a los que vienen en sentido contrario ni a los demás usuarios. **Luz de posición**: indica la presencia y la anchura del vehículo.",
+                "en": "**Luz de carretera** (long range): lights a long distance ahead. **Luz de cruce** (short range): lights the road ahead without dazzling or bothering oncoming drivers or other users. **Luz de posición**: shows the vehicle’s presence and width."
+              },
+              "src": "LSV Anexo I, 40 a 43"
+            },
+            {
+              "t": "us",
+              "text": {
+                "es": "En EE. UU. se dice «low beams» y «high beams». En el examen casi nunca: busca «dipped» o «passing» para la de cruce, y «main» o «long-range» para la de carretera.",
+                "en": "In the US you say “low beams” and “high beams”. The exam almost never does: look for “dipped” or “passing” for the low beams, and “main” or “long-range” for the high beams."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "examlang-luz-cruce",
+                "answer": 0,
+                "es": {
+                  "q": "La luz utilizada para alumbrar la vía por delante del vehículo, sin deslumbrar ni molestar a los conductores que vengan en sentido contrario, es:",
+                  "options": [
+                    "La luz de cruce",
+                    "La luz de carretera",
+                    "La luz de posición"
+                  ],
+                  "why": "Es la luz de cruce, o de corto alcance. La de carretera alumbra lejos y deslumbra, y la de posición solo indica la presencia y la anchura del vehículo."
+                },
+                "exam": {
+                  "q": "The light used to illuminate the road in front of the vehicle, without dazzling nor disturbing the drivers who come in the opposite direction, is:",
+                  "options": [
+                    "The dipped beam.",
+                    "The main beam.",
+                    "The position light."
+                  ]
+                },
+                "en": {
+                  "q": "The light that lights the road ahead without dazzling or bothering oncoming drivers is the:",
+                  "options": [
+                    "Low beam (luz de cruce)",
+                    "High beam (luz de carretera)",
+                    "Parking light (luz de posición)"
+                  ],
+                  "why": "It is the luz de cruce, the short-range light. The high beam reaches far and dazzles, and the position light only shows the vehicle’s presence and width."
+                },
+                "terms": [
+                  {
+                    "es": "luz de cruce",
+                    "en": "dipped beam, passing light (exam) / low beams"
+                  },
+                  {
+                    "es": "deslumbrar",
+                    "en": "to dazzle"
+                  },
+                  {
+                    "es": "sentido contrario",
+                    "en": "opposite direction"
+                  }
+                ],
+                "src": "LSV Anexo I, 40 a 42"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Las luces de detrás y de aviso",
+            "en": "The rear and warning lights"
+          },
+          "blocks": [
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Español",
+                  "en": "Spanish"
+                },
+                {
+                  "es": "Inglés del examen",
+                  "en": "Exam English"
+                },
+                {
+                  "es": "Inglés de EE. UU.",
+                  "en": "Plain American"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "luz de frenado",
+                    "en": "“luz de frenado”"
+                  },
+                  {
+                    "es": "«brake light, stop light»",
+                    "en": "brake light, stop light"
+                  },
+                  {
+                    "es": "«brake lights»",
+                    "en": "brake lights"
+                  }
+                ],
+                [
+                  {
+                    "es": "luz de marcha atrás",
+                    "en": "“luz de marcha atrás”"
+                  },
+                  {
+                    "es": "«reversing light»",
+                    "en": "reversing light"
+                  },
+                  {
+                    "es": "«backup lights»",
+                    "en": "backup lights"
+                  }
+                ],
+                [
+                  {
+                    "es": "luz indicadora de dirección",
+                    "en": "“luz indicadora de dirección”"
+                  },
+                  {
+                    "es": "«direction indicator»",
+                    "en": "direction indicator"
+                  },
+                  {
+                    "es": "«turn signal»",
+                    "en": "turn signal"
+                  }
+                ],
+                [
+                  {
+                    "es": "señal de emergencia",
+                    "en": "“señal de emergencia”"
+                  },
+                  {
+                    "es": "«emergency signal, hazard warning lights»",
+                    "en": "emergency signal, hazard warning lights"
+                  },
+                  {
+                    "es": "«hazard lights»",
+                    "en": "hazard lights"
+                  }
+                ],
+                [
+                  {
+                    "es": "luz antiniebla trasera",
+                    "en": "“luz antiniebla trasera”"
+                  },
+                  {
+                    "es": "«rear fog light»",
+                    "en": "rear fog light"
+                  },
+                  {
+                    "es": "«rear fog light»",
+                    "en": "rear fog light"
+                  }
+                ],
+                [
+                  {
+                    "es": "luz de gálibo",
+                    "en": "“luz de gálibo”"
+                  },
+                  {
+                    "es": "«clearance light»",
+                    "en": "clearance light"
+                  },
+                  {
+                    "es": "«marker lights»",
+                    "en": "marker lights"
+                  }
+                ],
+                [
+                  {
+                    "es": "luz de estacionamiento",
+                    "en": "“luz de estacionamiento”"
+                  },
+                  {
+                    "es": "«parking light»",
+                    "en": "parking light"
+                  },
+                  {
+                    "es": "«parking light»",
+                    "en": "parking light"
+                  }
+                ],
+                [
+                  {
+                    "es": "catadióptrico",
+                    "en": "“catadióptrico”"
+                  },
+                  {
+                    "es": "«reflector»",
+                    "en": "reflector"
+                  },
+                  {
+                    "es": "«reflector»",
+                    "en": "reflector"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "**Señal de emergencia**: el funcionamiento simultáneo de todas las luces indicadoras de dirección, para advertir que el vehículo es temporalmente un peligro. **Luz de frenado**: indica a los que vienen detrás que el conductor acciona el **freno de servicio**.",
+                "en": "**Señal de emergencia**: all the turn signals flashing at once, to warn that the vehicle is a temporary danger. **Luz de frenado**: tells those behind that the driver is using the **service brake**."
+              },
+              "src": "LSV Anexo I, 47 y 49"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "examlang-emergencia",
+                "answer": 2,
+                "es": {
+                  "q": "El funcionamiento simultáneo de todas las luces indicadoras de dirección del vehículo se denomina:",
+                  "options": [
+                    "Luz de gálibo",
+                    "Luz de posición",
+                    "Señal de emergencia"
+                  ],
+                  "why": "Todos los intermitentes a la vez son la señal de emergencia: advierten que el vehículo es temporalmente un peligro. La luz de gálibo marca la anchura total del vehículo."
+                },
+                "exam": {
+                  "q": "The simultaneous functioning of all the direction indicator lights of the vehicle is denominated:",
+                  "options": [
+                    "Clearance light.",
+                    "Position light.",
+                    "Emergency signal."
+                  ]
+                },
+                "en": {
+                  "q": "All of a vehicle’s turn signals flashing at the same time is called:",
+                  "options": [
+                    "A clearance light (luz de gálibo)",
+                    "A position light (luz de posición)",
+                    "The hazard lights (señal de emergencia)"
+                  ],
+                  "why": "All the turn signals at once are the señal de emergencia, the hazard lights: they warn that the vehicle is a temporary danger. A clearance light marks the vehicle’s full width."
+                },
+                "terms": [
+                  {
+                    "es": "señal de emergencia",
+                    "en": "emergency signal, hazard warning lights"
+                  },
+                  {
+                    "es": "luz indicadora de dirección",
+                    "en": "direction indicator (turn signal)"
+                  },
+                  {
+                    "es": "luz de gálibo",
+                    "en": "clearance light"
+                  }
+                ],
+                "src": "LSV Anexo I, 46, 48 y 49"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "examlang-frenado",
+                "answer": 1,
+                "es": {
+                  "q": "La luz de frenado indica a los usuarios que circulan detrás que el conductor está accionando:",
+                  "options": [
+                    "El freno de estacionamiento",
+                    "El freno de servicio",
+                    "El freno motor"
+                  ],
+                  "why": "La luz de frenado se enciende con el freno de servicio, el del pedal. El freno de estacionamiento es el de mano, y el freno motor no la enciende."
+                },
+                "exam": {
+                  "q": "The braking light indicates to the users who circulate behind that the driver is actuating:",
+                  "options": [
+                    "The parking brake.",
+                    "The service brake.",
+                    "The engine brake."
+                  ]
+                },
+                "en": {
+                  "q": "The brake light tells the road users behind you that the driver is using:",
+                  "options": [
+                    "The parking brake",
+                    "The service brake (foot brake)",
+                    "Engine braking"
+                  ],
+                  "why": "The brake light comes on with the service brake, the pedal. The parking brake is the hand brake, and engine braking does not light it."
+                },
+                "terms": [
+                  {
+                    "es": "luz de frenado",
+                    "en": "brake light"
+                  },
+                  {
+                    "es": "freno de servicio",
+                    "en": "service brake (foot brake)"
+                  },
+                  {
+                    "es": "accionar",
+                    "en": "to actuate, to apply"
+                  }
+                ],
+                "src": "LSV Anexo I, 47"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Señales y su orden",
+            "en": "Signals and their order"
+          },
+          "blocks": [
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Español",
+                  "en": "Spanish"
+                },
+                {
+                  "es": "Inglés del examen",
+                  "en": "Exam English"
+                },
+                {
+                  "es": "Inglés de EE. UU.",
+                  "en": "Plain American"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "señales de los agentes",
+                    "en": "“señales de los agentes”"
+                  },
+                  {
+                    "es": "«signals of the agents»",
+                    "en": "signals of the agents"
+                  },
+                  {
+                    "es": "«police signals»",
+                    "en": "police signals"
+                  }
+                ],
+                [
+                  {
+                    "es": "balizamiento",
+                    "en": "“balizamiento”"
+                  },
+                  {
+                    "es": "«beaconing, markers»",
+                    "en": "beaconing, markers"
+                  },
+                  {
+                    "es": "«cones and markers»",
+                    "en": "cones and markers"
+                  }
+                ],
+                [
+                  {
+                    "es": "semáforo",
+                    "en": "“semáforo”"
+                  },
+                  {
+                    "es": "«traffic light, semaphore»",
+                    "en": "traffic light, semaphore"
+                  },
+                  {
+                    "es": "«traffic light»",
+                    "en": "traffic light"
+                  }
+                ],
+                [
+                  {
+                    "es": "señal vertical",
+                    "en": "“señal vertical”"
+                  },
+                  {
+                    "es": "«vertical sign»",
+                    "en": "vertical sign"
+                  },
+                  {
+                    "es": "«road sign»",
+                    "en": "road sign"
+                  }
+                ],
+                [
+                  {
+                    "es": "marca vial",
+                    "en": "“marca vial”"
+                  },
+                  {
+                    "es": "«road marking»",
+                    "en": "road marking"
+                  },
+                  {
+                    "es": "«road marking»",
+                    "en": "road marking"
+                  }
+                ],
+                [
+                  {
+                    "es": "señal de peligro",
+                    "en": "“señal de peligro”"
+                  },
+                  {
+                    "es": "«danger sign»",
+                    "en": "danger sign"
+                  },
+                  {
+                    "es": "«warning sign»",
+                    "en": "warning sign"
+                  }
+                ],
+                [
+                  {
+                    "es": "avisador acústico",
+                    "en": "“avisador acústico”"
+                  },
+                  {
+                    "es": "«acoustic warning device»",
+                    "en": "acoustic warning device"
+                  },
+                  {
+                    "es": "«horn»",
+                    "en": "horn"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Orden de preferencia: 1) señales y órdenes de los agentes; 2) señalización circunstancial y balizamiento; 3) semáforos; 4) señales verticales; 5) marcas viales. Si se contradicen, prevalece la preferente o, entre señales del mismo tipo, la más restrictiva.",
+                "en": "Order of precedence: 1) signals and orders from officers; 2) temporary signs and markers; 3) traffic lights; 4) vertical signs; 5) road markings. If they contradict each other, the higher one wins, or, between signs of the same type, the more restrictive one."
+              },
+              "src": "RGC art. 133"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "examlang-orden-senales",
+                "answer": 0,
+                "es": {
+                  "q": "Entre un semáforo y una señal vertical que se contradicen, ¿cuál debe obedecer?",
+                  "options": [
+                    "El semáforo",
+                    "La señal vertical",
+                    "La más permisiva de las dos"
+                  ],
+                  "why": "Los semáforos van antes que las señales verticales en el orden de preferencia. Solo las órdenes de los agentes y el balizamiento circunstancial están por encima de los semáforos."
+                },
+                "exam": {
+                  "q": "Between a traffic light and a vertical sign that contradict each other, which one must you obey?",
+                  "options": [
+                    "The traffic light.",
+                    "The vertical sign.",
+                    "The most permissive of the two."
+                  ]
+                },
+                "en": {
+                  "q": "A traffic light and a road sign on a post say opposite things. Which one do you obey?",
+                  "options": [
+                    "The traffic light (semáforo)",
+                    "The sign (señal vertical)",
+                    "Whichever allows more"
+                  ],
+                  "why": "Traffic lights rank above vertical signs in the order of precedence. Only officers’ orders and temporary signs and markers rank above traffic lights."
+                },
+                "terms": [
+                  {
+                    "es": "semáforo",
+                    "en": "traffic light"
+                  },
+                  {
+                    "es": "señal vertical",
+                    "en": "vertical sign"
+                  },
+                  {
+                    "es": "orden de preferencia",
+                    "en": "order of preference"
+                  }
+                ],
+                "src": "RGC art. 133"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "El equipo de seguridad",
+            "en": "Safety equipment"
+          },
+          "blocks": [
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Español",
+                  "en": "Spanish"
+                },
+                {
+                  "es": "Inglés del examen",
+                  "en": "Exam English"
+                },
+                {
+                  "es": "Inglés de EE. UU.",
+                  "en": "Plain American"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "cinturón de seguridad",
+                    "en": "“cinturón de seguridad”"
+                  },
+                  {
+                    "es": "«seat belt, safety belt»",
+                    "en": "seat belt, safety belt"
+                  },
+                  {
+                    "es": "«seat belt»",
+                    "en": "seat belt"
+                  }
+                ],
+                [
+                  {
+                    "es": "sistema de retención infantil (SRI)",
+                    "en": "“sistema de retención infantil (SRI)”"
+                  },
+                  {
+                    "es": "«child restraint system»",
+                    "en": "child restraint system"
+                  },
+                  {
+                    "es": "«child car seat»",
+                    "en": "child car seat"
+                  }
+                ],
+                [
+                  {
+                    "es": "casco de protección",
+                    "en": "“casco de protección”"
+                  },
+                  {
+                    "es": "«protective helmet»",
+                    "en": "protective helmet"
+                  },
+                  {
+                    "es": "«helmet»",
+                    "en": "helmet"
+                  }
+                ],
+                [
+                  {
+                    "es": "chaleco reflectante",
+                    "en": "“chaleco reflectante”"
+                  },
+                  {
+                    "es": "«reflective vest, high-visibility vest»",
+                    "en": "reflective vest, high-visibility vest"
+                  },
+                  {
+                    "es": "«hi-vis vest»",
+                    "en": "hi-vis vest"
+                  }
+                ],
+                [
+                  {
+                    "es": "reposacabezas",
+                    "en": "“reposacabezas”"
+                  },
+                  {
+                    "es": "«head restraint, headrest»",
+                    "en": "head restraint, headrest"
+                  },
+                  {
+                    "es": "«headrest»",
+                    "en": "headrest"
+                  }
+                ],
+                [
+                  {
+                    "es": "dispositivo de preseñalización V-16",
+                    "en": "“dispositivo de preseñalización V-16”"
+                  },
+                  {
+                    "es": "«V-16 beacon»",
+                    "en": "V-16 beacon"
+                  },
+                  {
+                    "es": "«flashing roadside beacon»",
+                    "en": "flashing roadside beacon"
+                  }
+                ],
+                [
+                  {
+                    "es": "triángulo de preseñalización",
+                    "en": "“triángulo de preseñalización”"
+                  },
+                  {
+                    "es": "«warning triangle»",
+                    "en": "warning triangle"
+                  },
+                  {
+                    "es": "«warning triangle»",
+                    "en": "warning triangle"
+                  }
+                ],
+                [
+                  {
+                    "es": "seguridad activa / pasiva",
+                    "en": "“seguridad activa / pasiva”"
+                  },
+                  {
+                    "es": "«active / passive safety»",
+                    "en": "active / passive safety"
+                  },
+                  {
+                    "es": "«crash avoidance / protection»",
+                    "en": "crash avoidance / protection"
+                  }
+                ],
+                [
+                  {
+                    "es": "neumático",
+                    "en": "“neumático”"
+                  },
+                  {
+                    "es": "«tyre»",
+                    "en": "tyre"
+                  },
+                  {
+                    "es": "«tire»",
+                    "en": "tire"
+                  }
+                ],
+                [
+                  {
+                    "es": "freno de estacionamiento",
+                    "en": "“freno de estacionamiento”"
+                  },
+                  {
+                    "es": "«parking brake, handbrake»",
+                    "en": "parking brake, handbrake"
+                  },
+                  {
+                    "es": "«parking brake»",
+                    "en": "parking brake"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Observa la ortografía británica: el examen escribe «tyre», no «tire», y «kerb», no «curb».",
+                "en": "Note the British spelling: the exam writes “tyre”, not “tire”, and “kerb”, not “curb”."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "examlang-equipo",
+                "answer": 2,
+                "es": {
+                  "q": "En el inglés del examen, el «child restraint system» es:",
+                  "options": [
+                    "El seguro de la puerta trasera",
+                    "El cinturón del asiento del conductor",
+                    "El sistema de retención infantil"
+                  ],
+                  "why": "«Child restraint system» es el sistema de retención infantil (SRI): la silla o el cojín homologado para niños."
+                },
+                "exam": {
+                  "q": "In the English of the exam, the «child restraint system» is:",
+                  "options": [
+                    "The lock of the rear door.",
+                    "The belt of the seat of the driver.",
+                    "The child restraint system."
+                  ]
+                },
+                "en": {
+                  "q": "In the exam’s English, the “child restraint system” is:",
+                  "options": [
+                    "The child lock on the rear door",
+                    "The driver’s seat belt",
+                    "The child car seat (SRI)"
+                  ],
+                  "why": "A “child restraint system” is the sistema de retención infantil (SRI): the approved child seat or booster."
+                },
+                "terms": [
+                  {
+                    "es": "sistema de retención infantil (SRI)",
+                    "en": "child restraint system (child car seat)"
+                  },
+                  {
+                    "es": "cinturón de seguridad",
+                    "en": "seat belt"
+                  }
+                ],
+                "src": "Teaching convention: exam terminology"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "Cruce = dipped beam / passing light; carretera = main beam / long-range light; posición = position light.",
+          "en": "Luz de cruce is the dipped beam or passing light; luz de carretera, the main beam or long-range light; luz de posición, the position light."
+        },
+        {
+          "es": "Todos los intermitentes a la vez = señal de emergencia (hazard warning lights).",
+          "en": "All turn signals at once = señal de emergencia (hazard warning lights)."
+        },
+        {
+          "es": "La luz de frenado acompaña al freno de servicio, el del pedal.",
+          "en": "The brake light goes with the service brake, the pedal."
+        },
+        {
+          "es": "Orden: agentes, balizamiento circunstancial, semáforos, señales verticales, marcas viales.",
+          "en": "Order: officers, temporary signs and markers, traffic lights, vertical signs, road markings."
+        },
+        {
+          "es": "El examen usa ortografía británica: tyre, kerb, licence.",
+          "en": "The exam uses British spelling: tyre, kerb, licence."
+        }
+      ],
+      "src": [
+        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), Anexo I: puntos 40 a 53",
+        "Reglamento General de Circulación (RD 1428/2003), art. 133"
+      ]
+    },
+    {
+      "id": "action-words",
+      "title": {
+        "es": "Maniobras y normas, palabra por palabra",
+        "en": "Manoeuvres and rules, word by word"
+      },
+      "minutes": 8,
+      "goals": [
+        {
+          "es": "Reconocer los verbos del examen: circulate, give way, overtake, join the traffic, invade.",
+          "en": "Recognize the exam’s verbs: circulate, give way, overtake, join the traffic, invade."
+        },
+        {
+          "es": "Distinguir cambio de dirección, cambio de sentido y desplazamiento lateral.",
+          "en": "Tell apart cambio de dirección, cambio de sentido and desplazamiento lateral."
+        },
+        {
+          "es": "Entender «velocidad anormalmente reducida», «doble fila», «inmovilización» y «retirada».",
+          "en": "Understand “abnormally reduced speed”, “double row”, “immobilisation” and “removal”."
+        }
+      ],
+      "terms": [
+        {
+          "es": "circular",
+          "en": "to circulate (exam) / to drive, travel"
+        },
+        {
+          "es": "ceder el paso",
+          "en": "give way, yield way (exam) / yield"
+        },
+        {
+          "es": "cambio de sentido",
+          "en": "change of direction of travel (exam) / U-turn"
+        },
+        {
+          "es": "desplazamiento lateral",
+          "en": "lateral displacement (exam) / changing lanes"
+        },
+        {
+          "es": "velocidad anormalmente reducida",
+          "en": "abnormally reduced speed"
+        },
+        {
+          "es": "doble fila",
+          "en": "double row (exam) / double-parked"
+        },
+        {
+          "es": "inmovilización",
+          "en": "immobilisation (vehicle held on the spot)"
+        },
+        {
+          "es": "aire espirado",
+          "en": "exhaled air (exam) / breath"
+        }
+      ],
+      "pretest": {
+        "id": "examlang-pre-actions",
+        "answer": 2,
+        "es": {
+          "q": "En el inglés del examen, «to circulate» significa:",
+          "options": [
+            "Dar vueltas a una glorieta",
+            "Repartir documentos",
+            "Circular, es decir, desplazarse por la vía"
+          ],
+          "why": "«Circulate» es la traducción literal de «circular»: ir por la vía, conducir. No tiene que ver con dar vueltas."
+        },
+        "en": {
+          "q": "In the exam’s English, “to circulate” means:",
+          "options": [
+            "To go around a roundabout",
+            "To hand out documents",
+            "To drive, that is, to travel along the road"
+          ],
+          "why": "“Circulate” is the literal rendering of “circular”: to travel on the road, to drive. It has nothing to do with going in circles."
+        },
+        "src": "Teaching convention: exam terminology"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Circular, ceder, adelantar",
+            "en": "Circulate, give way, overtake"
+          },
+          "blocks": [
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Español",
+                  "en": "Spanish"
+                },
+                {
+                  "es": "Inglés del examen",
+                  "en": "Exam English"
+                },
+                {
+                  "es": "Inglés de EE. UU.",
+                  "en": "Plain American"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "circular",
+                    "en": "“circular”"
+                  },
+                  {
+                    "es": "«to circulate»",
+                    "en": "to circulate"
+                  },
+                  {
+                    "es": "«to drive, to travel»",
+                    "en": "to drive, to travel"
+                  }
+                ],
+                [
+                  {
+                    "es": "ceder el paso",
+                    "en": "“ceder el paso”"
+                  },
+                  {
+                    "es": "«to give way, to yield way»",
+                    "en": "to give way, to yield way"
+                  },
+                  {
+                    "es": "«to yield»",
+                    "en": "to yield"
+                  }
+                ],
+                [
+                  {
+                    "es": "prioridad de paso, preferencia",
+                    "en": "“prioridad de paso, preferencia”"
+                  },
+                  {
+                    "es": "«priority, right of way»",
+                    "en": "priority, right of way"
+                  },
+                  {
+                    "es": "«right of way»",
+                    "en": "right of way"
+                  }
+                ],
+                [
+                  {
+                    "es": "adelantar, adelantamiento",
+                    "en": "“adelantar, adelantamiento”"
+                  },
+                  {
+                    "es": "«to overtake, overtaking»",
+                    "en": "to overtake, overtaking"
+                  },
+                  {
+                    "es": "«to pass, passing»",
+                    "en": "to pass, passing"
+                  }
+                ],
+                [
+                  {
+                    "es": "rebasar",
+                    "en": "“rebasar”"
+                  },
+                  {
+                    "es": "«to pass, to go beyond»",
+                    "en": "to pass, to go beyond"
+                  },
+                  {
+                    "es": "«to go past»",
+                    "en": "to go past"
+                  }
+                ],
+                [
+                  {
+                    "es": "incorporarse a la circulación",
+                    "en": "“incorporarse a la circulación”"
+                  },
+                  {
+                    "es": "«to join the traffic, to incorporate»",
+                    "en": "to join the traffic, to incorporate"
+                  },
+                  {
+                    "es": "«to pull out, to merge»",
+                    "en": "to pull out, to merge"
+                  }
+                ],
+                [
+                  {
+                    "es": "moderar la velocidad",
+                    "en": "“moderar la velocidad”"
+                  },
+                  {
+                    "es": "«to moderate the speed»",
+                    "en": "to moderate the speed"
+                  },
+                  {
+                    "es": "«to slow down»",
+                    "en": "to slow down"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Quien debe **ceder el paso** no debe iniciar ni continuar su marcha o maniobra hasta asegurarse de que no obliga al que tiene preferencia a modificar bruscamente su trayectoria o su velocidad, y debe mostrar con antelación, sobre todo reduciendo poco a poco la velocidad, que va a cederlo.",
+                "en": "A driver who must **ceder el paso** must not start or continue moving until sure they will not force the driver with priority to change path or speed suddenly, and must show early, above all by slowing down gradually, that they are going to yield."
+              },
+              "src": "LSV art. 26.1"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "examlang-ceder",
+                "answer": 1,
+                "es": {
+                  "q": "Ceder el paso a otro vehículo significa no iniciar ni continuar la marcha hasta asegurarse de que el que tiene la preferencia:",
+                  "options": [
+                    "Se ha detenido por completo",
+                    "No tendrá que modificar bruscamente su trayectoria o su velocidad",
+                    "Ha hecho una señal con la mano"
+                  ],
+                  "why": "Ceder el paso no exige que el otro se pare: exige no obligarle a cambiar bruscamente de trayectoria o de velocidad, y mostrarlo con antelación reduciendo la velocidad."
+                },
+                "exam": {
+                  "q": "To yield way to another vehicle means not to initiate nor continue the march until making sure that the one who has the preference:",
+                  "options": [
+                    "Has stopped completely.",
+                    "Will not have to modify abruptly its trajectory or its speed.",
+                    "Has made a signal with the hand."
+                  ]
+                },
+                "en": {
+                  "q": "Yielding to another vehicle means not starting or continuing until you are sure that the driver with priority:",
+                  "options": [
+                    "Has come to a full stop",
+                    "Will not have to change path or speed suddenly",
+                    "Has waved you on"
+                  ],
+                  "why": "Yielding does not require the other driver to stop: it requires not forcing them to change path or speed suddenly, and showing it early by slowing down."
+                },
+                "terms": [
+                  {
+                    "es": "ceder el paso",
+                    "en": "to yield way, give way"
+                  },
+                  {
+                    "es": "preferencia",
+                    "en": "preference, priority"
+                  },
+                  {
+                    "es": "trayectoria",
+                    "en": "trajectory, path"
+                  }
+                ],
+                "src": "LSV art. 26.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Girar, dar la vuelta, cambiar de carril",
+            "en": "Turning, turning around, changing lanes"
+          },
+          "blocks": [
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Español",
+                  "en": "Spanish"
+                },
+                {
+                  "es": "Inglés del examen",
+                  "en": "Exam English"
+                },
+                {
+                  "es": "Inglés de EE. UU.",
+                  "en": "Plain American"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "cambio de dirección",
+                    "en": "“cambio de dirección”"
+                  },
+                  {
+                    "es": "«change of direction»",
+                    "en": "change of direction"
+                  },
+                  {
+                    "es": "«turn»",
+                    "en": "turn"
+                  }
+                ],
+                [
+                  {
+                    "es": "cambio de sentido",
+                    "en": "“cambio de sentido”"
+                  },
+                  {
+                    "es": "«change of direction of travel»",
+                    "en": "change of direction of travel"
+                  },
+                  {
+                    "es": "«U-turn»",
+                    "en": "U-turn"
+                  }
+                ],
+                [
+                  {
+                    "es": "desplazamiento lateral",
+                    "en": "“desplazamiento lateral”"
+                  },
+                  {
+                    "es": "«lateral displacement»",
+                    "en": "lateral displacement"
+                  },
+                  {
+                    "es": "«changing lanes»",
+                    "en": "changing lanes"
+                  }
+                ],
+                [
+                  {
+                    "es": "marcha atrás",
+                    "en": "“marcha atrás”"
+                  },
+                  {
+                    "es": "«reverse gear, reversing»",
+                    "en": "reverse gear, reversing"
+                  },
+                  {
+                    "es": "«backing up»",
+                    "en": "backing up"
+                  }
+                ],
+                [
+                  {
+                    "es": "invadir el sentido contrario",
+                    "en": "“invadir el sentido contrario”"
+                  },
+                  {
+                    "es": "«to invade the opposite direction»",
+                    "en": "to invade the opposite direction"
+                  },
+                  {
+                    "es": "«to cross into oncoming lanes»",
+                    "en": "to cross into oncoming lanes"
+                  }
+                ],
+                [
+                  {
+                    "es": "maniobra",
+                    "en": "“maniobra”"
+                  },
+                  {
+                    "es": "«manoeuvre»",
+                    "en": "manoeuvre"
+                  },
+                  {
+                    "es": "«maneuver»",
+                    "en": "maneuver"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Todo **desplazamiento lateral** que implique cambio de carril debe respetar la prioridad del que circula por el carril que se pretende ocupar.",
+                "en": "Any **lateral displacement** that means changing lanes must respect the priority of whoever is driving in the lane you want to take."
+              },
+              "src": "RGC art. 74.2"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Para **invertir el sentido de la marcha** (cambio de sentido) hay que elegir un lugar adecuado, interceptar la vía el menor tiempo posible, advertirlo con antelación y no poner en peligro ni obstaculizar a otros usuarios.",
+                "en": "To **reverse your direction of travel** (cambio de sentido) you must pick a suitable place, block the road as briefly as possible, signal it early and not endanger or obstruct other users."
+              },
+              "src": "RGC art. 78.1"
+            },
+            {
+              "t": "us",
+              "text": {
+                "es": "«Change of direction» en el examen suele ser un giro, no un cambio de sentido. El cambio de sentido es lo que en EE. UU. llamas «U-turn».",
+                "en": "On the exam, “change of direction” usually means a turn, not a U-turn. The cambio de sentido is what you call a U-turn in the US."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "examlang-desplazamiento",
+                "answer": 0,
+                "es": {
+                  "q": "Al hacer un desplazamiento lateral que implica cambiar de carril, la prioridad la tiene:",
+                  "options": [
+                    "El que circula por el carril que se pretende ocupar",
+                    "El que cambia de carril, si señaliza con antelación",
+                    "El vehículo que circule más rápido"
+                  ],
+                  "why": "El que cambia de carril debe respetar la prioridad del que ya circula por ese carril. Señalizar avisa, pero no da prioridad."
+                },
+                "exam": {
+                  "q": "On making a lateral displacement which implies changing lane, the priority is held by:",
+                  "options": [
+                    "The one who circulates by the lane which is intended to be occupied.",
+                    "The one who changes lane, if he signals in advance.",
+                    "The vehicle which circulates faster."
+                  ]
+                },
+                "en": {
+                  "q": "When you move sideways into another lane, who has priority?",
+                  "options": [
+                    "Whoever is already in the lane you want to take",
+                    "You, if you signal early",
+                    "Whichever vehicle is going faster"
+                  ],
+                  "why": "The driver changing lanes must respect the priority of whoever is already in that lane. Signaling warns others, but it does not give priority."
+                },
+                "terms": [
+                  {
+                    "es": "desplazamiento lateral",
+                    "en": "lateral displacement (lane change)"
+                  },
+                  {
+                    "es": "cambio de carril",
+                    "en": "change of lane"
+                  }
+                ],
+                "src": "RGC art. 74.2"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Parar y estacionar",
+            "en": "Stopping and parking"
+          },
+          "blocks": [
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Español",
+                  "en": "Spanish"
+                },
+                {
+                  "es": "Inglés del examen",
+                  "en": "Exam English"
+                },
+                {
+                  "es": "Inglés de EE. UU.",
+                  "en": "Plain American"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "detención",
+                    "en": "“detención”"
+                  },
+                  {
+                    "es": "«detention, emergency stop»",
+                    "en": "detention, emergency stop"
+                  },
+                  {
+                    "es": "«halt (emergency, traffic or a rule)»",
+                    "en": "halt (emergency, traffic or a rule)"
+                  }
+                ],
+                [
+                  {
+                    "es": "parada",
+                    "en": "“parada”"
+                  },
+                  {
+                    "es": "«stop»",
+                    "en": "stop"
+                  },
+                  {
+                    "es": "«stop under two minutes»",
+                    "en": "stop under two minutes"
+                  }
+                ],
+                [
+                  {
+                    "es": "estacionamiento",
+                    "en": "“estacionamiento”"
+                  },
+                  {
+                    "es": "«parking»",
+                    "en": "parking"
+                  },
+                  {
+                    "es": "«parking»",
+                    "en": "parking"
+                  }
+                ],
+                [
+                  {
+                    "es": "inmovilizar el vehículo",
+                    "en": "“inmovilizar el vehículo”"
+                  },
+                  {
+                    "es": "«to immobilise the vehicle»",
+                    "en": "to immobilise the vehicle"
+                  },
+                  {
+                    "es": "«to bring the car to a halt»",
+                    "en": "to bring the car to a halt"
+                  }
+                ],
+                [
+                  {
+                    "es": "en doble fila",
+                    "en": "“en doble fila”"
+                  },
+                  {
+                    "es": "«in double row»",
+                    "en": "in double row"
+                  },
+                  {
+                    "es": "«double-parked»",
+                    "en": "double-parked"
+                  }
+                ],
+                [
+                  {
+                    "es": "en batería",
+                    "en": "“en batería”"
+                  },
+                  {
+                    "es": "«in battery»",
+                    "en": "in battery"
+                  },
+                  {
+                    "es": "«angle or perpendicular parking»",
+                    "en": "angle or perpendicular parking"
+                  }
+                ],
+                [
+                  {
+                    "es": "en línea, en cordón",
+                    "en": "“en línea, en cordón”"
+                  },
+                  {
+                    "es": "«in line»",
+                    "en": "in line"
+                  },
+                  {
+                    "es": "«parallel parking»",
+                    "en": "parallel parking"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Se consideran paradas o estacionamientos que obstaculizan gravemente la circulación, entre otros, los hechos en las medianas, separadores o isletas, y el estacionamiento **en doble fila sin conductor**.",
+                "en": "Stopping or parking counts as seriously obstructing traffic, among other cases, when done on medians, dividers or traffic islands, and when parking **double-parked with no driver**."
+              },
+              "src": "RGC art. 91.2.e y h"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "examlang-doble-fila",
+                "answer": 1,
+                "es": {
+                  "q": "Estacionar en doble fila sin conductor:",
+                  "options": [
+                    "Está permitido si se encienden las luces de emergencia",
+                    "Se considera un estacionamiento que obstaculiza gravemente la circulación",
+                    "Está permitido durante menos de dos minutos"
+                  ],
+                  "why": "El estacionamiento en doble fila sin conductor está en la lista de los que obstaculizan gravemente la circulación. Las luces de emergencia no lo convierten en legal."
+                },
+                "exam": {
+                  "q": "To park in double row without driver:",
+                  "options": [
+                    "Is permitted if the emergency lights are switched on.",
+                    "Is considered a parking which obstructs seriously the circulation.",
+                    "Is permitted during less than two minutes."
+                  ]
+                },
+                "en": {
+                  "q": "Double-parking and leaving the car with no one in it:",
+                  "options": [
+                    "Is allowed if the hazard lights are on",
+                    "Counts as parking that seriously obstructs traffic",
+                    "Is allowed for under two minutes"
+                  ],
+                  "why": "Double-parking with no driver is on the list of stops and parking that seriously obstruct traffic. Hazard lights do not make it legal."
+                },
+                "terms": [
+                  {
+                    "es": "doble fila",
+                    "en": "double row (exam) / double-parked"
+                  },
+                  {
+                    "es": "obstaculizar gravemente",
+                    "en": "to obstruct seriously"
+                  }
+                ],
+                "src": "RGC art. 91.2.h"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Velocidad y distancias",
+            "en": "Speed and distances"
+          },
+          "blocks": [
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Español",
+                  "en": "Spanish"
+                },
+                {
+                  "es": "Inglés del examen",
+                  "en": "Exam English"
+                },
+                {
+                  "es": "Inglés de EE. UU.",
+                  "en": "Plain American"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "velocidad anormalmente reducida",
+                    "en": "“velocidad anormalmente reducida”"
+                  },
+                  {
+                    "es": "«abnormally reduced speed»",
+                    "en": "abnormally reduced speed"
+                  },
+                  {
+                    "es": "«driving far too slowly»",
+                    "en": "driving far too slowly"
+                  }
+                ],
+                [
+                  {
+                    "es": "velocidad máxima, genérica",
+                    "en": "“velocidad máxima, genérica”"
+                  },
+                  {
+                    "es": "«maximum speed, generic speed»",
+                    "en": "maximum speed, generic speed"
+                  },
+                  {
+                    "es": "«speed limit»",
+                    "en": "speed limit"
+                  }
+                ],
+                [
+                  {
+                    "es": "velocidad mínima",
+                    "en": "“velocidad mínima”"
+                  },
+                  {
+                    "es": "«minimum speed»",
+                    "en": "minimum speed"
+                  },
+                  {
+                    "es": "«minimum speed»",
+                    "en": "minimum speed"
+                  }
+                ],
+                [
+                  {
+                    "es": "distancia de seguridad",
+                    "en": "“distancia de seguridad”"
+                  },
+                  {
+                    "es": "«safety distance»",
+                    "en": "safety distance"
+                  },
+                  {
+                    "es": "«following distance»",
+                    "en": "following distance"
+                  }
+                ],
+                [
+                  {
+                    "es": "separación lateral",
+                    "en": "“separación lateral”"
+                  },
+                  {
+                    "es": "«lateral separation»",
+                    "en": "lateral separation"
+                  },
+                  {
+                    "es": "«side clearance»",
+                    "en": "side clearance"
+                  }
+                ],
+                [
+                  {
+                    "es": "tiempo de reacción",
+                    "en": "“tiempo de reacción”"
+                  },
+                  {
+                    "es": "«reaction time»",
+                    "en": "reaction time"
+                  },
+                  {
+                    "es": "«reaction time»",
+                    "en": "reaction time"
+                  }
+                ],
+                [
+                  {
+                    "es": "distancia de frenado",
+                    "en": "“distancia de frenado”"
+                  },
+                  {
+                    "es": "«braking distance»",
+                    "en": "braking distance"
+                  },
+                  {
+                    "es": "«braking distance»",
+                    "en": "braking distance"
+                  }
+                ],
+                [
+                  {
+                    "es": "distancia de detención",
+                    "en": "“distancia de detención”"
+                  },
+                  {
+                    "es": "«stopping distance»",
+                    "en": "stopping distance"
+                  },
+                  {
+                    "es": "«total stopping distance»",
+                    "en": "total stopping distance"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "No se debe entorpecer a otros circulando sin causa justificada a **velocidad anormalmente reducida**. Se prohíbe circular en autopistas y autovías a menos de 60 km/h y, en las demás vías, a menos de la mitad de la velocidad genérica de cada categoría de vehículo, aunque no circulen otros vehículos.",
+                "en": "You must not hold up others by driving without good reason at an **abnormally reduced speed**. On autopistas and autovías you may not drive below 60 km/h and, on other roads, below half the generic limit for your vehicle type, even with no other traffic."
+              },
+              "src": "RGC art. 49.1"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "examlang-anormal",
+                "answer": 2,
+                "es": {
+                  "q": "En una carretera convencional, se considera velocidad anormalmente reducida circular, sin causa justificada, por debajo de:",
+                  "options": [
+                    "60 km/h",
+                    "30 km/h",
+                    "La mitad de la velocidad genérica de su vehículo en esa vía"
+                  ],
+                  "why": "Los 60 km/h son el mínimo de autopistas y autovías. En las demás vías el mínimo es la mitad de la velocidad genérica de cada categoría de vehículo."
+                },
+                "exam": {
+                  "q": "On a conventional road, it is considered abnormally reduced speed to circulate, without justified cause, below:",
+                  "options": [
+                    "60 km/h.",
+                    "30 km/h.",
+                    "Half of the generic speed of your vehicle on that road."
+                  ]
+                },
+                "en": {
+                  "q": "On an ordinary highway, driving below which speed without good reason counts as abnormally slow?",
+                  "options": [
+                    "60 km/h",
+                    "30 km/h",
+                    "Half the generic limit for your vehicle on that road"
+                  ],
+                  "why": "60 km/h is the minimum on autopistas and autovías. On other roads the minimum is half the generic limit for each vehicle type."
+                },
+                "terms": [
+                  {
+                    "es": "velocidad anormalmente reducida",
+                    "en": "abnormally reduced speed"
+                  },
+                  {
+                    "es": "velocidad genérica",
+                    "en": "generic speed (default limit)"
+                  },
+                  {
+                    "es": "carretera convencional",
+                    "en": "conventional road"
+                  }
+                ],
+                "src": "RGC art. 49.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Infracciones y controles",
+            "en": "Offences and checks"
+          },
+          "blocks": [
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Español",
+                  "en": "Spanish"
+                },
+                {
+                  "es": "Inglés del examen",
+                  "en": "Exam English"
+                },
+                {
+                  "es": "Inglés de EE. UU.",
+                  "en": "Plain American"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "infracción",
+                    "en": "“infracción”"
+                  },
+                  {
+                    "es": "«infraction, offence»",
+                    "en": "infraction, offence"
+                  },
+                  {
+                    "es": "«traffic violation»",
+                    "en": "traffic violation"
+                  }
+                ],
+                [
+                  {
+                    "es": "delito",
+                    "en": "“delito”"
+                  },
+                  {
+                    "es": "«crime, criminal offence»",
+                    "en": "crime, criminal offence"
+                  },
+                  {
+                    "es": "«crime»",
+                    "en": "crime"
+                  }
+                ],
+                [
+                  {
+                    "es": "sanción, multa",
+                    "en": "“sanción, multa”"
+                  },
+                  {
+                    "es": "«sanction, fine»",
+                    "en": "sanction, fine"
+                  },
+                  {
+                    "es": "«penalty, ticket»",
+                    "en": "penalty, ticket"
+                  }
+                ],
+                [
+                  {
+                    "es": "inmovilización del vehículo",
+                    "en": "“inmovilización del vehículo”"
+                  },
+                  {
+                    "es": "«immobilisation of the vehicle»",
+                    "en": "immobilisation of the vehicle"
+                  },
+                  {
+                    "es": "«vehicle held on the spot»",
+                    "en": "vehicle held on the spot"
+                  }
+                ],
+                [
+                  {
+                    "es": "retirada y depósito del vehículo",
+                    "en": "“retirada y depósito del vehículo”"
+                  },
+                  {
+                    "es": "«removal and deposit of the vehicle»",
+                    "en": "removal and deposit of the vehicle"
+                  },
+                  {
+                    "es": "«towing to the impound lot»",
+                    "en": "towing to the impound lot"
+                  }
+                ],
+                [
+                  {
+                    "es": "aire espirado",
+                    "en": "“aire espirado”"
+                  },
+                  {
+                    "es": "«exhaled air, expired air»",
+                    "en": "exhaled air, expired air"
+                  },
+                  {
+                    "es": "«breath»",
+                    "en": "breath"
+                  }
+                ],
+                [
+                  {
+                    "es": "tasa de alcohol",
+                    "en": "“tasa de alcohol”"
+                  },
+                  {
+                    "es": "«alcohol rate, blood alcohol level»",
+                    "en": "alcohol rate, blood alcohol level"
+                  },
+                  {
+                    "es": "«BAC»",
+                    "en": "BAC"
+                  }
+                ],
+                [
+                  {
+                    "es": "dar positivo",
+                    "en": "“dar positivo”"
+                  },
+                  {
+                    "es": "«to give positive»",
+                    "en": "to give positive"
+                  },
+                  {
+                    "es": "«to test positive»",
+                    "en": "to test positive"
+                  }
+                ],
+                [
+                  {
+                    "es": "facultades psicofísicas",
+                    "en": "“facultades psicofísicas”"
+                  },
+                  {
+                    "es": "«psychophysical faculties»",
+                    "en": "psychophysical faculties"
+                  },
+                  {
+                    "es": "«fitness to drive»",
+                    "en": "fitness to drive"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los agentes pueden proceder a la **inmovilización** del vehículo por presuntas infracciones en los casos que fija la ley. La autoridad de tráfico puede proceder a la **retirada** del vehículo de la vía y a su **depósito** en el lugar que designe.",
+                "en": "Officers may **immobilise** the vehicle for suspected offences in the cases the law sets out. The traffic authority may **remove** the vehicle from the road and **deposit** it where it decides."
+              },
+              "src": "LSV arts. 104.1 y 105.1"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "examlang-retirada",
+                "answer": 0,
+                "es": {
+                  "q": "¿Qué medida consiste en llevar el vehículo fuera de la vía, a un depósito?",
+                  "options": [
+                    "La retirada del vehículo",
+                    "La inmovilización del vehículo",
+                    "La parada del vehículo"
+                  ],
+                  "why": "La retirada lleva el vehículo de la vía al depósito. La inmovilización lo deja donde está, sin poder circular."
+                },
+                "exam": {
+                  "q": "Which measure consists of taking the vehicle off the road, to a deposit?",
+                  "options": [
+                    "The removal of the vehicle.",
+                    "The immobilisation of the vehicle.",
+                    "The stop of the vehicle."
+                  ]
+                },
+                "en": {
+                  "q": "Which measure means taking the vehicle off the road to an impound lot?",
+                  "options": [
+                    "Removal (retirada)",
+                    "Immobilization (inmovilización)",
+                    "A stop (parada)"
+                  ],
+                  "why": "Removal takes the vehicle from the road to the impound lot. Immobilization leaves it where it is, unable to move on."
+                },
+                "terms": [
+                  {
+                    "es": "retirada del vehículo",
+                    "en": "removal of the vehicle (towing)"
+                  },
+                  {
+                    "es": "inmovilización",
+                    "en": "immobilisation"
+                  },
+                  {
+                    "es": "depósito",
+                    "en": "deposit (impound lot)"
+                  }
+                ],
+                "src": "LSV arts. 104.1 y 105.1"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "Circulate = circular; give way / yield way = ceder el paso; overtake = adelantar; invade = invadir.",
+          "en": "Circulate means circular; give way or yield way means ceder el paso; overtake means adelantar; invade means invadir."
+        },
+        {
+          "es": "Ceder el paso: no obligar al otro a cambiar bruscamente de trayectoria o de velocidad.",
+          "en": "Ceder el paso: do not force the other driver to change path or speed suddenly."
+        },
+        {
+          "es": "Cambio de dirección = giro; cambio de sentido = U-turn; desplazamiento lateral = cambio de carril.",
+          "en": "Cambio de dirección = turn; cambio de sentido = U-turn; desplazamiento lateral = lane change."
+        },
+        {
+          "es": "Velocidad anormalmente reducida: menos de 60 km/h en autopista y autovía, menos de la mitad de la genérica en las demás.",
+          "en": "Abnormally reduced speed: under 60 km/h on autopista and autovía, under half the generic limit elsewhere."
+        },
+        {
+          "es": "Inmovilización: el vehículo se queda. Retirada: se va al depósito.",
+          "en": "Immobilisation: the vehicle stays put. Removal: it goes to the impound lot."
+        }
+      ],
+      "src": [
+        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), arts. 26, 104 y 105; Anexo I, puntos 80 a 82",
+        "Reglamento General de Circulación (RD 1428/2003), arts. 20, 49, 74, 78 y 91"
+      ]
+    },
+    {
       "id": "traps",
       "title": {
         "es": "Trampas de redacción",
@@ -1242,28 +5562,28 @@
                 "id": "examlang-asiento-delantero",
                 "answer": 0,
                 "es": {
-                  "q": "Los menores de 135 cm o menos van en los asientos traseros. ¿En cuál de estos casos pueden ocupar excepcionalmente el asiento delantero, con un sistema de retención adecuado?",
+                  "q": "Tu hija mide 125 cm. Vais en un coche de dos plazas, sin asientos traseros. ¿Puede viajar delante?",
                   "options": [
-                    "Cuando el vehículo no dispone de asientos traseros",
-                    "Cuando el niño se marea en los asientos traseros",
-                    "Cuando el trayecto es corto"
+                    "Sí, excepcionalmente, en un sistema de retención adecuado",
+                    "Sí, siempre que el trayecto sea corto",
+                    "No: un menor de su talla nunca puede ir delante"
                   ],
                   "why": "Las excepciones son tres: no hay asientos traseros, todos los traseros están ocupados por menores, o no se pueden instalar allí todos los sistemas. Marearse o hacer un viaje corto no cuentan."
                 },
                 "exam": {
-                  "q": "The minors of 135 cm or less go in the rear seats. In which of these cases can they occupy exceptionally the front seat, with a suitable restraint system?",
+                  "q": "Your daughter measures 125 cm. You go in a car of two seats, without rear seats. Can she travel in front?",
                   "options": [
-                    "When the vehicle does not have rear seats.",
-                    "When the child gets dizzy in the rear seats.",
-                    "When the journey is short."
+                    "Yes, exceptionally, in a suitable restraint system.",
+                    "Yes, provided that the journey is short.",
+                    "No: a minor of her height can never go in front."
                   ]
                 },
                 "en": {
-                  "q": "The minors of 135 cm or less travel in the rear seats. In which of these cases can they exceptionally occupy the front seat, using a suitable restraint system?",
+                  "q": "Your daughter is 125 cm tall. You are in a two-seater car with no rear seats. Can she travel in front?",
                   "options": [
-                    "When the vehicle does not have rear seats",
-                    "When the child gets dizzy in the rear seats",
-                    "When the trip is short"
+                    "Yes, exceptionally, in a suitable restraint system",
+                    "Yes, provided that the trip is short",
+                    "No: a child of her height can never sit in front"
                   ],
                   "why": "There are three exceptions: no rear seats, all rear seats taken by minors, or not all the systems can be fitted there. Feeling dizzy or a short trip do not count."
                 },

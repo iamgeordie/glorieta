@@ -755,6 +755,50 @@
                 ],
                 "src": "RGC art. 86.3"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c2f",
+                "answer": 1,
+                "es": {
+                  "q": "Conduces un camión y no puedes pegarte del todo al borde derecho, pero el coche de detrás puede adelantarte con seguridad. ¿Cómo se lo indicas?",
+                  "options": [
+                    "Con el intermitente izquierdo",
+                    "Con el brazo horizontal, moviéndolo de atrás adelante con el dorso de la mano hacia atrás",
+                    "Con varios destellos de luces de freno"
+                  ],
+                  "why": "El brazo extendido en horizontal, moviéndolo varias veces de atrás adelante con el dorso de la mano hacia atrás, indica que puede adelantarte. Si no conviene usar el brazo, usa el intermitente derecho."
+                },
+                "exam": {
+                  "q": "You drive a lorry and you cannot adhere completely to the right edge, but the car behind can overtake you with safety. How do you indicate it to him?",
+                  "options": [
+                    "With the left direction indicator.",
+                    "With the arm horizontal, moving it from back to front with the back of the hand towards behind.",
+                    "With several flashes of brake lights."
+                  ]
+                },
+                "en": {
+                  "q": "You drive a truck and cannot keep fully to the right edge, but the car behind can overtake you safely. How do you tell its driver?",
+                  "options": [
+                    "With the left turn signal",
+                    "With your arm horizontal, waving it back and forth, back of the hand facing the rear",
+                    "With several flashes of the brake lights"
+                  ],
+                  "why": "Arm extended horizontally, moved back and forth several times with the back of the hand to the rear, tells the driver behind it can pass. If the arm signal is not advisable, use the right turn signal."
+                },
+                "terms": [
+                  {
+                    "es": "ceñirse al borde derecho",
+                    "en": "keep to the right edge"
+                  },
+                  {
+                    "es": "dorso de la mano",
+                    "en": "back of the hand"
+                  }
+                ],
+                "src": "RGC art. 86.1"
+              }
             }
           ]
         },
@@ -974,6 +1018,10 @@
         {
           "es": "Con **tráfico denso**, ir más rápido por otro carril no es adelantar, y no debes cambiar de carril para ello.",
           "en": "In **heavy traffic**, moving faster in another lane is not overtaking, and you must not change lanes for it."
+        },
+        {
+          "es": "Si llevas un vehículo pesado y pueden adelantarte con seguridad, indícalo con el **brazo** o con el **intermitente derecho**.",
+          "en": "If you drive a heavy vehicle and others can pass you safely, say so with your **arm** or your **right turn signal**."
         }
       ],
       "covers": [
@@ -1185,6 +1233,12 @@
                 "en": "In **tunnels**, underpasses and stretches with the “Tunnel” sign (S-5), overtaking is forbidden when there is only one lane for your direction."
               },
               "src": "RGC art. 87.1.d"
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "s-5"
+              ]
             },
             {
               "t": "check",
@@ -1470,6 +1524,51 @@
                 ],
                 "src": "RGC Anexo I, ap. 5.1, 3.5 (R-305) y 3.7 (R-500, R-502)",
                 "sign": "r-305"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c3g",
+                "answer": 0,
+                "sign": "r-306",
+                "es": {
+                  "q": "Conduces un camión de 3.000 kg de masa máxima autorizada y pasas junto a esta señal. ¿Puedes adelantar a otros vehículos?",
+                  "options": [
+                    "Sí: la señal solo se aplica a camiones de más de 3.500 kg",
+                    "No: prohíbe adelantar a todos los camiones",
+                    "No: prohíbe adelantar a todos los vehículos"
+                  ],
+                  "why": "La R-306 prohíbe adelantar a vehículos a motor solo a los camiones con MMA superior a 3.500 kg. Un camión más ligero, un turismo o un autobús pueden adelantar, si el resto de normas lo permite."
+                },
+                "exam": {
+                  "q": "You drive a lorry of 3,000 kg of maximum authorised mass and you pass next to this sign. Can you overtake other vehicles?",
+                  "options": [
+                    "Yes: the sign is only applied to lorries of more than 3,500 kg.",
+                    "No: it prohibits overtaking to all the lorries.",
+                    "No: it prohibits overtaking to all the vehicles."
+                  ]
+                },
+                "en": {
+                  "q": "You drive a truck with a maximum authorized mass of 3,000 kg and pass this sign. May you overtake other vehicles?",
+                  "options": [
+                    "Yes: the sign applies only to trucks over 3,500 kg",
+                    "No: it bans overtaking for all trucks",
+                    "No: it bans overtaking for all vehicles"
+                  ],
+                  "why": "R-306 bans overtaking motor vehicles only for trucks with a maximum authorized mass over 3,500 kg. A lighter truck, a car or a bus may overtake, if the other rules allow it."
+                },
+                "terms": [
+                  {
+                    "es": "masa máxima autorizada (MMA)",
+                    "en": "maximum authorised mass (MAM)"
+                  },
+                  {
+                    "es": "camión",
+                    "en": "lorry (truck)"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.5 (R-306)"
               }
             }
           ]
@@ -1814,28 +1913,28 @@
                 "id": "overtaking-c4b",
                 "answer": 2,
                 "es": {
-                  "q": "Una señal limita la carretera, fuera de poblado, a 80 km/h. Vas a adelantar a un ciclista. ¿A qué velocidad máxima debes hacerlo?",
+                  "q": "Fuera de poblado, en un tramo con límite de 80 km/h, alcanzas a un ciclista y la vía está libre para adelantarlo. ¿Cuál es la velocidad más alta a la que puedes rebasarlo?",
                   "options": [
-                    "A 80 km/h como máximo",
-                    "A 70 km/h como máximo",
-                    "A 60 km/h como máximo"
+                    "100 km/h: puedes superar el límite en 20 para adelantar",
+                    "80 km/h: el límite del tramo",
+                    "60 km/h: 20 por debajo del límite"
                   ],
                   "why": "Fuera de poblado debes reducir al menos 20 km/h respecto al límite antes de empezar y durante toda la maniobra: 80 menos 20 son 60 km/h."
                 },
                 "exam": {
-                  "q": "A sign limits the road, outside of town, to 80 km/h. You are going to overtake a cyclist. At which maximum speed must you do it?",
+                  "q": "Outside of town, on a section with a limit of 80 km/h, you reach a cyclist and the road is free to overtake him. Which is the highest speed at which you can pass him?",
                   "options": [
-                    "At 80 km/h as maximum.",
-                    "At 70 km/h as maximum.",
-                    "At 60 km/h as maximum."
+                    "100 km/h: you can exceed the limit by 20 in order to overtake.",
+                    "80 km/h: the limit of the section.",
+                    "60 km/h: 20 below the limit."
                   ]
                 },
                 "en": {
-                  "q": "A sign limits the road, outside a built-up area, to 80 km/h. You will overtake a cyclist. What is your maximum speed while doing it?",
+                  "q": "Out of town, on a stretch limited to 80 km/h, you catch up with a cyclist and the road is clear to overtake. What is the highest speed at which you may pass?",
                   "options": [
-                    "80 km/h at most",
-                    "70 km/h at most",
-                    "60 km/h at most"
+                    "100 km/h: you may go 20 over the limit to overtake",
+                    "80 km/h: the limit for the stretch",
+                    "60 km/h: 20 below the limit"
                   ],
                   "why": "Outside a built-up area you must reduce your speed by at least 20 km/h below the limit before you start and throughout the maneuver: 80 minus 20 is 60 km/h."
                 },
@@ -1951,6 +2050,98 @@
                 ],
                 "src": "RGC art. 85.4"
               }
+            },
+            {
+              "t": "rule",
+              "src": "RGC art. 85.1",
+              "text": {
+                "es": "En poblado no hay una cifra fija para la moto que adelanta a otro vehículo. Todo el que adelanta debe dejar una **separación lateral suficiente** para hacerlo con seguridad.",
+                "en": "In town there is no fixed figure for a motorcycle overtaking another vehicle. Anyone who overtakes must leave **enough side clearance** to do it safely."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c4f",
+                "answer": 2,
+                "es": {
+                  "q": "Conduces una motocicleta fuera de poblado y adelantas a un turismo. ¿Qué separación lateral debes dejar?",
+                  "options": [
+                    "La que quieras, porque la moto es estrecha",
+                    "Al menos 1 metro",
+                    "No menos de 1,50 metros"
+                  ],
+                  "why": "Fuera de poblado, el conductor de un vehículo de dos ruedas que adelanta a otro cualquiera deja al menos 1,50 metros hasta sus partes más salientes."
+                },
+                "exam": {
+                  "q": "You drive a motorcycle outside town and you overtake a passenger car. What lateral separation must you leave?",
+                  "options": [
+                    "The one you want, because the motorcycle is narrow.",
+                    "At least 1 metre.",
+                    "Not less than 1.50 metres."
+                  ]
+                },
+                "en": {
+                  "q": "You ride a motorcycle outside a town and overtake a car. How much side clearance must you leave?",
+                  "options": [
+                    "Whatever you like, since a motorcycle is narrow",
+                    "At least 1 meter",
+                    "No less than 1.5 meters"
+                  ],
+                  "why": "Outside a town, the rider of a two-wheeler who overtakes any vehicle leaves at least 1.5 meters to its most protruding parts."
+                },
+                "terms": [
+                  {
+                    "es": "separación lateral",
+                    "en": "lateral separation (side clearance)"
+                  },
+                  {
+                    "es": "vehículo de dos ruedas",
+                    "en": "two-wheeled vehicle"
+                  }
+                ],
+                "src": "RGC art. 85.5"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c4g",
+                "answer": 0,
+                "es": {
+                  "q": "Conduces una motocicleta en poblado y adelantas a una furgoneta. ¿Qué separación lateral exige la norma?",
+                  "options": [
+                    "Una suficiente para hacerlo con seguridad, sin cifra fija",
+                    "Exactamente 1,50 metros",
+                    "Ninguna, porque en poblado se va despacio"
+                  ],
+                  "why": "La cifra de 1,50 metros para los vehículos de dos ruedas rige fuera de poblado. En poblado se exige una separación lateral suficiente para adelantar con seguridad."
+                },
+                "exam": {
+                  "q": "You drive a motorcycle in town and you overtake a van. What lateral separation does the rule require?",
+                  "options": [
+                    "A sufficient one in order to do it with safety, without fixed number.",
+                    "Exactly 1.50 metres.",
+                    "None, because in town one goes slowly."
+                  ]
+                },
+                "en": {
+                  "q": "You ride a motorcycle in town and overtake a van. What side clearance does the rule require?",
+                  "options": [
+                    "Enough to do it safely, with no fixed number",
+                    "Exactly 1.5 meters",
+                    "None, because traffic in town is slow"
+                  ],
+                  "why": "The 1.5-meter figure for two-wheelers applies outside towns. In town the law asks for enough side clearance to overtake safely."
+                },
+                "terms": [
+                  {
+                    "es": "en poblado",
+                    "en": "in town (built-up area)"
+                  }
+                ],
+                "src": "RGC art. 85.1 y 85.5"
+              }
             }
           ]
         },
@@ -2045,6 +2236,10 @@
         {
           "es": "Con **línea continua** puedes pasar a un ciclista si lo haces sin riesgo para nadie.",
           "en": "Over a **solid line** you may pass a cyclist if you do it without risk to anyone."
+        },
+        {
+          "es": "En moto, fuera de poblado, deja **1,50 m** a quien adelantas. En poblado, una separación **suficiente**.",
+          "en": "On a motorcycle outside a town, leave **1.5 m** to whoever you overtake. In town, **enough** clearance."
         }
       ],
       "covers": [
@@ -2052,7 +2247,7 @@
         "hazards-05"
       ],
       "src": [
-        "Reglamento General de Circulación (RD 1428/2003), arts. 85.4, 85.5 y 88.2; Anexo I, ap. 5.2 (marcas viales) (art. 85 en la redacción del RD 518/2026, en vigor desde el 1 de octubre de 2026)"
+        "Reglamento General de Circulación (RD 1428/2003), arts. 85.1, 85.4, 85.5 y 88.2; Anexo I, ap. 5.2 (marcas viales) (art. 85 en la redacción del RD 518/2026, en vigor desde el 1 de octubre de 2026)"
       ]
     },
     {
@@ -2547,6 +2742,12 @@
             {
               "t": "signs",
               "ids": [
+                "s-5"
+              ]
+            },
+            {
+              "t": "signs",
+              "ids": [
                 "r-304",
                 "r-303"
               ],
@@ -2734,7 +2935,7 @@
         "es": "Marcha atrás y señales de maniobra",
         "en": "Reversing and maneuver signals"
       },
-      "minutes": 7,
+      "minutes": 9,
       "goals": [
         {
           "es": "Saber cuándo y cuánto se puede ir marcha atrás.",
@@ -3026,28 +3227,28 @@
                 "id": "overtaking-c6c",
                 "answer": 2,
                 "es": {
-                  "q": "Acabas de desplazarte hacia un lado con el intermitente puesto. ¿Cuándo debe terminar el aviso?",
+                  "q": "Te cambias al carril izquierdo de la autovía para adelantar. Ya circulas recto por él. ¿Qué haces con el intermitente?",
                   "options": [
-                    "Cuando el siguiente coche te adelante",
-                    "Cuando termines el viaje",
-                    "Tan pronto como el vehículo ha adoptado su nueva trayectoria"
+                    "Lo mantienes hasta volver al carril de la derecha",
+                    "Lo mantienes hasta que el coche adelantado quede atrás",
+                    "Lo apagas, porque ya has terminado de desplazarte"
                   ],
                   "why": "En un desplazamiento lateral solo se avisa ese movimiento, así que el aviso concluye en cuanto el vehículo sigue su nueva trayectoria."
                 },
                 "exam": {
-                  "q": "You have just moved towards a side with the indicator put. When must the warning finish?",
+                  "q": "You change to the left lane of the dual carriageway in order to overtake. You already circulate straight by it. What do you do with the indicator?",
                   "options": [
-                    "When the following car overtakes you.",
-                    "When you finish the trip.",
-                    "As soon as the vehicle has adopted its new trajectory."
+                    "You keep it until returning to the lane of the right.",
+                    "You keep it until the overtaken car remains behind.",
+                    "You switch it off, because you have already finished moving sideways."
                   ]
                 },
                 "en": {
-                  "q": "You have just moved sideways with your turn signal on. When must the signal end?",
+                  "q": "You move into the left lane of the autovía to overtake. You are now driving straight in it. What do you do with the indicator?",
                   "options": [
-                    "When the next car overtakes you",
-                    "When you finish your trip",
-                    "As soon as the vehicle is on its new path"
+                    "Keep it on until you are back in the right lane",
+                    "Keep it on until the overtaken car is behind you",
+                    "Switch it off, since your sideways move is complete"
                   ],
                   "why": "In a sideways move only that move is signaled, so the signal ends as soon as the vehicle follows its new path."
                 },
@@ -3058,6 +3259,177 @@
                   }
                 ],
                 "src": "RGC art. 109.2.a"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Señales con el brazo",
+            "en": "Arm signals"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "src": "RGC art. 108.2",
+              "text": {
+                "es": "Las señales con el brazo valen si los demás las ven y se hacen como manda la norma. Entonces **anulan** cualquier otra señal luminosa que las contradiga.",
+                "en": "Arm signals count if others can see them and they are made as the rule says. Then they **cancel** any light signal that contradicts them."
+              }
+            },
+            {
+              "t": "rule",
+              "src": "RGC art. 109.2.a y 109.2.b",
+              "text": {
+                "es": "Para ir a un lado: brazo **horizontal**, palma hacia abajo, si vas hacia el lado de ese brazo; doblado **hacia arriba**, con la palma extendida, si vas hacia el otro lado. Para la marcha atrás: brazo horizontal con la **palma hacia atrás**.",
+                "en": "To move to one side: arm **horizontal**, palm down, if you go toward that arm’s side; bent **upward**, palm open, if you go toward the other side. For reversing: arm horizontal with the **palm facing back**."
+              }
+            },
+            {
+              "t": "example",
+              "title": {
+                "es": "El intermitente no funciona",
+                "en": "The turn signal does not work"
+              },
+              "situation": {
+                "es": "Vas a girar a la izquierda y tu intermitente está roto.",
+                "en": "You will turn left and your turn signal is broken."
+              },
+              "action": {
+                "es": "Saca el brazo izquierdo en horizontal, con la palma hacia abajo.",
+                "en": "Put your left arm out horizontally, palm down."
+              },
+              "why": {
+                "es": "El desplazamiento es hacia el lado del brazo, así que va horizontal.",
+                "en": "The move is toward that arm’s side, so it is held horizontal."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c6f",
+                "answer": 1,
+                "es": {
+                  "q": "Un vehículo lleva puesto el intermitente derecho, pero su conductor indica con el brazo que va a girar a la izquierda. ¿Qué señal vale?",
+                  "options": [
+                    "El intermitente, porque es luminoso",
+                    "La del brazo",
+                    "Ninguna de las dos"
+                  ],
+                  "why": "Una señal con el brazo bien hecha y visible anula cualquier señal luminosa que la contradiga."
+                },
+                "exam": {
+                  "q": "A vehicle carries switched on the right direction indicator, but its driver indicates with the arm that he is going to turn to the left. Which signal is valid?",
+                  "options": [
+                    "The direction indicator, because it is luminous.",
+                    "The one of the arm.",
+                    "None of the two."
+                  ]
+                },
+                "en": {
+                  "q": "A vehicle has its right turn signal on, but the driver signals with an arm that they will turn left. Which signal counts?",
+                  "options": [
+                    "The turn signal, because it is a light",
+                    "The arm signal",
+                    "Neither of them"
+                  ],
+                  "why": "A visible arm signal, made correctly, cancels any light signal that contradicts it."
+                },
+                "terms": [
+                  {
+                    "es": "señal con el brazo",
+                    "en": "arm signal"
+                  },
+                  {
+                    "es": "anular",
+                    "en": "to cancel (override)"
+                  }
+                ],
+                "src": "RGC art. 108.2"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c6g",
+                "answer": 0,
+                "es": {
+                  "q": "El intermitente derecho de tu moto se ha fundido y vas a girar a la derecha. ¿Cómo lo indicas con el brazo izquierdo?",
+                  "options": [
+                    "Doblado y levantado, con la palma extendida",
+                    "Extendido en horizontal, con la palma hacia abajo",
+                    "Extendido en horizontal, con la palma hacia atrás"
+                  ],
+                  "why": "Si el desplazamiento es hacia el lado contrario al brazo que usas, el brazo va doblado hacia arriba con la palma extendida. Horizontal con la palma hacia abajo es para el mismo lado del brazo."
+                },
+                "exam": {
+                  "q": "The right indicator of your motorcycle has fused and you are going to turn to the right. How do you indicate it with the left arm?",
+                  "options": [
+                    "Bent and raised, with the palm extended.",
+                    "Extended horizontally, with the palm downwards.",
+                    "Extended horizontally, with the palm backwards."
+                  ]
+                },
+                "en": {
+                  "q": "Your motorcycle's right indicator has blown and you are about to turn right. How do you show it with your left arm?",
+                  "options": [
+                    "Bent upward, palm open",
+                    "Held out level, palm down",
+                    "Held out level, palm facing back"
+                  ],
+                  "why": "If the move is toward the side opposite the arm you use, the arm is bent upward with the palm open. Horizontal with the palm down is for the same side as the arm."
+                },
+                "terms": [
+                  {
+                    "es": "palma de la mano",
+                    "en": "palm of the hand"
+                  },
+                  {
+                    "es": "desplazamiento lateral",
+                    "en": "lateral displacement (sideways move)"
+                  }
+                ],
+                "src": "RGC art. 109.2.a"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c6h",
+                "answer": 2,
+                "es": {
+                  "q": "Un conductor saca el brazo por la ventanilla, estirado en horizontal y con la mano mirando hacia atrás. ¿Qué maniobra anuncia?",
+                  "options": [
+                    "Que te deja adelantarle",
+                    "Que va a frenar fuerte",
+                    "Que va a ir marcha atrás"
+                  ],
+                  "why": "La marcha atrás se avisa con la luz de marcha atrás o, si no la hay, con el brazo horizontal y la palma hacia atrás."
+                },
+                "exam": {
+                  "q": "A driver takes out the arm through the window, stretched horizontally and with the hand looking backwards. What manoeuvre does he announce?",
+                  "options": [
+                    "That he lets you overtake him.",
+                    "That he is going to brake hard.",
+                    "That he is going to go in reverse."
+                  ]
+                },
+                "en": {
+                  "q": "A driver puts an arm out of the window, straight out to the side, with the hand turned back. Which manoeuvre is being announced?",
+                  "options": [
+                    "That you may overtake them",
+                    "That they are about to brake hard",
+                    "That they are about to reverse"
+                  ],
+                  "why": "Reversing is signaled with the reversing light or, without one, with the arm horizontal and the palm facing back."
+                },
+                "terms": [
+                  {
+                    "es": "marcha atrás",
+                    "en": "reverse"
+                  }
+                ],
+                "src": "RGC art. 109.2.b"
               }
             }
           ]
@@ -3205,6 +3577,74 @@
               }
             }
           ]
+        },
+        {
+          "title": {
+            "es": "Incorporarte a la circulación",
+            "en": "Joining traffic"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "src": "RGC art. 72.1",
+              "text": {
+                "es": "Si sales de una parada, de un estacionamiento o de una propiedad para **incorporarte a la circulación**, comprueba antes que no pones en peligro a nadie. Si hace falta, sigue las indicaciones de **otra persona**. Cede el paso a los vehículos que vienen.",
+                "en": "If you pull out from a stop, a parking space or a property to **join traffic**, first check that you endanger no one. If needed, follow **another person’s** directions. Give way to the vehicles coming."
+              }
+            },
+            {
+              "t": "rule",
+              "src": "RGC art. 72.3",
+              "text": {
+                "es": "La incorporación se **señala siempre** con las señales ópticas del artículo 109, como el intermitente.",
+                "en": "Joining traffic is **always signaled** with the visual signals of article 109, such as the turn signal."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c6i",
+                "answer": 1,
+                "es": {
+                  "q": "Estás parado junto a la acera y vas a incorporarte a la circulación casi en línea recta. ¿Debes señalizarlo?",
+                  "options": [
+                    "No, porque apenas te desplazas a un lado",
+                    "Sí, con las señales ópticas, como el intermitente",
+                    "Solo si viene otro vehículo"
+                  ],
+                  "why": "Quien se incorpora a la circulación debe advertirlo ópticamente, y además ceder el paso a los vehículos que circulan."
+                },
+                "exam": {
+                  "q": "You are stopped next to the pavement and you are going to join the traffic almost in a straight line. Must you signal it?",
+                  "options": [
+                    "No, because you hardly move to one side.",
+                    "Yes, with the optical signals, as the direction indicator.",
+                    "Only if another vehicle comes."
+                  ]
+                },
+                "en": {
+                  "q": "You are stopped at the curb and will pull out into traffic almost in a straight line. Must you signal?",
+                  "options": [
+                    "No, because you barely move sideways",
+                    "Yes, with visual signals such as the turn signal",
+                    "Only if another vehicle is coming"
+                  ],
+                  "why": "A driver who joins traffic must signal it visually, and must give way to the vehicles already moving."
+                },
+                "terms": [
+                  {
+                    "es": "incorporarse a la circulación",
+                    "en": "enter traffic (join traffic)"
+                  },
+                  {
+                    "es": "señales ópticas",
+                    "en": "optical (visual) signals"
+                  }
+                ],
+                "src": "RGC art. 72.1 y 72.3"
+              }
+            }
+          ]
         }
       ],
       "recap": [
@@ -3227,11 +3667,15 @@
         {
           "es": "El **claxon** solo en casos justificados. Las **ráfagas** pueden sustituirlo, incluso en poblado.",
           "en": "The **horn** only in justified cases. **Headlight flashes** may replace it, even in town."
+        },
+        {
+          "es": "Una señal con el **brazo** bien hecha anula la luz que la contradiga. Al **incorporarte** a la circulación, señaliza y cede el paso.",
+          "en": "A correct **arm** signal cancels a light that contradicts it. When you **join traffic**, signal and give way."
         }
       ],
       "covers": [],
       "src": [
-        "Reglamento General de Circulación (RD 1428/2003), arts. 80, 81, 108, 109 y 110"
+        "Reglamento General de Circulación (RD 1428/2003), arts. 72, 80, 81, 108, 109 y 110"
       ]
     }
   ]

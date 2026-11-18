@@ -5,8 +5,8 @@
     "en": "Signs and road markings"
   },
   "blurb": {
-    "es": "Quién manda entre las señales, qué significan las de peligro y reglamentación, y cómo leer las marcas del suelo.",
-    "en": "Which signal rules, what warning and regulatory signs mean, and how to read the markings on the road."
+    "es": "Quién manda entre las señales, qué significan las de peligro, reglamentación e indicación, y cómo leer las marcas del suelo.",
+    "en": "Which signal rules, what warning, regulatory and information signs mean, and how to read the markings on the road."
   },
   "lessons": [
     {
@@ -415,6 +415,14 @@
               }
             },
             {
+              "t": "rule",
+              "src": "RGC art. 142.1 y Anexo I, ap. 2",
+              "text": {
+                "es": "La **señalización circunstancial** adapta la circulación a lo que pasa en cada momento. Sirve para informar, avisar de peligros y dar recomendaciones o **instrucciones de obligado cumplimiento**. Los **paneles de mensaje variable** muestran estos mensajes, y nunca más de dos alternados.",
+                "en": "**Temporary signing** adapts traffic to what is happening at each moment. It is used to inform, warn of dangers, and give recommendations or **instructions you must obey**. **Variable message panels** show these messages, never more than two in alternation."
+              }
+            },
+            {
               "t": "check",
               "q": {
                 "id": "signs-order-c",
@@ -456,6 +464,50 @@
                   }
                 ],
                 "src": "RGC art. 133.1.b"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-order-g",
+                "answer": 2,
+                "es": {
+                  "q": "Un panel de mensaje variable muestra «Prohibido adelantar». ¿Tienes que cumplirlo?",
+                  "options": [
+                    "No: los paneles solo informan",
+                    "Solo si hay también una señal fija igual",
+                    "Sí: la señalización circunstancial puede dar instrucciones obligatorias"
+                  ],
+                  "why": "Los paneles de mensaje variable son señalización circunstancial, que puede informar, avisar, recomendar o dar instrucciones de obligado cumplimiento. Además, va por delante de las señales fijas."
+                },
+                "exam": {
+                  "q": "A variable message panel shows “Overtaking prohibited”. Do you have to comply with it?",
+                  "options": [
+                    "No: the panels only inform.",
+                    "Only if there is also an equal fixed sign.",
+                    "Yes: the circumstantial signalling can give mandatory instructions."
+                  ]
+                },
+                "en": {
+                  "q": "A variable message panel shows “No overtaking”. Must you obey it?",
+                  "options": [
+                    "No: panels only give information",
+                    "Only if there is also a matching fixed sign",
+                    "Yes: temporary signing can give compulsory instructions"
+                  ],
+                  "why": "Variable message panels are temporary signing, which can inform, warn, recommend or give instructions you must obey. It also takes precedence over fixed signs."
+                },
+                "terms": [
+                  {
+                    "es": "panel de mensaje variable",
+                    "en": "variable message panel"
+                  },
+                  {
+                    "es": "de obligado cumplimiento",
+                    "en": "mandatory"
+                  }
+                ],
+                "src": "RGC arts. 133.1 y 142.1; Anexo I, ap. 2"
               }
             }
           ]
@@ -665,8 +717,8 @@
                     "en": "Gives useful information: lanes, services, direction, supplementary panels."
                   },
                   {
-                    "es": "No las repasamos una a una aquí",
-                    "en": "Not reviewed one by one here"
+                    "es": "Lecciones 6 y 7",
+                    "en": "Lessons 6 and 7"
                   }
                 ],
                 [
@@ -679,8 +731,8 @@
                     "en": "Regulate, warn or guide, alone or together with other signals."
                   },
                   {
-                    "es": "Lección 6",
-                    "en": "Lesson 6"
+                    "es": "Lección 8",
+                    "en": "Lesson 8"
                   }
                 ]
               ]
@@ -1309,8 +1361,8 @@
             {
               "t": "rule",
               "text": {
-                "es": "Una luz roja intermitente, o dos luces rojas que se encienden alternativamente, prohíben temporalmente el paso antes de un paso a nivel o de la entrada a un puente móvil.",
-                "en": "A flashing red light, or two red lights that flash alternately, temporarily forbid passing before a level crossing or the entrance to a movable bridge."
+                "es": "Una luz roja intermitente, o dos luces rojas que parpadean de forma alterna, prohíben pasar por un tiempo: antes de un paso a nivel, de la entrada a un puente móvil o a un pontón transbordador, cerca de una salida de vehículos de extinción de incendios o cuando se acerca una aeronave a poca altura.",
+                "en": "A flashing red light, or two red lights that flash alternately, forbid passing for a while: before a level crossing, the entrance to a movable bridge or a ferry pontoon, near an exit for fire-fighting vehicles, or when an aircraft is approaching at low height."
               },
               "src": "RGC Anexo I, ap. 4.2.b"
             },
@@ -1361,6 +1413,50 @@
                   {
                     "es": "luz roja intermitente",
                     "en": "flashing red light"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 4.2.b"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-warn-h",
+                "answer": 0,
+                "es": {
+                  "q": "Junto a la salida de un parque de bomberos se encienden dos luces rojas que parpadean de forma alterna. ¿Qué haces?",
+                  "options": [
+                    "No pasas mientras sigan encendidas",
+                    "Pasas despacio y con precaución",
+                    "Pasas si no ves salir ningún camión"
+                  ],
+                  "why": "Una luz roja intermitente o dos alternas prohíben pasar por un tiempo, por ejemplo cerca de una salida de vehículos de extinción de incendios."
+                },
+                "exam": {
+                  "q": "Next to the exit of a fire station two red lights that flash alternately switch on. What do you do?",
+                  "options": [
+                    "You do not pass while they remain switched on.",
+                    "You pass slowly and with precaution.",
+                    "You pass if you do not see any lorry come out."
+                  ]
+                },
+                "en": {
+                  "q": "Next to a fire station exit, two red lights start flashing alternately. What do you do?",
+                  "options": [
+                    "You do not go past while they are on",
+                    "You go past slowly and carefully",
+                    "You go past if you see no fire engine coming out"
+                  ],
+                  "why": "A flashing red light, or two alternating ones, forbids passing for a while, for example near an exit for fire-fighting vehicles."
+                },
+                "terms": [
+                  {
+                    "es": "luz roja intermitente",
+                    "en": "flashing red light"
+                  },
+                  {
+                    "es": "vehículos de extinción de incendios",
+                    "en": "fire-fighting vehicles"
                   }
                 ],
                 "src": "RGC Anexo I, ap. 4.2.b"
@@ -1689,6 +1785,14 @@
               }
             },
             {
+              "t": "rule",
+              "src": "RGC Anexo I, ap. 3.1.2",
+              "text": {
+                "es": "Los **paneles direccionales permanentes** marcan el trazado de una curva, para que reduzcas la velocidad lo necesario, y te indican el sentido de circulación.",
+                "en": "**Permanent directional panels** mark the line of a curve, so that you slow down as much as you need to, and show you the direction of traffic."
+              }
+            },
+            {
               "t": "check",
               "q": {
                 "id": "signs-road-a",
@@ -1726,6 +1830,50 @@
                   }
                 ],
                 "src": "Catálogo oficial (señales P-16)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-road-g",
+                "answer": 1,
+                "es": {
+                  "q": "En una curva hay paneles direccionales permanentes. ¿Para qué sirven?",
+                  "options": [
+                    "Para anunciar una salida de la vía",
+                    "Para marcar el trazado de la curva y el sentido de circulación",
+                    "Para prohibir el adelantamiento"
+                  ],
+                  "why": "Los paneles direccionales permanentes marcan el trazado de una curva, en relación con la velocidad que debes reducir, e indican el sentido de circulación."
+                },
+                "exam": {
+                  "q": "In a curve there are permanent directional panels. What are they for?",
+                  "options": [
+                    "In order to announce an exit of the road.",
+                    "In order to mark the layout of the curve and the direction of circulation.",
+                    "In order to prohibit the overtaking."
+                  ]
+                },
+                "en": {
+                  "q": "There are permanent directional panels at a curve. What are they for?",
+                  "options": [
+                    "To announce an exit from the road",
+                    "To mark the line of the curve and the direction of traffic",
+                    "To forbid overtaking"
+                  ],
+                  "why": "Permanent directional panels mark the line of a curve, in relation to how much you must slow down, and show the direction of traffic."
+                },
+                "terms": [
+                  {
+                    "es": "panel direccional",
+                    "en": "directional panel"
+                  },
+                  {
+                    "es": "trazado",
+                    "en": "layout, line of the road"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 3.1.2"
               }
             }
           ]
@@ -2114,6 +2262,14 @@
               "src": "RGC art. 60.5"
             },
             {
+              "t": "rule",
+              "src": "RGC Anexo I, ap. 3.1.1",
+              "text": {
+                "es": "Un **panel direccional provisional** prohíbe el paso y te indica el sentido de circulación. Las balizas de borde provisionales y los **conos** prohíben pasar por la línea, real o imaginaria, que los une.",
+                "en": "A **provisional directional panel** forbids passing and shows you the direction of traffic. Provisional edge beacons and **cones** forbid crossing the line, real or imaginary, that joins them."
+              }
+            },
+            {
               "t": "check",
               "q": {
                 "id": "signs-road-f",
@@ -2151,6 +2307,50 @@
                   }
                 ],
                 "src": "RGC art. 60.5"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-road-h",
+                "answer": 2,
+                "es": {
+                  "q": "En unas obras, una fila de conos separa tu carril de otro cerrado. No ves a ningún operario. ¿Puedes pasar entre los conos?",
+                  "options": [
+                    "Sí, si no hay operarios trabajando",
+                    "Sí, para adelantar a un vehículo lento",
+                    "No: los conos prohíben pasar por la línea que los une"
+                  ],
+                  "why": "Los conos son elementos de balizamiento: prohíben pasar por la línea que los une, haya o no operarios. Como señalización circunstancial, van por delante de semáforos, señales y marcas."
+                },
+                "exam": {
+                  "q": "In some works, a row of cones separates your lane from another closed one. You do not see any worker. Can you pass between the cones?",
+                  "options": [
+                    "Yes, if there are no workers working.",
+                    "Yes, in order to overtake a slow vehicle.",
+                    "No: the cones prohibit passing through the line that joins them."
+                  ]
+                },
+                "en": {
+                  "q": "At roadworks a row of cones separates your lane from a closed one. You see no workers. May you pass between the cones?",
+                  "options": [
+                    "Yes, if nobody is working",
+                    "Yes, to overtake a slow vehicle",
+                    "No: cones forbid crossing the line that joins them"
+                  ],
+                  "why": "Cones are marker devices: they forbid crossing the line that joins them, whether or not workers are there. As temporary signing, they take precedence over traffic lights, signs and markings."
+                },
+                "terms": [
+                  {
+                    "es": "conos",
+                    "en": "cones"
+                  },
+                  {
+                    "es": "balizamiento",
+                    "en": "marker devices"
+                  }
+                ],
+                "src": "RGC art. 133.1 y Anexo I, ap. 3.1.1"
               }
             }
           ]
@@ -3387,6 +3587,14 @@
               }
             },
             {
+              "t": "rule",
+              "src": "RGC Anexo I, ap. 5.1, 3.6 (R-400)",
+              "text": {
+                "es": "En las señales de **sentido obligatorio**, la flecha señala la dirección y el sentido que los vehículos están obligados a seguir.",
+                "en": "On **compulsory direction** signs, the arrow shows the direction and way that vehicles are obliged to follow."
+              }
+            },
+            {
               "t": "check",
               "q": {
                 "id": "signs-ban-d",
@@ -3424,6 +3632,51 @@
                   }
                 ],
                 "src": "Catálogo oficial (señal R-403a)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-ban-g",
+                "answer": 1,
+                "sign": "r-400c",
+                "es": {
+                  "q": "Esta señal está antes de una intersección. ¿Puedes girar o cambiar de sentido en ella?",
+                  "options": [
+                    "Sí, si no viene nadie",
+                    "No: debes seguir la dirección y el sentido de la flecha",
+                    "Solo puedes cambiar de sentido"
+                  ],
+                  "why": "En una señal de sentido obligatorio, la flecha marca la dirección y el sentido que debes seguir. Cualquier otro movimiento, también el cambio de sentido, queda prohibido."
+                },
+                "exam": {
+                  "q": "This sign is before an intersection. Can you turn or change direction of travel in it?",
+                  "options": [
+                    "Yes, if nobody comes.",
+                    "No: you must follow the direction and the sense of the arrow.",
+                    "You can only change direction of travel."
+                  ]
+                },
+                "en": {
+                  "q": "This sign stands before a junction. May you turn or make a U-turn there?",
+                  "options": [
+                    "Yes, if nobody is coming",
+                    "No: you must follow the direction of the arrow",
+                    "You may only make a U-turn"
+                  ],
+                  "why": "On a compulsory direction sign, the arrow shows the direction you must follow. Any other movement, including a U-turn, is forbidden."
+                },
+                "terms": [
+                  {
+                    "es": "sentido obligatorio",
+                    "en": "compulsory direction"
+                  },
+                  {
+                    "es": "cambio de sentido",
+                    "en": "change of direction, U-turn"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.6 (R-400c)"
               }
             }
           ]
@@ -3465,6 +3718,21 @@
               ]
             },
             {
+              "t": "rule",
+              "src": "RGC Anexo I, ap. 5.1, 3.6 (R-408, R-410, R-412 y R-418)",
+              "text": {
+                "es": "Otras señales de obligación: **R-408** obliga a los vehículos de tracción animal a usar ese camino. **R-410** obliga a los peatones a usar ese camino y prohíbe usarlo a los demás. **R-412** prohíbe seguir sin cadenas para nieve u otros dispositivos antideslizantes autorizados, que actúen al menos en una rueda a cada lado del mismo eje motor, o sin neumáticos especiales de nieve. **R-418** obliga a pagar el peaje por telepeaje: el vehículo que use ese carril debe llevar un equipo que funcione.",
+                "en": "Other mandatory signs: **R-408** obliges animal-drawn vehicles to use that path. **R-410** obliges pedestrians to use that path and forbids everyone else to use it. **R-412** forbids going on without snow chains or other approved anti-skid devices, acting on at least one wheel on each side of the same drive axle, or without special snow tyres. **R-418** obliges you to pay the toll electronically: a vehicle using that lane must carry working equipment."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Fíjate en la diferencia: R-409 y R-410 **reservan** el camino y prohíben usarlo a los demás. R-408 solo obliga a los carros a ir por él; no prohíbe el paso a otros usuarios.",
+                "en": "Note the difference: R-409 and R-410 **reserve** the path and forbid everyone else to use it. R-408 only obliges carts to use it; it does not forbid other users."
+              }
+            },
+            {
               "t": "check",
               "q": {
                 "id": "signs-ban-e",
@@ -3503,6 +3771,138 @@
                 ],
                 "src": "Catálogo oficial (señal R-407b)",
                 "sign": "r-407b"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-ban-h",
+                "answer": 2,
+                "es": {
+                  "q": "En un puerto de montaña encuentras la señal de «Cadenas para nieve». ¿Qué te obliga a hacer?",
+                  "options": [
+                    "Llevar las cadenas en el maletero",
+                    "Poner las cadenas solo si la calzada tiene hielo",
+                    "No seguir sin cadenas u otro dispositivo antideslizante autorizado, o neumáticos especiales de nieve"
+                  ],
+                  "why": "La señal R-412 obliga a no seguir la marcha sin cadenas para nieve u otros dispositivos antideslizantes autorizados, o neumáticos especiales de nieve. Rige desde donde está la señal."
+                },
+                "exam": {
+                  "q": "In a mountain pass you find the “snow chains” sign. What does it oblige you to do?",
+                  "options": [
+                    "To carry the chains in the boot.",
+                    "To fit the chains only if the carriageway has ice.",
+                    "Not to continue the march without chains or another authorised anti-skid device, or special snow tyres."
+                  ]
+                },
+                "en": {
+                  "q": "On a mountain pass you find the “snow chains” sign. What must you do?",
+                  "options": [
+                    "Carry the chains in the trunk",
+                    "Fit chains only if the road is icy",
+                    "Not go on without chains or another approved anti-skid device, or special snow tires"
+                  ],
+                  "why": "Sign R-412 forbids going on without snow chains or other approved anti-skid devices, or special snow tires. It applies from where the sign stands."
+                },
+                "terms": [
+                  {
+                    "es": "cadenas para nieve",
+                    "en": "snow chains"
+                  },
+                  {
+                    "es": "dispositivo antideslizante",
+                    "en": "anti-skid device"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.6 (R-412)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-ban-i",
+                "answer": 0,
+                "es": {
+                  "q": "Un carril de peaje tiene la señal de «Telepeaje obligatorio». ¿Quién puede circular por él?",
+                  "options": [
+                    "Los vehículos con un equipo de telepeaje que funcione",
+                    "Cualquier vehículo, pagando en efectivo",
+                    "Solo los camiones"
+                  ],
+                  "why": "La señal R-418 obliga a pagar el peaje por telepeaje: el vehículo que circule por ese carril debe llevar el equipo técnico en condiciones de uso."
+                },
+                "exam": {
+                  "q": "A toll lane has the “mandatory electronic toll” sign. Who can circulate by it?",
+                  "options": [
+                    "The vehicles with an electronic toll equipment that works.",
+                    "Any vehicle, paying in cash.",
+                    "Only the lorries."
+                  ]
+                },
+                "en": {
+                  "q": "A toll lane has the “electronic toll only” sign. Who may use it?",
+                  "options": [
+                    "Vehicles with working electronic toll equipment",
+                    "Any vehicle, paying cash",
+                    "Trucks only"
+                  ],
+                  "why": "Sign R-418 obliges you to pay the toll electronically: a vehicle using that lane must carry the equipment in working order."
+                },
+                "terms": [
+                  {
+                    "es": "telepeaje",
+                    "en": "electronic toll collection"
+                  },
+                  {
+                    "es": "peaje",
+                    "en": "toll"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.6 (R-418)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-ban-j",
+                "answer": 1,
+                "es": {
+                  "q": "A la entrada de un camino está la señal de «Camino obligatorio para vehículos de tracción animal». ¿Prohíbe el paso a tu turismo?",
+                  "options": [
+                    "Sí: el camino está reservado a los carros",
+                    "No: obliga a los carros a usarlo, pero no prohíbe el paso a otros",
+                    "Sí, salvo para acceder a una finca"
+                  ],
+                  "why": "R-408 solo obliga a los vehículos de tracción animal a usar ese camino; no prohíbe el paso a los demás. Las señales que reservan un camino, como R-409 o R-410, sí lo prohíben a otros."
+                },
+                "exam": {
+                  "q": "At the entrance of a path there is the “mandatory path for animal-drawn vehicles” sign. Does it prohibit the passage to your passenger car?",
+                  "options": [
+                    "Yes: the path is reserved for the carts.",
+                    "No: it obliges the carts to use it, but it does not prohibit the passage to others.",
+                    "Yes, except in order to access a property."
+                  ]
+                },
+                "en": {
+                  "q": "At the entrance to a path is the “compulsory path for animal-drawn vehicles” sign. Does it forbid your car?",
+                  "options": [
+                    "Yes: the path is reserved for carts",
+                    "No: it obliges carts to use it, but does not forbid others",
+                    "Yes, except to reach a property"
+                  ],
+                  "why": "R-408 only obliges animal-drawn vehicles to use that path; it does not forbid others. Signs that reserve a path, like R-409 or R-410, do forbid others."
+                },
+                "terms": [
+                  {
+                    "es": "vehículo de tracción animal",
+                    "en": "animal-drawn vehicle"
+                  },
+                  {
+                    "es": "turismo",
+                    "en": "passenger car"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.6 (R-408 y R-410)"
               }
             }
           ]
@@ -3629,6 +4029,1442 @@
         "Reglamento General de Circulación (RD 1428/2003), arts. 54.1, 94.2, 110 y 145.2",
         "Ley de Tráfico y Seguridad Vial (RDL 6/2015), Anexo I, puntos 81 y 82",
         "Catálogo oficial de señales (Anexo I, 5), nombres y significados de las señales"
+      ]
+    },
+    {
+      "id": "indication-roads",
+      "title": {
+        "es": "Indicación: tipos de vía, túneles y salidas",
+        "en": "Information signs: road types, tunnels and exits"
+      },
+      "minutes": 7,
+      "goals": [
+        {
+          "es": "Reconocer el principio y el fin de una autopista, una autovía y una vía para automóviles.",
+          "en": "Recognize the start and end of a motorway, a dual carriageway and a road for motor vehicles."
+        },
+        {
+          "es": "Saber que la velocidad máxima aconsejada es un consejo, no un límite.",
+          "en": "Know that the recommended maximum speed is advice, not a limit."
+        },
+        {
+          "es": "Leer los paneles de aproximación a una salida y saber dónde están.",
+          "en": "Read the exit approach panels and know where they are used."
+        },
+        {
+          "es": "Saber dónde empiezan y terminan las normas de poblado.",
+          "en": "Know where the rules for built-up areas start and end."
+        }
+      ],
+      "terms": [
+        {
+          "es": "señal de indicación",
+          "en": "information sign"
+        },
+        {
+          "es": "autopista",
+          "en": "motorway"
+        },
+        {
+          "es": "autovía",
+          "en": "dual carriageway"
+        },
+        {
+          "es": "vía para automóviles",
+          "en": "road for motor vehicles"
+        },
+        {
+          "es": "velocidad aconsejada",
+          "en": "recommended speed"
+        },
+        {
+          "es": "salida",
+          "en": "exit"
+        },
+        {
+          "es": "poblado",
+          "en": "built-up area (town)"
+        },
+        {
+          "es": "alumbrado de cruce",
+          "en": "dipped headlights"
+        }
+      ],
+      "pretest": {
+        "id": "signs-pre-ind1",
+        "answer": 1,
+        "es": {
+          "q": "Una señal cuadrada azul muestra un número en blanco. ¿Qué significa?",
+          "options": [
+            "Un límite que no puedes superar",
+            "Una velocidad que se aconseja no superar",
+            "Una velocidad mínima obligatoria"
+          ],
+          "why": "Es la señal de velocidad máxima aconsejada: recomienda, no obliga. El límite obligatorio es una señal redonda con borde rojo."
+        },
+        "en": {
+          "q": "A square blue sign shows a white number. What does it mean?",
+          "options": [
+            "A limit you may not exceed",
+            "A speed you are advised not to exceed",
+            "A compulsory minimum speed"
+          ],
+          "why": "It is the recommended maximum speed sign: it advises, it does not oblige. A compulsory limit is a round sign with a red border."
+        },
+        "src": "RGC Anexo I, ap. 5.1, 3.8 (S-7)"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Principio y fin de autopista y autovía",
+            "en": "Start and end of a motorway or dual carriageway"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "src": "RGC art. 146.1",
+              "text": {
+                "es": "Las **señales de indicación** te dan indicaciones que te pueden ser útiles.",
+                "en": "**Information signs** give you indications that may be useful to you."
+              }
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "s-1",
+                "s-1a",
+                "s-2",
+                "s-2a"
+              ]
+            },
+            {
+              "t": "rule",
+              "src": "RGC Anexo I, ap. 5.1, 3.8 (S-1, S-1a, S-2 y S-2a)",
+              "text": {
+                "es": "S-1 y S-1a marcan el principio de una autopista y de una autovía. Desde ese lugar se aplican las normas especiales de ese tipo de vía. También pueden señalar el ramal de un enlace que lleva a ella. S-2 y S-2a marcan su final.",
+                "en": "S-1 and S-1a mark the start of a motorway and of a dual carriageway. From that point the special rules for that type of road apply. They can also mark the slip road of an interchange that leads to one. S-2 and S-2a mark where it ends."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Las normas de autopistas y autovías están en el módulo de parada, estacionamiento, autopistas y túneles.",
+                "en": "The rules for motorways and dual carriageways are in the module on stopping, parking, motorways and tunnels."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-ind-a",
+                "answer": 0,
+                "sign": "s-1",
+                "es": {
+                  "q": "¿Qué indica esta señal?",
+                  "options": [
+                    "Que empieza una autopista y rigen sus normas especiales",
+                    "Que termina la autopista",
+                    "Que la vía tiene prioridad en las intersecciones"
+                  ],
+                  "why": "S-1 marca el principio de una autopista: desde ahí se aplican las normas especiales de ese tipo de vía. Su final se marca con S-2, la misma señal tachada."
+                },
+                "exam": {
+                  "q": "What does this sign indicate?",
+                  "options": [
+                    "That a motorway begins and its special rules govern.",
+                    "That the motorway ends.",
+                    "That the road has priority in the intersections."
+                  ]
+                },
+                "en": {
+                  "q": "What does this sign mean?",
+                  "options": [
+                    "A motorway starts and its special rules apply",
+                    "The motorway ends",
+                    "The road has priority at junctions"
+                  ],
+                  "why": "S-1 marks the start of a motorway: from there the special rules for that type of road apply. Its end is marked by S-2, the same sign crossed out."
+                },
+                "terms": [
+                  {
+                    "es": "autopista",
+                    "en": "motorway"
+                  },
+                  {
+                    "es": "regir",
+                    "en": "to govern, to apply"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.8 (S-1 y S-2)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Vía para automóviles y túnel",
+            "en": "Road for motor vehicles and tunnel"
+          },
+          "blocks": [
+            {
+              "t": "signs",
+              "ids": [
+                "s-3",
+                "s-4"
+              ]
+            },
+            {
+              "t": "rule",
+              "src": "RGC Anexo I, ap. 5.1, 3.8 (S-3 y S-4)",
+              "text": {
+                "es": "S-3 marca el principio de una vía reservada a la circulación de **automóviles**. S-4 marca su final.",
+                "en": "S-3 marks the start of a road reserved for **motor vehicles**. S-4 marks its end."
+              }
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "s-5",
+                "s-990a"
+              ]
+            },
+            {
+              "t": "rule",
+              "src": "RGC Anexo I, ap. 5.1, 3.8 (S-5); RGC Anexo I, ap. 5.1, 3.18 (S-990a)",
+              "text": {
+                "es": "S-5 marca el principio de un túnel, de un paso inferior o de un tramo que se trata como túnel. Puede llevar su nombre y, debajo, su longitud en metros. Dentro, S-990a te indica la dirección de la salida de emergencia más cercana y la distancia que falta.",
+                "en": "S-5 marks the start of a tunnel, an underpass or a stretch treated as a tunnel. It can show its name and, below, its length in meters. Inside, S-990a shows the direction of the nearest emergency exit and the distance left to it."
+              }
+            },
+            {
+              "t": "rule",
+              "src": "RGC art. 95.6",
+              "text": {
+                "es": "En un túnel o paso inferior está prohibido parar, estacionar, cambiar de sentido, dar marcha atrás y adelantar. Debes llevar el alumbrado que corresponde. Si hay circulación en los dos sentidos, solo puedes adelantar si tu sentido tiene más de un carril, sin invadir el contrario.",
+                "en": "In a tunnel or underpass it is forbidden to stop, park, make a U-turn, reverse and overtake. You must use the right lights. With two-way traffic, you may overtake only if your direction has more than one lane, without entering the opposite one."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-ind-b",
+                "answer": 2,
+                "sign": "s-990a",
+                "es": {
+                  "q": "Ves esta señal dentro de un túnel. ¿Qué te indica?",
+                  "options": [
+                    "La distancia hasta el final del túnel",
+                    "Un apartadero para parar y descansar",
+                    "La dirección y la distancia hasta la salida de emergencia más cercana"
+                  ],
+                  "why": "S-990a indica la dirección en que está la salida de emergencia más cercana y la distancia que falta hasta ella."
+                },
+                "exam": {
+                  "q": "You see this sign inside a tunnel. What does it indicate to you?",
+                  "options": [
+                    "The distance up to the end of the tunnel.",
+                    "A lay-by in order to stop and rest.",
+                    "The direction and the distance up to the nearest emergency exit."
+                  ]
+                },
+                "en": {
+                  "q": "You see this sign inside a tunnel. What does it tell you?",
+                  "options": [
+                    "The distance to the end of the tunnel",
+                    "A lay-by where you can stop and rest",
+                    "The direction of and distance to the nearest emergency exit"
+                  ],
+                  "why": "S-990a shows the direction of the nearest emergency exit and the distance left to it."
+                },
+                "terms": [
+                  {
+                    "es": "salida de emergencia",
+                    "en": "emergency exit"
+                  },
+                  {
+                    "es": "túnel",
+                    "en": "tunnel"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.18 (S-990a)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-ind-c",
+                "answer": 1,
+                "es": {
+                  "q": "Circulas por un túnel con un solo carril en cada sentido. ¿Qué maniobra está prohibida?",
+                  "options": [
+                    "Llevar encendido el alumbrado de cruce",
+                    "Adelantar",
+                    "Mantener la distancia con el vehículo de delante"
+                  ],
+                  "why": "En un túnel está prohibido parar, estacionar, cambiar de sentido, dar marcha atrás y adelantar. Con dos sentidos, solo puedes adelantar si el tuyo tiene más de un carril."
+                },
+                "exam": {
+                  "q": "You circulate by a tunnel with only one lane in each direction. What manoeuvre is prohibited?",
+                  "options": [
+                    "To carry the dipped beam switched on.",
+                    "To overtake.",
+                    "To keep the distance with the vehicle in front."
+                  ]
+                },
+                "en": {
+                  "q": "You are driving through a tunnel with one lane in each direction. Which maneuver is forbidden?",
+                  "options": [
+                    "Having your dipped headlights on",
+                    "Overtaking",
+                    "Keeping your distance from the vehicle ahead"
+                  ],
+                  "why": "In a tunnel it is forbidden to stop, park, make a U-turn, reverse and overtake. With two-way traffic, you may overtake only if your direction has more than one lane."
+                },
+                "terms": [
+                  {
+                    "es": "adelantar",
+                    "en": "to overtake"
+                  },
+                  {
+                    "es": "alumbrado de cruce",
+                    "en": "dipped beam"
+                  }
+                ],
+                "src": "RGC art. 95.6"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Velocidad máxima aconsejada",
+            "en": "Recommended maximum speed"
+          },
+          "blocks": [
+            {
+              "t": "signs",
+              "ids": [
+                "s-7"
+              ]
+            },
+            {
+              "t": "rule",
+              "src": "RGC Anexo I, ap. 5.1, 3.8 (S-7 y S-8)",
+              "text": {
+                "es": "S-7 **recomienda** una velocidad, en km/h, que se aconseja no superar aunque el tiempo, la vía y el tráfico sean favorables. Si está debajo de una señal de peligro, vale para el tramo en el que siga el peligro. S-8 marca el final de ese tramo.",
+                "en": "S-7 **recommends** a speed, in km/h, that you are advised not to exceed even when the weather, the road and the traffic are favorable. Below a warning sign, it applies to the stretch where the danger lasts. S-8 marks the end of that stretch."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Es un **consejo**, no un límite. El límite que te obliga es el de la vía o el de una señal redonda con borde rojo (R-301).",
+                "en": "It is **advice**, not a limit. The limit that binds you is the road’s own limit or a round sign with a red border (R-301)."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Redonda con borde rojo: te obliga. Cuadrada azul con número: te aconseja.",
+                "en": "Round with a red border: it obliges you. Blue square with a number: it advises you."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-ind-d",
+                "answer": 2,
+                "sign": "s-7",
+                "es": {
+                  "q": "¿Qué significa esta señal?",
+                  "options": [
+                    "Que está prohibido circular a más de esa velocidad",
+                    "Que debes circular al menos a esa velocidad",
+                    "Que se aconseja no superar esa velocidad, aunque las condiciones sean favorables"
+                  ],
+                  "why": "S-7 es la velocidad máxima aconsejada: recomienda no superarla aunque todo sea favorable. No es un límite obligatorio; eso lo marca la señal redonda R-301."
+                },
+                "exam": {
+                  "q": "What does this sign mean?",
+                  "options": [
+                    "That it is prohibited to circulate at more than that speed.",
+                    "That you must circulate at least at that speed.",
+                    "That it is advised not to exceed that speed, even if the conditions are favourable."
+                  ]
+                },
+                "en": {
+                  "q": "What does this sign mean?",
+                  "options": [
+                    "Driving faster than that speed is forbidden",
+                    "You must drive at least at that speed",
+                    "You are advised not to exceed that speed, even in good conditions"
+                  ],
+                  "why": "S-7 is the recommended maximum speed: it advises you not to exceed it even when everything is favorable. It is not a compulsory limit; the round R-301 sign sets that."
+                },
+                "terms": [
+                  {
+                    "es": "velocidad máxima aconsejada",
+                    "en": "recommended maximum speed"
+                  },
+                  {
+                    "es": "aconsejar",
+                    "en": "to advise"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.8 (S-7)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-ind-e",
+                "answer": 0,
+                "es": {
+                  "q": "Debajo de una señal de curva peligrosa hay una señal de «Velocidad máxima aconsejada». ¿Dónde vale esa recomendación?",
+                  "options": [
+                    "En el tramo en el que siga el peligro de la curva",
+                    "Hasta la próxima intersección",
+                    "Hasta el final de la carretera"
+                  ],
+                  "why": "Colocada bajo una señal de peligro, la velocidad aconsejada se refiere al tramo en el que el peligro siga."
+                },
+                "exam": {
+                  "q": "Under a dangerous curve sign there is a “recommended maximum speed” sign. Where does that recommendation apply?",
+                  "options": [
+                    "In the section in which the danger of the curve persists.",
+                    "Until the next intersection.",
+                    "Until the end of the road."
+                  ]
+                },
+                "en": {
+                  "q": "Below a dangerous-curve sign there is a “recommended maximum speed” sign. Where does that advice apply?",
+                  "options": [
+                    "On the stretch where the danger of the curve lasts",
+                    "Until the next junction",
+                    "Until the end of the road"
+                  ],
+                  "why": "Placed below a warning sign, the recommended speed refers to the stretch where the danger lasts."
+                },
+                "terms": [
+                  {
+                    "es": "tramo",
+                    "en": "section, stretch"
+                  },
+                  {
+                    "es": "subsistir",
+                    "en": "to persist"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.8 (S-7)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Paneles de aproximación a una salida",
+            "en": "Exit approach panels"
+          },
+          "blocks": [
+            {
+              "t": "signs",
+              "ids": [
+                "s-26a",
+                "s-26b",
+                "s-26c"
+              ]
+            },
+            {
+              "t": "rule",
+              "src": "RGC Anexo I, ap. 5.1, 3.8 (S-26a, S-26b y S-26c)",
+              "text": {
+                "es": "En una **autopista** o en una **autovía**, S-26a, S-26b y S-26c indican que la próxima salida está a 300, 200 y 100 m. Si la salida es por la izquierda, el panel va a la izquierda de la calzada y su diagonal baja de izquierda a derecha.",
+                "en": "On a **motorway** or a **dual carriageway**, S-26a, S-26b and S-26c show that the next exit is 300, 200 and 100 m ahead. If the exit is on the left, the panel stands on the left of the carriageway and its diagonal slopes down from left to right."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Cuenta las franjas: tres, 300 m; dos, 200 m; una, 100 m.",
+                "en": "Count the stripes: three is 300 m, two is 200 m, one is 100 m."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-ind-f",
+                "answer": 1,
+                "sign": "s-26b",
+                "es": {
+                  "q": "¿En qué vías se usa esta señal?",
+                  "options": [
+                    "En cualquier carretera convencional",
+                    "En autopistas y autovías",
+                    "Solo dentro de poblado"
+                  ],
+                  "why": "Los paneles de aproximación a salida S-26a, S-26b y S-26c se usan en autopistas y autovías."
+                },
+                "exam": {
+                  "q": "On which roads is this sign used?",
+                  "options": [
+                    "On any conventional road.",
+                    "On motorways and dual carriageways.",
+                    "Only inside a town."
+                  ]
+                },
+                "en": {
+                  "q": "On which roads is this sign used?",
+                  "options": [
+                    "On any conventional road",
+                    "On motorways and dual carriageways",
+                    "Only in built-up areas"
+                  ],
+                  "why": "The exit approach panels S-26a, S-26b and S-26c are used on motorways and dual carriageways."
+                },
+                "terms": [
+                  {
+                    "es": "panel de aproximación a salida",
+                    "en": "exit approach panel"
+                  },
+                  {
+                    "es": "carretera convencional",
+                    "en": "conventional road"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.8 (S-26b)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-ind-g",
+                "answer": 2,
+                "sign": "s-26a",
+                "es": {
+                  "q": "Circulas por una autovía y ves esta señal. ¿A qué distancia está la próxima salida?",
+                  "options": [
+                    "A 100 m",
+                    "A 200 m",
+                    "A 300 m"
+                  ],
+                  "why": "El panel con tres franjas es S-26a: la próxima salida está a 300 m. Con dos franjas son 200 m y con una, 100 m."
+                },
+                "exam": {
+                  "q": "You circulate by a dual carriageway and you see this sign. At what distance is the next exit?",
+                  "options": [
+                    "At 100 m.",
+                    "At 200 m.",
+                    "At 300 m."
+                  ]
+                },
+                "en": {
+                  "q": "You are on a dual carriageway and see this sign. How far away is the next exit?",
+                  "options": [
+                    "100 m",
+                    "200 m",
+                    "300 m"
+                  ],
+                  "why": "The panel with three stripes is S-26a: the next exit is 300 m ahead. Two stripes mean 200 m and one stripe means 100 m."
+                },
+                "terms": [
+                  {
+                    "es": "salida",
+                    "en": "exit"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.8 (S-26a)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Entrar y salir de un poblado, y las luces",
+            "en": "Entering and leaving a town, and lights"
+          },
+          "blocks": [
+            {
+              "t": "signs",
+              "ids": [
+                "s-500"
+              ]
+            },
+            {
+              "t": "rule",
+              "src": "RGC Anexo I, ap. 5.1, 3.14 (S-500 y S-510)",
+              "text": {
+                "es": "S-500 da el nombre del poblado y marca el lugar desde el que rigen las **normas de circulación en poblado**. Su subcartel de arriba te recuerda adaptar la conducción a peatones, ciclistas y otros usuarios vulnerables. Puede llevar la velocidad máxima de esa vía desde ahí, aunque otras vías del poblado tengan otros límites. S-510 marca dónde dejan de aplicarse.",
+                "en": "S-500 gives the town’s name and marks the point from which the **rules for built-up areas** apply. Its upper sub-panel reminds you to adapt your driving to pedestrians, cyclists and other vulnerable users. It can show the maximum speed on that road from there, even if other roads in the town have other limits. S-510 marks where those rules stop applying."
+              }
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "s-24"
+              ]
+            },
+            {
+              "t": "rule",
+              "src": "RGC Anexo I, ap. 5.1, 3.8 (S-24)",
+              "text": {
+                "es": "S-24 marca el final de un tramo en el que es obligatorio llevar, al menos, el **alumbrado de cruce** (corto alcance). Te recuerda que puedes apagarlo, si no lo exigen la visibilidad, la hora o la iluminación de la vía.",
+                "en": "S-24 marks the end of a stretch where you must use at least **dipped headlights** (short range). It reminds you that you may switch them off, unless visibility, the time of day or the road lighting requires them."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-ind-h",
+                "answer": 0,
+                "sign": "s-500",
+                "es": {
+                  "q": "Encuentras esta señal al llegar a una localidad. ¿Qué te indica?",
+                  "options": [
+                    "Que desde aquí rigen las normas de circulación en poblado",
+                    "Que termina el poblado",
+                    "Que empieza una zona de estacionamiento limitado"
+                  ],
+                  "why": "S-500 da el nombre del poblado y marca el lugar desde el que rigen las normas de circulación en poblado. Su final es S-510."
+                },
+                "exam": {
+                  "q": "You find this sign on arriving at a locality. What does it indicate to you?",
+                  "options": [
+                    "That from here the traffic rules in town govern.",
+                    "That the town ends.",
+                    "That a limited parking zone begins."
+                  ]
+                },
+                "en": {
+                  "q": "You see this sign as you reach a town. What does it tell you?",
+                  "options": [
+                    "From here the rules for built-up areas apply",
+                    "The town ends",
+                    "A limited parking zone begins"
+                  ],
+                  "why": "S-500 gives the town’s name and marks the point from which the rules for built-up areas apply. Its end is S-510."
+                },
+                "terms": [
+                  {
+                    "es": "poblado",
+                    "en": "town, built-up area"
+                  },
+                  {
+                    "es": "entrada a poblado",
+                    "en": "town entry"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.14 (S-500)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-ind-i",
+                "answer": 1,
+                "sign": "s-24",
+                "es": {
+                  "q": "¿Qué indica esta señal?",
+                  "options": [
+                    "Que debes encender el alumbrado de cruce",
+                    "Que termina la obligación de llevar el alumbrado de cruce, si no lo exigen la visibilidad, la hora o la iluminación",
+                    "Que está prohibido usar el alumbrado de carretera"
+                  ],
+                  "why": "S-24 marca el final de un tramo con alumbrado de cruce obligatorio. Puedes apagarlo, salvo que lo exijan la visibilidad, la hora o la iluminación de la vía."
+                },
+                "exam": {
+                  "q": "What does this sign indicate?",
+                  "options": [
+                    "That you must switch on the dipped beam.",
+                    "That the obligation to carry the dipped beam ends, provided that the visibility, the time or the lighting do not demand it.",
+                    "That it is prohibited to use the main beam."
+                  ]
+                },
+                "en": {
+                  "q": "What does this sign mean?",
+                  "options": [
+                    "You must switch on your dipped headlights",
+                    "The obligation to use dipped headlights ends, unless visibility, the time or the lighting requires them",
+                    "Using high beams is forbidden"
+                  ],
+                  "why": "S-24 marks the end of a stretch where dipped headlights are compulsory. You may switch them off, unless visibility, the time of day or the road lighting requires them."
+                },
+                "terms": [
+                  {
+                    "es": "alumbrado de cruce",
+                    "en": "dipped beam"
+                  },
+                  {
+                    "es": "alumbrado de carretera",
+                    "en": "main beam"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.8 (S-24)"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "S-1 y S-1a: empieza una **autopista** o una **autovía** y rigen sus normas; S-2 y S-2a: termina.",
+          "en": "S-1 and S-1a: a **motorway** or **dual carriageway** starts and its rules apply; S-2 and S-2a: it ends."
+        },
+        {
+          "es": "En un túnel no se para, no se estaciona, no se cambia de sentido, no se da marcha atrás y no se adelanta.",
+          "en": "In a tunnel you do not stop, park, make a U-turn, reverse or overtake."
+        },
+        {
+          "es": "S-7, cuadrada azul: velocidad **aconsejada**, no un límite.",
+          "en": "S-7, a blue square: a **recommended** speed, not a limit."
+        },
+        {
+          "es": "S-26: salida a 300, 200 o 100 m, solo en **autopistas y autovías**.",
+          "en": "S-26: exit 300, 200 or 100 m ahead, only on **motorways and dual carriageways**."
+        },
+        {
+          "es": "S-500 abre las normas de **poblado** y S-510 las cierra; S-24 termina la obligación de luz de cruce.",
+          "en": "S-500 starts the **built-up area** rules and S-510 ends them; S-24 ends the dipped-headlight obligation."
+        }
+      ],
+      "covers": [],
+      "src": [
+        "Reglamento General de Circulación (RD 1428/2003), arts. 95.6 y 146.1",
+        "RGC Anexo I, apartado 5.1 (Catálogo de señales verticales, Tomo I: apartados 3.8, 3.14 y 3.18), en la redacción del RD 465/2025"
+      ]
+    },
+    {
+      "id": "indication-zones",
+      "title": {
+        "es": "Indicación: peatones, paradas, servicios y paneles",
+        "en": "Information signs: pedestrians, stops, services and panels"
+      },
+      "minutes": 6,
+      "goals": [
+        {
+          "es": "Distinguir la zona de estancia y juego de la zona de coexistencia.",
+          "en": "Tell a residential and play zone from a shared (coexistence) zone."
+        },
+        {
+          "es": "Reconocer el paso para peatones, la parada de autobuses y los estacionamientos.",
+          "en": "Recognize the pedestrian crossing, bus stop and parking signs."
+        },
+        {
+          "es": "Saber qué es una zona de frenado de emergencia y una calzada sin salida.",
+          "en": "Know what an emergency braking zone and a dead-end road are."
+        },
+        {
+          "es": "Leer un panel complementario debajo de una prohibición.",
+          "en": "Read a supplementary panel below a prohibition."
+        }
+      ],
+      "terms": [
+        {
+          "es": "zona de estancia y juego",
+          "en": "residential and play zone"
+        },
+        {
+          "es": "zona de coexistencia",
+          "en": "shared (coexistence) zone"
+        },
+        {
+          "es": "paso para peatones",
+          "en": "pedestrian crossing"
+        },
+        {
+          "es": "parada de autobuses",
+          "en": "bus stop"
+        },
+        {
+          "es": "estacionamiento",
+          "en": "parking"
+        },
+        {
+          "es": "calzada sin salida",
+          "en": "dead-end carriageway"
+        },
+        {
+          "es": "zona de frenado de emergencia",
+          "en": "emergency braking zone"
+        },
+        {
+          "es": "panel complementario",
+          "en": "supplementary panel"
+        }
+      ],
+      "pretest": {
+        "id": "signs-pre-ind2",
+        "answer": 1,
+        "es": {
+          "q": "En una zona de coexistencia, ¿a qué velocidad máxima pueden circular los vehículos?",
+          "options": [
+            "10 km/h",
+            "20 km/h",
+            "30 km/h"
+          ],
+          "why": "En la zona de coexistencia el máximo es 20 km/h. En la zona de estancia y juego es 10 km/h."
+        },
+        "en": {
+          "q": "In a shared (coexistence) zone, what is the maximum speed for vehicles?",
+          "options": [
+            "10 km/h",
+            "20 km/h",
+            "30 km/h"
+          ],
+          "why": "In a shared zone the maximum is 20 km/h. In a residential and play zone it is 10 km/h."
+        },
+        "src": "RGC Anexo I, ap. 5.1, 3.8 (S-47)"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Zonas para peatones: S-28 y S-47",
+            "en": "Zones for pedestrians: S-28 and S-47"
+          },
+          "blocks": [
+            {
+              "t": "signs",
+              "ids": [
+                "s-28",
+                "s-47"
+              ]
+            },
+            {
+              "t": "rule",
+              "src": "RGC Anexo I, ap. 5.1, 3.8 (S-28)",
+              "text": {
+                "es": "S-28, **zona de estancia y juego**: la zona es ante todo para los peatones. Los vehículos van a 10 km/h como máximo y ceden el paso a los peatones. Solo se estaciona donde lo indican señales o marcas. Los peatones usan toda la zona y no hay pasos marcados. Se permiten juegos y deportes. Siempre va con una señal R-301 de 10 km/h.",
+                "en": "S-28, **residential and play zone**: the area is first of all for pedestrians. Vehicles go at 10 km/h at most and give way to pedestrians. You park only where signs or markings say so. Pedestrians use the whole area and there are no marked crossings. Games and sports are allowed. It always comes with an R-301 sign of 10 km/h."
+              }
+            },
+            {
+              "t": "rule",
+              "src": "RGC Anexo I, ap. 5.1, 3.8 (S-47)",
+              "text": {
+                "es": "S-47, **zona de coexistencia**: también es ante todo para los peatones. Los vehículos van a 20 km/h como máximo y comparten la zona con ciclistas y peatones. Los peatones tienen prioridad y usan toda la zona. Solo se estaciona donde lo indican señales o marcas. **No** se permiten juegos ni deportes.",
+                "en": "S-47, **shared (coexistence) zone**: it is also first of all for pedestrians. Vehicles go at 20 km/h at most and share the area with cyclists and pedestrians. Pedestrians have priority and use the whole area. You park only where signs or markings say so. Games and sports are **not** allowed."
+              }
+            },
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Norma",
+                  "en": "Rule"
+                },
+                {
+                  "es": "S-28 estancia y juego",
+                  "en": "S-28 residential and play"
+                },
+                {
+                  "es": "S-47 coexistencia",
+                  "en": "S-47 shared zone"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "Velocidad máxima",
+                    "en": "Maximum speed"
+                  },
+                  {
+                    "es": "10 km/h",
+                    "en": "10 km/h"
+                  },
+                  {
+                    "es": "20 km/h",
+                    "en": "20 km/h"
+                  }
+                ],
+                [
+                  {
+                    "es": "Prioridad",
+                    "en": "Priority"
+                  },
+                  {
+                    "es": "Peatones",
+                    "en": "Pedestrians"
+                  },
+                  {
+                    "es": "Peatones",
+                    "en": "Pedestrians"
+                  }
+                ],
+                [
+                  {
+                    "es": "Juegos y deportes",
+                    "en": "Games and sports"
+                  },
+                  {
+                    "es": "Permitidos",
+                    "en": "Allowed"
+                  },
+                  {
+                    "es": "No permitidos",
+                    "en": "Not allowed"
+                  }
+                ],
+                [
+                  {
+                    "es": "Ciclos y VMP",
+                    "en": "Cycles and PMVs"
+                  },
+                  {
+                    "es": "En los dos sentidos, salvo otra orden",
+                    "en": "Both directions, unless ordered otherwise"
+                  },
+                  {
+                    "es": "En los dos sentidos, salvo otra orden",
+                    "en": "Both directions, unless ordered otherwise"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "S-29 y S-48 marcan el final de cada zona: vuelven a regir las normas generales.",
+                "en": "S-29 and S-48 mark the end of each zone: the general rules apply again."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-ind-j",
+                "answer": 1,
+                "sign": "s-28",
+                "es": {
+                  "q": "Entras en la zona que empieza con esta señal. ¿Qué es cierto?",
+                  "options": [
+                    "Los vehículos tienen prioridad y los peatones cruzan por los pasos",
+                    "Los vehículos van a 10 km/h como máximo y los peatones tienen prioridad",
+                    "Los vehículos pueden estacionar en cualquier lugar"
+                  ],
+                  "why": "S-28 es la zona de estancia y juego: máximo 10 km/h, prioridad de los peatones, que usan toda la zona, y estacionamiento solo donde se indique."
+                },
+                "exam": {
+                  "q": "You enter the zone that begins with this sign. What is true?",
+                  "options": [
+                    "The vehicles have priority and the pedestrians cross by the crossings.",
+                    "The vehicles go at 10 km/h as maximum and the pedestrians have priority.",
+                    "The vehicles can park in any place."
+                  ]
+                },
+                "en": {
+                  "q": "You enter the zone that starts with this sign. What is true?",
+                  "options": [
+                    "Vehicles have priority and pedestrians cross at the crossings",
+                    "Vehicles go at 10 km/h at most and pedestrians have priority",
+                    "Vehicles may park anywhere"
+                  ],
+                  "why": "S-28 is the residential and play zone: 10 km/h at most, priority for pedestrians, who use the whole area, and parking only where it is marked."
+                },
+                "terms": [
+                  {
+                    "es": "zona de estancia y juego",
+                    "en": "residential and play zone"
+                  },
+                  {
+                    "es": "conceder prioridad",
+                    "en": "to give priority"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.8 (S-28)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-ind-k",
+                "answer": 2,
+                "sign": "s-47",
+                "es": {
+                  "q": "En la zona que indica esta señal, ¿están permitidos los juegos y los deportes?",
+                  "options": [
+                    "Sí, en cualquier momento",
+                    "Sí, si no circula ningún vehículo",
+                    "No"
+                  ],
+                  "why": "S-47 es la zona de coexistencia: máximo 20 km/h y prioridad de los peatones, pero los juegos y los deportes no están autorizados. Sí lo están en la zona de estancia y juego (S-28)."
+                },
+                "exam": {
+                  "q": "In the zone that this sign indicates, are games and sports permitted?",
+                  "options": [
+                    "Yes, at any moment.",
+                    "Yes, provided that no vehicle circulates.",
+                    "No."
+                  ]
+                },
+                "en": {
+                  "q": "In the zone this sign marks, are games and sports allowed?",
+                  "options": [
+                    "Yes, at any time",
+                    "Yes, if no vehicle is moving",
+                    "No"
+                  ],
+                  "why": "S-47 is the shared zone: 20 km/h at most and priority for pedestrians, but games and sports are not allowed. They are allowed in the residential and play zone (S-28)."
+                },
+                "terms": [
+                  {
+                    "es": "zona de coexistencia",
+                    "en": "coexistence zone, shared zone"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.8 (S-47)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Paso para peatones y parada de autobuses",
+            "en": "Pedestrian crossing and bus stop"
+          },
+          "blocks": [
+            {
+              "t": "signs",
+              "ids": [
+                "s-13",
+                "s-19"
+              ]
+            },
+            {
+              "t": "rule",
+              "src": "RGC Anexo I, ap. 5.1, 3.8 (S-13 y S-19)",
+              "text": {
+                "es": "S-13 indica dónde está un **paso para peatones**. S-19 indica el lugar reservado para la **parada de autobuses**.",
+                "en": "S-13 shows where a **pedestrian crossing** is. S-19 shows the place reserved for a **bus stop**."
+              }
+            },
+            {
+              "t": "rule",
+              "src": "RGC Anexo I, ap. 5.2 (marcas viales), 4.2",
+              "text": {
+                "es": "En un paso para peatones marcado en la calzada, los conductores deben dejar pasar a los peatones.",
+                "en": "At a pedestrian crossing marked on the road, drivers must let pedestrians cross."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "No la confundas con la señal de peligro P-20a, un triángulo que avisa de que hay pasos para peatones más adelante. S-13 es cuadrada y azul, y está en el paso.",
+                "en": "Do not confuse it with the warning sign P-20a, a triangle that warns of pedestrian crossings ahead. S-13 is a blue square and stands at the crossing."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-ind-l",
+                "answer": 0,
+                "sign": "s-13",
+                "es": {
+                  "q": "¿Qué indica esta señal?",
+                  "options": [
+                    "La situación de un paso para peatones",
+                    "Una calle reservada a los peatones",
+                    "Peligro por un tramo con muchos peatones"
+                  ],
+                  "why": "S-13 indica dónde está un paso para peatones. Allí debes dejar pasar a los peatones que cruzan."
+                },
+                "exam": {
+                  "q": "What does this sign indicate?",
+                  "options": [
+                    "The situation of a pedestrian crossing.",
+                    "A street reserved for pedestrians.",
+                    "Danger due to a section with many pedestrians."
+                  ]
+                },
+                "en": {
+                  "q": "What does this sign mean?",
+                  "options": [
+                    "Where a pedestrian crossing is",
+                    "A street reserved for pedestrians",
+                    "Danger from a stretch with many pedestrians"
+                  ],
+                  "why": "S-13 shows where a pedestrian crossing is. There you must let crossing pedestrians go first."
+                },
+                "terms": [
+                  {
+                    "es": "paso para peatones",
+                    "en": "pedestrian crossing"
+                  },
+                  {
+                    "es": "situación",
+                    "en": "location"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.8 (S-13)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Estacionamientos y servicios",
+            "en": "Parking and services"
+          },
+          "blocks": [
+            {
+              "t": "signs",
+              "ids": [
+                "s-17",
+                "s-126",
+                "s-123",
+                "s-113"
+              ]
+            },
+            {
+              "t": "list",
+              "items": [
+                {
+                  "es": "**S-17 Estacionamiento:** lugar donde se permite estacionar. Un símbolo o una inscripción puede reservarlo a ciertos vehículos o limitar el tiempo.",
+                  "en": "**S-17 Parking:** a place where parking is allowed. A symbol or an inscription can reserve it for certain vehicles or limit the time."
+                },
+                {
+                  "es": "**S-126 Estacionamiento para usuarios de autobús:** aparcamiento unido a una estación de autobuses, para quien hace parte del viaje en su vehículo y parte en autobús.",
+                  "en": "**S-126 Parking for bus users:** a car park linked to a bus station, for people who make part of the trip in their own vehicle and part by bus."
+                },
+                {
+                  "es": "**S-123 Área de descanso.**",
+                  "en": "**S-123 Rest area.**"
+                },
+                {
+                  "es": "**S-113 Terreno para remolques-vivienda:** lugar para acampar con caravana.",
+                  "en": "**S-113 Caravan site:** a place where you may camp with a caravan."
+                },
+                {
+                  "es": "**S-129 Estacionamiento de emergencia por nevadas:** aparcamiento para cuando nieva y, a veces, para otras incidencias.",
+                  "en": "**S-129 Snow emergency parking:** a car park for snowfalls and, exceptionally, other incidents."
+                }
+              ]
+            },
+            {
+              "t": "rule",
+              "src": "RGC Anexo I, ap. 5.1, 3.10 (S-126)",
+              "text": {
+                "es": "S-126 indica una zona de estacionamiento conectada con una estación o una terminal de autobuses. Es sobre todo para los vehículos privados de quienes hacen una parte del viaje en su vehículo y la otra en autobús.",
+                "en": "S-126 shows a parking area connected to a bus station or terminal. It is mainly for the private vehicles of people who make one part of the trip in their own vehicle and the other by bus."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-ind-m",
+                "answer": 2,
+                "sign": "s-126",
+                "es": {
+                  "q": "¿Qué indica esta señal?",
+                  "options": [
+                    "Una parada de autobuses",
+                    "Un estacionamiento reservado a los autobuses",
+                    "Un estacionamiento para quienes siguen el viaje en autobús"
+                  ],
+                  "why": "S-126 es el estacionamiento para usuarios de autobús: un aparcamiento unido a una estación de autobuses, para dejar el coche y seguir en autobús. La parada de autobuses es S-19."
+                },
+                "exam": {
+                  "q": "What does this sign indicate?",
+                  "options": [
+                    "A bus stop.",
+                    "A parking reserved for buses.",
+                    "A parking for those who continue the journey by bus."
+                  ]
+                },
+                "en": {
+                  "q": "What does this sign mean?",
+                  "options": [
+                    "A bus stop",
+                    "Parking reserved for buses",
+                    "Parking for people who continue their trip by bus"
+                  ],
+                  "why": "S-126 is parking for bus users: a car park linked to a bus station, where you leave the car and go on by bus. The bus stop sign is S-19."
+                },
+                "terms": [
+                  {
+                    "es": "estacionamiento para usuarios de autobús",
+                    "en": "parking for bus users"
+                  },
+                  {
+                    "es": "estación de autobuses",
+                    "en": "bus station"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.10 (S-126)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-ind-n",
+                "answer": 0,
+                "es": {
+                  "q": "¿Qué indica la señal de «Estacionamiento de emergencia por nevadas»?",
+                  "options": [
+                    "Un aparcamiento para usar cuando nieva y, excepcionalmente, por otras incidencias",
+                    "Que es obligatorio llevar cadenas desde allí",
+                    "Una zona donde está prohibido estacionar en invierno"
+                  ],
+                  "why": "S-129 indica dónde está un estacionamiento de emergencia por nevadas que, de forma excepcional, también se usa por otras incidencias."
+                },
+                "exam": {
+                  "q": "What does the “emergency parking due to snowfalls” sign indicate?",
+                  "options": [
+                    "A parking for use when it snows and, exceptionally, for other incidents.",
+                    "That it is mandatory to carry chains from there.",
+                    "A zone where it is prohibited to park in winter."
+                  ]
+                },
+                "en": {
+                  "q": "What does the “snow emergency parking” sign mean?",
+                  "options": [
+                    "A car park for use when it snows and, exceptionally, for other incidents",
+                    "Snow chains are compulsory from there on",
+                    "An area where parking is forbidden in winter"
+                  ],
+                  "why": "S-129 shows where there is an emergency car park for snowfalls, which can exceptionally be used for other incidents too."
+                },
+                "terms": [
+                  {
+                    "es": "nevada",
+                    "en": "snowfall"
+                  },
+                  {
+                    "es": "incidencia",
+                    "en": "incident"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.10 (S-129)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Sin salida y frenado de emergencia",
+            "en": "Dead ends and emergency braking"
+          },
+          "blocks": [
+            {
+              "t": "signs",
+              "ids": [
+                "s-15a",
+                "s-15c"
+              ]
+            },
+            {
+              "t": "rule",
+              "src": "RGC Anexo I, ap. 5.1, 3.8 (S-15a y S-15c)",
+              "text": {
+                "es": "S-15a indica que la calzada marcada con un recuadro rojo **no tiene salida**. S-15c te lo anuncia antes del cruce: la calle del recuadro rojo no tiene salida.",
+                "en": "S-15a shows that the carriageway marked with a red box has **no exit**. S-15c tells you before the junction: the street with the red box is a dead end."
+              }
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "s-16"
+              ]
+            },
+            {
+              "t": "rule",
+              "src": "RGC Anexo I, ap. 5.1, 3.8 (S-16)",
+              "text": {
+                "es": "S-16 indica una **zona de frenado de emergencia**: una zona de escape junto a la calzada, preparada para detener un vehículo si le fallan los frenos.",
+                "en": "S-16 shows an **emergency braking zone**: an escape area beside the carriageway, built so that a vehicle can be stopped if its brakes fail."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-ind-o",
+                "answer": 1,
+                "sign": "s-16",
+                "es": {
+                  "q": "¿Qué indica esta señal?",
+                  "options": [
+                    "Un tramo en bajada con fuerte pendiente",
+                    "Una zona de escape para detener un vehículo si le fallan los frenos",
+                    "Un lugar para revisar los frenos"
+                  ],
+                  "why": "S-16 es la zona de frenado de emergencia: una zona de escape preparada para detener un vehículo cuando falla su sistema de frenado."
+                },
+                "exam": {
+                  "q": "What does this sign indicate?",
+                  "options": [
+                    "A section in descent with steep slope.",
+                    "An escape zone in order to stop a vehicle if its brakes fail.",
+                    "A place in order to check the brakes."
+                  ]
+                },
+                "en": {
+                  "q": "What does this sign mean?",
+                  "options": [
+                    "A steep downhill stretch",
+                    "An escape area to stop a vehicle whose brakes fail",
+                    "A place to check your brakes"
+                  ],
+                  "why": "S-16 is the emergency braking zone: an escape area built to stop a vehicle when its braking system fails."
+                },
+                "terms": [
+                  {
+                    "es": "zona de frenado de emergencia",
+                    "en": "emergency braking zone"
+                  },
+                  {
+                    "es": "sistema de frenado",
+                    "en": "braking system"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.8 (S-16)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-ind-p",
+                "answer": 0,
+                "sign": "s-15c",
+                "es": {
+                  "q": "¿Qué indica esta señal?",
+                  "options": [
+                    "Que la calle marcada con el recuadro rojo no tiene salida",
+                    "Que está prohibido girar hacia la calle del recuadro rojo",
+                    "Que la calle del recuadro rojo está en obras"
+                  ],
+                  "why": "S-15c es una preseñalización de calzada sin salida: la calle marcada con el recuadro rojo no tiene salida."
+                },
+                "exam": {
+                  "q": "What does this sign indicate?",
+                  "options": [
+                    "That the street marked with the red box has no exit.",
+                    "That it is prohibited to turn towards the street of the red box.",
+                    "That the street of the red box is under works."
+                  ]
+                },
+                "en": {
+                  "q": "What does this sign mean?",
+                  "options": [
+                    "The street marked with the red box is a dead end",
+                    "Turning into the street with the red box is forbidden",
+                    "The street with the red box has roadworks"
+                  ],
+                  "why": "S-15c is an advance dead-end sign: the street marked with the red box has no exit."
+                },
+                "terms": [
+                  {
+                    "es": "calzada sin salida",
+                    "en": "dead-end carriageway"
+                  },
+                  {
+                    "es": "preseñalización",
+                    "en": "advance signing"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.8 (S-15c)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Paneles complementarios",
+            "en": "Supplementary panels"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "src": "RGC art. 146.2.e y 146.3",
+              "text": {
+                "es": "Los **paneles complementarios** precisan el significado de la señal que acompañan. Debajo de una señal de indicación pueden dar la distancia hasta el lugar señalado.",
+                "en": "**Supplementary panels** make the meaning of the sign they go with more precise. Below an information sign they can give the distance to the place it shows."
+              }
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "s-820"
+              ]
+            },
+            {
+              "t": "rule",
+              "src": "RGC Anexo I, ap. 5.1, 3.17 (S-800, S-810 y S-820)",
+              "text": {
+                "es": "S-820, colocado debajo de una señal de prohibición, indica la distancia en la que rige la prohibición, en el sentido de la flecha. Otros paneles dan la distancia hasta donde empieza el peligro o la prescripción (S-800) o la longitud del tramo afectado (S-810).",
+                "en": "S-820, placed below a prohibition sign, shows the distance over which the prohibition applies, in the direction of the arrow. Other panels give the distance to where the danger or the rule starts (S-800) or the length of the affected stretch (S-810)."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-ind-q",
+                "answer": 1,
+                "sign": "s-820",
+                "es": {
+                  "q": "Este panel está debajo de una señal de estacionamiento prohibido. Quieres aparcar unos metros después de la señal, hacia donde apunta la flecha y dentro de la distancia del panel. ¿Puedes?",
+                  "options": [
+                    "Sí: el panel solo avisa de dónde empezará la prohibición",
+                    "No: la prohibición rige en todo ese tramo, hacia donde apunta la flecha",
+                    "Sí: el panel indica los minutos que puedes estacionar"
+                  ],
+                  "why": "S-820, bajo una señal de prohibición, indica la distancia en la que se aplica la prohibición en el sentido de la flecha."
+                },
+                "exam": {
+                  "q": "This panel is below a sign of parking prohibited. You want to park a few metres after the sign, towards where the arrow points and within the distance of the panel. Can you?",
+                  "options": [
+                    "Yes: the panel only warns of where the prohibition will begin.",
+                    "No: the prohibition governs in all that section, towards where the arrow points.",
+                    "Yes: the panel indicates the minutes that you can park."
+                  ]
+                },
+                "en": {
+                  "q": "This panel is below a no-parking sign. You want to park a few meters past the sign, the way the arrow points and within the distance on the panel. May you?",
+                  "options": [
+                    "Yes: the panel only warns where the ban will begin",
+                    "No: the ban covers that whole stretch, following the arrow",
+                    "Yes: the panel gives the minutes you may park"
+                  ],
+                  "why": "S-820, under a prohibition sign, gives the length of road where the ban holds, counted the way the arrow points."
+                },
+                "terms": [
+                  {
+                    "es": "panel complementario",
+                    "en": "supplementary panel"
+                  },
+                  {
+                    "es": "extensión de la prohibición",
+                    "en": "extent of the prohibition"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.17 (S-820)"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "S-28 estancia y juego: **10 km/h**, juegos permitidos. S-47 coexistencia: **20 km/h**, sin juegos. En las dos, prioridad del peatón.",
+          "en": "S-28 residential and play: **10 km/h**, games allowed. S-47 shared zone: **20 km/h**, no games. In both, pedestrians have priority."
+        },
+        {
+          "es": "S-13: aquí está el paso para peatones. S-19: parada de autobuses.",
+          "en": "S-13: the pedestrian crossing is here. S-19: bus stop."
+        },
+        {
+          "es": "S-126: aparcamiento para dejar el coche y seguir en **autobús**.",
+          "en": "S-126: a car park where you leave the car and go on by **bus**."
+        },
+        {
+          "es": "S-16: zona de escape si fallan los frenos. S-15: calzada sin salida.",
+          "en": "S-16: escape area if the brakes fail. S-15: dead-end carriageway."
+        },
+        {
+          "es": "S-820 bajo una prohibición: distancia en la que rige, en el sentido de la flecha.",
+          "en": "S-820 below a prohibition: the distance it applies over, in the direction of the arrow."
+        }
+      ],
+      "covers": [],
+      "src": [
+        "Reglamento General de Circulación (RD 1428/2003), arts. 146.2.e y 146.3",
+        "RGC Anexo I, apartado 5.1 (Catálogo de señales verticales, Tomo I: apartados 3.8, 3.10 y 3.17), en la redacción del RD 465/2025",
+        "RGC Anexo I, apartado 5.2 (marcas viales), 4.2"
       ]
     },
     {
@@ -4075,6 +5911,14 @@
               }
             },
             {
+              "t": "rule",
+              "src": "RGC Anexo I, ap. 5.2 (marcas viales), 4.1",
+              "text": {
+                "es": "La prohibición de circular por la **izquierda** de una línea continua solo vale cuando la línea separa los dos sentidos. Entre dos carriles del mismo sentido, la línea no se cruza, pero puedes ir por el carril de su izquierda si entraste en él sin cruzarla.",
+                "en": "The ban on driving to the **left** of a continuous line applies only when the line separates the two directions. Between two lanes going the same way, you may not cross the line, but you may drive in the lane on its left if you got into it without crossing."
+              }
+            },
+            {
               "t": "check",
               "q": {
                 "id": "signs-mark-e",
@@ -4109,6 +5953,50 @@
                   {
                     "es": "adelantar",
                     "en": "to overtake"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.2 (marcas viales), 4.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-mark-k",
+                "answer": 0,
+                "es": {
+                  "q": "En una vía de sentido único, una línea continua separa dos carriles. ¿Está permitido circular a su izquierda?",
+                  "options": [
+                    "Sí, si no la cruzas: la prohibición de ir por su izquierda es para cuando separa sentidos",
+                    "No, nunca",
+                    "Sí, y además puedes cruzarla para cambiar de carril"
+                  ],
+                  "why": "Una línea continua no se cruza ni se pisa. Circular por su izquierda solo está prohibido cuando separa los dos sentidos de circulación."
+                },
+                "exam": {
+                  "q": "On a one-way road, a continuous line separates two lanes. Is it permitted to circulate to its left?",
+                  "options": [
+                    "Yes, if you do not cross it: the prohibition to go by its left is for when it separates directions.",
+                    "No, never.",
+                    "Yes, and in addition you can cross it in order to change lane."
+                  ]
+                },
+                "en": {
+                  "q": "On a one-way road, a continuous line separates two lanes. May you drive to its left?",
+                  "options": [
+                    "Yes, if you do not cross it: the ban on its left side is for lines that separate directions",
+                    "No, never",
+                    "Yes, and you may also cross it to change lane"
+                  ],
+                  "why": "You may not cross or drive on a continuous line. Driving to its left is forbidden only when it separates the two directions of traffic."
+                },
+                "terms": [
+                  {
+                    "es": "línea continua",
+                    "en": "continuous line"
+                  },
+                  {
+                    "es": "sentido único",
+                    "en": "one-way"
                   }
                 ],
                 "src": "RGC Anexo I, ap. 5.2 (marcas viales), 4.1"

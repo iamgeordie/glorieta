@@ -15,7 +15,7 @@
         "es": "Parar o estacionar",
         "en": "Stopping or parking"
       },
-      "minutes": 6,
+      "minutes": 8,
       "goals": [
         {
           "es": "Distinguir una detención, una parada y un estacionamiento.",
@@ -272,8 +272,8 @@
             {
               "t": "rule",
               "text": {
-                "es": "Queda prohibido parar en **curvas y cambios de rasante** de poca visibilidad, cerca de ellos, y en los **túneles**.",
-                "en": "Stopping is banned on **curves and hill crests** with poor visibility, near them, and in **tunnels**."
+                "es": "Queda prohibido parar en **curvas y cambios de rasante** de poca visibilidad y cerca de ellos. También en los **túneles**, los pasos inferiores y los tramos afectados por la señal «Túnel».",
+                "en": "Stopping is banned on **curves and hill crests** with poor visibility and near them. Also in **tunnels**, underpasses and stretches covered by the “Tunnel” sign."
               },
               "src": "RGC art. 94.1.a"
             },
@@ -339,6 +339,54 @@
                   }
                 ],
                 "src": "RGC art. 94.1.c y h"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c1e",
+                "answer": 2,
+                "es": {
+                  "q": "Quieres parar un minuto, sin bajarte del coche, dentro de un paso inferior. ¿Puedes?",
+                  "options": [
+                    "Sí, porque es una parada breve",
+                    "Sí, con la luz de emergencia encendida",
+                    "No: en túneles y pasos inferiores está prohibido parar"
+                  ],
+                  "why": "Está prohibido parar en túneles, pasos inferiores y tramos afectados por la señal «Túnel». Si no se puede parar, tampoco se puede estacionar."
+                },
+                "exam": {
+                  "q": "You want to stop one minute, without getting out of the car, inside an underpass. Can you?",
+                  "options": [
+                    "Yes, because it is a brief stop.",
+                    "Yes, with the emergency light switched on.",
+                    "No: in tunnels and underpasses it is prohibited to stop."
+                  ]
+                },
+                "en": {
+                  "q": "You want to stop for one minute inside an underpass, without getting out of the car. May you?",
+                  "options": [
+                    "Yes, because it is a short stop",
+                    "Yes, with the hazard lights on",
+                    "No: stopping is banned in tunnels and underpasses"
+                  ],
+                  "why": "Stopping is banned in tunnels, underpasses and stretches covered by the “Tunnel” sign. Where you cannot stop, you cannot park either."
+                },
+                "terms": [
+                  {
+                    "es": "paso inferior",
+                    "en": "underpass"
+                  },
+                  {
+                    "es": "parar",
+                    "en": "to stop"
+                  },
+                  {
+                    "es": "señal «Túnel»",
+                    "en": "“Tunnel” sign"
+                  }
+                ],
+                "src": "RGC art. 94.1.a y 94.2.a"
               }
             }
           ]
@@ -446,6 +494,98 @@
                 ],
                 "src": "RGC art. 94.1.d"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c1f",
+                "answer": 0,
+                "es": {
+                  "q": "Si paras tu coche en un sitio, tapas una señal de STOP a los conductores que llegan detrás. ¿Qué puedes hacer ahí?",
+                  "options": [
+                    "Ni parar ni estacionar",
+                    "Parar sí, porque son menos de dos minutos",
+                    "Estacionar sí, si dejas tres metros libres"
+                  ],
+                  "why": "Está prohibido parar donde impides ver una señal a quienes les afecta. Y donde no se puede parar, tampoco se puede estacionar."
+                },
+                "exam": {
+                  "q": "If you stop your car in a place, you cover a STOP sign to the drivers who arrive behind. What can you do there?",
+                  "options": [
+                    "Neither to stop nor to park.",
+                    "To stop yes, because they are less than two minutes.",
+                    "To park yes, if you leave three metres free."
+                  ]
+                },
+                "en": {
+                  "q": "If you stop your car in a certain spot, you hide a STOP sign from the drivers coming behind you. What may you do there?",
+                  "options": [
+                    "Neither stop nor park",
+                    "Stop, since it is under two minutes",
+                    "Park, if you leave three meters free"
+                  ],
+                  "why": "Stopping is banned where you keep a sign from being seen by those it applies to. And where you cannot stop, you cannot park either."
+                },
+                "terms": [
+                  {
+                    "es": "visibilidad de la señalización",
+                    "en": "visibility of the signage"
+                  },
+                  {
+                    "es": "estacionar",
+                    "en": "to park"
+                  }
+                ],
+                "src": "RGC art. 94.1.f y 94.2.a"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c1g",
+                "answer": 1,
+                "es": {
+                  "q": "Fuera de poblado quieres parar junto a un cruce. No impides ningún giro, pero tu coche quita visibilidad a quienes llegan al cruce. ¿Puedes parar?",
+                  "options": [
+                    "Sí, porque no impides ningún giro",
+                    "No, porque creas peligro por falta de visibilidad",
+                    "Sí, si paras menos de dos minutos"
+                  ],
+                  "why": "En las intersecciones y cerca de ellas no se para si se dificulta el giro a otros. En vías interurbanas, tampoco si se genera peligro por falta de visibilidad."
+                },
+                "exam": {
+                  "q": "Outside town you want to stop next to an intersection. You do not hinder any turn, but your car takes away visibility from those who arrive at the intersection. Can you stop?",
+                  "options": [
+                    "Yes, because you do not hinder any turn.",
+                    "No, because you create danger due to lack of visibility.",
+                    "Yes, if you stop less than two minutes."
+                  ]
+                },
+                "en": {
+                  "q": "Outside a town you want to stop next to a junction. You block no one’s turn, but your car cuts the view of drivers reaching the junction. May you stop?",
+                  "options": [
+                    "Yes, because you block no turn",
+                    "No, because you create a danger by blocking the view",
+                    "Yes, if you stop for under two minutes"
+                  ],
+                  "why": "At junctions and near them you may not stop if it makes others’ turns harder. On interurban roads, also not if it creates a danger through lack of visibility."
+                },
+                "terms": [
+                  {
+                    "es": "vía interurbana",
+                    "en": "interurban road"
+                  },
+                  {
+                    "es": "proximidades",
+                    "en": "vicinity"
+                  },
+                  {
+                    "es": "falta de visibilidad",
+                    "en": "lack of visibility"
+                  }
+                ],
+                "src": "RGC art. 94.1.d"
+              }
             }
           ]
         }
@@ -483,7 +623,7 @@
         "es": "Aparcar bien",
         "en": "Parking properly"
       },
-      "minutes": 7,
+      "minutes": 11,
       "goals": [
         {
           "es": "Colocar el coche bien, dentro y fuera de poblado.",
@@ -607,28 +747,28 @@
                 "id": "situations-c2a",
                 "answer": 2,
                 "es": {
-                  "q": "Fuera de poblado quieres dejar el coche aparcado. ¿Dónde debes ponerlo?",
+                  "q": "Vas por una carretera fuera de poblado y quieres aparcar para hacer una foto del paisaje. ¿Dónde debes dejar el coche?",
                   "options": [
-                    "En el lado izquierdo de la calzada, si hay poco tráfico",
-                    "Sobre la calzada, lo más cerca posible del borde derecho",
-                    "Fuera de la calzada, a la derecha, sin ocupar el arcén transitable"
+                    "En la calzada, junto a la línea del borde derecho",
+                    "En el arcén izquierdo, si hay poco tráfico",
+                    "Fuera de la calzada, a la derecha, sin ocupar la parte transitable del arcén"
                   ],
                   "why": "Fuera de poblado se para o se estaciona fuera de la calzada, en el lado derecho, y se deja libre la parte transitable del arcén."
                 },
                 "exam": {
-                  "q": "Outside town you want to leave the car parked. Where must you put it?",
+                  "q": "You go by a road outside town and you want to park in order to take a photo of the landscape. Where must you leave the car?",
                   "options": [
-                    "On the left side of the carriageway, if there is little traffic.",
-                    "On the carriageway, as near as possible to the right edge.",
-                    "Outside the carriageway, to the right, without occupying the passable hard shoulder."
+                    "On the carriageway, next to the line of the right edge.",
+                    "On the left hard shoulder, if there is little traffic.",
+                    "Outside the carriageway, to the right, without occupying the passable part of the hard shoulder."
                   ]
                 },
                 "en": {
-                  "q": "Outside a town you want to leave your car parked. Where must you put it?",
+                  "q": "Out of town you want to park to take a photo of the view. Where must you leave the car?",
                   "options": [
-                    "On the left side of the roadway, if traffic is light",
-                    "On the roadway, as close as possible to the right edge",
-                    "Off the roadway, on the right, not blocking the usable shoulder"
+                    "On the roadway, against the right edge line",
+                    "On the left shoulder, if traffic is light",
+                    "Off the roadway, on the right, keeping the usable part of the shoulder clear"
                   ],
                   "why": "Outside towns you stop or park off the roadway, on the right side, leaving the usable part of the shoulder free."
                 },
@@ -639,6 +779,50 @@
                   }
                 ],
                 "src": "RGC art. 90.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c2f",
+                "answer": 0,
+                "es": {
+                  "q": "Quieres estacionar en un ensanche de forma irregular, donde la vía no permite colocarse en paralelo al borde. ¿Qué haces?",
+                  "options": [
+                    "Lo colocas en otra posición, porque la forma de la vía lo aconseja",
+                    "No estacionas: fuera del paralelo nunca está permitido",
+                    "Lo dejas como quieras, porque no hay líneas pintadas"
+                  ],
+                  "why": "La parada y el estacionamiento se hacen en paralelo al borde de la calzada. Se permite otra posición si las características de la vía u otras circunstancias lo aconsejan."
+                },
+                "exam": {
+                  "q": "You want to park in a widening of irregular form, where the road does not allow placing yourself parallel to the edge. What do you do?",
+                  "options": [
+                    "You place it in another position, because the form of the road advises it.",
+                    "You do not park: outside the parallel it is never permitted.",
+                    "You leave it as you want, because there are no painted lines."
+                  ]
+                },
+                "en": {
+                  "q": "You want to park in an irregularly shaped widening where the road does not let you line up with the edge. What do you do?",
+                  "options": [
+                    "Put it in another position, since the shape of the road calls for it",
+                    "Do not park: anything but parallel is never allowed",
+                    "Leave it however you like, as there are no painted lines"
+                  ],
+                  "why": "As a rule you stop and park lined up with the roadway edge. When the layout of the road or other circumstances make that unsuitable, another position is allowed."
+                },
+                "terms": [
+                  {
+                    "es": "paralelamente al borde de la calzada",
+                    "en": "parallel to the edge of the carriageway"
+                  },
+                  {
+                    "es": "salvo que",
+                    "en": "except that"
+                  }
+                ],
+                "src": "RGC art. 92.1"
               }
             }
           ]
@@ -781,6 +965,22 @@
               }
             },
             {
+              "t": "rule",
+              "text": {
+                "es": "No abras las **puertas** antes de que el vehículo esté completamente inmovilizado. Antes de abrir o de bajarte, comprueba que no pones en peligro ni molestas a nadie, sobre todo a los ciclistas.",
+                "en": "Do not open the **doors** before the vehicle has come to a complete stop. Before you open a door or get out, check that you put no one at risk or in the way, above all cyclists."
+              },
+              "src": "RGC art. 114.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Como norma general, entra y sal por el lado más cercano al borde de la vía, y solo cuando el vehículo esté parado.",
+                "en": "As a general rule, get in and out on the side nearest the edge of the road, and only when the vehicle is stopped."
+              },
+              "src": "RGC art. 114.2"
+            },
+            {
               "t": "check",
               "q": {
                 "id": "situations-c2c",
@@ -822,6 +1022,54 @@
                   }
                 ],
                 "src": "RGC art. 92.3.b y 92.3.c"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c2g",
+                "answer": 2,
+                "es": {
+                  "q": "Llegas a tu plaza y el coche todavía se mueve muy despacio. Tu acompañante quiere abrir ya la puerta. ¿Puede?",
+                  "options": [
+                    "Sí, si antes mira por el retrovisor",
+                    "Sí, porque el coche casi no se mueve",
+                    "No: las puertas no se abren hasta que el vehículo esté inmovilizado del todo"
+                  ],
+                  "why": "Está prohibido abrir las puertas antes de la completa inmovilización del vehículo. Y antes de abrirlas hay que comprobar que no hay peligro para nadie."
+                },
+                "exam": {
+                  "q": "You arrive at your space and the car still moves very slowly. Your companion wants to open the door already. Can he?",
+                  "options": [
+                    "Yes, if before he looks through the rear-view mirror.",
+                    "Yes, because the car almost does not move.",
+                    "No: the doors are not opened until the vehicle is completely immobilised."
+                  ]
+                },
+                "en": {
+                  "q": "You reach your parking space and the car is still rolling very slowly. Your passenger wants to open the door now. May they?",
+                  "options": [
+                    "Yes, if they check the mirror first",
+                    "Yes, because the car is barely moving",
+                    "No: doors stay shut until the vehicle has fully stopped"
+                  ],
+                  "why": "Opening the doors before the vehicle is completely stopped is banned. And before opening them you must check there is no danger to anyone."
+                },
+                "terms": [
+                  {
+                    "es": "completa inmovilización",
+                    "en": "complete immobilisation"
+                  },
+                  {
+                    "es": "puertas",
+                    "en": "doors"
+                  },
+                  {
+                    "es": "apearse",
+                    "en": "to get out of the vehicle"
+                  }
+                ],
+                "src": "RGC art. 114.1"
               }
             }
           ]
@@ -908,6 +1156,231 @@
                   }
                 ],
                 "src": "RGC art. 94.2.g"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Cuándo obstaculizas gravemente",
+            "en": "When you seriously obstruct traffic"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "La ley considera que una parada o un estacionamiento es **peligroso u obstaculiza gravemente** la circulación en una lista de casos. Además de tapar accesos, vados y pasos rebajados, están estos:",
+                "en": "The law treats a stop or a parked vehicle as **dangerous or seriously obstructing** traffic in a list of cases. Besides blocking entrances, driveways and lowered curbs, there are these:"
+              },
+              "src": "RGC art. 91.2"
+            },
+            {
+              "t": "list",
+              "items": [
+                {
+                  "es": "Parar o estacionar en **medianas**, separadores, isletas u otros elementos que canalizan el tráfico.",
+                  "en": "Stopping or parking on **medians**, dividers, traffic islands or other features that channel traffic."
+                },
+                {
+                  "es": "Impedir un giro autorizado por su señal.",
+                  "en": "Blocking a turn that its sign allows."
+                },
+                {
+                  "es": "Estacionar en una zona de **carga y descarga** durante sus horas de uso.",
+                  "en": "Parking in a **loading and unloading** zone during its hours of use."
+                },
+                {
+                  "es": "Estacionar en **doble fila sin conductor**.",
+                  "en": "Parking **double, with no driver** in the car."
+                },
+                {
+                  "es": "Estacionar en una parada de transporte público señalizada y delimitada.",
+                  "en": "Parking at a marked and delimited public transport stop."
+                },
+                {
+                  "es": "Estacionar en espacios reservados a servicios de urgencia y seguridad.",
+                  "en": "Parking in spaces reserved for emergency and security services."
+                },
+                {
+                  "es": "Estacionar **en medio de la calzada**.",
+                  "en": "Parking **in the middle of the roadway**."
+                }
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Estos casos son infracciones **graves**.",
+                "en": "These cases are **serious** offenses."
+              },
+              "src": "RGC art. 91.3"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c2h",
+                "answer": 1,
+                "es": {
+                  "q": "¿En cuál de estos casos el estacionamiento obstaculiza gravemente la circulación?",
+                  "options": [
+                    "Estacionas en una calle sin salida, junto a la acera",
+                    "Estacionas en doble fila y te vas del coche",
+                    "Estacionas a la izquierda en una calle urbana de sentido único"
+                  ],
+                  "why": "El estacionamiento en doble fila sin conductor es uno de los casos que la ley considera peligrosos u obstáculo grave. En poblado, en una calle de sentido único, también se puede estacionar a la izquierda."
+                },
+                "exam": {
+                  "q": "In which of these cases does the parking seriously obstruct the traffic?",
+                  "options": [
+                    "You park in a street without exit, next to the pavement.",
+                    "You park in double row and you leave the car.",
+                    "You park on the left in a one-way urban street."
+                  ]
+                },
+                "en": {
+                  "q": "In which of these cases does parking seriously obstruct traffic?",
+                  "options": [
+                    "You park by the curb on a dead-end street",
+                    "You double-park and walk away from the car",
+                    "You park on the left of a one-way town street"
+                  ],
+                  "why": "Double parking with no driver is one of the cases the law treats as dangerous or a serious obstruction. On a one-way town street you may also park on the left."
+                },
+                "terms": [
+                  {
+                    "es": "doble fila",
+                    "en": "double row (double parking)"
+                  },
+                  {
+                    "es": "obstaculizar gravemente",
+                    "en": "to seriously obstruct"
+                  }
+                ],
+                "src": "RGC arts. 90.2 y 91.2.h"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c2i",
+                "answer": 0,
+                "es": {
+                  "q": "Paras un minuto, sin bajarte, delante de la puerta de un edificio, y la gente no puede entrar ni salir. ¿Cómo lo trata la ley?",
+                  "options": [
+                    "Como una parada que obstaculiza gravemente la circulación",
+                    "Como una parada correcta, porque es breve",
+                    "Como una parada correcta, porque sigues al volante"
+                  ],
+                  "why": "Es una parada en lugar peligroso u obstáculo grave cuando impide el uso normal del acceso a un inmueble, de personas o animales. Da igual que sea breve."
+                },
+                "exam": {
+                  "q": "You stop one minute, without getting out, in front of the door of a building, and the people cannot enter nor leave. How does the law treat it?",
+                  "options": [
+                    "As a stop that seriously obstructs the traffic.",
+                    "As a correct stop, because it is brief.",
+                    "As a correct stop, because you remain at the wheel."
+                  ]
+                },
+                "en": {
+                  "q": "You stop for a minute, staying in the car, in front of a building’s door, and people cannot get in or out. How does the law see it?",
+                  "options": [
+                    "As a stop that seriously obstructs traffic",
+                    "As a proper stop, because it is short",
+                    "As a proper stop, because you stay at the wheel"
+                  ],
+                  "why": "A stop counts as dangerous or a serious obstruction when it blocks the normal use of the access to a building by people or animals. It does not matter that it is short."
+                },
+                "terms": [
+                  {
+                    "es": "acceso a un inmueble",
+                    "en": "access to a property (building)"
+                  },
+                  {
+                    "es": "parada",
+                    "en": "stop"
+                  }
+                ],
+                "src": "RGC art. 91.2.c"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Carga y descarga en la vía",
+            "en": "Loading and unloading on the road"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Carga y descarga **fuera de la vía**. Solo si es inexcusable hacerlo en ella, hazlo sin causar peligros ni perturbaciones graves a los demás.",
+                "en": "Load and unload **off the road**. Only if there is no way around doing it on the road, do it without causing danger or serious disruption to others."
+              },
+              "src": "RGC art. 16"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Respeta las normas de parada y estacionamiento y, en poblado, las horas y los lugares que fije el ayuntamiento. Si puedes, hazlo por el lado del vehículo más cercano al borde de la calzada.",
+                "en": "Follow the stopping and parking rules and, in towns, the hours and places the council sets. If you can, do it from the side of the vehicle nearest the edge of the roadway."
+              },
+              "src": "RGC art. 16.a y b"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Hazlo con medios suficientes para ir **lo más rápido posible**, y evita ruidos y molestias innecesarias. Está prohibido dejar la mercancía en la calzada, el arcén o las zonas peatonales.",
+                "en": "Use enough means to do it **as fast as possible**, and avoid needless noise and nuisance. Leaving the goods on the roadway, the shoulder or pedestrian areas is banned."
+              },
+              "src": "RGC art. 16.c"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c2j",
+                "answer": 1,
+                "es": {
+                  "q": "No tienes otra opción y descargas cajas de una furgoneta en la calle. ¿Qué es correcto?",
+                  "options": [
+                    "Dejar las cajas un rato en la acera, junto a la furgoneta",
+                    "Hacerlo lo más rápido posible, sin dejar las cajas en la calzada ni en la acera",
+                    "Dejar las cajas en la calzada si tienes la luz de emergencia encendida"
+                  ],
+                  "why": "Si es inexcusable descargar en la vía, hazlo con la máxima rapidez y sin ruidos ni molestias innecesarias. Está prohibido depositar la mercancía en la calzada, el arcén y las zonas peatonales."
+                },
+                "exam": {
+                  "q": "You have no other option and you unload boxes from a van in the street. What is correct?",
+                  "options": [
+                    "To leave the boxes a while on the pavement, next to the van.",
+                    "To do it as quickly as possible, without leaving the boxes on the carriageway nor on the pavement.",
+                    "To leave the boxes on the carriageway if you have the emergency light switched on."
+                  ]
+                },
+                "en": {
+                  "q": "You have no other choice and are unloading boxes from a van in the street. What is correct?",
+                  "options": [
+                    "Leave the boxes on the sidewalk for a while, next to the van",
+                    "Work as fast as you can, without leaving boxes on the roadway or the sidewalk",
+                    "Leave the boxes on the roadway if your hazard lights are on"
+                  ],
+                  "why": "If unloading on the road cannot be avoided, do it as quickly as possible and without needless noise or nuisance. Putting the goods on the roadway, the shoulder or pedestrian areas is banned."
+                },
+                "terms": [
+                  {
+                    "es": "operaciones de carga y descarga",
+                    "en": "loading and unloading operations"
+                  },
+                  {
+                    "es": "mercancía",
+                    "en": "goods"
+                  },
+                  {
+                    "es": "zona peatonal",
+                    "en": "pedestrian zone"
+                  }
+                ],
+                "src": "RGC art. 16.c"
               }
             }
           ]
@@ -1016,8 +1489,8 @@
           "en": "Leave **three meters** free up to the solid line or the opposite edge."
         },
         {
-          "es": "Motor parado, **freno de estacionamiento** y marcha: **primera** en subida, **marcha atrás** en bajada.",
-          "en": "Engine off, **parking brake** on, and a gear: **first** uphill, **reverse** downhill."
+          "es": "Motor apagado, **freno de estacionamiento** y una marcha: **primera** cuesta arriba, **marcha atrás** cuesta abajo. No abras las puertas hasta estar parado del todo.",
+          "en": "Engine off, **parking brake** on, and a gear: **first** uphill, **reverse** downhill. Do not open the doors until you have fully stopped."
         },
         {
           "es": "No estaciones en aceras, **delante de un vado** ni en **doble fila**. La grúa puede retirarte.",
@@ -1026,13 +1499,17 @@
         {
           "es": "Amarilla continua: no parar ni estacionar. **Discontinua**: no estacionar. **R-309**: zona de estacionamiento limitado.",
           "en": "Solid yellow: no stopping or parking. **Dashed**: no parking. **R-309**: limited-parking zone."
+        },
+        {
+          "es": "Obstáculo **grave**: doble fila **sin conductor**, en medio de la calzada, en una mediana o en una parada de bus. Carga y descarga **fuera de la vía** y rápido.",
+          "en": "**Serious** obstruction: double-parked **with no driver**, in the middle of the roadway, on a median or at a bus stop. Load and unload **off the road**, and fast."
         }
       ],
       "covers": [
         "situations-04"
       ],
       "src": [
-        "Reglamento General de Circulación (RD 1428/2003), arts. 90, 91, 92 y 94; Anexo I, ap. 5.1 (R-308c, R-308d y R-309) y ap. 5.2 (M-2.1 a M-2.3, M-7.3, M-7.4 y M-7.7 a M-7.9)",
+        "Reglamento General de Circulación (RD 1428/2003), arts. 16, 90, 91, 92, 94 y 114; Anexo I, ap. 5.1 (R-308c, R-308d y R-309) y ap. 5.2 (M-2.1 a M-2.3, M-7.3, M-7.4 y M-7.7 a M-7.9)",
         "Ley de Tráfico y Seguridad Vial (RDL 6/2015), arts. 39, 40 y 105"
       ]
     },
@@ -1131,6 +1608,13 @@
                 "en": "Signs **S-1** (motorway) and **S-1a** (dual carriageway) mark the start of the stretch. From there the special rules of these roads apply."
               },
               "src": "RGC Anexo I, ap. 5.1 (S-1 y S-1a)"
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "s-1",
+                "s-1a"
+              ]
             },
             {
               "t": "rule",
@@ -1630,6 +2114,12 @@
                 "en": "Sign **S-5** shows the start of a tunnel, an underpass or a stretch treated as a tunnel."
               },
               "src": "RGC Anexo I, ap. 5.1 (S-5)"
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "s-5"
+              ]
             },
             {
               "t": "rule",
@@ -2594,7 +3084,7 @@
         "es": "La bocina y los avisos de luces",
         "en": "The horn and light warnings"
       },
-      "minutes": 4,
+      "minutes": 5,
       "goals": [
         {
           "es": "Saber en qué casos puedes usar la bocina.",
@@ -2795,6 +3285,61 @@
                 ],
                 "src": "RGC art. 110.1 y 110.2"
               }
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "r-310"
+              ],
+              "caption": {
+                "es": "R-310, advertencias acústicas prohibidas: recuerda la prohibición general de usar señales acústicas, salvo para evitar un accidente. (RGC Anexo I, ap. 5.1)",
+                "en": "R-310, acoustic warnings prohibited: a reminder of the general ban on sound signals, except to avoid an accident. (RGC Anexo I, ap. 5.1)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c6d",
+                "answer": 2,
+                "es": {
+                  "q": "¿Qué te indica esta señal?",
+                  "options": [
+                    "Que está prohibido pitar en todo caso, también para evitar un accidente",
+                    "Que debes pitar antes de entrar en la curva siguiente",
+                    "Que no se usan señales acústicas, salvo para evitar un accidente"
+                  ],
+                  "why": "Esta señal recuerda la prohibición general de hacer señales acústicas. Sigue permitido usar el claxon para evitar un accidente."
+                },
+                "exam": {
+                  "q": "What does this sign indicate to you?",
+                  "options": [
+                    "That it is prohibited to sound the horn in every case, also in order to avoid an accident.",
+                    "That you must sound the horn before entering the next curve.",
+                    "That acoustic signals are not used, except in order to avoid an accident."
+                  ]
+                },
+                "en": {
+                  "q": "What does this sign tell you?",
+                  "options": [
+                    "Honking is banned in every case, even to avoid an accident",
+                    "You must honk before entering the next curve",
+                    "No sound signals, except to avoid an accident"
+                  ],
+                  "why": "This sign is a reminder of the general ban on sound signals. Using the horn to avoid an accident is still allowed."
+                },
+                "terms": [
+                  {
+                    "es": "señales acústicas",
+                    "en": "acoustic signals"
+                  },
+                  {
+                    "es": "claxon",
+                    "en": "horn"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1 (R-310)",
+                "sign": "r-310"
+              }
             }
           ]
         },
@@ -2889,7 +3434,7 @@
         "situations-05"
       ],
       "src": [
-        "Reglamento General de Circulación (RD 1428/2003), arts. 70, 100, 109 y 110"
+        "Reglamento General de Circulación (RD 1428/2003), arts. 70, 100, 109 y 110; Anexo I, ap. 5.1 (R-310)"
       ]
     }
   ]
