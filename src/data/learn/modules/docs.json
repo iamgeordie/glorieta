@@ -3988,6 +3988,131 @@
                 ],
                 "src": "LSV art. 82 y 82.b"
               }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "El **conductor habitual** es la persona con permiso que el titular del vehículo comunica al Registro de Vehículos, con su consentimiento, porque es quien suele conducirlo. Entonces las obligaciones del titular de identificar al conductor pasan a él.",
+                "en": "The **regular driver** (conductor habitual) is the licensed person the vehicle’s owner reports to the Vehicle Register, with that person’s consent, because they usually drive it. The owner’s duties to identify the driver then pass to them."
+              },
+              "src": "LSV anexo I, punto 2; LSV art. 11.2"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si una **persona física sin permiso de conducción** matricula un vehículo, está obligada a designar un conductor habitual.",
+                "en": "If a **private individual with no driving license** registers a vehicle, they must name a regular driver."
+              },
+              "src": "LSV anexo I, punto 2"
+            },
+            {
+              "t": "new",
+              "since": "2026-10-01",
+              "was": {
+                "es": "Designar un conductor habitual era siempre voluntario para el titular.",
+                "en": "Naming a regular driver was always optional for the owner."
+              },
+              "now": {
+                "es": "Es **obligatorio** cuando matricula el vehículo una persona física que no tiene autorización para conducir.",
+                "en": "It is **compulsory** when the vehicle is registered by a private individual who holds no driving authorization."
+              },
+              "src": "LSV anexo I, punto 2"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-duties-9",
+                "answer": 2,
+                "es": {
+                  "q": "Tu abuela no tiene permiso de conducción y matricula un coche a su nombre. ¿Qué debe hacer, además?",
+                  "options": [
+                    "Nada: el titular no tiene que conducir",
+                    "Sacarse el permiso en el plazo de un año",
+                    "Designar un conductor habitual que tenga permiso"
+                  ],
+                  "why": "Cuando una persona física sin autorización para conducir matricula un vehículo, es obligatorio designar un conductor habitual, que debe tener el permiso necesario."
+                },
+                "exam": {
+                  "q": "Your grandmother does not have a driving permit and registers a car in her name. What must she do, besides?",
+                  "options": [
+                    "Nothing: the holder does not have to drive.",
+                    "To obtain the permit within a period of one year.",
+                    "To designate a habitual driver who has a permit."
+                  ]
+                },
+                "en": {
+                  "q": "Your grandmother has no driving license and registers a car in her name. What else must she do?",
+                  "options": [
+                    "Nothing: the owner does not have to drive",
+                    "Get a license within a year",
+                    "Name a regular driver who holds a license"
+                  ],
+                  "why": "When a private individual with no driving authorization registers a vehicle, naming a regular driver, who must hold the right license, is compulsory."
+                },
+                "terms": [
+                  {
+                    "es": "conductor habitual",
+                    "en": "habitual (regular) driver"
+                  },
+                  {
+                    "es": "matricular",
+                    "en": "to register a vehicle"
+                  },
+                  {
+                    "es": "titular",
+                    "en": "holder, registered owner"
+                  }
+                ],
+                "src": "LSV anexo I, punto 2"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-duties-10",
+                "answer": 0,
+                "es": {
+                  "q": "Un vehículo tiene designado un conductor habitual. Un radar lo capta con exceso de velocidad y no se detiene al vehículo. ¿Quién responde, en principio?",
+                  "options": [
+                    "El conductor habitual, salvo que demuestre que conducía otro o que el vehículo fue robado",
+                    "El titular, siempre",
+                    "La aseguradora del vehículo"
+                  ],
+                  "why": "Si no se detiene al vehículo y tiene designado un conductor habitual, la responsabilidad recae en él, salvo que acredite que conducía otra persona o la sustracción del vehículo."
+                },
+                "exam": {
+                  "q": "A vehicle has a habitual driver designated. A radar captures it with excess of speed and the vehicle is not stopped. Who is responsible, in principle?",
+                  "options": [
+                    "The habitual driver, except that he proves that another drove or that the vehicle was stolen.",
+                    "The holder, always.",
+                    "The insurer of the vehicle."
+                  ]
+                },
+                "en": {
+                  "q": "A vehicle has a named regular driver. A speed camera catches it speeding and the vehicle is not pulled over. Who is liable, in principle?",
+                  "options": [
+                    "The regular driver, unless they prove someone else was driving or the vehicle was stolen",
+                    "The registered owner, always",
+                    "The vehicle’s insurer"
+                  ],
+                  "why": "If the vehicle is not stopped and it has a named regular driver, liability falls on that driver, unless they prove someone else was driving or the vehicle was stolen."
+                },
+                "terms": [
+                  {
+                    "es": "conductor habitual",
+                    "en": "habitual (regular) driver"
+                  },
+                  {
+                    "es": "detención del vehículo",
+                    "en": "stopping the vehicle"
+                  },
+                  {
+                    "es": "sustracción",
+                    "en": "theft"
+                  }
+                ],
+                "src": "LSV art. 82.c"
+              }
             }
           ]
         },
@@ -4308,6 +4433,10 @@
         {
           "es": "Delito: +60 km/h en ciudad, +80 km/h fuera, más de **0,60 mg/l**, negarse a la prueba o conducir sin permiso.",
           "en": "Crime: +60 km/h in town, +80 km/h outside, over **0.60 mg/l**, refusing the test, or driving with no permit."
+        },
+        {
+          "es": "Si matricula un vehículo una persona sin permiso, debe designar un **conductor habitual**; si no se detiene al vehículo, responde él.",
+          "en": "If someone with no license registers a vehicle, they must name a **regular driver**; when the vehicle is not stopped, that driver is liable."
         }
       ],
       "covers": [],
@@ -4315,7 +4444,8 @@
         "Reglamento General de Conductores (RD 818/2009), arts. 3, 10 y 36",
         "Ley de Tráfico y Seguridad Vial (RDL 6/2015), art. 82",
         "Código Penal (LO 10/1995), arts. 379, 380, 382 bis, 383 y 384",
-        "Código Penal, art. 384"
+        "Código Penal, art. 384",
+        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), arts. 11.2 y 82.c, y anexo I, punto 2 (redacción del RD 518/2026)"
       ]
     },
     {

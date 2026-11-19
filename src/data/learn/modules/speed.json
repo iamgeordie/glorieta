@@ -1189,6 +1189,19 @@
               ]
             },
             {
+              "t": "new",
+              "since": "2026-10-01",
+              "was": {
+                "es": "Si el autobús no tenía cinturones o estaba autorizado a llevar viajeros de pie, su límite de 80 km/h valía solo en las carreteras convencionales.",
+                "en": "When a bus had no seat belts, or was allowed to carry people standing, its 80 km/h cap applied only on conventional roads."
+              },
+              "now": {
+                "es": "El límite de **80 km/h** se aplica en **cualquier tipo de vía fuera de poblado**, también en autopistas y autovías.",
+                "en": "The **80 km/h** limit applies on **every type of road outside built-up areas**, motorways and dual carriageways included."
+              },
+              "src": "RGC art. 48.1.b"
+            },
+            {
               "t": "p",
               "text": {
                 "es": "Un ejemplo: un camión con mercancías peligrosas en una autovía va a **80 km/h**. Son los 90 de la tabla menos 10.",
@@ -1277,6 +1290,50 @@
                   }
                 ],
                 "src": "RGC art. 48.1.f"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "speed-outside-c20",
+                "answer": 1,
+                "es": {
+                  "q": "Conduces un autobús por una autovía y llevas viajeros de pie, como permite su autorización. ¿Cuál es tu velocidad máxima?",
+                  "options": [
+                    "100 km/h, como cualquier autobús en autovía",
+                    "80 km/h",
+                    "90 km/h"
+                  ],
+                  "why": "Si un autobús lleva viajeros de pie autorizados o no tiene cinturones, su máximo es 80 km/h en cualquier vía fuera de poblado, autovías incluidas."
+                },
+                "exam": {
+                  "q": "You drive a bus on a dual carriageway and carry standing passengers, as its authorisation permits. Which is your maximum speed?",
+                  "options": [
+                    "100 km/h, like any bus on a dual carriageway.",
+                    "80 km/h.",
+                    "90 km/h."
+                  ]
+                },
+                "en": {
+                  "q": "You drive a bus on a dual carriageway carrying standing passengers, as its permit allows. What is your top speed?",
+                  "options": [
+                    "100 km/h, like any bus on a dual carriageway",
+                    "80 km/h",
+                    "90 km/h"
+                  ],
+                  "why": "A bus carrying authorised standing passengers, or without seat belts, is limited to 80 km/h on any road outside built-up areas, dual carriageways included."
+                },
+                "terms": [
+                  {
+                    "es": "viajeros de pie",
+                    "en": "standing passengers"
+                  },
+                  {
+                    "es": "fuera de poblado",
+                    "en": "outside built-up areas"
+                  }
+                ],
+                "src": "RGC art. 48.1.b"
               }
             }
           ]

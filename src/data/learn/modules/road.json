@@ -3726,6 +3726,19 @@
               "src": "RGC art. 35.2.a"
             },
             {
+              "t": "new",
+              "since": "2026-10-01",
+              "was": {
+                "es": "Con solo el conductor, el carril VAO lo podía usar el vehículo con la señal V-15. Los VMP no figuraban en la lista de prohibidos.",
+                "en": "With only the driver aboard, a vehicle with the V-15 sign could use the VAO lane. VMPs were not on the list of banned users."
+              },
+              "now": {
+                "es": "También vale la **tarjeta de estacionamiento** para personas con discapacidad con movilidad reducida, y los VMP están prohibidos. Usar mal el carril VAO es infracción **grave**.",
+                "en": "The **disabled parking card** for people with reduced mobility also counts, and VMPs are banned. Misusing a VAO lane is a **serious** offense."
+              },
+              "src": "RGC art. 35.2.a y 35.3"
+            },
+            {
               "t": "rule",
               "text": {
                 "es": "La reserva puede ser permanente o temporal, con horario fijo o según el estado del tráfico. El número de ocupantes se fija para cada tramo.",
@@ -3974,6 +3987,106 @@
                   }
                 ],
                 "src": "RGC Anexo I, ap. 5.1 (S-51b)"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Las infracciones de las normas sobre el uso de los carriles VAO son **graves**.",
+                "en": "Breaking the rules on using VAO lanes is a **serious** offense (grave)."
+              },
+              "src": "RGC art. 35.3; LSV art. 76.c"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-s4v",
+                "answer": 2,
+                "es": {
+                  "q": "Vas solo en tu turismo por un carril VAO que exige dos ocupantes. No llevas ninguna señal ni tarjeta que te autorice. ¿Qué infracción cometes?",
+                  "options": [
+                    "Leve, porque no pones a nadie en peligro",
+                    "Ninguna, si el carril va vacío",
+                    "Grave"
+                  ],
+                  "why": "Las infracciones de las normas de uso del carril VAO son graves (RGC art. 35.3, que remite al art. 76.c de la ley)."
+                },
+                "exam": {
+                  "q": "You go alone in your passenger car by an HOV lane that demands two occupants. You do not carry any sign or card that authorises you. What infraction do you commit?",
+                  "options": [
+                    "Minor, because you do not put anybody in danger.",
+                    "None, if the lane goes empty.",
+                    "Serious."
+                  ]
+                },
+                "en": {
+                  "q": "You drive alone in a VAO lane that requires two occupants, with no sign or card that entitles you to use it. What kind of offense is it?",
+                  "options": [
+                    "Minor, because you put nobody at risk",
+                    "None, if the lane is empty",
+                    "Serious (grave)"
+                  ],
+                  "why": "Breaking the rules on using a VAO lane is a serious offense (RGC art. 35.3, which refers to art. 76.c of the traffic law)."
+                },
+                "terms": [
+                  {
+                    "es": "infracción grave",
+                    "en": "serious offense"
+                  },
+                  {
+                    "es": "carril VAO",
+                    "en": "HOV lane"
+                  }
+                ],
+                "src": "RGC art. 35.3; LSV art. 76.c"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-s4w",
+                "answer": 0,
+                "es": {
+                  "q": "Conduces solo tu turismo y llevas a la vista la tarjeta de estacionamiento para personas con discapacidad con movilidad reducida. El tramo VAO exige tres ocupantes. ¿Puedes usarlo?",
+                  "options": [
+                    "Sí: con esa tarjeta basta con el conductor",
+                    "No: esa tarjeta solo sirve para aparcar",
+                    "No: necesitas llevar a tres personas igualmente"
+                  ],
+                  "why": "Desde el 1 de octubre de 2026, un turismo con la tarjeta de estacionamiento para personas con discapacidad con movilidad reducida puede usar el carril VAO con solo el conductor, igual que con la señal V-15."
+                },
+                "exam": {
+                  "q": "You drive alone your passenger car and you carry in view the parking card for persons with disability with reduced mobility. The HOV section demands three occupants. Can you use it?",
+                  "options": [
+                    "Yes: with that card the driver is sufficient.",
+                    "No: that card only serves to park.",
+                    "No: you need to carry three persons equally."
+                  ]
+                },
+                "en": {
+                  "q": "You are alone in your car, with the disabled parking card for people with reduced mobility on display. The VAO stretch requires three occupants. May you use it?",
+                  "options": [
+                    "Yes: with that card the driver alone is enough",
+                    "No: that card is only for parking",
+                    "No: you still need three people aboard"
+                  ],
+                  "why": "Since 1 October 2026, a car showing the disabled parking card for people with reduced mobility may use the VAO lane with only the driver, just as with the V-15 sign."
+                },
+                "terms": [
+                  {
+                    "es": "tarjeta de estacionamiento",
+                    "en": "parking card"
+                  },
+                  {
+                    "es": "movilidad reducida",
+                    "en": "reduced mobility"
+                  },
+                  {
+                    "es": "ocupante",
+                    "en": "occupant"
+                  }
+                ],
+                "src": "RGC art. 35.2.a"
               }
             }
           ]
@@ -4739,8 +4852,8 @@
           "en": "In reserved lanes **the signs rule**. In an urban public-transport lane **stopping** is forbidden, even for a moment."
         },
         {
-          "es": "El carril **VAO** es para motocicletas, turismos y vehículos mixtos adaptables. Los turismos con remolque no pueden usarlo.",
-          "en": "The **VAO** lane is for motorcycles, cars and adaptable mixed vehicles. Cars with a trailer may not use it."
+          "es": "El carril **VAO** es para motocicletas, turismos y vehículos mixtos adaptables, no para turismos con remolque. Usarlo mal es infracción **grave**.",
+          "en": "The **VAO** lane is for motorcycles, cars and adaptable mixed vehicles, not cars with a trailer. Misusing it is a **serious** offense."
         },
         {
           "es": "**Líneas discontinuas dobles** a ambos lados: carril **reversible**. Lleva al menos la luz de cruce, de día y de noche.",
@@ -4763,7 +4876,8 @@
         "Reglamento General de Circulación (RD 1428/2003), arts. 35, 40.1, 41.1, 42.1, 83.3 y 94.1, y anexo I, apartado 4.3 (semáforos de carril) (redacción vigente desde 2026-10-01 en el art. 35)",
         "RGC Anexo I, ap. 5.2 (marcas viales M-1.1 a M-1.7, M-2.4, M-6.1 y M-6.2)",
         "Ley de Tráfico y Seguridad Vial (RDL 6/2015), anexo I, punto 81",
-        "RGC Anexo I, ap. 5.1 (señal S-51b, Catálogo de señales)"
+        "RGC Anexo I, ap. 5.1 (señal S-51b, Catálogo de señales)",
+        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), art. 76.c"
       ]
     },
     {
@@ -5299,6 +5413,91 @@
                 ],
                 "src": "RGC art. 154.2"
               }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Una bicicleta puede usar **remolques**, semirremolques u otros elementos que cumplan las especificaciones técnicas para llevar personas, **animales de hasta 15 kg** o carga. El ayuntamiento puede poner restricciones.",
+                "en": "A bicycle may use **trailers**, semi-trailers or similar items that meet the technical specifications to carry people, **animals of up to 15 kg** or loads. The town council may add restrictions."
+              },
+              "src": "RGC art. 154.4"
+            },
+            {
+              "t": "new",
+              "since": "2026-10-01",
+              "was": {
+                "es": "Una bicicleta podía arrastrar un remolque, pero en ningún caso con personas dentro.",
+                "en": "A bicycle could pull a trailer, but never with people in it."
+              },
+              "now": {
+                "es": "El remolque de una bicicleta puede llevar personas, animales de hasta **15 kg** o carga.",
+                "en": "A bicycle trailer may carry people, animals of up to **15 kg**, or loads."
+              },
+              "src": "RGC art. 154.4"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Estas normas sobre carga, pasajeros y remolques valen también en vías interurbanas, siempre que sea **de día** y sin condiciones que reduzcan la visibilidad.",
+                "en": "These rules on loads, passengers and trailers also apply on intercity roads, provided it is **daytime** and nothing reduces visibility."
+              },
+              "src": "RGC art. 154.5"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Hasta que una orden del Ministerio del Interior fije las especificaciones técnicas, se pueden usar remolques y semirremolques en las bicicletas, y los asientos adicionales deben ser homologados.",
+                "en": "Until an order of the Ministry of the Interior sets the technical specifications, bicycles may use trailers and semi-trailers, and extra seats must be type-approved."
+              },
+              "src": "RD 518/2026, disposición transitoria segunda"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-h5i",
+                "answer": 1,
+                "es": {
+                  "q": "Quieres llevar a tu perro, que pesa 20 kg, en un remolque enganchado a tu bicicleta. ¿Lo permite la norma?",
+                  "options": [
+                    "Sí, si el remolque cumple los requisitos técnicos",
+                    "No: en el remolque de una bicicleta solo van animales de hasta 15 kg",
+                    "No: el remolque de una bicicleta solo puede llevar carga"
+                  ],
+                  "why": "Los remolques de bicicleta pueden llevar personas, carga o animales de hasta 15 kg. Un perro de 20 kg supera ese límite."
+                },
+                "exam": {
+                  "q": "You want to carry your dog, which weighs 20 kg, in a trailer hitched to your bicycle. Does the rule allow it?",
+                  "options": [
+                    "Yes, if the trailer fulfils the technical requirements.",
+                    "No: in the trailer of a bicycle only animals of up to 15 kg go.",
+                    "No: the trailer of a bicycle can only carry load."
+                  ]
+                },
+                "en": {
+                  "q": "You want to take your 20 kg dog in a trailer hitched to your bicycle. Does the law allow it?",
+                  "options": [
+                    "Yes, if the trailer meets the technical requirements",
+                    "No: a bicycle trailer may carry animals of up to 15 kg only",
+                    "No: a bicycle trailer may carry only loads"
+                  ],
+                  "why": "Bicycle trailers may carry people, loads, or animals of up to 15 kg. A 20 kg dog is over that limit."
+                },
+                "terms": [
+                  {
+                    "es": "remolque",
+                    "en": "trailer"
+                  },
+                  {
+                    "es": "semirremolque",
+                    "en": "semi-trailer"
+                  },
+                  {
+                    "es": "ciclo",
+                    "en": "cycle"
+                  }
+                ],
+                "src": "RGC art. 154.4"
+              }
             }
           ]
         },
@@ -5419,11 +5618,1043 @@
         {
           "es": "Si una emergencia te obliga a ir muy despacio por autopista o autovía, usa el arcén y **sal por la primera salida**.",
           "en": "If an emergency forces you to crawl on an autopista or autovía, use the shoulder and **leave at the first exit**."
+        },
+        {
+          "es": "El **remolque** de una bicicleta puede llevar personas, carga o animales de hasta **15 kg**.",
+          "en": "A bicycle **trailer** may carry people, loads, or animals of up to **15 kg**."
         }
       ],
       "src": [
         "Reglamento General de Circulación (RD 1428/2003), arts. 30.1, 31.1, 36, 38 y 154 (redacción vigente desde 2026-10-01 en los arts. 31, 36, 38 y 154)",
-        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), art. 16.1 y anexo I, punto 61"
+        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), art. 16.1 y anexo I, punto 61",
+        "RD 518/2026, disposición transitoria segunda"
+      ]
+    },
+    {
+      "id": "towns",
+      "title": {
+        "es": "La ciudad tras la reforma de 2026: aceras, zonas y caminos escolares",
+        "en": "Towns after the 2026 reform: sidewalks, zones and school routes"
+      },
+      "minutes": 10,
+      "goals": [
+        {
+          "es": "Saber que la circulación urbana tiene su propio título en el RGC y qué pueden hacer las ordenanzas.",
+          "en": "Know that urban traffic has its own title in the RGC, and what local ordinances may do."
+        },
+        {
+          "es": "Saber quién puede ir por aceras y zonas peatonales, y cómo se usan el carril bici y las calles con bicis en doble sentido.",
+          "en": "Know who may use sidewalks and pedestrian zones, and how cycle lanes and two-way cycling streets work."
+        },
+        {
+          "es": "Reconocer las zonas de prioridad residencial, las restricciones ambientales y los caminos escolares seguros.",
+          "en": "Recognize residential-priority zones, environmental restrictions and safe school routes."
+        },
+        {
+          "es": "Conocer lo que los ayuntamientos pueden regular sobre el estacionamiento.",
+          "en": "Know what town councils may regulate about parking."
+        }
+      ],
+      "terms": [
+        {
+          "es": "ordenanza municipal",
+          "en": "town ordinance (local by-law)"
+        },
+        {
+          "es": "acera",
+          "en": "sidewalk (pavement)"
+        },
+        {
+          "es": "zona peatonal",
+          "en": "pedestrian zone"
+        },
+        {
+          "es": "zona de prioridad residencial",
+          "en": "residential-priority zone"
+        },
+        {
+          "es": "zona de bajas emisiones (ZBE)",
+          "en": "low-emission zone"
+        },
+        {
+          "es": "camino escolar seguro",
+          "en": "safe school route"
+        },
+        {
+          "es": "calmado del tráfico",
+          "en": "traffic calming"
+        },
+        {
+          "es": "carril bici",
+          "en": "cycle lane"
+        }
+      ],
+      "pretest": {
+        "id": "road-pre-6",
+        "answer": 1,
+        "es": {
+          "q": "Un niño de 9 años quiere ir en bicicleta por la acera. ¿Cuándo puede?",
+          "options": [
+            "Nunca: las aceras son solo para peatones",
+            "Si la ordenanza lo permite y lo acompaña un adulto a pie",
+            "Siempre que vaya despacio"
+          ],
+          "why": "Las ordenanzas pueden permitir que niños de hasta 12 años vayan en bici por la acera, a cargo de un adulto que vaya a pie."
+        },
+        "en": {
+          "q": "A 9-year-old wants to ride a bike on the sidewalk. When may he?",
+          "options": [
+            "Never: sidewalks are only for pedestrians",
+            "If the ordinance allows it and an adult on foot goes with him",
+            "As long as he rides slowly"
+          ],
+          "why": "Ordinances may let children up to 12 ride bikes on the sidewalk, in the care of an adult on foot."
+        },
+        "src": "RGC art. 152.1"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Un título propio para la ciudad",
+            "en": "A title of its own for towns"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Desde el 1 de octubre de 2026, el RGC tiene un **título VI** con normas específicas para la circulación en zonas urbanas. En lo que no regula, se aplica el resto del reglamento.",
+                "en": "Since 1 October 2026 the RGC has a **title VI** with specific rules for traffic in urban areas. For anything it does not cover, the rest of the regulation applies."
+              },
+              "src": "RGC art. 151.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los municipios pueden **desarrollar** estas normas con sus ordenanzas. Pero una ordenanza no puede oponerse al reglamento, alterarlo, desvirtuarlo ni crear confusión con él.",
+                "en": "Town councils may **build on** these rules in their ordinances. But an ordinance may not contradict the regulation, change it, distort it or cause confusion with it."
+              },
+              "src": "RGC art. 151.2 y 151.3"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "La regla de que la ordenanza no contradice el reglamento ya estaba en el antiguo artículo 93, solo para el estacionamiento. Lo nuevo es un título entero para la ciudad.",
+                "en": "The rule that an ordinance may not contradict the regulation was already in the old article 93, for parking only. What is new is a whole title for towns."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-u1a",
+                "answer": 1,
+                "es": {
+                  "q": "Una ordenanza municipal dice algo contrario a una norma del Reglamento General de Circulación. ¿Qué vale?",
+                  "options": [
+                    "La ordenanza, porque es más reciente",
+                    "El reglamento: la ordenanza no puede oponerse a él",
+                    "Lo que decida el agente en cada caso"
+                  ],
+                  "why": "Las ordenanzas pueden desarrollar las normas urbanas del RGC, pero no oponerse a ellas, alterarlas ni crear confusión."
+                },
+                "exam": {
+                  "q": "A municipal ordinance says something contrary to a rule of the General Traffic Regulation. What is valid?",
+                  "options": [
+                    "The ordinance, because it is more recent.",
+                    "The regulation: the ordinance cannot oppose it.",
+                    "What the agent decides in each case."
+                  ]
+                },
+                "en": {
+                  "q": "A town ordinance says the opposite of a rule in the General Traffic Regulation. Which applies?",
+                  "options": [
+                    "The ordinance, because it is newer",
+                    "The regulation: an ordinance may not contradict it",
+                    "Whatever the officer decides each time"
+                  ],
+                  "why": "Ordinances may build on the RGC’s urban rules, but may not contradict them, change them or cause confusion."
+                },
+                "terms": [
+                  {
+                    "es": "ordenanza municipal",
+                    "en": "municipal ordinance"
+                  },
+                  {
+                    "es": "oponerse",
+                    "en": "to go against, contradict"
+                  }
+                ],
+                "src": "RGC art. 151.3"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Aceras y zonas peatonales",
+            "en": "Sidewalks and pedestrian zones"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Las **aceras** son el espacio para que los peatones se muevan y permanezcan. Ningún vehículo puede circular por ellas.",
+                "en": "**Sidewalks** are the space where pedestrians move and spend time. No vehicle of any kind may travel on them."
+              },
+              "src": "RGC art. 152.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "En las demás zonas peatonales, el ayuntamiento puede permitir por ordenanza que convivan peatones con ciclistas y usuarios de VMP. Los **peatones conservan la prioridad**.",
+                "en": "In other pedestrian zones, the council may allow by ordinance pedestrians to share the space with cyclists and VMP users. **Pedestrians keep priority**."
+              },
+              "src": "RGC art. 152.1 y 153.2"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "La ordenanza también puede permitir que **niños de hasta 12 años** vayan en bicicleta por la acera, siempre que estén a cargo de un **adulto a pie**.",
+                "en": "The ordinance may also let **children up to 12** ride bicycles on the sidewalk, as long as they are in the care of an **adult on foot**."
+              },
+              "src": "RGC art. 152.1"
+            },
+            {
+              "t": "new",
+              "since": "2026-10-01",
+              "was": {
+                "es": "Ningún vehículo podía circular, en ningún caso, por las aceras ni por las demás zonas peatonales.",
+                "en": "No vehicle could ever travel on sidewalks or other pedestrian zones."
+              },
+              "now": {
+                "es": "La acera sigue cerrada a los vehículos, con una excepción que puede abrir la ordenanza: niños de hasta 12 años en bici, con un adulto a pie. En otras zonas peatonales, la ordenanza puede admitir bicis y VMP.",
+                "en": "Sidewalks stay closed to vehicles, with one exception an ordinance may open: children up to 12 on bikes, with an adult on foot. In other pedestrian zones, the ordinance may admit bikes and VMPs."
+              },
+              "src": "RGC art. 152.1"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-u2a",
+                "answer": 1,
+                "es": {
+                  "q": "Tu hija de 8 años va en bici por la acera, como permite la ordenanza de tu ciudad. ¿Cómo puedes acompañarla?",
+                  "options": [
+                    "En tu bicicleta, por la acera, a su lado",
+                    "A pie, a su lado",
+                    "En tu bicicleta, por la calzada, sin perderla de vista"
+                  ],
+                  "why": "La ordenanza puede permitir que niños de hasta 12 años vayan en bici por la acera, pero a cargo de un adulto que vaya a pie."
+                },
+                "exam": {
+                  "q": "Your daughter of 8 years goes by bicycle by the pavement, as the ordinance of your city allows. How can you accompany her?",
+                  "options": [
+                    "In your bicycle, by the pavement, at her side.",
+                    "On foot, at her side.",
+                    "In your bicycle, by the carriageway, without losing sight of her."
+                  ]
+                },
+                "en": {
+                  "q": "Your 8-year-old daughter rides her bike on the sidewalk, as your town’s ordinance allows. How may you go with her?",
+                  "options": [
+                    "On your own bike, on the sidewalk beside her",
+                    "On foot, beside her",
+                    "On your own bike, in the street, keeping her in sight"
+                  ],
+                  "why": "An ordinance may let children up to 12 ride bikes on the sidewalk, but only in the care of an adult on foot."
+                },
+                "terms": [
+                  {
+                    "es": "acera",
+                    "en": "pavement, sidewalk"
+                  },
+                  {
+                    "es": "a cargo de",
+                    "en": "in the care of"
+                  },
+                  {
+                    "es": "adulto a pie",
+                    "en": "adult on foot"
+                  }
+                ],
+                "src": "RGC art. 152.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-u2b",
+                "answer": 0,
+                "es": {
+                  "q": "Vas en bicicleta por una plaza peatonal donde la ordenanza permite circular a los ciclistas. Un peatón cruza delante de ti. ¿Quién tiene prioridad?",
+                  "options": [
+                    "El peatón",
+                    "Tú, porque la ordenanza te permite circular",
+                    "Quien llegue primero"
+                  ],
+                  "why": "En las zonas peatonales donde se admiten bicicletas o VMP, los peatones conservan siempre la prioridad."
+                },
+                "exam": {
+                  "q": "You go by bicycle by a pedestrian square where the ordinance allows cyclists to circulate. A pedestrian crosses in front of you. Who has priority?",
+                  "options": [
+                    "The pedestrian.",
+                    "You, because the ordinance allows you to circulate.",
+                    "Whoever arrives first."
+                  ]
+                },
+                "en": {
+                  "q": "You ride a bike across a pedestrian square where the ordinance allows cyclists. A pedestrian crosses in front of you. Who has right of way?",
+                  "options": [
+                    "The pedestrian",
+                    "You, because the ordinance lets you ride there",
+                    "Whoever gets there first"
+                  ],
+                  "why": "In pedestrian zones where bikes or VMPs are allowed, pedestrians always keep priority."
+                },
+                "terms": [
+                  {
+                    "es": "zona peatonal",
+                    "en": "pedestrian zone"
+                  },
+                  {
+                    "es": "prioridad",
+                    "en": "priority"
+                  }
+                ],
+                "src": "RGC art. 152.1 y 153.2"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Zonas de prioridad residencial y restricciones ambientales",
+            "en": "Residential-priority zones and environmental restrictions"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Una **zona de prioridad residencial** es un área que delimita y regula el ayuntamiento. Para mantener un uso sostenible, restringe el acceso o la circulación de los vehículos de quienes no viven allí.",
+                "en": "A **residential-priority zone** is an area the town council marks out and regulates. To keep its use sustainable, it restricts access or traffic for vehicles of people who do not live there."
+              },
+              "src": "LSV anexo I, punto 84"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "En esas zonas el ayuntamiento puede regular el acceso, la circulación o el estacionamiento de ciertos vehículos, la **carga y descarga**, el reparto de mercancías de día o de noche y los **límites de velocidad**.",
+                "en": "In those zones the council may regulate access, traffic or parking for certain vehicles, **loading and unloading**, day or night goods delivery, and **speed limits**."
+              },
+              "src": "RGC art. 152.3"
+            },
+            {
+              "t": "new",
+              "since": "2026-10-01",
+              "was": {
+                "es": "La ley no definía las zonas de prioridad residencial. Solo aparecían en las ordenanzas de algunos ayuntamientos.",
+                "en": "The law did not define residential-priority zones. They appeared only in some councils’ ordinances."
+              },
+              "now": {
+                "es": "La ley las define, y el RGC dice qué puede regular el ayuntamiento en ellas.",
+                "en": "The law defines them, and the RGC says what the council may regulate in them."
+              },
+              "src": "LSV anexo I, punto 84; RGC art. 152.3"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Por motivos ambientales, las autoridades competentes pueden restringir total o parcialmente la entrada y la circulación de vehículos. No solo en las **zonas de bajas emisiones**: también en zonas de prioridad residencial y en cualquier otra vía de su competencia.",
+                "en": "For environmental reasons, the competent authorities may wholly or partly restrict vehicles entering and circulating. Not only in **low-emission zones**: also in residential-priority zones and on any other road under their authority."
+              },
+              "src": "RGC art. 157"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-u3a",
+                "answer": 2,
+                "es": {
+                  "q": "¿Qué es una zona de prioridad residencial?",
+                  "options": [
+                    "Una calle donde los vecinos tienen siempre prioridad de paso en los cruces",
+                    "Una zona donde solo pueden aparcar los vecinos que tienen plaza propia",
+                    "Un área donde el ayuntamiento restringe el acceso o la circulación de vehículos de no residentes"
+                  ],
+                  "why": "Es un área delimitada y regulada por el ayuntamiento que restringe el acceso o la circulación de los vehículos de quienes no residen allí, para mantener un uso sostenible."
+                },
+                "exam": {
+                  "q": "What is a zone of residential priority?",
+                  "options": [
+                    "A street where the neighbours always have priority of passage at the crossings.",
+                    "A zone where only the neighbours who have their own space can park.",
+                    "An area where the town council restricts the access or the circulation of vehicles of non-residents."
+                  ]
+                },
+                "en": {
+                  "q": "What is a residential-priority zone?",
+                  "options": [
+                    "A street where residents always have right of way at junctions",
+                    "An area where only residents with their own space may park",
+                    "An area where the council restricts access or traffic for non-residents’ vehicles"
+                  ],
+                  "why": "It is an area the town council marks out and regulates, restricting access or traffic for vehicles of people who do not live there, to keep its use sustainable."
+                },
+                "terms": [
+                  {
+                    "es": "zona de prioridad residencial",
+                    "en": "residential-priority zone"
+                  },
+                  {
+                    "es": "vecinos no residentes",
+                    "en": "non-residents"
+                  }
+                ],
+                "src": "LSV anexo I, punto 84"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-u3b",
+                "answer": 1,
+                "es": {
+                  "q": "Además de en las zonas de bajas emisiones, ¿dónde pueden las autoridades restringir la circulación de vehículos por motivos ambientales?",
+                  "options": [
+                    "En ningún otro lugar",
+                    "En zonas de prioridad residencial y en cualquier vía de su competencia",
+                    "Solo en autopistas y autovías"
+                  ],
+                  "why": "Las restricciones ambientales pueden aplicarse en zonas de bajas emisiones, en zonas de prioridad residencial o en cualquier otra vía de la competencia de esa autoridad."
+                },
+                "exam": {
+                  "q": "Besides in the low-emission zones, where can the authorities restrict the circulation of vehicles for environmental reasons?",
+                  "options": [
+                    "In no other place.",
+                    "In zones of residential priority and in any road of their competence.",
+                    "Only in motorways and dual carriageways."
+                  ]
+                },
+                "en": {
+                  "q": "Apart from low-emission zones, where may the authorities restrict traffic for environmental reasons?",
+                  "options": [
+                    "Nowhere else",
+                    "In residential-priority zones and on any road under their authority",
+                    "Only on autopistas and autovías"
+                  ],
+                  "why": "Environmental restrictions may apply in low-emission zones, in residential-priority zones, or on any other road under that authority."
+                },
+                "terms": [
+                  {
+                    "es": "motivos medioambientales",
+                    "en": "environmental reasons"
+                  },
+                  {
+                    "es": "zona de bajas emisiones",
+                    "en": "low-emission zone"
+                  }
+                ],
+                "src": "RGC art. 157"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Aparcar en la ciudad: lo que regula el ayuntamiento",
+            "en": "Parking in town: what the council regulates"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los ayuntamientos regulan por ordenanza la parada y el estacionamiento en las vías urbanas. Pueden fijar **límites de tiempo** para repartir mejor las plazas y evitar atascos.",
+                "en": "Town councils regulate stopping and parking on urban streets by ordinance. They may set **time limits** to share out spaces fairly and avoid congestion."
+              },
+              "src": "RGC art. 156.1.a"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si el vehículo no tiene el título que autoriza a aparcar en una zona limitada, o se pasa del **triple del tiempo pagado**, la ordenanza puede regular su retirada o su **inmovilización** hasta que se identifique al conductor.",
+                "en": "If the vehicle has no permit to park in a time-limited zone, or stays more than **three times the time paid for**, the ordinance may provide for towing it away or **immobilizing** it until the driver is identified."
+              },
+              "src": "RGC art. 156.1.b"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "La ordenanza puede crear un régimen especial para que **suban y bajen** del vehículo niños, personas mayores, con movilidad reducida o con discapacidad: acceso a zonas restringidas al tráfico o más tiempo del normal.",
+                "en": "The ordinance may set up a special scheme so that children, older people and people with reduced mobility or disabilities can **get in and out** of vehicles: access to zones closed to traffic, or more time than usual."
+              },
+              "src": "RGC art. 156.1.c"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "El ayuntamiento puede cobrar el estacionamiento según el **tamaño** del vehículo y su **clasificación ambiental**. También puede regular la parada y el estacionamiento de vehículos de dos ruedas sobre las aceras, si no estorban a los peatones.",
+                "en": "The council may charge for parking according to the vehicle’s **size** and its **environmental classification**. It may also regulate two-wheelers stopping and parking on sidewalks, if they do not hinder pedestrians."
+              },
+              "src": "RGC art. 156.1.e y 156.2"
+            },
+            {
+              "t": "new",
+              "since": "2026-10-01",
+              "was": {
+                "es": "El antiguo artículo 93 dejaba a la ordenanza fijar límites de tiempo y retirar o inmovilizar el vehículo sin título. No hablaba de la subida y bajada de personas vulnerables ni de tarifas por tamaño o clasificación ambiental.",
+                "en": "The old article 93 let ordinances set time limits and tow or immobilize a vehicle with no permit. It said nothing about vulnerable people getting in and out, or about charges by size or environmental class."
+              },
+              "now": {
+                "es": "El artículo 156 añade un régimen de subida y bajada para niños, mayores y personas con movilidad reducida o discapacidad, y tarifas según el tamaño y la clasificación ambiental.",
+                "en": "Article 156 adds a get-in-and-out scheme for children, older people and people with reduced mobility or disabilities, and charges by size and environmental classification."
+              },
+              "src": "RGC art. 156.1"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-u4a",
+                "answer": 2,
+                "es": {
+                  "q": "Tu ayuntamiento cobra más por aparcar a los vehículos grandes y a los de peor clasificación ambiental. ¿Puede hacerlo?",
+                  "options": [
+                    "No: la tarifa debe ser igual para todos los turismos",
+                    "Solo dentro de una zona de bajas emisiones",
+                    "Sí: puede tarificar según el tamaño y la clasificación ambiental"
+                  ],
+                  "why": "Los ayuntamientos pueden cobrar el estacionamiento en función de las dimensiones del vehículo y de su clasificación ambiental."
+                },
+                "exam": {
+                  "q": "Your town council charges more for parking to the big vehicles and to those of worse environmental classification. Can it do it?",
+                  "options": [
+                    "No: the tariff must be equal for all the passenger cars.",
+                    "Only inside a low-emission zone.",
+                    "Yes: it can set tariffs according to the size and the environmental classification."
+                  ]
+                },
+                "en": {
+                  "q": "Your council charges more to park large vehicles and those with a worse environmental rating. May it do that?",
+                  "options": [
+                    "No: the rate must be the same for every car",
+                    "Only inside a low-emission zone",
+                    "Yes: it may charge by size and environmental classification"
+                  ],
+                  "why": "Councils may charge for parking according to the vehicle’s dimensions and its environmental classification."
+                },
+                "terms": [
+                  {
+                    "es": "tarificación",
+                    "en": "charging, pricing"
+                  },
+                  {
+                    "es": "clasificación ambiental",
+                    "en": "environmental classification"
+                  },
+                  {
+                    "es": "dimensiones",
+                    "en": "dimensions, size"
+                  }
+                ],
+                "src": "RGC art. 156.1.e"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-u4b",
+                "answer": 1,
+                "es": {
+                  "q": "Llevas a tu padre, que tiene movilidad reducida, a una calle cerrada al tráfico general. ¿Qué puede prever la ordenanza para estos casos?",
+                  "options": [
+                    "Nada: una zona restringida no admite excepciones",
+                    "Que puedas entrar para que baje, o que tengas más tiempo para la maniobra",
+                    "Que puedas aparcar sobre la acera el tiempo que necesites"
+                  ],
+                  "why": "La ordenanza puede crear un régimen para la subida y bajada de niños, mayores y personas con movilidad reducida o discapacidad: acceso a zonas restringidas o más tiempo del ordinario."
+                },
+                "exam": {
+                  "q": "You take your father, who has reduced mobility, to a street closed to the general traffic. What can the ordinance foresee for these cases?",
+                  "options": [
+                    "Nothing: a restricted zone does not admit exceptions.",
+                    "That you can enter so that he gets out, or that you have more time for the manoeuvre.",
+                    "That you can park on the pavement the time that you need."
+                  ]
+                },
+                "en": {
+                  "q": "You are taking your father, who has reduced mobility, to a street closed to general traffic. What may the ordinance provide for cases like this?",
+                  "options": [
+                    "Nothing: a restricted zone allows no exceptions",
+                    "That you may drive in so he can get out, or have more time to do it",
+                    "That you may park on the sidewalk for as long as you need"
+                  ],
+                  "why": "The ordinance may set a scheme for children, older people and people with reduced mobility or disabilities to get in and out: access to restricted zones, or more time than usual."
+                },
+                "terms": [
+                  {
+                    "es": "subida y bajada",
+                    "en": "getting in and out"
+                  },
+                  {
+                    "es": "zona restringida",
+                    "en": "restricted zone"
+                  },
+                  {
+                    "es": "movilidad reducida",
+                    "en": "reduced mobility"
+                  }
+                ],
+                "src": "RGC art. 156.1.c"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-u4c",
+                "answer": 0,
+                "es": {
+                  "q": "Pagas una hora en una zona de estacionamiento limitado y vuelves a las cuatro horas. Además de la retirada, ¿qué medida puede regular la ordenanza?",
+                  "options": [
+                    "La inmovilización del vehículo hasta que se identifique al conductor",
+                    "La retirada del permiso de conducción",
+                    "Ninguna, si pagas la diferencia al volver"
+                  ],
+                  "why": "Si se rebasa el triple del tiempo pagado, la ordenanza puede regular la retirada o la inmovilización del vehículo hasta que se identifique al conductor."
+                },
+                "exam": {
+                  "q": "You pay one hour in a zone of limited parking and you return at four hours. Besides the removal, what measure can the ordinance regulate?",
+                  "options": [
+                    "The immobilisation of the vehicle until the driver is identified.",
+                    "The withdrawal of the driving permit.",
+                    "None, if you pay the difference on returning."
+                  ]
+                },
+                "en": {
+                  "q": "You pay for one hour in a time-limited parking zone and come back after four hours. Besides towing, what measure may the ordinance provide for?",
+                  "options": [
+                    "Immobilizing the vehicle until the driver is identified",
+                    "Taking away your driving permit",
+                    "None, if you pay the difference when you return"
+                  ],
+                  "why": "If the vehicle stays more than three times the time paid for, the ordinance may provide for towing it or immobilizing it until the driver is identified."
+                },
+                "terms": [
+                  {
+                    "es": "inmovilización",
+                    "en": "immobilization"
+                  },
+                  {
+                    "es": "estacionamiento limitado",
+                    "en": "time-limited parking"
+                  },
+                  {
+                    "es": "tiempo abonado",
+                    "en": "time paid for"
+                  }
+                ],
+                "src": "RGC art. 156.1.b"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Caminos escolares y otros entornos protegidos",
+            "en": "School routes and other protected areas"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Un **camino escolar seguro** es un conjunto de vías que la autoridad prepara para que los niños vayan al colegio a pie, en transporte público o en medios sin motor. Puede tener señales, marcas viales, paneles, límites de velocidad propios y restricciones a los vehículos a motor.",
+                "en": "A **safe school route** is a set of streets the authority prepares so children can get to school on foot, by public transport or without a motor. It may have signs, road markings, information panels, its own speed limits and restrictions on motor vehicles."
+              },
+              "src": "LSV anexo I, punto 85"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los ayuntamientos, o los titulares de la vía cuando son competentes, pueden crear caminos o zonas escolares seguros con medidas para **reducir la velocidad**, **calmar el tráfico** o restringir los vehículos a motor y los ciclomotores.",
+                "en": "Councils, or the road owner when it has authority, may set up safe school routes or zones with measures to **cut speed**, **calm traffic** or restrict motor vehicles and mopeds."
+              },
+              "src": "RGC art. 158.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Cerca de colegios, hospitales, centros de personas mayores o con discapacidad y lugares parecidos, se aplican **medidas específicas** de velocidad, estacionamiento y calmado del tráfico para proteger a los usuarios vulnerables.",
+                "en": "Near schools, hospitals, centers for older or disabled people and similar places, **specific measures** on speed, parking and traffic calming apply, to protect vulnerable road users."
+              },
+              "src": "RGC art. 158.2"
+            },
+            {
+              "t": "new",
+              "since": "2026-10-01",
+              "was": {
+                "es": "La ley no recogía los caminos escolares seguros.",
+                "en": "The law did not provide for safe school routes."
+              },
+              "now": {
+                "es": "La ley los define, y el RGC permite limitar la velocidad, calmar el tráfico y restringir vehículos en los entornos escolares.",
+                "en": "The law defines them, and the RGC allows lower speeds, traffic calming and vehicle restrictions around schools."
+              },
+              "src": "LSV anexo I, punto 85; RGC art. 158.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "La Jefatura Central de Tráfico debe crear, en el plazo de un año desde el 1 de octubre de 2026, grupos de expertos que fijen recomendaciones técnicas sobre caminos, rutas y entornos escolares.",
+                "en": "The Central Traffic Headquarters must set up, within one year of 1 October 2026, expert groups to draw up technical recommendations on school routes and school surroundings."
+              },
+              "src": "RD 518/2026, disposición adicional única"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-u5a",
+                "answer": 0,
+                "es": {
+                  "q": "Tu ayuntamiento crea un camino escolar seguro en tu barrio. ¿Qué medidas puede aplicar en él?",
+                  "options": [
+                    "Reducir la velocidad, calmar el tráfico o restringir vehículos a motor y ciclomotores",
+                    "Solo pintar más pasos de peatones",
+                    "Prohibir que los niños vayan en bicicleta"
+                  ],
+                  "why": "En los caminos o zonas escolares seguros se pueden reducir la velocidad, calmar el tráfico o restringir los vehículos a motor y los ciclomotores."
+                },
+                "exam": {
+                  "q": "Your town council creates a safe school path in your neighbourhood. What measures can it apply in it?",
+                  "options": [
+                    "To reduce the speed, to calm the traffic or to restrict motor vehicles and mopeds.",
+                    "Only to paint more pedestrian crossings.",
+                    "To prohibit that the children go by bicycle."
+                  ]
+                },
+                "en": {
+                  "q": "Your council sets up a safe school route in your neighborhood. What measures may it use there?",
+                  "options": [
+                    "Lower speeds, traffic calming, or limits on motor vehicles and mopeds",
+                    "Only painting more crosswalks",
+                    "Banning children from cycling"
+                  ],
+                  "why": "On safe school routes and zones, speeds may be cut, traffic calmed, and motor vehicles and mopeds restricted."
+                },
+                "terms": [
+                  {
+                    "es": "camino escolar seguro",
+                    "en": "safe school path, route"
+                  },
+                  {
+                    "es": "calmado del tráfico",
+                    "en": "traffic calming"
+                  },
+                  {
+                    "es": "ciclomotor",
+                    "en": "moped"
+                  }
+                ],
+                "src": "RGC art. 158.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-u5b",
+                "answer": 1,
+                "es": {
+                  "q": "Conduces por la calle de un hospital y de una residencia de personas mayores. ¿Qué prevé la norma para estos entornos?",
+                  "options": [
+                    "Las mismas medidas que en cualquier otra calle",
+                    "Medidas específicas de velocidad, estacionamiento y calmado del tráfico",
+                    "Solo la prohibición de usar el claxon"
+                  ],
+                  "why": "Cerca de colegios, hospitales y centros de personas mayores o con discapacidad se aplican medidas específicas de velocidad, estacionamiento y calmado del tráfico."
+                },
+                "exam": {
+                  "q": "You drive by the street of a hospital and of a residence for older persons. What does the rule foresee for these surroundings?",
+                  "options": [
+                    "The same measures as in any other street.",
+                    "Specific measures of speed, parking and calming of the traffic.",
+                    "Only the prohibition of using the horn."
+                  ]
+                },
+                "en": {
+                  "q": "You are driving down a street with a hospital and a care home for older people. What does the law provide for places like this?",
+                  "options": [
+                    "The same measures as on any other street",
+                    "Specific measures on speed, parking and traffic calming",
+                    "Only a ban on using the horn"
+                  ],
+                  "why": "Near schools, hospitals and centers for older or disabled people, specific measures on speed, parking and traffic calming apply."
+                },
+                "terms": [
+                  {
+                    "es": "centro hospitalario",
+                    "en": "hospital"
+                  },
+                  {
+                    "es": "usuario vulnerable",
+                    "en": "vulnerable road user"
+                  }
+                ],
+                "src": "RGC art. 158.2"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Bicicletas en la ciudad: carril bici y doble sentido",
+            "en": "Bikes in town: cycle lanes and two-way streets"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si no hay carril bici ni vía específica, la bicicleta circula por la **calzada**. Si los hay, su uso es **preferente**. La autoridad puede hacerlo **obligatorio** con la señal «Vía reservada y obligatoria para ciclos».",
+                "en": "If there is no cycle lane or dedicated way, the bicycle rides on the **roadway**. If there is one, using it is **preferred**. The authority may make it **compulsory** with the sign “Way reserved for, and compulsory for, cycles”."
+              },
+              "src": "RGC art. 153.1"
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "r-407a"
+              ],
+              "caption": {
+                "es": "R-407a: los ciclos deben circular por la vía que empieza en la señal, y los demás usuarios no pueden usarla.",
+                "en": "R-407a: cycles must use the way that starts at the sign, and other road users may not use it."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-u6a",
+                "answer": 1,
+                "es": {
+                  "q": "Vas en bicicleta por una calle con carril bici. Ninguna señal lo hace obligatorio. ¿Puedes ir por la calzada?",
+                  "options": [
+                    "No: si hay carril bici, debes usarlo siempre",
+                    "Sí: el carril bici es preferente, pero solo es obligatorio si una señal lo indica",
+                    "Solo si el carril bici está ocupado por otros ciclistas"
+                  ],
+                  "why": "Si hay carril bici, su uso es preferente. Solo es obligatorio cuando la autoridad lo señaliza como vía reservada y obligatoria para ciclos."
+                },
+                "exam": {
+                  "q": "You go by bicycle by a street with a cycle lane. No sign makes it obligatory. Can you go by the carriageway?",
+                  "options": [
+                    "No: if there is a cycle lane, you must use it always.",
+                    "Yes: the cycle lane is preferential, but it is only obligatory if a sign indicates it.",
+                    "Only if the cycle lane is occupied by other cyclists."
+                  ]
+                },
+                "en": {
+                  "q": "You ride a bike on a street with a cycle lane. No sign makes it compulsory. May you ride on the roadway?",
+                  "options": [
+                    "No: if there is a cycle lane, you must always use it",
+                    "Yes: the cycle lane is preferred, but only compulsory if a sign says so",
+                    "Only if other cyclists are filling the cycle lane"
+                  ],
+                  "why": "Where there is a cycle lane, using it is preferred. It is compulsory only when the authority signs it as a way reserved for, and compulsory for, cycles."
+                },
+                "terms": [
+                  {
+                    "es": "carril bici",
+                    "en": "cycle lane"
+                  },
+                  {
+                    "es": "preferente",
+                    "en": "preferential, preferred"
+                  },
+                  {
+                    "es": "calzada",
+                    "en": "carriageway, roadway"
+                  }
+                ],
+                "src": "RGC art. 153.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-u6b",
+                "answer": 2,
+                "sign": "r-407a",
+                "es": {
+                  "q": "Vas en bicicleta y esta señal está a la entrada de una vía, junto a la calzada. ¿Qué haces?",
+                  "options": [
+                    "Eliges entre esa vía y la calzada",
+                    "No entras: esa vía es solo para peatones",
+                    "Circulas por esa vía"
+                  ],
+                  "why": "Esa señal obliga a los ciclos a circular por la vía a cuya entrada está, y prohíbe usarla a los demás. Es la forma de hacer obligatorio el carril bici."
+                },
+                "exam": {
+                  "q": "You go by bicycle and this sign is at the entrance of a road, next to the carriageway. What do you do?",
+                  "options": [
+                    "You choose between that road and the carriageway.",
+                    "You do not enter: that road is only for pedestrians.",
+                    "You circulate by that road."
+                  ]
+                },
+                "en": {
+                  "q": "You are on a bike and this sign stands at the start of a way next to the roadway. What do you do?",
+                  "options": [
+                    "Choose between that way and the roadway",
+                    "Stay out: that way is for pedestrians only",
+                    "Ride on that way"
+                  ],
+                  "why": "That sign requires cycles to use the way where it stands, and bars everyone else. It is how a cycle lane is made compulsory."
+                },
+                "terms": [
+                  {
+                    "es": "vía reservada",
+                    "en": "reserved way"
+                  },
+                  {
+                    "es": "obligatoria",
+                    "en": "compulsory"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1 (R-407a)"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "En las vías urbanas de **un solo carril** limitadas a **30 km/h** o menos, el ayuntamiento puede permitir, con señales, que las bicicletas circulen en **los dos sentidos**.",
+                "en": "The council may let bicycles ride **both ways**, with signs, on an urban street that has **one lane** and a speed cap of **30 km/h** or lower."
+              },
+              "src": "RGC art. 153.6"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Al cruzarse, los vehículos se apartan a su derecha para pasar con seguridad. Si no es posible, tienen prioridad los que circulan en el **sentido propio** de la calle.",
+                "en": "When they meet, vehicles move over to their right so they can pass safely. If that is not possible, those traveling in the street’s **own direction** have priority."
+              },
+              "src": "RGC art. 153.6"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-u6c",
+                "answer": 1,
+                "es": {
+                  "q": "Una calle de un solo carril está limitada a 50 km/h. ¿Puede el ayuntamiento permitir allí que las bicicletas circulen en los dos sentidos?",
+                  "options": [
+                    "Sí, siempre que lo señalice",
+                    "No: solo en calles de un carril limitadas a 30 km/h o menos",
+                    "Sí, pero solo de día"
+                  ],
+                  "why": "El doble sentido para bicicletas solo se puede permitir en vías urbanas de un solo carril con la velocidad limitada a 30 km/h o menos, y con señales."
+                },
+                "exam": {
+                  "q": "A street of a single lane is limited to 50 km/h. Can the town council allow there that the bicycles circulate in both directions?",
+                  "options": [
+                    "Yes, provided that it signals it.",
+                    "No: only in streets of one lane limited to 30 km/h or less.",
+                    "Yes, but only by day."
+                  ]
+                },
+                "en": {
+                  "q": "A single-lane street has a 50 km/h limit. May the council allow bicycles to ride both ways there?",
+                  "options": [
+                    "Yes, as long as it puts up signs",
+                    "No: only on one-lane streets capped at 30 km/h or lower",
+                    "Yes, but only in daytime"
+                  ],
+                  "why": "Bikes may be allowed both ways only on one-lane urban streets whose speed cap is 30 km/h or lower, and only with signs."
+                },
+                "terms": [
+                  {
+                    "es": "doble sentido",
+                    "en": "two-way"
+                  },
+                  {
+                    "es": "vía urbana",
+                    "en": "urban road"
+                  }
+                ],
+                "src": "RGC art. 153.6"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-u6d",
+                "answer": 0,
+                "es": {
+                  "q": "Conduces por una calle de un solo carril donde se permite a las bicicletas circular en los dos sentidos. Viene una de frente y, aunque los dos se aparten a la derecha, no hay espacio para cruzarse. ¿Quién pasa primero?",
+                  "options": [
+                    "Tú, porque circulas en el sentido propio de la calle",
+                    "El ciclista, porque es un usuario vulnerable",
+                    "Quien haya entrado antes en la calle"
+                  ],
+                  "why": "Al cruzarse, ambos se apartan a la derecha. Si no es posible pasar con seguridad, tienen prioridad los vehículos que circulan en el sentido propio de la vía."
+                },
+                "exam": {
+                  "q": "You drive by a street of a single lane where bicycles are allowed to circulate in both directions. One comes from the front and, although both move aside to the right, there is no space to cross. Who passes first?",
+                  "options": [
+                    "You, because you circulate in the proper direction of the street.",
+                    "The cyclist, because he is a vulnerable user.",
+                    "Whoever has entered the street before."
+                  ]
+                },
+                "en": {
+                  "q": "You drive down a single-lane street where bicycles may ride both ways. One comes toward you and, even with both of you moved to the right, there is no room to pass. Who goes first?",
+                  "options": [
+                    "You, because you are traveling in the street’s own direction",
+                    "The cyclist, because cyclists are vulnerable road users",
+                    "Whoever entered the street first"
+                  ],
+                  "why": "When they meet, both move to the right. If they still cannot pass safely, vehicles traveling in the road’s own direction have priority."
+                },
+                "terms": [
+                  {
+                    "es": "sentido propio",
+                    "en": "proper (own) direction"
+                  },
+                  {
+                    "es": "orillarse",
+                    "en": "to move over to the edge"
+                  }
+                ],
+                "src": "RGC art. 153.6"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "La ciudad tiene un **título VI** en el RGC. Las ordenanzas lo desarrollan, pero nunca lo contradicen.",
+          "en": "Towns have a **title VI** in the RGC. Ordinances build on it, but never contradict it."
+        },
+        {
+          "es": "Ningún vehículo va por la **acera**. La ordenanza puede permitir niños de hasta 12 años en bici con un adulto a pie, y bicis o VMP en otras zonas peatonales, con prioridad del peatón.",
+          "en": "No vehicle uses the **sidewalk**. An ordinance may allow children up to 12 on bikes with an adult on foot, and bikes or VMPs in other pedestrian zones, with pedestrians keeping priority."
+        },
+        {
+          "es": "Las **zonas de prioridad residencial** limitan a los no residentes. Las restricciones ambientales valen en ZBE, en esas zonas y en otras vías.",
+          "en": "**Residential-priority zones** limit non-residents. Environmental restrictions may apply in low-emission zones, in those zones and on other roads."
+        },
+        {
+          "es": "El ayuntamiento puede fijar tiempos, inmovilizar o retirar pasado el **triple** del tiempo pagado, dar facilidades para subir y bajar y cobrar según tamaño y etiqueta ambiental.",
+          "en": "Councils may set time limits, immobilize or tow after **three times** the time paid, ease getting in and out, and charge by size and environmental label."
+        },
+        {
+          "es": "**Caminos escolares seguros** y entornos de hospitales y centros de mayores: menos velocidad y calmado del tráfico.",
+          "en": "**Safe school routes** and the areas around hospitals and care homes: lower speeds and traffic calming."
+        },
+        {
+          "es": "Bici: por la **calzada** si no hay carril bici; el carril bici es preferente y obligatorio con señal; doble sentido solo en calles de un carril a **30 km/h** o menos.",
+          "en": "Bikes: on the **roadway** if there is no cycle lane; the cycle lane is preferred, compulsory with a sign; two-way only on single-lane streets at **30 km/h** or less."
+        }
+      ],
+      "src": [
+        "Reglamento General de Circulación (RD 1428/2003), título VI, arts. 151 a 153, 156, 157 y 158 (añadido por el RD 518/2026, en vigor desde 2026-10-01)",
+        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), anexo I, puntos 84 y 85 (redacción del RD 518/2026)",
+        "RD 518/2026, disposición adicional única",
+        "RGC Anexo I, ap. 5.1 (R-407a), texto publicado en BOE-A-2025-12199"
       ]
     }
   ]

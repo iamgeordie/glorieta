@@ -1151,10 +1151,23 @@
               "src": "RGC art. 119.2"
             },
             {
+              "t": "new",
+              "since": "2026-10-01",
+              "was": {
+                "es": "Los ocupantes de un vehículo en servicio de urgencia, también los de una ambulancia, solo estaban exentos del cinturón en poblado.",
+                "en": "Occupants of a vehicle on an emergency service, ambulances included, were exempt from the belt only in towns."
+              },
+              "now": {
+                "es": "Los **pasajeros de una ambulancia asistencial** que, en servicio de urgencia, atienden al paciente en su habitáculo están exentos en **todo tipo de vías**.",
+                "en": "**Passengers in a care ambulance** who, on an emergency service, attend the patient in the patient compartment are exempt on **every kind of road**."
+              },
+              "src": "RGC art. 119.2"
+            },
+            {
               "t": "rule",
               "text": {
-                "es": "Fuera de estos casos, el cinturón es obligatorio para todos, también en ciudad. El conductor de un taxi o de una furgoneta de reparto **no tiene una exención propia**.",
-                "en": "Outside these cases, the belt is required for everyone, in town as well. The driver of a taxi or of a delivery van **has no exemption of their own**."
+                "es": "Fuera de estos casos, el cinturón es obligatorio para todos, también en ciudad. El conductor de un taxi o de una furgoneta de reparto **no tiene una exención propia**. Tampoco el profesor o acompañante que lleva los mandos adicionales en prácticas o en el examen.",
+                "en": "Outside these cases, the belt is compulsory for everyone, in town too. A taxi driver or a delivery van driver **has no exemption of their own**. Nor does the instructor or companion at the dual controls during lessons or the test."
               },
               "src": "RGC arts. 117.1 y 119 (redacción en vigor desde el 1-10-2026)"
             },
@@ -1168,6 +1181,32 @@
               "now": {
                 "es": "El taxista **no tiene exención** propia: lleva el cinturón también en ciudad.",
                 "en": "Taxi drivers **have no exemption** of their own: they buckle up in town too."
+              },
+              "src": "RGC art. 119.2"
+            },
+            {
+              "t": "new",
+              "since": "2026-10-01",
+              "was": {
+                "es": "En poblado, los repartidores que hacían entregas sucesivas en lugares cercanos podían ir sin cinturón.",
+                "en": "In towns, delivery drivers making successive drops at nearby places could go without a belt."
+              },
+              "now": {
+                "es": "El **repartidor** lleva el cinturón también en ciudad, aunque pare a menudo.",
+                "en": "A **delivery driver** wears the belt in town too, however often they stop."
+              },
+              "src": "RGC art. 119.2"
+            },
+            {
+              "t": "new",
+              "since": "2026-10-01",
+              "was": {
+                "es": "En poblado, quien acompañaba a un alumno en prácticas o en el examen, a cargo de los mandos adicionales, podía ir sin cinturón.",
+                "en": "In towns, the person accompanying a learner in lessons or the test, in charge of the dual controls, could go without a belt."
+              },
+              "now": {
+                "es": "El **profesor o acompañante** con los mandos adicionales lleva el cinturón en todas las vías.",
+                "en": "The **instructor or companion** at the dual controls wears the belt on every road."
               },
               "src": "RGC art. 119.2"
             },
@@ -1357,6 +1396,98 @@
                   }
                 ],
                 "src": "LSV art. 82"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c1zi",
+                "answer": 1,
+                "es": {
+                  "q": "Eres profesor de autoescuela. Acompañas a un alumno en prácticas por la ciudad y llevas los mandos adicionales. ¿Debes llevar el cinturón?",
+                  "options": [
+                    "No: en poblado el profesor está exento",
+                    "Sí, también en ciudad",
+                    "Solo durante el examen"
+                  ],
+                  "why": "El reglamento ya no exime del cinturón a quien acompaña a un alumno y lleva los mandos adicionales. Debe abrocharse en todas las vías."
+                },
+                "exam": {
+                  "q": "You are a driving-school teacher. You accompany a student in practices through the city and you are in charge of the additional controls. Must you use the safety belt?",
+                  "options": [
+                    "No, in town the teacher is exempt.",
+                    "Yes, also in the city.",
+                    "Only during the test."
+                  ]
+                },
+                "en": {
+                  "q": "You are a driving instructor. You accompany a learner in a lesson around town and you are at the dual controls. Must you wear the seat belt?",
+                  "options": [
+                    "No: in town the instructor is exempt",
+                    "Yes, in town too",
+                    "Only during the test"
+                  ],
+                  "why": "The regulation no longer exempts the person who accompanies a learner at the dual controls. They must buckle up on every road."
+                },
+                "terms": [
+                  {
+                    "es": "mandos adicionales",
+                    "en": "additional controls"
+                  },
+                  {
+                    "es": "profesor de autoescuela",
+                    "en": "driving-school teacher"
+                  }
+                ],
+                "src": "RGC arts. 117.1 y 119"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c1zj",
+                "answer": 0,
+                "es": {
+                  "q": "Una ambulancia asistencial va en servicio de urgencia por una autovía. Una enfermera atiende al paciente en la parte de atrás. ¿Quién debe llevar el cinturón?",
+                  "options": [
+                    "El conductor, sí; la enfermera, no",
+                    "Los dos: fuera de poblado nadie está exento",
+                    "Ninguno, porque van de urgencia"
+                  ],
+                  "why": "Fuera de poblado, los ocupantes de un vehículo de urgencia llevan cinturón. La excepción es el pasajero de una ambulancia asistencial que atiende al paciente en su habitáculo: está exento en cualquier vía."
+                },
+                "exam": {
+                  "q": "A care ambulance circulates in emergency service by a dual carriageway. A nurse attends the patient in the back part. Who must use the safety belt?",
+                  "options": [
+                    "The driver, yes; the nurse, no.",
+                    "Both, outside of town nobody is exempt.",
+                    "Neither, because they go in emergency."
+                  ]
+                },
+                "en": {
+                  "q": "A care ambulance on an emergency service is on a dual carriageway. A nurse is attending the patient in the back. Who must wear a seat belt?",
+                  "options": [
+                    "The driver does; the nurse does not",
+                    "Both: outside towns nobody is exempt",
+                    "Neither, because it is an emergency"
+                  ],
+                  "why": "Outside towns, the occupants of an emergency vehicle wear belts. The exception is a passenger in a care ambulance who attends the patient in the patient compartment: they are exempt on any road."
+                },
+                "terms": [
+                  {
+                    "es": "ambulancia asistencial",
+                    "en": "care ambulance"
+                  },
+                  {
+                    "es": "habitáculo del paciente",
+                    "en": "patient compartment"
+                  },
+                  {
+                    "es": "servicio de urgencia",
+                    "en": "emergency service"
+                  }
+                ],
+                "src": "RGC art. 119.2"
               }
             }
           ]
@@ -1857,8 +1988,8 @@
                     "en": "Motorcycle, moped, three-wheeler, quad bike"
                   },
                   {
-                    "es": "Casco homologado y abrochado en todas las vías, calzado cerrado en todas las vías y guantes en vías interurbanas. Excepción: con estructura de autoprotección y cinturón, se usa el cinturón",
-                    "en": "Approved, fastened helmet on all roads, closed footwear on all roads, and gloves on intercity roads. Exception: with a protective structure and belts, the belt is used instead"
+                    "es": "Casco homologado conforme al Reglamento UNECE R22 y abrochado en todas las vías, calzado cerrado en todas las vías y guantes en vías interurbanas. Excepción: con estructura de autoprotección y cinturón, se usa el cinturón",
+                    "en": "Helmet approved to UNECE Regulation R22 and fastened on all roads, closed footwear on all roads, and gloves on intercity roads. Exception: with a protective structure and belts, the belt is used instead"
                   }
                 ],
                 [
@@ -1867,8 +1998,8 @@
                     "en": "Bicycle"
                   },
                   {
-                    "es": "Casco en vías interurbanas; los menores de 16 años, en todas las vías; quien trabaja en bicicleta, también en vías urbanas",
-                    "en": "Helmet on intercity roads; under-16s on all roads; people who ride for work, also on urban roads"
+                    "es": "Casco en vías interurbanas, sin excepciones; los menores de 16 años, en todas las vías; quien trabaja en bicicleta, también en vías urbanas y travesías",
+                    "en": "Helmet on intercity roads, with no exceptions; under-16s on all roads; people who ride for work, also on urban roads and through-roads"
                   }
                 ],
                 [
@@ -1886,21 +2017,21 @@
             {
               "t": "rule",
               "text": {
-                "es": "El conductor de una bicicleta y, en su caso, sus ocupantes deben usar casco abrochado en las **vías interurbanas**. Para los **menores de dieciséis años** es obligatorio en todo tipo de vías.",
-                "en": "The rider of a bicycle and, where applicable, its passengers must wear a fastened helmet on **intercity roads**. For **under-16s** it is mandatory on every kind of road."
+                "es": "El conductor de una bicicleta y, en su caso, sus ocupantes deben usar casco abrochado en las **vías interurbanas**, sin excepciones. Para los **menores de dieciséis años** es obligatorio en todo tipo de vías.",
+                "en": "Cyclists and, where there are any, their passengers must wear a fastened helmet on **intercity roads**, with no exceptions. For **under-sixteens** it is compulsory on every kind of road."
               },
-              "src": "RGC art. 118.2"
+              "src": "RGC art. 118.2; LSV art. 47"
             },
             {
               "t": "new",
               "since": "2026-10-01",
               "was": {
-                "es": "El casco en bicicleta solo era obligatorio en vías interurbanas, para todas las edades.",
-                "en": "A bicycle helmet was required only on intercity roads, at any age."
+                "es": "En vías interurbanas, el ciclista podía ir sin casco en **rampas ascendentes prolongadas**, por razones médicas acreditadas o con calor extremo.",
+                "en": "On intercity roads, a cyclist could ride without a helmet on **long uphill climbs**, for certified medical reasons or in extreme heat."
               },
               "now": {
-                "es": "Los **menores de 16 años** llevan casco en bicicleta en **todo tipo de vías**. Los adultos, en vías interurbanas.",
-                "en": "**Under-16s** wear a bicycle helmet on **every road**. Adults wear one on intercity roads."
+                "es": "Esas tres excepciones desaparecen: en vía interurbana el casco es obligatorio **siempre**.",
+                "en": "Those three exceptions are gone: on an intercity road the helmet is compulsory **at all times**."
               },
               "src": "RGC art. 118.2"
             },
@@ -1974,6 +2105,50 @@
                   {
                     "es": "menores",
                     "en": "minors"
+                  }
+                ],
+                "src": "RGC art. 118.2"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c1zk",
+                "answer": 2,
+                "es": {
+                  "q": "Subes en bicicleta un puerto largo por una carretera, en pleno verano y con mucho calor. Tienes 40 años. ¿Puedes quitarte el casco?",
+                  "options": [
+                    "Sí, en las subidas largas está permitido",
+                    "Sí, si el calor es extremo",
+                    "No: en vías interurbanas es obligatorio siempre"
+                  ],
+                  "why": "Las antiguas excepciones del casco en bicicleta (subidas prolongadas, calor extremo, razones médicas) se suprimieron el 1 de octubre de 2026. En vía interurbana se lleva siempre."
+                },
+                "exam": {
+                  "q": "You climb by bicycle a long mountain pass by a road, in full summer and with a lot of heat. You are 40 years old. Can you take off the helmet?",
+                  "options": [
+                    "Yes, on long ascending ramps it is allowed.",
+                    "Yes, if the heat is extreme.",
+                    "No, on interurban roads it is always obligatory."
+                  ]
+                },
+                "en": {
+                  "q": "You are cycling up a long mountain pass on a country road, in midsummer, in great heat. You are 40. May you take your helmet off?",
+                  "options": [
+                    "Yes, it is allowed on long climbs",
+                    "Yes, if the heat is extreme",
+                    "No: on intercity roads it is always compulsory"
+                  ],
+                  "why": "The old bicycle-helmet exceptions (long climbs, extreme heat, medical reasons) were removed on October 1, 2026. On an intercity road you always wear it."
+                },
+                "terms": [
+                  {
+                    "es": "rampa ascendente prolongada",
+                    "en": "prolonged ascending ramp"
+                  },
+                  {
+                    "es": "vía interurbana",
+                    "en": "interurban road"
                   }
                 ],
                 "src": "RGC art. 118.2"

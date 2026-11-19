@@ -4360,10 +4360,10 @@
             {
               "t": "rule",
               "text": {
-                "es": "Los ciclistas **no pueden circular por las aceras**, salvo los menores de 12 años cuando el ayuntamiento lo permita. Sí pueden usar otras zonas peatonales con las limitaciones municipales, respetando siempre la prioridad de los peatones.",
-                "en": "Cyclists **may not ride on sidewalks**, except under-12s where the town council allows it. They may use other pedestrian areas within municipal limits, always respecting pedestrians’ priority."
+                "es": "Los ciclistas **no pueden circular por las aceras**, salvo los niños de hasta 12 años, a cargo de un adulto a pie, cuando la ordenanza lo permita. Sí pueden usar otras zonas peatonales con las limitaciones municipales, respetando siempre la prioridad de los peatones.",
+                "en": "Cyclists **may not ride on sidewalks**, except children up to 12, in the care of an adult on foot, where an ordinance allows it. They may use other pedestrian areas within municipal limits, always respecting pedestrians’ priority."
               },
-              "src": "RGC art. 153.2"
+              "src": "RGC art. 153.2; RGC art. 152.1"
             },
             {
               "t": "check",
@@ -4417,7 +4417,7 @@
                     "No, como regla general",
                     "Sí, si no hay carril bici"
                   ],
-                  "why": "Los ciclistas no pueden ir por las aceras. La excepción es para menores de 12 años, si el ayuntamiento lo permite."
+                  "why": "Los ciclistas no pueden ir por las aceras. La excepción es para niños de hasta 12 años, con un adulto a pie, si la ordenanza lo permite."
                 },
                 "exam": {
                   "q": "You are 30 years old and you go by bicycle through the city. Can you circulate on the pavement?",
@@ -4434,7 +4434,7 @@
                     "No, as a general rule",
                     "Yes, if there is no bike lane"
                   ],
-                  "why": "Cyclists may not ride on sidewalks. The exception is for under-12s, where the town council allows it."
+                  "why": "Cyclists may not ride on sidewalks. The exception is for children up to 12, with an adult on foot, where an ordinance allows it."
                 },
                 "terms": [
                   {
@@ -5106,10 +5106,23 @@
             {
               "t": "rule",
               "text": {
-                "es": "Está prohibido circular con VMP por **autopistas y autovías**, por travesías, y por las aceras. En vías interurbanas y túneles urbanos solo pueden ir por vías ciclistas y similares, si la señalización no lo prohíbe.",
-                "en": "VMPs are banned from **motorways and dual carriageways**, from through-roads in towns, and from sidewalks. On intercity roads and urban tunnels they may use only bike paths and similar, if the signs do not forbid it."
+                "es": "Está prohibido circular con VMP por **autopistas y autovías** y por travesías. También por vías interurbanas y túneles urbanos, salvo por vías ciclistas, carriles bici, carriles bici protegidos, pistas bici, sendas ciclables y vías cerradas a los vehículos de motor. Esas excepciones valen si ninguna señal lo prohíbe. Tampoco pueden ir por las aceras.",
+                "en": "VMPs are banned from **motorways and dual carriageways** and from through-roads in towns. They are also banned from intercity roads and urban tunnels, except on cycle ways, bike lanes, protected bike lanes, bike tracks, cycle paths and roads closed to motor vehicles. Those exceptions apply if no sign forbids it. They may not use sidewalks either."
               },
               "src": "RGC art. 38.4, art. 152.1; LSV art. 25.5"
+            },
+            {
+              "t": "new",
+              "since": "2026-10-01",
+              "was": {
+                "es": "Los VMP tenían prohibidas todas las vías interurbanas y los túneles urbanos, sin excepciones.",
+                "en": "VMPs were banned from every intercity road and urban tunnel, with no exceptions."
+              },
+              "now": {
+                "es": "En vías interurbanas y túneles urbanos pueden usar **vías ciclistas**, carriles y pistas bici, sendas ciclables y vías cerradas a los vehículos de motor, si ninguna señal lo prohíbe.",
+                "en": "On intercity roads and in urban tunnels they may use **cycle ways**, bike lanes and tracks, cycle paths and roads closed to motor vehicles, if no sign forbids it."
+              },
+              "src": "RGC art. 38.4"
             },
             {
               "t": "p",
@@ -5605,6 +5618,56 @@
               ]
             },
             {
+              "t": "rule",
+              "text": {
+                "es": "En moto, ciclomotor, tres ruedas, cuadriciclo o quad, conductor y pasajero llevan un casco **homologado conforme al Reglamento UNECE R22**, bien abrochado, en todo tipo de vías.",
+                "en": "On a motorcycle, moped, three-wheeler, quadricycle or quad, rider and passenger wear a helmet **approved to UNECE Regulation R22**, properly fastened, on every kind of road."
+              },
+              "src": "RGC art. 118.1.a"
+            },
+            {
+              "t": "new",
+              "since": "2026-10-01",
+              "was": {
+                "es": "Bastaba un casco «homologado o certificado según la legislación vigente».",
+                "en": "A helmet \"approved or certified under the legislation in force\" was enough."
+              },
+              "now": {
+                "es": "El casco de moto y de ciclomotor debe estar **homologado conforme al Reglamento UNECE R22**.",
+                "en": "A motorcycle or moped helmet must be **approved to UNECE Regulation R22**."
+              },
+              "src": "RGC art. 118.1.a"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Hay un plazo solo para el **ciclomotor**: su conductor y su pasajero pueden seguir usando cascos certificados durante **un año** desde el 1 de octubre de 2026, es decir, hasta el **1 de octubre de 2027**.",
+                "en": "There is a grace period only for **mopeds**: rider and passenger may keep using certified helmets for **one year** from October 1, 2026, that is, until **October 1, 2027**."
+              },
+              "src": "RD 518/2026, disposición transitoria primera"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "No hay **exención médica del casco**. El certificado médico por razones graves solo exime del **cinturón de seguridad**.",
+                "en": "There is no **medical exemption from the helmet**. A medical certificate for serious reasons only exempts you from the **seat belt**."
+              },
+              "src": "RGC arts. 118.1 y 119.1.b"
+            },
+            {
+              "t": "new",
+              "since": "2026-10-01",
+              "was": {
+                "es": "Con un certificado médico de exención por razones graves se podía ir en moto sin casco (art. 119.3).",
+                "en": "With a medical exemption certificate for serious reasons you could ride a motorcycle without a helmet (art. 119.3)."
+              },
+              "now": {
+                "es": "El art. 119.3 se suprime: el certificado médico ya **no exime del casco**, solo del cinturón.",
+                "en": "Art. 119.3 is deleted: a medical certificate **no longer exempts you from the helmet**, only from the seat belt."
+              },
+              "src": "RGC art. 119"
+            },
+            {
               "t": "check",
               "q": {
                 "id": "hazards-c8c",
@@ -5782,6 +5845,138 @@
                   }
                 ],
                 "src": "DGT guidance (En moto, dgt.es, 2025)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c8m",
+                "answer": 1,
+                "es": {
+                  "q": "Vas a comprar un casco para tu motocicleta. ¿Qué exige la ley?",
+                  "options": [
+                    "Cualquier casco certificado, también uno de bicicleta",
+                    "Que esté homologado conforme al Reglamento UNECE R22",
+                    "Nada concreto, si cubre bien la cabeza"
+                  ],
+                  "why": "El casco de moto, ciclomotor, tres ruedas, cuadriciclo y quad debe estar homologado conforme al Reglamento UNECE R22 y bien abrochado."
+                },
+                "exam": {
+                  "q": "You are going to buy a helmet for your motorcycle. What does the law demand?",
+                  "options": [
+                    "Any certified helmet, also one of bicycle.",
+                    "That it is type-approved in accordance with the UNECE Regulation R22.",
+                    "Nothing concrete, if it covers the head well."
+                  ]
+                },
+                "en": {
+                  "q": "You are buying a helmet for your motorcycle. What does the law require?",
+                  "options": [
+                    "Any certified helmet, even a bicycle one",
+                    "That it is approved to UNECE Regulation R22",
+                    "Nothing specific, as long as it covers the head well"
+                  ],
+                  "why": "Helmets for motorcycles, mopeds, three-wheelers, quadricycles and quads must be approved to UNECE Regulation R22 and properly fastened."
+                },
+                "terms": [
+                  {
+                    "es": "casco homologado",
+                    "en": "type-approved helmet"
+                  },
+                  {
+                    "es": "Reglamento UNECE R22",
+                    "en": "UNECE Regulation R22"
+                  }
+                ],
+                "src": "RGC art. 118.1.a"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c8n",
+                "answer": 0,
+                "es": {
+                  "q": "Conduces un ciclomotor con un casco certificado que no está homologado conforme al Reglamento R22. ¿Puedes seguir usándolo?",
+                  "options": [
+                    "Sí, durante un año desde el 1 de octubre de 2026",
+                    "Sí, sin límite de tiempo, si está en buen estado",
+                    "No: está prohibido desde el 1 de octubre de 2026"
+                  ],
+                  "why": "Los conductores y pasajeros de ciclomotor pueden usar cascos certificados durante un año desde la entrada en vigor del RD 518/2026 (1 de octubre de 2026). Después necesitan uno homologado R22."
+                },
+                "exam": {
+                  "q": "You drive a moped with a certified helmet that is not type-approved in accordance with the Regulation R22. Can you continue using it?",
+                  "options": [
+                    "Yes, during one year from the 1st of October of 2026.",
+                    "Yes, without limit of time, if it is in good state.",
+                    "No, it is prohibited from the 1st of October of 2026."
+                  ]
+                },
+                "en": {
+                  "q": "You ride a moped with a certified helmet that is not approved to Regulation R22. May you keep using it?",
+                  "options": [
+                    "Yes, for one year from October 1, 2026",
+                    "Yes, with no time limit, if it is in good condition",
+                    "No: it has been banned since October 1, 2026"
+                  ],
+                  "why": "Moped riders and passengers may use certified helmets for one year from the entry into force of RD 518/2026 (October 1, 2026). After that they need an R22-approved one."
+                },
+                "terms": [
+                  {
+                    "es": "ciclomotor",
+                    "en": "moped"
+                  },
+                  {
+                    "es": "casco certificado",
+                    "en": "certified helmet"
+                  }
+                ],
+                "src": "RD 518/2026, disposición transitoria primera"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c8o",
+                "answer": 2,
+                "es": {
+                  "q": "Tienes un certificado médico de exención por razones graves y quieres ir en motocicleta. ¿Puedes ir sin casco?",
+                  "options": [
+                    "Sí, si llevas el certificado y lo enseñas a los agentes",
+                    "Solo en vías urbanas",
+                    "No: ese certificado solo exime del cinturón de seguridad"
+                  ],
+                  "why": "El reglamento ya no prevé ninguna exención médica del casco. El certificado médico por razones graves solo exime del cinturón (RGC art. 119.1.b)."
+                },
+                "exam": {
+                  "q": "You have a certificate of exemption for serious medical reasons and you want to go by motorcycle. Can you circulate without helmet?",
+                  "options": [
+                    "Yes, if you carry the certificate and show it to the agents.",
+                    "Only on urban roads.",
+                    "No, that certificate only exempts from the safety belt."
+                  ]
+                },
+                "en": {
+                  "q": "You have a medical exemption certificate for serious reasons and want to ride a motorcycle. May you ride without a helmet?",
+                  "options": [
+                    "Yes, if you carry the certificate and show it to officers",
+                    "Only on urban roads",
+                    "No: that certificate only exempts you from the seat belt"
+                  ],
+                  "why": "The regulation no longer provides any medical exemption from the helmet. A medical certificate for serious reasons only exempts you from the seat belt (RGC art. 119.1.b)."
+                },
+                "terms": [
+                  {
+                    "es": "certificado de exención",
+                    "en": "certificate of exemption"
+                  },
+                  {
+                    "es": "razones médicas graves",
+                    "en": "serious medical reasons"
+                  }
+                ],
+                "src": "RGC arts. 118.1 y 119"
               }
             }
           ]
@@ -6154,13 +6349,665 @@
         {
           "es": "Nada de zigzag entre coches. Si caes, **déjate deslizar**.",
           "en": "No weaving between cars. If you fall, **let yourself slide**."
+        },
+        {
+          "es": "Casco de moto y ciclomotor **homologado R22**, sin exención médica. El ciclomotor puede usar casco certificado hasta el 1 de octubre de 2027.",
+          "en": "Motorcycle and moped helmets **approved to R22**, with no medical exemption. Mopeds may use certified helmets until October 1, 2027."
         }
       ],
       "src": [
         "Reglamento General de Circulación (RD 1428/2003), arts. 12, 45 y 118",
         "Ley de Tráfico (RDL 6/2015), arts. 13.5 y 82",
         "DGT guidance (dgt.es): En moto (2025)",
-        "DGT guidance (revista DGT): Las motos también tienen ADAS (2022)"
+        "DGT guidance (revista DGT): Las motos también tienen ADAS (2022)",
+        "Reglamento General de Circulación (RD 1428/2003), arts. 118 y 119",
+        "RD 518/2026, disposición transitoria primera"
+      ]
+    },
+    {
+      "id": "riders-2026",
+      "title": {
+        "es": "VMP y bicicleta: normas tras la reforma de 2026",
+        "en": "VMP and bicycle rules after the 2026 reform"
+      },
+      "minutes": 6,
+      "goals": [
+        {
+          "es": "Saber cómo avisa sus maniobras quien conduce un VMP y cuándo lleva luces.",
+          "en": "Know how a VMP rider signals and when the lights must be on."
+        },
+        {
+          "es": "Saber qué elemento visible a 150 metros llevan de noche los VMP y los ciclistas.",
+          "en": "Know which item visible from 150 meters VMP riders and cyclists wear at night."
+        },
+        {
+          "es": "Reconocer cuándo una persona en VMP cuenta como peatón.",
+          "en": "Recognize when a person on a VMP counts as a pedestrian."
+        },
+        {
+          "es": "Saber qué llevan quienes trabajan en bici, VMP, moto o ciclomotor.",
+          "en": "Know what people who work on a bicycle, VMP, motorcycle or moped must wear."
+        }
+      ],
+      "terms": [
+        {
+          "es": "vehículo de movilidad personal (VMP)",
+          "en": "personal mobility vehicle (PMV)"
+        },
+        {
+          "es": "advertir con el brazo",
+          "en": "signal with the arm"
+        },
+        {
+          "es": "alumbrado",
+          "en": "lights"
+        },
+        {
+          "es": "elemento luminoso o reflectante",
+          "en": "light-emitting or reflective item"
+        },
+        {
+          "es": "entre el ocaso y la salida del sol",
+          "en": "between sunset and sunrise"
+        },
+        {
+          "es": "persona con movilidad reducida",
+          "en": "person with reduced mobility"
+        },
+        {
+          "es": "al paso de persona",
+          "en": "at walking pace"
+        },
+        {
+          "es": "chaleco reflectante de alta visibilidad",
+          "en": "high-visibility reflective vest"
+        }
+      ],
+      "pretest": {
+        "id": "hazards-pre-9",
+        "answer": 2,
+        "es": {
+          "q": "Tu patinete eléctrico (VMP) tiene intermitentes. ¿Cómo debes avisar de un giro?",
+          "options": [
+            "Solo con el intermitente",
+            "Con el intermitente o con el brazo, como prefieras",
+            "Siempre con el brazo"
+          ],
+          "why": "Quien conduce un VMP debe usar siempre el brazo para avisar de sus maniobras."
+        },
+        "en": {
+          "q": "Your e-scooter (VMP) has turn signals. How must you signal a turn?",
+          "options": [
+            "With the turn signal only",
+            "With the turn signal or the arm, as you prefer",
+            "Always with the arm"
+          ],
+          "why": "A VMP rider must always use the arm to signal maneuvers."
+        },
+        "src": "RGC art. 155.4"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Con un VMP, se avisa con el brazo",
+            "en": "On a VMP, you signal with your arm"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Quien conduce un VMP debe **usar siempre el brazo** para avisar a los demás de las maniobras que va a hacer, en la forma del art. 109.",
+                "en": "A VMP rider must **always use the arm** to warn others of the maneuvers they are about to make, in the way art. 109 sets out."
+              },
+              "src": "RGC art. 155.4"
+            },
+            {
+              "t": "new",
+              "since": "2026-10-01",
+              "was": {
+                "es": "Como cualquier conductor, quien iba en VMP podía avisar con el intermitente o con el brazo.",
+                "en": "Like any driver, a VMP rider could signal with a turn signal or with the arm."
+              },
+              "now": {
+                "es": "En VMP se avisa **siempre con el brazo**, aunque el vehículo tenga intermitentes.",
+                "en": "On a VMP you **always signal with your arm**, even if the vehicle has turn signals."
+              },
+              "src": "RGC art. 155.4"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Para ir hacia un lado, el brazo de ese lado va **horizontal**, con la palma hacia abajo. Si usas el otro brazo, lo doblas hacia arriba. Para frenar mucho, mueves el brazo de arriba abajo, con movimientos cortos y rápidos.",
+                "en": "To move to one side, the arm on that side goes **horizontal**, palm down. If you use the other arm, you bend it upward. To brake hard, you move the arm up and down in short, quick movements."
+              },
+              "src": "RGC art. 109.2.a y c"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c9a",
+                "answer": 1,
+                "es": {
+                  "q": "Vas en un patinete eléctrico (VMP) que tiene intermitentes y vas a girar a la izquierda. ¿Cómo debes avisar?",
+                  "options": [
+                    "Basta con el intermitente izquierdo",
+                    "Con el brazo, aunque lleves intermitentes",
+                    "No hace falta avisar en un carril bici"
+                  ],
+                  "why": "Los conductores de VMP deben usar siempre el brazo para advertir de sus maniobras, también si el vehículo tiene intermitentes."
+                },
+                "exam": {
+                  "q": "You go on an electric scooter (PMV) that has direction indicators and you are going to turn to the left. How must you warn?",
+                  "options": [
+                    "It is enough with the left indicator.",
+                    "With the arm, although you carry indicators.",
+                    "It is not necessary to warn in a bicycle lane."
+                  ]
+                },
+                "en": {
+                  "q": "You are on an e-scooter (VMP) that has turn signals and you are about to turn left. How must you signal?",
+                  "options": [
+                    "The left turn signal is enough",
+                    "With your arm, even if you have turn signals",
+                    "There is no need to signal in a bike lane"
+                  ],
+                  "why": "VMP riders must always use the arm to warn of their maneuvers, even if the vehicle has turn signals."
+                },
+                "terms": [
+                  {
+                    "es": "advertir la maniobra",
+                    "en": "warn of the manoeuvre"
+                  },
+                  {
+                    "es": "intermitente",
+                    "en": "direction indicator"
+                  }
+                ],
+                "src": "RGC art. 155.4"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "El alumbrado del VMP",
+            "en": "A VMP’s lights"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los VMP deben llevar **siempre encendido el alumbrado**.",
+                "en": "VMPs must **always have their lights on**."
+              },
+              "src": "RGC art. 155.5"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "El uso del alumbrado **de día** se exige desde el **1 de octubre de 2027**, un año después de que entrara en vigor la reforma. De noche y en túneles ya es obligatorio, como para todos los vehículos.",
+                "en": "Using the lights **by day** is required from **October 1, 2027**, one year after the reform took effect. At night and in tunnels it is already compulsory, as for every vehicle."
+              },
+              "src": "RD 518/2026, disposición transitoria tercera; RGC art. 98.1"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c9b",
+                "answer": 2,
+                "es": {
+                  "q": "¿Desde qué fecha deben los VMP llevar el alumbrado encendido también de día?",
+                  "options": [
+                    "Desde el 1 de octubre de 2026",
+                    "Nunca: solo es obligatorio de noche",
+                    "Desde el 1 de octubre de 2027"
+                  ],
+                  "why": "El RGC obliga a los VMP a llevar siempre el alumbrado encendido. La obligación de día se exige un año después de la entrada en vigor de la reforma: desde el 1 de octubre de 2027."
+                },
+                "exam": {
+                  "q": "From which date must the PMVs carry the lighting switched on also during the day?",
+                  "options": [
+                    "From the 1st of October of 2026.",
+                    "Never, it is only obligatory at night.",
+                    "From the 1st of October of 2027."
+                  ]
+                },
+                "en": {
+                  "q": "From what date must VMPs keep their lights on by day as well?",
+                  "options": [
+                    "From October 1, 2026",
+                    "Never: it is only compulsory at night",
+                    "From October 1, 2027"
+                  ],
+                  "why": "The RGC requires VMPs to always have their lights on. The daytime duty applies one year after the reform took effect: from October 1, 2027."
+                },
+                "terms": [
+                  {
+                    "es": "alumbrado",
+                    "en": "lighting"
+                  },
+                  {
+                    "es": "de día",
+                    "en": "during the day"
+                  }
+                ],
+                "src": "RGC art. 155.5; RD 518/2026, disposición transitoria tercera"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "De noche: visible a 150 metros",
+            "en": "At night: visible from 150 meters"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Entre el ocaso y la salida del sol, o con un tiempo o un ambiente que reduzca mucho la visibilidad, todo conductor de VMP lleva al menos un **elemento luminoso o reflectante** visible a **150 metros**. Vale en cualquier vía.",
+                "en": "Between sunset and sunrise, or in weather or conditions that sharply cut visibility, every VMP rider wears one or more **light-emitting or reflective items** visible from **150 meters**. It applies on any road."
+              },
+              "src": "RGC art. 118.3"
+            },
+            {
+              "t": "new",
+              "since": "2026-10-01",
+              "was": {
+                "es": "El reglamento no pedía a los conductores de VMP ningún elemento reflectante.",
+                "en": "The regulation required no reflective item from VMP riders."
+              },
+              "now": {
+                "es": "De noche o con poca visibilidad, el conductor de VMP lleva un **elemento luminoso o reflectante** visible a 150 metros.",
+                "en": "At night or in poor visibility, a VMP rider wears a **light-emitting or reflective item** visible from 150 meters."
+              },
+              "src": "RGC art. 118.3"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "El ciclista lleva el mismo elemento, visible a **150 metros**, en las mismas horas y condiciones, cuando circula por una **vía interurbana**.",
+                "en": "A cyclist wears the same item, visible from **150 meters**, at the same times and in the same conditions, when riding on an **intercity road**."
+              },
+              "src": "RGC art. 118.2"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c9c",
+                "answer": 0,
+                "es": {
+                  "q": "De noche, vas en patinete eléctrico (VMP) por una calle de tu ciudad, que tiene buena iluminación. ¿Debes llevar un elemento luminoso o reflectante?",
+                  "options": [
+                    "Sí, visible a 150 metros, en cualquier vía",
+                    "No: solo fuera de poblado",
+                    "No, si la calle está bien iluminada"
+                  ],
+                  "why": "Todo conductor de VMP lleva, entre el ocaso y la salida del sol o con poca visibilidad, un elemento luminoso o reflectante visible a 150 metros. La norma no distingue entre vías."
+                },
+                "exam": {
+                  "q": "At night, you go on an electric scooter (PMV) by a street of your city, which has good illumination. Must you make use of a luminous or reflective element?",
+                  "options": [
+                    "Yes, visible at 150 metres, on any road.",
+                    "No, only outside of town.",
+                    "No, if the street is well illuminated."
+                  ]
+                },
+                "en": {
+                  "q": "At night, you are riding an e-scooter (VMP) along a well-lit street in your town. Must you wear a light-emitting or reflective item?",
+                  "options": [
+                    "Yes, visible from 150 meters, on any road",
+                    "No: only outside towns",
+                    "No, if the street is well lit"
+                  ],
+                  "why": "Every VMP rider wears a light-emitting or reflective item visible from 150 meters between sunset and sunrise or in poor visibility. The rule makes no distinction between roads."
+                },
+                "terms": [
+                  {
+                    "es": "elemento luminoso o reflectante",
+                    "en": "luminous or reflective element"
+                  },
+                  {
+                    "es": "entre el ocaso y la salida del sol",
+                    "en": "between sunset and sunrise"
+                  }
+                ],
+                "src": "RGC art. 118.3"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c9d",
+                "answer": 1,
+                "es": {
+                  "q": "Vas en bicicleta de noche. ¿Cuándo te obliga el reglamento a llevar un elemento luminoso o reflectante visible a 150 metros?",
+                  "options": [
+                    "Solo en vías urbanas",
+                    "Cuando circulas por una vía interurbana",
+                    "Nunca, si la bicicleta lleva luces"
+                  ],
+                  "why": "El ciclista que circula entre el ocaso y la salida del sol, o con poca visibilidad, lleva ese elemento si va por vía interurbana."
+                },
+                "exam": {
+                  "q": "You go by bicycle at night. When does the regulation oblige you to make use of a luminous or reflective element visible at 150 metres?",
+                  "options": [
+                    "Only on urban roads.",
+                    "When you circulate by an interurban road.",
+                    "Never, if the bicycle carries lights."
+                  ]
+                },
+                "en": {
+                  "q": "You are cycling at night. When does the regulation require you to wear a light-emitting or reflective item visible from 150 meters?",
+                  "options": [
+                    "Only on urban roads",
+                    "When you ride on an intercity road",
+                    "Never, if the bicycle has lights"
+                  ],
+                  "why": "A cyclist riding between sunset and sunrise, or in poor visibility, wears that item when on an intercity road."
+                },
+                "terms": [
+                  {
+                    "es": "vía interurbana",
+                    "en": "interurban road"
+                  },
+                  {
+                    "es": "ciclista",
+                    "en": "cyclist"
+                  }
+                ],
+                "src": "RGC art. 118.2"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Movilidad reducida, al paso: peatón",
+            "en": "Reduced mobility, at walking pace: a pedestrian"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Una **persona con movilidad reducida** que se desplaza en un VMP **al paso de una persona** cuenta como **peatón** para el reglamento.",
+                "en": "A **person with reduced mobility** who travels on a VMP **at walking pace** counts as a **pedestrian** under the regulation."
+              },
+              "src": "RGC art. 155.6"
+            },
+            {
+              "t": "new",
+              "since": "2026-10-01",
+              "was": {
+                "es": "Solo contaba como peatón la persona con discapacidad que iba al paso en una **silla de ruedas**, con o sin motor.",
+                "en": "Only a person with a disability moving at walking pace in a **wheelchair**, powered or not, counted as a pedestrian."
+              },
+              "now": {
+                "es": "También es peatón la persona con movilidad reducida que va en un **VMP al paso** de una persona.",
+                "en": "A person with reduced mobility riding a **VMP at walking pace** is also a pedestrian."
+              },
+              "src": "RGC art. 155.6; LSV Anexo I.4"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Si va más rápido que una persona andando, es un conductor de VMP y sigue sus normas.",
+                "en": "If they go faster than a person walking, they are a VMP rider and follow the VMP rules."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c9e",
+                "answer": 0,
+                "es": {
+                  "q": "Una persona con movilidad reducida se desplaza en un vehículo de movilidad personal, al paso de una persona. Para el reglamento, ¿qué es?",
+                  "options": [
+                    "Un peatón",
+                    "Un conductor de VMP, con sus mismas normas",
+                    "Un ciclista"
+                  ],
+                  "why": "Las personas con movilidad reducida que van en VMP al paso de una persona tienen la consideración de peatones."
+                },
+                "exam": {
+                  "q": "A person with reduced mobility moves in a vehicle of personal mobility, at the pace of a person. For the regulation, what is it?",
+                  "options": [
+                    "A pedestrian.",
+                    "A driver of PMV, with the same rules.",
+                    "A cyclist."
+                  ]
+                },
+                "en": {
+                  "q": "A person with reduced mobility travels on a personal mobility vehicle at walking pace. What are they under the regulation?",
+                  "options": [
+                    "A pedestrian",
+                    "A VMP rider, with the same rules",
+                    "A cyclist"
+                  ],
+                  "why": "People with reduced mobility who ride a VMP at walking pace are treated as pedestrians."
+                },
+                "terms": [
+                  {
+                    "es": "persona con movilidad reducida",
+                    "en": "person with reduced mobility"
+                  },
+                  {
+                    "es": "al paso de persona",
+                    "en": "at the pace of a person"
+                  },
+                  {
+                    "es": "peatón",
+                    "en": "pedestrian"
+                  }
+                ],
+                "src": "RGC art. 155.6"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Si trabajas sobre dos ruedas",
+            "en": "If you work on two wheels"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "Quien **trabaja conduciendo** una moto, ciclomotor, tres ruedas, cuadriciclo, quad, bicicleta, otro ciclo o VMP lleva el **chaleco reflectante de alta visibilidad** puesto en todo tipo de vías.",
+                "en": "Anyone who **works riding** a motorcycle, moped, three-wheeler, quadricycle, quad, bicycle, other cycle or VMP wears the **high-visibility reflective vest** on every kind of road."
+              },
+              "src": "RGC art. 118.4"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Quien trabaja conduciendo una bicicleta u otro ciclo lleva **casco** homologado o certificado, bien abrochado, también en **vías urbanas y travesías**. En vías interurbanas ya lo lleva todo ciclista.",
+                "en": "Anyone who works riding a bicycle or other cycle wears an approved or certified **helmet**, properly fastened, also on **urban roads and through-roads**. On intercity roads every cyclist already wears one."
+              },
+              "src": "RGC art. 118.2"
+            },
+            {
+              "t": "new",
+              "since": "2026-10-01",
+              "was": {
+                "es": "Quien trabajaba en bicicleta llevaba casco como cualquier adulto, solo en vías interurbanas. Ningún conductor tenía que llevar el chaleco puesto mientras circulaba.",
+                "en": "People who worked on a bicycle wore a helmet like any adult, only on intercity roads. No rider had to wear the vest while riding."
+              },
+              "now": {
+                "es": "Quien trabaja conduciendo estos vehículos lleva el **chaleco** en todas las vías, y en bicicleta, también el **casco** en ciudad.",
+                "en": "Anyone who works riding these vehicles wears the **vest** on every road and, on a bicycle, the **helmet** in town as well."
+              },
+              "src": "RGC art. 118.2 y 118.4"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "La norma habla de quien **conduce**: el chaleco no se exige al pasajero.",
+                "en": "The rule speaks of the person **riding**: the vest is not required of a passenger."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c9f",
+                "answer": 2,
+                "es": {
+                  "q": "Trabajas repartiendo comida en un patinete eléctrico (VMP) por la ciudad. ¿Qué debes llevar puesto?",
+                  "options": [
+                    "Solo el casco: el chaleco es para vías interurbanas",
+                    "Solo el chaleco, porque vas por ciudad",
+                    "El casco y el chaleco reflectante de alta visibilidad"
+                  ],
+                  "why": "Todo conductor de VMP lleva casco. Si conduce por trabajo, lleva además el chaleco reflectante de alta visibilidad en todo tipo de vías."
+                },
+                "exam": {
+                  "q": "You work delivering food on an electric scooter (PMV) through the city. What must you carry on?",
+                  "options": [
+                    "Only the helmet, the vest is for interurban roads.",
+                    "Only the vest, because you go through the city.",
+                    "The helmet and the high-visibility reflective vest."
+                  ]
+                },
+                "en": {
+                  "q": "You deliver food on an e-scooter (VMP) around town for work. What must you wear?",
+                  "options": [
+                    "Only the helmet: the vest is for intercity roads",
+                    "Only the vest, because you are in town",
+                    "The helmet and the high-visibility reflective vest"
+                  ],
+                  "why": "Every VMP rider wears a helmet. Riding for work, they also wear the high-visibility reflective vest on every kind of road."
+                },
+                "terms": [
+                  {
+                    "es": "chaleco reflectante de alta visibilidad",
+                    "en": "high-visibility reflective vest"
+                  },
+                  {
+                    "es": "repartidor",
+                    "en": "delivery rider"
+                  }
+                ],
+                "src": "RGC art. 118.3 y 118.4"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c9g",
+                "answer": 0,
+                "es": {
+                  "q": "Eres mensajero y trabajas en bicicleta por las calles de tu ciudad. Tienes 30 años. ¿Debes llevar casco?",
+                  "options": [
+                    "Sí, también en travesías y vías urbanas",
+                    "No: en ciudad solo lo llevan los menores de 16",
+                    "Solo si llevas paquetes pesados"
+                  ],
+                  "why": "Quien desarrolla su actividad profesional en bicicleta lleva casco abrochado también en vías urbanas y travesías."
+                },
+                "exam": {
+                  "q": "You are a messenger and you work by bicycle through the streets of your city. You are 30 years old. Must you use helmet?",
+                  "options": [
+                    "Yes, also on through roads and urban roads.",
+                    "No, in the city only those under 16 use it.",
+                    "Only if you carry heavy packages."
+                  ]
+                },
+                "en": {
+                  "q": "You are a courier who works by bicycle on the streets of your town. You are 30. Must you wear a helmet?",
+                  "options": [
+                    "Yes, on through-roads and urban roads too",
+                    "No: in town only under-16s wear one",
+                    "Only if you carry heavy parcels"
+                  ],
+                  "why": "Anyone whose job is riding a bicycle wears a fastened helmet on urban roads and through-roads too."
+                },
+                "terms": [
+                  {
+                    "es": "actividad profesional",
+                    "en": "professional activity"
+                  },
+                  {
+                    "es": "travesía",
+                    "en": "through road"
+                  }
+                ],
+                "src": "RGC art. 118.2"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c9h",
+                "answer": 1,
+                "es": {
+                  "q": "Trabajas de mensajero en un ciclomotor. ¿Cuándo debes llevar puesto el chaleco reflectante de alta visibilidad?",
+                  "options": [
+                    "Solo cuando bajas del ciclomotor en una vía interurbana",
+                    "Siempre que circulas, en todo tipo de vías",
+                    "Solo de noche"
+                  ],
+                  "why": "Quien conduce por trabajo una moto o un ciclomotor lleva el chaleco reflectante de alta visibilidad en todo tipo de vías."
+                },
+                "exam": {
+                  "q": "You work as a messenger on a moped. When must you use the high-visibility reflective vest?",
+                  "options": [
+                    "Only when you get off the moped on an interurban road.",
+                    "Whenever you circulate, on all types of roads.",
+                    "Only at night."
+                  ]
+                },
+                "en": {
+                  "q": "You work as a courier on a moped. When must you wear the high-visibility reflective vest?",
+                  "options": [
+                    "Only when you get off the moped on an intercity road",
+                    "Whenever you ride, on every kind of road",
+                    "Only at night"
+                  ],
+                  "why": "Anyone who rides a motorcycle or moped for work wears the high-visibility reflective vest on every kind of road."
+                },
+                "terms": [
+                  {
+                    "es": "ciclomotor",
+                    "en": "moped"
+                  },
+                  {
+                    "es": "en todo tipo de vías",
+                    "en": "on all types of roads"
+                  }
+                ],
+                "src": "RGC art. 118.4"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "En VMP se avisa **siempre con el brazo**.",
+          "en": "On a VMP you **always signal with your arm**."
+        },
+        {
+          "es": "VMP con alumbrado encendido; de día, obligatorio desde el **1 de octubre de 2027**.",
+          "en": "VMP lights on; by day, compulsory from **October 1, 2027**."
+        },
+        {
+          "es": "De noche o con poca visibilidad: elemento visible a **150 m**. VMP en cualquier vía; bicicleta en vía interurbana.",
+          "en": "At night or in poor visibility: an item visible from **150 m**. VMPs on any road; bicycles on intercity roads."
+        },
+        {
+          "es": "Persona con movilidad reducida en VMP **al paso**: es peatón.",
+          "en": "A person with reduced mobility on a VMP **at walking pace** is a pedestrian."
+        },
+        {
+          "es": "Si trabajas conduciendo bici, VMP, moto o ciclomotor: **chaleco** en todas las vías; en bici, casco también en ciudad.",
+          "en": "If you work riding a bicycle, VMP, motorcycle or moped: a **vest** on every road; on a bicycle, a helmet in town too."
+        }
+      ],
+      "src": [
+        "Reglamento General de Circulación (RD 1428/2003), arts. 98.1, 109.2, 118 y 155 (redacción en vigor desde el 1-10-2026)",
+        "RD 518/2026, disposición transitoria tercera",
+        "Ley de Tráfico (RDL 6/2015), Anexo I.4"
       ]
     },
     {

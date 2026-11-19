@@ -813,8 +813,8 @@
       "minutes": 11,
       "goals": [
         {
-          "es": "Colocar el coche bien, dentro y fuera de poblado.",
-          "en": "Place the car correctly, in town and outside it."
+          "es": "Colocar bien el coche, en poblado y fuera de él, y estacionar bien una autocaravana.",
+          "en": "Place the car correctly, in town and outside it, and park a motorhome correctly."
         },
         {
           "es": "Dejar el coche asegurado, también en una cuesta.",
@@ -857,6 +857,10 @@
         {
           "es": "marcha atrás",
           "en": "reverse gear"
+        },
+        {
+          "es": "autocaravana",
+          "en": "motorhome"
         }
       ],
       "pretest": {
@@ -1106,6 +1110,198 @@
                   }
                 ],
                 "src": "RGC art. 105.2"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si estacionas una **autocaravana** u otro vehículo preparado como vivienda, debes cumplir tres condiciones:",
+                "en": "If you park a **motorhome** or another vehicle set up as a home, you must meet three conditions:"
+              },
+              "src": "RGC art. 92.4"
+            },
+            {
+              "t": "list",
+              "items": [
+                {
+                  "es": "No sacas nada que salga del **perímetro** del vehículo, es decir, de su silueta vista desde arriba.",
+                  "en": "Nothing of yours sticks out beyond the vehicle’s **outline**, that is, its footprint seen from above."
+                },
+                {
+                  "es": "Queda apoyado **solo sobre los neumáticos**. Puedes poner calzos o cuñas de seguridad.",
+                  "en": "It rests **only on its tires**. You may use safety chocks or wedges."
+                },
+                {
+                  "es": "No **viertes** ningún líquido que venga de la zona de vivienda.",
+                  "en": "You do not **discharge** any fluid from the living area."
+                }
+              ]
+            },
+            {
+              "t": "new",
+              "since": "2026-10-01",
+              "was": {
+                "es": "El reglamento no tenía reglas propias para estacionar autocaravanas: valían las mismas que para cualquier vehículo.",
+                "en": "The regulation had no rules of its own for parking motorhomes: the same ones as for any vehicle applied."
+              },
+              "now": {
+                "es": "Una autocaravana estacionada no extiende nada fuera de su perímetro, se apoya solo en los neumáticos (con calzos o cuñas, si quieres) y no vierte líquidos del habitáculo.",
+                "en": "A parked motorhome extends nothing beyond its outline, rests only on its tires (with chocks or wedges if you like) and discharges no fluids from the living area."
+              },
+              "src": "RGC art. 92.4"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "El preámbulo del RD 518/2026 explica por qué: el reglamento regula **por primera vez** el estacionamiento de las autocaravanas. Lo hace porque este tipo de viaje ha crecido mucho y porque el Congreso pidió en 2020 regular el sector.",
+                "en": "The preamble of RD 518/2026 explains why: the regulation deals with motorhome parking **for the first time**. It does so because this kind of travel has grown a lot and because Congress asked in 2020 for the sector to be regulated."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Guía de la DGT, no un artículo: una autocaravana puede parar y estacionar en las mismas condiciones que cualquier otro vehículo. Dónde y cuánto tiempo lo fija el ayuntamiento, que puede prohibir acampar fuera de las zonas autorizadas.",
+                "en": "DGT guidance, not an article: a motorhome may stop and park on the same terms as any other vehicle. Where and for how long is set by the town council, which may ban camping outside authorized areas."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c2r",
+                "answer": 1,
+                "es": {
+                  "q": "Has estacionado tu autocaravana en una calle donde se permite. Quieres abrir el toldo y poner unas sillas a su lado. ¿Es correcto?",
+                  "options": [
+                    "Sí, si no ocupas la calzada",
+                    "No: estacionada, nada puede salir del perímetro del vehículo",
+                    "Sí, de día y durante poco tiempo"
+                  ],
+                  "why": "Al estacionar una autocaravana o un vehículo preparado como vivienda no se extiende nada fuera de su perímetro, es decir, de su silueta vista desde arriba."
+                },
+                "exam": {
+                  "q": "You have parked your motorhome in a street where it is permitted. You want to open the awning and put some chairs at its side. Is it correct?",
+                  "options": [
+                    "Yes, if you do not occupy the carriageway.",
+                    "No: parked, nothing can go out of the perimeter of the vehicle.",
+                    "Yes, by day and during a short time."
+                  ]
+                },
+                "en": {
+                  "q": "You have parked your motorhome on a street where parking is allowed. You want to open the awning and put some chairs beside it. Is that correct?",
+                  "options": [
+                    "Yes, if you do not take up the roadway",
+                    "No: when parked, nothing may extend beyond the vehicle’s outline",
+                    "Yes, in daytime and for a short while"
+                  ],
+                  "why": "When you park a motorhome or another vehicle set up as a home, nothing is extended beyond its outline, that is, its footprint seen from above."
+                },
+                "terms": [
+                  {
+                    "es": "autocaravana",
+                    "en": "motorhome"
+                  },
+                  {
+                    "es": "perímetro",
+                    "en": "outline (perimeter)"
+                  },
+                  {
+                    "es": "toldo",
+                    "en": "awning"
+                  }
+                ],
+                "src": "RGC art. 92.4.a"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c2s",
+                "answer": 0,
+                "es": {
+                  "q": "Vas a dejar estacionada tu autocaravana. ¿Sobre qué debe quedar apoyada?",
+                  "options": [
+                    "Solo sobre los neumáticos; puede llevar calzos o cuñas de seguridad",
+                    "Sobre patas estabilizadoras, que la dejan más firme",
+                    "Sobre los neumáticos, pero nunca con calzos ni cuñas"
+                  ],
+                  "why": "Una autocaravana estacionada descansa solo sobre sus neumáticos. Se permiten los calzos o las cuñas de seguridad."
+                },
+                "exam": {
+                  "q": "You are going to leave your motorhome parked. On what must it remain supported?",
+                  "options": [
+                    "Only on the tyres; it can carry safety chocks or wedges.",
+                    "On stabiliser legs, which leave it firmer.",
+                    "On the tyres, but never with chocks or wedges."
+                  ]
+                },
+                "en": {
+                  "q": "You are about to leave your motorhome parked. What must it rest on?",
+                  "options": [
+                    "Only its tires; it may have safety chocks or wedges",
+                    "Stabilizer legs, which hold it steadier",
+                    "Its tires, but never with chocks or wedges"
+                  ],
+                  "why": "A parked motorhome rests only on its tires. Safety chocks or wedges are allowed."
+                },
+                "terms": [
+                  {
+                    "es": "neumático",
+                    "en": "tire (tyre)"
+                  },
+                  {
+                    "es": "calzo",
+                    "en": "chock"
+                  },
+                  {
+                    "es": "cuña",
+                    "en": "wedge"
+                  }
+                ],
+                "src": "RGC art. 92.4.b"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c2t",
+                "answer": 2,
+                "es": {
+                  "q": "Tu autocaravana está estacionada en la calle y el depósito de aguas grises está lleno. ¿Puedes vaciarlo allí mismo?",
+                  "options": [
+                    "Sí, si lo vacías en un sumidero de la calle",
+                    "Sí, de noche, cuando no molesta a nadie",
+                    "No: estacionada no puede verter fluidos del habitáculo"
+                  ],
+                  "why": "Una autocaravana o un vehículo preparado como vivienda no puede verter, mientras está estacionado, fluidos que vengan del habitáculo."
+                },
+                "exam": {
+                  "q": "Your motorhome is parked in the street and the grey water tank is full. Can you empty it right there?",
+                  "options": [
+                    "Yes, if you empty it into a drain of the street.",
+                    "Yes, at night, when it does not bother anybody.",
+                    "No: parked, it cannot pour fluids coming from the living area."
+                  ]
+                },
+                "en": {
+                  "q": "Your motorhome is parked on the street and the gray-water tank is full. May you empty it right there?",
+                  "options": [
+                    "Yes, if you empty it into a street drain",
+                    "Yes, at night, when it bothers no one",
+                    "No: while parked it may not discharge fluids from the living area"
+                  ],
+                  "why": "A motorhome or another vehicle set up as a home may not discharge fluids from the living area while it is parked."
+                },
+                "terms": [
+                  {
+                    "es": "verter",
+                    "en": "to discharge (pour)"
+                  },
+                  {
+                    "es": "habitáculo",
+                    "en": "living area (passenger compartment)"
+                  }
+                ],
+                "src": "RGC art. 92.4.c"
               }
             }
           ]
@@ -2096,8 +2292,10 @@
         "situations-04"
       ],
       "src": [
-        "Reglamento General de Circulación (RD 1428/2003), arts. 16, 90, 91, 92, 94 y 114; Anexo I, ap. 5.1 (R-308c, R-308d y R-309) y ap. 5.2 (M-2.1 a M-2.3, M-7.3, M-7.4 y M-7.7 a M-7.9)",
-        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), arts. 39, 40 y 105"
+        "Reglamento General de Circulación (RD 1428/2003), arts. 16, 90, 91, 92 (ap. 4 vigente desde 2026-10-01), 94 y 114; Anexo I, ap. 5.1 (R-308c, R-308d y R-309) y ap. 5.2 (M-2.1 a M-2.3, M-7.3, M-7.4 y M-7.7 a M-7.9)",
+        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), arts. 39, 40 y 105",
+        "Real Decreto 518/2026, preámbulo (estacionamiento de autocaravanas)",
+        "DGT guidance: «Tráfico actualiza la Instrucción de autocaravanas» (dgt.es, nota de prensa, 2026)"
       ]
     },
     {
@@ -2106,23 +2304,23 @@
         "es": "Autopistas y autovías",
         "en": "Motorways and dual carriageways"
       },
-      "minutes": 8,
+      "minutes": 10,
       "goals": [
         {
           "es": "Reconocer dónde empiezan las reglas de las autopistas y qué está prohibido en ellas.",
           "en": "Recognize where motorway rules start and what is banned there."
         },
         {
-          "es": "Incorporarte por el carril de aceleración y salir por el de deceleración.",
-          "en": "Merge from the acceleration lane and leave by the deceleration lane."
+          "es": "Incorporarte y salir por los carriles de aceleración y deceleración, y saber qué hacer si te pasas la salida.",
+          "en": "Merge from the acceleration lane, leave by the deceleration lane, and know what to do if you miss your exit."
         },
         {
           "es": "Circular por el carril adecuado y a la velocidad mínima exigida.",
           "en": "Drive in the right lane and at the minimum speed required."
         },
         {
-          "es": "Saber qué hacer si te pasas la salida.",
-          "en": "Know what to do if you miss your exit."
+          "es": "Formar el carril de emergencia en una retención y saber qué carriles usar con nieve.",
+          "en": "Form the emergency corridor in a jam and know which lanes to use in snow."
         }
       ],
       "terms": [
@@ -2149,6 +2347,14 @@
         {
           "es": "salida",
           "en": "exit"
+        },
+        {
+          "es": "carril de emergencia",
+          "en": "emergency corridor"
+        },
+        {
+          "es": "quitanieves",
+          "en": "snowplow"
         }
       ],
       "pretest": {
@@ -2411,6 +2617,420 @@
         },
         {
           "title": {
+            "es": "El carril de emergencia en una retención",
+            "en": "The emergency corridor in a traffic jam"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "En autopistas y autovías, si una **retención** obliga a ir a **paso de peatón** o a detenerse, los vehículos deben apartarse y dejar un espacio libre. Por él pasan los vehículos prioritarios que se acercan. Ese espacio es el **carril de emergencia**.",
+                "en": "On motorways and dual carriageways, if a **traffic jam** has you moving at **walking pace** or stopped, drivers must move aside and leave a free space for approaching priority vehicles. That space is the **emergency corridor**."
+              },
+              "src": "RGC art. 32.1"
+            },
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Carriles en tu sentido",
+                  "en": "Lanes in your direction"
+                },
+                {
+                  "es": "Dónde se abre",
+                  "en": "Where it opens"
+                },
+                {
+                  "es": "Quién se mueve hacia dónde",
+                  "en": "Who moves where"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "Dos",
+                    "en": "Two"
+                  },
+                  {
+                    "es": "En el centro, entre los dos carriles",
+                    "en": "In the middle, between the two lanes"
+                  },
+                  {
+                    "es": "El carril izquierdo, a la izquierda; el derecho, a la derecha",
+                    "en": "Left lane to the left; right lane to the right"
+                  }
+                ],
+                [
+                  {
+                    "es": "Tres o más",
+                    "en": "Three or more"
+                  },
+                  {
+                    "es": "Entre el carril de más a la izquierda y el siguiente",
+                    "en": "Between the far-left lane and the lane beside it"
+                  },
+                  {
+                    "es": "El carril de más a la izquierda, a la izquierda; **todos los demás**, a la derecha",
+                    "en": "Leftmost lane to the left; **all the others** to the right"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "new",
+              "since": "2026-10-01",
+              "was": {
+                "es": "El reglamento no regulaba el carril de emergencia. Ante un vehículo prioritario solo pedía facilitarle el paso, apartándose normalmente a la derecha o deteniéndose si hacía falta.",
+                "en": "The regulation had no emergency corridor. For a priority vehicle it only asked you to make way, normally by moving to the right or stopping if needed."
+              },
+              "now": {
+                "es": "En una retención en autopista o autovía debes formar el **carril de emergencia**. La regla general de apartarse sigue valiendo en las demás vías.",
+                "en": "In a jam on a motorway or dual carriageway you must form the **emergency corridor**. The general rule of moving aside still applies on other roads."
+              },
+              "src": "RGC arts. 32.1 y 69"
+            },
+            {
+              "t": "example",
+              "situation": {
+                "es": "Una autopista tiene cuatro carriles en tu sentido. Hay un atasco y el tráfico está parado. Tú estás en el segundo carril empezando por la izquierda.",
+                "en": "A motorway has four lanes in your direction. There is a jam and everyone is stopped. You are in the second lane counting from the left."
+              },
+              "action": {
+                "es": "Muévete lo más a la derecha que puedas, igual que los coches del tercer y del cuarto carril. Solo el carril de más a la izquierda se pega a la izquierda.",
+                "en": "Move as far right as you can, like the cars in the third and fourth lanes. Only the leftmost lane moves to the left."
+              },
+              "why": {
+                "es": "Con tres o más carriles, el pasillo se abre entre el carril de más a la izquierda y el contiguo. Todos los demás carriles se apartan a la derecha (RGC art. 32.1).",
+                "en": "With three or more lanes, the corridor opens between the far-left lane and the lane beside it. Every other lane shifts right (RGC art. 32.1)."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "La regla se repasa también en el módulo «La vía y los carriles», con un dibujo del pasillo.",
+                "en": "The rule is also covered, with a drawing of the corridor, in the “Roads and lanes” module."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c3i",
+                "answer": 0,
+                "es": {
+                  "q": "Por una autovía de tres carriles el tráfico avanza con fluidez, a unos 100 km/h. ¿Tienes que formar ya el carril de emergencia?",
+                  "options": [
+                    "No: se forma cuando una retención os deja a paso de peatón o parados",
+                    "Sí: en una autovía de tres carriles debe estar siempre abierto",
+                    "Sí: en cuanto el tráfico es denso, a cualquier velocidad"
+                  ],
+                  "why": "El carril de emergencia se forma en autopistas y autovías cuando, por una retención, los vehículos van a paso de peatón o se detienen. Con tráfico fluido vale la regla general: facilitar el paso al prioritario cuando llega."
+                },
+                "exam": {
+                  "q": "By a dual carriageway of three lanes the traffic advances with fluidity, at about 100 km/h. Must you already form the emergency lane?",
+                  "options": [
+                    "No: it is formed when a retention leaves you at pedestrian step or stopped.",
+                    "Yes: in a dual carriageway of three lanes it must always be open.",
+                    "Yes: as soon as the traffic is dense, at any speed."
+                  ]
+                },
+                "en": {
+                  "q": "Traffic is flowing at about 100 km/h on a three-lane dual carriageway. Do you have to form the emergency corridor now?",
+                  "options": [
+                    "No: you form it when a jam has you at walking pace or stopped",
+                    "Yes: on a three-lane dual carriageway it must always be open",
+                    "Yes: as soon as traffic is heavy, at any speed"
+                  ],
+                  "why": "The emergency corridor is formed on motorways and dual carriageways when a jam has vehicles at walking pace or stopped. In flowing traffic the general rule applies: make way for the priority vehicle when it arrives."
+                },
+                "terms": [
+                  {
+                    "es": "carril de emergencia",
+                    "en": "emergency corridor (emergency lane)"
+                  },
+                  {
+                    "es": "retención",
+                    "en": "traffic jam (retention)"
+                  },
+                  {
+                    "es": "a paso de peatón",
+                    "en": "at walking pace (pedestrian step)"
+                  }
+                ],
+                "src": "RGC art. 32.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c3j",
+                "answer": 1,
+                "es": {
+                  "q": "Atasco en una autopista de cuatro carriles en tu sentido: el tráfico está parado. Vas por el segundo carril empezando por la izquierda. ¿Cómo ayudas a formar el carril de emergencia?",
+                  "options": [
+                    "Te mueves lo más a la izquierda posible",
+                    "Te mueves lo más a la derecha posible",
+                    "Te subes al arcén derecho"
+                  ],
+                  "why": "Con tres o más carriles, el pasillo queda entre el carril de más a la izquierda y el contiguo. Solo el carril de más a la izquierda se aparta a la izquierda; todos los demás, a la derecha."
+                },
+                "exam": {
+                  "q": "Retention in a motorway of four lanes in your direction: the traffic is stopped. You circulate by the second lane starting from the left. How do you help to form the emergency lane?",
+                  "options": [
+                    "You move yourself as much to the left as possible.",
+                    "You move yourself as much to the right as possible.",
+                    "You go up onto the hard shoulder of the right."
+                  ]
+                },
+                "en": {
+                  "q": "Traffic jam on a motorway with four lanes in your direction: everyone is stopped. You are in the second lane from the left. How do you help form the emergency corridor?",
+                  "options": [
+                    "Move as far left as possible",
+                    "Move as far right as possible",
+                    "Pull onto the right shoulder"
+                  ],
+                  "why": "With three or more lanes, the corridor runs between the far-left lane and the lane beside it. Only the leftmost lane moves left; all the others move right."
+                },
+                "terms": [
+                  {
+                    "es": "orillarse",
+                    "en": "to move aside (pull over)"
+                  },
+                  {
+                    "es": "carril contiguo",
+                    "en": "adjacent lane"
+                  }
+                ],
+                "src": "RGC art. 32.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c3k",
+                "answer": 2,
+                "es": {
+                  "q": "Estás en una retención en una carretera convencional de un carril por sentido y oyes la sirena de una ambulancia detrás. ¿Qué regla aplicas?",
+                  "options": [
+                    "Formas el carril de emergencia en el centro de la calzada",
+                    "Ninguna: parado en una retención no tienes que moverte",
+                    "La general: le facilitas el paso, normalmente apartándote a la derecha o deteniéndote"
+                  ],
+                  "why": "El carril de emergencia es una regla de autopistas y autovías. En las demás vías facilitas el paso al vehículo prioritario apartándote normalmente a la derecha, o deteniéndote si hace falta."
+                },
+                "exam": {
+                  "q": "You are in a retention in a conventional road of one lane by direction and you hear the siren of an ambulance behind. What rule do you apply?",
+                  "options": [
+                    "You form the emergency lane in the centre of the carriageway.",
+                    "None: stopped in a retention you do not have to move.",
+                    "The general one: you facilitate its passage, normally moving aside to the right or stopping."
+                  ]
+                },
+                "en": {
+                  "q": "You are in a jam on a single-carriageway road with one lane each way, and you hear an ambulance siren behind you. Which rule applies?",
+                  "options": [
+                    "Form the emergency corridor in the middle of the road",
+                    "None: stopped in a jam, you do not have to move",
+                    "The general one: make way, normally by moving right or stopping"
+                  ],
+                  "why": "The emergency corridor is a motorway and dual carriageway rule. On other roads you make way for the priority vehicle, normally by moving to the right, or stopping if needed."
+                },
+                "terms": [
+                  {
+                    "es": "carretera convencional",
+                    "en": "conventional road (single carriageway)"
+                  },
+                  {
+                    "es": "vehículo prioritario",
+                    "en": "priority vehicle"
+                  },
+                  {
+                    "es": "facilitar el paso",
+                    "en": "to make way"
+                  }
+                ],
+                "src": "RGC arts. 32.1 y 69"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Con nieve en autopistas y autovías",
+            "en": "Snow on motorways and dual carriageways"
+          },
+          "blocks": [
+            {
+              "t": "rule",
+              "text": {
+                "es": "En autopistas y autovías, cuando la **nieve** en la calzada dificulta la circulación, está **prohibido adelantar**.",
+                "en": "On motorways and dual carriageways, when **snow** on the road makes driving difficult, **overtaking is banned**."
+              },
+              "src": "RGC art. 32.2"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Debes circular por el **carril de más a la derecha**. Si hay tres o más carriles por sentido, puedes usar también el contiguo. Los demás carriles de la izquierda quedan libres para los vehículos de emergencia y las **quitanieves**.",
+                "en": "You must drive in the **rightmost lane**. With three or more lanes each way, you may also use the one next to it. The other lanes to the left stay clear for emergency vehicles and **snowplows**."
+              },
+              "src": "RGC art. 32.2"
+            },
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "Carriles por sentido",
+                  "en": "Lanes each way"
+                },
+                {
+                  "es": "Puedes usar",
+                  "en": "You may use"
+                },
+                {
+                  "es": "Libres para emergencias y quitanieves",
+                  "en": "Clear for emergency vehicles and snowplows"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "Dos",
+                    "en": "Two"
+                  },
+                  {
+                    "es": "El derecho",
+                    "en": "The right-hand lane"
+                  },
+                  {
+                    "es": "El izquierdo",
+                    "en": "The left-hand lane"
+                  }
+                ],
+                [
+                  {
+                    "es": "Tres o más",
+                    "en": "Three or more"
+                  },
+                  {
+                    "es": "El derecho y su contiguo",
+                    "en": "The right-hand lane and the one next to it"
+                  },
+                  {
+                    "es": "Todos los que quedan a la izquierda",
+                    "en": "All the lanes further left"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "new",
+              "since": "2026-10-01",
+              "was": {
+                "es": "No había una regla propia para la nieve en autopistas y autovías: valían las normas generales de carriles y de adelantamiento.",
+                "en": "There was no specific snow rule for motorways and dual carriageways: the general lane and overtaking rules applied."
+              },
+              "now": {
+                "es": "Con nieve que dificulta la circulación: **no se adelanta**, se va por el carril derecho (o su contiguo con tres o más carriles) y la izquierda queda para emergencias y quitanieves.",
+                "en": "With snow that makes driving difficult: **no overtaking**, use the right-hand lane (or the next one with three or more lanes), and the left is kept for emergency vehicles and snowplows."
+              },
+              "src": "RGC art. 32.2"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c3l",
+                "answer": 0,
+                "es": {
+                  "q": "Nieva y la calzada de una autovía de dos carriles por sentido está difícil. Delante de ti, en el carril derecho, va un camión muy lento. ¿Puedes adelantarlo por la izquierda?",
+                  "options": [
+                    "No: con nieve está prohibido adelantar y el carril izquierdo queda libre",
+                    "Sí, si el camión va mucho más despacio que tú",
+                    "Sí, con la luz de cruce encendida y con precaución"
+                  ],
+                  "why": "En autopistas y autovías, cuando la nieve dificulta la circulación, se prohíbe adelantar. Vas por el carril derecho y dejas el izquierdo a los vehículos de emergencia y las quitanieves."
+                },
+                "exam": {
+                  "q": "It snows and the carriageway of a dual carriageway of two lanes by direction is difficult. In front of you, in the right lane, goes a very slow lorry. Can you overtake it by the left?",
+                  "options": [
+                    "No: with snow it is prohibited to overtake and the left lane remains free.",
+                    "Yes, if the lorry goes much more slowly than you.",
+                    "Yes, with the dipped beam switched on and with caution."
+                  ]
+                },
+                "en": {
+                  "q": "It is snowing and driving on a dual carriageway with two lanes each way is difficult. A very slow truck is ahead of you in the right-hand lane. May you pass it on the left?",
+                  "options": [
+                    "No: in snow overtaking is banned and the left lane stays clear",
+                    "Yes, if the truck is much slower than you",
+                    "Yes, with low beams on and with care"
+                  ],
+                  "why": "On motorways and dual carriageways, when snow makes driving difficult, overtaking is banned. You stay in the right-hand lane and leave the left one to emergency vehicles and snowplows."
+                },
+                "terms": [
+                  {
+                    "es": "nieve",
+                    "en": "snow"
+                  },
+                  {
+                    "es": "adelantar",
+                    "en": "to overtake"
+                  },
+                  {
+                    "es": "quitanieves",
+                    "en": "snowplow (snowplough)"
+                  }
+                ],
+                "src": "RGC art. 32.2"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c3m",
+                "answer": 2,
+                "es": {
+                  "q": "Una autopista tiene tres carriles por sentido y la nieve dificulta la circulación. ¿Por qué carriles puedes circular?",
+                  "options": [
+                    "Solo por el de la izquierda, que suele estar más limpio",
+                    "Por cualquiera de los tres, a velocidad moderada",
+                    "Por el de la derecha y, si hace falta, por su contiguo"
+                  ],
+                  "why": "Con nieve, en autopistas y autovías se circula por el carril de más a la derecha. Con tres o más carriles por sentido también se puede usar el contiguo. El resto, a la izquierda, queda para emergencias y quitanieves."
+                },
+                "exam": {
+                  "q": "A motorway has three lanes by direction and the snow makes the circulation difficult. By which lanes can you circulate?",
+                  "options": [
+                    "Only by the one of the left, which is usually cleaner.",
+                    "By any of the three, at moderate speed.",
+                    "By the one of the right and, if necessary, by its adjacent one."
+                  ]
+                },
+                "en": {
+                  "q": "A motorway has three lanes each way and snow makes driving difficult. Which lanes may you drive in?",
+                  "options": [
+                    "Only the left one, which is usually clearer",
+                    "Any of the three, at a moderate speed",
+                    "The right-hand one and, if needed, the one next to it"
+                  ],
+                  "why": "In snow, on motorways and dual carriageways you drive in the rightmost lane. With three or more lanes each way you may also use the next one. The rest, to the left, is kept for emergency vehicles and snowplows."
+                },
+                "terms": [
+                  {
+                    "es": "carril contiguo",
+                    "en": "adjacent lane"
+                  },
+                  {
+                    "es": "dejar expedito",
+                    "en": "to keep clear"
+                  }
+                ],
+                "src": "RGC art. 32.2"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
             "es": "Salir, y qué hacer si te pasas la salida",
             "en": "Exiting, and what to do if you miss your exit"
           },
@@ -2532,8 +3152,8 @@
             {
               "t": "p",
               "text": {
-                "es": "Cómo señalizar el vehículo si te inmovilizas está en el módulo «Adelantamientos, giros y marcha atrás», y los pasos de una avería o un accidente, en «Accidentes y primeros auxilios». Si hay retención, el carril de emergencia está en «La vía y los carriles».",
-                "en": "How to mark your vehicle if you become immobilized is in the “Overtaking, turning and reversing” module, and the steps for a breakdown or a collision are in “Collisions and first aid”. For the emergency lane in a traffic jam, see “Roads and lanes”."
+                "es": "Cómo señalizar el vehículo si te inmovilizas está en el módulo «Adelantamientos, giros y marcha atrás», y los pasos de una avería o un accidente, en «Accidentes y primeros auxilios».",
+                "en": "How to mark your vehicle if you become immobilized is in the “Overtaking, turning and reversing” module, and the steps for a breakdown or a collision are in “Collisions and first aid”."
               }
             },
             {
@@ -2819,12 +3439,12 @@
           "en": "Exit by the nearest lane and enter the **deceleration lane** early. If you miss it, go on to the **next exit**."
         },
         {
-          "es": "No se puede **parar**, salvo en las zonas habilitadas. Tampoco cambiar de sentido ni dar marcha atrás.",
-          "en": "You may not **stop**, except in the areas set up for it. You may not make a U-turn or reverse either."
+          "es": "No se puede **parar**, salvo en las zonas habilitadas, ni cambiar de sentido ni dar marcha atrás. Avería: **no te dejes remolcar** por otro conductor; llama a una grúa.",
+          "en": "You may not **stop** except in designated areas, or turn around or reverse. Breakdown: **do not let another driver tow you**; call a tow truck."
         },
         {
-          "es": "Avería en autopista o autovía: **no te dejes remolcar** por otro conductor; llama a una grúa.",
-          "en": "Breakdown on a motorway or dual carriageway: **do not let another driver tow you**; call a tow truck."
+          "es": "Retención a paso de peatón: forma el **carril de emergencia**. Con **nieve**: no adelantes y ve por el carril derecho (o su contiguo, con tres o más).",
+          "en": "Jam at walking pace: form the **emergency corridor**. In **snow**: no overtaking; use the right-hand lane (or the next one, with three or more)."
         }
       ],
       "covers": [
@@ -2832,7 +3452,7 @@
         "situations-07"
       ],
       "src": [
-        "Reglamento General de Circulación (RD 1428/2003), arts. 38, 48, 49, 57, 72, 73, 77, 94, 125 y 128; Anexo I, ap. 5.1 (S-1 y S-1a)",
+        "Reglamento General de Circulación (RD 1428/2003), arts. 32, 38, 48, 49, 57, 72, 73, 77, 94, 125, 128 y 69 (redacción vigente desde 2026-10-01 en los arts. 32 y 69); Anexo I, ap. 5.1 (S-1 y S-1a)",
         "DGT, Manual II Cuestiones de seguridad vial (2026), UD18",
         "DGT, Manual del permiso B en lectura fácil (2023), Temas 9 y 11"
       ]

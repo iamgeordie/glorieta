@@ -2286,6 +2286,10 @@
         {
           "es": "Saber dónde esperar y por qué lado salir del coche.",
           "en": "Know where to wait and which side to get out of the car."
+        },
+        {
+          "es": "Saber quién puede llegar por el arcén a un servicio y a qué velocidad.",
+          "en": "Know who may reach a call along the shoulder, and how fast."
         }
       ],
       "terms": [
@@ -2569,6 +2573,134 @@
                   }
                 ],
                 "src": "RD 159/2021 art. 6.a; LSV art. 27"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Las grúas de auxilio pueden usar el **arcén** para llegar a un servicio de urgencia. También pueden hacerlo la policía, los bomberos, protección civil, salvamento, las ambulancias en servicio de urgencia y los equipos de mantenimiento de la vía. Estos últimos, además, cuando lo necesita el mantenimiento de la vía y sus instalaciones.",
+                "en": "Roadside assistance tow trucks may use the **shoulder** to reach an emergency call. So may police, fire, civil protection, rescue, ambulances on an emergency call, and road maintenance crews. The crews may also use it when maintaining the road and its equipment requires it."
+              },
+              "src": "RGC arts. 35.2.c y 36.4"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Por el arcén llevan encendidas las señales que les exige su normativa (V-1, V-2, V-23 o V-24) y van a **30 km/h** como máximo. Solo los **vehículos prioritarios en servicio de urgencia** pueden ir más rápido.",
+                "en": "On the shoulder they show the signals their own rules require (V-1, V-2, V-23 or V-24) and go at **30 km/h** at most. Only **priority vehicles on an emergency call** may go faster."
+              },
+              "src": "RGC art. 36.4.a y b"
+            },
+            {
+              "t": "new",
+              "since": "2026-10-01",
+              "was": {
+                "es": "El artículo de los arcenes no tenía una regla para que las grúas y los equipos de mantenimiento llegaran por el arcén a un servicio.",
+                "en": "The shoulder article had no rule letting tow trucks and maintenance crews reach a job along the shoulder."
+              },
+              "now": {
+                "es": "Pueden usar el arcén para llegar a un servicio de urgencia o para el mantenimiento de la vía, con sus señales y a **30 km/h** como máximo. Los prioritarios en urgencia no tienen ese límite.",
+                "en": "They may use the shoulder to reach an emergency call or for road maintenance, with their signals on and at **30 km/h** at most. Priority vehicles on an emergency call have no such limit."
+              },
+              "src": "RGC art. 36.4"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Si te detienes en el arcén por una avería, ten presente que por él pueden llegar estos vehículos.",
+                "en": "If a breakdown leaves you on the shoulder, keep in mind that these vehicles may come along it."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "emergencies-c3n",
+                "answer": 1,
+                "es": {
+                  "q": "Una autovía está atascada y una grúa de auxilio avanza por el arcén derecho para llegar a una avería. ¿A qué velocidad máxima puede ir por el arcén?",
+                  "options": [
+                    "A la velocidad máxima de la autovía",
+                    "A 30 km/h",
+                    "A 60 km/h, la mínima de la autovía"
+                  ],
+                  "why": "Los vehículos de auxilio y los de mantenimiento de la vía pueden usar el arcén para llegar a un servicio, con sus señales y sin pasar de 30 km/h. Solo los prioritarios en servicio de urgencia pueden ir más rápido."
+                },
+                "exam": {
+                  "q": "A dual carriageway is congested and a roadside assistance vehicle advances by the hard shoulder of the right in order to reach a breakdown. At what maximum speed can it go by the hard shoulder?",
+                  "options": [
+                    "At the maximum speed of the dual carriageway.",
+                    "At 30 km/h.",
+                    "At 60 km/h, the minimum of the dual carriageway."
+                  ]
+                },
+                "en": {
+                  "q": "A dual carriageway is jammed and a roadside assistance tow truck is moving along the right shoulder to reach a breakdown. What is its top speed on the shoulder?",
+                  "options": [
+                    "The dual carriageway’s speed limit",
+                    "30 km/h",
+                    "60 km/h, the dual carriageway minimum"
+                  ],
+                  "why": "Roadside assistance and road maintenance vehicles may use the shoulder to reach a job, with their signals on and no faster than 30 km/h. Only priority vehicles on an emergency call may go faster."
+                },
+                "terms": [
+                  {
+                    "es": "vehículo de auxilio en vías públicas",
+                    "en": "roadside assistance vehicle"
+                  },
+                  {
+                    "es": "arcén",
+                    "en": "hard shoulder"
+                  }
+                ],
+                "src": "RGC art. 36.4.b"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "emergencies-c3o",
+                "answer": 2,
+                "es": {
+                  "q": "¿Cuál de estos vehículos puede circular por el arcén a más de 30 km/h para llegar a un servicio?",
+                  "options": [
+                    "Una grúa de auxilio con su luz amarilla encendida",
+                    "Un vehículo de mantenimiento de la carretera",
+                    "Una ambulancia en servicio de urgencia"
+                  ],
+                  "why": "Por el arcén, grúas y vehículos de mantenimiento no pasan de 30 km/h. La excepción son los vehículos prioritarios, como una ambulancia, cuando están en servicio de urgencia."
+                },
+                "exam": {
+                  "q": "Which of these vehicles can circulate by the hard shoulder at more than 30 km/h in order to reach a service?",
+                  "options": [
+                    "A roadside assistance vehicle with its yellow light switched on.",
+                    "A road maintenance vehicle.",
+                    "An ambulance in emergency service."
+                  ]
+                },
+                "en": {
+                  "q": "Which of these vehicles may drive along the shoulder faster than 30 km/h to reach a call?",
+                  "options": [
+                    "A roadside assistance tow truck with its amber light on",
+                    "A road maintenance vehicle",
+                    "An ambulance on an emergency call"
+                  ],
+                  "why": "On the shoulder, tow trucks and maintenance vehicles stay at 30 km/h or less. The exception is priority vehicles, such as an ambulance, on an emergency call."
+                },
+                "terms": [
+                  {
+                    "es": "servicio de urgencia",
+                    "en": "emergency call (urgent service)"
+                  },
+                  {
+                    "es": "vehículo prioritario",
+                    "en": "priority vehicle"
+                  },
+                  {
+                    "es": "mantenimiento",
+                    "en": "maintenance"
+                  }
+                ],
+                "src": "RGC art. 36.4.b"
               }
             }
           ]
@@ -3187,8 +3319,8 @@
       ],
       "recap": [
         {
-          "es": "Si puedes circular, deja los carriles por el **arcén derecho** y ve a la **primera salida**.",
-          "en": "If you can drive, leave the lanes along the **right shoulder** and go to the **first exit**."
+          "es": "Si puedes circular, deja los carriles por el **arcén derecho** y ve a la **primera salida**. Grúas y servicios pueden llegar por el arcén, a **30 km/h** como máximo salvo los prioritarios en urgencia.",
+          "en": "If you can drive, leave the lanes along the **right shoulder** and go to the **first exit**. Tow trucks and services may come along the shoulder, at **30 km/h** at most except priority vehicles on an emergency call."
         },
         {
           "es": "Un coche inmovilizado se señaliza con la **luz de emergencia** y la **baliza V-16**, en lo más alto del coche.",
@@ -3218,7 +3350,8 @@
         "RD 159/2021 (servicios de auxilio en vías públicas), disposición transitoria primera",
         "DGT guidance: «En caso de emergencia» (dgt.es)",
         "Ley de Tráfico y Seguridad Vial (RDL 6/2015), art. 12.3",
-        "Reglamento General de Circulación (RD 1428/2003), art. 97.3"
+        "Reglamento General de Circulación (RD 1428/2003), art. 97.3",
+        "Reglamento General de Circulación (RD 1428/2003), arts. 35.2.c y 36.4 (redacción vigente desde 2026-10-01)"
       ]
     }
   ]

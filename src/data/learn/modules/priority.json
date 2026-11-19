@@ -1984,6 +1984,115 @@
                 ],
                 "src": "RGC anexo I, 4.2.d"
               }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Como norma general, en un paso de peatones con semáforo para peatones, el **amarillo intermitente** para los vehículos no puede coincidir con el verde fijo de los peatones. Además, debe ir precedido del rojo fijo.",
+                "en": "As a general rule, at a crossing with a pedestrian signal, the **flashing yellow** for vehicles may not show at the same time as the steady green for pedestrians. It must also come after a steady red."
+              },
+              "src": "RGC anexo I, 4.2.d"
+            },
+            {
+              "t": "new",
+              "since": "2026-10-01",
+              "was": {
+                "es": "La norma no decía cómo se combina el amarillo intermitente de los vehículos con el semáforo de los peatones.",
+                "en": "The rule did not say how the vehicles’ flashing yellow fits with the pedestrian signal."
+              },
+              "now": {
+                "es": "Como norma general, ese amarillo intermitente no coincide con el verde fijo de los peatones y llega después del **rojo fijo**.",
+                "en": "As a general rule, that flashing yellow does not overlap the pedestrians’ steady green, and it comes after a **steady red**."
+              },
+              "src": "RGC anexo I, 4.2.d"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c3o",
+                "answer": 2,
+                "es": {
+                  "q": "En un paso de peatones con semáforo para peatones, ¿qué luz para los vehículos va justo antes del amarillo intermitente, como norma general?",
+                  "options": [
+                    "El verde fijo",
+                    "El amarillo fijo",
+                    "El rojo fijo"
+                  ],
+                  "why": "Como norma general, en esos pasos el amarillo intermitente para vehículos debe ir precedido del rojo fijo, y no puede coincidir con el verde fijo de los peatones."
+                },
+                "exam": {
+                  "q": "In a pedestrian crossing with traffic light for pedestrians, what light for the vehicles goes just before the intermittent yellow, as a general norm?",
+                  "options": [
+                    "The fixed green.",
+                    "The fixed yellow.",
+                    "The fixed red."
+                  ]
+                },
+                "en": {
+                  "q": "At a crosswalk with a pedestrian signal, which light for vehicles comes right before the flashing yellow, as a general rule?",
+                  "options": [
+                    "Steady green",
+                    "Steady yellow",
+                    "Steady red"
+                  ],
+                  "why": "As a general rule, at those crossings the flashing yellow for vehicles must come after a steady red, and may not overlap the pedestrians’ steady green."
+                },
+                "terms": [
+                  {
+                    "es": "luz roja no intermitente",
+                    "en": "steady red light"
+                  },
+                  {
+                    "es": "semáforo reservado para peatones",
+                    "en": "pedestrian traffic light"
+                  }
+                ],
+                "src": "RGC anexo I, 4.2.d"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c3p",
+                "answer": 0,
+                "es": {
+                  "q": "En un paso con semáforo para peatones, ¿puede el amarillo intermitente para los vehículos encenderse a la vez que el verde fijo para los peatones?",
+                  "options": [
+                    "No, como norma general",
+                    "Sí: el amarillo intermitente ya obliga a ceder el paso",
+                    "Sí, pero solo de noche"
+                  ],
+                  "why": "Como norma general, el amarillo intermitente para vehículos no puede coincidir con el verde fijo para peatones en esos pasos."
+                },
+                "exam": {
+                  "q": "In a crossing with traffic light for pedestrians, can the intermittent yellow for the vehicles light up simultaneously with the fixed green for the pedestrians?",
+                  "options": [
+                    "No, as a general norm.",
+                    "Yes: the intermittent yellow already obliges to yield way.",
+                    "Yes, but only at night."
+                  ]
+                },
+                "en": {
+                  "q": "At a crossing with a pedestrian signal, may the flashing yellow for vehicles be lit while pedestrians have a steady green?",
+                  "options": [
+                    "No, as a general rule",
+                    "Yes: flashing yellow already means you must yield",
+                    "Yes, but only at night"
+                  ],
+                  "why": "As a general rule, the flashing yellow for vehicles may not overlap the steady green for pedestrians at those crossings."
+                },
+                "terms": [
+                  {
+                    "es": "luz verde no intermitente",
+                    "en": "steady green light"
+                  },
+                  {
+                    "es": "amarillo intermitente",
+                    "en": "flashing yellow"
+                  }
+                ],
+                "src": "RGC anexo I, 4.2.d"
+              }
             }
           ]
         },
@@ -2672,8 +2781,8 @@
           "en": "**Steady yellow** = stop as for red, unless you can no longer do it safely."
         },
         {
-          "es": "**Amarillo intermitente** = extrema la precaución y cede el paso si hace falta.",
-          "en": "**Flashing yellow** = take extreme care and yield if needed."
+          "es": "**Amarillo intermitente** = extrema la precaución y cede el paso si hace falta. En un paso con semáforo de peatones, llega tras el rojo fijo y no coincide con su verde fijo.",
+          "en": "**Flashing yellow** = take extreme care and yield if needed. At a crossing with a pedestrian signal, it comes after a steady red and never overlaps the pedestrians’ steady green."
         },
         {
           "es": "**Verde** da prioridad, pero no entres en un cruce si no hay sitio al otro lado.",
