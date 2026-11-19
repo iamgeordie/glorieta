@@ -17,7 +17,7 @@ The one design rule: **every piece of text can flip between Spanish and English 
 | Learn | A guided course: 14 modules, 90 short lessons, 1,027 check questions and 47 diagrams (many animated). Each lesson has key words, an ungraded guess, one idea per step with a retrieval check, and a recap. Each module ends in a quiz; 80% counts as mastered. A finished lesson opens on its recap, with "Read it again" to go back through it; the step bar at the top jumps to any step you have reached. See [How the course teaches](#learn-the-course). |
 | Practice | The 70 original questions, the 1,027 lesson checks, and a "what does this sign mean?" question for each sign, in 14 categories. Spaced repetition ([FSRS](https://github.com/open-spaced-repetition/ts-fsrs)) brings the ones you miss back sooner, whether you missed them in a lesson, a quiz or here. |
 | Mock exam | 30 questions (4 of them signs), countdown, up to 3 mistakes, with a review of what you missed. |
-| Traffic signs | A gallery of Spanish traffic signs with the official meaning in both languages, and practice questions built from the same data. |
+| Traffic signs | Every sign in the official catalogue (457, RD 465/2025) plus three vehicle signs, grouped by the catalogue's sections, with the official meaning in both languages, and practice questions built from the same data. The mock exam's sign questions leave out route signage (direction, road-number, location and confirmation signs). |
 | Vocabulary | Flashcards for road terms, scheduled with the same FSRS engine. |
 | Examiner phrases | What you will hear in the practical test, and what to do. |
 | Tricks and tips | One page with the recent changes in the law (each with the date it took effect, the old rule and the new one), the points where practice tests get the answer wrong, and every tip in the course by module. All of it comes from boxes inside the lessons, each linked back to its step. |
@@ -82,7 +82,7 @@ npm run deploy     # check, build, wrangler deploy
 
 ## Sign images
 
-The SVGs in `public/signs/` are unmodified copies from [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Road_signs_of_Spain): public domain, CC0, or CC BY-SA. Every file's license and author is recorded in `src/data/signs.json`; `npm run credits` generates `public/signs/CREDITS.md` from it, and the credits for the CC BY-SA files are also shown on the signs page. Names and meanings follow the official catalogue (RGC Anexo I, as updated by RD 465/2025). The direction descriptors in parentheses on the R-400, R-401, R-403 and R-407 variants, such as "(straight arrow to the right)", are this app's own clarifications; the official names are bare. A 2025 reform changed some drawings and codes, so where Commons offers the Transport Ministry's own new drawing, that one is used.
+Most SVGs in `public/signs/` are unmodified copies from [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Road_signs_of_Spain): public domain, CC0, CC BY or CC BY-SA. Where Commons has no file, or its file does not match the catalogue, the SVG wraps the catalogue's own figure, copied unchanged from the BOE PDF; the three vehicle signs (V-5, V-24, V-26) were drawn from the RGV's figures. Every file's license and author is recorded in `src/data/signs.json`; `npm run credits` generates `public/signs/CREDITS.md` from it, and the credits for the CC BY-SA files are also shown on the signs page. Names and meanings follow the official catalogue (RGC Anexo I, as updated by RD 465/2025). The direction descriptors in parentheses on the R-400, R-401, R-403 and R-407 variants, such as "(straight arrow to the right)", are this app's own clarifications; the official names are bare. A 2025 reform changed some drawings and codes, so where Commons offers the Transport Ministry's own new drawing, that one is used.
 
 To add a sign, put the SVG in `public/signs/` and add an entry to `src/data/signs.json`; the practice questions are generated from that list. `npm run check` fails if a file and an entry get out of step, if a CC BY-SA sign lacks an author or license link, or if `CREDITS.md` is stale.
 
@@ -106,7 +106,7 @@ The question bank was fact-checked on 2026-10-16 by an independent read of the B
 What is still not confirmed from a primary source:
 
 - The 3-mistake limit and the 30-minute time limit rest on secondary publications, and the app labels them that way.
-- Sign shapes and colors are images in the BOE, so they were not checked against the catalogue text.
+- Sign pictures are images in the BOE, so they cannot be checked against the catalogue text. The 271 signs added on 2026-11-19 were compared by eye with the BOE figures; the earlier ones were not.
 - A handful of questions rest on DGT guidance only (the two-second following distance, the 200 km rest recommendation, first aid), with no article to cite.
 
 ## License
@@ -117,7 +117,7 @@ Three kinds of material, three licenses:
 |---|---|
 | Source code | [Apache License 2.0](LICENSE) |
 | Written learning content (questions, explanations, lessons, vocabulary, sign meanings, interface text) and the original diagrams in `src/learn-figures/` | [CC BY 4.0](LICENSE-CONTENT.md) |
-| Traffic sign images in `public/signs/` | Their own licenses from Wikimedia Commons (public domain, CC0, or CC BY-SA), with credits in [`public/signs/CREDITS.md`](public/signs/CREDITS.md) |
+| Traffic sign images in `public/signs/` | Their own licenses from Wikimedia Commons (public domain, CC0, CC BY or CC BY-SA), or public domain for the BOE figures and the vehicle signs drawn from them, with credits in [`public/signs/CREDITS.md`](public/signs/CREDITS.md) |
 | The LinguaMama name and logo (`public/linguamama-logo.png`) | Not licensed for reuse: the author's brand marks, shown as a link to [linguamama.ai](https://linguamama.ai) |
 
 The sign images are unmodified copies and keep their original terms. Licensing the code under Apache 2.0 does not relicense them.

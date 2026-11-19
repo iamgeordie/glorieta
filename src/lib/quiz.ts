@@ -80,9 +80,16 @@ export const signQuestions: Question[] = signs.map(signQuestion);
 
 export const allQuestions: Question[] = [...textQuestions, ...signQuestions];
 
+/**
+ * Route signage (advance direction, direction, road-number, location and confirmation signs) is in the
+ * gallery and in Practice, but the mock exam's sign questions come from the other groups, as on the test.
+ */
+const ROUTE_SIGNAGE = new Set<Sign['group']>(['presign', 'direction', 'roadid', 'location', 'confirmation']);
+const examSignQuestions: Question[] = signs.filter((s) => !ROUTE_SIGNAGE.has(s.group)).map(signQuestion);
+
 /** A mock exam: mostly text questions, with a few sign questions, as in the real test. */
 export function buildExam(total: number, signCount = 4): Question[] {
-  const withSigns = shuffle(signQuestions).slice(0, signCount);
+  const withSigns = shuffle(examSignQuestions).slice(0, signCount);
   const rest = shuffle(textQuestions).slice(0, Math.max(0, total - withSigns.length));
   return shuffle([...withSigns, ...rest]);
 }

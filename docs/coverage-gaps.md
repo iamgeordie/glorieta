@@ -4,7 +4,7 @@ Glorieta is checked against commercial Spanish theory practice tests. Those test
 
 ## Source: Facilauto "Examen por ordenador B" block, all 61 tests (1,830 questions, 2026-11-18)
 
-After five passes, 1,807 of the 1,830 questions (98.7%) are taught: 961 were already covered by the time each was reviewed, and 846 are covered by new lessons and checks. Over the five passes the course went from 65 to 90 lessons and from 335 to 1,027 checks, and the sign gallery from 128 to 197 signs. Every new check carries an Exam English block. No check shares a six-word run with the practice bank's questions or options.
+After five passes, 1,807 of the 1,830 questions (98.7%) are taught: 961 were already covered by the time each was reviewed, and 846 are covered by new lessons and checks. Over the five passes the course went from 65 to 90 lessons and from 335 to 1,027 checks, and the sign gallery from 128 to 197 signs (since grown to the whole catalogue). Every new check carries an Exam English block. No check shares a six-word run with the practice bank's questions or options.
 
 The fifth pass drew on the DGT's own training manuals: Manual VIII *Mecánica* (2026), Manual II *Cuestiones de seguridad vial* (2026) and the *Manual del permiso B en lectura fácil* (2023). Where a manual and the law in force disagree, Glorieta teaches the law.
 

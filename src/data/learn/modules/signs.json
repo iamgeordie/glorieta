@@ -4877,7 +4877,11 @@
                 "r-406",
                 "r-407b",
                 "r-409",
-                "r-416"
+                "r-416",
+                "r-412",
+                "r-418",
+                "r-408",
+                "r-404"
               ],
               "caption": {
                 "es": "R-406: calzada obligatoria para camiones. R-407b: vía para ciclomotores. R-409: camino para animales de montura. R-416: calzada para mercancías explosivas.",
@@ -4981,7 +4985,7 @@
                 "id": "signs-ban-h",
                 "answer": 2,
                 "es": {
-                  "q": "En un puerto de montaña encuentras la señal de «Cadenas para nieve». ¿Qué te obliga a hacer?",
+                  "q": "En un puerto de montaña encuentras esta señal. ¿Qué debes hacer?",
                   "options": [
                     "Llevar las cadenas en el maletero",
                     "Poner las cadenas solo si la calzada tiene hielo",
@@ -4990,7 +4994,7 @@
                   "why": "La señal R-412 obliga a no seguir la marcha sin cadenas para nieve u otros dispositivos antideslizantes autorizados, o neumáticos especiales de nieve. Rige desde donde está la señal."
                 },
                 "exam": {
-                  "q": "In a mountain pass you find the “snow chains” sign. What does it oblige you to do?",
+                  "q": "In a mountain pass you find this sign. What must you do?",
                   "options": [
                     "To carry the chains in the boot.",
                     "To fit the chains only if the carriageway has ice.",
@@ -4998,7 +5002,7 @@
                   ]
                 },
                 "en": {
-                  "q": "On a mountain pass you find the “snow chains” sign. What must you do?",
+                  "q": "On a mountain pass you find this sign. What must you do?",
                   "options": [
                     "Carry the chains in the trunk",
                     "Fit chains only if the road is icy",
@@ -5016,7 +5020,8 @@
                     "en": "anti-skid device"
                   }
                 ],
-                "src": "RGC Anexo I, ap. 5.1, 3.6 (R-412)"
+                "src": "RGC Anexo I, ap. 5.1, 3.6 (R-412)",
+                "sign": "r-412"
               }
             },
             {
@@ -5025,7 +5030,7 @@
                 "id": "signs-ban-i",
                 "answer": 0,
                 "es": {
-                  "q": "Un carril de peaje tiene la señal de «Telepeaje obligatorio». ¿Quién puede circular por él?",
+                  "q": "Un carril de peaje tiene esta señal. ¿Quién puede usarlo?",
                   "options": [
                     "Los vehículos con un equipo de telepeaje que funcione",
                     "Cualquier vehículo, pagando en efectivo",
@@ -5034,7 +5039,7 @@
                   "why": "La señal R-418 obliga a pagar el peaje por telepeaje: el vehículo que circule por ese carril debe llevar el equipo técnico en condiciones de uso."
                 },
                 "exam": {
-                  "q": "A toll lane has the “mandatory electronic toll” sign. Who can circulate by it?",
+                  "q": "A toll lane has this sign. Who may use it?",
                   "options": [
                     "The vehicles with an electronic toll equipment that works.",
                     "Any vehicle, paying in cash.",
@@ -5042,7 +5047,7 @@
                   ]
                 },
                 "en": {
-                  "q": "A toll lane has the “electronic toll only” sign. Who may use it?",
+                  "q": "A toll lane has this sign. Who may use it?",
                   "options": [
                     "Vehicles with working electronic toll equipment",
                     "Any vehicle, paying cash",
@@ -5060,7 +5065,8 @@
                     "en": "toll"
                   }
                 ],
-                "src": "RGC Anexo I, ap. 5.1, 3.6 (R-418)"
+                "src": "RGC Anexo I, ap. 5.1, 3.6 (R-418)",
+                "sign": "r-418"
               }
             },
             {
@@ -5069,7 +5075,7 @@
                 "id": "signs-ban-j",
                 "answer": 1,
                 "es": {
-                  "q": "A la entrada de un camino está la señal de «Camino obligatorio para vehículos de tracción animal». ¿Prohíbe el paso a tu turismo?",
+                  "q": "A la entrada de un camino está esta señal. ¿Prohíbe el paso a tu coche?",
                   "options": [
                     "Sí: el camino está reservado a los carros",
                     "No: obliga a los carros a usarlo, pero no prohíbe el paso a otros",
@@ -5078,7 +5084,7 @@
                   "why": "R-408 solo obliga a los vehículos de tracción animal a usar ese camino; no prohíbe el paso a los demás. Las señales que reservan un camino, como R-409 o R-410, sí lo prohíben a otros."
                 },
                 "exam": {
-                  "q": "At the entrance of a path there is the “mandatory path for animal-drawn vehicles” sign. Does it prohibit the passage to your passenger car?",
+                  "q": "At the entrance of a path there is this sign. Does it prohibit your car?",
                   "options": [
                     "Yes: the path is reserved for the carts.",
                     "No: it obliges the carts to use it, but it does not prohibit the passage to others.",
@@ -5086,7 +5092,7 @@
                   ]
                 },
                 "en": {
-                  "q": "At the entrance to a path is the “compulsory path for animal-drawn vehicles” sign. Does it forbid your car?",
+                  "q": "At the entrance to a path is this sign. Does it forbid your car?",
                   "options": [
                     "Yes: the path is reserved for carts",
                     "No: it obliges carts to use it, but does not forbid others",
@@ -5104,7 +5110,8 @@
                     "en": "passenger car"
                   }
                 ],
-                "src": "RGC Anexo I, ap. 5.1, 3.6 (R-408 y R-410)"
+                "src": "RGC Anexo I, ap. 5.1, 3.6 (R-408 y R-410)",
+                "sign": "r-408"
               }
             },
             {
@@ -5158,7 +5165,7 @@
                 "id": "signs-ban-q",
                 "answer": 2,
                 "es": {
-                  "q": "A la entrada de una calzada está la señal «Calzada obligatoria para automóviles, excepto motocicletas de dos ruedas». ¿Quién debe circular por ella?",
+                  "q": "Al comienzo de una calzada está esta señal. ¿Quién debe usarla?",
                   "options": [
                     "Solo los turismos",
                     "Todos los vehículos, también las bicicletas",
@@ -5167,7 +5174,7 @@
                   "why": "Esa señal obliga a circular por esa calzada a los automóviles, excepto las motocicletas de dos ruedas y los vehículos de tres ruedas asimilados a motocicletas."
                 },
                 "exam": {
-                  "q": "At the entrance of a carriageway is the sign \"Compulsory carriageway for automobiles, except two-wheeled motorcycles\". Who must circulate by it?",
+                  "q": "At the beginning of a carriageway there is this sign. Who must use it?",
                   "options": [
                     "Only passenger cars.",
                     "All the vehicles, also bicycles.",
@@ -5175,7 +5182,7 @@
                   ]
                 },
                 "en": {
-                  "q": "Where a roadway begins there is the sign \"Compulsory roadway for automobiles, except two-wheeled motorcycles\". Who must use it?",
+                  "q": "Where a roadway begins there is this sign. Who must use it?",
                   "options": [
                     "Only cars",
                     "Every vehicle, bicycles included",
@@ -5193,7 +5200,8 @@
                     "en": "compulsory carriageway"
                   }
                 ],
-                "src": "RGC Anexo I, ap. 5.1, 3.6 (R-404)"
+                "src": "RGC Anexo I, ap. 5.1, 3.6 (R-404)",
+                "sign": "r-404"
               }
             }
           ]

@@ -1,7 +1,7 @@
 import raw from './signs.json';
 import { bi, type Bi } from '../i18n';
 
-export type SignGroup = 'priority' | 'entry' | 'restriction' | 'speed' | 'prohibition' | 'mandatory' | 'end' | 'warning' | 'indication' | 'vehicle';
+export type SignGroup = 'priority' | 'entry' | 'restriction' | 'speed' | 'prohibition' | 'mandatory' | 'end' | 'warning' | 'indication' | 'lanes' | 'services' | 'presign' | 'direction' | 'roadid' | 'location' | 'confirmation' | 'urban' | 'plates' | 'othersigns' | 'vehicle';
 
 export type Sign = {
   /** Also the file name inside public/signs, without the extension. */
@@ -42,11 +42,21 @@ export const groupTitles: Record<SignGroup, Bi> = {
   mandatory: bi('Obligación', 'Mandatory'),
   end: bi('Fin de prohibición', 'End of restriction'),
   warning: bi('Peligro', 'Warnings'),
-  indication: bi('Indicación', 'Information'),
+  indication: bi('Indicaciones generales', 'General information'),
+  lanes: bi('Carriles', 'Lanes'),
+  services: bi('Servicios', 'Services'),
+  presign: bi('Preseñalización', 'Advance direction signs'),
+  direction: bi('Dirección', 'Direction signs'),
+  roadid: bi('Identificación de carreteras', 'Road numbers'),
+  location: bi('Localización', 'Location signs'),
+  confirmation: bi('Confirmación', 'Confirmation signs'),
+  urban: bi('Uso específico en poblado', 'Town signs'),
+  plates: bi('Paneles complementarios', 'Additional panels'),
+  othersigns: bi('Otras señales', 'Other signs'),
   vehicle: bi('Señales en los vehículos', 'Vehicle signs'),
 };
 
-export const groupOrder: SignGroup[] = ['priority', 'entry', 'restriction', 'speed', 'prohibition', 'mandatory', 'end', 'warning', 'indication', 'vehicle'];
+export const groupOrder: SignGroup[] = ['priority', 'entry', 'restriction', 'speed', 'prohibition', 'mandatory', 'end', 'warning', 'indication', 'lanes', 'services', 'presign', 'direction', 'roadid', 'location', 'confirmation', 'urban', 'plates', 'othersigns', 'vehicle'];
 
 export const signs: Sign[] = (raw as RawSign[]).map((s) => ({
   id: s.id,

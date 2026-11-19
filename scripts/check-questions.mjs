@@ -41,7 +41,7 @@ for (const q of questions) {
 // Signs: every entry is complete, has its SVG, no SVG sits unused, and CREDITS.md is current.
 const signs = JSON.parse(readFileSync(new URL('../src/data/signs.json', import.meta.url), 'utf8'));
 const signDir = new URL('../public/signs/', import.meta.url);
-const signGroups = ['priority', 'entry', 'restriction', 'speed', 'prohibition', 'mandatory', 'end', 'warning', 'indication', 'vehicle'];
+const signGroups = ['priority', 'entry', 'restriction', 'speed', 'prohibition', 'mandatory', 'end', 'warning', 'indication', 'lanes', 'services', 'presign', 'direction', 'roadid', 'location', 'confirmation', 'urban', 'plates', 'othersigns', 'vehicle'];
 const licenses = ['Public domain', 'CC0', 'CC BY 4.0', 'CC BY-SA 3.0', 'CC BY-SA 4.0'];
 const signIds = new Set();
 for (const s of signs) {
