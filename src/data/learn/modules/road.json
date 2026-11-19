@@ -5217,6 +5217,62 @@
                 ],
                 "src": "RGC art. 36.2"
               }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Una bicicleta puede llevar carga y pasajeros si quien la conduce es **mayor de edad**. Si por construcción es de una sola plaza, puede llevar a un menor de **hasta 22 kg** que se siente solo, en un **asiento adicional** homologado.",
+                "en": "A bicycle may carry loads and passengers if the rider is an **adult**. If it is built for one person, it may carry a child of **up to 22 kg** who can sit up unaided, in an approved **extra seat**."
+              },
+              "src": "RGC art. 154.1 y 154.2"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-h5h",
+                "answer": 2,
+                "es": {
+                  "q": "Tu vecina, de 35 años, quiere llevar a su hijo de 18 kg, que ya se sienta solo, en su bicicleta de una plaza. ¿Puede?",
+                  "options": [
+                    "No: en una bicicleta de una plaza nunca puede ir nadie más",
+                    "Sí, sentado en el portabultos si se agarra bien",
+                    "Sí, en un asiento adicional que cumpla los requisitos"
+                  ],
+                  "why": "Con conductor mayor de edad, una bicicleta de una sola plaza puede llevar a un menor de hasta 22 kg que se siente solo, en un asiento adicional que cumpla las especificaciones técnicas."
+                },
+                "exam": {
+                  "q": "An adult wants to carry on a bicycle built for one person a child of 18 kg who can sit by himself. Is it permitted?",
+                  "options": [
+                    "No, on a bicycle for one person no passenger may ever be carried.",
+                    "Yes, seated on the luggage rack if he holds on well.",
+                    "Yes, in an additional seat that complies with the requirements."
+                  ]
+                },
+                "en": {
+                  "q": "Your 35-year-old neighbour wants to carry her 18 kg son, who already sits up on his own, on her one-seat bicycle. May she?",
+                  "options": [
+                    "No: nobody else may ever ride on a one-seat bicycle",
+                    "Yes, sitting on the rack if he holds on tight",
+                    "Yes, in an extra seat that meets the requirements"
+                  ],
+                  "why": "With an adult rider, a bicycle built for one person may carry a child of up to 22 kg who can sit up unaided, in an extra seat that meets the technical specifications."
+                },
+                "terms": [
+                  {
+                    "es": "asiento adicional",
+                    "en": "additional seat"
+                  },
+                  {
+                    "es": "mayor de edad",
+                    "en": "adult (of legal age)"
+                  },
+                  {
+                    "es": "ciclo",
+                    "en": "cycle"
+                  }
+                ],
+                "src": "RGC art. 154.2"
+              }
             }
           ]
         },
@@ -5327,7 +5383,7 @@
         }
       ],
       "src": [
-        "Reglamento General de Circulación (RD 1428/2003), arts. 30.1, 31.1, 36 y 38 (redacción vigente desde 2026-10-01 en los arts. 31, 36 y 38)",
+        "Reglamento General de Circulación (RD 1428/2003), arts. 30.1, 31.1, 36, 38 y 154 (redacción vigente desde 2026-10-01 en los arts. 31, 36, 38 y 154)",
         "Ley de Tráfico y Seguridad Vial (RDL 6/2015), art. 16.1 y anexo I, punto 61"
       ]
     }

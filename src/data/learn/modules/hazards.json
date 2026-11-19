@@ -456,6 +456,127 @@
         },
         {
           "title": {
+            "es": "Tu velocidad real: mira el velocímetro",
+            "en": "Your real speed: check the speedometer"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Tu mente no mide la velocidad: la **estima** con pistas del entorno, como el ruido o las vibraciones. Según el Manual II de la DGT (2026), los coches actuales son silenciosos y estables, y es fácil ir más rápido de lo que crees.",
+                "en": "Your brain does not measure speed: it **estimates** it from cues around you, such as noise and vibration. According to the DGT's Manual II (2026), modern cars are quiet and stable, so it is easy to go faster than you think."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Pasa sobre todo **al salir de una autopista o autovía**. Tras un rato a velocidad alta por una vía ancha, te acostumbras y crees ir **más despacio** de lo que vas. Mira el **velocímetro** y adapta la velocidad a la nueva carretera.",
+                "en": "It happens above all **when you leave a motorway or dual carriageway**. After a while at high speed on a wide road, you get used to it and feel you are going **slower** than you are. Check the **speedometer** and adjust to the new road."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "El navegador o el asistente de velocidad (ISA) pueden mostrarte el límite de la vía. Te ayudan, pero tu velocidad real la compruebas en el velocímetro, mirándolo de vez en cuando.",
+                "en": "The navigation system or the speed assistant (ISA) can show you the road's limit. They help, but you check your real speed on the speedometer, glancing at it now and then."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c1p5a",
+                "answer": 0,
+                "es": {
+                  "q": "Llevas una hora por una autovía ancha y en buen estado, y sales a una carretera convencional. ¿Qué te puede pasar con la velocidad?",
+                  "options": [
+                    "Que creas ir más despacio de lo que vas en realidad",
+                    "Que te parezca que vas mucho más deprisa de lo real",
+                    "Nada: la sensación de velocidad no cambia"
+                  ],
+                  "why": "El Manual II de la DGT explica que, tras circular un tiempo por autopista o autovía, los sentidos se acostumbran y tiendes a creer que vas más despacio. Mira el velocímetro y adapta la velocidad."
+                },
+                "exam": {
+                  "q": "You carry one hour on a wide dual carriageway in good condition, and you exit to a conventional road. What can happen to you with the speed?",
+                  "options": [
+                    "That you believe you go more slowly than you go in reality.",
+                    "That it seems to you that you go much faster than the real.",
+                    "Nothing, the sensation of speed does not change."
+                  ]
+                },
+                "en": {
+                  "q": "You have spent an hour on a wide, well-surfaced dual carriageway and turn onto a conventional road. What can happen with your speed?",
+                  "options": [
+                    "You feel you are going slower than you really are",
+                    "You feel you are going much faster than you really are",
+                    "Nothing: your sense of speed does not change"
+                  ],
+                  "why": "The DGT's Manual II explains that after a while on a motorway or dual carriageway your senses get used to it and you tend to think you are going slower. Check the speedometer and adjust."
+                },
+                "terms": [
+                  {
+                    "es": "sensación de velocidad",
+                    "en": "sense of speed"
+                  },
+                  {
+                    "es": "velocímetro",
+                    "en": "speedometer"
+                  },
+                  {
+                    "es": "carretera convencional",
+                    "en": "conventional road"
+                  }
+                ],
+                "src": "DGT, Manual II Cuestiones de seguridad vial (2026), UD4, ap. 5; UD18, ap. 10"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c1p5b",
+                "answer": 1,
+                "es": {
+                  "q": "¿Puede el navegador ayudarte a controlar la velocidad?",
+                  "options": [
+                    "No: el navegador solo sirve para elegir la ruta",
+                    "Sí, porque muestra el límite, pero tu velocidad la compruebas en el velocímetro",
+                    "Sí, y con él ya no hace falta mirar el velocímetro"
+                  ],
+                  "why": "El asistente de velocidad usa el navegador para mostrar el límite de la vía, según el Manual II de la DGT. Aun así, la DGT pide mirar el velocímetro de vez en cuando para conocer tu velocidad real."
+                },
+                "exam": {
+                  "q": "Can the navigator help you to control the speed?",
+                  "options": [
+                    "No, the navigator only serves to choose the route.",
+                    "Yes, because it shows the limit, but your speed you check it in the speedometer.",
+                    "Yes, and with it it is no longer necessary to look at the speedometer."
+                  ]
+                },
+                "en": {
+                  "q": "Can the navigation system help you control your speed?",
+                  "options": [
+                    "No: it is only for choosing the route",
+                    "Yes, because it shows the limit, but you check your speed on the speedometer",
+                    "Yes, and with it you no longer need to look at the speedometer"
+                  ],
+                  "why": "The speed assistant uses the navigation system to show the road's limit, according to the DGT's Manual II. Even so, the DGT asks you to glance at the speedometer now and then to know your real speed."
+                },
+                "terms": [
+                  {
+                    "es": "navegador",
+                    "en": "navigation system (GPS)"
+                  },
+                  {
+                    "es": "velocímetro",
+                    "en": "speedometer"
+                  }
+                ],
+                "src": "DGT, Manual II Cuestiones de seguridad vial (2026), UD4, ap. 5; UD8, ap. 3.2"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
             "es": "La pregunta con vídeo: lo que se sabe",
             "en": "The video question: what is known"
           },
@@ -519,7 +640,8 @@
       ],
       "src": [
         "Reglamento General de Circulación (RD 1428/2003), arts. 45, 46.1 y 65.1",
-        "DGT: noticia «Examen teórico: la importancia de conocer el riesgo» (20 oct. 2025) y página «Requisitos, preparación y presentación a examen» (act. 9 jul. 2026)"
+        "DGT: noticia «Examen teórico: la importancia de conocer el riesgo» (20 oct. 2025) y página «Requisitos, preparación y presentación a examen» (act. 9 jul. 2026)",
+        "DGT, Manual II Cuestiones de seguridad vial (2026), UD4, ap. 5; UD8, ap. 3.2; UD18, ap. 10"
       ]
     },
     {
@@ -1231,6 +1353,61 @@
                 ],
                 "src": "DGT guidance"
               }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Al anochecer, tu vista se adapta poco a poco a la falta de luz y no notas que ves menos. El Manual II de la DGT (2026) aconseja **encender pronto la luz de cruce** al anochecer y apagarla tarde al amanecer, hasta que no haya **ninguna duda** de que te ven.",
+                "en": "At dusk your eyes adjust little by little to the fading light, and you do not notice you see less. The DGT's Manual II (2026) advises **switching on dipped headlights early** at dusk and switching them off late at dawn, until there is **no doubt** you can be seen."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c3p5a",
+                "answer": 2,
+                "es": {
+                  "q": "Está anocheciendo y dudas si ya hace falta encender las luces. ¿Qué es lo más seguro?",
+                  "options": [
+                    "Esperar a que sea noche cerrada para no deslumbrar",
+                    "Encender la luz de largo alcance, aunque vengan coches de frente",
+                    "Encender ya la luz de cruce"
+                  ],
+                  "why": "El Manual II de la DGT aconseja adelantar el encendido de la luz de cruce al anochecer y retrasar su apagado al amanecer, hasta que no haya duda de que te ven. La luz de largo alcance deslumbra a quien viene de frente."
+                },
+                "exam": {
+                  "q": "It is getting dark and you doubt if it is already necessary to switch on the lights. What is the safest?",
+                  "options": [
+                    "To wait until it is closed night in order not to dazzle.",
+                    "To switch on the long-range light, although cars come from the front.",
+                    "To switch on already the dipped-beam light."
+                  ]
+                },
+                "en": {
+                  "q": "It is getting dark and you are unsure whether you need your lights yet. What is safest?",
+                  "options": [
+                    "Wait until it is fully dark so as not to dazzle anyone",
+                    "Switch on main beam, even with oncoming cars",
+                    "Switch on dipped headlights now"
+                  ],
+                  "why": "The DGT's Manual II advises switching on dipped headlights early at dusk and switching them off late at dawn, until there is no doubt you can be seen. Main beam dazzles oncoming drivers."
+                },
+                "terms": [
+                  {
+                    "es": "luz de cruce",
+                    "en": "dipped beam (low beam)"
+                  },
+                  {
+                    "es": "luz de largo alcance",
+                    "en": "main beam (high beam)"
+                  },
+                  {
+                    "es": "anochecer",
+                    "en": "dusk"
+                  }
+                ],
+                "src": "DGT, Manual II Cuestiones de seguridad vial (2026), UD19, ap. 7"
+              }
             }
           ]
         },
@@ -1468,6 +1645,124 @@
                   }
                 ],
                 "src": "DGT guidance (Guía para monitores de cursos de conducción segura y eficiente de turismos, dgt.es, 2023)"
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Si llueve **tan fuerte** que, aun despacio y con las luces, apenas puedes conducir, el Manual II de la DGT (2026) aconseja **detener el vehículo en un lugar permitido y seguro**. Espera allí a que la lluvia afloje.",
+                "en": "If it rains **so hard** that you can barely drive, even slowly and with your lights on, the DGT's Manual II (2026) advises **stopping in a permitted, safe place**. Wait there until the rain eases."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "En una vía interurbana, la parada se hace **fuera de la calzada**, a su derecha, y dejando libre la parte transitable del arcén.",
+                "en": "On an interurban road, you stop **off the carriageway**, on its right side, leaving the usable part of the hard shoulder clear."
+              },
+              "src": "RGC art. 90.1"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "El mismo manual cita el **granizo** entre los fenómenos del tiempo que influyen en los accidentes. Con tiempo adverso, la pauta es **reducir la velocidad** y **aumentar la distancia** de seguridad. Con el suelo deslizante, frena con suavidad, nunca de golpe.",
+                "en": "The same manual lists **hail** among the weather conditions that play a part in crashes. In bad weather the rule of thumb is to **reduce speed** and **increase your following distance**. On a slippery surface, brake gently, never suddenly."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c3p5b",
+                "answer": 0,
+                "es": {
+                  "q": "Te sorprende una tormenta con una lluvia tan intensa que, incluso despacio y con luces, casi no puedes conducir. ¿Qué haces?",
+                  "options": [
+                    "Te detienes en un lugar permitido y seguro hasta que afloje",
+                    "Aceleras para salir cuanto antes de la tormenta",
+                    "Paras en tu carril con las luces de emergencia"
+                  ],
+                  "why": "El Manual II de la DGT aconseja inmovilizar el vehículo en un lugar permitido y seguro hasta que la lluvia pierda intensidad. Fuera de poblado, la parada se hace fuera de la calzada (RGC art. 90.1)."
+                },
+                "exam": {
+                  "q": "A storm surprises you with a rain so intense that, even slowly and with lights, you almost cannot drive. What do you do?",
+                  "options": [
+                    "You stop in a permitted and safe place until it eases.",
+                    "You accelerate in order to exit the storm as soon as possible.",
+                    "You stop in your lane with the emergency lights."
+                  ]
+                },
+                "en": {
+                  "q": "A storm catches you with rain so heavy that, even slowly and with lights on, you can hardly drive. What do you do?",
+                  "options": [
+                    "Stop in a permitted, safe place until it eases",
+                    "Speed up to get out of the storm sooner",
+                    "Stop in your lane with the hazard lights on"
+                  ],
+                  "why": "The DGT's Manual II advises stopping the vehicle in a permitted, safe place until the rain eases. Outside towns you stop off the carriageway (RGC art. 90.1)."
+                },
+                "terms": [
+                  {
+                    "es": "lluvia torrencial",
+                    "en": "torrential rain"
+                  },
+                  {
+                    "es": "lugar permitido",
+                    "en": "permitted place"
+                  },
+                  {
+                    "es": "calzada",
+                    "en": "carriageway"
+                  }
+                ],
+                "src": "DGT, Manual II Cuestiones de seguridad vial (2026), UD20, ap. 1.3; RGC art. 90.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c3p5c",
+                "answer": 2,
+                "es": {
+                  "q": "Empieza a caer granizo con fuerza mientras circulas por una carretera. ¿Qué precauciones tomas?",
+                  "options": [
+                    "Te acercas al vehículo de delante para seguir sus luces",
+                    "Mantienes la velocidad y frenas fuerte si patinas",
+                    "Reduces la velocidad, aumentas la distancia y frenas con suavidad"
+                  ],
+                  "why": "Con tiempo adverso, el Manual II de la DGT pide reducir la velocidad y aumentar la distancia de seguridad. Sobre suelo deslizante hay que frenar de forma suave y mantenida, no brusca."
+                },
+                "exam": {
+                  "q": "Hail starts to fall with force while you circulate on a road. Which precautions do you take?",
+                  "options": [
+                    "You approach the vehicle in front in order to follow its lights.",
+                    "You keep the speed and brake hard if you skid.",
+                    "You reduce the speed, increase the distance and brake gently."
+                  ]
+                },
+                "en": {
+                  "q": "Heavy hail starts to fall while you are driving on a road. What precautions do you take?",
+                  "options": [
+                    "Close up on the vehicle ahead to follow its lights",
+                    "Keep your speed and brake hard if you skid",
+                    "Slow down, increase your distance and brake gently"
+                  ],
+                  "why": "In bad weather, the DGT's Manual II calls for reducing speed and increasing your following distance. On a slippery surface, brake smoothly and steadily, not abruptly."
+                },
+                "terms": [
+                  {
+                    "es": "granizo",
+                    "en": "hail"
+                  },
+                  {
+                    "es": "distancia de seguridad",
+                    "en": "safety distance (following distance)"
+                  },
+                  {
+                    "es": "frenar con suavidad",
+                    "en": "to brake gently"
+                  }
+                ],
+                "src": "DGT, Manual II Cuestiones de seguridad vial (2026), UD1, ap. 3; UD12; UD20, ap. 1.3"
               }
             }
           ]
@@ -2151,7 +2446,9 @@
       "src": [
         "Reglamento General de Circulación (RD 1428/2003), arts. 45, 46.1.g y k, 102 y 106",
         "DGT guidance (dgt.es): circular bajo la lluvia; hielo y nieve; recomendaciones de tráfico (niebla, noche); en coche (viento); en moto",
-        "DGT guidance (dgt.es): Hielo y nieve: con la adherencia al límite (2021); revista DGT: Nieve y hielo, agarrarse al asfalto (2022)"
+        "DGT guidance (dgt.es): Hielo y nieve: con la adherencia al límite (2021); revista DGT: Nieve y hielo, agarrarse al asfalto (2022)",
+        "Reglamento General de Circulación (RD 1428/2003), art. 90.1",
+        "DGT, Manual II Cuestiones de seguridad vial (2026), UD12; UD19, ap. 7; UD20, ap. 1.3"
       ]
     },
     {
@@ -2336,6 +2633,57 @@
                 ],
                 "src": "RGC art. 46.1.b"
               }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "El Manual II de la DGT (2026) sitúa las **salidas de los colegios** entre los lugares con más accidentes. Al acabar las clases, los niños prestan poca atención, perciben poco el riesgo y se les ve menos.",
+                "en": "The DGT's Manual II (2026) puts **school exits** among the places with the most crashes. When classes end, children pay little attention, sense little risk and are harder to see."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c4p5d",
+                "answer": 0,
+                "es": {
+                  "q": "Según la DGT, ¿en qué momento es especialmente peligroso circular junto a un colegio?",
+                  "options": [
+                    "A la salida, cuando acaban las clases",
+                    "A media mañana, durante las clases",
+                    "De noche, con el colegio cerrado"
+                  ],
+                  "why": "El Manual II de la DGT cita las salidas de los colegios entre los sitios con más accidentes: al terminar las clases, los niños van distraídos, perciben poco el riesgo y se les ve peor."
+                },
+                "exam": {
+                  "q": "According to the DGT, at which moment is it especially dangerous to circulate beside a school?",
+                  "options": [
+                    "At the exit, when the classes finish.",
+                    "In the middle of the morning, during the classes.",
+                    "At night, with the school closed."
+                  ]
+                },
+                "en": {
+                  "q": "According to the DGT, when is it especially dangerous to drive past a school?",
+                  "options": [
+                    "At home time, when classes end",
+                    "Mid-morning, during classes",
+                    "At night, with the school closed"
+                  ],
+                  "why": "The DGT's Manual II lists school exits among the places with the most crashes: when classes end, children are distracted, sense little risk and are harder to see."
+                },
+                "terms": [
+                  {
+                    "es": "salida del colegio",
+                    "en": "school exit (home time)"
+                  },
+                  {
+                    "es": "centro docente",
+                    "en": "school"
+                  }
+                ],
+                "src": "DGT, Manual II Cuestiones de seguridad vial (2026), UD3, ap. 4.3"
+              }
             }
           ]
         },
@@ -2511,6 +2859,64 @@
                   }
                 ],
                 "src": "RGC art. 123.1"
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Otro caso frecuente, según el Manual II de la DGT (2026): peatones que están **detrás de un vehículo** y son atropellados cuando este hace **marcha atrás**. La **salida de los garajes**, sobre todo en rampa, también causa muchos atropellos.",
+                "en": "Another common case, according to the DGT's Manual II (2026): pedestrians standing **behind a vehicle** are hit when it **reverses**. **Garage exits**, above all on a ramp, also cause many pedestrian crashes."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Antes de dar marcha atrás, mira detrás del coche. Durante la maniobra, ve muy despacio y vigila los espejos y la cámara, si la tienes.",
+                "en": "Before reversing, look behind the car. During the maneuver, go very slowly and watch the mirrors and the camera, if you have one."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c4p5e",
+                "answer": 2,
+                "es": {
+                  "q": "Vas a salir marcha atrás de una plaza de aparcamiento en la calle. Según la DGT, ¿qué riesgo es frecuente?",
+                  "options": [
+                    "Que el motor se cale por ir tan despacio",
+                    "Que te denuncien por usar la marcha atrás en ciudad",
+                    "Atropellar a un peatón que está detrás y no ves"
+                  ],
+                  "why": "El Manual II de la DGT recuerda que muchos peatones son atropellados al estar detrás de un vehículo que hace marcha atrás. Mira antes y avanza muy despacio."
+                },
+                "exam": {
+                  "q": "You are going to exit in reverse gear from a parking place on the street. According to the DGT, which risk is frequent?",
+                  "options": [
+                    "That the engine stalls for going so slowly.",
+                    "That they report you for using the reverse gear in the city.",
+                    "To run over a pedestrian who is behind and you do not see."
+                  ]
+                },
+                "en": {
+                  "q": "You are about to reverse out of a parking space on the street. According to the DGT, what risk is common?",
+                  "options": [
+                    "Stalling the engine because you go so slowly",
+                    "Getting a ticket for reversing in town",
+                    "Hitting a pedestrian behind you whom you cannot see"
+                  ],
+                  "why": "The DGT's Manual II points out that many pedestrians are hit while standing behind a vehicle that reverses. Look first and move very slowly."
+                },
+                "terms": [
+                  {
+                    "es": "marcha atrás",
+                    "en": "reverse (gear)"
+                  },
+                  {
+                    "es": "atropello",
+                    "en": "pedestrian being hit (run over)"
+                  }
+                ],
+                "src": "DGT, Manual II Cuestiones de seguridad vial (2026), UD3, ap. 4.3"
               }
             }
           ]
@@ -3355,6 +3761,156 @@
                 ],
                 "src": "DGT guidance (Guía para monitores de cursos de conducción segura y eficiente de turismos, dgt.es, 2023)"
               }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "El Manual II de la DGT (2026) añade dos datos sobre los mayores. Muchos **no distinguen bien los colores del semáforo** y calculan mal la velocidad de los coches. Y tienen muchos menos atropellos cuando **acompañan a niños** a su cargo: entonces extreman la prudencia.",
+                "en": "The DGT's Manual II (2026) adds two facts about older people. Many **cannot tell traffic-light colors apart well** and misjudge the speed of cars. And they are hit far less often when they **are looking after children**: then they take extra care."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Los niños sufren atropellos sobre todo **entre los 6 y los 10 años**. Por su baja estatura, el golpe suele darles en la **cabeza** o en otras partes vitales, y las lesiones son muy graves.",
+                "en": "Children are hit as pedestrians mostly **between 6 and 10**. Because they are short, the impact usually strikes the **head** or other vital parts, and the injuries are very serious."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c4p5a",
+                "answer": 1,
+                "es": {
+                  "q": "Según la DGT, ¿qué dificultad tienen a menudo las personas mayores al cruzar como peatones?",
+                  "options": [
+                    "Reaccionan más deprisa que los jóvenes ante un imprevisto",
+                    "Les cuesta distinguir los colores del semáforo y la velocidad de los coches",
+                    "Cruzan siempre por el paso de peatones más cercano"
+                  ],
+                  "why": "El Manual II de la DGT señala que muchos mayores no distinguen bien los colores de los semáforos ni aprecian bien la velocidad de los vehículos. Además, reaccionan más despacio."
+                },
+                "exam": {
+                  "q": "According to the DGT, which difficulty do the elderly people often have when crossing as pedestrians?",
+                  "options": [
+                    "They react more quickly than the young people before an unforeseen event.",
+                    "It is difficult for them to distinguish the colours of the traffic light and the speed of the cars.",
+                    "They always cross by the nearest pedestrian crossing."
+                  ]
+                },
+                "en": {
+                  "q": "According to the DGT, what difficulty do older people often have when crossing on foot?",
+                  "options": [
+                    "They react faster than young people to the unexpected",
+                    "They struggle to tell traffic-light colors apart and to judge the speed of cars",
+                    "They always cross at the nearest pedestrian crossing"
+                  ],
+                  "why": "The DGT's Manual II says many older people cannot tell traffic-light colors apart well or judge vehicle speed well. They also react more slowly."
+                },
+                "terms": [
+                  {
+                    "es": "personas mayores",
+                    "en": "older people (the elderly)"
+                  },
+                  {
+                    "es": "semáforo",
+                    "en": "traffic light"
+                  }
+                ],
+                "src": "DGT, Manual II Cuestiones de seguridad vial (2026), UD3, ap. 4.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c4p5b",
+                "answer": 0,
+                "es": {
+                  "q": "Según los estudios que recoge la DGT, ¿cuándo sufren menos atropellos las personas mayores?",
+                  "options": [
+                    "Cuando van con niños de los que son responsables",
+                    "Cuando pasean solas de noche",
+                    "Cuando cruzan calles anchas con mucho tráfico"
+                  ],
+                  "why": "El Manual II de la DGT recoge que los mayores tienen muchos más accidentes cuando van solos que cuando acompañan a niños a su cargo. Con los niños extreman la prudencia y quieren dar buen ejemplo."
+                },
+                "exam": {
+                  "q": "According to the studies that the DGT collects, when do the elderly people suffer fewer run-overs?",
+                  "options": [
+                    "When they go with children for whom they are responsible.",
+                    "When they walk alone at night.",
+                    "When they cross wide streets with much traffic."
+                  ]
+                },
+                "en": {
+                  "q": "According to the studies the DGT cites, when are older people least often hit as pedestrians?",
+                  "options": [
+                    "When they are with children they are responsible for",
+                    "When they walk alone at night",
+                    "When they cross wide streets with heavy traffic"
+                  ],
+                  "why": "The DGT's Manual II reports that older people have far more crashes when alone than when looking after children. With children they take extra care and want to set a good example."
+                },
+                "terms": [
+                  {
+                    "es": "atropello",
+                    "en": "pedestrian being hit (run over)"
+                  },
+                  {
+                    "es": "a su cargo",
+                    "en": "in their care"
+                  }
+                ],
+                "src": "DGT, Manual II Cuestiones de seguridad vial (2026), UD3, ap. 4.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c4p5c",
+                "answer": 2,
+                "es": {
+                  "q": "Un coche atropella a un niño de 8 años. ¿Por qué estos atropellos suelen ser tan graves?",
+                  "options": [
+                    "Porque los niños solo cruzan por vías rápidas",
+                    "Porque el golpe solo les afecta a las piernas",
+                    "Porque, por su estatura, el golpe suele darles en la cabeza o en partes vitales"
+                  ],
+                  "why": "El Manual II de la DGT explica que los niños son muy vulnerables como peatones: por su baja estatura, el impacto suele producirse en la cabeza o en partes vitales del cuerpo."
+                },
+                "exam": {
+                  "q": "A car runs over a child of 8 years. Why are these run-overs usually so serious?",
+                  "options": [
+                    "Because the children only cross by fast roads.",
+                    "Because the blow only affects their legs.",
+                    "Because, due to their height, the blow usually hits them on the head or on vital parts."
+                  ]
+                },
+                "en": {
+                  "q": "A car hits an 8-year-old child. Why are these crashes usually so serious?",
+                  "options": [
+                    "Because children only cross fast roads",
+                    "Because the impact only affects their legs",
+                    "Because, given their height, the impact usually strikes the head or vital parts"
+                  ],
+                  "why": "The DGT's Manual II explains that children are very vulnerable as pedestrians: because they are short, the impact usually lands on the head or vital parts of the body."
+                },
+                "terms": [
+                  {
+                    "es": "atropello",
+                    "en": "pedestrian being hit (run over)"
+                  },
+                  {
+                    "es": "estatura",
+                    "en": "height"
+                  },
+                  {
+                    "es": "partes vitales",
+                    "en": "vital parts"
+                  }
+                ],
+                "src": "DGT, Manual II Cuestiones de seguridad vial (2026), UD3, ap. 4.2"
+              }
             }
           ]
         },
@@ -3633,7 +4189,8 @@
         "DGT guidance (dgt.es): percepción del riesgo; consejos para personas mayores",
         "Reglamento General de Circulación (RD 1428/2003), arts. 123, 124 y 127",
         "Ley de Tráfico (RDL 6/2015), art. 50",
-        "DGT guidance (temario ESTT OEP 2021, parte 1, tema 2, rev. 2022)"
+        "DGT guidance (temario ESTT OEP 2021, parte 1, tema 2, rev. 2022)",
+        "DGT, Manual II Cuestiones de seguridad vial (2026), UD3, aps. 4.1 a 4.3"
       ]
     },
     {
@@ -4054,6 +4611,69 @@
                   }
                 ],
                 "src": "DGT guidance (Guía para monitores de cursos de conducción segura y eficiente de turismos, dgt.es, 2023)"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Fuera de poblado puedes usar el **claxon** para avisar a otro conductor de que vas a adelantarlo. También para evitar un posible accidente. Está prohibido usarlo sin motivo o de forma exagerada.",
+                "en": "Outside towns you may use the **horn** to warn another driver that you are about to overtake. Also to avoid a possible crash. Using it for no reason or excessively is forbidden."
+              },
+              "src": "RGC art. 110"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "El Manual II de la DGT (2026) añade un consejo: con ciclistas, si tocas el claxon, hazlo **a distancia**. Muy cerca puede asustarlos y hacerles **perder el equilibrio**.",
+                "en": "The DGT's Manual II (2026) adds a piece of advice: with cyclists, if you sound the horn, do it **from a distance**. Up close it can startle them and make them **lose their balance**."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c5p5a",
+                "answer": 1,
+                "es": {
+                  "q": "Te acercas por detrás a un ciclista en una carretera y quieres avisarle con el claxon de que vas a adelantarlo. ¿Cómo lo haces?",
+                  "options": [
+                    "Justo al pasar a su lado, para que sepa dónde estás",
+                    "Con antelación, desde lejos, para no asustarlo",
+                    "Varias veces seguidas mientras lo adelantas"
+                  ],
+                  "why": "Fuera de poblado se puede avisar con el claxon de que vas a adelantar (RGC art. 110). El Manual II de la DGT aconseja hacerlo a distancia: muy cerca, el ciclista puede asustarse y perder el equilibrio."
+                },
+                "exam": {
+                  "q": "You approach from behind a cyclist on a road and you want to warn him with the horn that you are going to overtake him. How do you do it?",
+                  "options": [
+                    "Just when passing at his side, so that he knows where you are.",
+                    "In advance, from far, in order not to frighten him.",
+                    "Several times in a row while you overtake him."
+                  ]
+                },
+                "en": {
+                  "q": "You are coming up behind a cyclist on a country road and want to warn them with the horn that you will overtake. How do you do it?",
+                  "options": [
+                    "Right as you draw level, so they know where you are",
+                    "Early, from well back, so as not to startle them",
+                    "Several times in a row while you pass"
+                  ],
+                  "why": "Outside towns you may use the horn to warn that you are overtaking (RGC art. 110). The DGT's Manual II advises doing it from a distance: up close, the cyclist may be startled and lose balance."
+                },
+                "terms": [
+                  {
+                    "es": "claxon (señal acústica)",
+                    "en": "horn (acoustic signal)"
+                  },
+                  {
+                    "es": "ciclista",
+                    "en": "cyclist"
+                  },
+                  {
+                    "es": "equilibrio",
+                    "en": "balance"
+                  }
+                ],
+                "src": "RGC art. 110.2.b; DGT, Manual II Cuestiones de seguridad vial (2026), UD3, ap. 5.1"
               }
             }
           ]
@@ -4666,7 +5286,9 @@
         "Ley de Tráfico (RDL 6/2015), Anexo I y art. 25.5",
         "Reglamento General de Vehículos (RD 2822/1998), anexo II, definiciones",
         "Reglamento General de Circulación (RD 1428/2003), art. 118",
-        "DGT guidance (dgt.es): en moto"
+        "DGT guidance (dgt.es): en moto",
+        "Reglamento General de Circulación (RD 1428/2003), art. 110",
+        "DGT, Manual II Cuestiones de seguridad vial (2026), UD3, ap. 5.1"
       ]
     },
     {
@@ -5696,6 +6318,68 @@
                 ],
                 "src": "DGT guidance"
               }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "El Manual II de la DGT (2026) resume varios estudios. El factor humano explica entre el **70 y el 90 %** de los accidentes. La vía, entre el 10 y el 35 %. El vehículo, entre el 4 y el 13 %.",
+                "en": "The DGT's Manual II (2026) sums up several studies. The human factor explains between **70 and 90%** of crashes. The road, between 10 and 35%. The vehicle, between 4 and 13%."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "¿Por qué pesa tan poco el vehículo? La ley obliga a fabricarlo con unos mínimos de seguridad, y la investigación logra coches cada vez **más seguros**. Cuando un coche falla, la causa suele ser un **mal mantenimiento**.",
+                "en": "Why does the vehicle weigh so little? The law requires minimum safety standards, and research keeps making cars **safer**. When a car fails, the cause is usually **poor maintenance**."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c6p5a",
+                "answer": 2,
+                "es": {
+                  "q": "Entre las causas principales de los accidentes, el vehículo es el factor que menos aparece. ¿Qué ayuda a explicarlo?",
+                  "options": [
+                    "Que la ley no obliga a revisar los coches",
+                    "Que casi nadie conduce coches de más de diez años",
+                    "Que los coches se diseñan y fabrican cada vez más seguros"
+                  ],
+                  "why": "Según el Manual II de la DGT, la investigación de los fabricantes logra coches cada vez más seguros, y el vehículo es la causa principal solo en el 4 al 13 % de los accidentes. Cuando falla, suele ser por mal mantenimiento."
+                },
+                "exam": {
+                  "q": "Among the main causes of the accidents, the vehicle is the factor that appears least. What helps to explain it?",
+                  "options": [
+                    "That the law does not oblige to inspect the cars.",
+                    "That almost nobody drives cars of more than ten years.",
+                    "That the cars are designed and manufactured each time safer."
+                  ]
+                },
+                "en": {
+                  "q": "Of the main causes of crashes, the vehicle is the factor that appears least. What helps explain that?",
+                  "options": [
+                    "The law does not require cars to be inspected",
+                    "Hardly anyone drives a car more than ten years old",
+                    "Cars are designed and built safer and safer"
+                  ],
+                  "why": "According to the DGT's Manual II, manufacturers' research makes cars ever safer, and the vehicle is the main cause in only 4 to 13% of crashes. When it fails, it is usually down to poor maintenance."
+                },
+                "terms": [
+                  {
+                    "es": "factor de riesgo",
+                    "en": "risk factor"
+                  },
+                  {
+                    "es": "fallo mecánico",
+                    "en": "mechanical failure"
+                  },
+                  {
+                    "es": "mantenimiento",
+                    "en": "maintenance"
+                  }
+                ],
+                "src": "DGT, Manual II Cuestiones de seguridad vial (2026), UD1, aps. 3 y 4"
+              }
             }
           ]
         },
@@ -5816,6 +6500,57 @@
                   }
                 ],
                 "src": "DGT guidance; RGC art. 45"
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "El Manual II de la DGT (2026) apunta otra razón por la que el problema se ve poco. Los muertos en la carretera llegan **de uno en uno**, cada día. Nos acostumbramos a esas noticias y no vemos la **magnitud** total, ni que son muertes muy evitables.",
+                "en": "The DGT's Manual II (2026) gives another reason the problem goes unseen. Road deaths come **one at a time**, every day. We get used to the news and miss the overall **scale**, and how avoidable those deaths are."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c6p5b",
+                "answer": 1,
+                "es": {
+                  "q": "¿Es consciente la mayoría de la gente de lo grave que es, en conjunto, el problema de los accidentes de tráfico?",
+                  "options": [
+                    "Sí: las cifras salen cada día en las noticias",
+                    "No del todo: se acostumbra a las noticias y no ve la magnitud total",
+                    "Sí, y por eso apenas hay ya muertes en la carretera"
+                  ],
+                  "why": "Según el Manual II de la DGT, como los accidentes mortales se repiten a diario, la gente se habitúa a las noticias y no llega a ser consciente de su magnitud ni de que se pueden evitar."
+                },
+                "exam": {
+                  "q": "Is the majority of the people conscious of how serious is, as a whole, the problem of the traffic accidents?",
+                  "options": [
+                    "Yes, the figures come out each day in the news.",
+                    "Not completely, it becomes accustomed to the news and does not see the total magnitude.",
+                    "Yes, and for that reason there are hardly any more deaths on the road."
+                  ]
+                },
+                "en": {
+                  "q": "Do most people realize how serious the road-crash problem is overall?",
+                  "options": [
+                    "Yes: the figures are in the news every day",
+                    "Not really: they get used to the news and miss the overall scale",
+                    "Yes, and that is why there are hardly any road deaths now"
+                  ],
+                  "why": "According to the DGT's Manual II, because fatal crashes happen every day, people get used to the news and never grasp their scale, or that they can be avoided."
+                },
+                "terms": [
+                  {
+                    "es": "magnitud del problema",
+                    "en": "scale (magnitude) of the problem"
+                  },
+                  {
+                    "es": "evitable",
+                    "en": "avoidable"
+                  }
+                ],
+                "src": "DGT, Manual II Cuestiones de seguridad vial (2026), UD1, ap. 1"
               }
             }
           ]
@@ -6384,7 +7119,8 @@
       "src": [
         "Reglamento General de Circulación (RD 1428/2003), art. 45",
         "DGT guidance (dgt.es): salidas de vía (2026); 10 errores de novel (2025); percepción del riesgo; valor monetario de prevenir un fallecimiento (2024)",
-        "DGT guidance (dgt.es): temario ESTT OEP 2021, temas 6 y 7 (rev. 2022); Las principales cifras de la siniestralidad vial 2024, costes (2026); Con cuidado: mercancías peligrosas (2024); Conducción preventiva (2022)"
+        "DGT guidance (dgt.es): temario ESTT OEP 2021, temas 6 y 7 (rev. 2022); Las principales cifras de la siniestralidad vial 2024, costes (2026); Con cuidado: mercancías peligrosas (2024); Conducción preventiva (2022)",
+        "DGT, Manual II Cuestiones de seguridad vial (2026), UD1, aps. 1, 3 y 4"
       ]
     },
     {
@@ -7439,6 +8175,175 @@
               }
             }
           ]
+        },
+        {
+          "title": {
+            "es": "Cuándo y dónde: rectas, verano y fines de semana",
+            "en": "When and where: straights, summer and weekends"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "El Manual II de la DGT (2026) describe, con datos de los últimos años, **dónde** ocurren los accidentes. En las vías interurbanas, la mayoría son **salidas de la vía**. Y, al contrario de lo que muchos creen, la mayoría ocurre en **rectas**, no en curvas.",
+                "en": "The DGT's Manual II (2026) describes, with data from recent years, **where** crashes happen. On interurban roads, most are **run-off-road** crashes. And, contrary to what many think, most happen on **straights**, not on bends."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Sobre el **cuándo**: en los meses de **verano** hay más accidentes, y más graves. Abril y noviembre son los meses con menos muertos. Viernes, sábado y domingo son los días más peligrosos, junto con los **festivos** y sobre todo sus vísperas.",
+                "en": "As for **when**: the **summer** months have more crashes, and worse ones. April and November have the fewest deaths. Friday, Saturday and Sunday are the most dangerous days, along with **public holidays** and above all the day before them."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "De día hay más accidentes, pero de noche son más graves. En un puente festivo o en verano, sal descansado, con tiempo y sin alcohol.",
+                "en": "There are more crashes by day, but they are worse at night. On a holiday weekend or in summer, set off rested, with time to spare and without alcohol."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c7p5a",
+                "answer": 1,
+                "es": {
+                  "q": "En las carreteras interurbanas, ¿en qué tipo de tramo se producen la mayoría de los accidentes?",
+                  "options": [
+                    "En las curvas cerradas",
+                    "En los tramos rectos",
+                    "En las intersecciones con semáforo"
+                  ],
+                  "why": "Según el Manual II de la DGT, la mayor parte de los accidentes en vías interurbanas ocurre en rectas, no en curvas. Muchos son salidas de la vía, ligadas a menudo a distracciones o a velocidad excesiva."
+                },
+                "exam": {
+                  "q": "On the interurban roads, on which type of section are the majority of the accidents produced?",
+                  "options": [
+                    "On the closed bends.",
+                    "On the straight sections.",
+                    "At the intersections with traffic light."
+                  ]
+                },
+                "en": {
+                  "q": "On interurban roads, on what kind of stretch do most crashes happen?",
+                  "options": [
+                    "On tight bends",
+                    "On straight stretches",
+                    "At junctions with traffic lights"
+                  ],
+                  "why": "According to the DGT's Manual II, most crashes on interurban roads happen on straights, not on bends. Many are run-off-road crashes, often linked to distraction or excessive speed."
+                },
+                "terms": [
+                  {
+                    "es": "recta",
+                    "en": "straight (stretch of road)"
+                  },
+                  {
+                    "es": "salida de la vía",
+                    "en": "run-off-road crash"
+                  },
+                  {
+                    "es": "vía interurbana",
+                    "en": "interurban road"
+                  }
+                ],
+                "src": "DGT, Manual II Cuestiones de seguridad vial (2026), UD1, ap. 5.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c7p5b",
+                "answer": 0,
+                "es": {
+                  "q": "Según la DGT, ¿en qué época del año hay más accidentes, y además más graves?",
+                  "options": [
+                    "En los meses de verano",
+                    "En abril y noviembre",
+                    "En febrero, por el frío"
+                  ],
+                  "why": "El Manual II de la DGT indica que en los meses de verano se producen más accidentes, y de mayor gravedad. Abril y noviembre son los meses con menos mortalidad."
+                },
+                "exam": {
+                  "q": "According to the DGT, in which period of the year are there more accidents, and moreover more serious?",
+                  "options": [
+                    "In the months of summer.",
+                    "In April and November.",
+                    "In February, due to the cold."
+                  ]
+                },
+                "en": {
+                  "q": "According to the DGT, at what time of year are there most crashes, and worse ones too?",
+                  "options": [
+                    "In the summer months",
+                    "In April and November",
+                    "In February, because of the cold"
+                  ],
+                  "why": "The DGT's Manual II says the summer months have the most crashes, and the most serious. April and November have the lowest death toll."
+                },
+                "terms": [
+                  {
+                    "es": "época del año",
+                    "en": "time of year"
+                  },
+                  {
+                    "es": "gravedad",
+                    "en": "severity"
+                  }
+                ],
+                "src": "DGT, Manual II Cuestiones de seguridad vial (2026), UD1, ap. 5.2"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c7p5c",
+                "answer": 2,
+                "es": {
+                  "q": "Llega un puente festivo y piensas salir el viernes por la tarde. ¿Qué dicen los datos de la DGT sobre esos días?",
+                  "options": [
+                    "Que son de los más tranquilos del año",
+                    "Que hay menos muertos porque todos van más despacio",
+                    "Que los fines de semana y los festivos están entre los días más peligrosos"
+                  ],
+                  "why": "El Manual II de la DGT señala que viernes, sábado y domingo son los días más peligrosos, junto con los festivos y, sobre todo, sus vísperas. Los fallecidos llegan a su máximo el domingo."
+                },
+                "exam": {
+                  "q": "A holiday bridge arrives and you think of leaving on Friday in the afternoon. What do the data of the DGT say about those days?",
+                  "options": [
+                    "That they are among the calmest of the year.",
+                    "That there are fewer deaths because all go more slowly.",
+                    "That the weekends and the holidays are among the most dangerous days."
+                  ]
+                },
+                "en": {
+                  "q": "A holiday weekend is coming and you plan to leave on Friday afternoon. What do the DGT's figures say about those days?",
+                  "options": [
+                    "That they are among the quietest of the year",
+                    "That fewer people die because everyone drives slower",
+                    "That weekends and public holidays are among the most dangerous days"
+                  ],
+                  "why": "The DGT's Manual II says Friday, Saturday and Sunday are the most dangerous days, along with public holidays and especially the day before them. Deaths peak on Sunday."
+                },
+                "terms": [
+                  {
+                    "es": "puente festivo",
+                    "en": "long holiday weekend"
+                  },
+                  {
+                    "es": "festivo",
+                    "en": "public holiday"
+                  },
+                  {
+                    "es": "víspera",
+                    "en": "the day before"
+                  }
+                ],
+                "src": "DGT, Manual II Cuestiones de seguridad vial (2026), UD1, ap. 5.2"
+              }
+            }
+          ]
         }
       ],
       "recap": [
@@ -7470,7 +8375,8 @@
       "src": [
         "Reglamento General de Conductores (RD 818/2009), art. 4.2",
         "DGT guidance (dgt.es): Las principales cifras de la siniestralidad vial, España 2024; Siniestralidad de las furgonetas en España (2025); Informe de siniestralidad en ciclistas (2024); Consejos para personas mayores (2022); temario ESTT OEP 2021, tema 3 (rev. 2022)",
-        "DGT guidance (dgt.es): Siniestralidad de las furgonetas en España 2024 (2025); Informe de siniestralidad en ciclistas (2024); DGT guidance (temario ESTT OEP 2021, parte 1, tema 2, rev. 2022)"
+        "DGT guidance (dgt.es): Siniestralidad de las furgonetas en España 2024 (2025); Informe de siniestralidad en ciclistas (2024); DGT guidance (temario ESTT OEP 2021, parte 1, tema 2, rev. 2022)",
+        "DGT, Manual II Cuestiones de seguridad vial (2026), UD1, aps. 5.1 y 5.2"
       ]
     }
   ]

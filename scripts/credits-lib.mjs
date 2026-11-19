@@ -2,17 +2,20 @@
 export function renderCredits(signs) {
   const needs = (s) => s.license.startsWith('CC BY');
   const count = (pred) => signs.filter(pred).length;
-  const page = (s) => `https://commons.wikimedia.org/wiki/File:${s.commons}`;
+  const page = (s) => (s.commons ? `https://commons.wikimedia.org/wiki/File:${s.commons}` : s.drawnFrom);
+  const fromCommons = signs.filter((s) => s.commons);
+  const drawn = signs.filter((s) => !s.commons);
   const row = (s) => `| \`${s.id}.svg\` | ${s.code} | ${s.license} | ${s.author} | ${page(s)} |`;
   const byLicense = (name) => signs.filter((s) => s.license === name);
 
   const lines = [
     '# Sign image credits',
     '',
-    'The SVG files in this folder are Spanish traffic sign drawings from',
+    'Most SVG files in this folder are Spanish traffic sign drawings from',
     '[Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Road_signs_of_Spain).',
     'They are **unmodified copies** of the files named in the tables below. Each keeps the',
     'license it has on Commons; the Apache-2.0 license of this project does not apply to them.',
+    'The vehicle signs listed last have no Commons file and were drawn for Glorieta from the figures in the regulation itself.',
     '',
     'The R-402 roundabout sign is also the app logo: `public/favicon.svg` is a byte-identical copy of `r-402.svg`, and the splash page draws the file unmodified, only rotating it as a whole. `public/brand/glorieta-icon.png` is the same sign rendered as a 512 px PNG, for the Stripe checkout page.',
     '',
@@ -28,13 +31,13 @@ export function renderCredits(signs) {
     '',
     '| File | Code | License | Author | Source |',
     '|---|---|---|---|---|',
-    ...signs.filter(needs).map(row),
+    ...fromCommons.filter(needs).map(row),
     '',
     '## CC0 (no attribution required; authors listed as a courtesy)',
     '',
     '| File | Code | License | Author | Source |',
     '|---|---|---|---|---|',
-    ...byLicense('CC0').map(row),
+    ...byLicense('CC0').filter((s) => s.commons).map(row),
     '',
     '## Public domain (no attribution required)',
     '',
@@ -43,7 +46,17 @@ export function renderCredits(signs) {
     '',
     '| File | Code | License | Author | Source |',
     '|---|---|---|---|---|',
-    ...byLicense('Public domain').map(row),
+    ...byLicense('Public domain').filter((s) => s.commons).map(row),
+    '',
+    '## Drawn for Glorieta from the regulation',
+    '',
+    'Drawn from the figures of the Reglamento General de Vehículos (RD 2822/1998), Anexo XI, as published in the BOE.',
+    'Legal and regulatory texts are not subject to copyright in Spain (Ley de Propiedad Intelectual, art. 13), and these',
+    'drawings are dedicated to the public domain.',
+    '',
+    '| File | Code | License | Author | Source |',
+    '|---|---|---|---|---|',
+    ...drawn.map(row),
     '',
   ];
   return lines.join('\n');

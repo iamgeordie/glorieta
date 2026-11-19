@@ -1,15 +1,16 @@
 # Sign image credits
 
-The SVG files in this folder are Spanish traffic sign drawings from
+Most SVG files in this folder are Spanish traffic sign drawings from
 [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:Road_signs_of_Spain).
 They are **unmodified copies** of the files named in the tables below. Each keeps the
 license it has on Commons; the Apache-2.0 license of this project does not apply to them.
+The vehicle signs listed last have no Commons file and were drawn for Glorieta from the figures in the regulation itself.
 
 The R-402 roundabout sign is also the app logo: `public/favicon.svg` is a byte-identical copy of `r-402.svg`, and the splash page draws the file unmodified, only rotating it as a whole. `public/brand/glorieta-icon.png` is the same sign rendered as a 512 px PNG, for the Stripe checkout page.
 
 This file is generated from `src/data/signs.json` by `npm run credits`. Do not edit it by hand.
 
-Totals: 194 signs. 140 public domain, 19 CC0, 35 Creative Commons Attribution or Attribution-ShareAlike (credit required).
+Totals: 197 signs. 143 public domain, 19 CC0, 35 Creative Commons Attribution or Attribution-ShareAlike (credit required).
 
 ## Attribution required (Creative Commons BY and BY-SA)
 
@@ -226,3 +227,15 @@ issuing body, it is listed.
 | `s-114.svg` | S-114 | Public domain | Benedicto16 (assumed by Commons from copyright claims) | https://commons.wikimedia.org/wiki/File:Spain_traffic_signal_s114.svg |
 | `s-123.svg` | S-123 | Public domain | Benedicto16 (assumed by Commons from copyright claims) | https://commons.wikimedia.org/wiki/File:Spain_traffic_signal_s123.svg |
 | `s-126.svg` | S-126 | Public domain | Unknown author | https://commons.wikimedia.org/wiki/File:Spain_traffic_signal_s126.svg |
+
+## Drawn for Glorieta from the regulation
+
+Drawn from the figures of the Reglamento General de Vehículos (RD 2822/1998), Anexo XI, as published in the BOE.
+Legal and regulatory texts are not subject to copyright in Spain (Ley de Propiedad Intelectual, art. 13), and these
+drawings are dedicated to the public domain.
+
+| File | Code | License | Author | Source |
+|---|---|---|---|---|
+| `v-5.svg` | V-5 | Public domain | Glorieta, drawn from RGV Anexo XI (BOE) | https://www.boe.es/datos/imagenes/disp/1999/22/1826-006.png |
+| `v-24.svg` | V-24 | Public domain | Glorieta, drawn from RGV Anexo XI (BOE) | https://www.boe.es/datos/imagenes/disp/2022/305/21683_12558059_1.png |
+| `v-26.svg` | V-26 | Public domain | Glorieta, drawn from RGV Anexo XI (BOE) | https://www.boe.es/datos/imagenes/disp/2018/184/10856_5856.png |

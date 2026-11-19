@@ -1,7 +1,7 @@
 import raw from './signs.json';
 import { bi, type Bi } from '../i18n';
 
-export type SignGroup = 'priority' | 'entry' | 'restriction' | 'speed' | 'prohibition' | 'mandatory' | 'end' | 'warning' | 'indication';
+export type SignGroup = 'priority' | 'entry' | 'restriction' | 'speed' | 'prohibition' | 'mandatory' | 'end' | 'warning' | 'indication' | 'vehicle';
 
 export type Sign = {
   /** Also the file name inside public/signs, without the extension. */
@@ -14,8 +14,10 @@ export type Sign = {
   license: string;
   licenseUrl: string;
   author: string;
-  /** Title of the file page on Wikimedia Commons. */
-  commons: string;
+  /** Title of the file page on Wikimedia Commons, for pictures copied from there. */
+  commons?: string;
+  /** BOE figure the picture was drawn from, for signs that have no Commons file. */
+  drawnFrom?: string;
 };
 
 type RawSign = {
@@ -27,7 +29,8 @@ type RawSign = {
   license: string;
   licenseUrl: string;
   author: string;
-  commons: string;
+  commons?: string;
+  drawnFrom?: string;
 };
 
 export const groupTitles: Record<SignGroup, Bi> = {
@@ -40,9 +43,10 @@ export const groupTitles: Record<SignGroup, Bi> = {
   end: bi('Fin de prohibición', 'End of restriction'),
   warning: bi('Peligro', 'Warnings'),
   indication: bi('Indicación', 'Information'),
+  vehicle: bi('Señales en los vehículos', 'Vehicle signs'),
 };
 
-export const groupOrder: SignGroup[] = ['priority', 'entry', 'restriction', 'speed', 'prohibition', 'mandatory', 'end', 'warning', 'indication'];
+export const groupOrder: SignGroup[] = ['priority', 'entry', 'restriction', 'speed', 'prohibition', 'mandatory', 'end', 'warning', 'indication', 'vehicle'];
 
 export const signs: Sign[] = (raw as RawSign[]).map((s) => ({
   id: s.id,
@@ -54,11 +58,13 @@ export const signs: Sign[] = (raw as RawSign[]).map((s) => ({
   licenseUrl: s.licenseUrl,
   author: s.author,
   commons: s.commons,
+  drawnFrom: s.drawnFrom,
 }));
 
 export const signFile = (s: Sign) => `/signs/${s.id}.svg`;
 
-export const commonsPage = (s: Sign) => `https://commons.wikimedia.org/wiki/File:${s.commons}`;
+/** Where the picture comes from: its Commons file page, or the BOE figure it was drawn from. */
+export const commonsPage = (s: Sign) => (s.commons ? `https://commons.wikimedia.org/wiki/File:${s.commons}` : s.drawnFrom ?? '');
 
 /** Creative Commons Attribution licenses (BY, BY-SA) require a credit; public domain and CC0 do not. */
 export const needsCredit = (s: Sign) => s.license.startsWith('CC BY');

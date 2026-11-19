@@ -41,7 +41,7 @@ for (const q of questions) {
 // Signs: every entry is complete, has its SVG, no SVG sits unused, and CREDITS.md is current.
 const signs = JSON.parse(readFileSync(new URL('../src/data/signs.json', import.meta.url), 'utf8'));
 const signDir = new URL('../public/signs/', import.meta.url);
-const signGroups = ['priority', 'entry', 'restriction', 'speed', 'prohibition', 'mandatory', 'end', 'warning', 'indication'];
+const signGroups = ['priority', 'entry', 'restriction', 'speed', 'prohibition', 'mandatory', 'end', 'warning', 'indication', 'vehicle'];
 const licenses = ['Public domain', 'CC0', 'CC BY 4.0', 'CC BY-SA 3.0', 'CC BY-SA 4.0'];
 const signIds = new Set();
 for (const s of signs) {
@@ -54,7 +54,8 @@ for (const s of signs) {
     if (!s[lang]?.name?.trim() || !s[lang]?.why?.trim()) problems.push(`${where}: ${lang} name and why are required`);
   }
   if (!licenses.includes(s.license)) problems.push(`${where}: unexpected license "${s.license}"`);
-  if (!s.commons?.trim()) problems.push(`${where}: missing Commons file title`);
+  if (!s.commons?.trim() && !s.drawnFrom?.startsWith('https://www.boe.es/'))
+    problems.push(`${where}: needs a Commons file title, or drawnFrom with the BOE figure it was drawn from`);
   if (s.license.startsWith('CC BY')) {
     if (!s.author?.trim() || s.author === 'Unknown author') problems.push(`${where}: ${s.license} requires a named author`);
     if (!s.licenseUrl?.startsWith('https://creativecommons.org/')) problems.push(`${where}: ${s.license} requires a license URL`);

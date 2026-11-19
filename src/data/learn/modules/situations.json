@@ -2628,6 +2628,113 @@
               }
             },
             {
+              "t": "tip",
+              "text": {
+                "es": "Guía de la DGT, no un artículo: si te averías en una autopista o autovía, **no dejes que otro conductor te remolque**. Es peligroso y la DGT lo da por prohibido: solo una **grúa** de auxilio puede llevarse el vehículo. En cualquier carretera, quien recoge y remolca un vehículo averiado debe ser un vehículo preparado para el auxilio en carretera.",
+                "en": "DGT guidance, not an article: if you break down on a motorway or dual carriageway, **do not let another driver tow you**. It is dangerous and the DGT treats it as banned: only a roadside-assistance **tow truck** may take the vehicle away. On any road, whatever picks up and tows a broken-down vehicle must be a vehicle equipped for roadside assistance."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c3t",
+                "answer": 2,
+                "es": {
+                  "q": "Tu turismo se avería en una autopista. Un amigo llega con su coche y una cuerda para llevarte por el arcén hasta la siguiente salida. ¿Qué dice la DGT?",
+                  "options": [
+                    "Puede, si va despacio y con la luz de emergencia",
+                    "Puede, pero solo por el arcén y sin pasar de la salida",
+                    "No: el traslado lo hace un vehículo de auxilio, como una grúa"
+                  ],
+                  "why": "Remolcar un vehículo averiado con un turismo en una autopista o autovía es peligroso y la DGT lo da por prohibido. Pide una grúa de auxilio."
+                },
+                "exam": {
+                  "q": "Your passenger car breaks down on a motorway. A friend arrives with his car and a rope to take you by the hard shoulder up to the next exit. What does the DGT say?",
+                  "options": [
+                    "He can, if he goes slowly and with the emergency light.",
+                    "He can, but only by the hard shoulder and without passing the exit.",
+                    "No: the transfer is done by an assistance vehicle, such as a tow truck."
+                  ]
+                },
+                "en": {
+                  "q": "Your car breaks down on a motorway. A friend arrives with a car and a rope to take you along the shoulder to the next exit. What does the DGT say?",
+                  "options": [
+                    "They may, if they go slowly with hazard lights on",
+                    "They may, but only on the shoulder and no further than the exit",
+                    "No: a roadside-assistance vehicle, such as a tow truck, does the transfer"
+                  ],
+                  "why": "Towing a broken-down vehicle with a car on a motorway or dual carriageway is dangerous, and the DGT treats it as banned. Call a roadside-assistance tow truck."
+                },
+                "terms": [
+                  {
+                    "es": "remolcar",
+                    "en": "to tow"
+                  },
+                  {
+                    "es": "grúa",
+                    "en": "tow truck"
+                  },
+                  {
+                    "es": "vehículo de auxilio",
+                    "en": "roadside-assistance vehicle"
+                  },
+                  {
+                    "es": "arcén",
+                    "en": "hard shoulder"
+                  }
+                ],
+                "src": "DGT, Manual II Cuestiones de seguridad vial (2026), UD18"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c3u",
+                "answer": 1,
+                "es": {
+                  "q": "En una autovía, un camión de mercancías peligrosas está averiado en el arcén. El conductor de un turismo se ofrece a remolcarlo hasta un taller. ¿Puede?",
+                  "options": [
+                    "Sí, con una barra rígida en lugar de una cuerda",
+                    "No: un vehículo averiado lo debe remolcar un vehículo de auxilio",
+                    "Sí, si el camión lleva encendida la luz de emergencia"
+                  ],
+                  "why": "Solo un vehículo preparado para el auxilio en carretera, como una grúa, puede recoger y remolcar un vehículo averiado. Un turismo no puede hacerlo, y menos con una carga peligrosa."
+                },
+                "exam": {
+                  "q": "On a dual carriageway, a truck of dangerous goods is broken down on the hard shoulder. The driver of a passenger car offers to tow it up to a workshop. Can he?",
+                  "options": [
+                    "Yes, with a rigid bar instead of a rope.",
+                    "No: a broken-down vehicle must be towed by an assistance vehicle.",
+                    "Yes, if the truck carries the emergency light switched on."
+                  ]
+                },
+                "en": {
+                  "q": "On a dual carriageway, a truck carrying dangerous goods has broken down on the shoulder. A car driver offers to tow it to a garage. May they?",
+                  "options": [
+                    "Yes, with a rigid bar instead of a rope",
+                    "No: a broken-down vehicle must be towed by a roadside-assistance vehicle",
+                    "Yes, if the truck has its hazard lights on"
+                  ],
+                  "why": "Only a vehicle equipped for roadside assistance, such as a tow truck, may pick up and tow a broken-down vehicle. A passenger car may not, least of all with a dangerous load."
+                },
+                "terms": [
+                  {
+                    "es": "mercancías peligrosas",
+                    "en": "dangerous goods"
+                  },
+                  {
+                    "es": "averiado",
+                    "en": "broken down"
+                  },
+                  {
+                    "es": "remolcar",
+                    "en": "to tow"
+                  }
+                ],
+                "src": "DGT, Manual del permiso B en lectura fácil (2023), Temas 9 y 11; DGT, Manual II Cuestiones de seguridad vial (2026), UD18"
+              }
+            },
+            {
               "t": "rule",
               "text": {
                 "es": "Los peatones no pueden pedir que los lleven (hacer **autostop**) en ningún tramo de una autopista o autovía, ni siquiera en la explanada de un **peaje**. Y tú solo puedes parar en las zonas habilitadas.",
@@ -2702,6 +2809,10 @@
         {
           "es": "No se puede **parar**, salvo en las zonas habilitadas. Tampoco cambiar de sentido ni dar marcha atrás.",
           "en": "You may not **stop**, except in the areas set up for it. You may not make a U-turn or reverse either."
+        },
+        {
+          "es": "Avería en autopista o autovía: **no te dejes remolcar** por otro conductor; llama a una grúa.",
+          "en": "Breakdown on a motorway or dual carriageway: **do not let another driver tow you**; call a tow truck."
         }
       ],
       "covers": [
@@ -2709,7 +2820,9 @@
         "situations-07"
       ],
       "src": [
-        "Reglamento General de Circulación (RD 1428/2003), arts. 38, 48, 49, 57, 72, 73, 77, 94, 125 y 128; Anexo I, ap. 5.1 (S-1 y S-1a)"
+        "Reglamento General de Circulación (RD 1428/2003), arts. 38, 48, 49, 57, 72, 73, 77, 94, 125 y 128; Anexo I, ap. 5.1 (S-1 y S-1a)",
+        "DGT, Manual II Cuestiones de seguridad vial (2026), UD18",
+        "DGT, Manual del permiso B en lectura fácil (2023), Temas 9 y 11"
       ]
     },
     {

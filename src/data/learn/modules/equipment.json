@@ -212,6 +212,58 @@
                 ],
                 "src": "RGV art. 28.1"
               }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "El **permiso de circulación** y la **tarjeta de inspección técnica** deben ser originales. Puedes sustituirlos por **fotocopias debidamente cotejadas**, es decir, certificadas como copia fiel.",
+                "en": "The **registration document** and the **inspection card** must be originals. You may replace them with **duly certified photocopies**, that is, copies officially certified as true."
+              },
+              "src": "RGV art. 26.2"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c1m",
+                "answer": 2,
+                "es": {
+                  "q": "Prefieres no llevar en el coche el original del permiso de circulación. ¿Qué te permite la norma?",
+                  "options": [
+                    "Nada: siempre hay que llevar el original",
+                    "Una fotocopia normal, sin ningún sello",
+                    "Una fotocopia debidamente cotejada"
+                  ],
+                  "why": "Los documentos del vehículo deben ser originales, pero pueden sustituirse por fotocopias debidamente cotejadas. Una copia sin cotejar no vale."
+                },
+                "exam": {
+                  "q": "You prefer not to carry in the car the original of the circulation permit. What does the norm allow you?",
+                  "options": [
+                    "Nothing: it is always necessary to carry the original.",
+                    "A normal photocopy, without any stamp.",
+                    "A duly compared photocopy."
+                  ]
+                },
+                "en": {
+                  "q": "You would rather not keep the original registration document in the car. What do the rules allow?",
+                  "options": [
+                    "Nothing: you must always carry the original",
+                    "An ordinary photocopy with no stamp",
+                    "A duly certified photocopy"
+                  ],
+                  "why": "Vehicle documents must be originals, but they may be replaced by duly certified photocopies. An uncertified copy is not valid."
+                },
+                "terms": [
+                  {
+                    "es": "fotocopia cotejada",
+                    "en": "certified photocopy"
+                  },
+                  {
+                    "es": "permiso de circulación",
+                    "en": "circulation permit"
+                  }
+                ],
+                "src": "RGV art. 26.2"
+              }
             }
           ]
         },
@@ -3407,6 +3459,57 @@
                 ],
                 "src": "RGC art. 49.3"
               }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Las **motocicletas** también llevan luz de emergencia. La ley las define como automóviles, y la DGT explica que esta luz es obligatoria en los automóviles. (LSV Anexo I, 14; DGT, manual de lectura fácil, 2023, Tema 7)",
+                "en": "**Motorcycles** have hazard lights too. The law defines them as automobiles, and the DGT explains that these lights are compulsory on automobiles. (LSV Anexo I, 14; DGT, easy-read manual, 2023, Topic 7)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c4o",
+                "answer": 0,
+                "es": {
+                  "q": "Tu motocicleta se avería en una autovía y la dejas inmovilizada en el arcén. ¿Qué luz usas para avisar?",
+                  "options": [
+                    "La de emergencia: todos los intermitentes a la vez",
+                    "Ninguna: las motos no llevan luz de emergencia",
+                    "Solo el intermitente derecho, fijo"
+                  ],
+                  "why": "Las motocicletas son automóviles y llevan luz de emergencia. Si te inmovilizas en autopista o autovía, señalizas tu vehículo con ella."
+                },
+                "exam": {
+                  "q": "Your motorcycle breaks down on a dual carriageway and you leave it immobilised on the hard shoulder. Which light do you use in order to warn?",
+                  "options": [
+                    "The emergency one: all the indicators at the same time.",
+                    "None: motorcycles do not carry emergency light.",
+                    "Only the right indicator, fixed."
+                  ]
+                },
+                "en": {
+                  "q": "Your motorcycle breaks down on a divided highway and you leave it stopped on the shoulder. Which light do you use to warn others?",
+                  "options": [
+                    "The hazard lights: all turn signals at once",
+                    "None: motorcycles have no hazard lights",
+                    "Only the right turn signal, left on"
+                  ],
+                  "why": "Motorcycles are automobiles and have hazard lights. If you are stopped on a motorway or divided highway, you signal your vehicle with them."
+                },
+                "terms": [
+                  {
+                    "es": "señal de emergencia",
+                    "en": "emergency signal"
+                  },
+                  {
+                    "es": "motocicleta",
+                    "en": "motorcycle"
+                  }
+                ],
+                "src": "RGC art. 109.2.c; LSV Anexo I, 14; DGT, Manual del permiso B en lectura fácil (2023), Tema 7"
+              }
             }
           ]
         },
@@ -3818,7 +3921,8 @@
                     "en": "by construction, by design"
                   }
                 ],
-                "src": "RGV Anexo XI, V-5.1"
+                "src": "RGV Anexo XI, V-5.1",
+                "sign": "v-5"
               }
             },
             {
@@ -3870,7 +3974,8 @@
                     "en": "broken down"
                   }
                 ],
-                "src": "RGV Anexo II (vehículo de auxilio en vías públicas)"
+                "src": "RGV Anexo II (vehículo de auxilio en vías públicas)",
+                "sign": "v-24"
               }
             }
           ]
@@ -3909,7 +4014,9 @@
         "Reglamento General de Circulación (RD 1428/2003), arts. 49.3, 104, 105, 107, 109 y 130.4",
         "Reglamento General de Circulación, Anexo I, ap. 5.1 (señal S-24, Catálogo de señales)",
         "Reglamento General de Vehículos (RD 2822/1998), Anexo XI, V-2",
-        "RGC art. 41"
+        "RGC art. 41",
+        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), Anexo I, 13 y 14",
+        "DGT, Manual del permiso B en lectura fácil (2023), Tema 7"
       ]
     },
     {
@@ -4489,6 +4596,57 @@
                 ],
                 "src": "RGC art. 118.4"
               }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "No lo cuelgues del respaldo: puede estorbar al cinturón y, si le da el sol, con el tiempo **pierde su capacidad de reflejar** la luz. (DGT, Manual II, 2026, UD 9)",
+                "en": "Do not hang it on the seat back: it can get in the way of the seat belt and, if the sun hits it, over time it **loses its ability to reflect** light. (DGT, Manual II, 2026, UD 9)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c5o",
+                "answer": 1,
+                "es": {
+                  "q": "¿Dónde guardas el chaleco reflectante para tenerlo a mano y que se conserve bien?",
+                  "options": [
+                    "Colgado del respaldo, a la vista y al sol",
+                    "En la guantera o en otro sitio del habitáculo, sin sol",
+                    "En el fondo del maletero, bajo el equipaje"
+                  ],
+                  "why": "Dentro del habitáculo lo tienes a mano para salir con él puesto. En el respaldo estorba al cinturón y el sol le quita reflectancia; en el maletero tendrías que salir sin él."
+                },
+                "exam": {
+                  "q": "Where do you keep the reflective vest in order to have it at hand and that it is preserved well?",
+                  "options": [
+                    "Hung from the backrest, in view and in the sun.",
+                    "In the glove compartment or in another place of the passenger compartment, without sun.",
+                    "At the bottom of the boot, under the luggage."
+                  ]
+                },
+                "en": {
+                  "q": "Where do you keep the reflective vest so it is at hand and stays in good condition?",
+                  "options": [
+                    "Hanging on the seat back, in view and in the sun",
+                    "In the glove box or elsewhere in the cabin, out of the sun",
+                    "At the bottom of the trunk, under the luggage"
+                  ],
+                  "why": "Inside the cabin it is at hand, so you can get out already wearing it. On the seat back it gets in the seat belt’s way and the sun takes away its reflectivity; in the trunk you would have to get out without it."
+                },
+                "terms": [
+                  {
+                    "es": "chaleco reflectante",
+                    "en": "reflective vest"
+                  },
+                  {
+                    "es": "habitáculo",
+                    "en": "passenger compartment"
+                  }
+                ],
+                "src": "DGT, Manual II Cuestiones de seguridad vial (2026), UD 9"
+              }
             }
           ]
         },
@@ -4552,6 +4710,57 @@
                   }
                 ],
                 "src": "RGC art. 14.1.d; LSV art. 10.2"
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Los objetos van en el **maletero**. Si alguno tiene que ir en otro sitio, como el asiento de atrás, **sujétalo**: en una frenada o un choque puede salir lanzado hacia delante. Que tampoco te quite visibilidad. (DGT, manual de lectura fácil, 2023, Tema 13)",
+                "en": "Objects go in the **trunk**. If one has to go somewhere else, like the back seat, **secure it**: in hard braking or a crash it can be thrown forward. It must not block your view either. (DGT, easy-read manual, 2023, Topic 13)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c5p",
+                "answer": 2,
+                "es": {
+                  "q": "El maletero está lleno y pones una caja pesada en el asiento de atrás de tu turismo. ¿Qué tienes en cuenta?",
+                  "options": [
+                    "Que la tapes con una manta para que no se vea",
+                    "Que la apoyes contra una puerta trasera",
+                    "Que vaya sujeta: al frenar o en un choque puede salir lanzada"
+                  ],
+                  "why": "La carga debe ir de modo que no se mueva de forma peligrosa. Fuera del maletero, un objeto suelto sale lanzado hacia delante en una frenada fuerte o un choque."
+                },
+                "exam": {
+                  "q": "The boot is full and you place a heavy box on the rear seat of your passenger car. What do you take into account?",
+                  "options": [
+                    "That you cover it with a blanket so that it is not seen.",
+                    "That you lean it against a rear door.",
+                    "That it goes secured: when braking or in a collision it can be projected."
+                  ]
+                },
+                "en": {
+                  "q": "The trunk is full and you put a heavy box on the back seat of your car. What do you keep in mind?",
+                  "options": [
+                    "Cover it with a blanket so it is out of sight",
+                    "Lean it against a rear door",
+                    "Secure it: in hard braking or a crash it can be thrown forward"
+                  ],
+                  "why": "A load must be placed so it cannot move dangerously. Outside the trunk, a loose object flies forward under hard braking or in a crash."
+                },
+                "terms": [
+                  {
+                    "es": "maletero",
+                    "en": "boot"
+                  },
+                  {
+                    "es": "turismo",
+                    "en": "passenger car"
+                  }
+                ],
+                "src": "RGC art. 14.1.a; DGT, Manual del permiso B en lectura fácil (2023), Tema 13"
               }
             }
           ]
@@ -4789,7 +4998,9 @@
         "Reglamento General de Vehículos (RD 2822/1998), Anexos XI (V-16, V-20) y XII",
         "Real Decreto 159/2021, disposición transitoria primera",
         "Reglamento General de Circulación (RD 1428/2003), arts. 9, 10, 14, 15 y 118.4",
-        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), art. 10.2"
+        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), art. 10.2",
+        "DGT, Manual II Cuestiones de seguridad vial (2026), UD 9",
+        "DGT, Manual del permiso B en lectura fácil (2023), Tema 13"
       ]
     },
     {
@@ -6524,6 +6735,180 @@
                 ],
                 "src": "RGC art. 7.2"
               }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Para hacer menos ruido y contaminar menos: arranca sin acelerones bruscos y **no des acelerones en vacío**, con el vehículo parado. (DGT, manual de lectura fácil, 2023, Tema 17; Manual II, 2026, UD 22)",
+                "en": "To make less noise and pollute less: set off without sharp bursts of throttle and **do not rev the engine** while standing still. (DGT, easy-read manual, 2023, Topic 17; Manual II, 2026, UD 22)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c8k",
+                "answer": 2,
+                "es": {
+                  "q": "Esperas en tu moto en un semáforo, en plena ciudad. ¿Cómo evitas hacer ruido innecesario?",
+                  "options": [
+                    "Dando acelerones para tener el motor a punto",
+                    "Esperando con el motor muy revolucionado",
+                    "Sin acelerar en vacío y arrancando con suavidad"
+                  ],
+                  "why": "Los acelerones en vacío y las arrancadas bruscas hacen ruido y contaminan sin servir para nada. Acelera solo lo necesario."
+                },
+                "exam": {
+                  "q": "You wait on your motorcycle at a traffic light, in the middle of the city. How do you avoid making unnecessary noise?",
+                  "options": [
+                    "Giving accelerations in order to have the engine ready.",
+                    "Waiting with the engine very revved.",
+                    "Without accelerating in neutral and starting off smoothly."
+                  ]
+                },
+                "en": {
+                  "q": "You wait on your motorcycle at a light in the middle of town. How do you avoid making needless noise?",
+                  "options": [
+                    "By revving to keep the engine ready",
+                    "By waiting with the engine at high revs",
+                    "By not revving while stopped and setting off smoothly"
+                  ],
+                  "why": "Revving while stopped and sharp starts make noise and pollute for nothing. Accelerate only as much as needed."
+                },
+                "terms": [
+                  {
+                    "es": "acelerón",
+                    "en": "sharp acceleration"
+                  },
+                  {
+                    "es": "ruido",
+                    "en": "noise"
+                  }
+                ],
+                "src": "DGT, Manual del permiso B en lectura fácil (2023), Tema 17; DGT, Manual II Cuestiones de seguridad vial (2026), UD 22"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Ajusta los retrovisores antes de salir",
+            "en": "Adjust the mirrors before you set off"
+          },
+          "blocks": [
+            {
+              "t": "tip",
+              "text": {
+                "es": "Antes de empezar a circular, con el coche parado, ajusta el asiento, los **retrovisores** y el cinturón. (DGT, manual de lectura fácil, 2023, Tema 6)",
+                "en": "Before you start driving, with the car stopped, adjust the seat, the **mirrors** and the seat belt. (DGT, easy-read manual, 2023, Topic 6)"
+              }
+            },
+            {
+              "t": "list",
+              "items": [
+                {
+                  "es": "**Interior**: ves los cuatro bordes de la luna trasera.",
+                  "en": "**Inside mirror**: you see all four edges of the rear window."
+                },
+                {
+                  "es": "**Exteriores**: ves la vía detrás y a los lados. Girando un poco la cabeza, ves también un trozo del lateral de tu coche.",
+                  "en": "**Outside mirrors**: you see the road behind and to the sides. Turning your head a little, you also see a strip of your car’s side."
+                }
+              ]
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Si mientras conduces ves que están mal, **para** en un lugar **llano y recto** y ajústalos. No lo hagas en marcha. (DGT, manual de lectura fácil, 2023, Tema 6)",
+                "en": "If you notice while driving that they are wrong, **stop** somewhere **level and straight** and adjust them. Do not do it on the move. (DGT, easy-read manual, 2023, Topic 6)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c8l",
+                "answer": 0,
+                "es": {
+                  "q": "¿Cuándo ajustas los retrovisores de tu coche?",
+                  "options": [
+                    "Antes de empezar a circular, parado en un lugar llano y recto",
+                    "En marcha, despacio, para ver cómo quedan",
+                    "En la primera recta larga, sin detenerte"
+                  ],
+                  "why": "Los retrovisores se ajustan con el coche parado, antes de salir. Si descubres en marcha que están mal, para en un lugar llano y recto para colocarlos."
+                },
+                "exam": {
+                  "q": "When do you adjust the rear-view mirrors of your car?",
+                  "options": [
+                    "Before beginning to circulate, stopped in a flat and straight place.",
+                    "In motion, slowly, in order to see how they remain.",
+                    "In the first long straight, without stopping."
+                  ]
+                },
+                "en": {
+                  "q": "When do you adjust your car’s mirrors?",
+                  "options": [
+                    "Before you start driving, stopped on level, straight ground",
+                    "While moving slowly, to see how they look",
+                    "On the first long straight, without stopping"
+                  ],
+                  "why": "Mirrors are adjusted with the car stopped, before you leave. If you find out on the move that they are wrong, stop on level, straight ground to set them."
+                },
+                "terms": [
+                  {
+                    "es": "retrovisor",
+                    "en": "rear-view mirror"
+                  },
+                  {
+                    "es": "terreno llano y recto",
+                    "en": "flat and straight ground"
+                  }
+                ],
+                "src": "DGT, Manual del permiso B en lectura fácil (2023), Tema 6"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c8m",
+                "answer": 1,
+                "es": {
+                  "q": "Ajustas el retrovisor interior de tu turismo. ¿Qué debes ver en él?",
+                  "options": [
+                    "Solo el carril de tu izquierda",
+                    "Los cuatro bordes de la luna trasera",
+                    "Tus ojos y la parte alta del asiento trasero"
+                  ],
+                  "why": "Bien colocado, el retrovisor interior encuadra toda la luna trasera: ves sus cuatro bordes."
+                },
+                "exam": {
+                  "q": "You adjust the interior rear-view mirror of your passenger car. What must you see in it?",
+                  "options": [
+                    "Only the lane of your left.",
+                    "The four edges of the rear window.",
+                    "Your eyes and the upper part of the rear seat."
+                  ]
+                },
+                "en": {
+                  "q": "You adjust the inside mirror of your car. What should you see in it?",
+                  "options": [
+                    "Only the lane to your left",
+                    "All four edges of the rear window",
+                    "Your eyes and the top of the back seat"
+                  ],
+                  "why": "When it is set right, the inside mirror frames the whole rear window: you see its four edges."
+                },
+                "terms": [
+                  {
+                    "es": "retrovisor interior",
+                    "en": "interior rear-view mirror"
+                  },
+                  {
+                    "es": "luna trasera",
+                    "en": "rear window"
+                  }
+                ],
+                "src": "DGT, Manual del permiso B en lectura fácil (2023), Tema 6"
+              }
             }
           ]
         }
@@ -6551,7 +6936,9 @@
         "Reglamento General de Vehículos (RD 2822/1998), Anexo III",
         "Reglamento General de Circulación (RD 1428/2003), arts. 7 y 19",
         "RGV Anexo III, ap. 3",
-        "RGC art. 19"
+        "RGC art. 19",
+        "DGT, Manual del permiso B en lectura fácil (2023), Temas 6 y 17",
+        "DGT, Manual II Cuestiones de seguridad vial (2026), UD 22"
       ]
     },
     {
@@ -6887,6 +7274,210 @@
                   }
                 ],
                 "src": "DGT guidance: revista DGT «No sabemos conducir en invierno» (2021)"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Neumáticos: revisión y edad (consejos)",
+            "en": "Tires: checks and age (advice)"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Lo que sigue son consejos de los manuales de la DGT, no artículos de una ley.",
+                "en": "What follows is advice from the DGT’s manuals, not articles of a law."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Los **neumáticos** son lo que más atención pide. Mira su presión **cada 15 días o, como mucho, una vez al mes**, con los neumáticos fríos, y no olvides la rueda de repuesto. (DGT, Manual II, 2026, UD 8; manual de lectura fácil, 2023, Tema 15)",
+                "en": "**Tires** need the most attention. Check their pressure **every 15 days or, at most, once a month**, with the tires cold, and do not forget the spare. (DGT, Manual II, 2026, UD 8; easy-read manual, 2023, Topic 15)"
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Los neumáticos **envejecen aunque no se usen**: la goma se endurece y se agrieta. Cámbialos **cada cinco años**, aunque les quede dibujo. La fecha de fabricación va grabada en el lateral. (DGT, Manual II, 2026, UD 8; manual de lectura fácil, 2023, Tema 5)",
+                "en": "Tires **age even when unused**: the rubber hardens and cracks. Replace them **every five years**, even if they still have tread. The manufacturing date is molded on the sidewall. (DGT, Manual II, 2026, UD 8; easy-read manual, 2023, Topic 5)"
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "En los accidentes por fallo mecánico, el defecto que **más destaca** es el mal estado de los neumáticos. Le siguen los frenos, las luces y la dirección. Por eso conviene revisar a menudo neumáticos, frenos, amortiguadores, dirección y alumbrado. (DGT, Manual II, 2026, UD 1 y UD 8)",
+                "en": "In crashes caused by mechanical failure, the defect that **stands out most** is tires in poor condition. Brakes, lights and steering follow. That is why tires, brakes, shock absorbers, steering and lights should be checked often. (DGT, Manual II, 2026, UD 1 and UD 8)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c6x",
+                "answer": 1,
+                "es": {
+                  "q": "Según la DGT, ¿cada cuánto tiempo, como máximo, compruebas la presión de los neumáticos?",
+                  "options": [
+                    "Solo antes de pasar la ITV",
+                    "Una vez al mes, y mejor cada 15 días",
+                    "Una vez al año, en la revisión"
+                  ],
+                  "why": "Los neumáticos son el elemento que más atención pide. La DGT aconseja mirar la presión cada 15 días o, como mucho, una vez al mes, en frío."
+                },
+                "exam": {
+                  "q": "According to the DGT, how often, as a maximum, do you check the pressure of the tyres?",
+                  "options": [
+                    "Only before passing the ITV.",
+                    "Once a month, and better every 15 days.",
+                    "Once a year, in the revision."
+                  ]
+                },
+                "en": {
+                  "q": "According to the DGT, how often at the most do you check your tire pressure?",
+                  "options": [
+                    "Only before the ITV inspection",
+                    "Once a month, and better every 15 days",
+                    "Once a year, at the service"
+                  ],
+                  "why": "Tires are the part that needs the most attention. The DGT advises checking the pressure every 15 days or, at most, once a month, when cold."
+                },
+                "terms": [
+                  {
+                    "es": "presión de inflado",
+                    "en": "inflation pressure"
+                  },
+                  {
+                    "es": "neumáticos",
+                    "en": "tyres"
+                  }
+                ],
+                "src": "DGT, Manual II Cuestiones de seguridad vial (2026), UD 8; DGT, Manual del permiso B en lectura fácil (2023), Tema 15"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c6w",
+                "answer": 2,
+                "es": {
+                  "q": "Los neumáticos de tu coche tienen buen dibujo, pero llevan seis años montados. Según la DGT, ¿qué haces?",
+                  "options": [
+                    "Nada: mientras tengan dibujo, sirven",
+                    "Esperar a que cumplan diez años",
+                    "Cambiarlos: envejecen aunque no se gasten"
+                  ],
+                  "why": "La goma se degrada con el tiempo aunque el neumático no se use. La DGT aconseja cambiarlos cada cinco años, quede el dibujo que quede."
+                },
+                "exam": {
+                  "q": "The tyres of your car have good tread, but they have been fitted for six years. According to the DGT, what do you do?",
+                  "options": [
+                    "Nothing: while they have tread, they are useful.",
+                    "To wait until they are ten years old.",
+                    "To change them: they age although they do not wear out."
+                  ]
+                },
+                "en": {
+                  "q": "Your car’s tires have good tread but have been fitted for six years. According to the DGT, what do you do?",
+                  "options": [
+                    "Nothing: as long as they have tread, they are fine",
+                    "Wait until they are ten years old",
+                    "Replace them: they age even if they do not wear"
+                  ],
+                  "why": "Rubber degrades over time even if the tire is not used. The DGT advises replacing tires every five years, however much tread is left."
+                },
+                "terms": [
+                  {
+                    "es": "dibujo del neumático",
+                    "en": "tyre tread"
+                  }
+                ],
+                "src": "DGT, Manual II Cuestiones de seguridad vial (2026), UD 8; DGT, Manual del permiso B en lectura fácil (2023), Tema 5"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c6v",
+                "answer": 0,
+                "es": {
+                  "q": "Según la DGT, cuando un siniestro se debe a un defecto técnico del vehículo, ¿qué deficiencia aparece con más frecuencia?",
+                  "options": [
+                    "Neumáticos en mal estado",
+                    "Faros mal regulados",
+                    "Batería sin carga"
+                  ],
+                  "why": "Entre las deficiencias que más aparecen en los accidentes por fallo mecánico, destaca el mal estado de los neumáticos. Le siguen los frenos, las luces y la dirección."
+                },
+                "exam": {
+                  "q": "According to the DGT, when a crash is owed to a technical defect of the vehicle, which deficiency appears with more frequency?",
+                  "options": [
+                    "Tyres in bad state.",
+                    "Headlights badly adjusted.",
+                    "Battery without charge."
+                  ]
+                },
+                "en": {
+                  "q": "According to the DGT, when a crash is due to a technical defect in the vehicle, which deficiency shows up most often?",
+                  "options": [
+                    "Tires in poor condition",
+                    "Badly aimed headlights",
+                    "A dead battery"
+                  ],
+                  "why": "Among the defects most often involved in mechanical-failure crashes, tires in poor condition stand out. Brakes, lights and steering follow."
+                },
+                "terms": [
+                  {
+                    "es": "fallo mecánico",
+                    "en": "mechanical failure"
+                  }
+                ],
+                "src": "DGT, Manual II Cuestiones de seguridad vial (2026), UD 1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c6y",
+                "answer": 0,
+                "es": {
+                  "q": "Según la DGT, ¿qué elementos de seguridad de tu coche conviene revisar periódicamente?",
+                  "options": [
+                    "Neumáticos, frenos, amortiguadores, dirección y alumbrado",
+                    "Solo los que se miran en la ITV",
+                    "La tapicería, la radio y los espejos"
+                  ],
+                  "why": "Revisar con regularidad neumáticos, frenos, amortiguadores, dirección y alumbrado mantiene la estabilidad y la frenada, y evita averías graves."
+                },
+                "exam": {
+                  "q": "According to the DGT, which safety elements of your car is it advisable to check periodically?",
+                  "options": [
+                    "Tyres, brakes, shock absorbers, steering and lighting.",
+                    "Only those that are looked at in the ITV.",
+                    "The upholstery, the radio and the mirrors."
+                  ]
+                },
+                "en": {
+                  "q": "According to the DGT, which safety parts of your car should be checked regularly?",
+                  "options": [
+                    "Tires, brakes, shock absorbers, steering and lights",
+                    "Only those checked at the ITV",
+                    "The upholstery, the radio and the mirrors"
+                  ],
+                  "why": "Regular checks of tires, brakes, shock absorbers, steering and lights keep the car stable and braking well, and prevent serious breakdowns."
+                },
+                "terms": [
+                  {
+                    "es": "amortiguadores",
+                    "en": "shock absorbers"
+                  },
+                  {
+                    "es": "alumbrado",
+                    "en": "lighting"
+                  }
+                ],
+                "src": "DGT, Manual II Cuestiones de seguridad vial (2026), UD 8"
               }
             }
           ]
@@ -7520,7 +8111,8 @@
                     "en": "Vehicle Register"
                   }
                 ],
-                "src": "RGV Anexo XI, V-26.1"
+                "src": "RGV Anexo XI, V-26.1",
+                "sign": "v-26"
               }
             },
             {
@@ -8050,7 +8642,9 @@
         "DGT guidance: revista.dgt.es (puesta a punto, neumáticos, conducción eficiente) y dgt.es (conducción eficiente)",
         "Reglamento General de Vehículos (RD 2822/1998), Anexo XI, V-26",
         "RGV Anexo VII, apartado 6",
-        "DGT guidance: revista DGT «Más calor, más peligro» (2021), «10 claves para conducir de forma eficiente» (2017), «10 claves para ahorrar combustible» (2014); dgt.es «Conducción eficiente»"
+        "DGT guidance: revista DGT «Más calor, más peligro» (2021), «10 claves para conducir de forma eficiente» (2017), «10 claves para ahorrar combustible» (2014); dgt.es «Conducción eficiente»",
+        "DGT, Manual II Cuestiones de seguridad vial (2026), UD 1 y UD 8",
+        "DGT, Manual del permiso B en lectura fácil (2023), Temas 5 y 15"
       ]
     },
     {
@@ -8474,6 +9068,57 @@
                   }
                 ],
                 "src": "DGT guidance (revista DGT, test de diciembre de 2019)"
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Con la suspensión en mal estado, las **luces suben y bajan** al circular y pueden **deslumbrar** a los que vienen de frente. También necesitas más espacio para frenar y te cansas antes. (DGT, manual de lectura fácil, 2023, Tema 15)",
+                "en": "With a worn suspension, the **lights bounce up and down** as you drive and can **dazzle** oncoming drivers. You also need more room to stop, and you tire sooner. (DGT, easy-read manual, 2023, Topic 15)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c9p",
+                "answer": 1,
+                "es": {
+                  "q": "Circulas de noche y los coches de frente te hacen ráfagas: tus luces suben y bajan con cada bache. ¿Qué puede estar fallando?",
+                  "options": [
+                    "La batería",
+                    "Los amortiguadores",
+                    "El alternador"
+                  ],
+                  "why": "Unos amortiguadores en mal estado hacen que el coche oscile, y con él las luces, que pueden deslumbrar. Además alargan la frenada."
+                },
+                "exam": {
+                  "q": "You circulate at night and the cars in front flash at you: your lights go up and down with each pothole. What can be failing?",
+                  "options": [
+                    "The battery.",
+                    "The shock absorbers.",
+                    "The alternator."
+                  ]
+                },
+                "en": {
+                  "q": "You are driving at night and oncoming cars flash their lights at you: your beams bounce with every bump. What may be failing?",
+                  "options": [
+                    "The battery",
+                    "The shock absorbers",
+                    "The alternator"
+                  ],
+                  "why": "Worn shock absorbers let the car bounce, and the lights with it, which can dazzle. They also lengthen braking."
+                },
+                "terms": [
+                  {
+                    "es": "amortiguador",
+                    "en": "shock absorber"
+                  },
+                  {
+                    "es": "deslumbrar",
+                    "en": "to dazzle"
+                  }
+                ],
+                "src": "DGT, Manual del permiso B en lectura fácil (2023), Tema 15"
               }
             }
           ]
@@ -9105,7 +9750,1613 @@
         "Reglamento General de Circulación (RD 1428/2003), art. 115",
         "DGT guidance: revista.dgt.es («La importancia del ABS», «Frenos, un elemento clave para la seguridad», «Lo que cuesta frenar por tipo de vehículo», «Las reglas de oro del mantenimiento del neumático», «Puntos a revisar de su coche», «Verano: 8 puntos para revisar en nuestro coche», «La revisión invernal imprescindible para no quedarse tirado», «Lo que debes saber sobre el aire acondicionado», «Conductor, un puesto a medida», test de diciembre de 2019)",
         "DGT guidance: dgt.es («Conducción eficiente», «Cómo ahorrar combustible conduciendo», «En coche»)",
-        "DGT guidance: revista DGT «Conducir sobre mojado» (2013), test de diciembre de 2019"
+        "DGT guidance: revista DGT «Conducir sobre mojado» (2013), test de diciembre de 2019",
+        "DGT, Manual del permiso B en lectura fácil (2023), Tema 15"
+      ]
+    },
+    {
+      "id": "controls",
+      "title": {
+        "es": "Mandos, marchas y dirección",
+        "en": "Controls, gears and steering"
+      },
+      "minutes": 7,
+      "goals": [
+        {
+          "es": "Decir con qué mano o pie se maneja cada mando de una moto.",
+          "en": "Say which hand or foot works each control on a motorcycle."
+        },
+        {
+          "es": "Saber qué marchas dan más fuerza y cuáles más velocidad.",
+          "en": "Know which gears give more force and which give more speed."
+        },
+        {
+          "es": "Cambiar de marcha gastando poco.",
+          "en": "Change gear while using little fuel."
+        },
+        {
+          "es": "Reconocer cuándo hay que revisar la dirección.",
+          "en": "Recognize when the steering needs checking."
+        }
+      ],
+      "terms": [
+        {
+          "es": "manillar",
+          "en": "handlebar"
+        },
+        {
+          "es": "puño del acelerador",
+          "en": "throttle grip"
+        },
+        {
+          "es": "maneta",
+          "en": "hand lever"
+        },
+        {
+          "es": "pedal de cambio",
+          "en": "gear-change pedal"
+        },
+        {
+          "es": "marcha corta / marcha larga",
+          "en": "low gear / high gear"
+        },
+        {
+          "es": "revoluciones (rpm)",
+          "en": "engine revs (rpm)"
+        },
+        {
+          "es": "salto de marchas",
+          "en": "skipping gears"
+        },
+        {
+          "es": "dirección asistida",
+          "en": "power steering"
+        }
+      ],
+      "pretest": {
+        "id": "equipment-pre-controls",
+        "answer": 0,
+        "es": {
+          "q": "En una motocicleta, ¿cómo das gas?",
+          "options": [
+            "Girando el puño derecho del manillar",
+            "Pisando un pedal con el pie derecho",
+            "Apretando la maneta izquierda"
+          ],
+          "why": "El acelerador de una moto está en el lado derecho del manillar y se acciona girando el puño."
+        },
+        "en": {
+          "q": "On a motorcycle, how do you accelerate?",
+          "options": [
+            "By twisting the right handlebar grip",
+            "By pressing a pedal with your right foot",
+            "By squeezing the left lever"
+          ],
+          "why": "A motorcycle’s throttle is on the right of the handlebar; you work it by twisting the grip."
+        },
+        "src": "DGT, Manual del permiso B en lectura fácil (2023), Tema 6"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Las manos en la moto",
+            "en": "Your hands on a motorcycle"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Una moto tiene los mismos mandos que un coche, pero en otro sitio. Esta es la **disposición más habitual**, la que preguntan en el examen. No es una norma de circulación.",
+                "en": "A motorcycle has the same controls as a car, but in other places. This is the **most common layout**, the one the exam asks about. It is not a traffic rule."
+              }
+            },
+            {
+              "t": "list",
+              "items": [
+                {
+                  "es": "**Mano izquierda**: la maneta del **embrague**. Cerca están también el claxon y el mando de las luces.",
+                  "en": "**Left hand**: the **clutch** lever. The horn and the light switch are usually nearby too."
+                },
+                {
+                  "es": "**Mano derecha**: la maneta del **freno delantero** y el **acelerador**, que se acciona girando el puño.",
+                  "en": "**Right hand**: the **front brake** lever and the **throttle**, which you work by twisting the grip."
+                }
+              ]
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "En las motos automáticas no hay embrague: la maneta izquierda suele ser la del freno trasero. (DGT, Manual II, 2026)",
+                "en": "Automatic motorcycles have no clutch: the left lever usually works the rear brake. (DGT, Manual II, 2026)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c10a",
+                "answer": 0,
+                "es": {
+                  "q": "Vas a salir con una moto de cambio manual y tienes que desembragar para meter primera. ¿Qué haces?",
+                  "options": [
+                    "Apretar la maneta de la izquierda del manillar",
+                    "Pisar el pedal del lado derecho",
+                    "Girar el puño derecho hacia ti"
+                  ],
+                  "why": "En la disposición habitual, el embrague es la maneta de la mano izquierda. El puño derecho es el acelerador y el pedal derecho, el freno trasero."
+                },
+                "exam": {
+                  "q": "You are going to set off with a motorcycle of manual gearbox and you have to declutch to engage first. What do you do?",
+                  "options": [
+                    "To squeeze the lever of the left of the handlebar.",
+                    "To press the pedal of the right side.",
+                    "To turn the right grip towards you."
+                  ]
+                },
+                "en": {
+                  "q": "You are about to set off on a manual motorcycle and must pull the clutch to engage first gear. What do you do?",
+                  "options": [
+                    "Squeeze the lever on the left of the handlebar",
+                    "Press the pedal on the right side",
+                    "Twist the right grip toward you"
+                  ],
+                  "why": "In the usual layout, the clutch is the left-hand lever. The right grip is the throttle and the right pedal is the rear brake."
+                },
+                "terms": [
+                  {
+                    "es": "maneta del embrague",
+                    "en": "clutch lever"
+                  },
+                  {
+                    "es": "desembragar",
+                    "en": "to pull in the clutch"
+                  }
+                ],
+                "src": "DGT, Manual del permiso B en lectura fácil (2023), Tema 6"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c10b",
+                "answer": 1,
+                "es": {
+                  "q": "En la disposición más habitual de los mandos de una moto, ¿qué manejas con la mano derecha?",
+                  "options": [
+                    "El embrague y el claxon",
+                    "El freno delantero y el acelerador",
+                    "El cambio de marchas y el freno trasero"
+                  ],
+                  "why": "La mano derecha lleva la maneta del freno delantero y el puño del acelerador. El embrague y el claxon van a la izquierda; el cambio y el freno trasero se manejan con los pies."
+                },
+                "exam": {
+                  "q": "In the most habitual disposition of the controls of a motorcycle, what do you operate with the right hand?",
+                  "options": [
+                    "The clutch and the horn.",
+                    "The front brake and the accelerator.",
+                    "The gear change and the rear brake."
+                  ]
+                },
+                "en": {
+                  "q": "In the most common layout of motorcycle controls, what do you work with your right hand?",
+                  "options": [
+                    "The clutch and the horn",
+                    "The front brake and the throttle",
+                    "The gear change and the rear brake"
+                  ],
+                  "why": "The right hand has the front brake lever and the throttle grip. The clutch and horn are on the left; the gear change and rear brake are worked with your feet."
+                },
+                "terms": [
+                  {
+                    "es": "acelerador",
+                    "en": "throttle"
+                  },
+                  {
+                    "es": "freno delantero",
+                    "en": "front brake"
+                  }
+                ],
+                "src": "DGT, Manual del permiso B en lectura fácil (2023), Tema 6"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Los pies en la moto",
+            "en": "Your feet on a motorcycle"
+          },
+          "blocks": [
+            {
+              "t": "list",
+              "items": [
+                {
+                  "es": "**Pie derecho**: el pedal del **freno trasero**.",
+                  "en": "**Right foot**: the **rear brake** pedal."
+                },
+                {
+                  "es": "**Pie izquierdo**: el **pedal de cambio**, para subir o bajar de marcha.",
+                  "en": "**Left foot**: the **gear-change pedal**, to shift up or down."
+                }
+              ]
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Cada freno actúa sobre **una sola rueda**. Para frenar con las dos, usas dos mandos: la mano derecha para la rueda delantera y el pie derecho para la trasera. (DGT, Manual II, 2026)",
+                "en": "Each brake works on **one wheel only**. To brake with both, you use two controls: the right hand for the front wheel and the right foot for the rear. (DGT, Manual II, 2026)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c10c",
+                "answer": 2,
+                "es": {
+                  "q": "Circulas en moto y quieres pasar a una marcha más larga. ¿Qué mando usas?",
+                  "options": [
+                    "La maneta de la mano derecha",
+                    "Un botón junto al claxon",
+                    "El pedal del lado izquierdo, con el pie"
+                  ],
+                  "why": "En la disposición habitual, el cambio de marchas es un pedal que se acciona con el pie izquierdo."
+                },
+                "exam": {
+                  "q": "You circulate on a motorcycle and you want to pass to a longer gear. Which control do you use?",
+                  "options": [
+                    "The lever of the right hand.",
+                    "A button next to the horn.",
+                    "The pedal of the left side, with the foot."
+                  ]
+                },
+                "en": {
+                  "q": "You are riding and want to shift into a higher gear. Which control do you use?",
+                  "options": [
+                    "The right-hand lever",
+                    "A button next to the horn",
+                    "The pedal on the left side, with your foot"
+                  ],
+                  "why": "In the usual layout, the gear change is a pedal worked with the left foot."
+                },
+                "terms": [
+                  {
+                    "es": "pedal de cambio",
+                    "en": "gear-change pedal"
+                  }
+                ],
+                "src": "DGT, Manual del permiso B en lectura fácil (2023), Tema 6"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c10d",
+                "answer": 0,
+                "es": {
+                  "q": "En una moto, pisas con el pie derecho el pedal de ese lado. ¿Qué rueda frenas?",
+                  "options": [
+                    "Solo la trasera",
+                    "Solo la delantera",
+                    "Las dos a la vez"
+                  ],
+                  "why": "El pedal derecho es el freno trasero y actúa solo sobre la rueda de atrás. La delantera se frena con la maneta de la mano derecha."
+                },
+                "exam": {
+                  "q": "On a motorcycle, you press with the right foot the pedal of that side. Which wheel do you brake?",
+                  "options": [
+                    "Only the rear one.",
+                    "Only the front one.",
+                    "The two at the same time."
+                  ]
+                },
+                "en": {
+                  "q": "On a motorcycle, you press the right-side pedal with your right foot. Which wheel do you brake?",
+                  "options": [
+                    "Only the rear one",
+                    "Only the front one",
+                    "Both at once"
+                  ],
+                  "why": "The right pedal is the rear brake and works only on the back wheel. The front wheel is braked with the right-hand lever."
+                },
+                "terms": [
+                  {
+                    "es": "freno trasero",
+                    "en": "rear brake"
+                  }
+                ],
+                "src": "DGT, Manual II Cuestiones de seguridad vial (2026), UD 21; DGT, Manual del permiso B en lectura fácil (2023), Tema 6"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Marchas cortas y marchas largas",
+            "en": "Low gears and high gears"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "La **primera** es la marcha más lenta, pero la que **más fuerza** manda a las ruedas. Las marchas largas (quinta, sexta…) dan más velocidad y menos fuerza. (DGT, Manual II, 2026, y manual de lectura fácil, 2023)",
+                "en": "**First** gear is the slowest, but it sends the **most force** to the wheels. High gears (fifth, sixth…) give more speed and less force. (DGT, Manual II, 2026, and easy-read manual, 2023)"
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Por eso las marchas cortas (1.ª y 2.ª) sirven para arrancar y subir cuestas fuertes, y también **retienen más** el coche cuando levantas el pie del acelerador.",
+                "en": "That is why low gears (1st and 2nd) are for setting off and steep climbs, and they also **hold the car back more** when you lift your foot off the accelerator."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c10e",
+                "answer": 1,
+                "es": {
+                  "q": "Estás parado al pie de una cuesta muy empinada. ¿Qué marcha manda más fuerza a las ruedas para arrancar?",
+                  "options": [
+                    "La tercera",
+                    "La primera",
+                    "La más larga que tenga el coche"
+                  ],
+                  "why": "La primera es la más lenta, pero la que más fuerza transmite a las ruedas. Cuanto más larga es la marcha, más velocidad y menos fuerza."
+                },
+                "exam": {
+                  "q": "You are stopped at the foot of a very steep slope. Which gear sends more force to the wheels in order to start?",
+                  "options": [
+                    "The third.",
+                    "The first.",
+                    "The longest that the car has."
+                  ]
+                },
+                "en": {
+                  "q": "You are stopped at the foot of a very steep hill. Which gear sends the most force to the wheels to set off?",
+                  "options": [
+                    "Third",
+                    "First",
+                    "The highest gear the car has"
+                  ],
+                  "why": "First is the slowest gear, but the one that sends the most force to the wheels. The higher the gear, the more speed and the less force."
+                },
+                "terms": [
+                  {
+                    "es": "marcha corta",
+                    "en": "low gear"
+                  },
+                  {
+                    "es": "fuerza",
+                    "en": "force, pulling power"
+                  }
+                ],
+                "src": "DGT, Manual II Cuestiones de seguridad vial (2026), UD 11; DGT, Manual del permiso B en lectura fácil (2023), Tema 15"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Cambiar de marcha gastando poco",
+            "en": "Changing gear while saving fuel"
+          },
+          "blocks": [
+            {
+              "t": "tip",
+              "text": {
+                "es": "Según la DGT, para gastar poco pasa a la marcha siguiente entre **2.000 y 2.500 rpm** con un motor de **gasolina**, y entre 1.500 y 2.000 rpm con un **diésel**. (DGT, Manual II, 2026, UD 22)",
+                "en": "According to the DGT, to save fuel shift up between **2,000 and 2,500 rpm** with a **gasoline** engine, and between 1,500 and 2,000 rpm with a **diesel**. (DGT, Manual II, 2026, UD 22)"
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Haz los **menos cambios** posibles. Cuando se pueda, **sáltate una o más marchas**: por ejemplo, de 3.ª a 5.ª al acelerar, o de 5.ª a 3.ª al reducir. Es el llamado **salto de marchas**. (DGT, Manual II, 2026, UD 22)",
+                "en": "Make as **few gear changes** as you can. When possible, **skip one or more gears**: for example, from 3rd to 5th when speeding up, or from 5th to 3rd when slowing down. This is called **skipping gears**. (DGT, Manual II, 2026, UD 22)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c10f",
+                "answer": 2,
+                "es": {
+                  "q": "Conduces un coche de gasolina y quieres gastar poco. Según la DGT, ¿a cuántas revoluciones pasas a la marcha siguiente?",
+                  "options": [
+                    "Entre 1.000 y 1.500 rpm",
+                    "Entre 3.500 y 4.000 rpm",
+                    "Entre 2.000 y 2.500 rpm"
+                  ],
+                  "why": "Con gasolina, la DGT aconseja cambiar entre 2.000 y 2.500 rpm; con diésel, entre 1.500 y 2.000 rpm."
+                },
+                "exam": {
+                  "q": "You drive a petrol car and you want to consume little. According to the DGT, at how many revolutions do you pass to the following gear?",
+                  "options": [
+                    "Between 1.000 and 1.500 rpm.",
+                    "Between 3.500 and 4.000 rpm.",
+                    "Between 2.000 and 2.500 rpm."
+                  ]
+                },
+                "en": {
+                  "q": "You drive a gasoline car and want to use little fuel. According to the DGT, at what revs do you shift up?",
+                  "options": [
+                    "Between 1,000 and 1,500 rpm",
+                    "Between 3,500 and 4,000 rpm",
+                    "Between 2,000 and 2,500 rpm"
+                  ],
+                  "why": "With gasoline, the DGT advises shifting between 2,000 and 2,500 rpm; with diesel, between 1,500 and 2,000 rpm."
+                },
+                "terms": [
+                  {
+                    "es": "revoluciones por minuto (rpm)",
+                    "en": "revolutions per minute (rpm)"
+                  },
+                  {
+                    "es": "motor de gasolina",
+                    "en": "petrol engine"
+                  }
+                ],
+                "src": "DGT, Manual II Cuestiones de seguridad vial (2026), UD 22"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c10g",
+                "answer": 0,
+                "es": {
+                  "q": "Vas en tercera, el coche ya ha cogido velocidad y la vía es llana. Según la DGT, ¿cómo cambias menos veces?",
+                  "options": [
+                    "Pasando directamente a quinta, sin meter cuarta",
+                    "Pasando siempre por todas las marchas, una a una",
+                    "Poniendo punto muerto antes de cada cambio"
+                  ],
+                  "why": "Es el salto de marchas: si la velocidad y la vía lo permiten, te saltas una o más marchas. Así haces menos cambios y gastas menos."
+                },
+                "exam": {
+                  "q": "You go in third, the car has already taken speed and the road is flat. According to the DGT, how do you change fewer times?",
+                  "options": [
+                    "Passing directly to fifth, without engaging fourth.",
+                    "Passing always through all the gears, one by one.",
+                    "Putting neutral before each change."
+                  ]
+                },
+                "en": {
+                  "q": "You are in third, the car has picked up speed and the road is level. According to the DGT, how do you change gear less often?",
+                  "options": [
+                    "By going straight to fifth, without using fourth",
+                    "By always going through every gear, one by one",
+                    "By putting it in neutral before each change"
+                  ],
+                  "why": "That is skipping gears: if speed and road allow, you skip one or more gears. You make fewer changes and use less fuel."
+                },
+                "terms": [
+                  {
+                    "es": "salto de marchas",
+                    "en": "skipping gears"
+                  }
+                ],
+                "src": "DGT, Manual II Cuestiones de seguridad vial (2026), UD 22"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "La dirección y la dirección asistida",
+            "en": "Steering and power steering"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "La **dirección** lleva el giro del volante a las ruedas delanteras. La **dirección asistida** hace que gires el volante con menos fuerza.",
+                "en": "The **steering** carries the turn of the wheel to the front wheels. **Power steering** lets you turn the wheel with less force."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "La dirección asistida **progresiva** ayuda mucho cuando vas **despacio**, por ejemplo al aparcar, y menos cuando vas rápido. Así el volante es ligero en las maniobras y el coche va más estable en carretera. (DGT, manual de lectura fácil, 2023; Manual VIII, 2026)",
+                "en": "**Speed-sensitive** (progressive) power steering helps a lot when you go **slowly**, for example when parking, and less when you go fast. The wheel is light for maneuvers and the car is steadier on the road. (DGT, easy-read manual, 2023; Manual VIII, 2026)"
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Señales de que hay que revisar la dirección: el volante está **muy duro o demasiado flojo**, vibra, el coche se va hacia un lado en una recta al soltar el volante, o los neumáticos se gastan muy pronto. A veces la causa es una presión de inflado incorrecta. (DGT, manual de lectura fácil, 2023)",
+                "en": "Signs that the steering needs checking: the wheel is **very stiff or too loose**, it vibrates, the car pulls to one side on a straight road when you let go, or the tires wear out very quickly. Sometimes the cause is wrong tire pressure. (DGT, easy-read manual, 2023)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c10h",
+                "answer": 1,
+                "es": {
+                  "q": "Estás aparcando a muy poca velocidad. ¿Qué hace la dirección asistida progresiva?",
+                  "options": [
+                    "Endurece el volante para que no gires de más",
+                    "Te deja girar el volante con muy poco esfuerzo",
+                    "Se desconecta hasta que pasas de cierta velocidad"
+                  ],
+                  "why": "A poca velocidad, la dirección asistida progresiva ayuda al máximo y el volante se mueve con muy poco esfuerzo. Cuando vas rápido, ayuda menos."
+                },
+                "exam": {
+                  "q": "You are parking at very low speed. What does the progressive assisted steering do?",
+                  "options": [
+                    "It hardens the steering wheel so that you do not turn too much.",
+                    "It lets you turn the steering wheel with very little effort.",
+                    "It disconnects until you pass a certain speed."
+                  ]
+                },
+                "en": {
+                  "q": "You are parking at very low speed. What does speed-sensitive power steering do?",
+                  "options": [
+                    "It stiffens the wheel so you do not oversteer",
+                    "It lets you turn the wheel with very little effort",
+                    "It switches off until you pass a certain speed"
+                  ],
+                  "why": "At low speed, speed-sensitive power steering gives the most help and the wheel turns with very little effort. When you go fast, it helps less."
+                },
+                "terms": [
+                  {
+                    "es": "dirección asistida progresiva",
+                    "en": "speed-sensitive power steering"
+                  }
+                ],
+                "src": "DGT, Manual del permiso B en lectura fácil (2023), Tema 15; DGT, Manual VIII Mecánica (2026), UD 9"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c10i",
+                "answer": 2,
+                "es": {
+                  "q": "Desde hace unos días, el volante de tu coche está mucho más duro de lo normal. ¿Qué haces?",
+                  "options": [
+                    "Nada: es normal con los años",
+                    "Esperar a que además vibre",
+                    "Mirar la presión y revisar la dirección"
+                  ],
+                  "why": "Un volante demasiado duro, o demasiado flojo, es señal de que hay que revisar la dirección. A veces la causa es una presión baja de los neumáticos."
+                },
+                "exam": {
+                  "q": "Since a few days ago, the steering wheel of your car is much harder than normal. What do you do?",
+                  "options": [
+                    "Nothing: it is normal with the years.",
+                    "To wait until it also vibrates.",
+                    "To look at the pressure and check the steering."
+                  ]
+                },
+                "en": {
+                  "q": "For a few days now, your car’s steering wheel has been much stiffer than usual. What do you do?",
+                  "options": [
+                    "Nothing: it is normal as a car ages",
+                    "Wait until it also vibrates",
+                    "Check the tire pressure and have the steering checked"
+                  ],
+                  "why": "A wheel that is too stiff, or too loose, is a sign the steering needs checking. Sometimes the cause is low tire pressure."
+                },
+                "terms": [
+                  {
+                    "es": "volante",
+                    "en": "steering wheel"
+                  },
+                  {
+                    "es": "dirección",
+                    "en": "steering"
+                  }
+                ],
+                "src": "DGT, Manual del permiso B en lectura fácil (2023), Tema 15"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "Moto: **mano izquierda** embrague; **mano derecha** freno delantero y acelerador.",
+          "en": "Motorcycle: **left hand** clutch; **right hand** front brake and throttle."
+        },
+        {
+          "es": "Moto: **pie izquierdo** cambio; **pie derecho** freno trasero.",
+          "en": "Motorcycle: **left foot** gear change; **right foot** rear brake."
+        },
+        {
+          "es": "La **primera** da más fuerza; las marchas largas, más velocidad.",
+          "en": "**First** gear gives the most force; high gears give more speed."
+        },
+        {
+          "es": "Gasolina: cambia entre **2.000 y 2.500 rpm**; diésel, entre 1.500 y 2.000. Sáltate marchas cuando puedas.",
+          "en": "Gasoline: shift between **2,000 and 2,500 rpm**; diesel, between 1,500 and 2,000. Skip gears when you can."
+        },
+        {
+          "es": "Volante muy duro o muy flojo: revisa la dirección.",
+          "en": "A very stiff or very loose wheel: have the steering checked."
+        }
+      ],
+      "covers": [],
+      "src": [
+        "DGT, Manual del permiso B en lectura fácil (2023), Temas 5, 6 y 15",
+        "DGT, Manual II Cuestiones de seguridad vial (2026), UD 11, UD 21 y UD 22",
+        "DGT, Manual VIII Mecánica (2026), UD 9"
+      ]
+    },
+    {
+      "id": "care",
+      "title": {
+        "es": "Cuidar el motor, los frenos y la carrocería",
+        "en": "Caring for the engine, brakes and body"
+      },
+      "minutes": 7,
+      "goals": [
+        {
+          "es": "Saber qué revisar si el coche gasta más de lo normal.",
+          "en": "Know what to check if the car uses more fuel than usual."
+        },
+        {
+          "es": "Saber cuándo cambiar el filtro de aceite, las escobillas y las pastillas.",
+          "en": "Know when to change the oil filter, wiper blades and brake pads."
+        },
+        {
+          "es": "Cuidar la carrocería y los faros.",
+          "en": "Look after the bodywork and the headlights."
+        }
+      ],
+      "terms": [
+        {
+          "es": "sistema de alimentación",
+          "en": "fuel and air supply system"
+        },
+        {
+          "es": "filtro del aire",
+          "en": "air filter"
+        },
+        {
+          "es": "bujía",
+          "en": "spark plug"
+        },
+        {
+          "es": "ralentí",
+          "en": "idle"
+        },
+        {
+          "es": "filtro de aceite",
+          "en": "oil filter"
+        },
+        {
+          "es": "escobilla",
+          "en": "wiper blade"
+        },
+        {
+          "es": "pastillas de freno",
+          "en": "brake pads"
+        },
+        {
+          "es": "corrosión",
+          "en": "corrosion, rust"
+        }
+      ],
+      "pretest": {
+        "id": "equipment-pre-care",
+        "answer": 0,
+        "es": {
+          "q": "Tu coche gasta más combustible que antes, sin que hayas cambiado tu forma de conducir. ¿Qué puede estar sucio?",
+          "options": [
+            "El filtro del aire",
+            "La luneta trasera",
+            "El depósito del lavaparabrisas"
+          ],
+          "why": "Un filtro del aire sucio deja pasar peor el aire al motor y el coche gasta más combustible."
+        },
+        "en": {
+          "q": "Your car uses more fuel than before, and you have not changed how you drive. What may be dirty?",
+          "options": [
+            "The air filter",
+            "The rear window",
+            "The windshield washer tank"
+          ],
+          "why": "A dirty air filter lets less air reach the engine, and the car uses more fuel."
+        },
+        "src": "DGT, Manual del permiso B en lectura fácil (2023), Tema 15"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Si el coche gasta más de lo normal",
+            "en": "If the car uses more fuel than usual"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Lo que sigue son consejos de los manuales de la DGT, no artículos de una ley. Un consumo que sube sin motivo suele avisar de que algo funciona mal.",
+                "en": "What follows is advice from the DGT’s manuals, not articles of a law. Fuel use that rises for no reason is usually a sign that something is wrong."
+              }
+            },
+            {
+              "t": "list",
+              "items": [
+                {
+                  "es": "**Sistema de alimentación**: lleva el aire y el combustible al motor. Con el **filtro del aire** sucio gastas más, y puede salir humo negro por el escape. Revísalo más a menudo en verano y por caminos con polvo.",
+                  "en": "**Supply system**: it brings air and fuel to the engine. With a dirty **air filter** you use more fuel, and black smoke may come from the exhaust. Check it more often in summer and on dusty roads."
+                },
+                {
+                  "es": "Un **filtro de combustible** sucio quema mal el combustible: el motor pierde potencia y gasta más.",
+                  "en": "A dirty **fuel filter** makes the fuel burn badly: the engine loses power and uses more."
+                },
+                {
+                  "es": "**Sistema de encendido**: la **bujía** da la chispa que enciende la mezcla. Revisa las bujías como diga el fabricante.",
+                  "en": "**Ignition system**: the **spark plug** gives the spark that lights the mixture. Check the plugs as the manufacturer says."
+                },
+                {
+                  "es": "Un **ralentí** muy alto (el motor gira deprisa sin pisar el acelerador) también hace gastar más.",
+                  "en": "A very high **idle** (the engine turning fast with no foot on the accelerator) also uses more fuel."
+                }
+              ]
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "(DGT, manual de lectura fácil, 2023, Temas 15 y 17; Manual VIII, 2026, UD 3)",
+                "en": "(DGT, easy-read manual, 2023, Topics 15 and 17; Manual VIII, 2026, UD 3)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c11a",
+                "answer": 1,
+                "es": {
+                  "q": "Tu coche gasta cada vez más combustible. Según la DGT, ¿qué sistemas conviene revisar?",
+                  "options": [
+                    "El de alumbrado y la batería",
+                    "El de alimentación (filtros) y el de encendido (bujías)",
+                    "El de dirección y los retrovisores"
+                  ],
+                  "why": "Filtros del aire o del combustible sucios y bujías en mal estado hacen que el motor queme mal el combustible y gaste más."
+                },
+                "exam": {
+                  "q": "Your car consumes more and more fuel each time. According to the DGT, which systems is it advisable to check?",
+                  "options": [
+                    "The lighting system and the battery.",
+                    "The supply system (filters) and the ignition system (spark plugs).",
+                    "The steering system and the rear-view mirrors."
+                  ]
+                },
+                "en": {
+                  "q": "Your car keeps using more and more fuel. According to the DGT, which systems should you check?",
+                  "options": [
+                    "The lighting and the battery",
+                    "The supply system (filters) and the ignition (spark plugs)",
+                    "The steering and the mirrors"
+                  ],
+                  "why": "Dirty air or fuel filters and worn spark plugs make the engine burn fuel badly and use more."
+                },
+                "terms": [
+                  {
+                    "es": "sistema de alimentación",
+                    "en": "supply circuit"
+                  },
+                  {
+                    "es": "sistema de encendido",
+                    "en": "ignition circuit"
+                  }
+                ],
+                "src": "DGT, Manual del permiso B en lectura fácil (2023), Temas 15 y 17; DGT, Manual VIII Mecánica (2026), UD 3"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c11b",
+                "answer": 0,
+                "es": {
+                  "q": "Parado en un semáforo, el motor de tu coche gira más deprisa de lo normal sin que pises el acelerador. ¿Qué efecto tiene?",
+                  "options": [
+                    "Gasta más combustible",
+                    "Gasta menos, porque el motor está caliente",
+                    "Ninguno: parado no hay consumo"
+                  ],
+                  "why": "Ese giro sin acelerar es el ralentí. Un ralentí demasiado alto hace que el motor gaste más combustible; hay que mantenerlo en su valor correcto."
+                },
+                "exam": {
+                  "q": "Stopped at a traffic light, the engine of your car turns faster than normal without you pressing the accelerator. What effect does it have?",
+                  "options": [
+                    "It consumes more fuel.",
+                    "It consumes less, because the engine is hot.",
+                    "None: stopped there is no consumption."
+                  ]
+                },
+                "en": {
+                  "q": "Stopped at a light, your car’s engine turns faster than usual with no foot on the accelerator. What is the effect?",
+                  "options": [
+                    "It uses more fuel",
+                    "It uses less, because the engine is warm",
+                    "None: there is no fuel use when stopped"
+                  ],
+                  "why": "That turning without throttle is the idle. An idle that is too high makes the engine use more fuel; it must be kept at its correct value."
+                },
+                "terms": [
+                  {
+                    "es": "ralentí",
+                    "en": "idle, idling speed"
+                  }
+                ],
+                "src": "DGT, Manual del permiso B en lectura fácil (2023), Tema 17"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "El filtro de aceite",
+            "en": "The oil filter"
+          },
+          "blocks": [
+            {
+              "t": "tip",
+              "text": {
+                "es": "El **filtro de aceite** retiene la suciedad del aceite y con el tiempo se atasca, así que hay que cambiarlo. El Manual VIII de la DGT lo orienta a cada dos cambios de aceite, o a cada cambio con aceite sintético. Pero manda siempre **lo que indique el fabricante**. (DGT, Manual VIII, 2026, UD 5)",
+                "en": "The **oil filter** holds back dirt from the oil and clogs over time, so it must be replaced. The DGT’s Manual VIII suggests every second oil change, or every change with synthetic oil. But **what the manufacturer says** always comes first. (DGT, Manual VIII, 2026, UD 5)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c11c",
+                "answer": 2,
+                "es": {
+                  "q": "¿Cuándo cambias el filtro de aceite de tu coche?",
+                  "options": [
+                    "Cada vez que rellenas aceite",
+                    "Solo cuando se enciende el testigo del aceite",
+                    "Cuando lo indique el fabricante del vehículo"
+                  ],
+                  "why": "El filtro se atasca con la suciedad y se sustituye cada cierto tiempo. El plazo lo marca el fabricante, en el libro de mantenimiento."
+                },
+                "exam": {
+                  "q": "When do you change the oil filter of your car?",
+                  "options": [
+                    "Each time that you refill oil.",
+                    "Only when the oil warning light switches on.",
+                    "When the manufacturer of the vehicle indicates it."
+                  ]
+                },
+                "en": {
+                  "q": "When do you change your car’s oil filter?",
+                  "options": [
+                    "Every time you top up the oil",
+                    "Only when the oil warning light comes on",
+                    "When the vehicle manufacturer says so"
+                  ],
+                  "why": "The filter clogs with dirt and is replaced from time to time. The interval is set by the manufacturer, in the maintenance book."
+                },
+                "terms": [
+                  {
+                    "es": "filtro de aceite",
+                    "en": "oil filter"
+                  },
+                  {
+                    "es": "fabricante",
+                    "en": "manufacturer"
+                  }
+                ],
+                "src": "DGT, Manual VIII Mecánica (2026), UD 5"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Ver bien: escobillas y lavaparabrisas",
+            "en": "Seeing well: wiper blades and washer"
+          },
+          "blocks": [
+            {
+              "t": "tip",
+              "text": {
+                "es": "La **escobilla** limpia el cristal con una goma. Con la edad o el **calor**, esa goma se **endurece y se agrieta**: limpia mal, hace ruido y puede rayar el cristal. Cámbiala cuando deje marcas. No uses el limpiaparabrisas con el cristal seco. (DGT, Manual VIII, 2026, UD 6; manual de lectura fácil, 2023, Tema 6)",
+                "en": "The **wiper blade** cleans the glass with a rubber strip. With age or **heat**, that rubber **hardens and cracks**: it cleans badly, makes noise and can scratch the glass. Replace it when it leaves streaks. Do not use the wipers on dry glass. (DGT, Manual VIII, 2026, UD 6; easy-read manual, 2023, Topic 6)"
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "El **lavaparabrisas** echa líquido sobre el cristal. Vigila a menudo que el depósito tenga líquido y rellénalo antes de que se acabe. (DGT, manual de lectura fácil, 2023, Tema 6)",
+                "en": "The **windshield washer** sprays fluid on the glass. Check often that the tank has fluid, and refill it before it runs out. (DGT, easy-read manual, 2023, Topic 6)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c11d",
+                "answer": 1,
+                "es": {
+                  "q": "Tu coche pasa todo el verano aparcado al sol. ¿Qué suele pasarles a las gomas de las escobillas?",
+                  "options": [
+                    "Se ablandan y limpian mejor",
+                    "Se endurecen y se agrietan",
+                    "Nada: la goma resiste el calor"
+                  ],
+                  "why": "El calor y el paso del tiempo endurecen y agrietan la goma. Entonces la escobilla limpia mal, hace ruido y puede rayar el cristal."
+                },
+                "exam": {
+                  "q": "Your car spends all the summer parked in the sun. What usually happens to the rubbers of the wiper blades?",
+                  "options": [
+                    "They soften and clean better.",
+                    "They harden and crack.",
+                    "Nothing: the rubber resists the heat."
+                  ]
+                },
+                "en": {
+                  "q": "Your car spends the whole summer parked in the sun. What usually happens to the wiper rubbers?",
+                  "options": [
+                    "They soften and clean better",
+                    "They harden and crack",
+                    "Nothing: the rubber resists heat"
+                  ],
+                  "why": "Heat and time harden and crack the rubber. Then the blade cleans badly, makes noise and can scratch the glass."
+                },
+                "terms": [
+                  {
+                    "es": "escobilla del limpiaparabrisas",
+                    "en": "windscreen wiper blade"
+                  }
+                ],
+                "src": "DGT, Manual VIII Mecánica (2026), UD 6"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c11e",
+                "answer": 0,
+                "es": {
+                  "q": "¿Cada cuánto miras si queda líquido en el depósito del lavaparabrisas?",
+                  "options": [
+                    "A menudo, para rellenarlo antes de que se acabe",
+                    "Solo cuando pasas la ITV",
+                    "Una vez al año, en la revisión del taller"
+                  ],
+                  "why": "Hay que vigilar con frecuencia que el depósito tenga líquido y rellenarlo cuando se esté acabando. Sin él, no podrás limpiar el cristal cuando lo necesites."
+                },
+                "exam": {
+                  "q": "How often do you look if there is liquid left in the reservoir of the windscreen washer?",
+                  "options": [
+                    "Often, in order to refill it before it runs out.",
+                    "Only when you pass the ITV.",
+                    "Once a year, in the revision of the workshop."
+                  ]
+                },
+                "en": {
+                  "q": "How often do you check whether there is fluid left in the windshield washer tank?",
+                  "options": [
+                    "Often, to refill it before it runs out",
+                    "Only when you take the ITV inspection",
+                    "Once a year, at the garage service"
+                  ],
+                  "why": "You should check often that the tank has fluid and refill it when it is running low. Without it, you cannot clean the glass when you need to."
+                },
+                "terms": [
+                  {
+                    "es": "lavaparabrisas",
+                    "en": "windscreen washer"
+                  },
+                  {
+                    "es": "depósito",
+                    "en": "reservoir, tank"
+                  }
+                ],
+                "src": "DGT, Manual del permiso B en lectura fácil (2023), Tema 6"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Frenos de disco: pastillas y discos",
+            "en": "Disc brakes: pads and discs"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "En un **freno de disco**, unas **pastillas** aprietan un disco que gira con la rueda. El roce frena el coche y va gastando las pastillas. (DGT, Manual VIII, 2026, UD 10)",
+                "en": "In a **disc brake**, **pads** squeeze a disc that turns with the wheel. The friction slows the car and gradually wears the pads. (DGT, Manual VIII, 2026, UD 10)"
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Comprueba que las pastillas no estén gastadas y cámbialas cuando toque. Si el disco está **rayado** o gastado de forma anormal, también se sustituye. (DGT, manual de lectura fácil, 2023, Tema 15; Manual VIII, 2026, UD 10)",
+                "en": "Check that the pads are not worn and replace them when due. If the disc is **scored** or abnormally worn, it is replaced too. (DGT, easy-read manual, 2023, Topic 15; Manual VIII, 2026, UD 10)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c11f",
+                "answer": 2,
+                "es": {
+                  "q": "Tu coche tiene frenos de disco. ¿Qué mantenimiento necesitan?",
+                  "options": [
+                    "Engrasar el disco de vez en cuando",
+                    "Ninguno: duran lo mismo que el coche",
+                    "Cambiar las pastillas gastadas, y el disco si está rayado"
+                  ],
+                  "why": "Las pastillas se gastan con el roce y hay que cambiarlas. El disco se sustituye si está rayado o con un desgaste anormal. Nunca se engrasa: perdería agarre."
+                },
+                "exam": {
+                  "q": "Your car has disc brakes. What maintenance do they need?",
+                  "options": [
+                    "To grease the disc from time to time.",
+                    "None: they last the same as the car.",
+                    "To change the worn pads, and the disc if it is scratched."
+                  ]
+                },
+                "en": {
+                  "q": "Your car has disc brakes. What maintenance do they need?",
+                  "options": [
+                    "Greasing the disc from time to time",
+                    "None: they last as long as the car",
+                    "Replacing worn pads, and the disc if it is scored"
+                  ],
+                  "why": "Pads wear with friction and must be replaced. The disc is replaced if it is scored or abnormally worn. It is never greased: it would lose grip."
+                },
+                "terms": [
+                  {
+                    "es": "pastillas de freno",
+                    "en": "brake pads"
+                  },
+                  {
+                    "es": "disco de freno",
+                    "en": "brake disc"
+                  }
+                ],
+                "src": "DGT, Manual VIII Mecánica (2026), UD 10; DGT, Manual del permiso B en lectura fácil (2023), Tema 15"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Carrocería y faros",
+            "en": "Bodywork and headlights"
+          },
+          "blocks": [
+            {
+              "t": "tip",
+              "text": {
+                "es": "Cerca del **mar**, la humedad favorece la **corrosión** de la carrocería. Lávala a fondo, sobre todo los **bajos**, y usa productos sin abrasivos. (DGT, Manual VIII, 2026, UD 1)",
+                "en": "Near the **sea**, humidity speeds up **corrosion** of the bodywork. Wash it thoroughly, especially the **underside**, and use products without abrasives. (DGT, Manual VIII, 2026, UD 1)"
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Al menos **una vez al mes**, comprueba que se encienden todas las lámparas y que los faros están bien regulados. Con el tiempo, los faros tienden a volverse **opacos**: mantenlos limpios. Si se rompe la tulipa de un piloto trasero, cámbiala pronto, porque puede dar luz blanca en vez de roja. (DGT, Manual II, 2026, UD 8)",
+                "en": "At least **once a month**, check that every lamp lights up and that the headlights are properly aimed. Over time, headlights tend to turn **cloudy**: keep them clean. If a rear-light lens breaks, replace it soon, because it may show white light instead of red. (DGT, Manual II, 2026, UD 8)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c11g",
+                "answer": 1,
+                "es": {
+                  "q": "Vives junto a la playa y aparcas en la calle. ¿Necesita tu coche algún cuidado especial?",
+                  "options": [
+                    "No: basta con el mantenimiento que pide el fabricante",
+                    "Sí: lavar a fondo la carrocería y los bajos, por la corrosión",
+                    "Sí, pero solo inflar más los neumáticos"
+                  ],
+                  "why": "La humedad del mar favorece la corrosión. Conviene lavar a fondo la carrocería, sobre todo los bajos, para quitar la sal y la suciedad."
+                },
+                "exam": {
+                  "q": "You live next to the beach and you park in the street. Does your car need some special care?",
+                  "options": [
+                    "No: the maintenance that the manufacturer asks is enough.",
+                    "Yes: to wash thoroughly the bodywork and the underbody, because of the corrosion.",
+                    "Yes, but only to inflate the tyres more."
+                  ]
+                },
+                "en": {
+                  "q": "You live by the beach and park on the street. Does your car need any special care?",
+                  "options": [
+                    "No: the manufacturer’s maintenance is enough",
+                    "Yes: wash the body and underside thoroughly, because of corrosion",
+                    "Yes, but only put more air in the tires"
+                  ],
+                  "why": "Sea humidity speeds up corrosion. It is wise to wash the bodywork thoroughly, especially the underside, to remove salt and dirt."
+                },
+                "terms": [
+                  {
+                    "es": "carrocería",
+                    "en": "bodywork"
+                  },
+                  {
+                    "es": "bajos del vehículo",
+                    "en": "underbody"
+                  }
+                ],
+                "src": "DGT, Manual VIII Mecánica (2026), UD 1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c11h",
+                "answer": 0,
+                "es": {
+                  "q": "Los faros de tu coche, que ya tiene unos años, se ven amarillentos y opacos. ¿Qué conviene hacer?",
+                  "options": [
+                    "Revisarlos, porque iluminan peor",
+                    "Nada: el material de los faros no se estropea",
+                    "Nada, mientras el coche pase la ITV"
+                  ],
+                  "why": "Con el tiempo los faros tienden a volverse opacos y el alumbrado pierde eficacia. Revisa su estado y su luz con regularidad, y mantenlos limpios."
+                },
+                "exam": {
+                  "q": "The headlights of your car, which already has some years, look yellowish and opaque. What is it advisable to do?",
+                  "options": [
+                    "To check them, because they illuminate worse.",
+                    "Nothing: the material of the headlights does not deteriorate.",
+                    "Nothing, while the car passes the ITV."
+                  ]
+                },
+                "en": {
+                  "q": "Your car’s headlights, now a few years old, look yellowed and cloudy. What should you do?",
+                  "options": [
+                    "Have them checked, because they light the road worse",
+                    "Nothing: headlight material does not deteriorate",
+                    "Nothing, as long as the car passes the ITV"
+                  ],
+                  "why": "Over time headlights tend to turn cloudy and the lighting loses effectiveness. Check their condition and light regularly, and keep them clean."
+                },
+                "terms": [
+                  {
+                    "es": "faros",
+                    "en": "headlamps"
+                  },
+                  {
+                    "es": "tulipa",
+                    "en": "lamp lens"
+                  }
+                ],
+                "src": "DGT, Manual II Cuestiones de seguridad vial (2026), UD 8"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "Si sube el consumo, revisa el **sistema de alimentación** (filtros) y el de **encendido** (bujías). Un ralentí alto también gasta.",
+          "en": "If fuel use rises, check the **supply system** (filters) and the **ignition** (spark plugs). A high idle also wastes fuel."
+        },
+        {
+          "es": "El **filtro de aceite** se cambia cuando lo indica el fabricante.",
+          "en": "The **oil filter** is changed when the manufacturer says."
+        },
+        {
+          "es": "El calor **endurece y agrieta** las escobillas. Vigila a menudo el líquido del lavaparabrisas.",
+          "en": "Heat **hardens and cracks** wiper blades. Check the washer fluid often."
+        },
+        {
+          "es": "Frenos de disco: cambia las **pastillas** gastadas, y el disco si está rayado.",
+          "en": "Disc brakes: replace worn **pads**, and the disc if it is scored."
+        },
+        {
+          "es": "Junto al mar, lava bien la carrocería. Revisa las luces **una vez al mes**.",
+          "en": "By the sea, wash the body well. Check the lights **once a month**."
+        }
+      ],
+      "covers": [],
+      "src": [
+        "DGT, Manual del permiso B en lectura fácil (2023), Temas 6, 15 y 17",
+        "DGT, Manual VIII Mecánica (2026), UD 1, UD 3, UD 5, UD 6 y UD 10",
+        "DGT, Manual II Cuestiones de seguridad vial (2026), UD 8"
+      ]
+    },
+    {
+      "id": "tech",
+      "title": {
+        "es": "Faros, cristales y ayudas del vehículo",
+        "en": "Headlights, glass and vehicle aids"
+      },
+      "minutes": 6,
+      "goals": [
+        {
+          "es": "Saber qué ventajas tienen los faros de xenón y el parabrisas laminado.",
+          "en": "Know the advantages of xenon headlights and a laminated windshield."
+        },
+        {
+          "es": "Colocar el navegador sin estorbar al airbag.",
+          "en": "Place the GPS without getting in the airbag’s way."
+        },
+        {
+          "es": "Reconocer el sistema Start-Stop y la señal voluntaria de ángulos muertos.",
+          "en": "Recognize the Start-Stop system and the voluntary blind-spot marking."
+        }
+      ],
+      "terms": [
+        {
+          "es": "faros de xenón",
+          "en": "xenon headlamps"
+        },
+        {
+          "es": "parabrisas laminado",
+          "en": "laminated windscreen"
+        },
+        {
+          "es": "seguridad pasiva",
+          "en": "passive safety"
+        },
+        {
+          "es": "airbag",
+          "en": "airbag"
+        },
+        {
+          "es": "navegador GPS",
+          "en": "GPS navigator"
+        },
+        {
+          "es": "sistema Start-Stop",
+          "en": "Start-Stop system"
+        },
+        {
+          "es": "ángulo muerto",
+          "en": "blind spot"
+        }
+      ],
+      "pretest": {
+        "id": "equipment-pre-tech",
+        "answer": 1,
+        "es": {
+          "q": "Algunos coches apagan solos el motor cuando se paran en un semáforo. ¿Para qué?",
+          "options": [
+            "Para enfriar el motor",
+            "Para no gastar combustible ni contaminar mientras están parados",
+            "Para cargar la batería"
+          ],
+          "why": "Es el sistema Start-Stop: apaga el motor en las paradas cortas y lo arranca de nuevo, así no gasta ni contamina parado."
+        },
+        "en": {
+          "q": "Some cars switch the engine off by themselves when they stop at a light. Why?",
+          "options": [
+            "To cool the engine",
+            "To use no fuel and cause no pollution while stopped",
+            "To charge the battery"
+          ],
+          "why": "That is the Start-Stop system: it switches the engine off at short stops and restarts it, so it uses no fuel and does not pollute while stopped."
+        },
+        "src": "DGT, Manual del permiso B en lectura fácil (2023), Tema 17"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "Los faros de xenón",
+            "en": "Xenon headlights"
+          },
+          "blocks": [
+            {
+              "t": "tip",
+              "text": {
+                "es": "Los faros de **xenón** dan una luz potente, blanca azulada, más parecida a la del día. Iluminan mejor la vía, te dejan ver más lejos y **cansan menos la vista**. Además deslumbran menos a los demás que otras luces. (DGT, manual de lectura fácil, 2023, Tema 5)",
+                "en": "**Xenon** headlights give a strong, bluish-white light, closer to daylight. They light the road better, let you see farther and **tire your eyes less**. They also dazzle others less than other lights. (DGT, easy-read manual, 2023, Topic 5)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c12a",
+                "answer": 2,
+                "es": {
+                  "q": "Conduces mucho de noche y tu coche nuevo lleva faros de xenón. ¿Qué ventaja te dan?",
+                  "options": [
+                    "Iluminan menos, pero no deslumbran nunca",
+                    "Gastan más batería y alumbran igual",
+                    "Iluminan mejor la vía y cansan menos la vista"
+                  ],
+                  "why": "La luz de xenón es potente y parecida a la natural: ves mejor y más lejos, y tus ojos se fatigan menos."
+                },
+                "exam": {
+                  "q": "You drive a lot at night and your new car carries xenon headlamps. What advantage do they give you?",
+                  "options": [
+                    "They illuminate less, but they never dazzle.",
+                    "They consume more battery and they illuminate the same.",
+                    "They illuminate the road better and they tire the sight less."
+                  ]
+                },
+                "en": {
+                  "q": "You drive a lot at night and your new car has xenon headlights. What advantage do they give you?",
+                  "options": [
+                    "They light less, but never dazzle",
+                    "They use more battery and light the same",
+                    "They light the road better and tire your eyes less"
+                  ],
+                  "why": "Xenon light is strong and close to natural light: you see better and farther, and your eyes get less tired."
+                },
+                "terms": [
+                  {
+                    "es": "lámparas de xenón",
+                    "en": "xenon lamps"
+                  },
+                  {
+                    "es": "fatiga visual",
+                    "en": "eye fatigue"
+                  }
+                ],
+                "src": "DGT, Manual del permiso B en lectura fácil (2023), Tema 5"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "El parabrisas laminado",
+            "en": "The laminated windshield"
+          },
+          "blocks": [
+            {
+              "t": "tip",
+              "text": {
+                "es": "El parabrisas **laminado** son dos cristales pegados a una lámina de plástico. Si una piedra lo golpea, la grieta **no se extiende** en todas direcciones y sigues viendo. Es un elemento de **seguridad pasiva**. (DGT, Manual VIII, 2026, UD 1; Manual II, 2026, UD 9)",
+                "en": "A **laminated** windshield is two sheets of glass bonded to a plastic layer. If a stone hits it, the crack **does not spread** in every direction and you can still see. It is a **passive safety** feature. (DGT, Manual VIII, 2026, UD 1; Manual II, 2026, UD 9)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c12b",
+                "answer": 1,
+                "es": {
+                  "q": "Una piedra golpea el parabrisas laminado de tu coche. ¿Qué suele pasar?",
+                  "options": [
+                    "Se rompe en mil trozos y dejas de ver",
+                    "Queda una marca o una grieta, pero sigues viendo a través",
+                    "Se suelta del marco y cae dentro"
+                  ],
+                  "why": "El laminado lleva una lámina de plástico entre dos cristales: la grieta no se extiende y el cristal no pierde la visibilidad. Por eso es el más seguro."
+                },
+                "exam": {
+                  "q": "A stone hits the laminated windscreen of your car. What usually happens?",
+                  "options": [
+                    "It breaks in a thousand pieces and you stop seeing.",
+                    "A mark or a crack remains, but you keep seeing through it.",
+                    "It comes loose from the frame and falls inside."
+                  ]
+                },
+                "en": {
+                  "q": "A stone hits your car’s laminated windshield. What usually happens?",
+                  "options": [
+                    "It shatters and you can no longer see",
+                    "A mark or crack is left, but you can still see through it",
+                    "It comes loose from the frame and falls in"
+                  ],
+                  "why": "Laminated glass has a plastic layer between two sheets: the crack does not spread and you keep your view. That is why it is the safest."
+                },
+                "terms": [
+                  {
+                    "es": "parabrisas laminado",
+                    "en": "laminated windscreen"
+                  }
+                ],
+                "src": "DGT, Manual VIII Mecánica (2026), UD 1; DGT, Manual II Cuestiones de seguridad vial (2026), UD 9"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "El navegador y el airbag",
+            "en": "The GPS and the airbag"
+          },
+          "blocks": [
+            {
+              "t": "tip",
+              "text": {
+                "es": "Programa el **navegador** antes de salir, nunca mientras conduces. Fíjalo para que no se mueva. Ponlo donde lo veas sin apartar la vista de la vía y donde **no impida que se abran los airbags**. (DGT, manual de lectura fácil, 2023, Tema 3)",
+                "en": "Set the **GPS** before you leave, never while driving. Mount it so it cannot move. Put it where you can see it without taking your eyes off the road, and where it **does not stop the airbags from opening**. (DGT, easy-read manual, 2023, Topic 3)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c12c",
+                "answer": 0,
+                "es": {
+                  "q": "Vas a pegar el soporte del navegador en el salpicadero. ¿Qué sitio evitas?",
+                  "options": [
+                    "Uno donde pueda estorbar la apertura de un airbag",
+                    "Uno donde lo veas sin apartar mucho la vista",
+                    "Uno firme, donde no se mueva al frenar"
+                  ],
+                  "why": "El navegador debe ir fijo y a la vista, pero nunca donde pueda impedir que un airbag se abra en un choque."
+                },
+                "exam": {
+                  "q": "You are going to stick the support of the navigator on the dashboard. Which place do you avoid?",
+                  "options": [
+                    "One where it can hinder the opening of an airbag.",
+                    "One where you see it without moving the sight away much.",
+                    "A firm one, where it does not move when braking."
+                  ]
+                },
+                "en": {
+                  "q": "You are about to stick the GPS mount on the dashboard. Which spot do you avoid?",
+                  "options": [
+                    "One where it could block an airbag from opening",
+                    "One where you can see it without looking away much",
+                    "A firm one, where it will not move when you brake"
+                  ],
+                  "why": "The GPS should be fixed and in view, but never where it could stop an airbag from opening in a crash."
+                },
+                "terms": [
+                  {
+                    "es": "navegador",
+                    "en": "navigator, GPS"
+                  },
+                  {
+                    "es": "salpicadero",
+                    "en": "dashboard"
+                  }
+                ],
+                "src": "DGT, Manual del permiso B en lectura fácil (2023), Tema 3"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "El sistema Start-Stop",
+            "en": "The Start-Stop system"
+          },
+          "blocks": [
+            {
+              "t": "tip",
+              "text": {
+                "es": "El sistema **Start-Stop** apaga el motor solo cuando el coche se detiene un momento, en un semáforo o en un atasco, y lo arranca de nuevo al seguir. Así, parado, no gasta combustible ni echa gases. Si tu coche no lo tiene, apaga tú el motor en las paradas largas. (DGT, manual de lectura fácil, 2023, Tema 17; Manual II, 2026, UD 22)",
+                "en": "The **Start-Stop** system switches the engine off by itself when the car stops for a moment, at a light or in a jam, and restarts it when you move on. While stopped, it uses no fuel and gives off no exhaust. If your car does not have it, switch the engine off yourself at long stops. (DGT, easy-read manual, 2023, Topic 17; Manual II, 2026, UD 22)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c12d",
+                "answer": 2,
+                "es": {
+                  "q": "Paras en un semáforo en rojo y el motor de tu coche se apaga solo. Al soltar el freno, arranca otra vez. ¿Qué sistema actúa?",
+                  "options": [
+                    "El ABS",
+                    "El limitador de velocidad",
+                    "El Start-Stop"
+                  ],
+                  "why": "El Start-Stop apaga el motor en las paradas cortas y lo vuelve a arrancar. Así el coche no gasta ni contamina mientras está parado."
+                },
+                "exam": {
+                  "q": "You stop at a traffic light in red and the engine of your car switches off by itself. When releasing the brake, it starts again. Which system acts?",
+                  "options": [
+                    "The ABS.",
+                    "The speed limiter.",
+                    "The Start-Stop."
+                  ]
+                },
+                "en": {
+                  "q": "You stop at a red light and your car’s engine switches off by itself. When you release the brake, it starts again. Which system is working?",
+                  "options": [
+                    "ABS",
+                    "The speed limiter",
+                    "Start-Stop"
+                  ],
+                  "why": "Start-Stop switches the engine off at short stops and restarts it. The car uses no fuel and does not pollute while stopped."
+                },
+                "terms": [
+                  {
+                    "es": "sistema Start-Stop",
+                    "en": "Start-Stop system"
+                  }
+                ],
+                "src": "DGT, Manual del permiso B en lectura fácil (2023), Tema 17"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "La señal de ángulos muertos",
+            "en": "The blind-spot warning marking"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Los camiones y autobuses tienen grandes **ángulos muertos**: zonas que su conductor no ve. La DGT creó una señalización de aviso de ese peligro para autocares, vehículos comerciales ligeros, camiones y vehículos de recogida de basura.",
+                "en": "Trucks and buses have large **blind spots**: areas their driver cannot see. The DGT created a warning marking for that danger for coaches, light commercial vehicles, trucks and garbage trucks."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Esa señalización es **voluntaria**: la pone quien quiere, no es obligatoria para circular. Si la ves, recuerda que el conductor puede no verte. (DGT, Manual II, 2026, UD 3, sobre la instrucción VEH 21/05)",
+                "en": "That marking is **voluntary**: it is fitted by choice and is not required to drive. If you see it, remember the driver may not see you. (DGT, Manual II, 2026, UD 3, on instruction VEH 21/05)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c12e",
+                "answer": 1,
+                "es": {
+                  "q": "Un camión lleva una pegatina que avisa del peligro de sus ángulos muertos. ¿Es obligatoria?",
+                  "options": [
+                    "Sí, en todos los camiones y autobuses",
+                    "No: es una señalización voluntaria",
+                    "Solo en los camiones de más de 12 metros"
+                  ],
+                  "why": "La DGT introdujo una señalización voluntaria de aviso de ángulos muertos para camiones, autocares y comerciales ligeros. No es obligatoria para circular."
+                },
+                "exam": {
+                  "q": "A lorry carries a sticker that warns of the danger of its blind angles. Is it obligatory?",
+                  "options": [
+                    "Yes, in all the lorries and buses.",
+                    "No: it is a voluntary signalling.",
+                    "Only in the lorries of more than 12 metres."
+                  ]
+                },
+                "en": {
+                  "q": "A truck carries a sticker warning of the danger of its blind spots. Is it compulsory?",
+                  "options": [
+                    "Yes, on all trucks and buses",
+                    "No: it is a voluntary marking",
+                    "Only on trucks over 12 meters long"
+                  ],
+                  "why": "The DGT introduced a voluntary blind-spot warning marking for trucks, coaches and light commercial vehicles. It is not required to drive."
+                },
+                "terms": [
+                  {
+                    "es": "ángulo muerto",
+                    "en": "blind spot"
+                  },
+                  {
+                    "es": "señalización voluntaria",
+                    "en": "voluntary signalling"
+                  }
+                ],
+                "src": "DGT, Manual II Cuestiones de seguridad vial (2026), UD 3"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "El **xenón** ilumina mejor y cansa menos la vista.",
+          "en": "**Xenon** lights the road better and tires your eyes less."
+        },
+        {
+          "es": "El parabrisas **laminado** se agrieta sin perder la visibilidad.",
+          "en": "A **laminated** windshield cracks without losing visibility."
+        },
+        {
+          "es": "El navegador va fijo, a la vista y **lejos de los airbags**.",
+          "en": "The GPS goes fixed, in view and **clear of the airbags**."
+        },
+        {
+          "es": "El **Start-Stop** apaga el motor en las paradas cortas.",
+          "en": "**Start-Stop** switches the engine off at short stops."
+        },
+        {
+          "es": "La señal de ángulos muertos en camiones es **voluntaria**.",
+          "en": "The blind-spot marking on trucks is **voluntary**."
+        }
+      ],
+      "covers": [],
+      "src": [
+        "DGT, Manual del permiso B en lectura fácil (2023), Temas 3, 5 y 17",
+        "DGT, Manual VIII Mecánica (2026), UD 1",
+        "DGT, Manual II Cuestiones de seguridad vial (2026), UD 3, UD 9 y UD 22"
       ]
     }
   ]

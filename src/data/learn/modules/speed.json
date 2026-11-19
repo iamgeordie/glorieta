@@ -2730,6 +2730,112 @@
                 ],
                 "src": "RGC art. 46.1.h"
               }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Guía de la DGT, no un artículo: en una curva, la **fuerza centrífuga** empuja el vehículo hacia fuera. Es mayor cuanto **menor es el radio**, es decir, cuanto más cerrada es la curva. Si esa fuerza vence a la adherencia, te sales de la calzada.",
+                "en": "DGT guidance, not an article: on a curve, **centrifugal force** pushes the vehicle outward. It is larger the **smaller the radius**, that is, the tighter the curve. If that force beats your grip, you leave the road."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "speed-adapt-c12",
+                "answer": 1,
+                "es": {
+                  "q": "Dos curvas tienen el mismo firme y las tomas a la misma velocidad. Una tiene un radio pequeño y la otra un radio grande. ¿Dónde corres más riesgo de salirte?",
+                  "options": [
+                    "En la de radio grande, porque es más larga",
+                    "En la de radio pequeño, porque es más cerrada",
+                    "En las dos igual, porque vas a la misma velocidad"
+                  ],
+                  "why": "Cuanto menor es el radio, más cerrada es la curva y mayor la fuerza centrífuga. Si supera la adherencia, el vehículo se sale. Por eso una curva cerrada pide menos velocidad."
+                },
+                "exam": {
+                  "q": "Two curves have the same pavement and you take them at the same speed. One has a small radius and the other a large radius. Where do you run more risk of going off?",
+                  "options": [
+                    "On the one of large radius, because it is longer.",
+                    "On the one of small radius, because it is more closed.",
+                    "On both the same, because you go at the same speed."
+                  ]
+                },
+                "en": {
+                  "q": "Two curves have the same surface and you take them at the same speed. One has a small radius, the other a large one. Where are you more likely to run off?",
+                  "options": [
+                    "On the large-radius one, because it is longer",
+                    "On the small-radius one, because it is tighter",
+                    "The same on both, because your speed is the same"
+                  ],
+                  "why": "The smaller the radius, the tighter the curve and the larger the centrifugal force. If it beats your grip, the vehicle runs off. That is why a tight curve calls for a lower speed."
+                },
+                "terms": [
+                  {
+                    "es": "radio de la curva",
+                    "en": "radius of the curve"
+                  },
+                  {
+                    "es": "curva cerrada",
+                    "en": "tight curve"
+                  },
+                  {
+                    "es": "fuerza centrífuga",
+                    "en": "centrifugal force"
+                  }
+                ],
+                "src": "DGT, Manual II Cuestiones de seguridad vial (2026), UD16"
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Guía de la DGT: la velocidad pesa mucho más que el radio. Si **duplicas** la velocidad en una curva, la fuerza centrífuga se **cuadruplica**.",
+                "en": "DGT guidance: speed weighs far more than the radius. If you **double** your speed on a curve, the centrifugal force becomes **four times** larger."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "speed-adapt-c13",
+                "answer": 2,
+                "es": {
+                  "q": "Entras en una curva al doble de la velocidad a la que la tomaste ayer. ¿Qué le pasa a la fuerza que te empuja hacia el exterior?",
+                  "options": [
+                    "Se duplica, igual que la velocidad",
+                    "No cambia: solo depende de la curva",
+                    "Se multiplica por cuatro"
+                  ],
+                  "why": "La fuerza centrífuga crece con el cuadrado de la velocidad: al duplicar la velocidad, se cuadruplica. Por eso debes frenar antes de la curva, no dentro."
+                },
+                "exam": {
+                  "q": "You enter a curve at double the speed at which you took it yesterday. What happens to the force that pushes you towards the exterior?",
+                  "options": [
+                    "It duplicates, the same as the speed.",
+                    "It does not change: it depends only on the curve.",
+                    "It multiplies by four."
+                  ]
+                },
+                "en": {
+                  "q": "You enter a curve at twice the speed you took it at yesterday. What happens to the force pushing you to the outside?",
+                  "options": [
+                    "It doubles, like the speed",
+                    "It does not change: it depends only on the curve",
+                    "It becomes four times larger"
+                  ],
+                  "why": "Centrifugal force grows with the square of speed: double the speed and it becomes four times larger. That is why you slow down before the curve, not in it."
+                },
+                "terms": [
+                  {
+                    "es": "fuerza centrífuga",
+                    "en": "centrifugal force"
+                  },
+                  {
+                    "es": "exterior de la curva",
+                    "en": "outside of the curve"
+                  }
+                ],
+                "src": "DGT, Manual II Cuestiones de seguridad vial (2026), UD16"
+              }
             }
           ]
         },
@@ -2861,6 +2967,61 @@
                 ],
                 "src": "RGC art. 54.1"
               }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Guía de la DGT, no un artículo: cuando te detienes en un atasco o en un semáforo, deja **dos o tres metros** con el vehículo de delante. Así no lo golpeas si te dan por detrás, puedes avisarle si va marcha atrás y puedes rodearlo si se queda parado. Si eres el último de la fila, la DGT habla de cinco o seis metros, con el freno pisado y mirando por el retrovisor.",
+                "en": "DGT guidance, not an article: when you stop in a jam or at a traffic light, leave **two or three meters** to the vehicle ahead. Then you do not hit it if someone rear-ends you, you can warn it if it rolls back, and you can go around it if it breaks down. If you are last in the line, the DGT mentions five or six meters, with your foot on the brake and an eye on the mirror."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "speed-adapt-c14",
+                "answer": 2,
+                "es": {
+                  "q": "Llegas a una cola de coches parados por un atasco y te detienes detrás del último. ¿Qué hueco aconseja la DGT dejar delante?",
+                  "options": [
+                    "Casi ninguno, para que nadie se cuele",
+                    "Medio metro, lo justo para no rozarlo",
+                    "Dos o tres metros, por si te golpean por detrás"
+                  ],
+                  "why": "Con dos o tres metros, si otro vehículo te golpea por detrás no te empuja contra el de delante. También te deja sitio para rodearlo si no arranca."
+                },
+                "exam": {
+                  "q": "You arrive at a queue of cars stopped by a traffic jam and you stop behind the last one. What space does the DGT advise to leave in front?",
+                  "options": [
+                    "Almost none, so that nobody slips in.",
+                    "Half a meter, the just amount to not touch it.",
+                    "Two or three meters, in case they hit you from behind."
+                  ]
+                },
+                "en": {
+                  "q": "You reach a line of cars stopped in a jam and stop behind the last one. What gap does the DGT advise you to leave ahead?",
+                  "options": [
+                    "Almost none, so nobody cuts in",
+                    "Half a meter, just enough not to touch",
+                    "Two or three meters, in case you are hit from behind"
+                  ],
+                  "why": "With two or three meters, if another vehicle hits you from behind it does not push you into the one ahead. It also leaves room to go around it if it does not move off."
+                },
+                "terms": [
+                  {
+                    "es": "atasco",
+                    "en": "traffic jam"
+                  },
+                  {
+                    "es": "detenerse",
+                    "en": "to stop"
+                  },
+                  {
+                    "es": "vehículo de delante",
+                    "en": "vehicle in front"
+                  }
+                ],
+                "src": "DGT, Manual del permiso B en lectura fácil (2023), Tema 17"
+              }
             }
           ]
         },
@@ -2980,7 +3141,9 @@
       ],
       "src": [
         "Reglamento General de Circulación (RD 1428/2003), arts. 45, 46.1, 53.1, 54.1 y 55",
-        "DGT, «Conducir con exceso de velocidad» (dgt.es), consultada el 18-11-2026"
+        "DGT, «Conducir con exceso de velocidad» (dgt.es), consultada el 18-11-2026",
+        "DGT, Manual II Cuestiones de seguridad vial (2026), UD16",
+        "DGT, Manual del permiso B en lectura fácil (2023), Tema 17"
       ]
     },
     {
@@ -2989,7 +3152,7 @@
         "es": "Cómo se señalizan los límites",
         "en": "How limits are signed"
       },
-      "minutes": 7,
+      "minutes": 8,
       "goals": [
         {
           "es": "Saber hasta dónde llega una señal de velocidad máxima y cómo termina.",
@@ -3661,6 +3824,76 @@
               }
             }
           ]
+        },
+        {
+          "title": {
+            "es": "Velocidad de proyecto y velocidad adecuada",
+            "en": "Design speed and suitable speed"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "La velocidad de una carretera depende sobre todo de su **trazado**, el dibujo de sus curvas y rectas. Quien la proyecta fija unas velocidades para cada tramo.",
+                "en": "A road’s speed depends mainly on its **layout**, the pattern of its curves and straights. Whoever designs it sets speeds for each section."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Guía de la DGT: la **velocidad de proyecto** (de diseño) de un tramo se calcula para circular con **comodidad y seguridad** en buenas condiciones. Con lluvia, hielo, un neumático gastado o cansancio, esa velocidad ya no es segura. Una velocidad que no se adapta a las circunstancias es una **velocidad inadecuada**, aunque esté dentro del límite.",
+                "en": "DGT guidance: a section’s **design speed** is worked out for driving in **comfort and safety** in good conditions. With rain, ice, a worn tire or fatigue, that speed is no longer safe. A speed not fitted to the circumstances is an **unsuitable speed**, even within the limit."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "speed-signs-c8",
+                "answer": 0,
+                "es": {
+                  "q": "Al proyectar un tramo de carretera se calcula la velocidad más alta a la que se puede circular con seguridad y comodidad si las condiciones son buenas. ¿Cómo se llama?",
+                  "options": [
+                    "Velocidad de proyecto o de diseño",
+                    "Velocidad mínima del tramo",
+                    "Velocidad media de la circulación"
+                  ],
+                  "why": "La velocidad de proyecto se fija con el trazado del tramo, para buenas condiciones. Si la vía, el tiempo, el vehículo o tú no estáis bien, debes ir más despacio."
+                },
+                "exam": {
+                  "q": "When projecting a section of road, the highest speed at which it is possible to circulate with safety and comfort if the conditions are good is calculated. How is it called?",
+                  "options": [
+                    "Project or design speed.",
+                    "Minimum speed of the section.",
+                    "Average speed of the circulation."
+                  ]
+                },
+                "en": {
+                  "q": "When a road section is designed, the highest speed at which you can drive safely and comfortably in good conditions is worked out. What is it called?",
+                  "options": [
+                    "Design speed",
+                    "The section’s minimum speed",
+                    "Average traffic speed"
+                  ],
+                  "why": "The design speed comes from the section’s layout, for good conditions. If the road, the weather, the vehicle or you are not at your best, you must go slower."
+                },
+                "terms": [
+                  {
+                    "es": "velocidad de proyecto",
+                    "en": "design speed"
+                  },
+                  {
+                    "es": "trazado",
+                    "en": "road layout"
+                  },
+                  {
+                    "es": "tramo",
+                    "en": "section of road"
+                  }
+                ],
+                "src": "DGT, Manual II Cuestiones de seguridad vial (2026), UD4"
+              }
+            }
+          ]
         }
       ],
       "recap": [
@@ -3683,10 +3916,15 @@
         {
           "es": "Una señal de velocidad puede ser un límite, un consejo o un **mínimo**: no las confundas.",
           "en": "A speed sign can be a limit, advice or a **minimum**: do not mix them up."
+        },
+        {
+          "es": "La **velocidad de proyecto** es la segura en buenas condiciones. Si algo falla, ve más despacio.",
+          "en": "The **design speed** is the safe one in good conditions. If anything is off, go slower."
         }
       ],
       "src": [
-        "Reglamento General de Circulación (RD 1428/2003), arts. 47 y 52.1, y Anexo I, ap. 5.1 (R-301, R-411, R-500, R-501, R-506, S-7 y S-50a a S-50c) y ap. 5.2 (M-6.6 y M-6.7)"
+        "Reglamento General de Circulación (RD 1428/2003), arts. 47 y 52.1, y Anexo I, ap. 5.1 (R-301, R-411, R-500, R-501, R-506, S-7 y S-50a a S-50c) y ap. 5.2 (M-6.6 y M-6.7)",
+        "DGT, Manual II Cuestiones de seguridad vial (2026), UD4"
       ]
     }
   ]

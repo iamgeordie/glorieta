@@ -3812,6 +3812,61 @@
                 ],
                 "src": "DGT guidance (folleto «Medicamentos y conducción»)"
               }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Muchas enfermedades comunes, como la diabetes o la hipertensión, pueden no suponer peligro al volante si cumples **dos condiciones**, según el Manual II de la DGT (2026). Sigue el **tratamiento** que te recetó el médico y toma precauciones en las **fases con síntomas**. Nunca cambies la dosis por tu cuenta.",
+                "en": "Many common illnesses, such as diabetes or high blood pressure, need not be a danger at the wheel if you meet **two conditions**, according to the DGT's Manual II (2026). Follow the **treatment** your doctor prescribed and take precautions **when you have symptoms**. Never change the dose on your own."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c4p5b",
+                "answer": 1,
+                "es": {
+                  "q": "Tienes una enfermedad crónica en tratamiento y conduces a diario. ¿Qué reduce tu riesgo de accidente?",
+                  "options": [
+                    "Dejar la medicación los días que vas a conducir",
+                    "Cumplir el tratamiento y extremar la precaución cuando tienes síntomas",
+                    "Conducir solo trayectos cortos, sin decírselo al médico"
+                  ],
+                  "why": "El Manual II de la DGT explica que lo más importante es tener controlados los riesgos: cumplir el tratamiento prescrito y tomar precauciones en las fases con síntomas. No cambies la dosis sin indicación médica."
+                },
+                "exam": {
+                  "q": "You have a chronic illness in treatment and you drive daily. What reduces your risk of accident?",
+                  "options": [
+                    "To leave the medication the days that you are going to drive.",
+                    "To fulfil the treatment and to take extreme precaution when you have symptoms.",
+                    "To drive only short journeys, without telling it to the doctor."
+                  ]
+                },
+                "en": {
+                  "q": "You have a chronic illness under treatment and you drive every day. What lowers your crash risk?",
+                  "options": [
+                    "Stopping your medication on days you drive",
+                    "Following your treatment and taking extra care when you have symptoms",
+                    "Driving only short trips, without telling your doctor"
+                  ],
+                  "why": "The DGT's Manual II explains that the key is keeping the risks under control: follow the prescribed treatment and take precautions when you have symptoms. Do not change the dose without medical advice."
+                },
+                "terms": [
+                  {
+                    "es": "enfermedad crónica",
+                    "en": "chronic illness"
+                  },
+                  {
+                    "es": "tratamiento",
+                    "en": "treatment"
+                  },
+                  {
+                    "es": "dosis",
+                    "en": "dose"
+                  }
+                ],
+                "src": "DGT, Manual II Cuestiones de seguridad vial (2026), UD6, aps. 2 y 7"
+              }
             }
           ]
         },
@@ -3831,8 +3886,8 @@
             {
               "t": "tip",
               "text": {
-                "es": "Algunos antigripales y antialérgicos dan sueño, como ciertos antihistamínicos y los jarabes con codeína. Otros antihistamínicos no afectan a la conducción. Dile a tu médico que conduces y **no te automediques**.",
-                "en": "Some cold and allergy medicines make you sleepy, such as certain antihistamines and cough syrups with codeine. Other antihistamines do not affect driving. Tell your doctor that you drive and **do not self-medicate**."
+                "es": "Algunos antigripales y antialérgicos dan sueño, como ciertos antihistamínicos y los jarabes con codeína. Otros afectan mucho menos. Dile a tu médico que conduces y **no te automediques**.",
+                "en": "Some cold and allergy medicines make you sleepy, such as certain antihistamines and cough syrups with codeine. Others affect it much less. Tell your doctor that you drive and **do not self-medicate**."
               }
             },
             {
@@ -3996,6 +4051,61 @@
                 ],
                 "src": "DGT guidance (revista.dgt.es, «Alergia: un 30% más de riesgo de accidente», 26-04-2021)"
               }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Según el Manual II de la DGT (2026), los antihistamínicos clásicos, de **primera generación**, pueden dar sueño y alterar tu coordinación. Los **no sedantes**, de segunda o tercera generación, son más seguros. Pero no son inocuos: no los mezcles con alcohol ni con otros fármacos sin indicación médica.",
+                "en": "According to the DGT's Manual II (2026), classic **first-generation** antihistamines can make you sleepy and upset your coordination. **Non-sedating** ones, of the second or third generation, are safer. But they are not harmless: do not mix them with alcohol or other medicines unless a doctor says so."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c4p5a",
+                "answer": 2,
+                "es": {
+                  "q": "Tienes alergia y el médico te receta un antihistamínico moderno, no sedante. ¿Qué es cierto?",
+                  "options": [
+                    "Da el mismo sueño que los antihistamínicos clásicos",
+                    "Ya no puede afectar en nada a la conducción",
+                    "Afecta menos a la conducción, pero no lo mezcles con alcohol ni con otros fármacos"
+                  ],
+                  "why": "El Manual II de la DGT considera más seguros los antihistamínicos no sedantes, pero advierte de que pueden afectar a otras capacidades. Evita mezclarlos con alcohol u otros fármacos sin indicación médica."
+                },
+                "exam": {
+                  "q": "You have allergy and the doctor prescribes you a modern antihistamine, not sedative. What is true?",
+                  "options": [
+                    "It gives the same sleep as the classic antihistamines.",
+                    "It can no longer affect in anything the driving.",
+                    "It affects less the driving, but do not mix it with alcohol nor with other medicines."
+                  ]
+                },
+                "en": {
+                  "q": "You have an allergy and your doctor prescribes a modern, non-sedating antihistamine. What is true?",
+                  "options": [
+                    "It makes you as sleepy as classic antihistamines",
+                    "It can no longer affect your driving at all",
+                    "It affects driving less, but do not mix it with alcohol or other medicines"
+                  ],
+                  "why": "The DGT's Manual II rates non-sedating antihistamines as safer, but warns they can still affect other abilities. Avoid mixing them with alcohol or other medicines without medical advice."
+                },
+                "terms": [
+                  {
+                    "es": "antihistamínico",
+                    "en": "antihistamine"
+                  },
+                  {
+                    "es": "no sedante",
+                    "en": "non-sedating"
+                  },
+                  {
+                    "es": "fármaco",
+                    "en": "medicine (drug)"
+                  }
+                ],
+                "src": "DGT, Manual II Cuestiones de seguridad vial (2026), UD6, aps. 4 y 7"
+              }
             }
           ]
         }
@@ -4035,7 +4145,8 @@
         "DGT guidance (revista.dgt.es, «Epilepsia: la importancia del control», 23-09-2021)",
         "DGT guidance (dgt.es, Observatorio Nacional de Seguridad Vial, estudio sobre trastornos del estado de ánimo y de ansiedad y conducción, 2025)",
         "DGT guidance (revista.dgt.es, «Salud mental al volante», 09-10-2020)",
-        "DGT guidance (revista.dgt.es, «Alergia: un 30% más de riesgo de accidente», 26-04-2021)"
+        "DGT guidance (revista.dgt.es, «Alergia: un 30% más de riesgo de accidente», 26-04-2021)",
+        "DGT, Manual II Cuestiones de seguridad vial (2026), UD6, aps. 2, 4 y 7"
       ]
     },
     {
@@ -4598,6 +4709,57 @@
                 ],
                 "src": "DGT guidance on sleepiness (dgt.es)"
               }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Planificar el viaje antes de salir ya es **prevención**. El Manual II de la DGT (2026) aconseja **prever las paradas**, comprobar el combustible y el estado del vehículo, y salir con tiempo para no conducir con prisa ni tensión.",
+                "en": "Planning a trip before you leave is already **prevention**. The DGT's Manual II (2026) advises **planning your stops**, checking the fuel and the state of the vehicle, and leaving with time to spare so you do not drive rushed or tense."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "alcohol-c5p5a",
+                "answer": 0,
+                "es": {
+                  "q": "Mañana haces un viaje largo. ¿Qué supone, para la seguridad, planificarlo antes de salir?",
+                  "options": [
+                    "Es una medida de prevención: prevés paradas, combustible y tiempo",
+                    "Nada: lo único que cuenta es cómo conduces",
+                    "Un riesgo, porque vas pendiente del reloj"
+                  ],
+                  "why": "El Manual II de la DGT considera fundamental planificar el viaje: prever paradas, revisar el combustible y el vehículo, y salir con tiempo para evitar la prisa y la tensión."
+                },
+                "exam": {
+                  "q": "Tomorrow you make a long journey. What does it suppose, for safety, to plan it before leaving?",
+                  "options": [
+                    "It is a measure of prevention, you foresee stops, fuel and time.",
+                    "Nothing, the only thing that counts is how you drive.",
+                    "A risk, because you go attentive to the clock."
+                  ]
+                },
+                "en": {
+                  "q": "Tomorrow you are making a long trip. What does planning it before you leave mean for safety?",
+                  "options": [
+                    "It is a preventive measure: you plan stops, fuel and time",
+                    "Nothing: all that counts is how you drive",
+                    "A risk, because you keep watching the clock"
+                  ],
+                  "why": "The DGT's Manual II treats planning the trip as essential: plan stops, check the fuel and the vehicle, and leave with time to spare to avoid rushing and tension."
+                },
+                "terms": [
+                  {
+                    "es": "planificar el viaje",
+                    "en": "to plan the journey"
+                  },
+                  {
+                    "es": "prevención",
+                    "en": "prevention"
+                  }
+                ],
+                "src": "DGT, Manual II Cuestiones de seguridad vial (2026), UD7, ap. 3; UD18"
+              }
             }
           ]
         },
@@ -5130,7 +5292,8 @@
         "DGT guidance on sleepiness and fatigue (dgt.es, Evita conductas de riesgo)",
         "DGT guidance (dgt.es, Conducir con fatiga, 30-11-2022)",
         "DGT guidance (dgt.es, Conducir con sueño o cansancio, 09-07-2026)",
-        "DGT guidance (dgt.es, Cansancio: estas son las señales de alarma, 04-02-2026)"
+        "DGT guidance (dgt.es, Cansancio: estas son las señales de alarma, 04-02-2026)",
+        "DGT, Manual II Cuestiones de seguridad vial (2026), UD7, ap. 3; UD18"
       ]
     },
     {

@@ -9750,6 +9750,16 @@
               "src": "RGV Anexo XI (V-5)"
             },
             {
+              "t": "signs",
+              "ids": [
+                "v-5"
+              ],
+              "caption": {
+                "es": "V-5: vehículo lento. Triángulo rojo en la parte trasera.",
+                "en": "V-5: slow vehicle. A red triangle at the rear."
+              }
+            },
+            {
               "t": "tip",
               "text": {
                 "es": "Cuarenta kilómetros por hora son unas 25 millas por hora. Prepárate para alcanzarlo pronto.",
@@ -9762,7 +9772,7 @@
                 "id": "signs-veh-a",
                 "answer": 0,
                 "es": {
-                  "q": "Delante de ti, un tractor lleva detrás la señal de «Vehículo lento». ¿Qué te dice esa señal?",
+                  "q": "Delante de ti, un tractor lleva detrás esta señal. ¿Qué te dice?",
                   "options": [
                     "Que por construcción no puede pasar de 40 km/h",
                     "Que su carga es peligrosa",
@@ -9771,7 +9781,7 @@
                   "why": "La señal de vehículo lento (V-5) indica un vehículo de motor o conjunto de vehículos que, por construcción, no puede superar los 40 km/h. Va en la parte de atrás."
                 },
                 "en": {
-                  "q": "Ahead of you, a tractor carries the “slow vehicle” sign at the back. What does that sign tell you?",
+                  "q": "Ahead of you, a tractor carries this sign at the back. What does it tell you?",
                   "options": [
                     "That by design it cannot go over 40 km/h",
                     "That its load is dangerous",
@@ -9780,7 +9790,7 @@
                   "why": "The slow-vehicle sign (V-5) marks a motor vehicle or combination that, by design, cannot exceed 40 km/h. It goes on the back."
                 },
                 "exam": {
-                  "q": "In front of you, a tractor carries behind the sign of «Slow vehicle». What does that sign say to you?",
+                  "q": "In front of you, a tractor carries this sign at the rear. What does it indicate?",
                   "options": [
                     "That by construction it cannot exceed 40 km/h.",
                     "That its load is dangerous.",
@@ -9797,7 +9807,8 @@
                     "en": "by construction"
                   }
                 ],
-                "src": "RGV Anexo XI (V-5)"
+                "src": "RGV Anexo XI (V-5)",
+                "sign": "v-5"
               }
             }
           ]
@@ -9815,6 +9826,16 @@
                 "en": "Sign **V-24** identifies a **public-road assistance service vehicle**, such as a tow truck. It is a plate on the front or back of the vehicle."
               },
               "src": "RGV Anexo XI (V-24)"
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "v-24"
+              ],
+              "caption": {
+                "es": "V-24: placa de vehículo de servicio de auxilio en vías públicas, delante o detrás.",
+                "en": "V-24: roadside assistance vehicle plate, at the front or rear."
+              }
             },
             {
               "t": "rule",
@@ -9873,7 +9894,8 @@
                     "en": "broken-down or crashed"
                   }
                 ],
-                "src": "RGC art. 156.1.d"
+                "src": "RGC art. 156.1.d",
+                "sign": "v-24"
               }
             }
           ]
@@ -9891,6 +9913,16 @@
                 "en": "Badge **V-26, shared use**, is a blue circle. It shows that the Vehicle Register classes the vehicle as shared-use. With a windscreen, it goes **preferably in the top left corner**, on the inside. Without one, somewhere clearly visible."
               },
               "src": "RGV Anexo XI (V-26)"
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "v-26"
+              ],
+              "caption": {
+                "es": "V-26: distintivo de uso compartido, circular y de fondo azul.",
+                "en": "V-26: shared-use badge, round with a blue background."
+              }
             },
             {
               "t": "check",
@@ -9933,7 +9965,8 @@
                     "en": "windscreen"
                   }
                 ],
-                "src": "RGV Anexo XI (V-26)"
+                "src": "RGV Anexo XI (V-26)",
+                "sign": "v-26"
               }
             }
           ]
