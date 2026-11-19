@@ -106,7 +106,7 @@ The question bank was fact-checked on 2026-10-16 by an independent read of the B
 What is still not confirmed from a primary source:
 
 - The 3-mistake limit and the 30-minute time limit rest on secondary publications, and the app labels them that way.
-- Sign pictures are images in the BOE, so they cannot be checked against the catalogue text. The 271 signs added on 2026-11-19 were compared by eye with the BOE figures; the earlier ones were not.
+- Sign pictures are images in the BOE, so they cannot be checked against the catalogue text by a script. Every picture in the gallery was compared by eye with its BOE figure on 2026-11-19.
 - A handful of questions rest on DGT guidance only (the two-second following distance, the 200 km rest recommendation, first aid), with no article to cite.
 
 ## License

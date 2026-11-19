@@ -10,7 +10,7 @@ The R-402 roundabout sign is also the app logo: `public/favicon.svg` is a byte-i
 
 This file is generated from `src/data/signs.json` by `npm run credits`. Do not edit it by hand.
 
-Totals: 471 signs. 329 public domain, 73 CC0, 69 Creative Commons Attribution or Attribution-ShareAlike (credit required).
+Totals: 471 signs. 327 public domain, 75 CC0, 69 Creative Commons Attribution or Attribution-ShareAlike (credit required).
 
 ## Attribution required (Creative Commons BY and BY-SA)
 
@@ -95,6 +95,8 @@ Licenses: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), [CC BY-SA 3
 | File | Code | License | Author | Source |
 |---|---|---|---|---|
 | `p-1e.svg` | P-1e | CC0 | Yopaseopor | https://commons.wikimedia.org/wiki/File:Spain_traffic_signal_p1e.svg |
+| `p-16a.svg` | P-16a | CC0 | มองโกเลีย๔๔ | https://commons.wikimedia.org/wiki/File:Spain_traffic_signal_P-16a_(2022).svg |
+| `p-16b.svg` | P-16b | CC0 | มองโกเลีย๔๔ | https://commons.wikimedia.org/wiki/File:Spain_traffic_signal_P-16b_(2022).svg |
 | `p-20c.svg` | P-20c | CC0 | มองโกเลีย๔๔ | https://commons.wikimedia.org/wiki/File:Spain_traffic_signal_P-20c_(2025).svg |
 | `p-21b.svg` | P-21b | CC0 | มองโกเลีย๔๔ | https://commons.wikimedia.org/wiki/File:Spain_traffic_signal_p21-b,_2025.svg |
 | `p-24a.svg` | P-24a | CC0 | มองโกเลีย๔๔ | https://commons.wikimedia.org/wiki/File:Spain_traffic_signal_p24a.svg |
@@ -203,8 +205,6 @@ issuing body, it is listed.
 | `p-15.svg` | P-15 | Public domain | Benedicto16 (assumed by Commons from copyright claims) | https://commons.wikimedia.org/wiki/File:Spain_traffic_signal_p15.svg |
 | `p-15a.svg` | P-15a | Public domain | Benedicto16 (assumed by Commons from copyright claims) | https://commons.wikimedia.org/wiki/File:Spain_traffic_signal_p15a.svg |
 | `p-15b.svg` | P-15b | Public domain | Benedicto16 (assumed by Commons from copyright claims) | https://commons.wikimedia.org/wiki/File:Spain_traffic_signal_p15b.svg |
-| `p-16a.svg` | P-16a | Public domain | Benedicto16 (assumed by Commons from copyright claims) | https://commons.wikimedia.org/wiki/File:Spain_traffic_signal_p16a.svg |
-| `p-16b.svg` | P-16b | Public domain | Benedicto16 (assumed by Commons from copyright claims) | https://commons.wikimedia.org/wiki/File:Spain_traffic_signal_p16b.svg |
 | `p-17.svg` | P-17 | Public domain | Benedicto16 (assumed by Commons from copyright claims) | https://commons.wikimedia.org/wiki/File:Spain_traffic_signal_p17.svg |
 | `p-17a.svg` | P-17a | Public domain | Benedicto16 (assumed by Commons from copyright claims) | https://commons.wikimedia.org/wiki/File:Spain_traffic_signal_p17a.svg |
 | `p-17b.svg` | P-17b | Public domain | Benedicto16 (assumed by Commons from copyright claims) | https://commons.wikimedia.org/wiki/File:Spain_traffic_signal_p17b.svg |
