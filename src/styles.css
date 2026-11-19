@@ -347,10 +347,14 @@ button.secondary.full[disabled], .secondary[disabled] { opacity: 0.6; cursor: no
 .badge.status-ready, .badge.status-new { background-clip: padding-box; }
 
 .lesson { padding-bottom: 24px; }
-.seg { list-style: none; display: flex; gap: 4px; margin: 4px 0 16px; padding: 0; }
-.seg li { flex: 1; height: 6px; border-radius: 3px; background: var(--line); }
-.seg li.done { background: var(--primary); }
-.seg li.current { background: var(--primary); opacity: 0.55; }
+/* Each bar is 6px tall, but its link is 22px so it is easy to tap; the margins make up for the padding. */
+.seg { list-style: none; display: flex; gap: 4px; margin: -4px 0 8px; padding: 0; }
+.seg li { flex: 1; }
+.seg li > * { display: block; padding: 8px 0; }
+.seg li > *::before { content: ''; display: block; height: 6px; border-radius: 3px; background: var(--line); }
+.seg li.done > *::before { background: var(--primary); }
+.seg li.current > *::before { background: var(--primary); opacity: 0.55; }
+.seg a:hover::before { background: var(--primary); opacity: 0.75; }
 
 .step-title { font-size: 1.3rem; margin: 4px 0 12px; }
 .lp { margin: 0 0 12px; }
@@ -574,7 +578,7 @@ th { color: var(--muted); font-size: 0.78rem; text-transform: uppercase; letter-
 
 @media (min-width: 1000px) and (orientation: landscape) {
   .crumbs { margin-top: 8px; }
-  .lesson .seg { margin: 2px 0 10px; }
+  .lesson .seg { margin: -6px 0 2px; }
   .step-title { font-size: 1.2rem; margin: 2px 0 8px; }
   .lp, .lp-list { margin-bottom: 8px; }
   .callout { margin-bottom: 10px; padding: 8px 12px; }

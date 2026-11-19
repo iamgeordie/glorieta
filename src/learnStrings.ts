@@ -64,6 +64,7 @@ export const L = {
   checksResult: (right: number, total: number): Bi =>
     bi(`Preguntas de comprobación acertadas a la primera: ${right} de ${total}`, `Check questions right first time: ${right} of ${total}`),
   nextLesson: bi('Siguiente lección', 'Next lesson'),
+  readAgain: bi('Leer otra vez', 'Read it again'),
   lawLabel: bi('La norma', 'The rule'),
   tipLabel: bi('Truco', 'Tip'),
   newLabel: (since: string): Bi => bi(`Cambio en la ley · desde el ${dateEs(since)}`, `Law changed · since ${dateEn(since)}`),
