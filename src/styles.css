@@ -368,6 +368,16 @@ button.secondary.full[disabled], .secondary[disabled] { opacity: 0.6; cursor: no
 .callout.rule { border-left-color: var(--primary); }
 .callout.tip { border-left-color: var(--right); background: var(--right-bg); }
 .callout.example { border-left-color: var(--warn); }
+.callout.new { border-left-color: var(--primary); background: var(--warn-bg); }
+.callout.trap { border-left-color: var(--wrong); background: var(--wrong-bg); }
+.callout.new dl, .callout.trap dl { margin: 6px 0 0; display: grid; gap: 2px 12px; grid-template-columns: auto 1fr; }
+.callout.new dt, .callout.trap dt { font-weight: 700; font-size: 0.85rem; color: var(--muted); }
+.callout.new dd, .callout.trap dd { margin: 0; }
+.tips-list { list-style: none; padding: 0; margin: 0 0 18px; }
+.tips-list > li { margin: 0 0 14px; }
+.tips-list .callout { margin-bottom: 4px; }
+.from-lesson { font-size: 0.82rem; }
+.callout dd.was { text-decoration: line-through; text-decoration-thickness: 1px; color: var(--muted); }
 .callout.example dl { margin: 6px 0 0; display: grid; gap: 2px 12px; grid-template-columns: auto 1fr; }
 .callout.example dt { font-weight: 700; font-size: 0.85rem; color: var(--muted); }
 .callout.example dd { margin: 0 0 6px; }

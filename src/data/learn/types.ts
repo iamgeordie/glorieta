@@ -39,6 +39,16 @@ export type Block =
   | { t: 'us'; text: Bi }
   /** Advice or a memory trick. Not law. */
   | { t: 'tip'; text: Bi }
+  /**
+   * A change in the law: what the rule was, what it is now, and the date the new wording took effect
+   * (`since`, YYYY-MM-DD). `src` cites the article in force. Collected on the Tricks and Tips screen.
+   */
+  | { t: 'new'; since: string; was: Bi; now: Bi; src: string }
+  /**
+   * A point where practice tests give an answer the law or the DGT does not: what they say, and the
+   * correct rule. `src` cites the source of the correct rule. Collected on the Tricks and Tips screen.
+   */
+  | { t: 'trap'; was: Bi; now: Bi; src: string }
   /** A worked example: a situation, what to do, and why. */
   | { t: 'example'; title?: Bi; situation: Bi; action: Bi; why: Bi }
   | { t: 'check'; q: CheckQuestion };

@@ -150,8 +150,17 @@ Targets, not quotas. The roundabouts module is the reference.
 - **Step:** a short `title` that names the idea, then blocks. A typical step has a `p`, a `rule` or
   `figure`, and at the end a `check`. Not every step needs a check; every lesson needs at least one.
 - **Blocks** (see `src/data/learn/types.ts`): `p`, `rule` (needs `src`), `list`, `table`, `figure`,
-  `signs` (official sign ids), `us`, `tip`, `example`, `check`. Use `table` for comparisons (limits by
+  `signs` (official sign ids), `us`, `tip`, `new`, `trap`, `example`, `check`. Use `table` for comparisons (limits by
   road type). Use `signs` whenever a sign is mentioned, so the learner sees it.
+- **`new` and `trap`** go right after the `rule` they qualify, and the Tricks and Tips screen collects them
+  (with every `tip`) in one place.
+  - `new` is a change in the law: `since` (YYYY-MM-DD, the date the new wording took effect), `was` (the old
+    rule), `now` (the rule in force) and `src` (the article in force). Before writing one, compare the
+    article's versions: the BOE API returns each version of a block with its `fecha_vigencia`, and the
+    in-force text often quotes the "Redacción anterior". Never infer a change from the in-force date
+    alone: an article can be reworded without the rule you teach changing.
+  - `trap` is a point where practice tests give an answer the law or the DGT does not: `was` (what they
+    say, in your own words), `now` (the correct rule) and `src`. A trap has no `since`.
 - Put the `check` after the content it tests, in the same step.
 
 ## Check questions

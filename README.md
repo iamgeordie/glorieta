@@ -20,6 +20,7 @@ The one design rule: **every piece of text can flip between Spanish and English 
 | Traffic signs | A gallery of Spanish traffic signs with the official meaning in both languages, and practice questions built from the same data. |
 | Vocabulary | Flashcards for road terms, scheduled with the same FSRS engine. |
 | Examiner phrases | What you will hear in the practical test, and what to do. |
+| Tricks and tips | One page with the recent changes in the law (each with the date it took effect, the old rule and the new one), the points where practice tests get the answer wrong, and every tip in the course by module. All of it comes from boxes inside the lessons, each linked back to its step. |
 | Exam & US differences | Format, language options, license validity, and what changes from the US. Each fact is labeled official, secondary, or verify. |
 
 Progress lives in the browser's `localStorage`. There is no account and no server-side user data. With an account, everything syncs across devices: question progress, mock exam results, and the course (finished lessons, where you stopped, quiz results). Merging never loses progress: a finished lesson stays finished and a best quiz score never shrinks.

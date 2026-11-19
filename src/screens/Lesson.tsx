@@ -14,6 +14,23 @@ import { QuestionCard, useOptionOrder } from './Study';
 
 const signById = new Map(signs.map((s) => [s.id, s]));
 
+/** A law change (`new`) or a practice-test trap (`trap`): the old or wrong answer, then the rule in force. */
+export function ChangeBox({ block }: { block: Extract<Block, { t: 'new' | 'trap' }> }) {
+  const isNew = block.t === 'new';
+  return (
+    <aside class={`callout ${block.t}`}>
+      <strong class="label"><T t={isNew ? L.newLabel(block.since) : L.trapLabel} /></strong>
+      <dl>
+        <dt><T t={isNew ? L.was : L.testsSay} /></dt>
+        <dd class="was"><T t={block.was} /></dd>
+        <dt><T t={isNew ? L.now : L.correct} /></dt>
+        <dd><T t={block.now} /></dd>
+      </dl>
+      <span class="src">{block.src}</span>
+    </aside>
+  );
+}
+
 function SignStrip({ ids, caption }: { ids: string[]; caption?: { es: string; en: string } }) {
   return (
     <div class="sign-strip-box">
@@ -107,6 +124,9 @@ function BlockView({ block, moduleId, lessonId }: { block: Block; moduleId: stri
           <p><T t={block.text} /></p>
         </aside>
       );
+    case 'new':
+    case 'trap':
+      return <ChangeBox block={block} />;
     case 'example':
       return (
         <aside class="callout example">

@@ -8,7 +8,7 @@ const read = (p) => JSON.parse(readFileSync(new URL(p, root), 'utf8'));
 // Catalogue codes (R-303, P-2, S-7, M-2.1, V-13) are law's labels, not something a learner must memorize: the real
 // test shows the sign and asks what it means. "V-16" is the beacon's everyday name, so it is allowed.
 const CATALOGUE_CODE = /\b(?:[RPSM]-\d|V-(?!16\b)\d)/;
-const BLOCKS = ['p', 'rule', 'list', 'table', 'figure', 'signs', 'us', 'tip', 'example', 'check'];
+const BLOCKS = ['p', 'rule', 'list', 'table', 'figure', 'signs', 'us', 'tip', 'new', 'trap', 'example', 'check'];
 // Words that make a check depend on the lesson text or a figure. Checks join the question bank, so they must stand alone.
 const DEPENDENT = /\b(figura|figure|arriba|above|diagrama|diagram|paso anterior|previous step|esta lección|this lesson|en el texto|in the text)\b/i;
 
@@ -107,6 +107,17 @@ export function checkLearn({ questions, signs, categoryIds }) {
         bi(where, b.text);
         if (!str(b.src)) bad(where, 'a rule needs src (the article it comes from)');
         else if (badCitation(b.src)) bad(where, badCitation(b.src));
+        break;
+      case 'new':
+      case 'trap':
+        bi(`${where}.was`, b.was);
+        bi(`${where}.now`, b.now);
+        if (!str(b.src)) bad(where, `a ${b.t} box needs src (the source of the rule now in force)`);
+        else if (badCitation(b.src)) bad(where, badCitation(b.src));
+        if (b.t === 'new') {
+          if (!/^\d{4}-\d{2}-\d{2}$/.test(b.since ?? '') || Number.isNaN(Date.parse(b.since))) bad(where, 'since must be the date the change took effect, as YYYY-MM-DD');
+          else if (b.since > new Date().toISOString().slice(0, 10)) bad(where, `since ${b.since} is in the future: teach the rule in force today`);
+        } else if (b.since !== undefined) bad(where, 'a trap box has no since; use a new box for a change in the law');
         break;
       case 'list':
         if (!Array.isArray(b.items) || b.items.length < 2) bad(where, 'a list needs at least 2 items');

@@ -5925,6 +5925,18 @@
               }
             },
             {
+              "t": "trap",
+              "was": {
+                "es": "La velocidad de la señal de entrada a poblado vale para todo el pueblo.",
+                "en": "The speed on a town-entry sign applies to the whole town."
+              },
+              "now": {
+                "es": "Esa velocidad es la de **esa vía** desde la señal. Otras calles del pueblo pueden tener otros límites.",
+                "en": "That speed is the limit on **that road** from the sign on. Other streets in the town may have other limits."
+              },
+              "src": "RGC Anexo I, ap. 5.1, 3.14 (S-500)"
+            },
+            {
               "t": "signs",
               "ids": [
                 "s-24"

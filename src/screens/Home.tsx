@@ -28,6 +28,7 @@ export function Home() {
     { href: '#/vocab', title: ui.vocab, hint: ui.vocabHint },
     { href: '#/british', title: ui.british, hint: ui.britishHint },
     { href: '#/phrases', title: ui.phrases, hint: ui.phrasesHint },
+    { href: '#/tips', title: ui.tips, hint: ui.tipsHint },
     { href: '#/facts', title: ui.facts, hint: ui.factsHint },
     ...(authEnabled ? [{ href: '#/account', title: authStatus.value === 'in' ? a.accountTile : a.accountTileOut, hint: a.accountTileHint }] : []),
   ];

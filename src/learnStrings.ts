@@ -1,5 +1,11 @@
 import { bi, type Bi } from './i18n';
 
+const MONTHS_ES = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'];
+const MONTHS_EN = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+/** "2026-10-01" as "1 de octubre de 2026" / "1 October 2026". */
+export const dateEs = (iso: string) => { const [y, m, d] = iso.split('-').map(Number) as [number, number, number]; return `${d} de ${MONTHS_ES[m - 1]} de ${y}`; };
+export const dateEn = (iso: string) => { const [y, m, d] = iso.split('-').map(Number) as [number, number, number]; return `${d} ${MONTHS_EN[m - 1]} ${y}`; };
+
 /** Interface text for the Learn course, in both languages. */
 export const L = {
   learn: bi('Aprender', 'Learn'),
@@ -60,6 +66,12 @@ export const L = {
   nextLesson: bi('Siguiente lección', 'Next lesson'),
   lawLabel: bi('La norma', 'The rule'),
   tipLabel: bi('Truco', 'Tip'),
+  newLabel: (since: string): Bi => bi(`Cambio en la ley · desde el ${dateEs(since)}`, `Law changed · since ${dateEn(since)}`),
+  trapLabel: bi('Ojo: los tests de práctica suelen fallar aquí', 'Watch out: practice tests often get this wrong'),
+  was: bi('Antes', 'Before'),
+  now: bi('Ahora', 'Now'),
+  testsSay: bi('Los tests dicen', 'Practice tests say'),
+  correct: bi('Lo correcto', 'What is right'),
   exampleLabel: bi('Ejemplo', 'Example'),
   situation: bi('Situación', 'Situation'),
   whatToDo: bi('Qué hacer', 'What to do'),

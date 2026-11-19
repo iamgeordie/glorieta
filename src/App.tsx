@@ -76,6 +76,7 @@ const Course = lazy(() => import('./screens/Learn').then((m) => ({ default: m.Co
 const ModuleScreen = lazy(() => import('./screens/Learn').then((m) => ({ default: m.ModuleScreen })));
 const LessonScreen = lazy(() => import('./screens/Lesson').then((m) => ({ default: m.LessonScreen })));
 const ModuleQuiz = lazy(() => import('./screens/ModuleQuiz').then((m) => ({ default: m.ModuleQuiz })));
+const Tips = lazy(() => import('./screens/Tips').then((m) => ({ default: m.Tips })));
 
 // A preview of every lesson diagram, for authors. Not built into the production site.
 const FigureGallery = import.meta.env.DEV ? lazy(() => import('./screens/FigureGallery')) : null;
@@ -146,6 +147,12 @@ function Screen() {
       return <Phrases />;
     case 'facts':
       return <Facts />;
+    case 'tips':
+      return (
+        <Suspense fallback={<p class="muted">…</p>}>
+          <Tips />
+        </Suspense>
+      );
     default:
       return <Home />;
   }

@@ -1433,6 +1433,18 @@
               }
             },
             {
+              "t": "trap",
+              "was": {
+                "es": "Si un herido no respira, se le hace la respiración artificial.",
+                "en": "If an injured person is not breathing, give artificial respiration."
+              },
+              "now": {
+                "es": "Si está inconsciente y **no respira** (o respira de forma anormal), tras llamar al 112 se empiezan **compresiones torácicas** enseguida. El operador te guía.",
+                "en": "If they are unconscious and **not breathing** (or breathing abnormally), after calling 112 start **chest compressions** at once. The operator guides you."
+              },
+              "src": "DGT guidance: Manual IX «Primeros auxilios» (DGT, 2026)"
+            },
+            {
               "t": "tip",
               "text": {
                 "es": "La reanimación se mantiene hasta que la persona **empieza a respirar**, un médico te dice que pares o el cansancio ya no te deja seguir.",
@@ -2605,6 +2617,19 @@
                 "en": "Warning triangles and light beacons without a connection to the DGT could only keep being used as the V-16 signal until **1 January 2026**. That deadline has now passed."
               },
               "src": "RD 159/2021, disposición transitoria primera"
+            },
+            {
+              "t": "new",
+              "since": "2026-01-01",
+              "was": {
+                "es": "Los **triángulos** de preseñalización valían para señalizar un vehículo inmovilizado.",
+                "en": "**Warning triangles** were valid for marking an immobilised vehicle."
+              },
+              "now": {
+                "es": "Solo vale la **baliza V-16 conectada** a la DGT. Los triángulos ya no cuentan como señal V-16.",
+                "en": "Only the **connected V-16 beacon** counts. Triangles no longer count as the V-16 signal."
+              },
+              "src": "RD 159/2021, disposición transitoria primera; RGV anexo XI, V-16"
             },
             {
               "t": "check",

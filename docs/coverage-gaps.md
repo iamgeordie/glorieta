@@ -23,10 +23,10 @@ None of these has support in an article in force or in the three DGT manuals.
 
 ### Where the practice test disagrees with the law in force
 
-Glorieta teaches the law. On these items the practice bank's "correct" answer is out of date or wrong, so a learner may see a different answer there:
+Glorieta teaches the law. On these items the practice bank's "correct" answer is out of date or wrong, so a learner may see a different answer there. In the app, each one is a "Law changed" or "Watch out" box next to the rule, and the Tricks and Tips screen lists them all:
 
-- **Helmets:** moped helmets are required on every road since 2026-10-01 (RGC art. 118.1.a), not only outside towns.
-- **Footwear:** closed footwear for riders is a legal duty, not just advice.
+- **Helmets:** moped helmets are required on every road (RGC art. 118.1.a, unchanged since 2006), not only outside towns.
+- **Footwear and gloves:** since 2026-10-01 closed footwear on every road and gloves on intercity roads are a legal duty for riders (RGC art. 118.1.b and c), not just advice.
 - **Riding two abreast:** riding two abreast on the shoulder is allowed for bicycles only (RGC art. 36.2), not mopeds.
 - **Shoulder in jams:** a motorcycle may use a motorway shoulder in a jam only on signed stretches, with traffic stopped, at up to 30 km/h (RGC art. 36.3).
 - **Warning triangles:** they stopped counting as the V-16 signal on 2026-01-01.
