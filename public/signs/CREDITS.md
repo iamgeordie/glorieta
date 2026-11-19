@@ -10,7 +10,7 @@ The R-402 roundabout sign is also the app logo: `public/favicon.svg` is a byte-i
 
 This file is generated from `src/data/signs.json` by `npm run credits`. Do not edit it by hand.
 
-Totals: 197 signs. 143 public domain, 19 CC0, 35 Creative Commons Attribution or Attribution-ShareAlike (credit required).
+Totals: 200 signs. 144 public domain, 21 CC0, 35 Creative Commons Attribution or Attribution-ShareAlike (credit required).
 
 ## Attribution required (Creative Commons BY and BY-SA)
 
@@ -69,10 +69,12 @@ Licenses: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), [CC BY-SA 3
 | `r-407a.svg` | R-407a | CC0 | NACLE2 | https://commons.wikimedia.org/wiki/File:Spain_traffic_signal_R-407a.svg |
 | `p-1e.svg` | P-1e | CC0 | Yopaseopor | https://commons.wikimedia.org/wiki/File:Spain_traffic_signal_p1e.svg |
 | `p-20c.svg` | P-20c | CC0 | มองโกเลีย๔๔ | https://commons.wikimedia.org/wiki/File:Spain_traffic_signal_P-20c_(2025).svg |
+| `p-21b.svg` | P-21b | CC0 | มองโกเลีย๔๔ | https://commons.wikimedia.org/wiki/File:Spain_traffic_signal_p21-b,_2025.svg |
 | `p-24a.svg` | P-24a | CC0 | มองโกเลีย๔๔ | https://commons.wikimedia.org/wiki/File:Spain_traffic_signal_p24a.svg |
 | `s-44.svg` | S-44 | CC0 | มองโกเลีย๔๔ | https://commons.wikimedia.org/wiki/File:Spain_traffic_signal_s44.svg |
 | `s-47.svg` | S-47 | CC0 | มองโกเลีย๔๔ | https://commons.wikimedia.org/wiki/File:Spain_traffic_signal_s47.svg |
 | `s-120.svg` | S-120 | CC0 | มองโกเลีย๔๔ | https://commons.wikimedia.org/wiki/File:Spain_traffic_signal_s120_(2023).svg |
+| `s-129.svg` | S-129 | CC0 | มองโกเลีย๔๔ | https://commons.wikimedia.org/wiki/File:Spain_traffic_signal_S-129_(2023).svg |
 | `s-500.svg` | S-500 | CC0 | มองโกเลีย๔๔ | https://commons.wikimedia.org/wiki/File:Spain_traffic_signal_s500_(2023).svg |
 | `s-820.svg` | S-820 | CC0 | มองโกเลีย๔๔ | https://commons.wikimedia.org/wiki/File:Spain_traffic_signal_s820.svg |
 | `s-840.svg` | S-840 | CC0 | มองโกเลีย๔๔ | https://commons.wikimedia.org/wiki/File:Spain_traffic_signal_s840.svg |
@@ -227,6 +229,7 @@ issuing body, it is listed.
 | `s-114.svg` | S-114 | Public domain | Benedicto16 (assumed by Commons from copyright claims) | https://commons.wikimedia.org/wiki/File:Spain_traffic_signal_s114.svg |
 | `s-123.svg` | S-123 | Public domain | Benedicto16 (assumed by Commons from copyright claims) | https://commons.wikimedia.org/wiki/File:Spain_traffic_signal_s123.svg |
 | `s-126.svg` | S-126 | Public domain | Unknown author | https://commons.wikimedia.org/wiki/File:Spain_traffic_signal_s126.svg |
+| `s-510.svg` | S-510 | Public domain | Majafego | https://commons.wikimedia.org/wiki/File:Spain_traffic_signal_s510.svg |
 
 ## Drawn for Glorieta from the regulation
 

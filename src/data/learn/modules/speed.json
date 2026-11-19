@@ -128,7 +128,8 @@
             {
               "t": "signs",
               "ids": [
-                "s-500"
+                "s-500",
+                "s-510"
               ]
             },
             {
@@ -181,7 +182,7 @@
                 "id": "speed-towns-c5",
                 "answer": 0,
                 "es": {
-                  "q": "Sales de un pueblo y pasas la señal de «Fin de poblado». Sigues por una carretera convencional sin señales de velocidad. Conduces un turismo. ¿Cuál es tu máximo?",
+                  "q": "Sales de un pueblo y pasas esta señal. Sigues por una carretera convencional sin señales de velocidad. Conduces un turismo. ¿Cuál es tu máximo?",
                   "options": [
                     "90 km/h, el genérico de esa carretera",
                     "50 km/h hasta la próxima señal de velocidad",
@@ -190,7 +191,7 @@
                   "why": "La señal de «Fin de poblado» marca dónde dejan de aplicarse las normas de poblado. Desde ahí rige el límite genérico de la vía: 90 km/h para un turismo en carretera convencional."
                 },
                 "exam": {
-                  "q": "You leave a village and pass the sign of «End of town». You continue by a conventional road without speed signs. You drive a passenger car. Which is your maximum?",
+                  "q": "You leave a village and pass this sign. You continue by a conventional road without speed signs. You drive a passenger car. Which is your maximum?",
                   "options": [
                     "90 km/h, the generic one of that road.",
                     "50 km/h until the next speed sign.",
@@ -198,7 +199,7 @@
                   ]
                 },
                 "en": {
-                  "q": "You leave a village and pass the “Fin de poblado” (end of town) sign. You go on along a conventional road with no speed signs. You drive a car. What is your maximum?",
+                  "q": "You leave a village and pass this sign. You go on along a conventional road with no speed signs. You drive a car. What is your maximum?",
                   "options": [
                     "90 km/h, the default for that road",
                     "50 km/h until the next speed sign",
@@ -224,7 +225,8 @@
                     "en": "passenger car"
                   }
                 ],
-                "src": "RGC Anexo I, ap. 5.1 (S-510); RGC art. 48.1.a"
+                "src": "RGC Anexo I, ap. 5.1 (S-510); RGC art. 48.1.a",
+                "sign": "s-510"
               }
             }
           ]

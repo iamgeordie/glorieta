@@ -1141,7 +1141,7 @@
         "id": "signs-pre-2",
         "answer": 2,
         "es": {
-          "q": "Antes de un paso a nivel ves un poste blanco con tres franjas rojas inclinadas. ¿A qué distancia está el paso?",
+          "q": "Antes de un paso a nivel ves este poste. ¿A qué distancia está el paso?",
           "options": [
             "100 m",
             "150 m",
@@ -1150,7 +1150,7 @@
           "why": "Tres franjas indican 200 m, dos franjas 150 m y una franja 100 m."
         },
         "en": {
-          "q": "Before a level crossing you see a white post with three slanted red stripes. How far away is the crossing?",
+          "q": "Before a level crossing you see this post. How far away is the crossing?",
           "options": [
             "100 m",
             "150 m",
@@ -1158,7 +1158,8 @@
           ],
           "why": "Three stripes mean 200 m, two stripes 150 m and one stripe 100 m."
         },
-        "src": "Catálogo oficial (señales P-9 y P-10)"
+        "src": "Catálogo oficial (señales P-9 y P-10)",
+        "sign": "p-9a"
       },
       "steps": [
         {
@@ -1761,7 +1762,7 @@
                 "id": "signs-warn-f",
                 "answer": 2,
                 "es": {
-                  "q": "Ves un poste con dos franjas rojas inclinadas antes de un paso a nivel. ¿A qué distancia está?",
+                  "q": "Ves este poste antes de un paso a nivel. ¿A qué distancia está?",
                   "options": [
                     "100 m",
                     "200 m",
@@ -1770,7 +1771,7 @@
                   "why": "Dos franjas indican 150 m. Con tres franjas son 200 m y con una franja, 100 m."
                 },
                 "exam": {
-                  "q": "You see a post with two inclined red stripes before a level crossing. At which distance is it?",
+                  "q": "You see this post before a level crossing. At which distance is it?",
                   "options": [
                     "100 m.",
                     "200 m.",
@@ -1778,7 +1779,7 @@
                   ]
                 },
                 "en": {
-                  "q": "You see a post with two slanted red stripes before a level crossing. How far away is it?",
+                  "q": "You see this post before a level crossing. How far away is it?",
                   "options": [
                     "100 m",
                     "200 m",
@@ -1792,7 +1793,8 @@
                     "en": "marker post"
                   }
                 ],
-                "src": "Catálogo oficial (señales P-9 y P-10)"
+                "src": "Catálogo oficial (señales P-9 y P-10)",
+                "sign": "p-9b"
               }
             }
           ]
@@ -2108,7 +2110,7 @@
                 "id": "signs-road-a",
                 "answer": 1,
                 "es": {
-                  "q": "En una señal de peligro por pendiente fuerte aparece una cifra con el signo %. ¿Qué indica?",
+                  "q": "En esta señal aparece una cifra con el signo %. ¿Qué indica?",
                   "options": [
                     "La velocidad máxima recomendada",
                     "La inclinación de la pendiente",
@@ -2117,7 +2119,7 @@
                   "why": "En las señales P-16 la cifra indica la inclinación de la pendiente, en porcentaje."
                 },
                 "exam": {
-                  "q": "In a danger sign by strong slope appears a figure with the sign %. What does it indicate?",
+                  "q": "In this sign appears a figure with the sign %. What does it indicate?",
                   "options": [
                     "The maximum recommended speed.",
                     "The inclination of the slope.",
@@ -2125,7 +2127,7 @@
                   ]
                 },
                 "en": {
-                  "q": "A warning sign for a steep slope shows a number with the % sign. What does it show?",
+                  "q": "This sign shows a number with the % sign. What does it show?",
                   "options": [
                     "The recommended maximum speed",
                     "The steepness of the slope",
@@ -2139,7 +2141,8 @@
                     "en": "slope"
                   }
                 ],
-                "src": "Catálogo oficial (señales P-16)"
+                "src": "Catálogo oficial (señales P-16)",
+                "sign": "p-16a"
               }
             },
             {
@@ -2580,6 +2583,7 @@
               "t": "signs",
               "ids": [
                 "p-21a",
+                "p-21b",
                 "p-22a",
                 "p-22b"
               ],
@@ -2729,7 +2733,7 @@
                 "id": "signs-road-y",
                 "answer": 0,
                 "es": {
-                  "q": "Ves la señal de peligro «Personas con dificultades motrices». ¿Qué debes hacer?",
+                  "q": "Ves esta señal de peligro. ¿Qué debes hacer?",
                   "options": [
                     "Extremar la precaución: cerca acuden personas que pueden moverse o reaccionar despacio",
                     "Detenerte siempre ante la señal y ceder el paso",
@@ -2738,7 +2742,7 @@
                   "why": "Es una señal de peligro: avisa de un lugar frecuentado por personas con dificultades motrices o sensoriales. No obliga a parar, pero sí a moderar la velocidad y a estar atento."
                 },
                 "exam": {
-                  "q": "You see the danger sign «Persons with motor difficulties». What must you do?",
+                  "q": "You see this danger sign. What must you do?",
                   "options": [
                     "To take extreme precaution: nearby there come persons who can move or react slowly.",
                     "To stop always before the sign and yield way.",
@@ -2746,7 +2750,7 @@
                   ]
                 },
                 "en": {
-                  "q": "You see the “Personas con dificultades motrices” warning sign. What should you do?",
+                  "q": "You see this warning sign. What should you do?",
                   "options": [
                     "Take extra care: people who may move or react slowly come here",
                     "Always stop at the sign and give way",
@@ -2768,7 +2772,8 @@
                     "en": "take extreme precaution"
                   }
                 ],
-                "src": "RGC Anexo I, ap. 5.1, 3.1 (P-21b)"
+                "src": "RGC Anexo I, ap. 5.1, 3.1 (P-21b)",
+                "sign": "p-21b"
               }
             },
             {
@@ -6907,7 +6912,8 @@
                 "s-17",
                 "s-126",
                 "s-123",
-                "s-113"
+                "s-113",
+                "s-129"
               ]
             },
             {
@@ -7015,7 +7021,7 @@
                 "id": "signs-ind-n",
                 "answer": 0,
                 "es": {
-                  "q": "¿Qué indica la señal de «Estacionamiento de emergencia por nevadas»?",
+                  "q": "¿Qué indica esta señal?",
                   "options": [
                     "Un aparcamiento para usar cuando nieva y, excepcionalmente, por otras incidencias",
                     "Que es obligatorio llevar cadenas desde allí",
@@ -7024,7 +7030,7 @@
                   "why": "S-129 indica dónde está un estacionamiento de emergencia por nevadas que, de forma excepcional, también se usa por otras incidencias."
                 },
                 "exam": {
-                  "q": "What does the “emergency parking due to snowfalls” sign indicate?",
+                  "q": "What does this sign indicate?",
                   "options": [
                     "A parking for use when it snows and, exceptionally, for other incidents.",
                     "That it is mandatory to carry chains from there.",
@@ -7032,7 +7038,7 @@
                   ]
                 },
                 "en": {
-                  "q": "What does the “snow emergency parking” sign mean?",
+                  "q": "What does this sign mean?",
                   "options": [
                     "A car park for use when it snows and, exceptionally, for other incidents",
                     "Snow chains are compulsory from there on",
@@ -7050,7 +7056,8 @@
                     "en": "incident"
                   }
                 ],
-                "src": "RGC Anexo I, ap. 5.1, 3.10 (S-129)"
+                "src": "RGC Anexo I, ap. 5.1, 3.10 (S-129)",
+                "sign": "s-129"
               }
             },
             {
