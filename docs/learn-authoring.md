@@ -104,7 +104,8 @@ node -e "const s=require('./src/data/signs.json');for(const x of s)console.log(x
 ## Voice
 
 - **Spanish at about B1.** Sentences of 20 words or fewer, active voice, one idea each, familiar
-  words. Address the learner as *tú* ("cedes el paso", "mira a la izquierda"). The official legal word
+  words. In lesson text and in a check's `why`, address the learner as *tú* ("cedes el paso", "mira a la
+  izquierda"). A check's question and options use the exam's register instead (see "Check questions"). The official legal word
   goes in **bold** the first time, with its plain explanation next to it ("**ceder el paso** = dejar
   pasar primero"). Avoid long chains of -mente adverbs and subjunctive pile-ups.
 - **English plain and American.** Work, color, meter. Not a word-for-word shadow of the Spanish: say it
@@ -184,6 +185,30 @@ questions, not lesson comprehension prompts.
   convention. `terms` lists the Spanish words the question teaches, each with its English.
 - **Spread the correct answer across positions.** The validator fails a module where more than half
   the checks put the answer in one slot.
+- **Exam register.** The exam never says *tú*. Write a check's `es.q` and `es.options` with *usted*
+  ("¿Puede adelantar?", "su carril", "le adelanta") or impersonally ("El conductor debe…", "¿Está
+  permitido…?"). The validator rejects *tú* forms there. The `why` keeps the teaching voice.
+- **The longest option must not give the answer away.** In the exam the correct option is the longest
+  less than half the time. Make wrong options as specific as the right one (a plausible wrong
+  condition, a wrong reason), or trim the right one. The validator fails a module where the correct
+  option is the longest in more than 55% of its checks.
+- **Use the exam's forms.** Real questions turn a known rule into a trap through their form. Spread
+  these across a module (`node scripts/question-style.mjs <module>` shows each one's share, next to a
+  practice bank that follows the DGT's wording):
+
+  | Form | Example (ours) |
+  |---|---|
+  | A bare "No." or "Sí." is the answer, beside wrong options with good-sounding reasons | ¿Puede circular marcha atrás por una autovía? "No." |
+  | Several "Sí, …" (or "No, …") options that differ in where, when or why | "Sí, en todo tipo de vías." / "Sí, pero solo fuera de poblado." |
+  | NO in capitals: two options are true and the answer is the false one | ¿Cuál de estos elementos NO está obligado a llevar? |
+  | A half sentence ending in "…", finished by lowercase options | Como norma general, los ocupantes… |
+  | "Como norma general": the answer is the rule, and a wrong option states an exception as the rule | |
+  | Advice versus duty: "¿Es obligatorio…?" where the trap is DGT advice | "No, pero la DGT lo aconseja." |
+  | "X y Y" beside "solo X" and "solo Y" | "la baliza V-16 y las luces de emergencia." |
+  | A right claim with a false "y además…" | |
+  | Look-alike terms that share their first words | distancia de frenado / de detención / de reacción |
+
+  The exam-language module's lesson "How a question is built" teaches each form to the learner.
 - **Do not duplicate** an existing bank question. Test the same rule from a new angle. The pretest is
   not added to the bank; it needs an `id` but a pretest id must still be unique (use `-pre-1`).
 

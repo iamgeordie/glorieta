@@ -372,20 +372,20 @@
                 "id": "examlang-parada",
                 "answer": 2,
                 "es": {
-                  "q": "Inmovilizas el coche un minuto junto a la acera para que baje un pasajero, sin salir tú del vehículo. En el lenguaje del examen, ¿cómo se llama eso?",
+                  "q": "Un conductor inmoviliza el coche un minuto junto a la acera para que baje un pasajero, sin salir del vehículo. En el lenguaje del examen, eso es una…",
                   "options": [
-                    "Detención",
-                    "Estacionamiento",
-                    "Parada"
+                    "detención.",
+                    "estacionamiento.",
+                    "parada."
                   ],
                   "why": "Eso es la parada. La detención es por emergencia, necesidades de la circulación o una norma. El estacionamiento es todo lo demás."
                 },
                 "exam": {
-                  "q": "You immobilise the car one minute next to the pavement so that a passenger gets out, without you leaving the vehicle. In the language of the exam, how is that called?",
+                  "q": "A driver immobilises the car one minute next to the pavement so that a passenger gets out, without leaving the vehicle. In the language of the exam, that is a…",
                   "options": [
-                    "Detention.",
-                    "Parking.",
-                    "Stop."
+                    "detention.",
+                    "parking.",
+                    "stop."
                   ]
                 },
                 "en": {
@@ -2972,7 +2972,7 @@
                 "id": "examlang-remolque-ligero",
                 "answer": 0,
                 "es": {
-                  "q": "Tu turismo arrastra un remolque de 600 kg de MMA. ¿Cómo lo llama la ley?",
+                  "q": "Su turismo arrastra un remolque de 600 kg de MMA. ¿Cómo lo llama la ley?",
                   "options": [
                     "Remolque ligero",
                     "Semirremolque",
@@ -6187,7 +6187,7 @@
                 "id": "examlang-insuficiente",
                 "answer": 1,
                 "es": {
-                  "q": "Una vía se considera insuficientemente iluminada si, en algún punto de su calzada y con vista normal, no puedes leer una placa de matrícula a:",
+                  "q": "Una vía se considera insuficientemente iluminada si, en algún punto de su calzada y con vista normal, no se puede leer una placa de matrícula a…",
                   "options": [
                     "50 metros",
                     "10 metros",
@@ -6196,7 +6196,7 @@
                   "why": "Es la definición del reglamento: no lees una matrícula a 10 metros o no distingues un vehículo oscuro a 50 metros. Los 50 metros son para el vehículo, no para la matrícula."
                 },
                 "exam": {
-                  "q": "A road is considered insufficiently illuminated if, at some point of its carriageway and with normal sight, you cannot read a registration plate at:",
+                  "q": "A road is considered insufficiently illuminated if, at some point of its carriageway and with normal sight, it is not possible to read a registration plate at…",
                   "options": [
                     "50 metres.",
                     "10 metres.",
@@ -6734,7 +6734,7 @@
                 "id": "examlang-casco-homologado",
                 "answer": 0,
                 "es": {
-                  "q": "Conduces una motocicleta. ¿Qué dispositivo de comunicación permite la norma mientras circulas?",
+                  "q": "Si conduce una motocicleta, ¿qué dispositivo de comunicación permite la norma mientras circula?",
                   "options": [
                     "Uno inalámbrico homologado, integrado en el casco, para intercomunicación o navegación",
                     "Un auricular con cable en un solo oído, bajo el casco",
@@ -6743,7 +6743,7 @@
                   "why": "La excepción es para dispositivos inalámbricos certificados u homologados integrados en el casco, solo para intercomunicación o navegación y siempre que no afecten a la seguridad. Los auriculares y el móvil en la mano siguen prohibidos."
                 },
                 "exam": {
-                  "q": "You drive a motorcycle. Which device of communication does the norm permit while you circulate?",
+                  "q": "If you drive a motorcycle, which device of communication does the norm permit while you circulate?",
                   "options": [
                     "A wireless homologated one, integrated in the helmet, for intercommunication or navigation.",
                     "An earphone with cable in only one ear, under the helmet.",
@@ -7437,7 +7437,7 @@
                 "id": "examlang-asiento-delantero",
                 "answer": 0,
                 "es": {
-                  "q": "Tu hija mide 125 cm. Vais en un coche de dos plazas, sin asientos traseros. ¿Puede viajar delante?",
+                  "q": "Su hija mide 125 cm y viajan en un coche de dos plazas, sin asientos traseros. ¿Puede viajar delante?",
                   "options": [
                     "Sí, excepcionalmente, en un sistema de retención adecuado",
                     "Sí, siempre que el trayecto sea corto",
@@ -7446,7 +7446,7 @@
                   "why": "Las excepciones son tres: no hay asientos traseros, todos los traseros están ocupados por menores, o no se pueden instalar allí todos los sistemas. Marearse o hacer un viaje corto no cuentan."
                 },
                 "exam": {
-                  "q": "Your daughter measures 125 cm. You go in a car of two seats, without rear seats. Can she travel in front?",
+                  "q": "Your daughter measures 125 cm and you travel in a car of two seats, without rear seats. Can she travel in front?",
                   "options": [
                     "Yes, exceptionally, in a suitable restraint system.",
                     "Yes, provided that the journey is short.",
@@ -7730,6 +7730,627 @@
       "src": [
         "Reglamento General de Circulación (RD 1428/2003), arts. 16, 94.1.g, 94.2 y 117.1 y 117.3",
         "Ley de Tráfico y Seguridad Vial (RDL 6/2015), Anexo I, punto 81"
+      ]
+    },
+    {
+      "id": "question-forms",
+      "title": {
+        "es": "Cómo se construye una pregunta",
+        "en": "How a question is built"
+      },
+      "minutes": 7,
+      "goals": [
+        {
+          "es": "Entender a quién se dirige el examen: «usted», «debe», «su vehículo».",
+          "en": "Understand who the exam is talking to: «usted», «debe», «su vehículo»."
+        },
+        {
+          "es": "Elegir entre varias respuestas que empiezan por «Sí» o por «No».",
+          "en": "Choose between several answers that start with «Sí» or with «No»."
+        },
+        {
+          "es": "Leer bien una pregunta con NO en mayúsculas o con «como norma general».",
+          "en": "Read a question with NO in capitals or with «como norma general» correctly."
+        },
+        {
+          "es": "Separar lo obligatorio de lo aconsejable, y la respuesta completa de la incompleta.",
+          "en": "Tell what is required from what is advised, and the complete answer from the incomplete one."
+        }
+      ],
+      "terms": [
+        {
+          "es": "usted",
+          "en": "you (formal)"
+        },
+        {
+          "es": "su",
+          "en": "your (formal)"
+        },
+        {
+          "es": "como norma general",
+          "en": "as a general rule"
+        },
+        {
+          "es": "aconsejable",
+          "en": "advisable"
+        },
+        {
+          "es": "obligatorio",
+          "en": "mandatory"
+        },
+        {
+          "es": "NO",
+          "en": "NOT (in capitals)"
+        },
+        {
+          "es": "solo",
+          "en": "only"
+        }
+      ],
+      "pretest": {
+        "id": "examlang-pre-3",
+        "answer": 0,
+        "es": {
+          "q": "En el examen lee: «¿Debe ceder el paso?». ¿A quién se refiere «debe»?",
+          "options": [
+            "A usted, el conductor",
+            "A otro conductor de la imagen",
+            "A un agente de tráfico"
+          ],
+          "why": "El examen trata de «usted» al candidato. «Debe» es «usted debe»: la pregunta habla de ti."
+        },
+        "en": {
+          "q": "The exam says: “¿Debe ceder el paso?” Who does “debe” refer to?",
+          "options": [
+            "You, the driver",
+            "Another driver in the picture",
+            "A traffic officer"
+          ],
+          "why": "The exam addresses the candidate as “usted”. “Debe” means “you must”: the question is about you."
+        },
+        "src": "Convención del examen: tratamiento de usted"
+      },
+      "steps": [
+        {
+          "title": {
+            "es": "El examen te habla de «usted»",
+            "en": "The exam calls you «usted»"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "El examen nunca te tutea. Usa **usted**, y el verbo va en tercera persona: «¿Puede adelantar?» es «can you overtake?». «Su vehículo» es tu vehículo, no el de otra persona.",
+                "en": "The exam never uses “tú”. It uses **usted**, with the verb in the third person: “¿Puede adelantar?” is “can you overtake?”. “Su vehículo” is your vehicle, not someone else’s."
+              }
+            },
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "En el examen",
+                  "en": "In the exam"
+                },
+                {
+                  "es": "Significa",
+                  "en": "Means"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "¿Puede…? ¿Debe…?",
+                    "en": "¿Puede…? ¿Debe…?"
+                  },
+                  {
+                    "es": "¿Puedes…? ¿Debes…?",
+                    "en": "Can you…? Must you…?"
+                  }
+                ],
+                [
+                  {
+                    "es": "su vehículo, su carril",
+                    "en": "su vehículo, su carril"
+                  },
+                  {
+                    "es": "tu vehículo, tu carril",
+                    "en": "your vehicle, your lane"
+                  }
+                ],
+                [
+                  {
+                    "es": "le adelanta",
+                    "en": "le adelanta"
+                  },
+                  {
+                    "es": "te adelanta",
+                    "en": "overtakes you"
+                  }
+                ],
+                [
+                  {
+                    "es": "el conductor debe…",
+                    "en": "el conductor debe…"
+                  },
+                  {
+                    "es": "tú, como conductor, debes…",
+                    "en": "you, as the driver, must…"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "La respuesta correcta no es la más larga. Muchas veces es un simple «No.», y las incorrectas dan razones que suenan bien. Lee cada opción como una frase entera y pregúntate si es verdad.",
+                "en": "The right answer is not the longest one. Often it is a plain “No.”, and the wrong ones give reasons that sound good. Read each option as a full sentence and ask whether it is true."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "examlang-qf-bare",
+                "answer": 0,
+                "es": {
+                  "q": "¿Puede circular marcha atrás por una autovía para volver a una salida que se ha pasado?",
+                  "options": [
+                    "No.",
+                    "Sí, por el arcén y con las luces de emergencia encendidas.",
+                    "Sí, si recorre como máximo 15 metros."
+                  ],
+                  "why": "En autopistas y autovías la marcha atrás está prohibida siempre. El límite de 15 metros es para otras vías, como maniobra complementaria de una parada o un estacionamiento. Si te pasas la salida, sigue hasta la siguiente."
+                },
+                "exam": {
+                  "q": "Can you circulate in reverse gear by a dual carriageway in order to return to an exit that you have passed?",
+                  "options": [
+                    "No.",
+                    "Yes, by the hard shoulder and with the emergency lights switched on.",
+                    "Yes, if you travel 15 metres as a maximum."
+                  ]
+                },
+                "en": {
+                  "q": "May you reverse on an autovía to get back to an exit you have passed?",
+                  "options": [
+                    "No.",
+                    "Yes, on the shoulder with the hazard lights on.",
+                    "Yes, if you go back 15 meters at most."
+                  ],
+                  "why": "Reversing is always prohibited on autopistas and autovías. The 15-meter limit applies on other roads, as part of stopping or parking. If you miss the exit, go on to the next one."
+                },
+                "terms": [
+                  {
+                    "es": "marcha atrás",
+                    "en": "reversing"
+                  }
+                ],
+                "src": "RGC art. 80.2 y 80.3"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Varios «Sí»: ¿cuál es el bueno?",
+            "en": "Several “Yes” answers: which one is right?"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Muchas preguntas tienen dos o tres respuestas que empiezan por «Sí». Se diferencian en lo que viene después: **dónde**, **cuándo** o **por qué**. Una amplía la norma, otra la recorta y solo una la dice exacta.",
+                "en": "Many questions have two or three answers that start with “Sí”. What comes next is the difference: **where**, **when** or **why**. One stretches the rule, one cuts it short, and only one states it exactly."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los conductores y pasajeros de ciclomotores deben llevar casco homologado y abrochado **en todo tipo de vías**.",
+                "en": "Moped riders and passengers must wear an approved, fastened helmet **on every kind of road**."
+              },
+              "src": "RGC art. 118.1.a"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "examlang-qf-which-yes",
+                "answer": 0,
+                "es": {
+                  "q": "¿Debe llevar casco el conductor de un ciclomotor que circula por una calle de la ciudad?",
+                  "options": [
+                    "Sí, en todo tipo de vías.",
+                    "Sí, pero solo fuera de poblado.",
+                    "No, si no supera los 45 km/h."
+                  ],
+                  "why": "El casco es obligatorio en todo tipo de vías, también dentro de la ciudad. «Solo fuera de poblado» recorta la norma."
+                },
+                "exam": {
+                  "q": "Must the driver of a moped that circulates by a street of the city wear a helmet?",
+                  "options": [
+                    "Yes, in every type of road.",
+                    "Yes, but only out of the town.",
+                    "No, if he does not exceed 45 km/h."
+                  ]
+                },
+                "en": {
+                  "q": "Must a moped rider wear a helmet on a city street?",
+                  "options": [
+                    "Yes, on every kind of road.",
+                    "Yes, but only outside towns.",
+                    "No, if they do not go over 45 km/h."
+                  ],
+                  "why": "The helmet is mandatory on every kind of road, in the city too. “Only outside towns” cuts the rule short."
+                },
+                "terms": [
+                  {
+                    "es": "ciclomotor",
+                    "en": "moped"
+                  },
+                  {
+                    "es": "casco",
+                    "en": "helmet"
+                  }
+                ],
+                "src": "RGC art. 118.1.a"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Varios «No»: la razón decide",
+            "en": "Several “No” answers: the reason decides"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Lo mismo pasa con «No». Si dos respuestas dicen «No», lee la razón: una suele ser falsa, aunque la respuesta corta sea la buena.",
+                "en": "The same goes for “No”. If two answers say “No”, read the reason: one is usually false, even when the short answer is right."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Después de un accidente está prohibido rellenar el parte en la plataforma de circulación. Se hace en un lugar seguro fuera de la vía.",
+                "en": "After a crash, filling in the accident report on the roadway and shoulders is prohibited. It is done in a safe place off the road."
+              },
+              "src": "RGC art. 130.5"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "examlang-qf-which-no",
+                "answer": 1,
+                "es": {
+                  "q": "Tras un golpe leve en una carretera, ¿puede rellenar el parte de accidente en el arcén, junto a los vehículos?",
+                  "options": [
+                    "No, solo pueden rellenarlo los agentes de tráfico.",
+                    "No, debe hacerlo en un lugar seguro fuera de la vía.",
+                    "Sí, si antes enciende las luces de emergencia."
+                  ],
+                  "why": "Rellenar el parte en la calzada o el arcén está prohibido; se hace fuera de la vía, en un lugar seguro. Los propios conductores pueden rellenarlo: no hace falta un agente."
+                },
+                "exam": {
+                  "q": "After a slight knock on a road, can you fill in the accident report on the hard shoulder, next to the vehicles?",
+                  "options": [
+                    "No, only the traffic agents can fill it in.",
+                    "No, you must do it in a safe place outside the road.",
+                    "Yes, if before you switch on the emergency lights."
+                  ]
+                },
+                "en": {
+                  "q": "After a minor collision on a highway, may you fill in the accident report on the shoulder, next to the vehicles?",
+                  "options": [
+                    "No, only traffic officers can fill it in.",
+                    "No, you must do it in a safe place off the road.",
+                    "Yes, if you turn on the hazard lights first."
+                  ],
+                  "why": "Filling in the report on the roadway or the shoulder is prohibited; it is done off the road, in a safe place. The drivers themselves can fill it in: no officer is needed."
+                },
+                "terms": [
+                  {
+                    "es": "parte de accidente",
+                    "en": "accident report"
+                  }
+                ],
+                "src": "RGC art. 130.5"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "NO en mayúsculas",
+            "en": "NO in capitals"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Cuando la pregunta lleva **NO** en mayúsculas, dos respuestas son verdad y la buena es la que **no** lo es. Lee las tres y descarta las dos que cumplen la norma.",
+                "en": "When the question has **NO** in capitals, two answers are true and the right one is the one that is **not**. Read all three and rule out the two that meet the rule."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "En un ciclomotor, el casco y el calzado cerrado son obligatorios en todo tipo de vías. Los guantes de protección, solo en vías interurbanas.",
+                "en": "On a moped, the helmet and closed footwear are mandatory on every kind of road. Protective gloves only on interurban roads."
+              },
+              "src": "RGC art. 118.1"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "examlang-qf-not",
+                "answer": 2,
+                "es": {
+                  "q": "Circula en ciclomotor por una calle de la ciudad. ¿Cuál de estos elementos NO está obligado a llevar?",
+                  "options": [
+                    "Casco homologado y abrochado.",
+                    "Calzado cerrado que cubra todo el pie.",
+                    "Guantes de protección."
+                  ],
+                  "why": "Dentro de la ciudad el casco y el calzado cerrado son obligatorios; los guantes solo lo son en vías interurbanas (desde el 1 de octubre de 2026)."
+                },
+                "exam": {
+                  "q": "You circulate on a moped by a street of the city. Which of these elements are you NOT obliged to wear?",
+                  "options": [
+                    "Homologated and fastened helmet.",
+                    "Closed footwear that covers all the foot.",
+                    "Protection gloves."
+                  ]
+                },
+                "en": {
+                  "q": "You ride a moped on a city street. Which of these do you NOT have to wear?",
+                  "options": [
+                    "An approved, fastened helmet.",
+                    "Closed shoes that cover the whole foot.",
+                    "Protective gloves."
+                  ],
+                  "why": "In the city the helmet and closed footwear are mandatory; gloves are mandatory only on interurban roads (since October 1, 2026)."
+                },
+                "terms": [
+                  {
+                    "es": "guantes",
+                    "en": "gloves"
+                  },
+                  {
+                    "es": "calzado cerrado",
+                    "en": "closed footwear"
+                  }
+                ],
+                "src": "RGC art. 118.1.b y 118.1.c"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "«Como norma general» y la frase a medias",
+            "en": "“Como norma general” and the half sentence"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "**Como norma general** te pide la regla, no su excepción. Si una respuesta describe la excepción como si fuera la regla, es falsa. Muchas preguntas, además, son una frase a medias que acaba en «…»: termina la frase con cada opción y léela entera.",
+                "en": "**Como norma general** asks for the rule, not its exception. If an answer states the exception as if it were the rule, it is wrong. Many questions are also half a sentence ending in “…”: finish the sentence with each option and read it whole."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Como norma general, si el vehículo queda inmovilizado sin poder seguir, los ocupantes deben salir por el lado contrario al tráfico, siempre que haya un lugar seguro fuera de la vía. Si no pueden salir con seguridad, se quedan dentro con el cinturón abrochado.",
+                "en": "As a general rule, if the vehicle is stuck and cannot go on, the occupants must get out on the side away from traffic, provided there is a safe place off the road. If they cannot get out safely, they stay inside with their belts fastened."
+              },
+              "src": "RGC art. 130.3"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "examlang-qf-general",
+                "answer": 0,
+                "es": {
+                  "q": "Como norma general, si su vehículo queda inmovilizado por una avería y no puede seguir, los ocupantes…",
+                  "options": [
+                    "deben salir por el lado contrario al tráfico, si hay un lugar seguro fuera de la vía.",
+                    "deben quedarse dentro con el cinturón abrochado hasta que llegue la grúa.",
+                    "pueden esperar de pie en el arcén, detrás del vehículo."
+                  ],
+                  "why": "La regla general es salir, por el lado contrario al tráfico, a un lugar seguro fuera de la vía. Quedarse dentro con el cinturón es la excepción, cuando no se puede salir con seguridad."
+                },
+                "exam": {
+                  "q": "As a general norm, if your vehicle remains immobilised by a breakdown and cannot continue, the occupants…",
+                  "options": [
+                    "must leave by the side contrary to the traffic, if there is a safe place outside the road.",
+                    "must stay inside with the belt fastened until the tow truck arrives.",
+                    "can wait standing on the hard shoulder, behind the vehicle."
+                  ]
+                },
+                "en": {
+                  "q": "As a general rule, if your vehicle breaks down and cannot go on, the occupants…",
+                  "options": [
+                    "must get out on the side away from traffic, if there is a safe place off the road.",
+                    "must stay inside with their belts fastened until the tow truck arrives.",
+                    "may wait standing on the shoulder, behind the vehicle."
+                  ],
+                  "why": "The general rule is to get out, on the side away from traffic, to a safe place off the road. Staying inside with belts fastened is the exception, when getting out is not safe."
+                },
+                "terms": [
+                  {
+                    "es": "inmovilizado",
+                    "en": "stuck, immobilized"
+                  },
+                  {
+                    "es": "ocupantes",
+                    "en": "occupants"
+                  }
+                ],
+                "src": "RGC art. 130.3"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Obligatorio o aconsejable",
+            "en": "Mandatory or advisable"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "El examen mezcla a propósito lo que **manda la ley** y lo que **aconseja la DGT**. Si la pregunta dice «¿es obligatorio…?», un consejo, por bueno que sea, no la convierte en «Sí».",
+                "en": "The exam mixes on purpose what **the law requires** and what **the DGT advises**. If the question says “¿es obligatorio…?”, a piece of advice, however good, does not make the answer “Yes”."
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "La DGT recomienda parar cada **2 horas** o cada **200 km** y descansar al menos 20 o 30 minutos. Para el conductor de un turismo particular es un consejo: los tiempos de conducción obligatorios son para el transporte profesional.",
+                "en": "The DGT advises stopping every **2 hours** or every **200 km** and resting for at least 20 or 30 minutes. For the driver of a private car it is advice: mandatory driving times apply to professional transport."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "examlang-qf-advice",
+                "answer": 2,
+                "es": {
+                  "q": "¿Es obligatorio, para el conductor de un turismo particular, parar a descansar cada dos horas?",
+                  "options": [
+                    "Sí, al menos 20 minutos cada dos horas.",
+                    "Sí, salvo en autopistas y autovías.",
+                    "No, pero la DGT lo aconseja."
+                  ],
+                  "why": "Parar cada 2 horas o 200 km es una recomendación de la DGT, no una obligación legal para un turismo particular. Hazlo igualmente: la fatiga llega antes de que la notes."
+                },
+                "exam": {
+                  "q": "Is it obligatory, for the driver of a private passenger car, to stop for resting every two hours?",
+                  "options": [
+                    "Yes, at least 20 minutes every two hours.",
+                    "Yes, except on motorways and dual carriageways.",
+                    "No, but the DGT advises it."
+                  ]
+                },
+                "en": {
+                  "q": "Is the driver of a private car required to stop and rest every two hours?",
+                  "options": [
+                    "Yes, for at least 20 minutes every two hours.",
+                    "Yes, except on autopistas and autovías.",
+                    "No, but the DGT advises it."
+                  ],
+                  "why": "Stopping every 2 hours or 200 km is DGT advice, not a legal duty for a private car. Do it anyway: fatigue arrives before you notice it."
+                },
+                "terms": [
+                  {
+                    "es": "aconsejable",
+                    "en": "advisable"
+                  },
+                  {
+                    "es": "obligatorio",
+                    "en": "mandatory"
+                  }
+                ],
+                "src": "DGT guidance"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "La respuesta completa",
+            "en": "The complete answer"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "A veces una opción junta dos cosas («X y Y») y las otras dan cada una por separado. Comprueba si la norma pide las dos. Si pide las dos, «solo X» está incompleta; si pide una, «X y Y» añade algo que sobra.",
+                "en": "Sometimes one option joins two things (“X and Y”) and the others give each one alone. Check whether the rule asks for both. If it does, “only X” is incomplete; if it asks for one, “X and Y” adds something extra."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si el vehículo queda inmovilizado por accidente o avería, el conductor enciende la luz de emergencia, si el vehículo la lleva, y además debe usar el dispositivo de preseñalización de peligro reglamentario: la baliza V-16.",
+                "en": "If the vehicle is stuck after a crash or breakdown, the driver turns on the hazard lights, if the vehicle has them, and must also use the approved advance warning device: the V-16 beacon."
+              },
+              "src": "RGC art. 130.4"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "examlang-qf-both",
+                "answer": 1,
+                "es": {
+                  "q": "Su turismo queda inmovilizado por una avería en la calzada de una carretera. Para advertirlo, debe usar…",
+                  "options": [
+                    "solo las luces de emergencia.",
+                    "la baliza V-16 y las luces de emergencia.",
+                    "solo la baliza V-16, colocada en el techo."
+                  ],
+                  "why": "La norma pide las dos cosas: la luz de emergencia y el dispositivo de preseñalización, que es la baliza V-16. Cada opción con «solo» está incompleta."
+                },
+                "exam": {
+                  "q": "Your passenger car remains immobilised by a breakdown in the carriageway of a road. In order to warn of it, you must use…",
+                  "options": [
+                    "only the emergency lights.",
+                    "the V-16 beacon and the emergency lights.",
+                    "only the V-16 beacon, placed on the roof."
+                  ]
+                },
+                "en": {
+                  "q": "Your car breaks down on the roadway of a highway. To warn others, you must use…",
+                  "options": [
+                    "only the hazard lights.",
+                    "the V-16 beacon and the hazard lights.",
+                    "only the V-16 beacon, placed on the roof."
+                  ],
+                  "why": "The rule asks for both: the hazard lights and the advance warning device, which is the V-16 beacon. Each option with “only” is incomplete."
+                },
+                "terms": [
+                  {
+                    "es": "baliza V-16",
+                    "en": "V-16 beacon"
+                  },
+                  {
+                    "es": "luces de emergencia",
+                    "en": "hazard lights"
+                  }
+                ],
+                "src": "RGC art. 130.4"
+              }
+            }
+          ]
+        }
+      ],
+      "recap": [
+        {
+          "es": "El examen te trata de «usted»: «¿Puede…?» es «¿puedes…?» y «su vehículo» es el tuyo.",
+          "en": "The exam calls you “usted”: “¿Puede…?” means “can you…?” and “su vehículo” is yours."
+        },
+        {
+          "es": "La respuesta correcta no es la más larga; a veces es un simple «No.».",
+          "en": "The right answer is not the longest; sometimes it is a plain “No.”."
+        },
+        {
+          "es": "Con varios «Sí» o varios «No», decide lo que viene después: dónde, cuándo o por qué.",
+          "en": "With several “Sí” or several “No” answers, what comes next decides: where, when or why."
+        },
+        {
+          "es": "NO en mayúsculas: busca la única falsa. «Como norma general»: busca la regla, no la excepción.",
+          "en": "NO in capitals: find the one false answer. “Como norma general”: find the rule, not the exception."
+        },
+        {
+          "es": "Obligatorio no es aconsejable. «X y Y» frente a «solo X»: comprueba si la norma pide las dos.",
+          "en": "Mandatory is not advisable. “X and Y” against “only X”: check whether the rule asks for both."
+        }
+      ],
+      "src": [
+        "Reglamento General de Circulación (RD 1428/2003), arts. 80, 118 y 130",
+        "DGT: recomendaciones sobre la fatiga"
       ]
     }
   ]

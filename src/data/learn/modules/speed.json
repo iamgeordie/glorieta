@@ -182,30 +182,30 @@
                 "id": "speed-towns-c5",
                 "answer": 0,
                 "es": {
-                  "q": "Sales de un pueblo y pasas esta señal. Sigues por una carretera convencional sin señales de velocidad. Conduces un turismo. ¿Cuál es tu máximo?",
+                  "q": "Un turismo sale de un poblado y pasa esta señal. Sigue por una carretera convencional sin señales de velocidad. ¿Puede circular a 90 km/h?",
                   "options": [
-                    "90 km/h, el genérico de esa carretera",
-                    "50 km/h hasta la próxima señal de velocidad",
-                    "70 km/h, hasta dejar atrás todas las casas"
+                    "Sí: desde esa señal rige el límite genérico de la vía",
+                    "No: debe seguir a 50 km/h hasta encontrar una señal de velocidad",
+                    "Sí, pero solo cuando haya dejado atrás todas las casas"
                   ],
-                  "why": "La señal de «Fin de poblado» marca dónde dejan de aplicarse las normas de poblado. Desde ahí rige el límite genérico de la vía: 90 km/h para un turismo en carretera convencional."
+                  "why": "Sí, desde la misma señal. La señal de «Fin de poblado» marca dónde dejan de aplicarse las normas de poblado. Desde ahí rige el límite genérico de la vía: 90 km/h para un turismo en carretera convencional."
                 },
                 "exam": {
-                  "q": "You leave a village and pass this sign. You continue by a conventional road without speed signs. You drive a passenger car. Which is your maximum?",
+                  "q": "A passenger car leaves a town and passes this sign. It continues by a conventional road without speed signs. Can it circulate at 90 km/h?",
                   "options": [
-                    "90 km/h, the generic one of that road.",
-                    "50 km/h until the next speed sign.",
-                    "70 km/h, until leaving behind all the houses."
+                    "Yes: from that sign the generic limit of the road applies.",
+                    "No: it must continue at 50 km/h until finding a speed sign.",
+                    "Yes, but only when it has left behind all the houses."
                   ]
                 },
                 "en": {
-                  "q": "You leave a village and pass this sign. You go on along a conventional road with no speed signs. You drive a car. What is your maximum?",
+                  "q": "A car leaves a town and passes this sign. It goes on along a conventional road with no speed signs. May it do 90 km/h?",
                   "options": [
-                    "90 km/h, the default for that road",
-                    "50 km/h until the next speed sign",
-                    "70 km/h, until you have left every house behind"
+                    "Yes: from that sign on, the road’s default limit applies",
+                    "No: it must stay at 50 km/h until it reaches a speed sign",
+                    "Yes, but only once it has left every house behind"
                   ],
-                  "why": "The “Fin de poblado” sign marks where the town rules stop applying. From there the road’s default limit applies: 90 km/h for a car on a conventional road."
+                  "why": "Yes, from the sign itself. The “end of town” sign marks where the in-town rules stop. From there the road’s default limit applies: 90 km/h for a car on a conventional road."
                 },
                 "terms": [
                   {
@@ -363,8 +363,8 @@
                 "es": {
                   "q": "Una calle urbana tiene dos carriles por sentido, pero uno de ellos es exclusivo para autobuses. Sin señales de velocidad, ¿cuál es el límite genérico?",
                   "options": [
-                    "30 km/h",
-                    "50 km/h",
+                    "30 km/h, porque el carril bus no cuenta",
+                    "50 km/h, porque la calzada tiene dos carriles por sentido",
                     "20 km/h"
                   ],
                   "why": "Los carriles de uso exclusivo del transporte público no se cuentan. Queda un único carril por sentido, y el límite genérico es de 30 km/h."
@@ -372,16 +372,16 @@
                 "exam": {
                   "q": "An urban street has two lanes by direction, but one of them is exclusive for buses. Without signs of speed, which is the generic limit?",
                   "options": [
-                    "30 km/h.",
-                    "50 km/h.",
+                    "30 km/h, because the bus lane does not count.",
+                    "50 km/h, because the carriageway has two lanes by direction.",
                     "20 km/h."
                   ]
                 },
                 "en": {
                   "q": "A town street has two lanes each way, but one of them is only for buses. With no speed signs, what is the default limit?",
                   "options": [
-                    "30 km/h",
-                    "50 km/h",
+                    "30 km/h, because the bus lane does not count",
+                    "50 km/h, because the roadway has two lanes each way",
                     "20 km/h"
                   ],
                   "why": "Lanes used only by public transport are not counted. That leaves a single lane each way, and the default limit is 30 km/h."
@@ -456,7 +456,7 @@
                 "id": "speed-towns-c3",
                 "answer": 2,
                 "es": {
-                  "q": "Una calle tiene dos carriles por sentido, así que el límite genérico sería 50 km/h. Pero hay esta señal. ¿Cuál es tu máximo?",
+                  "q": "Una calle tiene dos carriles por sentido, así que el límite genérico sería 50 km/h. Pero hay esta señal. ¿Cuál es la velocidad máxima?",
                   "options": [
                     "50 km/h, porque es el límite genérico de esa calle",
                     "40 km/h, la media de los dos",
@@ -465,7 +465,7 @@
                   "why": "La señal prevalece sobre el límite genérico. Manda lo que dice la señal: 30 km/h."
                 },
                 "exam": {
-                  "q": "A street has two lanes by direction, so the generic limit would be 50 km/h. But there is this sign. Which is your maximum?",
+                  "q": "A street has two lanes by direction, so the generic limit would be 50 km/h. But there is this sign. Which is the maximum speed?",
                   "options": [
                     "50 km/h, because it is the generic limit of that street.",
                     "40 km/h, the average of the two.",
@@ -543,30 +543,30 @@
                 "id": "speed-towns-c4",
                 "answer": 1,
                 "es": {
-                  "q": "Una autovía atraviesa un pueblo y no hay señales de velocidad específicas. ¿Cuál es el límite genérico de ese tramo?",
+                  "q": "Una autovía atraviesa un poblado y no hay señales de velocidad específicas. ¿Puede un turismo circular por ese tramo a 100 km/h?",
                   "options": [
-                    "120 km/h, el de las autovías",
-                    "80 km/h",
-                    "50 km/h, como en la ciudad"
+                    "Sí, porque en una autovía el límite genérico es de 120 km/h",
+                    "No: en ese tramo el límite genérico es de 80 km/h",
+                    "No, porque dentro de poblado el límite es de 50 km/h"
                   ],
-                  "why": "El límite genérico de una autopista o autovía dentro de poblado es de 80 km/h, aunque fuera de poblado sea mayor."
+                  "why": "No, y por el motivo correcto: el límite genérico de una autopista o autovía dentro de poblado es de 80 km/h. No rigen ni los 120 km/h de fuera de poblado ni los 50 km/h de una calle."
                 },
                 "exam": {
-                  "q": "A dual carriageway crosses a village and there are no specific signs of speed. Which is the generic limit of that section?",
+                  "q": "A dual carriageway crosses a town and there are no specific speed signs. Can a passenger car circulate by that section at 100 km/h?",
                   "options": [
-                    "120 km/h, the one of the dual carriageways.",
-                    "80 km/h.",
-                    "50 km/h, as in the city."
+                    "Yes, because in a dual carriageway the generic limit is of 120 km/h.",
+                    "No: in that section the generic limit is of 80 km/h.",
+                    "No, because inside town the limit is of 50 km/h."
                   ]
                 },
                 "en": {
-                  "q": "A dual carriageway runs through a village and there are no specific speed signs. What is the default limit on that stretch?",
+                  "q": "A dual carriageway runs through a town and there are no specific speed signs. May a car do 100 km/h on that stretch?",
                   "options": [
-                    "120 km/h, the usual for dual carriageways",
-                    "80 km/h",
-                    "50 km/h, as in town"
+                    "Yes, because the default limit on a dual carriageway is 120 km/h",
+                    "No: the default limit on that stretch is 80 km/h",
+                    "No, because the limit inside a town is 50 km/h"
                   ],
-                  "why": "The default limit on a motorway or dual carriageway inside a poblado is 80 km/h, even if it is higher outside."
+                  "why": "No, and for the right reason: the default limit of a motorway or dual carriageway inside a town is 80 km/h. Neither the 120 km/h of the open road nor the 50 km/h of a street applies."
                 },
                 "terms": [
                   {
@@ -841,7 +841,7 @@
                 "id": "speed-outside-c1",
                 "answer": 2,
                 "es": {
-                  "q": "Conduces una furgoneta por una carretera convencional fuera de poblado, sin señales de velocidad. ¿Cuál es tu máximo?",
+                  "q": "El conductor de una furgoneta circula por una carretera convencional, fuera de poblado y sin señales de velocidad. Su velocidad máxima es de…",
                   "options": [
                     "90 km/h, como un turismo",
                     "100 km/h",
@@ -850,7 +850,7 @@
                   "why": "Las furgonetas están en la columna de camiones: 80 km/h en carretera convencional. Los 90 km/h son para turismos."
                 },
                 "exam": {
-                  "q": "You drive a van by a conventional road outside town, without signs of speed. Which is your maximum?",
+                  "q": "The driver of a van circulates by a conventional road, outside town and without speed signs. His maximum speed is of…",
                   "options": [
                     "90 km/h, as a passenger car.",
                     "100 km/h.",
@@ -858,7 +858,7 @@
                   ]
                 },
                 "en": {
-                  "q": "You drive a van on a conventional road outside a town, with no speed signs. What is your maximum?",
+                  "q": "The driver of a van is on a conventional road outside a town, with no speed signs. Their top speed is…",
                   "options": [
                     "90 km/h, like a car",
                     "100 km/h",
@@ -885,7 +885,7 @@
                 "id": "speed-outside-c9",
                 "answer": 2,
                 "es": {
-                  "q": "Conduces un vehículo mixto adaptable por una autovía, sin señales de velocidad. ¿Cuál es tu máximo?",
+                  "q": "Un vehículo mixto adaptable circula por una autovía, sin señales de velocidad. ¿Cuál es su velocidad máxima?",
                   "options": [
                     "120 km/h, como un turismo",
                     "90 km/h, como una furgoneta",
@@ -894,7 +894,7 @@
                   "why": "El vehículo mixto adaptable va en la columna de autobuses y derivados de turismo: 100 km/h en autopista y autovía, 90 km/h en carretera convencional."
                 },
                 "exam": {
-                  "q": "You circulate with an adaptable mixed-use vehicle by a dual carriageway, without speed signs. Which is your maximum?",
+                  "q": "An adaptable mixed-use vehicle circulates by a dual carriageway, without speed signs. Which is its maximum speed?",
                   "options": [
                     "120 km/h, as a passenger car.",
                     "90 km/h, as a van.",
@@ -968,28 +968,28 @@
                 "id": "speed-outside-c10",
                 "answer": 0,
                 "es": {
-                  "q": "Llevas enganchado a tu turismo un remolque ligero con las bicis y la tienda de campaña. La carretera convencional tiene un arcén muy ancho y no hay señales de velocidad. ¿A cuánto puedes ir como máximo?",
+                  "q": "Un turismo lleva enganchado un remolque ligero con las bicicletas y la tienda de campaña. La carretera convencional tiene un arcén muy ancho y no hay señales de velocidad. ¿Cuál es su velocidad máxima?",
                   "options": [
-                    "80 km/h",
-                    "90 km/h, como un turismo sin remolque",
-                    "100 km/h, por tener un arcén tan ancho"
+                    "80 km/h, por llevar remolque",
+                    "90 km/h, como sin remolque",
+                    "100 km/h, por el arcén"
                   ],
                   "why": "Los automóviles con remolque van a 80 km/h en carretera convencional. La anchura del arcén no cambia el límite."
                 },
                 "exam": {
-                  "q": "You carry hitched to your passenger car a light trailer with the bicycles and the tent. The conventional road has a very wide hard shoulder and there are no speed signs. At how much can you go as maximum?",
+                  "q": "A passenger car carries hitched a light trailer with the bicycles and the tent. The conventional road has a very wide hard shoulder and there are no speed signs. Which is its maximum speed?",
                   "options": [
-                    "80 km/h.",
-                    "90 km/h, as a passenger car without trailer.",
-                    "100 km/h, for having such a wide hard shoulder."
+                    "80 km/h, for carrying trailer.",
+                    "90 km/h, as without trailer.",
+                    "100 km/h, for the hard shoulder."
                   ]
                 },
                 "en": {
                   "q": "Your car is towing a light trailer with the bikes and the tent. The conventional road has a very wide shoulder and there are no speed signs. What is your top speed?",
                   "options": [
-                    "80 km/h",
-                    "90 km/h, like a car without a trailer",
-                    "100 km/h, thanks to the wide shoulder"
+                    "80 km/h, because it is towing",
+                    "90 km/h, as without a trailer",
+                    "100 km/h, thanks to the shoulder"
                   ],
                   "why": "A vehicle towing a trailer has a limit of 80 km/h on a conventional road. The width of the shoulder does not change it."
                 },
@@ -1016,7 +1016,7 @@
                 "id": "speed-outside-c11",
                 "answer": 1,
                 "es": {
-                  "q": "Conduces una motocicleta con sidecar por una autopista, sin señales de velocidad. ¿Cuál es tu máximo?",
+                  "q": "Una motocicleta con sidecar circula por una autopista, sin señales de velocidad. ¿Cuál es su velocidad máxima?",
                   "options": [
                     "90 km/h, porque lleva sidecar",
                     "120 km/h",
@@ -1025,7 +1025,7 @@
                   "why": "La moto con sidecar es una motocicleta para la ley. Tiene el límite de las motocicletas: 120 km/h en autopista y autovía."
                 },
                 "exam": {
-                  "q": "You drive a motorcycle with sidecar by a motorway, without speed signs. Which is your maximum?",
+                  "q": "A motorcycle with sidecar circulates by a motorway, without speed signs. Which is its maximum speed?",
                   "options": [
                     "90 km/h, because it carries sidecar.",
                     "120 km/h.",
@@ -1060,30 +1060,30 @@
                 "id": "speed-outside-c12",
                 "answer": 2,
                 "es": {
-                  "q": "Vas en turismo por una carretera de tres carriles: dos en tu sentido y uno en el contrario, separados solo por marcas viales. No hay señales de velocidad. ¿Cuál es tu máximo?",
+                  "q": "Un turismo circula por una carretera de tres carriles: dos en su sentido y uno en el contrario, separados solo por marcas viales. No hay señales de velocidad. ¿Puede circular a 100 km/h?",
                   "options": [
-                    "100 km/h en tu sentido, porque tienes dos carriles",
-                    "120 km/h, como en una autovía",
-                    "90 km/h en los dos sentidos"
+                    "Sí, porque en su sentido dispone de dos carriles",
+                    "Sí, si no circula ningún vehículo por el carril contrario",
+                    "No: es una carretera convencional y su límite es de 90 km/h"
                   ],
-                  "why": "Sigue siendo una carretera convencional: 90 km/h. Los 100 km/h exigen separación física de los sentidos y que los fije el titular de la vía."
+                  "why": "No. Sigue siendo una carretera convencional: 90 km/h en los dos sentidos. Los 100 km/h exigen separación física de los sentidos y que los fije el titular de la vía."
                 },
                 "exam": {
-                  "q": "You go in passenger car by a road of three lanes: two in your direction and one in the contrary, separated only by road markings. There are no speed signs. Which is your maximum?",
+                  "q": "A passenger car circulates by a road of three lanes: two in its direction and one in the contrary, separated only by road markings. There are no speed signs. Can it circulate at 100 km/h?",
                   "options": [
-                    "100 km/h in your direction, because you have two lanes.",
-                    "120 km/h, as in a dual carriageway.",
-                    "90 km/h in the two directions."
+                    "Yes, because in its direction it has two lanes.",
+                    "Yes, if no vehicle circulates by the contrary lane.",
+                    "No: it is a conventional road and its limit is of 90 km/h."
                   ]
                 },
                 "en": {
-                  "q": "You drive a car on a three-lane road: two lanes your way and one the other way, divided only by painted lines. There are no speed signs. What is your maximum?",
+                  "q": "A car is on a three-lane road: two lanes its way and one the other way, divided only by painted lines. There are no speed signs. May it do 100 km/h?",
                   "options": [
-                    "100 km/h your way, because you have two lanes",
-                    "120 km/h, like a dual carriageway",
-                    "90 km/h in both directions"
+                    "Yes, because it has two lanes in its direction",
+                    "Yes, if nothing is coming in the opposite lane",
+                    "No: it is a conventional road and its limit is 90 km/h"
                   ],
-                  "why": "It is still a conventional road: 90 km/h. 100 km/h needs physical separation between the directions, set by the road owner."
+                  "why": "No. It is still a conventional road: 90 km/h in both directions. 100 km/h needs the two directions physically separated, and the road owner must set it."
                 },
                 "terms": [
                   {
@@ -1214,28 +1214,28 @@
                 "id": "speed-outside-c2",
                 "answer": 0,
                 "es": {
-                  "q": "Un camión que transporta mercancías peligrosas circula por una autovía, sin señales de velocidad. ¿Cuál es su máximo?",
+                  "q": "Un camión que transporta mercancías peligrosas circula por una autovía, sin señales de velocidad. ¿Cuál es su velocidad máxima?",
                   "options": [
-                    "80 km/h",
-                    "90 km/h",
-                    "70 km/h"
+                    "80 km/h, 10 km/h menos que sin ellas",
+                    "90 km/h, como cualquier otro camión",
+                    "70 km/h, porque las mercancías peligrosas restan 20 km/h"
                   ],
                   "why": "Un camión tiene 90 km/h en autovía. Con mercancías peligrosas se reduce en 10 km/h, así que su máximo es de 80 km/h."
                 },
                 "exam": {
-                  "q": "A lorry which transports dangerous goods circulates by a dual carriageway, without signs of speed. Which is its maximum?",
+                  "q": "A lorry which transports dangerous goods circulates by a dual carriageway, without speed signs. Which is its maximum speed?",
                   "options": [
-                    "80 km/h.",
-                    "90 km/h.",
-                    "70 km/h."
+                    "80 km/h, 10 km/h less than without them.",
+                    "90 km/h, as any other lorry.",
+                    "70 km/h, because the dangerous goods subtract 20 km/h."
                   ]
                 },
                 "en": {
-                  "q": "A truck carrying dangerous goods travels on a dual carriageway with no speed signs. What is its maximum?",
+                  "q": "A truck carrying dangerous goods travels on a dual carriageway with no speed signs. What is its top speed?",
                   "options": [
-                    "80 km/h",
-                    "90 km/h",
-                    "70 km/h"
+                    "80 km/h, 10 km/h less than without them",
+                    "90 km/h, like any other truck",
+                    "70 km/h, because dangerous goods take off 20 km/h"
                   ],
                   "why": "A truck has 90 km/h on a dual carriageway. With dangerous goods it is reduced by 10 km/h, so its maximum is 80 km/h."
                 },
@@ -1254,18 +1254,18 @@
                 "id": "speed-outside-c13",
                 "answer": 0,
                 "es": {
-                  "q": "Conduces un pick-up por un camino sin pavimentar fuera de poblado. No hay ninguna señal. ¿Cuál es tu máximo?",
+                  "q": "Un pick-up circula por un camino sin pavimentar fuera de poblado. No hay ninguna señal. ¿Cuál es su velocidad máxima?",
                   "options": [
-                    "30 km/h",
+                    "30 km/h, aunque no haya señal",
                     "90 km/h, como en carretera convencional",
                     "45 km/h"
                   ],
                   "why": "En las vías sin pavimentar el límite máximo es de 30 km/h, para cualquier vehículo y aunque no haya señal."
                 },
                 "exam": {
-                  "q": "You drive a pick-up by an unpaved road outside town. There is no sign. Which is your maximum?",
+                  "q": "A pick-up circulates by an unpaved road outside town. There is no sign. Which is its maximum speed?",
                   "options": [
-                    "30 km/h.",
+                    "30 km/h, although there is no sign.",
                     "90 km/h, as in conventional road.",
                     "45 km/h."
                   ]
@@ -1273,7 +1273,7 @@
                 "en": {
                   "q": "You drive a pickup on an unpaved road outside a town. There are no signs. What is your maximum?",
                   "options": [
-                    "30 km/h",
+                    "30 km/h, even with no sign",
                     "90 km/h, as on a conventional road",
                     "45 km/h"
                   ],
@@ -1298,30 +1298,30 @@
                 "id": "speed-outside-c20",
                 "answer": 1,
                 "es": {
-                  "q": "Conduces un autobús por una autovía y llevas viajeros de pie, como permite su autorización. ¿Cuál es tu velocidad máxima?",
+                  "q": "Un autobús circula por una autovía con viajeros de pie, como permite su autorización. ¿Puede ir a 100 km/h?",
                   "options": [
-                    "100 km/h, como cualquier autobús en autovía",
-                    "80 km/h",
-                    "90 km/h"
+                    "Sí, como cualquier autobús en autovía",
+                    "No: con viajeros de pie su máximo es de 80 km/h",
+                    "No, porque en autovía un autobús no puede pasar de 90 km/h"
                   ],
-                  "why": "Si un autobús lleva viajeros de pie autorizados o no tiene cinturones, su máximo es 80 km/h en cualquier vía fuera de poblado, autovías incluidas."
+                  "why": "No. Si un autobús lleva viajeros de pie autorizados o no tiene cinturones, su máximo es 80 km/h en cualquier vía fuera de poblado, autovías incluidas. Sin viajeros de pie, sí tendría 100 km/h en autovía."
                 },
                 "exam": {
-                  "q": "You drive a bus on a dual carriageway and carry standing passengers, as its authorisation permits. Which is your maximum speed?",
+                  "q": "A bus circulates by a dual carriageway with standing passengers, as its authorisation permits. Can it go at 100 km/h?",
                   "options": [
-                    "100 km/h, like any bus on a dual carriageway.",
-                    "80 km/h.",
-                    "90 km/h."
+                    "Yes, as any bus in a dual carriageway.",
+                    "No: with standing passengers its maximum is of 80 km/h.",
+                    "No, because in a dual carriageway a bus cannot pass 90 km/h."
                   ]
                 },
                 "en": {
-                  "q": "You drive a bus on a dual carriageway carrying standing passengers, as its permit allows. What is your top speed?",
+                  "q": "A bus on a dual carriageway carries standing passengers, as its permit allows. May it do 100 km/h?",
                   "options": [
-                    "100 km/h, like any bus on a dual carriageway",
-                    "80 km/h",
-                    "90 km/h"
+                    "Yes, like any bus on a dual carriageway",
+                    "No: with standing passengers its maximum is 80 km/h",
+                    "No, because a bus may not go over 90 km/h on a dual carriageway"
                   ],
-                  "why": "A bus carrying authorised standing passengers, or without seat belts, is limited to 80 km/h on any road outside built-up areas, dual carriageways included."
+                  "why": "No. If a bus carries authorized standing passengers or has no seat belts, its maximum is 80 km/h on every road outside town, dual carriageways included. Without standing passengers it would have 100 km/h there."
                 },
                 "terms": [
                   {
@@ -1444,7 +1444,7 @@
                 "es": {
                   "q": "Un tractor agrícola arrastra un remolque por una carretera convencional, sin señales de velocidad. ¿Cuál es su máximo?",
                   "options": [
-                    "40 km/h",
+                    "40 km/h, como cualquier vehículo especial",
                     "45 km/h",
                     "25 km/h"
                   ],
@@ -1453,7 +1453,7 @@
                 "exam": {
                   "q": "An agricultural tractor drags a trailer by a conventional road, without signs of speed. Which is its maximum?",
                   "options": [
-                    "40 km/h.",
+                    "40 km/h, as any special vehicle.",
                     "45 km/h.",
                     "25 km/h."
                   ]
@@ -1461,7 +1461,7 @@
                 "en": {
                   "q": "A farm tractor is towing a trailer on a conventional road with no speed signs. What is its maximum?",
                   "options": [
-                    "40 km/h",
+                    "40 km/h, like any special vehicle",
                     "45 km/h",
                     "25 km/h"
                   ],
@@ -1490,28 +1490,28 @@
                 "id": "speed-outside-c6",
                 "answer": 1,
                 "es": {
-                  "q": "Conduces un cuadriciclo que no es ligero por una carretera convencional, sin señales de velocidad. ¿Cuál es tu máximo?",
+                  "q": "Un cuadriciclo que no es ligero circula por una carretera convencional, sin señales de velocidad. ¿Cuál es su velocidad máxima?",
                   "options": [
                     "90 km/h",
                     "70 km/h",
-                    "45 km/h"
+                    "45 km/h, como un ciclomotor"
                   ],
                   "why": "Los vehículos de tres ruedas y los cuadriciclos tienen un límite de 70 km/h. Solo el cuadriciclo ligero va a 45 km/h, como un ciclomotor."
                 },
                 "exam": {
-                  "q": "You drive a quadricycle which is not light by a conventional road, without signs of speed. Which is your maximum?",
+                  "q": "A quadricycle which is not light circulates by a conventional road, without speed signs. Which is its maximum speed?",
                   "options": [
                     "90 km/h.",
                     "70 km/h.",
-                    "45 km/h."
+                    "45 km/h, as a moped."
                   ]
                 },
                 "en": {
-                  "q": "You drive a quadricycle that is not a light one on a conventional road with no speed signs. What is your maximum?",
+                  "q": "A quadricycle that is not a light one is on a conventional road with no speed signs. What is its top speed?",
                   "options": [
                     "90 km/h",
                     "70 km/h",
-                    "45 km/h"
+                    "45 km/h, like a moped"
                   ],
                   "why": "Three-wheel vehicles and quadricycles have a 70 km/h limit. Only a light quadricycle goes at 45 km/h, like a moped."
                 },
@@ -1536,26 +1536,26 @@
                 "es": {
                   "q": "Un vehículo especial que no excede las masas ni las dimensiones permitidas solo alcanza 50 km/h en llano. ¿Puede circular por una autopista?",
                   "options": [
-                    "No: solo pueden los que pasan de 60 km/h en llano y cumplen las condiciones del anexo III",
-                    "Sí, por el arcén y de día",
+                    "No",
+                    "Sí, si circula por el arcén y solo de día",
                     "Sí, si lleva encendida la luz de emergencia"
                   ],
-                  "why": "Los vehículos especiales que no exceden las masas o dimensiones solo pueden ir por autopistas y autovías si pueden superar los 60 km/h en llano y cumplen las condiciones del anexo III del reglamento."
+                  "why": "No. Los vehículos especiales que no exceden las masas o dimensiones solo pueden ir por autopistas y autovías si pueden superar los 60 km/h en llano y cumplen las condiciones del anexo III del reglamento. Ni el arcén ni las luces lo cambian."
                 },
                 "en": {
                   "q": "A special vehicle within the permitted masses and dimensions only reaches 50 km/h on level ground. May it use a motorway?",
                   "options": [
-                    "No: only those that exceed 60 km/h on level ground and meet the annex III conditions may",
-                    "Yes, on the shoulder and by day",
+                    "No",
+                    "Yes, if it keeps to the shoulder and only by day",
                     "Yes, if it has its hazard lights on"
                   ],
-                  "why": "Special vehicles within the masses or dimensions may use motorways and dual carriageways only if they can exceed 60 km/h on level ground and meet the conditions in annex III of the regulation."
+                  "why": "No. Special vehicles within the masses and dimensions may use motorways and dual carriageways only if they can exceed 60 km/h on level ground and meet the regulation’s annex III conditions. Neither the shoulder nor lights change that."
                 },
                 "exam": {
-                  "q": "A special vehicle that does not exceed the permitted masses or dimensions only reaches 50 km/h in level terrain. Can it circulate by a motorway?",
+                  "q": "A special vehicle which does not exceed the permitted masses or dimensions only reaches 50 km/h in level terrain. Can it circulate by a motorway?",
                   "options": [
-                    "No: only those that exceed 60 km/h in level terrain and fulfil the conditions of annex III can.",
-                    "Yes, by the hard shoulder and by day.",
+                    "No.",
+                    "Yes, if it circulates by the hard shoulder and only by day.",
                     "Yes, if it carries switched on the emergency light."
                   ]
                 },
@@ -1761,30 +1761,30 @@
                 "id": "speed-outside-c3",
                 "answer": 1,
                 "es": {
-                  "q": "¿Por debajo de qué velocidad está prohibido circular por una autopista o autovía, salvo causa justificada?",
+                  "q": "Como norma general, ¿por debajo de qué velocidad está prohibido circular por una autopista o una autovía?",
                   "options": [
                     "40 km/h",
                     "60 km/h",
-                    "80 km/h"
+                    "Por debajo de ninguna, si el vehículo no puede ir más deprisa"
                   ],
-                  "why": "En autopistas y autovías se prohíbe circular a menos de 60 km/h, salvo que las circunstancias del tráfico, del vehículo o de la vía lo impidan."
+                  "why": "Como norma general, en autopistas y autovías se prohíbe circular a menos de 60 km/h. Ir más despacio es una excepción: solo cuando el tráfico, el vehículo o la vía impiden ir más deprisa sin riesgo."
                 },
                 "exam": {
-                  "q": "Below which speed is it prohibited to circulate by a motorway or dual carriageway, except that there is justified cause?",
+                  "q": "As a general rule, below which speed is it prohibited to circulate by a motorway or a dual carriageway?",
                   "options": [
                     "40 km/h.",
                     "60 km/h.",
-                    "80 km/h."
+                    "Below none, if the vehicle cannot go faster."
                   ]
                 },
                 "en": {
-                  "q": "Below what speed is it forbidden to drive on a motorway or dual carriageway, unless there is good reason?",
+                  "q": "As a general rule, below what speed is it forbidden to drive on motorways and dual carriageways?",
                   "options": [
                     "40 km/h",
                     "60 km/h",
-                    "80 km/h"
+                    "No speed at all, if the vehicle cannot go faster"
                   ],
-                  "why": "On motorways and dual carriageways it is forbidden to drive below 60 km/h, unless traffic, vehicle or road conditions make it impossible."
+                  "why": "As a general rule, driving below 60 km/h is forbidden on motorways and dual carriageways. Going slower is an exception: only when traffic, the vehicle or the road keeps you from going faster without risk."
                 },
                 "terms": [
                   {
@@ -1801,30 +1801,30 @@
                 "id": "speed-outside-c7",
                 "answer": 0,
                 "es": {
-                  "q": "Conduces un camión por una carretera convencional, sin señales de velocidad. ¿Por debajo de qué velocidad no debes circular sin causa justificada?",
+                  "q": "Como norma general, ¿por debajo de qué velocidad no debe circular un camión por una carretera convencional sin señales de velocidad?",
                   "options": [
-                    "40 km/h",
-                    "45 km/h",
+                    "40 km/h, la mitad de 80 km/h",
+                    "45 km/h, la mitad del límite de un turismo",
                     "60 km/h"
                   ],
-                  "why": "Fuera de autopistas y autovías, la mínima es la mitad del límite genérico. Un camión tiene 80 km/h en carretera convencional, así que su mínima es de 40 km/h."
+                  "why": "Como norma general, fuera de autopistas y autovías la mínima es la mitad del límite genérico de cada vehículo. Un camión tiene 80 km/h en carretera convencional, así que su mínima es de 40 km/h. Ir más despacio solo cabe con causa justificada."
                 },
                 "exam": {
-                  "q": "You drive a lorry by a conventional road, without signs of speed. Below which speed must you not circulate without justified cause?",
+                  "q": "As a general rule, below which speed must a lorry not circulate by a conventional road without speed signs?",
                   "options": [
-                    "40 km/h.",
-                    "45 km/h.",
+                    "40 km/h, the half of 80 km/h.",
+                    "45 km/h, the half of the limit of a passenger car.",
                     "60 km/h."
                   ]
                 },
                 "en": {
-                  "q": "You drive a truck on a conventional road with no speed signs. Below what speed must you not drive without good reason?",
+                  "q": "As a general rule, below what speed must a truck not drive on a conventional road with no speed signs?",
                   "options": [
-                    "40 km/h",
-                    "45 km/h",
+                    "40 km/h, half of 80 km/h",
+                    "45 km/h, half a car’s limit",
                     "60 km/h"
                   ],
-                  "why": "Off motorways and dual carriageways, the minimum is half the default limit. A truck has 80 km/h on a conventional road, so its minimum is 40 km/h."
+                  "why": "As a general rule, off motorways and dual carriageways the minimum is half the default limit for each vehicle. A truck has 80 km/h on a conventional road, so its minimum is 40 km/h. Going slower needs good reason."
                 },
                 "terms": [
                   {
@@ -1845,27 +1845,27 @@
                 "id": "speed-outside-c8",
                 "answer": 2,
                 "es": {
-                  "q": "Circulas en turismo por una calle de un único carril por sentido, sin señales de velocidad. ¿Cuál es tu velocidad mínima?",
+                  "q": "Un turismo circula por una calle de un único carril por sentido, sin señales de velocidad. ¿Cuál es su velocidad mínima?",
                   "options": [
                     "10 km/h",
-                    "20 km/h",
+                    "25 km/h, la mitad de 50 km/h",
                     "15 km/h"
                   ],
                   "why": "En esa calle el límite genérico es de 30 km/h. La mínima es la mitad: 15 km/h."
                 },
                 "exam": {
-                  "q": "You circulate in passenger car by a street of a single lane by direction, without signs of speed. Which is your minimum speed?",
+                  "q": "A passenger car circulates by a street of a single lane by direction, without speed signs. Which is its minimum speed?",
                   "options": [
                     "10 km/h.",
-                    "20 km/h.",
+                    "25 km/h, the half of 50 km/h.",
                     "15 km/h."
                   ]
                 },
                 "en": {
-                  "q": "You drive a car on a town street with a single lane each way and no speed signs. What is your minimum speed?",
+                  "q": "A car is on a town street with a single lane each way and no speed signs. What is its minimum speed?",
                   "options": [
                     "10 km/h",
-                    "20 km/h",
+                    "25 km/h, half of 50 km/h",
                     "15 km/h"
                   ],
                   "why": "On that street the default limit is 30 km/h. The minimum is half of that: 15 km/h."
@@ -1885,30 +1885,30 @@
                 "id": "speed-outside-c14",
                 "answer": 2,
                 "es": {
-                  "q": "Es de noche y circulas solo por una autovía, sin ningún otro vehículo a la vista. Sin ningún motivo, vas a 50 km/h. ¿Es correcto?",
+                  "q": "Es de noche y un turismo circula solo por una autovía, sin ningún otro vehículo a la vista. Sin ningún motivo, va a 50 km/h. ¿Es correcto?",
                   "options": [
-                    "Sí, porque no entorpeces a nadie",
-                    "Sí, si llevas encendido el alumbrado de cruce",
-                    "No: en autovía se prohíbe ir a menos de 60 km/h, aunque no haya más vehículos"
+                    "Sí, porque no entorpece a nadie",
+                    "Sí, si lleva encendido el alumbrado de cruce",
+                    "No"
                   ],
-                  "why": "En autopistas y autovías se prohíbe circular sin causa justificada a menos de 60 km/h. La prohibición rige aunque no circulen otros vehículos."
+                  "why": "No. En autopistas y autovías se prohíbe circular sin causa justificada a menos de 60 km/h. La prohibición rige aunque no circulen otros vehículos."
                 },
                 "exam": {
-                  "q": "It is night and you circulate alone by a dual carriageway, without any other vehicle in sight. Without any reason, you go at 50 km/h. Is it correct?",
+                  "q": "It is night and a passenger car circulates alone by a dual carriageway, without any other vehicle in sight. Without any reason, it goes at 50 km/h. Is it correct?",
                   "options": [
-                    "Yes, because you do not hinder anybody.",
-                    "Yes, if you carry the dipped beam switched on.",
-                    "No: on a dual carriageway it is prohibited to go at less than 60 km/h, even if there are no more vehicles."
+                    "Yes, because it does not hinder anybody.",
+                    "Yes, if it carries the dipped beam switched on.",
+                    "No."
                   ]
                 },
                 "en": {
-                  "q": "It is night and you are alone on a dual carriageway, with no other vehicle in sight. For no reason, you are doing 50 km/h. Is that correct?",
+                  "q": "It is night and a car is alone on a dual carriageway, with no other vehicle in sight. For no reason, it is doing 50 km/h. Is that correct?",
                   "options": [
-                    "Yes, because you are not holding anyone up",
-                    "Yes, if your low beams are on",
-                    "No: below 60 km/h is forbidden on a dual carriageway, even with no other traffic"
+                    "Yes, because it is not holding anyone up",
+                    "Yes, if its low beams are on",
+                    "No"
                   ],
-                  "why": "On motorways and dual carriageways it is forbidden to drive below 60 km/h without good reason. The ban applies even when no other vehicles are on the road."
+                  "why": "No. On motorways and dual carriageways, driving below 60 km/h without good reason is forbidden, even with no other traffic."
                 },
                 "terms": [
                   {
@@ -1933,29 +1933,29 @@
                 "id": "speed-outside-c15",
                 "answer": 1,
                 "es": {
-                  "q": "En una autovía hay placas de hielo y no puedes ir más deprisa sin riesgo. Vas a 40 km/h. ¿Es correcto?",
+                  "q": "En una autovía hay placas de hielo y un turismo no puede ir más deprisa sin riesgo. Circula a 40 km/h. ¿Es correcto?",
                   "options": [
-                    "No: en autovía nunca se puede bajar de 60 km/h",
-                    "Sí: las circunstancias de la vía permiten ir por debajo de la mínima",
-                    "Solo si circulas por el arcén"
+                    "No: en autovía nunca se baja de 60 km/h",
+                    "Sí, porque el estado de la vía se lo impide",
+                    "Sí, siempre que vaya por el arcén"
                   ],
                   "why": "Se puede circular por debajo de la velocidad mínima cuando las circunstancias del tráfico, del vehículo o de la vía impiden ir más deprisa sin riesgo. Si alguien puede alcanzarte, usa la luz de emergencia."
                 },
                 "en": {
-                  "q": "A dual carriageway has patches of ice and you cannot go faster without risk. You are doing 40 km/h. Is that right?",
+                  "q": "A dual carriageway has patches of ice and a car cannot go faster without risk. It is doing 40 km/h. Is that right?",
                   "options": [
-                    "No: on a dual carriageway you may never go below 60 km/h",
-                    "Yes: road conditions allow going below the minimum",
-                    "Only if you drive on the shoulder"
+                    "No: on a dual carriageway you never go below 60 km/h",
+                    "Yes, because the state of the road prevents it",
+                    "Yes, as long as it keeps to the shoulder"
                   ],
                   "why": "You may go below the minimum speed when traffic, vehicle or road conditions make a higher speed unsafe. If someone could catch up with you, use the hazard lights."
                 },
                 "exam": {
-                  "q": "On a dual carriageway there are ice patches and you cannot go faster without risk. You go at 40 km/h. Is it correct?",
+                  "q": "On a dual carriageway there are ice patches and a passenger car cannot go faster without risk. It circulates at 40 km/h. Is it correct?",
                   "options": [
-                    "No: on a dual carriageway one can never go below 60 km/h.",
-                    "Yes: the circumstances of the road allow going below the minimum.",
-                    "Only if you circulate by the hard shoulder."
+                    "No: on a dual carriageway one never goes below 60 km/h.",
+                    "Yes, because the state of the road prevents it.",
+                    "Yes, provided that it goes by the hard shoulder."
                   ]
                 },
                 "terms": [
@@ -2007,27 +2007,27 @@
                 "id": "speed-outside-c4",
                 "answer": 2,
                 "es": {
-                  "q": "Conduces un turismo por una carretera convencional con límite de 90 km/h y vas a adelantar a un camión. ¿Puedes superar los 90 km/h para terminar antes?",
+                  "q": "Un turismo circula por una carretera convencional con límite de 90 km/h y va a adelantar a un camión. ¿Puede superar los 90 km/h para terminar antes?",
                   "options": [
-                    "Sí, hasta 100 km/h mientras adelantas",
-                    "Sí, si tu coche acelera con rapidez",
-                    "No: el límite también vale mientras adelantas"
+                    "Sí, hasta 20 km/h más mientras dura el adelantamiento",
+                    "Sí, si el vehículo acelera con rapidez",
+                    "No: el límite también rige al adelantar"
                   ],
                   "why": "El artículo que daba un margen al adelantar está derogado. Los límites máximos no deben rebasarse, tampoco al adelantar."
                 },
                 "exam": {
-                  "q": "You drive a passenger car by an ordinary road of two directions with limit of 90 km/h and you start overtaking a lorry. Can you exceed the 90 km/h in order to finish before?",
+                  "q": "A passenger car circulates by a conventional road with limit of 90 km/h and is going to overtake a lorry. Can it exceed the 90 km/h in order to finish before?",
                   "options": [
-                    "Yes, until 100 km/h while you overtake.",
-                    "Yes, if your car accelerates with rapidity.",
-                    "No: the limit is also valid while you overtake."
+                    "Yes, up to 20 km/h more while the overtaking lasts.",
+                    "Yes, if the vehicle accelerates with rapidity.",
+                    "No: the limit also applies on overtaking."
                   ]
                 },
                 "en": {
-                  "q": "Outside town, on an ordinary two-way road signed at 90 km/h, you start to pass a truck. May you go over 90 km/h to get past it sooner?",
+                  "q": "On an ordinary two-way road signed at 90 km/h, a car starts to pass a truck. May it go over 90 km/h to get past sooner?",
                   "options": [
-                    "Yes, up to 100 km/h while overtaking",
-                    "Yes, if your car accelerates quickly",
+                    "Yes, up to 20 km/h more while the pass lasts",
+                    "Yes, if the vehicle accelerates quickly",
                     "No: the limit also applies while overtaking"
                   ],
                   "why": "The article that gave a margin for overtaking has been repealed. Maximum limits must not be exceeded, overtaking included."
@@ -2192,30 +2192,30 @@
                 "id": "speed-adapt-c1",
                 "answer": 1,
                 "es": {
-                  "q": "El límite es de 90 km/h, pero la carretera tiene una curva sin visibilidad y llueve. ¿Cuál debe ser tu velocidad?",
+                  "q": "El límite es de 90 km/h, pero la carretera tiene una curva sin visibilidad y llueve. ¿Es adecuado circular a 90 km/h?",
                   "options": [
-                    "90 km/h, porque es el límite permitido",
-                    "La que te permita detenerte dentro de lo que ves",
-                    "Siempre 50 km/h cuando llueve"
+                    "Sí, porque es el límite permitido en esa vía",
+                    "No: debe poder detenerse dentro de lo que ve",
+                    "Sí, si los neumáticos y los frenos están en buen estado"
                   ],
-                  "why": "La ley exige poder detenerte dentro de tu campo de visión ante cualquier obstáculo. Eso puede obligarte a ir muy por debajo del límite."
+                  "why": "No. El límite es un máximo, no la velocidad adecuada. La ley exige poder detenerse dentro del campo de visión ante cualquier obstáculo, y eso puede obligarte a ir muy por debajo del límite."
                 },
                 "exam": {
-                  "q": "The limit is of 90 km/h, but the road has a curve without visibility and it rains. Which must be your speed?",
+                  "q": "The limit is of 90 km/h, but the road has a curve without visibility and it rains. Is it adequate to circulate at 90 km/h?",
                   "options": [
-                    "90 km/h, because it is the permitted limit.",
-                    "The one which permits you to stop inside what you see.",
-                    "Always 50 km/h when it rains."
+                    "Yes, because it is the permitted limit in that road.",
+                    "No: you must be able to stop inside what you see.",
+                    "Yes, if the tyres and the brakes are in good state."
                   ]
                 },
                 "en": {
-                  "q": "The limit is 90 km/h, but the road has a blind curve and it is raining. What should your speed be?",
+                  "q": "The limit is 90 km/h, but the road has a blind curve and it is raining. Is it appropriate to drive at 90 km/h?",
                   "options": [
-                    "90 km/h, because it is the allowed limit",
-                    "One that lets you stop within what you can see",
-                    "Always 50 km/h when it rains"
+                    "Yes, because it is the legal limit on that road",
+                    "No: you must be able to stop within what you can see",
+                    "Yes, if the tires and brakes are in good condition"
                   ],
-                  "why": "The law requires that you can stop within your field of vision in front of any obstacle. That may mean driving well below the limit."
+                  "why": "No. The limit is a maximum, not the right speed. The law requires you to be able to stop within your field of vision for any obstacle, and that can mean going far below the limit."
                 },
                 "terms": [
                   {
@@ -2303,28 +2303,28 @@
                 "id": "speed-adapt-c2",
                 "answer": 0,
                 "es": {
-                  "q": "Si pasas de ir a una velocidad a ir al doble, ¿qué ocurre aproximadamente con la distancia de frenado?",
+                  "q": "Si un vehículo pasa de una velocidad al doble de esa velocidad, la distancia de frenado aproximadamente…",
                   "options": [
-                    "Se multiplica por unas cuatro",
-                    "Se duplica",
-                    "Se queda igual"
+                    "se multiplica por unas cuatro",
+                    "se duplica, igual que la velocidad",
+                    "se queda igual, si los frenos están bien"
                   ],
                   "why": "La distancia de frenado crece con el cuadrado de la velocidad. Al doblar la velocidad, el coche necesita unas cuatro veces más distancia para frenar."
                 },
                 "exam": {
-                  "q": "If you pass from going at a speed to going at the double, what happens approximately with the distance of braking?",
+                  "q": "If a vehicle passes from a speed to the double of that speed, the distance of braking approximately…",
                   "options": [
-                    "It is multiplied by about four.",
-                    "It is doubled.",
-                    "It remains the same."
+                    "is multiplied by about four.",
+                    "is doubled, the same as the speed.",
+                    "remains the same, if the brakes are well."
                   ]
                 },
                 "en": {
-                  "q": "If you go from one speed to twice that speed, roughly what happens to the braking distance?",
+                  "q": "If a vehicle goes from one speed to twice that speed, its braking distance roughly…",
                   "options": [
-                    "It becomes about four times longer",
-                    "It doubles",
-                    "It stays the same"
+                    "becomes about four times longer",
+                    "doubles, just like the speed",
+                    "stays the same, if the brakes are good"
                   ],
                   "why": "Braking distance grows with the square of the speed. When you double your speed, the car needs about four times as much distance to brake."
                 },
@@ -2343,30 +2343,30 @@
                 "id": "speed-adapt-cx",
                 "answer": 2,
                 "es": {
-                  "q": "¿De cuál de estos elementos depende la distancia que necesitas para detenerte?",
+                  "q": "¿De cuál de estos elementos NO depende la distancia de detención de un vehículo?",
                   "options": [
-                    "Del estado del pedal de embrague",
-                    "Del estado del freno de mano",
-                    "Del estado de los neumáticos"
+                    "Del estado de los neumáticos",
+                    "De la velocidad a la que circula el vehículo",
+                    "Del estado del pedal de embrague"
                   ],
-                  "why": "La frenada depende de la adherencia y de los frenos de servicio. Unos neumáticos gastados agarran peor y alargan la distancia de detención."
+                  "why": "La distancia de detención depende de la velocidad, de la adherencia (neumáticos y firme) y de los frenos de servicio. Unos neumáticos gastados agarran peor y la alargan. El embrague no frena el vehículo."
                 },
                 "exam": {
-                  "q": "On which of these elements does the distance that you need in order to stop depend?",
+                  "q": "On which of these elements does the distance of stopping of a vehicle NOT depend?",
                   "options": [
-                    "On the state of the clutch pedal.",
-                    "On the state of the hand brake.",
-                    "On the state of the tyres."
+                    "On the state of the tyres.",
+                    "On the speed at which the vehicle circulates.",
+                    "On the state of the clutch pedal."
                   ]
                 },
                 "en": {
-                  "q": "Which of these does the distance you need to stop depend on?",
+                  "q": "Which of these does a vehicle’s stopping distance NOT depend on?",
                   "options": [
-                    "The condition of the clutch pedal",
-                    "The condition of the handbrake",
-                    "The condition of the tires"
+                    "The condition of the tires",
+                    "The speed the vehicle is going",
+                    "The condition of the clutch pedal"
                   ],
-                  "why": "Braking depends on grip and on the service brakes. Worn tires grip less and make the stopping distance longer."
+                  "why": "Stopping distance depends on speed, on grip (tires and road surface) and on the service brakes. Worn tires grip less and make it longer. The clutch does not brake the vehicle."
                 },
                 "terms": [
                   {
@@ -2438,28 +2438,28 @@
                 "id": "speed-adapt-c6",
                 "answer": 1,
                 "es": {
-                  "q": "¿Qué le pasa a tu visión cuando conduces a más velocidad?",
+                  "q": "Al aumentar la velocidad, el campo visual útil del conductor…",
                   "options": [
-                    "Ves mejor lo que hay a los lados de la vía",
-                    "Se estrecha tu campo visual útil y percibes peor las señales del borde",
-                    "No cambia nada si tienes buena vista"
+                    "se ensancha, y ve mejor los lados de la vía",
+                    "se estrecha, y percibe peor lo que hay a los lados",
+                    "no cambia, si el conductor tiene buena vista"
                   ],
                   "why": "Con más velocidad el campo visual útil se estrecha («efecto túnel»). Percibes peor lo que está a los lados, como las señales y los peatones."
                 },
                 "exam": {
-                  "q": "What happens to your vision when you drive at more speed?",
+                  "q": "On increasing the speed, the useful visual field of the driver…",
                   "options": [
-                    "You see better what there is at the sides of the road.",
-                    "Your useful visual field narrows and you perceive worse the signs of the edge.",
-                    "Nothing changes if you have good sight."
+                    "widens, and he sees better the sides of the road.",
+                    "narrows, and he perceives worse what there is at the sides.",
+                    "does not change, if the driver has good sight."
                   ]
                 },
                 "en": {
-                  "q": "What happens to your vision when you drive faster?",
+                  "q": "As speed goes up, the driver’s useful field of vision…",
                   "options": [
-                    "You see the sides of the road better",
-                    "Your useful field of vision narrows and you notice roadside signs less well",
-                    "Nothing changes if your eyesight is good"
+                    "widens, so they see the sides of the road better",
+                    "narrows, so they notice less of what is at the sides",
+                    "does not change, if the driver has good eyesight"
                   ],
                   "why": "At higher speed your useful field of vision narrows (the “tunnel effect”). You notice less of what is at the sides, such as signs and pedestrians."
                 },
@@ -2485,7 +2485,7 @@
                   "q": "¿Qué relación hay entre la velocidad y las lesiones en un accidente?",
                   "options": [
                     "Ninguna: depende solo del cinturón",
-                    "Solo importa en los atropellos",
+                    "Solo importa en los atropellos, no para los ocupantes del vehículo",
                     "A más velocidad, más graves suelen ser las lesiones"
                   ],
                   "why": "Con velocidad excesiva es mucho más probable morir o sufrir lesiones graves. También para los ocupantes, no solo para los peatones."
@@ -2494,7 +2494,7 @@
                   "q": "What relation is there between the speed and the injuries in an accident?",
                   "options": [
                     "None: it depends only on the seat belt.",
-                    "It only matters in the run-overs.",
+                    "It only matters in the run-overs, not for the occupants of the vehicle.",
                     "At more speed, more serious the injuries usually are."
                   ]
                 },
@@ -2502,7 +2502,7 @@
                   "q": "How is speed related to injuries in a crash?",
                   "options": [
                     "It is not: only the seat belt matters",
-                    "It matters only when a pedestrian is hit",
+                    "It matters only when a pedestrian is hit, not for the people inside",
                     "The higher the speed, the more serious the injuries tend to be"
                   ],
                   "why": "At excessive speed, death or serious injury is much more likely. That holds for the people in the vehicle too, not only for pedestrians."
@@ -2530,7 +2530,7 @@
                   "options": [
                     "Acelera la aparición de la fatiga",
                     "Ninguno, si la vía es buena",
-                    "Mejora la atención, porque vas más concentrado"
+                    "Mejora la atención, porque se va más concentrado"
                   ],
                   "why": "Conducir mucho tiempo deprisa exige más esfuerzo y adelanta la fatiga. También reduce tu capacidad de anticipación."
                 },
@@ -2539,7 +2539,7 @@
                   "options": [
                     "It accelerates the appearance of the fatigue.",
                     "None, if the road is good.",
-                    "It improves the attention, because you go more concentrated."
+                    "It improves the attention, because one goes more concentrated."
                   ]
                 },
                 "en": {
@@ -2547,7 +2547,7 @@
                   "options": [
                     "It brings on fatigue sooner",
                     "Nothing, if the road is good",
-                    "It improves your attention, because you concentrate more"
+                    "It improves attention, because the driver concentrates more"
                   ],
                   "why": "Driving fast for a long time takes more effort and brings fatigue sooner. It also cuts your ability to anticipate."
                 },
@@ -2574,7 +2574,7 @@
                   "options": [
                     "Es más fácil, porque el coche va más estable",
                     "Es más difícil, sobre todo en las curvas",
-                    "No cambia: solo dependen de los neumáticos"
+                    "No cambia: solo depende de los neumáticos"
                   ],
                   "why": "A más velocidad el vehículo es más inestable: en una curva puede perder la trayectoria y es más fácil derrapar."
                 },
@@ -2657,32 +2657,32 @@
               "t": "check",
               "q": {
                 "id": "speed-adapt-c3",
-                "answer": 2,
+                "answer": 1,
                 "es": {
-                  "q": "Fuera de poblado vas a alcanzar a un ciclista que circula por el arcén. ¿Qué debes hacer?",
+                  "q": "Fuera de poblado, el conductor debe moderar la velocidad al acercarse a ciclistas que circulan por…",
                   "options": [
-                    "Mantener tu velocidad, porque el arcén no es la calzada",
-                    "Tocar el claxon varias veces para avisarle",
-                    "Moderar la velocidad al acercarte"
+                    "la calzada",
+                    "la calzada y el arcén",
+                    "el arcén"
                   ],
-                  "why": "Fuera de poblado debes moderar la velocidad al acercarte a ciclistas que circulan por la calzada o por el arcén."
+                  "why": "Fuera de poblado debes moderar la velocidad al acercarte a ciclistas, tanto si circulan por la calzada como si van por el arcén. El arcén no te exime."
                 },
                 "exam": {
-                  "q": "Outside town you are going to reach a cyclist who circulates by the hard shoulder. What must you do?",
+                  "q": "Outside town, the driver must moderate the speed on approaching cyclists who circulate by…",
                   "options": [
-                    "To maintain your speed, because the hard shoulder is not the carriageway.",
-                    "To touch the horn several times in order to warn him.",
-                    "To moderate the speed when you approach."
+                    "the carriageway.",
+                    "the carriageway and the hard shoulder.",
+                    "the hard shoulder."
                   ]
                 },
                 "en": {
-                  "q": "Outside a town you are about to reach a cyclist riding on the shoulder. What should you do?",
+                  "q": "Outside a town, the driver must slow down when approaching cyclists who are riding on…",
                   "options": [
-                    "Keep your speed, because the shoulder is not the roadway",
-                    "Honk several times to warn them",
-                    "Moderate your speed as you approach"
+                    "the roadway",
+                    "the roadway and the shoulder",
+                    "the shoulder"
                   ],
-                  "why": "Outside a poblado you must moderate your speed when approaching cyclists on the roadway or on the shoulder."
+                  "why": "Outside a town you must slow down as you approach cyclists, whether they ride on the roadway or on the shoulder. The shoulder does not excuse you."
                 },
                 "terms": [
                   {
@@ -2752,28 +2752,28 @@
                 "id": "speed-adapt-c4",
                 "answer": 1,
                 "es": {
-                  "q": "Te acercas a una intersección bien señalizada, pero la visibilidad es prácticamente nula. ¿Qué velocidad máxima no debes rebasar?",
+                  "q": "Un conductor se acerca a una intersección bien señalizada, pero la visibilidad es prácticamente nula. ¿Qué velocidad máxima no debe rebasar?",
                   "options": [
                     "30 km/h",
                     "50 km/h",
-                    "70 km/h"
+                    "70 km/h, si circula por la vía con prioridad"
                   ],
                   "why": "Con las intersecciones bien señalizadas y la visibilidad prácticamente nula, la velocidad no debe exceder de 50 km/h."
                 },
                 "exam": {
-                  "q": "You approach an intersection well signalled, but the visibility is practically null. Which maximum speed must you not pass?",
+                  "q": "A driver approaches an intersection well signalled, but the visibility is practically null. Which maximum speed must he not pass?",
                   "options": [
                     "30 km/h.",
                     "50 km/h.",
-                    "70 km/h."
+                    "70 km/h, if he circulates by the road with priority."
                   ]
                 },
                 "en": {
-                  "q": "You approach a properly signed junction, but visibility is practically nil. What maximum speed must you not exceed?",
+                  "q": "A driver approaches a properly signed junction, but visibility is practically nil. What maximum speed must they not exceed?",
                   "options": [
                     "30 km/h",
                     "50 km/h",
-                    "70 km/h"
+                    "70 km/h, if they are on the priority road"
                   ],
                   "why": "With properly signed junctions and practically nil visibility, speed must not exceed 50 km/h."
                 },
@@ -2803,28 +2803,28 @@
                 "id": "speed-adapt-c12",
                 "answer": 1,
                 "es": {
-                  "q": "Dos curvas tienen el mismo firme y las tomas a la misma velocidad. Una tiene un radio pequeño y la otra un radio grande. ¿Dónde corres más riesgo de salirte?",
+                  "q": "Dos curvas tienen el mismo firme y un vehículo las toma a la misma velocidad. Una tiene un radio pequeño y la otra un radio grande. ¿En cuál hay más riesgo de salirse?",
                   "options": [
                     "En la de radio grande, porque es más larga",
                     "En la de radio pequeño, porque es más cerrada",
-                    "En las dos igual, porque vas a la misma velocidad"
+                    "En las dos igual, a la misma velocidad"
                   ],
                   "why": "Cuanto menor es el radio, más cerrada es la curva y mayor la fuerza centrífuga. Si supera la adherencia, el vehículo se sale. Por eso una curva cerrada pide menos velocidad."
                 },
                 "exam": {
-                  "q": "Two curves have the same pavement and you take them at the same speed. One has a small radius and the other a large radius. Where do you run more risk of going off?",
+                  "q": "Two curves have the same pavement and a vehicle takes them at the same speed. One has a small radius and the other a large radius. In which is there more risk of going off?",
                   "options": [
                     "On the one of large radius, because it is longer.",
                     "On the one of small radius, because it is more closed.",
-                    "On both the same, because you go at the same speed."
+                    "On both the same, at the same speed."
                   ]
                 },
                 "en": {
-                  "q": "Two curves have the same surface and you take them at the same speed. One has a small radius, the other a large one. Where are you more likely to run off?",
+                  "q": "Two curves have the same surface and a vehicle takes them at the same speed. One has a small radius, the other a large one. Where is it more likely to run off?",
                   "options": [
                     "On the large-radius one, because it is longer",
                     "On the small-radius one, because it is tighter",
-                    "The same on both, because your speed is the same"
+                    "The same on both, at the same speed"
                   ],
                   "why": "The smaller the radius, the tighter the curve and the larger the centrifugal force. If it beats your grip, the vehicle runs off. That is why a tight curve calls for a lower speed."
                 },
@@ -2858,7 +2858,7 @@
                 "id": "speed-adapt-c13",
                 "answer": 2,
                 "es": {
-                  "q": "Entras en una curva al doble de la velocidad a la que la tomaste ayer. ¿Qué le pasa a la fuerza que te empuja hacia el exterior?",
+                  "q": "Un vehículo entra en una curva al doble de la velocidad a la que la tomó ayer. ¿Qué le pasa a la fuerza que lo empuja hacia el exterior?",
                   "options": [
                     "Se duplica, igual que la velocidad",
                     "No cambia: solo depende de la curva",
@@ -2867,7 +2867,7 @@
                   "why": "La fuerza centrífuga crece con el cuadrado de la velocidad: al duplicar la velocidad, se cuadruplica. Por eso debes frenar antes de la curva, no dentro."
                 },
                 "exam": {
-                  "q": "You enter a curve at double the speed at which you took it yesterday. What happens to the force that pushes you towards the exterior?",
+                  "q": "A vehicle enters a curve at double the speed at which it took it yesterday. What happens to the force that pushes it towards the exterior?",
                   "options": [
                     "It duplicates, the same as the speed.",
                     "It does not change: it depends only on the curve.",
@@ -2875,7 +2875,7 @@
                   ]
                 },
                 "en": {
-                  "q": "You enter a curve at twice the speed you took it at yesterday. What happens to the force pushing you to the outside?",
+                  "q": "A vehicle enters a curve at twice the speed it took it at yesterday. What happens to the force pushing it to the outside?",
                   "options": [
                     "It doubles, like the speed",
                     "It does not change: it depends only on the curve",
@@ -2941,28 +2941,28 @@
                 "id": "speed-adapt-c5",
                 "answer": 0,
                 "es": {
-                  "q": "Necesitas reducir mucho la velocidad y no hay peligro inminente. ¿Qué haces?",
+                  "q": "Para reducir mucho la velocidad sin que haya peligro inminente, el conductor debe…",
                   "options": [
-                    "Compruebas que puedes hacerlo sin riesgo, avisas y frenas sin brusquedad",
-                    "Frenas de golpe para que el coche de atrás se aparte",
-                    "Pones las luces de emergencia y sigues con tu velocidad"
+                    "comprobar que no hay riesgo, avisar y frenar sin brusquedad",
+                    "frenar de golpe, para que el de detrás se aparte",
+                    "encender las luces de emergencia y mantener su velocidad"
                   ],
                   "why": "Para reducir mucho la velocidad debes asegurarte de que no hay riesgo para los demás, avisarlo antes y no frenar de forma brusca."
                 },
                 "exam": {
-                  "q": "You need to reduce much the speed and there is no imminent danger. What do you do?",
+                  "q": "To reduce the speed a lot without there being imminent danger, the driver must…",
                   "options": [
-                    "You verify that you can do it without risk, you warn and you brake without abruptness.",
-                    "You brake of blow so that the car of behind moves aside.",
-                    "You put the emergency lights and you continue with your speed."
+                    "verify that there is no risk, warn and brake without abruptness.",
+                    "brake of blow, so that the one behind moves aside.",
+                    "switch on the emergency lights and maintain his speed."
                   ]
                 },
                 "en": {
-                  "q": "You need to slow down a lot and there is no imminent danger. What do you do?",
+                  "q": "To slow down a lot when there is no imminent danger, the driver must…",
                   "options": [
-                    "Check that it is safe, warn others and brake smoothly",
-                    "Brake hard so the car behind moves away",
-                    "Switch on the hazard lights and keep your speed"
+                    "check it is safe, warn others and brake smoothly",
+                    "brake hard, so the vehicle behind gets out of the way",
+                    "switch on the hazard lights and keep the same speed"
                   ],
                   "why": "To slow down a lot you must make sure it is safe for others, warn them first and not brake abruptly."
                 },
@@ -2991,27 +2991,27 @@
                 "es": {
                   "q": "Un grupo de ciclistas rueda muy junto por una carretera. ¿Deben guardar entre ellos la separación que permite detenerse sin chocar?",
                   "options": [
-                    "Sí, como cualquier otro vehículo",
-                    "No: pueden ir en grupo sin esa separación, extremando la atención",
-                    "Solo cuando circulan de noche"
+                    "Sí, igual que cualquier otro vehículo",
+                    "No: en grupo pueden ir sin ella, extremando la atención",
+                    "No, y además no tienen que extremar la atención"
                   ],
-                  "why": "La norma permite a los ciclistas circular en grupo sin mantener la distancia de seguridad entre ellos, pero deben extremar la atención para evitar alcances. Es una excepción solo para bicicletas."
+                  "why": "No. La norma permite a los ciclistas circular en grupo sin mantener la distancia de seguridad entre ellos, pero deben extremar la atención para evitar alcances. Es una excepción solo para bicicletas."
                 },
                 "en": {
                   "q": "A group of cyclists rides very close together on a road. Must they keep between them the gap that lets them stop without hitting each other?",
                   "options": [
-                    "Yes, like any other vehicle",
-                    "No: they may ride in a group without that gap, taking extra care",
-                    "Only when riding at night"
+                    "Yes, just like any other vehicle",
+                    "No: in a group they may ride without it, taking extra care",
+                    "No, and they do not need to take extra care either"
                   ],
-                  "why": "The rules let cyclists ride in a group without keeping the safety distance between them, but they must take extra care to avoid rear-end collisions. It is an exception for bicycles only."
+                  "why": "No. The rule lets cyclists ride in a group without keeping a safe distance between them, but they must take extra care to avoid hitting each other. The exception is for bicycles only."
                 },
                 "exam": {
                   "q": "A group of cyclists rolls very close by a road. Must they keep between them the separation that allows to stop without colliding?",
                   "options": [
-                    "Yes, as any other vehicle.",
-                    "No: they can go in group without that separation, extremely careful.",
-                    "Only when they circulate at night."
+                    "Yes, equal to any other vehicle.",
+                    "No: in group they can go without it, extremely careful.",
+                    "No, and in addition they do not have to be extremely careful."
                   ]
                 },
                 "terms": [
@@ -3040,28 +3040,28 @@
                 "id": "speed-adapt-c14",
                 "answer": 2,
                 "es": {
-                  "q": "Llegas a una cola de coches parados por un atasco y te detienes detrás del último. ¿Qué hueco aconseja la DGT dejar delante?",
+                  "q": "Un turismo se detiene detrás del último coche de una cola parada por un atasco. ¿Qué hueco es aconsejable dejar delante?",
                   "options": [
-                    "Casi ninguno, para que nadie se cuele",
-                    "Medio metro, lo justo para no rozarlo",
-                    "Dos o tres metros, por si te golpean por detrás"
+                    "Casi ninguno, para que nadie se cuele en la cola",
+                    "Medio metro, lo justo para no rozar al de delante",
+                    "Dos o tres metros, por si le golpean por detrás"
                   ],
                   "why": "Con dos o tres metros, si otro vehículo te golpea por detrás no te empuja contra el de delante. También te deja sitio para rodearlo si no arranca."
                 },
                 "exam": {
-                  "q": "You arrive at a queue of cars stopped by a traffic jam and you stop behind the last one. What space does the DGT advise to leave in front?",
+                  "q": "A passenger car stops behind the last car of a queue stopped by a traffic jam. What space is advisable to leave in front?",
                   "options": [
-                    "Almost none, so that nobody slips in.",
-                    "Half a meter, the just amount to not touch it.",
-                    "Two or three meters, in case they hit you from behind."
+                    "Almost none, so that nobody slips into the queue.",
+                    "Half a metre, the just amount to not touch the one in front.",
+                    "Two or three metres, in case they hit it from behind."
                   ]
                 },
                 "en": {
-                  "q": "You reach a line of cars stopped in a jam and stop behind the last one. What gap does the DGT advise you to leave ahead?",
+                  "q": "A car stops behind the last one in a line held up by a jam. What gap is it advisable to leave ahead?",
                   "options": [
-                    "Almost none, so nobody cuts in",
-                    "Half a meter, just enough not to touch",
-                    "Two or three meters, in case you are hit from behind"
+                    "Almost none, so nobody cuts into the line",
+                    "Half a meter, just enough not to touch the car ahead",
+                    "Two or three meters, in case it is hit from behind"
                   ],
                   "why": "With two or three meters, if another vehicle hits you from behind it does not push you into the one ahead. It also leaves room to go around it if it does not move off."
                 },
@@ -3120,30 +3120,30 @@
                 "id": "speed-adapt-c10",
                 "answer": 1,
                 "es": {
-                  "q": "Dos amigos quieren comprobar quién llega antes por una carretera de montaña abierta al tráfico. ¿Qué dice la norma?",
+                  "q": "Dos amigos quieren comprobar quién llega antes por una carretera de montaña abierta al tráfico. ¿Pueden hacerlo?",
                   "options": [
-                    "Está permitido si no superan los límites de velocidad",
-                    "Está prohibido, salvo en tramos acotados para ello por la autoridad competente",
-                    "Está permitido de noche, cuando hay poco tráfico"
+                    "Sí, si no superan los límites de la vía",
+                    "No, salvo en un tramo que la autoridad haya acotado",
+                    "Sí, si lo hacen de noche y con poco tráfico"
                   ],
-                  "why": "Se prohíbe entablar competiciones de velocidad en las vías públicas. Solo caben, como excepción, donde la autoridad competente haya acotado la vía para ello."
+                  "why": "No. Se prohíbe entablar competiciones de velocidad en las vías públicas, aunque se respeten los límites. Solo caben, como excepción, donde la autoridad competente haya acotado la vía para ello."
                 },
                 "exam": {
-                  "q": "Two friends want to check who arrives before by a mountain road open to traffic. What does the norm say?",
+                  "q": "Two friends want to check who arrives before by a mountain road open to traffic. Can they do it?",
                   "options": [
-                    "It is allowed if they do not exceed the speed limits.",
-                    "It is prohibited, except in stretches delimited for it by the competent authority.",
-                    "It is allowed at night, when there is little traffic."
+                    "Yes, if they do not exceed the limits of the road.",
+                    "No, except in a section that the authority has fenced off.",
+                    "Yes, if they do it at night and with little traffic."
                   ]
                 },
                 "en": {
-                  "q": "Two friends want to see who gets there first on a mountain road open to traffic. What does the rule say?",
+                  "q": "Two friends want to see who gets there first on a mountain road open to traffic. May they?",
                   "options": [
-                    "It is allowed if they stay within the speed limits",
-                    "It is forbidden, except on stretches the competent authority has set apart for it",
-                    "It is allowed at night, when traffic is light"
+                    "Yes, if they stay within the road’s limits",
+                    "No, except on a stretch the authority has set apart",
+                    "Yes, if they do it at night with little traffic"
                   ],
-                  "why": "Speed competitions on public roads are forbidden. The only exception is where the competent authority has set the road apart for them."
+                  "why": "No. Speed contests on public roads are forbidden, even within the limits. The only exception is a road the competent authority has set apart for it."
                 },
                 "terms": [
                   {
@@ -3365,28 +3365,28 @@
                 "id": "speed-signs-c1",
                 "answer": 2,
                 "es": {
-                  "q": "Pasas una señal de velocidad máxima de 60 km/h. Más adelante hay otra de 80 km/h y no hay ninguna señal de fin de limitación. ¿Qué límite vale tras la segunda señal?",
+                  "q": "Un conductor pasa una señal de velocidad máxima de 60 km/h. Más adelante hay otra de 80 km/h y ninguna señal de fin de limitación. ¿Qué límite rige tras la segunda señal?",
                   "options": [
-                    "60 km/h, hasta que veas un fin de limitación",
+                    "60 km/h, hasta que vea un fin de limitación",
                     "El genérico de la vía, no el de la señal",
-                    "80 km/h, porque la nueva señal sustituye a la anterior"
+                    "80 km/h, el de la última señal"
                   ],
                   "why": "Una señal de velocidad máxima vale hasta otra señal de velocidad máxima. La segunda sustituye a la primera."
                 },
                 "exam": {
-                  "q": "You pass a sign of maximum speed of 60 km/h. Further ahead there is another of 80 km/h and there is no sign of end of limitation. Which limit is valid after the second sign?",
+                  "q": "A driver passes a sign of maximum speed of 60 km/h. Further ahead there is another of 80 km/h and no sign of end of limitation. Which limit rules after the second sign?",
                   "options": [
-                    "60 km/h, until you see an end of limitation.",
-                    "The generic one of the road, not the one of the sign.",
-                    "80 km/h, because the new sign substitutes the previous one."
+                    "60 km/h, until he sees an end of limitation.",
+                    "The generic limit of the road, not that of the sign.",
+                    "80 km/h, that of the last sign."
                   ]
                 },
                 "en": {
-                  "q": "You pass a 60 km/h maximum speed sign. Later there is another one for 80 km/h and no end-of-limit sign. Which limit applies after the second sign?",
+                  "q": "A driver passes a 60 km/h maximum speed sign. Later there is another one for 80 km/h and no end-of-limit sign. Which limit applies after the second sign?",
                   "options": [
-                    "60 km/h, until you see an end of limit",
-                    "The default limit of the road, not the sign",
-                    "80 km/h, because the new sign replaces the previous one"
+                    "60 km/h, until they see an end of limit",
+                    "The road’s default limit, not the sign’s",
+                    "80 km/h, that of the last sign"
                   ],
                   "why": "A maximum speed sign applies until another maximum speed sign. The second one replaces the first."
                 },
@@ -3439,28 +3439,28 @@
                 "id": "speed-signs-c2",
                 "answer": 1,
                 "es": {
-                  "q": "Pasas esta señal de fin de la limitación de velocidad. ¿Qué límite rige a partir de ahí?",
+                  "q": "Después de esta señal, si no hay otra señal específica, rige…",
                   "options": [
-                    "Ninguno: puedes ir a la velocidad que quieras",
-                    "El límite genérico de esa vía",
-                    "El de la señal anterior, 10 km/h más"
+                    "ningún límite: se puede ir a la velocidad que se quiera",
+                    "el límite genérico de esa vía",
+                    "el de la señal anterior, con 10 km/h más"
                   ],
                   "why": "La R-501 termina el límite de la señal anterior. A partir de ahí, sin otra señal específica, rige el límite genérico de la vía."
                 },
                 "exam": {
-                  "q": "You pass this sign of end of the limitation of speed. Which limit rules from there?",
+                  "q": "After this sign, if there is no other specific sign, there rules…",
                   "options": [
-                    "None: you can go at the speed that you want.",
-                    "The generic limit of that road.",
-                    "The one of the previous sign, 10 km/h more."
+                    "no limit: one can go at the speed that one wants.",
+                    "the generic limit of that road.",
+                    "that of the previous sign, with 10 km/h more."
                   ]
                 },
                 "en": {
-                  "q": "You pass this end-of-speed-limit sign. Which limit applies from there?",
+                  "q": "After this sign, if there is no other specific sign, what applies is…",
                   "options": [
-                    "None: you can go as fast as you like",
-                    "The default limit of that road",
-                    "That of the previous sign, plus 10 km/h"
+                    "no limit: you can go as fast as you like",
+                    "the default limit of that road",
+                    "the previous sign’s limit, plus 10 km/h"
                   ],
                   "why": "R-501 ends the limit of the previous sign. From there, with no other specific sign, the default limit of the road applies."
                 },
@@ -3515,7 +3515,7 @@
                   "q": "Una señal de velocidad máxima está colocada en una vía sin prioridad. ¿Cuándo deja de tener vigencia?",
                   "options": [
                     "Al salir de una intersección con una vía con prioridad",
-                    "Solo cuando ves una señal de fin de limitación",
+                    "Solo con una señal de fin de limitación",
                     "A los 500 metros de la señal"
                   ],
                   "why": "Una señal de velocidad en una vía sin prioridad deja de valer al salir de una intersección con una vía con prioridad."
@@ -3524,7 +3524,7 @@
                   "q": "A sign of maximum speed is placed in a road without priority. When does it stop having validity?",
                   "options": [
                     "On leaving an intersection with a road with priority.",
-                    "Only when you see a sign of end of limitation.",
+                    "Only with a sign of end of limitation.",
                     "At the 500 metres of the sign."
                   ]
                 },
@@ -3532,7 +3532,7 @@
                   "q": "A maximum speed sign stands on a road without priority. When does it stop applying?",
                   "options": [
                     "When you leave a junction with a priority road",
-                    "Only when you see an end-of-limit sign",
+                    "Only at an end-of-limit sign",
                     "500 meters after the sign"
                   ],
                   "why": "A speed sign on a road without priority stops applying when you leave a junction with a priority road."
@@ -3552,26 +3552,26 @@
                 "id": "speed-signs-c6",
                 "answer": 0,
                 "es": {
-                  "q": "En una autovía con dos carriles por sentido ves un «80» pintado en el carril izquierdo, entre líneas longitudinales. Tú vas por el carril derecho y no hay señales verticales. ¿Te afecta ese 80?",
+                  "q": "En una autovía con dos carriles por sentido hay un «80» pintado en el carril izquierdo, entre líneas longitudinales. Un turismo circula por el carril derecho y no hay señales verticales. ¿Le afecta ese 80?",
                   "options": [
-                    "No: la marca solo obliga a quien circula por ese carril",
+                    "No: solo obliga a quien va por ese carril",
                     "Sí: una marca de velocidad obliga en toda la calzada",
                     "Sí, pero solo a partir del próximo enlace"
                   ],
                   "why": "Si una marca de limitación de velocidad está en un carril delimitado por marcas longitudinales, obliga solo a los vehículos que circulan por ese carril."
                 },
                 "exam": {
-                  "q": "On a dual carriageway with two lanes per direction you see an «80» painted in the left lane, between longitudinal lines. You go by the right lane and there are no vertical signs. Does that 80 affect you?",
+                  "q": "On a dual carriageway with two lanes per direction there is an «80» painted in the left lane, between longitudinal lines. A passenger car circulates by the right lane and there are no vertical signs. Does that 80 affect it?",
                   "options": [
-                    "No: the marking only obliges whoever circulates by that lane.",
+                    "No: it only obliges whoever goes by that lane.",
                     "Yes: a speed marking obliges in the whole carriageway.",
                     "Yes, but only from the next junction."
                   ]
                 },
                 "en": {
-                  "q": "On a dual carriageway with two lanes each way you see an “80” painted in the left lane, between lane lines. You are in the right lane and there are no signs on posts. Does that 80 apply to you?",
+                  "q": "On a dual carriageway with two lanes each way there is an “80” painted in the left lane, between lane lines. A car is in the right lane and there are no signs on posts. Does that 80 apply to it?",
                   "options": [
-                    "No: the marking binds only those driving in that lane",
+                    "No: it binds only those in that lane",
                     "Yes: a speed marking applies to the whole roadway",
                     "Yes, but only from the next interchange"
                   ],
@@ -3635,28 +3635,28 @@
                 "id": "speed-signs-c4",
                 "answer": 2,
                 "es": {
-                  "q": "Conduces un turismo por una carretera convencional, donde el límite genérico es de 90 km/h. Ves esta señal. ¿Cuál es tu máximo?",
+                  "q": "Un turismo circula por una carretera convencional, donde el límite genérico es de 90 km/h, y pasa esta señal. ¿Cuál es su velocidad máxima?",
                   "options": [
-                    "90 km/h, porque eres un turismo",
-                    "80 km/h, la media de los dos",
-                    "70 km/h, porque la señal prevalece"
+                    "90 km/h, porque es un turismo",
+                    "80 km/h, la media",
+                    "70 km/h, porque manda la señal"
                   ],
                   "why": "La señal específica prevalece sobre el límite genérico. Hasta el siguiente fin de limitación, tu máximo es de 70 km/h."
                 },
                 "exam": {
-                  "q": "You drive a passenger car by a conventional road, where the generic limit is of 90 km/h. You see this sign. Which is your maximum?",
+                  "q": "A passenger car circulates by a conventional road, where the generic limit is of 90 km/h, and passes this sign. Which is its maximum speed?",
                   "options": [
-                    "90 km/h, because you are a passenger car.",
-                    "80 km/h, the average of the two.",
-                    "70 km/h, because the sign prevails."
+                    "90 km/h, because it is a passenger car.",
+                    "80 km/h, the average.",
+                    "70 km/h, because the sign commands."
                   ]
                 },
                 "en": {
-                  "q": "You drive a car on a conventional road, where the default limit is 90 km/h. You see this sign. What is your maximum?",
+                  "q": "A car is on a conventional road, where the default limit is 90 km/h, and passes this sign. What is its top speed?",
                   "options": [
-                    "90 km/h, because you are a car",
-                    "80 km/h, the average of the two",
-                    "70 km/h, because the sign takes precedence"
+                    "90 km/h, because it is a car",
+                    "80 km/h, the average",
+                    "70 km/h, because the sign rules"
                   ],
                   "why": "A specific sign takes precedence over the default limit. Until the next end of limit, your maximum is 70 km/h."
                 },
@@ -3691,28 +3691,28 @@
                 "id": "speed-signs-cx",
                 "answer": 1,
                 "es": {
-                  "q": "¿En qué se basan los límites de velocidad de una vía?",
+                  "q": "Los límites de velocidad de una vía se fijan según…",
                   "options": [
-                    "Sobre todo en criterios económicos, como ahorrar combustible",
-                    "En las características de la vía, como su trazado, y en las de vehículos y conductores",
-                    "Solo en el número de curvas que tiene"
+                    "criterios económicos, como ahorrar combustible",
+                    "las características de vías, vehículos y conductores",
+                    "solo el número de curvas y de cruces que tiene"
                   ],
                   "why": "La ley fija las velocidades máximas y mínimas según las características de conductores, vehículos y vías. La DGT recuerda que no son arbitrarias."
                 },
                 "exam": {
-                  "q": "On what are the speed limits of a road based?",
+                  "q": "The speed limits of a road are fixed according to…",
                   "options": [
-                    "Above all on economic criteria, like saving fuel.",
-                    "On the characteristics of the road, like its layout, and on those of vehicles and drivers.",
-                    "Only on the number of curves that it has."
+                    "economic criteria, such as saving fuel.",
+                    "the characteristics of roads, vehicles and drivers.",
+                    "only the number of curves and of crossings that it has."
                   ]
                 },
                 "en": {
-                  "q": "What are a road’s speed limits based on?",
+                  "q": "A road’s speed limits are set according to…",
                   "options": [
-                    "Mainly economic criteria, such as saving fuel",
-                    "The road’s characteristics, such as its layout, and those of vehicles and drivers",
-                    "Only the number of bends it has"
+                    "economic criteria, such as saving fuel",
+                    "the characteristics of roads, vehicles and drivers",
+                    "only how many bends and junctions it has"
                   ],
                   "why": "The law sets maximum and minimum speeds according to the characteristics of drivers, vehicles and roads. The DGT points out that they are not arbitrary."
                 },
@@ -3786,30 +3786,30 @@
                 "id": "speed-signs-c5",
                 "answer": 0,
                 "es": {
-                  "q": "¿Qué significa esta señal?",
+                  "q": "La velocidad que muestra esta señal, ¿es obligatoria o solo recomendable?",
                   "options": [
-                    "Se aconseja no pasar de 70 km/h, aunque las condiciones sean buenas",
-                    "Está prohibido ir a más de 70 km/h",
-                    "Hay que ir como mínimo a 70 km/h"
+                    "Recomendable: se aconseja no superarla",
+                    "Obligatoria: está prohibido superarla",
+                    "Obligatoria: es una velocidad mínima"
                   ],
-                  "why": "La S-7 recomienda una velocidad que se aconseja no sobrepasar. Es un consejo, no un límite como la R-301, ni un mínimo como la R-411."
+                  "why": "Recomendable. La S-7 indica una velocidad que se aconseja no sobrepasar, aunque las condiciones sean buenas. Es un consejo, no un límite como la R-301, ni un mínimo como la R-411."
                 },
                 "exam": {
-                  "q": "What does this sign mean?",
+                  "q": "The speed that this sign shows, is it obligatory or only recommendable?",
                   "options": [
-                    "It is advised not to pass of 70 km/h, although the conditions are good.",
-                    "It is prohibited to go at more than 70 km/h.",
-                    "It is necessary to go at 70 km/h as minimum."
+                    "Recommendable: it is advised not to exceed it.",
+                    "Obligatory: it is prohibited to exceed it.",
+                    "Obligatory: it is a minimum speed."
                   ]
                 },
                 "en": {
-                  "q": "What does this sign mean?",
+                  "q": "Is the speed this sign shows compulsory, or only advised?",
                   "options": [
-                    "Do not exceed 70 km/h even if conditions are good: it is advice",
-                    "It is forbidden to go faster than 70 km/h",
-                    "You must drive at least 70 km/h"
+                    "Advised: you are advised not to exceed it",
+                    "Compulsory: exceeding it is forbidden",
+                    "Compulsory: it is a minimum speed"
                   ],
-                  "why": "S-7 recommends a speed it is advised not to exceed. It is advice, not a limit like R-301, nor a minimum like R-411."
+                  "why": "Advised. The S-7 shows a speed you are advised not to exceed, even in good conditions. It is advice, not a limit like the R-301, nor a minimum like the R-411."
                 },
                 "terms": [
                   {
@@ -3835,28 +3835,28 @@
                 "id": "speed-signs-c7",
                 "answer": 2,
                 "es": {
-                  "q": "En una subida ves esta señal. Vas a 100 km/h y el carril derecho está despejado. ¿Por qué carril vas?",
+                  "q": "En una subida, un turismo pasa esta señal. Va a 100 km/h y el carril derecho está despejado. ¿Por qué carril debe circular?",
                   "options": [
-                    "Por el izquierdo, porque superas la mínima",
-                    "Por cualquiera de los dos, como prefieras",
-                    "Por el derecho, siempre que las circunstancias lo permitan"
+                    "Por el izquierdo, porque supera la velocidad mínima de ese carril",
+                    "Por cualquiera de los dos, como prefiera",
+                    "Por el derecho, si las circunstancias lo permiten"
                   ],
                   "why": "El carril con velocidad mínima solo es para quien va a esa velocidad o más. Pero, si las circunstancias lo permiten, se debe circular por el carril de la derecha."
                 },
                 "exam": {
-                  "q": "On an ascent you see this sign. You go at 100 km/h and the right lane is clear. By which lane do you go?",
+                  "q": "On an ascent a passenger car passes this sign. It goes at 100 km/h and the right lane is clear. By which lane must it circulate?",
                   "options": [
-                    "By the left one, because you exceed the minimum.",
-                    "By any of the two, as you prefer.",
-                    "By the right one, provided that the circumstances permit it."
+                    "By the left one, because it exceeds the minimum speed of that lane.",
+                    "By any of the two, as it prefers.",
+                    "By the right one, if the circumstances permit it."
                   ]
                 },
                 "en": {
-                  "q": "On an uphill stretch you see this sign. You are doing 100 km/h and the right lane is clear. Which lane do you use?",
+                  "q": "On an uphill stretch a car passes this sign. It is doing 100 km/h and the right lane is clear. Which lane should it use?",
                   "options": [
-                    "The left one, since you are faster than the minimum",
-                    "Either one, as you like",
-                    "The right one, as long as circumstances allow"
+                    "The left one, since it is faster than that lane’s minimum",
+                    "Either one, as the driver likes",
+                    "The right one, if circumstances allow"
                   ],
                   "why": "The lane with the minimum speed is only for those going at that speed or faster. But when circumstances allow, you must drive in the right-hand lane."
                 },
@@ -3914,7 +3914,7 @@
                   "options": [
                     "Velocidad de proyecto o de diseño",
                     "Velocidad mínima del tramo",
-                    "Velocidad media de la circulación"
+                    "Velocidad media de la circulación en el tramo"
                   ],
                   "why": "La velocidad de proyecto se fija con el trazado del tramo, para buenas condiciones. Si la vía, el tiempo, el vehículo o tú no estáis bien, debes ir más despacio."
                 },
@@ -3923,7 +3923,7 @@
                   "options": [
                     "Project or design speed.",
                     "Minimum speed of the section.",
-                    "Average speed of the circulation."
+                    "Average speed of the circulation in the section."
                   ]
                 },
                 "en": {
@@ -3931,7 +3931,7 @@
                   "options": [
                     "Design speed",
                     "The section’s minimum speed",
-                    "Average traffic speed"
+                    "Average traffic speed on the section"
                   ],
                   "why": "The design speed comes from the section’s layout, for good conditions. If the road, the weather, the vehicle or you are not at your best, you must go slower."
                 },

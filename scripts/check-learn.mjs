@@ -1,6 +1,7 @@
 // Validates the Learn course: modules, lessons, blocks, check questions and figures.
 // Called by check-questions.mjs, so `npm run check` covers it.
 import { existsSync, readdirSync, readFileSync } from 'node:fs';
+import { TU } from './question-style.mjs';
 
 const root = new URL('../src/', import.meta.url);
 const read = (p) => JSON.parse(readFileSync(new URL(p, root), 'utf8'));
@@ -53,6 +54,8 @@ export function checkLearn({ questions, signs, categoryIds }) {
   const shownSigns = new Set();
   const checksPerCat = {};
   const quizPool = {};
+  const longestPool = {};
+  const shortestPool = {};
 
   const str = (v) => typeof v === 'string' && v.trim().length > 0;
   const bi = (where, v) => {
@@ -83,6 +86,11 @@ export function checkLearn({ questions, signs, categoryIds }) {
     if (q.exam !== undefined) {
       if (!str(q.exam?.q)) bad(where, 'exam.q is empty');
       if (!Array.isArray(q.exam?.options) || q.exam.options.length !== 3 || q.exam.options.some((o) => !str(o))) bad(where, 'exam.options must be exactly 3 non-empty strings');
+    }
+    // Checks join the bank, so they speak like the exam: "usted" or impersonal, never "tú". The `why` may teach in "tú".
+    if (bank) {
+      const asked = `${q.es?.q ?? ''} ${(q.es?.options ?? []).join(' ')}`;
+      if (TU.test(asked)) bad(where, `es question or options use "tú" ("${TU.exec(asked)?.[0]}"); the exam says "usted" or speaks impersonally`);
     }
     if (q.sign !== undefined && !signIds.has(q.sign)) bad(where, `sign "${q.sign}" is not in signs.json`);
     for (const lang of ['es', 'en']) {
@@ -161,6 +169,11 @@ export function checkLearn({ questions, signs, categoryIds }) {
         lessonCtx.checks.push(b.q);
         checksPerCat[cat] = (checksPerCat[cat] ?? 0) + 1;
         (quizPool[cat] ??= []).push(b.q.answer);
+        if (Array.isArray(b.q.es?.options)) {
+          const lens = b.q.es.options.map((o) => String(o).length);
+          (longestPool[cat] ??= []).push(lens[b.q.answer] === Math.max(...lens));
+          (shortestPool[cat] ??= []).push(lens[b.q.answer] === Math.min(...lens));
+        }
         break;
     }
   };
@@ -252,6 +265,18 @@ export function checkLearn({ questions, signs, categoryIds }) {
         const share = pos.filter((x) => x === p).length / pos.length;
         if (share > 0.5) bad(mw, `${Math.round(share * 100)}% of the checks have the right answer in position ${p + 1}`);
       }
+    }
+    // The longest option: in the exam it is the right one less than half the time. Picking it must not pay.
+    const longest = longestPool[modId] ?? [];
+    if (longest.length >= 6) {
+      const share = longest.filter(Boolean).length / longest.length;
+      if (share > 0.55) bad(mw, `the right answer is the longest option in ${Math.round(share * 100)}% of the checks (at most 55%); make the wrong options as specific as the right one`);
+    }
+    // The same trick in reverse: a module that cut its long answers too far teaches "pick the shortest".
+    const shortest = shortestPool[modId] ?? [];
+    if (shortest.length >= 6) {
+      const share = shortest.filter(Boolean).length / shortest.length;
+      if (share > 0.5) bad(mw, `the right answer is the shortest option in ${Math.round(share * 100)}% of the checks (at most 50%)`);
     }
   }
 

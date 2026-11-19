@@ -189,4 +189,6 @@ The pilot. Do not edit.
 - **Convention:** the `en` text of the checks is deliberately *literal* (it follows the Spanish word order). That
   is our imitation, written by us; never present it as DGT text. Because checks join the bank, keep every check
   an exam-style rule question, not a vocabulary quiz (vocabulary lives in `terms`, tables and pretests).
-- **Lessons (2):** words that translate badly; wording traps.
+- **Lessons (8):** words that translate badly; the road, vehicles, lights, manoeuvres and conditions word by word;
+  wording traps; how a question is built (the exam's *usted*, several "Sí" or "No" answers, NO in capitals,
+  "como norma general", advice versus duty, the complete answer).

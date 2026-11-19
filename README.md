@@ -14,8 +14,8 @@ The one design rule: **every piece of text can flip between Spanish and English 
 
 | Screen | What it does |
 |---|---|
-| Learn | A guided course: 14 modules, 92 short lessons, 1,073 check questions and 47 diagrams (many animated). Each lesson has key words, an ungraded guess, one idea per step with a retrieval check, and a recap. Each module ends in a quiz; 80% counts as mastered. A finished lesson opens on its recap, with "Read it again" to go back through it; the step bar at the top jumps to any step you have reached. See [How the course teaches](#learn-the-course). |
-| Practice | The 70 original questions, the 1,073 lesson checks, and a "what does this sign mean?" question for each sign, in 14 categories. Spaced repetition ([FSRS](https://github.com/open-spaced-repetition/ts-fsrs)) brings the ones you miss back sooner, whether you missed them in a lesson, a quiz or here. |
+| Learn | A guided course: 14 modules, 93 short lessons, 1,080 check questions and 47 diagrams (many animated). Each lesson has key words, an ungraded guess, one idea per step with a retrieval check, and a recap. Each module ends in a quiz; 80% counts as mastered. A finished lesson opens on its recap, with "Read it again" to go back through it; the step bar at the top jumps to any step you have reached. See [How the course teaches](#learn-the-course). |
+| Practice | The 70 original questions, the 1,080 lesson checks, and a "what does this sign mean?" question for each sign, in 14 categories. Spaced repetition ([FSRS](https://github.com/open-spaced-repetition/ts-fsrs)) brings the ones you miss back sooner, whether you missed them in a lesson, a quiz or here. |
 | Mock exam | 30 questions (4 of them signs), countdown, up to 3 mistakes, with a review of what you missed. |
 | Traffic signs | Every sign in the official catalogue (457, RD 465/2025) plus three vehicle signs, grouped by the catalogue's sections, with the official meaning in both languages, and practice questions built from the same data. The mock exam's sign questions leave out route signage (direction, road-number, location and confirmation signs). |
 | Vocabulary | Flashcards for road terms, scheduled with the same FSRS engine. |
@@ -41,6 +41,10 @@ How it teaches, and the research behind each choice:
 | Worked examples (Sweller) | "Situation, what to do, why" blocks |
 
 Diagrams are word-free inline SVG with bilingual HTML legends, so they follow the ES/EN switch and dark mode. Animated ones are choreographed in a small `<name>.anim.json` and played by the [Remotion](https://www.remotion.dev) Player (loaded only when a lesson shows one), with bilingual controls under the picture. Remotion is source-available, not open source: it is free for individuals and for-profit companies of up to three people, so check [its license](https://www.remotion.dev/docs/license/faq) if the team grows.
+
+### How the questions are worded
+
+Every check is written like an exam question: it addresses the learner as *usted*, never *tú*, and it uses the exam's question forms (a bare "No." beside reasoned wrong answers, several "Sí, …" options that differ in scope, NO in capitals, "como norma general", advice versus duty, "X y Y" against "solo X"). `node scripts/question-style.mjs` profiles the bank against a practice bank that follows the DGT's wording, and `npm run check` fails a check that uses *tú* and a module where the right answer is the longest option in more than 55% of checks or the shortest in more than 50%.
 
 ### Where the lessons come from
 

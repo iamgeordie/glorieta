@@ -174,31 +174,31 @@
   {
     "id": "speed-05",
     "cat": "speed",
-    "answer": 0,
+    "answer": 2,
     "en": {
-      "q": "The road is wet from rain. What is the correct adjustment?",
+      "q": "The road is wet from rain. What is NOT a correct thing to do?",
       "options": [
-        "Reduce speed and increase the following distance",
-        "Keep your speed, because modern tires grip well",
-        "Turn on the hazard lights and keep your speed"
+        "Reduce your speed",
+        "Increase the following distance",
+        "Turn on the hazard lights"
       ],
-      "why": "Braking distance grows a lot on a wet road. Slow down and leave more space. Hazard lights are not for driving in rain."
+      "why": "Braking distance grows a lot on a wet road, so slowing down and leaving more space is right. Hazard lights are not for driving in rain."
     },
     "es": {
-      "q": "La calzada está mojada por la lluvia. ¿Cuál es la actuación correcta?",
+      "q": "La calzada está mojada por la lluvia. ¿Qué NO es correcto hacer?",
       "options": [
-        "Reducir la velocidad y aumentar la distancia de seguridad",
-        "Mantener la velocidad, porque los neumáticos modernos agarran bien",
-        "Poner las luces de emergencia y mantener la velocidad"
+        "Reducir la velocidad",
+        "Aumentar la distancia de seguridad",
+        "Poner las luces de emergencia"
       ],
-      "why": "La distancia de frenado aumenta mucho con el suelo mojado. Hay que reducir la velocidad y dejar más espacio. Las luces de emergencia no se usan para circular con lluvia."
+      "why": "Con el suelo mojado la distancia de frenado aumenta mucho, así que reducir la velocidad y dejar más espacio es lo correcto. Las luces de emergencia no se usan para circular con lluvia."
     },
     "exam": {
-      "q": "The carriageway is wet because of the rain. Which is the correct actuation?",
+      "q": "The carriageway is wet because of the rain. What is NOT correct to do?",
       "options": [
-        "To reduce the speed and to increase the safety distance.",
-        "To maintain the speed, because the modern tyres grip well.",
-        "To switch on the emergency lights and to maintain the speed."
+        "To reduce the speed.",
+        "To increase the safety distance.",
+        "To switch on the emergency lights."
       ]
     },
     "terms": [
@@ -262,31 +262,31 @@
   {
     "id": "priority-02",
     "cat": "priority",
-    "answer": 0,
+    "answer": 1,
     "en": {
-      "q": "You arrive at a STOP sign and see no other traffic. What must you do?",
+      "q": "You arrive at a STOP sign and see no other traffic. May you carry on without stopping?",
       "options": [
-        "Come to a complete stop at the line, then proceed when it is safe",
-        "Slow down and continue if the road is clear",
-        "Stop only if another vehicle is coming"
+        "Yes, if you slow right down",
+        "No.",
+        "Yes, because the road is clear"
       ],
-      "why": "At a STOP sign you must stop completely, even when the road is empty. Rolling through is an infraction."
+      "why": "No: at a STOP sign you must stop completely at the line, even when the road is empty. Rolling through is an infraction."
     },
     "es": {
-      "q": "Llega a una señal de STOP y no ve ningún otro vehículo. ¿Qué debe hacer?",
+      "q": "Llega a una señal de STOP y no ve ningún otro vehículo. ¿Puede seguir sin detenerse?",
       "options": [
-        "Detenerse completamente ante la línea y continuar cuando sea seguro",
-        "Reducir la velocidad y continuar si la vía está libre",
-        "Detenerse solo si viene otro vehículo"
+        "Sí, si reduce mucho la velocidad",
+        "No.",
+        "Sí, porque la vía está libre"
       ],
-      "why": "Ante un STOP hay que detenerse por completo, aunque la vía esté libre. No detenerse es una infracción."
+      "why": "No: ante un STOP hay que detenerse por completo ante la línea, aunque la vía esté libre. No detenerse es una infracción."
     },
     "exam": {
-      "q": "You arrive at a STOP sign and you do not see any other vehicle. What must you do?",
+      "q": "You arrive at a STOP sign and you do not see any other vehicle. Can you continue without stopping?",
       "options": [
-        "To stop completely before the line and to continue when it is safe.",
-        "To reduce the speed and to continue if the road is free.",
-        "To stop only if another vehicle comes."
+        "Yes, if you reduce the speed a lot.",
+        "No.",
+        "Yes, because the road is free."
       ]
     },
     "terms": [
@@ -306,29 +306,29 @@
     "cat": "priority",
     "answer": 1,
     "en": {
-      "q": "A sign shows a downward-pointing triangle with a red border (\"Ceda el paso\"). What does it require?",
+      "q": "The \"Ceda el paso\" sign, a downward-pointing triangle with a red border, requires you to...",
       "options": [
-        "Stop completely in every case",
-        "Give way to traffic on the road you are entering, stopping only if needed",
-        "Speed up to merge"
+        "always stop completely before entering",
+        "give way to traffic on the road, stopping only if needed",
+        "speed up to merge ahead of the others"
       ],
       "why": "The yield sign means you give way. You do not have to stop if the way is clear, but you must stop if needed."
     },
     "es": {
-      "q": "Una señal muestra un triángulo con el vértice hacia abajo y borde rojo («Ceda el paso»). ¿Qué exige?",
+      "q": "La señal de «Ceda el paso», un triángulo con el vértice hacia abajo y borde rojo, obliga a…",
       "options": [
-        "Detenerse completamente en todos los casos",
-        "Ceder el paso a los vehículos de la vía en la que entra, deteniéndose solo si es necesario",
-        "Acelerar para incorporarse"
+        "detenerse siempre por completo antes de entrar",
+        "ceder el paso a quien circula por la vía, deteniéndose solo si hace falta",
+        "acelerar para incorporarse antes que los demás"
       ],
       "why": "La señal de ceda el paso obliga a ceder. No hay que parar si la vía está libre, pero sí si es necesario."
     },
     "exam": {
-      "q": "A sign shows a triangle with the vertex towards below and red border («Give way»). What does it demand?",
+      "q": "The sign of «Give way», a triangle with the vertex towards below and red border, obliges to…",
       "options": [
-        "To stop completely in every case.",
-        "To yield way to the vehicles of the road in which you enter, stopping only if it is necessary.",
-        "To accelerate in order to enter traffic."
+        "stop always completely before entering.",
+        "yield way to whoever circulates by the road, stopping only if it is necessary.",
+        "accelerate in order to enter traffic before the others."
       ]
     },
     "terms": [
@@ -346,25 +346,25 @@
     "en": {
       "q": "You are stopped at a red light and the way to the right is clear. May you turn right on red?",
       "options": [
-        "No. You wait for green, unless a separate signal or arrow allows the turn",
+        "No.",
         "Yes, after a full stop, as long as nobody is coming",
         "Yes, but only if you use the turn signal"
       ],
-      "why": "Turning right on red does not exist in Spain by default. Red means stop until the light changes or an arrow tells you otherwise."
+      "why": "No: turning right on red does not exist in Spain by default. Red means wait until the light changes, unless a separate light or an arrow allows the turn."
     },
     "es": {
       "q": "Está detenido ante un semáforo en rojo y la vía a su derecha está libre. ¿Puede girar a la derecha?",
       "options": [
-        "No. Debe esperar al verde, salvo que otra luz o una flecha lo autorice",
+        "No.",
         "Sí, tras detenerse, si no viene nadie",
         "Sí, pero solo si pone el intermitente"
       ],
-      "why": "En España no existe el giro a la derecha con semáforo en rojo por defecto. El rojo obliga a esperar hasta que cambie o hasta que una flecha lo permita."
+      "why": "No: en España no existe el giro a la derecha con semáforo en rojo por defecto. El rojo obliga a esperar hasta que cambie, salvo que otra luz o una flecha lo autorice."
     },
     "exam": {
       "q": "You are stopped before a traffic light in red and the road at your right is free. Can you turn to the right?",
       "options": [
-        "No. You must wait for the green, except that another light or an arrow authorises it.",
+        "No.",
         "Yes, after stopping, if nobody comes.",
         "Yes, but only if you put the indicator."
       ]
@@ -388,31 +388,31 @@
   {
     "id": "priority-05",
     "cat": "priority",
-    "answer": 2,
+    "answer": 1,
     "en": {
-      "q": "A traffic light shows a flashing yellow light. What does it mean?",
+      "q": "A traffic light with a flashing yellow light requires you to...",
       "options": [
-        "Stop and wait for green",
-        "You have priority over everyone",
-        "Proceed with caution, respecting the priority rules that apply"
+        "stop and wait for the green light",
+        "go on with caution, following the priority rules",
+        "just go, because it gives you priority over everyone"
       ],
       "why": "A flashing yellow light requires you to take extreme care and, where necessary, to give way. It does not excuse you from obeying other signals that require you to stop."
     },
     "es": {
-      "q": "Un semáforo muestra una luz amarilla intermitente. ¿Qué significa?",
+      "q": "Un semáforo con luz amarilla intermitente obliga a…",
       "options": [
-        "Detenerse y esperar al verde",
-        "Tiene prioridad sobre todos",
-        "Avanzar con precaución, respetando las normas de prioridad que correspondan"
+        "detenerse y esperar a que se encienda el verde",
+        "pasar con precaución, respetando las normas de prioridad",
+        "pasar sin más, porque da prioridad sobre todos"
       ],
       "why": "La luz amarilla intermitente obliga a extremar la precaución y, en su caso, a ceder el paso. No exime de cumplir otras señales que obliguen a detenerse."
     },
     "exam": {
-      "q": "A traffic light shows a yellow light intermittent. What does it mean?",
+      "q": "A traffic light with yellow intermittent light obliges to…",
       "options": [
-        "To stop and to wait for the green.",
-        "You have priority over all.",
-        "To advance with caution, respecting the priority norms which correspond."
+        "stop and wait for the green to switch on.",
+        "pass with caution, respecting the norms of priority.",
+        "pass without more, because it gives priority over all."
       ]
     },
     "terms": [
@@ -430,31 +430,31 @@
   {
     "id": "priority-06",
     "cat": "priority",
-    "answer": 1,
+    "answer": 0,
     "en": {
-      "q": "A traffic officer directs you to go while the traffic light is red. What do you do?",
+      "q": "A traffic officer signals you to proceed while the light is red. Must you proceed?",
       "options": [
-        "Obey the light",
-        "Obey the officer",
-        "Stop and wait for the light to change"
+        "Yes, because the officer’s signals override the traffic light",
+        "No, because the red light takes priority",
+        "Yes, but only if nobody is coming on the other road"
       ],
       "why": "An officer's instructions come first, then temporary signals and beacons, then traffic lights, then vertical signs, then road markings."
     },
     "es": {
-      "q": "Un agente de la circulación le indica que avance mientras el semáforo está en rojo. ¿Qué hace?",
+      "q": "Un agente de la circulación le indica que avance mientras el semáforo está en rojo. ¿Debe avanzar?",
       "options": [
-        "Obedece el semáforo",
-        "Obedece al agente",
-        "Se detiene y espera a que cambie el semáforo"
+        "Sí, porque las indicaciones del agente prevalecen sobre el semáforo",
+        "No, porque el semáforo en rojo prevalece",
+        "Sí, pero solo si no viene nadie por la otra vía"
       ],
       "why": "Primero van las indicaciones de los agentes, después la señalización circunstancial, luego los semáforos, las señales verticales y, por último, las marcas viales."
     },
     "exam": {
-      "q": "A traffic agent indicates to you to advance while the traffic light is in red. What do you do?",
+      "q": "A traffic agent indicates to you to advance while the traffic light is in red. Must you advance?",
       "options": [
-        "You obey the traffic light.",
-        "You obey the agent.",
-        "You stop and you wait for the traffic light to change."
+        "Yes, because the indications of the agent prevail over the traffic light.",
+        "No, because the traffic light in red prevails.",
+        "Yes, but only if nobody comes by the other road."
       ]
     },
     "terms": [
@@ -470,29 +470,29 @@
     "cat": "priority",
     "answer": 0,
     "en": {
-      "q": "A pedestrian is crossing at a marked crossing with no traffic light. What must you do?",
+      "q": "A pedestrian is crossing at a crosswalk with no traffic light. Must you stop?",
       "options": [
-        "Stop and let the pedestrian cross",
-        "Flash your headlights so they hurry",
-        "Continue if you are driving slowly"
+        "Yes, and let them cross, because they have priority",
+        "No, if the pedestrian is walking slowly",
+        "Yes, but only once the pedestrian reaches your lane"
       ],
-      "why": "Pedestrians crossing at a zebra crossing have priority. Slow down and stop in time."
+      "why": "Yes: pedestrians crossing at a crosswalk have priority. Slow down and stop in time, without waiting for them to reach your lane."
     },
     "es": {
-      "q": "Un peatón está cruzando por un paso de peatones sin semáforo. ¿Qué debe hacer?",
+      "q": "Un peatón está cruzando por un paso de peatones sin semáforo. ¿Debe detenerse?",
       "options": [
-        "Detenerse y dejarle cruzar",
-        "Hacer ráfagas de luces para que se apresure",
-        "Continuar si circula despacio"
+        "Sí, y dejarle cruzar, porque tiene prioridad",
+        "No, si el peatón va despacio",
+        "Sí, pero solo si el peatón ya ha llegado a su carril"
       ],
-      "why": "Los peatones que cruzan por un paso de peatones tienen prioridad. Hay que reducir la velocidad y detenerse a tiempo."
+      "why": "Sí: los peatones que cruzan por un paso de peatones tienen prioridad. Hay que reducir la velocidad y detenerse a tiempo, sin esperar a que lleguen a su carril."
     },
     "exam": {
-      "q": "A pedestrian is crossing by a pedestrian crossing without traffic light. What must you do?",
+      "q": "A pedestrian is crossing by a pedestrian crossing without traffic light. Must you stop?",
       "options": [
-        "To stop and to let him cross.",
-        "To make flashes of lights so that he hurries.",
-        "To continue if you circulate slowly."
+        "Yes, and to let him cross, because he has priority.",
+        "No, if the pedestrian goes slowly.",
+        "Yes, but only if the pedestrian has already arrived at your lane."
       ]
     },
     "terms": [
@@ -510,31 +510,31 @@
   {
     "id": "priority-08",
     "cat": "priority",
-    "answer": 2,
+    "answer": 1,
     "en": {
-      "q": "You are turning right into a side street and pedestrians are crossing it. Who has priority?",
+      "q": "You are turning right into a side street and pedestrians are crossing it. Do you have priority?",
       "options": [
-        "You, because you are already moving",
-        "Whoever arrives first",
-        "The pedestrians"
+        "Yes, because you are already moving",
+        "No, the pedestrians crossing the street you enter have it",
+        "Yes, if you reach the crossing before them"
       ],
-      "why": "When you turn, pedestrians crossing the street you are entering have priority over you."
+      "why": "No: when you turn, pedestrians crossing the street you are entering have priority over you."
     },
     "es": {
-      "q": "Va a girar a la derecha para entrar en una calle lateral y hay peatones cruzándola. ¿Quién tiene prioridad?",
+      "q": "Va a girar a la derecha para entrar en una calle lateral y unos peatones la están cruzando. ¿Tiene usted prioridad?",
       "options": [
-        "Usted, porque ya está en movimiento",
-        "El que llegue primero",
-        "Los peatones"
+        "Sí, porque ya está en movimiento",
+        "No, la tienen los peatones que cruzan la calle a la que entra",
+        "Sí, si llega antes que ellos al cruce"
       ],
-      "why": "Al girar, los peatones que cruzan la calle a la que entra tienen prioridad sobre usted."
+      "why": "No: al girar, los peatones que cruzan la calle a la que entra tienen prioridad sobre usted."
     },
     "exam": {
-      "q": "You are going to turn to the right in order to enter a lateral street and there are pedestrians crossing it. Who has priority?",
+      "q": "You are going to turn to the right in order to enter a side street and some pedestrians are crossing it. Do you have priority?",
       "options": [
-        "You, because you are already in movement.",
-        "The one who arrives first.",
-        "The pedestrians."
+        "Yes, because you are already in movement.",
+        "No, the pedestrians who cross the street which you enter have it.",
+        "Yes, if you arrive before them at the crossing."
       ]
     },
     "terms": [
@@ -556,8 +556,8 @@
     "en": {
       "q": "An ambulance with siren and blue flashing lights is approaching from behind. What should you do?",
       "options": [
-        "Speed up to get out of its way",
-        "Move to the right and stop if necessary to let it pass",
+        "Speed up to get out of its way as soon as possible",
+        "Move to the right and, if needed, stop",
         "Stay in your lane at your current speed"
       ],
       "why": "You must make way for priority vehicles: you normally move to the right or stop if necessary. In a traffic jam on a motorway or dual carriageway you act under article 32 (the emergency lane)."
@@ -565,8 +565,8 @@
     "es": {
       "q": "Una ambulancia con sirena y luces azules se aproxima por detrás. ¿Qué debe hacer?",
       "options": [
-        "Acelerar para apartarse de su camino",
-        "Apartarse a la derecha y detenerse si es necesario para facilitar su paso",
+        "Acelerar para apartarse de su camino lo antes posible",
+        "Apartarse a la derecha y, si hace falta, detenerse",
         "Mantenerse en su carril a la misma velocidad"
       ],
       "why": "Hay que facilitar el paso a los vehículos prioritarios: normalmente te apartas a la derecha o te detienes si es preciso. Con retención en una autopista o autovía se actúa según el artículo 32 (carril de emergencia)."
@@ -574,8 +574,8 @@
     "exam": {
       "q": "An ambulance with siren and blue lights approaches by behind. What must you do?",
       "options": [
-        "To accelerate in order to move away from its way.",
-        "To move away to the right and to stop if it is necessary in order to facilitate its passage.",
+        "To accelerate in order to move away from its way as soon as possible.",
+        "To move away to the right and, if it is necessary, to stop.",
         "To keep yourself in your lane at the same speed."
       ]
     },
@@ -596,29 +596,29 @@
     "cat": "priority",
     "answer": 0,
     "en": {
-      "q": "You are on an unpaved track and reach a paved road with no signs. Who has priority?",
+      "q": "You are on an unpaved track and reach a paved road with no signs. Do you have priority?",
       "options": [
-        "Vehicles on the paved road",
-        "Whoever is going faster",
-        "You, if you arrive first"
+        "No, traffic on the paved road has it",
+        "No, unless you reach the junction first",
+        "Yes, because you are coming from the right"
       ],
-      "why": "Vehicles on a paved road have priority over vehicles joining from an unpaved track."
+      "why": "No: vehicles on a paved road have priority over vehicles joining from an unpaved track, even when those come from the right."
     },
     "es": {
-      "q": "Circula por un camino sin pavimentar y llega a una carretera pavimentada sin señales. ¿Quién tiene prioridad?",
+      "q": "Circula por un camino sin pavimentar y llega a una carretera pavimentada sin señales. ¿Tiene usted prioridad?",
       "options": [
-        "Los vehículos de la carretera pavimentada",
-        "El que circule más rápido",
-        "Usted, si llega primero"
+        "No, la tienen los de la vía pavimentada",
+        "No, salvo que llegue usted primero al cruce",
+        "Sí, porque viene por la derecha"
       ],
-      "why": "Los vehículos que circulan por una vía pavimentada tienen prioridad sobre los que se incorporan desde un camino sin pavimentar."
+      "why": "No: los vehículos que circulan por una vía pavimentada tienen prioridad sobre los que se incorporan desde un camino sin pavimentar, aunque estos vengan por la derecha."
     },
     "exam": {
-      "q": "You circulate by an unpaved path and arrive at a paved road without signs. Who has priority?",
+      "q": "You circulate by an unpaved path and arrive at a paved road without signs. Do you have priority?",
       "options": [
-        "The vehicles of the paved road.",
-        "The one who circulates faster.",
-        "You, if you arrive first."
+        "No, those of the paved road have it.",
+        "No, except that you arrive first at the crossing.",
+        "Yes, because you come from the right."
       ]
     },
     "terms": [
@@ -641,26 +641,26 @@
       "q": "You see a sign with a white-bordered yellow diamond. What does it tell you?",
       "options": [
         "Roadworks ahead",
-        "Stopping is prohibited",
-        "You are on a priority road, with priority at intersections until a sign ends it"
+        "The end of priority at intersections",
+        "That you are on a priority road"
       ],
-      "why": "The yellow diamond marks a road with priority. A diamond with a black bar through it marks the end of that priority."
+      "why": "The yellow diamond marks a road with priority at intersections until another sign ends it. The end of that priority is the same diamond with a bar through it."
     },
     "es": {
       "q": "Ve una señal con un rombo amarillo de borde blanco. ¿Qué le indica?",
       "options": [
-        "Obras próximas",
-        "Parada prohibida",
-        "Que circula por una vía con prioridad en las intersecciones hasta que otra señal lo anule"
+        "Obras próximas en la vía",
+        "Fin de la prioridad en las intersecciones",
+        "Que circula por una vía con prioridad"
       ],
-      "why": "El rombo amarillo indica una vía con prioridad. El mismo rombo tachado indica el fin de esa prioridad."
+      "why": "El rombo amarillo indica una vía con prioridad en las intersecciones hasta que otra señal la anule. El fin de esa prioridad lo marca el mismo rombo tachado."
     },
     "exam": {
       "q": "You see a sign with a yellow rhombus of white border. What does it indicate to you?",
       "options": [
-        "Works near.",
-        "Stopping prohibited.",
-        "That you circulate by a road with priority in the intersections until another sign cancels it."
+        "Works near on the road.",
+        "End of the priority in the intersections.",
+        "That you circulate by a road with priority."
       ]
     },
     "terms": [
@@ -676,25 +676,25 @@
     "cat": "roundabouts",
     "answer": 1,
     "en": {
-      "q": "You are entering a roundabout. Who has priority, unless a sign says otherwise?",
+      "q": "As a general rule, who has priority when you enter a roundabout?",
       "options": [
         "The vehicle entering, because it is on the right",
         "Vehicles already circulating in the roundabout",
         "The largest vehicle"
       ],
-      "why": "Vehicles already in the roundabout have priority. You yield at the entrance."
+      "why": "As a rule, vehicles already in the roundabout have priority and you yield at the entrance. Only a sign can say otherwise."
     },
     "es": {
-      "q": "Va a entrar en una glorieta. ¿Quién tiene prioridad, salvo que una señal indique lo contrario?",
+      "q": "Como norma general, ¿quién tiene prioridad al entrar en una glorieta?",
       "options": [
         "El vehículo que entra, por venir por la derecha",
         "Los vehículos que ya circulan por la glorieta",
         "El vehículo de mayor tamaño"
       ],
-      "why": "Tienen prioridad los vehículos que ya circulan por el interior de la glorieta. Se cede el paso en la entrada."
+      "why": "Como regla, tienen prioridad los vehículos que ya circulan por el interior de la glorieta y se cede el paso en la entrada. Solo una señal puede indicar otra cosa."
     },
     "exam": {
-      "q": "You are going to enter a roundabout. Who has priority, except that a sign indicates the contrary?",
+      "q": "As a general rule, who has priority on entering a roundabout?",
       "options": [
         "The vehicle which enters, for coming from the right.",
         "The vehicles which already circulate by the roundabout.",
@@ -758,27 +758,27 @@
     "en": {
       "q": "You are in the inner lane of a two-lane roundabout and your exit is the next one on the right. What is correct?",
       "options": [
-        "Move to the outer lane in time, signal, and check that the lane is clear before leaving",
+        "Move to the outer lane in time, signal, and check that it is clear",
         "Cut across directly from the inner lane to the exit",
-        "Stop in the roundabout and wait for the outer lane to clear"
+        "Stop in the roundabout until the outer lane is clear"
       ],
       "why": "Change to the outer lane early and safely, signal, and only then take your exit. Never cut across other lanes and never stop inside the roundabout."
     },
     "es": {
       "q": "Circula por el carril interior de una glorieta de dos carriles y su salida es la siguiente a la derecha. ¿Qué es correcto?",
       "options": [
-        "Pasar a tiempo al carril exterior, señalizar y comprobar que está libre antes de salir",
+        "Pasar a tiempo al carril exterior, señalizar y comprobar que está libre",
         "Cruzar directamente desde el carril interior hasta la salida",
-        "Detenerse en la glorieta y esperar a que el carril exterior quede libre"
+        "Detenerse en la glorieta hasta que el carril exterior quede libre"
       ],
       "why": "Hay que pasar al carril exterior con antelación y seguridad, señalizar y solo entonces tomar la salida. No se debe cortar la trayectoria a otros vehículos ni detenerse en la glorieta."
     },
     "exam": {
       "q": "You circulate by the interior lane of a roundabout of two lanes and your exit is the following one to the right. What is correct?",
       "options": [
-        "To pass in time to the exterior lane, to signal and to check that it is free before leaving.",
+        "To pass in time to the exterior lane, to signal and to check that it is free.",
         "To cross directly from the interior lane until the exit.",
-        "To stop in the roundabout and to wait for the exterior lane to be free."
+        "To stop in the roundabout until the exterior lane remains free."
       ]
     },
     "terms": [
@@ -801,8 +801,8 @@
       "q": "When should you use the right turn signal in a roundabout?",
       "options": [
         "Never, because roundabouts do not need signals",
-        "In good time before the exit you are going to take",
-        "Only when you enter"
+        "In good time, before the exit you are going to take",
+        "Only when entering, to warn those already inside"
       ],
       "why": "Signal your exit early so the drivers waiting to enter and the ones behind you know what you will do."
     },
@@ -810,8 +810,8 @@
       "q": "¿Cuándo debe usar el intermitente derecho en una glorieta?",
       "options": [
         "Nunca, porque en las glorietas no se señaliza",
-        "Con antelación suficiente antes de la salida que va a tomar",
-        "Solo al entrar"
+        "Con antelación suficiente, antes de la salida que va a tomar",
+        "Solo al entrar, para avisar a los que ya circulan"
       ],
       "why": "Señalice la salida con antelación para que los conductores que esperan para entrar y los que le siguen sepan lo que va a hacer."
     },
@@ -819,8 +819,8 @@
       "q": "When must you use the right indicator in a roundabout?",
       "options": [
         "Never, because in the roundabouts one does not signal.",
-        "With sufficient anticipation before the exit which you are going to take.",
-        "Only when entering."
+        "With sufficient anticipation, before the exit which you are going to take.",
+        "Only on entering, in order to warn those who already circulate."
       ]
     },
     "terms": [
@@ -839,7 +839,7 @@
       "q": "You are waiting to enter a roundabout. From which side do the vehicles with priority approach?",
       "options": [
         "From your right",
-        "From the front only",
+        "Only from the front, from the opposite entrance",
         "From your left"
       ],
       "why": "The roundabout runs counterclockwise, so the vehicles circulating inside come at you from the left."
@@ -848,7 +848,7 @@
       "q": "Está esperando para entrar en una glorieta. ¿Por qué lado se aproximan los vehículos con prioridad?",
       "options": [
         "Por su derecha",
-        "Solo de frente",
+        "Solo de frente, desde la entrada opuesta",
         "Por su izquierda"
       ],
       "why": "La glorieta se recorre en sentido contrario a las agujas del reloj, por lo que los vehículos del interior llegan desde su izquierda."
@@ -857,7 +857,7 @@
       "q": "You are waiting to enter a roundabout. By which side approach the vehicles with priority?",
       "options": [
         "By your right.",
-        "Only from the front.",
+        "Only from the front, from the opposite entrance.",
         "By your left."
       ]
     },
@@ -874,29 +874,29 @@
     "cat": "overtaking",
     "answer": 0,
     "en": {
-      "q": "On which side do you normally overtake?",
+      "q": "As a general rule, overtaking is done...",
       "options": [
-        "On the left",
-        "On the right",
-        "On whichever side is free"
+        "on the left",
+        "on the right",
+        "on whichever side is clearer"
       ],
-      "why": "Overtaking is normally done on the left. Passing on the right is allowed only in specific cases, such as when the vehicle ahead is signaling a left turn."
+      "why": "As a rule, you overtake on the left. Passing on the right is allowed only in specific cases, such as when the vehicle ahead is signaling a left turn: that is the exception, not the rule."
     },
     "es": {
-      "q": "¿Por qué lado se adelanta normalmente?",
+      "q": "Como norma general, el adelantamiento se hace…",
       "options": [
-        "Por la izquierda",
-        "Por la derecha",
-        "Por el lado que esté libre"
+        "por la izquierda",
+        "por la derecha",
+        "por el lado que esté más libre"
       ],
-      "why": "El adelantamiento se realiza normalmente por la izquierda. Solo en casos concretos se permite por la derecha, por ejemplo si el vehículo de delante indica un giro a la izquierda."
+      "why": "Como regla, se adelanta por la izquierda. Por la derecha solo se permite en casos concretos, por ejemplo si el vehículo de delante indica un giro a la izquierda: es la excepción, no la regla."
     },
     "exam": {
-      "q": "By which side is overtaken normally?",
+      "q": "As a general rule, the overtaking is done…",
       "options": [
-        "By the left.",
-        "By the right.",
-        "By the side which is free."
+        "by the left.",
+        "by the right.",
+        "by the side which is more free."
       ]
     },
     "terms": [
@@ -999,25 +999,25 @@
       "q": "Another driver is overtaking you. What should you do?",
       "options": [
         "Stay on the right and do not speed up",
-        "Speed up to keep ahead",
+        "Stay on the right and also sound the horn as a warning",
         "Move toward the center line to give space"
       ],
-      "why": "When overtaken, keep to the right and do not increase speed. If danger appears once the pass has begun, slow down so the other driver can finish it."
+      "why": "When overtaken, keep to the right and do not increase speed. There is no need to sound the horn. If danger appears once the pass has begun, slow down so the other driver can finish it."
     },
     "es": {
       "q": "Otro conductor le está adelantando. ¿Qué debe hacer?",
       "options": [
         "Mantenerse a la derecha y no aumentar la velocidad",
-        "Acelerar para no ser rebasado",
+        "Mantenerse a la derecha y además tocar el claxon para avisar",
         "Acercarse a la línea central para dejarle espacio"
       ],
-      "why": "Si le adelantan, manténgase a la derecha y no aumente la velocidad. Si aparece un peligro cuando el adelantamiento ya ha empezado, reduzca para que el otro conductor pueda terminarlo."
+      "why": "Si le adelantan, manténgase a la derecha y no aumente la velocidad. No hace falta tocar el claxon. Si aparece un peligro cuando el adelantamiento ya ha empezado, reduzca para que el otro conductor pueda terminarlo."
     },
     "exam": {
       "q": "Another driver is overtaking you. What must you do?",
       "options": [
         "To keep yourself to the right and not to increase the speed.",
-        "To accelerate in order not to be passed.",
+        "To keep yourself to the right and in addition to sound the horn in order to warn.",
         "To approach the central line in order to leave him space."
       ]
     },
@@ -1034,29 +1034,29 @@
     "cat": "overtaking",
     "answer": 1,
     "en": {
-      "q": "The center line has a solid line on the other lane's side and a dashed line on yours. May you overtake?",
+      "q": "The center line has a solid line on the other lane’s side and a dashed line on yours. May you overtake?",
       "options": [
-        "No, any solid line prohibits it",
-        "Yes, you follow the marking on your own side, if it is safe",
-        "Only if you are on a motorway"
+        "No, because any solid line prohibits it",
+        "Yes, if it is safe, because the marking on your side governs",
+        "Yes, but only on motorways"
       ],
       "why": "When a solid line sits beside a dashed one, you follow the line on your side of the road. A dashed line on your side permits overtaking when it is safe."
     },
     "es": {
       "q": "En el eje de la calzada hay una línea continua en el lado contrario y una discontinua en el suyo. ¿Puede adelantar?",
       "options": [
-        "No, cualquier línea continua lo prohíbe",
-        "Sí, se respeta la marca de su lado, si es seguro",
-        "Solo si circula por una autopista"
+        "No, porque cualquier línea continua lo prohíbe",
+        "Sí, si es seguro, porque rige la marca de su lado",
+        "Sí, pero solo en autopistas y autovías"
       ],
       "why": "Cuando una línea continua va junto a una discontinua, rige la línea de su lado. Una línea discontinua en su lado permite adelantar si es seguro."
     },
     "exam": {
       "q": "In the axis of the carriageway there is a continuous line on the contrary side and a discontinuous one on yours. Can you overtake?",
       "options": [
-        "No, any continuous line prohibits it.",
-        "Yes, the marking of your side is respected, if it is safe.",
-        "Only if you circulate by a motorway."
+        "No, because any continuous line prohibits it.",
+        "Yes, if it is safe, because the marking of your side governs.",
+        "Yes, but only in motorways and dual carriageways."
       ]
     },
     "terms": [
@@ -1076,28 +1076,28 @@
     "cat": "overtaking",
     "answer": 2,
     "en": {
-      "q": "On a motorway with free lanes, when should you use the left lane?",
+      "q": "As a general rule, on a motorway with free lanes, what is the left lane for?",
       "options": [
-        "Whenever you like to go faster",
-        "For driving long distances",
-        "To overtake, then return to the right"
+        "For going faster than the rest",
+        "For long distances without changing lanes",
+        "For overtaking, then returning to the right"
       ],
       "why": "Keep to the right and use the left lane to overtake. Staying in the left lane without overtaking can be fined."
     },
     "es": {
-      "q": "En una autopista con carriles libres, ¿cuándo debe usar el carril izquierdo?",
+      "q": "Como norma general, en una autopista con carriles libres, ¿para qué se usa el carril izquierdo?",
       "options": [
-        "Siempre que quiera ir más rápido",
-        "Para recorrer largas distancias",
+        "Para ir más rápido que el resto",
+        "Para recorrer largas distancias sin cambiar de carril",
         "Para adelantar, volviendo después a la derecha"
       ],
       "why": "Circule por el carril de la derecha y use el izquierdo para adelantar. Permanecer en el izquierdo sin adelantar puede ser sancionado."
     },
     "exam": {
-      "q": "In a motorway with free lanes, when must you use the left lane?",
+      "q": "As a general rule, in a motorway with free lanes, for what is the left lane used?",
       "options": [
-        "Whenever you want to go faster.",
-        "In order to travel long distances.",
+        "In order to go faster than the rest.",
+        "In order to travel long distances without changing lane.",
         "In order to overtake, returning afterwards to the right."
       ]
     },
@@ -1118,29 +1118,29 @@
     "cat": "overtaking",
     "answer": 0,
     "en": {
-      "q": "The vehicle ahead is signaling a left turn and has moved toward the center. How may you pass it?",
+      "q": "The vehicle ahead is signaling a left turn and has moved toward the center. May you pass it?",
       "options": [
-        "On the right, if there is room and it is safe",
-        "You may not pass it at all",
-        "On the left, crossing the center line"
+        "Yes, on the right, if there is room and it is safe",
+        "No, not at all",
+        "Yes, on the left, crossing the center line"
       ],
       "why": "Passing on the right is allowed when the vehicle ahead has signaled a left turn and positioned itself for it."
     },
     "es": {
-      "q": "El vehículo de delante indica un giro a la izquierda y se ha desplazado hacia el centro. ¿Cómo puede adelantarlo?",
+      "q": "El vehículo de delante indica un giro a la izquierda y se ha desplazado hacia el centro. ¿Puede adelantarlo?",
       "options": [
-        "Por la derecha, si hay espacio y es seguro",
-        "No puede rebasarlo de ninguna manera",
-        "Por la izquierda, invadiendo la línea central"
+        "Sí, por la derecha, si hay espacio y es seguro",
+        "No, de ninguna manera",
+        "Sí, por la izquierda, invadiendo la línea central"
       ],
       "why": "Se puede adelantar por la derecha cuando el vehículo de delante ha señalizado un giro a la izquierda y se ha colocado para ello."
     },
     "exam": {
-      "q": "The vehicle in front indicates a turn to the left and has moved towards the centre. How can you overtake it?",
+      "q": "The vehicle in front indicates a turn to the left and has moved towards the centre. Can you overtake it?",
       "options": [
-        "By the right, if there is space and it is safe.",
-        "You cannot pass it in any manner.",
-        "By the left, invading the central line."
+        "Yes, by the right, if there is space and it is safe.",
+        "No, in no manner.",
+        "Yes, by the left, invading the central line."
       ]
     },
     "terms": [
@@ -1282,29 +1282,29 @@
     "cat": "alcohol",
     "answer": 1,
     "en": {
-      "q": "A driver tests positive for an illegal drug but shows no signs of impairment. What is the situation?",
+      "q": "A driver tests positive for an illegal drug but shows no signs of impairment. Is it an offense?",
       "options": [
-        "No offense, because there are no symptoms",
-        "It is an offense; the presence of the drug is enough",
-        "It is an offense only if the driver caused an accident"
+        "No, because there are no symptoms",
+        "Yes, the presence of the drug is enough",
+        "No, unless the driver caused an accident"
       ],
       "why": "For illegal drugs there is no permitted level. Their presence in the body while driving is already an offense."
     },
     "es": {
-      "q": "Un conductor da positivo en una droga ilegal pero no presenta signos de afectación. ¿Cuál es la situación?",
+      "q": "Un conductor da positivo en una droga ilegal pero no presenta signos de afectación. ¿Comete una infracción?",
       "options": [
-        "No hay infracción, porque no hay síntomas",
-        "Es una infracción; basta con la presencia de la droga",
-        "Solo es infracción si provocó un accidente"
+        "No, porque no presenta síntomas",
+        "Sí, basta con la presencia de la droga",
+        "No, salvo que haya provocado un accidente"
       ],
       "why": "Con las drogas ilegales no existe una tasa permitida. Su presencia en el organismo al conducir ya es infracción."
     },
     "exam": {
-      "q": "A driver gives positive in an illegal drug but does not present signs of affectation. Which is the situation?",
+      "q": "A driver gives positive in an illegal drug but does not present signs of affectation. Does he commit an infraction?",
       "options": [
-        "There is no infraction, because there are no symptoms.",
-        "It is an infraction; the presence of the drug is sufficient.",
-        "It is only an infraction if it provoked an accident."
+        "No, because he does not present symptoms.",
+        "Yes, the presence of the drug is sufficient.",
+        "No, except that he has provoked an accident."
       ]
     },
     "terms": [
@@ -1324,29 +1324,29 @@
     "cat": "alcohol",
     "answer": 2,
     "en": {
-      "q": "A driver refuses to take a breath test when requested by an officer. What does this mean?",
+      "q": "A driver refuses the breath test an officer asks for. Is that only an administrative offense?",
       "options": [
-        "Nothing, it is their right",
-        "A minor fine only",
-        "It is a criminal offense"
+        "Yes, because it is a refusal, not a positive result",
+        "Yes, a minor offense with a fine",
+        "No, it is a crime"
       ],
       "why": "Refusing the breath or drug test is a crime in itself, whatever you had to drink."
     },
     "es": {
-      "q": "Un conductor se niega a realizar la prueba de alcoholemia cuando se lo pide un agente. ¿Qué supone?",
+      "q": "Un conductor se niega a realizar la prueba de alcoholemia cuando se lo pide un agente. ¿Es solo una infracción administrativa?",
       "options": [
-        "Nada, es un derecho suyo",
-        "Solo una multa leve",
-        "Es un delito"
+        "Sí, porque es una negativa, no un positivo",
+        "Sí, una infracción leve con multa",
+        "No, es un delito"
       ],
       "why": "Negarse a la prueba de alcohol o drogas es un delito en sí mismo, con independencia de lo que haya bebido."
     },
     "exam": {
-      "q": "A driver refuses to carry out the alcohol test when an agent asks it of him. What does it suppose?",
+      "q": "A driver refuses to do the alcohol test when an agent asks him for it. Is it only an administrative infraction?",
       "options": [
-        "Nothing, it is a right of his.",
-        "Only a light fine.",
-        "It is a crime."
+        "Yes, because it is a refusal, not a positive.",
+        "Yes, a minor infraction with fine.",
+        "No, it is a crime."
       ]
     },
     "terms": [
@@ -1360,31 +1360,31 @@
   {
     "id": "alcohol-06",
     "cat": "alcohol",
-    "answer": 0,
+    "answer": 2,
     "en": {
-      "q": "Which of these makes you sober sooner?",
+      "q": "Which of these statements about alcohol is NOT true?",
       "options": [
-        "Only the passage of time",
-        "Strong coffee",
-        "A cold shower"
+        "Only time gets rid of it",
+        "Strong coffee does not lower the level",
+        "A cold shower speeds up its elimination"
       ],
-      "why": "Only time lowers alcohol in the blood. Coffee, showers, or fresh air do not."
+      "why": "Only time lowers alcohol in the blood: the first two statements are true. A cold shower, like coffee or fresh air, does not clear it any sooner."
     },
     "es": {
-      "q": "¿Qué hace que se le pase antes el efecto del alcohol?",
+      "q": "¿Cuál de estas afirmaciones sobre el alcohol NO es cierta?",
       "options": [
-        "Solo el paso del tiempo",
-        "Un café fuerte",
-        "Una ducha fría"
+        "Solo el paso del tiempo lo elimina",
+        "Un café fuerte no reduce la tasa",
+        "Una ducha fría acelera su eliminación"
       ],
-      "why": "Solo el tiempo reduce el alcohol en sangre. El café, la ducha o el aire fresco no lo hacen."
+      "why": "Solo el tiempo reduce el alcohol en sangre: las dos primeras afirmaciones son ciertas. Una ducha fría, como el café o el aire fresco, no lo elimina antes."
     },
     "exam": {
-      "q": "What makes that the effect of the alcohol passes to you sooner?",
+      "q": "Which of these statements about the alcohol is NOT true?",
       "options": [
-        "Only the passing of the time.",
-        "A strong coffee.",
-        "A cold shower."
+        "Only the passing of the time eliminates it.",
+        "A strong coffee does not reduce the rate.",
+        "A cold shower accelerates its elimination."
       ]
     },
     "terms": [
@@ -1400,29 +1400,29 @@
     "cat": "alcohol",
     "answer": 1,
     "en": {
-      "q": "A medicine shows the driving-warning pictogram on the box. What should you do?",
+      "q": "A medicine shows the driving-warning pictogram on the box. What is it advisable to do?",
       "options": [
-        "Ignore it, since it is only a recommendation",
-        "Follow the warning and ask your doctor or pharmacist before driving",
-        "Drive only at night"
+        "Ignore it, since it is only the maker’s recommendation",
+        "Ask your doctor or pharmacist before driving",
+        "Drive only at night, when there is less traffic"
       ],
       "why": "The pictogram warns that the medicine can affect your driving. Ask a professional before getting behind the wheel."
     },
     "es": {
-      "q": "Un medicamento lleva en el envase el pictograma de advertencia sobre la conducción. ¿Qué debe hacer?",
+      "q": "Un medicamento lleva en el envase el pictograma de advertencia sobre la conducción. ¿Qué es aconsejable hacer?",
       "options": [
-        "Ignorarlo, porque es solo una recomendación",
-        "Atender la advertencia y consultar al médico o al farmacéutico antes de conducir",
-        "Conducir solo de noche"
+        "Ignorarlo, porque es solo una recomendación del fabricante",
+        "Consultar al médico o al farmacéutico antes de conducir",
+        "Conducir solo de noche, cuando hay menos tráfico"
       ],
       "why": "El pictograma avisa de que el medicamento puede afectar a la conducción. Consulte a un profesional antes de ponerse al volante."
     },
     "exam": {
-      "q": "A medicine carries on the package the warning pictogram about the driving. What must you do?",
+      "q": "A medicine carries on the package the warning pictogram about the driving. What is it advisable to do?",
       "options": [
-        "To ignore it, because it is only a recommendation.",
-        "To attend the warning and to consult the doctor or the pharmacist before driving.",
-        "To drive only at night."
+        "To ignore it, because it is only a recommendation of the manufacturer.",
+        "To consult the doctor or the pharmacist before driving.",
+        "To drive only at night, when there is less traffic."
       ]
     },
     "terms": [
@@ -1440,31 +1440,31 @@
   {
     "id": "alcohol-08",
     "cat": "alcohol",
-    "answer": 2,
+    "answer": 1,
     "en": {
-      "q": "On a long trip, what does the DGT generally recommend to fight fatigue?",
+      "q": "On a long trip, how often is it advisable to stop and rest, according to the DGT?",
       "options": [
-        "Stop only when you feel sleepy",
-        "Drive through the night to avoid traffic",
-        "Rest about every two hours or 200 km"
+        "Only when you start to feel sleepy",
+        "Every two hours or 200 km, without waiting to feel sleepy",
+        "Every four hours or 400 km, if you are not sleepy"
       ],
       "why": "A common recommendation is to stop and rest at least every two hours or 200 km, and not to wait until you feel sleepy."
     },
     "es": {
-      "q": "En un viaje largo, ¿qué recomienda en general la DGT para combatir la fatiga?",
+      "q": "En un viaje largo, ¿cada cuánto es aconsejable parar a descansar, según la DGT?",
       "options": [
-        "Parar solo cuando se tenga sueño",
-        "Conducir de noche para evitar el tráfico",
-        "Descansar aproximadamente cada dos horas o 200 km"
+        "Solo cuando empiece a tener sueño",
+        "Cada dos horas o 200 km, sin esperar a tener sueño",
+        "Cada cuatro horas o 400 km, si no hay sueño"
       ],
       "why": "Una recomendación habitual es parar y descansar al menos cada dos horas o 200 km, sin esperar a tener sueño."
     },
     "exam": {
-      "q": "In a long journey, what does the DGT recommend in general in order to combat the fatigue?",
+      "q": "In a long journey, how often is it advisable to stop to rest, according to the DGT?",
       "options": [
-        "To stop only when one is sleepy.",
-        "To drive at night in order to avoid the traffic.",
-        "To rest approximately every two hours or 200 km."
+        "Only when you begin to be sleepy.",
+        "Every two hours or 200 km, without waiting to be sleepy.",
+        "Every four hours or 400 km, if there is no sleepiness."
       ]
     },
     "terms": [
@@ -1488,7 +1488,7 @@
       "options": [
         "Only the driver and the front passenger",
         "All occupants, in the front and rear seats",
-        "Only on motorways"
+        "Everyone except passengers in the rear seats"
       ],
       "why": "Seat belts (or the right child restraint) are mandatory for every occupant, in every seat, on every road, with a few narrow exceptions such as a medical exemption."
     },
@@ -1497,7 +1497,7 @@
       "options": [
         "Solo el conductor y el acompañante delantero",
         "Todos los ocupantes, en las plazas delanteras y traseras",
-        "Solo en autopista"
+        "Todos, salvo los pasajeros de las plazas traseras"
       ],
       "why": "El cinturón (o el sistema de retención adecuado) es obligatorio para todos los ocupantes, en todas las plazas y en todas las vías, con pocas excepciones como la exención médica."
     },
@@ -1506,7 +1506,7 @@
       "options": [
         "Only the driver and the front companion.",
         "All the occupants, in the front and rear places.",
-        "Only in motorway."
+        "All, except the passengers of the rear places."
       ]
     },
     "terms": [
@@ -1528,27 +1528,27 @@
     "en": {
       "q": "A child is 135 cm tall or less. How must the child travel?",
       "options": [
-        "In an approved child restraint system, normally in the rear seat",
+        "In an approved child restraint system",
         "With the adult seat belt in the front seat",
-        "Held on an adult's lap"
+        "Held on an adult’s lap in the rear seat"
       ],
       "why": "Children 135 cm or shorter must use an approved child restraint suited to their height and weight, normally in the rear seat."
     },
     "es": {
       "q": "Un niño mide 135 cm o menos. ¿Cómo debe viajar?",
       "options": [
-        "En un sistema de retención infantil homologado, normalmente en el asiento trasero",
+        "En un sistema de retención infantil homologado",
         "Con el cinturón de adulto en el asiento delantero",
-        "En brazos de un adulto"
+        "En brazos de un adulto en el asiento trasero"
       ],
       "why": "Los menores que midan 135 cm o menos deben usar un sistema de retención homologado adecuado a su talla y peso, normalmente en el asiento trasero."
     },
     "exam": {
       "q": "A child measures 135 cm or less. How must he travel?",
       "options": [
-        "In an approved child restraint system, normally in the rear seat.",
+        "In an approved child restraint system.",
         "With the adult seat belt in the front seat.",
-        "In arms of an adult."
+        "In arms of an adult in the rear seat."
       ]
     },
     "terms": [
@@ -1576,25 +1576,25 @@
       "options": [
         "Yes, because the car is not moving",
         "Yes, but only to read, not to type",
-        "No, the law makes no exception for waiting at a traffic light"
+        "No."
       ],
-      "why": "The ban on holding a phone applies while driving, and the law gives no exception for a stop at a traffic light. It is a serious offense with a fine and points."
+      "why": "No: the ban on holding a phone applies while driving, and the law gives no exception for a stop at a traffic light. It is a serious offense with a fine and points."
     },
     "es": {
       "q": "¿Puede sostener y usar el móvil mientras espera detenido en un semáforo en rojo?",
       "options": [
         "Sí, porque el vehículo no se mueve",
         "Sí, pero solo para leer, no para escribir",
-        "No, la ley no hace excepción por estar parado en un semáforo"
+        "No."
       ],
-      "why": "La prohibición de sostener el móvil rige mientras se conduce, y la ley no prevé ninguna excepción para una parada en un semáforo. Es una infracción grave, con multa y pérdida de puntos."
+      "why": "No: la prohibición de sostener el móvil rige mientras se conduce, y la ley no prevé ninguna excepción para una parada en un semáforo. Es una infracción grave, con multa y pérdida de puntos."
     },
     "exam": {
       "q": "Can you hold and use the mobile while you wait stopped at a traffic light in red?",
       "options": [
         "Yes, because the vehicle does not move.",
         "Yes, but only to read, not to write.",
-        "No, the law does not make exception for being stopped at a traffic light."
+        "No."
       ]
     },
     "terms": [
@@ -1612,27 +1612,27 @@
     "en": {
       "q": "Are headphones or earbuds allowed while driving to listen to music?",
       "options": [
-        "Yes, if only one ear is covered",
-        "No, it is prohibited",
-        "Yes, on motorways"
+        "No, unless only one ear is covered",
+        "No, they are prohibited",
+        "Yes, if the volume is low"
       ],
       "why": "Headphones and earbuds connected to audio equipment are prohibited while driving."
     },
     "es": {
       "q": "¿Se pueden llevar auriculares para escuchar música mientras se conduce?",
       "options": [
-        "Sí, si cubren solo un oído",
-        "No, está prohibido",
-        "Sí, en autopista"
+        "No, salvo que cubran solo un oído",
+        "No, está prohibido llevarlos",
+        "Sí, si el volumen es bajo"
       ],
       "why": "Está prohibido conducir con auriculares conectados a aparatos de sonido."
     },
     "exam": {
       "q": "Is it possible to carry headphones in order to listen to music while one drives?",
       "options": [
-        "Yes, if they cover only one ear.",
-        "No, it is prohibited.",
-        "Yes, in motorway."
+        "No, except that they cover only one ear.",
+        "No, it is prohibited to carry them.",
+        "Yes, if the volume is low."
       ]
     },
     "terms": [
@@ -1692,31 +1692,31 @@
   {
     "id": "safety-06",
     "cat": "safety",
-    "answer": 2,
+    "answer": 1,
     "en": {
-      "q": "In normal conditions, what following distance does the DGT teach?",
+      "q": "In normal conditions, what following distance does the DGT advise you to leave?",
       "options": [
-        "About one second",
-        "About half a second",
-        "At least two seconds behind the vehicle ahead"
+        "One second, if you are driving slowly",
+        "At least two seconds, and more in rain or fog",
+        "Half a second, if the road is dry"
       ],
       "why": "A common DGT guideline is at least two seconds behind the car ahead, and more in rain, fog, or heavy traffic."
     },
     "es": {
-      "q": "En condiciones normales, ¿qué distancia de seguridad enseña la DGT?",
+      "q": "En condiciones normales, ¿qué distancia de seguridad es aconsejable dejar respecto al vehículo de delante, según la DGT?",
       "options": [
-        "Aproximadamente un segundo",
-        "Aproximadamente medio segundo",
-        "Al menos dos segundos respecto al vehículo de delante"
+        "Un segundo, si circula despacio",
+        "Al menos dos segundos, y más con lluvia o niebla",
+        "Medio segundo, si la vía está seca"
       ],
       "why": "Una pauta habitual de la DGT es dejar al menos dos segundos respecto al vehículo de delante, y más con lluvia, niebla o tráfico denso."
     },
     "exam": {
-      "q": "In normal conditions, which safety distance does the DGT teach?",
+      "q": "In normal conditions, which safety distance is it advisable to leave with respect to the vehicle in front, according to the DGT?",
       "options": [
-        "Approximately one second.",
-        "Approximately half a second.",
-        "At least two seconds with respect to the vehicle in front."
+        "One second, if you circulate slowly.",
+        "At least two seconds, and more with rain or fog.",
+        "Half a second, if the road is dry."
       ]
     },
     "terms": [
@@ -1848,31 +1848,31 @@
   {
     "id": "docs-04",
     "cat": "docs",
-    "answer": 1,
+    "answer": 2,
     "en": {
-      "q": "Which documents must you be able to show when driving?",
+      "q": "When driving, which of these documents are you NOT required to carry?",
       "options": [
-        "Only your passport",
-        "Your driving license, the vehicle's registration (permiso de circulación) and its ITV card",
-        "Only your driving license"
+        "Your driving license",
+        "The vehicle’s technical inspection (ITV) card",
+        "Your passport"
       ],
-      "why": "You must carry your license, the vehicle registration document, and the technical inspection card (ficha ITV)."
+      "why": "You must carry your license, the vehicle registration document, and the technical inspection card (ficha ITV). A passport is not one of them."
     },
     "es": {
-      "q": "¿Qué documentos debe poder mostrar cuando conduce?",
+      "q": "Al conducir, ¿cuál de estos documentos NO está obligado a llevar?",
       "options": [
-        "Solo su pasaporte",
-        "El permiso de conducir, el permiso de circulación del vehículo y su tarjeta de ITV",
-        "Solo el permiso de conducir"
+        "El permiso de conducir",
+        "La tarjeta de inspección técnica (ITV)",
+        "El pasaporte"
       ],
-      "why": "Debe llevar el permiso de conducir, el permiso de circulación del vehículo y la tarjeta de inspección técnica (ficha ITV)."
+      "why": "Debe llevar el permiso de conducir, el permiso de circulación del vehículo y la tarjeta de inspección técnica (ficha ITV). El pasaporte no es uno de ellos."
     },
     "exam": {
-      "q": "Which documents must you be able to show when you drive?",
+      "q": "On driving, which of these documents are you NOT obliged to carry?",
       "options": [
-        "Only your passport.",
-        "The driving permit, the circulation permit of the vehicle and your ITV card.",
-        "Only the driving permit."
+        "The driving permit.",
+        "The card of technical inspection (ITV).",
+        "The passport."
       ]
     },
     "terms": [
@@ -1895,8 +1895,8 @@
       "q": "A triangular sign with a red border usually indicates:",
       "options": [
         "Danger or a warning",
-        "A prohibition",
-        "An obligation"
+        "A prohibition or restriction",
+        "An obligation or order"
       ],
       "why": "Triangle with a red border = danger. Circle with a red border = prohibition. Blue circle = obligation."
     },
@@ -1904,8 +1904,8 @@
       "q": "Una señal triangular con borde rojo indica normalmente:",
       "options": [
         "Peligro o advertencia",
-        "Una prohibición",
-        "Una obligación"
+        "Prohibición o restricción",
+        "Obligación o mandato"
       ],
       "why": "Triángulo con borde rojo = peligro. Círculo con borde rojo = prohibición. Círculo azul = obligación."
     },
@@ -1913,8 +1913,8 @@
       "q": "A triangular sign with red border indicates normally:",
       "options": [
         "Danger or warning.",
-        "A prohibition.",
-        "An obligation."
+        "Prohibition or restriction.",
+        "Obligation or mandate."
       ]
     },
     "terms": [
@@ -1970,27 +1970,27 @@
     "en": {
       "q": "A blue circular sign with a white arrow means:",
       "options": [
-        "A prohibition",
-        "A mandatory direction or action",
-        "Information about services"
+        "A ban on turning that way",
+        "A direction or obligation you must follow",
+        "Information about nearby services"
       ],
       "why": "Blue circular signs state an obligation, such as a mandatory direction."
     },
     "es": {
       "q": "Una señal circular azul con una flecha blanca significa:",
       "options": [
-        "Una prohibición",
-        "Una dirección u obligación a seguir",
-        "Información sobre servicios"
+        "Una prohibición de girar en ese sentido",
+        "Una dirección u obligación que hay que seguir",
+        "Información sobre servicios cercanos"
       ],
       "why": "Las señales circulares azules indican una obligación, como una dirección obligatoria."
     },
     "exam": {
       "q": "A blue circular sign with a white arrow means:",
       "options": [
-        "A prohibition.",
-        "A direction or obligation to follow.",
-        "Information about services."
+        "A prohibition of turning in that direction.",
+        "A direction or obligation that one must follow.",
+        "Information about near services."
       ]
     },
     "terms": [
@@ -2088,27 +2088,27 @@
     "en": {
       "q": "Signs with a yellow background, near roadworks, mean:",
       "options": [
-        "That they are permanent signs",
+        "That they are permanent and override temporary roadwork signs",
         "That they are temporary and override the permanent ones",
-        "That they apply only to trucks"
+        "That they apply only to trucks and buses"
       ],
       "why": "Yellow (or orange) signs mark temporary conditions such as roadworks. They take priority over the permanent signs."
     },
     "es": {
       "q": "Las señales de fondo amarillo, cerca de unas obras, significan:",
       "options": [
-        "Que son señales permanentes",
+        "Que son permanentes y prevalecen sobre las de obras temporales",
         "Que son temporales y prevalecen sobre las permanentes",
-        "Que solo afectan a camiones"
+        "Que solo afectan a los camiones y autobuses"
       ],
       "why": "Las señales amarillas o naranjas indican situaciones temporales como obras. Prevalecen sobre las permanentes."
     },
     "exam": {
       "q": "The signs of yellow background, near some works, mean:",
       "options": [
-        "That they are permanent signs.",
+        "That they are permanent and prevail over those of temporary works.",
         "That they are temporary and prevail over the permanent ones.",
-        "That they only affect lorries."
+        "That they only affect lorries and buses."
       ]
     },
     "terms": [
@@ -2214,31 +2214,31 @@
   {
     "id": "equipment-01",
     "cat": "equipment",
-    "answer": 1,
+    "answer": 2,
     "en": {
       "q": "What must a vehicle carry in case of a breakdown or emergency on the road?",
       "options": [
-        "A reflective vest and nothing else",
-        "A reflective vest and a V16 warning beacon",
-        "Only a spare tire"
+        "A reflective vest",
+        "A V16 warning beacon",
+        "A reflective vest and a V16 warning beacon"
       ],
-      "why": "Carry a reflective vest and the connected V16 beacon, which has been the only valid warning device since 1 January 2026 and replaced the triangles. Put the vest on before you get out on an interurban road."
+      "why": "Both: a reflective vest and the connected V16 beacon, which has been the only valid warning device since 1 January 2026 and replaced the triangles. Put the vest on before you get out on an interurban road."
     },
     "es": {
       "q": "¿Qué debe llevar un vehículo en caso de avería o emergencia en la carretera?",
       "options": [
-        "Solo un chaleco reflectante",
-        "Un chaleco reflectante y una baliza V16",
-        "Solo una rueda de repuesto"
+        "Un chaleco reflectante",
+        "Una baliza V16",
+        "Un chaleco reflectante y una baliza V16"
       ],
-      "why": "Lleve un chaleco reflectante y la baliza V16 conectada, que es el único dispositivo de preseñalización válido desde el 1 de enero de 2026 y sustituyó a los triángulos. Póngase el chaleco antes de salir del coche en una vía interurbana."
+      "why": "Las dos cosas: un chaleco reflectante y la baliza V16 conectada, que es el único dispositivo de preseñalización válido desde el 1 de enero de 2026 y sustituyó a los triángulos. Póngase el chaleco antes de salir del coche en una vía interurbana."
     },
     "exam": {
       "q": "What must a vehicle carry in case of breakdown or emergency in the road?",
       "options": [
-        "Only a reflective waistcoat.",
-        "A reflective waistcoat and a V16 beacon.",
-        "Only a spare wheel."
+        "A reflective waistcoat.",
+        "A V16 beacon.",
+        "A reflective waistcoat and a V16 beacon."
       ]
     },
     "terms": [
@@ -2302,9 +2302,9 @@
     "en": {
       "q": "What is a ZBE sign?",
       "options": [
-        "A low-emission zone with access restrictions for some vehicles",
-        "A school zone",
-        "A speed enforcement zone"
+        "A low-emission zone with access restricted for some vehicles",
+        "A school zone with restricted access",
+        "A camera speed-enforcement zone"
       ],
       "why": "ZBE means \"Zona de Bajas Emisiones\", a low-emission zone. Access can depend on your vehicle's environmental badge."
     },
@@ -2312,8 +2312,8 @@
       "q": "¿Qué indica una señal ZBE?",
       "options": [
         "Una zona de bajas emisiones con acceso restringido a algunos vehículos",
-        "Una zona escolar",
-        "Una zona de control de velocidad"
+        "Una zona escolar con acceso restringido",
+        "Una zona de control de velocidad por cámaras"
       ],
       "why": "ZBE significa «Zona de Bajas Emisiones». El acceso puede depender del distintivo ambiental del vehículo."
     },
@@ -2321,8 +2321,8 @@
       "q": "What does a ZBE sign indicate?",
       "options": [
         "A zone of low emissions with access restricted to some vehicles.",
-        "A school zone.",
-        "A zone of speed control."
+        "A school zone with restricted access.",
+        "A zone of speed control by cameras."
       ]
     },
     "terms": [
@@ -2345,26 +2345,26 @@
       "q": "When may you use the hazard (emergency) lights?",
       "options": [
         "To park illegally for a minute",
-        "When your vehicle is immobilized and a danger to others, such as in a breakdown",
-        "Whenever it rains"
+        "When your immobilized vehicle is a danger",
+        "Whenever it rains hard, so you are seen better"
       ],
       "why": "Hazard lights warn others about a vehicle that is immobilized and a danger, for example after a breakdown or in poor visibility. They are not permission to park illegally."
     },
     "es": {
       "q": "¿Cuándo puede usar las luces de emergencia?",
       "options": [
-        "Para estacionar mal un minuto",
-        "Cuando su vehículo está inmovilizado y supone un peligro para otros, por ejemplo por una avería",
-        "Siempre que llueva"
+        "Para estacionar mal durante un minuto",
+        "Cuando su vehículo inmovilizado es un peligro",
+        "Siempre que llueva con fuerza, para que le vean mejor"
       ],
       "why": "Las luces de emergencia avisan de un vehículo inmovilizado que supone un peligro, por ejemplo tras una avería o con poca visibilidad. No dan permiso para estacionar mal."
     },
     "exam": {
       "q": "When can you use the emergency lights?",
       "options": [
-        "In order to park badly one minute.",
-        "When your vehicle is immobilised and supposes a danger for others, for example by a breakdown.",
-        "Whenever it rains."
+        "In order to park badly during one minute.",
+        "When your immobilised vehicle is a danger.",
+        "Whenever it rains with force, so that they see you better."
       ]
     },
     "terms": [
@@ -2471,8 +2471,8 @@
       "q": "A motorcyclist is injured and lying on the road. Should you take off their helmet?",
       "options": [
         "Yes, immediately, so they can breathe",
-        "No, only if there is a clear reason and someone who knows how decides",
-        "Yes, always"
+        "No, unless someone who knows how clearly says so",
+        "No, never, not even if a medic on the scene says so"
       ],
       "why": "The DGT says not to take the helmet off. It is removed only with a clear reason and by someone who knows how, because it can worsen a spinal injury. Call 112 and follow their instructions."
     },
@@ -2480,8 +2480,8 @@
       "q": "Un motorista herido yace en la calzada. ¿Debe quitarle el casco?",
       "options": [
         "Sí, enseguida, para que pueda respirar",
-        "No, solo si hay una indicación clara y lo decide quien sabe hacerlo",
-        "Sí, siempre"
+        "No, salvo indicación clara de quien sabe hacerlo",
+        "No, nunca, ni aunque lo indique un sanitario en el lugar"
       ],
       "why": "La DGT indica que no se debe quitar el casco. Solo se retira con una indicación clara y por quien sabe hacerlo, porque puede agravar una lesión de columna. Llama al 112 y sigue sus instrucciones."
     },
@@ -2489,8 +2489,8 @@
       "q": "An injured motorcyclist lies on the carriageway. Must you take off his helmet?",
       "options": [
         "Yes, immediately, so that he can breathe.",
-        "No, only if there is a clear indication and it is decided by who knows how to do it.",
-        "Yes, always."
+        "No, except clear indication of who knows how to do it.",
+        "No, never, not even if a health worker at the place indicates it."
       ]
     },
     "terms": [
@@ -2512,8 +2512,8 @@
     "en": {
       "q": "May you park in front of a driveway marked \"vado\"?",
       "options": [
-        "Yes, for a few minutes",
-        "Yes, at night",
+        "Yes, for a few minutes, if you stay in the car",
+        "Yes, at night, when there is no activity",
         "No, it is prohibited"
       ],
       "why": "Parking in front of a marked driveway (vado) is prohibited, because it blocks access. The tow truck can remove you."
@@ -2521,8 +2521,8 @@
     "es": {
       "q": "¿Se puede aparcar delante de una entrada con la señal de «vado»?",
       "options": [
-        "Sí, unos minutos",
-        "Sí, por la noche",
+        "Sí, unos minutos, si se queda en el coche",
+        "Sí, por la noche, cuando no hay actividad",
         "No, está prohibido"
       ],
       "why": "Está prohibido aparcar frente a un vado señalizado, porque impide el acceso. La grúa puede retirar el vehículo."
@@ -2530,8 +2530,8 @@
     "exam": {
       "q": "Is it possible to park in front of an entrance with the sign of «vado»?",
       "options": [
-        "Yes, some minutes.",
-        "Yes, at night.",
+        "Yes, some minutes, if you stay in the car.",
+        "Yes, at night, when there is no activity.",
         "No, it is prohibited."
       ]
     },
@@ -2554,27 +2554,27 @@
     "en": {
       "q": "May you honk the horn in a town?",
       "options": [
-        "Only to avoid an accident",
-        "Whenever someone is slow",
-        "To greet someone"
+        "Yes, but only to avoid an accident",
+        "Yes, to warn that you are about to overtake another vehicle",
+        "No, it is always banned in town"
       ],
-      "why": "In built-up areas the horn is allowed only to prevent an accident, not to complain or greet."
+      "why": "In built-up areas the horn is allowed only to prevent an accident. Using it to warn that you will overtake is allowed only outside built-up areas."
     },
     "es": {
       "q": "¿Se puede usar el claxon en poblado?",
       "options": [
-        "Solo para evitar un accidente",
-        "Siempre que alguien vaya lento",
-        "Para saludar a alguien"
+        "Sí, pero solo para evitar un accidente",
+        "Sí, para avisar de que va a adelantar a otro vehículo",
+        "No, en poblado está prohibido siempre"
       ],
-      "why": "En poblado solo se puede usar el claxon para evitar un accidente, no para quejarse ni para saludar."
+      "why": "En poblado solo se puede usar el claxon para evitar un accidente. Avisar de un adelantamiento con el claxon solo se permite fuera de poblado."
     },
     "exam": {
       "q": "Is it possible to use the horn in town?",
       "options": [
-        "Only to avoid an accident.",
-        "Whenever somebody goes slow.",
-        "In order to greet somebody."
+        "Yes, but only to avoid an accident.",
+        "Yes, in order to warn that you are going to overtake another vehicle.",
+        "No, in town it is always prohibited."
       ]
     },
     "terms": [
@@ -2592,31 +2592,31 @@
   {
     "id": "situations-06",
     "cat": "situations",
-    "answer": 1,
+    "answer": 0,
     "en": {
-      "q": "You miss your exit on a motorway. What do you do?",
+      "q": "You miss your exit on a motorway. May you go back to take it?",
       "options": [
-        "Reverse along the shoulder to the exit",
-        "Continue to the next exit and come back",
-        "Make a U-turn across the median"
+        "No, you must carry on to the next exit",
+        "No, unless you do it slowly on the shoulder",
+        "Yes, reversing on the shoulder with the hazard lights on"
       ],
       "why": "Reversing is banned and you cannot turn around across the median. Continue to the next exit."
     },
     "es": {
-      "q": "Se pasa la salida en una autopista. ¿Qué hace?",
+      "q": "Se pasa la salida en una autopista. ¿Puede volver atrás para tomarla?",
       "options": [
-        "Retroceder por el arcén hasta la salida",
-        "Continuar hasta la siguiente salida y volver",
-        "Dar la vuelta cruzando la mediana"
+        "No, debe continuar hasta la siguiente salida",
+        "No, salvo que lo haga despacio por el arcén",
+        "Sí, marcha atrás por el arcén con las luces de emergencia"
       ],
       "why": "Está prohibido dar marcha atrás y no se puede cambiar de sentido cruzando la mediana. Continúe hasta la siguiente salida."
     },
     "exam": {
-      "q": "You pass the exit in a motorway. What do you do?",
+      "q": "You pass the exit in a motorway. Can you go back in order to take it?",
       "options": [
-        "To go backwards by the hard shoulder until the exit.",
-        "To continue until the following exit and to return.",
-        "To turn around crossing the median."
+        "No, you must continue until the following exit.",
+        "No, except that you do it slowly by the hard shoulder.",
+        "Yes, in reverse by the hard shoulder with the emergency lights."
       ]
     },
     "terms": [
@@ -2638,31 +2638,31 @@
   {
     "id": "situations-07",
     "cat": "situations",
-    "answer": 2,
+    "answer": 1,
     "en": {
-      "q": "You are joining a motorway from an acceleration lane. Who has priority?",
+      "q": "You are joining a motorway from an acceleration lane. Do you have priority?",
       "options": [
-        "You, because you are entering",
-        "Whoever is going faster",
-        "The traffic already on the motorway"
+        "Yes, because you are joining from the right",
+        "No, the traffic already on the motorway has it",
+        "Yes, if you have already matched speed"
       ],
-      "why": "Use the acceleration lane to match speed and merge when there is a gap. Traffic already on the motorway has priority."
+      "why": "No: use the acceleration lane to match speed and merge when there is a gap. Traffic already on the motorway has priority."
     },
     "es": {
-      "q": "Se incorpora a una autopista desde un carril de aceleración. ¿Quién tiene prioridad?",
+      "q": "Se incorpora a una autopista desde un carril de aceleración. ¿Tiene usted prioridad?",
       "options": [
-        "Usted, porque entra",
-        "El que vaya más rápido",
-        "Los vehículos que ya circulan por la autopista"
+        "Sí, porque se incorpora desde la derecha",
+        "No, la tienen los que ya circulan por la autopista",
+        "Sí, si ya ha igualado la velocidad"
       ],
-      "why": "Use el carril de aceleración para igualar la velocidad e incorpórese cuando haya hueco. Tienen prioridad los vehículos que ya circulan por la autopista."
+      "why": "No: use el carril de aceleración para igualar la velocidad e incorpórese cuando haya hueco. Tienen prioridad los vehículos que ya circulan por la autopista."
     },
     "exam": {
-      "q": "You enter traffic in a motorway from an acceleration lane. Who has priority?",
+      "q": "You enter traffic in a motorway from an acceleration lane. Do you have priority?",
       "options": [
-        "You, because you enter.",
-        "The one who goes faster.",
-        "The vehicles which already circulate by the motorway."
+        "Yes, because you enter traffic from the right.",
+        "No, those who already circulate by the motorway have it.",
+        "Yes, if you have already equalled the speed."
       ]
     },
     "terms": [
@@ -2682,29 +2682,29 @@
     "cat": "hazards",
     "answer": 0,
     "en": {
-      "q": "You see a delivery van stopped just before a pedestrian crossing on the right. What is the safest reaction?",
+      "q": "You see a delivery van stopped just before a pedestrian crossing on the right. What is it advisable to do?",
       "options": [
-        "Ease off and be ready to brake, since someone may step out",
-        "Keep your speed; the van is stopped",
-        "Speed up to pass the van quickly"
+        "Slow down and be ready to brake, since someone may step out",
+        "Keep your speed, because the van is stopped",
+        "Speed up to get past the van as soon as possible"
       ],
       "why": "A stopped vehicle can hide pedestrians. Slow down and prepare to stop."
     },
     "es": {
-      "q": "Ve una furgoneta de reparto detenida justo antes de un paso de peatones, a la derecha. ¿Cuál es la reacción más segura?",
+      "q": "Ve una furgoneta de reparto detenida justo antes de un paso de peatones, a la derecha. ¿Qué es aconsejable hacer?",
       "options": [
-        "Reducir la velocidad y estar preparado para frenar, porque alguien puede salir",
+        "Reducir la velocidad y prepararse para frenar, porque alguien puede salir",
         "Mantener la velocidad, porque la furgoneta está parada",
-        "Acelerar para adelantar rápidamente la furgoneta"
+        "Acelerar para adelantar cuanto antes a la furgoneta"
       ],
       "why": "Un vehículo detenido puede ocultar a peatones. Reduzca la velocidad y prepárese para detenerse."
     },
     "exam": {
-      "q": "You see a delivery van stopped just before a pedestrian crossing, to the right. Which is the safest reaction?",
+      "q": "You see a delivery van stopped just before a pedestrian crossing, to the right. What is it advisable to do?",
       "options": [
-        "To reduce the speed and to be prepared to brake, because somebody can go out.",
+        "To reduce the speed and to prepare to brake, because somebody can go out.",
         "To maintain the speed, because the van is stopped.",
-        "To accelerate in order to overtake quickly the van."
+        "To accelerate in order to overtake the van as soon as possible."
       ]
     },
     "terms": [
@@ -2720,29 +2720,29 @@
     "cat": "hazards",
     "answer": 1,
     "en": {
-      "q": "A ball rolls into the street from between parked cars. What do you do?",
+      "q": "A ball rolls into the street from between parked cars. The safest thing is to...",
       "options": [
-        "Keep going, because it is only a ball",
-        "Slow down and prepare to stop, because a child may follow",
-        "Speed up to pass before anyone appears"
+        "keep the same speed, because it is only a ball",
+        "slow down and prepare to stop",
+        "speed up to pass before anyone comes out"
       ],
       "why": "A ball in the street often means a child is about to follow. Slow down and be ready to stop."
     },
     "es": {
-      "q": "Un balón rueda a la calzada entre dos coches aparcados. ¿Qué hace?",
+      "q": "Un balón rueda a la calzada entre dos coches aparcados. Lo más seguro es…",
       "options": [
-        "Continúa, porque solo es un balón",
-        "Reduce la velocidad y se prepara para detenerse, porque puede aparecer un niño",
-        "Acelera para pasar antes de que aparezca alguien"
+        "continuar a la misma velocidad, porque solo es un balón",
+        "reducir la velocidad y prepararse para detenerse",
+        "acelerar para pasar antes de que salga alguien"
       ],
       "why": "Un balón en la calzada suele indicar que un niño va a salir detrás. Reduzca y prepárese para detenerse."
     },
     "exam": {
-      "q": "A ball rolls to the carriageway between two parked cars. What do you do?",
+      "q": "A ball rolls to the carriageway between two parked cars. The safest is…",
       "options": [
-        "You continue, because it is only a ball.",
-        "You reduce the speed and you prepare to stop, because a child can appear.",
-        "You accelerate in order to pass before somebody appears."
+        "to continue at the same speed, because it is only a ball.",
+        "to reduce the speed and to prepare to stop.",
+        "to accelerate in order to pass before somebody comes out."
       ]
     },
     "terms": [
@@ -2764,27 +2764,27 @@
     "en": {
       "q": "A car on a narrow road is overtaking and coming toward you in your lane. What do you do?",
       "options": [
-        "Flash your lights and hold your line",
-        "Swerve left to avoid it",
-        "Brake, keep to the right, and give it room to return to its lane"
+        "Flash your lights and hold your line so it moves over",
+        "Swerve left to dodge it",
+        "Brake, keep to the right and give it room to get back"
       ],
       "why": "Brake and keep to the right to give the overtaking car room to get back. Do not swerve toward the opposite lane."
     },
     "es": {
       "q": "En una carretera estrecha, un coche que adelanta viene hacia usted por su carril. ¿Qué hace?",
       "options": [
-        "Hace ráfagas y mantiene su trayectoria",
-        "Gira a la izquierda para esquivarlo",
-        "Frena, se mantiene a la derecha y le deja espacio para volver a su carril"
+        "Hace ráfagas y mantiene su trayectoria para que se aparte",
+        "Se desvía hacia la izquierda para esquivarlo",
+        "Frena, se mantiene a la derecha y le deja espacio para volver"
       ],
       "why": "Frene y manténgase a la derecha para dejar espacio al vehículo que adelanta. No gire hacia el carril contrario."
     },
     "exam": {
       "q": "In a narrow road, a car which overtakes comes towards you by your lane. What do you do?",
       "options": [
-        "You make flashes and you maintain your trajectory.",
-        "You turn to the left in order to dodge it.",
-        "You brake, you keep to the right and you leave it space in order to return to its lane."
+        "You make flashes and you maintain your trajectory so that it moves aside.",
+        "You deviate towards the left in order to dodge it.",
+        "You brake, you keep to the right and you leave it space in order to return."
       ]
     },
     "terms": [
@@ -2802,27 +2802,27 @@
     "en": {
       "q": "In a roundabout, the car ahead in the inner lane has no turn signal on. What should you assume?",
       "options": [
-        "It may exit across your path, so stay alert",
-        "It will keep circling",
-        "It will stop"
+        "That it may exit across your path",
+        "That it will keep circling on the inside",
+        "That it will stop inside the roundabout"
       ],
       "why": "Do not assume. A driver in the inner lane may cut across to exit without signaling. Keep your distance."
     },
     "es": {
       "q": "En una glorieta, el coche que va delante por el carril interior no lleva intermitente. ¿Qué debe suponer?",
       "options": [
-        "Que puede salir cruzándose en su camino, así que debe estar atento",
-        "Que seguirá dando vueltas",
-        "Que se detendrá"
+        "Que puede salir cruzándose en su camino",
+        "Que seguirá dando vueltas por el interior",
+        "Que se detendrá dentro de la glorieta"
       ],
       "why": "No dé nada por supuesto. Un conductor del carril interior puede cruzar para salir sin señalizar. Mantenga la distancia."
     },
     "exam": {
       "q": "In a roundabout, the car which goes in front by the interior lane does not carry indicator. What must you suppose?",
       "options": [
-        "That it can go out crossing itself in your way, so you must be attentive.",
-        "That it will continue giving turns.",
-        "That it will stop."
+        "That it can go out crossing itself in your way.",
+        "That it will continue giving turns by the interior.",
+        "That it will stop inside the roundabout."
       ]
     },
     "terms": [
@@ -2838,29 +2838,29 @@
     "cat": "hazards",
     "answer": 1,
     "en": {
-      "q": "You are driving behind a cyclist on a country road with a continuous line. What is the correct action?",
+      "q": "You are driving behind a cyclist on a country road with a continuous line. May you overtake?",
       "options": [
-        "Honk and pass closely",
-        "Slow down and, when safe, pass leaving 1.5 m, even crossing the line if needed",
-        "Follow at a short distance until the road widens"
+        "No, because the continuous line may not be crossed",
+        "Yes, if it is safe and you leave at least 1.5 m of clearance",
+        "Yes, but only if the cyclist pulls onto the shoulder"
       ],
       "why": "You may cross the continuous line to pass a cyclist if it is safe. Leave at least 1.5 meters and, outside town, slow to at least 20 km/h below the road limit."
     },
     "es": {
-      "q": "Circula detrás de un ciclista por una carretera con línea continua. ¿Cuál es la actuación correcta?",
+      "q": "Circula detrás de un ciclista por una carretera con línea continua. ¿Puede adelantarlo?",
       "options": [
-        "Tocar el claxon y adelantar muy cerca",
-        "Reducir la velocidad y, cuando sea seguro, adelantar dejando 1,5 m, incluso invadiendo la línea si hace falta",
-        "Seguirle a poca distancia hasta que la vía se ensanche"
+        "No, porque la línea continua no se puede pisar",
+        "Sí, si es seguro y deja al menos 1,5 m de separación",
+        "Sí, pero solo si el ciclista se aparta al arcén"
       ],
       "why": "Puede invadir la línea continua para adelantar a un ciclista si es seguro. Deje al menos 1,5 metros y, fuera de poblado, reduzca la velocidad al menos 20 km/h respecto al límite de la vía."
     },
     "exam": {
-      "q": "You circulate behind a cyclist by a road with continuous line. Which is the correct actuation?",
+      "q": "You circulate behind a cyclist by a road with continuous line. Can you overtake him?",
       "options": [
-        "To sound the horn and to overtake very close.",
-        "To reduce the speed and, when it is safe, to overtake leaving 1,5 m, even invading the line if it is necessary.",
-        "To follow him at little distance until the road widens."
+        "No, because the continuous line cannot be stepped on.",
+        "Yes, if it is safe and you leave at least 1,5 m of separation.",
+        "Yes, but only if the cyclist moves aside to the hard shoulder."
       ]
     },
     "terms": [

@@ -126,28 +126,28 @@
                 "id": "situations-c1a",
                 "answer": 1,
                 "es": {
-                  "q": "Dejas el coche delante de una panadería y entras 30 segundos a comprar pan. ¿Qué es, legalmente?",
+                  "q": "Deja el coche delante de una panadería y entra 30 segundos a comprar pan. ¿Qué es, legalmente?",
                   "options": [
-                    "Una parada, porque dura menos de dos minutos",
-                    "Un estacionamiento, porque abandonas el vehículo",
-                    "Una detención, porque es muy breve"
+                    "Se considera parada, porque dura menos de dos minutos",
+                    "Se considera estacionamiento, porque abandona el vehículo",
+                    "Se considera detención, porque es muy breve"
                   ],
                   "why": "En una parada el conductor no puede abandonar el vehículo. Si te alejas, aunque sea medio minuto, es un estacionamiento."
                 },
                 "exam": {
                   "q": "You leave the car in front of a bakery and you enter 30 seconds to buy bread. What is it, legally?",
                   "options": [
-                    "A stop, because it lasts less than two minutes.",
-                    "A parking, because you abandon the vehicle.",
-                    "A detention, because it is very brief."
+                    "It is considered a stop, because it lasts less than two minutes.",
+                    "It is considered a parking, because you abandon the vehicle.",
+                    "It is considered a detention, because it is very brief."
                   ]
                 },
                 "en": {
                   "q": "You leave your car in front of a bakery and go in for 30 seconds to buy bread. What is it, legally?",
                   "options": [
-                    "A stop, because it lasts under two minutes",
-                    "Parking, because you leave the vehicle",
-                    "A halt, because it is so brief"
+                    "It counts as a stop, because it lasts under two minutes",
+                    "It counts as parking, because you leave the vehicle",
+                    "It counts as a halt, because it is so brief"
                   ],
                   "why": "In a stop the driver cannot leave the vehicle. If you walk away, even for half a minute, it is parking."
                 },
@@ -177,10 +177,10 @@
                 "id": "situations-c1x",
                 "answer": 1,
                 "es": {
-                  "q": "Una avería te obliga a inmovilizar el coche en la calzada. ¿Cuánto puede durar esa detención?",
+                  "q": "Una avería le obliga a inmovilizar el coche en la calzada. ¿Cuánto puede durar esa detención?",
                   "options": [
                     "Menos de dos minutos, igual que una parada",
-                    "Lo que dure la causa que la obliga: la ley no fija un máximo",
+                    "Lo que dure la causa: la ley no fija un máximo",
                     "Hasta que llegue la grúa, con un máximo de una hora"
                   ],
                   "why": "La detención es la inmovilización por emergencia, por necesidades de la circulación o para cumplir una norma. Su definición no fija un tiempo: dura lo que dura su causa. El límite de dos minutos es de la parada."
@@ -189,7 +189,7 @@
                   "q": "A breakdown obliges you to immobilise the car on the carriageway. How long can that detention last?",
                   "options": [
                     "Less than two minutes, the same as a stop.",
-                    "What the cause that obliges it lasts: the law does not fix a maximum.",
+                    "What the cause lasts: the law does not fix a maximum.",
                     "Until the tow truck arrives, with a maximum of one hour."
                   ]
                 },
@@ -274,30 +274,30 @@
                 "id": "situations-c1b",
                 "answer": 0,
                 "es": {
-                  "q": "Hay esta señal de estacionamiento prohibido. Quieres dejar bajar a un pasajero y tú te quedas al volante. ¿Puedes parar?",
+                  "q": "Hay esta señal de estacionamiento prohibido. Quiere dejar bajar a un pasajero y usted se queda al volante. ¿Puede parar?",
                   "options": [
-                    "Sí: esa señal prohíbe estacionar, no parar",
-                    "No: cualquier inmovilización está prohibida",
-                    "Sí, pero solo si apagas el motor"
+                    "Sí, porque esa señal prohíbe estacionar, no parar",
+                    "Sí, y además puede bajarse a ayudarle",
+                    "No, porque prohíbe cualquier inmovilización"
                   ],
-                  "why": "La señal R-308 prohíbe estacionar, pero no prohíbe la parada. La señal R-307 sí prohíbe las dos cosas."
+                  "why": "Sí. La señal R-308 prohíbe estacionar, pero no prohíbe la parada. Si te bajas y dejas el coche, ya es un estacionamiento. La señal R-307 prohíbe las dos cosas."
                 },
                 "exam": {
                   "q": "There is this sign of prohibited parking. You want to let get off a passenger and you remain at the wheel. Can you stop?",
                   "options": [
-                    "Yes: that sign prohibits to park, not to stop.",
-                    "No: any immobilisation is prohibited.",
-                    "Yes, but only if you switch off the engine."
+                    "Yes, because that sign prohibits to park, not to stop.",
+                    "Yes, and in addition you can get out to help him.",
+                    "No, because it prohibits any immobilisation."
                   ]
                 },
                 "en": {
                   "q": "There is this no-parking sign. You want to let a passenger out and you stay at the wheel. May you stop?",
                   "options": [
-                    "Yes: that sign bans parking, not stopping",
-                    "No: any kind of immobilization is banned",
-                    "Yes, but only if you switch off the engine"
+                    "Yes, because that sign bans parking, not stopping",
+                    "Yes, and you may also get out to help them",
+                    "No, because it bans any kind of immobilization"
                   ],
-                  "why": "Sign R-308 bans parking, but it does not ban stopping. Sign R-307 bans both."
+                  "why": "Yes. The R-308 sign bans parking but not stopping. If you get out and leave the car, it becomes parking. The R-307 sign bans both."
                 },
                 "terms": [
                   {
@@ -362,30 +362,30 @@
                 "id": "situations-c1c",
                 "answer": 1,
                 "es": {
-                  "q": "Un carril está reservado solo para autobuses. Quieres parar medio minuto para dejar bajar a un pasajero. ¿Puedes?",
+                  "q": "Un carril está reservado solo para autobuses. Quiere parar medio minuto para dejar bajar a un pasajero. ¿Puede?",
                   "options": [
-                    "Sí, parar es algo breve",
-                    "No: está prohibido parar en carriles reservados",
-                    "Sí, si no pasa ningún autobús"
+                    "Sí, porque parar es algo breve",
+                    "No.",
+                    "Sí, si no pasa ningún autobús en ese momento"
                   ],
-                  "why": "En los carriles reservados exclusivamente a ciertos usuarios está prohibido parar, aunque sea un momento."
+                  "why": "No. En los carriles reservados exclusivamente a ciertos usuarios está prohibido parar, aunque sea un momento."
                 },
                 "exam": {
                   "q": "A lane is reserved only for buses. You want to stop half a minute in order to let get off a passenger. Can you?",
                   "options": [
-                    "Yes, to stop is something brief.",
-                    "No: it is prohibited to stop in reserved lanes.",
-                    "Yes, if no bus passes."
+                    "Yes, because to stop is something brief.",
+                    "No.",
+                    "Yes, if no bus passes at that moment."
                   ]
                 },
                 "en": {
                   "q": "A lane is reserved for buses only. You want to stop for half a minute to let a passenger out. May you?",
                   "options": [
-                    "Yes, stopping is brief",
-                    "No: stopping in reserved lanes is banned",
-                    "Yes, if no bus is coming"
+                    "Yes, because stopping is brief",
+                    "No.",
+                    "Yes, if no bus is passing at that moment"
                   ],
-                  "why": "Stopping is banned in lanes reserved exclusively for certain users, even for a moment."
+                  "why": "No. In lanes reserved for certain users only, stopping is banned, even for a moment."
                 },
                 "terms": [
                   {
@@ -402,28 +402,28 @@
                 "id": "situations-c1e",
                 "answer": 2,
                 "es": {
-                  "q": "Quieres parar un minuto, sin bajarte del coche, dentro de un paso inferior. ¿Puedes?",
+                  "q": "Parar un minuto, sin bajarse del coche, dentro de un paso inferior…",
                   "options": [
-                    "Sí, porque es una parada breve",
-                    "Sí, con la luz de emergencia encendida",
-                    "No: en túneles y pasos inferiores está prohibido parar"
+                    "está permitido, porque es una parada breve.",
+                    "está permitido con la luz de emergencia encendida.",
+                    "está prohibido, como en un túnel."
                   ],
                   "why": "Está prohibido parar en túneles, pasos inferiores y tramos afectados por la señal «Túnel». Si no se puede parar, tampoco se puede estacionar."
                 },
                 "exam": {
-                  "q": "You want to stop one minute, without getting out of the car, inside an underpass. Can you?",
+                  "q": "To stop one minute, without getting out of the car, inside an underpass…",
                   "options": [
-                    "Yes, because it is a brief stop.",
-                    "Yes, with the emergency light switched on.",
-                    "No: in tunnels and underpasses it is prohibited to stop."
+                    "is permitted, because it is a brief stop.",
+                    "is permitted with the emergency light switched on.",
+                    "is prohibited, as in a tunnel."
                   ]
                 },
                 "en": {
-                  "q": "You want to stop for one minute inside an underpass, without getting out of the car. May you?",
+                  "q": "Stopping for one minute inside an underpass, without getting out of the car…",
                   "options": [
-                    "Yes, because it is a short stop",
-                    "Yes, with the hazard lights on",
-                    "No: stopping is banned in tunnels and underpasses"
+                    "is allowed, because it is a short stop.",
+                    "is allowed with the hazard lights on.",
+                    "is banned, as in a tunnel."
                   ],
                   "why": "Stopping is banned in tunnels, underpasses and stretches covered by the “Tunnel” sign. Where you cannot stop, you cannot park either."
                 },
@@ -516,30 +516,30 @@
                 "id": "situations-c1d",
                 "answer": 2,
                 "es": {
-                  "q": "Quieres parar un momento en la esquina de un cruce y tu coche estorba el giro de otros vehículos. ¿Puedes?",
+                  "q": "Quiere parar un momento en la esquina de un cruce y su coche estorba el giro de otros vehículos. ¿Puede?",
                   "options": [
-                    "Sí, parar un momento siempre se permite",
-                    "Sí, si dejas puesta la luz de emergencia",
-                    "No: está prohibido parar si dificultas el giro de otros"
+                    "Sí, porque parar un momento siempre se permite",
+                    "No, salvo que encienda la luz de emergencia",
+                    "No, porque dificulta el giro de otros vehículos"
                   ],
-                  "why": "En las intersecciones y cerca de ellas está prohibido parar si se dificulta el giro a otros vehículos."
+                  "why": "No. En las intersecciones y cerca de ellas está prohibido parar si se dificulta el giro a otros vehículos. La luz de emergencia no cambia esa prohibición."
                 },
                 "exam": {
                   "q": "You want to stop a moment at the corner of a crossing and your car hinders the turn of other vehicles. Can you?",
                   "options": [
-                    "Yes, to stop a moment is always permitted.",
-                    "Yes, if you leave put the emergency light.",
-                    "No: it is prohibited to stop if you make difficult the turn of others."
+                    "Yes, because to stop a moment is always permitted.",
+                    "No, except that you switch on the emergency light.",
+                    "No, because you make difficult the turn of other vehicles."
                   ]
                 },
                 "en": {
                   "q": "You want to stop for a moment at the corner of a junction and your car blocks other vehicles from turning. May you?",
                   "options": [
-                    "Yes, a brief stop is always allowed",
-                    "Yes, if you leave the hazard lights on",
-                    "No: stopping is banned if you make others’ turns harder"
+                    "Yes, because a brief stop is always allowed",
+                    "No, unless you turn on the hazard lights",
+                    "No, because you make other vehicles’ turns harder"
                   ],
-                  "why": "In junctions and near them, stopping is banned if it makes it harder for other vehicles to turn."
+                  "why": "No. At and near junctions, stopping is banned if it makes other vehicles’ turns harder. Hazard lights do not change that."
                 },
                 "terms": [
                   {
@@ -556,28 +556,28 @@
                 "id": "situations-c1f",
                 "answer": 0,
                 "es": {
-                  "q": "Si paras tu coche en un sitio, tapas una señal de STOP a los conductores que llegan detrás. ¿Qué puedes hacer ahí?",
+                  "q": "Si al parar en un sitio tapa una señal de STOP a los conductores que llegan detrás, en ese sitio…",
                   "options": [
-                    "Ni parar ni estacionar",
-                    "Parar sí, porque son menos de dos minutos",
-                    "Estacionar sí, si dejas tres metros libres"
+                    "no puede parar ni estacionar.",
+                    "puede parar, porque son menos de dos minutos.",
+                    "puede estacionar, si deja tres metros libres."
                   ],
                   "why": "Está prohibido parar donde impides ver una señal a quienes les afecta. Y donde no se puede parar, tampoco se puede estacionar."
                 },
                 "exam": {
-                  "q": "If you stop your car in a place, you cover a STOP sign to the drivers who arrive behind. What can you do there?",
+                  "q": "If on stopping in a place you cover a STOP sign to the drivers who arrive behind, in that place…",
                   "options": [
-                    "Neither to stop nor to park.",
-                    "To stop yes, because they are less than two minutes.",
-                    "To park yes, if you leave three metres free."
+                    "you cannot stop nor park.",
+                    "you can stop, because they are less than two minutes.",
+                    "you can park, if you leave three metres free."
                   ]
                 },
                 "en": {
-                  "q": "If you stop your car in a certain spot, you hide a STOP sign from the drivers coming behind you. What may you do there?",
+                  "q": "If stopping in a certain spot would hide a STOP sign from the drivers coming behind you, in that spot you…",
                   "options": [
-                    "Neither stop nor park",
-                    "Stop, since it is under two minutes",
-                    "Park, if you leave three meters free"
+                    "may neither stop nor park.",
+                    "may stop, since it is under two minutes.",
+                    "may park, if you leave three meters free."
                   ],
                   "why": "Stopping is banned where you keep a sign from being seen by those it applies to. And where you cannot stop, you cannot park either."
                 },
@@ -600,10 +600,10 @@
                 "id": "situations-c1h",
                 "answer": 2,
                 "es": {
-                  "q": "Quieres parar un momento, sin bajarte, en una zona señalizada para uso exclusivo de personas con discapacidad. ¿Puedes?",
+                  "q": "Quiere parar un momento, sin bajarse, en una zona señalizada para uso exclusivo de personas con discapacidad. ¿Puede?",
                   "options": [
-                    "Sí, si no te bajas del coche",
-                    "Sí, si enciendes la luz de emergencia",
+                    "Sí, si no se baja del coche",
+                    "Sí, si enciende antes la luz de emergencia",
                     "No: ahí está prohibido incluso parar"
                   ],
                   "why": "Está prohibido parar en las zonas señalizadas para uso exclusivo de personas con discapacidad. Y donde no se puede parar, tampoco se puede estacionar."
@@ -612,7 +612,7 @@
                   "q": "You want to stop a moment, without getting out, in a zone signposted for exclusive use of persons with disability. Can you?",
                   "options": [
                     "Yes, if you do not get out of the car.",
-                    "Yes, if you switch on the emergency light.",
+                    "Yes, if you switch on the emergency light before.",
                     "No: there it is prohibited even to stop."
                   ]
                 },
@@ -620,7 +620,7 @@
                   "q": "You want to stop for a moment, staying in the car, in a zone that signs reserve for people with disabilities only. May you?",
                   "options": [
                     "Yes, if you stay in the car",
-                    "Yes, if you turn on the hazard lights",
+                    "Yes, if you turn on the hazard lights first",
                     "No: even stopping is banned there"
                   ],
                   "why": "Stopping is banned in zones signed for the exclusive use of people with disabilities. And where you cannot stop, you cannot park either."
@@ -644,28 +644,28 @@
                 "id": "situations-c1g",
                 "answer": 1,
                 "es": {
-                  "q": "Fuera de poblado quieres parar junto a un cruce. No impides ningún giro, pero tu coche quita visibilidad a quienes llegan al cruce. ¿Puedes parar?",
+                  "q": "Fuera de poblado quiere parar junto a un cruce. No impide ningún giro, pero su coche quita visibilidad a quienes llegan al cruce. ¿Puede parar?",
                   "options": [
-                    "Sí, porque no impides ningún giro",
-                    "No, porque creas peligro por falta de visibilidad",
-                    "Sí, si paras menos de dos minutos"
+                    "Sí, porque no impide el giro de ningún vehículo",
+                    "No, porque crea peligro al quitar visibilidad",
+                    "Sí, si la parada dura menos de dos minutos"
                   ],
                   "why": "En las intersecciones y cerca de ellas no se para si se dificulta el giro a otros. En vías interurbanas, tampoco si se genera peligro por falta de visibilidad."
                 },
                 "exam": {
                   "q": "Outside town you want to stop next to an intersection. You do not hinder any turn, but your car takes away visibility from those who arrive at the intersection. Can you stop?",
                   "options": [
-                    "Yes, because you do not hinder any turn.",
-                    "No, because you create danger due to lack of visibility.",
-                    "Yes, if you stop less than two minutes."
+                    "Yes, because you do not hinder the turn of any vehicle.",
+                    "No, because you create danger by taking away visibility.",
+                    "Yes, if the stop lasts less than two minutes."
                   ]
                 },
                 "en": {
                   "q": "Outside a town you want to stop next to a junction. You block no one’s turn, but your car cuts the view of drivers reaching the junction. May you stop?",
                   "options": [
-                    "Yes, because you block no turn",
-                    "No, because you create a danger by blocking the view",
-                    "Yes, if you stop for under two minutes"
+                    "Yes, because you block no vehicle’s turn",
+                    "No, because you create a danger by cutting visibility",
+                    "Yes, if the stop lasts under two minutes"
                   ],
                   "why": "At junctions and near them you may not stop if it makes others’ turns harder. On interurban roads, also not if it creates a danger through lack of visibility."
                 },
@@ -692,10 +692,10 @@
                 "id": "situations-c1i",
                 "answer": 1,
                 "es": {
-                  "q": "Llegas a una parada de autobús urbano señalizada. Quieres dejar a un amigo, sin bajarte del coche, en unos segundos. ¿Puedes parar ahí?",
+                  "q": "Llega a una parada de autobús urbano señalizada. Quiere dejar a un amigo, sin bajarse del coche, en unos segundos. ¿Puede parar ahí?",
                   "options": [
                     "Sí, si no viene ningún autobús",
-                    "No: en las zonas de parada del transporte público urbano está prohibido parar",
+                    "No, en esa zona está prohibido incluso parar",
                     "Sí, con la luz de emergencia encendida"
                   ],
                   "why": "Está prohibido parar en las zonas destinadas a la parada y el estacionamiento de uso exclusivo del transporte público urbano. Y donde no se puede parar, tampoco se puede estacionar."
@@ -704,7 +704,7 @@
                   "q": "You reach a marked city bus stop. You want to drop a friend off, staying in the car, in a few seconds. May you stop there?",
                   "options": [
                     "Yes, if no bus is coming",
-                    "No: stopping is banned in stop zones of urban public transport",
+                    "No: even stopping is banned in that zone",
                     "Yes, with the hazard lights on"
                   ],
                   "why": "Stopping is banned in zones set aside for the exclusive stopping and parking of urban public transport. And where you cannot stop, you cannot park either."
@@ -713,7 +713,7 @@
                   "q": "You arrive at a signposted urban bus stop. You want to leave a friend, without getting out of the car, in a few seconds. Can you stop there?",
                   "options": [
                     "Yes, if no bus comes.",
-                    "No: in the stop zones of urban public transport it is prohibited to stop.",
+                    "No, in that zone it is prohibited even to stop.",
                     "Yes, with the emergency light switched on."
                   ]
                 },
@@ -736,11 +736,11 @@
                 "id": "situations-c1j",
                 "answer": 2,
                 "es": {
-                  "q": "Quieres parar un momento en un carril bici para recoger un paquete. Te quedas al volante. ¿Puedes?",
+                  "q": "Quiere parar un momento en un carril bici para recoger un paquete. Se queda al volante. ¿Puede?",
                   "options": [
                     "Sí, si no pasa ningún ciclista",
                     "Sí, durante menos de dos minutos",
-                    "No: está prohibido parar en los carriles reservados a las bicicletas"
+                    "No, en el carril bici no se puede parar"
                   ],
                   "why": "Está prohibido parar en los carriles reservados para las bicicletas, aunque sea un momento. Tampoco se puede estacionar en ellos."
                 },
@@ -749,7 +749,7 @@
                   "options": [
                     "Yes, if no cyclist is passing",
                     "Yes, for less than two minutes",
-                    "No: stopping is banned in lanes reserved for bicycles"
+                    "No, you may not stop in a bike lane"
                   ],
                   "why": "Stopping is banned in lanes reserved for bicycles, even for a moment. Parking in them is banned too."
                 },
@@ -758,7 +758,7 @@
                   "options": [
                     "Yes, if no cyclist passes.",
                     "Yes, during less than two minutes.",
-                    "No: it is prohibited to stop in the lanes reserved for the bicycles."
+                    "No, in the bike lane it is not possible to stop."
                   ]
                 },
                 "terms": [
@@ -938,28 +938,28 @@
                 "id": "situations-c2a",
                 "answer": 2,
                 "es": {
-                  "q": "Vas por una carretera fuera de poblado y quieres aparcar para hacer una foto del paisaje. ¿Dónde debes dejar el coche?",
+                  "q": "Fuera de poblado, para estacionar y hacer una foto del paisaje, debe dejar el coche…",
                   "options": [
-                    "En la calzada, junto a la línea del borde derecho",
-                    "En el arcén izquierdo, si hay poco tráfico",
-                    "Fuera de la calzada, a la derecha, sin ocupar la parte transitable del arcén"
+                    "en la calzada, lo más pegado posible a la línea del borde derecho de la carretera.",
+                    "en el arcén izquierdo, si en ese momento hay poco tráfico.",
+                    "fuera de la calzada, a la derecha, sin ocupar la parte transitable del arcén."
                   ],
                   "why": "Fuera de poblado se para o se estaciona fuera de la calzada, en el lado derecho, y se deja libre la parte transitable del arcén."
                 },
                 "exam": {
-                  "q": "You go by a road outside town and you want to park in order to take a photo of the landscape. Where must you leave the car?",
+                  "q": "Outside town, in order to park and to take a photo of the landscape, you must leave the car…",
                   "options": [
-                    "On the carriageway, next to the line of the right edge.",
-                    "On the left hard shoulder, if there is little traffic.",
-                    "Outside the carriageway, to the right, leaving free the passable zone of the hard shoulder."
+                    "on the carriageway, as stuck as possible to the line of the right border of the road.",
+                    "on the left hard shoulder, if at that moment there is little traffic.",
+                    "outside the carriageway, to the right, without occupying the passable zone of the hard shoulder."
                   ]
                 },
                 "en": {
-                  "q": "Out of town you want to park to take a photo of the view. Where must you leave the car?",
+                  "q": "Outside a town, to park and take a photo of the view, you must leave the car…",
                   "options": [
-                    "On the roadway, against the right edge line",
-                    "On the left shoulder, if traffic is light",
-                    "Off the roadway, on the right, keeping the usable part of the shoulder clear"
+                    "on the roadway, right up against the right edge line of the road.",
+                    "on the left shoulder, if traffic is light at that moment.",
+                    "off the roadway, on the right, keeping the usable part of the shoulder clear."
                   ],
                   "why": "Outside towns you stop or park off the roadway, on the right side, leaving the usable part of the shoulder free."
                 },
@@ -978,27 +978,27 @@
                 "id": "situations-c2f",
                 "answer": 0,
                 "es": {
-                  "q": "Quieres estacionar en un ensanche de forma irregular, donde la vía no permite colocarse en paralelo al borde. ¿Qué haces?",
+                  "q": "Quiere estacionar en un ensanche de forma irregular, donde la vía no permite colocarse en paralelo al borde. ¿Qué hace?",
                   "options": [
-                    "Lo colocas en otra posición, porque la forma de la vía lo aconseja",
-                    "No estacionas: fuera del paralelo nunca está permitido",
-                    "Lo dejas como quieras, porque no hay líneas pintadas"
+                    "Lo coloca en la posición que la vía aconseja",
+                    "No estaciona, porque fuera del paralelo nunca está permitido",
+                    "Lo deja como quiera, porque no hay líneas pintadas"
                   ],
                   "why": "La parada y el estacionamiento se hacen en paralelo al borde de la calzada. Se permite otra posición si las características de la vía u otras circunstancias lo aconsejan."
                 },
                 "exam": {
                   "q": "You want to park in a widening of irregular form, where the road does not allow placing yourself parallel to the edge. What do you do?",
                   "options": [
-                    "You place it in another position, because the form of the road advises it.",
-                    "You do not park: outside the parallel it is never permitted.",
+                    "You place it in the position that the road advises.",
+                    "You do not park, because outside the parallel it is never permitted.",
                     "You leave it as you want, because there are no painted lines."
                   ]
                 },
                 "en": {
                   "q": "You want to park in an irregularly shaped widening where the road does not let you line up with the edge. What do you do?",
                   "options": [
-                    "Put it in another position, since the shape of the road calls for it",
-                    "Do not park: anything but parallel is never allowed",
+                    "Put it in the position the road calls for",
+                    "Do not park, because anything but parallel is never allowed",
                     "Leave it however you like, as there are no painted lines"
                   ],
                   "why": "As a rule you stop and park lined up with the roadway edge. When the layout of the road or other circumstances make that unsuitable, another position is allowed."
@@ -1022,7 +1022,7 @@
                 "id": "situations-c2k",
                 "answer": 0,
                 "es": {
-                  "q": "En poblado, entras en una calle de sentido único sin señales ni marcas que prohíban estacionar. ¿En qué lado puedes dejar el coche?",
+                  "q": "En poblado, entra en una calle de sentido único sin señales ni marcas que prohíban estacionar. ¿En qué lado puede dejar el coche?",
                   "options": [
                     "En el derecho o en el izquierdo",
                     "Solo en el derecho",
@@ -1074,29 +1074,29 @@
                 "id": "situations-c2q",
                 "answer": 1,
                 "es": {
-                  "q": "De noche estacionas en línea en el arcén de una travesía mal iluminada. ¿Qué luces dejas encendidas?",
+                  "q": "De noche estaciona en línea en el arcén de una travesía mal iluminada. ¿Qué luces deja encendidas?",
                   "options": [
-                    "Ninguna: en el arcén no hace falta",
-                    "Las de posición; puedes cambiarlas por las de estacionamiento o por las dos de posición que dan a la calzada",
-                    "La luz de emergencia, toda la noche"
+                    "Ninguna, porque en el arcén no hacen falta luces",
+                    "Las de posición o las de estacionamiento",
+                    "La luz de emergencia, durante toda la noche"
                   ],
                   "why": "Parado o estacionado de noche en la calzada o el arcén de una travesía insuficientemente iluminada, llevas las luces de posición. Puedes sustituirlas por las de estacionamiento o, estacionado en línea, por las dos de posición del lado de la calzada."
                 },
                 "en": {
                   "q": "At night you park in line on the shoulder of a poorly lit through-town road. Which lights do you leave on?",
                   "options": [
-                    "None: on the shoulder they are not needed",
-                    "The position lights; you may swap them for parking lights or for the two position lights facing the roadway",
-                    "The hazard lights, all night"
+                    "None, because lights are not needed on the shoulder",
+                    "The position lights or the parking lights",
+                    "The hazard lights, all night long"
                   ],
                   "why": "Stopped or parked at night on the roadway or shoulder of a poorly lit through-town road, you keep the position lights on. You may replace them with parking lights or, when parked in line, with the two position lights on the roadway side."
                 },
                 "exam": {
-                  "q": "At night you park in line on the hard shoulder of a badly lit crossing through town. Which lights do you leave switched on?",
+                  "q": "At night you park in line in the hard shoulder of a badly lit crossing through town. Which lights do you leave switched on?",
                   "options": [
-                    "None: on the hard shoulder it is not necessary.",
-                    "The position ones; you can change them for the parking ones or for the two position ones that face the carriageway.",
-                    "The emergency light, all night."
+                    "None, because on the hard shoulder lights are not necessary.",
+                    "The position ones or the parking ones.",
+                    "The emergency light, during all the night."
                   ]
                 },
                 "terms": [
@@ -1170,10 +1170,10 @@
                 "id": "situations-c2r",
                 "answer": 1,
                 "es": {
-                  "q": "Has estacionado tu autocaravana en una calle donde se permite. Quieres abrir el toldo y poner unas sillas a su lado. ¿Es correcto?",
+                  "q": "Ha estacionado su autocaravana en una calle donde se permite. Quiere abrir el toldo y poner unas sillas a su lado. ¿Es correcto?",
                   "options": [
-                    "Sí, si no ocupas la calzada",
-                    "No: estacionada, nada puede salir del perímetro del vehículo",
+                    "Sí, si el toldo y las sillas no ocupan la calzada",
+                    "No, nada puede salir de su perímetro",
                     "Sí, de día y durante poco tiempo"
                   ],
                   "why": "Al estacionar una autocaravana o un vehículo preparado como vivienda no se extiende nada fuera de su perímetro, es decir, de su silueta vista desde arriba."
@@ -1181,16 +1181,16 @@
                 "exam": {
                   "q": "You have parked your motorhome in a street where it is permitted. You want to open the awning and put some chairs at its side. Is it correct?",
                   "options": [
-                    "Yes, if you do not occupy the carriageway.",
-                    "No: parked, nothing can go out of the perimeter of the vehicle.",
+                    "Yes, if the awning and the chairs do not occupy the carriageway.",
+                    "No, nothing can go out of its perimeter.",
                     "Yes, by day and during a short time."
                   ]
                 },
                 "en": {
                   "q": "You have parked your motorhome on a street where parking is allowed. You want to open the awning and put some chairs beside it. Is that correct?",
                   "options": [
-                    "Yes, if you do not take up the roadway",
-                    "No: when parked, nothing may extend beyond the vehicle’s outline",
+                    "Yes, if the awning and chairs stay off the roadway",
+                    "No: nothing may extend beyond its outline",
                     "Yes, in daytime and for a short while"
                   ],
                   "why": "When you park a motorhome or another vehicle set up as a home, nothing is extended beyond its outline, that is, its footprint seen from above."
@@ -1218,9 +1218,9 @@
                 "id": "situations-c2s",
                 "answer": 0,
                 "es": {
-                  "q": "Vas a dejar estacionada tu autocaravana. ¿Sobre qué debe quedar apoyada?",
+                  "q": "Va a dejar estacionada su autocaravana. ¿Sobre qué debe quedar apoyada?",
                   "options": [
-                    "Solo sobre los neumáticos; puede llevar calzos o cuñas de seguridad",
+                    "Solo sobre los neumáticos, con o sin calzos",
                     "Sobre patas estabilizadoras, que la dejan más firme",
                     "Sobre los neumáticos, pero nunca con calzos ni cuñas"
                   ],
@@ -1229,7 +1229,7 @@
                 "exam": {
                   "q": "You are going to leave your motorhome parked. On what must it remain supported?",
                   "options": [
-                    "Only on the tyres; it can carry safety chocks or wedges.",
+                    "Only on the tyres, with or without chocks.",
                     "On stabiliser legs, which leave it firmer.",
                     "On the tyres, but never with chocks or wedges."
                   ]
@@ -1237,7 +1237,7 @@
                 "en": {
                   "q": "You are about to leave your motorhome parked. What must it rest on?",
                   "options": [
-                    "Only its tires; it may have safety chocks or wedges",
+                    "Only its tires, with or without chocks",
                     "Stabilizer legs, which hold it steadier",
                     "Its tires, but never with chocks or wedges"
                   ],
@@ -1266,11 +1266,11 @@
                 "id": "situations-c2t",
                 "answer": 2,
                 "es": {
-                  "q": "Tu autocaravana está estacionada en la calle y el depósito de aguas grises está lleno. ¿Puedes vaciarlo allí mismo?",
+                  "q": "Su autocaravana está estacionada en la calle y el depósito de aguas grises está lleno. ¿Puede vaciarlo allí mismo?",
                   "options": [
-                    "Sí, si lo vacías en un sumidero de la calle",
+                    "Sí, si lo vacía en un sumidero de la calle",
                     "Sí, de noche, cuando no molesta a nadie",
-                    "No: estacionada no puede verter fluidos del habitáculo"
+                    "No, estacionada no puede verter fluidos del habitáculo"
                   ],
                   "why": "Una autocaravana o un vehículo preparado como vivienda no puede verter, mientras está estacionado, fluidos que vengan del habitáculo."
                 },
@@ -1279,7 +1279,7 @@
                   "options": [
                     "Yes, if you empty it into a drain of the street.",
                     "Yes, at night, when it does not bother anybody.",
-                    "No: parked, it cannot pour fluids coming from the living area."
+                    "No, parked it cannot pour fluids from the living area."
                   ]
                 },
                 "en": {
@@ -1362,11 +1362,11 @@
                 "id": "situations-c2b",
                 "answer": 1,
                 "es": {
-                  "q": "En una calle con línea continua en el centro aparcas a la derecha y quedan 2 metros libres hasta la línea. ¿Es correcto?",
+                  "q": "En una calle con línea continua en el centro aparca a la derecha y quedan 2 metros libres hasta la línea. ¿Es correcto?",
                   "options": [
                     "Sí, queda sitio para que pase un coche pequeño",
-                    "No: se considera peligroso si quedan menos de tres metros",
-                    "Sí, si pones la luz de emergencia"
+                    "No, deben quedar al menos tres metros",
+                    "Sí, si pone la luz de emergencia"
                   ],
                   "why": "Si entre tu coche y el borde opuesto o una línea que prohíbe cruzar quedan menos de tres metros, el estacionamiento se considera peligroso."
                 },
@@ -1374,7 +1374,7 @@
                   "q": "In a street with continuous line in the centre you park to the right and 2 metres remain free until the line. Is it correct?",
                   "options": [
                     "Yes, there remains place for a small car to pass.",
-                    "No: it is considered dangerous if less than three metres remain.",
+                    "No, at least three metres must remain.",
                     "Yes, if you put the emergency light."
                   ]
                 },
@@ -1382,7 +1382,7 @@
                   "q": "On a street with a solid line down the middle you park on the right and 2 meters remain free up to the line. Is that correct?",
                   "options": [
                     "Yes, a small car can still get past",
-                    "No: it counts as dangerous if less than three meters remain",
+                    "No: at least three meters must remain",
                     "Yes, if you turn on the hazard lights"
                   ],
                   "why": "If less than three meters remain between your car and the opposite edge or a line that bans crossing, the parking counts as dangerous."
@@ -1465,28 +1465,28 @@
                 "id": "situations-c2c",
                 "answer": 0,
                 "es": {
-                  "q": "Dejas un coche de cambio manual aparcado en una cuesta de subida. ¿Qué marcha dejas puesta, además del freno de estacionamiento?",
+                  "q": "Al dejar estacionado en una cuesta de subida un coche de cambio manual, además del freno de estacionamiento debe dejar…",
                   "options": [
-                    "Primera",
-                    "Marcha atrás",
-                    "Punto muerto"
+                    "la primera marcha.",
+                    "la marcha atrás.",
+                    "la caja de cambios en punto muerto."
                   ],
                   "why": "En una pendiente de subida se deja la primera marcha y en una de bajada la marcha atrás, junto con el freno de estacionamiento."
                 },
                 "exam": {
-                  "q": "You leave a car of manual change parked on an uphill slope. Which gear do you leave put, besides the parking brake?",
+                  "q": "On leaving parked on an uphill slope a car of manual change, besides the parking brake you must leave…",
                   "options": [
-                    "First.",
-                    "Reverse gear.",
-                    "Neutral."
+                    "the first gear.",
+                    "the reverse gear.",
+                    "the gearbox in neutral."
                   ]
                 },
                 "en": {
-                  "q": "You park a manual-transmission car on an uphill slope. Which gear do you leave it in, besides the parking brake?",
+                  "q": "When you leave a manual-transmission car parked on an uphill slope, besides the parking brake you must leave it in…",
                   "options": [
-                    "First",
-                    "Reverse",
-                    "Neutral"
+                    "first gear.",
+                    "reverse.",
+                    "neutral."
                   ],
                   "why": "On an uphill slope you leave first gear and on a downhill slope reverse, together with the parking brake."
                 },
@@ -1509,28 +1509,28 @@
                 "id": "situations-c2m",
                 "answer": 2,
                 "es": {
-                  "q": "Estacionas un turismo con remolque en una cuesta de subida pronunciada y no llevas calzos. ¿Qué haces?",
+                  "q": "Estaciona un turismo con remolque en una cuesta de subida pronunciada y no lleva calzos. ¿Qué debe hacer?",
                   "options": [
-                    "Pones una piedra detrás de una rueda",
-                    "Dejas solo el freno de estacionamiento",
-                    "Apoyas una rueda delantera en el bordillo, girada hacia el centro de la calzada"
+                    "Poner una piedra grande detrás de una de las ruedas traseras",
+                    "Dejar puestos el freno de estacionamiento y la primera marcha, sin más",
+                    "Apoyar una rueda delantera en el bordillo, girada hacia el centro"
                   ],
                   "why": "Un conjunto de vehículos en una pendiente sensible debe quedar calzado: con calzos (nunca piedras) o apoyando una rueda directriz en el bordillo. En subida, las ruedas van hacia el centro de la calzada."
                 },
                 "exam": {
-                  "q": "You park a passenger car with trailer on a steep uphill slope and you do not carry chocks. What do you do?",
+                  "q": "You park a passenger car with trailer on a steep uphill slope and you do not carry chocks. What must you do?",
                   "options": [
-                    "To put a stone behind a wheel.",
-                    "To leave only the parking brake.",
-                    "To rest a front wheel on the kerb, turned towards the centre of the carriageway."
+                    "To put a big stone behind one of the rear wheels.",
+                    "To leave put the parking brake and the first gear, without more.",
+                    "To rest a front wheel on the kerb, turned towards the centre."
                   ]
                 },
                 "en": {
-                  "q": "You park a car with a trailer on a steep uphill slope and you have no wheel chocks. What do you do?",
+                  "q": "You park a car with a trailer on a steep uphill slope and you have no wheel chocks. What must you do?",
                   "options": [
-                    "Put a stone behind a wheel",
-                    "Leave just the parking brake on",
-                    "Rest a front wheel against the curb, turned toward the middle of the road"
+                    "Put a big stone behind one of the rear wheels",
+                    "Leave the parking brake and first gear on, nothing more",
+                    "Rest a front wheel against the curb, turned toward the middle"
                   ],
                   "why": "A vehicle combination on a marked slope must be chocked: with chocks (never stones) or by resting a steering wheel against the curb. Uphill, the wheels point toward the middle of the roadway."
                 },
@@ -1557,20 +1557,20 @@
                 "id": "situations-c2g",
                 "answer": 2,
                 "es": {
-                  "q": "Llegas a tu plaza y el coche todavía se mueve muy despacio. Tu acompañante quiere abrir ya la puerta. ¿Puede?",
+                  "q": "Llega a su plaza y el coche todavía se mueve muy despacio. Su acompañante quiere abrir ya la puerta. ¿Puede?",
                   "options": [
                     "Sí, si antes mira por el retrovisor",
                     "Sí, porque el coche casi no se mueve",
-                    "No: las puertas no se abren hasta que el vehículo esté inmovilizado del todo"
+                    "No."
                   ],
-                  "why": "Está prohibido abrir las puertas antes de la completa inmovilización del vehículo. Y antes de abrirlas hay que comprobar que no hay peligro para nadie."
+                  "why": "No. Está prohibido abrir las puertas antes de la completa inmovilización del vehículo. Y antes de abrirlas hay que comprobar que no hay peligro para nadie."
                 },
                 "exam": {
                   "q": "You arrive at your space and the car still moves very slowly. Your companion wants to open the door already. Can he?",
                   "options": [
                     "Yes, if before he looks through the rear-view mirror.",
                     "Yes, because the car almost does not move.",
-                    "No: the doors are not opened until the vehicle is completely immobilised."
+                    "No."
                   ]
                 },
                 "en": {
@@ -1578,9 +1578,9 @@
                   "options": [
                     "Yes, if they check the mirror first",
                     "Yes, because the car is barely moving",
-                    "No: doors stay shut until the vehicle has fully stopped"
+                    "No."
                   ],
-                  "why": "Opening the doors before the vehicle is completely stopped is banned. And before opening them you must check there is no danger to anyone."
+                  "why": "No. Opening the doors before the vehicle has come to a complete stop is banned. And before opening them, you check there is no danger to anyone."
                 },
                 "terms": [
                   {
@@ -1613,26 +1613,26 @@
                 "id": "situations-c2x",
                 "answer": 0,
                 "es": {
-                  "q": "Paras junto a la acera derecha para dejar a tus pasajeros. ¿Por qué lado deben bajar los que van detrás?",
+                  "q": "Como norma general, ¿por qué lado del vehículo deben bajar los pasajeros?",
                   "options": [
-                    "Por el lado más próximo al borde de la vía, el de la acera",
+                    "Por el lado más próximo al borde de la vía",
                     "Por el lado de la puerta que tengan más cerca",
                     "Por la izquierda, para no golpear la acera con la puerta"
                   ],
                   "why": "Como norma general se entra y se sale por el lado más próximo al borde de la vía, y solo con el vehículo parado."
                 },
                 "exam": {
-                  "q": "You stop next to the right pavement in order to leave your passengers. By which side must those who go behind get out?",
+                  "q": "As a general norm, by which side of the vehicle must the passengers get out?",
                   "options": [
-                    "By the side most near to the border of the road, that of the pavement.",
+                    "By the side nearest to the border of the road.",
                     "By the side of the door that they have closest.",
                     "By the left, in order not to hit the pavement with the door."
                   ]
                 },
                 "en": {
-                  "q": "You stop by the right-hand curb to let your passengers out. Which side should the rear passengers use to get out?",
+                  "q": "As a rule, which side of the vehicle should passengers use to get out?",
                   "options": [
-                    "The side by the curb, at the margin of the roadway",
+                    "The side nearest the edge of the road",
                     "Whichever door is closest to them",
                     "The left, so the door does not hit the curb"
                   ],
@@ -1701,32 +1701,32 @@
               "t": "check",
               "q": {
                 "id": "situations-c2d",
-                "answer": 2,
+                "answer": 1,
                 "es": {
-                  "q": "Pones el coche en doble fila con la luz de emergencia y te vas cinco minutos. ¿Es correcto?",
+                  "q": "Pone el coche en doble fila con la luz de emergencia y se va cinco minutos. ¿Es correcto?",
                   "options": [
-                    "Sí, la luz de emergencia lo permite",
-                    "Sí, si son menos de diez minutos",
-                    "No: estacionar en doble fila está prohibido"
+                    "No, salvo que la parada dure menos de diez minutos",
+                    "No, está prohibido estacionar en doble fila",
+                    "Sí, porque la luz de emergencia lo permite"
                   ],
-                  "why": "Estacionar en doble fila está prohibido. El artículo no menciona ninguna excepción por la duración ni por la luz de emergencia."
+                  "why": "No. Estacionar en doble fila está prohibido. El artículo no menciona ninguna excepción por la duración ni por la luz de emergencia."
                 },
                 "exam": {
                   "q": "You put the car in double row with the emergency light and you go for five minutes. Is it correct?",
                   "options": [
-                    "Yes, the emergency light permits it.",
-                    "Yes, if they are less than ten minutes.",
-                    "No: to park in double row is prohibited."
+                    "No, except that the stop lasts less than ten minutes.",
+                    "No, parking in double row is prohibited.",
+                    "Yes, because the emergency light permits it."
                   ]
                 },
                 "en": {
                   "q": "You put your car in a second row with the hazard lights on and walk away for five minutes. Is that correct?",
                   "options": [
-                    "Yes, the hazard lights make it allowed",
-                    "Yes, if it is under ten minutes",
-                    "No: double parking is banned"
+                    "No, unless the stop lasts under ten minutes",
+                    "No, double parking is banned",
+                    "Yes, because the hazard lights make it allowed"
                   ],
-                  "why": "Double parking is banned. The article mentions no exception for its length or for hazard lights."
+                  "why": "No. Double parking is banned. The article mentions no exception for how long it lasts or for hazard lights."
                 },
                 "terms": [
                   {
@@ -1747,10 +1747,10 @@
                 "id": "situations-c2n",
                 "answer": 0,
                 "es": {
-                  "q": "No encuentras sitio y piensas dejar el coche sobre la acera, pegado a la pared, para no estorbar en la calzada. ¿Está permitido?",
+                  "q": "No encuentra sitio y piensa dejar el coche sobre la acera, pegado a la pared, para no estorbar en la calzada. ¿Está permitido?",
                   "options": [
-                    "No: está prohibido estacionar sobre las aceras",
-                    "Sí, si dejas un metro libre para los peatones",
+                    "No, está prohibido estacionar sobre la acera",
+                    "Sí, si deja un metro libre para los peatones",
                     "Sí, de noche, cuando pasan pocos peatones"
                   ],
                   "why": "Está prohibido estacionar sobre las aceras, los paseos y las demás zonas destinadas al paso de peatones. La acera es el espacio de los peatones."
@@ -1758,7 +1758,7 @@
                 "en": {
                   "q": "You cannot find a space and think of leaving the car on the sidewalk, against the wall, so as not to block the roadway. Is that allowed?",
                   "options": [
-                    "No: parking on sidewalks is banned",
+                    "No: parking on the sidewalk is banned",
                     "Yes, if you leave a meter free for pedestrians",
                     "Yes, at night, when few pedestrians pass"
                   ],
@@ -1767,7 +1767,7 @@
                 "exam": {
                   "q": "You do not find a place and you think of leaving the car on the sidewalk, stuck to the wall, in order not to hinder on the carriageway. Is it allowed?",
                   "options": [
-                    "No: it is prohibited to park on the sidewalks.",
+                    "No, to park on the sidewalk is prohibited.",
                     "Yes, if you leave one metre free for the pedestrians.",
                     "Yes, at night, when few pedestrians pass."
                   ]
@@ -1846,32 +1846,32 @@
               "t": "check",
               "q": {
                 "id": "situations-c2h",
-                "answer": 1,
+                "answer": 2,
                 "es": {
-                  "q": "¿En cuál de estos casos el estacionamiento obstaculiza gravemente la circulación?",
+                  "q": "¿Cuál de estos estacionamientos NO se considera un obstáculo grave para la circulación?",
                   "options": [
-                    "Estacionas en una calle sin salida, junto a la acera",
-                    "Estacionas en doble fila y te vas del coche",
-                    "Estacionas a la izquierda en una calle urbana de sentido único"
+                    "En doble fila, sin conductor",
+                    "En una zona de carga y descarga, durante sus horas de uso",
+                    "A la izquierda en una calle urbana de sentido único"
                   ],
-                  "why": "El estacionamiento en doble fila sin conductor es uno de los casos que la ley considera peligrosos u obstáculo grave. En poblado, en una calle de sentido único, también se puede estacionar a la izquierda."
+                  "why": "En poblado, en una calle de sentido único, también se puede estacionar a la izquierda. La doble fila sin conductor y la zona de carga y descarga en sus horas de uso sí están en la lista de obstáculos graves."
                 },
                 "exam": {
-                  "q": "In which of these cases does the parking seriously obstruct the traffic?",
+                  "q": "Which of these parkings is NOT considered a serious obstacle for the circulation?",
                   "options": [
-                    "You park in a street without exit, next to the pavement.",
-                    "You park in double row and you leave the car.",
-                    "You park on the left in a one-way urban street."
+                    "In double row, without driver.",
+                    "In a loading and unloading zone, during its hours of use.",
+                    "On the left in a one-way urban street."
                   ]
                 },
                 "en": {
-                  "q": "In which of these cases does parking seriously obstruct traffic?",
+                  "q": "Which of these parked cars is NOT considered a serious obstruction to traffic?",
                   "options": [
-                    "You park by the curb on a dead-end street",
-                    "You double-park and walk away from the car",
-                    "You park on the left of a one-way town street"
+                    "Double-parked, with no driver",
+                    "In a loading zone, during its hours of use",
+                    "On the left of a one-way town street"
                   ],
-                  "why": "Double parking with no driver is one of the cases the law treats as dangerous or a serious obstruction. On a one-way town street you may also park on the left."
+                  "why": "In towns, on a one-way street, you may also park on the left. Double parking with no driver and a loading zone during its hours of use are on the list of serious obstructions."
                 },
                 "terms": [
                   {
@@ -1892,18 +1892,18 @@
                 "id": "situations-c2i",
                 "answer": 0,
                 "es": {
-                  "q": "Paras un minuto, sin bajarte, delante de la puerta de un edificio, y la gente no puede entrar ni salir. ¿Cómo lo trata la ley?",
+                  "q": "Para un minuto, sin bajarse, delante de la puerta de un edificio, y la gente no puede entrar ni salir. ¿Cómo lo trata la ley?",
                   "options": [
-                    "Como una parada que obstaculiza gravemente la circulación",
+                    "Como una parada que obstaculiza gravemente",
                     "Como una parada correcta, porque es breve",
-                    "Como una parada correcta, porque sigues al volante"
+                    "Como una parada correcta, porque sigue al volante"
                   ],
                   "why": "Es una parada en lugar peligroso u obstáculo grave cuando impide el uso normal del acceso a un inmueble, de personas o animales. Da igual que sea breve."
                 },
                 "exam": {
                   "q": "You stop one minute, without getting out, in front of the door of a building, and the people cannot enter nor leave. How does the law treat it?",
                   "options": [
-                    "As a stop that seriously obstructs the traffic.",
+                    "As a stop that seriously obstructs.",
                     "As a correct stop, because it is brief.",
                     "As a correct stop, because you remain at the wheel."
                   ]
@@ -1968,11 +1968,11 @@
                 "id": "situations-c2j",
                 "answer": 1,
                 "es": {
-                  "q": "No tienes otra opción y descargas cajas de una furgoneta en la calle. ¿Qué es correcto?",
+                  "q": "No tiene otra opción y descarga cajas de una furgoneta en la calle. ¿Qué es correcto?",
                   "options": [
                     "Dejar las cajas un rato en la acera, junto a la furgoneta",
-                    "Hacerlo lo más rápido posible, sin dejar las cajas en la calzada ni en la acera",
-                    "Dejar las cajas en la calzada si tienes la luz de emergencia encendida"
+                    "Hacerlo rápido, sin dejar las cajas en la calzada ni en la acera",
+                    "Dejar las cajas en la calzada si tiene la luz de emergencia encendida"
                   ],
                   "why": "Si es inexcusable descargar en la vía, hazlo con la máxima rapidez y sin ruidos ni molestias innecesarias. Está prohibido depositar la mercancía en la calzada, el arcén y las zonas peatonales."
                 },
@@ -1980,7 +1980,7 @@
                   "q": "You have no other option and you unload boxes from a van in the street. What is correct?",
                   "options": [
                     "To leave the boxes a while on the pavement, next to the van.",
-                    "To do it as quickly as possible, without leaving the boxes on the carriageway nor on the pavement.",
+                    "To do it quickly, without leaving the boxes on the carriageway nor on the pavement.",
                     "To leave the boxes on the carriageway if you have the emergency light switched on."
                   ]
                 },
@@ -1988,7 +1988,7 @@
                   "q": "You have no other choice and are unloading boxes from a van in the street. What is correct?",
                   "options": [
                     "Leave the boxes on the sidewalk for a while, next to the van",
-                    "Work as fast as you can, without leaving boxes on the roadway or the sidewalk",
+                    "Work fast, without leaving boxes on the roadway or the sidewalk",
                     "Leave the boxes on the roadway if your hazard lights are on"
                   ],
                   "why": "If unloading on the road cannot be avoided, do it as quickly as possible and without needless noise or nuisance. Putting the goods on the roadway, the shoulder or pedestrian areas is banned."
@@ -2069,30 +2069,30 @@
                 "id": "situations-c2e",
                 "answer": 1,
                 "es": {
-                  "q": "Junto al bordillo hay una línea amarilla discontinua. ¿Qué significa?",
+                  "q": "Una línea amarilla discontinua junto al bordillo indica que está prohibido…",
                   "options": [
-                    "Está prohibido parar y estacionar",
-                    "Está prohibido estacionar",
-                    "El estacionamiento es libre y gratuito"
+                    "parar y estacionar.",
+                    "estacionar.",
+                    "parar."
                   ],
-                  "why": "La línea amarilla discontinua prohíbe estacionar, o lo limita en ciertos momentos que indica una señal. La continua prohíbe además parar."
+                  "why": "La línea amarilla discontinua prohíbe estacionar, o lo limita en ciertos momentos que indica una señal. Parar sí se puede. La continua prohíbe parar y estacionar."
                 },
                 "exam": {
-                  "q": "Next to the kerb there is a discontinuous yellow line. What does it mean?",
+                  "q": "A discontinuous yellow line next to the kerb indicates that it is prohibited…",
                   "options": [
-                    "It is prohibited to stop and to park.",
-                    "It is prohibited to park.",
-                    "The parking is free and gratuitous."
+                    "to stop and to park.",
+                    "to park.",
+                    "to stop."
                   ]
                 },
                 "en": {
-                  "q": "There is a dashed yellow line along the curb. What does it mean?",
+                  "q": "A dashed yellow line along the curb means it is banned to…",
                   "options": [
-                    "Stopping and parking are banned",
-                    "Parking is banned",
-                    "Parking is free and unrestricted"
+                    "stop and park.",
+                    "park.",
+                    "stop."
                   ],
-                  "why": "A dashed yellow line bans parking, or restricts it at certain times shown on a sign. A solid one also bans stopping."
+                  "why": "A dashed yellow line bans parking, or limits it at times a sign shows. Stopping is allowed. A solid one bans both stopping and parking."
                 },
                 "terms": [
                   {
@@ -2129,11 +2129,11 @@
                 "id": "situations-c2l",
                 "answer": 1,
                 "es": {
-                  "q": "Dejas el coche en una zona de estacionamiento con limitación horaria y no pones el tique que lo autoriza. ¿Qué puede pasar?",
+                  "q": "Deja el coche en una zona de estacionamiento con limitación horaria y no pone el tique que lo autoriza. ¿Qué puede pasar?",
                   "options": [
-                    "Nada, si vuelves antes del tiempo máximo",
+                    "Nada, si vuelve antes del tiempo máximo",
                     "Es estacionamiento prohibido y la grúa puede retirar el coche",
-                    "Solo es un problema si la calle es de un solo sentido"
+                    "Solo una multa leve, pero la grúa nunca puede retirar el coche"
                   ],
                   "why": "Está prohibido estacionar en zonas con limitación horaria sin el distintivo que lo autoriza. Además, la autoridad puede retirar el vehículo y llevarlo al depósito."
                 },
@@ -2142,7 +2142,7 @@
                   "options": [
                     "Nothing, if you come back before the maximum time.",
                     "It is prohibited parking and the tow truck can remove the car.",
-                    "It is only a problem if the street is one-way."
+                    "Only a light fine, but the tow truck can never remove the car."
                   ]
                 },
                 "en": {
@@ -2150,7 +2150,7 @@
                   "options": [
                     "Nothing, if you are back before the time limit",
                     "It is banned parking and the tow truck may remove the car",
-                    "It only matters on a one-way street"
+                    "Only a minor fine, but the tow truck can never remove the car"
                   ],
                   "why": "Parking in a time-limited zone without the permit display is banned. The authorities may also remove the vehicle to the pound."
                 },
@@ -2181,7 +2181,7 @@
                   "options": [
                     "Parar y estacionar",
                     "Estacionar, a los vehículos en general",
-                    "Solo circular por encima de ella"
+                    "Solo circular por encima de ella, como en una línea continua"
                   ],
                   "why": "La marca en zigzag indica que el estacionamiento está prohibido a los vehículos en general, porque el lugar está reservado a un uso que no implica larga permanencia, como la parada de autobuses o la carga y descarga."
                 },
@@ -2190,7 +2190,7 @@
                   "options": [
                     "Stopping and parking",
                     "Parking, for vehicles in general",
-                    "Only driving over it"
+                    "Only driving over it, as with a solid line"
                   ],
                   "why": "The zigzag marking shows that parking is banned for vehicles in general, because the spot is kept for a use that involves no long stay, such as bus stops or loading."
                 },
@@ -2199,7 +2199,7 @@
                   "options": [
                     "To stop and to park.",
                     "To park, to the vehicles in general.",
-                    "Only to circulate over it."
+                    "Only to circulate over it, as on a continuous line."
                   ]
                 },
                 "terms": [
@@ -2223,7 +2223,7 @@
                 "es": {
                   "q": "Unas plazas de estacionamiento están pintadas de un color que no es el blanco. ¿Qué puede indicar ese color?",
                   "options": [
-                    "Que las plazas son solo para motocicletas",
+                    "Que las plazas están reservadas solo para motocicletas y ciclomotores",
                     "Que está prohibido estacionar en ellas",
                     "Una limitación de tiempo, un tipo de usuario o un fin concreto"
                   ],
@@ -2232,7 +2232,7 @@
                 "en": {
                   "q": "Some parking spaces are painted a color other than white. What can that color indicate?",
                   "options": [
-                    "That the spaces are for motorcycles only",
+                    "That the spaces are reserved for motorcycles and mopeds only",
                     "That parking in them is banned",
                     "A time limit, a type of user or a specific purpose"
                   ],
@@ -2241,8 +2241,8 @@
                 "exam": {
                   "q": "Some parking places are painted in a colour that is not white. What can that colour indicate?",
                   "options": [
-                    "That the places are only for motorcycles.",
-                    "That it is prohibited to park in them.",
+                    "That the places are reserved only for motorcycles and mopeds.",
+                    "That parking in them is prohibited.",
                     "A limitation of time, a type of user or a concrete purpose."
                   ]
                 },
@@ -2489,28 +2489,28 @@
                 "id": "situations-c3b",
                 "answer": 2,
                 "es": {
-                  "q": "Al empezar el carril de aceleración ves que no puedes incorporarte sin peligro. ¿Qué dice el reglamento?",
+                  "q": "Si al principio del carril de aceleración ve que no puede incorporarse sin peligro, el reglamento le permite…",
                   "options": [
-                    "Entras igualmente: los demás tienen que dejarte pasar",
-                    "Nunca puedes detenerte: debes entrar sin parar",
-                    "Puedes incluso detenerte, si hace falta"
+                    "entrar igualmente, porque los demás deben dejarle pasar.",
+                    "seguir por el arcén hasta encontrar un hueco.",
+                    "incluso detenerse, si hace falta."
                   ],
                   "why": "Al principio del carril debes comprobar que puedes entrar sin peligro, incluso deteniéndote si es necesario. Después aceleras."
                 },
                 "exam": {
-                  "q": "At the beginning of the acceleration lane you see that you cannot enter traffic without danger. What does the regulation say?",
+                  "q": "If at the beginning of the acceleration lane you see that you cannot enter traffic without danger, the regulation allows you…",
                   "options": [
-                    "You enter all the same: the others have to let you pass.",
-                    "You can never stop: you must enter without stopping.",
-                    "You can even stop, if it is necessary."
+                    "to enter all the same, because the others must let you pass.",
+                    "to continue by the hard shoulder until finding a gap.",
+                    "even to stop, if it is necessary."
                   ]
                 },
                 "en": {
-                  "q": "At the start of the acceleration lane you see that you cannot merge safely. What does the regulation say?",
+                  "q": "If at the start of the acceleration lane you see that you cannot merge safely, the regulation allows you to…",
                   "options": [
-                    "You enter anyway: the others have to let you through",
-                    "You may never stop: you must enter without stopping",
-                    "You may even stop, if necessary"
+                    "enter anyway, because the others must let you in.",
+                    "carry on along the shoulder until you find a gap.",
+                    "even stop, if needed."
                   ],
                   "why": "At the start of the lane you must check that you can enter safely, even stopping if necessary. Then you accelerate."
                 },
@@ -2579,30 +2579,30 @@
                 "id": "situations-c3d",
                 "answer": 1,
                 "es": {
-                  "q": "Circulas por una autovía casi vacía y tu coche funciona bien. ¿Puedes ir a 50 km/h?",
+                  "q": "Su coche funciona bien y la autovía está casi vacía. Como norma general, ¿puede circular por ella a 50 km/h?",
                   "options": [
-                    "Sí, si no hay otros vehículos",
-                    "No: el mínimo en autopistas y autovías es de 60 km/h",
-                    "Sí, si pones la luz de emergencia"
+                    "Sí, si no circula ningún otro vehículo por ella",
+                    "No.",
+                    "Sí, si lleva encendida la luz de emergencia"
                   ],
-                  "why": "En autopistas y autovías no se puede circular a menos de 60 km/h, aunque no haya otros vehículos, salvo que las circunstancias lo impidan."
+                  "why": "No. En autopistas y autovías no se puede circular a menos de 60 km/h, aunque no haya otros vehículos. Solo se puede ir más despacio si el tráfico, el vehículo o la vía impiden mantener esa velocidad sin riesgo."
                 },
                 "exam": {
-                  "q": "You circulate by a dual carriageway almost empty and your car works well. Can you go at 50 km/h?",
+                  "q": "Your car works well and the dual carriageway is almost empty. As a general norm, can you circulate by it at 50 km/h?",
                   "options": [
-                    "Yes, when the road is empty.",
-                    "No: the minimum in motorways and dual carriageways is of 60 km/h.",
-                    "Yes, if you put the emergency light."
+                    "Yes, if no other vehicle circulates by it.",
+                    "No.",
+                    "Yes, if you carry switched on the emergency light."
                   ]
                 },
                 "en": {
-                  "q": "You are on an almost empty dual carriageway and your car runs well. May you drive at 50 km/h?",
+                  "q": "Your car runs well and the dual carriageway is almost empty. As a general rule, may you drive on it at 50 km/h?",
                   "options": [
-                    "Yes, when the road is empty",
-                    "No: the minimum on motorways and dual carriageways is 60 km/h",
-                    "Yes, if you turn on the hazard lights"
+                    "Yes, if no other vehicle is on it",
+                    "No.",
+                    "Yes, if you have the hazard lights on"
                   ],
-                  "why": "On motorways and dual carriageways you may not drive below 60 km/h, even with no other vehicles, unless circumstances prevent it."
+                  "why": "No. On motorways and dual carriageways you may not drive below 60 km/h, even with no other vehicles. You may go slower only if traffic, the vehicle or the road keep you from holding that speed safely."
                 },
                 "terms": [
                   {
@@ -2717,10 +2717,10 @@
                 "id": "situations-c3i",
                 "answer": 0,
                 "es": {
-                  "q": "Por una autovía de tres carriles el tráfico avanza con fluidez, a unos 100 km/h. ¿Tienes que formar ya el carril de emergencia?",
+                  "q": "Por una autovía de tres carriles el tráfico avanza con fluidez, a unos 100 km/h. ¿Tiene que formar ya el carril de emergencia?",
                   "options": [
-                    "No: se forma cuando una retención os deja a paso de peatón o parados",
-                    "Sí: en una autovía de tres carriles debe estar siempre abierto",
+                    "No, solo cuando una retención les deja a paso de peatón o parados",
+                    "Sí, porque en una autovía de tres carriles debe estar siempre abierto",
                     "Sí: en cuanto el tráfico es denso, a cualquier velocidad"
                   ],
                   "why": "El carril de emergencia se forma en autopistas y autovías cuando, por una retención, los vehículos van a paso de peatón o se detienen. Con tráfico fluido vale la regla general: facilitar el paso al prioritario cuando llega."
@@ -2728,16 +2728,16 @@
                 "exam": {
                   "q": "By a dual carriageway of three lanes the traffic advances with fluidity, at about 100 km/h. Must you already form the emergency lane?",
                   "options": [
-                    "No: it is formed when a retention leaves you at pedestrian step or stopped.",
-                    "Yes: in a dual carriageway of three lanes it must always be open.",
+                    "No, only when a retention leaves you at pedestrian step or stopped.",
+                    "Yes, because in a dual carriageway of three lanes it must always be open.",
                     "Yes: as soon as the traffic is dense, at any speed."
                   ]
                 },
                 "en": {
                   "q": "Traffic is flowing at about 100 km/h on a three-lane dual carriageway. Do you have to form the emergency corridor now?",
                   "options": [
-                    "No: you form it when a jam has you at walking pace or stopped",
-                    "Yes: on a three-lane dual carriageway it must always be open",
+                    "No, only when a jam has you at walking pace or stopped",
+                    "Yes, because on a three-lane dual carriageway it must always be open",
                     "Yes: as soon as traffic is heavy, at any speed"
                   ],
                   "why": "The emergency corridor is formed on motorways and dual carriageways when a jam has vehicles at walking pace or stopped. In flowing traffic the general rule applies: make way for the priority vehicle when it arrives."
@@ -2765,11 +2765,11 @@
                 "id": "situations-c3j",
                 "answer": 1,
                 "es": {
-                  "q": "Atasco en una autopista de cuatro carriles en tu sentido: el tráfico está parado. Vas por el segundo carril empezando por la izquierda. ¿Cómo ayudas a formar el carril de emergencia?",
+                  "q": "Atasco en una autopista de cuatro carriles en su sentido: el tráfico está parado. Circula por el segundo carril empezando por la izquierda. ¿Cómo ayuda a formar el carril de emergencia?",
                   "options": [
-                    "Te mueves lo más a la izquierda posible",
-                    "Te mueves lo más a la derecha posible",
-                    "Te subes al arcén derecho"
+                    "Se mueve lo más a la izquierda posible",
+                    "Se mueve lo más a la derecha posible",
+                    "Se sube al arcén derecho"
                   ],
                   "why": "Con tres o más carriles, el pasillo queda entre el carril de más a la izquierda y el contiguo. Solo el carril de más a la izquierda se aparta a la izquierda; todos los demás, a la derecha."
                 },
@@ -2809,28 +2809,28 @@
                 "id": "situations-c3k",
                 "answer": 2,
                 "es": {
-                  "q": "Estás en una retención en una carretera convencional de un carril por sentido y oyes la sirena de una ambulancia detrás. ¿Qué regla aplicas?",
+                  "q": "Está en una retención en una carretera convencional de un carril por sentido y oye la sirena de una ambulancia detrás. ¿Qué regla aplica?",
                   "options": [
-                    "Formas el carril de emergencia en el centro de la calzada",
-                    "Ninguna: parado en una retención no tienes que moverte",
-                    "La general: le facilitas el paso, normalmente apartándote a la derecha o deteniéndote"
+                    "Forma el carril de emergencia, igual que haría en una autopista",
+                    "Ninguna: parado en una retención no tiene que moverse",
+                    "La general: le facilita el paso, apartándose o deteniéndose"
                   ],
                   "why": "El carril de emergencia es una regla de autopistas y autovías. En las demás vías facilitas el paso al vehículo prioritario apartándote normalmente a la derecha, o deteniéndote si hace falta."
                 },
                 "exam": {
                   "q": "You are in a retention in a conventional road of one lane by direction and you hear the siren of an ambulance behind. What rule do you apply?",
                   "options": [
-                    "You form the emergency lane in the centre of the carriageway.",
+                    "You form the emergency lane, the same as you would do on a motorway.",
                     "None: stopped in a retention you do not have to move.",
-                    "The general one: you facilitate its passage, normally moving aside to the right or stopping."
+                    "The general one: you facilitate its passage, moving aside or stopping."
                   ]
                 },
                 "en": {
                   "q": "You are in a jam on a single-carriageway road with one lane each way, and you hear an ambulance siren behind you. Which rule applies?",
                   "options": [
-                    "Form the emergency corridor in the middle of the road",
+                    "Form the emergency corridor, just as on a motorway",
                     "None: stopped in a jam, you do not have to move",
-                    "The general one: make way, normally by moving right or stopping"
+                    "The general one: make way, by moving aside or stopping"
                   ],
                   "why": "The emergency corridor is a motorway and dual carriageway rule. On other roads you make way for the priority vehicle, normally by moving to the right, or stopping if needed."
                 },
@@ -2941,10 +2941,10 @@
                 "id": "situations-c3l",
                 "answer": 0,
                 "es": {
-                  "q": "Nieva y la calzada de una autovía de dos carriles por sentido está difícil. Delante de ti, en el carril derecho, va un camión muy lento. ¿Puedes adelantarlo por la izquierda?",
+                  "q": "Nieva y la calzada de una autovía de dos carriles por sentido está difícil. Delante de usted, en el carril derecho, va un camión muy lento. ¿Puede adelantarlo por la izquierda?",
                   "options": [
-                    "No: con nieve está prohibido adelantar y el carril izquierdo queda libre",
-                    "Sí, si el camión va mucho más despacio que tú",
+                    "No, con esa nieve está prohibido adelantar en la autovía",
+                    "Sí, si el camión va mucho más despacio que usted",
                     "Sí, con la luz de cruce encendida y con precaución"
                   ],
                   "why": "En autopistas y autovías, cuando la nieve dificulta la circulación, se prohíbe adelantar. Vas por el carril derecho y dejas el izquierdo a los vehículos de emergencia y las quitanieves."
@@ -2952,7 +2952,7 @@
                 "exam": {
                   "q": "It snows and the carriageway of a dual carriageway of two lanes by direction is difficult. In front of you, in the right lane, goes a very slow lorry. Can you overtake it by the left?",
                   "options": [
-                    "No: with snow it is prohibited to overtake and the left lane remains free.",
+                    "No, with that snow it is prohibited to overtake on the dual carriageway.",
                     "Yes, if the lorry goes much more slowly than you.",
                     "Yes, with the dipped beam switched on and with caution."
                   ]
@@ -2960,7 +2960,7 @@
                 "en": {
                   "q": "It is snowing and driving on a dual carriageway with two lanes each way is difficult. A very slow truck is ahead of you in the right-hand lane. May you pass it on the left?",
                   "options": [
-                    "No: in snow overtaking is banned and the left lane stays clear",
+                    "No: in that snow overtaking is banned on the dual carriageway",
                     "Yes, if the truck is much slower than you",
                     "Yes, with low beams on and with care"
                   ],
@@ -2989,7 +2989,7 @@
                 "id": "situations-c3m",
                 "answer": 2,
                 "es": {
-                  "q": "Una autopista tiene tres carriles por sentido y la nieve dificulta la circulación. ¿Por qué carriles puedes circular?",
+                  "q": "Una autopista tiene tres carriles por sentido y la nieve dificulta la circulación. ¿Por qué carriles puede circular?",
                   "options": [
                     "Solo por el de la izquierda, que suele estar más limpio",
                     "Por cualquiera de los tres, a velocidad moderada",
@@ -3077,28 +3077,28 @@
                 "id": "situations-c3e",
                 "answer": 2,
                 "es": {
-                  "q": "Tu salida de la autopista es la próxima. ¿Cómo te preparas?",
+                  "q": "Para tomar la próxima salida de la autopista, el conductor debe…",
                   "options": [
-                    "Paso al carril izquierdo para frenar sin estorbar",
-                    "Espero al último momento y cruzo los carriles",
-                    "Circulo con antelación por el carril más próximo a la salida"
+                    "pasar al carril izquierdo para frenar allí sin estorbar a nadie.",
+                    "esperar al último momento y cruzar los carriles.",
+                    "ir con antelación por el carril más próximo a la salida."
                   ],
                   "why": "Para salir hay que ir con suficiente antelación por el carril más próximo a la salida y entrar pronto en el carril de deceleración."
                 },
                 "exam": {
-                  "q": "Your exit of the motorway is the next one. How do you prepare yourself?",
+                  "q": "To take the next exit of the motorway, the driver must…",
                   "options": [
-                    "I pass to the left lane in order to brake without hindering.",
-                    "I wait for the last moment and I cross the lanes.",
-                    "I circulate in advance by the lane nearest to the exit."
+                    "pass to the left lane to brake there without hindering anybody.",
+                    "wait for the last moment and cross the lanes.",
+                    "go in advance by the lane nearest to the exit."
                   ]
                 },
                 "en": {
-                  "q": "Your motorway exit is the next one. How do you prepare?",
+                  "q": "To take the next motorway exit, you must…",
                   "options": [
-                    "I move to the left lane to brake without getting in the way",
-                    "I wait until the last moment and cross the lanes",
-                    "I drive in good time in the lane nearest the exit"
+                    "move to the left lane to brake there without getting in anyone’s way.",
+                    "wait until the last moment and cut across the lanes.",
+                    "drive in good time in the lane nearest the exit."
                   ],
                   "why": "To exit you must be in the lane nearest the exit in good time and enter the deceleration lane early."
                 },
@@ -3162,24 +3162,24 @@
                 "id": "situations-c3g",
                 "answer": 0,
                 "es": {
-                  "q": "Quieres consultar el móvil un momento y paras en el arcén de una autopista, sin ninguna emergencia. ¿Es correcto?",
+                  "q": "Quiere consultar el móvil un momento y para en el arcén de la autopista por la que circula, sin ninguna emergencia. ¿Es correcto?",
                   "options": [
-                    "No: solo se puede parar en las zonas habilitadas",
+                    "No, solo se puede parar en las zonas habilitadas",
                     "Sí, un momento en el arcén es lo normal",
                     "Sí, con la luz de emergencia"
                   ],
                   "why": "En autopistas y autovías está prohibido parar, salvo en las zonas habilitadas. Una emergencia es otra situación."
                 },
                 "exam": {
-                  "q": "You want to consult the mobile a moment and you stop on the hard shoulder of a motorway, without any emergency. Is it correct?",
+                  "q": "You want to consult the mobile a moment and you stop on the hard shoulder of the motorway by which you circulate, without any emergency. Is it correct?",
                   "options": [
-                    "No: it is only possible to stop in the enabled zones.",
+                    "No, it is only possible to stop in the enabled zones.",
                     "Yes, a moment on the hard shoulder is the normal.",
                     "Yes, with the emergency light."
                   ]
                 },
                 "en": {
-                  "q": "You want to check your phone for a moment and stop on the shoulder of a motorway, with no emergency. Is that correct?",
+                  "q": "You want to check your phone for a moment and stop on the shoulder of the motorway you are on, with no emergency. Is that correct?",
                   "options": [
                     "No: you may stop only in the areas set up for it",
                     "Yes, a moment on the shoulder is normal",
@@ -3217,28 +3217,28 @@
                 "id": "situations-c3x",
                 "answer": 2,
                 "es": {
-                  "q": "En una autovía, tu coche se avería en el carril izquierdo y no puedes llegar al arcén derecho. ¿Qué pide la norma?",
+                  "q": "En una autovía, su coche se avería en el carril izquierdo y no puede llegar al arcén derecho. ¿Qué pide la norma?",
                   "options": [
-                    "Quedarte en el carril izquierdo hasta que llegue la grúa",
+                    "Quedarse en el carril izquierdo, con la luz de emergencia, hasta que llegue la grúa",
                     "Circular por el arcén izquierdo hasta la siguiente salida",
-                    "Detenerte donde causes menor obstáculo, aunque sea junto a la mediana"
+                    "Detenerse donde cause menor obstáculo, incluso junto a la mediana"
                   ],
                   "why": "Si no puedes ir por el arcén derecho hacia una salida, debes detenerte en el arcén derecho o en el lugar donde causes menor obstáculo a la circulación. Excepcionalmente puede ser junto a la mediana."
                 },
                 "exam": {
                   "q": "On a dual carriageway, your car breaks down in the left lane and you cannot reach the right hard shoulder. What does the norm ask?",
                   "options": [
-                    "To stay in the left lane until the tow truck arrives.",
+                    "To stay in the left lane, with the emergency light, until the tow truck arrives.",
                     "To circulate by the left hard shoulder until the next exit.",
-                    "To stop where you cause less obstacle, even if it is next to the central reservation."
+                    "To stop where you cause less obstacle, even next to the central reservation."
                   ]
                 },
                 "en": {
                   "q": "On an autovía your car breaks down in the left lane and you cannot reach the right shoulder. What does the rule ask?",
                   "options": [
-                    "Stay in the left lane until the tow truck arrives",
+                    "Stay in the left lane, hazard lights on, until the tow truck arrives",
                     "Drive along the left shoulder to the next exit",
-                    "Stop where you cause the least obstruction, even if that is by the median"
+                    "Stop where you cause the least obstruction, even by the median"
                   ],
                   "why": "If you cannot use the right shoulder to reach an exit, you must stop on the right shoulder or where you cause the least obstruction to traffic. Exceptionally, that can be next to the median."
                 },
@@ -3270,32 +3270,32 @@
               "t": "check",
               "q": {
                 "id": "situations-c3t",
-                "answer": 2,
+                "answer": 1,
                 "es": {
-                  "q": "Tu turismo se avería en una autopista. Un amigo llega con su coche y una cuerda para llevarte por el arcén hasta la siguiente salida. ¿Qué dice la DGT?",
+                  "q": "Su turismo se avería en una autopista. Un amigo llega con su coche y una cuerda para llevarle por el arcén hasta la siguiente salida. ¿Es aconsejable hacerlo?",
                   "options": [
-                    "Puede, si va despacio y con la luz de emergencia",
-                    "Puede, pero solo por el arcén y sin pasar de la salida",
-                    "No: el traslado lo hace un vehículo de auxilio, como una grúa"
+                    "No es aconsejable, pero está permitido si van despacio por el arcén",
+                    "No: la DGT lo da por prohibido y el traslado lo hace una grúa",
+                    "Sí, si no pasan de la siguiente salida"
                   ],
-                  "why": "Remolcar un vehículo averiado con un turismo en una autopista o autovía es peligroso y la DGT lo da por prohibido. Pide una grúa de auxilio."
+                  "why": "Remolcar un vehículo averiado con un turismo en una autopista o autovía es peligroso y la DGT lo da por prohibido, no solo por poco aconsejable. Pide una grúa de auxilio."
                 },
                 "exam": {
-                  "q": "Your passenger car breaks down on a motorway. A friend arrives with his car and a rope to take you by the hard shoulder up to the next exit. What does the DGT say?",
+                  "q": "Your passenger car breaks down on a motorway. A friend arrives with his car and a rope to take you by the hard shoulder up to the next exit. Is it advisable to do it?",
                   "options": [
-                    "He can, if he goes slowly and with the emergency light.",
-                    "He can, but only by the hard shoulder and without passing the exit.",
-                    "No: the transfer is done by an assistance vehicle, such as a tow truck."
+                    "It is not advisable, but it is permitted if you go slowly by the hard shoulder.",
+                    "No: the DGT gives it as prohibited and the transfer is done by a crane.",
+                    "Yes, if you do not pass the next exit."
                   ]
                 },
                 "en": {
-                  "q": "Your car breaks down on a motorway. A friend arrives with a car and a rope to take you along the shoulder to the next exit. What does the DGT say?",
+                  "q": "Your car breaks down on a motorway. A friend arrives with a car and a rope to take you along the shoulder to the next exit. Is it advisable to do it?",
                   "options": [
-                    "They may, if they go slowly with hazard lights on",
-                    "They may, but only on the shoulder and no further than the exit",
-                    "No: a roadside-assistance vehicle, such as a tow truck, does the transfer"
+                    "It is not advisable, but it is allowed if you go slowly on the shoulder",
+                    "No: the DGT treats it as banned and a tow truck does the transfer",
+                    "Yes, if you go no further than the next exit"
                   ],
-                  "why": "Towing a broken-down vehicle with a car on a motorway or dual carriageway is dangerous, and the DGT treats it as banned. Call a roadside-assistance tow truck."
+                  "why": "Towing a broken-down vehicle with a car on a motorway or dual carriageway is dangerous, and the DGT treats it as banned, not merely unwise. Call a tow truck."
                 },
                 "terms": [
                   {
@@ -3324,30 +3324,30 @@
                 "id": "situations-c3u",
                 "answer": 1,
                 "es": {
-                  "q": "En una autovía, un camión de mercancías peligrosas está averiado en el arcén. El conductor de un turismo se ofrece a remolcarlo hasta un taller. ¿Puede?",
+                  "q": "En una autovía, un camión de mercancías peligrosas está averiado en el arcén. Un conductor que viaja en turismo se ofrece a remolcarlo hasta un taller. ¿Está permitido, aunque sea poco aconsejable?",
                   "options": [
-                    "Sí, con una barra rígida en lugar de una cuerda",
-                    "No: un vehículo averiado lo debe remolcar un vehículo de auxilio",
-                    "Sí, si el camión lleva encendida la luz de emergencia"
+                    "Sí, aunque no es aconsejable con una carga peligrosa",
+                    "No, solo puede remolcarlo un vehículo de auxilio en carretera",
+                    "Sí, si usa una barra rígida en lugar de una cuerda"
                   ],
-                  "why": "Solo un vehículo preparado para el auxilio en carretera, como una grúa, puede recoger y remolcar un vehículo averiado. Un turismo no puede hacerlo, y menos con una carga peligrosa."
+                  "why": "No. Solo un vehículo preparado para el auxilio en carretera, como una grúa, puede recoger y remolcar un vehículo averiado. No es una cuestión de consejo: un turismo no puede hacerlo, y menos con una carga peligrosa."
                 },
                 "exam": {
-                  "q": "On a dual carriageway, a truck of dangerous goods is broken down on the hard shoulder. The driver of a passenger car offers to tow it up to a workshop. Can he?",
+                  "q": "On a dual carriageway, a truck of dangerous goods is broken down on the hard shoulder. A driver who travels in passenger car offers to tow it up to a workshop. Is it permitted, although it is little advisable?",
                   "options": [
-                    "Yes, with a rigid bar instead of a rope.",
-                    "No: a broken-down vehicle must be towed by an assistance vehicle.",
-                    "Yes, if the truck carries the emergency light switched on."
+                    "Yes, although it is not advisable with a dangerous load.",
+                    "No, only a road assistance vehicle can tow it.",
+                    "Yes, if he uses a rigid bar instead of a rope."
                   ]
                 },
                 "en": {
-                  "q": "On a dual carriageway, a truck carrying dangerous goods has broken down on the shoulder. A car driver offers to tow it to a garage. May they?",
+                  "q": "On a dual carriageway, a truck carrying dangerous goods has broken down on the shoulder. A driver in a car offers to tow it to a garage. Is it allowed, even if not advisable?",
                   "options": [
-                    "Yes, with a rigid bar instead of a rope",
-                    "No: a broken-down vehicle must be towed by a roadside-assistance vehicle",
-                    "Yes, if the truck has its hazard lights on"
+                    "Yes, though it is not advisable with a dangerous load",
+                    "No, only a roadside-assistance vehicle may tow it",
+                    "Yes, if they use a rigid bar instead of a rope"
                   ],
-                  "why": "Only a vehicle equipped for roadside assistance, such as a tow truck, may pick up and tow a broken-down vehicle. A passenger car may not, least of all with a dangerous load."
+                  "why": "No. Only a vehicle equipped for roadside assistance, such as a tow truck, may pick up and tow a broken-down vehicle. It is not a matter of advice: a car may not do it, least of all with a dangerous load."
                 },
                 "terms": [
                   {
@@ -3380,10 +3380,10 @@
                 "id": "situations-c3h",
                 "answer": 0,
                 "es": {
-                  "q": "En la explanada de un peaje de autopista, una persona te pide que la lleves. ¿Puedes recogerla?",
+                  "q": "En la explanada de un peaje de autopista, una persona le pide que la lleve. ¿Puede recogerla?",
                   "options": [
-                    "No: en la autopista no se puede pedir pasaje, tampoco en el peaje",
-                    "Sí, si paras en el arcén después del peaje",
+                    "No, tampoco en el peaje se puede pedir pasaje",
+                    "Sí, si para en el arcén después del peaje",
                     "Sí, porque el peaje no forma parte de la autopista"
                   ],
                   "why": "Los peatones no pueden hacer peticiones de pasaje en ningún tramo de autopistas o autovías, incluidas las explanadas de los peajes. Además, solo puedes parar en las zonas habilitadas."
@@ -3391,7 +3391,7 @@
                 "exam": {
                   "q": "On the esplanade of a motorway toll, a person asks you to take him. Can you pick him up?",
                   "options": [
-                    "No: on the motorway it is not possible to ask for passage, neither at the toll.",
+                    "No, neither at the toll is it possible to ask for passage.",
                     "Yes, if you stop on the hard shoulder after the toll.",
                     "Yes, because the toll is not part of the motorway."
                   ]
@@ -3399,7 +3399,7 @@
                 "en": {
                   "q": "On the apron of a motorway toll plaza, a person asks you for a ride. May you pick them up?",
                   "options": [
-                    "No: asking for rides is banned on the motorway, toll plaza included",
+                    "No: asking for rides is banned at the toll plaza too",
                     "Yes, if you stop on the shoulder after the toll",
                     "Yes, because the toll plaza is not part of the motorway"
                   ],
@@ -3576,30 +3576,30 @@
               "t": "check",
               "q": {
                 "id": "situations-c4a",
-                "answer": 0,
+                "answer": 1,
                 "es": {
-                  "q": "Entras a mediodía, con sol, en un túnel bien iluminado. ¿Qué luces llevas?",
+                  "q": "Al entrar a mediodía, con sol, en un túnel bien iluminado, debe llevar encendidas…",
                   "options": [
-                    "Las de posición y las de cruce",
-                    "Ninguna: es de día",
-                    "Solo las de posición"
+                    "las luces de posición.",
+                    "las luces de posición y la de cruce.",
+                    "ninguna luz, porque es de día."
                   ],
                   "why": "En los túneles hay que llevar encendido el alumbrado a cualquier hora: posición y, si está bien iluminado, también el de cruce."
                 },
                 "exam": {
-                  "q": "You enter at midday, with sun, in a well illuminated tunnel. Which lights do you carry?",
+                  "q": "On entering at midday, with sun, in a well illuminated tunnel, you must carry switched on…",
                   "options": [
-                    "The position ones and the dipped ones.",
-                    "None: it is day.",
-                    "Only the position ones."
+                    "the position lights.",
+                    "the position lights and the low beam.",
+                    "no light, because it is day."
                   ]
                 },
                 "en": {
-                  "q": "At noon, in full sun, you enter a well-lit tunnel. Which lights do you use?",
+                  "q": "Entering a well-lit tunnel at noon, in full sun, you must have on…",
                   "options": [
-                    "Position lights and low beam",
-                    "None: it is daytime",
-                    "Position lights only"
+                    "the position lights.",
+                    "the position lights and the low beam.",
+                    "no lights, because it is daytime."
                   ],
                   "why": "In tunnels you must have your lights on at any hour: position lights and, if the tunnel is well lit, the low beam as well."
                 },
@@ -3630,9 +3630,9 @@
                 "id": "situations-c4h",
                 "answer": 0,
                 "es": {
-                  "q": "Es de día. Entras a 80 km/h en un túnel mal iluminado y no hay nadie cerca, ni delante ni de frente. ¿Qué luz llevas?",
+                  "q": "Es de día. Entra a 80 km/h en un túnel mal iluminado y no hay nadie cerca, ni delante ni de frente. ¿Qué luz lleva?",
                   "options": [
-                    "La de largo alcance (de carretera)",
+                    "La de largo alcance",
                     "Solo las de posición",
                     "La antiniebla trasera"
                   ],
@@ -3650,7 +3650,7 @@
                 "exam": {
                   "q": "It is daytime. You enter at 80 km/h in a badly lit tunnel and there is nobody near, neither in front nor coming. Which light do you carry?",
                   "options": [
-                    "The long-range one (main beam).",
+                    "The long-range one.",
                     "Only the position ones.",
                     "The rear fog light."
                   ]
@@ -3706,28 +3706,28 @@
                 "id": "situations-c4b",
                 "answer": 2,
                 "es": {
-                  "q": "Conduces un camión de 7.500 kg de masa máxima autorizada por un túnel y no vas a adelantar. ¿Qué distancia mínima dejas con el vehículo de delante?",
+                  "q": "En un túnel, quien conduce un camión cuya masa máxima autorizada es de 7.500 kg y no va a adelantar debe dejar con el vehículo de delante al menos…",
                   "options": [
-                    "100 metros o 4 segundos",
-                    "50 metros o 2 segundos",
-                    "150 metros o 6 segundos"
+                    "100 metros o 4 segundos, como un turismo.",
+                    "50 metros o 2 segundos.",
+                    "150 metros o 6 segundos."
                   ],
                   "why": "Los vehículos de masa máxima autorizada superior a 3.500 kg deben dejar al menos 150 metros o 6 segundos en un túnel. Los demás, 100 metros o 4 segundos."
                 },
                 "exam": {
-                  "q": "By a tunnel you drive a lorry whose maximum authorised mass is 7.500 kg, without intention to overtake. Which minimum distance must separate you from the preceding vehicle?",
+                  "q": "In a tunnel, who drives a lorry whose maximum authorised mass is of 7.500 kg and is not going to overtake must leave with the preceding vehicle at least…",
                   "options": [
-                    "100 metres or 4 seconds.",
+                    "100 metres or 4 seconds, as a passenger car.",
                     "50 metres or 2 seconds.",
                     "150 metres or 6 seconds."
                   ]
                 },
                 "en": {
-                  "q": "You drive a truck with a maximum authorized mass of 7,500 kg through a tunnel and are not going to overtake. What is the minimum distance you leave to the vehicle ahead?",
+                  "q": "In a tunnel, someone driving a truck whose maximum authorized mass is 7,500 kg, and who will not overtake, must keep from the vehicle ahead at least…",
                   "options": [
-                    "100 meters or 4 seconds",
-                    "50 meters or 2 seconds",
-                    "150 meters or 6 seconds"
+                    "100 meters or 4 seconds, like a car.",
+                    "50 meters or 2 seconds.",
+                    "150 meters or 6 seconds."
                   ],
                   "why": "Vehicles with a maximum authorized mass over 3,500 kg must leave at least 150 meters or 6 seconds in a tunnel. All others, 100 meters or 4 seconds."
                 },
@@ -3770,11 +3770,11 @@
                 "id": "situations-c4c",
                 "answer": 1,
                 "es": {
-                  "q": "Vas por un túnel con un solo carril en tu sentido y un camión lento delante. ¿Puedes adelantarlo?",
+                  "q": "Circula por un túnel con un solo carril en su sentido y un camión lento delante. ¿Puede adelantarlo?",
                   "options": [
                     "Sí, si la visibilidad es buena",
-                    "No: con un solo carril en tu sentido está prohibido adelantar",
-                    "Sí, si pones la luz de emergencia"
+                    "No, con un solo carril en su sentido no se puede adelantar",
+                    "Sí, si pone la luz de emergencia"
                   ],
                   "why": "En un túnel está prohibido adelantar si tu sentido tiene un solo carril. Solo se puede con más de un carril, sin invadir el sentido contrario."
                 },
@@ -3782,7 +3782,7 @@
                   "q": "You go by a tunnel with a single lane in your direction and a slow lorry in front. Can you overtake it?",
                   "options": [
                     "Yes, if the visibility is good.",
-                    "No: with a single lane in your direction it is prohibited to overtake.",
+                    "No, with a single lane in your direction it is not possible to overtake.",
                     "Yes, if you put the emergency light."
                   ]
                 },
@@ -3790,7 +3790,7 @@
                   "q": "You are in a tunnel with a single lane in your direction and a slow truck ahead. May you overtake it?",
                   "options": [
                     "Yes, if visibility is good",
-                    "No: overtaking is banned when your direction has a single lane",
+                    "No: with a single lane your way, overtaking is banned",
                     "Yes, if you turn on the hazard lights"
                   ],
                   "why": "In a tunnel, overtaking is banned if your direction has only one lane. It is allowed only with more than one lane, without entering the opposite lane."
@@ -3834,30 +3834,30 @@
                 "id": "situations-c4d",
                 "answer": 0,
                 "es": {
-                  "q": "El semáforo de la boca de un túnel está en rojo y desde fuera no ves ningún problema dentro. ¿Entras?",
+                  "q": "El semáforo de la boca de un túnel está en rojo y desde fuera no ve ningún problema dentro. ¿Puede entrar?",
                   "options": [
-                    "No: el semáforo de la entrada manda",
-                    "Sí, si no viene nadie por el túnel",
-                    "Sí, si vas despacio"
+                    "No, el semáforo de la boca le prohíbe el paso",
+                    "No, salvo que vea que no viene nadie por el túnel",
+                    "Sí, si entra despacio y con precaución"
                   ],
-                  "why": "Nadie debe entrar en un túnel si el semáforo de la boca no le permite el paso. Solo los servicios de urgencia y similares están exceptuados."
+                  "why": "No. Nadie debe entrar en un túnel si el semáforo de la boca no le permite el paso. Solo los servicios de urgencia y similares están exceptuados."
                 },
                 "exam": {
-                  "q": "The traffic light of the mouth of a tunnel is in red and from outside you do not see any problem inside. Do you enter?",
+                  "q": "The traffic light of the mouth of a tunnel is in red and from outside you do not see any problem inside. Can you enter?",
                   "options": [
-                    "No: the traffic light of the entrance commands.",
-                    "Yes, if nobody comes by the tunnel.",
-                    "Yes, if you go slowly."
+                    "No, the traffic light of the mouth prohibits you the passage.",
+                    "No, except that you see that nobody comes by the tunnel.",
+                    "Yes, if you enter slowly and with precaution."
                   ]
                 },
                 "en": {
-                  "q": "The traffic light at the mouth of a tunnel is red and from outside you see no problem inside. Do you enter?",
+                  "q": "The traffic light at the mouth of a tunnel is red and from outside you see no problem inside. May you enter?",
                   "options": [
-                    "No: the light at the entrance rules",
-                    "Yes, if nobody is coming through the tunnel",
-                    "Yes, if you go slowly"
+                    "No, the light at the mouth bars your way",
+                    "No, unless you see nobody coming through the tunnel",
+                    "Yes, if you go in slowly and carefully"
                   ],
-                  "why": "Nobody may enter a tunnel if the light at its mouth does not allow it. Only emergency services and similar crews are exempt."
+                  "why": "No. Nobody may enter a tunnel if the light at its mouth does not allow it. Only emergency and similar services are exempt."
                 },
                 "terms": [
                   {
@@ -3944,26 +3944,26 @@
                 "id": "situations-c4e",
                 "answer": 2,
                 "es": {
-                  "q": "Estás parado dentro de un túnel por una retención de tráfico, sin ninguna avería. ¿Qué haces?",
+                  "q": "Está detenido dentro de un túnel por una retención de tráfico, sin ninguna avería. ¿Qué debe hacer?",
                   "options": [
-                    "Salir del coche y caminar hasta la salida",
+                    "Salir del coche y caminar por la acera del túnel hasta la salida más próxima",
                     "Dar marcha atrás hasta la entrada",
-                    "Quedarte en el coche, con el motor apagado y las luces de posición"
+                    "Quedarse en el coche, con el motor apagado y las luces de posición"
                   ],
                   "why": "Si te inmovilizas por necesidades de la circulación no debes abandonar el vehículo: apaga el motor y deja las luces de posición."
                 },
                 "exam": {
-                  "q": "You are stopped inside a tunnel because of a retention of traffic, without any breakdown. What do you do?",
+                  "q": "You are stopped inside a tunnel because of a retention of traffic, without any breakdown. What must you do?",
                   "options": [
-                    "To get out of the car and to walk until the exit.",
+                    "To get out of the car and to walk by the pavement of the tunnel until the nearest exit.",
                     "To go backwards until the entrance.",
-                    "To remain in the car, with the engine switched off and the position lights."
+                    "To remain in the car, with the motor stopped and the position lights."
                   ]
                 },
                 "en": {
-                  "q": "You are stopped inside a tunnel because of a traffic jam, with no breakdown. What do you do?",
+                  "q": "You are stopped inside a tunnel because of a traffic jam, with no breakdown. What must you do?",
                   "options": [
-                    "Get out and walk to the exit",
+                    "Get out and walk along the tunnel walkway to the nearest exit",
                     "Reverse back to the entrance",
                     "Stay in the car, with the engine off and the position lights on"
                   ],
@@ -3984,30 +3984,30 @@
                 "id": "situations-c4f",
                 "answer": 1,
                 "es": {
-                  "q": "Tu coche se avería en un túnel y no puede moverse. ¿Qué hacen los ocupantes?",
+                  "q": "Su coche se avería en un túnel y no puede moverse. ¿Cuál de estas cosas NO pide el reglamento?",
                   "options": [
-                    "Esperan dentro con el cinturón puesto",
-                    "Salen y van al refugio o a la salida más próximos",
-                    "Salen y caminan por la calzada hasta la entrada"
+                    "Salir del coche e ir al refugio o la salida más próximos",
+                    "Esperar dentro del coche con el cinturón puesto",
+                    "Pedir auxilio por el poste SOS más próximo, si lo hay"
                   ],
-                  "why": "Tras una emergencia, los ocupantes abandonan el vehículo y van al refugio o a la salida más próximos, sin andar por la calzada si hay zonas excluidas al tráfico."
+                  "why": "Tras una emergencia en un túnel, el reglamento pide pedir auxilio por el poste SOS más próximo, si lo hay, y salir del coche hacia el refugio o la salida más próximos. Quedarse dentro no está entre esos pasos."
                 },
                 "exam": {
-                  "q": "Your car breaks down in a tunnel and cannot move. What do the occupants do?",
+                  "q": "Your car breaks down in a tunnel and cannot move. Which of these things does the regulation NOT ask?",
                   "options": [
-                    "They wait inside with the belt put.",
-                    "They get out and go to the nearest shelter or exit.",
-                    "They get out and walk by the carriageway until the entrance."
+                    "To get out of the car and to go to the nearest shelter or exit.",
+                    "To wait inside the car with the belt put.",
+                    "To ask for help by the nearest SOS post, if there is one."
                   ]
                 },
                 "en": {
-                  "q": "Your car breaks down in a tunnel and cannot move. What do the occupants do?",
+                  "q": "Your car breaks down in a tunnel and cannot move. Which of these does the regulation NOT ask for?",
                   "options": [
-                    "They wait inside with seat belts on",
-                    "They get out and go to the nearest shelter or exit",
-                    "They get out and walk along the roadway to the entrance"
+                    "Getting out and going to the nearest shelter or exit",
+                    "Waiting inside with seat belts on",
+                    "Calling for help from the nearest SOS post, if there is one"
                   ],
-                  "why": "After an emergency, the occupants leave the vehicle and go to the nearest shelter or exit, without walking on the roadway if there are areas closed to traffic."
+                  "why": "After an emergency in a tunnel, the regulation asks you to call for help from the nearest SOS post, if there is one, and to get out and go to the nearest shelter or exit. Staying inside is not one of those steps."
                 },
                 "terms": [
                   {
@@ -4028,16 +4028,16 @@
                 "id": "situations-c4g",
                 "answer": 1,
                 "es": {
-                  "q": "Dentro de un paso inferior tu coche sufre una avería, pero puede seguir andando. ¿Qué haces?",
+                  "q": "Dentro de un paso inferior su coche sufre una avería, pero puede seguir andando. ¿Qué debe hacer?",
                   "options": [
-                    "Paras junto al borde derecho y pides auxilio",
-                    "Sigues hasta salir del paso inferior, si es posible",
-                    "Das media vuelta para salir por donde entraste"
+                    "Parar junto al borde derecho y pedir auxilio",
+                    "Seguir hasta salir del paso inferior, si es posible",
+                    "Dar media vuelta para salir por donde entró"
                   ],
                   "why": "Si la avería permite la marcha, continúas hasta la salida del túnel o paso inferior. Si no es posible, hasta una zona reservada para emergencias."
                 },
                 "exam": {
-                  "q": "Inside an underpass your car suffers a breakdown, but it can keep moving. What do you do?",
+                  "q": "Inside an underpass your car suffers a breakdown, but it can keep moving. What must you do?",
                   "options": [
                     "To stop next to the right edge and to ask for help.",
                     "To continue until leaving the underpass, if it is possible.",
@@ -4045,7 +4045,7 @@
                   ]
                 },
                 "en": {
-                  "q": "Your car breaks down inside an underpass, but it can still move. What do you do?",
+                  "q": "Your car breaks down inside an underpass, but it can still move. What must you do?",
                   "options": [
                     "Stop by the right edge and call for help",
                     "Keep going until you are out of the underpass, if you can",
@@ -4214,28 +4214,28 @@
                 "id": "situations-c5a",
                 "answer": 1,
                 "es": {
-                  "q": "Te acercas a un paso a nivel. ¿Qué debes hacer con la velocidad?",
+                  "q": "Al acercarse a un paso a nivel, el conductor debe reducir la velocidad…",
                   "options": [
-                    "Mantenerla si ves que no viene ningún tren",
-                    "Reducirla por debajo de la máxima permitida",
-                    "Reducirla solo si las barreras están bajadas"
+                    "solo si las barreras están bajadas o bajando.",
+                    "por debajo del límite máximo permitido.",
+                    "solo cuando ve u oye que se acerca un tren."
                   ],
                   "why": "Todos los conductores deben extremar la prudencia y reducir la velocidad por debajo de la máxima permitida al aproximarse a un paso a nivel."
                 },
                 "exam": {
-                  "q": "Ahead there is a level crossing. How must the speed change?",
+                  "q": "On approaching a level crossing, the driver must reduce the speed…",
                   "options": [
-                    "To maintain it if you see that no train comes.",
-                    "To reduce it below the maximum permitted.",
-                    "To reduce it only if the barriers are lowered."
+                    "only if the barriers are lowered or lowering.",
+                    "below the maximum permitted limit.",
+                    "only when he sees or hears that a train approaches."
                   ]
                 },
                 "en": {
-                  "q": "A level crossing is coming up ahead. How should your speed change?",
+                  "q": "When approaching a level crossing, you must reduce your speed…",
                   "options": [
-                    "Keep it if you see no train coming",
-                    "Reduce it to below the maximum allowed",
-                    "Reduce it only if the barriers are down"
+                    "only if the barriers are down or coming down.",
+                    "to below the maximum limit allowed.",
+                    "only when you see or hear a train coming."
                   ],
                   "why": "All drivers must take extreme care and slow down to below the maximum speed allowed when approaching a level crossing."
                 },
@@ -4314,28 +4314,28 @@
                 "id": "situations-c5b",
                 "answer": 2,
                 "es": {
-                  "q": "Antes de un paso a nivel parpadea una luz roja, pero la barrera aún no ha bajado. ¿Qué haces?",
+                  "q": "Antes de un paso a nivel parpadea una luz roja, pero la barrera aún no ha bajado. ¿Qué hace?",
                   "options": [
-                    "Cruzas rápido: aún hay tiempo",
-                    "Cruzas si no ves ningún tren",
-                    "Te detienes: la luz roja intermitente prohíbe el paso"
+                    "Cruza rápido, porque la barrera todavía está levantada",
+                    "Cruza si no ve ningún tren",
+                    "Se detiene, porque esa luz prohíbe el paso"
                   ],
                   "why": "Una luz roja intermitente antes de un paso a nivel prohíbe temporalmente el paso, aunque la barrera todavía esté levantada."
                 },
                 "exam": {
                   "q": "Before a level crossing a red light blinks, but the barrier has not yet lowered. What do you do?",
                   "options": [
-                    "You cross quickly: there is still time.",
+                    "You cross quickly, because the barrier is still raised.",
                     "You cross if you do not see any train.",
-                    "You stop: the intermittent red light prohibits the passage."
+                    "You stop, because that light prohibits the passage."
                   ]
                 },
                 "en": {
                   "q": "A red light is flashing before a level crossing, but the barrier has not come down yet. What do you do?",
                   "options": [
-                    "Cross quickly: there is still time",
+                    "Cross quickly, because the barrier is still up",
                     "Cross if you see no train",
-                    "Stop: the flashing red light bans passage"
+                    "Stop, because that light bans passage"
                   ],
                   "why": "A flashing red light before a level crossing temporarily bans passage, even if the barrier is still up."
                 },
@@ -4354,11 +4354,11 @@
                 "id": "situations-c5c",
                 "answer": 0,
                 "es": {
-                  "q": "Las barreras de un paso a nivel están bajadas y hay una fila de coches. ¿Cómo esperas?",
+                  "q": "Las barreras de un paso a nivel están bajadas y hay una fila de coches. ¿Cómo espera?",
                   "options": [
-                    "Detrás del coche de delante, en tu carril",
+                    "Detrás del coche de delante, en su carril",
                     "Adelantando a la fila por el otro carril",
-                    "Rodeando la barrera, si no ves ningún tren"
+                    "Rodeando la barrera, si no ve venir ningún tren"
                   ],
                   "why": "Quien encuentra el paso cerrado debe detenerse en su carril, uno detrás de otro, hasta que tenga paso libre."
                 },
@@ -4367,7 +4367,7 @@
                   "options": [
                     "Behind the car in front, in your lane.",
                     "Overtaking the row by the other lane.",
-                    "Going round the barrier, if you do not see any train."
+                    "Going round the barrier, if you do not see any train coming."
                   ]
                 },
                 "en": {
@@ -4375,7 +4375,7 @@
                   "options": [
                     "Behind the car ahead, in your lane",
                     "Passing the line by the other lane",
-                    "Going around the barrier, if you see no train"
+                    "Going around the barrier, if you see no train coming"
                   ],
                   "why": "Anyone who finds the crossing closed must stop in their own lane, one behind the other, until the way is clear."
                 },
@@ -4417,30 +4417,30 @@
                 "id": "situations-c5d",
                 "answer": 1,
                 "es": {
-                  "q": "Un paso a nivel no tiene barreras ni semáforo. ¿Qué dice el reglamento antes de entrar?",
+                  "q": "Un paso a nivel no tiene barreras ni semáforo. ¿Asegurarse antes de entrar de que no se acerca ningún tren es solo aconsejable?",
                   "options": [
-                    "Que puedes entrar si no oyes ningún tren",
-                    "Que debes asegurarte de que no se acerca ningún vehículo por la vía",
-                    "Que debes parar siempre y tocar la bocina"
+                    "Sí, la ley solo pide entrar con prudencia",
+                    "No, el reglamento obliga a asegurarse antes de entrar",
+                    "Sí, salvo que el paso tenga varias vías"
                   ],
-                  "why": "En un paso a nivel sin barreras ni semáforo, nadie debe entrar sin asegurarse antes de que no se acerca ningún vehículo sobre raíles."
+                  "why": "No. Es una obligación: en un paso a nivel sin barreras ni semáforo, nadie debe entrar sin asegurarse antes de que no se acerca ningún vehículo sobre raíles. Mirar a los dos lados es la forma práctica de cumplirla."
                 },
                 "exam": {
-                  "q": "A level crossing has neither barriers nor traffic light. What does the regulation say before entering?",
+                  "q": "A level crossing has neither barriers nor traffic light. Is making sure before entering that no train approaches only advisable?",
                   "options": [
-                    "That you can enter if you do not hear any train.",
-                    "That you must make sure that no vehicle approaches by the track.",
-                    "That you must always stop and sound the horn."
+                    "Yes, the law only asks to enter with prudence.",
+                    "No, the regulation obliges to make sure before entering.",
+                    "Yes, except that the crossing has several tracks."
                   ]
                 },
                 "en": {
-                  "q": "A level crossing has no barriers or traffic light. What does the regulation say before entering?",
+                  "q": "A level crossing has no barriers or traffic light. Is making sure no train is coming before you enter merely advisable?",
                   "options": [
-                    "That you may enter if you hear no train",
-                    "That you must make sure no vehicle is approaching on the track",
-                    "That you must always stop and sound the horn"
+                    "Yes, the law only asks you to enter carefully",
+                    "No, the regulation requires you to make sure before entering",
+                    "Yes, unless the crossing has several tracks"
                   ],
-                  "why": "At a level crossing with no barriers or traffic light, nobody may enter without first making sure no rail vehicle is approaching."
+                  "why": "No. It is a duty: at a level crossing with no barriers or lights, nobody may enter without first making sure no rail vehicle is coming. Looking both ways is the practical way to do it."
                 },
                 "terms": [
                   {
@@ -4481,28 +4481,28 @@
                 "id": "situations-c5e",
                 "answer": 2,
                 "es": {
-                  "q": "Al otro lado de un paso a nivel hay una cola de coches y no queda espacio para el tuyo. ¿Entras en el paso?",
+                  "q": "Al otro lado de un paso a nivel hay una cola de coches y no queda espacio para el suyo. ¿Entra en el paso?",
                   "options": [
-                    "Sí, la cola avanzará enseguida",
-                    "Sí, si pones la luz de emergencia",
-                    "No: debes evitar el riesgo de quedarte inmovilizado dentro"
+                    "Sí, porque la cola avanzará enseguida y dejará sitio",
+                    "Sí, si pone la luz de emergencia",
+                    "No, podría quedarse inmovilizado dentro"
                   ],
                   "why": "Solo se cruza la vía después de comprobar que no hay riesgo de quedar inmovilizado dentro del paso. Además, está prohibido parar en él."
                 },
                 "exam": {
                   "q": "On the other side of a level crossing there is a queue of cars and there is no space for yours. Do you enter the crossing?",
                   "options": [
-                    "Yes, the queue will advance immediately.",
+                    "Yes, because the queue will advance immediately and will leave space.",
                     "Yes, if you put the emergency light.",
-                    "No: you must avoid the risk of remaining immobilised inside."
+                    "No, you could remain immobilised inside."
                   ]
                 },
                 "en": {
                   "q": "On the far side of a level crossing there is a line of cars and no room for yours. Do you enter the crossing?",
                   "options": [
-                    "Yes, the line will move soon",
+                    "Yes, because the line will soon move and leave room",
                     "Yes, if you turn on the hazard lights",
-                    "No: you must avoid the risk of getting stuck inside"
+                    "No: you could get stuck inside"
                   ],
                   "why": "You may cross the track only after checking that there is no risk of getting stuck inside. Stopping on it is also banned."
                 },
@@ -4545,27 +4545,27 @@
                 "id": "situations-c5f",
                 "answer": 0,
                 "es": {
-                  "q": "Tu coche se avería sobre las vías de un paso a nivel. ¿Qué haces primero?",
+                  "q": "Su coche se avería sobre las vías de un paso a nivel. ¿Qué es lo primero que debe hacer?",
                   "options": [
                     "Hacer salir a los ocupantes y dejar libre el paso cuanto antes",
-                    "Esperar dentro del coche a la grúa",
-                    "Llamar al taller antes de moverte"
+                    "Esperar dentro del coche, con la luz de emergencia, a que llegue la grúa",
+                    "Llamar al taller antes de moverse"
                   ],
                   "why": "Si queda detenido en un paso a nivel, el conductor debe desalojar rápidamente a los ocupantes y dejar el paso libre cuanto antes."
                 },
                 "exam": {
-                  "q": "Your car breaks down on the tracks of a level crossing. What do you do first?",
+                  "q": "Your car breaks down on the tracks of a level crossing. What is the first thing that you must do?",
                   "options": [
                     "To make the occupants get out and to leave free the passage as soon as possible.",
-                    "To wait inside the car for the crane.",
+                    "To wait inside the car, with the emergency light, until the crane arrives.",
                     "To call the workshop before moving."
                   ]
                 },
                 "en": {
-                  "q": "Your car breaks down on the tracks of a level crossing. What do you do first?",
+                  "q": "Your car breaks down on the tracks of a level crossing. What should you do first?",
                   "options": [
                     "Get the occupants out and clear the crossing as soon as possible",
-                    "Wait in the car for the tow truck",
+                    "Wait in the car, hazard lights on, for the tow truck",
                     "Call the garage before moving"
                   ],
                   "why": "If the vehicle stops on a level crossing, the driver must quickly evacuate the occupants and clear the crossing as soon as possible."
@@ -4713,30 +4713,30 @@
                 "id": "situations-c6a",
                 "answer": 1,
                 "es": {
-                  "q": "Conduces por una carretera estrecha con muchas curvas y poca visibilidad. ¿Puedes usar la bocina?",
+                  "q": "Conduce por una carretera estrecha con muchas curvas y poca visibilidad. ¿Puede usar la bocina?",
                   "options": [
-                    "No: nunca se usa la bocina fuera de poblado",
-                    "Sí, para evitar un posible accidente",
-                    "Solo si ves otro vehículo"
+                    "No, nunca se usa la bocina fuera de poblado",
+                    "Sí.",
+                    "No, salvo que vea venir otro vehículo"
                   ],
-                  "why": "La bocina se puede usar para evitar un posible accidente, y de forma especial en vías estrechas con muchas curvas."
+                  "why": "Sí. La bocina se puede usar para evitar un posible accidente, y de forma especial en vías estrechas con muchas curvas. No hace falta ver antes otro vehículo."
                 },
                 "exam": {
                   "q": "You drive by a narrow road with many curves and little visibility. Can you use the horn?",
                   "options": [
-                    "No: the horn is never used outside town.",
-                    "Yes, in order to avoid a possible accident.",
-                    "Only if you see another vehicle."
+                    "No, the horn is never used outside town.",
+                    "Yes.",
+                    "No, except that you see another vehicle coming."
                   ]
                 },
                 "en": {
                   "q": "You are driving on a narrow road with many curves and poor visibility. May you use the horn?",
                   "options": [
-                    "No: the horn is never used outside towns",
-                    "Yes, to avoid a possible accident",
-                    "Only if you see another vehicle"
+                    "No, the horn is never used outside towns",
+                    "Yes.",
+                    "No, unless you see another vehicle coming"
                   ],
-                  "why": "The horn may be used to avoid a possible accident, and especially on narrow roads with many curves."
+                  "why": "Yes. The horn may be used to avoid a possible accident, especially on narrow roads with many curves. You need not see another vehicle first."
                 },
                 "terms": [
                   {
@@ -4760,28 +4760,28 @@
                 "id": "situations-c6x",
                 "answer": 1,
                 "es": {
-                  "q": "Tienes que avisar con la bocina a un ciclista que circula delante de ti. ¿Cómo lo haces?",
+                  "q": "Tiene que avisar con la bocina a un ciclista que circula delante. ¿Qué es lo aconsejable?",
                   "options": [
-                    "Con un toque largo cuando ya estás a su altura",
-                    "Con tiempo y a cierta distancia, para no sobresaltarlo",
-                    "No lo haces nunca: con ciclistas la bocina está prohibida"
+                    "Dar un toque largo cuando ya está a su altura",
+                    "Avisar con tiempo y a cierta distancia, para no sobresaltarlo",
+                    "No avisarle nunca, porque con ciclistas la bocina está prohibida"
                   ],
                   "why": "La bocina puede usarse para evitar un accidente, pero su ruido puede asustar al ciclista y hacerle caer. Si hace falta, avisa con antelación y desde lejos."
                 },
                 "exam": {
-                  "q": "You have to warn with the horn a cyclist who circulates in front of you. How do you do it?",
+                  "q": "You have to warn with the horn a cyclist who circulates in front. What is the advisable thing?",
                   "options": [
-                    "With a long touch when you are already at his height.",
-                    "With time and at some distance, in order not to startle him.",
-                    "You never do it: with cyclists the horn is prohibited."
+                    "To give a long touch when you are already at his height.",
+                    "To warn with time and at some distance, in order not to startle him.",
+                    "Never to warn him, because with cyclists the horn is prohibited."
                   ]
                 },
                 "en": {
-                  "q": "You need to warn a cyclist ahead of you with the horn. How do you do it?",
+                  "q": "You need to warn a cyclist ahead of you with the horn. What is advisable?",
                   "options": [
-                    "With a long blast once you are level with them",
-                    "Early and from some distance, so you do not startle them",
-                    "Never: the horn is banned around cyclists"
+                    "A long blast once you are level with them",
+                    "Warn early and from some distance, so you do not startle them",
+                    "Never warn them, because the horn is banned around cyclists"
                   ],
                   "why": "The horn may be used to avoid a crash, but its noise can frighten a cyclist into falling. If you must, warn early and from far back."
                 },
@@ -4838,28 +4838,28 @@
                 "id": "situations-c6b",
                 "answer": 2,
                 "es": {
-                  "q": "El semáforo se pone en verde y el coche de delante no arranca. ¿Puedes tocar la bocina para meterle prisa?",
+                  "q": "El semáforo se pone en verde y el coche de delante no arranca. ¿Puede tocar la bocina para meterle prisa?",
                   "options": [
-                    "Sí, un toque corto",
+                    "Sí, con un toque corto y no estridente",
                     "Sí, si hay cola detrás",
-                    "No: no es ninguno de los casos permitidos"
+                    "No, no es un caso permitido"
                   ],
                   "why": "La bocina solo se usa en los casos que fija el reglamento, como evitar un posible accidente. Meter prisa no es uno de ellos."
                 },
                 "exam": {
                   "q": "The traffic light puts itself in green and the car in front does not start. Can you sound the horn in order to hurry it?",
                   "options": [
-                    "Yes, a short touch.",
+                    "Yes, with a short and not strident touch.",
                     "Yes, if there is a queue behind.",
-                    "No: it is none of the permitted cases."
+                    "No, it is not a permitted case."
                   ]
                 },
                 "en": {
                   "q": "The light turns green and the car ahead does not move. May you honk to hurry it?",
                   "options": [
-                    "Yes, one short honk",
+                    "Yes, one short, non-strident honk",
                     "Yes, if there is a line behind you",
-                    "No: it is not one of the allowed cases"
+                    "No: it is not an allowed case"
                   ],
                   "why": "The horn is used only in the cases the regulation sets, such as avoiding a possible accident. Hurrying someone is not one of them."
                 },
@@ -4888,10 +4888,10 @@
                 "id": "situations-c6d",
                 "answer": 2,
                 "es": {
-                  "q": "¿Qué te indica esta señal?",
+                  "q": "¿Qué le indica esta señal?",
                   "options": [
                     "Que está prohibido pitar en todo caso, también para evitar un accidente",
-                    "Que debes pitar antes de entrar en la curva siguiente",
+                    "Que debe pitar antes de entrar en la curva siguiente",
                     "Que no se usan señales acústicas, salvo para evitar un accidente"
                   ],
                   "why": "Esta señal recuerda la prohibición general de hacer señales acústicas. Sigue permitido usar el claxon para evitar un accidente."
@@ -4905,7 +4905,7 @@
                   ]
                 },
                 "en": {
-                  "q": "What does this sign tell you?",
+                  "q": "What is this sign telling you?",
                   "options": [
                     "Honking is banned in every case, even to avoid an accident",
                     "You must honk before entering the next curve",
@@ -4960,7 +4960,7 @@
                   "q": "Para avisar a otro conductor en lugar de usar la bocina, ¿qué está permitido?",
                   "options": [
                     "Destellos cortos de las luces, sin deslumbrar",
-                    "Dejar la luz de largo alcance fija",
+                    "Dejar fija la luz de largo alcance hasta que le vea",
                     "Dar destellos largos de largo alcance"
                   ],
                   "why": "Se pueden hacer advertencias luminosas, incluso en poblado, con las luces de corto o largo alcance de forma intermitente, a intervalos muy cortos y evitando el deslumbramiento."
@@ -4969,7 +4969,7 @@
                   "q": "In order to warn another driver instead of using the horn, what is permitted?",
                   "options": [
                     "Short flashes of the lights, without dazzling.",
-                    "To leave the long-range light fixed.",
+                    "To leave fixed the long-range light until he sees you.",
                     "To give long flashes of long range."
                   ]
                 },
@@ -4977,7 +4977,7 @@
                   "q": "To warn another driver instead of using the horn, what is allowed?",
                   "options": [
                     "Short flashes of the lights, without dazzling",
-                    "Leaving the high beam on steadily",
+                    "Leaving the high beam on steadily until they see you",
                     "Long flashes of the high beam"
                   ],
                   "why": "Light warnings are allowed, even in towns, using the low or high beams flashing at very short intervals and avoiding dazzle."

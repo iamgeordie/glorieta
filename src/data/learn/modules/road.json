@@ -357,7 +357,7 @@
                   "options": [
                     "No: una bicicleta no es un automóvil",
                     "Sí, por el arcén, si tiene más de 14 años",
-                    "Sí, si va por el lado derecho de la calzada"
+                    "Sí, si se mantiene a la derecha de la calzada"
                   ],
                   "why": "Una vía reservada exclusivamente a automóviles no admite bicicletas: no son vehículos de motor. La excepción de los mayores de 14 años es solo para el arcén de las autovías."
                 },
@@ -366,7 +366,7 @@
                   "options": [
                     "No: a bicycle is not an automobile.",
                     "Yes, by the hard shoulder, if she has more than 14 years.",
-                    "Yes, if she goes by the right side of the carriageway."
+                    "Yes, if she keeps to the right-hand part of the carriageway."
                   ]
                 },
                 "en": {
@@ -423,7 +423,7 @@
                   "q": "¿En cuál de estas vías puede haber un cruce a nivel con otra carretera?",
                   "options": [
                     "En una autopista",
-                    "En una autovía",
+                    "En una autovía, si tiene acceso limitado",
                     "En una carretera convencional"
                   ],
                   "why": "Las autopistas y las autovías no cruzan a nivel ninguna otra vía. La carretera convencional se define por exclusión y no tiene esa exigencia."
@@ -432,7 +432,7 @@
                   "q": "In which of these roads can there be a crossing at level with another road?",
                   "options": [
                     "In a motorway.",
-                    "In a dual carriageway.",
+                    "In a dual carriageway, if it has limited access.",
                     "In a conventional road."
                   ]
                 },
@@ -440,7 +440,7 @@
                   "q": "On which of these roads can there be a same-level crossing with another road?",
                   "options": [
                     "On an autopista",
-                    "On an autovía",
+                    "On an autovía, if access to it is limited",
                     "On a conventional road"
                   ],
                   "why": "Autopistas and autovías cross no other road at the same level. A conventional road is defined by exclusion and has no such requirement."
@@ -886,7 +886,7 @@
                   "q": "Un chico de 15 años quiere ir en bicicleta por una autovía. ¿Qué dice la norma?",
                   "options": [
                     "Puede ir por el arcén, salvo que una señal lo prohíba",
-                    "No puede: las bicicletas no pueden entrar en autovías",
+                    "No puede: las bicicletas tienen prohibidas las autovías sin excepción",
                     "Puede ir por el carril derecho de la calzada"
                   ],
                   "why": "Las bicicletas están prohibidas en las autovías, pero hay una excepción: los ciclistas mayores de 14 años pueden usar el arcén si ninguna señal lo prohíbe."
@@ -895,7 +895,7 @@
                   "q": "A boy of 15 years wants to go by bicycle by a dual carriageway. What does the norm say?",
                   "options": [
                     "He can go by the hard shoulder, except that a sign prohibits it.",
-                    "He cannot: the bicycles cannot enter in dual carriageways.",
+                    "He cannot: the bicycles have the dual carriageways prohibited without exception.",
                     "He can go by the right lane of the carriageway."
                   ]
                 },
@@ -903,7 +903,7 @@
                   "q": "A 15-year-old wants to ride a bicycle on an autovía. What does the rule say?",
                   "options": [
                     "The rider may use the shoulder unless a sign forbids it",
-                    "The rider may not: bicycles cannot enter autovías",
+                    "The rider may not: bicycles are banned from autovías with no exception",
                     "The rider may use the right lane of the roadway"
                   ],
                   "why": "Bicycles are forbidden on autovías, but there is an exception: cyclists over 14 may use the shoulder if no sign forbids it."
@@ -934,28 +934,28 @@
                 "id": "road-t1n",
                 "answer": 0,
                 "es": {
-                  "q": "Conduces un ciclomotor. Una autovía atraviesa tu ciudad y quieres usar el tramo urbano para cruzarla. ¿Puedes?",
+                  "q": "El conductor de un ciclomotor quiere cruzar su ciudad por el tramo urbano de una autovía. ¿Puede hacerlo?",
                   "options": [
                     "No: los ciclomotores no pueden circular por autovías",
                     "Sí, solo en el tramo que pasa por dentro del poblado",
-                    "Sí, si vas por el arcén a menos de 45 km/h"
+                    "Sí, si va por el arcén a menos de 45 km/h"
                   ],
                   "why": "Está prohibido circular con ciclomotores por autopistas y autovías. La norma no exceptúa los tramos dentro de poblado: allí la vía sigue siendo autovía."
                 },
                 "exam": {
-                  "q": "You drive a moped. A dual carriageway crosses your city and you want to use the urban section in order to cross it. Can you?",
+                  "q": "The driver of a moped wants to cross his city by the urban section of a dual carriageway. Can he do it?",
                   "options": [
                     "No: mopeds cannot circulate by dual carriageways.",
                     "Yes, only in the section that passes inside the town.",
-                    "Yes, if you go by the hard shoulder at less than 45 km/h."
+                    "Yes, if he goes by the hard shoulder at less than 45 km/h."
                   ]
                 },
                 "en": {
-                  "q": "You ride a moped. An autovía runs through your city and you want to use its urban stretch to get across. May you?",
+                  "q": "A moped rider wants to cross their city on the urban stretch of an autovía. May they?",
                   "options": [
                     "No: mopeds may not use autovías",
                     "Yes, but only on the stretch inside the town",
-                    "Yes, if you ride on the shoulder below 45 km/h"
+                    "Yes, if they ride on the shoulder below 45 km/h"
                   ],
                   "why": "Mopeds are banned from autopistas and autovías. The rule makes no exception for stretches inside a town: there the road is still an autovía."
                 },
@@ -985,16 +985,16 @@
                   "q": "Un carro tirado por un caballo quiere usar una autopista para un tramo corto. ¿Puede?",
                   "options": [
                     "Sí, si circula por el arcén y de día",
-                    "No: los vehículos de tracción animal no pueden circular por autopistas ni autovías",
+                    "No",
                     "Sí, si lleva luces y no baja de la velocidad mínima"
                   ],
-                  "why": "Está prohibido circular por autopistas y autovías con vehículos de tracción animal. La prohibición no tiene excepciones de horario ni de arcén."
+                  "why": "No. Está prohibido circular por autopistas y autovías con vehículos de tracción animal. La prohibición no tiene excepciones de horario, de arcén ni de luces."
                 },
                 "exam": {
                   "q": "A cart pulled by a horse wants to use a motorway for a short section. Can it?",
                   "options": [
                     "Yes, if it circulates by the hard shoulder and by day.",
-                    "No: the vehicles of animal traction cannot circulate by motorways or dual carriageways.",
+                    "No.",
                     "Yes, if it carries lights and does not go below the minimum speed."
                   ]
                 },
@@ -1002,10 +1002,10 @@
                   "q": "A horse-drawn cart wants to use an autopista for a short stretch. May it?",
                   "options": [
                     "Yes, if it keeps to the shoulder in daylight",
-                    "No: animal-drawn vehicles may not use autopistas or autovías",
+                    "No",
                     "Yes, if it has lights and does not drop below the minimum speed"
                   ],
-                  "why": "Animal-drawn vehicles are banned from autopistas and autovías. The ban has no exception for daylight or for the shoulder."
+                  "why": "No. Animal-drawn vehicles are banned from autopistas and autovías. There is no exception for daylight, the shoulder or lights."
                 },
                 "terms": [
                   {
@@ -1026,16 +1026,16 @@
                 "id": "road-t1y",
                 "answer": 2,
                 "es": {
-                  "q": "¿Cuál de estos vehículos tiene prohibido circular por una autopista?",
+                  "q": "¿Cuál de estos vehículos NO puede circular por una autopista?",
                   "options": [
                     "Una motocicleta de 125 cc",
                     "Un camión de 12.000 kg de MMA",
                     "Un ciclomotor"
                   ],
-                  "why": "Los ciclomotores no pueden circular por autopistas ni autovías. Motocicletas y camiones sí pueden, con sus límites de velocidad."
+                  "why": "Los ciclomotores no pueden circular por autopistas ni autovías. Motocicletas y camiones sí pueden, cada uno con sus límites de velocidad."
                 },
                 "exam": {
-                  "q": "Which of these vehicles has it prohibited to circulate by a motorway?",
+                  "q": "Which of these vehicles can NOT circulate by a motorway?",
                   "options": [
                     "A motorcycle of 125 cc.",
                     "A lorry of 12.000 kg of MAM.",
@@ -1043,13 +1043,13 @@
                   ]
                 },
                 "en": {
-                  "q": "Which of these vehicles is banned from an autopista?",
+                  "q": "Which of these vehicles may NOT use an autopista?",
                   "options": [
                     "A 125 cc motorcycle",
                     "A truck with a 12,000 kg MAM",
                     "A moped"
                   ],
-                  "why": "Mopeds may not use autopistas or autovías. Motorcycles and trucks may, with their own speed limits."
+                  "why": "Mopeds may not use autopistas or autovías. Motorcycles and trucks may, each with its own speed limits."
                 },
                 "terms": [
                   {
@@ -1112,16 +1112,16 @@
                   "q": "Un vehículo de movilidad personal (VMP) quiere cruzar un pueblo por una travesía. ¿Puede?",
                   "options": [
                     "Sí, si va por el arcén de la derecha",
-                    "No: los VMP no pueden ir por travesías",
+                    "No",
                     "Sí, si circula despacio y con cuidado"
                   ],
-                  "why": "La norma prohíbe circular con VMP por travesías. También lo prohíbe en autopistas y autovías."
+                  "why": "No. La norma prohíbe circular con VMP por travesías, aunque vayan despacio o por el arcén. También lo prohíbe en autopistas y autovías."
                 },
                 "exam": {
                   "q": "A vehicle of personal mobility (VMP) wants to cross a village by a travesía. Can it?",
                   "options": [
                     "Yes, if it goes by the hard shoulder of the right.",
-                    "No: the VMP cannot go by travesías.",
+                    "No.",
                     "Yes, if it circulates slowly and with care."
                   ]
                 },
@@ -1129,10 +1129,10 @@
                   "q": "A personal mobility vehicle (VMP) wants to cross a village on a travesía. May it?",
                   "options": [
                     "Yes, if it rides on the right shoulder",
-                    "No: VMPs may not use travesías",
+                    "No",
                     "Yes, if it goes slowly and carefully"
                   ],
-                  "why": "The rule forbids VMPs on travesías. It also forbids them on autopistas and autovías."
+                  "why": "No. VMPs are banned from travesías, however slowly they go and even on the shoulder. They are also banned from autopistas and autovías."
                 },
                 "terms": [
                   {
@@ -1151,32 +1151,32 @@
               "t": "check",
               "q": {
                 "id": "road-t1o",
-                "answer": 2,
+                "answer": 1,
                 "es": {
-                  "q": "Quieres ir en patinete eléctrico (VMP) de un pueblo a otro por una carretera convencional sin carril bici. ¿Puedes?",
+                  "q": "Una persona quiere ir en patinete eléctrico (VMP) de un pueblo a otro por una carretera convencional sin carril bici. ¿Puede?",
                   "options": [
-                    "Sí, pegado al borde derecho de la calzada",
-                    "Sí, por el arcén si es transitable",
-                    "No: los VMP no pueden ir por vías interurbanas, salvo por vías para ciclos y similares"
+                    "Sí, circulando junto al borde de la calzada",
+                    "No: por vías interurbanas solo puede usar vías ciclistas",
+                    "No, salvo que circule por el arcén, de día y a menos de 25 km/h"
                   ],
-                  "why": "Los VMP tienen prohibidas las vías interurbanas. Solo pueden usar en ellas vías ciclistas, carriles bici, pistas bici, sendas ciclables y vías cerradas a los vehículos de motor, si ninguna señal lo prohíbe."
+                  "why": "No, y no hay excepción por el arcén. Los VMP tienen prohibidas las vías interurbanas. Solo pueden usar en ellas vías ciclistas, carriles bici, pistas bici, sendas ciclables y vías cerradas a los vehículos de motor, si ninguna señal lo prohíbe."
                 },
                 "exam": {
-                  "q": "You want to go by electric scooter (PMV) from one town to another by a conventional road without bicycle lane. Can you?",
+                  "q": "A person wants to go by electric scooter (PMV) from one town to another by a conventional road without bicycle lane. Can she?",
                   "options": [
-                    "Yes, keeping near the right border of the carriageway.",
-                    "Yes, by the hard shoulder if it is passable.",
-                    "No: PMVs cannot circulate by interurban roads, except by cycle roads and similar."
+                    "Yes, circulating next to the border of the carriageway.",
+                    "No: by interurban roads it can only use cycle roads.",
+                    "No, except that she circulates by the hard shoulder, by day and at less than 25 km/h."
                   ]
                 },
                 "en": {
-                  "q": "You want to ride an e-scooter (VMP) from one town to the next on a conventional road with no bike lane. May you?",
+                  "q": "Someone wants to ride an e-scooter (VMP) from one town to the next on a conventional road with no bike lane. May they?",
                   "options": [
                     "Yes, keeping tight to the right side of the roadway",
-                    "Yes, on a usable shoulder",
-                    "No: VMPs may not use intercity roads, except cycle ways and similar"
+                    "No: on intercity roads it may only use cycle ways",
+                    "No, unless they ride on the shoulder, by day and below 25 km/h"
                   ],
-                  "why": "VMPs are banned from intercity roads. There they may only use cycle ways, bike lanes, bike tracks, cycle paths and roads closed to motor vehicles, unless a sign forbids it."
+                  "why": "No, and there is no shoulder exception. VMPs may not use intercity roads. There they may only use cycle ways, cycle lanes, cycle tracks, cycle paths and roads closed to motor vehicles, unless a sign forbids it."
                 },
                 "terms": [
                   {
@@ -1233,30 +1233,30 @@
                 "id": "road-t1i",
                 "answer": 1,
                 "es": {
-                  "q": "Ves un hueco en la mediana de una autopista, sin ninguna señal de cambio de sentido, y quieres dar la vuelta. ¿Puedes?",
+                  "q": "Un conductor ve un hueco en la mediana de una autopista, sin ninguna señal de cambio de sentido, y quiere dar la vuelta. ¿Puede?",
                   "options": [
-                    "Sí, si no viene nadie",
+                    "Sí, si no viene nadie por ninguno de los dos sentidos",
                     "No, salvo en los lugares habilitados para ello",
-                    "Sí, si pones el intermitente"
+                    "No, en ningún caso: en autopista nunca se cambia de sentido"
                   ],
-                  "why": "En autopistas y autovías el cambio de sentido está prohibido, salvo en los lugares habilitados al efecto. Que no venga nadie no lo cambia."
+                  "why": "No, salvo en los lugares habilitados al efecto. En autopistas y autovías el cambio de sentido está prohibido, pero no siempre: donde hay un lugar habilitado, se puede. Que no venga nadie no lo cambia."
                 },
                 "exam": {
-                  "q": "You see a gap in the median of a motorway, without any sign of change of direction, and you want to turn around. Can you?",
+                  "q": "A driver sees a gap in the median of a motorway, without any sign of change of direction, and wants to turn around. Can he?",
                   "options": [
-                    "Yes, if nobody comes.",
+                    "Yes, if nobody comes by either of the two directions.",
                     "No, except in the places enabled for it.",
-                    "Yes, if you put the indicator."
+                    "No, in no case: on a motorway one never changes direction."
                   ]
                 },
                 "en": {
-                  "q": "You see a gap in the median of an autopista, with no U-turn sign, and want to turn around. May you?",
+                  "q": "A driver sees a gap in the median of an autopista, with no U-turn sign, and wants to turn around. May they?",
                   "options": [
-                    "Yes, if nobody is coming",
+                    "Yes, if nobody is coming either way",
                     "No, except at places set up for it",
-                    "Yes, if you use your turn signal"
+                    "No, never: you can never turn around on an autopista"
                   ],
-                  "why": "U-turns are forbidden on autopistas and autovías, except at places set up for them. Nobody coming does not change that."
+                  "why": "No, except at places set up for it. U-turns are banned on autopistas and autovías, but not everywhere: where a place is set up, you may. An empty road does not change that."
                 },
                 "terms": [
                   {
@@ -1285,27 +1285,27 @@
                 "id": "road-t1j",
                 "answer": 2,
                 "es": {
-                  "q": "Circulas con tu coche en buen estado por una autovía sin retención ni obras. ¿Puedes ir a 50 km/h?",
+                  "q": "Un turismo en buen estado circula por una autovía sin retención ni obras. ¿Puede ir a 50 km/h?",
                   "options": [
-                    "Sí, si no hay otros vehículos",
-                    "Sí, si pones las luces de emergencia",
+                    "Sí, si no hay otros vehículos a los que entorpecer",
+                    "Sí, si lleva las luces de emergencia",
                     "No: está prohibido ir a menos de 60 km/h"
                   ],
                   "why": "En autopistas y autovías no se puede circular a menos de 60 km/h, aunque no haya otros vehículos. Hay excepciones, como cuando el tráfico, el vehículo o la vía lo impiden."
                 },
                 "exam": {
-                  "q": "You circulate with your car in good state by a dual carriageway without retention nor works. Can you go at 50 km/h?",
+                  "q": "A passenger car in good state circulates by a dual carriageway without retention nor works. Can it go at 50 km/h?",
                   "options": [
-                    "Yes, if no other vehicle circulates.",
-                    "Yes, if you put the emergency lights.",
+                    "Yes, if no other vehicle is there to hinder.",
+                    "Yes, if it carries the emergency lights.",
                     "No: it is prohibited to go at less than 60 km/h."
                   ]
                 },
                 "en": {
-                  "q": "You drive your car, in good condition, on an autovía with no jam or roadworks. May you go 50 km/h?",
+                  "q": "A car in good condition is on an autovía with no jam or roadworks. May it go 50 km/h?",
                   "options": [
-                    "Yes, if the road is empty",
-                    "Yes, if you use your hazard lights",
+                    "Yes, if there is nobody to hold up",
+                    "Yes, if it uses its hazard lights",
                     "No: driving below 60 km/h is forbidden"
                   ],
                   "why": "On autopistas and autovías you may not drive below 60 km/h, even with no other traffic. There are exceptions, such as when traffic, the vehicle or the road prevent it."
@@ -1349,7 +1349,7 @@
                 "id": "road-t1k",
                 "answer": 2,
                 "es": {
-                  "q": "Conduces un camión por una autopista fuera de poblado. ¿Cuál es el límite genérico de velocidad?",
+                  "q": "Fuera de poblado, el límite genérico de velocidad de un camión en una autopista es de…",
                   "options": [
                     "120 km/h",
                     "100 km/h",
@@ -1358,7 +1358,7 @@
                   "why": "Fuera de poblado, en autopistas y autovías: 120 km/h para turismos y motocicletas, 100 km/h para autobuses y 90 km/h para camiones y furgonetas."
                 },
                 "exam": {
-                  "q": "You drive a lorry by a motorway outside of town. Which is the generic limit of speed?",
+                  "q": "Outside of town, the generic limit of speed of a lorry on a motorway is of…",
                   "options": [
                     "120 km/h.",
                     "100 km/h.",
@@ -1366,7 +1366,7 @@
                   ]
                 },
                 "en": {
-                  "q": "You drive a truck on an autopista outside a town. What is the generic speed limit?",
+                  "q": "Outside a town, the default speed limit for a truck on an autopista is…",
                   "options": [
                     "120 km/h",
                     "100 km/h",
@@ -1397,28 +1397,28 @@
                 "id": "road-t1l",
                 "answer": 0,
                 "es": {
-                  "q": "Vas a salir de una autopista y hay carril de deceleración. ¿Cuándo debes entrar en él?",
+                  "q": "Para salir de una autopista con carril de deceleración, el conductor debe entrar en ese carril…",
                   "options": [
-                    "Lo antes posible, desde el carril más próximo a la salida",
-                    "Solo al final del carril, ya en la salida",
-                    "Cuando ya hayas frenado en el carril principal"
+                    "lo antes posible, desde el carril más próximo a la salida",
+                    "solo al final del carril, cuando ya esté en la salida",
+                    "después de frenar en el carril principal"
                   ],
                   "why": "Debes ir con tiempo por el carril más próximo a la salida y entrar en el carril de deceleración lo antes posible. Así no frenas estorbando a los demás."
                 },
                 "exam": {
-                  "q": "You are going to leave a motorway and there is lane of deceleration. When must you enter in it?",
+                  "q": "In order to leave a motorway with deceleration lane, the driver must enter in that lane…",
                   "options": [
-                    "As soon as possible, from the lane nearest to the exit.",
-                    "Only where the lane finishes, already in the exit.",
-                    "When you have already braked in the main lane."
+                    "as soon as possible, from the lane nearest to the exit.",
+                    "only at the final part of the lane, already in the exit.",
+                    "after braking in the main lane."
                   ]
                 },
                 "en": {
-                  "q": "You are about to leave an autopista and there is a deceleration lane. When must you enter it?",
+                  "q": "To leave an autopista that has a deceleration lane, the driver must enter that lane…",
                   "options": [
-                    "As early as possible, from the lane closest to the exit",
-                    "Only where the lane finishes, at the exit itself",
-                    "After you have already slowed down in the main lane"
+                    "as early as possible, from the lane closest to the exit",
+                    "only where the lane finishes, at the exit itself",
+                    "after braking in the main lane"
                   ],
                   "why": "Drive in good time in the lane closest to the exit and enter the deceleration lane as early as possible. That way you do not slow down in other drivers' way."
                 },
@@ -1489,7 +1489,7 @@
                   "options": [
                     "Un carril-bici con elementos laterales que lo separan",
                     "Un carril-bici señalizado sobre la acera",
-                    "Una vía ciclista de trazado independiente de las carreteras"
+                    "Una vía ciclista con trazado independiente"
                   ],
                   "why": "El carril-bici protegido lleva elementos laterales que lo separan físicamente de la calzada y de la acera. Sobre la acera hablamos de una acera-bici; con trazado independiente, de una pista-bici."
                 },
@@ -1498,7 +1498,7 @@
                   "options": [
                     "A bike lane with lateral elements which separate it.",
                     "A bike lane signalled on the pavement.",
-                    "A cycle road of independent layout of the roads."
+                    "A cycle road with independent layout."
                   ]
                 },
                 "en": {
@@ -1506,7 +1506,7 @@
                   "options": [
                     "A cycle lane with side barriers that separate it",
                     "A cycle lane marked on the sidewalk",
-                    "A cycle way on its own route apart from roads"
+                    "A cycle way on its own separate route"
                   ],
                   "why": "A carril-bici protegido has side barriers that physically separate it from the roadway and the sidewalk. On the sidewalk it is an acera-bici; on its own route, a pista-bici."
                 },
@@ -1529,27 +1529,27 @@
                 "id": "road-t1p",
                 "answer": 1,
                 "es": {
-                  "q": "Vas en ciclomotor y ves a tu derecha una vía ciclista sin ninguna señal que autorice a otros vehículos. ¿Puedes usarla para evitar un atasco?",
+                  "q": "El conductor de un ciclomotor ve a su derecha una vía ciclista sin ninguna señal que autorice a otros vehículos. ¿Puede usarla para evitar un atasco?",
                   "options": [
-                    "Sí, porque un ciclomotor es un vehículo de dos ruedas",
-                    "No: es para ciclos; otros vehículos solo con autorización señalizada",
+                    "Sí, porque un ciclomotor también tiene dos ruedas",
+                    "No: es para ciclos, salvo que una señal autorice a otros",
                     "Sí, si no circula ninguna bicicleta por ella"
                   ],
                   "why": "Una vía ciclista está hecha para el tráfico de ciclos. Otros vehículos solo pueden usarla si la autoridad de tráfico lo autoriza y lo indica con señales."
                 },
                 "exam": {
-                  "q": "You go by moped and you see on your right a cycle road without any sign that authorises other vehicles. Can you use it in order to avoid a traffic jam?",
+                  "q": "The driver of a moped sees on his right a cycle road without any sign that authorises other vehicles. Can he use it in order to avoid a traffic jam?",
                   "options": [
-                    "Yes, because a moped is a two-wheeled vehicle.",
-                    "No: it is for cycles; other vehicles only with signposted authorisation.",
+                    "Yes, because a moped also has two wheels.",
+                    "No: it is for cycles, except that a sign authorises others.",
                     "Yes, if no bicycle circulates by it."
                   ]
                 },
                 "en": {
-                  "q": "You are on a moped and see a cycle way on your right, with no sign allowing other vehicles. May you use it to get around a traffic jam?",
+                  "q": "A moped rider sees a cycle way on their right, with no sign allowing other vehicles. May they use it to get around a traffic jam?",
                   "options": [
-                    "Yes, because a moped has two wheels",
-                    "No: it is for cycles; others only with signed permission",
+                    "Yes, because a moped also has two wheels",
+                    "No: it is for cycles, unless a sign allows others",
                     "Yes, if no bicycle is using it"
                   ],
                   "why": "A cycle way is built for cycle traffic. Other vehicles may use it only if the traffic authority allows it and shows that with signs."
@@ -1822,28 +1822,28 @@
                 "id": "road-p2a",
                 "answer": 2,
                 "es": {
-                  "q": "¿Cómo se llama la zona de la carretera formada por la calzada y los arcenes?",
+                  "q": "La zona de la carretera formada por la calzada y los arcenes se llama…",
                   "options": [
-                    "Mediana",
-                    "Zona peatonal",
-                    "Plataforma"
+                    "mediana",
+                    "zona peatonal",
+                    "plataforma"
                   ],
                   "why": "La plataforma es la zona de la carretera dedicada a los vehículos: la calzada más los arcenes. La mediana y la zona peatonal son otras cosas."
                 },
                 "exam": {
-                  "q": "How is the zone of the road formed by the carriageway and the hard shoulders called?",
+                  "q": "The zone of the road formed by the carriageway and the hard shoulders is called…",
                   "options": [
-                    "Median.",
-                    "Pedestrian zone.",
-                    "Platform."
+                    "median.",
+                    "pedestrian zone.",
+                    "platform."
                   ]
                 },
                 "en": {
-                  "q": "What is the part of the road formed by the carriageway and the shoulders called?",
+                  "q": "The part of the road made up of the carriageway and the shoulders is called…",
                   "options": [
-                    "Median",
-                    "Pedestrian zone",
-                    "Plataforma"
+                    "the median",
+                    "the pedestrian zone",
+                    "the plataforma"
                   ],
                   "why": "The plataforma is the part of the road used by vehicles: the carriageway plus the shoulders. The median and the pedestrian zone are different things."
                 },
@@ -1941,28 +1941,28 @@
                 "id": "road-p2b",
                 "answer": 1,
                 "es": {
-                  "q": "Circulas por una vía dividida en dos calzadas por una mediana. ¿Qué calzada debes usar?",
+                  "q": "En una vía dividida en dos calzadas por una mediana, se debe circular por…",
                   "options": [
-                    "La más cercana a la mediana",
-                    "La de la derecha según tu sentido de marcha",
-                    "Cualquiera de las dos si hay poco tráfico"
+                    "la calzada más próxima a la mediana",
+                    "la calzada de la derecha, según el sentido de la marcha",
+                    "cualquiera de las dos, si hay poco tráfico"
                   ],
                   "why": "En las vías con dos calzadas separadas por una mediana se usa la calzada de la derecha, según el sentido de marcha."
                 },
                 "exam": {
-                  "q": "You circulate by a road divided in two carriageways by a median. Which carriageway must you use?",
+                  "q": "In a road divided in two carriageways by a median, one must circulate by…",
                   "options": [
-                    "The nearest to the median.",
-                    "The one of the right according to your direction of march.",
-                    "Any of the two if there is little traffic."
+                    "the carriageway nearest to the median.",
+                    "the carriageway of the right, according to the direction of the march.",
+                    "any of the two, if there is little traffic."
                   ]
                 },
                 "en": {
-                  "q": "You drive on a road divided into two carriageways by a median. Which carriageway must you use?",
+                  "q": "On a road divided into two carriageways by a median, you must drive on…",
                   "options": [
-                    "The one nearest the median",
-                    "The one on your right in your direction",
-                    "Either one if traffic is light"
+                    "the carriageway nearest the median",
+                    "the carriageway on the right, in your direction of travel",
+                    "either one, if traffic is light"
                   ],
                   "why": "On roads with two carriageways separated by a median you use the carriageway on the right in your direction of travel."
                 },
@@ -2009,30 +2009,30 @@
                 "id": "road-p2c",
                 "answer": 0,
                 "es": {
-                  "q": "Circulas por una carretera de doble sentido y en el centro de la calzada aparece un refugio para peatones. ¿Cómo lo rodeas?",
+                  "q": "Como norma general, ¿por qué lado se rodea un refugio para peatones situado en mitad de la calzada?",
                   "options": [
-                    "Dejándolo a tu izquierda, es decir, pasando por su derecha",
-                    "Dejándolo a tu derecha, para no pisar el arcén",
-                    "Por el lado que esté más despejado"
+                    "Por su derecha, dejándolo a la izquierda",
+                    "Dejándolo a la derecha, para no invadir el arcén",
+                    "Por cualquiera de los dos lados, el que esté más despejado"
                   ],
-                  "why": "Cuando hay refugios, isletas o dispositivos de guía se circula por la parte de la calzada que queda a su derecha. Solo en una vía de un sentido, o dentro de la parte de un solo sentido, puedes elegir lado."
+                  "why": "Como norma general, los refugios, isletas y dispositivos de guía se rodean por la parte de la calzada que queda a su derecha. Pasar por cualquier lado es la excepción: solo en una vía de un sentido, o dentro de la parte de un solo sentido."
                 },
                 "exam": {
-                  "q": "You circulate by a road of double direction and a refuge for pedestrians appears in the middle of the carriageway. How do you go around it?",
+                  "q": "As a general rule, by which side does one go around a refuge for pedestrians situated in the middle of the carriageway?",
                   "options": [
-                    "Leaving it to your left, that is to say, passing by its right.",
-                    "Leaving it to your right, in order not to step on the hard shoulder.",
-                    "By the side that is more clear."
+                    "By its right, leaving it to the left.",
+                    "Leaving it to the right, in order not to invade the hard shoulder.",
+                    "By any of the two sides, the one that is more clear."
                   ]
                 },
                 "en": {
-                  "q": "You drive on a road with traffic both ways, and a pedestrian refuge appears mid-roadway. How do you get round it?",
+                  "q": "Generally speaking, which way do you go around a pedestrian refuge in mid-roadway?",
                   "options": [
-                    "Keeping it on your left, that is, passing on its right",
+                    "On its right, keeping it on your left",
                     "Keeping it on your right, so as not to use the shoulder",
-                    "On whichever side is clearer"
+                    "On either side, whichever is clearer"
                   ],
-                  "why": "When there are refuges, islands or guide devices you drive on the part of the roadway to their right. Only on a one-way road, or inside the one-way part of a road, may you choose a side."
+                  "why": "As a general rule, refuges, islands and guide devices are passed on the part of the roadway to their right. Passing on either side is the exception: only on a one-way road, or within the part used by a single direction."
                 },
                 "terms": [
                   {
@@ -2077,7 +2077,7 @@
                 "id": "road-p2d",
                 "answer": 2,
                 "es": {
-                  "q": "Circulas por una zona con plataforma única de calzada y acera. ¿Quién tiene prioridad de paso en cualquier punto de la calzada?",
+                  "q": "En una zona con plataforma única de calzada y acera, ¿quién tiene prioridad de paso en cualquier punto de la calzada?",
                   "options": [
                     "Los vehículos que circulan",
                     "Quien llegue antes al punto",
@@ -2086,7 +2086,7 @@
                   "why": "En una zona con plataforma única de calzada y acera, el peatón tiene prioridad de paso en cualquier punto de la calzada. Conduce con precaución."
                 },
                 "exam": {
-                  "q": "You circulate by a zone with single platform of carriageway and pavement. Who has priority of passage in any point of the carriageway?",
+                  "q": "In a zone with single platform of carriageway and pavement, who has priority of passage in any point of the carriageway?",
                   "options": [
                     "The vehicles which circulate.",
                     "Who arrives before to the point.",
@@ -2094,7 +2094,7 @@
                   ]
                 },
                 "en": {
-                  "q": "You drive through a zone where roadway and sidewalk share a single platform. Who has right of way at any point of the roadway?",
+                  "q": "In a zone where roadway and sidewalk share a single platform, who has right of way at any point of the roadway?",
                   "options": [
                     "The vehicles driving through",
                     "Whoever reaches the spot first",
@@ -2152,28 +2152,28 @@
                 "id": "road-p6a",
                 "answer": 1,
                 "es": {
-                  "q": "¿Qué objetos prohíbe la norma arrojar a la vía?",
+                  "q": "La norma prohíbe arrojar a la vía los objetos que puedan…",
                   "options": [
-                    "Solo los que puedan romper el firme",
-                    "Los que puedan estorbar la circulación, hacerla peligrosa o deteriorar la vía o sus instalaciones",
-                    "Solo los objetos grandes, como cajas o muebles"
+                    "dañar el firme, pero no los que solo ensucian la calzada",
+                    "estorbar la circulación, hacerla peligrosa o dañar la vía",
+                    "ocupar mucho espacio, como cajas o muebles"
                   ],
                   "why": "Se prohíbe arrojar a la vía objetos que puedan entorpecer la circulación, la parada o el estacionamiento, hacerlos peligrosos o deteriorar la vía o sus instalaciones."
                 },
                 "exam": {
-                  "q": "Which objects does the norm prohibit to throw to the road?",
+                  "q": "The norm prohibits to throw to the road the objects that can…",
                   "options": [
-                    "Only those that can break the pavement.",
-                    "Those that can hinder the circulation, make it dangerous or deteriorate the road or its installations.",
-                    "Only the big objects, like boxes or furniture."
+                    "damage the pavement, but not those that only dirty the carriageway.",
+                    "hinder the circulation, make it dangerous or damage the road.",
+                    "occupy much space, like boxes or furniture."
                   ]
                 },
                 "en": {
-                  "q": "Which objects does the rule forbid you to throw onto the road?",
+                  "q": "The rule forbids throwing onto the road any object that could…",
                   "options": [
-                    "Only those that could break the surface",
-                    "Those that could hinder traffic, make it dangerous, or damage the road or its fixtures",
-                    "Only large objects, such as boxes or furniture"
+                    "damage the surface, but not ones that only dirty the roadway",
+                    "hinder traffic, make it dangerous or damage the road",
+                    "take up a lot of room, such as boxes or furniture"
                   ],
                   "why": "It is forbidden to throw onto the road objects that could hinder traffic, stopping or parking, make them dangerous, or damage the road or its fixtures."
                 },
@@ -2200,7 +2200,7 @@
                 "id": "road-p6b",
                 "answer": 0,
                 "es": {
-                  "q": "Circulas junto a un monte y un pasajero quiere tirar una colilla por la ventanilla. ¿Qué dice la norma?",
+                  "q": "Un turismo circula junto a un monte y un pasajero quiere tirar una colilla por la ventanilla. ¿Qué dice la norma?",
                   "options": [
                     "Está prohibido: puede provocar un incendio",
                     "Está permitido si la colilla está apagada del todo",
@@ -2209,7 +2209,7 @@
                   "why": "Se prohíbe arrojar a la vía o a sus alrededores cualquier objeto que pueda provocar un incendio. Es una infracción grave."
                 },
                 "exam": {
-                  "q": "You circulate next to a forest and a passenger wants to throw a cigarette end through the window. What does the norm say?",
+                  "q": "A passenger car circulates next to a forest and a passenger wants to throw a cigarette end through the window. What does the norm say?",
                   "options": [
                     "It is prohibited: it can provoke a fire.",
                     "It is allowed if the cigarette end is completely extinguished.",
@@ -2217,7 +2217,7 @@
                   ]
                 },
                 "en": {
-                  "q": "You are driving next to woodland and a passenger wants to throw a cigarette butt out of the window. What does the rule say?",
+                  "q": "A car is driving next to woodland and a passenger wants to throw a cigarette butt out of the window. What does the rule say?",
                   "options": [
                     "It is forbidden: it could start a fire",
                     "It is allowed if the butt is completely out",
@@ -2256,28 +2256,28 @@
                 "id": "road-p6c",
                 "answer": 0,
                 "es": {
-                  "q": "Paras el coche en medio de una calle estrecha para charlar con un amigo y se forma una cola detrás. ¿Qué norma general incumples?",
+                  "q": "Un conductor para en medio de una calle estrecha para charlar con un amigo y se forma una cola detrás. ¿Qué norma general incumple?",
                   "options": [
                     "La de no entorpecer indebidamente la circulación",
-                    "Ninguna, si paras menos de dos minutos",
+                    "Ninguna, si la parada dura menos de dos minutos y no se baja",
                     "Solo la de los límites de velocidad"
                   ],
                   "why": "Todo usuario de la vía está obligado a no entorpecer indebidamente la circulación y a no causar peligro, perjuicios o molestias innecesarias."
                 },
                 "en": {
-                  "q": "You stop your car in the middle of a narrow street to chat with a friend and a line forms behind you. Which general rule are you breaking?",
+                  "q": "A driver stops in the middle of a narrow street to chat with a friend and a line forms behind. Which general rule are they breaking?",
                   "options": [
                     "The duty not to obstruct traffic unduly",
-                    "None, if you stop for less than two minutes",
+                    "None, if the stop lasts under two minutes and they stay in the car",
                     "Only the speed limits"
                   ],
                   "why": "Every road user must not obstruct traffic unduly and must not cause danger, harm or needless nuisance."
                 },
                 "exam": {
-                  "q": "You stop the car in the middle of a narrow street in order to chat with a friend and a queue forms behind. Which general norm do you break?",
+                  "q": "A driver stops in the middle of a narrow street in order to chat with a friend and a queue forms behind. Which general norm does he break?",
                   "options": [
                     "The one of not hindering unduly the circulation.",
-                    "None, if you stop less than two minutes.",
+                    "None, if the stop lasts less than two minutes and he does not get out.",
                     "Only the one of the speed limits."
                   ]
                 },
@@ -2308,29 +2308,29 @@
                 "id": "road-p6d",
                 "answer": 2,
                 "es": {
-                  "q": "En un paso para peatones hay un resalto bien construido, que cumple su regulación. ¿Cómo lo trata la norma?",
+                  "q": "En un paso para peatones hay un resalto bien construido, que cumple su regulación. ¿Se considera un obstáculo en la calzada?",
                   "options": [
-                    "Como un obstáculo que hay que señalizar y retirar",
-                    "Como un obstáculo solo de noche",
-                    "No es un obstáculo en la calzada, si garantiza la seguridad, sobre todo de los ciclistas"
+                    "Sí: todo resalto es un obstáculo que hay que retirar",
+                    "Sí, pero solo de noche, cuando es menos visible",
+                    "No, si garantiza la seguridad, en particular de los ciclistas"
                   ],
                   "why": "Los resaltos de los pasos para peatones y las bandas transversales no se consideran obstáculos, siempre que cumplan su regulación y se garantice la seguridad de los usuarios, en particular de los ciclistas."
                 },
                 "en": {
-                  "q": "A well-built speed hump that meets its rules sits at a pedestrian crossing. How does the law treat it?",
+                  "q": "A well-built speed hump that meets its rules sits at a pedestrian crossing. Does it count as an obstacle on the roadway?",
                   "options": [
-                    "As an obstacle that must be marked and removed",
-                    "As an obstacle only at night",
-                    "It is not an obstacle on the roadway, if it keeps users safe, especially cyclists"
+                    "Yes: every hump is an obstacle that must be removed",
+                    "Yes, but only at night, when it is harder to see",
+                    "No, if it keeps users safe, especially cyclists"
                   ],
                   "why": "Speed humps at pedestrian crossings and transverse strips are not considered obstacles, as long as they meet their rules and the safety of users, cyclists in particular, is ensured."
                 },
                 "exam": {
-                  "q": "In a pedestrian crossing there is a well built bump, that fulfils its regulation. How does the norm treat it?",
+                  "q": "In a pedestrian crossing there is a well built bump, that fulfils its regulation. Is it considered an obstacle on the carriageway?",
                   "options": [
-                    "As an obstacle that must be signalled and removed.",
-                    "As an obstacle only at night.",
-                    "It is not an obstacle on the carriageway, provided that it guarantees the safety, above all of the cyclists."
+                    "Yes: every bump is an obstacle that it is necessary to remove.",
+                    "Yes, but only at night, when it is less visible.",
+                    "No, if it guarantees the safety, in particular of the cyclists."
                   ]
                 },
                 "terms": [
@@ -2491,28 +2491,28 @@
                 "id": "road-w3a",
                 "answer": 0,
                 "es": {
-                  "q": "Circulas por una carretera de doble sentido, sin líneas, y llegas a una curva con poca visibilidad. ¿Qué parte de la calzada debes dejar libre?",
+                  "q": "En una carretera de doble sentido sin líneas, al llegar a una curva de poca visibilidad, el conductor debe dejar libre…",
                   "options": [
-                    "La mitad del sentido contrario, completa",
-                    "Solo el arcén de la izquierda",
-                    "Ninguna: ocupas el centro para ver mejor"
+                    "toda la mitad de la calzada del sentido contrario",
+                    "solo el arcén izquierdo, porque no hay líneas que marquen la mitad",
+                    "nada: puede ocupar el centro para ver mejor"
                   ],
                   "why": "En curvas y cambios de rasante de poca visibilidad debes dejar completamente libre la mitad de la calzada del sentido contrario, aunque no haya líneas."
                 },
                 "exam": {
-                  "q": "You circulate by a road of double direction, without lines, and you arrive to a curve with little visibility. Which part of the carriageway must you leave free?",
+                  "q": "In a road of double direction without lines, on arriving at a curve of little visibility, the driver must leave free…",
                   "options": [
-                    "The half of the contrary direction, complete.",
-                    "Only the hard shoulder of the left.",
-                    "None: you occupy the centre in order to see better."
+                    "all the half of the carriageway of the contrary direction.",
+                    "only the left hard shoulder, because there are no lines that mark the half.",
+                    "nothing: he can occupy the centre in order to see better."
                   ]
                 },
                 "en": {
-                  "q": "You drive on a two-way road with no markings and reach a bend with poor visibility. Which part of the roadway must you leave free?",
+                  "q": "On a two-way road with no markings, at a bend with poor visibility, the driver must leave free…",
                   "options": [
-                    "The whole opposite half",
-                    "Only the left shoulder",
-                    "None: you take the center to see better"
+                    "the whole opposite half of the roadway",
+                    "only the left shoulder, since no line marks the middle",
+                    "nothing: they may take the center to see better"
                   ],
                   "why": "On bends and hill crests with poor visibility you must leave the opposite half of the roadway completely free, even with no markings."
                 },
@@ -2603,26 +2603,26 @@
                 "es": {
                   "q": "En una carretera de doble sentido con tres carriles separados por líneas discontinuas, el carril central se usa:",
                   "options": [
-                    "Para circular normalmente si hay poco tráfico",
-                    "Para ir más rápido que los demás",
-                    "Para adelantar y para cambiar de dirección a la izquierda"
+                    "para circular normalmente si hay poco tráfico en los otros carriles",
+                    "para ir más rápido que los demás",
+                    "para adelantar y para girar a la izquierda"
                   ],
                   "why": "Con tres carriles y líneas discontinuas, circulas por el de tu derecha. El carril central es solo para los adelantamientos precisos y para girar a la izquierda."
                 },
                 "exam": {
                   "q": "In a road of double direction with three lanes separated by discontinuous lines, the central lane is used:",
                   "options": [
-                    "To circulate normally if there is little traffic.",
-                    "To go faster than the others.",
-                    "To overtake and to change of direction to the left."
+                    "to circulate normally if there is little traffic in the other lanes.",
+                    "to go faster than the others.",
+                    "to overtake and to turn to the left."
                   ]
                 },
                 "en": {
-                  "q": "On a two-way road with three lanes separated by dashed lines, the center lane is used:",
+                  "q": "On a two-way road with dashed lines dividing three lanes, the center lane is used:",
                   "options": [
-                    "For normal driving when traffic is light",
-                    "To go faster than other drivers",
-                    "To overtake and to turn left"
+                    "for normal driving when the other lanes are quiet",
+                    "to go faster than other drivers",
+                    "to overtake and to turn left"
                   ],
                   "why": "With three lanes and dashed lines, you drive in the lane on your right. The center lane is only for the overtaking you need and for turning left."
                 },
@@ -2683,9 +2683,9 @@
                 "id": "road-w3c",
                 "answer": 1,
                 "es": {
-                  "q": "Un camión de más de 3.500 kg circula fuera de poblado por una calzada con tres carriles en su sentido. ¿Qué carriles usa normalmente?",
+                  "q": "Un camión cuya MMA supera los 3.500 kg circula fuera de poblado por una calzada con tres carriles en su sentido. ¿Qué carriles usa normalmente?",
                   "options": [
-                    "Cualquiera de los tres, como un turismo",
+                    "Cualquiera de los tres, igual que un turismo o una moto",
                     "El de la derecha y, si procede, el contiguo",
                     "Solo el de la derecha, sin excepciones"
                   ],
@@ -2694,7 +2694,7 @@
                 "exam": {
                   "q": "A lorry whose MAM exceeds 3,500 kg circulates outside of town by a carriageway with three lanes in its direction. Which lanes does it use normally?",
                   "options": [
-                    "Any of the three, like a passenger car.",
+                    "Any of the three, the same as a passenger car or a motorbike.",
                     "The one of the right and, if it proceeds, the contiguous.",
                     "Only the one of the right, without exceptions."
                   ]
@@ -2702,7 +2702,7 @@
                 "en": {
                   "q": "A truck over 3,500 kg drives outside a town on a roadway with three lanes in its direction. Which lanes does it normally use?",
                   "options": [
-                    "Any of the three, like a car",
+                    "Any of the three, just like a car or a motorcycle",
                     "The right-hand one and, if needed, the next",
                     "Only the right-hand one, no exceptions"
                   ],
@@ -2727,28 +2727,28 @@
                 "id": "road-w3g",
                 "answer": 2,
                 "es": {
-                  "q": "Remolcas una caravana ligera con tu turismo; entre los dos miden 6 metros. En una autovía de tres carriles por sentido, ¿por cuáles puedes circular?",
+                  "q": "Un turismo remolca una caravana ligera; entre los dos miden 6 metros. En una autovía de tres carriles por sentido, ¿por cuáles puede circular?",
                   "options": [
-                    "Únicamente por el derecho, al ir con remolque",
+                    "Únicamente por el derecho, porque todo vehículo con remolque debe ir por él",
                     "Por el derecho y el central, nunca por el izquierdo",
-                    "Por el derecho normalmente, y por los otros cuando la circulación lo aconseje"
+                    "Por el derecho y, si la circulación lo aconseja, por los demás"
                   ],
                   "why": "El límite del carril derecho y el contiguo es para conjuntos de más de 7 metros y para camiones o furgones de más de 3.500 kg. Con 6 metros sigues la regla general: el de la derecha, y los demás si la circulación lo aconseja y no entorpeces a nadie."
                 },
                 "exam": {
-                  "q": "You tow a light caravan with your passenger car; between the two they measure 6 metres. On a dual carriageway of three lanes per direction, by which ones can you circulate?",
+                  "q": "A passenger car tows a light caravan; between the two they measure 6 metres. On a dual carriageway of three lanes per direction, by which ones can it circulate?",
                   "options": [
-                    "Only by the right one, on going with trailer.",
+                    "Only by the right one, because every vehicle with trailer must go by it.",
                     "By the right one and the central one, never by the left one.",
-                    "By the right one normally, and by the others when the circulation advises it."
+                    "By the right one and, if the circulation advises it, by the others."
                   ]
                 },
                 "en": {
-                  "q": "You tow a light caravan with your car; together they are 6 meters long. On an autovía with three lanes each way, which lanes may you use?",
+                  "q": "A car tows a light caravan; together they are 6 meters long. On an autovía with three lanes each way, which lanes may it use?",
                   "options": [
-                    "Only the right one, since you are towing",
+                    "Only the right one, because any vehicle with a trailer must keep to it",
                     "The right and the middle one, never the left",
-                    "Normally the right one, and the others when traffic makes it advisable"
+                    "The right one and, when traffic makes it advisable, the others"
                   ],
                   "why": "The right-and-next-lane limit is for combinations over 7 meters and for trucks or vans over 3,500 kg. At 6 meters you follow the general rule: the right-hand lane, and the others when traffic makes it advisable and you hold nobody up."
                 },
@@ -2775,28 +2775,28 @@
                 "id": "road-w3j",
                 "answer": 0,
                 "es": {
-                  "q": "Vas en motocicleta por una autovía con tres carriles en tu sentido. ¿Puedes usar el carril de la izquierda?",
+                  "q": "Una motocicleta circula por una autovía con tres carriles en su sentido. ¿Puede usar el carril de la izquierda?",
                   "options": [
-                    "Sí, cuando el tráfico o la vía lo aconsejen y no entorpezcas a quien te sigue",
+                    "Sí, si la circulación lo aconseja y no entorpece a quien le sigue",
                     "No: las motocicletas solo usan el derecho y el central",
-                    "Solo si el tráfico está parado en los otros dos carriles"
+                    "Sí, pero solo si el tráfico está parado en los otros carriles"
                   ],
                   "why": "Fuera de poblado circulas normalmente por el carril de la derecha. Puedes usar los demás, también el de la izquierda, cuando las circunstancias del tráfico o de la vía lo aconsejen y sin entorpecer a quien te siga."
                 },
                 "exam": {
-                  "q": "You go by motorcycle by a dual carriageway with three lanes in your direction. Can you use the left lane?",
+                  "q": "A motorcycle circulates by a dual carriageway with three lanes in its direction. Can it use the left lane?",
                   "options": [
-                    "Yes, when the traffic or the road advise it and you do not hinder who follows you.",
+                    "Yes, if the circulation advises it and it does not hinder who follows it.",
                     "No: motorcycles only use the right one and the central one.",
-                    "Only if the traffic is stopped in the other two lanes."
+                    "Yes, but only if the traffic is stopped in the other lanes."
                   ]
                 },
                 "en": {
-                  "q": "You ride a motorcycle on an autovía with three lanes in your direction. May you use the left lane?",
+                  "q": "A motorcycle is on an autovía with three lanes in its direction. May it use the left lane?",
                   "options": [
-                    "Yes, when traffic or the road makes it advisable and you do not hold up anyone behind",
+                    "Yes, if traffic makes it advisable and it does not hold up anyone behind",
                     "No: motorcycles only use the right and middle lanes",
-                    "Only if traffic is stopped in the other two lanes"
+                    "Yes, but only if traffic is stopped in the other lanes"
                   ],
                   "why": "Outside towns you normally drive in the right lane. You may use the others, the left one included, when traffic or road conditions make it advisable and you do not hold up anyone behind you."
                 },
@@ -2847,30 +2847,30 @@
                 "id": "road-w3h",
                 "answer": 1,
                 "es": {
-                  "q": "Entras en una calle ancha de sentido único, en poblado, sin líneas que marquen carriles. ¿Qué posición llevas?",
+                  "q": "Como norma general, en una calle de sentido único sin líneas que marquen carriles, ¿por dónde se circula?",
                   "options": [
-                    "La que mejor te venga para tu destino",
-                    "Pegado a la derecha, junto al borde",
-                    "En el centro, lejos de los coches aparcados"
+                    "Por el carril que mejor convenga a su destino",
+                    "Por la derecha, cerca del borde de la calzada",
+                    "Por el centro, lejos de los vehículos estacionados"
                   ],
-                  "why": "Elegir el carril que más conviene a tu destino solo vale con al menos dos carriles delimitados por marcas longitudinales. Sin marcas se aplica la norma general: por la derecha y cerca del borde."
+                  "why": "Como norma general se circula por la derecha y cerca del borde. Elegir el carril que más conviene a tu destino es una excepción del poblado, y solo vale con al menos dos carriles delimitados por marcas longitudinales."
                 },
                 "exam": {
-                  "q": "You enter a wide one-way street, in town, without lines that mark lanes. What position do you take?",
+                  "q": "As a general rule, in a one-way street without lines that mark lanes, by where does one circulate?",
                   "options": [
-                    "The one that suits you best for your destination.",
-                    "Stuck to the right, next to the edge.",
-                    "In the centre, far from the parked cars."
+                    "By the lane that suits his destination best.",
+                    "By the right, near the edge of the carriageway.",
+                    "By the centre, far from the parked vehicles."
                   ]
                 },
                 "en": {
-                  "q": "In town you turn into a wide one-way street with no lines marking lanes. What position do you take?",
+                  "q": "As a general rule, on a one-way street with no lines marking lanes, where do you drive?",
                   "options": [
-                    "Whatever suits your destination best",
-                    "Keeping right, close to the edge",
-                    "In the middle, away from parked cars"
+                    "In whichever lane best suits your destination",
+                    "On the right, near the roadway’s edge",
+                    "In the middle, away from parked vehicles"
                   ],
-                  "why": "You may pick the lane that fits where you are going only when there are at least two lanes marked by longitudinal lines. With no markings, the general rule applies: keep right, near the edge."
+                  "why": "As a general rule you keep right, close to the edge. Picking the lane that suits your destination is an in-town exception, and it applies only with at least two lanes marked by lines."
                 },
                 "terms": [
                   {
@@ -2895,27 +2895,27 @@
                 "id": "road-w3k",
                 "answer": 1,
                 "es": {
-                  "q": "Una autovía con tres carriles marcados por sentido cruza tu ciudad. En ese tramo, ¿puedes ir por el carril que mejor convenga a tu destino, como en una calle?",
+                  "q": "Una autovía con tres carriles marcados por sentido cruza una ciudad. En ese tramo, ¿puede el conductor ir por el carril que mejor convenga a su destino, como en una calle?",
                   "options": [
-                    "Sí, porque estás dentro de poblado",
-                    "No: esa regla del poblado no vale en autopistas ni autovías",
+                    "Sí, porque dentro de poblado se elige el carril según el destino",
+                    "No: esa regla no rige en autopistas ni autovías",
                     "Sí, pero solo de noche, con poco tráfico"
                   ],
                   "why": "En poblado, con dos o más carriles marcados en tu sentido, eliges el carril que mejor convenga a tu destino. La norma excluye las autopistas y las autovías, aunque pasen por un poblado."
                 },
                 "exam": {
-                  "q": "A dual carriageway with three lanes marked in each direction crosses your city. In that section, can you choose the lane most convenient for your destination, as in a street?",
+                  "q": "A dual carriageway with three lanes marked per direction crosses a city. In that section, can the driver go by the lane most convenient for his destination, as in a street?",
                   "options": [
-                    "Yes, because you are inside a town.",
-                    "No: that rule of the town is not valid on motorways nor dual carriageways.",
+                    "Yes, because inside town the lane is chosen according to the destination.",
+                    "No: that rule does not rule on motorways nor dual carriageways.",
                     "Yes, but only at night, with little traffic."
                   ]
                 },
                 "en": {
-                  "q": "An autovía with three marked lanes each way runs through your city. On that stretch, may you use whichever lane best suits your destination, as on a city street?",
+                  "q": "An autovía with three marked lanes each way runs through a city. On that stretch, may the driver use whichever lane best suits their destination, as on a city street?",
                   "options": [
-                    "Yes, because you are inside a town",
-                    "No: that in-town rule does not apply on autopistas or autovías",
+                    "Yes, because in town you pick the lane by destination",
+                    "No: that rule does not apply on autopistas or autovías",
                     "Yes, but only at night with light traffic"
                   ],
                   "why": "In a town, with two or more marked lanes in your direction, you choose the lane that best suits your destination. The rule leaves out autopistas and autovías, even where they pass through a town."
@@ -2951,28 +2951,28 @@
                 "id": "road-w3i",
                 "answer": 0,
                 "es": {
-                  "q": "En tu sentido hay un carril bus a la derecha y, a su lado, dos carriles marcados para todo el tráfico. Al contar los carriles de esa calzada, ¿cuántos se cuentan?",
+                  "q": "En un sentido de circulación hay un carril bus a la derecha y, a su lado, dos carriles marcados para todo el tráfico. Al contar los carriles de ese sentido, ¿cuántos se cuentan?",
                   "options": [
                     "Dos, porque el carril bus queda fuera de la cuenta",
                     "Tres, porque se suman todos los carriles pintados",
-                    "Uno, porque solo cuenta el carril derecho de uso general"
+                    "Uno, porque solo cuenta el carril derecho"
                   ],
                   "why": "Para contar carriles no se tienen en cuenta los reservados a determinados vehículos o a ciertas maniobras, como el carril bus."
                 },
                 "exam": {
-                  "q": "In your direction there is a bus lane on the right and, at its side, two lanes marked for all the traffic. On counting the lanes of that carriageway, how many are counted?",
+                  "q": "In one direction of circulation there is a bus lane on the right and, at its side, two lanes marked for all the traffic. On counting the lanes of that direction, how many are counted?",
                   "options": [
                     "Two, because the bus lane remains outside the count.",
                     "Three, because all the painted lanes are added.",
-                    "One, because only the right lane of general use counts."
+                    "One, because only the right lane counts."
                   ]
                 },
                 "en": {
-                  "q": "In your direction there is a bus lane on the right and, next to it, two marked lanes for all traffic. When the lanes of that carriageway are counted, how many count?",
+                  "q": "In one direction there is a bus lane on the right and, next to it, two marked lanes for all traffic. When the lanes in that direction are counted, how many count?",
                   "options": [
                     "Two, because the bus lane is left out of the count",
                     "Three, because every painted lane is added up",
-                    "One, because only the right-hand general lane counts"
+                    "One, because only the right-hand lane counts"
                   ],
                   "why": "When lanes are counted, those reserved for certain vehicles or certain maneuvers, such as a bus lane, are left out."
                 },
@@ -2995,28 +2995,28 @@
                 "id": "road-w3d",
                 "answer": 2,
                 "es": {
-                  "q": "Circulas por un carril de una calle de poblado con dos carriles marcados en tu sentido. ¿Cuándo puedes abandonarlo?",
+                  "q": "En una calle de poblado con dos carriles marcados en su sentido, el conductor solo puede abandonar su carril para…",
                   "options": [
-                    "Cuando el otro carril avanza más rápido que el tuyo",
-                    "Siempre que pongas el intermitente antes de moverte",
-                    "Para prepararte a girar, adelantar, parar o estacionar"
+                    "ir al otro si avanza más rápido",
+                    "prepararse a girar, adelantar, parar o estacionar",
+                    "cualquier maniobra, siempre que ponga antes el intermitente"
                   ],
                   "why": "En poblado puedes elegir el carril que convenga a tu destino, pero solo lo abandonas para cambiar de dirección, adelantar, parar o estacionar."
                 },
                 "exam": {
-                  "q": "You circulate by a lane of a street of town with two lanes marked in your direction. When can you abandon it?",
+                  "q": "In a street of town with two lanes marked in his direction, the driver can only abandon his lane in order to…",
                   "options": [
-                    "When the other lane advances faster than yours.",
-                    "Provided that you put the indicator before moving.",
-                    "In order to prepare to turn, to overtake, to stop or to park."
+                    "go to the other if it advances faster.",
+                    "prepare to turn, to overtake, to stop or to park.",
+                    "any manoeuvre, provided that he puts the indicator before."
                   ]
                 },
                 "en": {
-                  "q": "You drive in one lane of a town street with two marked lanes in your direction. When may you leave it?",
+                  "q": "On a town street with two marked lanes in their direction, a driver may leave their lane only to…",
                   "options": [
-                    "When the other lane moves faster than yours",
-                    "Whenever you use your turn signal first",
-                    "To get ready to turn, overtake, stop or park"
+                    "move to the other one if it is faster",
+                    "get ready to turn, overtake, stop or park",
+                    "make any maneuver, as long as they signal first"
                   ],
                   "why": "In a town you may choose the lane that suits your destination, but you leave it only to turn, overtake, stop or park."
                 },
@@ -3138,28 +3138,28 @@
                 "id": "road-w3e",
                 "answer": 1,
                 "es": {
-                  "q": "Hay una retención en una autovía con tres carriles en tu sentido y circulas por el de la izquierda. ¿Qué haces para formar el carril de emergencia?",
+                  "q": "Hay una retención en una autovía con tres carriles en su sentido y un turismo circula por el de la izquierda. ¿Qué debe hacer para formar el carril de emergencia?",
                   "options": [
-                    "Te mueves lo más a la derecha posible",
-                    "Te mueves lo más a la izquierda posible",
-                    "Te quedas en el centro de tu carril"
+                    "Moverse lo más a la derecha posible",
+                    "Moverse lo más a la izquierda posible",
+                    "Moverse lo justo hacia el arcén de la derecha"
                   ],
                   "why": "Con tres o más carriles, el carril de emergencia se forma entre el de la izquierda y el contiguo. Quien va por el carril de la izquierda se mueve lo más a la izquierda posible."
                 },
                 "exam": {
-                  "q": "There is a retention in a dual carriageway with three lanes in your direction and you circulate by the one of the left. What do you do in order to form the emergency lane?",
+                  "q": "There is a retention in a dual carriageway with three lanes in its direction and a passenger car circulates by the one of the left. What must it do in order to form the emergency lane?",
                   "options": [
-                    "You move yourself as much to the right as possible.",
-                    "You move yourself as much to the left as possible.",
-                    "You stay in the centre of your lane."
+                    "To move as much to the right as possible.",
+                    "To move as much to the left as possible.",
+                    "To move just enough towards the hard shoulder of the right."
                   ]
                 },
                 "en": {
-                  "q": "There is a traffic jam on an autovía with three lanes in your direction and you are in the left-hand lane. What do you do to form the emergency lane?",
+                  "q": "There is a traffic jam on an autovía with three lanes in its direction and a car is in the left-hand lane. What must it do to form the emergency lane?",
                   "options": [
                     "Move as far right as possible",
                     "Move as far left as possible",
-                    "Stay in the center of your lane"
+                    "Move just a little toward the right shoulder"
                   ],
                   "why": "With three or more lanes, the emergency lane forms between the left-hand lane and the next one. Drivers in the left-hand lane move as far left as possible."
                 },
@@ -3185,7 +3185,7 @@
                   "q": "En una autovía con dos carriles por sentido, los coches avanzan a paso de peatón. ¿Dónde se forma el carril de emergencia?",
                   "options": [
                     "En el centro de la vía, entre los dos carriles",
-                    "En el arcén de la derecha de la calzada",
+                    "En el arcén de la derecha, que queda libre en un atasco",
                     "En el carril de la izquierda de la calzada"
                   ],
                   "why": "Con dos carriles en el mismo sentido, el carril de emergencia se forma en el centro de la vía, entre esos dos carriles. El arcén no es el pasillo."
@@ -3194,7 +3194,7 @@
                   "q": "In a dual carriageway with two lanes by direction, the cars advance at pedestrian step. Where is the emergency lane formed?",
                   "options": [
                     "In the centre of the road, between the two lanes.",
-                    "In the hard shoulder of the right of the carriageway.",
+                    "In the hard shoulder of the right, that remains free in a traffic jam.",
                     "In the lane of the left of the carriageway."
                   ]
                 },
@@ -3202,7 +3202,7 @@
                   "q": "On an autovía with two lanes per direction, cars crawl at walking pace. Where does the emergency lane form?",
                   "options": [
                     "In the middle of the road, between the lanes",
-                    "On the right shoulder of the roadway",
+                    "On the right shoulder, which stays free in a jam",
                     "In the left-hand lane of the roadway"
                   ],
                   "why": "With two lanes in the same direction, the emergency lane forms in the middle of the road, between those two lanes. The shoulder is not the corridor."
@@ -3388,30 +3388,30 @@
                 "id": "road-s4a",
                 "answer": 2,
                 "es": {
-                  "q": "Quieres parar medio minuto en un carril de uso exclusivo del transporte público urbano. ¿Puedes?",
+                  "q": "Un conductor quiere parar medio minuto en un carril de uso exclusivo del transporte público urbano. ¿Puede?",
                   "options": [
-                    "Sí, porque dura menos de dos minutos",
-                    "Sí, si pones las luces de emergencia",
-                    "No: está prohibido parar en ese carril"
+                    "Sí, porque la parada dura menos de dos minutos",
+                    "Sí, si enciende las luces de emergencia",
+                    "No"
                   ],
-                  "why": "Queda prohibido parar en los carriles de uso exclusivo del transporte público urbano. Una parada breve (menos de dos minutos) sigue siendo una parada."
+                  "why": "No. Queda prohibido parar en los carriles de uso exclusivo del transporte público urbano. Una parada breve (menos de dos minutos) sigue siendo una parada, y las luces de emergencia no la permiten."
                 },
                 "exam": {
-                  "q": "You want to stop half a minute in a lane of exclusive use of the urban public transport. Can you?",
+                  "q": "A driver wants to stop half a minute in a lane of exclusive use of the urban public transport. Can he?",
                   "options": [
-                    "Yes, because it lasts less than two minutes.",
-                    "Yes, if you put the emergency lights.",
-                    "No: it is prohibited to stop in that lane."
+                    "Yes, because the stop lasts less than two minutes.",
+                    "Yes, if he switches on the emergency lights.",
+                    "No."
                   ]
                 },
                 "en": {
-                  "q": "You want to stop for half a minute in a lane for the exclusive use of urban public transport. May you?",
+                  "q": "A driver wants to stop for half a minute in a lane for the exclusive use of urban public transport. May they?",
                   "options": [
-                    "Yes, because it lasts under two minutes",
-                    "Yes, if you turn on your hazard lights",
-                    "No: stopping in that lane is forbidden"
+                    "Yes, because the stop lasts under two minutes",
+                    "Yes, if they turn on their hazard lights",
+                    "No"
                   ],
-                  "why": "Stopping is forbidden in lanes for the exclusive use of urban public transport. A short stop (under two minutes) is still a stop."
+                  "why": "No. Stopping in a lane reserved for urban public transport is forbidden. A short stop (under two minutes) is still a stop, and hazard lights do not make it legal."
                 },
                 "terms": [
                   {
@@ -3442,8 +3442,8 @@
                 "es": {
                   "q": "Un autobús circula por el carril bus más deprisa que los turismos de los carriles de al lado. ¿Eso es un adelantamiento?",
                   "options": [
-                    "No: avanzar más rápido por un carril reservado no es adelantar",
-                    "Sí, y por eso debe señalizarlo con el intermitente",
+                    "No: ir más rápido por un carril reservado no es adelantar",
+                    "Sí, y el autobús debe señalizarlo con el intermitente",
                     "Sí, pero está permitido porque es un autobús"
                   ],
                   "why": "En los tramos con carriles reservados a ciertos vehículos, que se avance más rápido por ellos que por los normales no se considera adelantamiento."
@@ -3451,16 +3451,16 @@
                 "exam": {
                   "q": "A bus circulates by the bus lane faster than the passenger cars of the lanes at the side. Is that an overtaking?",
                   "options": [
-                    "No: to advance faster by a reserved lane is not to overtake.",
-                    "Yes, and for that reason it must signal it with the indicator.",
+                    "No: to go faster by a reserved lane is not to overtake.",
+                    "Yes, and the bus must signal it with the indicator.",
                     "Yes, but it is allowed because it is a bus."
                   ]
                 },
                 "en": {
                   "q": "A bus in the bus lane moves faster than the cars in the lanes beside it. Is that overtaking?",
                   "options": [
-                    "No: moving faster in a reserved lane is not overtaking",
-                    "Yes, so it must signal with its turn signal",
+                    "No: going faster in a reserved lane is not overtaking",
+                    "Yes, and the bus must signal it with its turn signal",
                     "Yes, but it is allowed because it is a bus"
                   ],
                   "why": "On stretches with lanes reserved for certain vehicles, moving faster in them than in the normal lanes is not considered overtaking."
@@ -3500,28 +3500,28 @@
                 "id": "road-s4i",
                 "answer": 2,
                 "es": {
-                  "q": "Ves la palabra «BUS» pintada en el suelo de un carril. ¿Qué indica?",
+                  "q": "La palabra «BUS» pintada en el suelo de un carril indica…",
                   "options": [
-                    "Que los autobuses deben dejarlo libre a los turismos",
-                    "Que lo puede usar cualquier vehículo con pasajeros",
-                    "Que el carril está reservado a los autobuses"
+                    "que los autobuses deben dejarlo libre a los turismos",
+                    "que lo puede usar cualquier vehículo con pasajeros",
+                    "que el carril está reservado a los autobuses"
                   ],
                   "why": "La inscripción BUS indica un carril o una zona reservados a los autobuses. Si pone TAXI, está reservado a los taxis."
                 },
                 "exam": {
-                  "q": "You see the word «BUS» painted on the ground of a lane. What does it indicate?",
+                  "q": "The word «BUS» painted on the ground of a lane indicates…",
                   "options": [
-                    "That the buses must leave it free for the passenger cars.",
-                    "That any vehicle with passengers can use it.",
-                    "That the lane is reserved for the buses."
+                    "that the buses must leave it free for the passenger cars.",
+                    "that any vehicle with passengers can use it.",
+                    "that the lane is reserved for the buses."
                   ]
                 },
                 "en": {
-                  "q": "You see the word “BUS” painted on the surface of a lane. What does it mean?",
+                  "q": "The word “BUS” painted on the surface of a lane means…",
                   "options": [
-                    "That buses must keep it clear for cars",
-                    "That any vehicle carrying passengers may use it",
-                    "That the lane is reserved for buses"
+                    "that buses must keep it clear for cars",
+                    "that any vehicle carrying passengers may use it",
+                    "that the lane is reserved for buses"
                   ],
                   "why": "The word BUS marks a lane or area reserved for buses. If it says TAXI, it is reserved for taxis."
                 },
@@ -3544,27 +3544,27 @@
                 "id": "road-s4t",
                 "answer": 0,
                 "es": {
-                  "q": "Vas en motocicleta por una calle con un carril marcado con la inscripción BUS y ninguna señal autoriza a las motos. ¿Puedes circular por ese carril para avanzar más deprisa?",
+                  "q": "Una motocicleta circula por una calle con un carril marcado con la inscripción BUS y ninguna señal autoriza a las motos. ¿Puede circular por ese carril para avanzar más deprisa?",
                   "options": [
                     "No: el carril está reservado a los autobuses",
-                    "Sí: las motos ocupan poco espacio",
+                    "Sí: las motos ocupan poco espacio y no estorban al autobús",
                     "Sí, si los otros carriles están atascados"
                   ],
                   "why": "El uso de los carriles reservados se ajusta a sus señales. La inscripción BUS reserva el carril a los autobuses; una moto no circula por él salvo que una señal lo permita."
                 },
                 "exam": {
-                  "q": "You go by motorcycle by a street with a lane marked with the inscription BUS and no sign authorises motorcycles. Can you circulate by that lane in order to advance faster?",
+                  "q": "A motorcycle circulates by a street with a lane marked with the inscription BUS and no sign authorises motorcycles. Can it circulate by that lane in order to advance faster?",
                   "options": [
                     "No: the lane is reserved for the buses.",
-                    "Yes: motorcycles occupy little space.",
+                    "Yes: motorcycles occupy little space and do not hinder the bus.",
                     "Yes, if the other lanes are jammed."
                   ]
                 },
                 "en": {
-                  "q": "You ride a motorcycle on a street with a lane marked BUS, and no sign allows motorcycles. May you ride in that lane to get ahead faster?",
+                  "q": "A motorcycle is on a street with a lane marked BUS, and no sign allows motorcycles. May it use that lane to get ahead faster?",
                   "options": [
                     "No: the lane is reserved for buses",
-                    "Yes: motorcycles take up little room",
+                    "Yes: motorcycles take up little room and do not get in the bus’s way",
                     "Yes, if the other lanes are jammed"
                   ],
                   "why": "Reserved lanes are used as their signs say. The BUS marking reserves the lane for buses; a motorcycle does not ride in it unless a sign allows it."
@@ -3608,28 +3608,28 @@
                 "id": "road-s4j",
                 "answer": 1,
                 "es": {
-                  "q": "La línea que separa tu carril del de al lado es mucho más ancha de lo normal. ¿Qué indica?",
+                  "q": "La línea que separa un carril del de al lado es mucho más ancha de lo normal. ¿Qué indica?",
                   "options": [
                     "Que el carril de al lado es reversible",
-                    "Que el carril de al lado es un carril especial",
-                    "Que se acerca el borde de la calzada"
+                    "Que el carril de al lado es especial",
+                    "Que el carril de al lado va a terminar"
                   ],
                   "why": "Las marcas longitudinales anchas separan carriles especiales: de cambio de velocidad, de trenzado, reservados a ciertos vehículos o adicionales para lentos. El carril reversible se marca con líneas dobles discontinuas."
                 },
                 "exam": {
-                  "q": "The line that separates your lane from the one at the side is much wider than normal. What does it indicate?",
+                  "q": "The line that separates a lane from the one at the side is much wider than normal. What does it indicate?",
                   "options": [
                     "That the lane at the side is reversible.",
-                    "That the lane at the side is a special lane.",
-                    "That the edge of the carriageway approaches."
+                    "That the lane at the side is special.",
+                    "That the lane at the side is going to end."
                   ]
                 },
                 "en": {
-                  "q": "The line between your lane and the next one is much wider than usual. What does it show?",
+                  "q": "The line between one lane and the next is much wider than usual. What does it show?",
                   "options": [
                     "That the next lane is reversible",
                     "That the next lane is a special lane",
-                    "That the edge of the roadway is coming up"
+                    "That the next lane is about to end"
                   ],
                   "why": "Wide longitudinal lines separate special lanes: speed-change, weaving, reserved for certain vehicles, or extra lanes for slow traffic. A reversible lane is marked with double dashed lines."
                 },
@@ -3656,29 +3656,29 @@
                 "id": "road-s4u",
                 "answer": 2,
                 "es": {
-                  "q": "Un carril bus está separado del tuyo por una línea ancha discontinua. Tu carril va muy lento. ¿Puedes circular por el carril bus para avanzar más deprisa?",
+                  "q": "Un carril bus está separado del carril contiguo por una línea ancha discontinua. Ese carril va muy lento. ¿Puede un turismo circular por el carril bus para avanzar más deprisa?",
                   "options": [
-                    "Sí, porque la línea es discontinua",
+                    "Sí, porque una línea discontinua se puede cruzar",
                     "Sí, si no viene ningún autobús",
-                    "No: la línea discontinua solo deja usarlo para ciertas maniobras permitidas"
+                    "No: esa línea solo permite usarlo para ciertas maniobras"
                   ],
                   "why": "La línea ancha discontinua permite a los demás vehículos usar el carril reservado para realizar ciertas maniobras permitidas, no para circular por él. Su uso se ajusta a las señales."
                 },
                 "en": {
-                  "q": "A bus lane is separated from yours by a wide dashed line. Your lane is very slow. May you drive in the bus lane to move faster?",
+                  "q": "A bus lane is separated from the next lane by a wide dashed line. That lane is very slow. May a car drive in the bus lane to move faster?",
                   "options": [
-                    "Yes, because the line is dashed",
+                    "Yes, because a dashed line may be crossed",
                     "Yes, if no bus is coming",
-                    "No: the dashed line only lets you use it for certain permitted maneuvers"
+                    "No: that line only allows using it for certain maneuvers"
                   ],
                   "why": "The wide dashed line lets other vehicles use the reserved lane to make certain permitted maneuvers, not to drive along it. Its use follows the signs."
                 },
                 "exam": {
-                  "q": "A bus lane is separated from yours by a wide broken line. Your lane goes very slowly. Can you circulate by the bus lane in order to advance faster?",
+                  "q": "A bus lane is separated from the contiguous lane by a wide discontinuous line. That lane goes very slowly. Can a passenger car circulate by the bus lane in order to advance faster?",
                   "options": [
-                    "Yes, because the line is broken.",
+                    "Yes, because a discontinuous line can be crossed.",
                     "Yes, if no bus comes.",
-                    "No: the broken line only lets you use it for certain permitted manoeuvres."
+                    "No: that line only permits to use it for certain manoeuvres."
                   ]
                 },
                 "terms": [
@@ -3759,26 +3759,26 @@
                 "id": "road-s4b",
                 "answer": 1,
                 "es": {
-                  "q": "Conduces un turismo con remolque y llevas los ocupantes que exige el tramo. ¿Puedes usar el carril VAO?",
+                  "q": "Un turismo con remolque lleva los ocupantes que exige el tramo. ¿Puede usar el carril VAO?",
                   "options": [
-                    "Sí, porque es un turismo y cumple la ocupación",
+                    "Sí, porque es un turismo y lleva los ocupantes exigidos",
                     "No: los turismos con remolque no pueden usarlo",
                     "Sí, si el remolque es pequeño"
                   ],
                   "why": "El carril VAO está prohibido a los turismos con remolque, aunque lleven todos los ocupantes exigidos."
                 },
                 "exam": {
-                  "q": "You drive a passenger car with trailer and you carry the occupants which the section demands. Can you use the VAO lane?",
+                  "q": "A passenger car with trailer carries the occupants which the section demands. Can it use the VAO lane?",
                   "options": [
-                    "Yes, because it is a passenger car and it fulfils the occupation.",
+                    "Yes, because it is a passenger car and it carries the demanded occupants.",
                     "No: the passenger cars with trailer cannot use it.",
                     "Yes, if the trailer is small."
                   ]
                 },
                 "en": {
-                  "q": "You drive a car with a trailer and carry the occupants the stretch requires. May you use the VAO lane?",
+                  "q": "A car towing a trailer carries the occupants the stretch requires. May it use the VAO lane?",
                   "options": [
-                    "Yes, because it is a car and meets the occupancy",
+                    "Yes, because it is a car carrying the required occupants",
                     "No: cars with a trailer may not use it",
                     "Yes, if the trailer is small"
                   ],
@@ -3803,30 +3803,30 @@
                 "id": "road-s4l",
                 "answer": 2,
                 "es": {
-                  "q": "¿Cuál de estos vehículos puede circular por un carril VAO, si lleva los ocupantes que exige el tramo?",
+                  "q": "¿Cuál de estos vehículos NO puede circular por un carril VAO, aunque lleve los ocupantes que exige el tramo?",
                   "options": [
-                    "Un ciclomotor",
-                    "Un turismo con remolque",
-                    "Una motocicleta"
+                    "Una motocicleta",
+                    "Un vehículo mixto adaptable",
+                    "Un turismo con remolque"
                   ],
-                  "why": "El carril VAO está limitado a motocicletas, turismos y vehículos mixtos adaptables. Está prohibido a los ciclomotores y a los turismos con remolque, entre otros."
+                  "why": "El carril VAO está limitado a motocicletas, turismos y vehículos mixtos adaptables. Los turismos con remolque, igual que los ciclomotores, lo tienen prohibido aunque lleven los ocupantes exigidos."
                 },
                 "exam": {
-                  "q": "Which of these vehicles can circulate by a HOV lane, if it carries the occupants that the section requires?",
+                  "q": "Which of these vehicles can NOT circulate by a HOV lane, although it carries the occupants that the section requires?",
                   "options": [
-                    "A moped.",
-                    "A passenger car with a trailer.",
-                    "A motorcycle."
+                    "A motorcycle.",
+                    "An adaptable mixed-use vehicle.",
+                    "A passenger car with trailer."
                   ]
                 },
                 "en": {
-                  "q": "Which of these vehicles may use a VAO (high-occupancy) lane, if it carries the occupants the stretch requires?",
+                  "q": "Which of these vehicles may NOT use a VAO (high-occupancy) lane, even if it carries the occupants the stretch requires?",
                   "options": [
-                    "A moped",
-                    "A car towing a trailer",
-                    "A motorcycle"
+                    "A motorcycle",
+                    "An adaptable mixed-use vehicle",
+                    "A car towing a trailer"
                   ],
-                  "why": "The VAO lane is limited to motorcycles, cars and adaptable mixed-use vehicles. It is closed to mopeds and to cars with a trailer, among others."
+                  "why": "The VAO lane is limited to motorcycles, cars and adaptable mixed-use vehicles. Cars towing a trailer, like mopeds, are banned from it even with the required occupants."
                 },
                 "terms": [
                   {
@@ -3859,28 +3859,28 @@
                 "id": "road-s4p",
                 "answer": 0,
                 "es": {
-                  "q": "¿Cómo puede ser la reserva de un carril para vehículos con alta ocupación (VAO)?",
+                  "q": "La reserva de un carril para vehículos con alta ocupación (VAO) puede ser…",
                   "options": [
-                    "Permanente o temporal, con horario fijo o según el tráfico",
-                    "Siempre temporal, solo en las horas punta",
-                    "Siempre permanente, todos los días y a todas horas"
+                    "permanente o temporal, con horario fijo o según el tráfico",
+                    "solo temporal, en las horas punta de cada día",
+                    "siempre permanente, todos los días y a todas horas"
                   ],
                   "why": "La reserva de carriles VAO puede ser permanente o temporal, con horario fijo o en función del estado de la circulación, según lo decida la autoridad de tráfico."
                 },
                 "exam": {
-                  "q": "How can the reservation of a lane for high occupancy vehicles (HOV) be?",
+                  "q": "The reservation of a lane for high occupancy vehicles (HOV) can be…",
                   "options": [
-                    "Permanent or temporary, with fixed timetable or according to the traffic.",
-                    "Always temporary, only in the rush hours.",
-                    "Always permanent, all the days and at all hours."
+                    "permanent or temporary, with fixed timetable or according to the traffic.",
+                    "only temporary, in the rush hours of each day.",
+                    "always permanent, all the days and at all hours."
                   ]
                 },
                 "en": {
-                  "q": "How may a lane be reserved for high-occupancy vehicles (VAO)?",
+                  "q": "A lane for high-occupancy vehicles (VAO) may be set aside…",
                   "options": [
-                    "Permanently or temporarily, on a fixed schedule or by traffic conditions",
-                    "Only temporarily, at rush hour",
-                    "Only permanently, every day around the clock"
+                    "permanently or temporarily, on a fixed schedule or by traffic conditions",
+                    "only temporarily, at each day’s rush hours",
+                    "only permanently, every day around the clock"
                   ],
                   "why": "A VAO lane may be reserved permanently or temporarily, on a fixed schedule or depending on traffic, as the traffic authority decides."
                 },
@@ -3903,28 +3903,28 @@
                 "id": "road-s4q",
                 "answer": 1,
                 "es": {
-                  "q": "Conduces solo un vehículo mixto adaptable que lleva la señal de persona con discapacidad. El tramo VAO exige dos ocupantes. ¿Puedes usar el carril VAO?",
+                  "q": "El conductor va solo en un vehículo mixto adaptable que lleva la señal de persona con discapacidad. El tramo VAO exige dos ocupantes. ¿Puede usar el carril VAO?",
                   "options": [
                     "No: siempre hacen falta los ocupantes que fija el tramo",
                     "Sí: con esa señal basta con el conductor",
-                    "Sí, pero solo si eres conductor novel"
+                    "Sí, pero solo si es conductor novel"
                   ],
                   "why": "Los vehículos autorizados en el carril VAO pueden usarlo con solo el conductor si llevan la señal V-15 o la tarjeta de estacionamiento para personas con discapacidad y movilidad reducida."
                 },
                 "exam": {
-                  "q": "You drive alone an adaptable mixed-use vehicle that carries the sign of person with disability. The HOV section requires two occupants. Can you use the HOV lane?",
+                  "q": "The driver goes alone in an adaptable mixed-use vehicle that carries the sign of person with disability. The HOV section requires two occupants. Can he use the HOV lane?",
                   "options": [
                     "No: the occupants that the section fixes are always necessary.",
                     "Yes: with that sign the driver is sufficient.",
-                    "Only when the driver is a novice."
+                    "Yes, but only if he is a novice driver."
                   ]
                 },
                 "en": {
-                  "q": "You are alone in an adaptable mixed-use vehicle displaying the disability sign. The VAO stretch requires two occupants. May you use the VAO lane?",
+                  "q": "A driver is alone in an adaptable mixed-use vehicle displaying the disability sign. The VAO stretch requires two occupants. May they use the VAO lane?",
                   "options": [
                     "No: you always need the occupants the stretch requires",
                     "Yes: with that sign the driver alone is enough",
-                    "Only when the driver is a new driver"
+                    "Yes, but only for a new driver"
                   ],
                   "why": "Vehicles allowed in a VAO lane may use it with only the driver on board if they display the V-15 sign or the parking card for people with disabilities and reduced mobility."
                 },
@@ -3951,26 +3951,26 @@
                 "id": "road-s4r",
                 "answer": 2,
                 "es": {
-                  "q": "Sobre un carril ves la señal «Carril reservado para vehículos con alta ocupación» con un 3 dibujado. ¿Qué indica ese número?",
+                  "q": "Sobre un carril hay una señal «Carril reservado para vehículos con alta ocupación» con un 3 dibujado. ¿Qué indica ese número?",
                   "options": [
-                    "La velocidad mínima en el carril, 30 km/h",
-                    "El número de carriles que quedan reservados",
+                    "La velocidad mínima en ese carril, 30 km/h",
+                    "El número de carriles reservados",
                     "Cuántas personas, como mínimo, deben ir en el vehículo"
                   ],
                   "why": "En esa señal figura el número de personas a partir del cual se considera alta ocupación. Con un 3, el vehículo debe llevar tres personas o más."
                 },
                 "exam": {
-                  "q": "Over a lane you see the sign of lane reserved for vehicles of high occupancy, with a 3 drawn. What does that number indicate?",
+                  "q": "Over a lane there is a sign of lane reserved for vehicles of high occupancy, with a 3 drawn. What does that number indicate?",
                   "options": [
-                    "The minimum speed in the lane, 30 km/h.",
-                    "The number of lanes that remain reserved.",
+                    "The minimum speed in that lane, 30 km/h.",
+                    "The number of reserved lanes.",
                     "How many persons, as a minimum, must go in the vehicle."
                   ]
                 },
                 "en": {
-                  "q": "Over a lane you see the sign for a lane kept for high-occupancy vehicles, with a 3 on it. What does the number mean?",
+                  "q": "Over a lane there is a sign for a lane kept for high-occupancy vehicles, with a 3 on it. What does the number mean?",
                   "options": [
-                    "The lane's minimum speed, 30 km/h",
+                    "The lane’s minimum speed, 30 km/h",
                     "How many lanes are reserved",
                     "The minimum number of people in the vehicle"
                   ],
@@ -4003,26 +4003,26 @@
                 "id": "road-s4v",
                 "answer": 2,
                 "es": {
-                  "q": "Vas solo en tu turismo por un carril VAO que exige dos ocupantes. No llevas ninguna señal ni tarjeta que te autorice. ¿Qué infracción cometes?",
+                  "q": "Un turismo circula con solo el conductor por un carril VAO que exige dos ocupantes, sin ninguna señal ni tarjeta que lo autorice. ¿Qué infracción comete?",
                   "options": [
-                    "Leve, porque no pones a nadie en peligro",
+                    "Leve, porque no pone a nadie en peligro",
                     "Ninguna, si el carril va vacío",
                     "Grave"
                   ],
                   "why": "Las infracciones de las normas de uso del carril VAO son graves (RGC art. 35.3, que remite al art. 76.c de la ley)."
                 },
                 "exam": {
-                  "q": "You go alone in your passenger car by an HOV lane that demands two occupants. You do not carry any sign or card that authorises you. What infraction do you commit?",
+                  "q": "A passenger car circulates with only the driver by an HOV lane that demands two occupants, without any sign or card that authorises it. What infraction does it commit?",
                   "options": [
-                    "Minor, because you do not put anybody in danger.",
+                    "Minor, because it does not put anybody in danger.",
                     "None, if the lane goes empty.",
                     "Serious."
                   ]
                 },
                 "en": {
-                  "q": "You drive alone in a VAO lane that requires two occupants, with no sign or card that entitles you to use it. What kind of offense is it?",
+                  "q": "A car with only the driver aboard uses a VAO lane that requires two occupants, with no sign or card that entitles it. What kind of offense is it?",
                   "options": [
-                    "Minor, because you put nobody at risk",
+                    "Minor, because it puts nobody at risk",
                     "None, if the lane is empty",
                     "Serious (grave)"
                   ],
@@ -4047,28 +4047,28 @@
                 "id": "road-s4w",
                 "answer": 0,
                 "es": {
-                  "q": "Conduces solo tu turismo y llevas a la vista la tarjeta de estacionamiento para personas con discapacidad con movilidad reducida. El tramo VAO exige tres ocupantes. ¿Puedes usarlo?",
+                  "q": "Un turismo circula con solo el conductor, que lleva a la vista la tarjeta de estacionamiento para personas con discapacidad con movilidad reducida. El tramo VAO exige tres ocupantes. ¿Puede usarlo?",
                   "options": [
                     "Sí: con esa tarjeta basta con el conductor",
                     "No: esa tarjeta solo sirve para aparcar",
-                    "No: necesitas llevar a tres personas igualmente"
+                    "No: aun así deben ir tres personas"
                   ],
                   "why": "Desde el 1 de octubre de 2026, un turismo con la tarjeta de estacionamiento para personas con discapacidad con movilidad reducida puede usar el carril VAO con solo el conductor, igual que con la señal V-15."
                 },
                 "exam": {
-                  "q": "You drive alone your passenger car and you carry in view the parking card for persons with disability with reduced mobility. The HOV section demands three occupants. Can you use it?",
+                  "q": "A passenger car circulates with only the driver, who carries in view the parking card for persons with disability with reduced mobility. The HOV section demands three occupants. Can it use it?",
                   "options": [
                     "Yes: with that card the driver is sufficient.",
                     "No: that card only serves to park.",
-                    "No: you need to carry three persons equally."
+                    "No: even so three persons must go."
                   ]
                 },
                 "en": {
-                  "q": "You are alone in your car, with the disabled parking card for people with reduced mobility on display. The VAO stretch requires three occupants. May you use it?",
+                  "q": "A car carries only its driver, with the disabled parking card for people with reduced mobility on display. The VAO stretch requires three occupants. May it use it?",
                   "options": [
                     "Yes: with that card the driver alone is enough",
                     "No: that card is only for parking",
-                    "No: you still need three people aboard"
+                    "No: three people must still be aboard"
                   ],
                   "why": "Since 1 October 2026, a car showing the disabled parking card for people with reduced mobility may use the VAO lane with only the driver, just as with the V-15 sign."
                 },
@@ -4221,28 +4221,28 @@
                 "id": "road-s4d",
                 "answer": 2,
                 "es": {
-                  "q": "Vas a circular por un carril reversible. ¿Qué luz debes llevar encendida como mínimo?",
+                  "q": "En un carril reversible, el conductor debe llevar encendida como mínimo…",
                   "options": [
-                    "Las luces de posición, solo de noche",
-                    "Ninguna: de día no hace falta",
-                    "La luz de cruce, de día y de noche"
+                    "la luz de posición, solo de noche",
+                    "ninguna luz, si es de día",
+                    "la luz de cruce, de día y de noche"
                   ],
                   "why": "En un carril reversible se lleva encendida al menos la luz de cruce, tanto de día como de noche."
                 },
                 "exam": {
-                  "q": "You are going to circulate by a reversible lane. Which light must you carry switched on as a minimum?",
+                  "q": "In a reversible lane, the driver must carry switched on as a minimum…",
                   "options": [
-                    "The position lights, only at night.",
-                    "None: by day it is not necessary.",
-                    "The dipped light, by day and by night."
+                    "the position light, only at night.",
+                    "no light, if it is daytime.",
+                    "the dipped light, by day and by night."
                   ]
                 },
                 "en": {
-                  "q": "You are about to drive in a reversible lane. Which light must you have on at minimum?",
+                  "q": "In a reversible lane, the driver must have on at the very least…",
                   "options": [
-                    "Parking lights, at night only",
-                    "None: none needed by day",
-                    "Low beams, day and night"
+                    "the parking lights, only at night",
+                    "no lights, if it is daytime",
+                    "the low beams, day and night"
                   ],
                   "why": "In a reversible lane you drive with at least the low beams on, by day and by night."
                 },
@@ -4265,28 +4265,28 @@
                 "id": "road-s4m",
                 "answer": 1,
                 "es": {
-                  "q": "Sobre tu carril se enciende una luz roja en forma de aspa. Sobre el carril de al lado hay una flecha verde que apunta hacia abajo. ¿Qué haces?",
+                  "q": "Sobre el carril por el que circula un turismo se enciende un aspa roja. Sobre el carril de al lado hay una flecha verde que apunta hacia abajo. ¿Qué debe hacer?",
                   "options": [
-                    "Sigues por tu carril: el aspa es solo un aviso",
-                    "Dejas tu carril cuanto antes y pasas con seguridad al de la flecha verde",
-                    "Te detienes en tu carril hasta que el aspa se apague"
+                    "Seguir por su carril: el aspa es solo un aviso",
+                    "Dejar ese carril cuanto antes y pasar al de la flecha verde",
+                    "Detenerse en su carril hasta que el aspa se apague"
                   ],
                   "why": "El aspa roja prohíbe ocupar ese carril: quien circula por él debe abandonarlo en el tiempo más breve posible. La flecha verde hacia abajo permite circular por su carril."
                 },
                 "exam": {
-                  "q": "Over your lane a red light in form of a cross switches on. Over the lane at the side there is a green arrow that points downwards. What do you do?",
+                  "q": "Over the lane by which a passenger car circulates a red cross switches on. Over the lane at the side there is a green arrow that points downwards. What must it do?",
                   "options": [
-                    "You continue by your lane: the cross is only a warning.",
-                    "You leave your lane as soon as possible and you pass with safety to that of the green arrow.",
-                    "You stop in your lane until the cross switches off."
+                    "To continue by its lane: the cross is only a warning.",
+                    "To leave that lane as soon as possible and pass to that of the green arrow.",
+                    "To stop in its lane until the cross switches off."
                   ]
                 },
                 "en": {
-                  "q": "A red X lights up over your lane. Over the next lane there is a green arrow pointing down. What do you do?",
+                  "q": "A red X lights up over the lane a car is in. Over the next lane there is a green arrow pointing down. What must the driver do?",
                   "options": [
-                    "Stay in your lane: the X is only a warning",
-                    "Leave your lane as soon as possible and move safely into the green-arrow lane",
-                    "Stop in your lane until the X goes out"
+                    "Stay in that lane: the X is only a warning",
+                    "Leave that lane as soon as possible for the green-arrow lane",
+                    "Stop in the lane until the X goes out"
                   ],
                   "why": "A red X forbids occupying that lane: anyone in it must leave it as soon as possible. A green arrow pointing down allows you to drive in its lane."
                 },
@@ -4313,28 +4313,28 @@
                 "id": "road-s4s",
                 "answer": 1,
                 "es": {
-                  "q": "Conduces una furgoneta. El carril reversible está abierto en tu sentido y ninguna señal prohíbe tu vehículo. ¿Puedes usarlo?",
+                  "q": "El conductor de una furgoneta ve que el carril reversible está abierto en su sentido y ninguna señal prohíbe su vehículo. ¿Puede usarlo?",
                   "options": [
                     "No: solo pueden usarlo motocicletas y turismos",
                     "Sí, con al menos la luz de cruce encendida",
-                    "Sí, pero solo si no supera los 3.500 kg y es de día"
+                    "Sí, pero solo de día y por debajo de 3.500 kg"
                   ],
                   "why": "La norma del carril reversible no limita los tipos de vehículo. Quien circula por él lleva al menos la luz de cruce, de día y de noche. El límite a motocicletas y turismos es del carril en sentido contrario por fluidez."
                 },
                 "exam": {
-                  "q": "You drive a van. The reversible lane is open in your direction and no sign prohibits your vehicle. Can you use it?",
+                  "q": "The driver of a van sees that the reversible lane is open in his direction and no sign prohibits his vehicle. Can he use it?",
                   "options": [
                     "No: only motorcycles and passenger cars can use it.",
                     "Yes, with at least the dipped beam switched on.",
-                    "Yes, but only if it does not exceed 3,500 kg and it is daytime."
+                    "Yes, but only by day and below 3,500 kg."
                   ]
                 },
                 "en": {
-                  "q": "You drive a van. The reversible lane is open in your direction and no sign bans your vehicle. May you use it?",
+                  "q": "A van driver sees that the reversible lane is open in their direction and no sign bans their vehicle. May they use it?",
                   "options": [
                     "No: only motorcycles and cars may use it",
-                    "Yes, with at least your low beams on",
-                    "Yes, but only under 3,500 kg and in daylight"
+                    "Yes, with at least the low beams on",
+                    "Yes, but only by day and under 3,500 kg"
                   ],
                   "why": "The reversible-lane rule does not limit vehicle types. Anyone using it keeps at least the low beams on, day and night. The motorcycles-and-cars limit belongs to lanes opened against traffic for flow."
                 },
@@ -4443,7 +4443,7 @@
                 "id": "road-s4e",
                 "answer": 1,
                 "es": {
-                  "q": "La autoridad habilita un carril para circular en sentido contrario al habitual por razones de fluidez. ¿Qué vehículos pueden usarlo?",
+                  "q": "Por razones de fluidez, la autoridad habilita un carril para su uso en sentido contrario al habitual. ¿Qué vehículos pueden usarlo?",
                   "options": [
                     "Todos, con las luces de cruce encendidas",
                     "Solo motocicletas y turismos",
@@ -4452,7 +4452,7 @@
                   "why": "Cuando el carril se habilita por fluidez, solo pueden usarlo las motocicletas y los turismos. Está prohibido al resto de vehículos, incluidos los turismos con remolque."
                 },
                 "exam": {
-                  "q": "The authority enables a lane in order to circulate in contrary sense to the usual one for reasons of fluidity. Which vehicles can use it?",
+                  "q": "For reasons of fluidity, the authority enables a lane for its use in the contrary direction to the habitual one. Which vehicles can use it?",
                   "options": [
                     "All, with the dipped lights switched on.",
                     "Only motorcycles and passenger cars.",
@@ -4487,30 +4487,30 @@
                 "id": "road-s4f",
                 "answer": 0,
                 "es": {
-                  "q": "Circulas por un carril habilitado en sentido contrario al habitual, sin otra señal de velocidad. ¿Entre qué velocidades debes ir?",
+                  "q": "Un turismo circula por un carril habilitado en sentido contrario al habitual, sin otra señal de velocidad. ¿Entre qué velocidades debe ir?",
                   "options": [
                     "Entre 60 y 80 km/h",
-                    "Entre 80 y 100 km/h",
-                    "Entre 40 y 60 km/h"
+                    "Entre 60 y 80 km/h, y además con las luces de emergencia",
+                    "Entre 80 y 100 km/h"
                   ],
-                  "why": "En un carril habilitado en sentido contrario al habitual la velocidad máxima es de 80 km/h y la mínima de 60 km/h, o menos si así se indica."
+                  "why": "En un carril habilitado en sentido contrario al habitual la velocidad máxima es de 80 km/h y la mínima de 60 km/h, o menos si así se indica. Las luces de emergencia no se exigen: se lleva al menos la luz de cruce."
                 },
                 "exam": {
-                  "q": "You circulate by a lane enabled in contrary sense to the usual one, without another sign of speed. Between which speeds must you go?",
+                  "q": "A passenger car circulates by a lane enabled in contrary sense to the usual one, without another sign of speed. Between which speeds must it go?",
                   "options": [
                     "Between 60 and 80 km/h.",
-                    "Between 80 and 100 km/h.",
-                    "Between 40 and 60 km/h."
+                    "Between 60 and 80 km/h, and in addition with the emergency lights.",
+                    "Between 80 and 100 km/h."
                   ]
                 },
                 "en": {
-                  "q": "You drive in a lane opened in the opposite direction to normal, with no other speed sign. Between which speeds must you stay?",
+                  "q": "A car is in a lane opened in the opposite direction to normal, with no other speed sign. Between which speeds must it stay?",
                   "options": [
                     "Between 60 and 80 km/h",
-                    "Between 80 and 100 km/h",
-                    "Between 40 and 60 km/h"
+                    "Between 60 and 80 km/h, and with the hazard lights on as well",
+                    "Between 80 and 100 km/h"
                   ],
-                  "why": "In a lane opened in the opposite direction to normal the maximum speed is 80 km/h and the minimum 60 km/h, or lower if signs say so."
+                  "why": "In a lane opened against the usual direction the maximum is 80 km/h and the minimum 60 km/h, or lower if signed. Hazard lights are not required: you use at least the low beams."
                 },
                 "terms": [
                   {
@@ -4531,30 +4531,30 @@
                 "id": "road-s4n",
                 "answer": 2,
                 "es": {
-                  "q": "Circulas por un carril habilitado en sentido contrario al habitual y el coche de delante va despacio. ¿Puedes pasar al carril normal de tu sentido para adelantarlo?",
+                  "q": "Un turismo circula por un carril habilitado en sentido contrario al habitual y el vehículo de delante va despacio. ¿Puede pasar al carril normal de su sentido para adelantarlo?",
                   "options": [
                     "Sí, si la línea de conos tiene un hueco",
-                    "Sí, si no tocas ningún cono al pasar",
-                    "No: no puedes invadir los carriles del sentido normal, ni para adelantar"
+                    "Sí, si no toca ningún cono al pasar",
+                    "No"
                   ],
-                  "why": "Quien circula por un carril habilitado en sentido contrario al habitual no puede desplazarse a los carriles del sentido normal, ni siquiera para adelantar."
+                  "why": "No. Quien circula por un carril habilitado en sentido contrario al habitual no puede desplazarse a los carriles del sentido normal, ni siquiera para adelantar, aunque haya un hueco entre los conos."
                 },
                 "exam": {
-                  "q": "You circulate by a lane enabled for the contrary direction to the habitual and the car in front goes slowly. Can you pass to the normal lane of your direction in order to overtake it?",
+                  "q": "A passenger car circulates by a lane enabled for the contrary direction to the habitual and the vehicle in front goes slowly. Can it pass to the normal lane of its direction in order to overtake it?",
                   "options": [
                     "Yes, if the line of cones has a gap.",
-                    "Yes, if you do not touch any cone when passing.",
-                    "No: you cannot invade the lanes of the normal direction, not even in order to overtake."
+                    "Yes, if it does not touch any cone when passing.",
+                    "No."
                   ]
                 },
                 "en": {
-                  "q": "You are in a lane opened against the usual direction, and the car ahead is slow. May you move into the normal lane of your direction to pass it?",
+                  "q": "A car is in a lane opened against the usual direction, and the vehicle ahead is slow. May it move into the normal lane of its direction to pass?",
                   "options": [
                     "Yes, if there is a gap in the line of cones",
-                    "Yes, if you touch no cone as you cross",
-                    "No: you may not move into the normal-direction lanes, not even to pass"
+                    "Yes, if it touches no cone as it crosses",
+                    "No"
                   ],
-                  "why": "Drivers in a lane opened against the usual direction may not move sideways into the normal-direction lanes, not even to pass."
+                  "why": "No. Drivers in a lane opened against the usual direction may not move into the normal-direction lanes, not even to pass, gap in the cones or not."
                 },
                 "terms": [
                   {
@@ -4579,7 +4579,7 @@
                 "id": "road-s4o",
                 "answer": 0,
                 "es": {
-                  "q": "Es de día. Vas por el carril normal de tu sentido, justo al lado de un carril habilitado para circular en sentido contrario al habitual. ¿Qué luz llevas?",
+                  "q": "Es de día. Un turismo va por el carril normal de su sentido, justo al lado de un carril abierto al tráfico del sentido opuesto. ¿Qué luz debe llevar?",
                   "options": [
                     "Al menos la luz de cruce",
                     "Ninguna, porque es de día",
@@ -4588,7 +4588,7 @@
                   "why": "Los conductores de los carriles normales contiguos al habilitado en sentido contrario llevan al menos la luz de cruce, de día y de noche, y no pueden invadir ese carril."
                 },
                 "exam": {
-                  "q": "It is daytime. You go by the normal lane of your direction, just next to a lane enabled for the contrary direction to the habitual. Which light do you carry?",
+                  "q": "It is daytime. A passenger car goes by the normal lane of its direction, just next to a lane open to the traffic of the opposite direction. Which light must it carry?",
                   "options": [
                     "At least the dipped beam.",
                     "None, because it is daytime.",
@@ -4596,7 +4596,7 @@
                   ]
                 },
                 "en": {
-                  "q": "It is daytime. You are in the normal lane of your direction, right next to a lane opened against the usual direction. What lights do you use?",
+                  "q": "It is daytime. A car is in the normal lane of its direction, right next to a lane opened to traffic from the other direction. What lights must it use?",
                   "options": [
                     "At least the low beams",
                     "None, because it is daytime",
@@ -4701,24 +4701,24 @@
                 "id": "road-s4g",
                 "answer": 1,
                 "es": {
-                  "q": "Por unas obras en la calzada, se habilita un carril para circular en sentido contrario al habitual. Conduces un camión y ninguna señal lo prohíbe. ¿Puedes usar ese carril?",
+                  "q": "Por unas obras en la calzada, se habilita un carril en sentido contrario al habitual. Un camión circula por allí y ninguna señal lo prohíbe. ¿Puede usar ese carril?",
                   "options": [
-                    "No: solo pueden usarlo motocicletas y turismos",
+                    "No: solo pueden usarlo motos y turismos",
                     "Sí, con la luz de cruce y entre 60 y 80 km/h",
                     "Sí, y sin límite de velocidad mínima"
                   ],
                   "why": "Cuando el carril se habilita por obras, pueden usarlo todos los vehículos autorizados en esa vía, salvo prohibición expresa. Se lleva al menos la luz de cruce y se circula entre 60 y 80 km/h, o menos si así se indica."
                 },
                 "exam": {
-                  "q": "Because of works on the carriageway, a lane is enabled to circulate in contrary sense to the usual one. You drive a truck and no sign prohibits it. Can you use that lane?",
+                  "q": "Because of works on the carriageway, a lane is enabled in contrary sense to the usual one. A lorry circulates there and no sign prohibits it. Can it use that lane?",
                   "options": [
-                    "No: only motorcycles and passenger cars can use it.",
+                    "No: only motorbikes and passenger cars can use it.",
                     "Yes, with the dipped light and between 60 and 80 km/h.",
                     "Yes, and without a minimum speed limit."
                   ]
                 },
                 "en": {
-                  "q": "Because of roadworks, a contraflow lane is opened against the normal direction. You drive a truck and no sign forbids it. May you use that lane?",
+                  "q": "Because of roadworks, a lane is opened against the normal direction. A truck is driving there and no sign forbids it. May it use that lane?",
                   "options": [
                     "No: only motorcycles and cars may use it",
                     "Yes, with low beams and between 60 and 80 km/h",
@@ -4803,32 +4803,32 @@
               "t": "check",
               "q": {
                 "id": "road-s4h",
-                "answer": 0,
+                "answer": 2,
                 "es": {
-                  "q": "En una carretera de doble sentido, con balizas provisionales, se han usado los dos arcenes para tener dos carriles en tu sentido y uno en el otro. Sin otra señal, ¿cómo circulas?",
+                  "q": "En una carretera de doble sentido, con balizas provisionales, se han usado los dos arcenes para tener dos carriles en un sentido y uno en el otro. Sin otra señal, por esos carriles se circula…",
                   "options": [
-                    "Con la luz de cruce y entre 60 y 80 km/h",
-                    "Con la luz de cruce solo si es de noche",
-                    "A la velocidad genérica de la carretera"
+                    "con al menos la luz de cruce",
+                    "entre 60 y 80 km/h",
+                    "con al menos la luz de cruce y entre 60 y 80 km/h"
                   ],
-                  "why": "Por un carril adicional circunstancial y por los arcenes se circula entre 60 y 80 km/h, o menos si así se indica, y con al menos la luz de cruce, de día y de noche."
+                  "why": "Por un carril adicional circunstancial y por los arcenes se cumplen las dos cosas: al menos la luz de cruce, de día y de noche, y entre 60 y 80 km/h, o menos si así se indica."
                 },
                 "exam": {
-                  "q": "On a road of double direction, with provisional beacons, the two hard shoulders have been used to have two lanes in your direction and one in the other. Without another sign, how do you circulate?",
+                  "q": "On a road of double direction, with provisional beacons, the two hard shoulders have been used to have two lanes in one direction and one in the other. Without another sign, by those lanes one circulates…",
                   "options": [
-                    "With the dipped light and between 60 and 80 km/h.",
-                    "With the dipped light only if it is at night.",
-                    "At the generic speed of the road."
+                    "with at least the dipped light.",
+                    "between 60 and 80 km/h.",
+                    "with at least the dipped light and between 60 and 80 km/h."
                   ]
                 },
                 "en": {
-                  "q": "On a two-way road, temporary beacons use both shoulders to give two lanes in your direction and one in the other. With no other sign, how do you drive?",
+                  "q": "On a two-way road, temporary beacons use both shoulders to give two lanes one way and one the other. With no other sign, in those lanes you drive…",
                   "options": [
-                    "With low beams and between 60 and 80 km/h",
-                    "With low beams only at night",
-                    "At the road's general speed limit"
+                    "with at least the low beams on",
+                    "between 60 and 80 km/h",
+                    "with at least the low beams on and between 60 and 80 km/h"
                   ],
-                  "why": "In an occasional extra lane and on the shoulders you drive between 60 and 80 km/h, or lower if signs say so, with at least the low beams on, day and night."
+                  "why": "In a temporary extra lane and on the shoulders both apply: at least the low beams, day and night, and between 60 and 80 km/h, or lower if signed."
                 },
                 "terms": [
                   {
@@ -4992,32 +4992,32 @@
               "t": "check",
               "q": {
                 "id": "road-h5a",
-                "answer": 1,
+                "answer": 0,
                 "es": {
-                  "q": "¿Cuándo puede circular un turismo por el arcén?",
+                  "q": "Como norma general, ¿por qué parte de la vía circula un turismo?",
                   "options": [
-                    "Siempre que no moleste a nadie",
-                    "Solo por razones de emergencia",
-                    "Cuando quiera adelantar a un vehículo lento"
+                    "Por la calzada, y no por el arcén",
+                    "Por el arcén derecho, si es transitable",
+                    "Por la calzada o por el arcén, como prefiera"
                   ],
-                  "why": "Los automóviles circulan por la calzada y no por el arcén, salvo por razones de emergencia."
+                  "why": "Como norma general, los automóviles circulan por la calzada y no por el arcén. Solo pueden usarlo por razones de emergencia. Ir por el arcén derecho transitable es la norma de ciclos, ciclomotores y otros vehículos lentos, no la de un turismo."
                 },
                 "exam": {
-                  "q": "When can a passenger car circulate by the hard shoulder?",
+                  "q": "As a general rule, by which part of the road does a passenger car circulate?",
                   "options": [
-                    "Provided that it does not bother anybody.",
-                    "Only for reasons of emergency.",
-                    "When it wants to overtake a slow vehicle."
+                    "By the carriageway, and not by the hard shoulder.",
+                    "By the right hard shoulder, if it is passable.",
+                    "By the carriageway or by the hard shoulder, as it prefers."
                   ]
                 },
                 "en": {
-                  "q": "When may a car drive on the shoulder?",
+                  "q": "As a general rule, what part of the road does a car use?",
                   "options": [
-                    "Whenever it bothers nobody",
-                    "Only for emergency reasons",
-                    "When it wants to pass a slow vehicle"
+                    "The roadway, not the shoulder",
+                    "The right shoulder, if it is passable",
+                    "The roadway or the shoulder, as the driver likes"
                   ],
-                  "why": "Automobiles drive on the roadway and not on the shoulder, except for emergency reasons."
+                  "why": "As a general rule, automobiles drive on the roadway, not on the shoulder. They may use it only for emergency reasons. Keeping to a passable right shoulder is the rule for cycles, mopeds and other slow vehicles, not for a car."
                 },
                 "terms": [
                   {
@@ -5070,7 +5070,7 @@
                 "id": "road-h5b",
                 "answer": 2,
                 "es": {
-                  "q": "Conduces un ciclomotor por una carretera sin carril especial para ti. El arcén de la derecha es transitable y suficiente. ¿Por dónde vas?",
+                  "q": "Un ciclomotor circula por una carretera sin carril especial para él. El arcén derecho es transitable y suficiente. ¿Por dónde debe ir?",
                   "options": [
                     "Por el carril derecho de la calzada",
                     "Por donde haya menos tráfico",
@@ -5079,7 +5079,7 @@
                   "why": "Los ciclomotores circulan por el arcén de su derecha si es transitable y suficiente. Si no lo es, usan la parte imprescindible de la calzada."
                 },
                 "exam": {
-                  "q": "You drive a moped by a road without special lane for you. The hard shoulder of the right is passable and sufficient. By where do you go?",
+                  "q": "A moped circulates by a road without special lane for it. The right hard shoulder is passable and sufficient. By where must it go?",
                   "options": [
                     "By the right lane of the carriageway.",
                     "By where there is less traffic.",
@@ -5087,7 +5087,7 @@
                   ]
                 },
                 "en": {
-                  "q": "You ride a moped on a road with no special lane for you. The shoulder on the right is passable and wide enough. Where do you ride?",
+                  "q": "A moped is on a road with no special lane for it. The shoulder on the right is passable and wide enough. Where must it ride?",
                   "options": [
                     "In the right-hand lane of the roadway",
                     "Wherever there is less traffic",
@@ -5112,32 +5112,32 @@
               "t": "check",
               "q": {
                 "id": "road-h5e",
-                "answer": 0,
+                "answer": 2,
                 "es": {
-                  "q": "El arcén derecho es transitable y suficiente, y no hay vía especial. ¿Cuál de estos vehículos debe circular por él?",
+                  "q": "El arcén derecho es transitable y suficiente, y no hay vía especial. ¿Cuál de estos vehículos NO tiene que circular por él?",
                   "options": [
                     "Un vehículo especial de 3.000 kg de MMA",
-                    "Un camión de 3.000 kg de MMA",
-                    "Un turismo que circula despacio en un atasco"
+                    "Un ciclomotor",
+                    "Un camión de 3.000 kg de MMA"
                   ],
-                  "why": "Deben usar el arcén derecho, si es transitable y suficiente, los vehículos especiales de hasta 3.500 kg de MMA, además de ciclos, ciclomotores, vehículos de tracción animal, vehículos para personas de movilidad reducida y vehículos en seguimiento de ciclistas. Un camión o un turismo van por la calzada."
+                  "why": "Deben usar el arcén derecho, si es transitable y suficiente, los vehículos especiales de hasta 3.500 kg de MMA, los ciclos y los ciclomotores, entre otros vehículos lentos. Un camión va por la calzada, aunque pese lo mismo que ese vehículo especial."
                 },
                 "exam": {
-                  "q": "The right hard shoulder is passable and sufficient, and there is no special road. Which of these vehicles must circulate by it?",
+                  "q": "The right hard shoulder is passable and sufficient, and there is no special road. Which of these vehicles does NOT have to circulate by it?",
                   "options": [
                     "A special vehicle of 3,000 kg of MAM.",
-                    "A truck of 3,000 kg of MAM.",
-                    "A passenger car that circulates slowly in a traffic jam."
+                    "A moped.",
+                    "A truck of 3,000 kg of MAM."
                   ]
                 },
                 "en": {
-                  "q": "The right-hand shoulder is passable and wide enough, and there is no special road. Which of these vehicles must use it?",
+                  "q": "The right-hand shoulder is passable and wide enough, and there is no special road. Which of these vehicles does NOT have to use it?",
                   "options": [
                     "A special vehicle with an MMA of 3,000 kg",
-                    "A truck with an MMA of 3,000 kg",
-                    "A car crawling in a traffic jam"
+                    "A moped",
+                    "A truck with an MMA of 3,000 kg"
                   ],
-                  "why": "Special vehicles up to 3,500 kg MMA must use the right-hand shoulder when it is passable and wide enough, as must cycles, mopeds, animal-drawn vehicles, vehicles for people with reduced mobility and vehicles following cyclists. A truck or a car stays on the roadway."
+                  "why": "Special vehicles up to 3,500 kg MMA, cycles and mopeds, among other slow vehicles, must use a passable, wide-enough right shoulder. A truck stays on the roadway, even at the same weight as that special vehicle."
                 },
                 "terms": [
                   {
@@ -5170,28 +5170,28 @@
                 "id": "road-h5f",
                 "answer": 2,
                 "es": {
-                  "q": "Tu turismo tiene una avería en una autovía. Solo puede ir a una velocidad anormalmente reducida y entorpece gravemente la circulación. ¿Qué haces?",
+                  "q": "Un turismo tiene una avería en una autovía. Solo puede ir a una velocidad anormalmente reducida y entorpece gravemente la circulación. ¿Qué debe hacer?",
                   "options": [
-                    "Sigues por el carril derecho, con las luces de emergencia, hasta tu salida",
-                    "Usas el arcén hasta llegar a la salida que pensabas tomar",
-                    "Vas por el arcén derecho, si es transitable, y sales por la primera salida"
+                    "Seguir por el carril derecho, con las luces de emergencia, hasta su salida",
+                    "Usar el arcén hasta llegar a la salida que pensaba tomar",
+                    "Circular por el arcén y abandonar la autovía en la primera salida"
                   ],
                   "why": "Un vehículo de hasta 3.500 kg que por una emergencia va a velocidad anormalmente reducida, perturbando gravemente la circulación, va por el arcén derecho si es transitable y suficiente. En autopista o autovía, además, debe abandonarla por la primera salida."
                 },
                 "exam": {
-                  "q": "Your passenger car has a breakdown on a dual carriageway. It can only go at an abnormally reduced speed and it seriously disturbs the circulation. What do you do?",
+                  "q": "A passenger car has a breakdown on a dual carriageway. It can only go at an abnormally reduced speed and it seriously disturbs the circulation. What must it do?",
                   "options": [
-                    "You continue by the right lane, with the hazard warning lights, until your exit.",
-                    "You use the hard shoulder until arriving at the exit that you intended to take.",
-                    "You go by the right hard shoulder, if it is passable, and you exit by the first exit."
+                    "To continue by the right lane, with the hazard warning lights, until its exit.",
+                    "To use the hard shoulder until arriving at the exit that it intended to take.",
+                    "To circulate by the hard shoulder and abandon the dual carriageway at the first exit."
                   ]
                 },
                 "en": {
-                  "q": "Your car breaks down on an autovía. It can only go at an abnormally low speed and seriously disrupts traffic. What do you do?",
+                  "q": "A car breaks down on an autovía. It can only go at an abnormally low speed and seriously disrupts traffic. What must the driver do?",
                   "options": [
-                    "Stay in the right-hand lane with hazard lights on until your exit",
-                    "Use the shoulder until you reach the exit you planned to take",
-                    "Use the right-hand shoulder, if passable, and leave at the first exit"
+                    "Stay in the right-hand lane with hazard lights on until their exit",
+                    "Use the shoulder until they reach the exit they planned to take",
+                    "Drive on the shoulder and leave the autovía at the first exit"
                   ],
                   "why": "A vehicle up to 3,500 kg that an emergency forces to an abnormally low speed, seriously disrupting traffic, uses the right-hand shoulder if it is passable and wide enough. On an autopista or autovía it must also leave at the first exit."
                 },
@@ -5227,7 +5227,7 @@
                   "why": "Los vehículos para personas de movilidad reducida van por el arcén de su derecha si es transitable y suficiente. Si no lo es, usan la parte imprescindible de la calzada."
                 },
                 "en": {
-                  "q": "Someone drives a vehicle for people with reduced mobility on a road with no special lane for it. The right shoulder is passable and wide enough. Where should they go?",
+                  "q": "Someone drives a vehicle for people with reduced mobility on a road with no special lane for it. The shoulder on the right can be used and is wide enough. Where should they go?",
                   "options": [
                     "On the right shoulder",
                     "In the right lane of the roadway",
@@ -5307,28 +5307,28 @@
                 "id": "road-h5c",
                 "answer": 0,
                 "es": {
-                  "q": "Dos ciclistas van de a dos por la calzada porque el arcén no es transitable. Anochece. ¿Qué deben hacer?",
+                  "q": "Dos ciclistas van de a dos por la calzada porque el arcén no es transitable. Al anochecer, deben…",
                   "options": [
-                    "Ponerse en hilera, de uno en uno",
-                    "Seguir de a dos y encender las luces",
-                    "Pasar al arcén aunque no sea transitable"
+                    "ponerse en hilera, de uno en uno",
+                    "seguir de a dos y encender las luces",
+                    "pasar al arcén aunque no sea transitable"
                   ],
                   "why": "Entre el ocaso y la salida del sol, los ciclistas que usan la calzada porque no hay arcén transitable deben ir en hilera."
                 },
                 "exam": {
-                  "q": "Two cyclists go in twos by the carriageway because the hard shoulder is not passable. It gets dark. What must they do?",
+                  "q": "Two cyclists go in twos by the carriageway because the hard shoulder is not passable. On getting dark, they must…",
                   "options": [
-                    "To put themselves in file, one by one.",
-                    "To continue in twos and to switch on the lights.",
-                    "To pass to the hard shoulder although it is not passable."
+                    "put themselves in file, one by one.",
+                    "continue in twos and switch on the lights.",
+                    "pass to the hard shoulder although it is not passable."
                   ]
                 },
                 "en": {
-                  "q": "Two cyclists ride two abreast on the roadway because the shoulder is not passable. Dusk is falling. What must they do?",
+                  "q": "Two cyclists ride two abreast on the roadway because the shoulder is not passable. As dusk falls, they must…",
                   "options": [
-                    "Ride in single file, one behind the other",
-                    "Stay two abreast and turn on their lights",
-                    "Move onto the shoulder, usable or not"
+                    "ride in single file, one behind the other",
+                    "stay two abreast and turn on their lights",
+                    "move onto the shoulder, usable or not"
                   ],
                   "why": "Between sunset and sunrise, cyclists who use the roadway because there is no passable shoulder must ride in single file."
                 },
@@ -5372,26 +5372,26 @@
                 "id": "road-h5h",
                 "answer": 2,
                 "es": {
-                  "q": "Tu vecina, de 35 años, quiere llevar a su hijo de 18 kg, que ya se sienta solo, en su bicicleta de una plaza. ¿Puede?",
+                  "q": "Una mujer de 35 años quiere llevar a su hijo de 18 kg, que ya se sienta solo, en su bicicleta de una plaza. ¿Puede?",
                   "options": [
-                    "No: en una bicicleta de una plaza nunca puede ir nadie más",
+                    "No: en una bici de una plaza no cabe nadie más",
                     "Sí, sentado en el portabultos si se agarra bien",
                     "Sí, en un asiento adicional que cumpla los requisitos"
                   ],
                   "why": "Con conductor mayor de edad, una bicicleta de una sola plaza puede llevar a un menor de hasta 22 kg que se siente solo, en un asiento adicional que cumpla las especificaciones técnicas."
                 },
                 "exam": {
-                  "q": "An adult wants to carry on a bicycle built for one person a child of 18 kg who can sit by himself. Is it permitted?",
+                  "q": "A woman of 35 years wants to carry her son of 18 kg, who already sits alone, on her bicycle of one seat. Can she?",
                   "options": [
-                    "No, on a bicycle for one person no passenger may ever be carried.",
+                    "No: on a bicycle of one seat nobody else fits.",
                     "Yes, seated on the luggage rack if he holds on well.",
-                    "Yes, in an additional seat that complies with the requirements."
+                    "Yes, in an additional seat that fulfils the requirements."
                   ]
                 },
                 "en": {
-                  "q": "Your 35-year-old neighbour wants to carry her 18 kg son, who already sits up on his own, on her one-seat bicycle. May she?",
+                  "q": "A 35-year-old woman wants to carry her 18 kg son, who already sits up on his own, on her one-seat bicycle. May she?",
                   "options": [
-                    "No: nobody else may ever ride on a one-seat bicycle",
+                    "No: a one-seat bicycle has room for nobody else",
                     "Yes, sitting on the rack if he holds on tight",
                     "Yes, in an extra seat that meets the requirements"
                   ],
@@ -5457,27 +5457,27 @@
                 "id": "road-h5i",
                 "answer": 1,
                 "es": {
-                  "q": "Quieres llevar a tu perro, que pesa 20 kg, en un remolque enganchado a tu bicicleta. ¿Lo permite la norma?",
+                  "q": "Un ciclista quiere llevar a su perro, que pesa 20 kg, en un remolque enganchado a su bicicleta. ¿Lo permite la norma?",
                   "options": [
                     "Sí, si el remolque cumple los requisitos técnicos",
-                    "No: en el remolque de una bicicleta solo van animales de hasta 15 kg",
+                    "No: solo puede llevar animales de hasta 15 kg",
                     "No: el remolque de una bicicleta solo puede llevar carga"
                   ],
                   "why": "Los remolques de bicicleta pueden llevar personas, carga o animales de hasta 15 kg. Un perro de 20 kg supera ese límite."
                 },
                 "exam": {
-                  "q": "You want to carry your dog, which weighs 20 kg, in a trailer hitched to your bicycle. Does the rule allow it?",
+                  "q": "A cyclist wants to carry his dog, which weighs 20 kg, in a trailer hitched to his bicycle. Does the norm allow it?",
                   "options": [
                     "Yes, if the trailer fulfils the technical requirements.",
-                    "No: in the trailer of a bicycle only animals of up to 15 kg go.",
+                    "No: it can only carry animals of up to 15 kg.",
                     "No: the trailer of a bicycle can only carry load."
                   ]
                 },
                 "en": {
-                  "q": "You want to take your 20 kg dog in a trailer hitched to your bicycle. Does the law allow it?",
+                  "q": "A cyclist wants to take their 20 kg dog in a trailer hitched to the bicycle. Does the law allow it?",
                   "options": [
                     "Yes, if the trailer meets the technical requirements",
-                    "No: a bicycle trailer may carry animals of up to 15 kg only",
+                    "No: it may carry animals of up to 15 kg only",
                     "No: a bicycle trailer may carry only loads"
                   ],
                   "why": "Bicycle trailers may carry people, loads, or animals of up to 15 kg. A 20 kg dog is over that limit."
@@ -5561,7 +5561,7 @@
                   "options": [
                     "Con tráfico lento, a 50 km/h como máximo, de a dos",
                     "Con cualquier tráfico, a la velocidad de los coches",
-                    "Solo con el tráfico detenido, a 30 km/h como máximo y de uno en uno"
+                    "Con el tráfico detenido, a 30 km/h como máximo, de uno en uno"
                   ],
                   "why": "Solo cuando los carriles están detenidos por congestión, a un máximo de 30 km/h, en columna de a uno y extremando la precaución."
                 },
@@ -5570,7 +5570,7 @@
                   "options": [
                     "With slow traffic, at 50 km/h as maximum, in twos.",
                     "With any traffic, at the speed of the cars.",
-                    "Only with the traffic stopped, at 30 km/h as maximum and one by one."
+                    "With the traffic stopped, at 30 km/h as maximum, one by one."
                   ]
                 },
                 "en": {
@@ -5578,7 +5578,7 @@
                   "options": [
                     "With slow traffic, at 50 km/h at most, two abreast",
                     "With any traffic, at the speed of the cars",
-                    "Only with traffic stopped, at 30 km/h at most, in single file"
+                    "With traffic stopped, at 30 km/h at most, in single file"
                   ],
                   "why": "Only when the lanes are stopped by congestion, at 30 km/h at most, in single file and with extreme caution."
                 },
@@ -5752,7 +5752,7 @@
                   "options": [
                     "La ordenanza, porque es más reciente",
                     "El reglamento: la ordenanza no puede oponerse a él",
-                    "Lo que decida el agente en cada caso"
+                    "Lo que decida en cada caso el agente que regule el tráfico"
                   ],
                   "why": "Las ordenanzas pueden desarrollar las normas urbanas del RGC, pero no oponerse a ellas, alterarlas ni crear confusión."
                 },
@@ -5761,7 +5761,7 @@
                   "options": [
                     "The ordinance, because it is more recent.",
                     "The regulation: the ordinance cannot oppose it.",
-                    "What the agent decides in each case."
+                    "What the agent who regulates the traffic decides in each case."
                   ]
                 },
                 "en": {
@@ -5769,7 +5769,7 @@
                   "options": [
                     "The ordinance, because it is newer",
                     "The regulation: an ordinance may not contradict it",
-                    "Whatever the officer decides each time"
+                    "Whatever the officer directing traffic decides each time"
                   ],
                   "why": "Ordinances may build on the RGC’s urban rules, but may not contradict them, change them or cause confusion."
                 },
@@ -5837,28 +5837,28 @@
                 "id": "road-u2a",
                 "answer": 1,
                 "es": {
-                  "q": "Tu hija de 8 años va en bici por la acera, como permite la ordenanza de tu ciudad. ¿Cómo puedes acompañarla?",
+                  "q": "Una niña de 8 años va en bici por la acera, como permite la ordenanza de su ciudad. ¿Cómo puede acompañarla un adulto?",
                   "options": [
-                    "En tu bicicleta, por la acera, a su lado",
+                    "En su bicicleta, por la acera, a su lado",
                     "A pie, a su lado",
-                    "En tu bicicleta, por la calzada, sin perderla de vista"
+                    "En su bicicleta, por la calzada, sin perderla de vista"
                   ],
                   "why": "La ordenanza puede permitir que niños de hasta 12 años vayan en bici por la acera, pero a cargo de un adulto que vaya a pie."
                 },
                 "exam": {
-                  "q": "Your daughter of 8 years goes by bicycle by the pavement, as the ordinance of your city allows. How can you accompany her?",
+                  "q": "A girl of 8 years goes by bicycle by the pavement, as the ordinance of her city allows. How can an adult accompany her?",
                   "options": [
-                    "In your bicycle, by the pavement, at her side.",
+                    "In his bicycle, by the pavement, at her side.",
                     "On foot, at her side.",
-                    "In your bicycle, by the carriageway, without losing sight of her."
+                    "In his bicycle, by the carriageway, without losing sight of her."
                   ]
                 },
                 "en": {
-                  "q": "Your 8-year-old daughter rides her bike on the sidewalk, as your town’s ordinance allows. How may you go with her?",
+                  "q": "An 8-year-old girl rides her bike on the sidewalk, as her town’s ordinance allows. How may an adult go with her?",
                   "options": [
-                    "On your own bike, on the sidewalk beside her",
+                    "On their own bike, on the sidewalk beside her",
                     "On foot, beside her",
-                    "On your own bike, in the street, keeping her in sight"
+                    "On their own bike, in the street, keeping her in sight"
                   ],
                   "why": "An ordinance may let children up to 12 ride bikes on the sidewalk, but only in the care of an adult on foot."
                 },
@@ -5885,27 +5885,27 @@
                 "id": "road-u2b",
                 "answer": 0,
                 "es": {
-                  "q": "Vas en bicicleta por una plaza peatonal donde la ordenanza permite circular a los ciclistas. Un peatón cruza delante de ti. ¿Quién tiene prioridad?",
+                  "q": "Un ciclista va por una plaza peatonal donde la ordenanza permite circular a los ciclistas. Un peatón cruza delante de él. ¿Quién tiene prioridad?",
                   "options": [
                     "El peatón",
-                    "Tú, porque la ordenanza te permite circular",
+                    "El ciclista, porque la ordenanza le permite circular",
                     "Quien llegue primero"
                   ],
                   "why": "En las zonas peatonales donde se admiten bicicletas o VMP, los peatones conservan siempre la prioridad."
                 },
                 "exam": {
-                  "q": "You go by bicycle by a pedestrian square where the ordinance allows cyclists to circulate. A pedestrian crosses in front of you. Who has priority?",
+                  "q": "A cyclist goes by a pedestrian square where the ordinance allows cyclists to circulate. A pedestrian crosses in front of him. Who has priority?",
                   "options": [
                     "The pedestrian.",
-                    "You, because the ordinance allows you to circulate.",
+                    "The cyclist, because the ordinance allows him to circulate.",
                     "Whoever arrives first."
                   ]
                 },
                 "en": {
-                  "q": "You ride a bike across a pedestrian square where the ordinance allows cyclists. A pedestrian crosses in front of you. Who has right of way?",
+                  "q": "A cyclist rides across a pedestrian square where the ordinance allows cyclists. A pedestrian crosses in front of them. Who has right of way?",
                   "options": [
                     "The pedestrian",
-                    "You, because the ordinance lets you ride there",
+                    "The cyclist, because the ordinance lets them ride there",
                     "Whoever gets there first"
                   ],
                   "why": "In pedestrian zones where bikes or VMPs are allowed, pedestrians always keep priority."
@@ -5974,28 +5974,28 @@
                 "id": "road-u3a",
                 "answer": 2,
                 "es": {
-                  "q": "¿Qué es una zona de prioridad residencial?",
+                  "q": "Una zona de prioridad residencial es…",
                   "options": [
-                    "Una calle donde los vecinos tienen siempre prioridad de paso en los cruces",
-                    "Una zona donde solo pueden aparcar los vecinos que tienen plaza propia",
-                    "Un área donde el ayuntamiento restringe el acceso o la circulación de vehículos de no residentes"
+                    "una calle donde los vecinos tienen siempre prioridad de paso en los cruces",
+                    "una zona donde solo pueden aparcar los vecinos que tienen plaza propia",
+                    "un área donde el ayuntamiento restringe los vehículos de no residentes"
                   ],
                   "why": "Es un área delimitada y regulada por el ayuntamiento que restringe el acceso o la circulación de los vehículos de quienes no residen allí, para mantener un uso sostenible."
                 },
                 "exam": {
-                  "q": "What is a zone of residential priority?",
+                  "q": "A zone of residential priority is…",
                   "options": [
-                    "A street where the neighbours always have priority of passage at the crossings.",
-                    "A zone where only the neighbours who have their own space can park.",
-                    "An area where the town council restricts the access or the circulation of vehicles of non-residents."
+                    "a street where the neighbours always have priority of passage at the crossings.",
+                    "a zone where only the neighbours who have their own space can park.",
+                    "an area where the town council restricts the vehicles of non-residents."
                   ]
                 },
                 "en": {
-                  "q": "What is a residential-priority zone?",
+                  "q": "A residential-priority zone is…",
                   "options": [
-                    "A street where residents always have right of way at junctions",
-                    "An area where only residents with their own space may park",
-                    "An area where the council restricts access or traffic for non-residents’ vehicles"
+                    "a street where residents always have right of way at junctions",
+                    "an area where only residents with their own space may park",
+                    "an area where the council restricts non-residents’ vehicles"
                   ],
                   "why": "It is an area the town council marks out and regulates, restricting access or traffic for vehicles of people who do not live there, to keep its use sustainable."
                 },
@@ -6020,26 +6020,26 @@
                 "es": {
                   "q": "Además de en las zonas de bajas emisiones, ¿dónde pueden las autoridades restringir la circulación de vehículos por motivos ambientales?",
                   "options": [
-                    "En ningún otro lugar",
+                    "En ningún otro lugar: solo en las zonas de bajas emisiones",
                     "En zonas de prioridad residencial y en cualquier vía de su competencia",
-                    "Solo en autopistas y autovías"
+                    "Solo en autopistas y autovías, donde más contaminan"
                   ],
                   "why": "Las restricciones ambientales pueden aplicarse en zonas de bajas emisiones, en zonas de prioridad residencial o en cualquier otra vía de la competencia de esa autoridad."
                 },
                 "exam": {
                   "q": "Besides in the low-emission zones, where can the authorities restrict the circulation of vehicles for environmental reasons?",
                   "options": [
-                    "In no other place.",
+                    "In no other place: only in the low-emission zones.",
                     "In zones of residential priority and in any road of their competence.",
-                    "Only in motorways and dual carriageways."
+                    "Only in motorways and dual carriageways, where they pollute most."
                   ]
                 },
                 "en": {
                   "q": "Apart from low-emission zones, where may the authorities restrict traffic for environmental reasons?",
                   "options": [
-                    "Nowhere else",
+                    "Nowhere else: only in low-emission zones",
                     "In residential-priority zones and on any road under their authority",
-                    "Only on autopistas and autovías"
+                    "Only on autopistas and autovías, where they pollute most"
                   ],
                   "why": "Environmental restrictions may apply in low-emission zones, in residential-priority zones, or on any other road under that authority."
                 },
@@ -6115,28 +6115,28 @@
                 "id": "road-u4a",
                 "answer": 2,
                 "es": {
-                  "q": "Tu ayuntamiento cobra más por aparcar a los vehículos grandes y a los de peor clasificación ambiental. ¿Puede hacerlo?",
+                  "q": "Un ayuntamiento cobra más por aparcar a los vehículos grandes y a los de peor clasificación ambiental. ¿Puede hacerlo?",
                   "options": [
                     "No: la tarifa debe ser igual para todos los turismos",
-                    "Solo dentro de una zona de bajas emisiones",
-                    "Sí: puede tarificar según el tamaño y la clasificación ambiental"
+                    "Sí, pero solo dentro de una zona de bajas emisiones",
+                    "Sí, según el tamaño y la clasificación ambiental"
                   ],
                   "why": "Los ayuntamientos pueden cobrar el estacionamiento en función de las dimensiones del vehículo y de su clasificación ambiental."
                 },
                 "exam": {
-                  "q": "Your town council charges more for parking to the big vehicles and to those of worse environmental classification. Can it do it?",
+                  "q": "A town council charges more for parking to the big vehicles and to those of worse environmental classification. Can it do it?",
                   "options": [
                     "No: the tariff must be equal for all the passenger cars.",
-                    "Only inside a low-emission zone.",
-                    "Yes: it can set tariffs according to the size and the environmental classification."
+                    "Yes, but only inside a low-emission zone.",
+                    "Yes, according to the size and the environmental classification."
                   ]
                 },
                 "en": {
-                  "q": "Your council charges more to park large vehicles and those with a worse environmental rating. May it do that?",
+                  "q": "A council charges more to park large vehicles and those with a worse environmental rating. May it do that?",
                   "options": [
                     "No: the rate must be the same for every car",
-                    "Only inside a low-emission zone",
-                    "Yes: it may charge by size and environmental classification"
+                    "Yes, but only inside a low-emission zone",
+                    "Yes, by size and environmental classification"
                   ],
                   "why": "Councils may charge for parking according to the vehicle’s dimensions and its environmental classification."
                 },
@@ -6163,28 +6163,28 @@
                 "id": "road-u4b",
                 "answer": 1,
                 "es": {
-                  "q": "Llevas a tu padre, que tiene movilidad reducida, a una calle cerrada al tráfico general. ¿Qué puede prever la ordenanza para estos casos?",
+                  "q": "Un conductor lleva a su padre, que tiene movilidad reducida, a una calle cerrada al tráfico general. ¿Qué puede prever la ordenanza para estos casos?",
                   "options": [
                     "Nada: una zona restringida no admite excepciones",
-                    "Que puedas entrar para que baje, o que tengas más tiempo para la maniobra",
-                    "Que puedas aparcar sobre la acera el tiempo que necesites"
+                    "Que pueda entrar para que baje, o más tiempo para hacerlo",
+                    "Que pueda estacionar sobre la acera durante todo el tiempo que necesite"
                   ],
                   "why": "La ordenanza puede crear un régimen para la subida y bajada de niños, mayores y personas con movilidad reducida o discapacidad: acceso a zonas restringidas o más tiempo del ordinario."
                 },
                 "exam": {
-                  "q": "You take your father, who has reduced mobility, to a street closed to the general traffic. What can the ordinance foresee for these cases?",
+                  "q": "A driver takes his father, who has reduced mobility, to a street closed to the general traffic. What can the ordinance foresee for these cases?",
                   "options": [
                     "Nothing: a restricted zone does not admit exceptions.",
-                    "That you can enter so that he gets out, or that you have more time for the manoeuvre.",
-                    "That you can park on the pavement the time that you need."
+                    "That he can enter so that he gets out, or more time to do it.",
+                    "That he can park on the pavement during all the time that he needs."
                   ]
                 },
                 "en": {
-                  "q": "You are taking your father, who has reduced mobility, to a street closed to general traffic. What may the ordinance provide for cases like this?",
+                  "q": "A driver is taking their father, who has reduced mobility, to a street closed to general traffic. What may the ordinance provide for cases like this?",
                   "options": [
                     "Nothing: a restricted zone allows no exceptions",
-                    "That you may drive in so he can get out, or have more time to do it",
-                    "That you may park on the sidewalk for as long as you need"
+                    "That they may drive in so he can get out, or have more time to do it",
+                    "That they may park on the sidewalk for as long as they need"
                   ],
                   "why": "The ordinance may set a scheme for children, older people and people with reduced mobility or disabilities to get in and out: access to restricted zones, or more time than usual."
                 },
@@ -6211,28 +6211,28 @@
                 "id": "road-u4c",
                 "answer": 0,
                 "es": {
-                  "q": "Pagas una hora en una zona de estacionamiento limitado y vuelves a las cuatro horas. Además de la retirada, ¿qué medida puede regular la ordenanza?",
+                  "q": "Un conductor paga una hora en una zona de estacionamiento limitado y vuelve a las cuatro horas. Además de la retirada, ¿qué medida puede regular la ordenanza?",
                   "options": [
                     "La inmovilización del vehículo hasta que se identifique al conductor",
-                    "La retirada del permiso de conducción",
-                    "Ninguna, si pagas la diferencia al volver"
+                    "La retirada inmediata del permiso de conducción por el agente",
+                    "Ninguna, si paga la diferencia al volver al vehículo"
                   ],
                   "why": "Si se rebasa el triple del tiempo pagado, la ordenanza puede regular la retirada o la inmovilización del vehículo hasta que se identifique al conductor."
                 },
                 "exam": {
-                  "q": "You pay one hour in a zone of limited parking and you return at four hours. Besides the removal, what measure can the ordinance regulate?",
+                  "q": "A driver pays one hour in a zone of limited parking and returns at four hours. Besides the removal, what measure can the ordinance regulate?",
                   "options": [
                     "The immobilisation of the vehicle until the driver is identified.",
-                    "The withdrawal of the driving permit.",
-                    "None, if you pay the difference on returning."
+                    "The immediate withdrawal of the driving permit by the agent.",
+                    "None, if he pays the difference on returning to the vehicle."
                   ]
                 },
                 "en": {
-                  "q": "You pay for one hour in a time-limited parking zone and come back after four hours. Besides towing, what measure may the ordinance provide for?",
+                  "q": "A driver pays for one hour in a time-limited parking zone and comes back after four hours. Besides towing, what measure may the ordinance provide for?",
                   "options": [
                     "Immobilizing the vehicle until the driver is identified",
-                    "Taking away your driving permit",
-                    "None, if you pay the difference when you return"
+                    "The officer taking away the driving permit on the spot",
+                    "None, if the driver pays the difference on returning"
                   ],
                   "why": "If the vehicle stays more than three times the time paid for, the ordinance may provide for towing it or immobilizing it until the driver is identified."
                 },
@@ -6312,28 +6312,28 @@
                 "id": "road-u5a",
                 "answer": 0,
                 "es": {
-                  "q": "Tu ayuntamiento crea un camino escolar seguro en tu barrio. ¿Qué medidas puede aplicar en él?",
+                  "q": "En un camino escolar seguro, el ayuntamiento puede…",
                   "options": [
-                    "Reducir la velocidad, calmar el tráfico o restringir vehículos a motor y ciclomotores",
-                    "Solo pintar más pasos de peatones",
-                    "Prohibir que los niños vayan en bicicleta"
+                    "calmar el tráfico, reducir la velocidad o restringir vehículos a motor",
+                    "solo pintar más pasos de peatones, sin cambiar la velocidad",
+                    "prohibir que los niños vayan en bicicleta por esas calles"
                   ],
                   "why": "En los caminos o zonas escolares seguros se pueden reducir la velocidad, calmar el tráfico o restringir los vehículos a motor y los ciclomotores."
                 },
                 "exam": {
-                  "q": "Your town council creates a safe school path in your neighbourhood. What measures can it apply in it?",
+                  "q": "In a safe school path, the town council can…",
                   "options": [
-                    "To reduce the speed, to calm the traffic or to restrict motor vehicles and mopeds.",
-                    "Only to paint more pedestrian crossings.",
-                    "To prohibit that the children go by bicycle."
+                    "calm the traffic, reduce the speed or restrict motor vehicles.",
+                    "only paint more pedestrian crossings, without changing the speed.",
+                    "prohibit that the children go by bicycle by those streets."
                   ]
                 },
                 "en": {
-                  "q": "Your council sets up a safe school route in your neighborhood. What measures may it use there?",
+                  "q": "On a safe school route, the council may…",
                   "options": [
-                    "Lower speeds, traffic calming, or limits on motor vehicles and mopeds",
-                    "Only painting more crosswalks",
-                    "Banning children from cycling"
+                    "calm traffic, lower speeds or limit motor vehicles",
+                    "only paint more crosswalks, without changing speeds",
+                    "ban children from cycling on those streets"
                   ],
                   "why": "On safe school routes and zones, speeds may be cut, traffic calmed, and motor vehicles and mopeds restricted."
                 },
@@ -6360,28 +6360,28 @@
                 "id": "road-u5b",
                 "answer": 1,
                 "es": {
-                  "q": "Conduces por la calle de un hospital y de una residencia de personas mayores. ¿Qué prevé la norma para estos entornos?",
+                  "q": "Un conductor circula por la calle de un hospital y de una residencia de personas mayores. ¿Qué prevé la norma para estos entornos?",
                   "options": [
                     "Las mismas medidas que en cualquier otra calle",
-                    "Medidas específicas de velocidad, estacionamiento y calmado del tráfico",
-                    "Solo la prohibición de usar el claxon"
+                    "Medidas propias de velocidad, estacionamiento y calmado del tráfico",
+                    "Solo la prohibición de usar el claxon cerca de la entrada"
                   ],
                   "why": "Cerca de colegios, hospitales y centros de personas mayores o con discapacidad se aplican medidas específicas de velocidad, estacionamiento y calmado del tráfico."
                 },
                 "exam": {
-                  "q": "You drive by the street of a hospital and of a residence for older persons. What does the rule foresee for these surroundings?",
+                  "q": "A driver circulates by the street of a hospital and of a residence for older persons. What does the norm foresee for these surroundings?",
                   "options": [
                     "The same measures as in any other street.",
-                    "Specific measures of speed, parking and calming of the traffic.",
-                    "Only the prohibition of using the horn."
+                    "Own measures of speed, parking and calming of the traffic.",
+                    "Only the prohibition of using the horn near the entrance."
                   ]
                 },
                 "en": {
-                  "q": "You are driving down a street with a hospital and a care home for older people. What does the law provide for places like this?",
+                  "q": "A driver goes down a street with a hospital and a care home for older people. What does the law provide for places like this?",
                   "options": [
                     "The same measures as on any other street",
-                    "Specific measures on speed, parking and traffic calming",
-                    "Only a ban on using the horn"
+                    "Measures of its own on speed, parking and traffic calming",
+                    "Only a ban on using the horn near the entrance"
                   ],
                   "why": "Near schools, hospitals and centers for older or disabled people, specific measures on speed, parking and traffic calming apply."
                 },
@@ -6430,28 +6430,28 @@
                 "id": "road-u6a",
                 "answer": 1,
                 "es": {
-                  "q": "Vas en bicicleta por una calle con carril bici. Ninguna señal lo hace obligatorio. ¿Puedes ir por la calzada?",
+                  "q": "Un ciclista va por una calle con carril bici. Ninguna señal lo hace obligatorio. ¿Puede ir por la calzada?",
                   "options": [
-                    "No: si hay carril bici, debes usarlo siempre",
-                    "Sí: el carril bici es preferente, pero solo es obligatorio si una señal lo indica",
-                    "Solo si el carril bici está ocupado por otros ciclistas"
+                    "No: si hay carril bici, debe usarlo siempre",
+                    "Sí: el carril bici es preferente, no obligatorio",
+                    "Sí, pero solo si el carril bici está ocupado por otros ciclistas"
                   ],
                   "why": "Si hay carril bici, su uso es preferente. Solo es obligatorio cuando la autoridad lo señaliza como vía reservada y obligatoria para ciclos."
                 },
                 "exam": {
-                  "q": "You go by bicycle by a street with a cycle lane. No sign makes it obligatory. Can you go by the carriageway?",
+                  "q": "A cyclist goes by a street with a cycle lane. No sign makes it obligatory. Can he go by the carriageway?",
                   "options": [
-                    "No: if there is a cycle lane, you must use it always.",
-                    "Yes: the cycle lane is preferential, but it is only obligatory if a sign indicates it.",
-                    "Only if the cycle lane is occupied by other cyclists."
+                    "No: if there is a cycle lane, he must use it always.",
+                    "Yes: the cycle lane is preferential, not obligatory.",
+                    "Yes, but only if the cycle lane is occupied by other cyclists."
                   ]
                 },
                 "en": {
-                  "q": "You ride a bike on a street with a cycle lane. No sign makes it compulsory. May you ride on the roadway?",
+                  "q": "A cyclist rides on a street with a cycle lane. No sign makes it compulsory. May they ride on the roadway?",
                   "options": [
-                    "No: if there is a cycle lane, you must always use it",
-                    "Yes: the cycle lane is preferred, but only compulsory if a sign says so",
-                    "Only if other cyclists are filling the cycle lane"
+                    "No: if there is a cycle lane, they must always use it",
+                    "Yes: the cycle lane is preferred, not compulsory",
+                    "Yes, but only if other cyclists are filling the cycle lane"
                   ],
                   "why": "Where there is a cycle lane, using it is preferred. It is compulsory only when the authority signs it as a way reserved for, and compulsory for, cycles."
                 },
@@ -6479,24 +6479,24 @@
                 "answer": 2,
                 "sign": "r-407a",
                 "es": {
-                  "q": "Vas en bicicleta y esta señal está a la entrada de una vía, junto a la calzada. ¿Qué haces?",
+                  "q": "Un ciclista llega a una vía, junto a la calzada, con esta señal en su comienzo. ¿Qué debe hacer?",
                   "options": [
-                    "Eliges entre esa vía y la calzada",
-                    "No entras: esa vía es solo para peatones",
-                    "Circulas por esa vía"
+                    "Elegir entre esa vía y la calzada",
+                    "No entrar: esa vía es solo para peatones",
+                    "Circular por esa vía"
                   ],
                   "why": "Esa señal obliga a los ciclos a circular por la vía a cuya entrada está, y prohíbe usarla a los demás. Es la forma de hacer obligatorio el carril bici."
                 },
                 "exam": {
-                  "q": "You go by bicycle and this sign is at the entrance of a road, next to the carriageway. What do you do?",
+                  "q": "A cyclist arrives at a road, next to the carriageway, with this sign at its beginning. What must he do?",
                   "options": [
-                    "You choose between that road and the carriageway.",
-                    "You do not enter: that road is only for pedestrians.",
-                    "You circulate by that road."
+                    "To choose between that road and the carriageway.",
+                    "Not to enter: that road is only for pedestrians.",
+                    "To circulate by that road."
                   ]
                 },
                 "en": {
-                  "q": "You are on a bike and this sign stands at the start of a way next to the roadway. What do you do?",
+                  "q": "A cyclist reaches a way next to the roadway with this sign where it begins. What must they do?",
                   "options": [
                     "Choose between that way and the roadway",
                     "Stay out: that way is for pedestrians only",
@@ -6541,28 +6541,28 @@
                 "es": {
                   "q": "Una calle de un solo carril está limitada a 50 km/h. ¿Puede el ayuntamiento permitir allí que las bicicletas circulen en los dos sentidos?",
                   "options": [
-                    "Sí, siempre que lo señalice",
-                    "No: solo en calles de un carril limitadas a 30 km/h o menos",
-                    "Sí, pero solo de día"
+                    "Sí, siempre que lo señalice bien en los dos extremos",
+                    "No: solo cabe con un límite de 30 km/h o menos",
+                    "No, salvo que la circulación de vehículos sea escasa"
                   ],
-                  "why": "El doble sentido para bicicletas solo se puede permitir en vías urbanas de un solo carril con la velocidad limitada a 30 km/h o menos, y con señales."
+                  "why": "No, y la poca circulación no lo cambia. El doble sentido para bicicletas solo se puede permitir en vías urbanas de un solo carril con la velocidad limitada a 30 km/h o menos, y con señales."
                 },
                 "exam": {
                   "q": "A street of a single lane is limited to 50 km/h. Can the town council allow there that the bicycles circulate in both directions?",
                   "options": [
-                    "Yes, provided that it signals it.",
-                    "No: only in streets of one lane limited to 30 km/h or less.",
-                    "Yes, but only by day."
+                    "Yes, provided that it signals it well at both ends.",
+                    "No: it is only possible with a limit of 30 km/h or less.",
+                    "No, except that the circulation of vehicles is scarce."
                   ]
                 },
                 "en": {
                   "q": "A single-lane street has a 50 km/h limit. May the council allow bicycles to ride both ways there?",
                   "options": [
-                    "Yes, as long as it puts up signs",
-                    "No: only on one-lane streets capped at 30 km/h or lower",
-                    "Yes, but only in daytime"
+                    "Yes, as long as it puts up clear signs at both ends",
+                    "No: only with a limit of 30 km/h or lower",
+                    "No, unless there is little motor traffic"
                   ],
-                  "why": "Bikes may be allowed both ways only on one-lane urban streets whose speed cap is 30 km/h or lower, and only with signs."
+                  "why": "No, and light traffic does not change that. Two-way cycling may only be allowed on single-lane urban streets limited to 30 km/h or lower, and with signs."
                 },
                 "terms": [
                   {
@@ -6583,28 +6583,28 @@
                 "id": "road-u6d",
                 "answer": 0,
                 "es": {
-                  "q": "Conduces por una calle de un solo carril donde se permite a las bicicletas circular en los dos sentidos. Viene una de frente y, aunque los dos se aparten a la derecha, no hay espacio para cruzarse. ¿Quién pasa primero?",
+                  "q": "En una calle de un solo carril donde las bicicletas pueden circular en los dos sentidos, un turismo y un ciclista se cruzan. Si, aun apartándose los dos a la derecha, no hay espacio, pasa primero…",
                   "options": [
-                    "Tú, porque circulas en el sentido propio de la calle",
-                    "El ciclista, porque es un usuario vulnerable",
-                    "Quien haya entrado antes en la calle"
+                    "el turismo, porque circula en el sentido propio de la calle",
+                    "el ciclista, porque es un usuario más vulnerable",
+                    "quien haya entrado antes en la calle"
                   ],
                   "why": "Al cruzarse, ambos se apartan a la derecha. Si no es posible pasar con seguridad, tienen prioridad los vehículos que circulan en el sentido propio de la vía."
                 },
                 "exam": {
-                  "q": "You drive by a street of a single lane where bicycles are allowed to circulate in both directions. One comes from the front and, although both move aside to the right, there is no space to cross. Who passes first?",
+                  "q": "In a street of a single lane where bicycles can circulate in both directions, a passenger car and a cyclist cross. If, even moving both aside to the right, there is no space, there passes first…",
                   "options": [
-                    "You, because you circulate in the proper direction of the street.",
-                    "The cyclist, because he is a vulnerable user.",
-                    "Whoever has entered the street before."
+                    "the passenger car, because it circulates in the proper direction of the street.",
+                    "the cyclist, because he is a more vulnerable user.",
+                    "whoever has entered the street before."
                   ]
                 },
                 "en": {
-                  "q": "You drive down a single-lane street where bicycles may ride both ways. One comes toward you and, even with both of you moved to the right, there is no room to pass. Who goes first?",
+                  "q": "On a single-lane street where bicycles may ride both ways, a car and a cyclist meet. If, even with both moved to the right, there is no room, the first to go is…",
                   "options": [
-                    "You, because you are traveling in the street’s own direction",
-                    "The cyclist, because cyclists are vulnerable road users",
-                    "Whoever entered the street first"
+                    "the car, because it is traveling in the street’s own direction",
+                    "the cyclist, because a cyclist is more vulnerable",
+                    "whoever entered the street first"
                   ],
                   "why": "When they meet, both move to the right. If they still cannot pass safely, vehicles traveling in the road’s own direction have priority."
                 },
