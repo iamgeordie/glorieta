@@ -1570,6 +1570,69 @@
                 ],
                 "src": "LSV anexo I, punto 74"
               }
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "s-33"
+              ],
+              "caption": {
+                "es": "S-33, senda ciclopeatonal: vía para peatones, ciclos y, en su caso, VMP, separada del tráfico motorizado.",
+                "en": "S-33, shared pedestrian and cycle path: a way for pedestrians, cycles and, where allowed, VMPs, separated from motor traffic."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "En una **senda ciclopeatonal**, si hay personas caminando, los ciclos y los VMP reducen la velocidad. Los peatones les facilitan el paso.",
+                "en": "On a **senda ciclopeatonal**, cycles and VMPs slow down when people are walking. Pedestrians make way for them."
+              },
+              "src": "RGC Anexo I, ap. 5.1 (S-33)"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-t1q",
+                "answer": 0,
+                "sign": "s-33",
+                "es": {
+                  "q": "¿Qué indica esta señal?",
+                  "options": [
+                    "Una senda para peatones y ciclos, apartada de los coches",
+                    "Un carril bici pintado en la calzada, al lado de los coches",
+                    "Una calle en la que peatones y coches comparten la calzada"
+                  ],
+                  "why": "Es la senda ciclopeatonal (S-33): una vía para peatones, ciclos y, en su caso, VMP, separada del tráfico motorizado. Si hay gente caminando, los ciclos reducen la velocidad."
+                },
+                "exam": {
+                  "q": "What does this sign indicate?",
+                  "options": [
+                    "A way for pedestrians and cycles, apart from the cars.",
+                    "A cycle lane painted on the carriageway, beside the cars.",
+                    "A street in which pedestrians and cars share the carriageway."
+                  ]
+                },
+                "en": {
+                  "q": "What does this sign mean?",
+                  "options": [
+                    "A way for walkers and cycles, kept apart from cars",
+                    "A bike lane painted on the roadway, next to cars",
+                    "A street where pedestrians and cars share the roadway"
+                  ],
+                  "why": "It is the shared pedestrian and cycle path (S-33): a way for pedestrians, cycles and, where allowed, VMPs, separated from motor traffic. If people are walking, cycles slow down."
+                },
+                "terms": [
+                  {
+                    "es": "senda ciclopeatonal",
+                    "en": "shared pedestrian and cycle path"
+                  },
+                  {
+                    "es": "tráfico motorizado",
+                    "en": "motor traffic"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1 (S-33)"
+              }
             }
           ]
         }
@@ -2042,6 +2105,50 @@
                   {
                     "es": "refugio",
                     "en": "pedestrian refuge"
+                  }
+                ],
+                "src": "RGC art. 43.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-p2e",
+                "answer": 2,
+                "es": {
+                  "q": "En una calle de sentido único, una isleta divide la calzada en dos. ¿Por qué lado puede pasarla?",
+                  "options": [
+                    "Solo por su derecha, dejándola a la izquierda",
+                    "Solo por su izquierda, para no estorbar a la derecha",
+                    "Por cualquiera de los dos lados"
+                  ],
+                  "why": "Las isletas y refugios se pasan por su derecha. Pero si están en una vía de sentido único, o en la parte de un solo sentido, puedes pasar por cualquier lado."
+                },
+                "exam": {
+                  "q": "In a street of one way, an island divides the carriageway in two. By which side can you pass it?",
+                  "options": [
+                    "Only by its right, leaving it at the left.",
+                    "Only by its left, in order not to obstruct at the right.",
+                    "By any of the two sides."
+                  ]
+                },
+                "en": {
+                  "q": "On a one-way street, a traffic island splits the roadway in two. Which side may you pass it on?",
+                  "options": [
+                    "Only on its right, keeping it on your left",
+                    "Only on its left, to keep the right side clear",
+                    "On either side"
+                  ],
+                  "why": "You pass islands and refuges on their right. But if they are on a one-way road, or in the part used by one direction only, you may pass on either side."
+                },
+                "terms": [
+                  {
+                    "es": "isleta",
+                    "en": "traffic island"
+                  },
+                  {
+                    "es": "sentido único",
+                    "en": "one way"
                   }
                 ],
                 "src": "RGC art. 43.1"
@@ -2527,6 +2634,58 @@
                   }
                 ],
                 "src": "RGC art. 29.1"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Las **líneas discontinuas** que separan carriles guían la circulación. No se circula **sobre ellas**, salvo que la anchura de los carriles lo haga necesario y la seguridad lo permita. Sí se pueden cruzar para maniobras permitidas, como cambiar de carril o girar.",
+                "en": "The **broken lines** between lanes guide traffic. You do not drive **on top of them**, unless the lane width makes it necessary and safety allows. You may cross them for permitted maneuvers, such as changing lanes or turning."
+              },
+              "src": "RGC Anexo I, ap. 5.2 (M-1.1 a M-1.3)"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-w3l",
+                "answer": 1,
+                "es": {
+                  "q": "Una calzada tiene dos carriles en su sentido, anchos y separados por una línea discontinua. ¿Puede circular con las ruedas sobre esa línea?",
+                  "options": [
+                    "Sí, porque la línea discontinua se puede pisar",
+                    "No, debe ir dentro de su carril",
+                    "Sí, si no viene nadie por el otro carril"
+                  ],
+                  "why": "Una línea discontinua entre carriles guía la circulación: no se circula sobre ella salvo que la anchura de los carriles lo exija. Se cruza solo para maniobras como cambiar de carril."
+                },
+                "exam": {
+                  "q": "A carriageway has two lanes in its direction, wide and separated by a discontinuous line. Can you circulate with the wheels over that line?",
+                  "options": [
+                    "Yes, because the discontinuous line can be stepped on.",
+                    "No, you must go inside your lane.",
+                    "Yes, if nobody comes by the other lane."
+                  ]
+                },
+                "en": {
+                  "q": "A roadway has two wide lanes in your direction, separated by a broken line. May you drive with your wheels on that line?",
+                  "options": [
+                    "Yes, because a broken line may be driven over",
+                    "No, you must stay inside your lane",
+                    "Yes, if nobody is in the other lane"
+                  ],
+                  "why": "A broken line between lanes guides traffic: you do not drive on it unless the lane width requires it. You cross it only for maneuvers such as changing lanes."
+                },
+                "terms": [
+                  {
+                    "es": "línea discontinua",
+                    "en": "discontinuous (broken) line"
+                  },
+                  {
+                    "es": "carril",
+                    "en": "lane"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.2 (M-1.1 a M-1.3)"
               }
             }
           ]
@@ -3836,6 +3995,50 @@
                   {
                     "es": "vehículo mixto adaptable",
                     "en": "adaptable mixed-use vehicle"
+                  },
+                  {
+                    "es": "motocicleta",
+                    "en": "motorcycle"
+                  }
+                ],
+                "src": "RGC art. 35.2.a"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-s4x",
+                "answer": 0,
+                "es": {
+                  "q": "Un motorista circula por una autovía con un carril VAO abierto en su sentido. ¿Es la motocicleta uno de los vehículos que pueden usarlo?",
+                  "options": [
+                    "Sí, el carril VAO admite motocicletas",
+                    "No, solo turismos y autobuses de viajeros",
+                    "No, porque una moto no es un vehículo de alta ocupación"
+                  ],
+                  "why": "El carril VAO está limitado a motocicletas, turismos y vehículos mixtos adaptables. Se prohíbe al resto, incluidos los turismos con remolque y los ciclomotores."
+                },
+                "exam": {
+                  "q": "A motorcyclist circulates by a dual carriageway with a HOV lane open in his direction. Is the motorcycle one of the vehicles that can use it?",
+                  "options": [
+                    "Yes, the HOV lane admits motorcycles.",
+                    "No, only passenger cars and buses of travellers.",
+                    "No, because a motorcycle is not a vehicle of high occupancy."
+                  ]
+                },
+                "en": {
+                  "q": "A motorcyclist is on an autovía with a VAO lane open in their direction. Is a motorcycle one of the vehicles that may use it?",
+                  "options": [
+                    "Yes, the VAO lane admits motorcycles",
+                    "No, only cars and buses",
+                    "No, because a motorcycle never counts as high occupancy"
+                  ],
+                  "why": "The VAO lane is limited to motorcycles, cars and adaptable mixed vehicles. It is banned to the rest, including cars with a trailer and mopeds."
+                },
+                "terms": [
+                  {
+                    "es": "carril VAO",
+                    "en": "high-occupancy vehicle (HOV) lane"
                   },
                   {
                     "es": "motocicleta",
@@ -5255,6 +5458,50 @@
                 ],
                 "src": "RGC art. 36.1"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-h5k",
+                "answer": 1,
+                "es": {
+                  "q": "Un ciclomotor circula por una carretera convencional que no tiene arcén. ¿Por dónde debe ir?",
+                  "options": [
+                    "Por el centro de su carril, como un turismo",
+                    "Por la parte imprescindible de la calzada",
+                    "Por el carril izquierdo, para ver mejor el tráfico"
+                  ],
+                  "why": "Si no hay arcén, o no es transitable y suficiente, el ciclomotor usa solo la parte imprescindible de la calzada, lo más cerca posible del borde derecho."
+                },
+                "exam": {
+                  "q": "A moped circulates by a conventional road that does not have hard shoulder. Where must it go?",
+                  "options": [
+                    "By the centre of its lane, like a passenger car.",
+                    "By the indispensable part of the carriageway.",
+                    "By the left lane, in order to see the traffic better."
+                  ]
+                },
+                "en": {
+                  "q": "A moped rides on a conventional road that has no shoulder. Where must it ride?",
+                  "options": [
+                    "In the middle of its lane, like a car",
+                    "On only the part of the roadway it needs",
+                    "In the left lane, to see traffic better"
+                  ],
+                  "why": "If there is no shoulder, or it is not usable and wide enough, the moped uses only the part of the roadway it needs, as close to the right edge as possible."
+                },
+                "terms": [
+                  {
+                    "es": "parte imprescindible de la calzada",
+                    "en": "the part of the carriageway strictly needed"
+                  },
+                  {
+                    "es": "carretera convencional",
+                    "en": "conventional road"
+                  }
+                ],
+                "src": "RGC arts. 29.1 y 36.1"
+              }
             }
           ]
         },
@@ -5343,6 +5590,58 @@
                   }
                 ],
                 "src": "RGC art. 36.2"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "En los **descensos prolongados con curvas**, si la seguridad lo permite, los ciclistas pueden dejar el arcén e ir por la parte derecha de la calzada que necesiten. En las autovías no: allí van siempre por el arcén.",
+                "en": "On **long descents with bends**, if safety allows, cyclists may leave the shoulder and ride on the right-hand part of the roadway they need. Not on autovías: there they always stay on the shoulder."
+              },
+              "src": "RGC art. 36.1"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-h5j",
+                "answer": 1,
+                "es": {
+                  "q": "Un ciclista baja un puerto largo y lleno de curvas por una carretera convencional. ¿Puede dejar el arcén y circular por la calzada?",
+                  "options": [
+                    "No, si el arcén es transitable debe seguir en él",
+                    "Sí, por la parte derecha que necesite, si es seguro",
+                    "Sí, por el centro de su carril, para que lo vean mejor"
+                  ],
+                  "why": "En descensos prolongados con curvas, si la seguridad lo permite, el ciclista puede dejar el arcén y usar la parte derecha de la calzada que necesite. En autovía sigue siempre en el arcén."
+                },
+                "exam": {
+                  "q": "A cyclist goes down a long pass full of bends by a conventional road. Can he leave the hard shoulder and circulate by the carriageway?",
+                  "options": [
+                    "No, if the hard shoulder is passable he must continue on it.",
+                    "Yes, by the right part that he needs, if it is safe.",
+                    "Yes, by the centre of his lane, so that they see him better."
+                  ]
+                },
+                "en": {
+                  "q": "A cyclist rides down a long, winding mountain road on a conventional road. May they leave the shoulder and ride on the roadway?",
+                  "options": [
+                    "No: if the shoulder is usable, they must stay on it",
+                    "Yes, on the right-hand part they need, if it is safe",
+                    "Yes, in the center of the lane, to be seen better"
+                  ],
+                  "why": "On long descents with bends, if safety allows, a cyclist may leave the shoulder and use the right-hand part of the roadway they need. On an autovía they always stay on the shoulder."
+                },
+                "terms": [
+                  {
+                    "es": "descenso prolongado con curvas",
+                    "en": "long descent with bends"
+                  },
+                  {
+                    "es": "arcén",
+                    "en": "hard shoulder"
+                  }
+                ],
+                "src": "RGC art. 36.1"
               }
             },
             {

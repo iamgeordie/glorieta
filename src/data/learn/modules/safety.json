@@ -1125,6 +1125,57 @@
                 ],
                 "src": "DGT guidance (En coche, dgt.es, 2024)"
               }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "La DGT también aconseja que entre tu cabeza y el reposacabezas queden **4 cm o menos**, delante y detrás.",
+                "en": "The DGT also advises leaving **4 cm (about 1.6 in) or less** between your head and the head restraint, in front and in the back."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c1zl",
+                "answer": 1,
+                "es": {
+                  "q": "Según la DGT, ¿qué separación máxima conviene dejar entre la cabeza y el reposacabezas?",
+                  "options": [
+                    "Unos diez centímetros, para no rozarlo",
+                    "Cuatro centímetros o menos",
+                    "La que le resulte más cómoda a cada ocupante"
+                  ],
+                  "why": "La DGT aconseja que la cabeza quede a cuatro centímetros o menos del reposacabezas, con su borde de arriba a la altura de la parte alta de la cabeza."
+                },
+                "exam": {
+                  "q": "According to the DGT, what maximum separation is it advisable to leave between the head and the head restraint?",
+                  "options": [
+                    "About ten centimetres, in order not to touch it.",
+                    "Four centimetres or less.",
+                    "That which results most comfortable to each occupant."
+                  ]
+                },
+                "en": {
+                  "q": "According to the DGT, what is the most space you should leave between your head and the head restraint?",
+                  "options": [
+                    "About ten centimeters, so it does not touch",
+                    "Four centimeters or less",
+                    "Whatever each occupant finds most comfortable"
+                  ],
+                  "why": "The DGT advises keeping the head four centimeters or less from the head restraint, with its top edge level with the top of the head."
+                },
+                "terms": [
+                  {
+                    "es": "reposacabezas",
+                    "en": "head restraint (headrest)"
+                  },
+                  {
+                    "es": "separación",
+                    "en": "gap, distance"
+                  }
+                ],
+                "src": "DGT guidance (Teórica abreviada, lectura fácil, DGT 2023, tema 5)"
+              }
             }
           ]
         },
@@ -2337,6 +2388,50 @@
                 ],
                 "src": "LSV art. 104.1.c"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c1zm",
+                "answer": 1,
+                "es": {
+                  "q": "Un agente detiene a un motorista que circula por ciudad sin casco. ¿Puede inmovilizar la motocicleta?",
+                  "options": [
+                    "No, en ciudad solo puede denunciarlo.",
+                    "Sí.",
+                    "Solo si tampoco lo lleva el pasajero."
+                  ],
+                  "why": "Los agentes pueden inmovilizar el vehículo cuando el conductor o el pasajero no usan el casco obligatorio. Esta medida no se aplica a los ciclistas."
+                },
+                "exam": {
+                  "q": "An agent stops a motorcyclist who circulates by the city without helmet. Can he immobilise the motorcycle?",
+                  "options": [
+                    "No, in the city he can only report it.",
+                    "Yes.",
+                    "Only if the passenger does not wear it either."
+                  ]
+                },
+                "en": {
+                  "q": "An officer stops a motorcyclist riding in town without a helmet. May the officer immobilize the motorcycle?",
+                  "options": [
+                    "No, in town the officer can only report it",
+                    "Yes",
+                    "Only if the passenger has no helmet either"
+                  ],
+                  "why": "Officers may immobilize the vehicle when the rider or the passenger does not wear a required helmet. This measure does not apply to cyclists."
+                },
+                "terms": [
+                  {
+                    "es": "inmovilizar",
+                    "en": "to immobilize (keep the vehicle from moving on)"
+                  },
+                  {
+                    "es": "motorista",
+                    "en": "motorcyclist"
+                  }
+                ],
+                "src": "LSV art. 104.1.c; RGC art. 118.1"
+              }
             }
           ]
         }
@@ -2377,7 +2472,8 @@
         "DGT guidance (dgt.es): en coche, con niños; revista Tráfico y Seguridad Vial: cómo colocarse el cinturón",
         "Ley de Tráfico (RDL 6/2015), art. 104.1.c",
         "DGT guidance (Cinturón de seguridad. Sistemas de retención infantil, DGT 2014)",
-        "DGT guidance (En coche, dgt.es, 2024)"
+        "DGT guidance (En coche, dgt.es, 2024)",
+        "DGT guidance (Teórica abreviada, lectura fácil, DGT 2023, tema 5)"
       ]
     },
     {
@@ -2562,6 +2658,58 @@
                   }
                 ],
                 "src": "RGC art. 18.1; LSV art. 13.2"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "El conductor debe cuidar de mantener la **posición adecuada** y de que también la mantengan los demás pasajeros.",
+                "en": "The driver must take care to keep a **proper position**, and to see that the other passengers keep one too."
+              },
+              "src": "RGC art. 18.1"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c2o",
+                "answer": 1,
+                "es": {
+                  "q": "Durante un viaje, un pasajero de atrás se tumba a lo largo del asiento. ¿Tiene el conductor alguna obligación?",
+                  "options": [
+                    "No, eso es responsabilidad de cada pasajero.",
+                    "Sí, debe cuidar de que vaya bien colocado.",
+                    "Solo cuando el viaje es largo o nocturno."
+                  ],
+                  "why": "El RGC pide al conductor que mantenga una posición adecuada y que también la mantengan los demás pasajeros, para que nada interfiera en la conducción."
+                },
+                "exam": {
+                  "q": "During a journey, a passenger of behind lies down along the seat. Does the driver have any obligation?",
+                  "options": [
+                    "No, that is responsibility of each passenger.",
+                    "Yes, he must take care that he goes well placed.",
+                    "Only when the journey is long or at night."
+                  ]
+                },
+                "en": {
+                  "q": "On a trip, a back-seat passenger lies down across the seat. Does the driver have any duty here?",
+                  "options": [
+                    "No, that is each passenger’s own responsibility",
+                    "Yes, he must see that the passenger sits properly",
+                    "Only on long or night-time trips"
+                  ],
+                  "why": "The RGC asks the driver to keep a proper position and to see that the other passengers keep one too, so that nothing interferes with driving."
+                },
+                "terms": [
+                  {
+                    "es": "posición adecuada",
+                    "en": "proper position"
+                  },
+                  {
+                    "es": "pasajero",
+                    "en": "passenger"
+                  }
+                ],
+                "src": "RGC art. 18.1"
               }
             }
           ]
@@ -2752,6 +2900,54 @@
                 ],
                 "src": "RGC art. 18.2"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c2p",
+                "answer": 2,
+                "es": {
+                  "q": "¿Puede el conductor de un patinete eléctrico escuchar música con auriculares mientras circula?",
+                  "options": [
+                    "Sí, si el volumen es bajo.",
+                    "Sí, pero solo por el carril bici.",
+                    "No."
+                  ],
+                  "why": "Quien lleva un patinete eléctrico (vehículo de movilidad personal) es un conductor. A todo conductor le está prohibido conducir con auriculares conectados a un aparato de sonido."
+                },
+                "exam": {
+                  "q": "Can the driver of an electric scooter listen to music with earphones while he circulates?",
+                  "options": [
+                    "Yes, if the volume is low.",
+                    "Yes, but only by the bicycle lane.",
+                    "No."
+                  ]
+                },
+                "en": {
+                  "q": "May the rider of an e-scooter listen to music through earphones while riding?",
+                  "options": [
+                    "Yes, if the volume is low",
+                    "Yes, but only in the bike lane",
+                    "No"
+                  ],
+                  "why": "Someone riding an e-scooter (a personal mobility vehicle) is a driver. Every driver is forbidden to drive with earphones connected to a sound device."
+                },
+                "terms": [
+                  {
+                    "es": "patinete eléctrico",
+                    "en": "e-scooter"
+                  },
+                  {
+                    "es": "vehículo de movilidad personal (VMP)",
+                    "en": "personal mobility vehicle"
+                  },
+                  {
+                    "es": "auriculares",
+                    "en": "earphones, headphones"
+                  }
+                ],
+                "src": "RGC art. 18.2; LSV art. 47"
+              }
             }
           ]
         },
@@ -2873,6 +3069,112 @@
                   }
                 ],
                 "src": "RGC art. 18.1; DGT guidance"
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Consejos de la DGT para el navegador: prográmalo antes de salir, déjalo **fijo**, ponlo donde lo veas sin apartar la vista de la vía y en un sitio que **deje abrirse los airbags**.",
+                "en": "DGT tips for the navigation system: program it before you leave, keep it **fixed in place**, put it where you can see it without taking your eyes off the road, and in a spot that **lets the airbags open**."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "La DGT incluye el uso del navegador entre las conductas que provocan accidentes por **distracción**, junto al móvil o mirar un mapa.",
+                "en": "The DGT lists using the navigation system among the habits that cause crashes through **distraction**, along with the phone or looking at a map."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c2q",
+                "answer": 0,
+                "es": {
+                  "q": "Va a instalar el soporte del navegador en el salpicadero. ¿Dónde NO debe colocarlo?",
+                  "options": [
+                    "En la zona por la que se despliega un airbag",
+                    "En un punto visible sin apartar la vista de la vía",
+                    "En un lugar donde quede fijo y no se mueva"
+                  ],
+                  "why": "La DGT aconseja fijar el navegador donde lo veas sin dejar de mirar la carretera y donde no impida que se abran los airbags."
+                },
+                "exam": {
+                  "q": "You are going to install the holder of the navigator on the dashboard. Where must you NOT place it?",
+                  "options": [
+                    "In the zone by which an airbag deploys.",
+                    "In a visible point without taking the sight away from the road.",
+                    "In a place where it remains fixed and does not move."
+                  ]
+                },
+                "en": {
+                  "q": "You are going to mount the navigation system’s holder on the dashboard. Where should you NOT put it?",
+                  "options": [
+                    "Where an airbag opens out",
+                    "Somewhere you can see it without looking away from the road",
+                    "Somewhere it stays fixed and does not move"
+                  ],
+                  "why": "The DGT advises fixing the navigation system where you can see it while still watching the road, and where it does not stop the airbags from opening."
+                },
+                "terms": [
+                  {
+                    "es": "soporte",
+                    "en": "holder, mount"
+                  },
+                  {
+                    "es": "salpicadero",
+                    "en": "dashboard"
+                  },
+                  {
+                    "es": "desplegarse",
+                    "en": "to deploy, open out"
+                  }
+                ],
+                "src": "DGT guidance (Teórica abreviada, lectura fácil, DGT 2023, tema 3)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c2r",
+                "answer": 1,
+                "es": {
+                  "q": "El navegador GPS, además de ayudar a orientarse,…",
+                  "options": [
+                    "evita casi todas las distracciones al volante.",
+                    "puede ser una fuente de distracción.",
+                    "solo distrae a los conductores noveles."
+                  ],
+                  "why": "La DGT cuenta el uso del navegador entre las causas de accidentes por distracción. Prográmalo antes de salir y no lo manejes con el coche en marcha."
+                },
+                "exam": {
+                  "q": "The GPS navigator, besides helping to orientate oneself,…",
+                  "options": [
+                    "avoids almost all the distractions at the wheel.",
+                    "can be a source of distraction.",
+                    "only distracts the novice drivers."
+                  ]
+                },
+                "en": {
+                  "q": "Besides helping you find your way, a GPS navigation system…",
+                  "options": [
+                    "prevents almost every distraction at the wheel",
+                    "can be a source of distraction",
+                    "only distracts new drivers"
+                  ],
+                  "why": "The DGT counts using the navigation system among the causes of distraction crashes. Program it before you leave and do not handle it while the car is moving."
+                },
+                "terms": [
+                  {
+                    "es": "navegador",
+                    "en": "navigation system (GPS)"
+                  },
+                  {
+                    "es": "fuente de distracción",
+                    "en": "source of distraction"
+                  }
+                ],
+                "src": "DGT guidance (Teórica abreviada, lectura fácil, DGT 2023, tema 3)"
               }
             }
           ]
@@ -3372,7 +3674,9 @@
       "src": [
         "Ley de Tráfico (RDL 6/2015), arts. 13.2, 13.3 y 76, Anexo I y Anexo II",
         "Reglamento General de Circulación (RD 1428/2003), art. 18",
-        "DGT guidance (dgt.es): distracciones al conducir"
+        "DGT guidance (dgt.es): distracciones al conducir",
+        "DGT guidance (Teórica abreviada, lectura fácil, DGT 2023, tema 3)",
+        "Ley de Tráfico (RDL 6/2015), art. 47"
       ]
     },
     {
@@ -3894,6 +4198,54 @@
                   }
                 ],
                 "src": "DGT guidance"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c3r",
+                "answer": 0,
+                "es": {
+                  "q": "¿Qué tramo mide la distancia de frenado?",
+                  "options": [
+                    "Desde que se pisa el freno hasta que el coche se detiene del todo",
+                    "Desde que se advierte el peligro hasta que se pisa el freno",
+                    "Desde que se advierte el peligro hasta que el coche se detiene del todo"
+                  ],
+                  "why": "La de frenado empieza cuando pisas el freno y acaba cuando el vehículo se para. Lo que recorres antes de frenar es la distancia de reacción; la suma de las dos es la de detención."
+                },
+                "exam": {
+                  "q": "Which stretch does the braking distance measure?",
+                  "options": [
+                    "From when one presses the brake until the car stops completely.",
+                    "From when one notices the danger until one presses the brake.",
+                    "From when one notices the danger until the car stops completely."
+                  ]
+                },
+                "en": {
+                  "q": "Which stretch does braking distance measure?",
+                  "options": [
+                    "From pressing the brake to a full stop",
+                    "From noticing the danger to pressing the brake",
+                    "From noticing the danger to a full stop"
+                  ],
+                  "why": "Braking distance starts when you press the brake and ends when the vehicle stops. What you travel before braking is the reaction distance; the two together make the stopping distance."
+                },
+                "terms": [
+                  {
+                    "es": "distancia de frenado",
+                    "en": "braking distance"
+                  },
+                  {
+                    "es": "distancia de reacción",
+                    "en": "reaction distance"
+                  },
+                  {
+                    "es": "distancia de detención",
+                    "en": "stopping distance"
+                  }
+                ],
+                "src": "DGT guidance (Teórica abreviada, lectura fácil, DGT 2023, tema 10)"
               }
             }
           ]
@@ -4657,7 +5009,8 @@
         "Reglamento General de Circulación, Anexo I, ap. 5.1 (señal R-300, Catálogo de señales)",
         "Ley de Tráfico (RDL 6/2015), art. 76.ñ y Anexo II",
         "DGT (dgt.es, revista Tráfico y Seguridad Vial): distancia de seguridad y regla de los dos segundos (consejos)",
-        "DGT guidance (dgt.es): conducción preventiva"
+        "DGT guidance (dgt.es): conducción preventiva",
+        "DGT guidance (Teórica abreviada, lectura fácil, DGT 2023, tema 10)"
       ]
     },
     {
@@ -4996,6 +5349,61 @@
                 ],
                 "src": "DGT guidance"
               }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "La DGT lo resume así. Los elementos de **seguridad activa** los usa el conductor para evitar el accidente: frenos, ruedas, luces, control de tracción y de estabilidad. Los de **seguridad pasiva** funcionan solos: chasis y carrocería, cinturón, airbags, reposacabezas y casco.",
+                "en": "The DGT sums it up like this. The driver uses **active safety** items to avoid the crash: brakes, wheels, lights, traction and stability control. **Passive safety** items work by themselves: chassis and bodywork, seat belt, airbags, head restraint and helmet."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c4s",
+                "answer": 1,
+                "es": {
+                  "q": "¿Cuál de estos grupos reúne solo elementos de seguridad pasiva?",
+                  "options": [
+                    "Airbag, cinturón, frenos y neumáticos",
+                    "Casco, reposacabezas, cinturón y airbag",
+                    "Control de estabilidad, luces y frenos"
+                  ],
+                  "why": "Cinturón, airbag, reposacabezas y casco reducen el daño cuando el choque ya ha ocurrido: son pasivos. Frenos, neumáticos, luces y control de estabilidad ayudan a evitarlo: son activos."
+                },
+                "exam": {
+                  "q": "Which of these groups gathers only elements of passive safety?",
+                  "options": [
+                    "Airbag, belt, brakes and tyres.",
+                    "Helmet, head restraint, belt and airbag.",
+                    "Control of stability, lights and brakes."
+                  ]
+                },
+                "en": {
+                  "q": "Which of these groups contains only passive safety items?",
+                  "options": [
+                    "Airbag, seat belt, brakes and tires",
+                    "Helmet, head restraint, seat belt and airbag",
+                    "Stability control, lights and brakes"
+                  ],
+                  "why": "Seat belt, airbag, head restraint and helmet reduce harm once the crash has happened: they are passive. Brakes, tires, lights and stability control help avoid it: they are active."
+                },
+                "terms": [
+                  {
+                    "es": "seguridad pasiva",
+                    "en": "passive safety"
+                  },
+                  {
+                    "es": "seguridad activa",
+                    "en": "active safety"
+                  },
+                  {
+                    "es": "reposacabezas",
+                    "en": "head restraint"
+                  }
+                ],
+                "src": "DGT guidance (Teórica abreviada, lectura fácil, DGT 2023, tema 5)"
+              }
             }
           ]
         },
@@ -5291,6 +5699,50 @@
                 ],
                 "src": "DGT guidance"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c4t",
+                "answer": 2,
+                "es": {
+                  "q": "¿Qué diferencia hay entre el aviso de salida de carril (LDW) y el mantenimiento de carril (LKA)?",
+                  "options": [
+                    "El LDW frena el coche; el LKA solo avisa con un sonido.",
+                    "Los dos avisan, pero el LKA solo funciona en autopista.",
+                    "El LDW avisa; el LKA corrige la dirección del coche."
+                  ],
+                  "why": "El LDW avisa cuando el coche abandona su carril sin haber puesto el intermitente. El LKA, que suele actuar después de ese aviso, ayuda a mantener el coche dentro del carril."
+                },
+                "exam": {
+                  "q": "What difference is there between the lane departure warning (LDW) and the lane keeping (LKA)?",
+                  "options": [
+                    "The LDW brakes the car; the LKA only warns with a sound.",
+                    "Both warn, but the LKA only works on motorway.",
+                    "The LDW warns; the LKA corrects the direction of the car."
+                  ]
+                },
+                "en": {
+                  "q": "What is the difference between lane departure warning (LDW) and lane keeping assist (LKA)?",
+                  "options": [
+                    "LDW brakes the car; LKA only gives a warning sound",
+                    "Both warn, but LKA only works on motorways",
+                    "LDW warns; LKA corrects the car’s steering"
+                  ],
+                  "why": "LDW warns when the car leaves its lane without the turn signal on. LKA, which usually acts after that warning, helps keep the car inside the lane."
+                },
+                "terms": [
+                  {
+                    "es": "salida de carril",
+                    "en": "lane departure"
+                  },
+                  {
+                    "es": "mantenimiento de carril",
+                    "en": "lane keeping"
+                  }
+                ],
+                "src": "DGT guidance (Manual II, Cuestiones de Seguridad Vial, DGT 2026, UD8); DGT guidance (Instrucción COND 2024/12, ADAS en las pruebas de aptitud, dgt.es, 2024)"
+              }
             }
           ]
         },
@@ -5378,6 +5830,36 @@
                   {
                     "es": "Registra datos como la velocidad y la frenada justo antes, durante y después de un accidente. No graba imágenes ni sonido",
                     "en": "Records data such as speed and braking just before, during and after a crash. It records no images or sound"
+                  }
+                ],
+                [
+                  {
+                    "es": "TSR, reconocimiento de señales",
+                    "en": "TSR, traffic sign recognition"
+                  },
+                  {
+                    "es": "Una cámara reconoce las señales principales y las muestra en el cuadro. El pasivo solo informa; el activo puede llegar a frenar o acelerar",
+                    "en": "A camera reads the main signs and shows them on the dashboard. The passive kind only informs; the active kind can even brake or accelerate"
+                  }
+                ],
+                [
+                  {
+                    "es": "Encendido automático de luces y limpiaparabrisas",
+                    "en": "Automatic lights and wipers"
+                  },
+                  {
+                    "es": "Un sensor detecta que baja la visibilidad o que llueve y los pone en marcha",
+                    "en": "A sensor detects that visibility is dropping or that it is raining and switches them on"
+                  }
+                ],
+                [
+                  {
+                    "es": "Cámara 360°",
+                    "en": "360° camera"
+                  },
+                  {
+                    "es": "Junta las imágenes de varias cámaras alrededor del coche y muestra en la pantalla una vista desde arriba",
+                    "en": "Combines images from several cameras around the car and shows a view from above on the screen"
                   }
                 ]
               ]
@@ -5652,6 +6134,138 @@
                 ],
                 "src": "DGT guidance (Sistemas avanzados de ayuda a la conducción (ADAS), dgt.es, 2026); revista DGT 2019"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c4u",
+                "answer": 1,
+                "es": {
+                  "q": "¿Cómo sabe el sistema de encendido automático de luces cuándo debe activarlas?",
+                  "options": [
+                    "Con un reloj que calcula la hora de la puesta de sol",
+                    "Con un sensor que detecta que baja la visibilidad",
+                    "Con la señal del navegador al llegar a un túnel"
+                  ],
+                  "why": "Un sensor detecta que disminuye la visibilidad y enciende las luces; otro hace lo mismo con el limpiaparabrisas cuando llueve. Si no se activan cuando hace falta, enciéndelos tú."
+                },
+                "exam": {
+                  "q": "How does the system of automatic switching-on of lights know when it must activate them?",
+                  "options": [
+                    "With a clock that calculates the hour of the sunset.",
+                    "With a sensor that detects that the visibility goes down.",
+                    "With the signal of the navigator on arriving at a tunnel."
+                  ]
+                },
+                "en": {
+                  "q": "How does an automatic headlight system know when to switch the lights on?",
+                  "options": [
+                    "With a clock that works out the time of sunset",
+                    "With a sensor that detects falling visibility",
+                    "With a signal from the navigation system at a tunnel"
+                  ],
+                  "why": "A sensor detects that visibility is dropping and turns on the lights; another does the same with the wipers when it rains. If they do not come on when needed, switch them on yourself."
+                },
+                "terms": [
+                  {
+                    "es": "sensor",
+                    "en": "sensor"
+                  },
+                  {
+                    "es": "limpiaparabrisas",
+                    "en": "windshield wipers"
+                  }
+                ],
+                "src": "DGT guidance (Manual II, Cuestiones de Seguridad Vial, DGT 2026, UD8); DGT guidance (Instrucción COND 2024/12, ADAS en las pruebas de aptitud, dgt.es, 2024)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c4v",
+                "answer": 2,
+                "es": {
+                  "q": "Sale marcha atrás de una plaza en batería y el coche pita porque por un lado se acerca otro vehículo. ¿Qué sistema avisa?",
+                  "options": [
+                    "El aviso de salida de carril (LDW)",
+                    "El detector de ángulo muerto del retrovisor (BSM)",
+                    "La alerta de tráfico cruzado trasero (RCTA)"
+                  ],
+                  "why": "El RCTA vigila el tráfico que cruza por detrás cuando sales marcha atrás de una plaza en batería. Avisa con un sonido o en la pantalla o los retrovisores."
+                },
+                "exam": {
+                  "q": "You leave in reverse from a space in battery and the car beeps because another vehicle approaches from one side. Which system warns?",
+                  "options": [
+                    "The lane departure warning (LDW).",
+                    "The blind angle detector of the rear-view mirror (BSM).",
+                    "The rear crossed traffic alert (RCTA)."
+                  ]
+                },
+                "en": {
+                  "q": "You are backing out of an angled parking space and the car beeps because a vehicle is coming from one side. Which system is warning you?",
+                  "options": [
+                    "Lane departure warning (LDW)",
+                    "The mirror’s blind-spot monitor (BSM)",
+                    "Rear cross-traffic alert (RCTA)"
+                  ],
+                  "why": "RCTA watches traffic crossing behind you as you back out of an angled space. It warns with a sound, or on the screen or the mirrors."
+                },
+                "terms": [
+                  {
+                    "es": "aparcamiento en batería",
+                    "en": "angled (side-by-side) parking"
+                  },
+                  {
+                    "es": "tráfico cruzado",
+                    "en": "cross traffic"
+                  }
+                ],
+                "src": "DGT guidance (Manual II, Cuestiones de Seguridad Vial, DGT 2026, UD8); DGT guidance (Instrucción COND 2024/12, ADAS en las pruebas de aptitud, dgt.es, 2024)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c4w",
+                "answer": 0,
+                "es": {
+                  "q": "La imagen cenital del coche, vista desde lo alto, que ofrece la cámara 360° se obtiene…",
+                  "options": [
+                    "con cámaras repartidas por la carrocería.",
+                    "con la señal de un satélite de navegación.",
+                    "con los datos del GPS y del mapa del navegador."
+                  ],
+                  "why": "El sistema une las imágenes de varias cámaras situadas alrededor del coche y simula en la pantalla una vista desde arriba. Aun así, mira tú antes de mover el coche."
+                },
+                "exam": {
+                  "q": "The overhead image of the car, seen from high up, that the 360° camera offers is obtained…",
+                  "options": [
+                    "with cameras distributed around the bodywork.",
+                    "with the signal of a navigation satellite.",
+                    "with the data of the GPS and of the map of the navigator."
+                  ]
+                },
+                "en": {
+                  "q": "The overhead image of the car that a 360° camera gives you comes from…",
+                  "options": [
+                    "cameras placed around the bodywork",
+                    "a navigation satellite’s signal",
+                    "GPS data and the navigation map"
+                  ],
+                  "why": "The system joins images from several cameras around the car and simulates a view from above on the screen. Even so, look for yourself before moving the car."
+                },
+                "terms": [
+                  {
+                    "es": "cámara 360°",
+                    "en": "360° camera"
+                  },
+                  {
+                    "es": "carrocería",
+                    "en": "bodywork"
+                  }
+                ],
+                "src": "DGT guidance (Instrucción COND 2024/12, ADAS en las pruebas de aptitud, dgt.es, 2024)"
+              }
             }
           ]
         },
@@ -5714,6 +6328,212 @@
                   }
                 ],
                 "src": "LSV art. 13.1 y 13.2"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Las ayudas en el examen práctico",
+            "en": "Driver aids on the driving test"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "En el examen práctico, la DGT solo admite los ADAS que recoge su **Instrucción COND 2024/12**. Si el coche lleva otros, se desconectan durante la prueba.",
+                "en": "On the practical test, the DGT only accepts the ADAS listed in its **Instruction COND 2024/12**. If the car has others, they are switched off during the test."
+              }
+            },
+            {
+              "t": "table",
+              "head": [
+                {
+                  "es": "En el examen",
+                  "en": "On the test"
+                },
+                {
+                  "es": "Sistemas",
+                  "en": "Systems"
+                }
+              ],
+              "rows": [
+                [
+                  {
+                    "es": "Admitidos (entre otros)",
+                    "en": "Accepted (among others)"
+                  },
+                  {
+                    "es": "Frenada de emergencia (AEB), Hill Holder, control de presión de neumáticos, ángulo muerto, aviso y mantenimiento de carril, cámaras y sensores de marcha atrás, Start-Stop",
+                    "en": "Emergency braking (AEB), Hill Holder, tire-pressure monitoring, blind spot, lane departure and lane keeping, reversing cameras and sensors, Start-Stop"
+                  }
+                ],
+                [
+                  {
+                    "es": "Con condiciones",
+                    "en": "With conditions"
+                  },
+                  {
+                    "es": "TSR, solo el pasivo, que informa. ISA, con desconectada la función que controla la velocidad",
+                    "en": "TSR, only the passive kind, which informs. ISA, with its speed-control function switched off"
+                  }
+                ],
+                [
+                  {
+                    "es": "No admitidos",
+                    "en": "Not accepted"
+                  },
+                  {
+                    "es": "Aparcamiento totalmente automático; TSR activo, que frena o acelera",
+                    "en": "Fully automatic parking; active TSR, which brakes or accelerates"
+                  }
+                ]
+              ]
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Si la frenada de emergencia actúa bien para evitar un accidente, el examinador lo valora **como si hubiera intervenido el profesor**.",
+                "en": "If the emergency braking acts correctly to avoid a crash, the examiner treats it **as if the instructor had stepped in**."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Fuera del examen, que un sistema se pueda apagar **depende del sistema y del fabricante**. La función del ISA que controla la velocidad siempre se puede desconectar, pero vuelve a activarse con cada arranque.",
+                "en": "Outside the test, whether a system can be switched off **depends on the system and the maker**. The ISA function that controls speed can always be switched off, but it comes back on every time you start the car."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c4x",
+                "answer": 0,
+                "es": {
+                  "q": "En el examen práctico, la frenada de emergencia (AEB) del coche actúa y evita un choque. ¿Cómo lo valora el examinador?",
+                  "options": [
+                    "Como si hubiera intervenido el profesor",
+                    "No lo valora, porque el sistema está admitido",
+                    "Anula la prueba, porque el AEB no está permitido"
+                  ],
+                  "why": "El AEB está admitido en el examen. Si actúa de forma correcta para evitar un accidente, el examinador lo califica como una intervención del profesor."
+                },
+                "exam": {
+                  "q": "In the practical exam, the emergency braking (AEB) of the car acts and avoids a crash. How does the examiner assess it?",
+                  "options": [
+                    "As if the teacher had intervened.",
+                    "He does not assess it, because the system is admitted.",
+                    "He annuls the test, because the AEB is not permitted."
+                  ]
+                },
+                "en": {
+                  "q": "On the practical test, the car’s emergency braking (AEB) kicks in and prevents a crash. How does the examiner treat it?",
+                  "options": [
+                    "As if the instructor had stepped in",
+                    "Not at all, because the system is accepted",
+                    "The test is void, because AEB is not allowed"
+                  ],
+                  "why": "AEB is accepted on the test. If it acts correctly to avoid a crash, the examiner grades it as an intervention by the instructor."
+                },
+                "terms": [
+                  {
+                    "es": "examen práctico",
+                    "en": "practical (road) test"
+                  },
+                  {
+                    "es": "examinador",
+                    "en": "examiner"
+                  }
+                ],
+                "src": "DGT guidance (Instrucción COND 2024/12, ADAS en las pruebas de aptitud, dgt.es, 2024)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c4y",
+                "answer": 0,
+                "es": {
+                  "q": "¿Cuál de estos sistemas NO se admite en el examen práctico del permiso de conducción?",
+                  "options": [
+                    "El aparcamiento totalmente automático",
+                    "El asistente de salida en pendiente (Hill Holder)",
+                    "El control de presión de los neumáticos (TPMS)"
+                  ],
+                  "why": "Están admitidos, entre otros, el Hill Holder, el control de presión de neumáticos y la frenada de emergencia. No lo está el aparcamiento en el que el coche maniobra solo, ni el TSR activo."
+                },
+                "exam": {
+                  "q": "Which of these systems is NOT admitted in the practical exam of the driving permit?",
+                  "options": [
+                    "The totally automatic parking.",
+                    "The assistant of start on slope (Hill Holder).",
+                    "The control of pressure of the tyres (TPMS)."
+                  ]
+                },
+                "en": {
+                  "q": "Which of these systems is NOT accepted on the practical driving test?",
+                  "options": [
+                    "Fully automatic parking",
+                    "Hill start assist (Hill Holder)",
+                    "Tire-pressure monitoring (TPMS)"
+                  ],
+                  "why": "Accepted systems include Hill Holder, tire-pressure monitoring and emergency braking. Parking where the car maneuvers by itself is not accepted, nor is active TSR."
+                },
+                "terms": [
+                  {
+                    "es": "aparcamiento automático",
+                    "en": "automatic parking"
+                  },
+                  {
+                    "es": "admitir",
+                    "en": "to accept, allow"
+                  }
+                ],
+                "src": "DGT guidance (Instrucción COND 2024/12, ADAS en las pruebas de aptitud, dgt.es, 2024)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c4z",
+                "answer": 1,
+                "es": {
+                  "q": "¿Puede el conductor desconectar los ADAS de su vehículo?",
+                  "options": [
+                    "No, ninguno se puede desconectar.",
+                    "Depende del sistema y del fabricante.",
+                    "Sí, todos, y quedan apagados para siempre."
+                  ],
+                  "why": "Según la DGT, según la marca un sistema puede anularse a mano o no. La función del ISA que controla la velocidad siempre se puede desconectar, pero se activa de nuevo con cada arranque."
+                },
+                "exam": {
+                  "q": "Can the driver disconnect the ADAS of his vehicle?",
+                  "options": [
+                    "No, none can be disconnected.",
+                    "It depends on the system and on the manufacturer.",
+                    "Yes, all, and they remain switched off forever."
+                  ]
+                },
+                "en": {
+                  "q": "Can a driver switch off the ADAS in their vehicle?",
+                  "options": [
+                    "No, none of them can be switched off",
+                    "It depends on the system and the maker",
+                    "Yes, all of them, and they stay off for good"
+                  ],
+                  "why": "According to the DGT, depending on the make a system may or may not be overridden by hand. The ISA function that controls speed can always be switched off, but it comes back on with every start."
+                },
+                "terms": [
+                  {
+                    "es": "desconectar",
+                    "en": "to switch off, disconnect"
+                  },
+                  {
+                    "es": "fabricante",
+                    "en": "manufacturer"
+                  }
+                ],
+                "src": "DGT guidance (Manual II, Cuestiones de Seguridad Vial, DGT 2026, UD8); DGT guidance (Instrucción COND 2024/12, ADAS en las pruebas de aptitud, dgt.es, 2024)"
               }
             }
           ]
@@ -5920,7 +6740,10 @@
         "Ley de Tráfico (RDL 6/2015), art. 13",
         "DGT (dgt.es): ayudas avanzadas a la conducción (ADAS), clasificación de seguridad de los vehículos y vehículos de conducción asistida",
         "DGT guidance (Sistemas avanzados de ayuda a la conducción (ADAS), dgt.es, 2026)",
-        "DGT guidance (revista DGT): Los vehículos para los exámenes, con ADAS (2019); ADAS para camiones y autobuses (2025)"
+        "DGT guidance (revista DGT): Los vehículos para los exámenes, con ADAS (2019); ADAS para camiones y autobuses (2025)",
+        "DGT guidance (Instrucción COND 2024/12, ADAS en las pruebas de aptitud, dgt.es, 2024)",
+        "DGT guidance (Manual II, Cuestiones de Seguridad Vial, DGT 2026, UD8)",
+        "DGT guidance (Teórica abreviada, lectura fácil, DGT 2023, tema 5)"
       ]
     },
     {

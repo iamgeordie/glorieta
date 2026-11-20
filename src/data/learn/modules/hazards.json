@@ -3359,6 +3359,114 @@
                 ],
                 "src": "RGC arts. 132.1 y 36.1"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c4w",
+                "answer": 2,
+                "es": {
+                  "q": "Fuera de poblado, un peatón camina por la derecha de la carretera porque en el lado izquierdo hay una curva sin visibilidad. ¿Puede hacerlo?",
+                  "options": [
+                    "No, fuera de poblado siempre debe ir por la izquierda.",
+                    "Sí, porque el peatón elige siempre el lado.",
+                    "Sí, cuando razones de seguridad lo justifican."
+                  ],
+                  "why": "La regla general es la izquierda, de frente a los coches. Pero el peatón puede ir por la derecha si hay razones de seguridad que lo justifican."
+                },
+                "exam": {
+                  "q": "Outside the town, a pedestrian walks on the right of the road because on the left side there is a bend without visibility. Can he do so?",
+                  "options": [
+                    "No, outside the town he must always go on the left.",
+                    "Yes, because the pedestrian always chooses the side.",
+                    "Yes, when reasons of safety justify it."
+                  ]
+                },
+                "en": {
+                  "q": "Outside a town, a pedestrian walks on the right of the road because the left side has a blind bend. Is that allowed?",
+                  "options": [
+                    "No, outside towns they must always keep left",
+                    "Yes, because pedestrians may always pick the side",
+                    "Yes, when safety reasons justify it"
+                  ],
+                  "why": "The general rule is the left, facing the traffic. But a pedestrian may walk on the right when safety reasons justify it."
+                },
+                "terms": [
+                  {
+                    "es": "fuera de poblado",
+                    "en": "outside built-up areas"
+                  },
+                  {
+                    "es": "peatón",
+                    "en": "pedestrian"
+                  },
+                  {
+                    "es": "razones de seguridad",
+                    "en": "safety reasons"
+                  }
+                ],
+                "src": "RGC art. 122.1"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "También son **peatones** quien empuja un **coche de niño** o de una persona con discapacidad u otro vehículo sin motor pequeño, y la persona con discapacidad que va **al paso** en una **silla de ruedas**, con o sin motor.",
+                "en": "People who push a **stroller** or a disabled person's chair, or another small vehicle with no motor, also count as **pedestrians**. So does a person with a disability moving **at walking pace** in a **wheelchair**, powered or not."
+              },
+              "src": "LSV Anexo I.4"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c4x",
+                "answer": 0,
+                "es": {
+                  "q": "Una persona en silla de ruedas eléctrica, al paso, recorre una carretera sin acera ni zona peatonal. El arcén es transitable. ¿Por dónde debe ir?",
+                  "options": [
+                    "Por el arcén, con precaución.",
+                    "Por el centro de su carril, para que la vean.",
+                    "No puede usar esa carretera: debe buscar otra con acera."
+                  ],
+                  "why": "Va al paso en silla de ruedas, así que es un peatón. Si no hay zona peatonal, usa el arcén; si no hay arcén transitable, la parte de la calzada que necesite, con precaución."
+                },
+                "exam": {
+                  "q": "A person in an electric wheelchair, at walking pace, travels along a road without pavement nor pedestrian zone. The hard shoulder is passable. Where must she go?",
+                  "options": [
+                    "By the hard shoulder, with caution.",
+                    "By the centre of her lane, so that they see her.",
+                    "She cannot use that road: she must look for another one with pavement."
+                  ]
+                },
+                "en": {
+                  "q": "A person in a powered wheelchair, at walking pace, is traveling along a road with no sidewalk or pedestrian area. The shoulder is usable. Where should they go?",
+                  "options": [
+                    "On the shoulder, with care",
+                    "In the middle of the lane, so they are seen",
+                    "They may not use that road: they must find one with a sidewalk"
+                  ],
+                  "why": "At walking pace in a wheelchair, they are a pedestrian. With no pedestrian area they use the shoulder; with no usable shoulder, the part of the roadway they need, with care."
+                },
+                "terms": [
+                  {
+                    "es": "silla de ruedas",
+                    "en": "wheelchair"
+                  },
+                  {
+                    "es": "al paso",
+                    "en": "at walking pace"
+                  },
+                  {
+                    "es": "arcén transitable",
+                    "en": "usable shoulder"
+                  },
+                  {
+                    "es": "zona peatonal",
+                    "en": "pedestrian area"
+                  }
+                ],
+                "src": "LSV Anexo I.4; RGC art. 152.2"
+              }
             }
           ]
         },
@@ -3911,6 +4019,61 @@
                 ],
                 "src": "DGT, Manual II Cuestiones de seguridad vial (2026), UD3, ap. 4.2"
               }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "El Manual II de la DGT (2026) resume por qué los niños tienen accidentes como peatones: **imprudencia**, **no conocen bien las normas** (señales, prioridades, lugares peligrosos) y límites de vista, oído y atención. Además, un niño que ve un coche suele creer que el conductor también le ve a él.",
+                "en": "The DGT's Manual II (2026) sums up why children have crashes as pedestrians: **recklessness**, **not knowing the rules well** (signs, priorities, dangerous places) and limits in sight, hearing and attention. And a child who sees a car often believes the driver sees them too."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c4y",
+                "answer": 1,
+                "es": {
+                  "q": "Según la DGT, una de las causas de que los niños sufran atropellos es que…",
+                  "options": [
+                    "ven mejor que los adultos por los lados y se confían.",
+                    "no conocen bien las normas ni saben cómo actuar en la calle.",
+                    "cruzan siempre por los pasos de peatones."
+                  ],
+                  "why": "Los niños no conocen bien las señales ni las prioridades, y creen que si ven el coche el conductor también los ve. Por eso debes anticiparte tú."
+                },
+                "exam": {
+                  "q": "According to the DGT, one of the causes for which children suffer being run over is that…",
+                  "options": [
+                    "they see better than adults on the sides and become overconfident.",
+                    "they do not know the rules well nor how to act in the street.",
+                    "they always cross by the pedestrian crossings."
+                  ]
+                },
+                "en": {
+                  "q": "According to the DGT, one reason children get hit by cars is that…",
+                  "options": [
+                    "they see better than adults to the sides and get overconfident.",
+                    "they do not know the rules well or how to behave in the street.",
+                    "they always cross at pedestrian crossings."
+                  ],
+                  "why": "Children do not know signs and priorities well, and they think that if they see the car, the driver sees them. That is why you have to anticipate."
+                },
+                "terms": [
+                  {
+                    "es": "atropello",
+                    "en": "being hit by a vehicle"
+                  },
+                  {
+                    "es": "normas",
+                    "en": "rules"
+                  },
+                  {
+                    "es": "anticiparse",
+                    "en": "to anticipate"
+                  }
+                ],
+                "src": "DGT, Manual II Cuestiones de seguridad vial (2026), UD3, ap. 4.2"
+              }
             }
           ]
         },
@@ -4202,7 +4365,8 @@
         "Reglamento General de Circulación (RD 1428/2003), arts. 123, 124 y 127",
         "Ley de Tráfico (RDL 6/2015), art. 50",
         "DGT guidance (temario ESTT OEP 2021, parte 1, tema 2, rev. 2022)",
-        "DGT, Manual II Cuestiones de seguridad vial (2026), UD3, aps. 4.1 a 4.3"
+        "DGT, Manual II Cuestiones de seguridad vial (2026), UD3, aps. 4.1 a 4.3",
+        "Ley de Tráfico (RDL 6/2015), Anexo I.4 (peatón)"
       ]
     },
     {
@@ -4700,6 +4864,61 @@
                 ],
                 "src": "RGC art. 110.2.b; DGT, Manual II Cuestiones de seguridad vial (2026), UD3, ap. 5.1"
               }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "El Manual II de la DGT (2026) avisa de otro caso: si hay **coches parados u obstáculos** delante de un ciclista, cuenta con que se aparte de golpe hacia el centro de la calzada. Pasa lo mismo en estrechamientos, en puentes y con rachas de viento.",
+                "en": "The DGT's Manual II (2026) warns of another case: if there are **stopped cars or obstacles** ahead of a cyclist, expect them to swing out suddenly toward the middle of the road. The same happens at narrowings, on bridges and in gusts of wind."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c5u",
+                "answer": 1,
+                "es": {
+                  "q": "Un ciclista circula por el arcén y, unos metros más adelante, hay una furgoneta parada en ese arcén. ¿Qué es lo más prudente?",
+                  "options": [
+                    "Mantener la velocidad, porque el ciclista tendrá que esperar detrás de la furgoneta.",
+                    "Moderar la velocidad, porque el ciclista puede salir de pronto hacia la calzada.",
+                    "Tocar el claxon al pasar a su lado, para que no se mueva del arcén."
+                  ],
+                  "why": "Ante un obstáculo, el ciclista suele apartarse hacia la calzada sin mucho aviso. Modera la velocidad y deja espacio antes de llegar a su altura."
+                },
+                "exam": {
+                  "q": "A cyclist circulates by the hard shoulder and, some metres further on, there is a van stopped on that hard shoulder. What is the most prudent?",
+                  "options": [
+                    "To maintain the speed, because the cyclist will have to wait behind the van.",
+                    "To moderate the speed, because the cyclist can come out suddenly towards the carriageway.",
+                    "To sound the horn when passing beside him, so that he does not move from the hard shoulder."
+                  ]
+                },
+                "en": {
+                  "q": "A cyclist is riding on the shoulder, and a few meters ahead a van is stopped on that shoulder. What is the most prudent thing to do?",
+                  "options": [
+                    "Keep your speed, because the cyclist will have to wait behind the van",
+                    "Slow down, because the cyclist may suddenly move out into the roadway",
+                    "Honk as you pass them, so they stay on the shoulder"
+                  ],
+                  "why": "Faced with an obstacle, a cyclist usually swings out into the roadway with little warning. Slow down and leave room before you draw level."
+                },
+                "terms": [
+                  {
+                    "es": "arcén",
+                    "en": "hard shoulder"
+                  },
+                  {
+                    "es": "moderar la velocidad",
+                    "en": "to slow down"
+                  },
+                  {
+                    "es": "obstáculo",
+                    "en": "obstacle"
+                  }
+                ],
+                "src": "DGT, Manual II Cuestiones de seguridad vial (2026), UD3, ap. 5.1; RGC art. 46.1"
+              }
             }
           ]
         },
@@ -4857,6 +5076,102 @@
                   }
                 ],
                 "src": "DGT guidance (Guía para monitores de cursos de conducción segura y eficiente de turismos, dgt.es, 2023)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c5t",
+                "answer": 1,
+                "es": {
+                  "q": "Va a recorrer en ciclomotor unos pocos metros por una calle de su pueblo. ¿Puede llevar el casco puesto pero sin abrochar?",
+                  "options": [
+                    "Sí, en vías urbanas basta con llevarlo puesto.",
+                    "No.",
+                    "Sí, cuando el trayecto es de pocos metros."
+                  ],
+                  "why": "El casco va homologado y bien abrochado en todo tipo de vías, también en ciudad y en trayectos cortos. Sin abrochar puede salir despedido en el primer golpe."
+                },
+                "exam": {
+                  "q": "You are going to travel by moped a few metres along a street of your town. Can you wear the helmet put on but without fastening?",
+                  "options": [
+                    "Yes, on urban roads it is enough to wear it put on.",
+                    "No.",
+                    "Yes, when the journey is of few metres."
+                  ]
+                },
+                "en": {
+                  "q": "You are about to ride a moped a few meters down a street in your town. May you wear the helmet without fastening it?",
+                  "options": [
+                    "Yes, on urban roads it is enough to have it on",
+                    "No.",
+                    "Yes, when the trip is only a few meters"
+                  ],
+                  "why": "The helmet must be approved and properly fastened on every kind of road, in town and on short trips too. Unfastened, it can fly off at the first impact."
+                },
+                "terms": [
+                  {
+                    "es": "casco",
+                    "en": "helmet"
+                  },
+                  {
+                    "es": "abrochado",
+                    "en": "fastened"
+                  },
+                  {
+                    "es": "ciclomotor",
+                    "en": "moped"
+                  }
+                ],
+                "src": "RGC art. 118.1.a; DGT, Manual II Cuestiones de seguridad vial (2026), UD2, aps. 4.5 y 4.6"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c5s",
+                "answer": 0,
+                "es": {
+                  "q": "Una moto lleva estructuras de autoprotección y cinturones, como indica su tarjeta ITV. Quien la conduce debe abrocharse el cinturón…",
+                  "options": [
+                    "en todo tipo de vías.",
+                    "solo en vías interurbanas y travesías.",
+                    "solo cuando circule sin casco por autopista."
+                  ],
+                  "why": "Esas motos y ciclomotores quedan exentos de casco, guantes y calzado cerrado. A cambio, conductor y pasajero usan el cinturón en todo tipo de vías."
+                },
+                "exam": {
+                  "q": "A motorcycle carries structures of self-protection and belts, as its ITV card indicates. Whoever drives it must fasten the belt…",
+                  "options": [
+                    "on all types of roads.",
+                    "only on interurban roads and crossings through towns.",
+                    "only when he circulates without helmet on a motorway."
+                  ]
+                },
+                "en": {
+                  "q": "A motorcycle is built with a protective cell and belts, as its inspection card shows. Its rider must buckle up…",
+                  "options": [
+                    "on every kind of road.",
+                    "only on intercity roads and through-roads.",
+                    "only when riding without a helmet on a motorway."
+                  ],
+                  "why": "These motorcycles and mopeds are exempt from the helmet, gloves and closed footwear. In return, rider and passenger wear the belt on every kind of road."
+                },
+                "terms": [
+                  {
+                    "es": "estructura de autoprotección",
+                    "en": "self-protection structure"
+                  },
+                  {
+                    "es": "cinturón de seguridad",
+                    "en": "seat belt"
+                  },
+                  {
+                    "es": "tarjeta ITV",
+                    "en": "vehicle inspection card"
+                  }
+                ],
+                "src": "RGC art. 118.1"
               }
             }
           ]
@@ -5314,6 +5629,110 @@
                 ],
                 "src": "RGV Anexo XXI (redacción en vigor desde el 30-1-2026)"
               }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Un VMP solo puede llevar **asiento o sillín** si tiene sistema de **autoequilibrado**. La definición excluye los VMP con sillín y sin autoequilibrado, los de competición y los **vehículos para personas con movilidad reducida**.",
+                "en": "A VMP may have a **seat or saddle** only if it has a **self-balancing** system. The definition leaves out saddled VMPs without self-balancing, competition vehicles and **vehicles for people with reduced mobility**."
+              },
+              "src": "RGV Anexo II (definición de vehículo de movilidad personal)"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c5q",
+                "answer": 1,
+                "es": {
+                  "q": "Un patinete eléctrico lleva sillín y no tiene sistema de autoequilibrado. ¿Es un vehículo de movilidad personal?",
+                  "options": [
+                    "Sí, porque tiene motor eléctrico y una sola plaza.",
+                    "No, la definición de VMP lo excluye.",
+                    "Sí, si su velocidad máxima no supera 25 km/h."
+                  ],
+                  "why": "Un VMP solo puede tener asiento o sillín si es autoequilibrado. La definición también deja fuera los vehículos para personas con movilidad reducida."
+                },
+                "exam": {
+                  "q": "An electric scooter carries a saddle and does not have a self-balancing system. Is it a personal mobility vehicle?",
+                  "options": [
+                    "Yes, because it has an electric motor and only one seat.",
+                    "No, the definition of VMP excludes it.",
+                    "Yes, if its maximum speed is not over 25 km/h."
+                  ]
+                },
+                "en": {
+                  "q": "An e-scooter has a saddle and no self-balancing system. Is it a personal mobility vehicle (VMP)?",
+                  "options": [
+                    "Yes, because it has an electric motor and one seat",
+                    "No, the VMP definition leaves it out",
+                    "Yes, if its top speed is 25 km/h or less"
+                  ],
+                  "why": "A VMP may have a seat or saddle only if it is self-balancing. The definition also leaves out vehicles for people with reduced mobility."
+                },
+                "terms": [
+                  {
+                    "es": "sillín",
+                    "en": "saddle"
+                  },
+                  {
+                    "es": "autoequilibrado",
+                    "en": "self-balancing"
+                  },
+                  {
+                    "es": "vehículo de movilidad personal (VMP)",
+                    "en": "personal mobility vehicle"
+                  }
+                ],
+                "src": "RGV Anexo II (definición de vehículo de movilidad personal)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c5r",
+                "answer": 2,
+                "es": {
+                  "q": "¿Puede circular por la acera con un patinete eléctrico (VMP) si va despacio y no hay peatones?",
+                  "options": [
+                    "Sí, si va al paso de una persona.",
+                    "Sí, cuando en esa calle no hay carril bici.",
+                    "No."
+                  ],
+                  "why": "La acera es para los peatones y ningún vehículo puede circular por ella, tampoco un VMP. Busca las vías y zonas donde tu ayuntamiento permite los VMP."
+                },
+                "exam": {
+                  "q": "Can you circulate on the pavement with an electric scooter (VMP) if you go slowly and there are no pedestrians?",
+                  "options": [
+                    "Yes, if you go at the pace of a person.",
+                    "Yes, when in that street there is no bicycle lane.",
+                    "No."
+                  ]
+                },
+                "en": {
+                  "q": "May you ride an e-scooter (VMP) on the sidewalk if you go slowly and there are no pedestrians?",
+                  "options": [
+                    "Yes, at walking pace",
+                    "Yes, if that street has no bike lane",
+                    "No."
+                  ],
+                  "why": "The sidewalk is for pedestrians, and no vehicle may use it, a VMP included. Use the roads and areas where your town council allows VMPs."
+                },
+                "terms": [
+                  {
+                    "es": "acera",
+                    "en": "sidewalk (pavement)"
+                  },
+                  {
+                    "es": "patinete eléctrico",
+                    "en": "e-scooter"
+                  },
+                  {
+                    "es": "carril bici",
+                    "en": "bike lane"
+                  }
+                ],
+                "src": "RGC arts. 152.1 y 155.1"
+              }
             }
           ]
         }
@@ -5351,7 +5770,9 @@
         "Reglamento General de Circulación (RD 1428/2003), art. 118",
         "DGT guidance (dgt.es): en moto",
         "Reglamento General de Circulación (RD 1428/2003), art. 110",
-        "DGT, Manual II Cuestiones de seguridad vial (2026), UD3, ap. 5.1"
+        "DGT, Manual II Cuestiones de seguridad vial (2026), UD3, ap. 5.1",
+        "DGT, Manual II Cuestiones de seguridad vial (2026), UD2, aps. 4.5 y 4.6",
+        "Reglamento General de Circulación (RD 1428/2003), art. 152.1"
       ]
     },
     {
@@ -6978,6 +7399,75 @@
                 ],
                 "src": "RGC art. 118.4"
               }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "En **vías interurbanas**, quien va en bicicleta o en otro ciclo, y su ocupante si lo hay, lleva casco homologado o certificado, bien abrochado. Los menores de **16** lo llevan en todo tipo de vías.",
+                "en": "On **intercity roads**, anyone riding a bicycle or other cycle, and any passenger, wears an approved or certified helmet, properly fastened. Riders under **16** wear one on every kind of road."
+              },
+              "src": "RGC art. 118.2"
+            },
+            {
+              "t": "new",
+              "since": "2026-10-01",
+              "was": {
+                "es": "En vías interurbanas, el ciclista podía ir sin casco en **rampas ascendentes prolongadas**, por razones médicas acreditadas o con **calor extremo**.",
+                "en": "On intercity roads, a cyclist could ride without a helmet on **long uphill climbs**, for certified medical reasons or in **extreme heat**."
+              },
+              "now": {
+                "es": "Esas **exenciones se han suprimido**: en vías interurbanas todo ciclista lleva casco, también en una subida larga o con mucho calor.",
+                "en": "Those **exemptions are gone**: on intercity roads every cyclist wears a helmet, on a long climb or in great heat too."
+              },
+              "src": "RGC art. 118.2; RD 518/2026, preámbulo"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c9i",
+                "answer": 0,
+                "es": {
+                  "q": "Un ciclista adulto sube un puerto largo por una carretera convencional en pleno verano, con mucho calor. ¿Puede quitarse el casco durante la subida?",
+                  "options": [
+                    "No.",
+                    "Sí, mientras dure la rampa ascendente.",
+                    "Sí, si la temperatura pasa de 30 grados."
+                  ],
+                  "why": "Desde el 1 de octubre de 2026 ya no hay excepciones por rampas ni por calor. En vías interurbanas el casco es obligatorio para todo ciclista."
+                },
+                "exam": {
+                  "q": "An adult cyclist climbs a long mountain pass on a conventional road in full summer, with much heat. Can he take off the helmet during the climb?",
+                  "options": [
+                    "No.",
+                    "Yes, while the ascending ramp lasts.",
+                    "Yes, if the temperature exceeds 30 degrees."
+                  ]
+                },
+                "en": {
+                  "q": "An adult cyclist is climbing a long mountain pass on a conventional road in midsummer, in great heat. May they take off the helmet for the climb?",
+                  "options": [
+                    "No.",
+                    "Yes, for as long as the climb lasts",
+                    "Yes, if it is over 30 degrees"
+                  ],
+                  "why": "Since October 1, 2026 there are no exceptions for climbs or heat. On intercity roads the helmet is compulsory for every cyclist."
+                },
+                "terms": [
+                  {
+                    "es": "casco",
+                    "en": "helmet"
+                  },
+                  {
+                    "es": "rampa ascendente",
+                    "en": "uphill climb"
+                  },
+                  {
+                    "es": "carretera convencional",
+                    "en": "conventional road"
+                  }
+                ],
+                "src": "RGC art. 118.2; RD 518/2026, preámbulo"
+              }
             }
           ]
         }
@@ -7007,7 +7497,8 @@
       "src": [
         "Reglamento General de Circulación (RD 1428/2003), arts. 98.1, 109.2, 118 y 155 (redacción en vigor desde el 1-10-2026)",
         "RD 518/2026, disposición transitoria tercera",
-        "Ley de Tráfico (RDL 6/2015), Anexo I.4"
+        "Ley de Tráfico (RDL 6/2015), Anexo I.4",
+        "RD 518/2026, preámbulo (supresión de las exenciones de casco en bicicleta)"
       ]
     },
     {
@@ -8451,6 +8942,61 @@
                 ],
                 "src": "DGT guidance (temario ESTT OEP 2021, parte 1, tema 2, rev. 2022)"
               }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "El Manual II de la DGT (2026) explica qué lleva a algunos jóvenes al accidente. Muchos **confían demasiado** en su capacidad de controlar el vehículo, se arriesgan más y caen en **conductas exhibicionistas** ante el grupo. Muchos **perciben menos el riesgo**: no ven tan peligroso beber, correr o usar el móvil. El riesgo sube a partir del **segundo año** de permiso.",
+                "en": "The DGT's Manual II (2026) explains what leads some young people to crash. Many **trust too much** in their ability to control the vehicle, take more risks and **show off** in front of their group. Many **perceive less risk**: drinking, speeding or using the phone do not seem so dangerous. The risk rises from the **second year** of holding a license."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c7r",
+                "answer": 2,
+                "es": {
+                  "q": "Según la DGT, ¿qué rasgo aumenta el riesgo de accidente de muchos conductores jóvenes?",
+                  "options": [
+                    "Conducir con demasiada prudencia por falta de práctica.",
+                    "Tener los reflejos más lentos que el resto de conductores.",
+                    "Confiar en exceso en su manejo y percibir menos el riesgo."
+                  ],
+                  "why": "Muchos jóvenes sobrestiman su control del vehículo, se arriesgan para lucirse ante el grupo y no ven peligro donde lo hay. Sus reflejos no son el problema."
+                },
+                "exam": {
+                  "q": "According to the DGT, which trait increases the risk of accident of many young drivers?",
+                  "options": [
+                    "To drive with too much prudence due to lack of practice.",
+                    "To have slower reflexes than the rest of drivers.",
+                    "To trust in excess in their handling and to perceive less the risk."
+                  ]
+                },
+                "en": {
+                  "q": "According to the DGT, which trait raises many young drivers' crash risk?",
+                  "options": [
+                    "Driving too cautiously for lack of practice",
+                    "Having slower reflexes than other drivers",
+                    "Overconfidence in their driving and a lower sense of risk"
+                  ],
+                  "why": "Many young people overrate their control of the car, take risks to show off to their group and do not see danger where it is. Their reflexes are not the problem."
+                },
+                "terms": [
+                  {
+                    "es": "exceso de confianza",
+                    "en": "overconfidence"
+                  },
+                  {
+                    "es": "percepción del riesgo",
+                    "en": "risk perception"
+                  },
+                  {
+                    "es": "reflejos",
+                    "en": "reflexes"
+                  }
+                ],
+                "src": "DGT, Manual II Cuestiones de seguridad vial (2026), UD3, ap. 2.2"
+              }
             }
           ]
         },
@@ -8571,6 +9117,61 @@
                   }
                 ],
                 "src": "DGT guidance (Consejos para personas mayores, 2022)"
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "El Manual II de la DGT (2026) señala el **deterioro psicomotor** como base de muchos accidentes de mayores: más tiempo de reacción, menos fuerza al frenar y más dificultad para analizar situaciones complejas. Por eso tienen más accidentes en **cruces e incorporaciones**. Además, muchos toman **varios medicamentos** a la vez, y sus efectos pueden sumarse.",
+                "en": "The DGT's Manual II (2026) points to **psychomotor decline** behind many older drivers' crashes: longer reaction time, less braking force and more trouble analyzing complex situations. That is why they have more crashes at **junctions and when merging**. Many also take **several medicines** at once, and their effects can add up."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c7s",
+                "answer": 0,
+                "es": {
+                  "q": "Según la DGT, ¿qué está detrás de muchos accidentes de conductores mayores?",
+                  "options": [
+                    "El deterioro de sus capacidades psicomotoras.",
+                    "La impaciencia y el gusto por la velocidad.",
+                    "Que no tienen experiencia al volante."
+                  ],
+                  "why": "Con la edad aumenta el tiempo de reacción y cuesta más analizar el tráfico complejo. A eso se suman vista, oído y medicamentos."
+                },
+                "exam": {
+                  "q": "According to the DGT, what is behind many accidents of elderly drivers?",
+                  "options": [
+                    "The deterioration of their psychomotor capacities.",
+                    "The impatience and the liking for speed.",
+                    "That they do not have experience at the wheel."
+                  ]
+                },
+                "en": {
+                  "q": "According to the DGT, what lies behind many crashes involving older drivers?",
+                  "options": [
+                    "The decline of their psychomotor abilities",
+                    "Impatience and a liking for speed",
+                    "Their lack of driving experience"
+                  ],
+                  "why": "With age, reaction time grows and complex traffic is harder to analyze. Sight, hearing and medicines add to it."
+                },
+                "terms": [
+                  {
+                    "es": "capacidades psicomotoras",
+                    "en": "psychomotor abilities"
+                  },
+                  {
+                    "es": "tiempo de reacción",
+                    "en": "reaction time"
+                  },
+                  {
+                    "es": "medicamentos",
+                    "en": "medicines"
+                  }
+                ],
+                "src": "DGT, Manual II Cuestiones de seguridad vial (2026), UD3, ap. 3.1"
               }
             }
           ]
@@ -9070,6 +9671,102 @@
                 ],
                 "src": "DGT guidance (Siniestralidad de las furgonetas en España 2024, informe rápido, 2025)"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c7t",
+                "answer": 1,
+                "es": {
+                  "q": "Con los datos de 2024 de la DGT, en vías interurbanas, ¿qué tipo de accidente causó más muertes después de la salida de vía?",
+                  "options": [
+                    "El alcance entre vehículos en una retención.",
+                    "La colisión frontal.",
+                    "El atropello a un peatón."
+                  ],
+                  "why": "En vías interurbanas, la salida de vía fue el 41% de las muertes y la colisión frontal, el 21%. En ciudad, el primero fue el atropello."
+                },
+                "exam": {
+                  "q": "With the data of 2024 of the DGT, on interurban roads, which type of accident caused more deaths after the run-off-road?",
+                  "options": [
+                    "The rear-end collision between vehicles in a traffic jam.",
+                    "The frontal collision.",
+                    "The running over of a pedestrian."
+                  ]
+                },
+                "en": {
+                  "q": "In the DGT's 2024 figures for interurban roads, which crash type killed the most people after running off the road?",
+                  "options": [
+                    "A rear-end collision in a traffic jam",
+                    "A head-on collision",
+                    "A pedestrian being hit"
+                  ],
+                  "why": "On interurban roads, running off the road caused 41% of deaths and head-on collisions 21%. In towns, the first was a pedestrian being hit."
+                },
+                "terms": [
+                  {
+                    "es": "colisión frontal",
+                    "en": "head-on collision"
+                  },
+                  {
+                    "es": "salida de vía",
+                    "en": "running off the road"
+                  },
+                  {
+                    "es": "alcance",
+                    "en": "rear-end collision"
+                  }
+                ],
+                "src": "DGT guidance (Las principales cifras de la siniestralidad vial, España 2024)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c7u",
+                "answer": 2,
+                "es": {
+                  "q": "Según el informe de la DGT sobre ciclistas, ¿dónde se produjeron la mayoría de los ciclistas víctimas?",
+                  "options": [
+                    "En autovías y autopistas.",
+                    "En carreteras convencionales, sobre todo en rectas.",
+                    "En vías urbanas."
+                  ],
+                  "why": "El 69% de los ciclistas víctimas estaban en vías urbanas, y los cruces y su entorno sumaron el 41%. En ciudad, busca la bici antes de girar."
+                },
+                "exam": {
+                  "q": "According to the report of the DGT about cyclists, where did most of the cyclist victims occur?",
+                  "options": [
+                    "On dual carriageways and motorways.",
+                    "On conventional roads, above all on straights.",
+                    "On urban roads."
+                  ]
+                },
+                "en": {
+                  "q": "According to the DGT's report on cyclists, where were most cyclist casualties?",
+                  "options": [
+                    "On dual carriageways and motorways",
+                    "On conventional roads, mostly on straights",
+                    "On urban roads"
+                  ],
+                  "why": "69% of cyclist casualties were on urban roads, and junctions and their surroundings accounted for 41%. In town, look for the bike before you turn."
+                },
+                "terms": [
+                  {
+                    "es": "víctima",
+                    "en": "casualty"
+                  },
+                  {
+                    "es": "vía urbana",
+                    "en": "urban road"
+                  },
+                  {
+                    "es": "intersección",
+                    "en": "junction"
+                  }
+                ],
+                "src": "DGT guidance (Informe de siniestralidad en ciclistas, 2024); DGT, Manual II Cuestiones de seguridad vial (2026), UD3, ap. 5"
+              }
             }
           ]
         },
@@ -9273,7 +9970,8 @@
         "Reglamento General de Conductores (RD 818/2009), art. 4.2",
         "DGT guidance (dgt.es): Las principales cifras de la siniestralidad vial, España 2024; Siniestralidad de las furgonetas en España (2025); Informe de siniestralidad en ciclistas (2024); Consejos para personas mayores (2022); temario ESTT OEP 2021, tema 3 (rev. 2022)",
         "DGT guidance (dgt.es): Siniestralidad de las furgonetas en España 2024 (2025); Informe de siniestralidad en ciclistas (2024); DGT guidance (temario ESTT OEP 2021, parte 1, tema 2, rev. 2022)",
-        "DGT, Manual II Cuestiones de seguridad vial (2026), UD1, aps. 5.1 y 5.2"
+        "DGT, Manual II Cuestiones de seguridad vial (2026), UD1, aps. 5.1 y 5.2",
+        "DGT, Manual II Cuestiones de seguridad vial (2026), UD3, aps. 2 y 3"
       ]
     }
   ]

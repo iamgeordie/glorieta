@@ -450,6 +450,70 @@
                 ],
                 "src": "RGC art. 84.2"
               }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Está prohibido, en todo caso, adelantar a un vehículo que **ya está adelantando** a otro si para hacerlo tienes que invadir la parte de la calzada del sentido contrario.",
+                "en": "It is banned in every case to overtake a vehicle that is **already overtaking** another if, to do it, you must enter the part of the roadway for oncoming traffic."
+              },
+              "src": "RGC art. 84.2"
+            },
+            {
+              "t": "trap",
+              "was": {
+                "es": "Adelantar a quien ya está adelantando solo está prohibido cuando no hay visibilidad suficiente.",
+                "en": "Passing someone who is already overtaking is banned only when visibility is not enough."
+              },
+              "now": {
+                "es": "Si para hacerlo tienes que invadir el sentido contrario, está prohibido **siempre**, aunque veas bien y no venga nadie.",
+                "en": "If doing it means entering the oncoming side, it is banned **always**, even when you can see well and nothing is coming."
+              },
+              "src": "RGC art. 84.2"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c1i",
+                "answer": 2,
+                "es": {
+                  "q": "El turismo de delante ya ha salido a adelantar a un camión. La recta es larga, se ve bien y no viene nadie de frente. ¿Puede adelantar a los dos por el carril contrario?",
+                  "options": [
+                    "Sí, porque la visibilidad es buena",
+                    "Sí, si avisa antes con una señal acústica",
+                    "No."
+                  ],
+                  "why": "No. Está prohibido en todo caso adelantar a un vehículo que ya adelanta a otro si tienes que invadir el sentido contrario. La buena visibilidad no lo cambia."
+                },
+                "exam": {
+                  "q": "The passenger car in front has already gone out to overtake a lorry. The straight is long, it is seen well and nobody comes from the front. Can you overtake both by the opposite lane?",
+                  "options": [
+                    "Yes, because the visibility is good.",
+                    "Yes, if you warn before with an acoustic signal.",
+                    "No."
+                  ]
+                },
+                "en": {
+                  "q": "The car ahead has already pulled out to overtake a truck. The straight is long, visibility is good and nothing is coming. May you pass both using the opposite lane?",
+                  "options": [
+                    "Yes, because visibility is good",
+                    "Yes, if you first warn with the horn",
+                    "No."
+                  ],
+                  "why": "No. Passing a vehicle that is already overtaking another is banned in every case if you must enter the opposite side. Good visibility does not change that."
+                },
+                "terms": [
+                  {
+                    "es": "ya está adelantando",
+                    "en": "is already overtaking"
+                  },
+                  {
+                    "es": "invadir el sentido contrario",
+                    "en": "to enter the oncoming side"
+                  }
+                ],
+                "src": "RGC art. 84.2"
+              }
             }
           ]
         },
@@ -819,6 +883,50 @@
                   {
                     "es": "ser adelantado",
                     "en": "to be overtaken"
+                  }
+                ],
+                "src": "RGC art. 86.2"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c2i",
+                "answer": 0,
+                "es": {
+                  "q": "Un vehículo le está adelantando, pero desiste con claridad y frena para volver detrás de usted. ¿Debe frenar usted también?",
+                  "options": [
+                    "No, si es peligroso; pero le facilita volver",
+                    "Sí, siempre, para que pueda terminar de adelantarle",
+                    "No, y puede acelerar para que vuelva antes"
+                  ],
+                  "why": "Si quien adelanta da muestras claras de desistir y reduce su velocidad, no tienes que frenar si eso pone en peligro la circulación. Sí debes facilitarle que vuelva a su carril. Acelerar sigue prohibido."
+                },
+                "exam": {
+                  "q": "A vehicle is overtaking you, but it desists clearly and brakes in order to return behind you. Must you brake also?",
+                  "options": [
+                    "No, if it is dangerous; but you facilitate it to return.",
+                    "Yes, always, so that it can finish overtaking you.",
+                    "No, and you can accelerate so that it returns before."
+                  ]
+                },
+                "en": {
+                  "q": "A vehicle is overtaking you, but it clearly gives up and brakes to get back behind you. Must you brake too?",
+                  "options": [
+                    "No, if that is dangerous; but you help it back",
+                    "Yes, always, so it can finish passing you",
+                    "No, and you may speed up so it gets back sooner"
+                  ],
+                  "why": "If the overtaker clearly gives up and slows down, you need not brake if that would endanger traffic. You must still help it back into its lane. Speeding up is still banned."
+                },
+                "terms": [
+                  {
+                    "es": "desistir",
+                    "en": "to give up (a maneuver)"
+                  },
+                  {
+                    "es": "facilitar",
+                    "en": "to make easier"
                   }
                 ],
                 "src": "RGC art. 86.2"
@@ -2461,6 +2569,54 @@
               }
             },
             {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c4i",
+                "answer": 1,
+                "es": {
+                  "q": "Dentro de poblado adelanta a un peatón que camina por el borde de la calzada. ¿Qué separación lateral debe dejarle?",
+                  "options": [
+                    "La suficiente, porque en poblado no hay una cifra fija",
+                    "Al menos 1,5 metros, también en poblado",
+                    "Al menos 1 metro, porque un peatón va despacio"
+                  ],
+                  "why": "Al adelantar a peatones, animales, ciclistas, ciclomotores o vehículos de movilidad personal debes dejar al menos 1,5 m. Vale igual dentro y fuera de poblado."
+                },
+                "exam": {
+                  "q": "Within town you overtake a pedestrian who walks by the edge of the carriageway. Which lateral separation must you leave him?",
+                  "options": [
+                    "The sufficient one, because in town there is no fixed number.",
+                    "At least 1.5 metres, also in town.",
+                    "At least 1 metre, because a pedestrian goes slowly."
+                  ]
+                },
+                "en": {
+                  "q": "In a built-up area you overtake a pedestrian walking along the edge of the roadway. What side clearance must you leave?",
+                  "options": [
+                    "Enough, because in town there is no fixed number",
+                    "At least 1.5 meters, in town too",
+                    "At least 1 meter, because a pedestrian is slow"
+                  ],
+                  "why": "When overtaking pedestrians, animals, cyclists, mopeds or personal mobility vehicles you must leave at least 1.5 m. It applies inside and outside built-up areas alike."
+                },
+                "terms": [
+                  {
+                    "es": "peatón",
+                    "en": "pedestrian"
+                  },
+                  {
+                    "es": "separación lateral",
+                    "en": "side clearance"
+                  },
+                  {
+                    "es": "dentro de poblado",
+                    "en": "in a built-up area"
+                  }
+                ],
+                "src": "RGC art. 85.4"
+              }
+            },
+            {
               "t": "tip",
               "text": {
                 "es": "Guía de la DGT: con **viento**, el ciclista es más inestable y puede cambiar de trayectoria de repente. En una subida larga también puede ir haciendo eses por el esfuerzo. Si usas el claxon, hazlo de lejos: de cerca puede asustarlo y hacerle perder el equilibrio.",
@@ -2794,6 +2950,62 @@
                   }
                 ],
                 "src": "RGC art. 85.1 y 85.5"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Las **motocicletas** no están en la lista del 1,5 m del apartado 4. Si adelantas a una moto, la norma pide una **separación lateral suficiente** para hacerlo con seguridad.",
+                "en": "**Motorcycles** are not on the 1.5 m list in section 4. If you overtake a motorcycle, the rule asks for **enough side clearance** to do it safely."
+              },
+              "src": "RGC art. 85.1 y 85.4"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c4j",
+                "answer": 2,
+                "es": {
+                  "q": "Fuera de poblado, con su turismo, adelanta a una motocicleta. ¿Qué separación lateral le exige la norma?",
+                  "options": [
+                    "Al menos 1,5 metros, como a un ciclomotor",
+                    "Un mínimo de 1,5 metros y 20 km/h por debajo del límite",
+                    "La suficiente para adelantarla con seguridad"
+                  ],
+                  "why": "La lista del 1,5 m incluye ciclomotores, ciclistas y peatones, pero no motocicletas. Al adelantar a una moto se pide la separación suficiente para hacerlo con seguridad. El 1,5 m fijo de las motos rige cuando es la moto la que adelanta."
+                },
+                "exam": {
+                  "q": "Out of town, with your passenger car, you overtake a motorcycle. Which lateral separation does the norm demand of you?",
+                  "options": [
+                    "At least 1.5 metres, as to a moped.",
+                    "A minimum of 1.5 metres and 20 km/h below the limit.",
+                    "The sufficient one in order to overtake it with safety."
+                  ]
+                },
+                "en": {
+                  "q": "Outside a built-up area, driving a car, you overtake a motorcycle. What side clearance does the rule require?",
+                  "options": [
+                    "At least 1.5 meters, as for a moped",
+                    "A minimum of 1.5 meters and 20 km/h below the limit",
+                    "Enough to pass it safely"
+                  ],
+                  "why": "The 1.5 m list includes mopeds, cyclists and pedestrians, but not motorcycles. Passing a motorcycle, you must leave enough side clearance to do it safely. The fixed 1.5 m for motorcycles applies when the motorcycle is the one overtaking."
+                },
+                "terms": [
+                  {
+                    "es": "motocicleta",
+                    "en": "motorcycle"
+                  },
+                  {
+                    "es": "ciclomotor",
+                    "en": "moped"
+                  },
+                  {
+                    "es": "separación lateral suficiente",
+                    "en": "enough side clearance"
+                  }
+                ],
+                "src": "RGC art. 85.1, 85.4 y 85.5"
               }
             }
           ]
@@ -3336,6 +3548,50 @@
                   {
                     "es": "sentido contrario",
                     "en": "opposite direction"
+                  }
+                ],
+                "src": "RGC art. 75.1.b"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c5z",
+                "answer": 1,
+                "es": {
+                  "q": "Por una calzada de sentido único con dos carriles, quiere girar a la izquierda. ¿Dónde se coloca?",
+                  "options": [
+                    "En el carril derecho, para no molestar a nadie",
+                    "Pegado todo lo posible al borde izquierdo",
+                    "En cualquiera de los dos, si avisa con antelación"
+                  ],
+                  "why": "Si la calzada es de sentido único y giras a la izquierda, te ciñes todo lo posible a su borde izquierdo, con antelación, salvo que la vía esté acondicionada o señalizada para hacerlo de otro modo."
+                },
+                "exam": {
+                  "q": "By a one-way carriageway with two lanes, you want to turn to the left. Where do you place yourself?",
+                  "options": [
+                    "In the right lane, in order not to bother anybody.",
+                    "Stuck as much as possible to the left border.",
+                    "In either of the two, if you warn in advance."
+                  ]
+                },
+                "en": {
+                  "q": "On a two-lane one-way roadway, you want to turn left. Where do you position yourself?",
+                  "options": [
+                    "In the right lane, so you bother no one",
+                    "Keeping as near the left edge as you can",
+                    "In either lane, if you signal in good time"
+                  ],
+                  "why": "On a one-way roadway, to turn left you keep to its left edge as much as you can, in good time, unless the road is laid out or signed for doing it another way."
+                },
+                "terms": [
+                  {
+                    "es": "sentido único",
+                    "en": "one-way"
+                  },
+                  {
+                    "es": "ceñirse al borde izquierdo",
+                    "en": "to keep close to the left edge"
                   }
                 ],
                 "src": "RGC art. 75.1.b"
@@ -4284,6 +4540,54 @@
                 ],
                 "src": "RGC art. 109.2.b"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c6n",
+                "answer": 2,
+                "es": {
+                  "q": "Un motorista extiende el brazo izquierdo en horizontal, con la palma de la mano hacia abajo. ¿Qué anuncia?",
+                  "options": [
+                    "Que va a frenar de forma considerable",
+                    "Que va a desplazarse hacia la derecha",
+                    "Que va a desplazarse hacia la izquierda"
+                  ],
+                  "why": "Brazo horizontal con la palma hacia abajo: te desplazas hacia el lado que indica la mano. Con el brazo izquierdo, hacia la izquierda. Para ir al otro lado, el brazo se dobla hacia arriba."
+                },
+                "exam": {
+                  "q": "A motorcyclist extends the left arm in horizontal, with the palm downwards. What does he announce?",
+                  "options": [
+                    "That he is going to brake in a considerable way.",
+                    "That he is going to move towards the right.",
+                    "That he is going to move towards the left."
+                  ]
+                },
+                "en": {
+                  "q": "A motorcyclist holds the left arm out horizontally, palm down. What is being announced?",
+                  "options": [
+                    "That they will brake hard",
+                    "That they will move to the right",
+                    "That they will move to the left"
+                  ],
+                  "why": "Arm horizontal with the palm down: you move toward the side the hand points to. With the left arm, to the left. To move to the other side, the arm is bent upward."
+                },
+                "terms": [
+                  {
+                    "es": "brazo extendido",
+                    "en": "arm held out"
+                  },
+                  {
+                    "es": "palma hacia abajo",
+                    "en": "palm down"
+                  },
+                  {
+                    "es": "desplazamiento lateral",
+                    "en": "sideways move"
+                  }
+                ],
+                "src": "RGC art. 109.2.a"
+              }
             }
           ]
         },
@@ -4583,6 +4887,50 @@
                   }
                 ],
                 "src": "RGC art. 72.1 y 72.3"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c6o",
+                "answer": 0,
+                "es": {
+                  "q": "Va a salir de un aparcamiento a la calle y un muro le tapa la vista. ¿Está permitido que un acompañante se baje y le indique cuándo salir?",
+                  "options": [
+                    "Sí, la norma lo prevé si hace falta",
+                    "No, el conductor debe decidir sin ayuda",
+                    "Solo si va a salir marcha atrás"
+                  ],
+                  "why": "Para incorporarte a la circulación debes asegurarte de que no pones en peligro a nadie, incluso siguiendo las indicaciones de otra persona si hace falta. Además cedes el paso y lo señalizas."
+                },
+                "exam": {
+                  "q": "You are going to leave a car park to the street and a wall covers your view. Is it permitted that a companion gets out and indicates to you when to leave?",
+                  "options": [
+                    "Yes, the norm foresees it if it is necessary.",
+                    "No, the driver must decide without help.",
+                    "Only in the case that you leave in reverse gear."
+                  ]
+                },
+                "en": {
+                  "q": "You are about to pull out of a parking lot onto the street and a wall blocks your view. Is it allowed for a passenger to get out and tell you when to go?",
+                  "options": [
+                    "Yes, the rule provides for it if needed",
+                    "No, the driver must decide without help",
+                    "Only if you will pull out in reverse"
+                  ],
+                  "why": "To join traffic you must make sure you endanger no one, even by following another person's directions if needed. You also yield and signal."
+                },
+                "terms": [
+                  {
+                    "es": "incorporarse a la circulación",
+                    "en": "to join traffic"
+                  },
+                  {
+                    "es": "indicaciones de otra persona",
+                    "en": "another person's directions"
+                  }
+                ],
+                "src": "RGC art. 72.1"
               }
             }
           ]

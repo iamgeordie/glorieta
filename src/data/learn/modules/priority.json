@@ -823,6 +823,51 @@
               }
             },
             {
+              "t": "check",
+              "q": {
+                "id": "priority-c2m",
+                "answer": 1,
+                "sign": "r-1",
+                "es": {
+                  "q": "¿Qué obligación impone esta señal?",
+                  "options": [
+                    "Detenerse por completo siempre, aunque la otra vía esté libre",
+                    "Ceder el paso a los vehículos de la vía a la que se acerca",
+                    "Ceder el paso solo a los vehículos que lleguen por su derecha"
+                  ],
+                  "why": "Con «ceda el paso» cedes el paso en la próxima intersección a quien circula por la vía a la que te acercas, venga por el lado que venga. Solo paras si hace falta."
+                },
+                "exam": {
+                  "q": "What obligation does this sign impose?",
+                  "options": [
+                    "To stop completely always, although the other road is free.",
+                    "To yield way to the vehicles of the road to which you approach.",
+                    "To yield way only to the vehicles that arrive by your right."
+                  ]
+                },
+                "en": {
+                  "q": "What does this sign require you to do?",
+                  "options": [
+                    "Always come to a full stop, even if the other road is clear",
+                    "Yield to the traffic on the road ahead of you",
+                    "Yield only to vehicles coming from your right"
+                  ],
+                  "why": "At a yield sign you give way at the next intersection to whoever is on the road you are approaching, from either side. You stop only if you need to."
+                },
+                "terms": [
+                  {
+                    "es": "ceda el paso",
+                    "en": "yield (give way)"
+                  },
+                  {
+                    "es": "intersección",
+                    "en": "intersection"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1 (R-1); RGC art. 56.5"
+              }
+            },
+            {
               "t": "rule",
               "text": {
                 "es": "La **línea discontinua** pintada a lo ancho del carril marca hasta dónde llegas cuando debes ceder el paso. No la pases, salvo que circunstancias anormales reduzcan la visibilidad. Vale también en un cruce sin señal de prioridad.",
@@ -973,6 +1018,51 @@
                   }
                 ],
                 "src": "RGC Anexo I, ap. 5.1 (R-2) and ap. 5.2 (M-4.1)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c2n",
+                "answer": 2,
+                "sign": "r-2",
+                "es": {
+                  "q": "¿Obliga esta señal a detenerse aunque no se acerque ningún vehículo?",
+                  "options": [
+                    "No, solo cuando se acercan vehículos por la vía preferente",
+                    "Sí, en todos los casos, incluso con el semáforo en verde",
+                    "Sí, salvo que lo regule un agente o un semáforo"
+                  ],
+                  "why": "La señal de STOP obliga a detenerse siempre, venga o no alguien. Pero los agentes y los semáforos tienen preferencia sobre las señales verticales: si un agente o un semáforo regulan el cruce, los obedeces a ellos."
+                },
+                "exam": {
+                  "q": "Does this sign oblige to stop although no vehicle approaches?",
+                  "options": [
+                    "No, only when vehicles approach by the preferential road.",
+                    "Yes, in all the cases, even with the traffic light in green.",
+                    "Yes, except that an agent or a traffic light regulates it."
+                  ]
+                },
+                "en": {
+                  "q": "Must you stop at this sign even when no vehicle is coming?",
+                  "options": [
+                    "No, only when vehicles are coming on the priority road",
+                    "Yes, in every case, even when the light is green",
+                    "Yes, unless an officer or a traffic light controls the junction"
+                  ],
+                  "why": "A STOP sign makes you stop every time, whether or not anyone is coming. But officers and traffic lights rank above road signs: if an officer or a light controls the junction, you obey them."
+                },
+                "terms": [
+                  {
+                    "es": "detención obligatoria",
+                    "en": "compulsory stop"
+                  },
+                  {
+                    "es": "vía preferente",
+                    "en": "priority road"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1 (R-2); RGC art. 133.1"
               }
             }
           ]
@@ -2193,6 +2283,50 @@
                 ],
                 "src": "RGC art. 59.1"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c3q",
+                "answer": 2,
+                "es": {
+                  "q": "Usted ha quedado detenido dentro de un cruce con semáforos y su vehículo estorba a quienes cruzan. ¿Qué debe hacer?",
+                  "options": [
+                    "Quedarse donde está hasta que su semáforo se ponga en verde",
+                    "Dar marcha atrás hasta quedar detrás de la línea de detención",
+                    "Salir del cruce sin esperar al verde, sin entorpecer a nadie"
+                  ],
+                  "why": "Si estás parado en un cruce con semáforos y estorbas, sal de él sin esperar a que se abra tu dirección. Hazlo sin entorpecer a quienes avanzan con su semáforo abierto."
+                },
+                "exam": {
+                  "q": "You have remained stopped inside a crossing with traffic lights and your vehicle obstructs those who cross. What must you do?",
+                  "options": [
+                    "To remain where you are until your traffic light changes to green.",
+                    "To reverse until remaining behind the stop line.",
+                    "To leave the crossing without waiting for the green, without hindering anybody."
+                  ]
+                },
+                "en": {
+                  "q": "You have ended up stopped inside a junction with traffic lights, and your car is in the way of cross traffic. What must you do?",
+                  "options": [
+                    "Stay where you are until your light turns green",
+                    "Back up until you are behind the stop line",
+                    "Leave the junction without waiting for green, without getting in anyone's way"
+                  ],
+                  "why": "If you are stuck in a junction with lights and you are in the way, leave it without waiting for your direction to open. Do it without hindering those moving on their green."
+                },
+                "terms": [
+                  {
+                    "es": "cruce",
+                    "en": "junction (crossing)"
+                  },
+                  {
+                    "es": "entorpecer",
+                    "en": "to hinder"
+                  }
+                ],
+                "src": "RGC art. 59.2"
+              }
             }
           ]
         },
@@ -2558,6 +2692,57 @@
                   }
                 ],
                 "src": "RGC Anexo I, 4.3.b"
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Si el semáforo de un cruce está **apagado**, no da ninguna indicación. Mira entonces las señales verticales y las marcas. Si tampoco las hay, rige la norma general: cedes el paso a quien viene por tu derecha.",
+                "en": "If a junction's traffic light is **off**, it tells you nothing. Then look at the road signs and markings. If there are none, the general rule applies: you yield to whoever comes from your right."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c3r",
+                "answer": 0,
+                "es": {
+                  "q": "Los semáforos de un cruce están apagados y no hay agentes, señales verticales ni marcas. ¿Quién pasa primero?",
+                  "options": [
+                    "El vehículo que se acerque por la derecha del otro",
+                    "Quien llegue primero al cruce, venga por donde venga",
+                    "El que circule por la calle más ancha o con más tráfico"
+                  ],
+                  "why": "Un semáforo apagado no regula nada. Sin agentes ni señales, rige la norma general: cedes el paso a quien se acerca por tu derecha."
+                },
+                "exam": {
+                  "q": "The traffic lights of a crossing are switched off and there are no agents, vertical signs nor markings. Who passes first?",
+                  "options": [
+                    "The vehicle that approaches by the right of the other.",
+                    "Who arrives first to the crossing, whichever side he comes from.",
+                    "The one who circulates by the wider street or with more traffic."
+                  ]
+                },
+                "en": {
+                  "q": "The traffic lights at a junction are off, and there are no officers, signs or markings. Who goes first?",
+                  "options": [
+                    "The vehicle approaching from the other's right",
+                    "Whoever reaches the junction first, from any side",
+                    "The one on the wider or busier street"
+                  ],
+                  "why": "A light that is off regulates nothing. With no officers or signs, the general rule applies: you yield to whoever approaches from your right."
+                },
+                "terms": [
+                  {
+                    "es": "semáforo apagado",
+                    "en": "traffic light switched off"
+                  },
+                  {
+                    "es": "por la derecha",
+                    "en": "from the right"
+                  }
+                ],
+                "src": "RGC arts. 56.1 y 57.1"
               }
             }
           ]
@@ -3035,6 +3220,50 @@
                 ],
                 "src": "RGC art. 133.1 y 133.2"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c4p",
+                "answer": 1,
+                "es": {
+                  "q": "Dos señales verticales del mismo tramo parecen decir cosas contrarias. ¿Cuál debe obedecer?",
+                  "options": [
+                    "La que esté colocada más cerca de usted",
+                    "La más restrictiva de las dos",
+                    "La que tenga mayor tamaño o esté más alta"
+                  ],
+                  "why": "Si dos señales parecen contradecirse, prevalece la de mayor rango en el orden de preferencia. Si son del mismo tipo, como dos señales verticales, prevalece la más restrictiva."
+                },
+                "exam": {
+                  "q": "Two vertical signs of the same section seem to say contrary things. Which must you obey?",
+                  "options": [
+                    "The one that is placed nearer to you.",
+                    "The most restrictive of the two.",
+                    "The one that has bigger size or is higher."
+                  ]
+                },
+                "en": {
+                  "q": "Two road signs on the same stretch seem to say opposite things. Which must you obey?",
+                  "options": [
+                    "The one placed closer to you",
+                    "The more restrictive of the two",
+                    "The larger one, or the one placed higher"
+                  ],
+                  "why": "If two signals seem to contradict each other, the one higher in the order of precedence wins. If they are of the same type, such as two road signs, the more restrictive wins."
+                },
+                "terms": [
+                  {
+                    "es": "más restrictiva",
+                    "en": "most restrictive"
+                  },
+                  {
+                    "es": "señal vertical",
+                    "en": "vertical sign (sign on a post)"
+                  }
+                ],
+                "src": "RGC art. 133.2"
+              }
             }
           ]
         },
@@ -3154,6 +3383,66 @@
                   }
                 ],
                 "src": "RGC anexo I, 1.1.a"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "En ausencia de agentes, o para ayudarlos, el **personal de obras** puede regular el paso de vehículos. Lo hace con señales del Catálogo puestas en una **paleta**, como la de STOP.",
+                "en": "When there are no officers, or to help them, **road-works staff** may regulate the passage of vehicles. They do it with Catalogue signs mounted on a **paddle**, such as the STOP sign."
+              },
+              "src": "RGC art. 141.4"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Todos los usuarios deben obedecer las señales que establecen una obligación o una prohibición.",
+                "en": "Every road user must obey the signs that set an obligation or a prohibition."
+              },
+              "src": "RGC art. 132.1"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c4t",
+                "answer": 1,
+                "es": {
+                  "q": "En un tramo en obras, un operario le muestra una paleta con la señal de STOP. No hay agentes. ¿Debe detenerse?",
+                  "options": [
+                    "No, solo obligan las órdenes de los agentes",
+                    "Sí, la señal de su paleta le obliga",
+                    "Solo si hay vehículos en sentido contrario"
+                  ],
+                  "why": "Sin agentes, o para ayudarlos, el personal de obras puede regular el paso con señales del Catálogo en una paleta. Obedeces esa señal como cualquier otra."
+                },
+                "exam": {
+                  "q": "In a section under works, a worker shows you a paddle with the STOP signal. There are no agents. Must you stop?",
+                  "options": [
+                    "No, only the orders of the agents oblige.",
+                    "Yes, the signal of his paddle obliges you.",
+                    "Only if there are vehicles in opposite direction."
+                  ]
+                },
+                "en": {
+                  "q": "On a stretch with roadworks, a worker shows you a paddle with a STOP sign. There are no officers. Must you stop?",
+                  "options": [
+                    "No, only officers' orders are binding",
+                    "Yes, the sign on the paddle binds you",
+                    "Only if traffic is coming the other way"
+                  ],
+                  "why": "With no officers, or to help them, road-works staff may regulate traffic with Catalogue signs on a paddle. You obey that sign like any other."
+                },
+                "terms": [
+                  {
+                    "es": "personal de obras",
+                    "en": "road-works staff"
+                  },
+                  {
+                    "es": "paleta",
+                    "en": "hand-held sign paddle"
+                  }
+                ],
+                "src": "RGC arts. 132.1 y 141.4"
               }
             }
           ]
@@ -3364,6 +3653,58 @@
                 ],
                 "src": "RGC anexo I, 1.1.b"
               }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Con el **brazo extendido moviéndolo de arriba abajo**, el agente ordena **disminuir la velocidad**. La orden es para quien se acerca por el lado de ese brazo, en dirección perpendicular a él.",
+                "en": "With an **outstretched arm moved up and down**, the officer orders you to **slow down**. It applies to whoever approaches on that arm's side, at right angles to it."
+              },
+              "src": "RGC anexo I, 1.1.d"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c4q",
+                "answer": 1,
+                "es": {
+                  "q": "Un agente sube y baja varias veces el brazo extendido, y usted se acerca por el lado de ese brazo. ¿Qué le ordena?",
+                  "options": [
+                    "Que se detenga ante él",
+                    "Que disminuya la velocidad",
+                    "Que acelere y despeje el cruce"
+                  ],
+                  "why": "El brazo extendido que se mueve de arriba abajo obliga a disminuir la velocidad a quien se acerca por el lado de ese brazo. Para que te detengas, el agente levanta el brazo o extiende los brazos."
+                },
+                "exam": {
+                  "q": "An agent raises and lowers several times the extended arm, and you approach by the side of that arm. What does he order you?",
+                  "options": [
+                    "That you stop before him.",
+                    "That you diminish the speed.",
+                    "That you accelerate and clear the crossing."
+                  ]
+                },
+                "en": {
+                  "q": "An officer moves an outstretched arm up and down, and you are approaching on that arm's side. What is the order?",
+                  "options": [
+                    "Stop in front of the officer",
+                    "Slow down",
+                    "Speed up and clear the junction"
+                  ],
+                  "why": "An outstretched arm moved up and down orders whoever approaches on that arm's side to slow down. To make you stop, the officer raises an arm or holds the arms out."
+                },
+                "terms": [
+                  {
+                    "es": "disminuir la velocidad",
+                    "en": "to reduce speed"
+                  },
+                  {
+                    "es": "brazo extendido",
+                    "en": "outstretched arm"
+                  }
+                ],
+                "src": "RGC anexo I, 1.1.d"
+              }
             }
           ]
         },
@@ -3513,6 +3854,94 @@
                   {
                     "es": "bandera roja",
                     "en": "red flag"
+                  },
+                  {
+                    "es": "calzada",
+                    "en": "carriageway"
+                  }
+                ],
+                "src": "RGC anexo I, 1.2.a y 1.2.b"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c4r",
+                "answer": 1,
+                "es": {
+                  "q": "Un vehículo de los agentes muestra una bandera amarilla. ¿Qué le indica a usted?",
+                  "options": [
+                    "Que la calzada queda cerrada después de su paso",
+                    "Que extreme la atención: hay un peligro cerca",
+                    "Que pare a la derecha de la calzada"
+                  ],
+                  "why": "La bandera amarilla pide extremar la atención o avisa de un peligro cercano. No cierra la calzada: eso lo hace la roja."
+                },
+                "exam": {
+                  "q": "A vehicle of the agents shows a yellow flag. What does it indicate to you?",
+                  "options": [
+                    "That the carriageway remains closed after its passing.",
+                    "That you take extreme attention: there is a danger near.",
+                    "That you stop at the right of the carriageway."
+                  ]
+                },
+                "en": {
+                  "q": "An officers' vehicle shows a yellow flag. What does it tell you?",
+                  "options": [
+                    "That the roadway is closed once it has passed",
+                    "To take extra care: there is a danger nearby",
+                    "To pull over and stop on the right"
+                  ],
+                  "why": "A yellow flag asks you to take extra care or warns of a danger nearby. It does not close the roadway: the red one does that."
+                },
+                "terms": [
+                  {
+                    "es": "bandera amarilla",
+                    "en": "yellow flag"
+                  },
+                  {
+                    "es": "extremar la atención",
+                    "en": "to take extreme care"
+                  }
+                ],
+                "src": "RGC anexo I, 1.2.c"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c4s",
+                "answer": 0,
+                "es": {
+                  "q": "Tras un vehículo de los agentes con bandera roja, pasa otro con bandera verde. Desde que pasa este segundo vehículo…",
+                  "options": [
+                    "la calzada vuelve a estar abierta al tráfico.",
+                    "solo pueden circular los vehículos escoltados.",
+                    "debe detenerse hasta que un agente le haga otra señal."
+                  ],
+                  "why": "La bandera verde indica que, desde que pasa el vehículo que la lleva, la calzada queda de nuevo abierta. La roja la había cerrado."
+                },
+                "exam": {
+                  "q": "After a vehicle of the agents with red flag, another one passes with green flag. From the passing of this second vehicle…",
+                  "options": [
+                    "the carriageway is again open to traffic.",
+                    "only the escorted vehicles can circulate.",
+                    "you must stop until an agent makes you another signal."
+                  ]
+                },
+                "en": {
+                  "q": "An officers' vehicle with a red flag goes by, then another one with a green flag. Once this second vehicle has passed…",
+                  "options": [
+                    "the roadway is open to traffic again.",
+                    "only escorted vehicles may drive.",
+                    "you must stop until an officer gives another signal."
+                  ],
+                  "why": "A green flag means that, from the moment the vehicle carrying it passes, the roadway is open again. The red flag had closed it."
+                },
+                "terms": [
+                  {
+                    "es": "bandera verde",
+                    "en": "green flag"
                   },
                   {
                     "es": "calzada",
@@ -3720,6 +4149,102 @@
                   }
                 ],
                 "src": "RGC art. 68.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c4u",
+                "answer": 1,
+                "es": {
+                  "q": "Una ambulancia en servicio urgente llega a un semáforo en rojo. Antes de cruzarlo, su conductor debe…",
+                  "options": [
+                    "cruzarlo sin frenar, porque la luz y la sirena ya avisan a todos.",
+                    "asegurarse de que los demás se han parado y no hay riesgo.",
+                    "esperar al verde, porque los semáforos obligan también a las ambulancias."
+                  ],
+                  "why": "Los vehículos prioritarios pueden no respetar un semáforo o una prioridad, pero con prudencia. Antes extreman las precauciones hasta asegurarse de que no hay riesgo de atropello y de que los demás han parado o les dejan paso."
+                },
+                "exam": {
+                  "q": "An ambulance in urgent service arrives at a traffic light in red. Before crossing it, its driver must…",
+                  "options": [
+                    "cross it without braking, because the light and the siren already warn everybody.",
+                    "make sure that the others have stopped and there is no risk.",
+                    "wait for the green, because the traffic lights also oblige the ambulances."
+                  ]
+                },
+                "en": {
+                  "q": "An ambulance on an urgent call reaches a red light. Before going through, its driver must…",
+                  "options": [
+                    "go through without braking, since the light and siren already warn everyone.",
+                    "make sure the others have stopped and there is no risk.",
+                    "wait for green, because lights bind ambulances too."
+                  ],
+                  "why": "Priority vehicles may go through a light or ignore a priority, but with care. First they take extreme precautions until sure there is no risk of hitting a pedestrian and that the others have stopped or are making way."
+                },
+                "terms": [
+                  {
+                    "es": "servicio urgente",
+                    "en": "urgent service"
+                  },
+                  {
+                    "es": "extremar las precauciones",
+                    "en": "to take extreme precautions"
+                  }
+                ],
+                "src": "RGC art. 67.2"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "La **luz amarilla** de los vehículos que trabajan en la vía, como las grúas o los de obras (señal V-2), solo indica su situación a los demás usuarios. No los convierte en vehículos prioritarios.",
+                "en": "The **amber light** on vehicles working on the road, such as tow trucks or roadworks vehicles (signal V-2), only shows the other users where they are. It does not make them priority vehicles."
+              },
+              "src": "RGC arts. 68.2 y 71.2"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c4v",
+                "answer": 1,
+                "es": {
+                  "q": "Una grúa remolca un coche averiado con su luz amarilla encendida y llega a un cruce sin señales por su izquierda. ¿Tiene prioridad sobre usted?",
+                  "options": [
+                    "Sí, porque esa luz la convierte en prioritaria",
+                    "No: esa luz solo indica su situación",
+                    "Sí, pero solo fuera de poblado"
+                  ],
+                  "why": "La luz amarilla de las grúas y de los vehículos de obras solo indica dónde están. Prioritarios son los de policía, bomberos, protección civil y salvamento y asistencia sanitaria en servicio urgente y con sus señales. Aquí rige la norma general: la grúa llega por tu izquierda."
+                },
+                "exam": {
+                  "q": "A tow truck tows a broken-down car with its yellow light switched on and arrives at a crossing without signals by your left. Does it have priority over you?",
+                  "options": [
+                    "Yes, because that light converts it into priority.",
+                    "No: that light only indicates its situation.",
+                    "Yes, but only outside town."
+                  ]
+                },
+                "en": {
+                  "q": "A tow truck pulling a broken-down car, with its amber light on, reaches a junction with no signs from your left. Does it have priority over you?",
+                  "options": [
+                    "Yes, because that light makes it a priority vehicle",
+                    "No: that light only shows where it is",
+                    "Yes, but only outside towns"
+                  ],
+                  "why": "The amber light of tow trucks and roadworks vehicles only shows where they are. Priority vehicles are police, fire, civil protection and rescue, and medical vehicles on an urgent call with their signals on. The general rule applies here: the tow truck comes from your left."
+                },
+                "terms": [
+                  {
+                    "es": "grúa",
+                    "en": "tow truck"
+                  },
+                  {
+                    "es": "vehículo prioritario",
+                    "en": "priority vehicle"
+                  }
+                ],
+                "src": "RGC arts. 57.1, 68.2 y 71.2"
               }
             },
             {
@@ -4327,6 +4852,50 @@
                   }
                 ],
                 "src": "RGC art. 124.1.c"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c5k",
+                "answer": 2,
+                "es": {
+                  "q": "Un semáforo en verde le permite pasar por un paso para peatones. Delante, un autobús avanza despacio. ¿Puede adelantarlo sobre el paso?",
+                  "options": [
+                    "Sí, porque su semáforo está en verde",
+                    "Sí, si no hay ningún peatón cruzando",
+                    "No, ni sobre el paso ni cerca de él"
+                  ],
+                  "why": "Está prohibido adelantar en los pasos para peatones señalizados y en sus proximidades. El semáforo en verde no cambia esa prohibición."
+                },
+                "exam": {
+                  "q": "A traffic light in green allows you to pass by a pedestrian crossing. In front, a bus advances slowly. Can you overtake it over the crossing?",
+                  "options": [
+                    "Yes, because your traffic light is in green.",
+                    "Yes, if no pedestrian is crossing.",
+                    "No, neither over the crossing nor near it."
+                  ]
+                },
+                "en": {
+                  "q": "A green light lets you go through a pedestrian crossing. Ahead, a bus is moving slowly. May you overtake it on the crossing?",
+                  "options": [
+                    "Yes, because your light is green",
+                    "Yes, if nobody is crossing",
+                    "No, neither on the crossing nor near it"
+                  ],
+                  "why": "Overtaking is forbidden on marked pedestrian crossings and near them. A green light does not change that ban."
+                },
+                "terms": [
+                  {
+                    "es": "paso para peatones",
+                    "en": "pedestrian crossing"
+                  },
+                  {
+                    "es": "adelantar",
+                    "en": "to overtake"
+                  }
+                ],
+                "src": "RGC art. 87.1.b"
               }
             }
           ]
@@ -5211,6 +5780,50 @@
                   }
                 ],
                 "src": "RGC art. 73.2"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c6e",
+                "answer": 2,
+                "es": {
+                  "q": "Circula por una carretera y un turismo intenta incorporarse a ella desde una vía de acceso. ¿Tiene usted alguna obligación?",
+                  "options": [
+                    "No: incorporarse sin peligro es cosa solo de quien entra",
+                    "Sí, detenerse siempre para dejarle entrar",
+                    "Sí, facilitar su maniobra en lo posible"
+                  ],
+                  "why": "Quien se incorpora debe asegurarse de que puede hacerlo sin peligro y ceder el paso. Pero los demás también deben facilitar la maniobra en la medida de lo posible, sobre todo a un autobús que sale de su parada."
+                },
+                "exam": {
+                  "q": "You circulate by a road and a passenger car tries to enter it from an access road. Do you have any obligation?",
+                  "options": [
+                    "No: to enter traffic without danger concerns only who enters.",
+                    "Yes, to stop always to let him enter.",
+                    "Yes, to facilitate his manoeuvre as far as possible."
+                  ]
+                },
+                "en": {
+                  "q": "You are driving along a road and a car is trying to join it from an access road. Do you have any duty?",
+                  "options": [
+                    "No: joining safely is only the joining driver's job",
+                    "Yes, to always stop and let it in",
+                    "Yes, to make the maneuver easier as far as you can"
+                  ],
+                  "why": "The driver joining must make sure it is safe and must yield. But the others must also make the maneuver easier as far as they can, above all for a bus pulling out of its stop."
+                },
+                "terms": [
+                  {
+                    "es": "incorporarse",
+                    "en": "to join traffic"
+                  },
+                  {
+                    "es": "facilitar",
+                    "en": "to make easier"
+                  }
+                ],
+                "src": "RGC arts. 72.1 y 73.1"
               }
             }
           ]

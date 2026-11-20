@@ -391,6 +391,53 @@
                 "terms": [{ "es": "tome la segunda salida", "en": "take the second exit" }],
                 "src": "Convención de la enseñanza de la conducción (no es un artículo del RGC)"
               }
+            },
+            {
+              "t": "signs",
+              "ids": ["s-200"],
+              "caption": {
+                "es": "S-200, preseñalización de glorieta: indica las direcciones de las salidas de la próxima glorieta. Un destino sobre fondo azul lleva a una autopista o autovía.",
+                "en": "S-200, roundabout advance sign: it shows the directions of the exits of the next roundabout. A destination on a blue background leads to an autopista or autovía."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "roundabouts-c2f",
+                "answer": 0,
+                "sign": "s-200",
+                "es": {
+                  "q": "¿Qué indica esta señal?",
+                  "options": [
+                    "Las direcciones de las salidas de la próxima glorieta",
+                    "El carril que debe ocupar según la salida que tome",
+                    "Un desvío provisional por obras en la próxima glorieta"
+                  ],
+                  "why": "Es la preseñalización de glorieta (S-200): muestra hacia dónde lleva cada salida de la próxima glorieta. Si un destino va sobre fondo azul, esa salida lleva a una autopista o autovía."
+                },
+                "exam": {
+                  "q": "What does this sign indicate?",
+                  "options": [
+                    "The directions of the exits of the next roundabout.",
+                    "The lane that you must occupy according to the exit that you take.",
+                    "A provisional diversion due to works in the next roundabout."
+                  ]
+                },
+                "en": {
+                  "q": "What does this sign show?",
+                  "options": [
+                    "Where each exit of the next roundabout leads",
+                    "Which lane to use for the exit you will take",
+                    "A temporary detour for roadworks at the next roundabout"
+                  ],
+                  "why": "It is the roundabout advance sign (S-200): it shows where each exit of the next roundabout leads. A destination on a blue background means that exit leads to an autopista or autovía."
+                },
+                "terms": [
+                  { "es": "preseñalización de glorieta", "en": "roundabout advance direction sign" },
+                  { "es": "salida", "en": "exit" }
+                ],
+                "src": "RGC Anexo I, ap. 5.1 (S-200)"
+              }
             }
           ]
         },
@@ -422,6 +469,49 @@
               "text": {
                 "es": "Sigue las flechas pintadas en el suelo y las señales de la entrada. Si dicen otra cosa, mandan ellas.",
                 "en": "Follow the arrows painted on the road and the signs at the entrance. If they say something else, they take over."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Está prohibido adelantar en las intersecciones y cerca de ellas. Esa prohibición tiene excepciones, y la primera es la **glorieta**: en ella sí se puede adelantar.",
+                "en": "Overtaking is forbidden at intersections and near them. That ban has exceptions, and the first is the **roundabout**: there, overtaking is allowed."
+              },
+              "src": "RGC art. 87.1.c.1.º"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "roundabouts-c2e",
+                "answer": 1,
+                "es": {
+                  "q": "En una glorieta de dos carriles, un vehículo lento circula por el carril exterior. ¿Está permitido adelantarlo por el carril interior?",
+                  "options": [
+                    "No, porque la glorieta es una intersección",
+                    "Sí, la glorieta es una excepción",
+                    "No, salvo que sea un vehículo de dos ruedas"
+                  ],
+                  "why": "En las intersecciones y cerca de ellas no se adelanta, pero la glorieta es una de las excepciones. Puedes adelantar en ella con las precauciones de siempre."
+                },
+                "exam": {
+                  "q": "In a roundabout of two lanes, a slow vehicle circulates by the outer lane. Is it allowed to overtake it by the inner lane?",
+                  "options": [
+                    "No, because the roundabout is an intersection.",
+                    "Yes, the roundabout is an exception.",
+                    "No, except that it is a vehicle of two wheels."
+                  ]
+                },
+                "en": {
+                  "q": "In a two-lane roundabout, a slow vehicle is in the outer lane. May you overtake it using the inner lane?",
+                  "options": [
+                    "No, because a roundabout is an intersection",
+                    "Yes, the roundabout is an exception",
+                    "No, unless it is a two-wheeler"
+                  ],
+                  "why": "Overtaking is banned at and near intersections, but the roundabout is one of the exceptions. You may overtake in it, with the usual precautions."
+                },
+                "terms": [{ "es": "adelantar", "en": "to overtake" }, { "es": "carril interior", "en": "inner lane" }],
+                "src": "RGC art. 87.1.c.1.º"
               }
             }
           ]

@@ -1929,6 +1929,54 @@
                 ],
                 "src": "RGC art. 91.2.c"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c2z",
+                "answer": 2,
+                "es": {
+                  "q": "¿En cuál de estos lugares incluso una parada breve se considera un obstáculo grave para la circulación?",
+                  "options": [
+                    "En una zona de carga y descarga, fuera de su horario",
+                    "Junto al bordillo derecho de una calle ancha",
+                    "En una isleta o una mediana que canaliza el tráfico"
+                  ],
+                  "why": "Parar o estacionar en medianas, separadores, isletas u otros elementos que canalizan el tráfico está en la lista de obstáculos graves. La zona de carga y descarga cuenta solo para estacionar y durante sus horas de uso."
+                },
+                "exam": {
+                  "q": "In which of these places is even a brief stop considered a serious obstacle for the circulation?",
+                  "options": [
+                    "In a loading and unloading zone, outside its timetable.",
+                    "Next to the right kerb of a wide street.",
+                    "On a traffic island or a median that channels the traffic."
+                  ]
+                },
+                "en": {
+                  "q": "In which of these places does even a brief stop count as a serious obstruction to traffic?",
+                  "options": [
+                    "In a loading zone, outside its hours",
+                    "Beside the right-hand curb of a wide street",
+                    "On a traffic island or median that channels traffic"
+                  ],
+                  "why": "Stopping or parking on medians, dividers, traffic islands or other features that channel traffic is on the list of serious obstructions. A loading zone counts only for parking, and only during its hours of use."
+                },
+                "terms": [
+                  {
+                    "es": "isleta",
+                    "en": "traffic island"
+                  },
+                  {
+                    "es": "mediana",
+                    "en": "median"
+                  },
+                  {
+                    "es": "obstáculo grave",
+                    "en": "serious obstruction"
+                  }
+                ],
+                "src": "RGC art. 91.2.e y 91.2.g"
+              }
             }
           ]
         },
@@ -3981,6 +4029,54 @@
             {
               "t": "check",
               "q": {
+                "id": "situations-c4i",
+                "answer": 1,
+                "es": {
+                  "q": "Una retención le deja inmovilizado dentro de un paso inferior, sin avería. ¿Qué hace con la señal de emergencia?",
+                  "options": [
+                    "La deja apagada, porque su vehículo no está averiado",
+                    "La conecta un tiempo para avisar a los que vienen detrás",
+                    "La conecta y sale con los pasajeros hacia la salida"
+                  ],
+                  "why": "Si el tráfico te deja inmovilizado en un túnel o paso inferior, no abandones el vehículo. Conecta la señal de emergencia temporalmente para avisar a los de detrás, deja las luces de posición y apaga el motor."
+                },
+                "exam": {
+                  "q": "A retention leaves you immobilised inside an underpass, without breakdown. What do you do with the emergency signal?",
+                  "options": [
+                    "You leave it switched off, because your vehicle is not broken down.",
+                    "You connect it during a time in order to warn those who come behind.",
+                    "You connect it and you leave with the passengers towards the exit."
+                  ]
+                },
+                "en": {
+                  "q": "A traffic jam leaves you stuck inside an underpass, with no breakdown. What do you do with the hazard lights?",
+                  "options": [
+                    "Leave them off, because your vehicle has not broken down",
+                    "Turn them on for a while to warn those coming behind",
+                    "Turn them on and walk out with the passengers toward the exit"
+                  ],
+                  "why": "If traffic leaves you stuck in a tunnel or underpass, do not leave the vehicle. Turn the hazard lights on temporarily to warn drivers behind, keep the position lights on and switch off the engine."
+                },
+                "terms": [
+                  {
+                    "es": "retención",
+                    "en": "traffic hold-up"
+                  },
+                  {
+                    "es": "paso inferior",
+                    "en": "underpass"
+                  },
+                  {
+                    "es": "señal de emergencia",
+                    "en": "hazard lights"
+                  }
+                ],
+                "src": "RGC art. 97.3"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
                 "id": "situations-c4f",
                 "answer": 1,
                 "es": {
@@ -4247,6 +4343,68 @@
                 ],
                 "src": "RGC art. 95.1"
               }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Lo mismo vale para un **puente móvil**, un puente que se abre para dejar pasar barcos. Al acercarte, extrema la prudencia y reduce la velocidad. Si está cerrado o su barrera se mueve, detente en tu carril, uno detrás de otro.",
+                "en": "The same applies to a **movable bridge**, a bridge that opens to let boats through. As you approach, take extra care and slow down. If it is closed or its barrier is moving, stop in your lane, one behind another."
+              },
+              "src": "RGC art. 95.1 y 95.2"
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "p-5"
+              ],
+              "caption": {
+                "es": "P-5: puente móvil.",
+                "en": "P-5: movable bridge."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c5h",
+                "answer": 0,
+                "es": {
+                  "q": "Se acerca a un puente móvil abierto al tráfico. Ninguna luz ni señal le obliga a parar. ¿Qué debe hacer?",
+                  "options": [
+                    "Extremar la prudencia y bajar de la velocidad máxima",
+                    "Detenerse siempre antes de entrar en el puente",
+                    "Mantener su velocidad, porque el paso está libre"
+                  ],
+                  "why": "Al acercarte a un paso a nivel o a un puente móvil, extrema la prudencia y reduce la velocidad por debajo de la máxima permitida. Solo te detienes si está cerrado o su barrera se mueve."
+                },
+                "exam": {
+                  "q": "You approach a movable bridge open to traffic. No light nor sign obliges you to stop. What must you do?",
+                  "options": [
+                    "To take extreme prudence and to go down from the maximum speed.",
+                    "To stop always before entering the bridge.",
+                    "To maintain your speed, because the passage is free."
+                  ]
+                },
+                "en": {
+                  "q": "You are nearing a movable bridge. It is down and open to traffic, and no light or sign makes you stop. What must you do?",
+                  "options": [
+                    "Take extra care and slow below the speed limit",
+                    "Always stop before driving onto the bridge",
+                    "Keep your speed, because the way is clear"
+                  ],
+                  "why": "Approaching a level crossing or a movable bridge, take extra care and slow down below the maximum allowed. You stop only if it is closed or its barrier is moving."
+                },
+                "terms": [
+                  {
+                    "es": "puente móvil",
+                    "en": "movable bridge"
+                  },
+                  {
+                    "es": "extremar la prudencia",
+                    "en": "to take extreme care"
+                  }
+                ],
+                "src": "RGC art. 95.1 y 95.2"
+              }
             }
           ]
         },
@@ -4387,6 +4545,54 @@
                 ],
                 "src": "RGC art. 95.2"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c5g",
+                "answer": 2,
+                "es": {
+                  "q": "El tren ya ha pasado y la barrera del paso a nivel empieza a subir. Ya cabe un coche por debajo. ¿Puede pasar?",
+                  "options": [
+                    "Sí, porque el tren ya ha pasado",
+                    "Sí, si la barrera ya está por encima del techo",
+                    "No, mientras la barrera esté en movimiento"
+                  ],
+                  "why": "Con la barrera o semibarrera en movimiento, también cuando sube, no puedes entrar. Espera en tu carril, detrás del de delante, hasta tener paso libre."
+                },
+                "exam": {
+                  "q": "The train has already passed and the barrier of the level crossing begins to rise. A car already fits underneath. Can you pass?",
+                  "options": [
+                    "Yes, because the train has already passed.",
+                    "Yes, if the barrier is already higher than the roof.",
+                    "No, while the barrier is in movement."
+                  ]
+                },
+                "en": {
+                  "q": "The train has gone by and the level-crossing barrier is starting to rise. A car already fits underneath. May you go through?",
+                  "options": [
+                    "Yes, because the train has already gone by",
+                    "Yes, if the barrier is already higher than the roof",
+                    "No, not while the barrier is still moving"
+                  ],
+                  "why": "While the barrier or half-barrier is moving, rising included, you may not enter. Wait in your lane, behind the car ahead, until the way is clear."
+                },
+                "terms": [
+                  {
+                    "es": "barrera",
+                    "en": "barrier"
+                  },
+                  {
+                    "es": "semibarrera",
+                    "en": "half-barrier"
+                  },
+                  {
+                    "es": "paso libre",
+                    "en": "clear way"
+                  }
+                ],
+                "src": "RGC art. 95.2"
+              }
             }
           ]
         },
@@ -4513,6 +4719,50 @@
                   }
                 ],
                 "src": "RGC arts. 95.3 y 94.1.b"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c5i",
+                "answer": 1,
+                "es": {
+                  "q": "En un paso a nivel sin barreras no se ve ningún tren en ninguna dirección. ¿Puede cambiar de sentido sobre él?",
+                  "options": [
+                    "Sí, si la visibilidad de la vía es buena",
+                    "No.",
+                    "Sí, si lo hace sin detenerse sobre las vías"
+                  ],
+                  "why": "No. Cambiar de sentido está prohibido en los pasos a nivel, haya o no barreras y se vea o no un tren."
+                },
+                "exam": {
+                  "q": "At a level crossing without barriers no train is seen in any direction. Can you change the direction of travel over it?",
+                  "options": [
+                    "Yes, if the visibility of the track is good.",
+                    "No.",
+                    "Yes, if you do it without stopping over the tracks."
+                  ]
+                },
+                "en": {
+                  "q": "At a level crossing that has no barriers, no train can be seen in either direction. May you turn around on it?",
+                  "options": [
+                    "Yes, if you can see well along the track",
+                    "No.",
+                    "Yes, if you do it without stopping on the tracks"
+                  ],
+                  "why": "No. U-turns are banned at level crossings, with or without barriers, and whether or not a train is in sight."
+                },
+                "terms": [
+                  {
+                    "es": "cambiar de sentido",
+                    "en": "to make a U-turn"
+                  },
+                  {
+                    "es": "paso a nivel",
+                    "en": "level crossing"
+                  }
+                ],
+                "src": "RGC art. 79.1"
               }
             }
           ]

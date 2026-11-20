@@ -655,6 +655,54 @@
                 ],
                 "src": "RGC art. 129.2.e"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "emergencies-c1j",
+                "answer": 1,
+                "es": {
+                  "q": "Ha tenido un accidente con daños solo materiales: ha golpeado un coche aparcado y su dueño no está. ¿Qué debe hacer?",
+                  "options": [
+                    "Marcharse, porque nadie le ha pedido sus datos.",
+                    "Hacerle llegar cuanto antes su nombre y dirección, directamente o a través de los agentes.",
+                    "Esperar junto al coche hasta que vuelva su dueño, aunque tarde horas."
+                  ],
+                  "why": "Si alguien implicado te los pide, das tu identidad y los datos del vehículo. Si el afectado no está, le haces llegar tu nombre y dirección cuanto antes, tú o los agentes."
+                },
+                "exam": {
+                  "q": "You have had an accident with only material damage: you have hit a parked car and its owner is not there. What must you do?",
+                  "options": [
+                    "To leave, because nobody has asked you for your data.",
+                    "To get your name and address to him as soon as possible, directly or through the agents.",
+                    "To wait next to the car until its owner comes back, even if it takes hours."
+                  ]
+                },
+                "en": {
+                  "q": "You have had a collision with only material damage: you hit a parked car and its owner is not there. What must you do?",
+                  "options": [
+                    "Leave, because nobody asked for your details",
+                    "Get your name and address to them as soon as possible, directly or through the police",
+                    "Wait by the car until the owner comes back, however many hours it takes"
+                  ],
+                  "why": "If someone involved asks, you give your identity and your vehicle's details. If the person affected is not there, you get your name and address to them as soon as possible, yourself or through the police."
+                },
+                "terms": [
+                  {
+                    "es": "daños materiales",
+                    "en": "material damage"
+                  },
+                  {
+                    "es": "identidad",
+                    "en": "identity"
+                  },
+                  {
+                    "es": "agentes de la autoridad",
+                    "en": "police officers"
+                  }
+                ],
+                "src": "RGC art. 129.2.f"
+              }
             }
           ]
         }
@@ -2890,6 +2938,61 @@
                 ],
                 "src": "RGV anexo XI, V-16, apdo. 1; RGC art. 130.4"
               }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "La DGT explica que, al encenderla, la baliza da su luz de aviso y se conecta a la plataforma **DGT 3.0** para enviar su **ubicación** en tiempo real. Sirve para avisar a los demás usuarios de la vía. No es una llamada de socorro: si hay heridos o necesitas ayuda, llama tú al **112**.",
+                "en": "The DGT explains that, once switched on, the beacon shows its warning light and connects to the **DGT 3.0** platform to send its **location** in real time. It is there to warn other road users. It is not a call for help: if anyone is hurt or you need assistance, call **112** yourself."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "emergencies-c3p",
+                "answer": 2,
+                "es": {
+                  "q": "Tras un accidente con un herido, enciende la baliza V-16 conectada. ¿Qué hace la baliza?",
+                  "options": [
+                    "Llama al 112 y pide una ambulancia.",
+                    "Avisa a su aseguradora para que mande una grúa.",
+                    "Envía su ubicación a la plataforma DGT 3.0 para avisar a los demás usuarios."
+                  ],
+                  "why": "La V-16 conectada comunica su posición a la DGT para que se avise a los demás conductores. No pide ayuda sanitaria: llama tú al 112."
+                },
+                "exam": {
+                  "q": "After an accident with an injured person, you switch on the connected V-16 beacon. What does the beacon do?",
+                  "options": [
+                    "It calls 112 and asks for an ambulance.",
+                    "It notifies your insurer so that it sends a tow truck.",
+                    "It sends its location to the DGT 3.0 platform in order to warn the other users."
+                  ]
+                },
+                "en": {
+                  "q": "After a crash with an injured person, you switch on the connected V-16 beacon. What does the beacon do?",
+                  "options": [
+                    "It calls 112 and asks for an ambulance",
+                    "It tells your insurer to send a tow truck",
+                    "It sends its location to the DGT 3.0 platform to warn other road users"
+                  ],
+                  "why": "The connected V-16 reports its position to the DGT so other drivers can be warned. It does not request medical help: call 112 yourself."
+                },
+                "terms": [
+                  {
+                    "es": "baliza V-16 conectada",
+                    "en": "connected V-16 beacon"
+                  },
+                  {
+                    "es": "ubicación",
+                    "en": "location"
+                  },
+                  {
+                    "es": "usuarios de la vía",
+                    "en": "road users"
+                  }
+                ],
+                "src": "DGT guidance (Dispositivos de preseñalización V16, dgt.es, 2026)"
+              }
             }
           ]
         },
@@ -2966,8 +3069,8 @@
         },
         {
           "title": {
-            "es": "Incendio en un túnel",
-            "en": "Fire in a tunnel"
+            "es": "Fuego en el vehículo o en un túnel",
+            "en": "Fire in the vehicle or in a tunnel"
           },
           "blocks": [
             {
@@ -3032,6 +3135,65 @@
                   }
                 ],
                 "src": "RGC art. 97.3"
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Si tu vehículo echa **humo o llamas**, o huele a quemado, el Manual II de la DGT (2026) aconseja **detenerlo cuanto antes y sacar a todos**. Luego mira desde fuera, sin acercarte, de dónde sale. El agua puede empeorar algunos fuegos, y si el fuego está en el motor, **no abras el capó** sin un extintor a mano: entra aire y lo avivas. Llama al 112.",
+                "en": "If your vehicle gives off **smoke or flames**, or smells of burning, the DGT's Manual II (2026) advises **stopping as soon as you can and getting everyone out**. Then look from outside, without going close, to see where it comes from. Water can make some fires worse, and if the fire is in the engine, **do not open the hood** without an extinguisher at hand: air gets in and feeds it. Call 112."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "emergencies-c3q",
+                "answer": 0,
+                "es": {
+                  "q": "Sale humo del motor de su coche y no lleva extintor. ¿Qué es lo primero?",
+                  "options": [
+                    "Detenerse en cuanto pueda y que salgan todos los ocupantes.",
+                    "Abrir del todo el capó para ver de dónde sale el humo.",
+                    "Seguir hasta la próxima gasolinera para pedir agua."
+                  ],
+                  "why": "Primero, las personas: para y evacúa el coche. Abrir el capó sin un extintor a mano deja entrar aire y aviva el fuego. Aléjate y llama al 112."
+                },
+                "exam": {
+                  "q": "Smoke comes out of the engine of your car and you do not carry an extinguisher. What is the first thing?",
+                  "options": [
+                    "To stop as soon as you can and that all the occupants get out.",
+                    "To open the bonnet completely to see where the smoke comes from.",
+                    "To continue to the next petrol station to ask for water."
+                  ]
+                },
+                "en": {
+                  "q": "Smoke is coming from your car's engine and you have no extinguisher. What comes first?",
+                  "options": [
+                    "Stop as soon as you can and get all the occupants out",
+                    "Open the hood all the way to see where the smoke comes from",
+                    "Drive on to the next gas station to ask for water"
+                  ],
+                  "why": "People first: stop and get everyone out. Opening the hood with no extinguisher at hand lets air in and feeds the fire. Move away and call 112."
+                },
+                "terms": [
+                  {
+                    "es": "extintor",
+                    "en": "fire extinguisher"
+                  },
+                  {
+                    "es": "capó",
+                    "en": "hood (bonnet)"
+                  },
+                  {
+                    "es": "evacuar",
+                    "en": "to evacuate"
+                  },
+                  {
+                    "es": "ocupantes",
+                    "en": "occupants"
+                  }
+                ],
+                "src": "DGT, Manual II Cuestiones de seguridad vial (2026), UD20, ap. 3.5"
               }
             }
           ]
@@ -3351,7 +3513,9 @@
         "DGT guidance: «En caso de emergencia» (dgt.es)",
         "Ley de Tráfico y Seguridad Vial (RDL 6/2015), art. 12.3",
         "Reglamento General de Circulación (RD 1428/2003), art. 97.3",
-        "Reglamento General de Circulación (RD 1428/2003), arts. 35.2.c y 36.4 (redacción vigente desde 2026-10-01)"
+        "Reglamento General de Circulación (RD 1428/2003), arts. 35.2.c y 36.4 (redacción vigente desde 2026-10-01)",
+        "DGT guidance (dgt.es): Dispositivos de preseñalización V16 (2026)",
+        "DGT, Manual II Cuestiones de seguridad vial (2026), UD20, ap. 3.5"
       ]
     }
   ]

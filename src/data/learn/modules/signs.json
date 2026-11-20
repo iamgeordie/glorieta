@@ -114,6 +114,14 @@
               "src": "RGC art. 131"
             },
             {
+              "t": "rule",
+              "text": {
+                "es": "Su misión es **advertir e informar** a los usuarios, u **ordenar o reglamentar** su comportamiento, con la antelación necesaria.",
+                "en": "Its job is to **warn and inform** road users, or to **order or regulate** how they behave, early enough to act."
+              },
+              "src": "RGC art. 131"
+            },
+            {
               "t": "list",
               "items": [
                 {
@@ -137,6 +145,50 @@
                   "en": "**Road markings:** what is painted on the roadway."
                 }
               ]
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-order-k",
+                "answer": 1,
+                "es": {
+                  "q": "Según el reglamento, la misión de la señalización es…",
+                  "options": [
+                    "solo informar, ya que las normas generales obligan.",
+                    "advertir, informar y también ordenar la conducta.",
+                    "recordar las normas, sin crear obligaciones nuevas."
+                  ],
+                  "why": "La señalización advierte e informa, pero también ordena o reglamenta lo que haces. Por eso una señal puede crear una obligación que la norma general no tiene."
+                },
+                "exam": {
+                  "q": "According to the regulation, the mission of the signalling is…",
+                  "options": [
+                    "only to inform, since the general norms oblige.",
+                    "to warn, to inform and also to order the conduct.",
+                    "to remind the norms, without creating new obligations."
+                  ]
+                },
+                "en": {
+                  "q": "Under the regulations, what is signaling for?",
+                  "options": [
+                    "Only to inform, since the general rules are what bind you",
+                    "To warn, to inform and also to order how you drive",
+                    "To remind you of the rules, without adding any duties"
+                  ],
+                  "why": "Signaling warns and informs, but it also orders or regulates what you do. That is why a sign can create a duty the general rule does not have."
+                },
+                "terms": [
+                  {
+                    "es": "señalización",
+                    "en": "signaling"
+                  },
+                  {
+                    "es": "reglamentar",
+                    "en": "to regulate"
+                  }
+                ],
+                "src": "RGC art. 131"
+              }
             }
           ]
         },
@@ -452,6 +504,50 @@
                   }
                 ],
                 "src": "RGC art. 133.1 y 133.2"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-order-l",
+                "answer": 2,
+                "es": {
+                  "q": "Al entrar en un tramo ve dos señales verticales de velocidad máxima que parecen contradecirse: una de 70 y otra de 50. ¿Cuál prevalece?",
+                  "options": [
+                    "La de 70, que es la menos restrictiva",
+                    "La primera que haya visto al entrar",
+                    "La de 50, que es la más restrictiva"
+                  ],
+                  "why": "Si dos señales del mismo tipo parecen contradecirse, prevalece la más restrictiva. Si son de tipos distintos, manda la que va antes en el orden de preferencia."
+                },
+                "exam": {
+                  "q": "On entering a stretch you see two vertical signs of maximum speed that appear contradictory: one of 70 and another of 50. Which one prevails?",
+                  "options": [
+                    "The one of 70, which is the least restrictive.",
+                    "The first one that you have seen on entering.",
+                    "The one of 50, which is the most restrictive."
+                  ]
+                },
+                "en": {
+                  "q": "Entering a stretch, you see two speed limit signs that seem to disagree: one says 70 and the other 50. Which one wins?",
+                  "options": [
+                    "The 70, the less restrictive one",
+                    "The first one you saw as you entered",
+                    "The 50, the more restrictive one"
+                  ],
+                  "why": "When two signals of the same type seem to disagree, the more restrictive one wins. When they are of different types, the one higher in the order of precedence rules."
+                },
+                "terms": [
+                  {
+                    "es": "prevalecer",
+                    "en": "to prevail, to win out"
+                  },
+                  {
+                    "es": "restrictiva",
+                    "en": "restrictive"
+                  }
+                ],
+                "src": "RGC art. 133.2"
               }
             }
           ]
@@ -3625,6 +3721,59 @@
                 "src": "RGC Anexo I, ap. 5.1, 3.3 (R-104 y R-105)",
                 "sign": "r-104"
               }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "R-105, «Entrada prohibida a ciclomotores», prohíbe el acceso a los ciclomotores y también a los **vehículos para personas de movilidad reducida**.",
+                "en": "R-105, “No mopeds”, bars mopeds and also **vehicles for people with reduced mobility**."
+              },
+              "src": "RGC Anexo I, ap. 5.1, 3.3 (R-105)"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-prio-o",
+                "answer": 1,
+                "sign": "r-105",
+                "es": {
+                  "q": "Una persona conduce un vehículo para personas de movilidad reducida y llega a esta señal. ¿Puede entrar?",
+                  "options": [
+                    "Sí: solo afecta a los ciclomotores",
+                    "No: también les prohíbe la entrada",
+                    "Sí, si lleva la tarjeta de discapacidad"
+                  ],
+                  "why": "La señal de entrada prohibida a ciclomotores prohíbe igualmente la entrada a los vehículos para personas de movilidad reducida."
+                },
+                "exam": {
+                  "q": "A person drives a vehicle for persons of reduced mobility and arrives at this sign. Can they enter?",
+                  "options": [
+                    "Yes: it only affects mopeds.",
+                    "No: it also prohibits them the entry.",
+                    "Yes, if it carries the card of disability."
+                  ]
+                },
+                "en": {
+                  "q": "Someone in a reduced-mobility vehicle reaches this sign. May they go in?",
+                  "options": [
+                    "Yes: it only applies to mopeds",
+                    "No: it bars them as well",
+                    "Yes, if it displays a disability card"
+                  ],
+                  "why": "The no-mopeds sign also bars vehicles for people with reduced mobility."
+                },
+                "terms": [
+                  {
+                    "es": "movilidad reducida",
+                    "en": "reduced mobility"
+                  },
+                  {
+                    "es": "ciclomotor",
+                    "en": "moped"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.3 (R-105)"
+              }
             }
           ]
         },
@@ -4625,6 +4774,51 @@
                 ],
                 "src": "RGC Anexo I, ap. 5.1, 3.5 (R-308) y 3.17 (S-860)",
                 "sign": "r-308"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-ban-s",
+                "answer": 0,
+                "sign": "r-307",
+                "es": {
+                  "q": "Esta señal está en la acera derecha de una calle de doble sentido. ¿Prohíbe estacionar junto a la acera de enfrente?",
+                  "options": [
+                    "No: solo en el lado de la señal",
+                    "Sí, en los dos lados de la calzada",
+                    "Sí, salvo para cargar y descargar"
+                  ],
+                  "why": "La señal de parada y estacionamiento prohibidos rige en el lado de la calzada donde está colocada. Salvo indicación contraria, va desde la señal hasta la intersección más próxima."
+                },
+                "exam": {
+                  "q": "This sign is on the right pavement of a street of double direction. Does it prohibit parking next to the pavement opposite?",
+                  "options": [
+                    "No: only on the side of the sign.",
+                    "Yes, on both sides of the carriageway.",
+                    "Yes, except in order to load and unload."
+                  ]
+                },
+                "en": {
+                  "q": "This sign stands on the right-hand sidewalk of a two-way street. Does it ban parking along the opposite curb?",
+                  "options": [
+                    "No: only on the side where it stands",
+                    "Yes, on both sides of the roadway",
+                    "Yes, except for loading and unloading"
+                  ],
+                  "why": "The no-stopping-or-parking sign applies to the side of the roadway where it stands. Unless a panel says otherwise, it runs from the sign to the nearest junction."
+                },
+                "terms": [
+                  {
+                    "es": "lado de la calzada",
+                    "en": "side of the roadway"
+                  },
+                  {
+                    "es": "calle de doble sentido",
+                    "en": "two-way street"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.5 (R-307)"
               }
             }
           ]
@@ -9159,6 +9353,50 @@
                   }
                 ],
                 "src": "RGC Anexo I, ap. 5.2 (marcas viales M-6.5)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-mark-u",
+                "answer": 1,
+                "es": {
+                  "q": "Una línea continua blanca cruza su carril justo antes de un semáforo que está en verde. ¿Debe detenerse ante ella?",
+                  "options": [
+                    "Sí: es un stop pintado en el suelo",
+                    "No, solo si debe detenerse allí",
+                    "Sí, cuando hay poca visibilidad"
+                  ],
+                  "why": "La línea continua transversal es una línea de detención. No la rebasas cuando tienes que parar por un stop, un semáforo, un agente, un paso de peatones, un paso a nivel o un puente móvil. Si nada te obliga a parar, sigues."
+                },
+                "exam": {
+                  "q": "A white continuous line crosses your lane just before a traffic light that is in green. Must you stop before it?",
+                  "options": [
+                    "Yes: it is a stop painted on the ground.",
+                    "No, only if you must stop there.",
+                    "Yes, when there is little visibility."
+                  ]
+                },
+                "en": {
+                  "q": "A solid white line runs across your lane just before a green traffic light. Must you stop at it?",
+                  "options": [
+                    "Yes: it is a STOP painted on the road",
+                    "No, only if you have to stop there",
+                    "Yes, when visibility is poor"
+                  ],
+                  "why": "A solid line across the lane is a stop line. You do not cross it when you have to stop for a STOP, a light, an officer, a crosswalk, a level crossing or a movable bridge. If nothing makes you stop, you go on."
+                },
+                "terms": [
+                  {
+                    "es": "línea de detención",
+                    "en": "stop line"
+                  },
+                  {
+                    "es": "rebasar",
+                    "en": "to go past, to cross"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.2 (marcas viales), 4.2"
               }
             }
           ]

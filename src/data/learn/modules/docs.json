@@ -376,6 +376,106 @@
                 ],
                 "src": "RGCond art. 4.2"
               }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "La clase B mira la **masa** y las **plazas**, no la carrocería. Autoriza automóviles de hasta 3.500 kg de masa máxima autorizada y ocho pasajeros además del conductor, con un remolque de hasta 750 kg. También autoriza **ciclomotores** y triciclos y cuatriciclos de motor.",
+                "en": "Class B looks at **mass** and **seats**, not the body. It covers automobiles of up to 3,500 kg maximum authorized mass and eight passengers besides the driver, with a trailer of up to 750 kg. It also covers **mopeds** and motor tricycles and quadricycles."
+              },
+              "src": "RGCond art. 4.2 (clase B)"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-classes-9",
+                "answer": 2,
+                "es": {
+                  "q": "Con el permiso B, ¿puede conducir un pequeño camión de 3.000 kg de masa máxima autorizada que lleva enganchado un remolque de 600 kg?",
+                  "options": [
+                    "No: cualquier camión exige un permiso de la clase C1 o C.",
+                    "No: con un remolque enganchado se exige el permiso B+E.",
+                    "Sí: el camión no pasa de 3.500 kg y el remolque es ligero."
+                  ],
+                  "why": "El permiso B autoriza cualquier automóvil de hasta 3.500 kg de MMA y ocho pasajeros, también un camión, con un remolque de hasta 750 kg. La C1 empieza por encima de 3.500 kg."
+                },
+                "exam": {
+                  "q": "With the permit B, can you drive a small lorry of 3,000 kg of maximum authorised mass that carries hitched a trailer of 600 kg?",
+                  "options": [
+                    "No: any lorry requires a permit of class C1 or C.",
+                    "No: with a hitched trailer the permit B+E is required.",
+                    "Yes: the lorry stays within 3,500 kg and the trailer is light."
+                  ]
+                },
+                "en": {
+                  "q": "With a B license, may you drive a small truck of 3,000 kg maximum authorized mass towing a 600 kg trailer?",
+                  "options": [
+                    "No: any truck needs a class C1 or C license.",
+                    "No: towing a trailer needs a B+E license.",
+                    "Yes: the truck is not over 3,500 kg and the trailer is light."
+                  ],
+                  "why": "Class B covers any automobile up to 3,500 kg MMA and eight passengers, a truck included, with a trailer of up to 750 kg. C1 starts above 3,500 kg."
+                },
+                "terms": [
+                  {
+                    "es": "camión",
+                    "en": "truck"
+                  },
+                  {
+                    "es": "masa máxima autorizada (MMA)",
+                    "en": "maximum authorized mass"
+                  },
+                  {
+                    "es": "enganchado",
+                    "en": "hitched, coupled"
+                  }
+                ],
+                "src": "RGCond art. 4.2 (clases B y C1)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-classes-10",
+                "answer": 0,
+                "es": {
+                  "q": "Solo tiene el permiso de la clase B, obtenido hace seis meses. ¿Puede conducir un ciclomotor de cuatro ruedas (cuatriciclo ligero)?",
+                  "options": [
+                    "Sí, el permiso B también autoriza ciclomotores.",
+                    "No, para eso necesita además el permiso AM.",
+                    "Solo cuando su permiso B tenga más de tres años."
+                  ],
+                  "why": "La clase B incluye los ciclomotores, y un cuatriciclo ligero es un ciclomotor de cuatro ruedas. Los tres años de antigüedad son solo para las motos de la clase A1."
+                },
+                "exam": {
+                  "q": "You only have the permit of class B, obtained six months ago. Can you drive a moped of four wheels (light quadricycle)?",
+                  "options": [
+                    "Yes, the permit B also authorises mopeds.",
+                    "No, for that you need in addition the permit AM.",
+                    "Only when your permit B has more than three years."
+                  ]
+                },
+                "en": {
+                  "q": "You hold only a class B license, issued six months ago. May you drive a four-wheeled moped (light quadricycle)?",
+                  "options": [
+                    "Yes, class B also covers mopeds.",
+                    "No, for that you also need the AM license.",
+                    "Only once your B license is more than three years old."
+                  ],
+                  "why": "Class B includes mopeds, and a light quadricycle is a four-wheeled moped. The three years of holding are only for class A1 motorcycles."
+                },
+                "terms": [
+                  {
+                    "es": "cuatriciclo ligero",
+                    "en": "light quadricycle (four-wheeled moped)"
+                  },
+                  {
+                    "es": "ciclomotor",
+                    "en": "moped"
+                  }
+                ],
+                "src": "RGCond art. 4.2 (clases AM y B); LSV Anexo I, 9.c"
+              }
             }
           ]
         },
@@ -1768,11 +1868,12 @@
               "src": "LSV art. 71.2"
             },
             {
-              "t": "p",
+              "t": "rule",
               "text": {
-                "es": "El permiso nuevo empieza con ocho puntos.",
-                "en": "The new permit starts with eight points."
-              }
+                "es": "Quien obtiene de nuevo el permiso tras perder todos los puntos empieza con un crédito de **ocho puntos**, como un conductor novel.",
+                "en": "Someone who gets the permit again after losing all their points starts with a balance of **eight points**, like a novice driver."
+              },
+              "src": "LSV art. 63.2.b"
             },
             {
               "t": "check",
@@ -1852,6 +1953,50 @@
                   }
                 ],
                 "src": "LSV art. 71.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-points-13",
+                "answer": 1,
+                "es": {
+                  "q": "Un conductor pierde todos los puntos. Pasado el plazo, supera el curso de sensibilización y reeducación vial y las pruebas. ¿Con qué saldo empieza su nuevo permiso?",
+                  "options": [
+                    "Con 12 puntos, como al principio",
+                    "Con 8 puntos",
+                    "Con los 6 puntos que da el curso"
+                  ],
+                  "why": "Quien vuelve a obtener el permiso tras perder todos los puntos recibe un crédito inicial de 8 puntos. Los 6 del curso son para quien ha perdido solo una parte."
+                },
+                "exam": {
+                  "q": "A driver loses all the points. Once the term has passed, he passes the course of awareness and road re-education and the tests. With which balance does his new permit start?",
+                  "options": [
+                    "With 12 points, as at the beginning.",
+                    "With 8 points.",
+                    "With the 6 points that the course gives."
+                  ]
+                },
+                "en": {
+                  "q": "A driver loses all their points. After the waiting time, they complete the re-education course and pass the tests. What balance does the new permit start with?",
+                  "options": [
+                    "12 points, as at the start",
+                    "8 points",
+                    "The 6 points the course gives"
+                  ],
+                  "why": "Anyone who gets the permit again after losing all their points receives an initial balance of 8 points. The course’s 6 points are for someone who lost only some."
+                },
+                "terms": [
+                  {
+                    "es": "saldo de puntos",
+                    "en": "points balance"
+                  },
+                  {
+                    "es": "curso de sensibilización y reeducación vial",
+                    "en": "road awareness and re-education course"
+                  }
+                ],
+                "src": "LSV arts. 63.2.b, 65.4 y 71.2"
               }
             }
           ]
@@ -2438,6 +2583,58 @@
                 ],
                 "src": "LSV anexo II, punto 12"
               }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "La **conducción temeraria** es una infracción **muy grave**, cuando no es delito. Si se comete con un vehículo que exige permiso, quita **seis puntos**.",
+                "en": "**Reckless driving** (conducción temeraria) is a **very serious** offense, when it is not a crime. Committed with a vehicle that needs a permit, it costs **six points**."
+              },
+              "src": "LSV art. 77.e; LSV art. 65.3; LSV anexo II, punto 4"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-offences-11",
+                "answer": 0,
+                "es": {
+                  "q": "Como infracción administrativa, conducir un turismo de forma temeraria es…",
+                  "options": [
+                    "muy grave, y resta seis puntos.",
+                    "grave, y resta cuatro puntos.",
+                    "muy grave, pero no resta puntos."
+                  ],
+                  "why": "La conducción temeraria está entre las infracciones muy graves, y el anexo II le asigna seis puntos. Si pone en peligro concreto a las personas, puede ser además un delito."
+                },
+                "exam": {
+                  "q": "As an administrative infraction, to drive a passenger car in a reckless way is…",
+                  "options": [
+                    "very serious, and it subtracts six points.",
+                    "serious, and it subtracts four points.",
+                    "very serious, but it does not subtract points."
+                  ]
+                },
+                "en": {
+                  "q": "As an administrative offense, driving a car recklessly is…",
+                  "options": [
+                    "very serious, and it costs six points.",
+                    "serious, and it costs four points.",
+                    "very serious, but it costs no points."
+                  ],
+                  "why": "Reckless driving is among the very serious offenses, and annex II gives it six points. If it puts people in real danger, it can also be a crime."
+                },
+                "terms": [
+                  {
+                    "es": "conducción temeraria",
+                    "en": "reckless driving"
+                  },
+                  {
+                    "es": "infracción muy grave",
+                    "en": "very serious offense"
+                  }
+                ],
+                "src": "LSV art. 77.e y anexo II, punto 4"
+              }
             }
           ]
         },
@@ -3013,6 +3210,93 @@
               }
             }
           ]
+        },
+        {
+          "title": {
+            "es": "Circular sin seguro",
+            "en": "Driving without insurance"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Todo vehículo a motor debe tener el **seguro obligatorio**. No tenerlo se sanciona con una ley propia, no con la tabla de puntos.",
+                "en": "Every motor vehicle must have **compulsory insurance** (seguro obligatorio). Lacking it is punished under its own law, not with the points table."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Las infracciones por no asegurar el vehículo se regulan y sancionan con su **legislación específica**.",
+                "en": "Offenses for not insuring the vehicle are regulated and punished under their **own specific law**."
+              },
+              "src": "LSV art. 78.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "No asegurar el vehículo supone la **prohibición de circular**, el **depósito o precinto** del vehículo mientras no se contrate el seguro, y una **multa de 601 a 3.005 euros**.",
+                "en": "Not insuring the vehicle means it is **banned from the road**, the vehicle is **impounded or sealed** until insurance is taken out, and a **fine of 601 to 3,005 euros**."
+              },
+              "src": "RDL 8/2004 (LRCSCVM) art. 3.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los agentes pueden **inmovilizar** el vehículo que carece de seguro obligatorio.",
+                "en": "Officers may **immobilize** a vehicle that has no compulsory insurance."
+              },
+              "src": "LSV art. 104.1.e"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-offences-12",
+                "answer": 2,
+                "es": {
+                  "q": "Un agente comprueba que el turismo que conduce no tiene el seguro obligatorio. ¿Qué consecuencia prevé la norma para el vehículo y su propietario?",
+                  "options": [
+                    "Una multa y la pérdida de cuatro puntos del permiso",
+                    "Solo una advertencia, si contrata el seguro en el día",
+                    "Una multa y el depósito o la inmovilización del vehículo"
+                  ],
+                  "why": "Sin seguro, el vehículo no puede circular: queda inmovilizado o en depósito hasta que se contrate el seguro, y hay multa de 601 a 3.005 euros. Esta infracción no está en la tabla de puntos."
+                },
+                "exam": {
+                  "q": "An agent checks that the passenger car that you drive does not have the compulsory insurance. Which consequence does the rule foresee for the vehicle and its owner?",
+                  "options": [
+                    "A fine and the loss of four points of the permit.",
+                    "Only a warning, if you contract the insurance in the day.",
+                    "A fine and the deposit or the immobilisation of the vehicle."
+                  ]
+                },
+                "en": {
+                  "q": "An officer finds that the car you are driving has no compulsory insurance. What does the law provide for the vehicle and its owner?",
+                  "options": [
+                    "A fine and the loss of four points from the license",
+                    "Only a warning, if insurance is taken out that day",
+                    "A fine and the vehicle impounded or immobilized"
+                  ],
+                  "why": "Without insurance the vehicle may not be driven: it is immobilized or impounded until insurance is taken out, and there is a fine of 601 to 3,005 euros. This offense is not in the points table."
+                },
+                "terms": [
+                  {
+                    "es": "seguro obligatorio",
+                    "en": "compulsory insurance"
+                  },
+                  {
+                    "es": "inmovilización",
+                    "en": "immobilization (vehicle held)"
+                  },
+                  {
+                    "es": "depósito o precinto",
+                    "en": "impounding or sealing"
+                  }
+                ],
+                "src": "RDL 8/2004 art. 3.1; LSV art. 104.1.e"
+              }
+            }
+          ]
         }
       ],
       "recap": [
@@ -3043,7 +3327,9 @@
       ],
       "covers": [],
       "src": [
-        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), arts. 64, 80, 81 y 94, y anexos II y IV"
+        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), arts. 64, 80, 81 y 94, y anexos II y IV",
+        "Real Decreto Legislativo 8/2004 (Ley sobre responsabilidad civil y seguro en la circulación de vehículos a motor), art. 3.1",
+        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), arts. 65.3, 77.e y 104"
       ]
     },
     {
@@ -3860,6 +4146,129 @@
                 ],
                 "src": "RGCond art. 3.1"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-duties-11",
+                "answer": 0,
+                "es": {
+                  "q": "Se muda a otra ciudad. ¿Debe comunicar su nuevo domicilio a la Jefatura Provincial de Tráfico?",
+                  "options": [
+                    "Sí, dentro de los quince días siguientes.",
+                    "No, basta con indicarlo al renovar el permiso.",
+                    "Sí, pero solo si se muda a otra provincia."
+                  ],
+                  "why": "El cambio de domicilio del titular del permiso se comunica a Tráfico en 15 días desde que se produce, igual que cualquier cambio en los datos del permiso."
+                },
+                "exam": {
+                  "q": "You move to another city. Must you communicate your new domicile to the Provincial Traffic Headquarters?",
+                  "options": [
+                    "Yes, within the following fifteen days.",
+                    "No, it is enough to indicate it when renewing the permit.",
+                    "Yes, but only if you move to another province."
+                  ]
+                },
+                "en": {
+                  "q": "You move to another city. Must you report your new address to the provincial traffic office?",
+                  "options": [
+                    "Yes, within the next fifteen days.",
+                    "No, it is enough to give it when you renew the license.",
+                    "Yes, but only if you move to another province."
+                  ],
+                  "why": "A change of the permit holder’s address is reported to Tráfico within 15 days of it happening, like any change to the data on the permit."
+                },
+                "terms": [
+                  {
+                    "es": "domicilio",
+                    "en": "home address"
+                  },
+                  {
+                    "es": "Jefatura Provincial de Tráfico",
+                    "en": "provincial traffic office"
+                  }
+                ],
+                "src": "RGCond art. 10"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Vender o comprar un vehículo",
+            "en": "Selling or buying a vehicle"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "Cuando un coche cambia de dueño, Tráfico debe saberlo. Cada parte tiene su plazo.",
+                "en": "When a car changes owner, Tráfico must know. Each side has its own deadline."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Quien **vende** o transmite un vehículo matriculado en España debe notificarlo a la Jefatura de Tráfico en **diez días** desde la transmisión. Si no lo hace, sigue siendo el titular a efectos de tráfico hasta que el vehículo se inscriba a nombre de otro.",
+                "en": "Whoever **sells** or transfers a vehicle registered in Spain must notify the traffic office within **ten days** of the transfer. If they do not, they remain the owner for traffic purposes until the vehicle is registered to someone else."
+              },
+              "src": "RGV art. 32.1"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Quien **compra** debe pedir en **treinta días** un nuevo permiso de circulación a su nombre. Sin él, el vehículo no puede circular.",
+                "en": "Whoever **buys** must apply within **thirty days** for a new vehicle registration certificate in their name. Without it, the vehicle may not be driven."
+              },
+              "src": "RGV art. 32.3"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-duties-12",
+                "answer": 1,
+                "es": {
+                  "q": "Vende su turismo a otra persona. ¿Quién debe notificar la venta a Tráfico, y en qué plazo?",
+                  "options": [
+                    "El comprador, en quince días.",
+                    "Usted, como vendedor, en diez días.",
+                    "Nadie: basta con cambiar el seguro de nombre."
+                  ],
+                  "why": "El vendedor notifica la transmisión en diez días. Si no lo hace, sigue figurando como titular. El comprador tiene treinta días para pedir el permiso de circulación a su nombre."
+                },
+                "exam": {
+                  "q": "You sell your passenger car to another person. Who must notify the sale to Traffic, and in which term?",
+                  "options": [
+                    "The buyer, in fifteen days.",
+                    "You, as seller, in ten days.",
+                    "Nobody: it is enough to change the insurance of name."
+                  ]
+                },
+                "en": {
+                  "q": "You sell your car to someone else. Who must report the sale to Tráfico, and by when?",
+                  "options": [
+                    "The buyer, within fifteen days.",
+                    "You, as the seller, within ten days.",
+                    "Nobody: changing the insurance name is enough."
+                  ],
+                  "why": "The seller reports the transfer within ten days. If not, the seller stays on record as owner. The buyer has thirty days to apply for the registration certificate in their name."
+                },
+                "terms": [
+                  {
+                    "es": "transmisión",
+                    "en": "transfer (sale) of a vehicle"
+                  },
+                  {
+                    "es": "vendedor",
+                    "en": "seller"
+                  },
+                  {
+                    "es": "permiso de circulación",
+                    "en": "vehicle registration certificate"
+                  }
+                ],
+                "src": "RGV art. 32.1 y 32.3"
+              }
             }
           ]
         },
@@ -4445,7 +4854,8 @@
         "Ley de Tráfico y Seguridad Vial (RDL 6/2015), art. 82",
         "Código Penal (LO 10/1995), arts. 379, 380, 382 bis, 383 y 384",
         "Código Penal, art. 384",
-        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), arts. 11.2 y 82.c, y anexo I, punto 2 (redacción del RD 518/2026)"
+        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), arts. 11.2 y 82.c, y anexo I, punto 2 (redacción del RD 518/2026)",
+        "Reglamento General de Vehículos (RD 2822/1998), art. 32"
       ]
     },
     {
@@ -5857,6 +6267,62 @@
                 ],
                 "src": "LSV Anexo I, 9.a"
               }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Para la ley, la **motocicleta es un automóvil**: de dos ruedas, o de tres asimétricas con sidecar. El ciclomotor, en cambio, ni siquiera es un vehículo de motor.",
+                "en": "For the law, a **motorcycle is an automobile**: two wheels, or three asymmetric ones with a sidecar. A moped, by contrast, is not even a motor vehicle."
+              },
+              "src": "LSV Anexo I, 12, 13 y 14"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-veh-11",
+                "answer": 1,
+                "es": {
+                  "q": "Para la ley de tráfico, ¿cuál de estos dos vehículos es un automóvil: un ciclomotor o una motocicleta?",
+                  "options": [
+                    "Los dos, porque llevan motor",
+                    "Solo la motocicleta",
+                    "Ninguno, porque tienen dos ruedas"
+                  ],
+                  "why": "La ley define la motocicleta como un automóvil de dos ruedas. El ciclomotor no es un vehículo de motor, así que tampoco es un automóvil."
+                },
+                "exam": {
+                  "q": "For the traffic law, which of these two vehicles is an automobile: a moped or a motorcycle?",
+                  "options": [
+                    "Both, because they carry an engine.",
+                    "Only the motorcycle.",
+                    "None, because they have two wheels."
+                  ]
+                },
+                "en": {
+                  "q": "Under the traffic law, which of these two is an automobile: a moped or a motorcycle?",
+                  "options": [
+                    "Both, because they have an engine",
+                    "Only the motorcycle",
+                    "Neither, because they have two wheels"
+                  ],
+                  "why": "The law defines a motorcycle as a two-wheeled automobile. A moped is not a motor vehicle, so it is not an automobile either."
+                },
+                "terms": [
+                  {
+                    "es": "automóvil",
+                    "en": "automobile (legal category)"
+                  },
+                  {
+                    "es": "motocicleta",
+                    "en": "motorcycle"
+                  },
+                  {
+                    "es": "ciclomotor",
+                    "en": "moped"
+                  }
+                ],
+                "src": "LSV Anexo I, 12, 13 y 14"
+              }
             }
           ]
         },
@@ -6026,6 +6492,133 @@
               }
             }
           ]
+        },
+        {
+          "title": {
+            "es": "Vehículos de movilidad personal (VMP)",
+            "en": "Personal mobility vehicles (VMP)"
+          },
+          "blocks": [
+            {
+              "t": "p",
+              "text": {
+                "es": "El patinete eléctrico es el VMP más común. La norma lo define por sus plazas, su motor y su velocidad.",
+                "en": "The e-scooter is the most common VMP. The rules define it by its seats, its engine and its speed."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Un **vehículo de movilidad personal** tiene una o más ruedas y **una sola plaza**, y lo mueven solo motores **eléctricos**, con una velocidad máxima por diseño de **6 a 25 km/h**. Solo puede llevar asiento si tiene sistema de autoequilibrado. No es un vehículo de motor.",
+                "en": "A **personal mobility vehicle** has one or more wheels and **a single seat**, and is driven only by **electric** motors, with a top design speed of **6 to 25 km/h**. It may have a seat only if it has a self-balancing system. It is not a motor vehicle."
+              },
+              "src": "RGV Anexo II, A (vehículo de movilidad personal; vehículo a motor)"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-veh-12",
+                "answer": 2,
+                "es": {
+                  "q": "Un patinete eléctrico tiene una sola plaza, sin asiento, y su velocidad máxima por diseño es de 20 km/h. Para el reglamento, es…",
+                  "options": [
+                    "un ciclomotor, porque tiene motor.",
+                    "un ciclo, porque no lleva asiento.",
+                    "un vehículo de movilidad personal."
+                  ],
+                  "why": "Una sola plaza, motor solo eléctrico y entre 6 y 25 km/h por diseño: es un VMP. El ciclomotor es otra cosa, y el ciclo se mueve con la fuerza de quien va en él."
+                },
+                "exam": {
+                  "q": "An electric scooter has one only place, without seat, and its maximum speed by design is 20 km/h. For the regulation, it is…",
+                  "options": [
+                    "a moped, because it has an engine.",
+                    "a cycle, because it does not carry a seat.",
+                    "a vehicle of personal mobility."
+                  ]
+                },
+                "en": {
+                  "q": "An e-scooter has a single place, with no seat, and its top design speed is 20 km/h. Under the regulation, it is…",
+                  "options": [
+                    "a moped, because it has a motor.",
+                    "a cycle, because it has no seat.",
+                    "a personal mobility vehicle."
+                  ],
+                  "why": "One seat, an electric-only motor and 6 to 25 km/h by design: it is a VMP. A moped is something else, and a cycle is moved by the strength of its rider."
+                },
+                "terms": [
+                  {
+                    "es": "vehículo de movilidad personal (VMP)",
+                    "en": "personal mobility vehicle"
+                  },
+                  {
+                    "es": "patinete eléctrico",
+                    "en": "e-scooter"
+                  },
+                  {
+                    "es": "velocidad máxima por diseño",
+                    "en": "top design speed"
+                  }
+                ],
+                "src": "RGV Anexo II, A (vehículo de movilidad personal)"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Para circular, un VMP necesita un **certificado de circulación** que acredite que cumple los requisitos técnicos. Lo solicitan los **fabricantes, importadores** o sus representantes en España.",
+                "en": "To be used on the road, a VMP needs a **circulation certificate** (certificado de circulación) showing it meets the technical requirements. **Manufacturers, importers** or their representatives in Spain apply for it."
+              },
+              "src": "RGV art. 3.j y art. 22 bis.2.a"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-veh-13",
+                "answer": 0,
+                "es": {
+                  "q": "¿Quién debe solicitar el certificado de circulación de un modelo de patinete eléctrico (VMP)?",
+                  "options": [
+                    "El fabricante, el importador o su representante en España",
+                    "El comprador, en la Jefatura Provincial de Tráfico",
+                    "Nadie, porque los VMP no son vehículos de motor"
+                  ],
+                  "why": "El certificado de circulación acredita que el VMP cumple los requisitos técnicos. Lo piden los fabricantes, los importadores o sus representantes, no el usuario."
+                },
+                "exam": {
+                  "q": "Who must request the certificate of circulation of a model of electric scooter (VMP)?",
+                  "options": [
+                    "The manufacturer, the importer or its representative in Spain.",
+                    "The buyer, at the Provincial Traffic Headquarters.",
+                    "Nobody, because the VMP are not motor vehicles."
+                  ]
+                },
+                "en": {
+                  "q": "Who must apply for the circulation certificate of an e-scooter (VMP) model?",
+                  "options": [
+                    "The manufacturer, the importer or their representative in Spain",
+                    "The buyer, at the provincial traffic office",
+                    "Nobody, because VMPs are not motor vehicles"
+                  ],
+                  "why": "The circulation certificate shows that the VMP meets the technical requirements. Manufacturers, importers or their representatives apply for it, not the user."
+                },
+                "terms": [
+                  {
+                    "es": "certificado de circulación",
+                    "en": "circulation certificate"
+                  },
+                  {
+                    "es": "fabricante",
+                    "en": "manufacturer"
+                  },
+                  {
+                    "es": "importador",
+                    "en": "importer"
+                  }
+                ],
+                "src": "RGV art. 3.j y art. 22 bis.2.a"
+              }
+            }
+          ]
         }
       ],
       "recap": [
@@ -6048,7 +6641,8 @@
       ],
       "covers": [],
       "src": [
-        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), Anexo I"
+        "Ley de Tráfico y Seguridad Vial (RDL 6/2015), Anexo I",
+        "Reglamento General de Vehículos (RD 2822/1998), arts. 3.j y 22 bis, y Anexo II"
       ]
     }
   ]

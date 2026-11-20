@@ -398,6 +398,51 @@
                 ],
                 "src": "RGC art. 50.1"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "speed-towns-c6",
+                "answer": 1,
+                "sign": "s-500",
+                "es": {
+                  "q": "Un turismo pasa esta señal y entra en una calle con un único carril por sentido. No hay ninguna señal de velocidad. ¿Cuál es su velocidad máxima?",
+                  "options": [
+                    "50 km/h, en todas las calles del poblado",
+                    "30 km/h, por tener un solo carril por sentido",
+                    "20 km/h, por haber entrado en poblado"
+                  ],
+                  "why": "Esta señal marca dónde empiezan las normas de poblado, pero no fija un número para todo el pueblo. Cada calle tiene su límite genérico: con un único carril por sentido, 30 km/h."
+                },
+                "exam": {
+                  "q": "A passenger car passes this sign and enters into a street with one only lane by direction. There is no signal of speed. Which is its maximum speed?",
+                  "options": [
+                    "50 km/h, in all the streets of the town.",
+                    "30 km/h, for having one only lane by direction.",
+                    "20 km/h, for having entered in town."
+                  ]
+                },
+                "en": {
+                  "q": "A car passes this sign and enters a street with a single lane each way. There are no speed signs. What is its maximum speed?",
+                  "options": [
+                    "50 km/h, on every street in the town",
+                    "30 km/h, because it has one lane each way",
+                    "20 km/h, because it has entered a town"
+                  ],
+                  "why": "This sign marks where the town rules begin, but it does not set one number for the whole town. Each street has its own default limit: with a single lane each way, 30 km/h."
+                },
+                "terms": [
+                  {
+                    "es": "entrada a poblado",
+                    "en": "town entry"
+                  },
+                  {
+                    "es": "límite genérico",
+                    "en": "default limit (no sign)"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1 (S-500); RGC art. 50.1.b"
+              }
             }
           ]
         },
@@ -575,6 +620,50 @@
                   }
                 ],
                 "src": "RGC art. 50.6"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "speed-towns-c7",
+                "answer": 1,
+                "es": {
+                  "q": "Un turismo con un remolque ligero cruza un pueblo por una travesía. No hay señales de velocidad. ¿Cuál es su velocidad máxima?",
+                  "options": [
+                    "40 km/h, por llevar remolque",
+                    "50 km/h, igual que sin remolque",
+                    "80 km/h, el límite de los conjuntos con remolque"
+                  ],
+                  "why": "En una travesía el límite genérico es de 50 km/h para todo tipo de vehículos, también con remolque. Los 80 km/h del remolque son de las carreteras convencionales fuera de poblado."
+                },
+                "exam": {
+                  "q": "A passenger car that pulls a light trailer crosses a town by a cross-town road. There are no signals of speed. Which is its maximum speed?",
+                  "options": [
+                    "40 km/h, for carrying a trailer.",
+                    "50 km/h, the same as without a trailer.",
+                    "80 km/h, the limit of the combinations with trailer."
+                  ]
+                },
+                "en": {
+                  "q": "A car hitched to a light trailer goes through a town on a travesía. There are no speed signs. What is its maximum speed?",
+                  "options": [
+                    "40 km/h, because it tows a trailer",
+                    "50 km/h, the same as without a trailer",
+                    "80 km/h, the limit for vehicles towing a trailer"
+                  ],
+                  "why": "On a travesía the default limit is 50 km/h for every kind of vehicle, trailer or not. The 80 km/h for trailers belongs to conventional roads outside towns."
+                },
+                "terms": [
+                  {
+                    "es": "travesía",
+                    "en": "main road through a town"
+                  },
+                  {
+                    "es": "remolque ligero",
+                    "en": "light trailer (750 kg or less)"
+                  }
+                ],
+                "src": "RGC art. 50.5"
               }
             }
           ]
@@ -1096,6 +1185,103 @@
                   }
                 ],
                 "src": "RGC art. 48.1.a y 48.1.a.1.º"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "speed-outside-c17",
+                "answer": 2,
+                "es": {
+                  "q": "Un turismo arrastra un remolque de 700 kg de masa máxima autorizada por una autovía. No hay señales de velocidad. ¿Cuál es su velocidad máxima?",
+                  "options": [
+                    "120 km/h, porque el remolque es ligero",
+                    "100 km/h, como un vehículo mixto",
+                    "90 km/h, como todo automóvil con remolque"
+                  ],
+                  "why": "El peso del remolque no cambia la columna: cualquier automóvil con remolque, aunque sea ligero, tiene 90 km/h en autopista y autovía."
+                },
+                "exam": {
+                  "q": "A passenger car tows a trailer of 700 kg of maximum authorised mass by a dual carriageway. There are no signals of speed. Which is its maximum speed?",
+                  "options": [
+                    "120 km/h, because the trailer is light.",
+                    "100 km/h, like a mixed vehicle.",
+                    "90 km/h, like every automobile with trailer."
+                  ]
+                },
+                "en": {
+                  "q": "On a dual carriageway, a car tows a trailer whose maximum authorized mass is 700 kg. There are no speed signs. What is its maximum speed?",
+                  "options": [
+                    "120 km/h, because the trailer is light",
+                    "100 km/h, like a mixed-use vehicle",
+                    "90 km/h, like any automobile with a trailer"
+                  ],
+                  "why": "The trailer’s weight does not change the column: any automobile towing a trailer, even a light one, has 90 km/h on motorways and dual carriageways."
+                },
+                "terms": [
+                  {
+                    "es": "masa máxima autorizada (MMA)",
+                    "en": "maximum authorized mass"
+                  },
+                  {
+                    "es": "autovía",
+                    "en": "dual carriageway"
+                  }
+                ],
+                "src": "RGC art. 48.1.a"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Ese límite de 100 km/h en una carretera convencional con los sentidos separados físicamente es solo para **turismos, motocicletas y autocaravanas** de hasta 3.500 kg. Una señal de 100 prohíbe pasar de 100, pero no sube el límite propio de un automóvil con remolque: sigue en 80 km/h.",
+                "en": "That 100 km/h limit on a conventional road with the directions physically separated is only for **cars, motorcycles and motorhomes** up to 3,500 kg. A 100 sign forbids going above 100, but it does not raise the own limit of an automobile towing a trailer: it stays at 80 km/h."
+              },
+              "src": "RGC art. 48.1.a.1.º; RGC Anexo I, ap. 5.1 (R-301)"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "speed-outside-c18",
+                "answer": 1,
+                "sign": "r-301-100",
+                "es": {
+                  "q": "Esta señal está en una carretera convencional con los dos sentidos separados físicamente. ¿Cuál es el máximo para un turismo con remolque en esa vía?",
+                  "options": [
+                    "100 km/h, porque la señal lo permite",
+                    "80 km/h, el máximo con remolque",
+                    "90 km/h, como en otra convencional"
+                  ],
+                  "why": "En una convencional con los sentidos separados, los 100 km/h solo valen para turismos, motocicletas y autocaravanas de hasta 3.500 kg. Con remolque, el máximo es de 80 km/h."
+                },
+                "exam": {
+                  "q": "This signal is on a conventional road with the two directions of circulation physically separated. Which is the maximum for a passenger car with trailer on that road?",
+                  "options": [
+                    "100 km/h, because the signal permits it.",
+                    "80 km/h, the maximum with trailer.",
+                    "90 km/h, like on another conventional road."
+                  ]
+                },
+                "en": {
+                  "q": "This sign is on a conventional road with the two directions physically separated. How fast may a car towing a trailer go there, at most?",
+                  "options": [
+                    "100 km/h, because the sign allows it",
+                    "80 km/h, the maximum with a trailer",
+                    "90 km/h, as on any conventional road"
+                  ],
+                  "why": "On a conventional road with separated directions, 100 km/h applies only to cars, motorcycles and motorhomes up to 3,500 kg. With a trailer, the maximum is 80 km/h."
+                },
+                "terms": [
+                  {
+                    "es": "separación física",
+                    "en": "physical separation (barrier or median)"
+                  },
+                  {
+                    "es": "carretera convencional",
+                    "en": "conventional road"
+                  }
+                ],
+                "src": "RGC art. 48.1.a y 48.1.a.1.º; RGC Anexo I, ap. 5.1 (R-301)"
               }
             }
           ]
@@ -2075,7 +2261,7 @@
         "speed-04"
       ],
       "src": [
-        "Reglamento General de Circulación (RD 1428/2003), arts. 38, 47, 48, 49, 50 y 51 (derogado)",
+        "Reglamento General de Circulación (RD 1428/2003), arts. 38, 47, 48, 49, 50 y 51 (derogado), y Anexo I, ap. 5.1 (R-301)",
         "Ley de Tráfico y Seguridad Vial (RDL 6/2015), Anexo I"
       ]
     },
@@ -2224,6 +2410,61 @@
                   }
                 ],
                 "src": "RGC art. 45"
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Guía de la DGT, no un artículo: la DGT llama **velocidad adecuada** a la que te deja dominar el vehículo ante cualquier imprevisto. La **velocidad inadecuada** no se ajusta a la lluvia, la visibilidad o tu cansancio, aunque esté dentro del límite. Casi siempre es por ir demasiado rápido.",
+                "en": "DGT guidance, not an article: the DGT calls **suitable speed** (velocidad adecuada) the one that lets you control the vehicle in any surprise. **Unsuitable speed** (velocidad inadecuada) does not fit the rain, the visibility or your tiredness, even inside the limit. It is almost always too fast."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "speed-adapt-c15",
+                "answer": 1,
+                "es": {
+                  "q": "Un conductor va a 90 km/h, que es el límite de la vía, pero llueve con fuerza, va cansado y no podría dominar el coche ante un imprevisto. Según la DGT, su velocidad es…",
+                  "options": [
+                    "adecuada, porque respeta el límite.",
+                    "inadecuada, aunque respete el límite.",
+                    "mínima, porque no supera el límite."
+                  ],
+                  "why": "La velocidad inadecuada es la que no se ajusta a la vía, al tiempo, al vehículo o a ti, aunque no pases del límite. Adecuada es la que te deja dominar el coche ante cualquier imprevisto."
+                },
+                "exam": {
+                  "q": "A driver goes at 90 km/h, which is the limit of the road, but it rains with force, goes tired and could not dominate the car before an unforeseen event. According to the DGT, its speed is…",
+                  "options": [
+                    "adequate, because it respects the limit.",
+                    "inadequate, although it respects the limit.",
+                    "minimum, because it does not exceed the limit."
+                  ]
+                },
+                "en": {
+                  "q": "A driver goes at 90 km/h, the road’s limit, but it is raining hard, the driver is tired and could not control the car in a surprise. According to the DGT, that speed is…",
+                  "options": [
+                    "suitable, because it respects the limit.",
+                    "unsuitable, even though it respects the limit.",
+                    "minimum, because it does not exceed the limit."
+                  ],
+                  "why": "Unsuitable speed is speed that does not fit the road, the weather, the vehicle or you, even if you stay under the limit. Suitable speed lets you control the car in any surprise."
+                },
+                "terms": [
+                  {
+                    "es": "velocidad adecuada",
+                    "en": "suitable speed"
+                  },
+                  {
+                    "es": "velocidad inadecuada",
+                    "en": "unsuitable speed"
+                  },
+                  {
+                    "es": "imprevisto",
+                    "en": "something unexpected"
+                  }
+                ],
+                "src": "DGT, Manual II Cuestiones de seguridad vial (2026), UD4"
               }
             }
           ]
@@ -2383,6 +2624,57 @@
                   }
                 ],
                 "src": "RGC art. 54.1 (adherencia y frenado)"
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Guía de la DGT, no un artículo: el exceso de velocidad no solo alarga la reacción y la frenada. También reduce tu **capacidad de anticipación**: tienes menos tiempo para prever un peligro y corregir la trayectoria.",
+                "en": "DGT guidance, not an article: speeding does not only lengthen reaction and braking. It also cuts your **ability to anticipate** (capacidad de anticipación): you have less time to foresee a danger and correct your path."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "speed-adapt-c16",
+                "answer": 0,
+                "es": {
+                  "q": "Según la DGT, ¿cómo afecta el exceso de velocidad a la capacidad de anticipación del conductor?",
+                  "options": [
+                    "La reduce, porque queda menos tiempo para prever un peligro",
+                    "No le afecta; solo alarga la distancia de frenado",
+                    "La mejora, porque obliga a ir más concentrado"
+                  ],
+                  "why": "A más velocidad, menos tiempo para ver venir un obstáculo y corregir. La DGT dice que el exceso de velocidad perjudica la anticipación, además de alargar la reacción y la frenada."
+                },
+                "exam": {
+                  "q": "According to the DGT, how does the excess of speed affect the capacity of anticipation of the driver?",
+                  "options": [
+                    "It reduces it, because less time remains to foresee a danger.",
+                    "It does not affect it; it only lengthens the braking distance.",
+                    "It improves it, because it obliges to go more concentrated."
+                  ]
+                },
+                "en": {
+                  "q": "According to the DGT, how does speeding affect a driver’s ability to anticipate?",
+                  "options": [
+                    "It reduces it, because there is less time to foresee a danger",
+                    "It does not; it only lengthens the braking distance",
+                    "It improves it, because you must concentrate more"
+                  ],
+                  "why": "The faster you go, the less time you have to see an obstacle coming and correct. The DGT says speeding harms anticipation, on top of lengthening reaction and braking."
+                },
+                "terms": [
+                  {
+                    "es": "capacidad de anticipación",
+                    "en": "ability to anticipate"
+                  },
+                  {
+                    "es": "exceso de velocidad",
+                    "en": "speeding"
+                  }
+                ],
+                "src": "DGT, Manual II Cuestiones de seguridad vial (2026), UD4"
               }
             }
           ]
@@ -2606,6 +2898,50 @@
                   }
                 ],
                 "src": "DGT guidance (dgt.es, «Conducir con exceso de velocidad»)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "speed-adapt-c17",
+                "answer": 2,
+                "es": {
+                  "q": "Circular con velocidad excesiva…",
+                  "options": [
+                    "solo influye en la gravedad de los accidentes, no en su número.",
+                    "solo es peligroso en las carreteras de doble sentido.",
+                    "aumenta la probabilidad de tener un accidente."
+                  ],
+                  "why": "Con velocidad excesiva tienes menos tiempo para reaccionar y para anticipar peligros, y eso hace más probable el accidente. Además, sus consecuencias son más graves."
+                },
+                "exam": {
+                  "q": "To circulate with excessive speed…",
+                  "options": [
+                    "only influences the gravity of the accidents, not their number.",
+                    "is only dangerous on the roads of double direction.",
+                    "makes an accident more probable."
+                  ]
+                },
+                "en": {
+                  "q": "Driving at excessive speed…",
+                  "options": [
+                    "only affects how serious crashes are, not how many there are.",
+                    "is only dangerous on two-way roads.",
+                    "makes a crash more likely."
+                  ],
+                  "why": "At excessive speed you have less time to react and to anticipate dangers, and that makes a crash more likely. Its consequences are also worse."
+                },
+                "terms": [
+                  {
+                    "es": "velocidad excesiva",
+                    "en": "excessive speed"
+                  },
+                  {
+                    "es": "probabilidad",
+                    "en": "probability, likelihood"
+                  }
+                ],
+                "src": "DGT, Manual II Cuestiones de seguridad vial (2026), UD4"
               }
             }
           ]
@@ -3202,7 +3538,8 @@
         "Reglamento General de Circulación (RD 1428/2003), arts. 45, 46.1, 53.1, 54.1 y 55",
         "DGT, «Conducir con exceso de velocidad» (dgt.es), consultada el 18-11-2026",
         "DGT, Manual II Cuestiones de seguridad vial (2026), UD16",
-        "DGT, Manual del permiso B en lectura fácil (2023), Tema 17"
+        "DGT, Manual del permiso B en lectura fácil (2023), Tema 17",
+        "DGT, Manual II Cuestiones de seguridad vial (2026), UD4"
       ]
     },
     {
@@ -3597,6 +3934,51 @@
                 ],
                 "src": "RGC Anexo I, ap. 5.2 (M-6.6 y M-6.7)"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "speed-signs-c9",
+                "answer": 1,
+                "sign": "p-3",
+                "es": {
+                  "q": "En el mismo poste que esta señal hay otra de velocidad máxima de 40 km/h. ¿Hasta dónde rige ese límite?",
+                  "options": [
+                    "Hasta la próxima señal de fin de limitación de velocidad",
+                    "Hasta que termine el tramo regulado por semáforos",
+                    "Hasta la siguiente intersección"
+                  ],
+                  "why": "Si la señal de velocidad máxima va en el mismo poste que una de peligro, el límite acaba cuando acaba ese peligro. Aquí el peligro son los semáforos (P-3)."
+                },
+                "exam": {
+                  "q": "On the same post as this signal there is another of maximum speed of 40 km/h. Until where does that limit govern?",
+                  "options": [
+                    "Until the next signal of end of speed limitation.",
+                    "Until the section regulated by traffic lights finishes.",
+                    "Until the following intersection."
+                  ]
+                },
+                "en": {
+                  "q": "On the same post as this sign there is a 40 km/h maximum speed sign. How far does that limit apply?",
+                  "options": [
+                    "Until the next end-of-speed-limit sign",
+                    "Until the end of the stretch with traffic lights",
+                    "Until the next junction"
+                  ],
+                  "why": "If the maximum speed sign is on the same post as a danger sign, the limit ends when that danger ends. Here the danger is the traffic lights (P-3)."
+                },
+                "terms": [
+                  {
+                    "es": "poste",
+                    "en": "post (of a sign)"
+                  },
+                  {
+                    "es": "tramo regulado por semáforos",
+                    "en": "stretch controlled by traffic lights"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1 (R-301 y P-3)"
+              }
             }
           ]
         },
@@ -3881,6 +4263,51 @@
                 "src": "RGC Anexo I, ap. 5.1 (S-50a, S-50b y S-50c)",
                 "sign": "s-50a"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "speed-signs-c10",
+                "answer": 0,
+                "sign": "r-411",
+                "es": {
+                  "q": "Un turismo pasa esta señal. La vía está despejada, hace buen tiempo y no hay ningún motivo para ir despacio. ¿Puede circular por debajo de la cifra que indica?",
+                  "options": [
+                    "No: esa cifra es una velocidad mínima obligatoria",
+                    "Sí: la señal solo aconseja esa velocidad",
+                    "Sí, si se mantiene en el carril derecho"
+                  ],
+                  "why": "Esta señal obliga a circular al menos a la velocidad que muestra, hasta otra de velocidad mínima distinta, una de fin de velocidad mínima o una de velocidad máxima igual o menor."
+                },
+                "exam": {
+                  "q": "A passenger car passes this signal. The road is clear, the weather is good and there is no reason to go slowly. Can it circulate below the figure that it indicates?",
+                  "options": [
+                    "No: that figure is an obligatory minimum speed.",
+                    "Yes: the signal only advises that speed.",
+                    "Yes, if it circulates by the lane on the right."
+                  ]
+                },
+                "en": {
+                  "q": "A car passes this sign. The road is clear, the weather is good and there is no reason to go slowly. May it drive below the number shown?",
+                  "options": [
+                    "No: that number is a compulsory minimum speed",
+                    "Yes: the sign only advises that speed",
+                    "Yes, if it drives in the right-hand lane"
+                  ],
+                  "why": "This sign obliges you to drive at least at the speed shown, until a different minimum speed sign, an end-of-minimum-speed sign, or a maximum speed sign of equal or lower value."
+                },
+                "terms": [
+                  {
+                    "es": "velocidad mínima",
+                    "en": "minimum speed"
+                  },
+                  {
+                    "es": "cifra",
+                    "en": "number (on a sign)"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1 (R-411)"
+              }
             }
           ]
         },
@@ -3982,7 +4409,7 @@
         }
       ],
       "src": [
-        "Reglamento General de Circulación (RD 1428/2003), arts. 47 y 52.1, y Anexo I, ap. 5.1 (R-301, R-411, R-500, R-501, R-506, S-7 y S-50a a S-50c) y ap. 5.2 (M-6.6 y M-6.7)",
+        "Reglamento General de Circulación (RD 1428/2003), arts. 47 y 52.1, y Anexo I, ap. 5.1 (R-301, P-3, R-411, R-500, R-501, R-506, S-7 y S-50a a S-50c) y ap. 5.2 (M-6.6 y M-6.7)",
         "DGT, Manual II Cuestiones de seguridad vial (2026), UD4"
       ]
     }

@@ -317,6 +317,50 @@
                 "en": "If you drive a vehicle without authorization, the vehicle is **immobilized** until it has one. This happens if it never had one or if it is no longer valid."
               },
               "src": "RGV art. 1.2"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c1n",
+                "answer": 0,
+                "es": {
+                  "q": "¿Qué documento acredita que un turismo está matriculado y tiene la autorización para circular por las vías públicas?",
+                  "options": [
+                    "El permiso de circulación del vehículo",
+                    "La tarjeta de inspección técnica (ITV)",
+                    "El justificante del seguro obligatorio"
+                  ],
+                  "why": "Es el **permiso de circulación**: la autorización del vehículo para circular, que exige tenerlo matriculado. La tarjeta ITV recoge las inspecciones y las características, y el seguro cubre los daños a otros."
+                },
+                "exam": {
+                  "q": "Which document accredits that a passenger car is registered and has the authorisation to circulate by the public roads?",
+                  "options": [
+                    "The circulation permit of the vehicle.",
+                    "The card of technical inspection (ITV).",
+                    "The receipt of the compulsory insurance."
+                  ]
+                },
+                "en": {
+                  "q": "Which document proves that a car is registered and authorized to be driven on public roads?",
+                  "options": [
+                    "The vehicle registration document",
+                    "The inspection (ITV) card",
+                    "Proof of compulsory insurance"
+                  ],
+                  "why": "It is the **registration document** (permiso de circulación): the vehicle’s authorization to circulate, which requires it to be registered. The ITV card records the inspections and characteristics, and the insurance covers harm to others."
+                },
+                "terms": [
+                  {
+                    "es": "permiso de circulación",
+                    "en": "vehicle registration document"
+                  },
+                  {
+                    "es": "matricular",
+                    "en": "to register (a vehicle)"
+                  }
+                ],
+                "src": "RGV arts. 1.1 y 25.1"
+              }
             }
           ]
         },
@@ -456,6 +500,58 @@
             {
               "t": "rule",
               "text": {
+                "es": "El seguro obligatorio cubre la responsabilidad del conductor por los daños que causa **a las personas y en los bienes** de otros. Si la culpa es del otro conductor, su seguro paga tus lesiones y los daños de tu coche.",
+                "en": "Compulsory insurance covers the driver’s liability for harm caused **to people and to property** of others. If the other driver is at fault, their insurance pays for your injuries and the damage to your car."
+              },
+              "src": "RDL 8/2004 arts. 1.1, 2.1 y 4.2"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c1o",
+                "answer": 2,
+                "es": {
+                  "q": "Un turismo se salta un STOP y choca con otro coche. El conductor que no tenía la culpa resulta herido y su coche queda dañado. ¿Qué cubre el seguro obligatorio del culpable?",
+                  "options": [
+                    "Solo las lesiones del conductor herido",
+                    "Solo los daños materiales de su coche",
+                    "Las lesiones del conductor y los daños de su coche"
+                  ],
+                  "why": "El seguro obligatorio cubre la responsabilidad del culpable por los daños a las personas y en los bienes. Lo que no cubre son las lesiones del propio conductor culpable ni los daños de su vehículo."
+                },
+                "exam": {
+                  "q": "A passenger car skips a STOP and collides with another car. The driver who did not have the fault results injured and his car remains damaged. What does the compulsory insurance of the guilty one cover?",
+                  "options": [
+                    "Only the injuries of the injured driver.",
+                    "Only the material damages of his car.",
+                    "The injuries of the driver and the damages of his car."
+                  ]
+                },
+                "en": {
+                  "q": "A car runs a STOP sign and hits another car. The driver who was not at fault is hurt and the car is damaged. What does the at-fault driver’s compulsory insurance cover?",
+                  "options": [
+                    "Only the injured driver’s injuries",
+                    "Only the damage to the car",
+                    "Both the driver’s injuries and the damage to the car"
+                  ],
+                  "why": "Compulsory insurance covers the at-fault driver’s liability for harm to people and to property. What it does not cover is the at-fault driver’s own injuries or damage to the at-fault vehicle."
+                },
+                "terms": [
+                  {
+                    "es": "daños materiales",
+                    "en": "property damage"
+                  },
+                  {
+                    "es": "culpable",
+                    "en": "at fault"
+                  }
+                ],
+                "src": "RDL 8/2004 arts. 1.1, 2.1 y 4.2"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
                 "es": "Para el seguro obligatorio, también son **vehículos a motor** los remolques y semirremolques. Pero no tienen que asegurarse los remolques y semirremolques de **750 kg** de masa máxima autorizada o menos.",
                 "en": "For compulsory insurance, trailers and semi-trailers also count as **motor vehicles**. But trailers and semi-trailers with a maximum authorized mass of **750 kg** or less are exempt from insurance."
               },
@@ -559,6 +655,58 @@
                   }
                 ],
                 "src": "RDL 8/2004 arts. 1 bis.1.a y 2.1"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "El propietario de un **vehículo personal ligero**, como un patinete eléctrico (VMP), debe tener un seguro obligatorio de responsabilidad civil. Afecta a los que pueden circular: con certificado de circulación, inscritos en el Registro de Vehículos de la DGT y con su etiqueta identificativa.",
+                "en": "The owner of a **light personal vehicle**, such as an e-scooter (VMP), must have compulsory liability insurance. It applies to those allowed on the road: with a circulation certificate, entered in the DGT Vehicle Register and carrying their identification label."
+              },
+              "src": "Ley 5/2025, disposición adicional primera.1"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c1p",
+                "answer": 1,
+                "es": {
+                  "q": "Una persona circula por la ciudad con su patinete eléctrico (VMP), inscrito en el registro de la DGT. ¿Debe tener un seguro obligatorio de responsabilidad civil?",
+                  "options": [
+                    "No, el seguro solo es obligatorio para los vehículos a motor",
+                    "Sí, como propietaria de un vehículo personal ligero",
+                    "No, salvo que lo use para trabajar como repartidora"
+                  ],
+                  "why": "Sí: la Ley 5/2025 creó un seguro obligatorio para los vehículos personales ligeros que pueden circular, es decir, con certificado de circulación, inscripción en la DGT y etiqueta. El propietario debe contratarlo y mantenerlo en vigor."
+                },
+                "exam": {
+                  "q": "A person circulates by the city with her electric scooter (VMP), registered in the register of the DGT. Must she have a compulsory insurance of civil liability?",
+                  "options": [
+                    "No, the insurance is only compulsory for the motor vehicles.",
+                    "Yes, as owner of a light personal vehicle.",
+                    "No, except that she uses it in order to work as a delivery rider."
+                  ]
+                },
+                "en": {
+                  "q": "Someone rides an e-scooter (VMP) around town; it is entered in the DGT register. Must it have compulsory liability insurance?",
+                  "options": [
+                    "No, insurance is only compulsory for motor vehicles",
+                    "Yes, because she owns a light personal vehicle",
+                    "No, unless she uses it for delivery work"
+                  ],
+                  "why": "Yes: Ley 5/2025 created compulsory insurance for light personal vehicles allowed on the road, meaning those with a circulation certificate, DGT registration and label. The owner must take it out and keep it in force."
+                },
+                "terms": [
+                  {
+                    "es": "vehículo personal ligero",
+                    "en": "light personal vehicle"
+                  },
+                  {
+                    "es": "seguro de responsabilidad civil",
+                    "en": "liability insurance"
+                  }
+                ],
+                "src": "Ley 5/2025, disposición adicional primera.1"
               }
             },
             {
@@ -847,6 +995,58 @@
                 ],
                 "src": "RGV Anexo XVIII, III.2"
               }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si **vendes** tu vehículo, debes comunicarlo a Tráfico en un plazo de **10 días** desde la venta, con los datos del comprador. El comprador tiene **30 días** para pedir el nuevo permiso de circulación a su nombre.",
+                "en": "If you **sell** your vehicle, you must notify Tráfico within **10 days** of the sale, with the buyer’s details. The buyer has **30 days** to apply for a new registration document in their own name."
+              },
+              "src": "RGV art. 32.1 y 32.3"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c1q",
+                "answer": 0,
+                "es": {
+                  "q": "Una persona vende su coche a un vecino. ¿Qué debe hacer con Tráfico?",
+                  "options": [
+                    "Comunicar la venta en 10 días, con los datos del comprador",
+                    "Nada, porque ese trámite le corresponde solo al comprador del coche",
+                    "Comunicarla cuando quiera, ya que no hay ningún plazo"
+                  ],
+                  "why": "El vendedor debe notificar la venta a Tráfico en 10 días. Si no lo hace, sigue figurando como titular hasta que el comprador inscriba el vehículo a su nombre."
+                },
+                "exam": {
+                  "q": "A person sells his car to a neighbour. What must he do with Traffic?",
+                  "options": [
+                    "To communicate the sale within 10 days, with the data of the buyer.",
+                    "Nothing, because that procedure corresponds only to the buyer of the car.",
+                    "To communicate it when he wants, since there is no term at all."
+                  ]
+                },
+                "en": {
+                  "q": "Someone sells their car to a neighbor. What must they do with Tráfico, the traffic authority?",
+                  "options": [
+                    "Report the sale within 10 days, with the buyer’s details",
+                    "Nothing: only the buyer has to deal with the paperwork",
+                    "Report it whenever they like, since there is no deadline"
+                  ],
+                  "why": "The seller must report the sale to Tráfico within 10 days. Otherwise the seller stays on record as the registered owner until the buyer registers the vehicle in their own name."
+                },
+                "terms": [
+                  {
+                    "es": "transmisión",
+                    "en": "transfer of ownership"
+                  },
+                  {
+                    "es": "titular",
+                    "en": "registered owner"
+                  }
+                ],
+                "src": "RGV art. 32.1"
+              }
             }
           ]
         }
@@ -883,7 +1083,9 @@
         "Reglamento General de Vehículos (RD 2822/1998), arts. 1 y 3",
         "Texto refundido de la Ley sobre responsabilidad civil y seguro en la circulación de vehículos a motor (RDL 8/2004), arts. 2 y 5",
         "Reglamento del seguro obligatorio (RD 1507/2008), art. 14",
-        "Reglamento General de Vehículos, art. 49 y Anexo XVIII"
+        "Reglamento General de Vehículos, art. 49 y Anexo XVIII",
+        "Ley 5/2025 (seguro de responsabilidad civil), disposición adicional primera",
+        "Reglamento General de Vehículos, art. 32"
       ]
     },
     {
@@ -1068,6 +1270,58 @@
                 ],
                 "src": "RGV art. 7.2; RD 920/2017 art. 5.2"
               }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Después de una **reforma**, el titular debe presentar el vehículo a inspección técnica en un plazo máximo de **15 días**, con la documentación que pide el manual de reformas.",
+                "en": "After a **modification**, the owner must present the vehicle for technical inspection within **15 days**, with the documents the modifications manual requires."
+              },
+              "src": "RD 866/2010 art. 8.1"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c2h",
+                "answer": 1,
+                "es": {
+                  "q": "En un taller autorizado le han hecho a un coche una reforma de importancia. ¿Tiene que someterse a una inspección técnica?",
+                  "options": [
+                    "No, porque la ha hecho un taller autorizado",
+                    "Sí, en una estación ITV, en un plazo de 15 días",
+                    "No, hasta la próxima ITV periódica que le toque"
+                  ],
+                  "why": "Sí: tras una reforma, el titular debe llevar el vehículo a inspección en un plazo máximo de 15 días. Que el taller esté autorizado no le libra de esa inspección."
+                },
+                "exam": {
+                  "q": "In an authorised workshop they have made to a car a reform of importance. Does it have to submit itself to a technical inspection?",
+                  "options": [
+                    "No, because an authorised workshop has made it.",
+                    "Yes, in an ITV station, within a term of 15 days.",
+                    "No, until the next periodic ITV that corresponds to it."
+                  ]
+                },
+                "en": {
+                  "q": "An authorized workshop has made a major modification to a car. Must it go through a technical inspection?",
+                  "options": [
+                    "No, because an authorized workshop did the work",
+                    "Yes, at an ITV station, no later than 15 days after",
+                    "No, not until its next regular ITV is due"
+                  ],
+                  "why": "Yes: after a modification, the owner must take the vehicle for inspection within 15 days. The workshop being authorized does not exempt it from that inspection."
+                },
+                "terms": [
+                  {
+                    "es": "reforma de importancia",
+                    "en": "major modification"
+                  },
+                  {
+                    "es": "estación ITV",
+                    "en": "inspection station"
+                  }
+                ],
+                "src": "RD 866/2010 art. 8.1"
+              }
             }
           ]
         },
@@ -1213,6 +1467,50 @@
                 ],
                 "src": "RD 920/2017 art. 6.1"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c2k",
+                "answer": 2,
+                "es": {
+                  "q": "Un turismo de uso particular tiene once años. ¿Con qué frecuencia debe pasar la ITV?",
+                  "options": [
+                    "Cada dos años",
+                    "Cada cuatro años",
+                    "Cada año"
+                  ],
+                  "why": "Un turismo está exento hasta los 4 años. Después pasa la ITV cada 2 años y, cuando tiene más de 10, cada año."
+                },
+                "exam": {
+                  "q": "A passenger car of private use is eleven years old. With what frequency must it pass the ITV?",
+                  "options": [
+                    "Every two years.",
+                    "Every four years.",
+                    "Every year."
+                  ]
+                },
+                "en": {
+                  "q": "How often does an eleven-year-old private car have to take the ITV?",
+                  "options": [
+                    "Every two years",
+                    "Every four years",
+                    "Every year"
+                  ],
+                  "why": "A car is exempt up to 4 years old. After that it takes the ITV every 2 years and, once it is over 10, every year."
+                },
+                "terms": [
+                  {
+                    "es": "anual",
+                    "en": "yearly"
+                  },
+                  {
+                    "es": "bienal",
+                    "en": "every two years"
+                  }
+                ],
+                "src": "RD 920/2017 art. 6.1"
+              }
             }
           ]
         },
@@ -1291,6 +1589,94 @@
                 "en": "**Taxis**, **ambulances**, school transport (cars) and **driving-school** vehicles take the ITV more often than an ordinary car."
               },
               "src": "RD 920/2017 art. 6.1"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c2i",
+                "answer": 1,
+                "es": {
+                  "q": "Una motocicleta se matriculó hace cinco años y ya ha pasado su primera ITV. ¿Cada cuánto tiempo debe pasarla desde ahora?",
+                  "options": [
+                    "Cada año, por tener más de cuatro años",
+                    "Cada dos años, igual que un turismo de su edad",
+                    "Cada cuatro años, como la primera vez"
+                  ],
+                  "why": "Una moto está exenta hasta los 4 años. Después pasa la ITV cada 2 años, y no pasa a hacerla cada año como los turismos de más de 10 años."
+                },
+                "exam": {
+                  "q": "A motorcycle was registered five years ago and has already passed its first ITV. Every how much time must it pass it from now on?",
+                  "options": [
+                    "Every year, for having more than four years.",
+                    "Every two years, the same as a passenger car of its age.",
+                    "Every four years, like the first time."
+                  ]
+                },
+                "en": {
+                  "q": "A motorcycle was first registered five years ago and has had its first ITV. How often must it take it from now on?",
+                  "options": [
+                    "Every year, because it is over four years old",
+                    "Every two years, like a car of the same age",
+                    "Every four years, like the first time"
+                  ],
+                  "why": "A motorcycle is exempt up to 4 years old. After that it takes the ITV every 2 years, and it never moves to a yearly test the way cars over 10 do."
+                },
+                "terms": [
+                  {
+                    "es": "motocicleta",
+                    "en": "motorcycle"
+                  },
+                  {
+                    "es": "exenta",
+                    "en": "exempt"
+                  }
+                ],
+                "src": "RD 920/2017 art. 6.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c2j",
+                "answer": 0,
+                "es": {
+                  "q": "Una furgoneta de mercancías de 2.500 kg de masa máxima autorizada tiene siete años. ¿Cada cuánto debe pasar la ITV?",
+                  "options": [
+                    "Cada año, hasta que tenga más de diez años",
+                    "Cada dos años, como un turismo de su edad",
+                    "Cada seis meses, por ser de mercancías"
+                  ],
+                  "why": "Las furgonetas y camiones de hasta 3,5 toneladas están exentos hasta los 2 años. Pasan la ITV cada 2 años hasta los 6, cada año de los 6 a los 10 y cada 6 meses con más de 10."
+                },
+                "exam": {
+                  "q": "A van for goods transport, whose MMA is 2,500 kg, has seven years. Every how much must it pass the ITV?",
+                  "options": [
+                    "Every year, until it has more than ten years.",
+                    "Every two years, like a passenger car of its age.",
+                    "Every six months, for being of goods."
+                  ]
+                },
+                "en": {
+                  "q": "A goods van with an MMA of 2,500 kg was first registered seven years ago. How often is its ITV due?",
+                  "options": [
+                    "Every year, until it is over ten",
+                    "Every two years, like a car of its age",
+                    "Every six months, as a goods vehicle"
+                  ],
+                  "why": "Vans and trucks up to 3.5 tonnes are exempt up to 2 years old. They take the ITV every 2 years up to 6, every year from 6 to 10, and every 6 months after 10."
+                },
+                "terms": [
+                  {
+                    "es": "furgoneta",
+                    "en": "van"
+                  },
+                  {
+                    "es": "masa máxima autorizada (MMA)",
+                    "en": "maximum authorized mass"
+                  }
+                ],
+                "src": "RD 920/2017 art. 6.1"
+              }
             }
           ]
         },
@@ -1614,7 +2000,8 @@
         "Real Decreto 920/2017 (inspección técnica de vehículos), arts. 4, 6, 9, 11 y 12",
         "Reglamento General de Vehículos (RD 2822/1998), art. 10 y Anexo XI (V-19)",
         "Ley de Tráfico y Seguridad Vial (RDL 6/2015), arts. 76.o y 78.2",
-        "Reglamento General de Vehículos, art. 7"
+        "Reglamento General de Vehículos, art. 7",
+        "Real Decreto 866/2010 (reformas de vehículos), art. 8"
       ]
     },
     {
@@ -1825,6 +2212,94 @@
                   }
                 ],
                 "src": "RGC art. 98.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c3x",
+                "answer": 2,
+                "es": {
+                  "q": "De noche, ¿qué vehículos deben llevar encendida, además de las luces de posición, la luz de gálibo?",
+                  "options": [
+                    "Los de más de 6 metros de longitud",
+                    "Los de más de 4 metros de altura",
+                    "Los de más de 2,10 metros de anchura"
+                  ],
+                  "why": "El RGC obliga a llevar encendida la luz de gálibo, además de las de posición, cuando el vehículo mide más de 2,10 metros de ancho."
+                },
+                "exam": {
+                  "q": "At night, which vehicles must carry switched on, besides the position lights, the clearance light?",
+                  "options": [
+                    "Those of more than 6 metres of length.",
+                    "Those of more than 4 metres of height.",
+                    "Those of more than 2.10 metres of width."
+                  ]
+                },
+                "en": {
+                  "q": "At night, which vehicles must also have their clearance lights on, besides the position lights?",
+                  "options": [
+                    "Those over 6 meters long",
+                    "Those over 4 meters tall",
+                    "Those over 2.10 meters wide"
+                  ],
+                  "why": "The RGC requires the clearance light, on top of the position lights, when the vehicle is more than 2.10 meters wide."
+                },
+                "terms": [
+                  {
+                    "es": "luz de gálibo",
+                    "en": "clearance light"
+                  },
+                  {
+                    "es": "anchura",
+                    "en": "width"
+                  }
+                ],
+                "src": "RGC art. 99.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c3y",
+                "answer": 1,
+                "es": {
+                  "q": "De noche, ¿es obligatorio que la placa de matrícula trasera vaya iluminada?",
+                  "options": [
+                    "No, basta con que sea reflectante",
+                    "Sí.",
+                    "Solo fuera de poblado"
+                  ],
+                  "why": "Sí: cuando debes llevar las luces de posición, de noche o con poca visibilidad, la placa trasera de matrícula debe ir siempre iluminada."
+                },
+                "exam": {
+                  "q": "At night, is it compulsory that the rear registration plate goes illuminated?",
+                  "options": [
+                    "No, it is enough that it is reflective.",
+                    "Yes.",
+                    "Only outside town."
+                  ]
+                },
+                "en": {
+                  "q": "At night, must the rear license plate be lit?",
+                  "options": [
+                    "No, it is enough for it to be reflective",
+                    "Yes.",
+                    "Only outside towns"
+                  ],
+                  "why": "Yes: whenever you need position lights, at night or in poor visibility, the rear license plate must always be lit."
+                },
+                "terms": [
+                  {
+                    "es": "placa de matrícula",
+                    "en": "license plate"
+                  },
+                  {
+                    "es": "iluminada",
+                    "en": "lit"
+                  }
+                ],
+                "src": "RGC art. 103"
               }
             }
           ]
@@ -2546,6 +3021,94 @@
                 ],
                 "src": "RGC art. 106.2"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c3u",
+                "answer": 0,
+                "es": {
+                  "q": "Sin niebla ni lluvia, un turismo circula de noche por una carretera de 6 metros de calzada señalizada con curvas peligrosas seguidas. ¿Puede encender alguna luz antiniebla?",
+                  "options": [
+                    "Sí, la delantera, pero no la trasera",
+                    "Sí, las dos, por ser un tramo peligroso",
+                    "No, porque no hay niebla ni lluvia"
+                  ],
+                  "why": "La antiniebla delantera también se puede usar en tramos estrechos con muchas curvas: calzada de 6,50 m o menos y señales de curvas seguidas. La trasera solo se enciende con condiciones especialmente desfavorables, como niebla espesa."
+                },
+                "exam": {
+                  "q": "Without fog or rain, a passenger car circulates at night by a road of 6 metres of carriageway signposted with successive dangerous bends. Can it switch on any fog light?",
+                  "options": [
+                    "Yes, the front one, but not the rear one.",
+                    "Yes, both, for being a dangerous stretch.",
+                    "No, because there is no fog or rain."
+                  ]
+                },
+                "en": {
+                  "q": "There is no fog or rain. At night, a car is on a road with a 6-meter-wide roadway, signed for a series of dangerous bends. May it use a fog light?",
+                  "options": [
+                    "Yes, the front one but not the rear",
+                    "Yes, both, as it is a dangerous stretch",
+                    "No, because there is no fog or rain"
+                  ],
+                  "why": "The front fog light may also be used on narrow, winding stretches: a roadway 6.50 m wide or less, signed for successive bends. The rear one goes on only in especially bad conditions, such as thick fog."
+                },
+                "terms": [
+                  {
+                    "es": "luz antiniebla",
+                    "en": "fog light"
+                  },
+                  {
+                    "es": "curvas peligrosas",
+                    "en": "dangerous bends"
+                  }
+                ],
+                "src": "RGC art. 106.2"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c3v",
+                "answer": 2,
+                "es": {
+                  "q": "Hay niebla densa y el turismo no tiene luces antiniebla delanteras. ¿Qué alumbrado delantero puede llevar?",
+                  "options": [
+                    "Solo las luces de posición",
+                    "Solo la luz de largo alcance",
+                    "La de corto o la de largo alcance"
+                  ],
+                  "why": "Con niebla, lluvia intensa o nieve debes usar la antiniebla delantera o la luz de corto o de largo alcance. Si no tienes antiniebla, usas la de cruce o la de carretera, sin deslumbrar a nadie."
+                },
+                "exam": {
+                  "q": "There is dense fog and the passenger car has no front fog lights. Which front lighting can it carry?",
+                  "options": [
+                    "Only the position lights.",
+                    "Only the long-range light.",
+                    "The short-range or the long-range one."
+                  ]
+                },
+                "en": {
+                  "q": "There is thick fog and the car has no front fog lights. Which front lights may it use?",
+                  "options": [
+                    "Only the position lights",
+                    "Only the high beam",
+                    "The low beam or the high beam"
+                  ],
+                  "why": "In fog, heavy rain or snow you must use the front fog light or the low or high beam. Without fog lights, you use the low or the high beam, without dazzling anyone."
+                },
+                "terms": [
+                  {
+                    "es": "luz de corto alcance (cruce)",
+                    "en": "low beam"
+                  },
+                  {
+                    "es": "luz de largo alcance (carretera)",
+                    "en": "high beam"
+                  }
+                ],
+                "src": "RGC art. 106.2"
+              }
             }
           ]
         },
@@ -2759,6 +3322,58 @@
                   }
                 ],
                 "src": "RGV Anexo X, ap. 2"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Toda motocicleta puede llevar, si quiere, luz antiniebla **delantera** y luz antiniebla **trasera**. Son opcionales.",
+                "en": "Any motorcycle may have a **front** fog light and a **rear** fog light if it wants. They are optional."
+              },
+              "src": "RGV art. 17.2"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c3w",
+                "answer": 1,
+                "es": {
+                  "q": "¿Está permitido que una motocicleta lleve luces antiniebla?",
+                  "options": [
+                    "No, están prohibidas en las motocicletas",
+                    "Sí, la delantera y la trasera, las dos opcionales",
+                    "Sí, pero únicamente la trasera, que es obligatoria"
+                  ],
+                  "why": "Las antiniebla son opcionales en la motocicleta: puede llevar la delantera, la trasera o las dos. En un turismo, en cambio, la antiniebla trasera es obligatoria."
+                },
+                "exam": {
+                  "q": "Is it allowed that a motorcycle carries fog lights?",
+                  "options": [
+                    "No, they are prohibited in the motorcycles.",
+                    "Yes, the front one and the rear one, both optional.",
+                    "Yes, but solely the rear one, which is compulsory."
+                  ]
+                },
+                "en": {
+                  "q": "Is a motorcycle allowed to have fog lights?",
+                  "options": [
+                    "No, they are banned on motorcycles",
+                    "Yes, front and rear, both optional",
+                    "Yes, but only a rear one, which is compulsory"
+                  ],
+                  "why": "Fog lights are optional on a motorcycle: it may have a front one, a rear one or both. On a car, by contrast, the rear fog light is compulsory."
+                },
+                "terms": [
+                  {
+                    "es": "luz antiniebla",
+                    "en": "fog light"
+                  },
+                  {
+                    "es": "opcional",
+                    "en": "optional"
+                  }
+                ],
+                "src": "RGV art. 17.2"
               }
             }
           ]
@@ -3037,6 +3652,57 @@
                 ],
                 "src": "DGT guidance (revista DGT, «Las tecnologías, al rescate», 2016)"
               }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Muchos coches con **luces adaptativas** tienen **luces angulares**: se encienden al girar el volante e iluminan el lado hacia el que gira el coche. Te ayudan a ver mejor en las curvas, y en las glorietas muestran a los demás hacia dónde vas. (DGT, manual en lectura fácil, 2023, Tema 5)",
+                "en": "Many cars with **adaptive lights** have **cornering lights**: they come on when you turn the wheel and light the side the car is turning toward. They help you see better in bends, and in roundabouts they show others where you are going. (DGT, easy-read manual, 2023, Topic 5)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c3z",
+                "answer": 0,
+                "es": {
+                  "q": "Las luces angulares, que se encienden al girar el volante, iluminan…",
+                  "options": [
+                    "el lado hacia el que gira el vehículo",
+                    "los dos lados de la vía a la vez",
+                    "el lado contrario al giro, para no deslumbrar"
+                  ],
+                  "why": "Según la DGT, las luces angulares alumbran el lado hacia el que gira tu vehículo. Así ves mejor la curva por la que entras."
+                },
+                "exam": {
+                  "q": "The angular lights, which switch on when turning the steering wheel, illuminate…",
+                  "options": [
+                    "the side towards which the vehicle turns.",
+                    "the two sides of the road at the same time.",
+                    "the side contrary to the turn, in order not to dazzle."
+                  ]
+                },
+                "en": {
+                  "q": "Cornering lights, which come on when you turn the steering wheel, light up…",
+                  "options": [
+                    "the side the vehicle is turning toward",
+                    "both sides of the road at once",
+                    "the side away from the turn, so as not to dazzle"
+                  ],
+                  "why": "According to the DGT, cornering lights light the side your vehicle is turning toward. That way you see the bend you are entering better."
+                },
+                "terms": [
+                  {
+                    "es": "luces angulares",
+                    "en": "cornering lights"
+                  },
+                  {
+                    "es": "luces adaptativas",
+                    "en": "adaptive lights"
+                  }
+                ],
+                "src": "DGT, Manual del permiso B en lectura fácil (2023), Tema 5"
+              }
             }
           ]
         }
@@ -3076,7 +3742,9 @@
         "Reglamento General de Circulación (RD 1428/2003), arts. 45 y 107",
         "DGT guidance: revista.dgt.es («Luces: sin sombra de duda», «Cómo evitar los deslumbramientos al volante»)",
         "RGC arts. 100 y 101",
-        "DGT guidance: Campaña de control y vigilancia de furgonetas (2023); revista DGT «Las tecnologías, al rescate» (2016)"
+        "DGT guidance: Campaña de control y vigilancia de furgonetas (2023); revista DGT «Las tecnologías, al rescate» (2016)",
+        "Reglamento General de Vehículos (RD 2822/1998), art. 17",
+        "DGT, Manual del permiso B en lectura fácil (2023), Tema 5"
       ]
     },
     {
@@ -3171,6 +3839,65 @@
                 "en": "These must have low beams on **by day**: **motorcycles**, on any road, and every vehicle using a **reversible lane**, an occasional extra lane or a lane opened to the opposite direction."
               },
               "src": "RGC art. 104"
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "r-413"
+              ]
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "La señal **R-413** obliga a circular con, al menos, la luz de corto alcance (cruce), sean cuales sean la visibilidad y la iluminación de la vía. La obligación dura hasta la señal de fin.",
+                "en": "Sign **R-413** requires you to drive with at least the low beam on, whatever the visibility and the lighting of the road. The duty lasts until the end sign."
+              },
+              "src": "RGC Anexo I, ap. 5.1, 3.6 (R-413)"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c4p",
+                "answer": 1,
+                "es": {
+                  "q": "Es de día y hace sol. ¿Qué indica esta señal?",
+                  "options": [
+                    "Que debe encender la luz de largo alcance",
+                    "Que debe llevar al menos la luz de cruce",
+                    "Que solo debe encender luces si hay poca visibilidad"
+                  ],
+                  "why": "Es la señal de alumbrado de corto alcance (R-413): obliga a llevar al menos la luz de cruce, con independencia de la visibilidad y de la iluminación de la vía, hasta la señal de fin."
+                },
+                "exam": {
+                  "q": "It is daytime and it is sunny. What does this sign indicate?",
+                  "options": [
+                    "That you must switch on the long-range light.",
+                    "That you must carry at least the crossing light.",
+                    "That you must only switch on lights if there is little visibility."
+                  ]
+                },
+                "en": {
+                  "q": "It is a sunny day. What does this sign mean?",
+                  "options": [
+                    "You must switch on the high beam",
+                    "You must have at least the low beam on",
+                    "You only need lights if visibility is poor"
+                  ],
+                  "why": "It is the low-beam sign (R-413): it requires at least the low beam, whatever the visibility and road lighting, until the end-of-duty sign."
+                },
+                "terms": [
+                  {
+                    "es": "alumbrado de corto alcance",
+                    "en": "low beam"
+                  },
+                  {
+                    "es": "señal de fin",
+                    "en": "end sign"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1, 3.6 (R-413)",
+                "sign": "r-413"
+              }
             },
             {
               "t": "p",
@@ -4040,7 +4767,8 @@
         "Reglamento General de Vehículos (RD 2822/1998), Anexo XI, V-2",
         "RGC art. 41",
         "Ley de Tráfico y Seguridad Vial (RDL 6/2015), Anexo I, 13 y 14",
-        "DGT, Manual del permiso B en lectura fácil (2023), Tema 7"
+        "DGT, Manual del permiso B en lectura fácil (2023), Tema 7",
+        "Reglamento General de Circulación, Anexo I, ap. 5.1 (señal R-413, Catálogo de señales)"
       ]
     },
     {
@@ -4167,6 +4895,19 @@
                 "en": "**Motorcycles** must carry a high-visibility vest."
               },
               "src": "RGV Anexo XII, apartado 3"
+            },
+            {
+              "t": "new",
+              "since": "2026-10-01",
+              "was": {
+                "es": "El Anexo XII no pedía a las motocicletas ningún elemento de dotación obligatoria.",
+                "en": "Annex XII required no compulsory kit on motorcycles."
+              },
+              "now": {
+                "es": "Las motocicletas deben llevar un **chaleco reflectante** de alta visibilidad.",
+                "en": "Motorcycles must carry a high-visibility **reflective vest**."
+              },
+              "src": "RGV Anexo XII, apartado 3 (añadido por el RD 518/2026, disposición final segunda)"
             },
             {
               "t": "rule",
@@ -4671,6 +5412,57 @@
                 ],
                 "src": "DGT, Manual II Cuestiones de seguridad vial (2026), UD 9"
               }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Solo es obligatorio llevar **un** chaleco. La DGT recomienda llevar otro, por si un acompañante tiene que salir del vehículo. (DGT, Manual II, 2026, UD 9)",
+                "en": "Only **one** vest is compulsory. The DGT recommends carrying another, in case a passenger has to get out of the vehicle. (DGT, Manual II, 2026, UD 9)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c5q",
+                "answer": 2,
+                "es": {
+                  "q": "¿Cuántos chalecos reflectantes debe llevar como mínimo un turismo?",
+                  "options": [
+                    "Uno por cada plaza autorizada del vehículo",
+                    "Dos: el del conductor y el del acompañante",
+                    "Uno, aunque se aconseja llevar un segundo"
+                  ],
+                  "why": "La dotación obligatoria del turismo incluye un chaleco de alta visibilidad. La DGT aconseja llevar otro por si un pasajero tiene que bajar a la vía."
+                },
+                "exam": {
+                  "q": "How many reflective vests must a passenger car carry as a minimum?",
+                  "options": [
+                    "One for each authorised seat of the vehicle.",
+                    "Two: that of the driver and that of the companion.",
+                    "One, although it is advised to carry a second one."
+                  ]
+                },
+                "en": {
+                  "q": "What is the minimum number of reflective vests a car must carry?",
+                  "options": [
+                    "One for every authorized seat",
+                    "Two: the driver’s and a passenger’s",
+                    "One, though a second one is advisable"
+                  ],
+                  "why": "A car’s compulsory kit includes one high-visibility vest. The DGT advises carrying another in case a passenger has to step onto the road."
+                },
+                "terms": [
+                  {
+                    "es": "chaleco reflectante",
+                    "en": "reflective vest"
+                  },
+                  {
+                    "es": "acompañante",
+                    "en": "passenger"
+                  }
+                ],
+                "src": "RGV Anexo XII, apartado 1.b; DGT, Manual II (2026), UD 9"
+              }
             }
           ]
         },
@@ -4785,6 +5577,58 @@
                   }
                 ],
                 "src": "RGC art. 14.1.a; DGT, Manual del permiso B en lectura fácil (2023), Tema 13"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Está prohibido circular con las **puertas abiertas**, y también abrirlas antes de que el vehículo esté completamente parado.",
+                "en": "Driving with the **doors open** is forbidden, and so is opening them before the vehicle has fully stopped."
+              },
+              "src": "RGC art. 114.1"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c5r",
+                "answer": 0,
+                "es": {
+                  "q": "Una furgoneta lleva unos tablones largos que no caben dentro. ¿Puede circular con una puerta abierta, si la carga va bien sujeta?",
+                  "options": [
+                    "No.",
+                    "Sí, si circula despacio y por poblado",
+                    "Sí, si la carga no sobresale de la puerta"
+                  ],
+                  "why": "No: el RGC prohíbe llevar abiertas las puertas del vehículo. Si la carga no cabe con las puertas cerradas, usa otro vehículo o colócala como permiten las normas."
+                },
+                "exam": {
+                  "q": "A van carries some long planks that do not fit inside. Can it circulate with a door open, if the load goes well fastened?",
+                  "options": [
+                    "No.",
+                    "Yes, if it circulates slowly and by town.",
+                    "Yes, if the load does not protrude from the door."
+                  ]
+                },
+                "en": {
+                  "q": "A van is carrying long planks that do not fit inside. May it be driven with a door open if the load is well secured?",
+                  "options": [
+                    "No.",
+                    "Yes, if it goes slowly and in town",
+                    "Yes, if the load does not stick out past the door"
+                  ],
+                  "why": "No: the RGC forbids driving with a vehicle’s doors open. If the load does not fit with the doors shut, use another vehicle or load it as the rules allow."
+                },
+                "terms": [
+                  {
+                    "es": "puertas abiertas",
+                    "en": "open doors"
+                  },
+                  {
+                    "es": "sujeta",
+                    "en": "secured"
+                  }
+                ],
+                "src": "RGC art. 114.1"
               }
             }
           ]
@@ -5024,7 +5868,9 @@
         "Reglamento General de Circulación (RD 1428/2003), arts. 9, 10, 14, 15 y 118.4",
         "Ley de Tráfico y Seguridad Vial (RDL 6/2015), art. 10.2",
         "DGT, Manual II Cuestiones de seguridad vial (2026), UD 9",
-        "DGT, Manual del permiso B en lectura fácil (2023), Tema 13"
+        "DGT, Manual del permiso B en lectura fácil (2023), Tema 13",
+        "Reglamento General de Circulación, art. 114",
+        "Real Decreto 518/2026, disposición final segunda"
       ]
     },
     {
@@ -5387,6 +6233,50 @@
                 ],
                 "src": "RGC art. 15.6"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c7q",
+                "answer": 2,
+                "es": {
+                  "q": "Un camión de mercancías de 4 metros de longitud lleva postes de una sola pieza. ¿Cuánto pueden sobresalir como máximo?",
+                  "options": [
+                    "Hasta 2 metros por delante y 3 por detrás",
+                    "Hasta el 15 % de su longitud, solo por detrás",
+                    "Hasta un tercio de su longitud por cada extremo"
+                  ],
+                  "why": "En vehículos de mercancías de 5 metros o menos, la carga indivisible puede sobresalir un tercio de su longitud por delante y otro tercio por detrás. Los 2 y 3 metros son para los de más de 5 metros."
+                },
+                "exam": {
+                  "q": "A goods truck of 4 metres of length carries posts of a single piece. How much can they protrude as a maximum?",
+                  "options": [
+                    "Up to 2 metres at the front and 3 at the rear.",
+                    "Up to 15% of its length, only by behind.",
+                    "Up to a third of its length by each end."
+                  ]
+                },
+                "en": {
+                  "q": "A 4-meter goods truck carries one-piece posts. How far may they stick out at most?",
+                  "options": [
+                    "Up to 2 m at the front and 3 m at the back",
+                    "Up to 15% of its length, at the back only",
+                    "Up to a third of its length at each end"
+                  ],
+                  "why": "On goods vehicles 5 meters long or less, an indivisible load may stick out a third of the vehicle’s length at the front and another third at the back. The 2 and 3 meters apply to vehicles over 5 meters."
+                },
+                "terms": [
+                  {
+                    "es": "carga indivisible",
+                    "en": "indivisible load"
+                  },
+                  {
+                    "es": "sobresalir",
+                    "en": "to stick out"
+                  }
+                ],
+                "src": "RGC art. 15.2.a"
+              }
             }
           ]
         },
@@ -5498,6 +6388,50 @@
                   }
                 ],
                 "src": "RGC art. 15.7"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c7p",
+                "answer": 1,
+                "es": {
+                  "q": "Una motocicleta de menos de un metro de anchura lleva un objeto largo. ¿Cuánto puede sobresalir a lo largo?",
+                  "options": [
+                    "Por delante y por detrás, hasta 0,25 metros",
+                    "Por delante nada; por detrás, hasta 0,25 metros",
+                    "Solo por detrás, hasta el 10 % de su longitud"
+                  ],
+                  "why": "En vehículos de menos de un metro de ancho, la carga no puede sobresalir por delante, y por detrás solo hasta 0,25 metros. A los lados, hasta 0,50 metros desde su eje."
+                },
+                "exam": {
+                  "q": "A motorcycle of less than one metre of width carries a long object. How much can it protrude lengthwise?",
+                  "options": [
+                    "By the front and by behind, up to 0.25 metres.",
+                    "By the front nothing; by behind, up to 0.25 metres.",
+                    "Only by behind, up to 10% of its length."
+                  ]
+                },
+                "en": {
+                  "q": "A motorcycle under one meter wide carries a long item. How far may it stick out, front and back?",
+                  "options": [
+                    "Front and back, up to 0.25 m",
+                    "None at the front; up to 0.25 m at the back",
+                    "Only at the back, up to 10% of its length"
+                  ],
+                  "why": "On vehicles less than a meter wide, the load may not stick out at the front, and at the back only up to 0.25 meters. To the sides, up to 0.50 meters from the center line."
+                },
+                "terms": [
+                  {
+                    "es": "eje longitudinal",
+                    "en": "center line"
+                  },
+                  {
+                    "es": "anchura",
+                    "en": "width"
+                  }
+                ],
+                "src": "RGC art. 15.4"
               }
             }
           ]
@@ -5919,6 +6853,58 @@
                 ],
                 "src": "RGC art. 16"
               }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Si cargas o descargas en la vía, respeta las normas de parada y estacionamiento. En **poblado**, cumple además lo que dicten las autoridades **municipales** sobre horas y lugares.",
+                "en": "If you load or unload on the road, follow the stopping and parking rules. In **towns**, also follow what the **municipal** authorities set on times and places."
+              },
+              "src": "RGC art. 16.a"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c7o",
+                "answer": 1,
+                "es": {
+                  "q": "Un repartidor tiene que descargar en una calle de la ciudad porque no hay otro sitio. Además de las normas de parada y estacionamiento, ¿qué debe respetar?",
+                  "options": [
+                    "Solo las señales de prohibido parar y estacionar en esa calle",
+                    "Lo que dicte el ayuntamiento sobre horas y lugares",
+                    "Nada más, si pone las luces de emergencia"
+                  ],
+                  "why": "En poblado, la carga y descarga en la vía también debe seguir lo que dispongan las autoridades municipales sobre horas y lugares adecuados."
+                },
+                "exam": {
+                  "q": "A delivery driver has to unload in a street of the city because there is no other place. Besides the rules of stop and parking, what must he respect?",
+                  "options": [
+                    "Only the signs of prohibited to stop and to park in that street.",
+                    "What the town hall dictates about hours and places.",
+                    "Nothing else, if he puts the emergency lights."
+                  ]
+                },
+                "en": {
+                  "q": "A delivery driver must unload on a city street because there is nowhere else. Besides the stopping and parking rules, what must the driver follow?",
+                  "options": [
+                    "Only the no-stopping and no-parking signs on that street",
+                    "What the town council sets on times and places",
+                    "Nothing else, if the hazard lights are on"
+                  ],
+                  "why": "In towns, loading and unloading on the road must also follow what the municipal authorities set on suitable times and places."
+                },
+                "terms": [
+                  {
+                    "es": "carga y descarga",
+                    "en": "loading and unloading"
+                  },
+                  {
+                    "es": "ayuntamiento",
+                    "en": "town council"
+                  }
+                ],
+                "src": "RGC art. 16.a"
+              }
             }
           ]
         },
@@ -6327,6 +7313,50 @@
                 ],
                 "src": "RGV Anexo III, ap. 2"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c8n",
+                "answer": 2,
+                "es": {
+                  "q": "¿Está permitido llevar cortinillas contra el sol en las ventanillas traseras de un turismo?",
+                  "options": [
+                    "No, solo se permiten los vidrios tintados homologados",
+                    "Sí, siempre que el retrovisor interior vea bien",
+                    "Sí, si lleva los dos retrovisores exteriores"
+                  ],
+                  "why": "Las láminas adhesivas y las cortinillas contra el sol solo se permiten en las ventanillas traseras, y solo si el vehículo lleva dos retrovisores exteriores."
+                },
+                "exam": {
+                  "q": "Is it allowed to carry sun blinds in the rear windows of a passenger car?",
+                  "options": [
+                    "No, only the approved tinted glasses are allowed.",
+                    "Yes, provided that the interior rear-view mirror sees well.",
+                    "Yes, if it carries the two exterior rear-view mirrors."
+                  ]
+                },
+                "en": {
+                  "q": "May a car have sun blinds on its rear windows?",
+                  "options": [
+                    "No, only approved tinted glass is allowed",
+                    "Yes, as long as the inside mirror gives a good view",
+                    "Yes, if it has both outside mirrors"
+                  ],
+                  "why": "Adhesive films and sun blinds are allowed only on the rear windows, and only if the vehicle has two outside mirrors."
+                },
+                "terms": [
+                  {
+                    "es": "cortinillas",
+                    "en": "sun blinds"
+                  },
+                  {
+                    "es": "ventanillas traseras",
+                    "en": "rear windows"
+                  }
+                ],
+                "src": "RGC art. 19.1"
+              }
             }
           ]
         },
@@ -6495,8 +7525,8 @@
             {
               "t": "rule",
               "text": {
-                "es": "Un **cuatriciclo ligero** o un vehículo de tres ruedas con **carrocería** que cubra al conductor lleva retrovisor **interior** y retrovisor **exterior izquierdo**; el derecho es optativo. Sin carrocería, basta con el exterior izquierdo.",
-                "en": "A **light quadricycle** or three-wheeler with **bodywork** around the driver has an **interior** mirror and a **left exterior** mirror; the right one is optional. Without bodywork, the left exterior mirror is enough."
+                "es": "Un **cuatriciclo ligero** o un ciclomotor de tres ruedas con **carrocería** que cubra al conductor lleva retrovisor **interior** y retrovisor **exterior izquierdo**; el derecho es optativo. Sin carrocería, basta con el exterior izquierdo. Un vehículo de tres ruedas o un cuatriciclo no ligero sin carrocería lleva los **dos** exteriores.",
+                "en": "A **light quadricycle** or three-wheeled moped with **bodywork** around the driver has an **interior** mirror and a **left exterior** mirror; the right one is optional. Without bodywork, the left exterior mirror is enough. A three-wheeler or a heavy quadricycle without bodywork has **both** exterior mirrors."
               },
               "src": "RGV Anexo III, ap. 3"
             },
@@ -7503,6 +8533,57 @@
                 ],
                 "src": "DGT, Manual II Cuestiones de seguridad vial (2026), UD 8"
               }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Tras un viaje, la presión sube porque el aire del neumático se calienta. **No quites aire** a un neumático caliente. Se considera frío si ha estado parado al menos una hora o solo ha rodado 2 o 3 km despacio. (DGT, Manual II, 2026, UD 8)",
+                "en": "After a trip, the pressure rises because the air in the tire heats up. **Do not let air out** of a hot tire. A tire counts as cold if it has stood for at least an hour or has only done 2 or 3 km slowly. (DGT, Manual II, 2026, UD 8)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c6z",
+                "answer": 1,
+                "es": {
+                  "q": "Al terminar un viaje largo, un conductor mide la presión de los neumáticos y está por encima de la recomendada. Según la DGT, ¿qué debe hacer?",
+                  "options": [
+                    "Quitar aire hasta dejarla en la presión recomendada",
+                    "No quitar aire: la presión sube al calentarse",
+                    "Mojar las ruedas con agua para que se enfríen antes"
+                  ],
+                  "why": "Al rodar, el aire del neumático se calienta y la presión sube. La DGT aconseja medirla en frío y no bajarla nunca con el neumático caliente."
+                },
+                "exam": {
+                  "q": "On finishing a long trip, a driver measures the pressure of the tyres and it is above the recommended one. According to the DGT, what must he do?",
+                  "options": [
+                    "To remove air until leaving it at the recommended pressure.",
+                    "Not to remove air: the pressure rises when the tyre heats up.",
+                    "To wet the wheels with water so that they cool down before."
+                  ]
+                },
+                "en": {
+                  "q": "At the end of a long trip, a driver checks the tire pressure and finds it higher than recommended. According to the DGT, what should the driver do?",
+                  "options": [
+                    "Let air out until it matches the recommended pressure",
+                    "Leave it: the pressure rises as the tire warms up",
+                    "Wet the wheels with water to cool them first"
+                  ],
+                  "why": "As a tire rolls, the air inside warms up and the pressure rises. The DGT advises checking it cold and never lowering it when the tire is hot."
+                },
+                "terms": [
+                  {
+                    "es": "presión de inflado",
+                    "en": "inflation pressure"
+                  },
+                  {
+                    "es": "en frío",
+                    "en": "when cold"
+                  }
+                ],
+                "src": "DGT, Manual II Cuestiones de seguridad vial (2026), UD 8"
+              }
             }
           ]
         },
@@ -7770,6 +8851,50 @@
                   }
                 ],
                 "src": "DGT guidance (revista DGT, «Más calor, más peligro», 2021)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c6zb",
+                "answer": 0,
+                "es": {
+                  "q": "Como norma general, ¿cómo se comprueba el nivel de aceite del motor con la varilla?",
+                  "options": [
+                    "Con el motor parado y frío, en terreno llano",
+                    "Con el motor en marcha, para que el aceite circule",
+                    "Con el motor caliente, justo después de un viaje"
+                  ],
+                  "why": "La medición se hace con el motor en frío y el coche en terreno horizontal. El nivel debe quedar entre las marcas de mínimo y máximo de la varilla."
+                },
+                "exam": {
+                  "q": "As a general rule, how is the level of the engine oil checked with the dipstick?",
+                  "options": [
+                    "With the engine stopped and cold, on flat ground.",
+                    "With the engine running, so that the oil circulates.",
+                    "With the engine hot, just after a trip."
+                  ]
+                },
+                "en": {
+                  "q": "As a general rule, how do you check the engine oil level with the dipstick?",
+                  "options": [
+                    "Engine stopped and cold, car on level ground",
+                    "Engine running, so the oil is moving",
+                    "Engine hot, right after a trip"
+                  ],
+                  "why": "Measure with the engine cold and the car on level ground. The level must sit between the minimum and maximum marks on the dipstick."
+                },
+                "terms": [
+                  {
+                    "es": "varilla",
+                    "en": "dipstick"
+                  },
+                  {
+                    "es": "nivel de aceite",
+                    "en": "oil level"
+                  }
+                ],
+                "src": "DGT, Manual VIII Mecánica (2026), UD 5"
               }
             }
           ]
@@ -8623,6 +9748,57 @@
                 ],
                 "src": "DGT guidance: dgt.es «Conducción eficiente» (2022)"
               }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "A partir de **60 km/h**, la resistencia del aire es la fuerza más importante que vence el motor. Todo lo que empeora la aerodinámica sube el consumo: la carga en la baca, las ventanillas abiertas o una carga mal colocada. (DGT, Manual II, 2026, UD 22 y UD 23)",
+                "en": "From **60 km/h** up, air resistance is the main force the engine has to overcome. Anything that spoils the aerodynamics raises fuel use: a loaded roof rack, open windows or a badly placed load. (DGT, Manual II, 2026, UD 22 and UD 23)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c6za",
+                "answer": 2,
+                "es": {
+                  "q": "¿Influye la velocidad en el consumo de combustible?",
+                  "options": [
+                    "No, mientras se respeten los límites de velocidad",
+                    "No, el consumo depende solo de la marcha que se use",
+                    "Sí: a más velocidad, más resistencia del aire"
+                  ],
+                  "why": "A más velocidad, más resistencia aerodinámica. Según la DGT, a partir de 60 km/h es la fuerza más importante que debe vencer el motor, y por eso el consumo sube."
+                },
+                "exam": {
+                  "q": "Does the speed influence the fuel consumption?",
+                  "options": [
+                    "No, provided that the speed limits are respected.",
+                    "No, the consumption depends only on the gear used.",
+                    "Yes: at more speed, more resistance of the air."
+                  ]
+                },
+                "en": {
+                  "q": "Does speed affect fuel consumption?",
+                  "options": [
+                    "No, as long as you keep to the speed limits",
+                    "No, only the gear you use matters",
+                    "Yes: the faster you go, the more air resistance"
+                  ],
+                  "why": "The faster you go, the greater the air resistance. According to the DGT, from 60 km/h it is the main force the engine must overcome, so fuel use rises."
+                },
+                "terms": [
+                  {
+                    "es": "resistencia aerodinámica",
+                    "en": "air resistance"
+                  },
+                  {
+                    "es": "consumo",
+                    "en": "fuel use"
+                  }
+                ],
+                "src": "DGT, Manual II Cuestiones de seguridad vial (2026), UD 22"
+              }
             }
           ]
         }
@@ -8668,7 +9844,8 @@
         "RGV Anexo VII, apartado 6",
         "DGT guidance: revista DGT «Más calor, más peligro» (2021), «10 claves para conducir de forma eficiente» (2017), «10 claves para ahorrar combustible» (2014); dgt.es «Conducción eficiente»",
         "DGT, Manual II Cuestiones de seguridad vial (2026), UD 1 y UD 8",
-        "DGT, Manual del permiso B en lectura fácil (2023), Temas 5 y 15"
+        "DGT, Manual del permiso B en lectura fácil (2023), Temas 5 y 15",
+        "DGT, Manual II Cuestiones de seguridad vial (2026), UD 22 y UD 23"
       ]
     },
     {
@@ -9519,6 +10696,57 @@
                 ],
                 "src": "DGT guidance (revista DGT, «Conducir sobre mojado», 2013)"
               }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Revisa que los **latiguillos**, los tubos flexibles por los que va el líquido de frenos, no tengan grietas, manchas ni fugas. La DGT aconseja revisar al menos una vez al año discos, pastillas, latiguillos y bombines. (DGT, Manual II, 2026, UD 8)",
+                "en": "Check that the **brake hoses**, the flexible tubes that carry the brake fluid, have no cracks, stains or leaks. The DGT advises checking discs, pads, hoses and wheel cylinders at least once a year. (DGT, Manual II, 2026, UD 8)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c9q",
+                "answer": 1,
+                "es": {
+                  "q": "¿Es aconsejable revisar los latiguillos del sistema de frenos?",
+                  "options": [
+                    "No, si el nivel del líquido de frenos es correcto",
+                    "Sí, para ver que no tienen grietas ni fugas",
+                    "No, porque son piezas que no se desgastan"
+                  ],
+                  "why": "Sí: por los latiguillos circula el líquido de frenos. Si se agrietan o pierden líquido, el freno puede fallar; por eso la DGT aconseja revisarlos al menos una vez al año."
+                },
+                "exam": {
+                  "q": "Is it advisable to check the hoses of the braking system?",
+                  "options": [
+                    "No, if the level of the brake fluid is correct.",
+                    "Yes, to see that they have no cracks or leaks.",
+                    "No, because they are parts that do not wear out."
+                  ]
+                },
+                "en": {
+                  "q": "Is it advisable to check the brake hoses?",
+                  "options": [
+                    "No, if the brake fluid level is right",
+                    "Yes, to make sure they have no cracks or leaks",
+                    "No, because they are parts that do not wear"
+                  ],
+                  "why": "Yes: the brake fluid flows through the hoses. If they crack or leak, the brakes can fail, so the DGT advises checking them at least once a year."
+                },
+                "terms": [
+                  {
+                    "es": "latiguillos",
+                    "en": "brake hoses"
+                  },
+                  {
+                    "es": "fuga",
+                    "en": "leak"
+                  }
+                ],
+                "src": "DGT, Manual II Cuestiones de seguridad vial (2026), UD 8"
+              }
             }
           ]
         },
@@ -9775,7 +11003,8 @@
         "DGT guidance: revista.dgt.es («La importancia del ABS», «Frenos, un elemento clave para la seguridad», «Lo que cuesta frenar por tipo de vehículo», «Las reglas de oro del mantenimiento del neumático», «Puntos a revisar de su coche», «Verano: 8 puntos para revisar en nuestro coche», «La revisión invernal imprescindible para no quedarse tirado», «Lo que debes saber sobre el aire acondicionado», «Conductor, un puesto a medida», test de diciembre de 2019)",
         "DGT guidance: dgt.es («Conducción eficiente», «Cómo ahorrar combustible conduciendo», «En coche»)",
         "DGT guidance: revista DGT «Conducir sobre mojado» (2013), test de diciembre de 2019",
-        "DGT, Manual del permiso B en lectura fácil (2023), Tema 15"
+        "DGT, Manual del permiso B en lectura fácil (2023), Tema 15",
+        "DGT, Manual II Cuestiones de seguridad vial (2026), UD 8"
       ]
     },
     {
@@ -10665,6 +11894,57 @@
                   {
                     "es": "fabricante",
                     "en": "manufacturer"
+                  }
+                ],
+                "src": "DGT, Manual VIII Mecánica (2026), UD 5"
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "El **aceite usado** no se tira a la basura, por el desagüe ni en el campo: contamina. Pregunta en tu ayuntamiento o en tu comunidad autónoma dónde hay un **punto limpio** para llevarlo. (DGT, Manual VIII, 2026, UD 5)",
+                "en": "**Used oil** never goes in the trash, down the drain or onto open ground: it pollutes. Ask your town council or regional government where there is a **recycling point** (punto limpio) to take it to. (DGT, Manual VIII, 2026, UD 5)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c11i",
+                "answer": 0,
+                "es": {
+                  "q": "Un conductor cambia él mismo el aceite del motor. ¿Qué debe hacer con el aceite usado?",
+                  "options": [
+                    "Llevarlo a un punto limpio de su localidad",
+                    "Echarlo por el desagüe con mucha agua",
+                    "Tirarlo a la basura en una botella cerrada"
+                  ],
+                  "why": "El aceite usado contamina. No se tira a la basura, por el desagüe ni en el campo: se lleva a un punto limpio."
+                },
+                "exam": {
+                  "q": "A driver changes the engine oil himself. What must he do with the used oil?",
+                  "options": [
+                    "To take it to a clean point of his locality.",
+                    "To pour it down the drain with a lot of water.",
+                    "To throw it in the rubbish in a closed bottle."
+                  ]
+                },
+                "en": {
+                  "q": "A driver changes the engine oil at home. What should be done with the used oil?",
+                  "options": [
+                    "Take it to a local recycling point",
+                    "Pour it down the drain with plenty of water",
+                    "Put it in the trash in a sealed bottle"
+                  ],
+                  "why": "Used oil pollutes. It does not go in the trash, down the drain or onto open ground: it goes to a recycling point (punto limpio)."
+                },
+                "terms": [
+                  {
+                    "es": "aceite usado",
+                    "en": "used oil"
+                  },
+                  {
+                    "es": "punto limpio",
+                    "en": "recycling point"
                   }
                 ],
                 "src": "DGT, Manual VIII Mecánica (2026), UD 5"
