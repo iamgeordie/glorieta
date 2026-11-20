@@ -2468,6 +2468,57 @@
               }
             },
             {
+              "t": "tip",
+              "text": {
+                "es": "Consejo de la DGT: si notas un **pinchazo** (el coche tira hacia un lado o suena distinto al rodar), reduce la velocidad y detén el vehículo en un lugar adecuado. Allí cambias la rueda o llamas a la asistencia en carretera.",
+                "en": "DGT guidance: if you notice a **flat tire** (the car pulls to one side or sounds different as it rolls), slow down and stop in a suitable place. There you change the wheel or call roadside assistance."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "emergencies-c3s",
+                "answer": 1,
+                "es": {
+                  "q": "Circula por una carretera y nota que el coche tira hacia un lado porque una rueda ha perdido aire. ¿Qué debe hacer?",
+                  "options": [
+                    "Seguir a poca velocidad hasta el taller más cercano",
+                    "Reducir la velocidad y parar en un lugar seguro",
+                    "Frenar con fuerza y parar en su propio carril"
+                  ],
+                  "why": "Ante un pinchazo, reduce la velocidad sin brusquedad y detén el vehículo en un lugar adecuado, fuera de los carriles si puedes. Allí cambias la rueda o pides asistencia."
+                },
+                "exam": {
+                  "q": "You circulate by a road and notice that the car pulls towards one side because a wheel has lost air. What must you do?",
+                  "options": [
+                    "To continue at low speed up to the nearest workshop.",
+                    "To reduce the speed and stop in a safe place.",
+                    "To brake with force and stop in your own lane."
+                  ]
+                },
+                "en": {
+                  "q": "You are on a road and notice the car pulling to one side because a tire has lost air. What should you do?",
+                  "options": [
+                    "Keep going slowly to the nearest garage",
+                    "Slow down and stop in a safe place",
+                    "Brake hard and stop in your own lane"
+                  ],
+                  "why": "With a flat tire, slow down smoothly and stop in a suitable place, off the lanes if you can. There you change the wheel or call for assistance."
+                },
+                "terms": [
+                  {
+                    "es": "pinchazo",
+                    "en": "flat tire"
+                  },
+                  {
+                    "es": "asistencia en carretera",
+                    "en": "roadside assistance"
+                  }
+                ],
+                "src": "DGT guidance: Manual II «Cuestiones de seguridad vial» (DGT, 2026), UD20; RGC art. 130.2"
+              }
+            },
+            {
               "t": "rule",
               "text": {
                 "es": "Un **vehículo de auxilio en vías públicas** (la grúa) se destina sobre todo al rescate y transporte de vehículos accidentados o averiados. Lleva, entre otras, la señal V-24.",
@@ -2621,6 +2672,63 @@
                   }
                 ],
                 "src": "RD 159/2021 art. 6.a; LSV art. 27"
+              }
+            },
+            {
+              "t": "new",
+              "since": "2021-07-01",
+              "was": {
+                "es": "Fuera de autopistas y autovías, otro vehículo podía arrastrar, como excepción, un vehículo averiado hasta el lugar más próximo donde quedara inmovilizado.",
+                "en": "Off motorways and dual carriageways, another vehicle could, as an exception, tow a broken-down vehicle to the nearest place where it could be left."
+              },
+              "now": {
+                "es": "El artículo 130 ya no recoge esa excepción. La DGT enseña que solo un vehículo preparado para el auxilio en carretera, como una grúa, puede recoger y remolcar un vehículo averiado.",
+                "en": "Article 130 no longer contains that exception. The DGT teaches that only a vehicle equipped for roadside assistance, such as a tow truck, may pick up and tow a broken-down vehicle."
+              },
+              "src": "RGC art. 130 (redacción de RD 159/2021); DGT, Teórica abreviada en lectura fácil (2023), Temas 9 y 11"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "emergencies-c3r",
+                "answer": 0,
+                "es": {
+                  "q": "Su turismo se avería en una carretera convencional. Un amigo se ofrece a remolcarlo con su coche hasta el lugar más cercano donde dejarlo. ¿Está permitido?",
+                  "options": [
+                    "No.",
+                    "Sí, porque no es una autopista ni una autovía.",
+                    "Sí, si usan una barra rígida y van despacio."
+                  ],
+                  "why": "No. Un vehículo averiado lo recoge y lo remolca un vehículo de auxilio, como una grúa. La antigua excepción que permitía arrastrarlo con otro vehículo fuera de autopistas y autovías ya no está en el reglamento."
+                },
+                "exam": {
+                  "q": "Your passenger car breaks down on a conventional road. A friend offers to tow it with his car to the closest place for leaving it. Is it permitted?",
+                  "options": [
+                    "No.",
+                    "Yes, since it is not motorway nor dual carriageway.",
+                    "Yes, if they use a rigid bar and go slowly."
+                  ]
+                },
+                "en": {
+                  "q": "Your car breaks down on a conventional road. A friend offers to tow it with their car to the nearest place to leave it. Is that allowed?",
+                  "options": [
+                    "No.",
+                    "Yes, since this is not a motorway or dual carriageway.",
+                    "Yes, if they use a rigid bar and go slowly."
+                  ],
+                  "why": "No. A broken-down vehicle is picked up and towed by a roadside assistance vehicle, such as a tow truck. The old exception that allowed towing it with another vehicle off motorways and dual carriageways is no longer in the regulation."
+                },
+                "terms": [
+                  {
+                    "es": "remolcar",
+                    "en": "to tow"
+                  },
+                  {
+                    "es": "vehículo de auxilio",
+                    "en": "roadside assistance vehicle"
+                  }
+                ],
+                "src": "RGC art. 130; DGT, Teórica abreviada en lectura fácil (2023), Temas 9 y 11"
               }
             },
             {

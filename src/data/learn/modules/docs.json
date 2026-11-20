@@ -476,6 +476,110 @@
                 ],
                 "src": "RGCond art. 4.2 (clases AM y B); LSV Anexo I, 9.c"
               }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Los **vehículos especiales agrícolas** autopropulsados, como un **tractor agrícola**, se conducen con el permiso B. Si no pasan de las masas y dimensiones de los vehículos ordinarios, también vale una licencia de conducción. Si las superan, o pueden pasar de 45 km/h, se exige el permiso B.",
+                "en": "Self-propelled **agricultural special vehicles**, such as a **farm tractor**, are driven with a class B permit. If they stay within the masses and dimensions of ordinary vehicles, a driving license (licencia) also works. If they exceed them, or can go faster than 45 km/h, class B is required."
+              },
+              "src": "RGCond art. 5.9 y 6.1.b"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-classes-11",
+                "answer": 1,
+                "es": {
+                  "q": "Con el permiso de la clase B, ¿puede conducir un tractor agrícola de 6.000 kg de masa máxima autorizada?",
+                  "options": [
+                    "No: al pasar de 3.500 kg exige el permiso C1.",
+                    "Sí.",
+                    "Solo con un permiso B de más de tres años."
+                  ],
+                  "why": "Sí. Los vehículos especiales agrícolas autopropulsados se conducen con el permiso B aunque superen las masas de los vehículos ordinarios. El límite de 3.500 kg de la clase B es para automóviles, no para tractores agrícolas."
+                },
+                "exam": {
+                  "q": "With the permit of class B, can you drive an agricultural tractor of 6,000 kg of maximum authorised mass?",
+                  "options": [
+                    "No: on exceeding 3,500 kg it requires the permit C1.",
+                    "Yes.",
+                    "Only with a permit B of more than three years."
+                  ]
+                },
+                "en": {
+                  "q": "With a class B permit, may you drive a farm tractor whose maximum authorized mass is 6,000 kg?",
+                  "options": [
+                    "No: over 3,500 kg it needs a C1 permit.",
+                    "Yes.",
+                    "Only with a B permit held for over three years."
+                  ],
+                  "why": "Yes. Self-propelled agricultural special vehicles are driven with a B permit even when they exceed the masses of ordinary vehicles. Class B’s 3,500 kg cap is for automobiles, not farm tractors."
+                },
+                "terms": [
+                  {
+                    "es": "tractor agrícola",
+                    "en": "farm tractor"
+                  },
+                  {
+                    "es": "vehículo especial",
+                    "en": "special vehicle"
+                  }
+                ],
+                "src": "RGCond art. 5.9"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Con un permiso B de **más de dos años**, puedes conducir en España un automóvil de mercancías de **combustible alternativo** de hasta **4.250 kg**, sin remolque. Los kilos por encima de 3.500 deben venir solo del sistema de propulsión, y la capacidad de carga no puede aumentar.",
+                "en": "With a B permit held for **more than two years**, you may drive in Spain an **alternative-fuel** goods vehicle of up to **4,250 kg**, with no trailer. The kilos above 3,500 must come only from the propulsion system, and the load capacity may not increase."
+              },
+              "src": "RGCond art. 4.2 (clase B)"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-classes-12",
+                "answer": 2,
+                "es": {
+                  "q": "Tiene el permiso B desde hace tres años. ¿Puede conducir en España una furgoneta de reparto de combustible alternativo, de 4.000 kg y sin remolque?",
+                  "options": [
+                    "No: al pasar de 3.500 kg necesita el permiso C1.",
+                    "Sí, como cualquier furgoneta de hasta 4.250 kg.",
+                    "Sí, si el exceso de masa viene solo de su propulsión."
+                  ],
+                  "why": "Con más de dos años de permiso B se puede, en España, siempre que los kilos por encima de 3.500 vengan solo del sistema de propulsión alternativo y no aumente la capacidad de carga."
+                },
+                "exam": {
+                  "q": "You have the permit B since three years ago. Can you drive in Spain a delivery van of alternative fuel, of 4,000 kg and without trailer?",
+                  "options": [
+                    "No: on exceeding 3,500 kg you need the permit C1.",
+                    "Yes, like any van of up to 4,250 kg.",
+                    "Yes, if the excess of mass comes only from its propulsion."
+                  ]
+                },
+                "en": {
+                  "q": "You have held a B permit for three years. May you drive in Spain an alternative-fuel delivery van of 4,000 kg with no trailer?",
+                  "options": [
+                    "No: over 3,500 kg you need a C1 permit.",
+                    "Yes, like any van up to 4,250 kg.",
+                    "Yes, if the extra mass comes only from its propulsion."
+                  ],
+                  "why": "With a B permit held over two years you may, in Spain, as long as the kilos above 3,500 come only from the alternative propulsion system and the load capacity does not increase."
+                },
+                "terms": [
+                  {
+                    "es": "combustible alternativo",
+                    "en": "alternative fuel"
+                  },
+                  {
+                    "es": "capacidad de carga",
+                    "en": "load capacity"
+                  }
+                ],
+                "src": "RGCond art. 4.2 (clase B)"
+              }
             }
           ]
         },
@@ -687,6 +791,50 @@
                   {
                     "es": "años cumplidos",
                     "en": "completed years"
+                  }
+                ],
+                "src": "RGCond art. 4.2"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-classes-13",
+                "answer": 1,
+                "es": {
+                  "q": "Como norma general, ¿a partir de qué edad se puede obtener el permiso de la clase AM, el de los ciclomotores?",
+                  "options": [
+                    "A los 14 años cumplidos.",
+                    "A los 15 años cumplidos.",
+                    "A los 16 años cumplidos."
+                  ],
+                  "why": "El permiso AM (ciclomotores y cuatriciclos ligeros) se obtiene con 15 años cumplidos. El A1 exige 16, y el B, 18."
+                },
+                "exam": {
+                  "q": "As a general rule, from what age can the permit of class AM, that of mopeds, be obtained?",
+                  "options": [
+                    "At 14 years completed.",
+                    "At 15 years completed.",
+                    "At 16 years completed."
+                  ]
+                },
+                "en": {
+                  "q": "As a rule, from what age can you get the class AM permit, the one for mopeds?",
+                  "options": [
+                    "At 14 completed years",
+                    "At 15 completed years",
+                    "At 16 completed years"
+                  ],
+                  "why": "The AM permit (mopeds and light quadricycles) is available at 15 completed years. A1 needs 16, and B needs 18."
+                },
+                "terms": [
+                  {
+                    "es": "años cumplidos",
+                    "en": "completed years"
+                  },
+                  {
+                    "es": "ciclomotor",
+                    "en": "moped"
                   }
                 ],
                 "src": "RGCond art. 4.2"
@@ -4150,6 +4298,50 @@
             {
               "t": "check",
               "q": {
+                "id": "docs-duties-14",
+                "answer": 1,
+                "es": {
+                  "q": "Tras una lesión, solo puede conducir un turismo adaptado, y esa adaptación no consta en su permiso. ¿Qué debe hacer?",
+                  "options": [
+                    "Llevar en el coche un informe médico que la explique.",
+                    "Comunicarlo a la Jefatura Provincial de Tráfico para que se anote.",
+                    "Nada hasta la renovación, si el permiso sigue en vigor."
+                  ],
+                  "why": "Solo puedes conducir con las adaptaciones que figuran codificadas en tu permiso. Si cambian tus condiciones, comunícalo a Tráfico para que se anoten: un informe médico en el coche no basta."
+                },
+                "exam": {
+                  "q": "After an injury, you can only drive an adapted passenger car, and that adaptation does not appear in your permit. What must you do?",
+                  "options": [
+                    "To carry in the car a medical report that explains it.",
+                    "To communicate it to the Provincial Traffic Headquarters so that it is noted down.",
+                    "Nothing until the renewal, if the permit remains in force."
+                  ]
+                },
+                "en": {
+                  "q": "After an injury you can only drive an adapted car, and that adaptation is not on your permit. What must you do?",
+                  "options": [
+                    "Carry a medical report in the car that explains it.",
+                    "Tell the provincial traffic office so it is recorded.",
+                    "Nothing until renewal, if the permit is still valid."
+                  ],
+                  "why": "You may drive only with the adaptations coded on your permit. If your condition changes, tell Tráfico so they are recorded: a medical report in the car is not enough."
+                },
+                "terms": [
+                  {
+                    "es": "adaptación",
+                    "en": "adaptation"
+                  },
+                  {
+                    "es": "Jefatura Provincial de Tráfico",
+                    "en": "provincial traffic office"
+                  }
+                ],
+                "src": "RGCond arts. 3.1, 10 y 36"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
                 "id": "docs-duties-11",
                 "answer": 0,
                 "es": {
@@ -4305,8 +4497,8 @@
             {
               "t": "rule",
               "text": {
-                "es": "El **titular** responde siempre de las infracciones sobre la documentación del vehículo, las inspecciones periódicas (ITV) y su estado de conservación, cuando afectan a la seguridad.",
-                "en": "The **registered owner** is always liable for offenses about the vehicle’s documents, its periodic inspections (ITV) and its upkeep, when they affect safety."
+                "es": "El **titular** del vehículo, o el **arrendatario a largo plazo** si consta en el Registro de Vehículos, responde en todo caso de las infracciones sobre la documentación del vehículo, sus inspecciones periódicas (ITV) y su conservación, cuando afectan a la seguridad.",
+                "en": "The vehicle’s **registered owner**, or the **long-term lessee** if recorded in the Vehicle Registry, is always liable for offenses about the vehicle’s documents, its periodic inspections (ITV) and its upkeep, when they affect safety."
               },
               "src": "LSV art. 82.f"
             },
@@ -4396,6 +4588,50 @@
                   }
                 ],
                 "src": "LSV art. 82 y 82.b"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "docs-duties-13",
+                "answer": 2,
+                "es": {
+                  "q": "Un amigo conduce su turismo y un agente comprueba que tiene la ITV caducada. ¿Quién responde de esa infracción?",
+                  "options": [
+                    "Su amigo, porque es quien lo conducía",
+                    "Los dos, a partes iguales",
+                    "Usted como titular, o el arrendatario a largo plazo inscrito"
+                  ],
+                  "why": "De la documentación, la ITV y la conservación del vehículo responde siempre el titular, o el arrendatario a largo plazo que conste en el Registro de Vehículos, aunque conduzca otra persona."
+                },
+                "exam": {
+                  "q": "A friend drives your passenger car and an agent verifies that it has the ITV expired. Who is responsible for that infraction?",
+                  "options": [
+                    "Your friend, because he is who was driving it.",
+                    "The two, in equal parts.",
+                    "You as holder, or the registered long-term lessee."
+                  ]
+                },
+                "en": {
+                  "q": "A friend is driving your car and an officer finds its ITV has expired. Who is liable for that offense?",
+                  "options": [
+                    "Your friend, because they were driving",
+                    "Both of you, equally",
+                    "You as the owner, or the registered long-term lessee"
+                  ],
+                  "why": "The registered owner, or the long-term lessee recorded in the Vehicle Registry, is always liable for the vehicle’s documents, ITV and upkeep, even when someone else drives."
+                },
+                "terms": [
+                  {
+                    "es": "titular",
+                    "en": "registered owner"
+                  },
+                  {
+                    "es": "arrendatario a largo plazo",
+                    "en": "long-term lessee"
+                  }
+                ],
+                "src": "LSV art. 82.f"
               }
             },
             {

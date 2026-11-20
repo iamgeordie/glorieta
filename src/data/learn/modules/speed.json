@@ -133,6 +133,26 @@
               ]
             },
             {
+              "t": "rule",
+              "text": {
+                "es": "La señal S-500 puede incluir la velocidad máxima de **esa vía** a partir de ese punto. Otras vías del mismo poblado pueden tener límites distintos.",
+                "en": "Sign S-500 may include the maximum speed for **that road** from that point on. Other roads in the same poblado may have different limits."
+              },
+              "src": "RGC Anexo I, ap. 5.1 (S-500)"
+            },
+            {
+              "t": "trap",
+              "was": {
+                "es": "La cifra de la señal de entrada a poblado es el límite de todo el pueblo.",
+                "en": "The number on the town entry sign is the limit for the whole town."
+              },
+              "now": {
+                "es": "Esa cifra rige en la vía por la que entras, desde la señal. Las demás calles pueden tener otro límite.",
+                "en": "That number applies on the road you enter by, from the sign on. Other streets may have a different limit."
+              },
+              "src": "RGC Anexo I, ap. 5.1 (S-500)"
+            },
+            {
               "t": "check",
               "q": {
                 "id": "speed-towns-c1",
@@ -227,6 +247,51 @@
                 ],
                 "src": "RGC Anexo I, ap. 5.1 (S-510); RGC art. 48.1.a",
                 "sign": "s-510"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "speed-towns-c8",
+                "answer": 0,
+                "es": {
+                  "q": "Al entrar en un pueblo, esta señal lleva incluida una velocidad máxima de 40 km/h. ¿Dónde rige ese límite?",
+                  "options": [
+                    "En la vía por la que entra, desde la señal",
+                    "En todas las calles del poblado, sin excepción",
+                    "Solo en la travesía, con 50 km/h en el resto"
+                  ],
+                  "why": "La velocidad que figura en la señal de entrada a poblado (S-500) rige en esa vía desde ese punto. En otras vías del poblado puede haber límites distintos."
+                },
+                "exam": {
+                  "q": "On entering a village, this sign carries included a maximum speed of 40 km/h. Where does that limit govern?",
+                  "options": [
+                    "On the road by which you enter, from the sign.",
+                    "In all the streets of the town, without exception.",
+                    "Only on the crossing of town; 50 km/h on the others."
+                  ]
+                },
+                "en": {
+                  "q": "Entering a village, this sign includes a maximum speed of 40 km/h. Where does that limit apply?",
+                  "options": [
+                    "On the road you enter by, from the sign on",
+                    "On every street in the poblado, no exceptions",
+                    "Only on the travesía, with 50 km/h elsewhere"
+                  ],
+                  "why": "The speed shown on the town entry sign (S-500) applies on that road from that point. Other roads in the poblado may have different limits."
+                },
+                "terms": [
+                  {
+                    "es": "entrada a poblado",
+                    "en": "town entry"
+                  },
+                  {
+                    "es": "límite",
+                    "en": "limit"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1 (S-500)",
+                "sign": "s-500"
               }
             }
           ]
@@ -1476,6 +1541,50 @@
                   }
                 ],
                 "src": "RGC art. 48.1.f"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "speed-outside-c21",
+                "answer": 1,
+                "es": {
+                  "q": "Un ciclomotor de dos ruedas circula por una carretera convencional con un arcén ancho. No hay señales de velocidad. Su velocidad máxima es de…",
+                  "options": [
+                    "90 km/h, como un turismo.",
+                    "45 km/h, por ser ciclomotor.",
+                    "70 km/h, por tener arcén."
+                  ],
+                  "why": "Fuera de poblado, los ciclomotores de dos y tres ruedas tienen un máximo de 45 km/h. El arcén no cambia ese límite."
+                },
+                "exam": {
+                  "q": "A moped of two wheels circulates by a conventional road with a wide hard shoulder. There are no speed signs. Its maximum speed is of…",
+                  "options": [
+                    "90 km/h, like a passenger car.",
+                    "45 km/h, for being a moped.",
+                    "70 km/h, for having hard shoulder."
+                  ]
+                },
+                "en": {
+                  "q": "A two-wheel moped is on a conventional road that has a wide shoulder. There are no speed signs. Its maximum speed is...",
+                  "options": [
+                    "90 km/h, like a car",
+                    "45 km/h, because it is a moped",
+                    "70 km/h, because there is a shoulder"
+                  ],
+                  "why": "Outside towns, two- and three-wheel mopeds have a 45 km/h maximum. The shoulder does not change that limit."
+                },
+                "terms": [
+                  {
+                    "es": "ciclomotor",
+                    "en": "moped"
+                  },
+                  {
+                    "es": "arcén",
+                    "en": "shoulder"
+                  }
+                ],
+                "src": "RGC art. 48.1.e"
               }
             },
             {
@@ -3231,6 +3340,57 @@
                 ],
                 "src": "DGT, Manual II Cuestiones de seguridad vial (2026), UD16"
               }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Consejo de la DGT, no un artículo: reduce la velocidad **antes** de llegar a la curva, para no tener que frenar dentro de ella. Frenar en plena curva puede hacerte derrapar. Para salir, acelera poco a poco.",
+                "en": "DGT guidance, not an article: slow down **before** you reach the curve, so you do not have to brake inside it. Braking in the middle of a curve can make you skid. To come out, accelerate gently."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "speed-adapt-c18",
+                "answer": 2,
+                "es": {
+                  "q": "Llega a una curva cerrada a una velocidad demasiado alta para tomarla. ¿Cuándo debe reducir la velocidad?",
+                  "options": [
+                    "Dentro de la curva, frenando con suavidad",
+                    "Al salir de ella, antes de volver a acelerar",
+                    "Antes de entrar en ella"
+                  ],
+                  "why": "Hay que entrar en la curva ya a la velocidad adecuada, reduciendo antes de llegar. Frenar dentro de la curva puede provocar un derrape."
+                },
+                "exam": {
+                  "q": "You arrive at a closed curve at a speed too high to take it. When must you reduce the speed?",
+                  "options": [
+                    "Inside the curve, braking with smoothness.",
+                    "On exiting it, before accelerating again.",
+                    "Before entering it."
+                  ]
+                },
+                "en": {
+                  "q": "You reach a tight curve too fast to take it. When should you slow down?",
+                  "options": [
+                    "Inside the curve, braking gently",
+                    "On the way out, before you accelerate again",
+                    "Before you enter it"
+                  ],
+                  "why": "You enter a curve already at the right speed, slowing down before you reach it. Braking inside the curve can cause a skid."
+                },
+                "terms": [
+                  {
+                    "es": "curva cerrada",
+                    "en": "tight curve"
+                  },
+                  {
+                    "es": "derrape",
+                    "en": "skid"
+                  }
+                ],
+                "src": "DGT guidance: Manual II «Cuestiones de seguridad vial» (DGT, 2026), UD14; Teórica abreviada en lectura fácil (DGT, 2023), Tema 14"
+              }
             }
           ]
         },
@@ -3810,6 +3970,51 @@
                 "src": "RGC Anexo I, ap. 5.1 (R-501) y art. 52.1.a",
                 "sign": "r-501"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "speed-signs-c12",
+                "answer": 1,
+                "es": {
+                  "q": "Hace un rato pasó una señal de velocidad máxima de 60 km/h. Ahora encuentra esta señal. ¿Qué pasa con ese límite de 60 km/h?",
+                  "options": [
+                    "Sigue vigente: solo lo anula un fin de limitación de velocidad",
+                    "Deja de aplicarse, y rige el límite genérico de la vía",
+                    "Sigue vigente hasta la próxima intersección con prioridad"
+                  ],
+                  "why": "Esta señal (R-500, «Fin de prohibiciones») pone fin a todas las prohibiciones específicas señaladas antes, también a la velocidad máxima. Desde ahí rige el límite genérico de la vía."
+                },
+                "exam": {
+                  "q": "A while ago you passed a sign of maximum speed of 60 km/h. Now you find this sign. What happens with that limit of 60 km/h?",
+                  "options": [
+                    "It remains in force: only an end of speed limitation annuls it.",
+                    "It ceases to apply, and the generic limit of the road governs.",
+                    "It remains in force until the next intersection with priority."
+                  ]
+                },
+                "en": {
+                  "q": "A while ago you passed a 60 km/h maximum speed sign. Now you come to this sign. What happens to that 60 km/h limit?",
+                  "options": [
+                    "It still applies: only an end-of-speed-limit sign cancels it",
+                    "It stops applying, and the road’s default limit applies",
+                    "It still applies until the next junction with a priority road"
+                  ],
+                  "why": "This sign (R-500, “Fin de prohibiciones”) ends all the specific prohibitions signed before it, the maximum speed included. From there the road’s default limit applies."
+                },
+                "terms": [
+                  {
+                    "es": "fin de prohibiciones",
+                    "en": "end of prohibitions"
+                  },
+                  {
+                    "es": "límite genérico",
+                    "en": "default limit"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.1 (R-500 y R-301)",
+                "sign": "r-500"
+              }
             }
           ]
         },
@@ -4113,6 +4318,57 @@
                   }
                 ],
                 "src": "LSV art. 21.2; DGT guidance (nota de prensa, julio 2020)"
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Según la DGT, los límites se fijan para que todos los vehículos circulen **con seguridad** y de forma fácil y cómoda, es decir, con **fluidez**.",
+                "en": "According to the DGT, limits are set so that every vehicle can travel **safely** and with ease and comfort, that is, with **smooth flow**."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "speed-signs-c11",
+                "answer": 0,
+                "es": {
+                  "q": "¿Con qué fin se establecen los límites de velocidad?",
+                  "options": [
+                    "Para que se circule con seguridad y con fluidez",
+                    "Para dar fluidez, aunque se pierda algo de seguridad",
+                    "Sobre todo, para que se ahorre combustible"
+                  ],
+                  "why": "La DGT explica que los límites se marcan para que todos circulen seguros y de forma fácil y cómoda: seguridad y fluidez a la vez."
+                },
+                "exam": {
+                  "q": "With what purpose are the speed limits established?",
+                  "options": [
+                    "So that one circulates with safety and with fluidity.",
+                    "To give fluidity, although some safety is lost.",
+                    "Above all, so that fuel is saved."
+                  ]
+                },
+                "en": {
+                  "q": "What are speed limits set for?",
+                  "options": [
+                    "So traffic moves both safely and smoothly",
+                    "For smooth flow, even at some cost to safety",
+                    "Mainly to save fuel"
+                  ],
+                  "why": "The DGT explains that limits are set so everyone can travel safely and with ease and comfort: safety and smooth flow together."
+                },
+                "terms": [
+                  {
+                    "es": "fluidez",
+                    "en": "smooth traffic flow"
+                  },
+                  {
+                    "es": "límite de velocidad",
+                    "en": "speed limit"
+                  }
+                ],
+                "src": "DGT guidance: Teórica abreviada en lectura fácil (DGT, 2023), Tema 10"
               }
             }
           ]

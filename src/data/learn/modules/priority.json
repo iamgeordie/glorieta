@@ -5121,6 +5121,94 @@
                 ],
                 "src": "RGC art. 65.1.c"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c5l",
+                "answer": 1,
+                "es": {
+                  "q": "Una fila escolar, acompañada por sus monitores, empieza a cruzar la calzada lejos de cualquier paso de peatones. ¿Debe dejarla pasar?",
+                  "options": [
+                    "No, porque solo tiene prioridad en un paso señalizado.",
+                    "Sí.",
+                    "Solo si un agente se lo ordena."
+                  ],
+                  "why": "Las filas escolares tienen prioridad de paso sobre los vehículos, igual que las unidades militares a pie y las comitivas organizadas. Déjalas pasar, aunque no haya paso de peatones."
+                },
+                "en": {
+                  "q": "A line of schoolchildren, with their supervisors, starts to cross the road far from any crosswalk. Must you let it go by?",
+                  "options": [
+                    "No, because it has priority only on a marked crosswalk",
+                    "Yes",
+                    "Only if an officer orders you to"
+                  ],
+                  "why": "Lines of schoolchildren have right of way over vehicles, like military units on foot and organized processions. Let them go by, even where there is no crosswalk."
+                },
+                "exam": {
+                  "q": "A school line, accompanied by its monitors, begins to cross the carriageway far from any pedestrian crossing. Must you let it pass?",
+                  "options": [
+                    "No, because it only has priority on a signalled crossing.",
+                    "Yes.",
+                    "Only if an agent orders it to you."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "fila escolar",
+                    "en": "line of schoolchildren"
+                  },
+                  {
+                    "es": "prioridad de paso",
+                    "en": "right of way"
+                  }
+                ],
+                "src": "RGC art. 65.1.e"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c5m",
+                "answer": 2,
+                "es": {
+                  "q": "Va a salir de un garaje y debe cruzar la acera para llegar a la calzada. ¿Cómo debe hacerlo?",
+                  "options": [
+                    "Deprisa, para ocupar la acera el menor tiempo posible.",
+                    "Avisando con el claxon, para que los peatones se aparten.",
+                    "Despacio, dejando pasar a los peatones que van por la acera."
+                  ],
+                  "why": "En la acera tienen prioridad los peatones. Sal despacio y déjales pasar, y detente si hace falta."
+                },
+                "en": {
+                  "q": "You are about to leave a garage and must cross the sidewalk to reach the roadway. How should you do it?",
+                  "options": [
+                    "Quickly, to be on the sidewalk as briefly as possible",
+                    "Sounding the horn, so pedestrians move aside",
+                    "Slowly, letting pedestrians on the sidewalk go by"
+                  ],
+                  "why": "Pedestrians have right of way on the sidewalk. Pull out slowly, let them go by, and stop if you need to."
+                },
+                "exam": {
+                  "q": "You are going to leave a garage and must cross the pavement in order to reach the carriageway. How must you do it?",
+                  "options": [
+                    "Quickly, in order to occupy the pavement the least time possible.",
+                    "Warning with the horn, so that the pedestrians move away.",
+                    "Slowly, letting pass the pedestrians who go by the pavement."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "acera",
+                    "en": "sidewalk"
+                  },
+                  {
+                    "es": "garaje",
+                    "en": "garage"
+                  }
+                ],
+                "src": "RGC arts. 64.1 y 65.1.a"
+              }
             }
           ]
         },
@@ -5211,6 +5299,94 @@
                   }
                 ],
                 "src": "RGC art. 64.2"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c5n",
+                "answer": 0,
+                "es": {
+                  "q": "Un grupo de ciclistas llega a un cruce sin señales por su izquierda, y el primero ya ha empezado a cruzar. Usted llega a la vez. ¿Quién pasa?",
+                  "options": [
+                    "Todo el grupo, porque su primer ciclista ya ha iniciado el cruce.",
+                    "Usted, porque los ciclistas vienen por su izquierda.",
+                    "Solo el primer ciclista; el resto debe esperarle a usted."
+                  ],
+                  "why": "Cuando los ciclistas van en grupo y el primero ya ha iniciado el cruce o ha entrado en una glorieta, el grupo tiene prioridad. Esta regla pasa por delante de la prioridad de la derecha."
+                },
+                "en": {
+                  "q": "A group of cyclists reaches a junction with no signs from your left, and the first has already started to cross. You arrive at the same time. Who goes?",
+                  "options": [
+                    "The whole group, because its first rider is already crossing",
+                    "You, because the group approaches from your left",
+                    "Only the first cyclist; the rest must wait for you"
+                  ],
+                  "why": "When cyclists ride as a group and the first has already started to cross or has entered a roundabout, the group has right of way. This rule comes before priority to the right."
+                },
+                "exam": {
+                  "q": "A group of cyclists arrives at an intersection without signs by your left, and the first has already started to cross. You arrive at the same time. Who passes?",
+                  "options": [
+                    "The whole group, because its first cyclist has already initiated the crossing.",
+                    "You, because the cyclists come by your left.",
+                    "Only the first cyclist; the rest must wait for you."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "grupo de ciclistas",
+                    "en": "group of cyclists"
+                  },
+                  {
+                    "es": "iniciar el cruce",
+                    "en": "start to cross"
+                  }
+                ],
+                "src": "RGC art. 64.2.c"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c5o",
+                "answer": 1,
+                "es": {
+                  "q": "En un cruce sin señales, un ciclista que va solo y no circula por un carril bici llega por su izquierda. Usted sigue recto. ¿Debe cederle el paso?",
+                  "options": [
+                    "Sí, porque la bicicleta es el vehículo más vulnerable.",
+                    "No.",
+                    "Sí, porque los ciclistas tienen siempre prioridad."
+                  ],
+                  "why": "Fuera de los casos del artículo 64.2 valen las normas generales. Sin señales, cede el paso quien tiene al otro a su derecha: aquí el ciclista te cede el paso a ti."
+                },
+                "en": {
+                  "q": "At a junction with no signs, a cyclist riding alone, not in a bike lane, arrives from your left. You are going straight on. Must you yield to them?",
+                  "options": [
+                    "Yes, because a bicycle is the most vulnerable vehicle",
+                    "No",
+                    "Yes, because cyclists always have priority"
+                  ],
+                  "why": "Outside the cases in article 64.2, the general rules apply. With no signs, whoever has the other on their right yields: here the cyclist yields to you."
+                },
+                "exam": {
+                  "q": "In an intersection without signs, a cyclist who goes alone and does not circulate by a bike lane arrives by your left. You continue straight. Must you yield way to him?",
+                  "options": [
+                    "Yes, because the bicycle is the most vulnerable vehicle.",
+                    "No.",
+                    "Yes, because the cyclists always have priority."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "normas generales",
+                    "en": "general rules"
+                  },
+                  {
+                    "es": "ceder el paso",
+                    "en": "yield"
+                  }
+                ],
+                "src": "RGC arts. 64.2 y 57.1"
               }
             }
           ]
@@ -5558,6 +5734,50 @@
                   }
                 ],
                 "src": "RGC arts. 72.1 y 73.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "priority-c6f",
+                "answer": 2,
+                "es": {
+                  "q": "Ha repostado en una estación de servicio y va a volver a la carretera. ¿A qué vehículos debe ceder el paso?",
+                  "options": [
+                    "Solo a los que se acercan por su izquierda.",
+                    "Solo a los que se acercan por su derecha.",
+                    "A todos los que circulan por la vía, por cualquier lado."
+                  ],
+                  "why": "Quien sale de una zona de servicio para incorporarse a la circulación cede el paso a los demás vehículos. No importa por qué lado vengan."
+                },
+                "en": {
+                  "q": "You have filled up at a service station and are about to return to the road. Which vehicles must you yield to?",
+                  "options": [
+                    "Only those approaching from your left",
+                    "Only those approaching from your right",
+                    "All those on the road, from either side"
+                  ],
+                  "why": "Whoever leaves a service area to join traffic yields to the other vehicles. It does not matter which side they come from."
+                },
+                "exam": {
+                  "q": "You have refuelled in a service station and you are going to return to the road. To which vehicles must you yield way?",
+                  "options": [
+                    "Only to those that approach by your left.",
+                    "Only to those that approach by your right.",
+                    "To all those that circulate by the road, by any side."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "estación de servicio",
+                    "en": "service station"
+                  },
+                  {
+                    "es": "incorporarse",
+                    "en": "join traffic"
+                  }
+                ],
+                "src": "RGC art. 72.1"
               }
             }
           ]

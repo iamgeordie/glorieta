@@ -2797,6 +2797,58 @@
                 ],
                 "src": "RGC art. 30.1.b"
               }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "En esas calzadas, solo puedes adelantar por el carril central si los conductores del sentido contrario no lo han ocupado ya para adelantar.",
+                "en": "On those roads, you may overtake in the center lane only if drivers coming the other way have not already taken it to overtake."
+              },
+              "src": "RGC art. 84.1"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "road-w3m",
+                "answer": 2,
+                "es": {
+                  "q": "Carretera de doble sentido con tres carriles separados por líneas discontinuas. Un vehículo del sentido contrario ocupa el carril central para adelantar. ¿Puede usted adelantar por el carril situado más a su izquierda?",
+                  "options": [
+                    "Sí, si ese carril está libre en toda la recta",
+                    "Sí, porque el carril central ya está ocupado",
+                    "No."
+                  ],
+                  "why": "Con doble sentido y tres carriles, nunca circulas por el de más a tu izquierda. Y por el central solo adelantas si no lo ocupa ya quien viene de frente."
+                },
+                "exam": {
+                  "q": "Road of double direction with three lanes separated by discontinuous lines. A vehicle of the opposite direction occupies the central lane in order to overtake. Can you overtake by the lane situated most to your left?",
+                  "options": [
+                    "Yes, if that lane is free along the whole straight.",
+                    "Yes, because the central lane is already occupied.",
+                    "No."
+                  ]
+                },
+                "en": {
+                  "q": "A two-way road has three lanes divided by broken lines. An oncoming vehicle is using the center lane to pass. May you pass using the lane farthest to your left?",
+                  "options": [
+                    "Yes, if that lane is clear along the whole straight",
+                    "Yes, because the center lane is already taken",
+                    "No"
+                  ],
+                  "why": "On a two-way road with three lanes, you never drive in the lane farthest to your left. And you pass in the center lane only if oncoming traffic is not already using it."
+                },
+                "terms": [
+                  {
+                    "es": "carril central",
+                    "en": "center lane"
+                  },
+                  {
+                    "es": "sentido contrario",
+                    "en": "opposite direction, oncoming"
+                  }
+                ],
+                "src": "RGC arts. 30.1.b y 84.1"
+              }
             }
           ]
         },

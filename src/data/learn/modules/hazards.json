@@ -115,6 +115,102 @@
                 "es": "Lo que no ves cuenta igual. Una curva, un coche aparcado o una furgoneta pueden esconder a alguien. Conduce pensando en lo que puede aparecer, no solo en lo que ya ves.",
                 "en": "What you cannot see counts just as much. A bend, a parked car or a van can hide someone. Drive thinking about what may appear, not only about what you already see."
               }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "El reglamento nombra más casos en los que hay que circular a **velocidad moderada** y detenerse si hace falta. Entre ellos: al acercarte a un **paso a nivel**, a glorietas e intersecciones donde no tienes prioridad, a lugares de poca visibilidad y a estrechamientos. Y fuera de poblado, al acercarte a **vehículos inmovilizados** en la calzada o a vehículos de auxilio trabajando.",
+                "en": "The regulation names more cases where you must drive at a **moderate speed** and stop if needed. Among them: approaching a **level crossing**, roundabouts and junctions where you do not have priority, places with poor visibility, and narrowings. And outside built-up areas, approaching **immobilized vehicles** on the roadway or assistance vehicles at work."
+              },
+              "src": "RGC art. 46.1.f y 46.1.h"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c1p8a",
+                "answer": 0,
+                "es": {
+                  "q": "¿En cuál de estos lugares obliga el reglamento a circular a velocidad moderada y, si es preciso, a detenerse?",
+                  "options": [
+                    "Al acercarse a un paso a nivel",
+                    "En una recta de autovía con buena visibilidad",
+                    "Al adelantar a un camión en autopista"
+                  ],
+                  "why": "El art. 46.1 nombra los pasos a nivel entre los lugares donde hay que moderar la velocidad y estar listo para parar. Una recta con buena visibilidad no está en esa lista."
+                },
+                "exam": {
+                  "q": "In which of these places does the regulation oblige to circulate at moderate speed and, if it is precise, to stop?",
+                  "options": [
+                    "On approaching a level crossing.",
+                    "On a straight of dual carriageway with good visibility.",
+                    "On overtaking a truck on a motorway."
+                  ]
+                },
+                "en": {
+                  "q": "In which of these places does the regulation require a moderate speed and, if needed, stopping?",
+                  "options": [
+                    "Approaching a level crossing",
+                    "On a straight stretch of dual carriageway with good visibility",
+                    "Overtaking a truck on a motorway"
+                  ],
+                  "why": "Art. 46.1 lists level crossings among the places where you must slow down and be ready to stop. A straight with good visibility is not on that list."
+                },
+                "terms": [
+                  {
+                    "es": "paso a nivel",
+                    "en": "level crossing"
+                  },
+                  {
+                    "es": "velocidad moderada",
+                    "en": "moderate speed"
+                  }
+                ],
+                "src": "RGC art. 46.1.h"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c1p8b",
+                "answer": 2,
+                "es": {
+                  "q": "Circula por una carretera fuera de poblado y ve delante un turismo averiado, inmovilizado en la calzada. ¿Qué debe hacer?",
+                  "options": [
+                    "Mantener la velocidad, si el carril contrario está libre",
+                    "Tocar el claxon para que su conductor lo aparte",
+                    "Moderar la velocidad y, si hace falta, detenerse"
+                  ],
+                  "why": "Fuera de poblado, al acercarte a vehículos inmovilizados en la calzada, debes moderar la velocidad y detenerte si hace falta. Puede haber personas junto a él."
+                },
+                "exam": {
+                  "q": "You circulate by a road outside town and see ahead a broken-down passenger car, immobilised on the carriageway. What must you do?",
+                  "options": [
+                    "To maintain the speed, if the opposite lane is free.",
+                    "To use the horn so that its driver moves it away.",
+                    "To moderate the speed and, when needed, to stop."
+                  ]
+                },
+                "en": {
+                  "q": "You are driving out of town and see a broken-down car ahead, stopped on the roadway. What must you do?",
+                  "options": [
+                    "Keep your speed if the oncoming lane is clear",
+                    "Sound the horn so its driver moves it",
+                    "Slow down and, if needed, stop"
+                  ],
+                  "why": "Outside built-up areas, when you approach vehicles immobilized on the roadway, you must slow down and stop if needed. There may be people beside it."
+                },
+                "terms": [
+                  {
+                    "es": "inmovilizado",
+                    "en": "immobilized"
+                  },
+                  {
+                    "es": "fuera de poblado",
+                    "en": "outside a built-up area"
+                  }
+                ],
+                "src": "RGC art. 46.1.f"
+              }
             }
           ]
         },
@@ -450,6 +546,57 @@
               "text": {
                 "es": "Soltar el acelerador cuesta poco y no molesta a nadie. Si al final no pasa nada, solo has perdido unos segundos.",
                 "en": "Easing off the accelerator costs little and bothers nobody. If nothing happens in the end, you have only lost a few seconds."
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Según el Manual II de la DGT (2026), anticiparte también acorta la frenada. Si prevés un peligro, levanta el pie del acelerador y **apoya el pie sobre el freno sin pisarlo**. Reaccionarás antes, y el coche ya habrá perdido algo de velocidad con el freno motor.",
+                "en": "According to the DGT's Manual II (2026), anticipating also shortens your stop. If you foresee a hazard, lift your foot off the accelerator and **rest it on the brake pedal without pressing**. You will react sooner, and engine braking will already have taken off some speed."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c1p8c",
+                "answer": 1,
+                "es": {
+                  "q": "Prevé que un peligro puede surgir delante. Para ganar tiempo de reacción, ¿qué es aconsejable hacer con el pie derecho?",
+                  "options": [
+                    "Pisar el freno un poco, para que se enciendan las luces",
+                    "Ponerlo sobre el pedal del freno, sin llegar a pisarlo",
+                    "Mantenerlo en el acelerador hasta ver el peligro"
+                  ],
+                  "why": "Con el pie ya sobre el freno, sin pisarlo, reduces el tiempo de reacción. Además, al dejar de acelerar, el freno motor empieza a quitar velocidad."
+                },
+                "exam": {
+                  "q": "You foresee that a danger may arise ahead. In order to gain reaction time, what is advisable to do with the right foot?",
+                  "options": [
+                    "To press the brake a little, so that the lights switch on.",
+                    "To rest it on the brake, without pushing it down.",
+                    "To keep it on the accelerator until seeing the danger."
+                  ]
+                },
+                "en": {
+                  "q": "You foresee that a hazard may come up ahead. To gain reaction time, what is it advisable to do with your right foot?",
+                  "options": [
+                    "Press the brake lightly so the brake lights come on",
+                    "Rest it on the brake, without pushing down",
+                    "Keep it on the accelerator until you see the hazard"
+                  ],
+                  "why": "With your foot already resting on the brake, you cut your reaction time. And once you stop accelerating, engine braking starts taking off speed."
+                },
+                "terms": [
+                  {
+                    "es": "tiempo de reacción",
+                    "en": "reaction time"
+                  },
+                  {
+                    "es": "freno motor",
+                    "en": "engine braking"
+                  }
+                ],
+                "src": "DGT, Manual II (2026), UD4, ap. 1.1"
               }
             }
           ]
@@ -870,6 +1017,57 @@
                 ],
                 "src": "RGC art. 29.1 (keep right); best-response practice, see lesson tip"
               }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "El Manual II de la DGT (2026) lo explica con dos ideas. Por el **principio de confianza**, esperas que los demás cumplan las normas. Por el **principio de seguridad**, cuentas con que cualquiera puede equivocarse, por ejemplo al calcular un adelantamiento. Cumplir tú las normas no basta: prepárate para el error ajeno.",
+                "en": "The DGT's Manual II (2026) puts it in two ideas. Under the **principle of trust**, you expect others to follow the rules. Under the **principle of safety**, you allow for anyone making a mistake, for example misjudging an overtake. Following the rules yourself is not enough: be ready for other people's errors."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c2p8a",
+                "answer": 0,
+                "es": {
+                  "q": "Usted cumple siempre todas las normas de tráfico. ¿Puede dar por hecho que no tendrá ningún accidente?",
+                  "options": [
+                    "No, otro usuario puede cometer un error o una infracción",
+                    "Sí, si además mantiene el vehículo en buen estado",
+                    "Sí, porque los demás conductores también deben cumplirlas"
+                  ],
+                  "why": "Por el principio de seguridad, debes contar con que otro conductor puede equivocarse o saltarse una norma. Conducir de forma preventiva es estar preparado para ello."
+                },
+                "exam": {
+                  "q": "You always comply with all the traffic rules. Can you take for granted that you will not have any accident?",
+                  "options": [
+                    "No, another user may commit an error or an infraction.",
+                    "Yes, if in addition you maintain the vehicle in good state.",
+                    "Yes, because the other drivers must also comply with them."
+                  ]
+                },
+                "en": {
+                  "q": "You always follow every traffic rule. Can you assume you will never have a crash?",
+                  "options": [
+                    "No, another road user may make a mistake or break a rule",
+                    "Yes, as long as your vehicle is also in good condition",
+                    "Yes, because other drivers must follow the rules too"
+                  ],
+                  "why": "Under the principle of safety, you must allow for another driver making a mistake or breaking a rule. Preventive driving means being ready for it."
+                },
+                "terms": [
+                  {
+                    "es": "conducción preventiva",
+                    "en": "preventive driving"
+                  },
+                  {
+                    "es": "infracción",
+                    "en": "offense"
+                  }
+                ],
+                "src": "DGT, Manual II (2026), UD20, ap. 3.11"
+              }
             }
           ]
         },
@@ -1017,6 +1215,109 @@
                   }
                 ],
                 "src": "RGC art. 18.1"
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "El Manual II de la DGT (2026) avisa: la **distracción** aumenta mucho el riesgo de cometer errores. Si vas cansado o pensando en otra cosa, **reaccionas más despacio**.",
+                "en": "The DGT's Manual II (2026) warns that **distraction** greatly raises the risk of making mistakes. If you are tired or thinking about something else, **you react more slowly**."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c2p8b",
+                "answer": 2,
+                "es": {
+                  "q": "Un conductor va pensando en sus problemas y no en la carretera. Delante surge un imprevisto. Lo más probable es que…",
+                  "options": [
+                    "reaccione igual, porque conduce de forma automática.",
+                    "frene antes, porque va más nervioso.",
+                    "reaccione más tarde de lo normal."
+                  ],
+                  "why": "Con la mente en otra parte, tus reacciones son más lentas. Por eso la atención debe ser permanente mientras conduces."
+                },
+                "exam": {
+                  "q": "A driver goes thinking about his problems and not about the road. Ahead an unforeseen event arises. The most probable is that…",
+                  "options": [
+                    "he reacts the same, because he drives in an automatic way.",
+                    "he brakes before, because he goes more nervous.",
+                    "he reacts later than normal."
+                  ]
+                },
+                "en": {
+                  "q": "A driver is thinking about their problems, not the road. Something unexpected happens ahead. Most likely, they will…",
+                  "options": [
+                    "react just the same, because they drive on autopilot.",
+                    "brake sooner, because they are more nervous.",
+                    "react later than usual."
+                  ],
+                  "why": "With your mind elsewhere, your reactions are slower. That is why your attention must be constant while you drive."
+                },
+                "terms": [
+                  {
+                    "es": "distracción",
+                    "en": "distraction"
+                  },
+                  {
+                    "es": "imprevisto",
+                    "en": "unexpected event"
+                  }
+                ],
+                "src": "DGT, Manual II (2026), UD12, ap. 2.1"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Todo **usuario de la vía** debe comportarse de forma que **no entorpezca indebidamente** la circulación, ni cause peligro, perjuicios o molestias innecesarias a las personas, ni daños a los bienes.",
+                "en": "Every **road user** must behave so as **not to hinder traffic unduly**, and not to cause danger, harm or needless nuisance to people, or damage to property."
+              },
+              "src": "RGC art. 2; LSV art. 10.1"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c2p8c",
+                "answer": 1,
+                "es": {
+                  "q": "Todo usuario de la vía está obligado a comportarse de forma que…",
+                  "options": [
+                    "los demás le cedan el paso cuando tenga prisa.",
+                    "no entorpezca indebidamente la circulación.",
+                    "llegue a su destino en el menor tiempo posible."
+                  ],
+                  "why": "La ley obliga a todos los usuarios a no entorpecer la circulación sin motivo y a no causar peligro, perjuicios ni molestias innecesarias."
+                },
+                "exam": {
+                  "q": "Every user of the road is obliged to behave in such a form that…",
+                  "options": [
+                    "the others yield way to him when he is in a hurry.",
+                    "he does not unduly obstruct the circulation.",
+                    "he arrives at his destination in the least possible time."
+                  ]
+                },
+                "en": {
+                  "q": "Every road user must behave in such a way that they…",
+                  "options": [
+                    "get others to yield whenever they are in a hurry.",
+                    "do not hinder traffic without good reason.",
+                    "reach their destination as fast as possible."
+                  ],
+                  "why": "The law requires every road user not to hinder traffic without reason and not to cause danger, harm or needless nuisance."
+                },
+                "terms": [
+                  {
+                    "es": "usuario de la vía",
+                    "en": "road user"
+                  },
+                  {
+                    "es": "entorpecer",
+                    "en": "to hinder"
+                  }
+                ],
+                "src": "RGC art. 2; LSV art. 10.1"
               }
             }
           ]
@@ -1764,6 +2065,112 @@
                 ],
                 "src": "DGT, Manual II Cuestiones de seguridad vial (2026), UD1, ap. 3; UD12; UD20, ap. 1.3"
               }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "El Manual II de la DGT (2026) explica por qué la velocidad pesa tanto: cuanto más rápido vas, **más agua** tienen que apartar los neumáticos para seguir agarrados. Sus surcos se pueden llenar, **también con neumáticos en buen estado**.",
+                "en": "The DGT's Manual II (2026) explains why speed matters so much: the faster you go, the **more water** the tires must push aside to keep their grip. Their grooves can fill up, **even with tires in good condition**."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c3p8a",
+                "answer": 2,
+                "es": {
+                  "q": "Llueve con fuerza y sus neumáticos son nuevos. ¿Puede sufrir aquaplaning?",
+                  "options": [
+                    "No, con dibujo nuevo el agua sale siempre por los surcos",
+                    "Solo si además lleva la presión baja",
+                    "Sí, sobre todo a velocidad elevada"
+                  ],
+                  "why": "A más velocidad, más agua deben desalojar los neumáticos. Los surcos pueden saturarse aunque el neumático esté bien: reduce la velocidad con lluvia intensa."
+                },
+                "exam": {
+                  "q": "It rains heavily and your tyres are new. Can you suffer aquaplaning?",
+                  "options": [
+                    "No, with new tread the water always comes out through the grooves.",
+                    "Only if in addition it carries low pressure.",
+                    "Yes, above all at high speed."
+                  ]
+                },
+                "en": {
+                  "q": "It is raining hard and your tires are new. Can you aquaplane?",
+                  "options": [
+                    "No, with new tread the water always escapes through the grooves",
+                    "Only if the tire pressure is also low",
+                    "Yes, especially at high speed"
+                  ],
+                  "why": "The faster you go, the more water the tires must clear. The grooves can fill up even on a good tire: slow down in heavy rain."
+                },
+                "terms": [
+                  {
+                    "es": "aquaplaning",
+                    "en": "aquaplaning"
+                  },
+                  {
+                    "es": "dibujo del neumático",
+                    "en": "tire tread"
+                  }
+                ],
+                "src": "DGT, Manual II (2026), UD20, ap. 1.3"
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "El mismo manual pide **bajar la velocidad** al acercarte a charcos, barro u **hojas caídas**. La calzada agarra mejor limpia, sin arena, gravilla ni hojas. Sobre esas superficies necesitas mucho más espacio para frenar: deja **más distancia**. Con gravilla, además, las ruedas del vehículo de delante pueden lanzar piedras contra tu parabrisas.",
+                "en": "The same manual asks you to **slow down** as you approach puddles, mud or **fallen leaves**. A road grips better when it is clean, with no sand, gravel or leaves. On those surfaces you need much more room to brake: leave **more distance**. With gravel, the wheels of the vehicle ahead can also throw stones at your windshield."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c3p8b",
+                "answer": 0,
+                "es": {
+                  "q": "En otoño, la calzada tiene hojas secas y algo de gravilla suelta. ¿Qué es lo más prudente?",
+                  "options": [
+                    "Reducir la velocidad y dejar más distancia",
+                    "Mantener la velocidad, porque las hojas no afectan al agarre",
+                    "Acercarse al vehículo de delante para seguir sus rodadas"
+                  ],
+                  "why": "Las hojas y la gravilla reducen la adherencia: necesitas más espacio para frenar. Además, el vehículo de delante puede lanzarte piedras de la gravilla."
+                },
+                "exam": {
+                  "q": "In autumn, the carriageway has dry leaves and some loose gravel. What is the most prudent?",
+                  "options": [
+                    "To reduce the speed and to leave more distance.",
+                    "To maintain the speed, because the leaves do not affect the grip.",
+                    "To approach the vehicle in front in order to follow its tracks."
+                  ]
+                },
+                "en": {
+                  "q": "In autumn the roadway has dry leaves and some loose gravel. What is the most prudent thing to do?",
+                  "options": [
+                    "Slow down and leave more distance",
+                    "Keep your speed, since leaves do not affect grip",
+                    "Close up on the vehicle ahead to follow its tracks"
+                  ],
+                  "why": "Leaves and gravel reduce grip, so you need more room to brake. The vehicle ahead can also throw gravel stones at you."
+                },
+                "terms": [
+                  {
+                    "es": "adherencia",
+                    "en": "grip"
+                  },
+                  {
+                    "es": "hojas secas",
+                    "en": "dry leaves"
+                  },
+                  {
+                    "es": "gravilla",
+                    "en": "gravel"
+                  }
+                ],
+                "src": "DGT, Manual II (2026), UD20, aps. 1.3 y 3.6; UD14, ap. 3.4; UD10, ap. 2.1"
+              }
             }
           ]
         },
@@ -2055,6 +2462,105 @@
               }
             },
             {
+              "t": "p",
+              "text": {
+                "es": "Para subir una **pendiente nevada**, el Manual II de la DGT (2026) aconseja ir **despacio y a velocidad sostenida**, en la marcha más larga que puedas usar y sin cambiarla durante la subida. Si pierdes velocidad e intentas recuperarla, las ruedas motrices pueden patinar; y si te detienes, te costará volver a arrancar. Al circular, la marcha aconsejada es **la más larga** que mantenga el motor a unas revoluciones adecuadas, para no frenar y acelerar a cada momento.",
+                "en": "To climb a **snowy slope**, the DGT's Manual II (2026) advises going **slowly at a steady speed**, in the highest gear you reasonably can, without changing it on the way up. If you lose speed and try to regain it, the drive wheels may spin; and if you stop, it will be hard to get going again. While driving, the advised gear is **the highest** that keeps the engine at suitable revs, so you do not keep braking and accelerating."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c3p8c",
+                "answer": 1,
+                "es": {
+                  "q": "Tiene que subir una cuesta larga con la calzada nevada. ¿Cómo es aconsejable hacerlo?",
+                  "options": [
+                    "En primera, para que las ruedas tengan más fuerza",
+                    "Despacio, a velocidad sostenida y sin cambiar de marcha",
+                    "Cogiendo velocidad antes de la cuesta y acelerando a fondo"
+                  ],
+                  "why": "Sube despacio y a velocidad constante, en la marcha más larga posible. Si aceleras para recuperar velocidad, las ruedas motrices patinan; si te paras, cuesta arrancar."
+                },
+                "exam": {
+                  "q": "You have to go up a long slope with the carriageway snowed. How is it advisable to do it?",
+                  "options": [
+                    "In first gear, so that the wheels have more force.",
+                    "Slowly, at sustained speed and without changing gear.",
+                    "Taking speed before the slope and accelerating fully."
+                  ]
+                },
+                "en": {
+                  "q": "You have to climb a long hill on a snow-covered road. How is it advisable to do it?",
+                  "options": [
+                    "In first gear, so the wheels have more force",
+                    "Slowly, at a steady speed, without changing gear",
+                    "Building up speed before the hill and flooring it"
+                  ],
+                  "why": "Climb slowly at a steady speed, in the highest gear you can. If you accelerate to win back speed, the drive wheels spin; if you stop, it is hard to move off."
+                },
+                "terms": [
+                  {
+                    "es": "pendiente",
+                    "en": "slope"
+                  },
+                  {
+                    "es": "velocidad sostenida",
+                    "en": "steady speed"
+                  },
+                  {
+                    "es": "ruedas motrices",
+                    "en": "drive wheels"
+                  }
+                ],
+                "src": "DGT, Manual II (2026), UD20, ap. 1.4"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c3p8d",
+                "answer": 2,
+                "es": {
+                  "q": "Circula por un tramo llano con nieve y placas de hielo. Según la DGT, ¿qué marcha conviene llevar?",
+                  "options": [
+                    "La más corta, para tener más fuerza en las ruedas",
+                    "Punto muerto, para que el motor no tire de las ruedas",
+                    "La más larga que el motor admita sin forzarse"
+                  ],
+                  "why": "Con nieve o hielo, una marcha larga reduce la fuerza en las ruedas y patinan menos. Usa la más larga que el motor acepte sin ir forzado, sin frenar y acelerar a cada momento."
+                },
+                "exam": {
+                  "q": "You circulate by a flat stretch with snow and plates of ice. According to the DGT, which gear is it convenient to carry?",
+                  "options": [
+                    "The shortest, in order to have more force in the wheels.",
+                    "Neutral, so that the engine stops pulling the wheels.",
+                    "The longest that the engine admits without being forced."
+                  ]
+                },
+                "en": {
+                  "q": "You are on a flat stretch with snow and patches of ice. According to the DGT, which gear should you use?",
+                  "options": [
+                    "The lowest, so the wheels get more force",
+                    "Neutral, so the engine does not drive the wheels",
+                    "The highest the engine accepts without laboring"
+                  ],
+                  "why": "On snow or ice, a high gear sends less force to the wheels, so they spin less. Use the highest the engine accepts without laboring, and avoid constant braking and accelerating."
+                },
+                "terms": [
+                  {
+                    "es": "marcha larga",
+                    "en": "high gear"
+                  },
+                  {
+                    "es": "placa de hielo",
+                    "en": "patch of ice"
+                  }
+                ],
+                "src": "DGT, Manual II (2026), UD20, ap. 1.4"
+              }
+            },
+            {
               "t": "tip",
               "text": {
                 "es": "Con nieve, el sol puede reflejarse con fuerza en el suelo blanco. La DGT avisa de este reflejo: puede hacer falta el parasol o unas gafas de sol.",
@@ -2107,6 +2613,57 @@
                   }
                 ],
                 "src": "DGT guidance (Guía para monitores de cursos de conducción segura y eficiente de turismos, dgt.es, 2023)"
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "La teórica en lectura fácil de la DGT (2023) añade, para viajar en invierno: lleva cadenas, sal con el **depósito lleno**, lleva ropa de abrigo, agua, comida y una linterna, y **evita conducir de noche**.",
+                "en": "The DGT's easy-read theory guide (2023) adds, for winter trips: carry chains, set off with a **full tank**, take warm clothes, water, food and a flashlight, and **avoid driving at night**."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c3p8e",
+                "answer": 0,
+                "es": {
+                  "q": "Va a hacer un viaje de invierno por una zona donde suele nevar. ¿Cuál de estas precauciones NO aconseja la DGT?",
+                  "options": [
+                    "Viajar de noche, porque hay menos tráfico",
+                    "Salir con el depósito lleno",
+                    "Llevar linterna, comida, agua y ropa de abrigo"
+                  ],
+                  "why": "Para viajar en invierno, la DGT aconseja evitar la noche, salir con el depósito lleno y llevar cadenas, ropa de abrigo, agua, comida y linterna. Si la nieve te deja atrapado, todo eso te ayuda."
+                },
+                "exam": {
+                  "q": "You will make a winter journey through a zone where it usually snows. Which of these precautions does the DGT NOT advise?",
+                  "options": [
+                    "To travel by night, when traffic is lighter.",
+                    "To set off with the full tank.",
+                    "To carry a torch, food, water and warm clothing."
+                  ]
+                },
+                "en": {
+                  "q": "You are going on a winter trip through an area where it often snows. Which of these precautions does the DGT NOT advise?",
+                  "options": [
+                    "Traveling at night, when traffic is lighter",
+                    "Setting off with a full tank",
+                    "Carrying a flashlight, food, water and warm clothes"
+                  ],
+                  "why": "For winter trips the DGT advises avoiding the night, setting off with a full tank and carrying chains, warm clothes, water, food and a flashlight. If snow traps you, all of that helps."
+                },
+                "terms": [
+                  {
+                    "es": "depósito",
+                    "en": "fuel tank"
+                  },
+                  {
+                    "es": "ropa de abrigo",
+                    "en": "warm clothing"
+                  }
+                ],
+                "src": "DGT, Teórica abreviada en lectura fácil (2023), Tema 17"
               }
             }
           ]
@@ -2234,6 +2791,105 @@
                   }
                 ],
                 "src": "DGT guidance (Guía para monitores de cursos de conducción segura y eficiente de turismos, dgt.es, 2023)"
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "El Manual II de la DGT (2026) explica que el viento de frente o por detrás rara vez es un peligro. El que de verdad lo es sopla **de costado**: puede sacarte de la vía o volcar el vehículo. Las **motocicletas y los ciclomotores** son los que más lo sufren. Reduce la velocidad según la fuerza del viento y elige una marcha adecuada.",
+                "en": "The DGT's Manual II (2026) explains that a head wind or tail wind is rarely a danger. The one that really is blows **from the side**: it can push you off the road or overturn the vehicle. **Motorcycles and mopeds** suffer from it most. Slow down to match the wind's strength and choose a suitable gear."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c3p8f",
+                "answer": 2,
+                "es": {
+                  "q": "Según la DGT, ¿qué vehículos resultan más afectados por el viento?",
+                  "options": [
+                    "Los turismos, sobre todo los más grandes",
+                    "Los autobuses que van llenos de pasajeros",
+                    "Las motocicletas y los ciclomotores"
+                  ],
+                  "why": "Las motos y los ciclomotores pesan poco y no tienen carrocería: una ráfaga lateral puede desplazarlos o hacerlos caer."
+                },
+                "exam": {
+                  "q": "According to the DGT, which vehicles result most affected by the wind?",
+                  "options": [
+                    "The passenger cars, above all the biggest ones.",
+                    "The buses that go full of passengers.",
+                    "The motorcycles and the mopeds."
+                  ]
+                },
+                "en": {
+                  "q": "According to the DGT, which vehicles are most affected by wind?",
+                  "options": [
+                    "Cars, especially the largest ones",
+                    "Buses that are full of passengers",
+                    "Motorcycles and mopeds"
+                  ],
+                  "why": "Motorcycles and mopeds are light and have no bodywork: a side gust can push them off line or make them fall."
+                },
+                "terms": [
+                  {
+                    "es": "ráfaga",
+                    "en": "gust"
+                  },
+                  {
+                    "es": "viento lateral",
+                    "en": "side wind"
+                  },
+                  {
+                    "es": "ciclomotor",
+                    "en": "moped"
+                  }
+                ],
+                "src": "DGT, Manual II (2026), UD20, ap. 1.6"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c3p8g",
+                "answer": 1,
+                "es": {
+                  "q": "Según la DGT, ¿cuándo representa el viento un peligro real para la conducción?",
+                  "options": [
+                    "Cuando sopla de frente, porque frena el vehículo",
+                    "Cuando sopla de costado",
+                    "Cuando sopla por detrás, porque empuja el vehículo"
+                  ],
+                  "why": "El viento de frente o por detrás apenas supone peligro. El lateral puede sacarte de la vía o volcar el vehículo: reduce la velocidad según su fuerza y usa una marcha adecuada."
+                },
+                "exam": {
+                  "q": "According to the DGT, when does the wind represent a real danger for the driving?",
+                  "options": [
+                    "When it blows from the front, because it brakes the vehicle.",
+                    "When it blows from the side.",
+                    "When it blows from behind, because it pushes the vehicle."
+                  ]
+                },
+                "en": {
+                  "q": "According to the DGT, when is wind a real danger to driving?",
+                  "options": [
+                    "When it blows head-on, because it slows the vehicle",
+                    "When it blows from the side",
+                    "When it blows from behind, because it pushes the vehicle"
+                  ],
+                  "why": "A head wind or tail wind is hardly a danger. A side wind can push you off the road or overturn the vehicle: slow down to match its strength and use a suitable gear."
+                },
+                "terms": [
+                  {
+                    "es": "de costado",
+                    "en": "from the side"
+                  },
+                  {
+                    "es": "viento de frente",
+                    "en": "head wind"
+                  }
+                ],
+                "src": "DGT, Manual II (2026), UD20, ap. 1.6"
               }
             }
           ]
@@ -2684,6 +3340,50 @@
                 ],
                 "src": "DGT, Manual II Cuestiones de seguridad vial (2026), UD3, ap. 4.3"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c4p8a",
+                "answer": 0,
+                "es": {
+                  "q": "Circula por un tramo de carretera con casas cuyas puertas dan directamente a la calzada. ¿Qué exige el reglamento?",
+                  "options": [
+                    "Moderar la velocidad y, si hace falta, detenerse",
+                    "Avisar con el claxon al pasar junto a cada puerta",
+                    "Nada especial, si no ve a ningún peatón"
+                  ],
+                  "why": "En los tramos con edificios de acceso inmediato a la vía, debes circular a velocidad moderada y detenerte si hace falta: alguien puede salir de repente."
+                },
+                "exam": {
+                  "q": "You circulate by a stretch of road with houses whose doors give directly onto the carriageway. What does the regulation require?",
+                  "options": [
+                    "To moderate the speed and, when needed, to stop.",
+                    "To warn with the horn on passing next to each door.",
+                    "Nothing special, if you do not see any pedestrian."
+                  ]
+                },
+                "en": {
+                  "q": "You are driving along a stretch of road lined with houses whose doors open straight onto the roadway. What does the regulation require?",
+                  "options": [
+                    "Slowing down and, if needed, stopping",
+                    "Sounding the horn as you pass each door",
+                    "Nothing special, if you see no pedestrians"
+                  ],
+                  "why": "On stretches with buildings opening directly onto the road, you must drive at a moderate speed and stop if needed: someone may step out suddenly."
+                },
+                "terms": [
+                  {
+                    "es": "edificios de inmediato acceso",
+                    "en": "buildings with direct access"
+                  },
+                  {
+                    "es": "moderar la velocidad",
+                    "en": "to slow down"
+                  }
+                ],
+                "src": "RGC art. 46.1.d"
+              }
             }
           ]
         },
@@ -3116,6 +3816,50 @@
             {
               "t": "check",
               "q": {
+                "id": "hazards-c4p8c",
+                "answer": 1,
+                "es": {
+                  "q": "Según la DGT, ¿cuál de estas conductas NO es una de las infracciones más comunes de los peatones?",
+                  "options": [
+                    "Cruzar sin usar el paso para peatones",
+                    "Cruzar por el paso cuando su semáforo está en verde",
+                    "No situarse correctamente en la calzada o en el arcén"
+                  ],
+                  "why": "Entre las infracciones más comunes de los peatones, la DGT cita cruzar por donde no se debe, no usar el paso o saltarse el semáforo, y no ir por la parte de la vía que les corresponde."
+                },
+                "exam": {
+                  "q": "According to the DGT, which of these behaviours is NOT one of the most common infractions of the pedestrians?",
+                  "options": [
+                    "To cross without using the pedestrian crossing.",
+                    "To cross by the crossing when their traffic light is in green.",
+                    "Not to place themselves correctly on the carriageway or on the hard shoulder."
+                  ]
+                },
+                "en": {
+                  "q": "According to the DGT, which of these is NOT one of pedestrians' most common offenses?",
+                  "options": [
+                    "Crossing without using the crosswalk",
+                    "Crossing at the crosswalk when their light is green",
+                    "Not keeping to the right part of the roadway or shoulder"
+                  ],
+                  "why": "Among pedestrians' most common offenses, the DGT lists crossing where they should not, not using the crosswalk or ignoring the light, and not keeping to their part of the road."
+                },
+                "terms": [
+                  {
+                    "es": "infracción",
+                    "en": "offense"
+                  },
+                  {
+                    "es": "arcén",
+                    "en": "shoulder"
+                  }
+                ],
+                "src": "DGT, Manual II (2026), UD3, ap. 4"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
                 "id": "hazards-c4m",
                 "answer": 1,
                 "es": {
@@ -3309,6 +4053,57 @@
               }
             },
             {
+              "t": "p",
+              "text": {
+                "es": "El Manual II de la DGT (2026) cuenta entre las infracciones de los conductores con más riesgo para los peatones: saltarse el semáforo, no respetar su prioridad y **aparcar sobre la acera o sobre un paso para peatones**. Un coche sobre el paso obliga a los peatones a salir a la calzada para cruzar.",
+                "en": "The DGT's Manual II (2026) lists among the driver offenses most dangerous to pedestrians: running the light, not respecting their priority, and **parking on the sidewalk or on a crosswalk**. A car on the crosswalk forces pedestrians out into the roadway to cross."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c4p8d",
+                "answer": 0,
+                "es": {
+                  "q": "Un conductor deja el coche aparcado sobre un paso para peatones «solo un minuto». Según la DGT, ¿qué riesgo crea?",
+                  "options": [
+                    "Los peatones tienen que salir a la calzada",
+                    "Ninguno, si enciende las luces de emergencia",
+                    "Solo que tapa la marca vial del paso"
+                  ],
+                  "why": "Aparcar sobre un paso para peatones o sobre la acera obliga a los peatones a salir a la calzada, entre los vehículos. La DGT lo cuenta entre las infracciones de los conductores con riesgo para ellos."
+                },
+                "exam": {
+                  "q": "A driver leaves the car parked on a pedestrian crossing «only one minute». According to the DGT, what risk does he create?",
+                  "options": [
+                    "The pedestrians have to go out onto the carriageway.",
+                    "None, if he switches on the emergency lights.",
+                    "Only that it covers the road marking of the crossing."
+                  ]
+                },
+                "en": {
+                  "q": "A driver leaves the car parked on a crosswalk \"just for a minute\". According to the DGT, what risk does this create?",
+                  "options": [
+                    "Pedestrians have to step out into the roadway",
+                    "None, if the hazard lights are on",
+                    "Only that it hides the crosswalk markings"
+                  ],
+                  "why": "Parking on a crosswalk or on the sidewalk forces pedestrians out into the roadway, among the traffic. The DGT counts it among the driver offenses that put them at risk."
+                },
+                "terms": [
+                  {
+                    "es": "aparcar",
+                    "en": "to park"
+                  },
+                  {
+                    "es": "paso para peatones",
+                    "en": "pedestrian crossing"
+                  }
+                ],
+                "src": "DGT, Manual II (2026), UD3, aps. 4 y 4.3"
+              }
+            },
+            {
               "t": "check",
               "q": {
                 "id": "hazards-c4t",
@@ -3467,6 +4262,50 @@
                 ],
                 "src": "LSV Anexo I.4; RGC art. 152.2"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c4p8b",
+                "answer": 2,
+                "es": {
+                  "q": "En una calle de un poblado no hay acera ni otra zona peatonal practicable. Como norma general, ¿por dónde debe ir un peatón?",
+                  "options": [
+                    "Por la derecha, igual que los vehículos",
+                    "Por cualquier lado, porque está dentro de poblado",
+                    "Por la izquierda, salvo razones de seguridad"
+                  ],
+                  "why": "Sin zona peatonal, el peatón va por la izquierda de su sentido de marcha, también en poblado; puede ir por la derecha si la seguridad lo justifica. Quien empuja una bici o un ciclomotor va siempre por la derecha."
+                },
+                "exam": {
+                  "q": "In a street of a town there is no pavement nor another practicable pedestrian zone. As general norm, where must a pedestrian go?",
+                  "options": [
+                    "On the right, the same as the vehicles.",
+                    "On any side, because it is inside a town.",
+                    "On the left, except for reasons of safety."
+                  ]
+                },
+                "en": {
+                  "q": "On a street in a built-up area there is no sidewalk or other usable pedestrian area. Normally, which side should a pedestrian walk on?",
+                  "options": [
+                    "The right, like vehicles",
+                    "Either side, since this is in town",
+                    "The left, unless safety reasons justify the right"
+                  ],
+                  "why": "With no pedestrian area, a pedestrian walks on the left for their direction, in built-up areas too; they may keep right when safety justifies it. Anyone pushing a bicycle or moped always keeps right."
+                },
+                "terms": [
+                  {
+                    "es": "zona peatonal",
+                    "en": "pedestrian area"
+                  },
+                  {
+                    "es": "poblado",
+                    "en": "built-up area"
+                  }
+                ],
+                "src": "RGC arts. 121.2, 122.1 y 122.2"
+              }
             }
           ]
         },
@@ -3614,6 +4453,50 @@
                   }
                 ],
                 "src": "DGT guidance"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c4p8g",
+                "answer": 0,
+                "es": {
+                  "q": "Ve a un peatón que camina por la acera mirando el móvil, cerca de la calzada. Según la DGT, ¿qué conviene?",
+                  "options": [
+                    "Vigilarle más, porque puede cruzar sin mirar",
+                    "Tocar el claxon para que levante la vista",
+                    "Hacerle una señal con la mano para que cruce ya"
+                  ],
+                  "why": "La DGT pide estar especialmente atento a los peatones que van con el móvil: muchas veces cruzan o andan por la calle sin fijarse en el tráfico."
+                },
+                "exam": {
+                  "q": "You see a pedestrian who walks on the pavement looking at the mobile phone, near the carriageway. According to the DGT, what is convenient?",
+                  "options": [
+                    "To watch him more, because he may cross without looking.",
+                    "To use the horn so that he raises his eyes.",
+                    "To make him a signal with the hand so that he crosses now."
+                  ]
+                },
+                "en": {
+                  "q": "You see a pedestrian walking along the sidewalk looking at their phone, close to the roadway. According to the DGT, what is best?",
+                  "options": [
+                    "Watch them more closely, as they may cross without looking",
+                    "Sound the horn so they look up",
+                    "Wave to them to cross now"
+                  ],
+                  "why": "The DGT asks you to pay special attention to pedestrians on their phones: they often cross or walk in the street without noticing the traffic."
+                },
+                "terms": [
+                  {
+                    "es": "móvil",
+                    "en": "cell phone"
+                  },
+                  {
+                    "es": "acera",
+                    "en": "sidewalk"
+                  }
+                ],
+                "src": "DGT, Manual II (2026), UD3, ap. 4.3"
               }
             },
             {
@@ -3873,6 +4756,57 @@
             {
               "t": "p",
               "text": {
+                "es": "El Manual II de la DGT (2026) llama **grupos de riesgo** a los colectivos con más probabilidad de verse implicados en un accidente o de resultar muertos o heridos en él: niños, jóvenes, mayores, peatones, ciclistas y conductores de ciclomotor y moto.",
+                "en": "The DGT's Manual II (2026) calls **risk groups** the groups more likely to be involved in a crash, or to be killed or injured in one: children, young people, older people, pedestrians, cyclists, and moped and motorcycle riders."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c4p8f",
+                "answer": 1,
+                "es": {
+                  "q": "En seguridad vial, ¿qué se entiende por grupos de riesgo?",
+                  "options": [
+                    "Los conductores que han perdido puntos del permiso",
+                    "Colectivos con más riesgo de accidente o de lesión",
+                    "Solo los niños y las personas mayores"
+                  ],
+                  "why": "Son grupos de riesgo los colectivos con más probabilidad de verse implicados en un accidente o de resultar muertos o heridos: niños, jóvenes, mayores, peatones, ciclistas y motoristas."
+                },
+                "exam": {
+                  "q": "In road safety, what is understood by risk groups?",
+                  "options": [
+                    "The drivers who have lost points of the licence.",
+                    "Groups with more risk of accident or of injury.",
+                    "Only the children and the elderly persons."
+                  ]
+                },
+                "en": {
+                  "q": "In road safety, what are risk groups?",
+                  "options": [
+                    "Drivers who have lost points on their licence",
+                    "Groups more likely to have a crash or be hurt in one",
+                    "Only children and older people"
+                  ],
+                  "why": "Risk groups are those more likely to be involved in a crash or to be killed or injured: children, young people, older people, pedestrians, cyclists and motorcyclists."
+                },
+                "terms": [
+                  {
+                    "es": "grupos de riesgo",
+                    "en": "risk groups"
+                  },
+                  {
+                    "es": "colectivo",
+                    "en": "group"
+                  }
+                ],
+                "src": "DGT, Manual II (2026), UD3, Ideas clave"
+              }
+            },
+            {
+              "t": "p",
+              "text": {
                 "es": "El Manual II de la DGT (2026) añade dos datos sobre los mayores. Muchos **no distinguen bien los colores del semáforo** y calculan mal la velocidad de los coches. Y tienen muchos menos atropellos cuando **acompañan a niños** a su cargo: entonces extreman la prudencia.",
                 "en": "The DGT's Manual II (2026) adds two facts about older people. Many **cannot tell traffic-light colors apart well** and misjudge the speed of cars. And they are hit far less often when they **are looking after children**: then they take extra care."
               }
@@ -3970,6 +4904,57 @@
                   }
                 ],
                 "src": "DGT, Manual II Cuestiones de seguridad vial (2026), UD3, ap. 4.1"
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "El Manual II de la DGT (2026) añade otras dificultades de los mayores como peatones. Pueden **desorientarse** en calles que no conocen. Y el **exceso de ruido** puede impedirles oír que se acerca un vehículo.",
+                "en": "The DGT's Manual II (2026) adds other difficulties older people have on foot. They may **lose their bearings** in streets they do not know. And **too much noise** can stop them hearing a vehicle approach."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c4p8e",
+                "answer": 2,
+                "es": {
+                  "q": "Una persona mayor camina por una calle con obras y mucho ruido de tráfico. ¿Qué debe tener en cuenta el conductor?",
+                  "options": [
+                    "Que el ruido le afecta menos que a una persona joven",
+                    "Que con ruido los peatones siempre esperan en la acera",
+                    "Que puede no oír que se acerca un vehículo"
+                  ],
+                  "why": "Con la edad se oye peor, y el exceso de ruido puede impedir a una persona mayor darse cuenta de que llega un vehículo. Modera la velocidad y no cuentes con que te ha oído."
+                },
+                "exam": {
+                  "q": "An elderly person walks along a street with works and a lot of traffic noise. What must the driver take into account?",
+                  "options": [
+                    "That the noise affects him less than a young person.",
+                    "That with noise the pedestrians always wait on the pavement.",
+                    "That he may not hear that a vehicle comes near."
+                  ]
+                },
+                "en": {
+                  "q": "An older person is walking along a street with roadworks and heavy traffic noise. What should the driver bear in mind?",
+                  "options": [
+                    "That noise bothers them less than a younger person",
+                    "That in noise pedestrians always wait on the sidewalk",
+                    "That they may not hear a vehicle coming"
+                  ],
+                  "why": "Hearing gets worse with age, and too much noise can stop an older person noticing an approaching vehicle. Slow down and do not assume they have heard you."
+                },
+                "terms": [
+                  {
+                    "es": "persona mayor",
+                    "en": "older person"
+                  },
+                  {
+                    "es": "ruido",
+                    "en": "noise"
+                  }
+                ],
+                "src": "DGT, Manual II (2026), UD3, ap. 4.1"
               }
             },
             {
@@ -4919,6 +5904,57 @@
                 ],
                 "src": "DGT, Manual II Cuestiones de seguridad vial (2026), UD3, ap. 5.1; RGC art. 46.1"
               }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "La teórica en lectura fácil de la DGT (2023) reparte las causas de los accidentes de ciclistas. Unas son faltas de los propios ciclistas: **distracciones**, ir en sentido contrario o por donde está prohibido, giros prohibidos. Otras son de los demás conductores: también **distracciones**, ir muy rápido o adelantar cuando no se debe.",
+                "en": "The DGT's easy-read theory guide (2023) splits the causes of cyclist crashes. Some are faults of the cyclists themselves: **distractions**, riding the wrong way or where it is banned, illegal turns. Others are faults of other drivers: **distractions** too, going too fast, or overtaking when they should not."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c5p8a",
+                "answer": 2,
+                "es": {
+                  "q": "Según la DGT, ¿qué falta aparece entre las causas de accidentes tanto en los ciclistas como en los conductores que chocan con ellos?",
+                  "options": [
+                    "Circular con el casco desabrochado",
+                    "Llevar la bicicleta sin timbre",
+                    "Las distracciones"
+                  ],
+                  "why": "Las distracciones están entre las faltas que cometen los ciclistas y también entre las de los conductores de otros vehículos. Ve atento aunque el ciclista también deba estarlo."
+                },
+                "exam": {
+                  "q": "According to the DGT, which fault appears among the causes of accidents both in the cyclists and in the drivers who collide with them?",
+                  "options": [
+                    "To circulate with the helmet unfastened.",
+                    "To carry the bicycle without bell.",
+                    "The distractions."
+                  ]
+                },
+                "en": {
+                  "q": "According to the DGT, which fault appears among crash causes both for cyclists and for the drivers who collide with them?",
+                  "options": [
+                    "Riding with the helmet unfastened",
+                    "Riding a bike with no bell",
+                    "Distractions"
+                  ],
+                  "why": "Distractions are among the faults of cyclists and also among those of other drivers. Stay alert even though the cyclist should be too."
+                },
+                "terms": [
+                  {
+                    "es": "distracción",
+                    "en": "distraction"
+                  },
+                  {
+                    "es": "falta",
+                    "en": "fault"
+                  }
+                ],
+                "src": "DGT, Teórica abreviada en lectura fácil (2023), Tema 16"
+              }
             }
           ]
         },
@@ -5172,6 +6208,97 @@
                   }
                 ],
                 "src": "RGC art. 118.1"
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Según la teórica en lectura fácil de la DGT (2023), muchos accidentes de moto vienen de faltas de los demás: **no respetar la prioridad de paso** de las motos, invadir el carril contrario o distraerse. Para evitarlos: mira antes de cambiar de carril, **no te quedes a la altura** de una moto (ve por delante o por detrás), guarda la distancia de seguridad y extrema la precaución con lluvia, nieve o niebla. El Manual II (2026) añade que, a tu lado, una moto puede quedar en el **ángulo muerto** de tu retrovisor.",
+                "en": "According to the DGT's easy-read theory guide (2023), many motorcycle crashes come from other people's faults: **not respecting motorcycles' right of way**, crossing into the oncoming lane, or distraction. To avoid them: look before you change lanes, **do not stay level** with a motorcycle (go ahead of it or behind it), keep a safe distance, and take extra care in rain, snow or fog. Manual II (2026) adds that a motorcycle beside you can sit in your mirror's **blind spot**."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c5p8b",
+                "answer": 0,
+                "es": {
+                  "q": "Según la DGT, ¿qué falta de los conductores de otros vehículos está entre las causas de los accidentes de moto?",
+                  "options": [
+                    "No respetar la prioridad de paso de las motos",
+                    "Circular con las luces de cruce encendidas de día",
+                    "Dejar mucha distancia con ellas"
+                  ],
+                  "why": "No respetar la prioridad de paso de las motos es una de las faltas de otros conductores que causan accidentes con ellas. Respetarla los evita."
+                },
+                "exam": {
+                  "q": "According to the DGT, which fault of the drivers of other vehicles is among the causes of the motorcycle accidents?",
+                  "options": [
+                    "Not to respect the priority of passage of the motorcycles.",
+                    "To circulate with the dipped lights switched on by day.",
+                    "To leave a lot of distance with them."
+                  ]
+                },
+                "en": {
+                  "q": "According to the DGT, which fault by drivers of other vehicles is among the causes of motorcycle crashes?",
+                  "options": [
+                    "Not respecting motorcycles' right of way",
+                    "Driving with low beams on in daytime",
+                    "Leaving plenty of distance to them"
+                  ],
+                  "why": "Not respecting motorcycles' right of way is one of the faults of other drivers that cause crashes with them. Respecting it prevents them."
+                },
+                "terms": [
+                  {
+                    "es": "prioridad de paso",
+                    "en": "right of way"
+                  }
+                ],
+                "src": "DGT, Teórica abreviada en lectura fácil (2023), Tema 16"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c5p8c",
+                "answer": 1,
+                "es": {
+                  "q": "Circula por una autovía y una moto va por el carril de al lado, a su misma velocidad. Según la DGT, ¿qué es lo más seguro?",
+                  "options": [
+                    "Seguir a su altura, para tenerla siempre a la vista",
+                    "Situarse por delante o por detrás de ella",
+                    "Acercarse a ella para que el motorista le vea mejor"
+                  ],
+                  "why": "La DGT aconseja no quedarse al lado de un vehículo de dos ruedas: a tu altura puede estar en tu ángulo muerto. Ponte por delante o por detrás."
+                },
+                "exam": {
+                  "q": "You circulate by a dual carriageway and a motorcycle goes by the lane next to you, at your same speed. According to the DGT, what is the safest?",
+                  "options": [
+                    "To continue at its height, in order to have it always in view.",
+                    "To place yourself in front of it or behind it.",
+                    "To approach it so that the motorcyclist sees you better."
+                  ]
+                },
+                "en": {
+                  "q": "You are on a dual carriageway and a motorcycle is in the next lane, at your speed. According to the DGT, what is safest?",
+                  "options": [
+                    "Staying level with it, to keep it in view",
+                    "Moving ahead of it or dropping behind it",
+                    "Moving closer so the rider sees you better"
+                  ],
+                  "why": "The DGT advises against staying beside a two-wheeler: level with you, it may be in your blind spot. Move ahead of it or drop behind it."
+                },
+                "terms": [
+                  {
+                    "es": "a su altura",
+                    "en": "level with"
+                  },
+                  {
+                    "es": "ángulo muerto",
+                    "en": "blind spot"
+                  }
+                ],
+                "src": "DGT, Teórica abreviada en lectura fácil (2023), Tema 16; DGT, Manual II (2026), UD3, ap. 6.3"
               }
             }
           ]
@@ -5484,6 +6611,94 @@
                   }
                 ],
                 "src": "RGC art. 38.4.a"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c5p8d",
+                "answer": 2,
+                "es": {
+                  "q": "Un chico de 14 años quiere ir al instituto en un patinete eléctrico (VMP), con casco. ¿Puede conducirlo?",
+                  "options": [
+                    "Sí, si un adulto le acompaña",
+                    "Sí, pero solo por el carril bici",
+                    "No."
+                  ],
+                  "why": "Los menores de quince años no pueden conducir un VMP, ni con casco, ni acompañados, ni por el carril bici."
+                },
+                "exam": {
+                  "q": "A boy of 14 years wants to go to secondary school on an electric scooter (VMP), with helmet. Can he drive it?",
+                  "options": [
+                    "Yes, if an adult accompanies him.",
+                    "Yes, but only by the bike lane.",
+                    "No."
+                  ]
+                },
+                "en": {
+                  "q": "A 14-year-old wants to ride to school on an e-scooter (VMP), with a helmet. May he ride it?",
+                  "options": [
+                    "Yes, if an adult goes with him",
+                    "Yes, but only in the bike lane",
+                    "No."
+                  ],
+                  "why": "People under fifteen may not ride a VMP: not with a helmet, not with an adult, not in a bike lane."
+                },
+                "terms": [
+                  {
+                    "es": "menor de quince años",
+                    "en": "under fifteen"
+                  },
+                  {
+                    "es": "patinete eléctrico",
+                    "en": "e-scooter"
+                  }
+                ],
+                "src": "RGC art. 155.3"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c5p8e",
+                "answer": 0,
+                "es": {
+                  "q": "Va en patinete eléctrico (VMP) por un carril bici de la ciudad, en un trayecto de cinco minutos. ¿Tiene que llevar casco?",
+                  "options": [
+                    "Sí, y bien abrochado",
+                    "No, solo en vías interurbanas",
+                    "No, si no supera los 15 km/h"
+                  ],
+                  "why": "Todo conductor de VMP debe llevar casco homologado o certificado, bien abrochado. La norma no distingue trayectos cortos ni tipos de vía."
+                },
+                "exam": {
+                  "q": "You go by electric scooter (VMP) along a bike lane of the city, in a journey of five minutes. Do you have to carry helmet?",
+                  "options": [
+                    "Yes, and properly fastened.",
+                    "No, only on interurban roads.",
+                    "No, if it does not exceed 15 km/h."
+                  ]
+                },
+                "en": {
+                  "q": "You are riding an e-scooter (VMP) in a city bike lane, on a five-minute trip. Must you wear a helmet?",
+                  "options": [
+                    "Yes, properly fastened",
+                    "No, only on intercity roads",
+                    "No, if you stay under 15 km/h"
+                  ],
+                  "why": "Every VMP rider must wear an approved or certified helmet, properly fastened. The rule makes no exception for short trips or for any type of road."
+                },
+                "terms": [
+                  {
+                    "es": "casco homologado",
+                    "en": "approved helmet"
+                  },
+                  {
+                    "es": "abrochado",
+                    "en": "fastened"
+                  }
+                ],
+                "src": "RGC art. 118.3"
               }
             },
             {
@@ -6266,6 +7481,57 @@
                   }
                 ],
                 "src": "DGT guidance (En moto, dgt.es, 2025)"
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "El Manual II de la DGT (2026) lo explica así: el turismo tiene una **carrocería** que protege del golpe y del tiempo; el motorista no. Por eso necesita casco con pantalla, mono o chaqueta y pantalón de motorista, **botas y guantes**. La DGT recomienda mucho esa ropa con protecciones.",
+                "en": "The DGT's Manual II (2026) explains it like this: a car has **bodywork** that protects from impact and weather; a motorcyclist does not. That is why they need a helmet with a visor, a riding suit or jacket and trousers, **boots and gloves**. The DGT strongly recommends that protective gear."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c8p8a",
+                "answer": 2,
+                "es": {
+                  "q": "Según la DGT, ¿por qué necesita un motorista ropa de protección como botas, guantes y chaqueta?",
+                  "options": [
+                    "Solo para cumplir la ley, porque no protege de verdad",
+                    "Solo para circular en invierno",
+                    "Porque le protege en una caída y del mal tiempo"
+                  ],
+                  "why": "La moto no tiene carrocería. La ropa de motorista, las botas y los guantes hacen en parte de carrocería: protegen en una caída y del frío, el calor o la lluvia."
+                },
+                "exam": {
+                  "q": "According to the DGT, why does a motorcyclist need protective clothing such as boots, gloves and jacket?",
+                  "options": [
+                    "Only to comply with the law, because it does not protect really.",
+                    "Only in order to circulate in winter.",
+                    "Because it protects him in a fall and from the bad weather."
+                  ]
+                },
+                "en": {
+                  "q": "According to the DGT, why does a motorcyclist need protective gear such as boots, gloves and a jacket?",
+                  "options": [
+                    "Only to comply with the law, since it does not really protect",
+                    "Only for riding in winter",
+                    "Because it protects them in a fall and from bad weather"
+                  ],
+                  "why": "A motorcycle has no bodywork. Riding clothes, boots and gloves partly take its place: they protect you in a fall and from cold, heat or rain."
+                },
+                "terms": [
+                  {
+                    "es": "ropa de protección",
+                    "en": "protective clothing"
+                  },
+                  {
+                    "es": "carrocería",
+                    "en": "bodywork"
+                  }
+                ],
+                "src": "DGT, Manual II (2026), UD21, ap. 3.5; UD9, ap. 1.6"
               }
             },
             {
@@ -8726,6 +9992,57 @@
                 ],
                 "src": "DGT guidance (Las principales cifras de la siniestralidad vial, España 2024)"
               }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Otra cosa es el **riesgo**. Según el Manual II de la DGT (2026), por todos los indicadores de riesgo, las **autopistas y autovías** son las vías más seguras para circular.",
+                "en": "**Risk** is another matter. According to the DGT's Manual II (2026), by every risk indicator, **motorways and dual carriageways** are the safest roads to drive on."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c7p8a",
+                "answer": 1,
+                "es": {
+                  "q": "Si se tienen en cuenta los indicadores de riesgo, ¿qué vías considera la DGT las más seguras para circular?",
+                  "options": [
+                    "Las carreteras convencionales, porque se va más despacio",
+                    "Las autopistas y autovías",
+                    "Las vías urbanas, por los límites bajos"
+                  ],
+                  "why": "Según la DGT, por todos los indicadores de riesgo, autopistas y autovías son las vías más seguras. En las carreteras convencionales mueren muchas más personas."
+                },
+                "exam": {
+                  "q": "If the risk indicators are taken into account, which roads does the DGT consider the safest for circulating?",
+                  "options": [
+                    "The conventional roads, because one goes slower.",
+                    "The motorways and dual carriageways.",
+                    "The urban roads, due to the low limits."
+                  ]
+                },
+                "en": {
+                  "q": "Taking risk indicators into account, which roads does the DGT consider the safest to drive on?",
+                  "options": [
+                    "Conventional roads, since traffic goes slower",
+                    "Motorways and dual carriageways",
+                    "Urban roads, because of their low limits"
+                  ],
+                  "why": "According to the DGT, by every risk indicator, motorways and dual carriageways are the safest roads. Far more people die on conventional roads."
+                },
+                "terms": [
+                  {
+                    "es": "indicadores de riesgo",
+                    "en": "risk indicators"
+                  },
+                  {
+                    "es": "autovía",
+                    "en": "dual carriageway"
+                  }
+                ],
+                "src": "DGT, Manual II (2026), UD1, ap. 5.1"
+              }
             }
           ]
         },
@@ -8900,6 +10217,57 @@
               }
             },
             {
+              "t": "p",
+              "text": {
+                "es": "El Manual II de la DGT (2026) compara el número de víctimas de tráfico con el de las grandes epidemias. Los accidentes son un **problema de salud pública de primera magnitud**, en España y en todo el mundo, y la OMS prevé que en 2030 sigan entre las principales causas de muerte y discapacidad.",
+                "en": "The DGT's Manual II (2026) compares the number of road victims with that of the great epidemics. Crashes are a **first-order public health problem**, in Spain and worldwide, and the WHO expects them to remain among the main causes of death and disability in 2030."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c7p8c",
+                "answer": 2,
+                "es": {
+                  "q": "Según el Manual II de la DGT, ¿cómo deben considerarse hoy los accidentes de tráfico?",
+                  "options": [
+                    "Como un problema menor, que afecta sobre todo a países pobres",
+                    "Como un asunto de educación vial, no de salud",
+                    "Como un grave problema de salud pública en todo el mundo"
+                  ],
+                  "why": "Por su número de víctimas, comparable al de las grandes epidemias, los accidentes de tráfico son un problema de salud pública de primera magnitud, en España y en el mundo."
+                },
+                "exam": {
+                  "q": "According to the DGT Manual II, how must the traffic accidents be considered today?",
+                  "options": [
+                    "As a minor problem, that affects above all poor countries.",
+                    "As a matter of road education, not of health.",
+                    "As a serious problem of public health in all the world."
+                  ]
+                },
+                "en": {
+                  "q": "According to the DGT's Manual II, how should road crashes be seen today?",
+                  "options": [
+                    "As a minor problem, mainly affecting poor countries",
+                    "As a road-education matter, not a health one",
+                    "As a serious public health problem worldwide"
+                  ],
+                  "why": "Because their toll compares with the great epidemics, road crashes are a first-order public health problem, in Spain and worldwide."
+                },
+                "terms": [
+                  {
+                    "es": "salud pública",
+                    "en": "public health"
+                  },
+                  {
+                    "es": "víctima",
+                    "en": "victim"
+                  }
+                ],
+                "src": "DGT, Manual II (2026), UD1, ap. 1 e Ideas clave"
+              }
+            },
+            {
               "t": "check",
               "q": {
                 "id": "hazards-c7q",
@@ -8996,6 +10364,57 @@
                   }
                 ],
                 "src": "DGT, Manual II Cuestiones de seguridad vial (2026), UD3, ap. 2.2"
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "La teórica en lectura fácil de la DGT (2023) cita como causas principales de los accidentes de los jóvenes: exceso de velocidad, alcohol y drogas, **no respetar las normas**, correr riesgos, poca experiencia, competir con otros y no ponerse el cinturón o el casco.",
+                "en": "The DGT's easy-read theory guide (2023) lists the main causes of young people's crashes: speeding, alcohol and drugs, **not following the rules**, taking risks, little experience, competing with others, and not wearing a seat belt or helmet."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "hazards-c7p8b",
+                "answer": 0,
+                "es": {
+                  "q": "Según la DGT, ¿cuál de estas es una de las causas principales de los accidentes de los conductores jóvenes?",
+                  "options": [
+                    "No respetar las normas de tráfico",
+                    "Conducir siempre por debajo del límite",
+                    "Revisar demasiado a menudo los retrovisores"
+                  ],
+                  "why": "La DGT cita, entre las causas principales de los accidentes juveniles, no respetar las normas de tráfico, la velocidad excesiva, el alcohol, correr riesgos y la poca experiencia."
+                },
+                "exam": {
+                  "q": "According to the DGT, which of these figures among the main causes of the accidents of the young drivers?",
+                  "options": [
+                    "Not to respect the traffic rules.",
+                    "To drive always below the limit.",
+                    "To check the mirrors too often."
+                  ]
+                },
+                "en": {
+                  "q": "According to the DGT, which of these is among the main causes of young drivers' crashes?",
+                  "options": [
+                    "Not following traffic rules",
+                    "Always driving below the limit",
+                    "Checking the mirrors too often"
+                  ],
+                  "why": "Among the main causes of young people's crashes, the DGT lists not following traffic rules, speeding, alcohol, taking risks and little experience."
+                },
+                "terms": [
+                  {
+                    "es": "normas de tráfico",
+                    "en": "traffic rules"
+                  },
+                  {
+                    "es": "conductor joven",
+                    "en": "young driver"
+                  }
+                ],
+                "src": "DGT, Teórica abreviada en lectura fácil (2023), Tema 16"
               }
             }
           ]

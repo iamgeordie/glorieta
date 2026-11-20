@@ -278,6 +278,94 @@
                 ],
                 "src": "DGT guidance (Conducir sin cinturón de seguridad, 2024)"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c1zp",
+                "answer": 0,
+                "es": {
+                  "q": "Según la DGT, llevar bien abrochado el cinturón, ¿cuánto reduce el riesgo de morir o de sufrir heridas graves en un accidente?",
+                  "options": [
+                    "Lo reduce a la mitad",
+                    "Apenas lo reduce si hay airbag",
+                    "Lo reduce solo en las plazas traseras"
+                  ],
+                  "why": "La DGT indica que el cinturón reduce a la mitad el riesgo de muerte o de heridas graves. Protege en todas las plazas, y también hace falta con airbag."
+                },
+                "exam": {
+                  "q": "According to the DGT, to take the belt well fastened, how much does it reduce the risk of dying or of suffering serious injuries in an accident?",
+                  "options": [
+                    "It reduces it to the half.",
+                    "It hardly reduces it if there is airbag.",
+                    "It reduces it only in the rear places."
+                  ]
+                },
+                "en": {
+                  "q": "According to the DGT, how much does a properly fastened seat belt lower your chances of dying or being badly hurt in a crash?",
+                  "options": [
+                    "It cuts it in half",
+                    "Barely at all if there is an airbag",
+                    "Only in the back seats"
+                  ],
+                  "why": "The DGT says the seat belt halves your chances of being killed or badly hurt. It protects in every seat, and you need it with an airbag too."
+                },
+                "terms": [
+                  {
+                    "es": "heridas graves",
+                    "en": "serious injuries"
+                  },
+                  {
+                    "es": "reducir a la mitad",
+                    "en": "to cut in half"
+                  }
+                ],
+                "src": "DGT guidance (Manual II, Cuestiones de Seguridad Vial, DGT 2026, UD9)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c1zn",
+                "answer": 1,
+                "es": {
+                  "q": "Un camión con cinturones instalados circula por una autovía. ¿Debe llevar su conductor el cinturón abrochado?",
+                  "options": [
+                    "No, la obligación es solo para los turismos",
+                    "Sí, en ciudad y también fuera de poblado",
+                    "Solo si lleva pasajeros en la cabina"
+                  ],
+                  "why": "El cinturón es obligatorio para el conductor y los ocupantes de cualquier vehículo que lo tenga instalado, en ciudad y en carretera. Un camión no es una excepción."
+                },
+                "exam": {
+                  "q": "A lorry with belts installed circulates by a dual carriageway. Must its driver take the belt fastened?",
+                  "options": [
+                    "No, the obligation is only for the passenger cars.",
+                    "Yes, in the city and also outside town.",
+                    "Only if he carries passengers in the cab."
+                  ]
+                },
+                "en": {
+                  "q": "A truck with seat belts fitted is on a divided highway. Must its driver wear the belt?",
+                  "options": [
+                    "No, the rule is only for cars",
+                    "Yes, in town and outside it too",
+                    "Only with passengers in the cab"
+                  ],
+                  "why": "The belt is compulsory for the driver and occupants of any vehicle that has belts fitted, in town and on the open road. A truck is no exception."
+                },
+                "terms": [
+                  {
+                    "es": "camión",
+                    "en": "truck"
+                  },
+                  {
+                    "es": "cinturones instalados",
+                    "en": "seat belts fitted"
+                  }
+                ],
+                "src": "RGC art. 117.1"
+              }
             }
           ]
         },
@@ -1837,6 +1925,57 @@
               }
             },
             {
+              "t": "p",
+              "text": {
+                "es": "Si el menor mide **más de 135 cm**, estas reglas ya no le afectan: usa el cinturón, como un adulto, y puede ir delante. Cuenta la talla, no la edad.",
+                "en": "If the child is **taller than 135 cm**, these rules no longer apply: they use the seat belt, like an adult, and may sit in front. Height counts, not age."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c1zo",
+                "answer": 1,
+                "es": {
+                  "q": "Un chico de 11 años mide 142 cm. ¿Puede ir sentado delante en un turismo?",
+                  "options": [
+                    "No, los menores de 12 años deben ir siempre detrás",
+                    "Sí, con el cinturón abrochado, como un adulto",
+                    "Solo si va sentado en un alzador homologado"
+                  ],
+                  "why": "La norma va por la talla, no por la edad. Con más de 135 cm ya no necesita sistema de retención infantil ni ir detrás: usa el cinturón."
+                },
+                "exam": {
+                  "q": "A boy of 11 years measures 142 cm. Can he go seated in front in a passenger car?",
+                  "options": [
+                    "No, the minors of 12 years must go always behind.",
+                    "Yes, with the belt fastened, like an adult.",
+                    "Only if he goes seated on a homologated booster."
+                  ]
+                },
+                "en": {
+                  "q": "An 11-year-old boy is 142 cm tall. May he ride up front in a car?",
+                  "options": [
+                    "No, under-12s must always sit in back",
+                    "Yes, with the seat belt on, like an adult",
+                    "Only on an approved booster seat"
+                  ],
+                  "why": "The rule goes by height, not age. Above 135 cm he no longer needs a child restraint or a rear seat: he uses the seat belt."
+                },
+                "terms": [
+                  {
+                    "es": "asiento delantero",
+                    "en": "front seat"
+                  },
+                  {
+                    "es": "talla",
+                    "en": "height"
+                  }
+                ],
+                "src": "RGC art. 117.1 y 117.3"
+              }
+            },
+            {
               "t": "tip",
               "text": {
                 "es": "Consejo de la DGT: la combinación más segura es la silla **en sentido contrario a la marcha**, en la **plaza trasera central**, con cinturón de tres puntos, porque protege de los golpes laterales. El asiento del copiloto es el que más sufre en los choques.",
@@ -2344,6 +2483,50 @@
             {
               "t": "check",
               "q": {
+                "id": "safety-c1zq",
+                "answer": 0,
+                "es": {
+                  "q": "Un quad sin estructura de autoprotección ni cinturones lleva a un pasajero detrás del conductor. ¿Debe el pasajero llevar casco?",
+                  "options": [
+                    "Sí, igual que el conductor, en todo tipo de vías",
+                    "No, en los quads el casco solo es para quien conduce",
+                    "Solo cuando circulan por vías interurbanas"
+                  ],
+                  "why": "La norma obliga al casco homologado y abrochado a conductores y pasajeros de motos, ciclomotores, cuadriciclos y quads, en todas las vías. Solo quedan exentos si el vehículo tiene estructura de autoprotección y cinturones."
+                },
+                "exam": {
+                  "q": "A quad without self-protection structure or belts carries a passenger behind the driver. Must the passenger take a helmet?",
+                  "options": [
+                    "Yes, the same as the driver, on all types of roads.",
+                    "No, on the quads the helmet is only for the one who drives.",
+                    "Only when they circulate by interurban roads."
+                  ]
+                },
+                "en": {
+                  "q": "A quad with no protective frame and no seat belts carries a passenger behind the rider. Must the passenger wear a helmet?",
+                  "options": [
+                    "Yes, like the rider, on every kind of road",
+                    "No, on quads only the rider needs one",
+                    "Only on intercity roads"
+                  ],
+                  "why": "The rule requires an approved, fastened helmet for riders and passengers of motorcycles, mopeds, quadricycles and quads, on every road. They are exempt only if the vehicle has a protective frame and seat belts."
+                },
+                "terms": [
+                  {
+                    "es": "quad",
+                    "en": "quad (ATV)"
+                  },
+                  {
+                    "es": "pasajero",
+                    "en": "passenger"
+                  }
+                ],
+                "src": "RGC art. 118.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
                 "id": "safety-c1ze",
                 "answer": 1,
                 "es": {
@@ -2473,7 +2656,8 @@
         "Ley de Tráfico (RDL 6/2015), art. 104.1.c",
         "DGT guidance (Cinturón de seguridad. Sistemas de retención infantil, DGT 2014)",
         "DGT guidance (En coche, dgt.es, 2024)",
-        "DGT guidance (Teórica abreviada, lectura fácil, DGT 2023, tema 5)"
+        "DGT guidance (Teórica abreviada, lectura fácil, DGT 2023, tema 5)",
+        "DGT guidance (Manual II, Cuestiones de Seguridad Vial, DGT 2026, UD9)"
       ]
     },
     {
@@ -3637,6 +3821,203 @@
                 ],
                 "src": "DGT guidance (Distracciones al conducir, dgt.es, 2022)"
               }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Un temario de la DGT añade causas de distracción que vienen de la vía: confiarte en una carretera que conoces bien, señales tapadas o poco visibles, y un **tráfico complicado**, con muchos vehículos, peatones y señales a la vez.",
+                "en": "A DGT syllabus adds causes of distraction that come from the road: getting overconfident on a road you know well, signs that are hidden or hard to see, and **complicated traffic**, with many vehicles, pedestrians and signs at once."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c2t",
+                "answer": 0,
+                "es": {
+                  "q": "Según la DGT, ¿cuál de estas situaciones favorece que el conductor se distraiga?",
+                  "options": [
+                    "Un cruce con mucho tráfico, peatones y señales",
+                    "Una vía bien señalizada y con buena visibilidad",
+                    "Llevar el asiento y los retrovisores bien regulados"
+                  ],
+                  "why": "Cuando hay muchos vehículos, peatones y señales a la vez, es más fácil que se te escape algo. Ahí, más atención y menos velocidad."
+                },
+                "exam": {
+                  "q": "According to the DGT, which of these situations favours that the driver gets distracted?",
+                  "options": [
+                    "A junction with a lot of traffic, pedestrians and signs.",
+                    "A road well signposted and with good visibility.",
+                    "To take the seat and the rear-view mirrors well adjusted."
+                  ]
+                },
+                "en": {
+                  "q": "According to the DGT, which of these situations makes it easier for a driver to get distracted?",
+                  "options": [
+                    "A junction with heavy traffic, pedestrians and signs",
+                    "A well-signed road with good visibility",
+                    "Having the seat and mirrors properly adjusted"
+                  ],
+                  "why": "When there are many vehicles, pedestrians and signs at once, it is easier to miss something. That is when you need more attention and less speed."
+                },
+                "terms": [
+                  {
+                    "es": "distraerse",
+                    "en": "to get distracted"
+                  },
+                  {
+                    "es": "tráfico complicado",
+                    "en": "complicated traffic"
+                  }
+                ],
+                "src": "DGT guidance (Teórica abreviada, lectura fácil, DGT 2023, tema 3)"
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Guía de la DGT: si entra un insecto, como una avispa, mantén la calma. No sueltes el volante ni apartes la vista. No intentes echarlo en marcha: sal de la vía, para y sácalo entonces.",
+                "en": "DGT guidance: if an insect such as a wasp gets in, stay calm. Do not let go of the wheel or look away. Do not try to get it out while moving: pull off the road, stop, and then let it out."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c2s",
+                "answer": 2,
+                "es": {
+                  "q": "Mientras circula por una carretera, entra una avispa en el habitáculo. ¿Qué es lo correcto?",
+                  "options": [
+                    "Bajar las ventanillas y echarla con una mano mientras conduce",
+                    "Frenar en seco en el carril para sacarla",
+                    "Mantener la calma, parar fuera de la vía y echarla entonces"
+                  ],
+                  "why": "Echar un insecto en marcha te quita la vista y una mano del volante. Mantén la calma, sal de la vía, para y sácalo con el coche detenido."
+                },
+                "exam": {
+                  "q": "While you circulate by a road, a wasp enters the passenger compartment. What is the correct thing?",
+                  "options": [
+                    "To lower the windows and to expel it with one hand while driving.",
+                    "To brake dry in the lane to take it out.",
+                    "To keep calm, to stop outside the road and to expel it then."
+                  ]
+                },
+                "en": {
+                  "q": "On a highway, a wasp flies into the car. What should you do?",
+                  "options": [
+                    "Lower the windows and shoo it out with one hand as you drive",
+                    "Brake hard in your lane so you can get it out",
+                    "Stay calm, stop off the road and let it out then"
+                  ],
+                  "why": "Getting an insect out on the move takes your eyes and one hand off the wheel. Stay calm, pull off the road, stop and let it out with the car stopped."
+                },
+                "terms": [
+                  {
+                    "es": "avispa",
+                    "en": "wasp"
+                  },
+                  {
+                    "es": "habitáculo",
+                    "en": "passenger compartment"
+                  }
+                ],
+                "src": "DGT guidance (Manual II, Cuestiones de Seguridad Vial, DGT 2026, UD20; Teórica abreviada, lectura fácil, DGT 2023, tema 3)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c2u",
+                "answer": 0,
+                "es": {
+                  "q": "Una conductora aprovecha una recta para retocarse el maquillaje mirándose en el retrovisor interior. ¿Aumenta el riesgo de accidente?",
+                  "options": [
+                    "Sí: mientras se mira, no atiende a la vía",
+                    "No, si la recta es larga y no viene nadie",
+                    "No, porque el retrovisor está a la vista del conductor"
+                  ],
+                  "why": "Maquillarse o arreglarse al volante es una distracción: la vista y la atención salen de la vía. Déjalo para cuando el coche esté parado."
+                },
+                "exam": {
+                  "q": "A driver takes advantage of a straight stretch to touch up her make-up looking at herself in the interior rear-view mirror. Does the risk of accident increase?",
+                  "options": [
+                    "Yes: while she looks at herself, she does not attend to the road.",
+                    "No, if the straight is long and nobody comes.",
+                    "No, because the rear-view mirror is in view of the driver."
+                  ]
+                },
+                "en": {
+                  "q": "A driver uses a straight stretch to touch up her makeup in the inside mirror. Does that raise the risk of a crash?",
+                  "options": [
+                    "Yes: while she looks at herself, she is not watching the road",
+                    "No, if the straight is long and the road is empty",
+                    "No, because the mirror is within the driver’s view"
+                  ],
+                  "why": "Putting on makeup or fixing yourself up at the wheel is a distraction: your eyes and attention leave the road. Leave it until the car is stopped."
+                },
+                "terms": [
+                  {
+                    "es": "retocarse",
+                    "en": "to touch up"
+                  },
+                  {
+                    "es": "retrovisor interior",
+                    "en": "inside mirror"
+                  }
+                ],
+                "src": "DGT guidance (dgt.es): distracciones al conducir"
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "El Manual II de la DGT (2026) lo resume: si vas cansado, incómodo o con la cabeza en otra parte, **tus reacciones son más lentas**. Llegas tarde a lo que pasa delante.",
+                "en": "The DGT’s Manual II (2026) sums it up: if you are tired, uncomfortable or your mind is elsewhere, **your reactions are slower**. You are late for what happens ahead."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c2v",
+                "answer": 0,
+                "es": {
+                  "q": "Un conductor que va distraído, ante un peligro…",
+                  "options": [
+                    "tarda más en reaccionar.",
+                    "reacciona a tiempo si conoce bien la vía.",
+                    "solo pierde reflejos si circula de noche."
+                  ],
+                  "why": "Con la atención en otra parte, tus reacciones son más lentas: ves el peligro más tarde y actúas más tarde, conozcas o no la vía."
+                },
+                "exam": {
+                  "q": "A driver who goes distracted, in front of a danger…",
+                  "options": [
+                    "takes longer to react.",
+                    "reacts in time if he knows the road well.",
+                    "only loses reflexes if he circulates at night."
+                  ]
+                },
+                "en": {
+                  "q": "When a distracted driver meets a hazard, they…",
+                  "options": [
+                    "take longer to react.",
+                    "react in time if they know the road well.",
+                    "only lose reflexes when driving at night."
+                  ],
+                  "why": "With your attention elsewhere, your reactions are slower: you see the danger later and act later, whether or not you know the road."
+                },
+                "terms": [
+                  {
+                    "es": "distraído",
+                    "en": "distracted"
+                  },
+                  {
+                    "es": "reaccionar",
+                    "en": "to react"
+                  }
+                ],
+                "src": "DGT guidance (Manual II, Cuestiones de Seguridad Vial, DGT 2026, UD12)"
+              }
             }
           ]
         }
@@ -3676,7 +4057,8 @@
         "Reglamento General de Circulación (RD 1428/2003), art. 18",
         "DGT guidance (dgt.es): distracciones al conducir",
         "DGT guidance (Teórica abreviada, lectura fácil, DGT 2023, tema 3)",
-        "Ley de Tráfico (RDL 6/2015), art. 47"
+        "Ley de Tráfico (RDL 6/2015), art. 47",
+        "DGT guidance (Manual II, Cuestiones de Seguridad Vial, DGT 2026, UD12 y UD20)"
       ]
     },
     {
@@ -4246,6 +4628,57 @@
                   }
                 ],
                 "src": "DGT guidance (Teórica abreviada, lectura fácil, DGT 2023, tema 10)"
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "El **tiempo de reacción** va desde que ves el peligro hasta que actúas: analizas, decides y mueves el pie al freno o giras el volante. El Manual II de la DGT (2026) toma **un segundo** para un conductor medio en condiciones normales.",
+                "en": "**Reaction time** runs from the moment you see the danger until you act: you take it in, decide, and move your foot to the brake or turn the wheel. The DGT’s Manual II (2026) uses **one second** for an average driver in normal conditions."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c3s",
+                "answer": 0,
+                "es": {
+                  "q": "¿Qué mide el tiempo de reacción?",
+                  "options": [
+                    "Lo que se tarda desde ver un peligro hasta empezar a actuar",
+                    "Lo que dura la frenada, desde pisar el freno hasta parar",
+                    "Todo el tiempo desde ver un peligro hasta quedar parado"
+                  ],
+                  "why": "El tiempo de reacción acaba cuando empiezas a actuar (frenar, girar). Lo que recorres después frenando es la distancia de frenado; la suma de todo, la de detención."
+                },
+                "exam": {
+                  "q": "What does the reaction time measure?",
+                  "options": [
+                    "What one takes from seeing a danger until starting to act.",
+                    "What the braking lasts, from pressing the brake until stopping.",
+                    "All the time from seeing a danger until being stopped."
+                  ]
+                },
+                "en": {
+                  "q": "What does reaction time measure?",
+                  "options": [
+                    "The time from noticing a hazard to starting to act",
+                    "How long braking lasts, from brake pedal to standstill",
+                    "The whole time from noticing a hazard to standing still"
+                  ],
+                  "why": "Reaction time ends when you start to act (brake, steer). What you travel after that while braking is the braking distance; the whole thing is the stopping distance."
+                },
+                "terms": [
+                  {
+                    "es": "tiempo de reacción",
+                    "en": "reaction time"
+                  },
+                  {
+                    "es": "actuar",
+                    "en": "to act"
+                  }
+                ],
+                "src": "DGT guidance (Manual II, Cuestiones de Seguridad Vial, DGT 2026, UD14)"
               }
             }
           ]
@@ -4970,6 +5403,57 @@
                 ],
                 "src": "DGT guidance"
               }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Guía de la DGT: si el de detrás circula **muy cerca**, facilita que te adelante. Y si tienes que frenar, hazlo pronto y de forma progresiva, reduciendo la velocidad poco a poco.",
+                "en": "DGT guidance: if the vehicle behind is **too close**, make it easy for it to overtake you. And if you have to brake, do it early and progressively, slowing down little by little."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c3t",
+                "answer": 1,
+                "es": {
+                  "q": "Un turismo circula muy pegado detrás de usted por una carretera. Según la DGT, ¿qué conviene hacer?",
+                  "options": [
+                    "Dar un toque de freno brusco para que aumente su distancia",
+                    "Facilitar que adelante y frenar pronto y con suavidad",
+                    "Acelerar por encima del límite para alejarse de él"
+                  ],
+                  "why": "Un frenazo puede provocar un alcance. Deja que te adelante y, si tienes que frenar, hazlo con antelación y poco a poco, para que tenga tiempo de reaccionar."
+                },
+                "exam": {
+                  "q": "A passenger car circulates very stuck behind you by a road. According to the DGT, what is advisable to do?",
+                  "options": [
+                    "To give a sudden touch of brake so that it increases its distance.",
+                    "To facilitate that it overtakes and to brake early and with smoothness.",
+                    "To accelerate above the limit in order to move away from it."
+                  ]
+                },
+                "en": {
+                  "q": "A car is tailgating you on a highway. According to the DGT, what should you do?",
+                  "options": [
+                    "Tap the brakes hard so it drops back",
+                    "Make it easy to pass, and brake early and gently",
+                    "Speed up past the limit to get away from it"
+                  ],
+                  "why": "Slamming the brakes can cause a rear-end crash. Let it pass and, if you have to brake, do it early and gradually so it has time to react."
+                },
+                "terms": [
+                  {
+                    "es": "muy pegado",
+                    "en": "tailgating"
+                  },
+                  {
+                    "es": "frenar con suavidad",
+                    "en": "to brake gently"
+                  }
+                ],
+                "src": "DGT guidance (Guía para monitores de cursos de conducción segura y eficiente de turismos, DGT 2023)"
+              }
             }
           ]
         }
@@ -5010,7 +5494,9 @@
         "Ley de Tráfico (RDL 6/2015), art. 76.ñ y Anexo II",
         "DGT (dgt.es, revista Tráfico y Seguridad Vial): distancia de seguridad y regla de los dos segundos (consejos)",
         "DGT guidance (dgt.es): conducción preventiva",
-        "DGT guidance (Teórica abreviada, lectura fácil, DGT 2023, tema 10)"
+        "DGT guidance (Teórica abreviada, lectura fácil, DGT 2023, tema 10)",
+        "DGT guidance (Manual II, Cuestiones de Seguridad Vial, DGT 2026, UD14)",
+        "DGT guidance (Guía para monitores de cursos de conducción segura y eficiente de turismos, DGT 2023)"
       ]
     },
     {
@@ -5743,6 +6229,57 @@
                 ],
                 "src": "DGT guidance (Manual II, Cuestiones de Seguridad Vial, DGT 2026, UD8); DGT guidance (Instrucción COND 2024/12, ADAS en las pruebas de aptitud, dgt.es, 2024)"
               }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "El **ISA** te ayuda a conocer y respetar el límite de velocidad. Usa el navegador y una cámara que lee las señales, también las limitaciones temporales. Puede avisarte con luz, sonido o vibración, empujar el pedal del acelerador o reducir la potencia; si pisas a fondo el acelerador, lo anulas.",
+                "en": "**ISA** helps you know and keep to the speed limit. It uses the navigation system and a camera that reads signs, temporary limits included. It can warn you with a light, a sound or a vibration, push back on the accelerator pedal or cut engine power; pressing the accelerator down overrides it."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c4za",
+                "answer": 1,
+                "es": {
+                  "q": "¿Qué sistema de ayuda a la conducción informa del límite de velocidad de la vía y ayuda a respetarlo?",
+                  "options": [
+                    "El arranque y parada automáticos (Start-Stop)",
+                    "El asistente inteligente de velocidad (ISA)",
+                    "El aviso de somnolencia y distracción (DDR)"
+                  ],
+                  "why": "El ISA muestra el límite de la vía, con el navegador y el reconocimiento de señales, y te ayuda a no superarlo. El Start-Stop apaga el motor parado; el DDR vigila tu atención."
+                },
+                "exam": {
+                  "q": "Which system of assistance to the driving informs of the speed limit of the road and helps to respect it?",
+                  "options": [
+                    "The automatic start and stop (Start-Stop).",
+                    "The intelligent speed assistant (ISA).",
+                    "The warning of drowsiness and distraction (DDR)."
+                  ]
+                },
+                "en": {
+                  "q": "Which driver-assistance system shows the road’s speed limit and helps you keep to it?",
+                  "options": [
+                    "Automatic engine start and stop (Start-Stop)",
+                    "Intelligent speed assistance (ISA)",
+                    "Drowsiness and distraction warning (DDR)"
+                  ],
+                  "why": "ISA shows the road’s limit, using navigation and sign recognition, and helps you stay under it. Start-Stop switches off the idling engine; DDR watches your attention."
+                },
+                "terms": [
+                  {
+                    "es": "asistente inteligente de velocidad",
+                    "en": "intelligent speed assistance"
+                  },
+                  {
+                    "es": "límite de velocidad",
+                    "en": "speed limit"
+                  }
+                ],
+                "src": "DGT guidance (Manual II, Cuestiones de Seguridad Vial, DGT 2026, UD8)"
+              }
             }
           ]
         },
@@ -5860,6 +6397,16 @@
                   {
                     "es": "Junta las imágenes de varias cámaras alrededor del coche y muestra en la pantalla una vista desde arriba",
                     "en": "Combines images from several cameras around the car and shows a view from above on the screen"
+                  }
+                ],
+                [
+                  {
+                    "es": "Asistente de visión nocturna",
+                    "en": "Night vision assist"
+                  },
+                  {
+                    "es": "Con luz infrarroja o una cámara térmica detecta peatones y animales en la oscuridad y muestra su imagen en el cuadro, sin deslumbrar a nadie",
+                    "en": "Using infrared light or a thermal camera, it detects pedestrians and animals in the dark and shows their image on the dashboard, without dazzling anyone"
                   }
                 ]
               ]
@@ -6224,6 +6771,101 @@
               }
             },
             {
+              "t": "p",
+              "text": {
+                "es": "Según el Manual II de la DGT (2026), el RCTA vigila el tráfico que cruza por detrás cuando sales marcha atrás de una plaza en batería, y avisa con un sonido o en la pantalla. En algunos modelos, si no reaccionas, frena con toda su fuerza ante un choque inminente, pero solo **por debajo de 15 km/h**.",
+                "en": "According to the DGT’s Manual II (2026), RCTA watches traffic crossing behind you as you back out of an angled or perpendicular space, and warns you with a sound or on the screen. In some models, if you do not react, it brakes as hard as it can before an imminent crash, but only **below 15 km/h** (9 mph)."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c4zb",
+                "answer": 2,
+                "es": {
+                  "q": "En algunos coches, la alerta de tráfico cruzado trasero (RCTA) puede frenar sola si el conductor no reacciona. ¿Por debajo de qué velocidad?",
+                  "options": [
+                    "30 km/h",
+                    "50 km/h",
+                    "15 km/h"
+                  ],
+                  "why": "Según la DGT, algunos fabricantes hacen que el RCTA frene con toda su fuerza ante un choque inminente, solo por debajo de 15 km/h: es una ayuda para maniobras lentas marcha atrás."
+                },
+                "exam": {
+                  "q": "In some cars, the rear cross traffic alert (RCTA) can brake by itself if the driver does not react. Below what speed?",
+                  "options": [
+                    "30 km/h.",
+                    "50 km/h.",
+                    "15 km/h."
+                  ]
+                },
+                "en": {
+                  "q": "In some cars, rear cross-traffic alert (RCTA) can brake on its own if the driver does not react. Below what speed?",
+                  "options": [
+                    "30 km/h (19 mph)",
+                    "50 km/h (31 mph)",
+                    "15 km/h (9 mph)"
+                  ],
+                  "why": "According to the DGT, some makers have RCTA brake at full force before an imminent crash, only below 15 km/h: it is an aid for slow reversing maneuvers."
+                },
+                "terms": [
+                  {
+                    "es": "alerta de tráfico cruzado trasero",
+                    "en": "rear cross-traffic alert"
+                  },
+                  {
+                    "es": "marcha atrás",
+                    "en": "reverse"
+                  }
+                ],
+                "src": "DGT guidance (Manual II, Cuestiones de Seguridad Vial, DGT 2026, UD8)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c4zc",
+                "answer": 1,
+                "es": {
+                  "q": "Circula de noche por una carretera sin iluminar. ¿Para qué sirve el asistente de visión nocturna?",
+                  "options": [
+                    "Para cambiar solo las luces largas por las de cruce al cruzarse con otro",
+                    "Para detectar peatones y animales y mostrarlos en el cuadro",
+                    "Para encender las luces de emergencia si el coche se detiene"
+                  ],
+                  "why": "La visión nocturna usa infrarrojos o una cámara térmica: detecta peatones y animales en la oscuridad y te muestra su imagen. Te ayuda a verlos antes, pero mirar la vía sigue siendo cosa tuya."
+                },
+                "exam": {
+                  "q": "You circulate at night by a road without lighting. What does the night vision assistant serve for?",
+                  "options": [
+                    "In order to change alone the long lights for the crossing ones when crossing with another.",
+                    "In order to detect pedestrians and animals and to show them on the dashboard.",
+                    "In order to switch on the emergency lights if the car stops."
+                  ]
+                },
+                "en": {
+                  "q": "You are driving at night on an unlit highway. What is night vision assist for?",
+                  "options": [
+                    "Switching from high to low beams by itself when you meet another car",
+                    "Spotting pedestrians and animals and showing them on the dashboard",
+                    "Turning on the hazard lights if the car stops"
+                  ],
+                  "why": "Night vision uses infrared or a thermal camera: it detects pedestrians and animals in the dark and shows you their image. It helps you see them sooner, but watching the road is still your job."
+                },
+                "terms": [
+                  {
+                    "es": "visión nocturna",
+                    "en": "night vision"
+                  },
+                  {
+                    "es": "cuadro de instrumentos",
+                    "en": "dashboard"
+                  }
+                ],
+                "src": "DGT guidance (revista DGT: Tecnología contra el mal tiempo, 2014); DGT guidance (Manual II, Cuestiones de Seguridad Vial, DGT 2026, UD8)"
+              }
+            },
+            {
               "t": "check",
               "q": {
                 "id": "safety-c4w",
@@ -6328,6 +6970,65 @@
                   }
                 ],
                 "src": "LSV art. 13.1 y 13.2"
+              }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "También un coche ya matriculado puede recibir ADAS después: son los sistemas **de posventa** (aftermarket). La DGT tiene un procedimiento para certificarlos (Instrucción 19/V-136, 2019). Su fabricante indica en qué tipos de vehículo se permite instalarlos, lo monta un instalador cualificado y el control sigue siendo siempre del conductor.",
+                "en": "A car that is already registered can also get ADAS later: these are **aftermarket** systems. The DGT has a procedure to certify them (Instruction 19/V-136, 2019). The maker states which types of vehicle they may be fitted to, a qualified installer fits them, and the driver always stays in control."
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "No se pueden sustituir, añadir ni quitar piezas o elementos sujetos a un reglamento técnico por otros que **no lo cumplan** o que **no correspondan al vehículo**.",
+                "en": "Parts or components covered by a technical regulation may not be replaced, added or removed with others that **do not comply** with it or **do not belong to the vehicle**."
+              },
+              "src": "RGV art. 7.3"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c4zd",
+                "answer": 2,
+                "es": {
+                  "q": "Un turismo de hace diez años no trae de fábrica aviso de salida de carril. ¿Se le puede instalar después un sistema ADAS?",
+                  "options": [
+                    "No, los ADAS solo pueden venir montados de fábrica",
+                    "Sí, cualquier sistema, sin requisitos ni comprobaciones",
+                    "Sí, si es apto para ese vehículo y cumple la norma"
+                  ],
+                  "why": "Existen ADAS de posventa para coches ya matriculados. Deben ser aptos para ese tipo de vehículo y cumplir la reglamentación técnica: no vale cualquier pieza."
+                },
+                "exam": {
+                  "q": "A passenger car of ten years ago does not bring from factory lane departure warning. Can an ADAS system be installed to it afterwards?",
+                  "options": [
+                    "No, the ADAS can only come fitted from factory.",
+                    "Yes, any system, without requirements or checks.",
+                    "Yes, if it is suitable for that vehicle and complies with the regulation."
+                  ]
+                },
+                "en": {
+                  "q": "A ten-year-old car did not come with lane departure warning. Can an ADAS be fitted to it later?",
+                  "options": [
+                    "No, ADAS can only be fitted at the factory",
+                    "Yes, any system, with no requirements or checks",
+                    "Yes, if it suits that vehicle and meets the rules"
+                  ],
+                  "why": "There are aftermarket ADAS for cars already on the road. They must suit that type of vehicle and meet the technical regulations: not just any part will do."
+                },
+                "terms": [
+                  {
+                    "es": "posventa",
+                    "en": "aftermarket"
+                  },
+                  {
+                    "es": "de fábrica",
+                    "en": "factory-fitted"
+                  }
+                ],
+                "src": "RGV art. 7.3; DGT guidance (Instrucción 19/V-136, ADAS aftermarket, dgt.es, 2019)"
               }
             }
           ]
@@ -6705,6 +7406,57 @@
                 ],
                 "src": "DGT guidance; RGC art. 3.1"
               }
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Una guía de la DGT para cursos de conducción segura (2023) concreta la conducción defensiva en técnicas: **observación** (lejos, retrovisores y lados), **gestión del espacio** (delante, detrás y a los lados), **anticipación** (prever lo que harán los demás) y **comunicación** (hacerte ver y entender).",
+                "en": "A DGT guide for safe-driving courses (2023) breaks defensive driving into techniques: **observation** (far ahead, mirrors and sides), **space management** (ahead, behind and to the sides), **anticipation** (foreseeing what others will do) and **communication** (making yourself seen and understood)."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "safety-c4ze",
+                "answer": 1,
+                "es": {
+                  "q": "La conducción preventiva se apoya, entre otras técnicas, en…",
+                  "options": [
+                    "la velocidad alta y unos reflejos rápidos.",
+                    "la observación, la anticipación y el espacio alrededor.",
+                    "la confianza plena en las ayudas electrónicas del coche moderno."
+                  ],
+                  "why": "Conducir a la defensiva es observar bien, prever lo que puede pasar y guardar espacio alrededor. Así tienes tiempo de reaccionar. Los reflejos y las ayudas no sustituyen eso."
+                },
+                "exam": {
+                  "q": "The preventive driving rests, among other techniques, on…",
+                  "options": [
+                    "the high speed and some quick reflexes.",
+                    "the observation, the anticipation and the space around.",
+                    "the full confidence in the electronic aids of the modern car."
+                  ]
+                },
+                "en": {
+                  "q": "Defensive driving relies, among other techniques, on…",
+                  "options": [
+                    "high speed and quick reflexes.",
+                    "observation, anticipation and space around you.",
+                    "full trust in a modern car’s electronic aids."
+                  ],
+                  "why": "Driving defensively means observing well, foreseeing what may happen and keeping space around you. That gives you time to react. Reflexes and driver aids do not replace it."
+                },
+                "terms": [
+                  {
+                    "es": "conducción preventiva",
+                    "en": "defensive driving"
+                  },
+                  {
+                    "es": "gestión del espacio",
+                    "en": "space management"
+                  }
+                ],
+                "src": "DGT guidance (Guía para monitores de cursos de conducción segura y eficiente de turismos, DGT 2023)"
+              }
             }
           ]
         }
@@ -6743,7 +7495,11 @@
         "DGT guidance (revista DGT): Los vehículos para los exámenes, con ADAS (2019); ADAS para camiones y autobuses (2025)",
         "DGT guidance (Instrucción COND 2024/12, ADAS en las pruebas de aptitud, dgt.es, 2024)",
         "DGT guidance (Manual II, Cuestiones de Seguridad Vial, DGT 2026, UD8)",
-        "DGT guidance (Teórica abreviada, lectura fácil, DGT 2023, tema 5)"
+        "DGT guidance (Teórica abreviada, lectura fácil, DGT 2023, tema 5)",
+        "Reglamento General de Vehículos (RD 2822/1998), art. 7.3",
+        "DGT guidance (Instrucción 19/V-136, ADAS aftermarket, dgt.es, 2019)",
+        "DGT guidance (revista DGT): Tecnología contra el mal tiempo (2014)",
+        "DGT guidance (Guía para monitores de cursos de conducción segura y eficiente de turismos, DGT 2023)"
       ]
     },
     {

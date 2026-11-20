@@ -443,6 +443,50 @@
                 ],
                 "src": "RGC art. 94.1.a y 94.2.a"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c1k",
+                "answer": 2,
+                "es": {
+                  "q": "En un cambio de rasante con buena visibilidad no hay ninguna señal ni marca que lo prohíba. ¿Está prohibido parar allí?",
+                  "options": [
+                    "Sí, en todo cambio de rasante está prohibido parar.",
+                    "No, salvo que la parada supere los dos minutos.",
+                    "No. Solo se prohíbe si la visibilidad es reducida."
+                  ],
+                  "why": "Se prohíbe parar en las curvas y los cambios de rasante de visibilidad reducida, y cerca de ellos. Con buena visibilidad, esa prohibición no se aplica."
+                },
+                "exam": {
+                  "q": "On a change of gradient with good visibility there is no sign or marking that prohibits it. Is it prohibited to stop there?",
+                  "options": [
+                    "Yes, on every change of gradient it is prohibited to stop.",
+                    "No, except if the stop exceeds two minutes.",
+                    "No. It is only prohibited if the visibility is reduced."
+                  ]
+                },
+                "en": {
+                  "q": "On a crest with good visibility, no sign or marking bans it. Is stopping there banned?",
+                  "options": [
+                    "Yes, stopping is banned on every crest",
+                    "No, unless the stop goes past two minutes",
+                    "No. It is banned only where visibility is reduced"
+                  ],
+                  "why": "Stopping is banned on curves and crests with reduced visibility, and near them. With good visibility, that ban does not apply."
+                },
+                "terms": [
+                  {
+                    "es": "cambio de rasante",
+                    "en": "crest (change of gradient)"
+                  },
+                  {
+                    "es": "visibilidad reducida",
+                    "en": "reduced visibility"
+                  }
+                ],
+                "src": "RGC art. 94.1.a"
+              }
             }
           ]
         },
@@ -973,6 +1017,58 @@
               }
             },
             {
+              "t": "rule",
+              "text": {
+                "es": "Que la **línea de borde** de la calzada sea continua o discontinua no cambia las normas sobre el uso del arcén.",
+                "en": "Whether the **edge line** of the carriageway is solid or broken does not change the rules on using the shoulder."
+              },
+              "src": "RGC Anexo I, ap. 5.2 (M-2.5 a M-2.7)"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c2w",
+                "answer": 1,
+                "es": {
+                  "q": "Fuera de poblado, la línea del borde de la calzada es discontinua. ¿Puede parar o estacionar sobre la parte transitable de ese arcén?",
+                  "options": [
+                    "Sí, porque esa línea discontinua lo permite.",
+                    "No.",
+                    "Sí, si enciende la luz de emergencia."
+                  ],
+                  "why": "Fuera de poblado se para y se estaciona fuera de la calzada, y la parte transitable del arcén queda libre. Que la línea de borde sea discontinua no cambia esa norma."
+                },
+                "exam": {
+                  "q": "Outside a town, the edge line of the carriageway is discontinuous. Can you stop or park upon the transitable part of that hard shoulder?",
+                  "options": [
+                    "Yes, because that discontinuous line permits it.",
+                    "No.",
+                    "Yes, if you switch on the emergency light."
+                  ]
+                },
+                "en": {
+                  "q": "Outside a town, the edge line of the roadway is broken. May you stop or park on the drivable part of that shoulder?",
+                  "options": [
+                    "Yes, because that broken line allows it",
+                    "No",
+                    "Yes, if you turn on your hazard lights"
+                  ],
+                  "why": "Outside towns you stop and park off the roadway, keeping the drivable strip of the shoulder clear. A broken edge line does not change that rule."
+                },
+                "terms": [
+                  {
+                    "es": "línea de borde",
+                    "en": "edge line"
+                  },
+                  {
+                    "es": "parte transitable del arcén",
+                    "en": "usable part of the shoulder"
+                  }
+                ],
+                "src": "RGC art. 90.1; RGC Anexo I, ap. 5.2 (M-2.5 a M-2.7)"
+              }
+            },
+            {
               "t": "check",
               "q": {
                 "id": "situations-c2f",
@@ -1055,6 +1151,50 @@
                   {
                     "es": "vía urbana",
                     "en": "urban road"
+                  }
+                ],
+                "src": "RGC art. 90.2"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c2y",
+                "answer": 0,
+                "es": {
+                  "q": "En poblado, una calle de doble sentido no tiene señales ni marcas que prohíban estacionar. ¿En qué lado puede dejar el coche?",
+                  "options": [
+                    "En el derecho, según su sentido de marcha",
+                    "En cualquiera de los dos lados, si no estorba",
+                    "En el izquierdo, si allí hay más sitio libre"
+                  ],
+                  "why": "En vías urbanas, el vehículo se sitúa lo más cerca posible del borde derecho. Solo en las calles de sentido único puedes usar también el lado izquierdo."
+                },
+                "exam": {
+                  "q": "In a town, a street of double direction has no signs or markings that prohibit parking. On which side can you leave the car?",
+                  "options": [
+                    "On the right one, according to your direction of travel.",
+                    "On either of the two sides, if it does not hinder.",
+                    "On the left one, if there is more free room there."
+                  ]
+                },
+                "en": {
+                  "q": "In town, a two-way street has no signs or markings that ban parking. On which side may you leave the car?",
+                  "options": [
+                    "On the right, for your direction of travel",
+                    "On either side, if it is not in the way",
+                    "On the left, where there is more space"
+                  ],
+                  "why": "On urban roads, place the vehicle as close as possible to the right edge. Only on one-way streets may you also use the left side."
+                },
+                "terms": [
+                  {
+                    "es": "doble sentido",
+                    "en": "two-way"
+                  },
+                  {
+                    "es": "sentido de marcha",
+                    "en": "direction of travel"
                   }
                 ],
                 "src": "RGC art. 90.2"
@@ -1783,6 +1923,98 @@
                   }
                 ],
                 "src": "RGC art. 94.2.e"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "En **doble fila** está prohibido estacionar. Parar no figura en esa prohibición, pero la parada nunca debe obstaculizar la circulación ni crear riesgo, y debe dejar al menos tres metros libres.",
+                "en": "**Double parking** is banned. Stopping is not part of that ban, but a stop must never obstruct traffic or create a risk, and it must leave at least three meters free."
+              },
+              "src": "RGC arts. 94.2.g, 91.1 y 91.2.a"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c2u",
+                "answer": 1,
+                "es": {
+                  "q": "Detiene su turismo en doble fila para que baje un pasajero y se queda al volante. Quedan más de tres metros libres y no estorba a nadie. ¿Comete una infracción?",
+                  "options": [
+                    "Sí, en doble fila está prohibido incluso parar",
+                    "No: es una parada, y en doble fila se prohíbe estacionar",
+                    "No, siempre que antes encienda la luz de emergencia"
+                  ],
+                  "why": "En doble fila se prohíbe estacionar. Una parada breve, contigo al volante, sin estorbar y dejando tres metros libres, no está prohibida."
+                },
+                "exam": {
+                  "q": "You halt your passenger car in double row so that a passenger gets out and you remain at the wheel. More than three metres remain free and you do not hinder anybody. Do you commit an infraction?",
+                  "options": [
+                    "Yes, in double row it is prohibited even to stop.",
+                    "No: it is a stop, and in double row parking is prohibited.",
+                    "No, provided that you first switch on the emergency light."
+                  ]
+                },
+                "en": {
+                  "q": "You pull up alongside parked cars to let a passenger out and stay at the wheel. More than three meters are left free and you block no one. Is it an offense?",
+                  "options": [
+                    "Yes, you may not even stop there",
+                    "No: it is a stop, and only parking is banned there",
+                    "No, as long as you turn on your hazard lights first"
+                  ],
+                  "why": "Double parking is banned. A brief stop, with you at the wheel, blocking no one and leaving three meters free, is not."
+                },
+                "terms": [
+                  {
+                    "es": "doble fila",
+                    "en": "double parking (second row)"
+                  },
+                  {
+                    "es": "parada",
+                    "en": "stop (under two minutes, driver stays)"
+                  }
+                ],
+                "src": "RGC arts. 94.2.g y 91.2.a"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c2v",
+                "answer": 2,
+                "es": {
+                  "q": "Delante de un vado señalizado, para unos segundos sin bajarse del coche. Nadie necesita entrar ni salir. ¿Qué dice la norma?",
+                  "options": [
+                    "Que delante de un vado está prohibido incluso parar",
+                    "Que puede quedarse dos minutos aunque alguien quiera salir",
+                    "Que es una parada permitida, porque no impide usar el vado"
+                  ],
+                  "why": "Delante de un vado se prohíbe estacionar. Parar no está prohibido, pero si impides entrar o salir por el vado, la parada obstaculiza gravemente la circulación."
+                },
+                "exam": {
+                  "q": "In front of a correctly signposted dropped kerb, you stop for a few seconds without getting out of the car. Nobody needs to enter or exit. What does the norm say?",
+                  "options": [
+                    "That in front of a dropped kerb it is prohibited even to stop.",
+                    "That you can remain two minutes even if somebody wants to exit.",
+                    "That it is a permitted stop, because it does not impede using the dropped kerb."
+                  ]
+                },
+                "en": {
+                  "q": "You stop for a few seconds, without getting out, in front of a marked driveway. Nobody needs to get in or out. What does the rule say?",
+                  "options": [
+                    "You may not even stop in front of a driveway",
+                    "You may stay two minutes even if someone wants out",
+                    "It is an allowed stop, since it does not block the driveway"
+                  ],
+                  "why": "Parking in front of a marked driveway is banned. Stopping is not, but if you keep anyone from getting in or out, the stop seriously obstructs traffic."
+                },
+                "terms": [
+                  {
+                    "es": "vado",
+                    "en": "marked driveway (dropped curb)"
+                  }
+                ],
+                "src": "RGC arts. 94.2.f y 91.2.c"
               }
             }
           ]
@@ -2570,6 +2802,50 @@
                   {
                     "es": "incorporarse",
                     "en": "to merge"
+                  }
+                ],
+                "src": "RGC art. 72.4"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c3y",
+                "answer": 0,
+                "es": {
+                  "q": "Al llegar al final del carril de aceleración, el conductor que se incorpora a la autovía debe llevar…",
+                  "options": [
+                    "la velocidad adecuada para entrar en la calzada.",
+                    "la velocidad máxima de la vía, para no estorbar.",
+                    "una velocidad muy baja, para poder detenerse allí."
+                  ],
+                  "why": "Al principio del carril compruebas que puedes entrar sin peligro. Después aceleras hasta la velocidad adecuada al final del carril y te incorporas a la circulación."
+                },
+                "exam": {
+                  "q": "On arriving at the final part of the acceleration lane, the driver who enters the dual carriageway must carry…",
+                  "options": [
+                    "the adequate speed to enter the carriageway.",
+                    "the speed limit of the road, so as not to hinder.",
+                    "a very low speed, to be able to halt there."
+                  ]
+                },
+                "en": {
+                  "q": "As you finish the acceleration lane to merge onto the expressway, you should be going…",
+                  "options": [
+                    "at a suitable speed for joining the roadway",
+                    "at the road's top speed, to avoid slowing anyone",
+                    "very slowly, so you can stop there"
+                  ],
+                  "why": "At the start of the lane you check that you can merge safely. Then you speed up to a suitable speed by the end of the lane and join the traffic."
+                },
+                "terms": [
+                  {
+                    "es": "carril de aceleración",
+                    "en": "acceleration lane"
+                  },
+                  {
+                    "es": "incorporarse",
+                    "en": "merge, join traffic"
                   }
                 ],
                 "src": "RGC art. 72.4"
@@ -3787,6 +4063,59 @@
                 ],
                 "src": "RGC art. 95.6"
               }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Está prohibido **cambiar de sentido** en los túneles, en los pasos inferiores y en los tramos de vía afectados por la señal «Túnel».",
+                "en": "**U-turns** are banned in tunnels, in underpasses and on stretches of road covered by the «Túnel» (tunnel) sign."
+              },
+              "src": "RGC art. 79.1"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c4j",
+                "answer": 1,
+                "es": {
+                  "q": "¿Está permitido cambiar de sentido en el tramo de vía afectado por esta señal?",
+                  "options": [
+                    "Sí, si hay buena visibilidad en los dos sentidos.",
+                    "No.",
+                    "Sí, si lo hace sin usar la marcha atrás."
+                  ],
+                  "why": "Esta señal (S-5) indica el principio de un túnel, de un paso inferior o de un tramo equiparado a túnel. En todo ese tramo está prohibido cambiar de sentido."
+                },
+                "exam": {
+                  "q": "Is it permitted to turn back in the stretch of road affected by this sign?",
+                  "options": [
+                    "Yes, if there is good visibility in both directions.",
+                    "No.",
+                    "Yes, if you do it without using the reverse gear."
+                  ]
+                },
+                "en": {
+                  "q": "May you turn around on the stretch of road where this sign applies?",
+                  "options": [
+                    "Yes, if you can see well in both directions",
+                    "No",
+                    "Yes, if you do it without backing up"
+                  ],
+                  "why": "This sign (S-5) marks the start of a tunnel, an underpass or a stretch treated as a tunnel. Turning around is banned along that whole stretch."
+                },
+                "terms": [
+                  {
+                    "es": "cambiar de sentido",
+                    "en": "turn around (U-turn)"
+                  },
+                  {
+                    "es": "túnel",
+                    "en": "tunnel"
+                  }
+                ],
+                "src": "RGC art. 79.1; RGC Anexo I, ap. 5.1 (S-5)",
+                "sign": "s-5"
+              }
             }
           ]
         },
@@ -4160,6 +4489,50 @@
                   }
                 ],
                 "src": "RGC art. 97.3.f"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c4k",
+                "answer": 2,
+                "es": {
+                  "q": "Una emergencia le obliga a quedarse inmovilizado dentro de un túnel. ¿Qué pide el reglamento sobre el motor y las luces?",
+                  "options": [
+                    "Dejar el motor en marcha y encender la luz de cruce",
+                    "Apagar el motor y todas las luces, salvo la de emergencia",
+                    "Parar el motor, conectar la emergencia y mantener las de posición"
+                  ],
+                  "why": "Si una emergencia te inmoviliza en un túnel, apaga el motor, conecta la señal de emergencia y deja encendidas las luces de posición. Luego sigue los demás pasos del reglamento."
+                },
+                "exam": {
+                  "q": "An emergency obliges you to remain immobilised inside a tunnel. What does the regulation require regarding the engine and the lights?",
+                  "options": [
+                    "To keep the engine on and switch on the dipped beam.",
+                    "To switch off the engine and all the lights, except the emergency one.",
+                    "To stop the engine, connect the emergency signal and keep the position lights."
+                  ]
+                },
+                "en": {
+                  "q": "An emergency leaves you stuck inside a tunnel. What do the rules say about the engine and the lights?",
+                  "options": [
+                    "Keep the engine on and switch on the low beams",
+                    "Turn off the engine and every light except the hazard lights",
+                    "Stop the engine, with hazard and position lights both on"
+                  ],
+                  "why": "If an emergency leaves you stuck in a tunnel, stop the engine, switch on the hazard lights and keep the position lights lit. Then follow the other steps in the rules."
+                },
+                "terms": [
+                  {
+                    "es": "señal de emergencia",
+                    "en": "hazard lights"
+                  },
+                  {
+                    "es": "luces de posición",
+                    "en": "position (parking) lights"
+                  }
+                ],
+                "src": "RGC art. 97.3.a"
               }
             }
           ]
@@ -5240,6 +5613,50 @@
                   {
                     "es": "deslumbrar",
                     "en": "to dazzle"
+                  }
+                ],
+                "src": "RGC art. 109.3"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "situations-c6e",
+                "answer": 0,
+                "es": {
+                  "q": "Dentro de poblado, ¿se pueden hacer destellos con las luces en lugar de usar la bocina?",
+                  "options": [
+                    "Sí, para los mismos avisos que permite la bocina.",
+                    "No, en poblado solo se avisa con la bocina.",
+                    "Solo de noche, con la luz de largo alcance."
+                  ],
+                  "why": "Los destellos pueden sustituir a la bocina en los mismos casos, también en poblado. Hazlos a intervalos muy cortos y sin deslumbrar."
+                },
+                "exam": {
+                  "q": "Within a town, is it possible to make flashes with the lights instead of using the horn?",
+                  "options": [
+                    "Yes, for the same warnings that the horn permits.",
+                    "No, in a town one only warns with the horn.",
+                    "Only at night, with the long-range light."
+                  ]
+                },
+                "en": {
+                  "q": "In town, may you flash your lights instead of using the horn?",
+                  "options": [
+                    "Yes, for the same warnings the horn is allowed for",
+                    "No, in town you may warn only with the horn",
+                    "Only at night, with the high beams"
+                  ],
+                  "why": "Flashing your lights can replace the horn in the same cases, in town too. Flash at very short intervals and without dazzling anyone."
+                },
+                "terms": [
+                  {
+                    "es": "destellos",
+                    "en": "flashes of light"
+                  },
+                  {
+                    "es": "poblado",
+                    "en": "town, built-up area"
                   }
                 ],
                 "src": "RGC art. 109.3"

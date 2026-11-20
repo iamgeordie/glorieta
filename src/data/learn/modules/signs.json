@@ -3001,6 +3001,14 @@
               }
             },
             {
+              "t": "rule",
+              "text": {
+                "es": "Una **luz roja fija** indica que la calzada está totalmente cerrada al tránsito. Una fila de **luces amarillas**, fijas o intermitentes, prohíbe pasar por la línea imaginaria que las une.",
+                "en": "A **steady red light** means the roadway is fully closed to traffic. A row of **yellow lights**, steady or flashing, forbids crossing the imaginary line that joins them."
+              },
+              "src": "RGC Anexo I, ap. 3.1.1"
+            },
+            {
               "t": "check",
               "q": {
                 "id": "signs-road-f",
@@ -3082,6 +3090,94 @@
                   }
                 ],
                 "src": "RGC art. 133.1 y Anexo I, ap. 3.1.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-road-zf",
+                "answer": 1,
+                "es": {
+                  "q": "En una obra, una fila de luces amarillas intermitentes cruza el carril. ¿Se puede pasar entre ellas?",
+                  "options": [
+                    "Sí: al ser intermitentes, solo piden pasar con precaución",
+                    "No, sean fijas o intermitentes",
+                    "Sí, si no hay ningún operario trabajando cerca"
+                  ],
+                  "why": "Las luces amarillas de balizamiento, fijas o intermitentes, prohíben pasar por la línea imaginaria que las une. Que parpadeen no cambia nada."
+                },
+                "exam": {
+                  "q": "In some roadworks, a row of flashing yellow lights crosses the lane. Is it possible to pass between them?",
+                  "options": [
+                    "Yes: being flashing, they only ask to pass with caution.",
+                    "No, be they fixed or intermittent.",
+                    "Yes, if there is no worker working nearby."
+                  ]
+                },
+                "en": {
+                  "q": "At roadworks, a row of flashing yellow lights runs across the lane. May you drive between them?",
+                  "options": [
+                    "Yes: flashing lights only ask you to take care",
+                    "No, whether they are steady or flashing",
+                    "Yes, if no workers are nearby"
+                  ],
+                  "why": "Yellow beacon lights, steady or flashing, forbid crossing the imaginary line between them. Flashing does not change that."
+                },
+                "terms": [
+                  {
+                    "es": "luces amarillas intermitentes",
+                    "en": "flashing yellow lights"
+                  },
+                  {
+                    "es": "balizamiento",
+                    "en": "beacons, road delineation"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 3.1.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-road-zg",
+                "answer": 2,
+                "es": {
+                  "q": "Una luz roja fija colocada como balizamiento en la vía indica que…",
+                  "options": [
+                    "se debe parar y esperar a que cambie a verde",
+                    "se debe reducir la velocidad porque hay obras",
+                    "la calzada está totalmente cerrada al tránsito"
+                  ],
+                  "why": "Como elemento de balizamiento, una luz roja fija indica que la calzada está totalmente cerrada al tránsito. No es un semáforo que vaya a cambiar."
+                },
+                "exam": {
+                  "q": "A fixed red light placed as beaconing on the road indicates that…",
+                  "options": [
+                    "you must stop and wait for it to change to green.",
+                    "you must reduce the speed because there are works.",
+                    "the carriageway is totally closed to transit."
+                  ]
+                },
+                "en": {
+                  "q": "A steady red light set up as a road beacon means that…",
+                  "options": [
+                    "you must stop and wait for it to turn green",
+                    "you must slow down because of roadworks",
+                    "the roadway is fully closed to traffic"
+                  ],
+                  "why": "As a beacon, a steady red light means the roadway is fully closed to traffic. It is not a traffic light that will change."
+                },
+                "terms": [
+                  {
+                    "es": "luz roja fija",
+                    "en": "steady red light"
+                  },
+                  {
+                    "es": "cerrada al tránsito",
+                    "en": "closed to traffic"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 3.1.1"
               }
             }
           ]
@@ -8952,6 +9048,50 @@
                 ],
                 "src": "RGC Anexo I, ap. 5.2 (marcas viales), 4.1"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-mark-v",
+                "answer": 0,
+                "es": {
+                  "q": "La línea de borde de calzada de una carretera es continua. ¿Se puede pisar para usar el arcén?",
+                  "options": [
+                    "Sí, si es necesario usar el arcén",
+                    "No: solo se puede pisar si es discontinua",
+                    "No, ni siquiera en una emergencia"
+                  ],
+                  "why": "Las líneas de borde quedan fuera de la regla de la línea continua: pueden pisarse cuando hay que usar el arcén. Que sean continuas o discontinuas no cambia el uso del arcén."
+                },
+                "exam": {
+                  "q": "The edge line of the carriageway of a road is continuous. Is it possible to step on it in order to use the hard shoulder?",
+                  "options": [
+                    "Yes, if it is necessary to use the hard shoulder.",
+                    "No: it can only be stepped on if it is dashed.",
+                    "No, not even in an emergency."
+                  ]
+                },
+                "en": {
+                  "q": "The edge line on a road is solid. May you drive over it to use the shoulder?",
+                  "options": [
+                    "Yes, if you need to use the shoulder",
+                    "No: only a broken edge line may be crossed",
+                    "No, not even in an emergency"
+                  ],
+                  "why": "Edge lines are an exception to the solid-line rule: you may cross them when you need the shoulder. Solid or broken, they do not change how the shoulder may be used."
+                },
+                "terms": [
+                  {
+                    "es": "línea de borde de calzada",
+                    "en": "edge line"
+                  },
+                  {
+                    "es": "arcén",
+                    "en": "hard shoulder"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.2 (marcas viales), 4.1"
+              }
             }
           ]
         },
@@ -9398,6 +9538,50 @@
                 ],
                 "src": "RGC Anexo I, ap. 5.2 (marcas viales), 4.2"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-mark-w",
+                "answer": 1,
+                "es": {
+                  "q": "Unas franjas blancas anchas, paralelas al eje de la calzada, forman un conjunto que la cruza de lado a lado. ¿Qué indican?",
+                  "options": [
+                    "Una zona en la que no se puede entrar con el vehículo",
+                    "Un paso para peatones: hay que dejarles pasar",
+                    "Que hay que detenerse siempre, haya o no peatones"
+                  ],
+                  "why": "Esas bandas paralelas al eje, en conjunto transversal, son la marca de paso para peatones: los conductores deben dejarles paso. Solo hay que detenerse si hay peatones que cruzan o van a cruzar."
+                },
+                "exam": {
+                  "q": "Some wide white strips, parallel to the axis of the carriageway, form a set that crosses it from side to side. What do they indicate?",
+                  "options": [
+                    "A zone in which it is not possible to enter with the vehicle.",
+                    "A crossing for pedestrians: you must let them pass.",
+                    "That you must always stop, whether there are pedestrians or not."
+                  ]
+                },
+                "en": {
+                  "q": "Wide white stripes, parallel to the center of the road, form a band running across it from side to side. What do they mean?",
+                  "options": [
+                    "An area you may not drive into",
+                    "A pedestrian crossing: you must let pedestrians cross",
+                    "That you must always stop, with or without pedestrians"
+                  ],
+                  "why": "Stripes parallel to the road center, forming a band across it, are the pedestrian crossing marking: drivers must let pedestrians cross. You stop only when someone is crossing or about to."
+                },
+                "terms": [
+                  {
+                    "es": "paso para peatones",
+                    "en": "pedestrian crossing"
+                  },
+                  {
+                    "es": "eje de la calzada",
+                    "en": "center line of the roadway"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.2 (marcas viales), 4.2"
+              }
             }
           ]
         },
@@ -9656,6 +9840,14 @@
               "src": "RGC Anexo I, ap. 5.2 (marcas viales), 4.7"
             },
             {
+              "t": "rule",
+              "text": {
+                "es": "La **marca de paso a nivel** pintada en la calzada anuncia que se acerca un paso a nivel con una vía de tren o de tranvía. En él debes ceder el paso cuando se acerque un tren o un tranvía.",
+                "en": "The **level-crossing marking** painted on the road announces a level crossing with a railway or tram line ahead. There you must yield when a train or tram is coming."
+              },
+              "src": "RGC Anexo I, ap. 5.2 (marcas viales), 4.7"
+            },
+            {
               "t": "check",
               "q": {
                 "id": "signs-mark-h",
@@ -9778,6 +9970,50 @@
                 ],
                 "src": "RGC Anexo I, ap. 5.2 (marcas viales), 4.7"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-mark-x",
+                "answer": 2,
+                "es": {
+                  "q": "En la calzada está pintada la marca de paso a nivel. En ese paso, el conductor debe…",
+                  "options": [
+                    "detenerse siempre por completo, venga o no un tren",
+                    "ceder el paso solo si el paso a nivel no tiene barreras",
+                    "ceder el paso si se acerca un tren o un tranvía"
+                  ],
+                  "why": "La marca de paso a nivel anuncia un paso con una vía de tren o de tranvía. En él cedes el paso cuando se acerca un tren o un tranvía, tenga barreras o no."
+                },
+                "exam": {
+                  "q": "On the carriageway the level crossing mark is painted. In that crossing, the driver must…",
+                  "options": [
+                    "always stop completely, whether a train comes or not.",
+                    "yield way only if the level crossing has no barriers.",
+                    "yield way if a train or a tram approaches."
+                  ]
+                },
+                "en": {
+                  "q": "The level-crossing marking is painted on the road. At that crossing, the driver must…",
+                  "options": [
+                    "always come to a full stop, train or no train",
+                    "yield only if the crossing has no barriers",
+                    "yield if a train or tram is coming"
+                  ],
+                  "why": "The level-crossing marking announces a crossing with a railway or tram line. There you yield when a train or tram is coming, with or without barriers."
+                },
+                "terms": [
+                  {
+                    "es": "paso a nivel",
+                    "en": "level crossing"
+                  },
+                  {
+                    "es": "tranvía",
+                    "en": "tram"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.2 (marcas viales), 4.7"
+              }
             }
           ]
         },
@@ -9855,6 +10091,21 @@
               "src": "RGC art. 91.2.a"
             },
             {
+              "t": "rule",
+              "text": {
+                "es": "Las **marcas de estacionamiento** delimitan las plazas o zonas para estacionar y la posición del vehículo en ellas. Además de blancas, pueden ser de otros colores o llevar pictogramas para indicar una limitación: de tiempo, por tipo de usuario o para un fin concreto, como una plaza para personas con movilidad reducida.",
+                "en": "Parking markings outline the spaces or areas for parking and how the vehicle sits in them. Besides white, they can be other colors or carry pictograms to show a limit: on time, on who may park, or for a set purpose, such as a space for people with reduced mobility."
+              },
+              "src": "RGC Anexo I, ap. 5.2 (marcas viales), 4.7"
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "El color de las plazas no te dice la regla exacta. Busca la señal o el panel de la zona: ahí están el horario y el tiempo máximo.",
+                "en": "The color of the bays does not tell you the exact rule. Look for the zone’s sign or panel: it gives the hours and the time limit."
+              }
+            },
+            {
               "t": "check",
               "q": {
                 "id": "signs-mark-j",
@@ -9889,6 +10140,50 @@
                   {
                     "es": "bordillo",
                     "en": "curb"
+                  }
+                ],
+                "src": "RGC Anexo I, ap. 5.2 (marcas viales), 4.7"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "signs-mark-y",
+                "answer": 0,
+                "es": {
+                  "q": "Las marcas que delimitan unas plazas de estacionamiento no son blancas, sino de otro color. Como norma general, eso indica que…",
+                  "options": [
+                    "el estacionamiento tiene alguna limitación, por ejemplo de tiempo",
+                    "está prohibido estacionar en ellas a cualquier hora",
+                    "se puede estacionar sin ninguna limitación, igual que en las blancas"
+                  ],
+                  "why": "Las marcas de estacionamiento pueden ser de otros colores, o llevar pictogramas, para indicar una limitación de tiempo, de usuario o de uso. Las señales de la zona dicen cuál."
+                },
+                "exam": {
+                  "q": "The marks that delimit some parking places are not white, but of another colour. As a general rule, that indicates that…",
+                  "options": [
+                    "the parking has some limitation, for example of time.",
+                    "parking in them is prohibited at any hour.",
+                    "it is possible to park without any limitation, the same as in the white ones."
+                  ]
+                },
+                "en": {
+                  "q": "The lines marking out some parking bays are not white but another color. As a rule, that means…",
+                  "options": [
+                    "parking there has some limit, on time for example",
+                    "parking there is banned at all hours",
+                    "you may park with no limit, as in white bays"
+                  ],
+                  "why": "Parking markings may come in other colors, or carry pictograms, to show a limit on time, on who may park, or on purpose. The zone’s signs say which."
+                },
+                "terms": [
+                  {
+                    "es": "plaza de estacionamiento",
+                    "en": "parking space"
+                  },
+                  {
+                    "es": "limitación",
+                    "en": "limit, restriction"
                   }
                 ],
                 "src": "RGC Anexo I, ap. 5.2 (marcas viales), 4.7"

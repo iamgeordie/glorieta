@@ -2730,6 +2730,50 @@
               }
             },
             {
+              "t": "check",
+              "q": {
+                "id": "equipment-c3za",
+                "answer": 1,
+                "es": {
+                  "q": "De noche, con la luz de carretera encendida, se acerca por detrás a un turismo que circula en su mismo sentido. ¿Puede deslumbrar a su conductor?",
+                  "options": [
+                    "No, solo se deslumbra a quien viene de frente",
+                    "Sí, por el retrovisor; debe poner la luz de cruce",
+                    "Sí, pero solo cuando el asfalto mojado refleja la luz"
+                  ],
+                  "why": "Sí. La luz de carretera también deslumbra a quien va delante en tu mismo sentido, a través de su retrovisor. Cambia a la de cruce igual que con quien viene de frente."
+                },
+                "en": {
+                  "q": "With the high beam on after dark, a driver comes up behind a car going the same way. Can the high beam dazzle that car’s driver?",
+                  "options": [
+                    "No, only oncoming drivers can be dazzled",
+                    "Yes, through the mirror, so switch to the low beam",
+                    "Yes, but only when wet asphalt reflects the light"
+                  ],
+                  "why": "Yes. The high beam also dazzles drivers ahead going your way, through their mirror. Switch to the low beam, just as you would for oncoming traffic."
+                },
+                "exam": {
+                  "q": "At night, with the long-range light switched on, you approach from behind a passenger car which circulates in your same direction. Can you dazzle its driver?",
+                  "options": [
+                    "No, only those who come from the front are dazzled.",
+                    "Yes, through the rear-view mirror; you must put the dipped light.",
+                    "Yes, but only when the wet asphalt reflects the light."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "espejo retrovisor",
+                    "en": "rear-view mirror"
+                  },
+                  {
+                    "es": "deslumbrar",
+                    "en": "to dazzle"
+                  }
+                ],
+                "src": "RGC art. 102.2"
+              }
+            },
+            {
               "t": "rule",
               "text": {
                 "es": "Si **te** deslumbran, reduce la velocidad lo necesario, incluso hasta detenerte. Así no chocas con vehículos o peatones que van en tu sentido.",
@@ -2923,6 +2967,58 @@
                 ],
                 "src": "RGC art. 102.1"
               }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Para sustituir al claxon, puedes avisar con **destellos** de la luz de cruce o de carretera, o de las dos alternando, a intervalos muy cortos y sin deslumbrar. Vale también **en poblado**.",
+                "en": "Instead of using the horn, you may warn with **flashes** of the low or high beam, or both alternately, at very short intervals and without dazzling anyone. This applies **in towns** too."
+              },
+              "src": "RGC art. 109.3"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c3zc",
+                "answer": 2,
+                "es": {
+                  "q": "Un conductor quiere avisar a otro con destellos de la luz de cruce en lugar de usar el claxon. ¿Dónde está permitido?",
+                  "options": [
+                    "Solo en vías interurbanas, donde la luz alcanza más",
+                    "Solo en poblado, donde el claxon está más limitado",
+                    "En poblado y también fuera de poblado"
+                  ],
+                  "why": "Los destellos pueden sustituir al claxon dentro y fuera de poblado, con la luz de cruce, la de carretera o las dos, a intervalos muy cortos y sin deslumbrar."
+                },
+                "en": {
+                  "q": "A driver wants to warn another by flashing the low beam instead of using the horn. Where is this allowed?",
+                  "options": [
+                    "Only on open roads, where the light reaches farther",
+                    "Only in towns, where the horn is more restricted",
+                    "Both in towns and outside them"
+                  ],
+                  "why": "Flashes may take the place of the horn both in and outside towns, with the low beam, the high beam or both, at very short intervals and without dazzling."
+                },
+                "exam": {
+                  "q": "A driver wants to warn another one with flashes of the dipped light instead of using the horn. Where is it permitted?",
+                  "options": [
+                    "Only on interurban roads, where the light reaches more.",
+                    "Only in town, where the horn is more limited.",
+                    "In town and also outside town."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "destellos",
+                    "en": "flashes"
+                  },
+                  {
+                    "es": "en poblado",
+                    "en": "in a built-up area, in town"
+                  }
+                ],
+                "src": "RGC art. 109.3"
+              }
             }
           ]
         },
@@ -3017,6 +3113,50 @@
                   {
                     "es": "antiniebla trasera",
                     "en": "rear fog light"
+                  }
+                ],
+                "src": "RGC art. 106.2"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c3zd",
+                "answer": 0,
+                "es": {
+                  "q": "Cae una nevada fuerte y la visibilidad es muy escasa. ¿Está permitido poner la luz antiniebla trasera?",
+                  "options": [
+                    "Sí, una fuerte nevada es uno de esos casos",
+                    "No, la trasera solo se usa con niebla espesa",
+                    "No, solo se usa en túneles mal iluminados"
+                  ],
+                  "why": "Sí. La antiniebla trasera es para condiciones especialmente desfavorables: niebla espesa, lluvia muy intensa, fuerte nevada o nubes densas de polvo o humo."
+                },
+                "en": {
+                  "q": "Snow is falling heavily and you can see very little. May the rear fog light be switched on?",
+                  "options": [
+                    "Yes, heavy snow is one of those cases",
+                    "No, the rear one is only for thick fog",
+                    "No, it is only for poorly lit tunnels"
+                  ],
+                  "why": "Yes. The rear fog light is for especially bad conditions: thick fog, very heavy rain, heavy snow or dense clouds of dust or smoke."
+                },
+                "exam": {
+                  "q": "A heavy snowfall is falling and visibility is very scarce. Is it permitted to put on the rear fog light?",
+                  "options": [
+                    "Yes, a heavy snowfall is one of those cases.",
+                    "No, the rear one is only used with thick fog.",
+                    "No, it is only used in badly lit tunnels."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "luz antiniebla trasera",
+                    "en": "rear fog light"
+                  },
+                  {
+                    "es": "nevada",
+                    "en": "snowfall"
                   }
                 ],
                 "src": "RGC art. 106.2"
@@ -3275,6 +3415,50 @@
                   {
                     "es": "sidecar",
                     "en": "sidecar"
+                  }
+                ],
+                "src": "RGV Anexo X, ap. 2"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c3ze",
+                "answer": 1,
+                "es": {
+                  "q": "Un motorista quiere desmontar la luz de carretera de su moto y dejar solo la de cruce. ¿Lo permite el reglamento de vehículos?",
+                  "options": [
+                    "Sí, en motos la luz de carretera es opcional",
+                    "No, es obligatoria: una o dos luces",
+                    "Sí, si su cilindrada es de 125 cm³ o menos"
+                  ],
+                  "why": "No. Toda motocicleta, sea cual sea su cilindrada, lleva delante luz de cruce y luz de carretera, una o dos de cada."
+                },
+                "en": {
+                  "q": "A rider wants to remove the high beam from the motorcycle and keep only the low beam. Do the vehicle rules allow it?",
+                  "options": [
+                    "Yes, on motorcycles the high beam is optional",
+                    "No, it is compulsory: one or two lights",
+                    "Yes, if its engine is 125 cc or less"
+                  ],
+                  "why": "No. Every motorcycle, whatever its engine size, has a low beam and a high beam at the front, one or two of each."
+                },
+                "exam": {
+                  "q": "A motorcyclist wants to dismount the long-range light of his motorcycle and leave only the dipped one. Does the vehicles regulation permit it?",
+                  "options": [
+                    "Yes, on motorcycles the long-range light is optional.",
+                    "No, it is compulsory: one or two lights.",
+                    "Yes, if its cylinder capacity is 125 cm³ or less."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "luz de carretera",
+                    "en": "high beam"
+                  },
+                  {
+                    "es": "cilindrada",
+                    "en": "engine size"
                   }
                 ],
                 "src": "RGV Anexo X, ap. 2"
@@ -3744,7 +3928,8 @@
         "RGC arts. 100 y 101",
         "DGT guidance: Campaña de control y vigilancia de furgonetas (2023); revista DGT «Las tecnologías, al rescate» (2016)",
         "Reglamento General de Vehículos (RD 2822/1998), art. 17",
-        "DGT, Manual del permiso B en lectura fácil (2023), Tema 5"
+        "DGT, Manual del permiso B en lectura fácil (2023), Tema 5",
+        "Reglamento General de Circulación (RD 1428/2003), arts. 102 y 109.3"
       ]
     },
     {
@@ -3897,6 +4082,50 @@
                 ],
                 "src": "RGC Anexo I, ap. 5.1, 3.6 (R-413)",
                 "sign": "r-413"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c4q",
+                "answer": 2,
+                "es": {
+                  "q": "Un motorista circula de día, con sol, por una calle de la ciudad. ¿Qué luz debe llevar encendida?",
+                  "options": [
+                    "Ninguna, porque es de día y está en poblado",
+                    "La de cruce, pero solo en autopistas y autovías",
+                    "La de cruce, en cualquier tipo de vía"
+                  ],
+                  "why": "La moto lleva encendida de día la luz de cruce en cualquier vía, también en ciudad."
+                },
+                "en": {
+                  "q": "A motorcyclist rides by day, in sunshine, along a city street. Which light must be on?",
+                  "options": [
+                    "None, because it is daytime and in town",
+                    "The low beam, but only on freeways and expressways",
+                    "The low beam, on any kind of road"
+                  ],
+                  "why": "A motorcycle has its low beam on by day on every road, in town too."
+                },
+                "exam": {
+                  "q": "A motorcyclist circulates by day, with sun, along a street of the city. Which light must he carry switched on?",
+                  "options": [
+                    "None, because it is day and he is in town.",
+                    "The dipped light, but only on motorways and autovías.",
+                    "The dipped light, on any type of road."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "luz de cruce",
+                    "en": "low beam"
+                  },
+                  {
+                    "es": "poblado",
+                    "en": "town, built-up area"
+                  }
+                ],
+                "src": "RGC art. 104.a"
               }
             },
             {
@@ -4768,7 +4997,8 @@
         "RGC art. 41",
         "Ley de Tráfico y Seguridad Vial (RDL 6/2015), Anexo I, 13 y 14",
         "DGT, Manual del permiso B en lectura fácil (2023), Tema 7",
-        "Reglamento General de Circulación, Anexo I, ap. 5.1 (señal R-413, Catálogo de señales)"
+        "Reglamento General de Circulación, Anexo I, ap. 5.1 (señal R-413, Catálogo de señales)",
+        "RGC art. 104.a"
       ]
     },
     {
@@ -4925,6 +5155,13 @@
               }
             },
             {
+              "t": "p",
+              "text": {
+                "es": "La rueda de repuesto se pide al vehículo de motor. La norma de accesorios **no exige** una rueda de repuesto para el remolque.",
+                "en": "The spare wheel is required of the motor vehicle. The equipment rules **do not require** a spare wheel for the trailer."
+              }
+            },
+            {
               "t": "check",
               "q": {
                 "id": "equipment-c5g",
@@ -5062,6 +5299,94 @@
                   }
                 ],
                 "src": "RGV Anexo XII, apartado 1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c5s",
+                "answer": 0,
+                "es": {
+                  "q": "Un turismo nuevo no trae rueda de repuesto, sino un sistema antipinchazos que garantiza que puede seguir circulando. ¿Cumple la norma?",
+                  "options": [
+                    "Sí, se admite un sistema alternativo a la rueda",
+                    "No, debe llevar al menos una rueda de uso temporal",
+                    "Solo si además lleva el extintor homologado"
+                  ],
+                  "why": "Sí. El turismo lleva una rueda completa o de uso temporal con sus herramientas, o un sistema alternativo con garantías de movilidad. Con él, respeta sus limitaciones."
+                },
+                "en": {
+                  "q": "A new car comes with no spare wheel, but with a puncture system that ensures it can keep going. Does it comply?",
+                  "options": [
+                    "Yes, an alternative to the wheel is accepted",
+                    "No, it must carry at least a temporary-use spare",
+                    "Only if it also carries an approved extinguisher"
+                  ],
+                  "why": "Yes. A car carries a full-size or temporary-use spare with its tools, or an alternative system that keeps it mobile. With that system, keep to its limits."
+                },
+                "exam": {
+                  "q": "A new passenger car does not bring a spare wheel, but an anti-puncture system which guarantees that it can continue circulating. Does it comply with the rule?",
+                  "options": [
+                    "Yes, an alternative system to the wheel is admitted.",
+                    "No, it must carry at least a wheel of temporary use.",
+                    "Only if it also carries the approved extinguisher."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "rueda de repuesto",
+                    "en": "spare wheel"
+                  },
+                  {
+                    "es": "pinchazo",
+                    "en": "flat tire, puncture"
+                  }
+                ],
+                "src": "RGV Anexo XII, apartado 1.c"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c5t",
+                "answer": 2,
+                "es": {
+                  "q": "Un turismo arrastra un remolque. Según la norma de accesorios, ¿debe llevar también una rueda de repuesto destinada al remolque?",
+                  "options": [
+                    "Sí, si el remolque pesa más de 750 kg",
+                    "Sí, de la misma medida que las del remolque",
+                    "No"
+                  ],
+                  "why": "No. La dotación pide rueda de repuesto, o un sistema alternativo, al turismo y no al remolque. Al conjunto sí le exige V-16, chaleco y extintor."
+                },
+                "en": {
+                  "q": "A car tows a trailer. Under the equipment rules, does the trailer need its own spare wheel too?",
+                  "options": [
+                    "Yes, if the trailer weighs over 750 kg",
+                    "Yes, the same size as the trailer’s wheels",
+                    "No"
+                  ],
+                  "why": "No. The required kit asks the car, not the trailer, for a spare wheel or an alternative system. The combination does need the V-16, a vest and an extinguisher."
+                },
+                "exam": {
+                  "q": "A passenger car tows a trailer. According to the rule of accessories, must it also carry a spare wheel intended for the trailer?",
+                  "options": [
+                    "Yes, if the trailer weighs more than 750 kg.",
+                    "Yes, of the same size as those of the trailer.",
+                    "No."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "remolque",
+                    "en": "trailer"
+                  },
+                  {
+                    "es": "dotación",
+                    "en": "required kit"
+                  }
+                ],
+                "src": "RGV Anexo XII, apartados 1 y 2"
               }
             },
             {
@@ -5463,6 +5788,50 @@
                 ],
                 "src": "RGV Anexo XII, apartado 1.b; DGT, Manual II (2026), UD 9"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c5u",
+                "answer": 1,
+                "es": {
+                  "q": "¿Sirve cualquier chaleco amarillo para la dotación obligatoria de un turismo?",
+                  "options": [
+                    "Sí, basta con que sea de un color llamativo",
+                    "No, debe ser certificado, con marcado CE",
+                    "Sí, si tiene al menos una banda que refleje"
+                  ],
+                  "why": "No. El chaleco debe estar certificado como equipo de protección individual, con el marcado CE, y ser como mínimo de clase 2."
+                },
+                "en": {
+                  "q": "Does any yellow vest do for a car’s compulsory kit?",
+                  "options": [
+                    "Yes, any bright color will do",
+                    "No, it must be certified, with the CE mark",
+                    "Yes, if it has at least one reflective strip"
+                  ],
+                  "why": "No. The vest must be certified as personal protective equipment, carry the CE mark and be at least class 2."
+                },
+                "exam": {
+                  "q": "Is any yellow vest valid for the compulsory equipment of a passenger car?",
+                  "options": [
+                    "Yes, it is enough that it is of a striking colour.",
+                    "No, it must be certified, with CE marking.",
+                    "Yes, if it has at least one band which reflects."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "marcado CE",
+                    "en": "CE mark"
+                  },
+                  {
+                    "es": "dotación obligatoria",
+                    "en": "compulsory kit"
+                  }
+                ],
+                "src": "RGV Anexo XII, apartado 1.b"
+              }
             }
           ]
         },
@@ -5526,6 +5895,50 @@
                   }
                 ],
                 "src": "RGC art. 14.1.d; LSV art. 10.2"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c5v",
+                "answer": 1,
+                "es": {
+                  "q": "Un camión transporta arena suelta, que levanta polvo y puede caer a la vía. ¿Cómo debe llevarla?",
+                  "options": [
+                    "En la caja sin cubrir, si no pasa de los laterales",
+                    "Cubierta de forma total y eficaz",
+                    "Mojada, para que no levante polvo"
+                  ],
+                  "why": "Las materias que producen polvo o pueden caer se llevan siempre cubiertas por completo y de forma eficaz. No basta con mojarlas ni con que no sobresalgan."
+                },
+                "en": {
+                  "q": "A truck carries loose sand, which raises dust and could fall onto the road. How must it carry it?",
+                  "options": [
+                    "Uncovered in the bed, if it stays below the sides",
+                    "Fully and effectively covered",
+                    "Wet, so it raises no dust"
+                  ],
+                  "why": "Materials that make dust or could fall are always carried fully and effectively covered. Wetting them is not enough, nor is keeping them below the sides."
+                },
+                "exam": {
+                  "q": "A truck transports loose sand, which raises dust and can fall onto the road. How must it carry it?",
+                  "options": [
+                    "In the box without covering, if it does not pass the sides.",
+                    "Covered in a total and effective way.",
+                    "Wet, so that it does not raise dust."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "cubrir",
+                    "en": "to cover"
+                  },
+                  {
+                    "es": "materias",
+                    "en": "materials"
+                  }
+                ],
+                "src": "RGC art. 14.2"
               }
             },
             {
@@ -5776,6 +6189,14 @@
               "src": "RGC art. 15.6"
             },
             {
+              "t": "rule",
+              "text": {
+                "es": "El panel **V-20**, para cargas que sobresalen, es reflectante, con franjas alternas **rojas y blancas**, e indica que la carga sobresale **por detrás**.",
+                "en": "The **V-20** panel, for loads that stick out, is reflective, with alternating **red and white** stripes. It shows that the load sticks out **at the rear**."
+              },
+              "src": "RGV Anexo XI (V-20)"
+            },
+            {
               "t": "example",
               "situation": {
                 "es": "Tu turismo mide 4,5 metros de largo. Llevas una tabla que sobresale por detrás.",
@@ -5828,6 +6249,50 @@
                   }
                 ],
                 "src": "RGC art. 15.3 and 15.6"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c5w",
+                "answer": 0,
+                "es": {
+                  "q": "En el extremo posterior de la carga de un vehículo se ve un panel con franjas alternas rojas y blancas. ¿Qué indica?",
+                  "options": [
+                    "Que la carga sobresale por detrás",
+                    "Que lleva mercancías peligrosas",
+                    "Que es un vehículo lento, de 40 km/h como máximo"
+                  ],
+                  "why": "Es el panel V-20, para cargas que sobresalen por detrás. Va en el extremo de la carga y, de noche o con poca visibilidad, se añade una luz roja."
+                },
+                "en": {
+                  "q": "At the rear end of a vehicle’s load there is a panel with alternating red and white stripes. What does it show?",
+                  "options": [
+                    "That the load sticks out at the back",
+                    "That it carries dangerous goods",
+                    "That it is a slow vehicle, 40 km/h at most"
+                  ],
+                  "why": "It is the V-20 panel, for loads that stick out at the rear. It goes at the end of the load, and at night or in poor visibility a red light is added."
+                },
+                "exam": {
+                  "q": "On the back end of the load of a vehicle a panel with alternate red and white stripes is seen. What does it indicate?",
+                  "options": [
+                    "That the load sticks out behind.",
+                    "That it carries dangerous goods.",
+                    "That it is a slow vehicle, of 40 km/h as a maximum."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "panel",
+                    "en": "panel"
+                  },
+                  {
+                    "es": "sobresalir",
+                    "en": "to stick out"
+                  }
+                ],
+                "src": "RGV Anexo XI (V-20); RGC art. 15.6"
               }
             }
           ]
@@ -6923,6 +7388,50 @@
               "src": "RGC art. 12.3"
             },
             {
+              "t": "check",
+              "q": {
+                "id": "equipment-c7r",
+                "answer": 1,
+                "es": {
+                  "q": "De día y con buena visibilidad, ¿puede un vehículo de tres ruedas arrastrar un remolque?",
+                  "options": [
+                    "No, solo pueden hacerlo los automóviles de cuatro ruedas",
+                    "Sí, si no supera el 50 % de su masa en vacío",
+                    "Sí, cualquier remolque ligero, de hasta 750 kg"
+                  ],
+                  "why": "Sí. Motos, vehículos de tres ruedas y ciclomotores pueden arrastrar un remolque de hasta el 50 % de su masa en vacío: de día, sin poca visibilidad, a un 10 % menos de velocidad y sin personas en el remolque."
+                },
+                "en": {
+                  "q": "By day and with good visibility, may a three-wheeled vehicle tow a trailer?",
+                  "options": [
+                    "No, only four-wheeled motor vehicles may",
+                    "Yes, if it is no more than 50 % of its unladen mass",
+                    "Yes, any light trailer, up to 750 kg"
+                  ],
+                  "why": "Yes. Motorcycles, three-wheelers and mopeds may tow a trailer of up to 50 % of their unladen mass: by day, not in poor visibility, 10 % slower and with nobody in the trailer."
+                },
+                "exam": {
+                  "q": "By day and with good visibility, can a three-wheeled vehicle tow a trailer?",
+                  "options": [
+                    "No, only four-wheeled automobiles can do it.",
+                    "Yes, if it does not exceed 50 % of its mass in empty.",
+                    "Yes, any light trailer, of up to 750 kg."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "vehículo de tres ruedas",
+                    "en": "three-wheeled vehicle"
+                  },
+                  {
+                    "es": "arrastrar",
+                    "en": "to tow"
+                  }
+                ],
+                "src": "RGC art. 12.3"
+              }
+            },
+            {
               "t": "rule",
               "text": {
                 "es": "Un **remolque ligero** es el que tiene una MMA de **750 kg** o menos.",
@@ -7060,7 +7569,8 @@
         "Reglamento General de Circulación (RD 1428/2003), arts. 5, 9, 12, 13, 15 y 16",
         "Reglamento General de Vehículos (RD 2822/1998), arts. 25 y 26; Anexo IX; Anexo XI, V-16",
         "Ley de Tráfico y Seguridad Vial (RDL 6/2015), Anexo I",
-        "RGC art. 15.5 y 15.6"
+        "RGC art. 15.5 y 15.6",
+        "RGC art. 12.3"
       ]
     },
     {
@@ -7353,6 +7863,58 @@
                   {
                     "es": "ventanillas traseras",
                     "en": "rear windows"
+                  }
+                ],
+                "src": "RGC art. 19.1"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "La superficie acristalada del vehículo debe dejar al conductor una visibilidad **diáfana** (clara y sin estorbos) de toda la vía.",
+                "en": "The vehicle’s glass must give the driver a **clear**, unobstructed view of the whole road."
+              },
+              "src": "RGC art. 19.1"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c8o",
+                "answer": 1,
+                "es": {
+                  "q": "Una mañana de invierno, todos los cristales del coche tienen hielo. ¿Qué debe hacer el conductor antes de salir?",
+                  "options": [
+                    "Limpiar solo el parabrisas; el resto se deshiela en marcha",
+                    "Quitar el hielo de todos los cristales",
+                    "Limpiar el parabrisas y la luneta, no las ventanillas"
+                  ],
+                  "why": "Quita el hielo de todos los cristales antes de salir. La ley pide que veas con claridad toda la vía, también por los lados y por detrás."
+                },
+                "en": {
+                  "q": "On a winter morning, all the car’s windows are iced over. What must the driver do before setting off?",
+                  "options": [
+                    "Clear only the windshield; the rest thaws on the way",
+                    "Clear the ice off every window",
+                    "Clear the windshield and rear window, not the sides"
+                  ],
+                  "why": "Clear the ice off every window before you leave. The law requires a clear view of the whole road, to the sides and behind as well."
+                },
+                "exam": {
+                  "q": "One winter morning, all the windows of the car have ice. What must the driver do before setting off?",
+                  "options": [
+                    "Clean only the windscreen; the rest defrosts while moving.",
+                    "Remove the ice from all the windows.",
+                    "Clean the windscreen and the rear window, not the side windows."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "cristales",
+                    "en": "windows, glass"
+                  },
+                  {
+                    "es": "luneta",
+                    "en": "rear window"
                   }
                 ],
                 "src": "RGC art. 19.1"
@@ -8246,6 +8808,132 @@
                 ],
                 "src": "RGV Anexo VII, apartado 6"
               }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Cuando hay **restricciones de movilidad invernal**, un vehículo de hasta **3.500 kg** de MMA debe llevar neumáticos certificados **3PMSF** (el pictograma de una montaña de tres picos con un copo de nieve) en **todos sus ejes**. Fuera de esas zonas y periodos puede llevar tipos distintos en cada eje.",
+                "en": "When **winter traffic restrictions** apply, a vehicle with an MMA of up to **3,500 kg** (7,716 lb) must have **3PMSF**-certified tires (the pictogram of a three-peak mountain with a snowflake) on **all its axles**. Outside those zones and periods, it may have different types on each axle."
+              },
+              "src": "RGV Anexo VII, apartado 5"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c6zc",
+                "answer": 2,
+                "es": {
+                  "q": "Hay restricciones por nieve que exigen neumáticos de invierno. ¿Con qué neumáticos cumple un turismo?",
+                  "options": [
+                    "Con marcado M+S solo en el eje motor",
+                    "Con neumáticos de invierno en las ruedas delanteras",
+                    "Con el pictograma 3PMSF en todos los ejes"
+                  ],
+                  "why": "Con restricciones por nieve, un vehículo de hasta 3.500 kg lleva neumáticos certificados 3PMSF en todos sus ejes. El marcado M+S solo no basta."
+                },
+                "en": {
+                  "q": "Snow restrictions are in force that require winter tires. Which tires make a car comply?",
+                  "options": [
+                    "M+S marking on the drive axle only",
+                    "Winter tires on the front wheels only",
+                    "The 3PMSF pictogram on every axle"
+                  ],
+                  "why": "Under snow restrictions, a vehicle of up to 3,500 kg has 3PMSF-certified tires on all its axles. The M+S marking alone is not enough."
+                },
+                "exam": {
+                  "q": "There are restrictions due to snow which require winter tyres. With which tyres does a passenger car comply?",
+                  "options": [
+                    "With M+S marking only on the driving axle.",
+                    "With winter tyres on the front wheels.",
+                    "With the 3PMSF pictogram on all the axles."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "eje",
+                    "en": "axle"
+                  },
+                  {
+                    "es": "neumáticos de invierno",
+                    "en": "winter tires"
+                  }
+                ],
+                "src": "RGV Anexo VII, apartado 5"
+              }
+            },
+            {
+              "t": "signs",
+              "ids": [
+                "r-412",
+                "r-412b"
+              ],
+              "caption": {
+                "es": "Cadenas para nieve y Neumáticos de invierno",
+                "en": "Snow chains and Winter tires"
+              }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "La señal **R-412** obliga a no seguir sin **cadenas** u otros dispositivos antideslizantes autorizados, o sin neumáticos especiales de nieve. La **R-412b** obliga a no seguir sin neumáticos especiales de invierno.",
+                "en": "Sign **R-412** forbids going on without **snow chains** or other approved anti-skid devices, or without special snow tires. Sign **R-412b** forbids going on without special winter tires."
+              },
+              "src": "RGC Anexo I, ap. 5.1, 3.6 (R-412 y R-412b)"
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "Cuando las cadenas son obligatorias, se colocan al menos en **una rueda motriz de cada lado**, o se usan neumáticos especiales.",
+                "en": "When chains are compulsory, they go on at least **one drive wheel on each side**, or special tires are used instead."
+              },
+              "src": "RGV art. 12.5.2"
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "Llevar cadenas en el coche **no es obligatorio**: no forman parte de la dotación de accesorios.",
+                "en": "Carrying chains in the car is **not compulsory**: they are not part of the required kit."
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c6zd",
+                "answer": 0,
+                "es": {
+                  "q": "¿Es obligatorio llevar siempre unas cadenas para nieve en el turismo?",
+                  "options": [
+                    "No.",
+                    "Sí, en cualquier época del año",
+                    "Sí, entre noviembre y marzo"
+                  ],
+                  "why": "No. Las cadenas no forman parte de la dotación obligatoria. Se montan cuando una señal o la autoridad las exige, salvo que lleves neumáticos especiales."
+                },
+                "en": {
+                  "q": "Must a car always carry snow chains?",
+                  "options": [
+                    "No.",
+                    "Yes, at any time of year",
+                    "Yes, from November to March"
+                  ],
+                  "why": "No. Chains are not part of the compulsory kit. They go on when a sign or the authorities require them, unless you have special tires."
+                },
+                "exam": {
+                  "q": "Is it compulsory always to carry snow chains in the passenger car?",
+                  "options": [
+                    "No.",
+                    "Yes, in any season of the year.",
+                    "Yes, between November and March."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "cadenas para nieve",
+                    "en": "snow chains"
+                  }
+                ],
+                "src": "RGV Anexo XII, apartado 1; RGC Anexo I, ap. 5.1, 3.6 (R-412)"
+              }
             }
           ]
         },
@@ -8958,6 +9646,50 @@
               ]
             },
             {
+              "t": "check",
+              "q": {
+                "id": "equipment-c6ze",
+                "answer": 0,
+                "es": {
+                  "q": "¿Qué función tiene el freno de servicio, el que se acciona con el pedal?",
+                  "options": [
+                    "Disminuir la velocidad y detener el vehículo",
+                    "Mantener inmóvil el vehículo sin conductor",
+                    "Frenar solo si falla el freno de estacionamiento"
+                  ],
+                  "why": "El freno de servicio sirve para disminuir la velocidad y detener el vehículo de forma rápida, segura y eficaz. Dejarlo inmóvil es tarea del freno de estacionamiento."
+                },
+                "en": {
+                  "q": "What is the service brake, the one worked by the pedal, for?",
+                  "options": [
+                    "Slowing down and stopping the vehicle",
+                    "Holding the vehicle still with no driver",
+                    "Braking only if the parking brake fails"
+                  ],
+                  "why": "The service brake slows the vehicle and stops it quickly, safely and effectively. Holding it still is the parking brake’s job."
+                },
+                "exam": {
+                  "q": "What function does the service brake have, the one that is actuated with the pedal?",
+                  "options": [
+                    "To decrease the speed and stop the vehicle.",
+                    "To keep the vehicle immobile without a driver.",
+                    "To brake only if the parking brake fails."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "freno de servicio",
+                    "en": "service brake"
+                  },
+                  {
+                    "es": "freno de estacionamiento",
+                    "en": "parking brake"
+                  }
+                ],
+                "src": "RGV art. 12.8.1"
+              }
+            },
+            {
               "t": "rule",
               "text": {
                 "es": "El **frenado de estacionamiento** debe mantener el vehículo inmóvil en una pendiente, hacia arriba o hacia abajo, incluso sin el conductor, mediante un dispositivo puramente mecánico.",
@@ -9600,6 +10332,94 @@
               }
             },
             {
+              "t": "check",
+              "q": {
+                "id": "equipment-c6zf",
+                "answer": 2,
+                "es": {
+                  "q": "Según la DGT, al arrancar en frío un coche moderno de gasolina, ¿qué conviene hacer?",
+                  "options": [
+                    "Acelerar en vacío unos minutos para calentarlo",
+                    "Esperar parado hasta que el motor esté caliente",
+                    "Salir enseguida, sin acelerar"
+                  ],
+                  "why": "Arranca sin pisar el acelerador y, con gasolina, sal enseguida: el motor se calienta mejor circulando a velocidad moderada. Los acelerones en vacío lo dañan."
+                },
+                "en": {
+                  "q": "According to the DGT, when you start a modern gasoline car from cold, what is best?",
+                  "options": [
+                    "Rev it in neutral for a few minutes to warm it up",
+                    "Wait, stopped, until the engine is warm",
+                    "Move off right away, without revving"
+                  ],
+                  "why": "Start without pressing the accelerator and, with gasoline, move off right away: the engine warms up best while driving at a moderate speed. Revving in neutral harms it."
+                },
+                "exam": {
+                  "q": "According to the DGT, when starting in cold a modern petrol car, what is it advisable to do?",
+                  "options": [
+                    "To accelerate in neutral some minutes in order to warm it.",
+                    "To wait stopped until the engine is hot.",
+                    "To set off at once, without accelerating."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "arrancar el motor",
+                    "en": "to start the engine"
+                  },
+                  {
+                    "es": "acelerón",
+                    "en": "sudden burst of throttle"
+                  }
+                ],
+                "src": "DGT, Manual II Cuestiones de seguridad vial (2026), UD 22"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c6zg",
+                "answer": 1,
+                "es": {
+                  "q": "Para gastar y contaminar lo menos posible, ¿qué forma de conducir conviene?",
+                  "options": [
+                    "Acelerando con fuerza para llegar antes a la marcha larga",
+                    "Con la velocidad lo más constante posible y sin frenazos",
+                    "Siempre al límite de velocidad de la vía"
+                  ],
+                  "why": "Mantén una velocidad lo más uniforme posible, sin acelerones ni frenadas innecesarias: cada cambio de velocidad consume energía de más."
+                },
+                "en": {
+                  "q": "To use and pollute as little as possible, which way of driving is best?",
+                  "options": [
+                    "Accelerating hard to reach a high gear sooner",
+                    "At as steady a speed as you can, without sharp braking",
+                    "Always at the road’s speed limit"
+                  ],
+                  "why": "Keep your speed as even as you can, without needless bursts of throttle or braking: every change of speed costs extra energy."
+                },
+                "exam": {
+                  "q": "In order to consume and pollute as little as possible, which way of driving is advisable?",
+                  "options": [
+                    "Accelerating with force to arrive sooner at the long gear.",
+                    "With the speed as constant as possible and without sudden braking.",
+                    "Always at the speed limit of the road."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "velocidad uniforme",
+                    "en": "steady speed"
+                  },
+                  {
+                    "es": "frenazo",
+                    "en": "sharp braking"
+                  }
+                ],
+                "src": "DGT, Manual II Cuestiones de seguridad vial (2026), UD 22"
+              }
+            },
+            {
               "t": "tip",
               "text": {
                 "es": "Según la revista de la DGT, el peso de más y las **bacas** pueden subir el consumo **hasta un 40 %**. Quita la baca cuando no la uses. (DGT guidance)",
@@ -9648,6 +10468,57 @@
                   }
                 ],
                 "src": "DGT guidance (revista DGT, «10 claves para conducir de forma eficiente», 2017)"
+              }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "El Manual II de la DGT aconseja circular con las **ventanillas cerradas** siempre que puedas. Además, cada kilo de **peso** de más pide más energía al motor. (DGT, Manual II, 2026, UD 22)",
+                "en": "The DGT’s Manual II advises driving with the **windows closed** whenever you can. And every extra kilo of **weight** asks more energy of the engine. (DGT, Manual II, 2026, UD 22)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c6zh",
+                "answer": 0,
+                "es": {
+                  "q": "Un conductor va a hacer un viaje largo por autovía y quiere gastar menos combustible. ¿Qué le conviene?",
+                  "options": [
+                    "Ventanillas subidas y nada de peso inútil",
+                    "Bajar las ventanillas en vez de usar la ventilación",
+                    "Llevar los neumáticos algo desinflados"
+                  ],
+                  "why": "Con las ventanillas abiertas aumenta la resistencia del aire, y cada kilo de más pide más energía. Sube las ventanillas y no lleves peso que no necesites."
+                },
+                "en": {
+                  "q": "A driver is about to make a long trip on an expressway and wants to use less fuel. What helps?",
+                  "options": [
+                    "Windows up and no needless weight",
+                    "Rolling the windows down instead of using the fan",
+                    "Running the tires slightly underinflated"
+                  ],
+                  "why": "Open windows add air resistance, and every extra kilo takes more energy. Keep the windows up and leave behind weight you do not need."
+                },
+                "exam": {
+                  "q": "A driver is going to make a long journey along an autovía and wants to consume less fuel. What is advisable for him?",
+                  "options": [
+                    "Windows raised and no useless weight.",
+                    "To lower the windows instead of using the ventilation.",
+                    "To carry the tyres somewhat deflated."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "ventanilla",
+                    "en": "side window"
+                  },
+                  {
+                    "es": "consumo",
+                    "en": "fuel use"
+                  }
+                ],
+                "src": "DGT, Manual II Cuestiones de seguridad vial (2026), UD 22"
               }
             },
             {
@@ -9845,7 +10716,9 @@
         "DGT guidance: revista DGT «Más calor, más peligro» (2021), «10 claves para conducir de forma eficiente» (2017), «10 claves para ahorrar combustible» (2014); dgt.es «Conducción eficiente»",
         "DGT, Manual II Cuestiones de seguridad vial (2026), UD 1 y UD 8",
         "DGT, Manual del permiso B en lectura fácil (2023), Temas 5 y 15",
-        "DGT, Manual II Cuestiones de seguridad vial (2026), UD 22 y UD 23"
+        "DGT, Manual II Cuestiones de seguridad vial (2026), UD 22 y UD 23",
+        "Reglamento General de Vehículos (RD 2822/1998), art. 12.5.2 y 12.8.1; Anexo VII, apartado 5; Anexo XII",
+        "Reglamento General de Circulación, Anexo I, ap. 5.1 (señales R-412 y R-412b, Catálogo de señales)"
       ]
     },
     {
@@ -11839,6 +12712,57 @@
                 ],
                 "src": "DGT, Manual del permiso B en lectura fácil (2023), Tema 17"
               }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "El **filtro del aire** limpia de impurezas el aire que entra en los **cilindros**, donde se mezcla con el combustible. Si deja pasar polvo, las piezas del motor se desgastan antes. (DGT, Manual VIII, 2026, UD 3)",
+                "en": "The **air filter** cleans the air that goes into the **cylinders**, where it mixes with the fuel. If it lets dust through, the engine parts wear out sooner. (DGT, Manual VIII, 2026, UD 3)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c11j",
+                "answer": 2,
+                "es": {
+                  "q": "El filtro del aire del motor retiene las impurezas del aire que va…",
+                  "options": [
+                    "a la calefacción y al aire acondicionado del habitáculo",
+                    "al radiador, para refrigerar el motor",
+                    "a los cilindros, donde se mezcla con el combustible"
+                  ],
+                  "why": "El filtro del aire limpia el aire que entra en los cilindros y se mezcla con el combustible. Si está sucio, el motor rinde menos y gasta más."
+                },
+                "en": {
+                  "q": "The engine air filter holds back dirt from the air that goes…",
+                  "options": [
+                    "to the cabin heating and air conditioning",
+                    "to the radiator, to cool the engine",
+                    "into the cylinders, where it mixes with the fuel"
+                  ],
+                  "why": "The air filter cleans the air that goes into the cylinders and mixes with the fuel. When it is dirty, the engine performs worse and uses more fuel."
+                },
+                "exam": {
+                  "q": "The air filter of the engine retains the impurities of the air that goes…",
+                  "options": [
+                    "to the heating and the air conditioning of the passenger compartment.",
+                    "to the radiator, in order to cool the engine.",
+                    "to the cylinders, where it is mixed with the fuel."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "filtro del aire",
+                    "en": "air filter"
+                  },
+                  {
+                    "es": "cilindro",
+                    "en": "cylinder"
+                  }
+                ],
+                "src": "DGT, Manual VIII Mecánica (2026), UD 3"
+              }
             }
           ]
         },
@@ -12055,6 +12979,57 @@
                 ],
                 "src": "DGT, Manual del permiso B en lectura fácil (2023), Tema 6"
               }
+            },
+            {
+              "t": "tip",
+              "text": {
+                "es": "Antes de conducir con **lluvia**, la DGT aconseja llevar los **neumáticos** en buen estado y comprobar que los **limpiaparabrisas** funcionan bien. (DGT, easy-read manual, 2023, Topic 14)",
+                "en": "Before driving in **rain**, the DGT advises having your **tires** in good condition and checking that the **wipers** work well. (DGT, easy-read manual, 2023, Topic 14)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c11l",
+                "answer": 0,
+                "es": {
+                  "q": "Según la DGT, antes de un viaje en el que se espera lluvia, ¿qué conviene revisar?",
+                  "options": [
+                    "Los neumáticos y los limpiaparabrisas",
+                    "El nivel de aceite y el de líquido de frenos",
+                    "Nada, porque la lluvia no afecta al vehículo"
+                  ],
+                  "why": "Con lluvia se ve peor y los neumáticos agarran menos. Por eso conviene llevarlos en buen estado y comprobar que los limpiaparabrisas funcionan bien."
+                },
+                "en": {
+                  "q": "According to the DGT, before a trip on which rain is expected, what is worth checking?",
+                  "options": [
+                    "The tires and the wipers",
+                    "The oil and brake fluid levels",
+                    "Nothing, rain does not affect the vehicle"
+                  ],
+                  "why": "In rain you see less and the tires grip less. So keep them in good condition and check that the wipers work well."
+                },
+                "exam": {
+                  "q": "According to the DGT, before a journey in which rain is expected, what is it advisable to check?",
+                  "options": [
+                    "The tyres and the windscreen wipers.",
+                    "The level of oil and that of brake fluid.",
+                    "Nothing, because rain does not affect the vehicle."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "limpiaparabrisas",
+                    "en": "windshield wipers"
+                  },
+                  {
+                    "es": "neumáticos",
+                    "en": "tires"
+                  }
+                ],
+                "src": "DGT, Manual del permiso B en lectura fácil (2023), Tema 14"
+              }
             }
           ]
         },
@@ -12233,6 +13208,69 @@
               }
             }
           ]
+        },
+        {
+          "title": {
+            "es": "La batería",
+            "en": "The battery"
+          },
+          "blocks": [
+            {
+              "t": "tip",
+              "text": {
+                "es": "En una batería con tapones, el **electrolito** (ácido sulfúrico diluido en agua destilada) debe cubrir las placas. Si no llega, se añade **agua destilada**, nunca ácido. Mantén limpios los **bornes**. (DGT, Manual VIII, 2026, UD 6)",
+                "en": "In a battery with filler caps, the **electrolyte** (sulfuric acid diluted in distilled water) must cover the plates. If it is low, add **distilled water**, never acid. Keep the **terminals** clean. (DGT, Manual VIII, 2026, UD 6)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "equipment-c11k",
+                "answer": 1,
+                "es": {
+                  "q": "Al revisar una batería con tapones, el líquido no llega a cubrir las placas. ¿Qué se le debe añadir?",
+                  "options": [
+                    "Ácido sulfúrico, para recuperar la carga",
+                    "Agua destilada",
+                    "Anticongelante, para que no se hiele"
+                  ],
+                  "why": "Se añade agua destilada, nunca ácido: lo que se evapora es el agua. Revisa el nivel de vez en cuando y mantén limpios los bornes."
+                },
+                "en": {
+                  "q": "When checking a battery with filler caps, the fluid does not cover the plates. What should be added?",
+                  "options": [
+                    "Sulfuric acid, to restore the charge",
+                    "Distilled water",
+                    "Antifreeze, so it does not freeze"
+                  ],
+                  "why": "Add distilled water, never acid: it is the water that evaporates. Check the level now and then and keep the terminals clean."
+                },
+                "exam": {
+                  "q": "On checking a battery with caps, the liquid does not manage to cover the plates. What must be added to it?",
+                  "options": [
+                    "Sulphuric acid, in order to recover the charge.",
+                    "Distilled water.",
+                    "Anti-freeze, so that it does not freeze."
+                  ]
+                },
+                "terms": [
+                  {
+                    "es": "batería",
+                    "en": "battery"
+                  },
+                  {
+                    "es": "agua destilada",
+                    "en": "distilled water"
+                  },
+                  {
+                    "es": "bornes",
+                    "en": "terminals"
+                  }
+                ],
+                "src": "DGT, Manual VIII Mecánica (2026), UD 6"
+              }
+            }
+          ]
         }
       ],
       "recap": [
@@ -12255,13 +13293,18 @@
         {
           "es": "Junto al mar, lava bien la carrocería. Revisa las luces **una vez al mes**.",
           "en": "By the sea, wash the body well. Check the lights **once a month**."
+        },
+        {
+          "es": "En la batería con tapones, si falta líquido se añade **agua destilada**, nunca ácido.",
+          "en": "In a battery with caps, top up low fluid with **distilled water**, never acid."
         }
       ],
       "covers": [],
       "src": [
         "DGT, Manual del permiso B en lectura fácil (2023), Temas 6, 15 y 17",
         "DGT, Manual VIII Mecánica (2026), UD 1, UD 3, UD 5, UD 6 y UD 10",
-        "DGT, Manual II Cuestiones de seguridad vial (2026), UD 8"
+        "DGT, Manual II Cuestiones de seguridad vial (2026), UD 8",
+        "DGT, Manual del permiso B en lectura fácil (2023), Tema 14"
       ]
     },
     {

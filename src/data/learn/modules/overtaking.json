@@ -643,6 +643,50 @@
                 ],
                 "src": "RGC art. 85.3"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c1j",
+                "answer": 1,
+                "es": {
+                  "q": "Ha salido a adelantar a una furgoneta en una carretera limitada a 90 km/h. Mientras la adelanta, debe circular…",
+                  "options": [
+                    "a hasta 110 km/h, porque al adelantar hay 20 km/h de margen.",
+                    "notoriamente más rápido que la furgoneta, sin pasar de 90 km/h.",
+                    "solo un poco más rápido que ella, aunque la maniobra se alargue."
+                  ],
+                  "why": "Al adelantar vas a una velocidad notoriamente superior a la del adelantado, para ocupar poco tiempo el otro carril. El margen de 20 km/h para adelantar ya no existe: el límite de la vía también rige ahora."
+                },
+                "exam": {
+                  "q": "You have gone out to overtake a van in a road limited to 90 km/h. While you overtake it, you must circulate…",
+                  "options": [
+                    "at up to 110 km/h, because on overtaking there are 20 km/h of margin.",
+                    "notoriously faster than the van, without passing 90 km/h.",
+                    "only a little faster than it, although the manoeuvre gets longer."
+                  ]
+                },
+                "en": {
+                  "q": "You have pulled out to pass a van on a road limited to 90 km/h. While you pass it, you must drive…",
+                  "options": [
+                    "at up to 110 km/h, since overtaking gives a 20 km/h margin.",
+                    "markedly faster than the van, without going over 90 km/h.",
+                    "only a little faster than the van, even if the pass takes longer."
+                  ],
+                  "why": "When overtaking you drive markedly faster than the vehicle you pass, so you spend little time in the other lane. The old 20 km/h margin for overtaking is gone: the road limit applies here too."
+                },
+                "terms": [
+                  {
+                    "es": "notoriamente superior",
+                    "en": "markedly higher"
+                  },
+                  {
+                    "es": "furgoneta",
+                    "en": "van"
+                  }
+                ],
+                "src": "RGC art. 85.1; RGC arts. 48.1 y 51 (derogado)"
+              }
             }
           ]
         },
@@ -745,7 +789,7 @@
         "overtaking-07"
       ],
       "src": [
-        "Reglamento General de Circulación (RD 1428/2003), arts. 30.1, 82, 84, 85 y 109"
+        "Reglamento General de Circulación (RD 1428/2003), arts. 30.1, 48.1, 51 (derogado), 82, 84, 85 y 109"
       ]
     },
     {
@@ -2281,6 +2325,19 @@
               "src": "RGC art. 88.1"
             },
             {
+              "t": "new",
+              "since": "2026-10-01",
+              "was": {
+                "es": "Un vehículo inmovilizado en tu carril, en un tramo donde está prohibido adelantar, se podía rebasar ocupando el sentido contrario tras comprobar que no había peligro. La norma no fijaba distancia lateral ni reducción de velocidad.",
+                "en": "A vehicle stopped in your lane, on a stretch where overtaking is banned, could be passed using the opposite side once you had made sure it was safe. The rule set no side gap and no speed reduction."
+              },
+              "now": {
+                "es": "Al rebasar un vehículo inmovilizado por avería, accidente, servicio de urgencia o auxilio, mantenimiento de la vía o gestión del tráfico, deja al menos **1,5 metros** de separación, aunque tengas que ocupar el sentido contrario, y reduce la velocidad al menos **20 km/h** por debajo del límite.",
+                "en": "When you pass a vehicle stopped by a breakdown, crash, emergency or assistance service, road maintenance or traffic management, leave at least **1.5 meters**, even if you have to use the opposite side, and slow to at least **20 km/h** below the limit."
+              },
+              "src": "RGC art. 88.1"
+            },
+            {
               "t": "rule",
               "text": {
                 "es": "En un tramo donde está prohibido adelantar, un vehículo parado que ocupa tu carril se puede rebasar, aunque ocupes el sentido contrario, si antes compruebas que **no hay peligro**. No vale si está parado por necesidades del tráfico. Un obstáculo se trata igual.",
@@ -2340,6 +2397,50 @@
                   }
                 ],
                 "src": "RGC arts. 88.1 and 88.2, and RGC Anexo I, ap. 5.2 (a solid line read as a stretch where overtaking is forbidden)"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c3n",
+                "answer": 2,
+                "es": {
+                  "q": "En una carretera limitada a 90 km/h, una grúa atiende a un turismo averiado que ocupa parte de su carril. Al rebasarlos, ¿qué le exige la norma?",
+                  "options": [
+                    "Dejar como mínimo 1,5 metros, sin necesidad de reducir la velocidad",
+                    "Bajar a 70 km/h, sin una separación lateral mínima fija",
+                    "Dejar como mínimo 1,5 metros y no pasar de 70 km/h"
+                  ],
+                  "why": "Al rebasar un vehículo inmovilizado que ocupa tu carril, la norma pide las dos cosas: al menos 1,5 m de separación y al menos 20 km/h menos que el límite. En una vía de 90, como mucho 70 km/h."
+                },
+                "exam": {
+                  "q": "In a road limited to 90 km/h, a tow truck attends a broken-down passenger car that occupies in part your lane. On passing them, what does the norm demand of you?",
+                  "options": [
+                    "To leave 1.5 metres as a minimum, without need to reduce the speed.",
+                    "To lower to 70 km/h, without a fixed minimum lateral separation.",
+                    "To leave 1.5 metres as a minimum and not to pass 70 km/h."
+                  ]
+                },
+                "en": {
+                  "q": "On a road limited to 90 km/h, a tow truck is working on a broken-down car that blocks part of your lane. When you pass them, what does the rule require?",
+                  "options": [
+                    "A clearance of 1.5 m or more, with no need to slow down",
+                    "Slowing to 70 km/h, with no fixed minimum side clearance",
+                    "A clearance of 1.5 m or more and no more than 70 km/h"
+                  ],
+                  "why": "When you pass a stopped vehicle that blocks your lane, the rule asks for both: at least 1.5 m of clearance and at least 20 km/h below the limit. On a 90 road, 70 km/h at most."
+                },
+                "terms": [
+                  {
+                    "es": "grúa",
+                    "en": "tow truck"
+                  },
+                  {
+                    "es": "rebasar",
+                    "en": "to pass (a stopped vehicle)"
+                  }
+                ],
+                "src": "RGC art. 88.1"
               }
             }
           ]
@@ -2611,6 +2712,50 @@
                   {
                     "es": "dentro de poblado",
                     "en": "in a built-up area"
+                  }
+                ],
+                "src": "RGC art. 85.4"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c4k",
+                "answer": 0,
+                "es": {
+                  "q": "En una carretera con un solo carril por sentido, su carril es ancho y delante va un ciclista. ¿Puede adelantarlo sin salir de su carril si le deja 1,5 metros?",
+                  "options": [
+                    "No, debe ocupar parte o todo el carril contrario.",
+                    "Sí, porque así ya respeta la separación lateral de 1,5 m.",
+                    "Sí, si además reduce su velocidad en 20 km/h o más."
+                  ],
+                  "why": "Para adelantar a un ciclista hay que ocupar parte o todo el carril contiguo o contrario, y además dejar al menos 1,5 m. No basta con apartarse dentro de tu propio carril."
+                },
+                "exam": {
+                  "q": "In a road with a single lane per direction, your lane is wide and a cyclist goes in front. Can you overtake him without leaving your lane if you leave him 1.5 metres?",
+                  "options": [
+                    "No, you must occupy part or all of the contrary lane.",
+                    "Yes, because like this you already respect the lateral separation of 1.5 m.",
+                    "Yes, if in addition you reduce your speed by 20 km/h or more."
+                  ]
+                },
+                "en": {
+                  "q": "On a road that has a single lane in each direction, your lane is wide and there is a cyclist ahead. May you pass without leaving your lane if you give 1.5 meters?",
+                  "options": [
+                    "No, you must use part or all of the opposite lane.",
+                    "Yes, because that already meets the 1.5 m side clearance.",
+                    "Yes, if you also slow down by 20 km/h or more."
+                  ],
+                  "why": "To overtake a cyclist you must use part or all of the next or opposite lane, and also leave at least 1.5 m. Moving over inside your own lane is not enough."
+                },
+                "terms": [
+                  {
+                    "es": "carril contrario",
+                    "en": "opposite lane"
+                  },
+                  {
+                    "es": "ciclista",
+                    "en": "cyclist"
                   }
                 ],
                 "src": "RGC art. 85.4"
@@ -3300,6 +3445,50 @@
                 ],
                 "src": "RGC art. 74.1"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c5h",
+                "answer": 2,
+                "es": {
+                  "q": "Está detenido ante un semáforo en rojo y, cuando se ponga en verde, girará a la izquierda. ¿Cuándo pone el intermitente izquierdo?",
+                  "options": [
+                    "Cuando el semáforo cambie a verde, justo antes de arrancar",
+                    "No hace falta, porque el semáforo ya regula el cruce",
+                    "Ya, mientras espera, para avisar con antelación"
+                  ],
+                  "why": "Un giro se avisa con suficiente antelación a los que van detrás. Si esperas en rojo, pon el intermitente ya: así saben a tiempo lo que vas a hacer."
+                },
+                "exam": {
+                  "q": "You are stopped before a traffic light in red and, when it turns to green, you will turn to the left. When do you put the left indicator?",
+                  "options": [
+                    "When the traffic light changes to green, just before starting off.",
+                    "It is not necessary, because the traffic light already regulates the crossing.",
+                    "Already, while you wait, in order to warn with anticipation."
+                  ]
+                },
+                "en": {
+                  "q": "You are stopped at a red light and will turn left when it goes green. When do you switch on the left turn signal?",
+                  "options": [
+                    "When the light turns green, just before you pull away",
+                    "There is no need, because the light already controls the junction",
+                    "Now, while you wait, to give warning in good time"
+                  ],
+                  "why": "A turn must be signaled well in advance to those behind you. If you are waiting at a red light, signal now: they learn in time what you are going to do."
+                },
+                "terms": [
+                  {
+                    "es": "semáforo en rojo",
+                    "en": "red traffic light"
+                  },
+                  {
+                    "es": "con antelación",
+                    "en": "in advance"
+                  }
+                ],
+                "src": "RGC arts. 74.1 y 109.1"
+              }
             }
           ]
         },
@@ -3596,6 +3785,58 @@
                 ],
                 "src": "RGC art. 75.1.b"
               }
+            },
+            {
+              "t": "rule",
+              "text": {
+                "es": "En vías interurbanas, si no hay un carril acondicionado para girar a la izquierda, los **ciclos y ciclomotores de dos ruedas** se colocan a la derecha, fuera de la calzada siempre que sea posible, y empiezan el giro desde allí.",
+                "en": "On interurban roads, if there is no lane built for turning left, **cycles and two-wheeled mopeds** move to the right, off the roadway whenever possible, and start the turn from there."
+              },
+              "src": "RGC art. 76.2"
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c5i",
+                "answer": 1,
+                "es": {
+                  "q": "Circula en un ciclomotor de dos ruedas por una carretera fuera de poblado y quiere girar a la izquierda. No hay carril para ese giro. ¿Cómo lo hace?",
+                  "options": [
+                    "Se pega al eje de la calzada, como un turismo, y gira desde allí",
+                    "Se coloca a la derecha, fuera de la calzada si puede, y gira desde allí",
+                    "No puede girar a la izquierda y sigue hasta una glorieta"
+                  ],
+                  "why": "En vías interurbanas, sin carril de giro, la bicicleta y el ciclomotor de dos ruedas se colocan a la derecha, fuera de la calzada si se puede, y desde allí empiezan el giro a la izquierda."
+                },
+                "exam": {
+                  "q": "You circulate on a two-wheel moped by a road outside town and you want to turn to the left. There is no lane for that turn. How do you do it?",
+                  "options": [
+                    "You stick to the axis of the carriageway, like a passenger car, and turn from there.",
+                    "You place yourself to the right, outside the carriageway if you can, and turn from there.",
+                    "You cannot turn to the left and you continue until a roundabout."
+                  ]
+                },
+                "en": {
+                  "q": "You ride a two-wheeled moped outside town, on an ordinary road, and need a left turn. There is no lane for that turn. How do you do it?",
+                  "options": [
+                    "Keep to the center line, like a car, and turn from there",
+                    "Move to the right, off the roadway if you can, and turn from there",
+                    "You may not turn left and must ride on to a roundabout"
+                  ],
+                  "why": "On interurban roads with no turning lane, bicycles and two-wheeled mopeds move to the right, off the roadway if possible, and start the left turn from there."
+                },
+                "terms": [
+                  {
+                    "es": "ciclomotor",
+                    "en": "moped"
+                  },
+                  {
+                    "es": "vía interurbana",
+                    "en": "road outside built-up areas"
+                  }
+                ],
+                "src": "RGC art. 76.2"
+              }
             }
           ]
         },
@@ -3699,8 +3940,8 @@
         },
         {
           "title": {
-            "es": "Cambio de sentido",
-            "en": "U-turns"
+            "es": "Cambio de sentido: cómo se hace",
+            "en": "U-turns: how to make one"
           },
           "blocks": [
             {
@@ -3719,6 +3960,98 @@
               },
               "src": "RGC art. 78.1"
             },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c5j",
+                "answer": 0,
+                "es": {
+                  "q": "¿Qué condición exige siempre la norma para cambiar de sentido?",
+                  "options": [
+                    "Que no pone en peligro ni obstaculiza a otros usuarios",
+                    "Que hay una señal que indica un lugar para cambiar de sentido",
+                    "Que puede hacer la maniobra sin dar marcha atrás"
+                  ],
+                  "why": "Para cambiar de sentido debes cerciorarte de que no pones en peligro ni obstaculizas a nadie. Fuera de autopistas y autovías no hace falta un lugar señalizado: basta un lugar adecuado."
+                },
+                "exam": {
+                  "q": "What condition does the norm always demand in order to change direction?",
+                  "options": [
+                    "That you do not put in danger or obstruct other users.",
+                    "That there is a sign that indicates a place in order to change direction.",
+                    "That you can do the manoeuvre without going in reverse."
+                  ]
+                },
+                "en": {
+                  "q": "What condition does the rule always require for a U-turn?",
+                  "options": [
+                    "That you neither endanger nor block anyone else",
+                    "That a sign marks a place for turning around",
+                    "That you can do it without reversing"
+                  ],
+                  "why": "Before a U-turn you must make sure you endanger or obstruct nobody. Outside motorways and dual carriageways no signed place is needed: a suitable place is enough."
+                },
+                "terms": [
+                  {
+                    "es": "cambiar de sentido",
+                    "en": "to make a U-turn"
+                  },
+                  {
+                    "es": "obstaculizar",
+                    "en": "to obstruct"
+                  }
+                ],
+                "src": "RGC arts. 78.1 y 79.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c5k",
+                "answer": 2,
+                "es": {
+                  "q": "La calzada es tan estrecha que, para cambiar de sentido, tendría que hacer varias maniobras y cortar el paso un buen rato. ¿Qué debe hacer?",
+                  "options": [
+                    "Hacerlo con las maniobras que hagan falta, con la luz de emergencia",
+                    "Pararse en la calzada y esperar a que no venga nadie",
+                    "Seguir hasta un lugar adecuado donde ocupe menos tiempo la vía"
+                  ],
+                  "why": "El cambio de sentido se hace en un lugar adecuado, donde interceptes la vía el menor tiempo posible. Si ahí no es posible, sigue hasta un sitio que lo permita."
+                },
+                "exam": {
+                  "q": "The carriageway is so narrow that, in order to change direction, you would have to make several manoeuvres and cut the passage a good while. What must you do?",
+                  "options": [
+                    "To do it with the manoeuvres that are necessary, with the emergency light.",
+                    "To stop in the carriageway and wait until nobody comes.",
+                    "To continue until a suitable place where you occupy the road less time."
+                  ]
+                },
+                "en": {
+                  "q": "The road is so narrow that turning around would take several moves and block traffic for a good while. What should you do?",
+                  "options": [
+                    "Do it in as many moves as needed, with the hazard lights on",
+                    "Stop on the road and wait until nobody is coming",
+                    "Drive on to a suitable place where you block the road for less time"
+                  ],
+                  "why": "A U-turn is made at a suitable place, where you block the road for the shortest time possible. If that is not possible here, drive on to a place that allows it."
+                },
+                "terms": [
+                  {
+                    "es": "interceptar la vía",
+                    "en": "to block the road"
+                  }
+                ],
+                "src": "RGC art. 78.1"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "es": "Dónde no se puede cambiar de sentido",
+            "en": "Where U-turns are forbidden"
+          },
+          "blocks": [
             {
               "t": "rule",
               "text": {
@@ -3747,6 +4080,13 @@
                   "en": "In general, wherever overtaking is forbidden, unless the U-turn is expressly allowed."
                 }
               ]
+            },
+            {
+              "t": "p",
+              "text": {
+                "es": "En la práctica, esta regla une el cambio de sentido con las prohibiciones de adelantar. Donde no se puede adelantar, como en una **curva sin visibilidad** o en una intersección, en general tampoco puedes dar la vuelta. En una glorieta sí se puede adelantar, y también recorrerla para volver.",
+                "en": "In practice, this rule ties U-turns to the overtaking bans. Where you may not overtake, as on a **blind bend** or at an intersection, you generally may not turn around either. In a roundabout overtaking is allowed, and you may also drive around it to go back."
+              }
             },
             {
               "t": "signs",
@@ -3844,6 +4184,90 @@
                 ],
                 "src": "RGC art. 79.1"
               }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c5l",
+                "answer": 1,
+                "es": {
+                  "q": "Circula por una curva de visibilidad reducida, sin marcas viales ni señales. ¿Puede cambiar de sentido en ella?",
+                  "options": [
+                    "Sí, si avisa con el intermitente con tiempo suficiente",
+                    "No.",
+                    "Sí, si lo hace despacio y en una sola maniobra"
+                  ],
+                  "why": "No. En una curva sin visibilidad no puedes comprobar que la maniobra es segura y, además, ahí está prohibido adelantar. En los dos casos se prohíbe cambiar de sentido."
+                },
+                "exam": {
+                  "q": "You circulate by a bend of reduced visibility, without road markings or signs. Can you change direction in it?",
+                  "options": [
+                    "Yes, if you warn with the indicator with sufficient time.",
+                    "No.",
+                    "Yes, if you do it slowly and in a single manoeuvre."
+                  ]
+                },
+                "en": {
+                  "q": "You are on a bend with poor visibility, with no road markings or signs. May you make a U-turn there?",
+                  "options": [
+                    "Yes, if you signal with the turn signal in good time",
+                    "No.",
+                    "Yes, if you do it slowly and in one go"
+                  ],
+                  "why": "No. On a blind bend you cannot check that the maneuver is safe, and overtaking is forbidden there too. Either one bans the U-turn."
+                },
+                "terms": [
+                  {
+                    "es": "curva de visibilidad reducida",
+                    "en": "bend with poor visibility"
+                  }
+                ],
+                "src": "RGC arts. 79.1 y 87.1.a"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c5m",
+                "answer": 0,
+                "es": {
+                  "q": "Llega a un cruce de dos carreteras convencionales, sin glorieta ni señal de prioridad. Quiere dar la vuelta allí mismo. ¿Lo permite la norma?",
+                  "options": [
+                    "No: en un cruce, como regla, no se puede adelantar",
+                    "Sí, porque en un cruce hay sitio de sobra para dar la vuelta",
+                    "Sí, siempre que no haya una señal que prohíba cambiar de sentido"
+                  ],
+                  "why": "Donde está prohibido adelantar también se prohíbe, en general, cambiar de sentido. En las intersecciones y cerca de ellas no se adelanta, salvo excepciones como las glorietas. Por eso, como regla, no das la vuelta en un cruce."
+                },
+                "exam": {
+                  "q": "You arrive at a crossing of two conventional roads, without roundabout or priority sign. You want to turn around right there. Does the norm permit it?",
+                  "options": [
+                    "No: in a crossing, as a rule, one cannot overtake.",
+                    "Yes, because in a crossing there is room to spare in order to turn around.",
+                    "Yes, whenever no sign exists that prohibits changing direction."
+                  ]
+                },
+                "en": {
+                  "q": "You reach a junction of two ordinary roads, with no roundabout or priority sign. You want to turn around right there. Does the rule allow it?",
+                  "options": [
+                    "No: as a rule, overtaking is banned at a junction",
+                    "Yes, because a junction has plenty of room to turn around",
+                    "Yes, as long as no sign forbids U-turns"
+                  ],
+                  "why": "Wherever overtaking is forbidden, U-turns are generally forbidden too. You may not overtake at or near intersections, except in cases such as roundabouts. So, as a rule, you do not turn around at a junction."
+                },
+                "terms": [
+                  {
+                    "es": "cruce",
+                    "en": "junction"
+                  },
+                  {
+                    "es": "dar la vuelta",
+                    "en": "to turn around"
+                  }
+                ],
+                "src": "RGC arts. 79.1 y 87.1.c"
+              }
             }
           ]
         },
@@ -3925,8 +4349,8 @@
           "en": "Left turn on a two-way road: keep to the **center line**, without entering the opposite side, and leave the center of the junction on your left."
         },
         {
-          "es": "El **cambio de sentido** está prohibido en pasos a nivel, túneles, autovías (salvo en los lugares habilitados) y, en general, donde no se puede adelantar.",
-          "en": "**U-turns** are forbidden at level crossings, tunnels, dual carriageways (except at places made for it) and, in general, where overtaking is forbidden."
+          "es": "El **cambio de sentido** está prohibido en pasos a nivel, túneles, autovías (salvo en los lugares habilitados) y, en general, donde no se puede adelantar, como curvas sin visibilidad y cruces.",
+          "en": "**U-turns** are forbidden at level crossings, tunnels, dual carriageways (except at places made for it) and, in general, where overtaking is forbidden, such as blind bends and junctions."
         },
         {
           "es": "Para salir de una autopista usa el **carril más próximo a la salida** y el de deceleración.",
@@ -3935,7 +4359,7 @@
       ],
       "covers": [],
       "src": [
-        "Reglamento General de Circulación (RD 1428/2003), arts. 74 a 79; Anexo I, ap. 5.1, 3.5 (R-303, R-304)"
+        "Reglamento General de Circulación (RD 1428/2003), arts. 74 a 79 y 87.1; Anexo I, ap. 5.1, 3.5 (R-303, R-304)"
       ]
     },
     {
@@ -4140,6 +4564,138 @@
                   }
                 ],
                 "src": "RGC art. 80.3"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c6p",
+                "answer": 2,
+                "es": {
+                  "q": "Como norma general, la marcha atrás…",
+                  "options": [
+                    "está permitida en cualquier vía que no sea autopista o autovía.",
+                    "está permitida siempre que no haya otros usuarios cerca del vehículo.",
+                    "está prohibida, salvo que no pueda avanzar ni girar, o para completar otra maniobra."
+                  ],
+                  "why": "Circular hacia atrás está prohibido salvo que no puedas avanzar ni cambiar de dirección o sentido, o como maniobra complementaria de otra, como aparcar. Siempre con el recorrido mínimo indispensable."
+                },
+                "exam": {
+                  "q": "As a general rule, the reverse gear manoeuvre…",
+                  "options": [
+                    "is permitted in any road that is not a motorway or dual carriageway.",
+                    "is permitted whenever there are not other users near the vehicle.",
+                    "is prohibited, except that you cannot advance or turn, or in order to complete another manoeuvre."
+                  ]
+                },
+                "en": {
+                  "q": "As a general rule, reversing…",
+                  "options": [
+                    "is allowed on any road that is not a motorway or dual carriageway.",
+                    "is allowed as long as no other road users are near the vehicle.",
+                    "is forbidden, unless you cannot go forward or turn, or to complete another maneuver."
+                  ],
+                  "why": "Driving backward is forbidden unless you cannot go forward or change direction, or as part of another maneuver such as parking. Always over the minimum distance needed."
+                },
+                "terms": [
+                  {
+                    "es": "marcha atrás",
+                    "en": "reversing"
+                  },
+                  {
+                    "es": "maniobra complementaria",
+                    "en": "maneuver that completes another"
+                  }
+                ],
+                "src": "RGC art. 80.1"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c6q",
+                "answer": 1,
+                "es": {
+                  "q": "Ha entrado en una calle sin salida y no puede seguir hacia delante ni dar la vuelta. ¿Cuánto puede recorrer marcha atrás para salir?",
+                  "options": [
+                    "Nada: debe esperar a que un agente le indique cómo salir",
+                    "El recorrido mínimo indispensable para salir de ella",
+                    "Un máximo de 15 metros, como en cualquier marcha atrás"
+                  ],
+                  "why": "Cuando no puedes avanzar ni cambiar de sentido, puedes ir marcha atrás el recorrido mínimo indispensable. El tope de 15 m es para la marcha atrás que completa una parada, un estacionamiento o una incorporación."
+                },
+                "exam": {
+                  "q": "You have entered a street without exit and you can neither continue forwards nor turn around. How much can you travel in reverse in order to leave?",
+                  "options": [
+                    "Nothing: you must wait until an agent indicates to you how to leave.",
+                    "The minimum indispensable distance in order to leave it.",
+                    "A maximum of 15 metres, as in any reverse manoeuvre."
+                  ]
+                },
+                "en": {
+                  "q": "You have driven into a dead-end street and cannot go on or turn around. How far may you reverse to get out?",
+                  "options": [
+                    "Not at all: you must wait for an officer to tell you how to get out",
+                    "The shortest distance needed to get out of it",
+                    "15 meters at most, as with any reversing"
+                  ],
+                  "why": "When you cannot go forward or turn around, you may reverse over the minimum distance needed. The 15 m cap is for reversing that completes a stop, parking or joining traffic."
+                },
+                "terms": [
+                  {
+                    "es": "calle sin salida",
+                    "en": "dead-end street"
+                  },
+                  {
+                    "es": "recorrido mínimo indispensable",
+                    "en": "shortest distance needed"
+                  }
+                ],
+                "src": "RGC arts. 80.1 y 80.2"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c6r",
+                "answer": 0,
+                "es": {
+                  "q": "Sale marcha atrás de un estacionamiento para incorporarse a la circulación. Diez metros detrás hay un cruce. ¿Puede retroceder hasta entrar en él?",
+                  "options": [
+                    "No: esa marcha atrás no puede invadir un cruce de vías",
+                    "Sí, porque en total recorre menos de los 15 metros permitidos",
+                    "Sí, si una persona le guía desde la acera durante la maniobra"
+                  ],
+                  "why": "La marcha atrás vale para completar una parada, un estacionamiento o una incorporación, pero con dos topes: no más de 15 m y sin invadir un cruce de vías."
+                },
+                "exam": {
+                  "q": "You leave in reverse from a parking in order to join the traffic. Ten metres behind there is a crossing. Can you go back until entering it?",
+                  "options": [
+                    "No: that reverse manoeuvre cannot invade a crossing of roads.",
+                    "Yes, because in total you travel less than the 15 metres permitted.",
+                    "Yes, if a person guides you from the footpath during the manoeuvre."
+                  ]
+                },
+                "en": {
+                  "q": "You are backing out of a parking space to join traffic. Ten meters behind you there is a junction. May you back into it?",
+                  "options": [
+                    "No: this kind of reversing may not enter a junction",
+                    "Yes, because in total you cover less than the 15 meters allowed",
+                    "Yes, if someone guides you from the sidewalk throughout"
+                  ],
+                  "why": "Reversing may complete a stop, parking or joining traffic, but with two limits: no more than 15 m and without entering a junction."
+                },
+                "terms": [
+                  {
+                    "es": "incorporarse a la circulación",
+                    "en": "to join traffic"
+                  },
+                  {
+                    "es": "cruce de vías",
+                    "en": "junction"
+                  }
+                ],
+                "src": "RGC art. 80.2"
               }
             }
           ]
@@ -4368,6 +4924,94 @@
                   }
                 ],
                 "src": "RGC art. 109.2.a"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c6s",
+                "answer": 1,
+                "es": {
+                  "q": "¿Es obligatorio advertir a los demás de las maniobras que va a hacer?",
+                  "options": [
+                    "No, aunque la DGT aconseja hacerlo para que nadie se sorprenda.",
+                    "Sí, como regla con las luces del vehículo o, si no, con el brazo.",
+                    "Sí, solo cuando hay otros vehículos o peatones cerca de usted."
+                  ],
+                  "why": "Advertir las maniobras es una obligación. Como norma general se hace con la señalización luminosa del vehículo y, si falta, con el brazo."
+                },
+                "exam": {
+                  "q": "Is it obligatory to warn the others of the manoeuvres that you are going to do?",
+                  "options": [
+                    "No, although the DGT advises doing it so that nobody is surprised.",
+                    "Yes, as a rule with the lights of the vehicle or, if not, with the arm.",
+                    "Yes, only when there are other vehicles or pedestrians near you."
+                  ]
+                },
+                "en": {
+                  "q": "Must you warn others of the maneuvers you are about to make?",
+                  "options": [
+                    "No, although the DGT advises it so nobody is taken by surprise.",
+                    "Yes, as a rule with the vehicle lights or, failing that, with your arm.",
+                    "Yes, only when other vehicles or pedestrians are near you."
+                  ],
+                  "why": "Signaling your maneuvers is a duty. As a general rule you use the vehicle lights and, if they are missing, your arm."
+                },
+                "terms": [
+                  {
+                    "es": "advertir",
+                    "en": "to warn, to signal"
+                  },
+                  {
+                    "es": "señalización luminosa",
+                    "en": "vehicle lights used as signals"
+                  }
+                ],
+                "src": "RGC art. 108"
+              }
+            },
+            {
+              "t": "check",
+              "q": {
+                "id": "overtaking-c6t",
+                "answer": 2,
+                "es": {
+                  "q": "Un conductor enciende el intermitente izquierdo. ¿Qué indica con él?",
+                  "options": [
+                    "Que tiene preferencia para pasar al carril de la izquierda",
+                    "Que va a dar marcha atrás hacia el lado izquierdo",
+                    "Que va a desplazarse hacia la izquierda"
+                  ],
+                  "why": "La luz indicadora de dirección avisa de un desplazamiento lateral hacia ese lado. No da preferencia: la conserva quien ya circula por el carril que quieres ocupar. La marcha atrás tiene su propia luz."
+                },
+                "exam": {
+                  "q": "A driver switches on the left indicator. What does he indicate with it?",
+                  "options": [
+                    "That he has priority in order to pass to the lane of the left.",
+                    "That he is going to go in reverse towards the left side.",
+                    "That he is going to move towards the left."
+                  ]
+                },
+                "en": {
+                  "q": "A driver switches on the left turn signal. What is he telling others?",
+                  "options": [
+                    "That he has priority to move into the left lane",
+                    "That he is about to reverse toward the left",
+                    "That he is going to move to the left"
+                  ],
+                  "why": "The turn signal warns of a sideways move to that side. It gives no priority: whoever is already in the lane you want keeps it. Reversing has its own light."
+                },
+                "terms": [
+                  {
+                    "es": "intermitente",
+                    "en": "turn signal"
+                  },
+                  {
+                    "es": "desplazamiento lateral",
+                    "en": "sideways move"
+                  }
+                ],
+                "src": "RGC arts. 109.2.a, 109.2.b y 74.2"
               }
             }
           ]
