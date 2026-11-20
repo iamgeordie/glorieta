@@ -7,6 +7,7 @@ import { allQuestions } from '../lib/quiz';
 import { statsFor } from '../lib/store';
 import { bi } from '../i18n';
 import { authStatus } from '../lib/auth';
+import { WatchLinks } from '../learn/WatchLinks';
 import { authEnabled } from '../lib/supabase';
 import { syncStatus } from '../lib/sync';
 import { Bar } from '../Bar';
@@ -143,6 +144,8 @@ export function ModuleScreen({ moduleId }: { moduleId: string }) {
           );
         })}
       </ol>
+
+      <WatchLinks moduleId={m.id} />
 
       <div class="card">
         <h2><T t={L.quiz} /></h2>

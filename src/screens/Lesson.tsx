@@ -11,6 +11,7 @@ import { learn, completeLesson, lessonRecord, saveCheck, saveStep } from '../lib
 import { checkToQuestion, type Question } from '../lib/quiz';
 import { grade } from '../lib/store';
 import { QuestionCard, useOptionOrder } from './Study';
+import { WatchLinks } from '../learn/WatchLinks';
 
 const signById = new Map(signs.map((s) => [s.id, s]));
 
@@ -388,6 +389,7 @@ function Recap({ moduleId, lesson, nextId }: { moduleId: string; lesson: LessonD
         </ul>
       </div>
       </div>
+      <WatchLinks moduleId={moduleId} lessonId={lesson.id} />
       <div class="actions">
         {nextId ? (
           <a class="primary" href={hash(moduleId, nextId)}><T t={L.nextLesson} /></a>

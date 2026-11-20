@@ -23,6 +23,8 @@ export const L = {
     bi('**Repasa** en Practicar. Lo que falles vuelve a aparecer cuando toca, no todo de golpe.', '**Review** in Practice. What you miss comes back when it is due, not all at once.'),
   ] as Bi[],
   continueCourse: bi('Continuar', 'Continue'),
+  watchTitle: bi('Míralo en LinguaMama', 'Watch it on LinguaMama'),
+  watchHint: bi('Un episodio en vídeo con las mismas normas, en español fácil. Se abre en LinguaMama.ai.', 'A video episode with the same rules, in easy Spanish. It opens on LinguaMama.ai.'),
   startCourse: bi('Empezar el curso', 'Start the course'),
   courseDone: bi('Has completado el curso. Sigue con Practicar y el simulacro.', 'You have finished the course. Carry on with Practice and the mock exam.'),
   lessonsWord: bi('lecciones', 'lessons'),

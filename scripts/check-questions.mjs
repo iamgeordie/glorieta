@@ -75,6 +75,18 @@ if (credits !== renderCredits(signs)) problems.push('public/signs/CREDITS.md is 
 const learn = checkLearn({ questions, signs, categoryIds });
 problems.push(...learn.problems);
 
+// LinguaMama episode links: each names a real module and real lessons of it, and a slug the learner app can route.
+const lm = JSON.parse(readFileSync(new URL('../src/data/linguamama.json', import.meta.url), 'utf8'));
+for (const e of lm.episodes) {
+  const where = `src/data/linguamama.json episode "${e.slug}"`;
+  if (!/^[a-z0-9-]+$/.test(e.slug) || !/^[a-z0-9-]+$/.test(e.series)) problems.push(`${where}: slug and series must be lowercase-hyphen ids`);
+  if (!e.title?.es || !e.title?.en) problems.push(`${where}: needs a title in es and en`);
+  const file = new URL(`../src/data/learn/modules/${e.module}.json`, import.meta.url);
+  if (!existsSync(file)) { problems.push(`${where}: module "${e.module}" does not exist`); continue; }
+  const lessonIds = new Set(JSON.parse(readFileSync(file, 'utf8')).lessons.map((l) => l.id));
+  for (const id of e.lessons) if (!lessonIds.has(id)) problems.push(`${where}: lesson "${id}" is not in module "${e.module}"`);
+}
+
 // A category's questions are the bank's plus the checks written into its lesson.
 for (const id of categoryIds) if (!perCat[id] && !learn.checksPerCat[id]) problems.push(`category "${id}" has no questions`);
 

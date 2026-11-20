@@ -735,3 +735,8 @@ th { color: var(--muted); font-size: 0.78rem; text-transform: uppercase; letter-
   .bar .support-link { display: none; }
   .bar .navlink + .navlink:has(+ .navlink) { margin-right: auto; }
 }
+
+/* Links to LinguaMama episodes that teach the same module or lesson. */
+.watch-list { list-style: none; padding: 0; margin: 8px 0 0; display: grid; gap: 8px; }
+.watch-list a { display: flex; align-items: center; gap: 10px; font-weight: 600; }
+.watch-list .promo-logo { border-radius: 6px; flex: none; }
