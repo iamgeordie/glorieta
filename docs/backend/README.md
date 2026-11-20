@@ -26,6 +26,10 @@ browser (local-first)                         Supabase project
 - **Consent.** Sending someone to a CRM is marketing, so it is opt-in: a checkbox that is **unticked by
   default**. Only people who tick it, and whose email is confirmed, are ever sent, once. Everyone else
   stays in the schema and nowhere else.
+- **Starting over.** "Start over" on the Account screen deletes the person's study history (`attempts`,
+  `exam_results`, `progress`, `lesson_progress`, `quiz_progress`) through the tables' own-row delete policies, then
+  this browser's copy. The profile, billing, coffees and login stay. Another signed-in device still holds its local
+  copy and would upload it again on its next sync, so the confirmation asks the person to sign out there first.
 - **Erasure.** "Delete my Glorieta data" removes the person's rows (a function that can only touch the
   caller's own data) and withdraws the stored consent. The login itself is not deleted; it may be shared
   with other apps on the same project. The CRM is not touched by it.

@@ -273,6 +273,22 @@ await as('anon', '');
 assert.deepEqual(await apply({ op: 'clear', user_id: A, customer_id: 'cus_Other7' }), { status: 'no_row' }); ok('clear needs the matching customer');
 assert.deepEqual(await apply({ op: 'clear', user_id: A, customer_id: C_A }), { status: 'cleared' }); ok('clear empties A\'s entitlements');
 
+console.log('reset progress (the Account screen\'s "Start over")');
+await as('authenticated', A);
+await db.exec(`insert into glorieta.attempts (user_id,item_id,correct,mode,answered_at) values ('${A}','q1',true,'practice','2026-10-02T10:00:00Z')`);
+await db.exec(`insert into glorieta.lesson_progress (user_id,lesson_key,done,step,updated_at) values ('${A}','road/types',true,4,now())`);
+await db.exec(`insert into glorieta.quiz_progress (user_id,module_id,best,last,updated_at) values ('${A}','road',90,80,now())`);
+const HISTORY = ['attempts', 'exam_results', 'progress', 'lesson_progress', 'quiz_progress']; // src/lib/sync.ts PROGRESS_TABLES
+for (const t of HISTORY) assert.ok((await rows(`select count(*)::int c from glorieta.${t}`))[0].c > 0, `A has ${t} rows before the reset`);
+for (const t of HISTORY) await db.exec(`delete from glorieta.${t} where user_id = '${A}'`);
+for (const t of HISTORY) assert.equal((await rows(`select count(*)::int c from glorieta.${t}`))[0].c, 0, `A's ${t} is empty after the reset`);
+ok('A can delete all of their own study history');
+assert.equal((await rows(`select count(*)::int c from glorieta.profiles`))[0].c, 1);
+assert.equal((await rows(`select count(*)::int c from glorieta.billing`))[0].c, 1); ok('and their profile and billing row stay');
+await as('authenticated', B);
+assert.equal((await rows(`select count(*)::int c from glorieta.attempts`))[0].c, 1);
+assert.equal((await rows(`select count(*)::int c from glorieta.lesson_progress`))[0].c, 1); ok('and B\'s history is untouched');
+
 console.log('delete_my_data');
 await as('authenticated', B);
 await db.exec(`insert into glorieta.progress values ('${B}','b1',${card},1,1,now())`);

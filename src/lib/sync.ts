@@ -6,7 +6,7 @@ import { mergeExams, mergeProgress } from './merge';
 import { mergeCourse } from './learn-merge';
 import { learn, onLearnChange, replaceLearn } from './learn';
 import type { LearnState, LessonRecord, QuizRecord } from './learn-core';
-import { exams, onLocalChange, progress, replaceLocal, reviveProgress, type Entry, type ExamResult, type RawEntry } from './store';
+import { exams, onLocalChange, progress, replaceLocal, resetAll, reviveProgress, type Entry, type ExamResult, type RawEntry } from './store';
 import { clearAttempts, pendingAttempts, removeAttempts } from './attempts';
 import { crmBrandId, requireClient } from './supabase';
 import { eraseBilling } from './billing';
@@ -379,6 +379,41 @@ export async function deleteMyData(): Promise<Bi | null> {
     return null;
   } catch (err) {
     return describeAuthError(err);
+  }
+}
+
+/** The study history tables: what "Reset my progress" empties. Profile, billing and coffees are not among them. */
+const PROGRESS_TABLES = ['attempts', 'exam_results', 'progress', 'lesson_progress', 'quiz_progress'] as const;
+
+/**
+ * Starts the course over: deletes this person's study history on the server (row level security limits each
+ * delete to their own rows), then this browser's copy. The account, profile, support plan and coffees stay.
+ * Pending pushes are dropped first, so nothing from before the reset is uploaded after it.
+ */
+export async function resetMyProgress(): Promise<Bi | null> {
+  const user = activeUser;
+  if (!user) return bi('No has iniciado sesión.', 'You are not signed in.');
+  clearTimeout(timer);
+  dirtyIds.clear();
+  dirtyExams.clear();
+  dirtyLessons.clear();
+  dirtyQuizzes.clear();
+  syncStatus.value = { state: 'syncing' };
+  try {
+    const db = requireClient();
+    for (const table of PROGRESS_TABLES) {
+      const { error } = await db.from(table).delete().eq('user_id', user.id);
+      if (error) throw error;
+    }
+    resetAll();
+    serverStats.value = null;
+    syncStatus.value = { state: 'ok', at: new Date().toISOString() };
+    return null;
+  } catch (err) {
+    // Deleting is safe to repeat, so a retry finishes a reset that stopped part-way.
+    const error = describeAuthError(err);
+    syncStatus.value = { state: 'error', error };
+    return error;
   }
 }
 

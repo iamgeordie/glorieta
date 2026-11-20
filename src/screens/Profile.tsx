@@ -4,7 +4,7 @@ import { T, type Bi } from '../i18n';
 import { a } from '../authStrings';
 import { initialOf, pictureOf } from '../lib/identity';
 import { currentUser, signOut, updatePassword } from '../lib/auth';
-import { deleteMyData, exportMyData, loadStats, profile, saveProfile, serverStats, syncNow, syncStatus } from '../lib/sync';
+import { deleteMyData, exportMyData, loadStats, profile, resetMyProgress, saveProfile, serverStats, syncNow, syncStatus } from '../lib/sync';
 import { exams, progress, resetAll } from '../lib/store';
 import { categories } from '../data/categories';
 import { Field, LegalLinks, Message, MIN_PASSWORD, PasswordField } from './form-parts';
@@ -281,6 +281,13 @@ function Data() {
     URL.revokeObjectURL(link.href);
     setMsg({});
   };
+  const startOver = async () => {
+    if (!confirm(`${a.resetProgressConfirm.es}\n\n${a.resetProgressConfirm.en}`)) return;
+    setBusy(true);
+    const err = await resetMyProgress();
+    setBusy(false);
+    setMsg(err ? { error: err } : { ok: a.progressReset });
+  };
   const erase = async () => {
     if (!confirm(`${a.deleteConfirm.es}\n\n${a.deleteConfirm.en}`)) return;
     const err = await deleteMyData();
@@ -298,6 +305,10 @@ function Data() {
         <button type="button" class="secondary" onClick={() => void download()} disabled={busy}><T t={a.exportData} /></button>
       </div>
       <p class="muted small"><T t={a.exportHint} /></p>
+      <div class="actions">
+        <button type="button" class="secondary" onClick={() => void startOver()} disabled={busy}><T t={a.resetProgress} /></button>
+      </div>
+      <p class="muted small"><T t={a.resetProgressHint} /></p>
       <div class="actions">
         <button type="button" class="secondary danger" onClick={() => void erase()}><T t={a.deleteData} /></button>
       </div>

@@ -61,6 +61,16 @@ export const a = {
     'Your Glorieta data was deleted. To also be removed from the CRM, use the unsubscribe link in any of our emails or ask us at appliedrelevance.com.',
   ),
   dangerZone: bi('Tus datos', 'Your data'),
+  resetProgress: bi('Empezar de cero', 'Start over'),
+  resetProgressHint: bi(
+    'Borra tu historial de estudio (lecciones, tests del curso, preguntas, tarjetas y simulacros) en el servidor y en este navegador. Tu cuenta, tu perfil y tu plan de apoyo se quedan como están.',
+    'Erases your study history (lessons, course quizzes, questions, flashcards and mock exams) on the server and in this browser. Your account, profile and support plan stay as they are.',
+  ),
+  resetProgressConfirm: bi(
+    '¿Borrar todo tu historial de estudio y empezar el curso desde cero? No se puede deshacer. Si usas Glorieta en otro dispositivo con esta cuenta, cierra sesión allí antes, o su copia volverá a subir el progreso.',
+    'Erase all your study history and start the course from scratch? This cannot be undone. If you use Glorieta on another device with this account, sign out there first, or its copy will upload the progress again.',
+  ),
+  progressReset: bi('Hecho. Tu progreso está a cero.', 'Done. Your progress is back to zero.'),
   working: bi('Un momento…', 'One moment…'),
   loading: bi('Cargando…', 'Loading…'),
   statsTitle: bi('Tu progreso por tema', 'Your progress by topic'),
