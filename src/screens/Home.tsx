@@ -11,8 +11,25 @@ import { learn } from '../lib/learn';
 import { courseProgress } from '../lib/learn-core';
 import modules from 'virtual:learn-index';
 import { L } from '../learnStrings';
+import { useState } from 'preact/hooks';
+import { resetMyProgress } from '../lib/sync';
+import type { Bi } from '../i18n';
+
+/**
+ * Signed in, "Reset my progress" clears the server's study history too (the same as the Account screen's
+ * "Start over"), or the next sync would bring it all back. Signed out, there is only this browser to clear.
+ */
+async function resetProgress(): Promise<Bi | null> {
+  if (authStatus.value !== 'in') {
+    if (confirm(`${ui.resetConfirm.es}\n${ui.resetConfirm.en}`)) resetAll();
+    return null;
+  }
+  if (!confirm(`${a.resetProgressConfirm.es}\n\n${a.resetProgressConfirm.en}`)) return null;
+  return (await resetMyProgress()) ?? a.progressReset;
+}
 
 export function Home() {
+  const [resetMsg, setResetMsg] = useState<Bi | null>(null);
   // Reading the signal subscribes the page to progress changes.
   progress.value;
   const q = statsFor(allQuestions.map((x) => x.id));
@@ -72,12 +89,11 @@ export function Home() {
       <button
         type="button"
         class="link"
-        onClick={() => {
-          if (confirm(`${ui.resetConfirm.es}\n${ui.resetConfirm.en}`)) resetAll();
-        }}
+        onClick={() => void resetProgress().then(setResetMsg)}
       >
         <T t={ui.resetProgress} />
       </button>
+      {resetMsg && <p class="muted small" role="status"><T t={resetMsg} /></p>}
     </section>
   );
 }
