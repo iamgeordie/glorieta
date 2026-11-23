@@ -736,7 +736,23 @@ th { color: var(--muted); font-size: 0.78rem; text-transform: uppercase; letter-
   .bar .navlink + .navlink:has(+ .navlink) { margin-right: auto; }
 }
 
-/* Links to LinguaMama episodes that teach the same module or lesson. */
-.watch-list { list-style: none; padding: 0; margin: 8px 0 0; display: grid; gap: 8px; }
-.watch-list a { display: flex; align-items: center; gap: 10px; font-weight: 600; }
-.watch-list .promo-logo { border-radius: 6px; flex: none; }
+/* LinguaMama episodes that teach the same module or lesson, played in place from LinguaMama's CDN. */
+.watch-list { list-style: none; padding: 0; margin: 8px 0 0; display: grid; gap: 18px; }
+.watch-episode h3 { margin: 0 0 8px; font-size: 1rem; }
+.watch-video, .watch-poster { display: block; width: 100%; aspect-ratio: 16 / 9; border-radius: 10px; background: #000; }
+.watch-poster { position: relative; padding: 0; border: 0; overflow: hidden; cursor: pointer; }
+.watch-poster img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.watch-play {
+  position: absolute; right: 14px; bottom: 14px;
+  padding: 10px 20px; border-radius: 999px; background: var(--primary); color: var(--primary-text); font-weight: 700;
+}
+.watch-play::before { content: '▶'; margin-right: 8px; }
+.watch-play .sub { display: none; }
+.watch-meta { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 14px; margin-top: 8px; }
+.watch-audio { display: flex; align-items: center; gap: 6px; font-size: 0.9rem; color: var(--muted); }
+.watch-audio button { padding: 4px 10px; border: 2px solid var(--line); background: var(--bg); border-radius: 999px; font: inherit; font-weight: 600; color: var(--text); cursor: pointer; }
+.watch-audio button.on { border-color: var(--primary); }
+.watch-audio .sub { display: none; }
+.watch-meta a { display: flex; align-items: center; gap: 8px; font-weight: 600; }
+.watch-meta .promo-logo { border-radius: 5px; flex: none; }
+.watch-error { color: var(--wrong); margin: 8px 0 0; }

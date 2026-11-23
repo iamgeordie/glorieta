@@ -10,7 +10,7 @@
     "dev": "vite",
     "build": "tsc --noEmit && npm run types:worker && tsc --noEmit -p worker && vite build && node scripts/assert-no-secrets.mjs",
     "preview": "vite preview",
-    "check": "node scripts/check-questions.mjs",
+    "check": "node scripts/check-questions.mjs && node scripts/check-linguamama-media.mjs",
     "credits": "node scripts/build-credits.mjs",
     "test": "node --test src/lib/*.test.ts worker/*.test.ts scripts/*.test.mjs && node scripts/test-schema.mjs",
     "deploy": "npm run check && npm run build && node scripts/assert-accounts.mjs && wrangler deploy",
