@@ -3,7 +3,7 @@ import { T, mode } from '../i18n';
 import { L } from '../learnStrings';
 import data from '../data/linguamama.json';
 
-type Episode = (typeof data.episodes)[number];
+type Episode = (typeof data.episodes)[number] & { planned?: boolean };
 /** The narration language of a LinguaMama render: Spanish, or the English version of the same episode. */
 type Audio = 'es-ES' | 'en-GB';
 
@@ -25,9 +25,11 @@ export function episodeMedia(e: Episode, audio: Audio) {
   return { video: `${base}/videos/${stem}-h.mp4`, poster: `${base}/thumbnails/${stem}.png`, tracks };
 }
 
-/** Published LinguaMama episodes for a module, or for one lesson of it. */
+/** Published LinguaMama episodes for a module, or for one lesson of it. A planned episode is not built yet and never shows. */
 export function episodesFor(moduleId: string, lessonId?: string): Episode[] {
-  return data.episodes.filter((e) => e.module === moduleId && (!lessonId || e.lessons.includes(lessonId)));
+  return (data.episodes as Episode[]).filter(
+    (e) => !e.planned && e.module === moduleId && (!lessonId || e.lessons.includes(lessonId)),
+  );
 }
 
 /** One episode: a poster until it is asked to play, so a lesson page never downloads video it does not show. */

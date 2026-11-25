@@ -5,11 +5,44 @@
   "level": "A1",
   "episodes": [
     {
-      "slug": "alcohol-drugs-and-tiredness-at-the-wheel",
+      "slug": "roads-and-lanes",
       "series": "guiri-al-volante",
-      "title": { "es": "Alcohol, drogas y cansancio al volante", "en": "Alcohol, drugs and tiredness at the wheel" },
-      "module": "alcohol",
-      "lessons": ["limits", "tests-and-penalties", "drugs", "effects", "medicines", "fatigue", "stress-heat-smoking"]
+      "planned": true,
+      "title": { "es": "La vía y los carriles", "en": "Roads and lanes" },
+      "module": "road",
+      "lessons": ["types", "parts", "which-lane", "special-lanes", "shoulder", "towns"]
+    },
+    {
+      "slug": "how-signs-work-and-warning-signs",
+      "series": "guiri-al-volante",
+      "planned": true,
+      "title": { "es": "Cómo funcionan las señales y las de peligro", "en": "How signs work, and warning signs" },
+      "module": "signs",
+      "lessons": ["order-and-families", "warning-junctions", "warning-road"]
+    },
+    {
+      "slug": "priority-bans-and-orders-signs",
+      "series": "guiri-al-volante",
+      "planned": true,
+      "title": { "es": "Señales de prioridad, prohibición y obligación", "en": "Signs for priority, bans and orders" },
+      "module": "signs",
+      "lessons": ["priority-and-entry", "speed-bans-orders"]
+    },
+    {
+      "slug": "information-signs-lanes-and-road-markings",
+      "series": "guiri-al-volante",
+      "planned": true,
+      "title": { "es": "Señales de indicación, de carril y marcas viales", "en": "Information signs, lane signs and road markings" },
+      "module": "signs",
+      "lessons": ["indication-roads", "indication-zones", "lane-signs", "road-markings", "vehicle-signs"]
+    },
+    {
+      "slug": "speed-limits",
+      "series": "guiri-al-volante",
+      "planned": true,
+      "title": { "es": "Los límites de velocidad", "en": "Speed limits" },
+      "module": "speed",
+      "lessons": ["towns", "outside", "adapt", "signs"]
     },
     {
       "slug": "right-of-way-and-junctions",
@@ -17,6 +50,109 @@
       "title": { "es": "Prioridad de paso y cruces", "en": "Right of way and junctions" },
       "module": "priority",
       "lessons": ["no-signs", "yield-and-stop", "traffic-lights", "officers-and-emergency", "pedestrians-and-cyclists", "joining-traffic"]
+    },
+    {
+      "slug": "roundabouts",
+      "series": "guiri-al-volante",
+      "planned": true,
+      "title": { "es": "Las glorietas", "en": "Roundabouts" },
+      "module": "roundabouts",
+      "lessons": ["direction-and-priority", "lanes-and-exits", "reading-the-roundabout"]
+    },
+    {
+      "slug": "overtaking-turning-and-reversing",
+      "series": "guiri-al-volante",
+      "planned": true,
+      "title": { "es": "Adelantar, girar y dar marcha atrás", "en": "Overtaking, turning and reversing" },
+      "module": "overtaking",
+      "lessons": ["overtaking-steps", "being-overtaken", "where-forbidden", "cyclists-and-vulnerable", "turning", "reversing-signals"]
+    },
+    {
+      "slug": "stopping-parking-motorways-and-tunnels",
+      "series": "guiri-al-volante",
+      "planned": true,
+      "title": { "es": "Parar, estacionar, autopistas y túneles", "en": "Stopping, parking, motorways and tunnels" },
+      "module": "situations",
+      "lessons": ["stop-or-park", "parking-well", "motorways", "tunnels", "level-crossings", "horn-and-lights"]
+    },
+    {
+      "slug": "belts-distractions-and-safe-distance",
+      "series": "guiri-al-volante",
+      "planned": true,
+      "title": { "es": "Cinturón, distracciones y distancia de seguridad", "en": "Seat belts, distractions and safe distance" },
+      "module": "safety",
+      "lessons": ["belts-and-child-seats", "phone-and-distractions", "safety-distance", "active-passive-aids", "grip-braking-bends"]
+    },
+    {
+      "slug": "alcohol-drugs-and-tiredness-at-the-wheel",
+      "series": "guiri-al-volante",
+      "title": { "es": "Alcohol, drogas y cansancio al volante", "en": "Alcohol, drugs and tiredness at the wheel" },
+      "module": "alcohol",
+      "lessons": ["limits", "tests-and-penalties", "drugs", "effects", "medicines", "fatigue", "stress-heat-smoking"]
+    },
+    {
+      "slug": "spotting-hazards-weather-and-pedestrians",
+      "series": "guiri-al-volante",
+      "planned": true,
+      "title": { "es": "Detectar peligros: el tiempo, los peatones y los demás", "en": "Spotting hazards: weather, pedestrians and other drivers" },
+      "module": "hazards",
+      "lessons": ["look-anticipate-decide", "other-drivers-and-you", "weather-and-visibility", "pedestrians-and-children"]
+    },
+    {
+      "slug": "two-wheels-and-crash-risk",
+      "series": "guiri-al-volante",
+      "planned": true,
+      "title": { "es": "Las dos ruedas y por qué ocurren los accidentes", "en": "Two wheels, and what makes crashes happen" },
+      "module": "hazards",
+      "lessons": ["two-wheelers", "motorcycle-riding", "riders-2026", "risk-factors", "crash-figures"]
+    },
+    {
+      "slug": "accidents-breakdowns-and-first-aid",
+      "series": "guiri-al-volante",
+      "planned": true,
+      "title": { "es": "Accidentes, averías y primeros auxilios", "en": "Accidents, breakdowns and first aid" },
+      "module": "emergencies",
+      "lessons": ["pas-and-duty", "call-112-first-aid", "first-aid-basics", "breakdowns-warning-devices"]
+    },
+    {
+      "slug": "vehicle-papers-lights-and-loads",
+      "series": "guiri-al-volante",
+      "planned": true,
+      "title": { "es": "Documentación, luces, equipo y carga", "en": "Vehicle papers, lights, kit and loads" },
+      "module": "equipment",
+      "lessons": ["documents", "itv", "lights", "other-lights", "kit-and-load", "load-and-size"]
+    },
+    {
+      "slug": "looking-after-your-car",
+      "series": "guiri-al-volante",
+      "planned": true,
+      "title": { "es": "El mantenimiento del coche", "en": "Looking after your car" },
+      "module": "equipment",
+      "lessons": ["mirrors-noise", "upkeep", "mechanics", "controls", "care", "tech"]
+    },
+    {
+      "slug": "licence-points-and-fines",
+      "series": "guiri-al-volante",
+      "planned": true,
+      "title": { "es": "El permiso, los puntos y las multas", "en": "Your licence, points and fines" },
+      "module": "docs",
+      "lessons": ["classes", "points", "offences", "validity", "duties", "exam", "vehicles"]
+    },
+    {
+      "slug": "exam-spanish-roads-vehicles-and-lights",
+      "series": "guiri-al-volante",
+      "planned": true,
+      "title": { "es": "El español del examen: la vía, los vehículos y las luces", "en": "Exam Spanish: roads, vehicles and lights" },
+      "module": "examlang",
+      "lessons": ["words", "road-words", "vehicle-words", "light-words"]
+    },
+    {
+      "slug": "exam-spanish-manoeuvres-and-wording-traps",
+      "series": "guiri-al-volante",
+      "planned": true,
+      "title": { "es": "El español del examen: maniobras, condiciones y trampas", "en": "Exam Spanish: manoeuvres, conditions and wording traps" },
+      "module": "examlang",
+      "lessons": ["action-words", "condition-words", "traps", "question-forms"]
     }
   ]
 }
